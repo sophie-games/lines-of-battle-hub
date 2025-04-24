@@ -11,11 +11,11 @@
   "supporters": "Supporters",
   "elo": "Elo",
   "joinedAt": "Joined at {{date}}",
+  "createdAt": "Created at {{date}}",
   "addPlayer": "Add player",
   "credits": "Credits",
 
   "settings": "Settings",
-  "eloScore": "Your Elo is {{elo}}",
   "eloDescription": "Elo is a rating system used to calculate the relative skill level of players. The higher your Elo, the stronger you are compared to others. Winning increases your Elo, while losing decreases it.",
   "welcomeName": "Welcome {{name}}!",
   "myGames": "My games",
@@ -53,8 +53,9 @@
     "inQueue": "You are now in the matchmaking queue! The system is searching for another player who has selected the same settings as you.",
     "matchFound": "Once a match is found, you will be redirected to the game.",
     "continueMatchmaking": "Even if you leave this page, the matchmaking process will continue, and you will be notified when a match is made.",
-    "nextQueueCheck": "Next queue check in {{countdown}} seconds.",
-    "onlyClanMembers": "Play only with coalition teammates"
+    "onlyClanMembers": "Play only with coalition teammates",
+    "extendQueue": "Extend Queue",
+    "extendQueueSuccess": "Queue extended! Now searching for matches with broader Elo range."
   },
 
   "fastMode": "Fast Mode",
@@ -87,9 +88,6 @@
   "customDescription": "Custom mode lets you set up a game with specific settings and invite friends to play.",
   "createCustomGame": "Create Custom game",
   "maxTurn": "Max turn",
-
-  "copied": "Copied!",
-  "copyLink": "Copy Link",
 
   "player": "Player",
   "units": "Units",
@@ -304,7 +302,7 @@
   },
 
   "update": "Update!",
-  "yourArmyCompositionsFor": "Your Army Composition for",
+  "yourArmyCompositionsFor": "Your Army Compositions for",
   "noUnitsYet": "No units yet",
   "armyComposition": "Army Composition",
   "budgetAvailable": "Budget Available",
@@ -314,7 +312,7 @@
   "armyInvalid": "This army is invalid, please modify it.",
 
   "landing": {
-    "title": "Welcome to Lines of Battle",
+    "title": "Welcome to <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b> is a multiplayer, simultaneous turn-based strategy game set during the Napoleonic Wars. Designed for tactical depth and historical immersion, you’ll engage in epic battles against others, using skill and strategy to outmaneuver and defeat your opponents!",
     "privacy": "By starting, you agree to our <0>Privacy Policy</0>."
   },
@@ -528,8 +526,8 @@
   "save": "Save",
 
   "ordersSubmittedDialog": {
-    "p1": "You've submitted your orders. Now, wait for the others to make their move.",
-    "p2": "Checking updates in {{value}} seconds",
+    "p1": "Now, wait for the others to make their move.",
+    "p2": "Checking for the opponent's orders in {{value}} seconds",
     "b": "Check Now"
   },
 
@@ -539,5 +537,42 @@
 
   "formation": "Formation",
   "findGame": "Find game",
-  "gameIdOrLink": "Game ID or link"
+  "gameIdOrLink": "Game ID or link",
+  "unit": "Unit",
+  "createArmy": "Create army",
+  "playFree": "Play Free",
+  "leaveClan": "Leave Clan",
+  "leave": "Leave",
+  "leaveClanModal": {
+    "message": "Are you sure you want to leave <0>{{clanName}}</0>?"
+  },
+  "resetToDefault": "Reset to default",
+  "submittingOrders": "Submitting orders...",
+  "checkingUpdates": "Checking updates...",
+  "tournaments": "Tournaments",
+  "createTournament": "Create tournament",
+  "joinName": "Join {{name}}",
+
+  "league": {
+    "title": "League",
+    "a": "Emperor",
+    "b1": "Diamond I",
+    "b2": "Diamond II",
+    "b3": "Diamond III",
+    "c1": "Platinum I",
+    "c2": "Platinum II",
+    "c3": "Platinum III",
+    "d1": "Gold I",
+    "d2": "Gold II",
+    "d3": "Gold III",
+    "e1": "Silver I",
+    "e2": "Silver II",
+    "e3": "Silver III",
+    "f1": "Bronze I",
+    "f2": "Bronze II",
+    "f3": "Bronze III",
+    "g1": "Iron I",
+    "g2": "Iron II",
+    "g3": "Iron III"
+  }
 }

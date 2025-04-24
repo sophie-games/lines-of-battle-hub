@@ -14,7 +14,6 @@
   "addPlayer": "添加玩家",
   "credits": "鸣谢",
   "settings": "设置",
-  "eloScore": "你的Elo是{{elo}}",
   "eloDescription": "Elo是一种用来计算玩家水平排名的积分。Elo越高，代表你的能力在玩家中越强。在游戏中胜出能增加Elo，失败则会降低。",
   "welcomeName": "欢迎{{name}}！",
   "myGames": "我的游戏",
@@ -48,7 +47,6 @@
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的选项一至的其他玩家。",
     "matchFound": "当搜索到匹配对象时，你会自动进入游戏。",
     "continueMatchmaking": "即便你离开这个页面，匹配过程依旧会继续，当匹配成功时会通知你。",
-    "nextQueueCheck": "下一次检查：{{countdown}}秒。",
     "onlyClanMembers": "只与联盟成员组队"
   },
   "fastMode": "快速模式",
@@ -78,8 +76,6 @@
   "customDescription": "自定义模式可以让你创建一个自己游戏，调整各项设置，并允许你邀请朋友加入。",
   "createCustomGame": "创建自定义游戏",
   "maxTurn": "最大回合数",
-  "copied": "已复制！",
-  "copyLink": "复制链接",
   "player": "玩家",
   "units": "单位",
   "unitSkins": "单位皮肤",
@@ -282,7 +278,7 @@
   "saving": "保存中……",
   "armyInvalid": "该军队配置无效，请修改。",
   "landing": {
-    "title": "欢迎来到 Lines of Battle",
+    "title": "欢迎来到 <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b>是一个即时回合制演算的多人策略游戏，背景取自拿破仑战争时期。本游戏侧重战术深度和历史还原，你将会和其它玩家在史诗般的战役中对决，用你的技术和策略思维来击败对手吧！",
     "privacy": "如果继续，将视作你同意我们的<0>隐私政策</0>。"
   },
@@ -479,5 +475,6 @@
   },
   "formation": "阵型",
   "findGame": "寻找游戏",
-  "gameIdOrLink": "游戏ID或链接"
+  "gameIdOrLink": "游戏ID或链接",
+  "playFree": "免费玩"
 }

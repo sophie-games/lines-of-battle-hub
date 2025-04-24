@@ -1,0 +1,548 @@
+{
+  "appLoadingMessage": "Selamat Datang di Lines of Battle!",
+  "home": "Halaman Utama",
+  "language": "Bahasa",
+  "tutorial": "Tutorial",
+  "play": "Bermain",
+  "ranking": "Ranking",
+  "profile": "Profil",
+  "history": "Sejarah Bermain",
+  "store": "Toko",
+  "supporters": "Supporters",
+  "elo": "Elo",
+  "joinedAt": "Bergabung pada {{date}}",
+  "createdAt": "Dibuat pada {{date}}",
+  "addPlayer": "Tambah Pemain",
+  "credits": "Credits",
+
+  "settings": "Pengaturan",
+  "eloDescription": "Elo adalah sistem peringkat yang digunakan untuk menghitung tingkat keterampilan relatif pemain. Semakin tinggi Elo kamu, semakin kuat kamu dibandingkan dengan pemain lain. Kemenangan akan meningkatkan Elo kamu, sedangkan kekalahan akan menurunkannya.",
+  "welcomeName": "Selamat Datang {{name}}!",
+  "myGames": "Permainanku",
+  "gameStatus": {
+    "available": "Tersedia Untuk Dimainkan",
+    "notStarted": "Permainan Belum Dimulai"
+  },
+  "loadingGames": "Memuat Permainan...",
+  "noGamesYet": "Belum ada permainan! Klik Mainkan untuk membuat permainan baru.",
+  "failedToLoadGames": "Gagal memuat permainan. Silakan coba lagi.",
+  "armyCompositions": "Komposisi Pasukan",
+  "account": "Akun",
+  "scenarioEditor": "Editor Skenario",
+  "wiki": "Wiki",
+  "gameCard": {
+    "title": "Permainan {{id}}",
+    "turn": "Giliran ke {{turnNumber}}/{{maxTurn}}"
+  },
+
+  "withdrawMessage": "Jika kamu mengundurkan diri dari permainan ini, maka akan dihitung sebagai kekalahan dan akan menurunkan Elo kamu. Apakah kamu yakin ingin mengundurkan diri?",
+
+  "loading": "Tunggu...",
+  "yes": "Ya",
+  "no": "Tidak",
+  "by": "Oleh",
+  "logout": "Keluar",
+
+  "createNewGame": "Buat permainan baru",
+  "randomGameInfo": "Untuk permainan yang dibuat secara acak, permainan akan menggunakan pasukan yang telah kamu buat untuk mode pertempuran yang dipilih. kamu dapat melihat dan mengelola pasukan kamu di <0>Army Compositions</0>. Jika kamu belum membuat pasukan apa pun untuk mode tersebut, pasukan default akan digunakan.",
+  "selectGameMode": "Pilih mode permainan dari pilihan di bawah ini.",
+  "or": "Atau",
+  "cancel": "Batal",
+
+  "matchmakingQueue": {
+    "inQueue": "Kamu sekarang berada dalam antrean! Sistem sedang mencari pemain lain yang telah memilih pengaturan yang sama dengan kamu.",
+    "matchFound": "Ketika permainan telah ditemukan, kamu akan diarahkan ke permainan.",
+    "continueMatchmaking": "Jika kamu meninggalkan halaman ini, pencarian permainan akan tetap dilanjutkan, dan kamu akan di beri notifikasi ketika permainan ditemukan.",
+    "onlyClanMembers": "Bermain hanya dengan rekan tim koalisi."
+  },
+
+  "fastMode": "Mode Cepat",
+  "slowMode": "Mode Lambat",
+  "maxTimePerTurn": "Maksimal waktu per giliran",
+
+  "turnTimeLimit": {
+    "30s": "30 detik",
+    "1m": "1 menit",
+    "3m": "3 menit",
+    "5m": "5 menit",
+    "2m": "2 menit",
+    "1d": "1 hari",
+    "3d": "3 hari",
+    "7d": "7 hari"
+  },
+
+  "battleType": "Jenis pertempuran",
+  "dynamicBattleType": {
+    "skirmish": "Skirmish",
+    "clash": "Clash",
+    "combat": "Combat",
+    "battle": "Battle",
+    "grand_battle": "Grand Battle"
+  },
+
+  "matchmaking": "Pencarian Permainan",
+  "matchmakingDescription": "Pencarian Permainan memungkinkan kamu untuk dengan cepat bergabung dalam permainan dengan pemain acak menggunakan pengaturan yang telah ditentukan sebelumnya.",
+  "custom": "Kustom",
+  "customDescription": "Mode kustom memungkinkan kamu mengatur permainan dengan pengaturan tertentu dan mengundang teman untuk bermain.",
+  "createCustomGame": "Buat Permainan Kustom",
+  "maxTurn": "Maksimal giliran",
+
+  "player": "Pemain",
+  "units": "Unit",
+  "unitSkins": "Unit Skins",
+  "avatars": "Avatars",
+  "withdraw": "Withdraw",
+  "importScenario": "Impor skenario",
+  "importScenarioModal": {
+    "importInfo": "Kamu bisa impor skenario apapun yang kamu inginkan.",
+    "createInfo": "Kamu bahkan bisa membuat skenariomu sendiri di <scenarioEditorLink/>."
+  },
+
+  "scenarioEditorTags": {
+    "tutorialMessage": " Tidak yakin bagaimana cara menggunakannya? Jangan kawatir, Kami siap membantu kamu! <tutorialLink>Tonton tutorialnya disini.</tutorialLink>"
+  },
+
+  "createScenario": "Buat Skenario",
+  "loadScenario": "Muat Skenario",
+  "playOffline": "Bermain Offline!",
+  "createOfflineGame": "Buat permainan offline",
+  "chooseAScenario": "pilih skenario",
+  "playerArmy": "Pasukan Pemain",
+  "botArmy": "Pasukan Bot",
+  "army": "Pasukan",
+
+  "deploymentStateMessage": "Ini adalah tahap mengatur formasi pasukan. Digiliran ini tempatkan unitmu sesuai formasi yang kau inginkan dan pastikan unitmu didalam zona penempatan. Jika sudah selesai, tekan tombol centang untuk menerapkan penempatan",
+  "youAreColor": "Kau warna {{color}}!",
+  "getStarted": "Bersiap untuk mulai",
+
+  "colorTag": {
+    "1": "Biru",
+    "2": "Merah",
+    "3": "Kuning",
+    "4": "Hijau",
+    "5": "Hitam"
+  },
+
+  "resume": "Lanjutkan",
+  "offerDraw": "Mengajukan seri",
+  "replayBattle": "Ulangi Pertempuran",
+  "result": "Hasil",
+  "exit": "Keluar",
+  "attackColor": "Serang warna",
+  "purchase": "Pembelian",
+  "purchased": "telah dibeli",
+  "forUnit": "Untuk {{unit}}",
+  "select": "Pilih",
+  "deselect": "Batalkan pilih",
+
+  "unitStat": {
+    "hp": "Nyawa",
+    "org": "Organisasi",
+    "movement": "Pergerakan",
+    "meleeAttack": "Serangan Jarak Dekat",
+    "meleeDefense": "Ketahanan Jarak Dekat",
+    "chargeBonus": "Bonus Serangan",
+    "chargePenetration": "Penetrasi Serangan",
+    "orgRadius": "Radius Organisasi",
+    "orgRadiusBonus": "Bonus Radius Organisasi",
+    "rangedAttack": "Serangan Jarak Jauh",
+    "limberMovement": "Gerakan Lentur",
+    "chargeResistance": "Daya Tahan Serangan",
+    "status": "Status",
+    "currentChargeResistance": "Ketahanan Serangan Saat Ini"
+  },
+
+  "unitCategory": {
+    "1": "Infanteri",
+    "2": "Kavaleri",
+    "3": "Artileri",
+    "4": "Infateri Ringan",
+    "5": "Kavaleri Ringan",
+    "6": "Kavaleri Berat",
+    "7": "Infateri Milisi"
+  },
+
+  "category": "Kategori",
+
+  "damageType": {
+    "musket": "Musket",
+    "light-musket": "Musket Ringan",
+    "artillery-sabre": "Artileri Saber",
+    "bayonet": "Bayonet",
+    "cannon-ball": "Bola Meriam",
+    "cavalry-sabre": "Kavaeri Saber",
+    "cavalry-lance": "Kavaleri Tombak",
+    "light-cannon-ball": "Meriam Bola Ringan",
+    "explosive-shell": "Peluru Ledakan",
+    "cavalry-sword": "Kavaleri Pedang",
+    "canister-fire": "Tembakan Peluru Canister",
+    "light-canister-fire": "Tembakan Peluru Canister Ringan",
+    "howitzer-canister": "Meriam Besar Canister",
+    "heavy-cannon-ball": "Meriam Bola Berat",
+    "heavy-canister-fire": "Tembakan Peluru Berat Canister",
+    "dragoon-sword": "Pedang Dragoon",
+    "horse-archer-bow": "Pemanah Kuda"
+  },
+
+  "unitName": {
+    "1": "Infanteri Utama",
+    "2": "Dragoons",
+    "3": "8-pound Artileri Dorong",
+    "4": "Infanteri Elit",
+    "5": "Kavaleri Tombak",
+    "6": "6-pound Artileri Kuda",
+    "7": "Infanteri Ringan",
+    "8": "Cuirassiers",
+    "9": "6-inci Howitzer",
+    "10": "Milisi",
+    "11": "Hussars",
+    "12": "12-pound Artileri Dorong",
+    "13": "Pemanah Kuda"
+  },
+
+  "battalionName": {
+    "1": "{{n}} Batalion Utama",
+    "2": "{{n}} Dragoons",
+    "3": "{{n}} Meriam Dorong",
+    "4": "{{n}} Batalion Elit",
+    "5": "{{n}} Kavaleri Tombak",
+    "6": "{{n}} Meriam Kuda",
+    "7": "{{n}} Batalion Ringan",
+    "8": "{{n}} Cuirassiers",
+    "9": "{{n}} Howitzer",
+    "10": "{{n}} Milisi",
+    "11": "{{n}} Hussars",
+    "12": "{{n}} Meriam Dorong",
+    "13": "{{n}} Pemanah Kudah"
+  },
+
+  "unitDescription": {
+    "1": "Batalion infanteri utama adalah unit dasar angkatan darat. Senapan adalah senjata utamanya, tetapi juga dapat menangkis kavaleri atau menyerang infanteri dan artileri lain dengan bayonet.",
+    "2": "Kavaleri menengah yang andal dan lengkap, siap untuk menganggu formasi maupun pertempuran berkepanjangan.",
+    "3": "Artileri menengah yang terjangkau dengan mobilitas dan daya tembak yang sederhana dengan tembakan canister yang mengesankan.",
+    "4": "Prajurit berpengalaman dan berbadan besar dengan kemampuan untuk menginspirasi prajurit yang bersahabat dan menakuti musuh. Unit elit ini hanya diperuntukkan bagi prajurit yang paling berbakat secara alami, yang membuat mereka jauh lebih mahal untuk dikerahkan. Intimidasi dan karakteristik jarak dekat mereka yang luar biasa digunakan dengan sangat baik dalam serangan bayonet.",
+    "7": "Infanteri utama elit dilatih dengan fokus khusus pada pergerakan cepat dan keahlian menembak.",
+    "11": "Kavaleri ringan cocok untuk menyerang musuh yang lemah, rusak, dan kalah jumlah. Namun, mereka akan kesulitan melawan infanteri terorganisasi dan kavaleri berat. Gunakan infanteri dan artileri untuk melemahkan musuh terlebih dahulu.",
+    "5": "Kavaleri menengah elit yang menggunakan tombak untuk melancarkan serangan dahsyat - serangkaian serangan oleh beberapa skuadron Kavaleri Bertombak akan dengan cepat mengalahkan lawan. Namun, mereka kurang mengesankan dalam pertempuran jarak dekat yang berlarut-larut.",
+    "8": "Kavaleri berat yang tangguh dengan efektivitas pertempuran jarak dekat terkuat di antara unit mana pun. Namun, yang terbaik adalah melemahkan musuh dengan infanteri atau artileri sebelum mengirim pasukan Cuirassier kamu.",
+    "12": "Senjata lapangan terberat yang tersedia bagi pasukan Napoleon; meskipun meriam ini sangat mahal, jangkauan dan kekuatannya tak tertandingi.",
+    "6": "Kecepatan dan biaya rendah artileri ini membuatnya cocok untuk mendukung kavaleri atau maju bersama garis infanteri kamu.",
+    "9": "Howitzer medan ringan dengan peluru peledak dan tembakan kanister jarak pendek yang sangat mematikan - ideal untuk mendukung infanteri utama kamu pada jarak menengah hingga pendek.",
+    "10": "“Mengandalkan milisi sudah pasti seperti bersandar pada tongkat yang patah.” - George Washington",
+    "13": "“Pemanah kuda Bashkir tidak diragukan lagi adalah pasukan yang paling tidak berbahaya di dunia.” - Baron Marbot, mengabaikan anak panah di pahanya"
+  },
+
+  "damageResistances": "Resistensi Kerusakan",
+  "otherStats": "Statistik Lainnya",
+  "damageModifier": "Efek Tambahan Kerusakan",
+  "orgDamageRatio": "Rasio Kerusakan Organisasi",
+
+  "damage": "Kerusakan",
+  "orgDamage": "Organisasi Kerusakan",
+  "enfiladeFireModifiers": "Efek Tambahan Tembakan Sepanjang Garis",
+  "rearFireModifiers": "Efek Tambahan Menembak Dari Belakang",
+  "targetAltitude": "Ketinggian Target",
+  "canCaptureObjectives": "Dapat Mengambil Objektif",
+  "cantCaptureObjectives": "Tidak Dapat Mengambil Objektif",
+  "enfiladeFire": "Tembakan Sepanjang Garis",
+  "closeRange": "Jarak Dekat",
+  "midRange": "Jarak Sedang",
+  "longRange": "Jarak Jauh",
+  "shootingAngle": "Sudut Menembak",
+  "closeAttackDamage": "Kerusakan Serangan Dekat",
+  "longAttackDamage": "Kerusakan Serangan Jauh",
+  "arcHeight": "Tinggi Busur",
+  "aoe": "Efek Area",
+  "type": "Tipe",
+  "circular": "Lingkaran",
+  "radius": "Radius",
+  "edgeDamageModifier": "Efek Tambahan Serangan Dari Pinggir",
+  "absorption": "Absorption",
+  "trapezoidal": "Trapezoidal",
+  "topWidth": "Lebar Atas",
+  "bottomWidth": "Lebar Bawah",
+  "height": "Tinggi",
+  "diminishByTargetOrg": "Kurangi Berdasarkan Target Organisasi",
+  "from": "dari",
+  "to": "ke",
+  "lBy": "oleh",
+  "terrainHitboxHeight": "Ketinggian Hitbox Medan",
+  "statusEffects": "Status Efek",
+  "projectileAbsorption": "Proyektil Absorption",
+  "orgRegainByNearbyUnits": "Organisasi yang Didapatkan Kembali Berdasarkan Unit Terdekat",
+  "terrainPName": "Medan: {{name}}",
+  "effects": "Efek",
+
+  "terrain": {
+    "0": "Daratan",
+    "1": "Hutan",
+    "2": "Bangunan",
+    "3": "Jalan",
+    "4": "Air"
+  },
+
+  "clearPlayerUnits": "Bersihkan Unit Pemain",
+  "clearBotUnits": "Bersihkan Unit Bot",
+  "continueGame": "Lanjutkan Permainan",
+  "createNewOfflineGame": "Buat Permainan Offline Baru",
+  "filterBy": "Filter Berdasarkan",
+  "name": "Nama",
+  "retry": "Coba Kembali",
+
+  "networkErrorModal": {
+    "title": "Oops! Koneksi Hilang",
+    "message": "Sepertinya koneksi terputus. Jangan khawatir! kamu masih bisa menikmati permainan secara offline."
+  },
+
+  "needsUpdateModal": {
+    "title": "Diperlukan pembaruan",
+    "message": "Versi baru LoB telah tersedia! Harap perbarui ke versi terbaru untuk terus bermain offline."
+  },
+
+  "update": "Update!",
+  "yourArmyCompositionsFor": "Komposisi pasukan kamu untuk",
+  "noUnitsYet": "Belum ada unit",
+  "armyComposition": "Komposisi Pasukan",
+  "budgetAvailable": "Anggaran Tersedia",
+  "saveArmy": "Simpan Pasukan",
+  "clearUnits": "Bersihkan Unit",
+  "saving": "Menyimpan...",
+  "armyInvalid": "Pasukan ini tidak valid, harap dimodifikasi.",
+
+  "landing": {
+    "title": "Selamat Datang di Lines of Battle",
+    "message": "<b>Lines of Battle</b> adalah permainan multiplayer, permainan strategi berbasis giliran simultan yang berlatar belakang Perang Napoleon. Dirancang untuk taktis yang rumit dan nuansa sejarah, kamu akan terlibat dalam pertempuran epik melawan orang lain, menggunakan keterampilan dan strategi untuk mengalahkan lawan kamu!",
+    "privacy": "Sebelum memulai permainan, Dimohon kamu menyetujui ketentuan kami<0>Privacy Policy</0>."
+  },
+
+  "welcomeModal": {
+    "title": "Selamat Datang di Lines of Battle 👋",
+    "thanks": "Terimakasih sudah bergabung, {{name}}!",
+    "p1": "Baru bermain <b>Lines of Battle</b>? Saya sarankan untuk bermain <offlineLink>latihan permainan offline</offlineLink> melawan bot untuk membiasakan diri dengan mekanisme permainan dan mengembangkan strategi kamu dalam lingkungan yang santai.",
+    "p2": "Karena game ini sedang dalam tahap beta, saya mengundang kamu untuk bergabung di <discordLink>Discord server</discordLink> untuk terhubung dengan pemain lain, temukan lawan untuk bermain, laporkan bug, dan bagikan ide kamu untuk membantu meningkatkan pengalaman bermain bagi semua orang!"
+  },
+
+  "turn": "Giliran",
+
+  "loadingScreen": {
+    "fonts": "Memuat Fonts...",
+    "joiningGame": "Bergabung dengan permainan...",
+    "resources": "Memuat sumber daya...",
+    "fetchingGameData": "Mengambil data permainan...",
+    "generatingMap": "Membuat peta...",
+
+    "tip1": "Unit dengan organisasi tinggi tidak menerima bonus kerusakan dari serangan. Lemahkan target dengan tembakan terlebih dahulu.",
+    "tip2": "Hussar adalah kavaleri ringan yang harus menghindari pertempuran berat dan mengincar unit dan artileri yang rusak.",
+    "tip3": "Musket dan artileri menghasilkan kerusakan yang jauh lebih besar pada jarak menengah daripada jarak jauh.",
+    "tip4": "Howitzer menembak pada lengkungan tinggi, yang membuatnya jauh lebih efektif daripada artileri lain dalam menyerang target di hutan dan bangunan.",
+    "tip5": "Kamu dapat menemukan banyak informasi berguna tentang pasukan kamu dengan memilih unit, mengklik Info (tombol huruf I) dan memeriksa tab unit.",
+    "tip6": "Unit yang panik atau kabur dari medan pertempuran memiliki penalti untuk reorganisasi dan berisiko tersingkirkan sepenuhnya dari peta. Tarik kembali unit yang tidak terorganisir ke tempat yang aman sebelum mereka panik dan kabur jika memungkinkan.",
+    "tip7": "Artileri berkuda dan howitzer jauh lebih lincah daripada artileri seberat 12 pound. Menyerang mereka bersama infanteri kamu berisiko, tetapi dapat membalikkan keadaan pertempuran dengan tembakan canister jarak dekat yang kuat.",
+    "tip8": "Saat kamu memilih unit, kamu akan melihat radius organisasinya dalam warna biru muda. Musuh dalam radius ini akan kehilangan organisasi, sementara kawan akan mendapatkan organisasi.",
+    "tip9": "Kavaleri Tombak adalah kavaleri elit yang berfokus pada serangan mematikan, tetapi kalah dibandingkan Cuirassier dalam pertarungan berkepanjangan.",
+    "tip10": "Serangan jarak jauh yang mengenai unit infanteri di sisi sayap akan menghasilkan kerusakan yang jauh lebih besar.",
+    "tip11": "Kamu dapat memperoleh poin kemenangan dengan menimbulkan korban atau merebut sasaran musuh dengan infanteri. Keunggulan poin kemenangan yang besar memperlambat reorganisasi unit musuh dan mengamankan kemenangan pada batas giliran.",
+    "tip12": "Serang musuh dari samping, jangan sampai kamu yang diserang dari samping.",
+    "tip13": "Kirimkan tayangan ulang favorit kamu melalui server Discord Lines of Battle dan tim pengembang akan menyorotnya di YouTube!",
+    "tip14": "Jika kamu memiliki pertanyaan tentang permainan ini, Lines of Battle Wiki, Reddit, dan server Discord seharusnya dapat membantu.",
+    "tip15": "Jika kamu menikmati Lines of Battle dan ingin membantu mendukung kreatornya, bergabunglah dengan Patreon! Setiap kontribusi akan sangat membantu.",
+    "tip16": "Tahukah kamu bahwa kamu dapat memindahkan objektif kamu selama fase permulaan?",
+    "tip17": "Rebut sasaran musuh dengan menempatkan satu batalion infanteri di sana selama 8 putaran, 8 batalion untuk satu putaran, dan seterusnya.",
+    "tip18": "Pilih tombol perintah untuk mengakses perintah seperti Mundur, Tembak sambil Maju, dan Tembak.",
+    "tip19": "Infanteri Elit dan Cuirassier sangat memengaruhi organisasi pasukan lain hanya dengan berada di dekatnya. Efek ini dapat ditumpuk, dan dapat membantu beberapa unit elit membalikkan keadaan pertempuran.",
+    "tip20": "Tempatkan artileri kamu di tempat yang memiliki garis pandang yang jelas; jangan sampai infanteri kamu di depannya.",
+    "tip21": "\"Tugas kavaleri adalah mengejar kemenangan dan mencegah musuh yang kalah untuk bangkit kembali.\" - Napoleon Bonaparte",
+    "tip22": "\"Merencanakan untuk menyimpan kavaleri hingga akhir pertempuran menunjukkan tidak adanya pemahaman tentang kekuatan serangan gabungan antara infanteri dan kavaleri, baik untuk menyerang maupun bertahan.\" - Napoleon Bonaparte"
+  },
+
+  "fetchingBattleActions": "Memuat data aksi pertempuran...",
+
+  "order": {
+    "1": "Move",
+    "2": "Seek",
+    "3": "Shoot",
+    "4": "Fire and Advance",
+    "6": "Fallback",
+    "7": "Skirmish"
+  },
+
+  "selectOrder": "Pilih Perintah",
+  "allowFireWhenMoving": "Izinkan menembak sambil bergerak",
+  "meleeDamage": "Kerusakan Jarak Dekat",
+  "rangedDamage": "Kerusakan Jarak Jauh",
+  "orgRegainByHp": "Organisasi pulih berdasarkan HP",
+  "rangedDamageWhenMoving": "Kerusakan jarak jauh sambil bergerak",
+  "speed": "Kecepatan",
+  "speedWhenShooting": "Kecepatan sambil menembak",
+  "receivedDamage": "Kerusakan yang diterima",
+  "receivedOrgDamage": "Kerusakan organisasi yang diterima",
+  "noModifiers": "Tidak ada efek tambahan",
+  "submitOrders": "Laksanakan Perintah",
+  "submitOrdersConfirmation": "Apakah Anda yakin ingin mengirimkan perintah pertempuran? Setelah dikirimkan, Anda tidak akan dapat kembali.",
+  "players": "Pemain",
+  "menu": "Menu Utama",
+  "replayActions": "Putar Ulang Aksi",
+  "deselectUnit": "Batalkan Pilihan Unit",
+  "removeUnitOrders": "Hilangkan Perintah Unit",
+  "info": "Informasi",
+  "meleePerformance": "Performa Pertarungan Jarak Dekat",
+  "speedByOrg": "Kecepatan dipengaruhi oleh organisasi",
+  "nTurnsLeft": "sisa giliran : {{n}}",
+
+  "battleOverview": {
+    "title": "Ringkasan Pertempuran",
+    "victoryPoints": "Poin Kemenangan",
+    "initialArmyPower": "Kekuatan awal pasukan",
+    "powerLost": "Kekuatan yang Hilang",
+    "lossesRatio": "Rasio Kekalahan",
+    "objectives": "Objektif",
+    "timeWithoutObjectives": "Waktu Tanpa Objektif",
+    "unitsOrgRegain": "Tingkat Pemulihan Organisasi"
+  },
+
+  "offerDrawModal": {
+    "withdrawOffer": "Tawarkan Seri",
+    "alreadyWantsDrawMessage": "Anda sudah menawarkan seri. Apakah Anda ingin membatalkan penawaran ini?",
+    "offerDrawMessage": "Jika Anda menawarkan seri, opsi ini akan tetap diaktifkan hingga Anda menonaktifkannya."
+  },
+
+  "defeat": "Kalah",
+  "victory": "Menang",
+  "draw": "Seri",
+  "won": "Kemenangan",
+  "lost": "Kekalahan",
+  "tie": "Seri",
+
+  "unitStatus": {
+    "1": "Berdiri",
+    "2": "Panik",
+    "3": "Memulihkan Diri"
+  },
+
+  "unitEffect": {
+    "1": "Rotasi penuh",
+    "2": "Telah diserang",
+    "3": "Sedang menyiapkan meriam"
+  },
+
+  "login": "Login",
+  "signUp": "Daftar",
+  "forgotPassword": "Lupa Password?",
+  "username": "Username",
+  "changeUsername": "Ganti username",
+  "changeEmail": "Ganti email",
+  "password": "Password",
+  "email": "Email",
+  "usernameOrEmail": "Username atau Email",
+  "continueWithGoogle": "Lanjutkan dengan Google",
+  "resetPassword": "Reset password",
+  "enterYourEmail": "Masukan emailmu",
+  "sendResetLink": "Kirim reset link",
+  "enterNewPassword": "Masukan password baru",
+  "newPassword": "password baru",
+  "repeatPassword": "Ulangi password",
+
+  "teamSize": {
+    "title": "Jumlah anggota tim",
+    "1v1": "1 vs 1",
+    "2v2": "2 vs 2"
+  },
+
+  "offline": "Offline",
+  "offlineDescription": "Berlatih melawan bot dan bermain hotseat bersama teman-teman di perangkat yang sama!",
+
+  "premiumCurrencyLeaderboard": {
+    "title": "<premiumCurrency/> Papan Peringkat",
+    "subtitle": "Siapa yang punya <premiumCurrency/> terbanyak?",
+    "description": "Ingin jadi yang pertama? <storeLink>Buka toko</storeLink> dan dapatkan <premiumCurrency/>!"
+  },
+
+  "team": "Tim",
+  "teams": "Tim",
+  "playerType": "Tipe Player",
+  "human": "Manusia",
+  "bot": "Bot",
+  "armyOfPlayer": "Pasukan Pemain {{player}}",
+  "averageElo": "Rata-Rata Elo",
+
+  "hybridDescription": "Peta hibrida menggunakan medan yang telah ditetapkan dan tidak acak, \ntetapi memungkinkan pemain untuk menggunakan pasukan khusus mereka sendiri untuk bermain.",
+
+  "playLastActionsModal": {
+    "message": "Peristiwa pertempuran baru telah terjadi saat Anda pergi.\nApakah Anda ingin melihat aksi dari giliran terakhir?",
+    "button": "Main"
+  },
+
+  "battleReport": "Laporan Pertempuran",
+  "strength": "Kekuatan",
+  "guns": "Senjata",
+  "casualties": "Korban",
+  "gunsLost": "Senjata yang hilang atau rusak",
+  "noRewards": "Tidak ada hadiah",
+
+  "clan": "Koalisi",
+  "clans": "Koalisi",
+  "createClan": "Buat Koalisi",
+  "create": "Buat",
+  "clanRole": {
+    "leader": "Pemimpin",
+    "member": "Anggota"
+  },
+  "clanElo": "Koalisi Elo: {{elo}}",
+  "members": "Anggota",
+  "deleteClan": "Hapus Koalisi",
+  "deleteClanModal": {
+    "message": "Apakah Anda yakin ingin menghapus <0>{{clanName}}</0>? Semua anggota akan dihapus dari koalisi, dan tindakan ini tidak dapat dibatalkan."
+  },
+  "joinClan": "Gabung Koalisi",
+  "joinClanModal": {
+    "message": "Apakah Anda ingin bergabung dengan <0>{{clanName}}</0>? Setelah Anda mengirimkan permintaan, Anda harus menunggu salah satu anggota untuk menerimanya. Permintaan akan kedaluwarsa setelah {{expirationDays}} hari."
+  },
+  "clanFull": "Koalisi sudah penuh",
+  "requested": "Diminta",
+  "cancelJoinRequest": "Batalkan permintaan untuk bergabung",
+  "cancelJoinRequestModal": {
+    "message": "Apakah Anda yakin ingin membatalkan permintaan bergabung koalisi <0>{{clanName}}</0>?"
+  },
+  "cancelRequest": "Batalkan Permintaan",
+  "keepRequest": "Pertahankan Permintaan",
+  "joinRequests": "Permintaan Bergabung",
+  "noJoinRequests": "Tidak ada permintaan bergabung yang tertunda",
+  "accept": "Terima",
+  "reject": "Tolak",
+  "linkCopiedToClipboard": "Tautan disalin di papan klip",
+
+  "pagination": {
+    "previous": "Sebelum",
+    "next": "Selanjutnya",
+    "page": "Halaman",
+    "of": "dari",
+    "items": "item"
+  },
+
+  "kick": "Keluarkan",
+  "noDescription": "Tidak ada deskripsi",
+  "save": "Simpan",
+
+  "ordersSubmittedDialog": {
+    "p1": "Anda telah mengirimkan perintah. Sekarang, tunggu pemain lain untuk membuat perintah mereka.",
+    "p2": "Cek pembeharuan dalam {{value}} detik",
+    "b": "Cek Sekarang"
+  },
+
+  "search": {
+    "clans": "Cari Koalisi"
+  },
+
+  "formation": "Formasi",
+  "findGame": "Cari Permainan",
+  "gameIdOrLink": "ID Permainan atau Tautan",
+  "unit": "Unit",
+  "createArmy": "Buat Pasukan",
+  "playFree": "Play Free",
+  "leaveClan": "Tinggalkan Koalisi",
+  "leave": "Pergi",
+  "leaveClanModal": {
+    "message": "Apakah anda yakin ingin meninggalkan koalisi <0>{{clanName}}</0>?"
+  },
+  "resetToDefault": "Reset ke default"
+}

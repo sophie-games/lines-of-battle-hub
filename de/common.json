@@ -15,7 +15,6 @@
   "credits": "Gutschriften",
 
   "settings": "Einstellungen",
-  "eloScore": "Ihre Elo ist {{elo}}",
   "eloDescription": "Elo ist ein Bewertungssystem, mit dem ein ungefähreres Geschicklevel des Spielers berechnet wird. Je höher Ihre Elo, desto besser sind Sie im Vergleich zu Anderen. Gewinnen erhöht Ihre Elo, währen Verlieren sie verringert.",
   "welcomeName": "Willkommen {{name}}!",
   "myGames": "Meine Spiele",
@@ -53,7 +52,6 @@
     "inQueue": "Sie sind nun in der Warteschlange für das Spielsuche. Das System sucht einen anderen Spieler, der die gleichen Optionen gewählt hat wie Sie.",
     "matchFound": "Sobald ein Spiel gefunden wurde, werden Sie zu diesem weitergeleitet.",
     "continueMatchmaking": "Selbst wenn Sie diese Seite verlassen, wird die Spielsuche fortgesetzt werden und Sie werden benachrichtigt, wenn ein Spiel gefunden wurde.",
-    "nextQueueCheck": "Nächster Warteschlangenaktualisierung in {{countdown}} Sekunden.",
     "onlyClanMembers": "Spiele nur mit Koalitionsteammitgliedern"
   },
 
@@ -87,9 +85,6 @@
   "customDescription": "Benutzerdefinierter Modus erlaubt ein Spiel mit bestimmten Einstellungen und das Einladen von Freunden.",
   "createCustomGame": "Ein benutzerdefiniertes Spiel erstellen",
   "maxTurn": "Letzte Runde",
-
-  "copied": "Kopiert!",
-  "copyLink": "Link kopieren",
 
   "player": "Spieler",
   "units": "Einheiten",
@@ -312,7 +307,7 @@
   "armyInvalid": "Diese Armee ist ungültig. Bitte ändern Sie die Zusammensetzung.",
 
   "landing": {
-    "title": "Willkommen bei Lines of Battle",
+    "title": "Willkommen bei <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b> ist ein simulatenes, rundenbasiertes Multiplayer-Strategiespiel, dass während der Napoleonischen Kriege spielt. Entworfen für taktische Tiefe und historische Immersion, werden Sie in sagenhaften Schlachten gegen Andere schlagen und dabei Ihre Fähigkeiten und Strategien zum Ausmanövrieren und schlagen Ihrer Gegner unter Beweis stellen!",
     "privacy": "Indem Sie das Spiel starten, stimmen Sie unseren <0>Datenschutzbestimmungen</0> zu."
   },
@@ -528,5 +523,6 @@
 
   "formation": "Formation",
   "findGame": "Spiel finden",
-  "gameIdOrLink": "Spiel-ID oder Link"
+  "gameIdOrLink": "Spiel-ID oder Link",
+  "playFree": "Kostenlos Spielen"
 }

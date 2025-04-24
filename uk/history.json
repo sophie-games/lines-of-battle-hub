@@ -1,7 +1,5 @@
 {
-    "finishedAt": "Завершено {{date}}",
-    "watchGame": "Переглянути битву",
-    "loadingGames": "Згадуємо минулі битви...",
-    "noFinishedGamesYet": "Ще немає завершених ігор!",
-    "gameId": "ID гри: {{id}}"
+  "watchGame": "Дивитися гру",
+  "loadingGames": "Завантаження ігор...",
+  "noFinishedGamesYet": "Ще немає завершених ігор!"
 }

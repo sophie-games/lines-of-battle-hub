@@ -1,7 +1,5 @@
 {
-  "finishedAt": "終了日時: {{date}}",
   "watchGame": "ゲームを見る",
   "loadingGames": "ゲームを読み込み中...",
-  "noFinishedGamesYet": "終了したゲームはまだありません！",
-  "gameId": "ゲームID: {{id}}"
+  "noFinishedGamesYet": "終了したゲームはまだありません！"
 }

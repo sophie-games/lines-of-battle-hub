@@ -1,0 +1,111 @@
+{
+  "gameplay": "Gameplay",
+  "graphics": "Grafik",
+  "camera": "Kamera",
+  "sound": "Suara",
+  "language": "Bahasa",
+
+  "multiTurnOrders": {
+    "title": "Multi-turn orders",
+    "description": "Mengaktifkan pengaturan ini akan memungkinkan Anda untuk mengeluarkan perintah yang akan diingat dan diterapkan oleh permainan dari satu giliran ke giliran berikutnya. Multi turn orders atau perintah multi-giliran ini dapat mencakup hingga 10 giliran gerakan, dan mencakup perintah lokasi seperti Bergerak serta perintah target seperti Seek."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Multi-turn path min distance"
+  },
+  "edgePanning": {
+    "title": "Penggeseran Tepi Mouse",
+    "description": "Aktifkan penggeseran saat mouse mencapai tepi layar (PC)."
+  },
+  "useTouchControls": {
+    "title": "Gunakan Kontrol Layar Sentuh",
+    "description": "Jika diaktifkan, perangkat akan menggunakan kontrol seperti perangkat sentuh. Jika tidak diaktifkan, perangkat akan menggunakan kontrol seperti PC."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Izinkan Layar Sentuh Untuk Memilih Kotak Area",
+    "description": "Aktifkan kotak pilihan pada perangkat sentuh untuk memilih beberapa unit sekaligus."
+  },
+  "smartCurvedMovements": {
+    "title": "Smart Curved Movement",
+    "description": "Aktifkan opsi ini untuk mengoptimalkan jalur pergerakan dengan kurva halus, meminimalkan kehilangan kecepatan selama rotasi."
+  },
+  "openSelectOrderModal": {
+    "title": "Buka Jendela pop-up Pilih Perintah",
+    "description": "Aktifkan opsi ini untuk menampilkan jendela pemilihan perintah selama permainan."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Tampilkan jendela peristiwa pertempuran baru"
+  },
+  "hidePlayerInfo": {
+    "title": "Sembunyikan Informasi Pemain",
+    "description": "Sembunyikan ELO dan nama Pemain dari layar tampilan, buat pemain menjadi anonymous."
+  },
+  "smartReplayCamera": {
+    "title": "Smart Replay Camera",
+    "description": "Aktifkan kamera penonton untuk secara otomatis fokus pada aksi selama tayangan ulang."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Smart Replay Camera Zoom"
+  },
+  "zoomSensibility": {
+    "title": "Zoom Sensibility"
+  },
+  "cameraSensibility": {
+    "title": "Camera Sensibility (PC)"
+  },
+  "replaySpeed": {
+    "title": "Kecepatan Tayangan Ulang"
+  },
+  "playerColor": {
+    "title": "Warna Pemain"
+  },
+  "enemyColor": {
+    "title": "Warna Musuh"
+  },
+  "allyColor": {
+    "title": "Warna Sekutu"
+  },
+  "generalVolume": {
+    "title": "General Volume"
+  },
+
+  "shadows": {
+    "title": "Bayangan",
+    "description": "Mengaktifkan bayangan pada unit. Mungkin memerlukan giliran permainan untuk memperbarui unit."
+  },
+
+  "fullScreen": {
+    "title": "Layar Penuh",
+    "description": "Beralih ke mode layar penuh untuk aplikasi",
+    "toggle": "Alihkan Layar Penuh"
+  },
+
+  "resetSettings": {
+    "title": "Reset Pengaturan",
+    "description": "Kembalikan semua pengaturan ke nilai default. Tindakan ini akan menimpa semua penyesuaian yang telah Anda buat."
+  },
+
+  "reset": "Reset",
+
+  "lineFormation": "Line Formation",
+  "checkerboardFormation": "Checkerboard Formation",
+  "spaceBetweenUnits": "Jarak Antar Unit",
+  "spaceBetweenLines": "Jarak Antar Baris",
+
+  "keybindings": {
+    "title": "Tombol Pintasan",
+    "pressAKey": "Tekan Tombol...",
+    "moveUp": "Gerak Ke Atas",
+    "moveDown": "Gerak Ke Bawah",
+    "moveLeft": "Gerak Ke Kiri",
+    "moveRight": "Gerak Ke Kanan",
+    "info": "Informasi",
+    "submitOrders": "Kirim Perintah",
+    "deselect": "Batalkan pilihan",
+    "moveOrder": "Perintah Bergerak",
+    "seekOrder": "Perintah Mencari Musuh",
+    "shootOrder": "Perinntah Menembak",
+    "fireAndAdvanceOrder": "Perintah Menembak Dengan Bergerak",
+    "fallbackOrder": "Perintah Mundur",
+    "toggleFormation": "Ubah Formasi"
+  }
+}

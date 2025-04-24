@@ -15,7 +15,6 @@
   "credits": "Crediti",
 
   "settings": "Impostazioni",
-  "eloScore": "Il tuo Elo è {{elo}}",
   "eloDescription": "Elo è un sistema di punteggio usato per calcolare il livello di abilità relativo dei giocatori. Più alto è il tuo Elo, più forte sei rispetto agli altri. Vincere aumenta il tuo Elo, perdere lo diminuisce.",
   "welcomeName": "Benvenuto {{name}}!",
   "myGames": "I miei giochi",
@@ -53,7 +52,6 @@
     "inQueue": "Sei ora nella coda di matchmaking! Il sistema sta cercando un altro giocatore che ha selezionato le stesse impostazioni di te.",
     "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco.",
     "continueMatchmaking": "Anche se lasci questa pagina, il processo di matchmaking continuerà e sarai avvisato quando verrà trovata una partita.",
-    "nextQueueCheck": "Prossimo controllo della coda tra {{countdown}} secondi.",
     "onlyClanMembers": "Gioca solo con compagni della coalizione"
   },
 
@@ -87,9 +85,6 @@
   "customDescription": "La modalità personalizzata ti permette di configurare un gioco con impostazioni specifiche e invitare amici a giocare.",
   "createCustomGame": "Crea gioco personalizzato",
   "maxTurn": "Turno massimo",
-
-  "copied": "Copiato!",
-  "copyLink": "Copia link",
 
   "player": "Giocatore",
   "units": "Unità",
@@ -312,7 +307,7 @@
   "armyInvalid": "Questo esercito non è valido, per favore modificalo.",
 
   "landing": {
-    "title": "Benvenuto in Lines of Battle",
+    "title": "Benvenuto in <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b> è un gioco di strategia a turni simultanei multigiocatore ambientato durante le guerre napoleoniche. Progettato per profondità tattica e immersione storica, ti impegnerai in epiche battaglie contro altri, usando abilità e strategia per superare e sconfiggere i tuoi avversari!",
     "privacy": "Iniziando, accetti la nostra <0>Informativa sulla privacy</0>."
   },
@@ -535,5 +530,6 @@
 
   "formation": "Formazione",
   "findGame": "Trova partita",
-  "gameIdOrLink": "ID partita o link"
+  "gameIdOrLink": "ID partita o link",
+  "playFree": "Gioca Gratis"
 }

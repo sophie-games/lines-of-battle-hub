@@ -7,7 +7,7 @@
 
   "multiTurnOrders": {
     "title": "Ordres multi-tours",
-    "description": "Activer ce paramètre vous permettra de donner des ordres que le jeu mémorisera et mettra en œuvre d’un tour à l’autre. Ces ordres multi-tours peuvent s’étendre sur jusqu’à 10 tours de mouvement et inclure des ordres de localisation comme 'Se déplacer' ainsi que des ordres de cible comme 'Chercher'."
+    "description": "Activer ce paramètre vous permettra de donner des ordres que le jeu mémorisera et mettra en œuvre d’un tour à l’autre. Ces ordres multi-tours peuvent s’étendre sur jusqu’à 10 tours de mouvement et inclure des ordres de mouvement comme 'Se déplacer' ainsi que des ordres de cible comme 'Chercher'."
   },
   "multiTurnPathMinDistance": {
     "title": "Distance minimale du chemin à plusieurs tours"
@@ -37,14 +37,14 @@
   },
   "hidePlayerInfo": {
     "title": "Masquer les informations des joueurs",
-    "description": "Masque l'ELO et les noms d'utilisateur dans l'interface du jeu, rendant les joueurs anonymes."
+    "description": "Masque le classement Elo et les noms d'utilisateur dans l'interface du jeu, rendant les joueurs anonymes."
   },
   "smartReplayCamera": {
-    "title": "Caméra intelligente de relecture",
-    "description": "Permet à la caméra spectatrice de se concentrer automatiquement sur l'action pendant les relectures."
+    "title": "Caméra intelligente de replay",
+    "description": "Permet à la caméra spectatrice de se concentrer automatiquement sur l'action pendant les replays."
   },
   "smartReplayCameraZoom": {
-    "title": "Zoom de la caméra intelligente de relecture"
+    "title": "Zoom de la caméra intelligente de replay"
   },
   "zoomSensibility": {
     "title": "Sensibilité du zoom"
@@ -53,7 +53,7 @@
     "title": "Sensibilité de la caméra (PC)"
   },
   "replaySpeed": {
-    "title": "Vitesse de relecture"
+    "title": "Vitesse de replay"
   },
   "playerColor": {
     "title": "Couleur du joueur"

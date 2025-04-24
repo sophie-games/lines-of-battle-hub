@@ -15,7 +15,6 @@
   "credits": "Kreditek",
 
   "settings": "Beállítások",
-  "eloScore": "Az Élőd: {{elo}}",
   "eloDescription": "Az Élő (világnyelvi nevén Elo) egy pontozási rendszer - Élő Árpád találmánya - azt a célt szolgálja, hogy összevethesd a teljesítményed más játékosokaiéval. Minél több az Élőd, annál erősebb vagy más játékosokhoz képest. A győzelmeid növelik az Élődet, míg a vereségek csökkentik.",
   "welcomeName": "Üdv {{name}}!",
   "myGames": "Játékaim",
@@ -53,7 +52,6 @@
     "inQueue": "Sikeresen felkerültél a várólistára! A rendszerünk most olyan ellenfelet keres neked, aki az általad kiválaszott módban és alkalmas beállítások mellett szeretne játszani.",
     "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára.",
     "continueMatchmaking": "Még ha el is hagyod az oldalt, az ellenfélkeresés folytatódni fog, és értesíteni fogunk, ha találtunk alkalmas ellenfelet.",
-    "nextQueueCheck": "Következő ellenőrzés {{countdown}} másodperc múlva.",
     "onlyClanMembers": "Csak koalíciós csapattársakkal játssz"
   },
 
@@ -87,9 +85,6 @@
   "customDescription": "A személyre szabott lehetőséggel specializálhatod a csata valamennyi körülményét, illetve meghívhatod barátaidat.",
   "createCustomGame": "Személyre szabott meccs létrehozása",
   "maxTurn": "Körök max száma",
-
-  "copied": "Kimásolva!",
-  "copyLink": "Link kimásolása",
 
   "player": "Játékos",
   "units": "Egységek",
@@ -187,49 +182,49 @@
   },
 
   "unitName": {
-    "1": "Tartalékos Gyalogság",
+    "1": "Sorgyalogság",
     "2": "Dragonyos",
-    "3": "8-fontos Gyalogos Tüzérség",
-    "4": "Nehézgyalogság",
-    "5": "Lenszerek",
-    "6": "4-fontos Lovas Tüzérség",
+    "3": "8-fontos Gyalogüteg",
+    "4": "Gárda",
+    "5": "Ulánus",
+    "6": "4-fontos Lovasított Tüzérség",
     "7": "Könnyűgyalogság",
-    "8": "Nehézlovasság",
+    "8": "Vértes",
     "9": "6-hüvelykes Mozsárágyú",
     "10": "Milícia",
     "11": "Huszárok",
-    "12": "12-fontos Gyalogos Tüzérség",
-    "13": "Lovas íjászok"
+    "12": "12-fontos Gyalogüteg",
+    "13": "Lovasíjászok"
   },
 
   "battalionName": {
-    "1": "{{n}} Vonalzászlóalj",
-    "2": "{{n}} Dragonyos",
+    "1": "{{n}} Gyalogzászlóalj",
+    "2": "{{n}} Dragonyos Osztály",
     "3": "{{n}} Gyalogüteg",
     "4": "{{n}} Gárdazászlóalj",
-    "5": "{{n}} Lándzsások",
+    "5": "{{n}} Ulánus Osztály",
     "6": "{{n}} Lovasüteg",
     "7": "{{n}} Könnyűzászlóalj",
-    "8": "{{n}} Páncélos lovasok",
+    "8": "{{n}} Vértes Osztály",
     "9": "{{n}} Taracküteg",
     "10": "{{n}} Milícia",
-    "11": "{{n}} Huszárok",
+    "11": "{{n}} Huszár Osztály",
     "12": "{{n}} Gyalogüteg",
     "13": "{{n}} Lovas íjászok"
   },
 
   "unitDescription": {
-    "1": "A szerény Tartalékos Gyalogság minden formáció legalapvetőbb egysége. Elsősorban muskétákkal harcolnak, de közelharcban bajonett-tel küzdenek.",
-    "2": "Megbízható, sokoldalú közepes lovasság, alkalmas zaklatásra és hosszan tartó harcokra egyaránt.",
+    "1": "A szerény sorgyalogság minden formáció legalapvetőbb egysége. Elsősorban muskétákkal harcolnak, de közelharcban bajonett-tel küzdenek.",
+    "2": "Megbízható, sokoldalú félnehéz lovasság, alkalmas zaklatásra és hosszan tartó harcokra egyaránt.",
     "3": "Megfizethető közepes tüzérség szerény mozgékonysággal és tűzerővel, valamint lenyűgöző kartácstűzzel.",
     "4": "Tapasztalt, erős fizikumban lévő katonák, akik példát képesek mutatni más barátságos egységeknek, míg félelmet és rettegést keltenek az ellenség szemében. Ez az elit alakulat kizárólag a legjobb katonákra támaszkodik, azonban így költséges is fenntartani azt. A félelmetes karakterisztikájuk és rendkívüli tapasztalatuk kiválóan érvényesülnek közelharcban.",
-    "7": "Továbbképzett Tartalékos Gyalogosok, akik gyors mozgásra és tüzelési pontosságra specializálódtak.",
-    "11": "Könnyű lovasság, ami tökéletes a meggyengült és menekülő egységek megtámadására, azonban vergődni fognak magas organizációjú egységek ellen. Használd a gyalogságodat vagy a tüzérségedet, hogy meggyengítsd az ellenfeledet, mielőtt bevetnéd a könnyűlovasságod.",
-    "5": "Közepesen Elit Lovasság, ami lándzsákkal végez pusztítást az ellenfél soraiban - Könnyen menekülésre tudsz kényszíeríteni ellenséges egységeket, ha Lenszer rohamok sorozatával támadsz rá az ellenségedre. Azonban nem annyira effektívek az elhúzódó közelharcokban.",
-    "8": "Rettenetes Nehézlovasság, ami minden egység közül a legerősebb közelharci támadással rendelkezik, azonban még mindig úgy a legjobb, ha megtudod gyengíteni az ellenségedet gyalogsággal vagy tüzérséggel, mielőtt bevetnél a nehézlovasságodat.",
+    "7": "Továbbképzett sorgyalogosok, akik gyors mozgásra és tüzelési pontosságra specializálódtak.",
+    "11": "Könnyűlovasság, ami tökéletes a meggyengült és menekülő egységek megtámadására, azonban vergődni fognak magas organizációjú egységek ellen. Használd a gyalogságodat vagy a tüzérségedet, hogy meggyengítsd az ellenfeledet, mielőtt bevetnéd a könnyűlovasságod.",
+    "5": "Félnehéz, elit lovasság, ami kopjákkal végez pusztítást az ellenfél soraiban - Könnyen menekülésre tudsz kényszeríteni ellenséges egységeket, ha Ulánus rohamok sorozatával támadsz rájuk. Azonban nem annyira effektívek az elhúzódó közelharcokban.",
+    "8": "Rettenetes nehézlovasság, ami minden egység közül a legerősebb közelharci támadással rendelkezik, azonban még mindig úgy a legjobb, ha megtudod gyengíteni az ellenségedet gyalogsággal vagy tüzérséggel, mielőtt bevetnéd vérteseid.",
     "12": "A napóleoni fegyvernem legnehezebb súlyú ágyúja. Kiváló távolságra képes ellőni.",
     "6": "Ennek a tüzérségnek a sebessége és alacsony költsége kiválóvá teszi arra, hogy a lovassággal vagy frontvonallal együtt mozoghasson, és hogy olyan manővereket hajtson létre, amire más tüzérségi egységek nem lennének képesek.",
-    "9": "A könnyű mozsárágyúk robbanó tölteggel és kifejezetten halálós rövid-távú sörétes lövedékekkel rendelkeznek - Ideális a gyalogságod támogatására közeli és közepes távolságokból.",
+    "9": "A könnyű mozsárágyúk robbanó töltettel és kifejezetten halálos rövid-távú sörétes lövedékekkel rendelkeznek - Ideális a gyalogságod támogatására közeli és közepes távolságokból.",
     "10": "„Bármilyen bizalmat helyezni a milíciába annyi, mint biztosan egy törött botra támaszkodni.” - George Washington",
     "13": "„A baskír lovas íjászok kétségtelenül a világ legkevésbé veszélyes csapatai.“ - Marbot báró, figyelmen kívül hagyva egy nyilat a combjában"
   },
@@ -241,8 +236,8 @@
 
   "damage": "Sebzés",
   "orgDamage": "Org Sebzés",
-  "enfiladeFireModifiers": "Oldalsótűz Modifierek",
-  "rearFireModifiers": "Háttűz Modifierek",
+  "enfiladeFireModifiers": "Oldalsótűz Módosítók",
+  "rearFireModifiers": "Háttűz Módosítók",
   "targetAltitude": "Célpont Magassága",
   "canCaptureObjectives": "Képes objektívákat elfoglalni",
   "cantCaptureObjectives": "Nem tud objektívákat elfoglalni",
@@ -250,15 +245,15 @@
   "closeRange": "Közeli Hatótáv",
   "midRange": "Közepes Hatótáv",
   "longRange": "Hosszú Hatótáv",
-  "shootingAngle": "Kilőtt löveg pályájának íve",
+  "shootingAngle": "Kilőtt lövedék pályájának íve",
   "closeAttackDamage": "Közeli Támadási Sebzés",
   "longAttackDamage": "Távoli Támadási Sebzés",
   "arcHeight": "Ív magasság",
   "aoe": "Effekt kihatásának területe",
   "type": "Típus",
-  "circular": "Kör alakú",
+  "circular": "Körkörös",
   "radius": "Sugár",
-  "edgeDamageModifier": "Kerület-menti Sebzés Modifierek",
+  "edgeDamageModifier": "Kerület-menti Sebzés Módosítók",
   "absorption": "Abszorpció",
   "trapezoidal": "Trapéz alakú",
   "topWidth": "Felső szélesség",
@@ -292,7 +287,7 @@
   "retry": "Újra",
 
   "networkErrorModal": {
-    "title": "Oops! Megszűnt a Kapcsolat!",
+    "title": "Hoppá! Megszűnt a Kapcsolat!",
     "message": "Úgy tűnik, hogy megszakadt a kapcsolat. Ne aggódj, továbbra is játszhatsz offline."
   },
 
@@ -312,7 +307,7 @@
   "armyInvalid": "Érvénytelen sereg, ameddig nem módosítod, addig az alap összetételt fogod csak tudni használni ebben a módban.",
 
   "landing": {
-    "title": "Üdv a Lines of Battle játékban!",
+    "title": "Üdv a <0>Lines of Battle</0> játékban!",
     "message": "A <b>Lines of Battle</b> egy többnyire többjátékos, egyidejű körökön alapuló stratégia játék, ami a napóleoni időkben játszódik. A játék taktikai és történelmi elmélyülésre lett tervezve, s epikus csaták megörökítésére, melyek során a képességeid és stratégiai érzéked alapján vezetheted győzelemre seregeidet.",
     "privacy": "A kezdéssel beleegyezel az <0>Adatvédelmi Nyilatkozatunkba</0>."
   },
@@ -339,9 +334,9 @@
     "tip4": "A mozsár lövedékeinek bejárt pályája magasan ívelt, így sokkal effektívebbek a többi tüzérségi egységnél erdőben vagy épületekben bújkáló ellenség megtámadásában.",
     "tip5": "Az egységed kijelölésével sok hasznos információt tudsz felfedezni, ha rányomsz az Info (hotkey I) gombra.",
     "tip6": "A menekülő egységek lassabb szerzik vissza az organizációjukat és potenciálisan teljesen elhagyhatják a csatateret. Vigyázz az alacsony organizációjú egységeidre, és helyezd őket biztonságba, mielőtt pánikolt menekülésbe kezdenének.",
-    "tip7": "A lovas tüzérség és a Mozsár sokkal gyorsabb, mint a 12-fontos Gyalogos Tüzérség. Bár veszélyes lehet a fronttal együtt mozgatnod őket, megfordíthatják a csata menetét a retteget közel-távú sörétes tüzelőerejükkel.",
+    "tip7": "A lovasított tüzérség és a Mozsár sokkal gyorsabb, mint a 12-fontos Gyalogos Tüzérség. Bár veszélyes lehet a fronttal együtt mozgatnod őket, megfordíthatják a csata menetét a retteget közel-távú sörétes tüzelőerejükkel.",
     "tip8": "Amikor kijelölsz egy egységet, Látni fogod az organizációs sugarukat kék színben megjelenítve. Az ezen belülre eső ellenség folyamatosan veszíteni fog az organizációjából, míg a barátságos egységek organizációja javulni fog.",
-    "tip9": "A Lenszer avagy lándzsás lovasság egy elit lovassági egység, ami a pusztító rohamjairól híres, Azonban jelentősen gyengébb elhúzódó közelharcban nehézlovasság ellen.",
+    "tip9": "Az Ulánus egy elit lovassági egység, ami a pusztító rohamjairól híres, Azonban jelentősen gyengébb elhúzódó közelharcban nehézlovasság ellen.",
     "tip10": "Ha oldalról lősz rá egy gyalogos egységre, akkor jelentősen többet sebzel rajta, mintha szemből tennéd ugyanezt.",
     "tip11": "Az ellenség sorainak megritkításával vagy az objektívájuk elfoglalásával győzelmi pontokat tudsz szerezni. Egy jelentős vezetés győzelmi pontokban lelassítja az ellenfél egységeinek organizációjának visszaállásának sebbességét, továbbá bebiztosítja a győzelmedet, ha a meccs kifutna az időből.",
     "tip12": "Támadd oldalba az ellenfeled! Akadályozd meg, hogy bekerítse az ellenfél az egységeidet!",
@@ -349,9 +344,9 @@
     "tip14": "Ha van bármi kérdésed a játékkal kapcsolatban, a Lines of Battle Wiki, Reddit és Discord felületein segítséget tudsz kérni.",
     "tip15": "Ha élvezed a Lines of Battle-t, és támogatni szeretnéd a fejlesztését, válj Patreon-ná! Minden segítség számít.",
     "tip16": "Tudtad, hogy szabadon eltudod helyezni az objektívádat a meccs legelején?",
-    "tip17": "Foglald el az ellenség objektíváját azzal, hogy 1 gyalogos egységgel rajta állsz 8 körig vagy 8 egységgel 1 körig, és így tovább...",
+    "tip17": "Foglald el az ellenség objektíváját úgy, hogy 1 gyalogos egységgel rajta állsz 8 körig vagy 8 egységgel 1 körig, és így tovább...",
     "tip18": "Válaszd ki az 'Utasítások' gombot hogy olyanokat tudj parancsba adni, mint például a 'Visszahúzódás', 'Mozgás közben lövés', és 'Célpont megadása.'",
-    "tip19": "A nehézgyalogság és nehézlovasság kifejezetten nagy hatással van a környező egységek organizációjára. Ez az effektus stackelődhet, és segíthet a csata kimenetelének megfordításában.",
+    "tip19": "A gárda és a vértesek kifejezetten nagy hatással van a környező egységek organizációjára. Ez az effektus stackelődhet, és segíthet a csata kimenetelének megfordításában.",
     "tip20": "Ne zárd el a tüzérséged lővonalát! Ne mozgasd be a gyalogságodat eléjük!",
     "tip21": "\"A lovasságnak kell követnie a győzelmet, és megakadályoznia, hogy a legyőzött ellenség újra összegyűljön.\" - Napoleon Bonaparte",
     "tip22": "\"A lovasság tartalékolását a csata végére tervezni azt jelenti, hogy nincs fogalmad a gyalogság és lovasság együttes rohamainak erejéről, sem támadásra, sem védekezésre.\" - Napoleon Bonaparte"
@@ -475,5 +470,6 @@
 
   "formation": "Képzés",
   "findGame": "Játék keresése",
-  "gameIdOrLink": "Játékazonosító vagy link"
+  "gameIdOrLink": "Játékazonosító vagy link",
+  "playFree": "Ingyen Játszik"
 }

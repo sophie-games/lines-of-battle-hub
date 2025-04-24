@@ -1,7 +1,5 @@
 {
-  "finishedAt": "Завершено: {{date}}",
   "watchGame": "Ход битвы",
   "loadingGames": "Загружаем игры...",
-  "noFinishedGamesYet": "Ни одной игры не найдено!",
-  "gameId": "Игра №: {{id}}"
+  "noFinishedGamesYet": "Ни одной игры не найдено!"
 }

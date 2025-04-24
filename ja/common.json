@@ -15,7 +15,6 @@
   "credits": "クレジット",
 
   "settings": "設定",
-  "eloScore": "あなたのEloは{{elo}}です",
   "eloDescription": "Eloは、プレイヤーの相対的なスキルレベルを計算するためのレーティングシステムです。Eloが高いほど、他のプレイヤーより強いことを示します。勝利するとEloが上がり、敗北すると下がります。",
   "welcomeName": "ようこそ、{{name}}さん！",
   "myGames": "マイゲーム",
@@ -53,7 +52,6 @@
     "inQueue": "現在マッチメイキングキューにいます。同じ設定を選択したプレイヤーを探しています。",
     "matchFound": "マッチが見つかると、自動的にゲームに移動します。",
     "continueMatchmaking": "このページを離れてもマッチメイキングは継続し、マッチが成立すると通知されます。",
-    "nextQueueCheck": "次のキュー確認まで{{countdown}}秒",
     "onlyClanMembers": "連合チームメイトとだけプレイする"
   },
 
@@ -87,9 +85,6 @@
   "customDescription": "カスタムモードでは、特定の設定でゲームを作成し、友達を招待できます。",
   "createCustomGame": "カスタムゲームを作成",
   "maxTurn": "最大ターン数",
-
-  "copied": "コピーしました！",
-  "copyLink": "リンクをコピー",
 
   "player": "プレイヤー",
   "units": "ユニット",
@@ -312,7 +307,7 @@
   "armyInvalid": "この軍編成は無効です。修正してください。",
 
   "landing": {
-    "title": "Lines of Battleへようこそ",
+    "title": "<0>Lines of Battle</0>へようこそ",
     "message": "<b>Lines of Battle</b>は、ナポレオン戦争時代を舞台にしたマルチプレイヤー、同時ターン制戦略ゲームです。戦術的な深みと歴史的な没入感を提供し、他のプレイヤーと壮大な戦闘を繰り広げ、技術と戦略を駆使して相手を打ち負かすことが求められます！",
     "privacy": "開始することで、私たちの<0>プライバシーポリシー</0>に同意したことになります。"
   },
@@ -528,5 +523,6 @@
 
   "formation": "形成",
   "findGame": "ゲームを見つける",
-  "gameIdOrLink": "ゲームIDまたはリンク"
+  "gameIdOrLink": "ゲームIDまたはリンク",
+  "playFree": "無料で遊ぶ"
 }

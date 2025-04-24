@@ -15,7 +15,6 @@
   "credits": "Autorzy",
 
   "settings": "Ustawienia",
-  "eloScore": "Twoje Elo to {{elo}}",
   "eloDescription": "Elo to system oceny używany do obliczenia względnego poziomu umiejętności graczy. Im wyższe jest twoje Elo, tym lepszy jesteś w porównaniu do innych. Wygrywanie zwiększa twoje Elo, a przegrywanie je zmniejsza.",
   "welcomeName": "Witaj {{name}}!",
   "myGames": "Moje partie",
@@ -53,7 +52,6 @@
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
     "continueMatchmaking": "Nawet jeśli wyjdziesz z tej strony, proces szukania partii nadal będzie trwał i otrzymasz powiadomienie, gdy partia zostanie znaleziona.",
-    "nextQueueCheck": "Następne sprawdzenie kolejki za {{countdown}} sekund.",
     "onlyClanMembers": "Graj tylko z członkami koalicji"
   },
 
@@ -87,9 +85,6 @@
   "customDescription": "Tryb Niestandardowa Partia pozwala stworzyć partię ze specyficznymi ustawieniami i zaprosić znajomych do gry.",
   "createCustomGame": "Stwórz Niestandardową Partię.",
   "maxTurn": "Maksymalna ilość tur",
-
-  "copied": "Skopiowano!",
-  "copyLink": "Skopiuj link",
 
   "player": "Gracz",
   "units": "Jednostki",
@@ -314,7 +309,7 @@
   "armyInvalid": "Ta armia jest niewłaściwa, proszę ją zmodyfikować.",
 
   "landing": {
-    "title": "Witaj w Lines of Battle",
+    "title": "Witaj w <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b>, to wieloosobowa, gra strategiczna z równoczesnymi turami osadzona w czasach Wojen Napoleońskich. Doświadcz głębi taktycznej i historycznej immersji, tocz epickie bitwy przeciwko innym graczom, użyj zdolności i strategii, aby przechytrzyć i pokonać wroga!",
     "privacy": "Zaczynając, zgadzasz się z naszą <0>Polityką Prywatności</0>."
   },
@@ -539,5 +534,6 @@
 
   "formation": "Formacja",
   "findGame": "Znajdź grę",
-  "gameIdOrLink": "ID gry lub link"
+  "gameIdOrLink": "ID gry lub link",
+  "playFree": "Grać za Darmo"
 }

@@ -1,16 +1,16 @@
 {
-    "currencyShop": {
-        "title": "Отримай <0/>",
-        "subtitle": "Відкривайте неймовірні косметичні предмети й виділяйтесь з-поміж інших!"
-    },
-    "aboutCurrencies": "Про валюти",
-    "currency": {
-        "basic": "<currency/>: Earn this by playing matches in the queue. Use it to recruit units and build your army.",
-        "premium": "<currency/>: Заробляйте цю валюту, беручи участь в рейтинговиг боях. Використовуйте її для вербування підрозділів і створення своєї армії.",
-        "rate": "{{rate}} {{currency}} за Долар США",
-        "purchase": "Купити {{amount}} {{currency}}",
-        "totalSold": "Загалом <currency/> продано на цей момент: {{amount}}",
-        "nextGoal": "Таступна ціль: {{goal}} <currency/> "
-    },
-    "purchaseConfirmation": "Ви впевнені, що хочете придбати {{item}}?"
+  "currencyShop": {
+    "title": "Отримай <0/>",
+    "subtitle": "Відкривайте неймовірні косметичні предмети й виділяйтесь з-поміж інших!"
+  },
+  "aboutCurrencies": "Про валюти",
+  "currency": {
+    "basic": "<currency/>: Earn this by playing matches in the queue. Use it to recruit units and build your army.",
+    "premium": "<currency/>: Заробляйте цю валюту, беручи участь в рейтинговиг боях. Використовуйте її для вербування підрозділів і створення своєї армії.",
+    "rate": "{{rate}} {{currency}} за Долар США",
+    "purchase": "Купити {{amount}} {{currency}}",
+    "totalSold": "Загалом <currency/> продано на цей момент: {{amount}}",
+    "nextGoal": "Таступна ціль: {{goal}} <currency/> "
+  },
+  "purchaseConfirmation": "Ви впевнені, що хочете придбати {{item}}?"
 }

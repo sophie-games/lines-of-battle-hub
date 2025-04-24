@@ -15,7 +15,6 @@
   "credits": "Créditos",
 
   "settings": "Configurações",
-  "eloScore": "Seu Elo é {{elo}}",
   "eloDescription": "Elo é um sistema de pontuação usado para calcular o nível de habilidade relativo dos jogadores. Quanto maior seu Elo, mais forte você é em comparação com os outros. Vencer aumenta seu Elo, enquanto perder diminui.",
   "welcomeName": "Bem-vindo {{name}}!",
   "myGames": "Meus jogos",
@@ -53,7 +52,6 @@
     "inQueue": "Você está agora na fila de matchmaking! O sistema está procurando outro jogador que selecionou as mesmas configurações que você.",
     "matchFound": "Assim que uma partida for encontrada, você será redirecionado para o jogo.",
     "continueMatchmaking": "Mesmo se você sair desta página, o processo de matchmaking continuará, e você será notificado quando uma partida for feita.",
-    "nextQueueCheck": "Próxima verificação da fila em {{countdown}} segundos.",
     "onlyClanMembers": "Jogue apenas com companheiros de coalizão"
   },
 
@@ -87,9 +85,6 @@
   "customDescription": "O modo personalizado permite que você configure um jogo com configurações específicas e convide amigos para jogar.",
   "createCustomGame": "Criar jogo personalizado",
   "maxTurn": "Turno máximo",
-
-  "copied": "Copiado!",
-  "copyLink": "Copiar Link",
 
   "player": "Jogador",
   "units": "Unidades",
@@ -312,7 +307,7 @@
   "armyInvalid": "Este exército é inválido, por favor, modifique-o.",
 
   "landing": {
-    "title": "Bem-vindo ao Lines of Battle",
+    "title": "Bem-vindo ao <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b> é um jogo de estratégia baseado em turnos simultâneos multijogador ambientado durante as Guerras Napoleônicas. Projetado para profundidade tática e imersão histórica, você participará de batalhas épicas contra outros, usando habilidade e estratégia para superar e derrotar seus oponentes!",
     "privacy": "Ao começar, você concorda com nossa <0>Política de Privacidade</0>."
   },
@@ -535,5 +530,6 @@
 
   "formation": "Formação",
   "findGame": "Encontrar jogo",
-  "gameIdOrLink": "ID do jogo ou link"
+  "gameIdOrLink": "ID do jogo ou link",
+  "playFree": "Jogar Grátis"
 }

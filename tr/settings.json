@@ -1,0 +1,111 @@
+{
+  "gameplay": "Oynanış",
+  "graphics": "Grafikler",
+  "camera": "Kamera",
+  "sound": "Ses",
+  "language": "Dil",
+
+  "multiTurnOrders": {
+    "title": "Çok Turlu Emirler",
+    "description": "Bu ayarı açmak, oyunun bir turdan diğerine hatırlayacağı ve uygulayacağı emirleri vermenizi sağlar. Bu çok turlu emirler, 10 tura kadar hareketi kapsayabilir ve Hareket gibi konum emirlerini ve Ara gibi hedef emirlerini içerir."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Çok Turlu Yol Minimum Mesafesi"
+  },
+  "edgePanning": {
+    "title": "Kenar Kaydırma",
+    "description": "Fare ekran kenarlarına ulaştığında kaydırmayı etkinleştir (PC)."
+  },
+  "useTouchControls": {
+    "title": "Dokunmatik Kontrolleri Kullan",
+    "description": "Etkinleştirilirse, dokunmatik bir cihaz gibi kontroller kullanılır. Etkinleştirilmezse, PC gibi kontroller kullanılır."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Dokunmatik Seçim Kutusuna İzin Ver",
+    "description": "Dokunmatik cihazlarda birden fazla birimi aynı anda seçmek için seçim kutularını etkinleştir."
+  },
+  "smartCurvedMovements": {
+    "title": "Akıllı Kavisli Hareketler",
+    "description": "Bu seçeneği etkinleştirerek, dönüşler sırasında hız kaybını en aza indiren pürüzsüz kavisli hareket yollarını optimize edebilirsiniz."
+  },
+  "openSelectOrderModal": {
+    "title": "Emir Seçim Modalını Aç",
+    "description": "Bu seçeneği etkinleştirerek, oynanış sırasında emir seçimi için bir modal gösterilir."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Yeni Savaş Olayları Modalını Göster"
+  },
+  "hidePlayerInfo": {
+    "title": "Oyuncu Bilgilerini Gizle",
+    "description": "Oyun arayüzünde ELO ve kullanıcı adlarını gizler, oyuncuları anonim hale getirir."
+  },
+  "smartReplayCamera": {
+    "title": "Akıllı Tekrar Kamerası",
+    "description": "Tekrarlar sırasında seyirci kamerasının otomatik olarak eyleme odaklanmasını sağlar."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Akıllı Tekrar Kamerası Yakınlaştırma"
+  },
+  "zoomSensibility": {
+    "title": "Yakınlaştırma Hassasiyeti"
+  },
+  "cameraSensibility": {
+    "title": "Kamera Hassasiyeti (PC)"
+  },
+  "replaySpeed": {
+    "title": "Tekrar Hızı"
+  },
+  "playerColor": {
+    "title": "Oyuncu Rengi"
+  },
+  "enemyColor": {
+    "title": "Düşman Rengi"
+  },
+  "allyColor": {
+    "title": "Müttefik Rengi"
+  },
+  "generalVolume": {
+    "title": "Genel Ses Seviyesi"
+  },
+
+  "shadows": {
+    "title": "Gölgeler",
+    "description": "Birimlerde gölgeleri etkinleştirir. Bu, birimlerin güncellenmesi için oyunun tur geçmesini gerektirebilir."
+  },
+
+  "fullScreen": {
+    "title": "Tam Ekran",
+    "description": "Uygulama için tam ekran modunu açıp kapatır",
+    "toggle": "Tam Ekranı Değiştir"
+  },
+
+  "resetSettings": {
+    "title": "Ayarları Sıfırla",
+    "description": "Tüm ayarları varsayılan değerlerine geri yükler. Bu işlem, yaptığınız tüm özelleştirmeleri geçersiz kılacaktır."
+  },
+
+  "reset": "Sıfırla",
+
+  "lineFormation": "Hat Formasyonu",
+  "checkerboardFormation": "Dama Tahtası Formasyonu",
+  "spaceBetweenUnits": "Birimler Arasındaki Boşluk",
+  "spaceBetweenLines": "Hatlar Arasındaki Boşluk",
+
+  "keybindings": {
+    "title": "Tuş Atamaları",
+    "pressAKey": "Bir tuşa basın...",
+    "moveUp": "Yukarı hareket et",
+    "moveDown": "Aşağı hareket et",
+    "moveLeft": "Sola hareket et",
+    "moveRight": "Sağa hareket et",
+    "info": "Bilgi",
+    "submitOrders": "Emirleri gönder",
+    "deselect": "Seçimi kaldır",
+    "moveOrder": "Hareket emri",
+    "seekOrder": "Ara emri",
+    "shootOrder": "Ateş emri",
+    "fireAndAdvanceOrder": "Ateş ve ilerle emri",
+    "fallbackOrder": "Geri çekil emri",
+    "toggleFormation": "Formasyonu değiştir"
+  }
+}

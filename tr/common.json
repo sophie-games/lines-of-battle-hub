@@ -1,0 +1,539 @@
+{
+  "appLoadingMessage": "Savaş Çizgilerine Hoş Geldiniz!",
+  "home": "Ana Sayfa",
+  "language": "Dil",
+  "tutorial": "Eğitim",
+  "play": "Oyna",
+  "ranking": "Sıralama",
+  "profile": "Profil",
+  "history": "Geçmiş",
+  "store": "Mağaza",
+  "supporters": "Destekçiler",
+  "elo": "Elo",
+  "joinedAt": "{{date}} tarihinde katıldı",
+  "addPlayer": "Oyuncu ekle",
+  "credits": "Katkılar",
+
+  "settings": "Ayarlar",
+  "eloDescription": "Elo, oyuncuların göreceli beceri seviyelerini hesaplamak için kullanılan bir derecelendirme sistemidir. Elo'nuz ne kadar yüksekse, diğerlerine göre o kadar güçlüsünüz demektir. Kazanmak Elo'nuzu artırır, kaybetmek ise düşürür.",
+  "welcomeName": "Hoş geldiniz {{name}}!",
+  "myGames": "Oyunlarım",
+  "gameStatus": {
+    "available": "Oynamaya Hazır",
+    "notStarted": "Oyun Henüz Başlamadı"
+  },
+  "loadingGames": "Oyunlar yükleniyor...",
+  "noGamesYet": "Henüz oyun yok! Yeni bir tane oluşturmak için Oyna'ya tıklayın.",
+  "failedToLoadGames": "Oyunlar yüklenemedi. Lütfen tekrar deneyin.",
+  "armyCompositions": "Ordu Kompozisyonları",
+  "account": "Hesap",
+  "scenarioEditor": "Senaryo Editörü",
+  "wiki": "Viki",
+  "gameCard": {
+    "title": "Oyun {{id}}",
+    "turn": "Tur {{turnNumber}}/{{maxTurn}}"
+  },
+
+  "withdrawMessage": "Bu oyundan çekilirseniz bu bir kayıp olarak sayılacak ve Elo'nuz düşecektir, çekilmek istediğinizden emin misiniz?",
+
+  "loading": "Yükleniyor...",
+  "yes": "Evet",
+  "no": "Hayır",
+  "by": "Tarafından",
+  "logout": "Çıkış Yap",
+
+  "createNewGame": "Yeni oyun oluştur",
+  "randomGameInfo": "Rastgele oluşturulan oyunlar için, oyun seçtiğiniz savaş modu için oluşturduğunuz orduyu kullanır. Ordularınızı <0>Ordu Kompozisyonları</0> bölümünde görüntüleyebilir ve yönetebilirsiniz. Eğer o mod için henüz bir ordu oluşturmadıysanız, varsayılan bir ordu kullanılacaktır.",
+  "selectGameMode": "Aşağıdaki seçeneklerden oyun modunu seçin.",
+  "or": "Veya",
+  "cancel": "İptal",
+
+  "matchmakingQueue": {
+    "inQueue": "Şimdi eşleştirme kuyruğundasınız! Sistem, sizinle aynı ayarları seçmiş başka bir oyuncu arıyor.",
+    "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz.",
+    "continueMatchmaking": "Bu sayfadan ayrılsanız bile eşleştirme süreci devam edecek ve bir eşleşme olduğunda size bildirim gönderilecektir.",
+    "onlyClanMembers": "Yalnızca koalisyon takım arkadaşlarıyla oyna"
+  },
+
+  "fastMode": "Hızlı Mod",
+  "slowMode": "Yavaş Mod",
+  "maxTimePerTurn": "Tur başına maksimum süre",
+
+  "turnTimeLimit": {
+    "30s": "30 saniye",
+    "1m": "1 dakika",
+    "2m": "2 dakika",
+    "3m": "3 dakika",
+    "5m": "5 dakika",
+    "1d": "1 gün",
+    "3d": "3 gün",
+    "7d": "7 gün"
+  },
+
+  "battleType": "Savaş türü",
+  "dynamicBattleType": {
+    "skirmish": "Çatışma",
+    "clash": "Karşılaşma",
+    "combat": "Mücadele",
+    "battle": "Savaş",
+    "grand_battle": "Büyük Savaş"
+  },
+
+  "matchmaking": "Eşleştirme",
+  "matchmakingDescription": "Eşleştirme modu, önceden tanımlanmış ayarlarla rastgele oyuncularla hızlıca bir oyuna katılmanızı sağlar.",
+  "custom": "Özel",
+  "customDescription": "Özel mod, belirli ayarlarla bir oyun kurmanıza ve arkadaşlarınızı davet etmenize olanak tanır.",
+  "createCustomGame": "Özel oyun oluştur",
+  "maxTurn": "Maksimum tur",
+
+  "player": "Oyuncu",
+  "units": "Birimler",
+  "unitSkins": "Birim Görünümleri",
+  "avatars": "Avatarlar",
+  "withdraw": "Çekil",
+  "importScenario": "Senaryo içe aktar",
+  "importScenarioModal": {
+    "importInfo": "İstediğiniz herhangi bir senaryoyu içe aktarabilirsiniz.",
+    "createInfo": "Kendi senaryolarınızı bile <scenarioEditorLink/> içinde oluşturabilirsiniz."
+  },
+
+  "scenarioEditorTags": {
+    "tutorialMessage": "Nasıl kullanılacağını bilmiyor musunuz? Endişelenmeyin, size yardımcı olacağız! <tutorialLink>Burada eğitimi izleyin.</tutorialLink>"
+  },
+
+  "createScenario": "Senaryo Oluştur",
+  "loadScenario": "Senaryo Yükle",
+  "playOffline": "Çevrimdışı Oyna!",
+  "createOfflineGame": "Çevrimdışı oyun oluştur",
+  "chooseAScenario": "Bir senaryo seç",
+  "playerArmy": "Oyuncunun ordusu",
+  "botArmy": "Botun ordusu",
+  "army": "Ordu",
+
+  "deploymentStateMessage": "Bu, konuşlanma aşamasıdır. Bu turu, birimlerinizi konuşlanma bölgesinde istediğiniz yere yerleştirmek için kullanın. İşiniz bittiğinde, yerleştirmeyi uygulamak için emirlerinizi gönderin.",
+  "youAreColor": "Siz {{color}}sunuz!",
+  "getStarted": "Başla",
+
+  "colorTag": {
+    "1": "Mavi",
+    "2": "Kırmızı",
+    "3": "Sarı",
+    "4": "Yeşil",
+    "5": "Siyah"
+  },
+
+  "resume": "Devam Et",
+  "offerDraw": "Beraberlik Teklif Et",
+  "replayBattle": "Savaşı Tekrar Oyna",
+  "result": "Sonuç",
+  "exit": "Çık",
+  "attackColor": "Saldırı rengi",
+  "purchase": "Satın Al",
+  "purchased": "Satın Alındı",
+  "forUnit": "{{unit}} için",
+  "select": "Seç",
+  "deselect": "Seçimi Kaldır",
+
+  "unitStat": {
+    "hp": "Can",
+    "org": "Organizasyon",
+    "movement": "Hareket",
+    "meleeAttack": "Yakın Saldırı",
+    "meleeDefense": "Yakın Savunma",
+    "chargeBonus": "Hücum Bonusu",
+    "chargePenetration": "Hücum Penetrasyonu",
+    "orgRadius": "Organizasyon Yarıçapı",
+    "orgRadiusBonus": "Organizasyon Yarıçap Bonusu",
+    "rangedAttack": "Uzak Saldırı",
+    "limberMovement": "Hafif Hareket",
+    "chargeResistance": "Hücum Direnci",
+    "status": "Durum",
+    "currentChargeResistance": "Mevcut Hücum Direnci"
+  },
+
+  "unitCategory": {
+    "1": "Piyade",
+    "2": "Süvari",
+    "3": "Topçu",
+    "4": "Hafif Piyade",
+    "5": "Hafif Süvari",
+    "6": "Ağır Süvari",
+    "7": "Milis Piyade"
+  },
+
+  "category": "Kategori",
+
+  "damageType": {
+    "musket": "Muskete",
+    "light-musket": "Hafif Muskete",
+    "artillery-sabre": "Topçu Kılıcı",
+    "bayonet": "Süngü",
+    "cannon-ball": "Top Gültesi",
+    "cavalry-sabre": "Süvari Kılıcı",
+    "cavalry-lance": "Süvari Mızrağı",
+    "light-cannon-ball": "Hafif Top Gültesi",
+    "explosive-shell": "Patlayıcı Mermi",
+    "cavalry-sword": "Süvari Kılıcı",
+    "canister-fire": "Kartuş Ateşi",
+    "light-canister-fire": "Hafif Kartuş Ateşi",
+    "howitzer-canister": "Obüs Kartuşu",
+    "heavy-cannon-ball": "Ağır Top Gültesi",
+    "heavy-canister-fire": "Ağır Kartuş Ateşi",
+    "dragoon-sword": "Ejder Kılıcı",
+    "horse-archer-bow": "Atlı Okçu Yayı"
+  },
+
+  "unitName": {
+    "1": "Hat Piyadesi",
+    "2": "Ejderler",
+    "3": "8-libre Ayak Topçusu",
+    "4": "Muhafız Piyadesi",
+    "5": "Mızraklılar",
+    "6": "6-libre Atlı Topçu",
+    "7": "Hafif Piyade",
+    "8": "Zırhlı Süvari",
+    "9": "6-inç Obüs",
+    "10": "Milis",
+    "11": "Husarlar",
+    "12": "12-libre Ayak Topçusu",
+    "13": "Atlı Okçular"
+  },
+
+  "battalionName": {
+    "1": "{{n}} Hat Taburu",
+    "2": "{{n}} Ejderler",
+    "3": "{{n}} Ayak Bataryası",
+    "4": "{{n}} Muhafız Taburu",
+    "5": "{{n}} Mızraklılar",
+    "6": "{{n}} Atlı Batarya",
+    "7": "{{n}} Hafif Tabur",
+    "8": "{{n}} Zırhlı Süvari",
+    "9": "{{n}} Obüs Bataryası",
+    "10": "{{n}} Milis",
+    "11": "{{n}} Husarlar",
+    "12": "{{n}} Ayak Bataryası",
+    "13": "{{n}} Atlı Okçular"
+  },
+
+  "unitDescription": {
+    "1": "Mütevazı hat piyade taburu, ordunun temel birimidir. Ana silahı muskete olsa da, süngü ile süvarilere karşı koyabilir veya diğer piyade ve topçulara hücum edebilir.",
+    "2": "Güvenilir, çok yönlü orta sınıf süvari; taciz için olduğu kadar uzun süreli çatışmalar için de uygundur.",
+    "3": "Uygun fiyatlı orta sınıf topçu; mütevazı hareket kabiliyeti ve ateş gücü ile birlikte etkileyici kartuş ateşi sağlar.",
+    "4": "Tecrübeli, fiziksel olarak etkileyici askerler; dost askerlere ilham verme ve düşmanları korkutma yeteneğine sahiptir. Bu elit birimler, yalnızca en yetkin askerlere özeldir, bu da onları sahaya sürmeyi çok daha pahalı hale getirir. Korkutma ve mükemmel yakın dövüş özellikleri, süngü hücumunda en iyi şekilde kullanılır.",
+    "7": "Hızlı hareket ve nişancılık üzerine özel eğitim almış elit hat piyadesi.",
+    "11": "Zayıf, hasar görmüş ve dağılmış düşmanlara saldırmak için uygun hafif süvari. Ancak organize piyade ve ağır süvari karşısında zorlanacaktır. Önce düşmanı piyade ve topçu ile zayıflatın.",
+    "5": "Mızrak kullanarak yıkıcı hücumlar gerçekleştiren elit orta sınıf süvari - birden fazla Mızraklı birliği tarafından yapılan bir dizi hücum, herhangi bir direnişi hızla bozguna uğratır. Ancak uzun süreli bir yakın dövüşte çok daha az etkileyicidirler.",
+    "8": "Herhangi bir birimin en güçlü çok yönlü yakın dövüş etkinliğine sahip olan korkutucu ağır süvari. Yine de, Zırhlı Süvarileri göndermeden önce düşmanı piyade veya topçu ile zayıflatmak en iyisidir.",
+    "12": "Napolyon ordusunun sahip olduğu en ağır saha topu; bu bataryalar son derece pahalı olsa da menzilleri ve güçleri eşsizdir.",
+    "6": "Bu topçunun hızı ve düşük maliyeti, süvarileri desteklemek veya piyade hattınızla birlikte ilerlemek için uygundur.",
+    "9": "Patlayıcı mermilere sahip hafif saha obüsleri ve özellikle ölümcül kısa menzilli kartuş ateşi - piyade hattınızı orta ve kısa mesafede desteklemek için idealdir.",
+    "10": "“Milislere herhangi bir güven duymak, kesinlikle kırık bir asaya dayanmaktır.” - George Washington",
+    "13": "“Başkır atlı okçuları, şüphesiz dünyadaki en az tehlikeli birliklerdir.” - Baron Marbot, uyluğundaki oku görmezden gelerek"
+  },
+
+  "damageResistances": "Hasar Dirençleri",
+  "otherStats": "Diğer İstatistikler",
+  "damageModifier": "Hasar Değiştirici",
+  "orgDamageRatio": "Organizasyon Hasar Oranı",
+
+  "damage": "Hasar",
+  "orgDamage": "Organizasyon Hasarı",
+  "enfiladeFireModifiers": "Yan Ateş Değiştiricileri",
+  "rearFireModifiers": "Arka Ateş Değiştiricileri",
+  "targetAltitude": "Hedef Yükseklik",
+  "canCaptureObjectives": "Hedefleri ele geçirebilir",
+  "cantCaptureObjectives": "Hedefleri ele geçiremez",
+  "enfiladeFire": "Yan Ateş",
+  "closeRange": "Yakın Mesafe",
+  "midRange": "Orta Mesafe",
+  "longRange": "Uzun Mesafe",
+  "shootingAngle": "Ateş Açısı",
+  "closeAttackDamage": "Yakın Saldırı Hasarı",
+  "longAttackDamage": "Uzun Saldırı Hasarı",
+  "arcHeight": "Yay Yüksekliği",
+  "aoe": "Etkilenen Alan",
+  "type": "Tür",
+  "circular": "Dairesel",
+  "radius": "Yarıçap",
+  "edgeDamageModifier": "Kenar Hasar Değiştirici",
+  "absorption": "Emilim",
+  "trapezoidal": "Yamuk",
+  "topWidth": "Üst Genişlik",
+  "bottomWidth": "Alt Genişlik",
+  "height": "Yükseklik",
+  "diminishByTargetOrg": "Hedef Organizasyonuna Göre Azalt",
+  "from": "dan",
+  "to": "e",
+  "lBy": "tarafından",
+  "terrainHitboxHeight": "Arazi Çarpışma Kutusu Yüksekliği",
+  "statusEffects": "Durum Etkileri",
+  "projectileAbsorption": "Mermi Emilimi",
+  "orgRegainByNearbyUnits": "Yakındaki Birimlerden Organizasyon Kazanımı",
+  "terrainPName": "Arazi: {{name}}",
+  "effects": "Etkiler",
+
+  "terrain": {
+    "0": "Kara",
+    "1": "Orman",
+    "2": "Bina",
+    "3": "Yol",
+    "4": "Su"
+  },
+
+  "clearPlayerUnits": "Oyuncu birimlerini temizle",
+  "clearBotUnits": "Bot birimlerini temizle",
+  "continueGame": "Oyuna devam et",
+  "createNewOfflineGame": "Yeni çevrimdışı oyun oluştur",
+  "filterBy": "Filtrele",
+  "name": "İsim",
+  "retry": "Tekrar Dene",
+
+  "networkErrorModal": {
+    "title": "Oops! Bağlantı Koptu",
+    "message": "Bağlantı başarısız gibi görünüyor. Endişelenmeyin! Hala çevrimdışı oynayabilirsiniz."
+  },
+
+  "needsUpdateModal": {
+    "title": "Güncelleme gerekli",
+    "message": "LoB'nin yeni bir sürümü mevcut! Çevrimiçi oynamaya devam etmek için lütfen en son sürüme güncelleyin."
+  },
+
+  "update": "Güncelle!",
+  "yourArmyCompositionsFor": "{{mode}} için Ordu Kompozisyonunuz",
+  "noUnitsYet": "Henüz birim yok",
+  "armyComposition": "Ordu Kompozisyonu",
+  "budgetAvailable": "Kullanılabilir Bütçe",
+  "saveArmy": "Orduyu kaydet",
+  "clearUnits": "Birimleri temizle",
+  "saving": "Kaydediliyor...",
+  "armyInvalid": "Bu ordu geçersiz, lütfen düzenleyin.",
+
+  "landing": {
+    "title": "<0>Lines of Battle</0>'na hoş geldiniz",
+    "message": "<b>Savaş Çizgileri</b>, Napolyon Savaşları döneminde geçen çok oyunculu, eşzamanlı tur tabanlı bir strateji oyunudur. Taktiksel derinlik ve tarihi atmosfer için tasarlanmıştır; beceri ve strateji kullanarak diğer oyunculara karşı epik savaşlara katılacaksınız!",
+    "privacy": "Başlayarak <0>Gizlilik Politikamızı</0> kabul etmiş olursunuz."
+  },
+
+  "welcomeModal": {
+    "title": "Savaş Çizgilerine Hoş Geldiniz 👋",
+    "thanks": "Katıldığınız için teşekkürler, {{name}}!",
+    "p1": "<b>Savaş Çizgileri</b>'nde yeni misiniz? Oyun mekaniklerini öğrenmek ve rahat bir ortamda stratejinizi geliştirmek için bir <offlineLink>çevrimdışı pratik oyunu</offlineLink> ile başlamanızı öneririm.",
+    "p2": "Oyun şu anda beta aşamasında olduğu için, diğer oyuncularla bağlantı kurmak, rakipler bulmak, hataları bildirmek ve oyun deneyimini herkes için iyileştirmek için fikirlerinizi paylaşmak adına <discordLink>Discord sunucusuna</discordLink> katılmaya davetlisiniz!"
+  },
+
+  "turn": "Tur",
+
+  "loadingScreen": {
+    "fonts": "Yazı tipleri yükleniyor...",
+    "joiningGame": "Oyuna katılınıyor...",
+    "resources": "Kaynaklar yükleniyor...",
+    "fetchingGameData": "Oyun verileri alınıyor...",
+    "generatingMap": "Harita oluşturuluyor...",
+
+    "tip1": "Yüksek organizasyona sahip birimler, hücumdan az veya hiç ek hasar almaz. Önce hedefleri ateşle yumuşatın.",
+    "tip2": "Husarlar, ağır çatışmalardan kaçınması gereken ve hasar görmüş birimlerle topçulara avlanan hafif süvarilerdir.",
+    "tip3": "Muskete ve topçular, uzun mesafeden çok orta mesafede daha fazla hasar verir.",
+    "tip4": "Obüsler yüksek bir yayla ateş eder, bu da onları ormanlardaki ve binalardaki hedeflere saldırmada diğer topçulardan çok daha etkili kılar.",
+    "tip5": "Bir birimi seçip Bilgi’ye (kısayol I) tıklayarak ve birim sekmelerini inceleyerek askerleriniz hakkında birçok faydalı bilgiye ulaşabilirsiniz.",
+    "tip6": "Dağılmış birimler yeniden organize olma cezalarına sahiptir ve tamamen haritadan kaçma riski taşır. Mümkün olduğunda düzensiz birimleri bozguna uğramadan önce güvenli bir yere çekin.",
+    "tip7": "Atlı topçu ve obüsler, 12 librelik topçudan çok daha hareketlidir. Onları piyadenizle ilerletmek riskli olabilir, ancak yakın mesafedeki güçlü kartuş ateşiyle savaşın seyrini değiştirebilir.",
+    "tip8": "Bir birimi seçtiğinizde, organizasyon yarıçapını açık mavi renkte görürsünüz. Bu yarıçaptaki düşmanlar organizasyon kaybederken, dostlar organizasyon kazanır.",
+    "tip9": "Mızraklılar, yıkıcı hücumlarına odaklanan elit süvarilerdir, ancak uzun süreli bir dövüşte Zırhlı Süvarilere göre daha zayıftır.",
+    "tip10": "Uzak saldırılar, bir piyade birimine yandan vurduğunda çok daha fazla hasar verir.",
+    "tip11": "Zayiat vererek veya piyade ile düşman hedefini ele geçirerek zafer puanları kazanabilirsiniz. Büyük bir zafer puanı avantajı, düşman birimlerinin yeniden organize olmasını yavaşlatır ve tur sınırı geldiğinde zaferi garantiler.",
+    "tip12": "Düşmanı yandan vurun, kendiniz yandan vurulmayın.",
+    "tip13": "Favori tekrarlarınızı Savaş Çizgileri Discord sunucusu üzerinden gönderin, geliştirici ekip onları YouTube’da öne çıkaracak!",
+    "tip14": "Oyunla ilgili sorularınız varsa, Savaş Çizgileri Wiki, Reddit ve Discord sunucusu size yardımcı olabilir.",
+    "tip15": "Savaş Çizgilerini beğendiyseniz ve yaratıcıyı desteklemek istiyorsanız, Patreon’a katılın! Her katkı yardımcı olur.",
+    "tip16": "Başlangıç aşamasında hedefinizi hareket ettirebileceğinizi biliyor muydunuz?",
+    "tip17": "Düşman hedefini ele geçirmek için bir piyade taburunu 8 tur boyunca üzerine yerleştirin veya 8 taburu bir tur için kullanın, vb.",
+    "tip18": "Emir düğmesini seçerek Çekilme, Ateş ve İlerleme ve Ateş gibi komutlara erişebilirsiniz.",
+    "tip19": "Muhafız Piyadesi ve Zırhlı Süvariler, sadece yakınlarda olarak diğer birliklerin organizasyonunu güçlü bir şekilde etkiler. Bu etki birikir ve birkaç elit birim savaşın seyrini değiştirebilir.",
+    "tip20": "Topçunuza açık bir görüş hattı bırakın; piyadenizi onun önüne manevra yaptırmayın.",
+    "tip21": "“Zaferi takip etmek ve yenilmiş düşmanın toparlanmasını önlemek süvarilerin görevidir.” - Napolyon Bonapart",
+    "tip22": "“Süvarileri savaşın sonuna saklamayı planlamak, piyade ve süvari kombinasyonunun saldırı veya savunma için gücünü hiç anlamamaktır.” - Napolyon Bonapart"
+  },
+
+  "fetchingBattleActions": "Savaş eylemleri alınıyor...",
+
+  "order": {
+    "1": "Hareket",
+    "2": "Ara",
+    "3": "Ateş",
+    "4": "Ateş ve İlerle",
+    "6": "Geri Çekil",
+    "7": "Çatışma"
+  },
+
+  "selectOrder": "Emir Seç",
+  "allowFireWhenMoving": "Hareket ederken ateşe izin ver",
+  "meleeDamage": "Yakın dövüş hasarı",
+  "rangedDamage": "Uzak mesafe hasarı",
+  "orgRegainByHp": "Can ile organizasyon kazanımı",
+  "rangedDamageWhenMoving": "Hareket ederken uzak mesafe hasarı",
+  "speed": "Hız",
+  "speedWhenShooting": "Ateş ederken hız",
+  "receivedDamage": "Alınan hasar",
+  "receivedOrgDamage": "Alınan organizasyon hasarı",
+  "noModifiers": "Değiştirici yok",
+  "submitOrders": "Emirleri gönder",
+  "submitOrdersConfirmation": "Savaş emirlerinizi göndermek istediğinizden emin misiniz? Gönderdikten sonra geri dönüş olmayacak.",
+  "players": "Oyuncular",
+  "menu": "Menü",
+  "replayActions": "Eylemleri tekrar oynat",
+  "deselectUnit": "Birim seçimini kaldır",
+  "removeUnitOrders": "Birim emirlerini kaldır",
+  "info": "Bilgi",
+  "meleePerformance": "Yakın dövüş performansı",
+  "speedByOrg": "Organizasyona göre hız",
+  "nTurnsLeft": "{{n}} tur kaldı",
+
+  "battleOverview": {
+    "title": "Savaş Genel Bakış",
+    "victoryPoints": "Zafer Puanları",
+    "initialArmyPower": "Başlangıç Ordu Gücü",
+    "powerLost": "Kayıp Güç",
+    "lossesRatio": "Kayıp Oranı",
+    "objectives": "Hedefler",
+    "timeWithoutObjectives": "Hedefsiz Geçen Süre",
+    "unitsOrgRegain": "Birim organizasyon kazanımı"
+  },
+
+  "offerDrawModal": {
+    "withdrawOffer": "Teklifi Geri Çek",
+    "alreadyWantsDrawMessage": "Zaten bir beraberlik teklif ediyorsunuz. Bu teklifi geri çekmek istiyor musunuz?",
+    "offerDrawMessage": "Eğer bir beraberlik teklif ederseniz, bu seçenek siz devre dışı bırakana kadar etkin kalacaktır."
+  },
+
+  "defeat": "Yenilgi",
+  "victory": "Zafer",
+  "draw": "Beraberlik",
+  "won": "Kazanıldı",
+  "lost": "Kaybedildi",
+  "tie": "Berabere",
+
+  "unitStatus": {
+    "1": "Ayakta",
+    "2": "Dağılmış",
+    "3": "Toparlanıyor"
+  },
+
+  "unitEffect": {
+    "1": "Tam dönme",
+    "2": "Saldırıya uğradı",
+    "3": "Hafifliyor"
+  },
+
+  "login": "Giriş Yap",
+  "signUp": "Kayıt Ol",
+  "forgotPassword": "Şifremi unuttum?",
+  "username": "Kullanıcı Adı",
+  "changeUsername": "Kullanıcı adını değiştir",
+  "changeEmail": "E-postayı değiştir",
+  "password": "Şifre",
+  "email": "E-posta",
+  "usernameOrEmail": "Kullanıcı Adı veya E-posta",
+  "continueWithGoogle": "Google ile Devam Et",
+  "resetPassword": "Şifreyi Sıfırla",
+  "enterYourEmail": "E-postanızı girin",
+  "sendResetLink": "Sıfırlama bağlantısı gönder",
+  "enterNewPassword": "Yeni şifreyi girin",
+  "newPassword": "Yeni şifre",
+  "repeatPassword": "Şifreyi tekrarla",
+
+  "teamSize": {
+    "title": "Takım boyutu",
+    "1v1": "1’e 1",
+    "2v2": "2’ye 2"
+  },
+
+  "offline": "Çevrimdışı",
+  "offlineDescription": "Botlara karşı pratik yapın ve aynı cihazda arkadaşlarınızla hotseat oynayın!",
+
+  "premiumCurrencyLeaderboard": {
+    "title": "<premiumCurrency/> Lider Tablosu",
+    "subtitle": "En fazla <premiumCurrency/> kimde?",
+    "description": "İlk olmak ister misiniz? <storeLink>Mağazaya gidin</storeLink> ve <premiumCurrency/> alın!"
+  },
+
+  "team": "Takım",
+  "teams": "Takımlar",
+  "playerType": "Oyuncu türü",
+  "human": "İnsan",
+  "bot": "Bot",
+  "armyOfPlayer": "Oyuncu {{player}}’ın ordusu",
+  "averageElo": "Ortalama Elo",
+
+  "hybridDescription": "Hibrit haritalar rastgele olmayan, önceden ayarlanmış arazi kullanır, ancak oyuncuların kendi özel ordularını kullanmalarına olanak tanır.",
+
+  "playLastActionsModal": {
+    "message": "Siz yokken yeni savaş olayları gerçekleşti.\nSon turdaki eylemleri görmek ister misiniz?",
+    "button": "Oynat"
+  },
+
+  "battleReport": "Savaş Raporu",
+  "strength": "Güç",
+  "guns": "Toplar",
+  "casualties": "Kayıplar",
+  "gunsLost": "Kayıp Toplar",
+  "noRewards": "Ödül yok",
+
+  "clan": "Koalisyon",
+  "clans": "Koalisyonlar",
+  "createClan": "Koalisyon Oluştur",
+  "create": "Oluştur",
+  "clanRole": {
+    "leader": "Lider",
+    "member": "Üye"
+  },
+  "clanElo": "Koalisyon Elo: {{elo}}",
+  "members": "Üyeler",
+  "deleteClan": "Koalisyonu Sil",
+  "deleteClanModal": {
+    "message": "<0>{{clanName}}</0> koalisyonunu silmek istediğinizden emin misiniz? Tüm üyeler koalisyondan çıkarılacak ve bu işlem geri alınamaz."
+  },
+  "joinClan": "Koalisyona Katıl",
+  "joinClanModal": {
+    "message": "<0>{{clanName}}</0> koalisyonuna katılmak istiyor musunuz? İsteğinizi gönderdiğinizde, bir üyenin kabul etmesini beklemeniz gerekecek. İstek, {{expirationDays}} gün sonra sona erer."
+  },
+  "clanFull": "Koalisyon dolu",
+  "requested": "İstenildi",
+  "cancelJoinRequest": "Katılım İsteğini İptal Et",
+  "cancelJoinRequestModal": {
+    "message": "<0>{{clanName}}</0> için katılım isteğinizi iptal etmek istediğinizden emin misiniz?"
+  },
+  "cancelRequest": "İsteği İptal Et",
+  "keepRequest": "İsteği Koru",
+  "joinRequests": "Katılım İstekleri",
+  "noJoinRequests": "Bekleyen katılım isteği yok",
+  "accept": "Kabul Et",
+  "reject": "Reddet",
+  "linkCopiedToClipboard": "Bağlantı panoya kopyalandı",
+
+  "pagination": {
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "page": "Sayfa",
+    "of": "/",
+    "items": "öğeler"
+  },
+
+  "kick": "At",
+  "noDescription": "Açıklama yok",
+  "save": "Kaydet",
+
+  "ordersSubmittedDialog": {
+    "p1": "Emirlerinizi gönderdiniz. Şimdi diğerlerinin hamle yapmasını bekleyin.",
+    "p2": "{{value}} saniye içinde güncellemeler kontrol ediliyor",
+    "b": "Şimdi Kontrol Et"
+  },
+
+  "search": {
+    "clans": "Koalisyonları ara"
+  },
+
+  "formation": "Formasyon",
+  "findGame": "Oyun bul",
+  "gameIdOrLink": "Oyun ID’si veya bağlantı",
+  "playFree": "Ücretsiz Oyna"
+}

@@ -1,0 +1,20 @@
+{
+  "currencyShop": {
+    "title": "Dapatkan <0/>",
+    "subtitle": "Buka kosmetik yang menakjubkan dan tampil beda dari yang lain!"
+  },
+
+  "aboutCurrencies": "Tentang Mata Uang",
+
+  "currency": {
+    "basic": "<currency/>: Dapatkan mata uang ini dengan memainkan pertandingan dengan pemain lain. Gunakan untuk merekrut unit dan membangun pasukan Anda.",
+    "premium": "<currency/>: Mata uang yang ini untuk membeli kosmetik untuk memamerkan gaya Anda. Sebagian besar berasal dari pengeluaran uang sungguhan karena permainan ini gratis untuk dimainkan.",
+    "rate": "{{rate}} {{currency}} per USD",
+    "purchase": "Beli {{amount}} {{currency}}",
+    "totalSold": "Total <currency/> yang terjual sejauh ini: {{amount}}",
+    "nextGoal": "Target Berikutnya: {{goal}} <currency/> "
+  },
+
+  "purchaseConfirmation": "Anda yakin ingin membeli {{item}}?",
+  "showPurchased": "Tampilkan yang Telah Dibeli"
+}

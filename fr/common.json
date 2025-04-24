@@ -11,8 +11,7 @@
   "credits": "Crédits",
 
   "settings": "Paramètres",
-  "eloScore": "Votre Elo est de {{elo}}",
-  "eloDescription": "Les Elo sont un système de classement utilisé pour calculer le niveau relatif des joueurs. Gagner des batailles augmentent vos Elo tandis que perdre les diminuent.",
+  "eloDescription": "Le classement Elo est un système de classement utilisé pour calculer le niveau relatif des joueurs. Gagner des batailles augmente votre Elo tandis qu'en perdre le diminue.",
   "welcomeName": "Bienvenue {{name}}!",
   "myGames": "Mes parties",
   "gameStatus": {
@@ -20,9 +19,9 @@
     "notStarted": "La bataille n'a pas encore commencée"
   },
   "loadingGames": "Chargement de la bataille...",
-  "noGamesYet": "Aucune bataille disponible pour le moment! Cliquez sur Jouer pour en créer une.",
+  "noGamesYet": "Aucune bataille disponible pour le moment ! Cliquez sur Jouer pour en créer une.",
   "failedToLoadGames": "Échec du chargement. Veuillez réessayer.",
-  "armyCompositions": "Compositions d'Armées",
+  "armyCompositions": "Ordre de bataille",
   "account": "Compte",
   "scenarioEditor": "Éditeur de scénario",
   "wiki": "Wiki",
@@ -31,26 +30,25 @@
     "turn": "Tour {{turnNumber}}/{{maxTurn}}"
   },
 
-  "withdrawMessage": "Si vous battez en retraite, cette bataille sera considéré comme perdue et cela fera diminuer votre Elo. Etes-vous sûr de vouloir continuer?",
+  "withdrawMessage": "Si vous battez en retraite, cette bataille sera considérée comme perdue et cela fera diminuer votre Elo. Êtes-vous sûr de vouloir continuer?",
 
   "loading": "Chargement...",
   "yes": "Oui",
   "no": "Non",
   "by": "By",
-  "logout": "se déconnecter",
+  "logout": "Se déconnecter",
 
   "createNewGame": "Créer une nouvelle partie",
-  "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'armée que vous avez créez pour ce type de bataille. Vous pouvez voir et gérez vos armées dans le menu <0>Army Compositions</0>. Si vous n'avez pas encore créé d'armées, le jeu en sélectionnera une par défaut.",
+  "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'ordre de bataille que vous avez créé pour ce type de bataille. Vous pouvez voir et gérez la composition de vos armées dans le menu <0>Ordre de bataille</0>. Si vous n'avez pas encore créé d'ordre de bataille, le jeu en sélectionnera une par défaut.",
   "selectGameMode": "Sélectionner le mode de jeu grâce aux options ci-dessous.",
   "or": "Ou",
   "cancel": "Annulez",
 
   "matchmakingQueue": {
-    "inQueue": "Vous êtes désormais dans la file d'attente! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
+    "inQueue": "Vous êtes désormais dans la file d'attente ! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
     "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",
     "continueMatchmaking": "La recherche continuera même si vous quittez cette page et vous serez prévenu lorsqu'une bataille sera trouvée.",
-    "nextQueueCheck": "Nouvelle vérification dans {{countdown}} secondes.",
-    "onlyClanMembers": "Joue uniquement avec des coéquipiers de la coalition"
+    "onlyClanMembers": "Jouer uniquement avec des coéquipiers de la coalition"
   },
 
   "fastMode": "Partie rapide",
@@ -73,23 +71,20 @@
     "skirmish": "Escarmouche",
     "clash": "Affrontement",
     "combat": "Combat",
-    "battle": "Affrontement",
-    "grand_battle": "Bataille"
+    "battle": "Bataille",
+    "grand_battle": "Grande bataille"
   },
 
   "matchmaking": "Partie classée",
-  "matchmakingDescription": "Le mode classée vous permet de rejoindre une bataille contre des joueurs inconnus en utilisant des réglages prédéfinis.",
-  "custom": "Personnalisée",
+  "matchmakingDescription": "Le mode classé vous permet de rejoindre une bataille contre des joueurs inconnus en utilisant des réglages prédéfinis.",
+  "custom": "Personnalisé",
 
-  "customDescription": "Le mode personnalisée vous permet de jouer contre vos amis avec des paramètres que vous aurez défini.",
+  "customDescription": "Le mode personnalisé vous permet de jouer contre vos amis avec des paramètres que vous aurez définis.",
   "maxTurn": "Nb de tour max",
-
-  "copied": "Copié!",
-  "copyLink": "Copier le lien",
 
   "player": "Joueur",
   "units": "Unités",
-  "unitSkins": "Skins d'unités",
+  "unitSkins": "Cosmétiques",
   "avatars": "Avatars",
   "withdraw": "Battre en retraite",
   "importScenario": "Importer un scénario",
@@ -99,12 +94,12 @@
   },
 
   "scenarioEditorTags": {
-    "tutorialMessage": " Vous ne savez pas l'utiliser, pas de panique, tout est prévu! <tutorialLink>Regardez le tutoriel ici.</tutorialLink>"
+    "tutorialMessage": " Vous ne savez pas l'utiliser, pas de panique, tout est prévu ! <tutorialLink>Regardez le tutoriel ici.</tutorialLink>"
   },
 
   "createScenario": "Créer un scénario",
   "loadScenario": "Charger un scénario",
-  "playOffline": "Jouer hors-ligne!",
+  "playOffline": "Jouer hors-ligne !",
   "createOfflineGame": "Créer une partie hors-ligne",
   "chooseAScenario": "Choisir un scénario",
   "playerArmy": "Armée du joueur",
@@ -112,19 +107,20 @@
   "army": "Armée",
 
   "deploymentStateMessage": "Phase de déploiement. Durant ce tour, vous pouvez placer vos unités où vous le souhaitez dans la zone de déploiement. Lorsque vous avez terminé, envoyez vos ordres pour confirmer votre placement.",
-  "youAreColor": "Vous êtes {{color}}!",
+  "youAreColor": "Vous êtes {{color}} !",
   "getStarted": "Commencer",
 
   "colorTag": {
     "1": "Bleu",
     "2": "Rouge",
     "3": "Jaune",
-    "4": "Vert"
+    "4": "Vert",
+    "5": "Noir"
   },
 
   "resume": "Continuer",
-  "offerDraw": "Offrir un match nul",
-  "replayBattle": "Recommencer la bataille",
+  "offerDraw": "Proposer un match nul",
+  "replayBattle": "Replay de la bataille",
   "result": "Résultat",
   "exit": "Quitter",
   "attackColor": "Couleur des particules",
@@ -140,15 +136,15 @@
     "movement": "Mouvement",
     "meleeAttack": "Attaque en mêlée",
     "meleeDefense": "Défense en mêlée",
-    "chargeBonus": "Bonus de charge",
-    "chargePenetration": "Puissance de charge",
-    "orgRadius": "Rayon d'org",
-    "orgRadiusBonus": "Rayon de bonus d'org",
+    "chargeBonus": "Bonus en charge",
+    "chargePenetration": "Engouffrement en charge",
+    "orgRadius": "Rayon d'organisation",
+    "orgRadiusBonus": "Rayon de bonus d'organisation",
     "rangedAttack": "Attaque à distance",
-    "limberMovement": "Manoeuvrabilité avant harnachement",
-    "chargeResistance": "résistance aux charges",
+    "limberMovement": "Mouvement tracté",
+    "chargeResistance": "Résistance aux charges",
     "status": "Statut",
-    "currentChargeResistance": "Résistance actuelle aux charges"
+    "currentChargeResistance": "Résistance présente aux charges"
   },
 
   "unitCategory": {
@@ -157,7 +153,8 @@
     "3": "Artillerie",
     "4": "Infanterie légère",
     "5": "Cavalerie légère",
-    "6": "Cavalerie lourde"
+    "6": "Cavalerie lourde",
+    "7": "Milice"
   },
 
   "category": "Catégorie",
@@ -169,23 +166,24 @@
     "bayonet": "Bayonette",
     "cannon-ball": "Boulet de canon",
     "cavalry-sabre": "Sabre de cavalerie",
-    "cavalry-lance": "Lance de Cavalier",
+    "cavalry-lance": "Lance de cavalerie",
     "light-cannon-ball": "Boulet de canon léger",
     "explosive-shell": "Obus explosif",
-    "cavalry-sword": "Epée de cavalier",
+    "cavalry-sword": "Épée de cavalerie",
     "canister-fire": "Mitraille",
     "light-canister-fire": "Mitraille légère",
     "howitzer-canister": "Mitraille d'obusier",
     "heavy-cannon-ball": "Boulet de canon lourd",
     "heavy-canister-fire": "Tir de mitraille lourd",
-    "dragoon-sword": "Épée de dragon"
+    "dragoon-sword": "Épée de dragon",
+    "horse-archer-bow": "Arc d'archer à cheval"
   },
 
   "unitName": {
     "1": "Infanterie de ligne",
     "2": "Dragons",
     "3": "Artillerie à pied de 8 livres",
-    "4": "Guardes à pied",
+    "4": "Grenadiers",
     "5": "Lanciers",
     "6": "Artillerie à cheval de 4 livres",
     "7": "Infanterie légère",
@@ -194,14 +192,14 @@
     "10": "Milice",
     "11": "Hussards",
     "12": "Artillerie à pied de 12 livres",
-    "13": "Archers à cheval"
+    "13": "Archers montés"
   },
 
   "battalionName": {
     "1": "{{n}} Bataillon de ligne",
     "2": "{{n}} Dragons",
     "3": "{{n}} Batterie à pied",
-    "4": "{{n}} Bataillon de la garde",
+    "4": "{{n}} Bataillon de grenadiers",
     "5": "{{n}} Lanciers",
     "6": "{{n}} Batterie à cheval",
     "7": "{{n}} Bataillon léger",
@@ -215,10 +213,10 @@
 
   "unitDescription": {
     "1": "Les bataillons de ligne sont la colonne vertébrale de l'armée. Armés d'un mousquet équipé d'une bayonette, les soldats qui les composent sont aussi mortels à distance qu'au corps à corps",
-    "2": "Cavalerie moyenne fiable et polyvalente, adaptée aussi bien au harcèlement qu’aux combats prolongés.",
+    "2": "Cavalerie moyenne, fiable et polyvalente, adaptée aussi bien au harcèlement qu’aux combats prolongés.",
     "3": "Artillerie moyenne abordable avec une mobilité et une puissance de feu modestes, ainsi qu’un impressionnant tir à mitraille.",
-    "4": "Ces soldats imposants et expérimentés inspirent leurs alliés autant qu'ils terrifient l'adversaire. Seuls les soldats les plus doués pourront un jour rejoindre ces unités d'élites, ce qui les rend bien plus chers à déployer. La peur qu'ils provoquent et leurs excellentes capacités en mêlées les rend très utiles pour initier des charges.",
-    "7": "Infanterie de lignes d'élite avec un fort penchant vers la rapidité et la précision.",
+    "4": "Ces soldats imposants et expérimentés inspirent leurs alliés autant qu'ils terrifient l'adversaire. Seuls les soldats les plus doués pourront un jour rejoindre ces unités d'élites, ce qui les rend bien plus chers à déployer. La peur qu'ils provoquent et leurs excellentes capacités en mêlée les rendent très utiles pour initier des charges.",
+    "7": "Infanterie de ligne d'élite avec un fort penchant vers la rapidité et la précision.",
     "11": "La cavalerie légère est faites pour poursuivre et écraser les ennemis fragiles, affaiblis ou en fuite. Mais ils sont faibles face à de l'infanterie fraîche et de la cavalerie lourde. Pensez à utiliser votre infanterie et de l'artillerie pour affaiblir l'adversaire.",
     "5": "Ces escadrons de cavalerie utilisent des lances pour briser l'ennemi grâce a des charges dévastatrices; une série de charges effectués par plusieurs escadrons de lanciers réduiront à néant n'importe quelle position ennemie. Cependant, ils sont bien moins efficace si le combat s'éternise.",
     "8": "La cavalerie lourde possède des capacités en mêlée supérieures a n'importe quelle autre unités. Cependant, il est préférable d'affaiblir d'abord l'adversaire avec l'infanterie et l'artillerie avant d'envoyer vos cuirassiers.",
@@ -226,13 +224,13 @@
     "6": "La vitesse et le coût modeste de cette artillerie en font une candidate idéale pour soutenir la cavalerie et accompagner la ligne d'infanterie.",
     "9": "Grâce aux obus explosifs et à sa mitraille dévastatrice, l'obusier léger est idéal pour soutenir la ligne d'infanterie à courte et moyenne portée.",
     "10": "« Placer une quelconque confiance dans la milice, c’est assurément s’appuyer sur un bâton brisé. » - George Washington",
-    "13": "« Les archers à cheval bachkirs sont sans aucun doute les troupes les moins dangereuses au monde. » - Baron Marbot, ignorant une flèche dans sa cuisse"
+    "13": "« Les archers montés bachkirs sont sans aucun doute les troupes les moins dangereuses au monde. » - Baron Marbot, ignorant une flèche dans sa cuisse"
   },
 
   "damageResistances": "Résistances aux dégâts",
-  "otherStats": "Autres Stats",
+  "otherStats": "Autres Statistiques",
   "damageModifier": "Modificateurs de dégâts",
-  "orgDamageRatio": "Impact des dégâts sur l'org",
+  "orgDamageRatio": "Impact des dégâts sur l'organisation",
 
   "damage": "Dégâts",
   "orgDamage": "Dégâts à l'organisation",
@@ -245,7 +243,7 @@
   "closeRange": "Courte portée",
   "midRange": "Moyenne portée",
   "longRange": "Longue portée",
-  "shootingAngle": "angle de feu",
+  "shootingAngle": "Angle de feu",
   "closeAttackDamage": "Dégâts à courte portée",
   "longAttackDamage": "Dégâts à longue portée",
   "arcHeight": "Hauteur de l'arc",
@@ -259,11 +257,11 @@
   "topWidth": "Élévation max",
   "bottomWidth": "Élévation min",
   "height": "Hauteur",
-  "diminishByTargetOrg": "Diminuer par l'org de la cible",
+  "diminishByTargetOrg": "Diminuer par l'organisation de la cible",
   "from": "depuis",
   "to": "vers",
   "lBy": "par",
-  "terrainHitboxHeight": "Hauteur de la Hitbox du terrain",
+  "terrainHitboxHeight": "Hauteur du masque de collision du terrain",
   "statusEffects": "Effets de statuts",
   "projectileAbsorption": "Absorption des projectiles",
   "orgRegainByNearbyUnits": "Organisation regagné par les unités proches",
@@ -297,9 +295,9 @@
   },
 
   "update": "Mise à jour!",
-  "yourArmyCompositionsFor": "Votre composition d'armée pour",
+  "yourArmyCompositionsFor": "Votre ordre de bataille pour",
   "noUnitsYet": "Pas d'unités pour le moment",
-  "armyComposition": "Composition d'armée",
+  "armyComposition": "Ordre de bataille",
   "budgetAvailable": "Budget disponible",
   "saveArmy": "Sauvegarder l'armée",
   "clearUnits": "Supprimer les unités",
@@ -307,16 +305,16 @@
   "armyInvalid": "Cette armée est invalide, veuillez la modifier.",
 
   "landing": {
-    "title": "Bienvenue sur Lines of battle",
-    "message": "<b>Lines of Battle</b> est un jeu de stratégie en tour par tour simultané avec pour cadre les guerres napoléoniennes. Avec pour centre de son gameplay l'immersion historique et la profondeur tactique, vous vous engagerez dans des batailles épiques contre d'autres joueurs où ce seront vos compétences et les décisions que vous prendrez qui vous permettrons de l'emporter!",
-    "privacy": "En continuant, vous acceptez notre <0>Privacy Policy</0>."
+    "title": "Bienvenue sur <0>Lines of Battle</0>",
+    "message": "<b>Lines of Battle</b> est un jeu de stratégie en tour par tour simultané ayant pour thème les guerres napoléoniennes. Au centre de la jouabilité se trouvent l'immersion historique et la profondeur tactique, vous vous engagerez dans des batailles épiques contre d'autres joueurs où ce seront vos compétences et les décisions que vous prendrez qui vous permettrons de l'emporter!",
+    "privacy": "En continuant, vous acceptez notre <0>Politique sur la vie privée</0>."
   },
 
   "welcomeModal": {
     "title": "Bienvenue sur Lines of Battle 👋",
-    "thanks": "Merci de nous rejoindre, {{name}}!",
+    "thanks": "Merci de nous joindre, {{name}}!",
     "p1": "Nouveau sur <b>Lines of Battle</b>? je vous recommande de commencer avec une <offlineLink>partie hors-ligne</offlineLink> contre l'ordinateur pour vous familiariser avec les mécaniques dans un environnement calme.",
-    "p2": "Comme le jeu est actuellement en bêta, je vous invite a rejoindre le <discordLink>Serveur Discord</discordLink> pour rencontrer les autres joueurs, trouver des adversaires, signaler les bugs, et partager vos idées pour améliorer l'expérience de jeu!"
+    "p2": "Comme le jeu est actuellement en bêta, je vous invite a rejoindre le <discordLink>Serveur Discord</discordLink> pour rencontrer les autres joueurs, trouver des adversaires, signaler les bogues, et partager vos idées pour améliorer l'expérience de jeu!"
   },
 
   "turn": "Tour",
@@ -328,34 +326,35 @@
     "fetchingGameData": "Récupérarion des données de la partie...",
     "generatingMap": "Génération de la carte...",
 
-    "tip1": "Les unités avec une organisation élevé ne subisse presque pas de dégâts lorsqu'elles se font chargées. Affaiblissez-les d'abord avec un feu nourri.",
-    "tip2": "Les hussards devraient cibler en priorité les unités affaiblis et l'artillerie.",
+    "tip1": "Les unités avec une organisation élevée ne subissent presqu'aucun dégâts lorsqu'elles se font charger. Affaiblissez-les d'abord avec un feu nourri.",
+    "tip2": "Les hussards devraient cibler en priorité les unités affaiblies ainsi que l'artillerie.",
     "tip3": "Les mousquets et l'artillerie sont bien plus mortels à moyenne plutôt qu'à longe portée.",
-    "tip4": "Le feu indirect des obusiers les rend bien plus efficaces pour atteindre des cibles retranchés dans des villes ou des forêts.",
-    "tip5": "Vous pouvez trouver de nombreuses informations sur une unités en la sélectionnant et en cliquant sur le bouton info (raccourci I).",
-    "tip6": "Les unités en déroute ont des malus pour se réorganiser et risquent de quitter le champ de bataille. Dissimulez vos unités désorganisé derrière votre ligne si possible avant qu'elles ne fuient.",
-    "tip7": "L'artillerie à cheval et les obusiers sont bien plus mobile que l'artillerie de 12 livres. Les faire suivre la ligne d'infanterie est risqués mais leurs tirs de mitraille peuvent changer le cours de la bataille.",
+    "tip4": "Le feu indirect des obusiers les rend bien plus efficaces pour atteindre des cibles retranchées dans des villes ou des forêts.",
+    "tip5": "Vous pouvez trouver de nombreuses informations sur une unité en la sélectionnant et en cliquant sur le bouton info (raccourci I).",
+    "tip6": "Les unités en déroute ont des malus pour se réorganiser et risquent de quitter le champ de bataille. Dissimulez vos unités désorganisées derrière votre ligne, si possible avant qu'elles ne fuient.",
+    "tip7": "L'artillerie à cheval et les obusiers sont bien plus mobiles que l'artillerie de 12 livres. Les faire suivre la ligne d'infanterie est risqué mais leurs tirs de mitraille peuvent changer le cours de la bataille.",
     "tip8": "Lorsque vous sélectionnez une unité, vous verrez un cercle bleu autour de celle-ci. Les unités alliés qui y pénètrent regagnerons de l'organisation et à l'inverse les unités ennemis en perdrons.",
-    "tip9": "Les lanciers sont des unités d'élites qui trouvent leurs forces dans des charges dévastatrices, mais à l'inverse des cuirassiers, il se retrouvent en difficulté si le combat se prolonge.",
-    "tip10": "Les attaques qui frappent une unités d'infanterie sur le flanc feront bien plus de dégâts.",
-    "tip11": "Vous pouvez gagner des points de victoires en capturant l'objectif ou en infligeant des pertes à l'adversaire. Si vous dominez l'adverdaire aux points cela ralentira la réorganisation de son armée et sécurisera votre victoire lorsque la limite de tour sera atteinte.",
+    "tip9": "Les lanciers sont des unités d'élites qui trouvent leur force dans des charges dévastatrices, mais, à l'inverse des cuirassiers, ils se retrouvent en difficulté si le combat se prolonge.",
+    "tip10": "Les attaques qui frappent une unité d'infanterie sur le flanc feront bien plus de dégâts.",
+    "tip11": "Vous pouvez gagner des points de victoire en capturant l'objectif ou en infligeant des pertes à l'adversaire. Si vous dominez l'adverdaire aux points, cela ralentira la réorganisation de son armée et garantira votre victoire lorsque la limite du nombre de tours sera atteinte.",
     "tip12": "Prenez l'adversaire de flanc, ne le laissez pas faire pareil.",
-    "tip13": "Soumettez vos replays préférés sur le discord et l'équipe de dév les mettra en évidence sur YouTube!",
-    "tip14": "Si vous avez une question, vous trouverez sûrement une réponse sur le discord, le reddit ou le wiki du jeu.",
-    "tip15": "Si vous aimez Line of Battle et souhaitez aider le créateur, rejoignez le Patreon! Chaque contribution compte.",
-    "tip16": "Saviez-vous que vous pouviez déplacer l'objectif durant la phase de déploiement?",
-    "tip17": "Capturez l'objectif ennemi en plaçant une unités d'infanterie pendant 8 tours, 8 unités pendant 1 tour, etc.",
-    "tip18": "Appuyer sur le bouton Ordre pour accéder a des commandes comme Reculer, Tirer en avançant, Tirer.",
-    "tip19": "La garde à pieds et les cuirassiers influencent fortement l'organisation des unités à proximités. Ces effets se cumuls et peuvent servir à retourner l'issu d'une bataille.",
-    "tip21": "\"C’est à la cavalerie de suivre la victoire et d’empêcher l’ennemi vaincu de se rallier.\" - Napoleon Bonaparte",
-    "tip22": "\"Planifier de réserver la cavalerie pour la fin de la bataille, c’est ne pas concevoir la puissance des charges combinées d’infanterie et de cavalerie, que ce soit pour l’attaque ou pour la défense.\" - Napoleon Bonaparte"
+    "tip13": "Partagez vos replays préférés sur le Discord et l'équipe de dév les mettra en évidence sur YouTube !",
+    "tip14": "Si vous avez une question, vous trouverez sûrement une réponse sur le Discord, le Reddit ou le Wiki du jeu.",
+    "tip15": "Si vous aimez Line of Battle et souhaitez aider le créateur, rejoignez le Patreon ! Chaque contribution compte.",
+    "tip16": "Saviez-vous que vous pouviez déplacer l'objectif durant la phase de déploiement ?",
+    "tip17": "Capturez l'objectif ennemi en plaçant une unité d'infanterie pendant 8 tours, 8 unités pendant 1 tour, etc.",
+    "tip18": "Appuyer sur le bouton « Ordre » pour accéder à des commandes comme « Reculer », « Tirer en avançant », « Tirer ».",
+    "tip19": "Les grenadiers et les cuirassiers influencent fortement l'organisation des unités à proximité. Ces effets se cumulent et peuvent servir à changer l'issue d'une bataille.",
+    "tip20": "Laissez une ligne de vue dégagée à votre artillerie ; ne manœuvrez pas votre infanterie devant elle.",
+    "tip21": "\"C’est à la cavalerie de suivre la victoire et d’empêcher l’ennemi vaincu de se rallier.\" — Napoléon Bonaparte",
+    "tip22": "\"Planifier de réserver la cavalerie pour la fin de la bataille, c’est ne pas concevoir la puissance des charges combinées d’infanterie et de cavalerie, que ce soit pour l’attaque ou pour la défense.\" — Napoléon Bonaparte"
   },
 
   "fetchingBattleActions": "Récupération des actions de la bataille...",
 
   "order": {
     "1": "Mouvement",
-    "2": "Chargez",
+    "2": "Charger",
     "3": "Tirer",
     "4": "Tirer en avançant",
     "6": "Reculer",
@@ -365,41 +364,41 @@
   "selectOrder": "Sélectionner un ordre",
   "allowFireWhenMoving": "Permet de tirer en avançant",
   "meleeDamage": "Dégâts de mêlée",
-  "rangedDamage": "Dégâts a distance",
-  "orgRegainByHp": "Org regagner par PV",
+  "rangedDamage": "Dégâts à distance",
+  "orgRegainByHp": "Organisation regagnée par PV",
   "rangedDamageWhenMoving": "Dégâts à distance en se déplaçant",
   "speed": "Vitesse",
   "speedWhenShooting": "Vitesse en tirant",
   "receivedDamage": "Dégâts reçus",
-  "receivedOrgDamage": "Dégâts à l'org reçus",
-  "noModifiers": "Aucun modificateurs",
+  "receivedOrgDamage": "Dégâts reçus à l'organisation",
+  "noModifiers": "Aucun modificateur",
   "submitOrders": "Soumettre les ordres",
-  "submitOrdersConfirmation": "Etes-vous sûr de vos ordres? Une fois que vous les aurez validé, vous ne pourrez plus faire marche arrière .",
+  "submitOrdersConfirmation": "Êtes-vous sûr de vos ordres? Une fois que vous les aurez validés, vous ne pourrez plus faire marche arrière .",
   "players": "Joueurs",
   "menu": "Menu",
-  "replayActions": "Replay actions",
-  "deselectUnit": "Déselectionnez l'unité",
+  "replayActions": "Replay le dernier tour",
+  "deselectUnit": "Déselectionner l'unité",
   "removeUnitOrders": "Supprimer l'ordre",
   "info": "Infos",
-  "meleePerformance": "Performance en Mêlée",
-  "speedByOrg": "Vitesse par rapport à l'org",
-  "nTurnsLeft": "{{n}} tours restant",
+  "meleePerformance": "Performance en mêlée",
+  "speedByOrg": "Vitesse grâce à l'organisation",
+  "nTurnsLeft": "{{n}} tours restants",
 
   "battleOverview": {
     "title": "Résumé de la bataille",
     "victoryPoints": "Points de victoire",
-    "initialArmyPower": "Puissance de l'armée initial",
+    "initialArmyPower": "Puissance de l'armée initiale",
     "powerLost": "Pertes",
     "lossesRatio": "Ratio de pertes",
     "objectives": "Objectifs",
     "timeWithoutObjectives": "Temps passé sans objectif",
-    "unitsOrgRegain": "Regain d'org des unités"
+    "unitsOrgRegain": "Regain d'organisation des unités"
   },
 
   "offerDrawModal": {
-    "withdrawOffer": "Offrir de se retirer",
-    "alreadyWantsDrawMessage": "Vous proposez déjà un match nul. Souhaitez-vous retirer cette offre?",
-    "offerDrawMessage": "Si vous proposez un match nul, cette offre restera activé jusqu'à ce que vous la retiriez."
+    "withdrawOffer": "Proposer de se retirer",
+    "alreadyWantsDrawMessage": "Vous proposez déjà un match nul. Souhaitez-vous retirer cette offre ?",
+    "offerDrawMessage": "Si vous proposez un match nul, cette offre restera activée jusqu'à ce que vous la retiriez."
   },
 
   "defeat": "Défaite",
@@ -410,24 +409,26 @@
   "tie": "Égalité",
 
   "unitStatus": {
-    "1": "en Position",
-    "2": "en Retraite",
-    "3": "en train de récupérer"
+    "1": "En position",
+    "2": "En retraite",
+    "3": "En train de récupérer"
   },
 
   "unitEffect": {
-    "1": "rotation complète",
-    "2": "a été attaqué",
-    "3": "en train d'harnacher"
+    "1": "Rotation complète",
+    "2": "A été attaqué",
+    "3": "En train d'harnacher"
   },
 
   "login": "Connexion",
   "signUp": "S'inscrire",
   "forgotPassword": "Mot de passe oublié ?",
   "username": "Nom d'utilisateur",
+  "changeUsername": "Changer de nom d'utilisateur",
+  "changeEmail": "Changer de courriel",
   "password": "Mot de passe",
-  "email": "E-mail",
-  "usernameOrEmail": "Nom d'utilisateur ou e-mail",
+  "email": "Courriel",
+  "usernameOrEmail": "Nom d'utilisateur ou courriel",
   "continueWithGoogle": "Continuer avec Google",
   "resetPassword": "Réinitialiser le mot de passe",
   "enterYourEmail": "Entrez votre e-mail",
@@ -443,7 +444,7 @@
   },
 
   "offline": "Hors ligne",
-  "offlineDescription": "Entraînez-vous contre des bots et jouez en mode hotseat avec des amis sur le même appareil !",
+  "offlineDescription": "Entraînez-vous contre des ordinateurs et jouez en mode hotseat avec des amis sur le même appareil !",
 
   "premiumCurrencyLeaderboard": {
     "title": "Classement <premiumCurrency/>",
@@ -452,9 +453,10 @@
   },
 
   "team": "Équipe",
+  "teams": "Équipes",
   "playerType": "Type de joueur",
   "human": "Humain",
-  "bot": "Bot",
+  "bot": "Ordinateur",
   "armyOfPlayer": "Armée du joueur {{player}}",
   "playLastActionsModal": {
     "message": "De nouveaux événements de bataille sont survenus pendant votre absence.\nSouhaitez-vous voir les actions du dernier tour ?",
@@ -467,7 +469,6 @@
   "addPlayer": "Ajouter un joueur",
   "createCustomGame": "Créer un jeu personnalisé",
 
-  "teams": "Équipes",
   "averageElo": "Elo moyen",
   "hybridDescription": "Les cartes hybrides utilisent un terrain prédéfini non aléatoire, mais permettent aux joueurs d'utiliser leurs propres armées personnalisées pour jouer.",
 
@@ -534,5 +535,15 @@
 
   "formation": "Formation",
   "findGame": "Trouver un jeu",
-  "gameIdOrLink": "ID du jeu ou lien"
+  "gameIdOrLink": "ID du jeu ou lien",
+  "unit": "Unité",
+  "createArmy": "Créer un ordre de bataille",
+  "playFree": "Jouer Gratuitement",
+  "leaveClan": "Quitter le Clan",
+  "leave": "Quitter",
+  "leaveClanModal": {
+    "message": "Êtes-vous certain(e) de vouloir quitter <0>{{clanName}}</0>?"
+  },
+  "resetToDefault": "Réinitialiser",
+  "submittingOrders": "Envoyer les ordres..."
 }

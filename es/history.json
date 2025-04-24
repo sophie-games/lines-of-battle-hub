@@ -1,7 +1,5 @@
 {
-  "finishedAt": "Terminado en {{date}}",
   "watchGame": "Ver Juego",
   "loadingGames": "Cargando juegos...",
-  "noFinishedGamesYet": "Aún no hay juegos terminados!",
-  "gameId": "ID del Juego: {{id}}"
+  "noFinishedGamesYet": "Aún no hay juegos terminados!"
 }

@@ -11,7 +11,6 @@
   "credits": "Créditos",
 
   "settings": "Configuración",
-  "eloScore": "Tu Elo es {{elo}}",
   "eloDescription": "Elo es un sistema de clasificación utilizado para calcular el nivel relativo de habilidad de los jugadores. Cuanto más alto sea tu Elo, más fuerte eres en comparación con otros. Ganar aumenta tu Elo, mientras que perder lo disminuye.",
   "welcomeName": "Bienvenido {{name}}!",
   "myGames": "Mis juegos",
@@ -49,7 +48,6 @@
     "inQueue": "¡Ahora estás en la cola de emparejamiento! El sistema está buscando otro jugador que haya seleccionado las mismas configuraciones que tú.",
     "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido al juego.",
     "continueMatchmaking": "Incluso si dejas esta página, el proceso de emparejamiento continuará, y serás notificado cuando se haga un emparejamiento.",
-    "nextQueueCheck": "Próxima verificación de cola en {{countdown}} segundos.",
     "onlyClanMembers": "Juega solo con compañeros de la coalición"
   },
 
@@ -83,9 +81,6 @@
 
   "customDescription": "El modo personalizado te permite configurar un juego con ajustes específicos e invitar a tus amigos a jugar.",
   "maxTurn": "Turno máximo",
-
-  "copied": "Copiado!",
-  "copyLink": "Copiar Link",
 
   "player": "Jugador",
   "units": "Unidades",
@@ -298,7 +293,7 @@
   },
 
   "update": "Actualizar!",
-  "yourArmyCompositionsFor": "Tu composición de ejército para",
+  "yourArmyCompositionsFor": "Tu composiciones de ejército para",
   "noUnitsYet": "Todavía no hay unidades",
   "armyComposition": "Composición de ejército",
   "budgetAvailable": "Presupuesto disponible",
@@ -308,9 +303,9 @@
   "armyInvalid": "Este ejército no es válido, por favor modificalo.",
 
   "landing": {
-    "title": "Bienvenido a Lines of Battle",
+    "title": "Bienvenido a <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b> es un juego de estrategia multijugador por turnos simultáneos ambientado en las Guerras Napoleónicas. Diseñado para ofrecer profundidad táctica e inmersión histórica, te vas a enfrentar en batallas épicas contra otros jugadores, donde la habilidad y la estrategia serán clave para maniobrar y vencer a tus rivales.",
-    "privacy": "Al empezar, aceptás nuestra <0>Política de Privacidad</0>."
+    "privacy": "Al jugar, aceptás nuestra <0>Política de Privacidad</0>."
   },
 
   "welcomeModal": {
@@ -524,9 +519,9 @@
   "save": "Guardar",
 
   "ordersSubmittedDialog": {
-    "p1": "Has enviado tus órdenes. Ahora, espera a que los demás hagan su movimiento.",
-    "p2": "Comprobando actualizaciones en {{value}} segundos",
-    "b": "Comprobar ahora"
+    "p1": "Ahora, espera a que los demás hagan su movimiento.",
+    "p2": "Chequeando las órdenes del oponente en {{value}} segundos",
+    "b": "Chequear ahora"
   },
 
   "search": {
@@ -535,5 +530,6 @@
 
   "formation": "Formación",
   "findGame": "Encontrar juego",
-  "gameIdOrLink": "ID del juego o link"
+  "gameIdOrLink": "ID del juego o link",
+  "playFree": "Jugá Gratis"
 }

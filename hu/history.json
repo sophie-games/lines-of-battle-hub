@@ -1,7 +1,5 @@
 {
-  "finishedAt": "Befejezve: {{date}}",
   "watchGame": "Meccs megtekintése",
   "loadingGames": "Meccsek betöltése...",
-  "noFinishedGamesYet": "A meccsek listája még üres!",
-  "gameId": "Meccs ID: {{id}}"
+  "noFinishedGamesYet": "A meccsek listája még üres!"
 }

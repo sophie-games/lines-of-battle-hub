@@ -15,5 +15,6 @@
     "nextGoal": "Next Goal: {{goal}} <currency/> "
   },
 
-  "purchaseConfirmation": "Are you sure you want to purchase {{item}}?"
+  "purchaseConfirmation": "Are you sure you want to purchase {{item}}?",
+  "showPurchased": "Show purchased"
 }
