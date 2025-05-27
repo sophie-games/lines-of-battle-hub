@@ -3,6 +3,7 @@
     "targetAltitude": 0.9,
     "canCaptureObjectives": true
   },
+
   "midCavalry": {
     "targetAltitude": 0.9,
     "damageTypeResistances": {
@@ -25,6 +26,7 @@
       "howitzer-canister": -0.25
     }
   },
+
   "artillery": {
     "targetAltitude": 0.5,
     "damageTypeResistances": {
@@ -49,7 +51,9 @@
       "howitzer-canister": 0.3
     }
   },
+
   "lightInfantry": { "targetAltitude": 0.9, "canCaptureObjectives": true },
+
   "lightCavalry": {
     "targetAltitude": 0.9,
     "damageTypeResistances": {
@@ -72,6 +76,7 @@
       "howitzer-canister": -0.25
     }
   },
+
   "heavyCavalry": {
     "targetAltitude": 0.9,
     "damageTypeResistances": {
@@ -95,7 +100,9 @@
       "howitzer-canister": -0.25
     }
   },
+
   "militiaInfantry": { "targetAltitude": 0.9, "canCaptureObjectives": true },
+
   "skirmishInfantry": {
     "targetAltitude": 0.9,
     "damageTypeResistances": {

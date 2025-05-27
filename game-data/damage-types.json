@@ -184,7 +184,7 @@
         "start": 230,
         "end": 400,
         "startMod": -0.05,
-        "endMod": -0.75,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -218,7 +218,7 @@
         "start": 200,
         "end": 375,
         "startMod": -0.05,
-        "endMod": -0.75,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -331,6 +331,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley"
   },
+
   {
     "type": "horse-archer-bow",
     "orgDamageRatio": 200,
@@ -344,6 +345,7 @@
     "shotSound": "arrow-volley",
     "shotAnim": "arrowVolley"
   },
+
   {
     "type": "rocket",
     "orgDamageRatio": 250,

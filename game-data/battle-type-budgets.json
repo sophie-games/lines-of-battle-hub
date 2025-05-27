@@ -1,15 +1,15 @@
 {
   "skirmish": {
-    "manpower": 1400,
+    "manpower": 1500,
     "gold": 550
   },
   "clash": {
-    "manpower": 2700,
-    "gold": 1250
+    "manpower": 2800,
+    "gold": 1500
   },
   "combat": {
     "manpower": 5000,
-    "gold": 2350
+    "gold": 2500
   },
   "battle": {
     "manpower": 8000,
@@ -17,6 +17,6 @@
   },
   "grand_battle": {
     "manpower": 15000,
-    "gold": 7750
+    "gold": 7250
   }
 }
