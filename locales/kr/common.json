@@ -338,7 +338,7 @@
   "fetchingBattleActions": "전투 양상 가져오는 중...",
   "order": {
     "1": "이동",
-    "2": "탐색",
+    "2": "백병전",
     "3": "사격",
     "4": "사격 및 전진",
     "6": "후퇴",
@@ -427,6 +427,7 @@
     "subtitle": "누가 가장 <premiumCurrency/> 있나?",
     "description": "최고가 되고 싶으신가요? <storeLink>상점</storeLink>에서 <premiumCurrency/>을 얻으세요!"
   },
+  
   "team": "팀",
   "teams": "팀",
   "playerType": "플레이어 유형",
@@ -434,11 +435,15 @@
   "bot": "컴퓨터",
   "armyOfPlayer": "{{player}}번 플레이어의 군대",
   "averageElo": "평균 Elo",
+  
   "hybridDescription": "혼성 지도는 무작위로 생성되는 것이 아닌 미리 설정된 지형을 사용하지만, 플레이어가 자신만의 군대를 사용하여 경기할 수 있습니다.",
+  
   "playLastActionsModal": {
-    "message": "자리를 비운 사이에 새로운 전투 내 변동 사항이 발생했습니다.\\n최근 턴의 양상을 보고 싶으신가요?",
+
+    "message": "자리를 비운 사이에 새로운 전투 내 변동 사항이 발생했습니다. 최근 턴의 양상을 보고 싶으신가요?",
     "button": "시작"
   },
+  
   "battleReport": "전투 보고",
   "strength": "전력",
   "horse": "군마",
@@ -498,7 +503,7 @@
   "search": {
     "clans": "연합 검색"
   },
-  "formation": "형성",
+  "formation": "진영",
   "findGame": "경기 탐색",
   "gameIdOrLink": "경기 번호 혹은 링크",
   "unit": "부대",
@@ -601,5 +606,14 @@
   "scheduleRound": "예정 회차",
   "altWarning": "다중 계정을 사용하여 Elo를 습득하는 것은 금지되어 있습니다. 적발될 경우 조치가 취해질 수 있습니다.",
   "withdrawFromName": "{{name}}에서 이탈",
-  "withdrawTournamentMessage": "토너먼트에서 이탈하시겠습니까?"
+  "withdrawTournamentMessage": "토너먼트에서 이탈하시겠습니까?",
+
+  "steamBanner": {
+    "title": "스팀에서 라인스 오브 배틀을 찜하세요!",
+    "description": "찜하기 <0>{{wishlistCount}}</0>에 도달해 게임을 런칭할 수 있도록 도와주세요!",
+    "descriptionBoldPart": "30,000명",
+    "buttonText": "지금 바로 찜하기"
+  },
+
+  "offerDrawCooldownMessage": "몇 턴 전에 무승부가 제안되었었습니다. {{turns}} 턴에 다시 무승부를 제안할 수 있습니다."
 }
