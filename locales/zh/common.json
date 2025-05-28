@@ -233,7 +233,7 @@
   "canCaptureObjectives": "可以占领目标点",
   "cantCaptureObjectives": "不可以占领目标点",
 
-  "enfiladeFire": "受侧翼攻击加成",
+  "enfiladeFire": "弹道可穿透",
   "closeRange": "近射击距离",
   "midRange": "中射击距离",
   "longRange": "远距离距离",
