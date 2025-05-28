@@ -258,7 +258,7 @@
   "lBy": "修正",
   "terrainHitboxHeight": "地形遮蔽高度",
   "statusEffects": "状态效果",
-  "projectileAbsorption": "枪炮弹抗性",
+  "projectileAbsorption": "远程抗性",
   "orgRegainByNearbyUnits": "附近单位受组织度恢复",
   "terrainPName": "地形：{{name}}",
   "effects": "效果",
