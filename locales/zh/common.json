@@ -234,9 +234,9 @@
   "cantCaptureObjectives": "不可以占领目标点",
 
   "enfiladeFire": "弹道可穿透",
-  "closeRange": "近射击距离",
-  "midRange": "中射击距离",
-  "longRange": "远距离距离",
+  "closeRange": "近距离范围",
+  "midRange": "中距离范围",
+  "longRange": "远距离范围",
 
   "shootingAngle": "射击覆盖角度",
   "closeAttackDamage": "近距离攻击伤害",
