@@ -669,5 +669,7 @@
     "description": "Help us reach <0>{{wishlistCount}}</0> to launch the game!",
     "descriptionBoldPart": "30,000 wishlists",
     "buttonText": "Add to Wishlist Now"
-  }
+  },
+
+  "offerDrawCooldownMessage": "The last draw was offered a few turns ago. You may offer a new draw in {{turns}} turns."
 }

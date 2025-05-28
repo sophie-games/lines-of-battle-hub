@@ -30,8 +30,8 @@
   "scenarioEditor": "战役编辑器",
   "wiki": "Wiki",
   "gameCard": {
-    "title": "游戏 {{id}}",
-    "turn": "回合 {{turnNumber}}/{{maxTurn}}"
+    "title": "对局 {{id}}",
+    "turn": "回合数 {{turnNumber}}/{{maxTurn}}"
   },
   "withdrawMessage": "如果你从对局中撤退，你会自动算作失败并降低Elo，你确定要撤退吗？",
   "loading": "加载中……",
@@ -40,20 +40,23 @@
   "by": "来自",
   "logout": "登出",
   "createNewGame": "创建新对局",
-  "randomGameInfo": "在随机生成地图的对局中，游戏会使用你在对应模式里预先配置的军队。你可以在<0>军队配置</0>里查看并管理你的军队配置。如果你还没有创建任何军队配置，游戏会按默认方案给你分配。",
+
+  "randomGameInfo": "在随机生成地图的对局中，游戏会使用你在对应模式里预先配置的军队。你可以在<0>军队配置</0>里查看并管理你的军队配置。如果你还没有创建任何军队配置，游戏会按默认方案给你提供配置。",
+
   "selectGameMode": "从以下选项中选择游戏模式。",
   "or": "或是",
   "cancel": "取消",
   "matchmakingQueue": {
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的对局选项一致的其他玩家。",
-    "matchFound": "当搜索到匹配对象时，你会自动进入游戏。",
+    "matchFound": "当搜索到匹配对象时，你会自动进入对局。",
+    "continueMatchmaking": "即便你离开这个页面，匹配过程依旧会继续，当匹配成功时会通知你。",
     "onlyClanMembers": "只与联盟成员组队",
-    "extendQueue": "扩展队列",
-    "extendQueueSuccess": "正在所有Elo范围内匹配"
+    "extendQueue": "扩大匹配范围",
+    "extendQueueSuccess": "匹配范围已经扩大！现在匹配的elo范围更大了。"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
-  "maxTimePerTurn": "每回合最大时间",
+  "maxTimePerTurn": "每回合时间限制",
   "turnTimeLimit": {
     "30s": "30秒",
     "1m": "1分钟",
@@ -73,9 +76,9 @@
     "grand_battle": "大战役"
   },
   "matchmaking": "匹配",
-  "matchmakingDescription": "匹配模式下能让你快速找到一个随机的对手，通用预先配置的军队战斗。",
+  "matchmakingDescription": "匹配模式下能让你快速找到一个随机的对手，并使用预先配置好的军队战斗。",
   "custom": "自定义",
-  "customDescription": "自定义模式可以让你创建一个自己对局，调整各项设置，并允许你邀请朋友加入。",
+  "customDescription": "自定义模式可以让你自己创建一个特定设置的对局，并允许你邀请朋友加入。",
   "createCustomGame": "创建自定义对局",
   "maxTurn": "最大回合数",
   "player": "玩家",
@@ -84,19 +87,19 @@
   "objectiveSkins": "目标点皮肤",
   "avatars": "头像",
   "withdraw": "撤退",
-  "importScenario": "导入战役",
+  "importScenario": "导入战役剧本",
   "importScenarioModal": {
-    "importInfo": "你可以导入任何喜欢的战役。",
-    "createInfo": "你甚至能在<scenarioEditorLink/>中创建你自己的战役。"
+    "importInfo": "你可以导入任何喜欢的战役剧本。",
+    "createInfo": "你甚至能在<scenarioEditorLink/>中创建你自己的战役剧本。"
   },
   "scenarioEditorTags": {
     "tutorialMessage": "不会用？别担心！<tutorialLink>在这里观看教程。</tutorialLink>"
   },
-  "createScenario": "创建战役",
-  "loadScenario": "加载战役",
+  "createScenario": "创建战役剧本",
+  "loadScenario": "加载战役剧本",
   "playOffline": "离线游玩！",
   "createOfflineGame": "创建离线对局",
-  "chooseAScenario": "选择战役",
+  "chooseAScenario": "选择战役剧本",
   "playerArmy": "玩家的军队",
   "botArmy": "电脑的军队",
   "army": "军队",
@@ -158,7 +161,7 @@
     "6lb-cannon-ball": "6磅实心炮弹",
     "4lb-cannon-ball": "4磅实心炮弹",
     "explosive-shell": "榴弹",
-    "cavalry-sword": "骑兵剑",
+    "cavalry-sword": "骑兵重剑",
     "canister-fire": "炮射霰弹",
     "6lb-canister-fire": "6磅炮射霰弹",
     "4lb-canister-fire": "4磅炮射霰弹",
@@ -185,18 +188,19 @@
     "14": "掷弹兵",
     "15": "4磅步兵火炮"
   },
+
   "battalionName": {
     "1": "{{n}}线列步兵营",
-    "2": "{{n}}龙骑兵队",
+    "2": "{{n}}龙骑兵中队",
     "3": "{{n}}步兵炮组",
     "4": "{{n}}近卫步兵营",
-    "5": "{{n}}枪骑兵队",
+    "5": "{{n}}枪骑兵中队",
     "6": "{{n}}骑兵炮组",
     "7": "{{n}}轻步兵营",
-    "8": "{{n}}胸甲骑兵队",
+    "8": "{{n}}胸甲骑兵中队",
     "9": "{{n}}榴弹炮组",
-    "10": "{{n}}民兵队",
-    "11": "{{n}}骠骑兵队",
+    "10": "{{n}}民兵营",
+    "11": "{{n}}骠骑兵中队",
     "12": "{{n}}步兵炮组",
     "13": "{{n}}弓骑兵队",
     "14": "{{n}}掷弹兵营",
@@ -207,17 +211,15 @@
     "2": "可靠的多面手，这种中型骑兵既能用于骚扰也能正面作战。",
     "3": "廉价的中型火炮，移动力和火力较为平衡，有着威力不错的炮射霰弹。",
     "4": "经验丰富，体格健壮的精锐步兵，他们的存在能鼓舞友军并震慑敌人。这些精英单位是士兵中的翘楚，招募他们的代价可不小。他们的士气效果和娴熟的近战技艺能让他们在刺刀冲锋中占据上风。",
-    "5": "冲锋特化的轻骑兵，他们能用骑枪排成一排，冲垮敌人的阵型。但是当被拖入混战时，他们便不再有明显的近战优势。",
-    "6": "这种廉价轻型火炮的移动力让它很适合用于支援骑兵和快速机动的步兵。",
+    "5": "冲锋特化的精锐骑兵，他们能用骑枪排成一排，发起毁灭性的冲锋。多个枪骑兵中队的轮番冲锋足以击垮任何对手。但是当他们被拖入鏖战时，优势便不再明显。",
+    "6": "这种廉价火炮的移动力让它很适合用于支援骑兵和快速机动的步兵。",
     "7": "经过特殊训练的精锐线列步兵，专精于快速机动和精准射击。",
-    "8": "可怖的重骑兵，拥有所有兵种中最强的近战能力。即便如此，依旧建议先用步兵和炮兵削弱敌人后再派出胸甲骑兵。",
-    "9": "轻型野战榴弹炮，能发射可以爆炸的榴弹和威力强大的霰弹，很适合在中近距离支援你的步兵线。",
+    "8": "可怖的重骑兵，拥有所有兵种中最强最全面的近战能力。然而，还是最好先用步兵和炮兵削弱敌人后再派出胸甲骑兵。",
+    "9": "轻型野战榴弹炮，能发射可以爆炸的榴弹和威力强大的近距离霰弹，很适合在中近距离支援你的步兵阵线。",
     "10": "“依赖民兵作战就像拄着一根断掉的手杖一样” ——乔治·华盛顿",
-    "11": "适合追击溃退敌人的轻骑兵。他们对上秩序井然的步兵和重骑兵时胜算渺茫。建议先用你的步兵和炮兵削弱敌军再派出骑兵。",
-    "12": "拿破仑时代军队中最重型的火炮，这些火炮造价昂贵，同时他们的射程和威力也无人可比。",
-    "13": "“巴什基尔的弓骑兵无疑是世界上最不危险的部队。” ——马尔博男爵，在大腿中箭之后",
-    "14": "这些冲击步兵由线列步兵中挑选出最高大强壮的兵员组成。他们总体的作战能力都略优于普通的线列步兵，而最突出的优势在于他们毁灭性的近战冲锋。",
-    "15": "拿破仑时代军队中最轻型的火炮，适中的火力和不错的机动性使它成为了步兵最好的伙伴。"
+    "11": "适合追击残破的、溃退着的敌人的轻骑兵。他们对上秩序井然的步兵和重骑兵时则胜算渺茫。最好先用你的步兵和炮兵削弱敌军再派出骑兵。",
+    "12": "拿破仑时代军队中最重型的火炮，这些火炮造价昂贵，但它们的射程和威力无人可比。",
+    "13": "“巴什基尔的弓骑兵无疑是世界上最不危险的部队。” ——马尔博男爵，在大腿中箭之后"
   },
   "damageResistances": "伤害抗性",
   "otherStats": "其它属性",
@@ -230,21 +232,23 @@
   "targetAltitude": "目标高度",
   "canCaptureObjectives": "可以占领目标点",
   "cantCaptureObjectives": "不可以占领目标点",
-  "enfiladeFire": "弹道可穿透",
-  "closeRange": "近距离范围",
-  "midRange": "中距离范围",
-  "longRange": "远距离范围",
+
+  "enfiladeFire": "受侧翼攻击加成",
+  "closeRange": "近射击距离",
+  "midRange": "中射击距离",
+  "longRange": "远距离距离",
+
   "shootingAngle": "射击覆盖角度",
   "closeAttackDamage": "近距离攻击伤害",
   "longAttackDamage": "远距离攻击伤害",
   "arcHeight": "弹道曲线高度",
   "aoe": "伤害范围",
   "type": "种类",
-  "circular": "圆形",
+  "circular": "圆形范围",
   "radius": "半径",
   "edgeDamageModifier": "边缘伤害修正",
   "absorption": "伤害吸收",
-  "trapezoidal": "梯形",
+  "trapezoidal": "梯形范围",
   "topWidth": "顶边宽",
   "bottomWidth": "底边宽",
   "height": "高度",
@@ -254,8 +258,8 @@
   "lBy": "修正",
   "terrainHitboxHeight": "地形遮蔽高度",
   "statusEffects": "状态效果",
-  "projectileAbsorption": "射击抗性",
-  "orgRegainByNearbyUnits": "附近单位的组织度恢复",
+  "projectileAbsorption": "枪炮弹抗性",
+  "orgRegainByNearbyUnits": "附近单位受组织度恢复",
   "terrainPName": "地形：{{name}}",
   "effects": "效果",
   "terrain": {
@@ -270,14 +274,14 @@
   },
   "clearPlayerUnits": "清除玩家单位",
   "clearBotUnits": "清除电脑单位",
-  "continueGame": "继续对局",
-  "createNewOfflineGame": "创建新离线对局",
+  "continueGame": "继续游戏",
+  "createNewOfflineGame": "创建新的离线对局",
   "filterBy": "过滤：",
   "name": "名字",
   "retry": "重试",
   "networkErrorModal": {
     "title": "哎呀！连接中断！",
-    "message": "看上去网络连接中断了。别担心！你还能以离线模式继续。"
+    "message": "看上去网络连接中断了。别担心！你还能以离线模式继续游玩。"
   },
   "needsUpdateModal": {
     "title": "需要更新",
@@ -294,14 +298,15 @@
   "armyInvalid": "该军队配置无效，请修改。",
   "landing": {
     "title": "欢迎来到 <0>Lines of Battle</0>",
-    "message": "<b>Lines of Battle</b>是一个即时回合制演算的多人策略游戏，背景取自拿破仑战争时期。本游戏侧重战术深度和历史还原，你将会和其它玩家在史诗般的战役中对决，用你的技术和策略思维来击败对手吧！",
+    "message": "<b>Lines of Battle</b>是一个同步回合制的多人策略游戏，背景取自拿破仑战争时期。本游戏侧重战术深度和历史还原，你将会和其它玩家在史诗般的战役中对决，用你的技术和策略思维来击败对手吧！",
     "privacy": "如果继续，将视作你同意我们的<0>隐私政策</0>。"
   },
   "welcomeModal": {
     "title": "欢迎来到 Lines of Battle 👋",
-    "thanks": "欢迎加入，{{name}}！",
-    "p1": "第一次玩<b>Lines of Battle</b>？推荐你先试着和电脑打一场<offlineLink>离线对局</offlineLink>，熟悉一下游戏机制并在没有压力的环境下研究你的战术。",
-    "p2": "由于这个游戏尚在beta测试阶段，欢迎你加入我们的<discordLink>Discord服务器</discordLink>和其它玩家一起讨论，对局，报告bug，以及分享你对游戏建议，让大家的游戏体验越来越好！"
+
+    "thanks": "欢迎您的加入，{{name}}！",
+    "p1": "是第一次玩<b>Lines of Battle</b>吗？推荐你先试着和电脑玩一局<offlineLink>离线对局</offlineLink>以熟悉游戏机制并在较为轻松的环境下研究你的战术。",
+    "p2": "由于这个游戏尚在beta测试阶段，欢迎你加入我们的<discordLink>Discord服务器</discordLink>和其它玩家一起交流讨论，互相对局，报告bug，以及分享你对游戏建议，让大家的游戏体验越来越好！"
   },
   "turn": "回合",
   "loadingScreen": {
@@ -312,28 +317,28 @@
     "generatingMap": "生成地图中……",
     "tip1": "组织度高的单位更难受到冲锋的影响，最好先用枪炮削弱他们。",
     "tip2": "骠骑兵这种轻骑兵并不擅长高强度的战斗，他们更加适合追击状态较差的部队或是偷袭炮兵。",
-    "tip3": "滑膛枪和火炮在中距离范围内的威力远比在远距离范围的大。",
-    "tip4": "榴弹炮的弹道角度很高，这让他们更适合攻击在树林和建筑内的目标。",
-    "tip5": "选择部队后点击信息键（快捷键I）可以打开单位界面，看到关于它的更多细节信息。",
-    "tip6": "溃退的单位更难恢复组织度，而且有可能永久逃出地图。在单位组织度降低时应该主动撤下他们，防止他们组织度归零后溃退。",
+    "tip3": "滑膛枪和火炮在中距离范围内的威力远比在远距离范围上的大。",
+    "tip4": "榴弹炮的弹道很高，这让他们更适合攻击在树林和建筑内目标。",
+    "tip5": "选择部队后点击信息键（快捷键I）可以打开单位界面，能够看到关于它的更多细节信息。",
+    "tip6": "溃退的单位更难恢复组织度，而且有可能完全逃离地图。在单位组织度降低时应该主动撤下他们，防止他们组织度归零后溃退。",
     "tip7": "骑兵炮和榴弹炮的机动性比12磅步兵炮强很多。虽然让炮兵逼近前线十分危险，但这也能让它们使用威力强大的炮射霰弹，改变战场局势。",
     "tip8": "当你选择一个单位后，回看到一个淡蓝色的组织范围。敌人进入这个范围后会降低组织度，而友军则会获得额外的组织度。",
     "tip9": "枪骑兵是专注于冲锋攻击的精锐骑兵，但在持久的近战中还是不如胸甲骑兵。",
     "tip10": "射击步兵单位的侧翼能造成大量伤害。",
-    "tip11": "你可以通过杀伤敌方军队或是占领敌方目标点获得胜利点。当你胜利点领先时，敌人的组织度恢复速度会越来越慢。当回合数达到上限后会通过胜利点决定胜负。",
+    "tip11": "你可以通过杀伤敌方军队或是占领敌方目标点获得胜利点。当你胜利点大幅度领先时，敌人的组织度恢复速度会越来越慢。如回合数达到上限则会通过胜利点决定胜负。",
     "tip12": "攻击敌人的侧翼，保护好自己的侧翼。",
     "tip13": "把你最喜欢的回放发在LoB官方Discord服务器上，开发组可能会精选并把它们发布在YouTube上哦！",
     "tip14": "如果你对游戏有任何疑问，我们的Wiki，Reddit论坛和Discord服务器应该能帮到你。",
-    "tip15": "如果你很喜欢Lines of Battle，并且乐意付出真金白银的支持，欢迎加入我们的Patreon会员？你的每一分钱都能鼓励我们。",
+    "tip15": "如果你很喜欢Lines of Battle，并且乐意付出真金白银的支持，欢迎加入我们的Patreon会员！你的每一分钱都能鼓励我们。",
     "tip16": "冷知识：你在部署阶段可以改变己方目标点的位置。",
     "tip17": "想要占领敌方的目标点吗？把一个步兵营移到上面8回合，或者8个步兵营一回合……你知道这是什么个理。",
     "tip18": "点击指令按钮可以切换到其它指令，例如后退，射击，移动射击等等。",
     "tip19": "近卫步兵和胸甲骑兵对周围其它单位的组织度影响很大。这种影响可以叠加，让一小组精锐单位有改变战局的能力。",
     "tip20": "让你炮兵的射界保持空旷，不要让己方部队挡在炮口前面。",
-    "tip21": "“骑兵的职责在于扩大胜利成果，让退散的敌军无法重新集结” ——拿破仑·波拿巴",
-    "tip22": "“如果想把骑兵一直留到战斗结束再用，那就说明你对步兵和骑兵之联合冲锋的威力缺乏概念，不论攻防皆是如此。” ——拿破仑·波拿巴",
+    "tip21": "「骑兵的责任是追击胜利，防止被击败的敌人重新集结。」 - 拿破仑·波拿巴",
+    "tip22": "「计划将骑兵留到战斗结束，那是对步兵与骑兵在无论是进攻还是防守中联合冲锋的力量毫无概念。」 - 拿破仑·波拿巴",
     "tip23": "“总之就是进攻。”——阿佩罗元帅",
-    "tip24": "“我的龙骑兵何在？”——斯蒂尔弗莱舍元帅"
+    "tip24": "“我的龙骑兵何在！”——斯蒂尔弗莱舍元帅"
   },
   "fetchingBattleActions": "正在获取战斗行动……",
   "order": {
@@ -361,15 +366,15 @@
   "menu": "菜单",
   "replayActions": "回放行动",
   "deselectUnit": "取消选择单位",
-  "removeUnitOrders": "移除单位的指令",
+  "removeUnitOrders": "去除单位的指令",
   "info": "信息",
   "meleePerformance": "近战表现",
   "speedByOrg": "基于组织度的速度",
-  "nTurnsLeft": "剩余{{n}}回合",
+  "nTurnsLeft": "还剩{{n}}回合",
   "battleOverview": {
     "title": "战斗总览",
-    "victoryPoints": "胜利点",
-    "initialArmyPower": "开场军力",
+    "victoryPoints": "胜利点数",
+    "initialArmyPower": "开局军力",
     "powerLost": "军力损失",
     "lossesRatio": "损伤比",
     "objectives": "目标点",
@@ -379,16 +384,17 @@
   "offerDrawModal": {
     "withdrawOffer": "取消提议和局",
     "alreadyWantsDrawMessage": "你已经提出和对手和局。你确定要收回这一提议吗？",
-    "offerDrawMessage": "一旦你提议和局，这一选项会一直存在直到你取消它。",
+
+    "offerDrawMessage": "一旦你提议和局，这一提议会持续提供直到你取消它。",
     "player": "{{player}}正在提议和局。",
     "players": "{{players}}正在提议和局。"
   },
   "defeat": "失败",
   "victory": "胜利",
   "draw": "和局",
-  "won": "胜利",
-  "lost": "失败",
-  "tie": "平局",
+  "won": "战胜",
+  "lost": "战败",
+  "tie": "战平",
   "unitStatus": {
     "1": "稳定",
     "2": "溃退",
@@ -421,10 +427,10 @@
     "2v2": "2 vs 2"
   },
   "offline": "离线",
-  "offlineDescription": "和电脑控制的敌人对练或是和朋友在同一个设备上玩热座模式！",
+  "offlineDescription": "对着电脑控制的敌人练习或是和朋友在同一个设备上玩热座模式！",
   "premiumCurrencyLeaderboard": {
     "title": "<premiumCurrency/>排行榜",
-    "subtitle": "谁有最多的<premiumCurrency/>？",
+    "subtitle": "谁拥有最多的<premiumCurrency/>？",
     "description": "想当榜一？<storeLink>前往商店</storeLink>并充值<premiumCurrency/>！"
   },
   "team": "团队",
@@ -459,7 +465,7 @@
   "members": "成员",
   "deleteClan": "解散联盟",
   "deleteClanModal": {
-    "message": "你是否确定要解散<0>{{clanName}}</0>？所有成员都会自动退出，之后再没有反悔的机会。"
+    "message": "你是否确定要解散<0>{{clanName}}</0>？所有成员都会自动退出，该操作不可逆。"
   },
   "joinClan": "加入联盟",
   "joinClanModal": {
@@ -501,20 +507,44 @@
   "formation": "阵型",
   "findGame": "寻找对局",
   "gameIdOrLink": "对局ID或链接",
+
   "unit": "单位",
-  "createArmy": "创建军队",
+  "createArmy": "创建军队配置",
   "playFree": "免费玩",
   "leaveClan": "离开联盟",
   "leave": "离开",
   "leaveClanModal": {
-    "message": "你是否确定要离开<0>{{clanName}}</0>？"
+    "message": "你确定要离开 <0>{{clanName}}</0> 吗？"
   },
-  "resetToDefault": "重置到默认",
-  "submittingOrders": "正在提交指令",
-  "checkingUpdates": "正在检查更新",
+  "resetToDefault": "重置为默认值",
+  "submittingOrders": "正在提交指令……",
+  "checkingUpdates": "检查更新……",
   "tournaments": "锦标赛",
   "createTournament": "创建锦标赛",
-  "joinName": "加入{{name}}",
+  "joinName": "加入 {{name}}",
+  "league": {
+    "title": "联赛等级",
+    "a": "帝皇",
+    "b1": "钻石一等",
+    "b2": "钻石二等",
+    "b3": "钻石三等",
+    "c1": "铂金一等",
+    "c2": "铂金二等",
+    "c3": "铂金三等",
+    "d1": "黄金一等",
+    "d2": "黄金二等",
+    "d3": "黄金三等",
+    "e1": "白银一等",
+    "e2": "白银二等",
+    "e3": "白银三等",
+    "f1": "黄铜一等",
+    "f2": "黄铜二等",
+    "f3": "黄铜三等",
+    "g1": "黑铁一等",
+    "g2": "黑铁二等",
+    "g3": "黑铁三等"
+  },
+
   "startTournament": "开始锦标赛",
   "startRoundN": "开始第{{number}}轮",
   "open": "开放",
@@ -546,9 +576,9 @@
   "description": "描述",
   "tournamentPasswordNote": "有密码的锦标赛会被视作私人赛事，因而不会影响到Elo",
   "inSlowQueueModal": {
-    "title": "对局已加入队列！",
-    "message": "当它找到其它玩家后，该游戏会出现在主页“我的对局”之下！",
-    "found": "该对局已找到其它玩家，你可以<0>点击此处</0>开始游玩。"
+    "title": "对局已加入匹配队列！",
+    "message": "当它找到其它玩家作为对手后，该游戏会出现在主页“我的对局”之下！",
+    "found": "该对局已找到对手，你可以<0>点击此处</0>开始游玩。"
   },
   "active": "进行中",
   "inQueue": "在队列中",
@@ -556,35 +586,13 @@
   "playableGamesMessage": "你有等待行动的对局！现在查看一下吧！",
   "viewGames": "查看对局",
   "close": "关闭",
-  "dontShowAgain": "别再显示",
+  "dontShowAgain": "不再显示",
   "drawOfferedModal": {
     "title": "已提议和局！",
     "messageSingular": "{{player}}正在提议和局。你是否要接受？和局只有在所有玩家接受后才会生效。",
     "messagePlural": "{{players}}正在提议和局。你是否要接受？和局只有在所有玩家接受后才会生效。"
   },
   "projectilePenetration": "射击穿透",
-  "league": {
-    "title": "段位",
-    "a": "帝王",
-    "b1": "钻石一",
-    "b2": "钻石二",
-    "b3": "钻石三",
-    "c1": "白金一",
-    "c2": "白金二",
-    "c3": "白金三",
-    "d1": "黄金一",
-    "d2": "黄金二",
-    "d3": "黄金三",
-    "e1": "白银一",
-    "e2": "白银二",
-    "e3": "白银三",
-    "f1": "青铜一",
-    "f2": "青铜二",
-    "f3": "青铜三",
-    "g1": "黑铁一",
-    "g2": "黑铁二",
-    "g3": "黑铁三"
-  },
   "skinTier": {
     "1": "新兵",
     "2": "老兵",
@@ -607,5 +615,6 @@
     "description": "我们达到 <0>{{wishlistCount}}</0> 后就可以发行游戏！",
     "descriptionBoldPart": "30000愿望单",
     "buttonText": "现在加入"
-  }
+  },
+  "offerDrawCooldownMessage": "上一次和局提议是在几回合之前，你可以在 {{turns}} 回合后再次提议和局。 "
 }

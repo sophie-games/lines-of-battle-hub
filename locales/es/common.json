@@ -663,5 +663,7 @@
     "description": "Ayudanos a alcanzar <0>{{wishlistCount}}</0> para lanzar el juego!",
     "descriptionBoldPart": "30.000 wishlists",
     "buttonText": "Añadir a la Wishlist ahora"
-  }
+  },
+
+  "offerDrawCooldownMessage": "La última oferta de empate fue hace algunos turnos. Puedes ofrecer un nuevo empate en {{turns}} turnos."
 }
