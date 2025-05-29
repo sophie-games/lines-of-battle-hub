@@ -388,7 +388,8 @@
     "orgRadiusBonus": 2,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true
+    "fireAndAdvance": true,
+    "locked": true
   },
   {
     "type": 17,
@@ -413,7 +414,8 @@
     "orgRadiusBonus": 2,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true
+    "fireAndAdvance": true,
+    "locked": true
   },
   {
     "type": 18,
@@ -440,7 +442,8 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "locked": true
   },
 
   {
@@ -468,6 +471,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "locked": true
   }
 ]

@@ -382,7 +382,7 @@
       "absorptionModifier": 1.25
     },
     "shotSound": "rocket-volley",
-    "shotAnim": "cannonVolley",
+    "shotAnim": "rocketVolley",
     "shotImpactAnim": "shellImpact"
   }
 ]
