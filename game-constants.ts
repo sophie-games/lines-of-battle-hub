@@ -101,8 +101,22 @@ export default {
   RECOVER_FROM_ROUTING_THRESHOLD: 165,
 
   NEARBY_UNITS_DISTANCE: 64,
-  NEARBY_UNITS_POSITIVE_ORG_BONUS_CAP: 50,
-  NEARBY_UNITS_NEGATIVE_ORG_BONUS_CAP: -50,
+  NEARBY_UNITS_POSITIVE_ORG_BONUS_CAP: 75,
+  NEARBY_UNITS_NEGATIVE_ORG_BONUS_CAP: -75,
+
+  /**
+   * This org damage modifier is applied positively or negatively if the unit
+   * has reached one of the nearby units org bonus caps.
+   */
+  NEARBY_UNITS_ORG_DAMAGE_MODIFIER_CAP: 0.2,
+
+  /**
+   * Routing units will receive the org bonus by nearby units multiplied by this value.
+   */
+  ROUTING_UNIT_NEARBY_UNITS_ORG_BONUS: 1.5,
+
+  STARTED_ROUTING_ORG_RADIUS_MODIFIER: -3.5,
+  MAX_ALLY_OVERLAP_ORG_RADIUS_MODIFIER: -0.6,
 
   SAFE_ORG_RECOVERY_MODIFIER: 0.5,
   SAFE_DISTANCE: 206,
