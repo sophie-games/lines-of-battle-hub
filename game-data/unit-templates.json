@@ -18,8 +18,8 @@
     "movementSound": "infantry-movement",
     "manpower": 200,
     "gold": 50,
-    "orgRadius": 56,
-    "orgRadiusBonus": 5,
+    "orgRadius": 64,
+    "orgRadiusBonus": 6,
     "fireAndAdvance": true
   },
   {
@@ -162,8 +162,8 @@
     "movementSound": "infantry-movement",
     "manpower": 200,
     "gold": 75,
-    "orgRadius": 56,
-    "orgRadiusBonus": 5,
+    "orgRadius": 64,
+    "orgRadiusBonus": 6,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true
@@ -332,8 +332,8 @@
     "movementSound": "infantry-movement",
     "manpower": 275,
     "gold": 50,
-    "orgRadius": 56,
-    "orgRadiusBonus": 5,
+    "orgRadius": 64,
+    "orgRadiusBonus": 6,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true
@@ -388,12 +388,13 @@
     "orgRadiusBonus": 2,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true
+    "fireAndAdvance": true,
+    "locked": true
   },
   {
     "type": 17,
     "category": "skirmishInfantry",
-    "rangedAttack": 10,
+    "rangedAttack": 11,
     "meleeAttack": 12,
     "meleeDefense": 22,
     "meleeDamageType": "bayonet",
@@ -413,7 +414,8 @@
     "orgRadiusBonus": 2,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true
+    "fireAndAdvance": true,
+    "locked": true
   },
   {
     "type": 18,
@@ -440,7 +442,8 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "locked": true
   },
 
   {
@@ -468,6 +471,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "locked": true
   }
 ]

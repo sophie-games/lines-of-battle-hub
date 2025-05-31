@@ -30,11 +30,11 @@
       {
         "start": 0,
         "end": 30,
-        "startMod": 1.5,
-        "endMod": 0.5,
+        "startMod": 2.5,
+        "endMod": 1,
         "name": "close"
       },
-      { "start": 30, "end": 60, "startMod": 0.5, "endMod": 0 },
+      { "start": 30, "end": 60, "startMod": 1, "endMod": 0 },
       {
         "start": 60,
         "end": 100,
@@ -76,11 +76,11 @@
       {
         "start": 0,
         "end": 45,
-        "startMod": 0.5,
-        "endMod": 0.5,
+        "startMod": 1,
+        "endMod": 1,
         "name": "close"
       },
-      { "start": 45, "end": 70, "startMod": 0.5, "endMod": 0 },
+      { "start": 45, "end": 70, "startMod": 1, "endMod": 0 },
       { "start": 70, "end": 100, "startMod": 0, "endMod": -0.4, "name": "long" }
     ],
     "shootingAngle": 350,
@@ -382,7 +382,7 @@
       "absorptionModifier": 1.25
     },
     "shotSound": "rocket-volley",
-    "shotAnim": "cannonVolley",
+    "shotAnim": "rocketVolley",
     "shotImpactAnim": "shellImpact"
   }
 ]

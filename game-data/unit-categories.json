@@ -1,10 +1,12 @@
 {
   "infantry": {
+    "id": 1,
     "targetAltitude": 0.9,
     "canCaptureObjectives": true
   },
 
   "midCavalry": {
+    "id": 2,
     "targetAltitude": 0.9,
     "damageTypeResistances": {
       "bayonet": -0.1,
@@ -28,6 +30,7 @@
   },
 
   "artillery": {
+    "id": 3,
     "targetAltitude": 0.5,
     "damageTypeResistances": {
       "bayonet": -0.6,
@@ -52,9 +55,14 @@
     }
   },
 
-  "lightInfantry": { "targetAltitude": 0.9, "canCaptureObjectives": true },
+  "lightInfantry": {
+    "id": 4,
+    "targetAltitude": 0.9,
+    "canCaptureObjectives": true
+  },
 
   "lightCavalry": {
+    "id": 5,
     "targetAltitude": 0.9,
     "damageTypeResistances": {
       "bayonet": -0.15,
@@ -78,6 +86,7 @@
   },
 
   "heavyCavalry": {
+    "id": 6,
     "targetAltitude": 0.9,
     "damageTypeResistances": {
       "bayonet": -0.05,
@@ -101,9 +110,14 @@
     }
   },
 
-  "militiaInfantry": { "targetAltitude": 0.9, "canCaptureObjectives": true },
+  "militiaInfantry": {
+    "id": 7,
+    "targetAltitude": 0.9,
+    "canCaptureObjectives": true
+  },
 
   "skirmishInfantry": {
+    "id": 8,
     "targetAltitude": 0.9,
     "damageTypeResistances": {
       "bayonet": -0.25,
