@@ -26,4 +26,7 @@ This project contains language files and scenarios used for Lines of Battle. Bel
 - To add a new scenario, upload both the JSON file and its corresponding image to the `scenarios` folder.
 - Ensure file names are descriptive and consistent for easy identification.
 
+## Extra Links
+- To translate Simplified Chinese together, please join the LoB Paratranz Project/如果想合作汉化简体中文，建议加入Paratranz项目: https://paratranz.cn/projects/13709 (By Shavius)
+
 Thank you for contributing to or using this project!
