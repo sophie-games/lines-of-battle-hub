@@ -126,7 +126,7 @@
     "hp": "HP",
     "org": "组织度",
     "stamina": "体力",
-    "walkMovement": "行走",
+    "walkMovement": "行进",
     "movement": "移动力",
     "meleeAttack": "近战攻击",
     "meleeDefense": "近战防御",
@@ -360,7 +360,7 @@
   },
   "fetchingBattleActions": "正在获取战斗行动……",
   "order": {
-    "1": "行走",
+    "1": "行进",
     "2": "疾跑",
     "3": "射击",
     "4": "移动射击",
