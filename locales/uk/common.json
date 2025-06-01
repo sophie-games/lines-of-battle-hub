@@ -130,8 +130,7 @@
     "rangedAttack": "Стрільба",
     "limberMovement": "Походний рух",
     "chargeResistance": "Стійкість до натиску",
-    "status": "Статус",
-    "currentChargeResistance": "Поточна стійкість до натиску"
+    "status": "Статус"
   },
   "unitCategory": {
     "1": "Піхота",
@@ -223,8 +222,6 @@
   "midRange": "Середня Дистанція",
   "longRange": "Велика Дистанція",
   "shootingAngle": "Кут ведення вогню",
-  "closeAttackDamage": "Ушкодження Ближнього Бою",
-  "longAttackDamage": "Ушкодження Дальнього Бою",
   "arcHeight": "Висота Дуги",
   "aoe": "Площа Ураження",
   "type": "Тип",
@@ -243,7 +240,6 @@
   "terrainHitboxHeight": "Висота Колізійної Зони Місцевості",
   "statusEffects": "Ефекти статусу",
   "projectileAbsorption": "Поглинання Снарядів",
-  "orgRegainByNearbyUnits": "Відновлення Бойового Духу Завдяки Сусіднім Підрозділам",
   "terrainPName": "Ландшафт: {{name}}",
   "effects": "Ефекти",
   "terrain": {
@@ -331,7 +327,7 @@
   "allowFireWhenMoving": "Дозволити вогонь під час руху",
   "meleeDamage": "Ушкодження в ближньому бою",
   "rangedDamage": "Ушкодження в дальньому бою",
-  "orgRegainByHp": "Org regain by HP",
+  "orgRegain": "Org regain",
   "rangedDamageWhenMoving": "Відновлення бойового духу залежно від рівня здоров’я",
   "speed": "Швидкість",
   "speedWhenShooting": "Швидкість під час руху",
@@ -377,8 +373,7 @@
   },
   "unitEffect": {
     "1": "Повертається на місці",
-    "2": "Під обстрілом",
-    "3": "Готується до маршу"
+    "2": "Під обстрілом"
   },
   "login": "Увійти",
   "signUp": "Зареєструватися",

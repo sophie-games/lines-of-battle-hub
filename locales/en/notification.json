@@ -26,5 +26,10 @@
   "tournamentCancelled": {
     "title": "Tournament Cancelled",
     "message": "The tournament {{tournamentName}} has been cancelled. You have been refunded {{refund}} <BasicCurrency/>."
+  },
+
+  "updatePlanned": {
+    "title": "Update Planned",
+    "message": "There is a new <b>{{name}}</b> update planned for <b>{{date}}</b>, click to see the changes."
   }
 }

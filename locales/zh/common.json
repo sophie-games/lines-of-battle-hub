@@ -90,7 +90,8 @@
   "importScenario": "导入战役剧本",
   "importScenarioModal": {
     "importInfo": "你可以导入任何喜欢的战役剧本。",
-    "createInfo": "你甚至能在<scenarioEditorLink/>中创建你自己的战役剧本。"
+    "createInfo": "你甚至能在<scenarioEditorLink/>中创建你自己的战役剧本。",
+    "createInfo2": "或者探索<0>社区中心</0>以获取现成的场景。"
   },
   "scenarioEditorTags": {
     "tutorialMessage": "不会用？别担心！<tutorialLink>在这里观看教程。</tutorialLink>"
@@ -137,8 +138,7 @@
     "rangedAttack": "远程攻击",
     "limberMovement": "部署后移动力",
     "chargeResistance": "冲锋抗性",
-    "status": "状态",
-    "currentChargeResistance": "当前冲锋抗性"
+    "status": "状态"
   },
   "unitCategory": {
     "1": "步兵",
@@ -239,8 +239,6 @@
   "longRange": "远距离距离",
 
   "shootingAngle": "射击覆盖角度",
-  "closeAttackDamage": "近距离攻击伤害",
-  "longAttackDamage": "远距离攻击伤害",
   "arcHeight": "弹道曲线高度",
   "aoe": "伤害范围",
   "type": "种类",
@@ -353,7 +351,7 @@
   "allowFireWhenMoving": "允许移动射击",
   "meleeDamage": "近战伤害",
   "rangedDamage": "远程伤害",
-  "orgRegainByHp": "基于HP的组织度恢复",
+  "orgRegain": "组织度恢复",
   "rangedDamageWhenMoving": "移动时的远程伤害",
   "speed": "速度",
   "speedWhenShooting": "射击时的速度",
@@ -402,8 +400,7 @@
   },
   "unitEffect": {
     "1": "原地转向",
-    "2": "受到攻击",
-    "3": "拖曳火炮"
+    "2": "受到攻击"
   },
   "login": "登入",
   "signUp": "注册",
@@ -616,5 +613,11 @@
     "descriptionBoldPart": "30000愿望单",
     "buttonText": "现在加入"
   },
-  "offerDrawCooldownMessage": "上一次和局提议是在几回合之前，你可以在 {{turns}} 回合后再次提议和局。 "
+  "offerDrawCooldownMessage": "上一次和局提议是在几回合之前，你可以在 {{turns}} 回合后再次提议和局。 ",
+  "acceptDrawModal": {
+    "title": "接受平局",
+    "message": "你确定要接受平局吗？"
+  },
+  "download": "下载",
+  "translationsMessage": "你想参与翻译合作吗？你可以<0>在这里</0>进行。"
 }

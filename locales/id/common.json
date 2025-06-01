@@ -147,8 +147,7 @@
     "rangedAttack": "Serangan Jarak Jauh",
     "limberMovement": "Gerakan Lentur",
     "chargeResistance": "Daya Tahan Serangan",
-    "status": "Status",
-    "currentChargeResistance": "Ketahanan Serangan Saat Ini"
+    "status": "Status"
   },
 
   "unitCategory": {
@@ -248,8 +247,6 @@
   "midRange": "Jarak Sedang",
   "longRange": "Jarak Jauh",
   "shootingAngle": "Sudut Menembak",
-  "closeAttackDamage": "Kerusakan Serangan Dekat",
-  "longAttackDamage": "Kerusakan Serangan Jauh",
   "arcHeight": "Tinggi Busur",
   "aoe": "Efek Area",
   "type": "Tipe",
@@ -268,7 +265,6 @@
   "terrainHitboxHeight": "Ketinggian Hitbox Medan",
   "statusEffects": "Status Efek",
   "projectileAbsorption": "Proyektil Absorption",
-  "orgRegainByNearbyUnits": "Organisasi yang Didapatkan Kembali Berdasarkan Unit Terdekat",
   "terrainPName": "Medan: {{name}}",
   "effects": "Efek",
 
@@ -369,7 +365,7 @@
   "allowFireWhenMoving": "Izinkan menembak sambil bergerak",
   "meleeDamage": "Kerusakan Jarak Dekat",
   "rangedDamage": "Kerusakan Jarak Jauh",
-  "orgRegainByHp": "Organisasi pulih berdasarkan HP",
+  "orgRegain": "Organisasi pulih",
   "rangedDamageWhenMoving": "Kerusakan jarak jauh sambil bergerak",
   "speed": "Kecepatan",
   "speedWhenShooting": "Kecepatan sambil menembak",
@@ -420,8 +416,7 @@
 
   "unitEffect": {
     "1": "Rotasi penuh",
-    "2": "Telah diserang",
-    "3": "Sedang menyiapkan meriam"
+    "2": "Telah diserang"
   },
 
   "login": "Login",

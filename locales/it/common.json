@@ -146,8 +146,7 @@
     "rangedAttack": "Attacco a distanza",
     "limberMovement": "Movimento leggero",
     "chargeResistance": "Resistenza alla carica",
-    "status": "Stato",
-    "currentChargeResistance": "Resistenza alla carica attuale"
+    "status": "Stato"
   },
 
   "unitCategory": {
@@ -245,8 +244,6 @@
   "midRange": "Medio raggio",
   "longRange": "Lungo raggio",
   "shootingAngle": "Angolo di tiro",
-  "closeAttackDamage": "Danno attacco ravvicinato",
-  "longAttackDamage": "Danno attacco a lungo raggio",
   "arcHeight": "Altezza arco",
   "aoe": "Area d'effetto",
   "type": "Tipo",
@@ -265,7 +262,6 @@
   "terrainHitboxHeight": "Altezza hitbox del terreno",
   "statusEffects": "Effetti di stato",
   "projectileAbsorption": "Assorbimento proiettili",
-  "orgRegainByNearbyUnits": "Recupero organizzazione da unità vicine",
   "terrainPName": "Terreno: {{name}}",
   "effects": "Effetti",
 
@@ -366,7 +362,7 @@
   "allowFireWhenMoving": "Consenti fuoco durante il movimento",
   "meleeDamage": "Danno corpo a corpo",
   "rangedDamage": "Danno a distanza",
-  "orgRegainByHp": "Recupero organizzazione per PV",
+  "orgRegain": "Recupero organizzazione",
   "rangedDamageWhenMoving": "Danno a distanza durante il movimento",
   "speed": "Velocità",
   "speedWhenShooting": "Velocità durante il tiro",
@@ -417,8 +413,7 @@
 
   "unitEffect": {
     "1": "Rotazione completa",
-    "2": "È stato attaccato",
-    "3": "Preparazione leggera"
+    "2": "È stato attaccato"
   },
 
   "login": "Accedi",

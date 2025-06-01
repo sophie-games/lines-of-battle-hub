@@ -91,7 +91,8 @@
   "importScenario": "Importar escenario",
   "importScenarioModal": {
     "importInfo": "Podés importar cualquier escenario que quieras.",
-    "createInfo": "Incluso podés crear tus propios escenarios en el <scenarioEditorLink/>."
+    "createInfo": "Incluso podés crear tus propios escenarios en el <scenarioEditorLink/>.",
+    "createInfo2": "O explora el <0>Centro Comunitario</0> para escenarios listos para usar."
   },
 
   "scenarioEditorTags": {
@@ -134,6 +135,7 @@
   "unitStat": {
     "hp": "HP",
     "org": "Organización",
+    "walkMovement": "Caminar",
     "movement": "Movimiento",
     "meleeAttack": "Ataque cuerpo a cuerpo",
     "meleeDefense": "Defensa cuerpo a cuerpo",
@@ -145,7 +147,7 @@
     "limberMovement": "Movimiento enganchado",
     "chargeResistance": "Resistencia a la carga",
     "status": "Estado",
-    "currentChargeResistance": "Resistencia Actual a la Carga"
+    "timeToRun": "Tiempo para correr"
   },
 
   "unitCategory": {
@@ -250,8 +252,6 @@
   "midRange": "Alcance medio",
   "longRange": "Alcance largo",
   "shootingAngle": "Ángulo de disparo",
-  "closeAttackDamage": "Daño de ataque cercano",
-  "longAttackDamage": "Daño de ataque lejano",
   "arcHeight": "Altura del arco",
   "aoe": "Área de efecto",
   "type": "Tipo",
@@ -270,7 +270,6 @@
   "terrainHitboxHeight": "Altura de la hitbox del terreno",
   "statusEffects": "Efectos de estado",
   "projectileAbsorption": "Absorción de proyectiles",
-  "orgRegainByNearbyUnits": "Recuperación de org por unidades cercanas",
   "terrainPName": "Terreno: {{name}}",
   "effects": "Efectos",
 
@@ -358,7 +357,9 @@
     "tip21": "\"Es tarea de la caballería seguir la victoria y evitar que el enemigo derrotado se reagrupe.\" - Napoleon Bonaparte",
     "tip22": "\"Planear reservar la caballería para el final de la batalla es no tener noción del poder de las cargas combinadas de infantería y caballería, ya sea para el ataque o para la defensa.\" - Napoleon Bonaparte",
     "tip23": "\"Solo ataca.\" - Mariscal Apeiro",
-    "tip24": "\"¿Dónde están mis dragones?\" - Mariscal SteelFlesher"
+    "tip24": "\"¿Dónde están mis dragones?\" - Mariscal SteelFlesher",
+    "tip25": "Las unidades recuperan el 100% de la stamina muy lentamente; piensa antes de comprometer tu última reserva.",
+    "tip26": "La caballería tiene menos stamina que la infantería; ten cuidado de usarla en el momento adecuado."
   },
 
   "fetchingBattleActions": "Obteniendo acciones de batalla...",
@@ -376,7 +377,7 @@
   "allowFireWhenMoving": "Permite disparar mientras te movés",
   "meleeDamage": "Daño cuerpo a cuerpo",
   "rangedDamage": "Daño a distancia",
-  "orgRegainByHp": "Recuperación de org por HP",
+  "orgRegain": "Recuperación de org",
   "rangedDamageWhenMoving": "Daño a distancia mientras te movés",
   "speed": "Velocidad",
   "speedWhenShooting": "Velocidad al disparar",
@@ -430,7 +431,7 @@
   "unitEffect": {
     "1": "Rotando completamente",
     "2": "Ha sido atacado",
-    "3": "Preparando los cañones"
+    "3": "Ha corrido"
   },
 
   "login": "Iniciar sesión",
@@ -664,6 +665,17 @@
     "descriptionBoldPart": "30.000 wishlists",
     "buttonText": "Añadir a la Wishlist ahora"
   },
-
-  "offerDrawCooldownMessage": "La última oferta de empate fue hace algunos turnos. Puedes ofrecer un nuevo empate en {{turns}} turnos."
+  "offerDrawCooldownMessage": "La última oferta de empate fue hace algunos turnos. Puedes ofrecer un nuevo empate en {{turns}} turnos.",
+  "acceptDrawModal": {
+    "title": "Aceptar empate",
+    "message": "¿Estás seguro de que quieres aceptar el empate?"
+  },
+  "staminaCost": "Costo de stamina",
+  "cannotUseAfterRun": "No usable tras correr",
+  "selectIdleUnit": "Seleccionar unidad parada",
+  "receivedDamageWhenMoving": "Daño recibido al moverse",
+  "chargeResistanceWhenMoving": "Resistencia a la carga al moverse",
+  "allyOverlap": "Superposición de aliados",
+  "download": "Descargar",
+  "translationsMessage": "¿Quieres colaborar con traducciones? Puedes hacerlo <0>aquí</0>."
 }

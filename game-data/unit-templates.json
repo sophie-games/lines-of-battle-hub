@@ -20,7 +20,8 @@
     "gold": 50,
     "orgRadius": 64,
     "orgRadiusBonus": 6,
-    "fireAndAdvance": true
+    "fireAndAdvance": true,
+    "hasSkirmishers": true
   },
   {
     "type": 2,
@@ -166,7 +167,8 @@
     "orgRadiusBonus": 6,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true
+    "fireAndAdvance": true,
+    "hasSkirmishers": true
   },
   {
     "type": 8,
@@ -360,8 +362,6 @@
     "manpower": 25,
     "gold": 150,
     "chargeResistance": -0.5,
-    "basicPrice": 400,
-    "premiumPrice": 40,
     "fireAndAdvance": true,
     "startsRunning": true
   },

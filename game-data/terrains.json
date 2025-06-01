@@ -1,0 +1,41 @@
+{
+  "0": {
+    "category": "land"
+  },
+  "1": {
+    "category": "forest"
+  },
+  "2": {
+    "category": "building"
+  },
+  "3": {
+    "category": "path"
+  },
+  "4": {
+    "category": "shallowWater"
+  },
+  "5": {
+    "category": "deepWater"
+  },
+  "6": {
+    "category": "cliff"
+  },
+  "7": {
+    "category": "path"
+  },
+  "8": {
+    "category": "land"
+  },
+  "9": {
+    "category": "land"
+  },
+  "10": {
+    "category": "land"
+  },
+  "11": {
+    "category": "land"
+  },
+  "12": {
+    "category": "city"
+  }
+}

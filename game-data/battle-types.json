@@ -1,0 +1,27 @@
+{
+  "skirmish": {
+    "manpower": 1500,
+    "gold": 550,
+    "skirmisherRatio": [1, 1]
+  },
+  "clash": {
+    "manpower": 2800,
+    "gold": 1500,
+    "skirmisherRatio": [3, 8]
+  },
+  "combat": {
+    "manpower": 5000,
+    "gold": 2500,
+    "skirmisherRatio": [3, 8]
+  },
+  "battle": {
+    "manpower": 8000,
+    "gold": 4000,
+    "skirmisherRatio": [3, 8]
+  },
+  "grand_battle": {
+    "manpower": 15000,
+    "gold": 7250,
+    "skirmisherRatio": [3, 8]
+  }
+}

@@ -146,8 +146,7 @@
     "rangedAttack": "Atak Dystansowy",
     "limberMovement": "Ruch Zaprzodkowany",
     "chargeResistance": "Odporność na Szarżę",
-    "status": "Stan",
-    "currentChargeResistance": "Aktualna Odporność na Szarżę"
+    "status": "Stan"
   },
 
   "unitCategory": {
@@ -247,8 +246,6 @@
   "midRange": "Średni Zasięg",
   "longRange": "Daleki Zasięg",
   "shootingAngle": "Kąt Wystrzału",
-  "closeAttackDamage": "Obrażenia z Bliska",
-  "longAttackDamage": "Obrażenia z Daleka",
   "arcHeight": "Wysokość Łuku",
   "aoe": "Strefa Obrażeń",
   "type": "Rodzaj",
@@ -267,7 +264,6 @@
   "terrainHitboxHeight": "Wysokość Hitboxa Terenu",
   "statusEffects": "Efekty",
   "projectileAbsorption": "Absorpcja Pocisków",
-  "orgRegainByNearbyUnits": "Odzyskiwanie Org. dzięki pobliskim jednostkom",
   "terrainPName": "Teren: {{name}}",
   "effects": "Efekty",
 
@@ -368,7 +364,7 @@
   "allowFireWhenMoving": "Pozwala strzelać podczas ruchu",
   "meleeDamage": "Obrażenia wręcz",
   "rangedDamage": "Obrażenia dystansowe",
-  "orgRegainByHp": "Odzyskiwanie Org. przez PŻ",
+  "orgRegain": "Odzyskiwanie Org.",
   "rangedDamageWhenMoving": "Obrażenia dystansowe podczas ruchu",
   "speed": "Szybkość",
   "speedWhenShooting": "Szybkość w trakcie strzelania",
@@ -419,8 +415,7 @@
 
   "unitEffect": {
     "1": "Wykonuje pełny obrót",
-    "2": "Była atakowana",
-    "3": "W trakcie przygotowania"
+    "2": "Była atakowana"
   },
 
   "login": "Zaloguj się",

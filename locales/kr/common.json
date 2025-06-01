@@ -134,8 +134,7 @@
     "rangedAttack": "사격공격력",
     "limberMovement": "포가 기동력",
     "chargeResistance": "돌격 저항력",
-    "status": "상태",
-    "currentChargeResistance": "현 돌격 저항력"
+    "status": "상태"
   },
   "unitCategory": {
     "1": "보병",
@@ -235,8 +234,6 @@
   "midRange": "중거리 사격",
   "longRange": "사거리",
   "shootingAngle": "사격각",
-  "closeAttackDamage": "근거리 공격 피해량",
-  "longAttackDamage": "원거리 공격 피해량",
   "arcHeight": "탄도 고도",
   "aoe": "효과 범위",
   "type": "유형",
@@ -255,7 +252,6 @@
   "terrainHitboxHeight": "지형 적중영역 높이",
   "statusEffects": "상태 효과",
   "projectileAbsorption": "발사체 흡수",
-  "orgRegainByNearbyUnits": "주변 부대에 의한 조직력 회복",
   "terrainPName": "지형 : {{name}}",
   "effects": "효과",
   "terrain": {
@@ -348,7 +344,7 @@
   "allowFireWhenMoving": "산병전",
   "meleeDamage": "근접피해량",
   "rangedDamage": "사격피해량",
-  "orgRegainByHp": "체력에 의한 조직력 회복",
+  "orgRegain": "조직 회복",
   "rangedDamageWhenMoving": "이동 중 원거리 공격 피해량",
   "speed": "속도",
   "speedWhenShooting": "사격 중 속도",
@@ -396,8 +392,7 @@
   },
   "unitEffect": {
     "1": "완전히 패주 중",
-    "2": "공격 받음",
-    "3": "몸 푸는 중"
+    "2": "공격 받음"
   },
   "login": "로그인",
   "signUp": "등록",

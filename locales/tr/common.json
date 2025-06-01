@@ -146,8 +146,7 @@
     "rangedAttack": "Uzak Saldırı",
     "limberMovement": "Hafif Hareket",
     "chargeResistance": "Hücum Direnci",
-    "status": "Durum",
-    "currentChargeResistance": "Mevcut Hücum Direnci"
+    "status": "Durum"
   },
 
   "unitCategory": {
@@ -247,8 +246,6 @@
   "midRange": "Orta Mesafe",
   "longRange": "Uzun Mesafe",
   "shootingAngle": "Ateş Açısı",
-  "closeAttackDamage": "Yakın Saldırı Hasarı",
-  "longAttackDamage": "Uzun Saldırı Hasarı",
   "arcHeight": "Yay Yüksekliği",
   "aoe": "Etkilenen Alan",
   "type": "Tür",
@@ -267,7 +264,6 @@
   "terrainHitboxHeight": "Arazi Çarpışma Kutusu Yüksekliği",
   "statusEffects": "Durum Etkileri",
   "projectileAbsorption": "Mermi Emilimi",
-  "orgRegainByNearbyUnits": "Yakındaki Birimlerden Organizasyon Kazanımı",
   "terrainPName": "Arazi: {{name}}",
   "effects": "Etkiler",
 
@@ -368,7 +364,7 @@
   "allowFireWhenMoving": "Hareket ederken ateşe izin ver",
   "meleeDamage": "Yakın dövüş hasarı",
   "rangedDamage": "Uzak mesafe hasarı",
-  "orgRegainByHp": "Can ile organizasyon kazanımı",
+  "orgRegain": "Organizasyon kazanımı",
   "rangedDamageWhenMoving": "Hareket ederken uzak mesafe hasarı",
   "speed": "Hız",
   "speedWhenShooting": "Ateş ederken hız",
@@ -419,8 +415,7 @@
 
   "unitEffect": {
     "1": "Tam dönme",
-    "2": "Saldırıya uğradı",
-    "3": "Hafifliyor"
+    "2": "Saldırıya uğradı"
   },
 
   "login": "Giriş Yap",

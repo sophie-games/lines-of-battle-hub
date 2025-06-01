@@ -150,8 +150,7 @@
     "rangedAttack": "Огневая мощь",
     "limberMovement": "Манёвренность при смене позиции",
     "chargeResistance": "Сопротивление натиску",
-    "status": "Статус",
-    "currentChargeResistance": "Текущее сопротивление натиску"
+    "status": "Статус"
   },
 
   "unitCategory": {
@@ -259,8 +258,6 @@
   "midRange": "Средняя дистанция",
   "longRange": "Дальняя дистанция",
   "shootingAngle": "Угол стрельбы",
-  "closeAttackDamage": "Урон на близкой дистанции",
-  "longAttackDamage": "Урон на дальней дистанции",
   "arcHeight": "Высота траектории Снаряда",
   "aoe": "Область поражения",
   "type": "Тип",
@@ -279,7 +276,6 @@
   "terrainHitboxHeight": "Высота объектов местности",
   "statusEffects": "Эффекты статуса",
   "projectileAbsorption": "Поглощение снарядов",
-  "orgRegainByNearbyUnits": "Восстановление организации от соседних батальонов",
   "terrainPName": "Местность: {{name}}",
   "effects": "Эффекты",
 
@@ -385,7 +381,7 @@
   "allowFireWhenMoving": "Может стрелять при движении",
   "meleeDamage": "Урон в ближнем бою",
   "rangedDamage": "Урон от огня",
-  "orgRegainByHp": "Восстановление организации от Боеспособности",
+  "orgRegain": "Восстановление организации",
   "rangedDamageWhenMoving": "Урон от огня при движении",
   "speed": "Манёвренность",
   "speedWhenShooting": "Манёвренность при стрельбе",
@@ -438,8 +434,7 @@
 
   "unitEffect": {
     "1": "Полный поворот",
-    "2": "Был атакован",
-    "3": "Меняет позицию"
+    "2": "Был атакован"
   },
 
   "login": "Войти",

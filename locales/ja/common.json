@@ -146,8 +146,7 @@
     "rangedAttack": "遠距離攻撃",
     "limberMovement": "砲架移動",
     "chargeResistance": "突撃耐性",
-    "status": "ステータス",
-    "currentChargeResistance": "現在の突撃耐性"
+    "status": "ステータス"
   },
 
   "unitCategory": {
@@ -245,8 +244,6 @@
   "midRange": "中距離",
   "longRange": "長距離",
   "shootingAngle": "射撃角度",
-  "closeAttackDamage": "近距離攻撃ダメージ",
-  "longAttackDamage": "遠距離攻撃ダメージ",
   "arcHeight": "弾道高度",
   "aoe": "範囲効果",
   "type": "種類",
@@ -265,7 +262,6 @@
   "terrainHitboxHeight": "地形ヒットボックスの高さ",
   "statusEffects": "ステータス効果",
   "projectileAbsorption": "弾丸吸収",
-  "orgRegainByNearbyUnits": "近くのユニットによる組織回復",
   "terrainPName": "地形: {{name}}",
   "effects": "効果",
 
@@ -366,7 +362,7 @@
   "allowFireWhenMoving": "移動中に射撃を許可",
   "meleeDamage": "接近戦ダメージ",
   "rangedDamage": "遠距離ダメージ",
-  "orgRegainByHp": "HPによる組織回復",
+  "orgRegain": "組織回復",
   "rangedDamageWhenMoving": "移動中の遠距離ダメージ",
   "speed": "速度",
   "speedWhenShooting": "射撃時の速度",
@@ -417,8 +413,7 @@
 
   "unitEffect": {
     "1": "完全回転",
-    "2": "攻撃を受けた",
-    "3": "準備運動中"
+    "2": "攻撃を受けた"
   },
 
   "login": "ログイン",
