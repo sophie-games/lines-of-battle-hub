@@ -147,7 +147,7 @@
     "light-musket": "Постріл із рушниці",
     "artillery-sabre": "Гармашова шабля",
     "bayonet": "Удар списом",
-    "cannon-ball": "Гарматне ядро",
+    "8lb-cannon-ball": "Гарматне ядро",
     "cavalry-sabre": "Кінна шабля",
     "cavalry-lance": "Козацьке списо",
     "6lb-cannon-ball": "Легке гарматне ядро",
@@ -156,7 +156,7 @@
     "canister-fire": "Картечний залп",
     "6lb-canister-fire": "Легкий картечний залп",
     "howitzer-canister": "Гаубичний картечний залп",
-    "heavy-cannon-ball": "Важке гарматне ядро",
+    "12lb-cannon-ball": "Важке гарматне ядро",
     "heavy-canister-fire": "Важкий картечний залп",
     "dragoon-sword": "Драгунський палаш",
     "horse-archer-bow": "Лук вершника"

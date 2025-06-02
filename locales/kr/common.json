@@ -151,7 +151,7 @@
     "light-musket": "경활강총",
     "artillery-sabre": "포병 곡검",
     "bayonet": "총검",
-    "cannon-ball": "포환",
+    "8lb-cannon-ball": "포환",
     "cavalry-sabre": "기병 곡검",
     "cavalry-lance": "기병창",
     "6lb-cannon-ball": "6파운드 포환",
@@ -162,7 +162,7 @@
     "6lb-canister-fire": "6파운드 유산탄",
     "4lb-canister-fire": "4파운드 유산탄",
     "howitzer-canister": "곡사포 유산탄",
-    "heavy-cannon-ball": "중포탄",
+    "12lb-cannon-ball": "중포탄",
     "heavy-canister-fire": "중유산탄",
     "dragoon-sword": "용기병검",
     "horse-archer-bow": "궁기병 활"

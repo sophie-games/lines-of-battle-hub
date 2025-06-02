@@ -165,7 +165,7 @@
     "light-musket": "Könnyű Muskéta",
     "artillery-sabre": "Tüzérségi Szablya",
     "bayonet": "Bajonett",
-    "cannon-ball": "Ágyúgolyó",
+    "8lb-cannon-ball": "Ágyúgolyó",
     "cavalry-sabre": "Lovassági Szablya",
     "cavalry-lance": "Lovassági Lándzsa",
     "6lb-cannon-ball": "Könnyű Ágyúgolyó",
@@ -174,7 +174,7 @@
     "canister-fire": "Sörétes Tüzelés",
     "6lb-canister-fire": "Könnyű Sörétes Tüzelés",
     "howitzer-canister": "Mozsár Sörét",
-    "heavy-cannon-ball": "Nehéz ágyúgolyó",
+    "12lb-cannon-ball": "Nehéz ágyúgolyó",
     "heavy-canister-fire": "Nehéz kartácstűz",
     "dragoon-sword": "Dragonyos kard"
   },

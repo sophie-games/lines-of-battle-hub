@@ -51,7 +51,7 @@
     "meleeAttack": 6,
     "meleeDefense": 8,
     "meleeDamageType": "artillery-sabre",
-    "rangedDamageTypes": ["canister-fire", "cannon-ball"],
+    "rangedDamageTypes": ["canister-fire", "8lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 35,
     "runStartUpMovement": 0,
@@ -67,7 +67,14 @@
     "gold": 250,
     "chargeResistance": -0.5,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ]
   },
   {
     "type": 4,
@@ -101,7 +108,7 @@
     "meleeDefense": 20,
     "meleeDamageType": "cavalry-lance",
     "chargeBonus": 70,
-    "chargePenetration": 0.25,
+    "chargePenetration": 0.2,
     "walkMovement": 115,
     "runMovement": 175,
     "timeToRun": 8,
@@ -142,7 +149,14 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ]
   },
   {
     "type": 7,
@@ -218,7 +232,14 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ]
   },
   {
     "type": 10,
@@ -271,7 +292,7 @@
     "meleeAttack": 6,
     "meleeDefense": 8,
     "meleeDamageType": "artillery-sabre",
-    "rangedDamageTypes": ["heavy-canister-fire", "heavy-cannon-ball"],
+    "rangedDamageTypes": ["heavy-canister-fire", "12lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 25,
     "runStartUpMovement": 0,
@@ -287,7 +308,14 @@
     "gold": 300,
     "chargeResistance": -0.5,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ]
   },
   {
     "type": 13,
@@ -335,7 +363,7 @@
     "manpower": 275,
     "gold": 50,
     "orgRadius": 64,
-    "orgRadiusBonus": 6,
+    "orgRadiusBonus": 9,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true
@@ -363,7 +391,14 @@
     "gold": 150,
     "chargeResistance": -0.5,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ]
   },
   {
     "type": 16,
@@ -389,6 +424,13 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ],
     "locked": true
   },
   {
@@ -415,6 +457,13 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ],
     "locked": true
   },
   {
@@ -443,7 +492,13 @@
     "premiumPrice": 40,
     "fireAndAdvance": true,
     "startsRunning": true,
-    "locked": true
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ]
   },
 
   {
@@ -472,6 +527,13 @@
     "premiumPrice": 40,
     "fireAndAdvance": true,
     "startsRunning": true,
-    "locked": true
+    "locked": true,
+    "friendlyFireImmuneDamageTypes": [
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell"
+    ]
   }
 ]

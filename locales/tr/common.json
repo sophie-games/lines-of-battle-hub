@@ -166,7 +166,7 @@
     "light-musket": "Hafif Muskete",
     "artillery-sabre": "Topçu Kılıcı",
     "bayonet": "Süngü",
-    "cannon-ball": "Top Gültesi",
+    "8lb-cannon-ball": "Top Gültesi",
     "cavalry-sabre": "Süvari Kılıcı",
     "cavalry-lance": "Süvari Mızrağı",
     "6lb-cannon-ball": "Hafif Top Gültesi",
@@ -175,7 +175,7 @@
     "canister-fire": "Kartuş Ateşi",
     "6lb-canister-fire": "Hafif Kartuş Ateşi",
     "howitzer-canister": "Obüs Kartuşu",
-    "heavy-cannon-ball": "Ağır Top Gültesi",
+    "12lb-cannon-ball": "Ağır Top Gültesi",
     "heavy-canister-fire": "Ağır Kartuş Ateşi",
     "dragoon-sword": "Ejder Kılıcı",
     "horse-archer-bow": "Atlı Okçu Yayı"

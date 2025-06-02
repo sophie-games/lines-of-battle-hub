@@ -167,7 +167,7 @@
     "light-musket": "Musket Ringan",
     "artillery-sabre": "Artileri Saber",
     "bayonet": "Bayonet",
-    "cannon-ball": "Bola Meriam",
+    "8lb-cannon-ball": "Bola Meriam",
     "cavalry-sabre": "Kavaeri Saber",
     "cavalry-lance": "Kavaleri Tombak",
     "6lb-cannon-ball": "Meriam Bola Ringan",
@@ -176,7 +176,7 @@
     "canister-fire": "Tembakan Peluru Canister",
     "6lb-canister-fire": "Tembakan Peluru Canister Ringan",
     "howitzer-canister": "Meriam Besar Canister",
-    "heavy-cannon-ball": "Meriam Bola Berat",
+    "12lb-cannon-ball": "Meriam Bola Berat",
     "heavy-canister-fire": "Tembakan Peluru Berat Canister",
     "dragoon-sword": "Pedang Dragoon",
     "horse-archer-bow": "Pemanah Kuda"

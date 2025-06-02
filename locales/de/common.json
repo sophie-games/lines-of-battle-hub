@@ -165,7 +165,7 @@
     "light-musket": "Leichte Muskete",
     "artillery-sabre": "Artilleriesäbel",
     "bayonet": "Bajonett",
-    "cannon-ball": "Kanonenkugel",
+    "8lb-cannon-ball": "Kanonenkugel",
     "cavalry-sabre": "Kavalleriesäbel",
     "cavalry-lance": "Kavallerielanze",
     "6lb-cannon-ball": "Leichte Kanonenkugel",
@@ -174,7 +174,7 @@
     "canister-fire": "Kartätschenfeuer",
     "6lb-canister-fire": "Leichtes Kartätschenfeuer",
     "howitzer-canister": "HaubitzenKartätschen",
-    "heavy-cannon-ball": "Schwere Kanonenkugel",
+    "12lb-cannon-ball": "Schwere Kanonenkugel",
     "heavy-canister-fire": "Schweres Kartätschenfeuer",
     "dragoon-sword": "Dragonerschwert"
   },
