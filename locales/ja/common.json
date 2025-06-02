@@ -165,7 +165,7 @@
     "light-musket": "軽マスケット銃",
     "artillery-sabre": "砲兵サーベル",
     "bayonet": "銃剣",
-    "cannon-ball": "砲弾",
+    "8lb-cannon-ball": "砲弾",
     "cavalry-sabre": "騎兵サーベル",
     "cavalry-lance": "騎兵槍",
     "6lb-cannon-ball": "軽砲弾",
@@ -174,7 +174,7 @@
     "canister-fire": "散弾射撃",
     "6lb-canister-fire": "軽散弾射撃",
     "howitzer-canister": "榴弾砲散弾",
-    "heavy-cannon-ball": "重砲弾",
+    "12lb-cannon-ball": "重砲弾",
     "heavy-canister-fire": "重散弾射撃",
     "dragoon-sword": "竜騎兵の剣"
   },

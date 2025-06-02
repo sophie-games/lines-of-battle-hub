@@ -170,7 +170,7 @@
     "light-musket": "Лёгкий мушкет",
     "artillery-sabre": "Артиллерийская сабля",
     "bayonet": "Штык",
-    "cannon-ball": "Пушечное ядро",
+    "8lb-cannon-ball": "Пушечное ядро",
     "cavalry-sabre": "Кавалерийская сабля",
     "cavalry-lance": "Кавалерийская пика",
     "6lb-cannon-ball": "6-фунтовое пушечное ядро",
@@ -181,7 +181,7 @@
     "6lb-canister-fire": "6-фунтовая картечь",
     "4lb-canister-fire": "4-фунтовая картечь",
     "howitzer-canister": "Гаубичная картечь",
-    "heavy-cannon-ball": "Крупнокалиберное ядро",
+    "12lb-cannon-ball": "Крупнокалиберное ядро",
     "heavy-canister-fire": "Крупнокалиберная картечь",
     "dragoon-sword": "Драгунский палаш",
     "horse-archer-bow": "Составной лук"

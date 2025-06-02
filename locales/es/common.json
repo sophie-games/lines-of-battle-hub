@@ -166,7 +166,7 @@
     "light-musket": "Mosquete Ligero",
     "artillery-sabre": "Sable de Artillería",
     "bayonet": "Bayoneta",
-    "cannon-ball": "Bala de Cañón",
+    "8lb-cannon-ball": "Bala de Cañón de 8 libras",
     "cavalry-sabre": "Sable de Caballería",
     "cavalry-lance": "Lanza de Caballería",
     "6lb-cannon-ball": "Bala de Cañón de 6 libras",
@@ -177,7 +177,7 @@
     "6lb-canister-fire": "Fuego de Metralla de 6 libras",
     "4lb-canister-fire": "Fuego de Metralla de 4 libras",
     "howitzer-canister": "Metralla de Obús",
-    "heavy-cannon-ball": "Bala de cañón pesada",
+    "12lb-cannon-ball": "Bala de cañón de 12 libras",
     "heavy-canister-fire": "Fuego de Metralla pesado",
     "dragoon-sword": "Espada de dragón"
   },

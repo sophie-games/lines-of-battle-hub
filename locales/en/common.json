@@ -175,7 +175,7 @@
     "light-musket": "Light Musket",
     "artillery-sabre": "Artillery Sabre",
     "bayonet": "Bayonet",
-    "cannon-ball": "Cannon Ball",
+    "8lb-cannon-ball": "8-lb Cannon Ball",
     "cavalry-sabre": "Cavalry Sabre",
     "cavalry-lance": "Cavalry Lance",
     "6lb-cannon-ball": "6-lb Cannon Ball",
@@ -186,7 +186,7 @@
     "6lb-canister-fire": "6-lb Canister Fire",
     "4lb-canister-fire": "4-lb Canister Fire",
     "howitzer-canister": "Howitzer Canister",
-    "heavy-cannon-ball": "Heavy Cannon Ball",
+    "12lb-cannon-ball": "12-lb Cannon Ball",
     "heavy-canister-fire": "Heavy Canister Fire",
     "dragoon-sword": "Dragoon Sword",
     "horse-archer-bow": "Horse Archer Bow",
@@ -715,5 +715,6 @@
   "objective": "Objective",
   "hasSkirmishers": "Has skirmishers",
   "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
-  "skirmisherRatio": "Skirmisher ratio"
+  "skirmisherRatio": "Skirmisher ratio",
+  "friendlyFireImmune": "Friendly fire immune"
 }

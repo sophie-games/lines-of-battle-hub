@@ -162,7 +162,7 @@
     "light-musket": "Mousquet léger",
     "artillery-sabre": "Sabre d'artilleur",
     "bayonet": "Bayonette",
-    "cannon-ball": "Boulet de canon",
+    "8lb-cannon-ball": "Boulet de canon",
     "cavalry-sabre": "Sabre de cavalerie",
     "cavalry-lance": "Lance de cavalerie",
     "6lb-cannon-ball": "Boulet de canon léger",
@@ -171,7 +171,7 @@
     "canister-fire": "Mitraille",
     "6lb-canister-fire": "Mitraille légère",
     "howitzer-canister": "Mitraille d'obusier",
-    "heavy-cannon-ball": "Boulet de canon lourd",
+    "12lb-cannon-ball": "Boulet de canon lourd",
     "heavy-canister-fire": "Tir de mitraille lourd",
     "dragoon-sword": "Épée de dragon",
     "horse-archer-bow": "Arc d'archer à cheval"

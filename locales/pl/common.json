@@ -166,7 +166,7 @@
     "light-musket": "Karabinek",
     "artillery-sabre": "Szabla Artyleryjska",
     "bayonet": "Bagnet",
-    "cannon-ball": "Kula Armatnia",
+    "8lb-cannon-ball": "Kula Armatnia",
     "cavalry-sabre": "Szabla Kawaleryjska",
     "cavalry-lance": "Kopia Kawaleryjska",
     "6lb-cannon-ball": "Lekka Kula Armatnia",
@@ -175,7 +175,7 @@
     "canister-fire": "Ogień Kartaczami",
     "6lb-canister-fire": "Lekki Ogień Kartaczami",
     "howitzer-canister": "Kartacz z Haubicy",
-    "heavy-cannon-ball": "Ciężka Kula Armatnia",
+    "12lb-cannon-ball": "Ciężka Kula Armatnia",
     "heavy-canister-fire": "Ciężki Ostrzał Kartaczami",
     "dragoon-sword": "Miecz Dragoński",
     "horse-archer-bow": "Łuk kawaleryjski"

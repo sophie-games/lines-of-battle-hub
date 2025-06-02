@@ -103,7 +103,7 @@
     "shotAnim": "musketVolley"
   },
   {
-    "type": "cannon-ball",
+    "type": "8lb-cannon-ball",
     "orgDamageRatio": 165,
     "diminishByTargetOrg": {
       "start": 120,
@@ -137,7 +137,7 @@
     "shotImpactAnim": "cannonBallImpact"
   },
   {
-    "type": "heavy-cannon-ball",
+    "type": "12lb-cannon-ball",
     "orgDamageRatio": 165,
     "diminishByTargetOrg": {
       "start": 120,
