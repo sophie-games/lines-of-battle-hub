@@ -23,7 +23,7 @@
     "message": "锦标赛 {{tournamentName}} 已被取消。你已收到退款{{refund}}<BasicCurrency/>。"
   },
   "updatePlanned": {
-    "title": "计划更新",
-    "message": "有一个新的 <b>{{name}}</b> 更新计划于 <b>{{date}}</b> 进行，点击查看更改。"
+    "title": "即将更新",
+    "message": "计划即将在<b>{{date}}</b>放出新的<b>{{name}}</b>更新，点击查看详情。"
   }
 }
