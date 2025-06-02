@@ -108,7 +108,7 @@
     "meleeDefense": 20,
     "meleeDamageType": "cavalry-lance",
     "chargeBonus": 70,
-    "chargePenetration": 0.25,
+    "chargePenetration": 0.2,
     "walkMovement": 115,
     "runMovement": 175,
     "timeToRun": 8,
@@ -363,7 +363,7 @@
     "manpower": 275,
     "gold": 50,
     "orgRadius": 64,
-    "orgRadiusBonus": 6,
+    "orgRadiusBonus": 9,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true
