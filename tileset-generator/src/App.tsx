@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useRef, useEffect } from "react";
 import type { BlobTileset, TilesetConfig } from "./types";
 import { generateTileset, loadImage } from "./utils/tilesetGenerator";
+import JSZip from "jszip";
 
 function App() {
   const [config, setConfig] = useState<TilesetConfig>({
@@ -122,6 +123,42 @@ function App() {
     [namePrefix, getBlobName]
   );
 
+  const downloadAllBlobTilesets = useCallback(async () => {
+    const zip = new JSZip();
+
+    // Create promises for all blob conversions
+    const promises = blobTilesets.map(async (blobTileset, index) => {
+      const canvas = canvasRefs.current[index];
+      if (!canvas) return;
+
+      // Convert canvas to blob
+      const blob = await new Promise<Blob | null>((resolve) => {
+        canvas.toBlob(resolve, "image/webp");
+      });
+
+      if (!blob) {
+        console.error("Failed to create blob");
+        return;
+      }
+
+      const fileName = `${getBlobName(blobTileset)}.webp`;
+      zip.file(fileName, blob);
+    });
+
+    // Wait for all blobs to be added to the zip
+    await Promise.all(promises);
+
+    // Generate zip file
+    const zipBlob = await zip.generateAsync({ type: "blob" });
+
+    // Create download link
+    const link = document.createElement("a");
+    link.download = `${namePrefix}_tilesets.zip`;
+    link.href = URL.createObjectURL(zipBlob);
+    link.click();
+    URL.revokeObjectURL(link.href);
+  }, [blobTilesets, canvasRefs, getBlobName, namePrefix]);
+
   return (
     <div className="w-full h-full flex flex-col items-center p-5 gap-5 min-h-screen bg-gray-900 text-gray-100">
       <h1 className="text-4xl font-bold text-white">Blob Tileset Generator</h1>
@@ -200,9 +237,15 @@ function App() {
 
       {blobTilesets.length > 0 && (
         <div className="grid grid-cols-3 gap-4 p-5 border border-gray-700 rounded-lg bg-gray-800">
-          <h2 className="text-2xl mb-3 text-gray-100 col-span-3">
-            Generated Blob Tilesets
-          </h2>
+          <div className="col-span-3 flex justify-between items-center mb-3">
+            <h2 className="text-2xl text-gray-100">Generated Blob Tilesets</h2>
+            <button
+              onClick={downloadAllBlobTilesets}
+              className="rounded-lg border border-transparent px-4 py-2 text-base font-medium bg-blue-600 text-gray-100 cursor-pointer transition-colors hover:bg-blue-500 hover:border-blue-400 focus:outline-none focus:ring-4 focus:ring-blue-500/50"
+            >
+              Download All as ZIP
+            </button>
+          </div>
           {blobTilesets.map((blobTileset, index) => (
             <div
               key={`${blobTileset.sourceX}-${blobTileset.sourceY}`}
