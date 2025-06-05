@@ -32,6 +32,20 @@ export const generateTileset = (config: TilesetConfig): BlobTileset[] => {
   maskCtx.drawImage(config.maskImage, 0, 0);
   const maskData = maskCtx.getImageData(0, 0, maskCanvas.width, maskCanvas.height);
 
+  // Create overlay canvas if overlay image exists
+  let overlayCanvas: HTMLCanvasElement | null = null;
+  let overlayCtx: CanvasRenderingContext2D | null = null;
+  let overlayData: ImageData | null = null;
+
+  if (config.overlayImage) {
+    overlayCanvas = document.createElement("canvas");
+    overlayCanvas.width = workCanvas.width;
+    overlayCanvas.height = workCanvas.height;
+    overlayCtx = overlayCanvas.getContext("2d")!;
+    overlayCtx.drawImage(config.overlayImage, 0, 0);
+    overlayData = overlayCtx.getImageData(0, 0, overlayCanvas.width, overlayCanvas.height);
+  }
+
   // For each tile in the source texture
   for (let baseY = 0; baseY < sourceCanvas.height; baseY += config.tileSize) {
     for (let baseX = 0; baseX < sourceCanvas.width; baseX += config.tileSize) {
@@ -70,15 +84,31 @@ export const generateTileset = (config: TilesetConfig): BlobTileset[] => {
         expandedData.height
       );
 
-      // Apply mask by converting grayscale to alpha
+      // Apply mask by converting grayscale to alpha and blend with overlay if it exists
       for (let i = 0; i < expandedData.data.length; i += 4) {
         // Get the grayscale value from the mask (using red channel as they're all the same in grayscale)
         const maskGray = maskData.data[i];
         
-        // Copy RGB from the expanded texture
-        finalData.data[i] = expandedData.data[i];         // R
-        finalData.data[i + 1] = expandedData.data[i + 1]; // G
-        finalData.data[i + 2] = expandedData.data[i + 2]; // B
+        // Start with the expanded texture colors
+        let r = expandedData.data[i];     // R
+        let g = expandedData.data[i + 1]; // G
+        let b = expandedData.data[i + 2]; // B
+        
+        // If we have overlay data, blend it with the texture
+        if (overlayData) {
+          const overlayAlpha = overlayData.data[i + 3] / 255;
+          if (overlayAlpha > 0) {
+            // Simple alpha blending
+            r = Math.round(r * (1 - overlayAlpha) + overlayData.data[i] * overlayAlpha);
+            g = Math.round(g * (1 - overlayAlpha) + overlayData.data[i + 1] * overlayAlpha);
+            b = Math.round(b * (1 - overlayAlpha) + overlayData.data[i + 2] * overlayAlpha);
+          }
+        }
+
+        // Set the final colors
+        finalData.data[i] = r;
+        finalData.data[i + 1] = g;
+        finalData.data[i + 2] = b;
         
         // Set alpha based on mask's grayscale value (white = opaque, black = transparent)
         finalData.data[i + 3] = maskGray;

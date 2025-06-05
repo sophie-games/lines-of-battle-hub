@@ -8,6 +8,7 @@ function App() {
     tileSize: 16,
     maskImage: null,
     textureImage: null,
+    overlayImage: null,
   });
 
   const [blobTilesets, setBlobTilesets] = useState<BlobTileset[]>([]);
@@ -44,7 +45,7 @@ function App() {
   const handleImageUpload = useCallback(
     async (
       e: React.ChangeEvent<HTMLInputElement>,
-      type: "mask" | "texture"
+      type: "mask" | "texture" | "overlay"
     ) => {
       const file = e.target.files?.[0];
       if (!file) return;
@@ -55,7 +56,7 @@ function App() {
 
         setConfig((prev) => ({
           ...prev,
-          [type === "mask" ? "maskImage" : "textureImage"]: image,
+          [type === "mask" ? "maskImage" : type === "texture" ? "textureImage" : "overlayImage"]: image,
         }));
       } catch (error) {
         console.error("Error loading image:", error);
@@ -193,6 +194,20 @@ function App() {
           </div>
         </div>
         <div className="flex flex-col gap-2">
+          <label className="text-gray-300">Overlay Image: </label>
+          <div className="flex flex-col gap-1">
+            <input
+              type="file"
+              accept="image/*"
+              onChange={(e) => handleImageUpload(e, "overlay")}
+              className="file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-gray-700 file:text-gray-100 hover:file:bg-gray-600 file:cursor-pointer text-gray-300"
+            />
+            <span className="text-xs text-gray-400">
+              Optional overlay image
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
           <label className="text-gray-300">Name Prefix: </label>
           <input
             type="text"
@@ -221,6 +236,16 @@ function App() {
             <img
               src={config.textureImage.src}
               alt="Texture"
+              className="max-w-[200px] max-h-[200px] object-contain bg-gray-800 rounded-lg p-2"
+            />
+          </div>
+        )}
+        {config.overlayImage && (
+          <div>
+            <h3 className="text-xl mb-2 text-gray-200">Overlay Preview</h3>
+            <img
+              src={config.overlayImage.src}
+              alt="Overlay"
               className="max-w-[200px] max-h-[200px] object-contain bg-gray-800 rounded-lg p-2"
             />
           </div>
