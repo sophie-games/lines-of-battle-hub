@@ -6,12 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@pixi/react": "^7.1.1",
-    "pixi.js": "^7.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -23,7 +20,6 @@
     "@vitejs/plugin-react": "^4.5.1",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.3.3",
-    "typescript-eslint": "^0.0.1-alpha.0",
     "vite": "^5.0.8"
   }
 }

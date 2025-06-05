@@ -9,12 +9,3 @@ export interface BlobTileset {
   sourceY: number;
   data: ImageData;
 }
-
-export interface Tile {
-  x: number;
-  y: number;
-  width: number;
-  height: number;
-  data: ImageData;
-  blobType: number;
-} 
