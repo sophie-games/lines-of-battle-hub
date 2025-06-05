@@ -25,16 +25,10 @@
 
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["./src/*"],
-      "@common/*": ["../common/src/*"]
+      "@src/*": ["./src/*"]
     },
     "rootDir": ".."
   },
-  "include": ["src/**/*", "../common/src/**/*"],
-  "references": [
-    {
-      "path": "../common"
-    }
-  ],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
