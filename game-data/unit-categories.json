@@ -121,6 +121,7 @@
     "id": 8,
     "targetAltitude": 0.9,
     "nonCollidable": true,
+    "projectilePassThrough": 0.8,
     "damageTypeResistances": {
       "bayonet": -0.25,
       "cavalry-sabre": -0.5,

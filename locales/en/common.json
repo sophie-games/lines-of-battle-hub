@@ -727,5 +727,6 @@
   "hybrid": "Hybrid",
   "random": "Random",
   "projectileWidth": "Projectile width",
-  "nonCollidable": "Non-collidable"
+  "nonCollidable": "Non-collidable",
+  "projectilePassThrough": "Projectile pass through"
 }
