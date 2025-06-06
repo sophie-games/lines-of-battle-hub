@@ -173,12 +173,12 @@
     "4lb-cannon-ball": "Bala de Cañón de 4 libras",
     "explosive-shell": "Proyectil explosivo",
     "cavalry-sword": "Espada de Caballería",
-    "canister-fire": "Fuego de Metralla",
+    "8lb-canister-fire": "Fuego de Metralla",
     "6lb-canister-fire": "Fuego de Metralla de 6 libras",
     "4lb-canister-fire": "Fuego de Metralla de 4 libras",
     "howitzer-canister": "Metralla de Obús",
     "12lb-cannon-ball": "Bala de cañón de 12 libras",
-    "heavy-canister-fire": "Fuego de Metralla pesado",
+    "12lb-canister-fire": "Fuego de Metralla pesado",
     "dragoon-sword": "Espada de dragón"
   },
 
@@ -674,8 +674,11 @@
   "cannotUseAfterRun": "No usable tras correr",
   "selectIdleUnit": "Seleccionar unidad parada",
   "receivedDamageWhenMoving": "Daño recibido al moverse",
-  "chargeResistanceWhenMoving": "Resistencia a la carga al moverse",
   "allyOverlap": "Superposición de aliados",
   "download": "Descargar",
-  "translationsMessage": "¿Quieres colaborar con traducciones? Puedes hacerlo <0>aquí</0>."
+  "translationsMessage": "¿Quieres colaborar con traducciones? Puedes hacerlo <0>aquí</0>.",
+  "nearbyUnits": "Unidades cercanas",
+  "preset": "Preestablecido",
+  "hybrid": "Híbrido",
+  "random": "Aleatorio"
 }

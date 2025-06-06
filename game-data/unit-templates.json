@@ -8,8 +8,7 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 45,
-    "chargePenetration": 0.1,
-    "walkMovement": 70,
+    "walkMovement": 60,
     "runMovement": 100,
     "timeToRun": 4,
     "hp": 800,
@@ -31,6 +30,7 @@
     "meleeDamageType": "dragoon-sword",
     "chargeBonus": 65,
     "chargePenetration": 0,
+    "chargeResistance": 0.65,
     "walkMovement": 115,
     "runMovement": 170,
     "timeToRun": 4,
@@ -41,8 +41,7 @@
     "orgRadiusBonus": 2,
     "movementSound": "cavalry-movement",
     "manpower": 150,
-    "gold": 75,
-    "chargeResistance": 0.65
+    "gold": 75
   },
   {
     "type": 3,
@@ -51,7 +50,7 @@
     "meleeAttack": 6,
     "meleeDefense": 8,
     "meleeDamageType": "artillery-sabre",
-    "rangedDamageTypes": ["canister-fire", "8lb-cannon-ball"],
+    "rangedDamageTypes": ["8lb-canister-fire", "8lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 35,
     "runStartUpMovement": 0,
@@ -65,16 +64,9 @@
     "movementSound": "artillery-movement",
     "manpower": 25,
     "gold": 250,
-    "chargeResistance": -0.5,
+    "chargeResistance": -0.6,
     "fireAndAdvance": true,
-    "startsRunning": true,
-    "friendlyFireImmuneDamageTypes": [
-      "4lb-cannon-ball",
-      "6lb-cannon-ball",
-      "8lb-cannon-ball",
-      "12lb-cannon-ball",
-      "explosive-shell"
-    ]
+    "startsRunning": true
   },
   {
     "type": 4,
@@ -86,7 +78,8 @@
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 60,
     "chargePenetration": 0.2,
-    "walkMovement": 75,
+    "chargeResistance": 0.1,
+    "walkMovement": 65,
     "runMovement": 105,
     "timeToRun": 4,
     "hp": 800,
@@ -145,18 +138,11 @@
     "movementSound": "artillery-movement",
     "manpower": 75,
     "gold": 200,
-    "chargeResistance": -0.5,
+    "chargeResistance": -0.6,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true,
-    "friendlyFireImmuneDamageTypes": [
-      "4lb-cannon-ball",
-      "6lb-cannon-ball",
-      "8lb-cannon-ball",
-      "12lb-cannon-ball",
-      "explosive-shell"
-    ]
+    "startsRunning": true
   },
   {
     "type": 7,
@@ -168,7 +154,7 @@
     "rangedDamageTypes": ["light-musket"],
     "chargeBonus": 45,
     "chargePenetration": 0.1,
-    "walkMovement": 75,
+    "walkMovement": 65,
     "runMovement": 110,
     "timeToRun": 4,
     "hp": 800,
@@ -228,18 +214,11 @@
     "movementSound": "artillery-movement",
     "manpower": 50,
     "gold": 225,
-    "chargeResistance": -0.5,
+    "chargeResistance": -0.6,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true,
-    "friendlyFireImmuneDamageTypes": [
-      "4lb-cannon-ball",
-      "6lb-cannon-ball",
-      "8lb-cannon-ball",
-      "12lb-cannon-ball",
-      "explosive-shell"
-    ]
+    "startsRunning": true
   },
   {
     "type": 10,
@@ -251,7 +230,7 @@
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 16,
     "chargeResistance": -0.3,
-    "walkMovement": 70,
+    "walkMovement": 60,
     "runMovement": 100,
     "timeToRun": 4,
     "hp": 800,
@@ -292,7 +271,7 @@
     "meleeAttack": 6,
     "meleeDefense": 8,
     "meleeDamageType": "artillery-sabre",
-    "rangedDamageTypes": ["heavy-canister-fire", "12lb-cannon-ball"],
+    "rangedDamageTypes": ["12lb-canister-fire", "12lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 25,
     "runStartUpMovement": 0,
@@ -306,16 +285,9 @@
     "movementSound": "artillery-movement",
     "manpower": 50,
     "gold": 300,
-    "chargeResistance": -0.5,
+    "chargeResistance": -0.6,
     "fireAndAdvance": true,
-    "startsRunning": true,
-    "friendlyFireImmuneDamageTypes": [
-      "4lb-cannon-ball",
-      "6lb-cannon-ball",
-      "8lb-cannon-ball",
-      "12lb-cannon-ball",
-      "explosive-shell"
-    ]
+    "startsRunning": true
   },
   {
     "type": 13,
@@ -353,7 +325,8 @@
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 65,
     "chargePenetration": 0.2,
-    "walkMovement": 75,
+    "chargeResistance": 0.1,
+    "walkMovement": 65,
     "runMovement": 105,
     "timeToRun": 4,
     "hp": 800,
@@ -389,16 +362,9 @@
     "movementSound": "artillery-movement",
     "manpower": 25,
     "gold": 150,
-    "chargeResistance": -0.5,
+    "chargeResistance": -0.6,
     "fireAndAdvance": true,
-    "startsRunning": true,
-    "friendlyFireImmuneDamageTypes": [
-      "4lb-cannon-ball",
-      "6lb-cannon-ball",
-      "8lb-cannon-ball",
-      "12lb-cannon-ball",
-      "explosive-shell"
-    ]
+    "startsRunning": true
   },
   {
     "type": 16,
@@ -409,7 +375,7 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["marksman-musket"],
     "chargeBonus": 20,
-    "walkMovement": 80,
+    "walkMovement": 70,
     "runMovement": 115,
     "timeToRun": 4,
     "hp": 400,
@@ -442,7 +408,7 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["rifle"],
     "chargeBonus": 20,
-    "walkMovement": 80,
+    "walkMovement": 70,
     "runMovement": 115,
     "timeToRun": 4,
     "hp": 400,
@@ -487,24 +453,17 @@
     "movementSound": "artillery-movement",
     "manpower": 25,
     "gold": 200,
-    "chargeResistance": -0.5,
+    "chargeResistance": -0.6,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true,
-    "friendlyFireImmuneDamageTypes": [
-      "4lb-cannon-ball",
-      "6lb-cannon-ball",
-      "8lb-cannon-ball",
-      "12lb-cannon-ball",
-      "explosive-shell"
-    ]
+    "startsRunning": true
   },
 
   {
     "type": 19,
     "category": "artillery",
-    "rangedAttack": 16,
+    "rangedAttack": 18,
     "meleeAttack": 6,
     "meleeDefense": 8,
     "meleeDamageType": "artillery-sabre",
@@ -522,18 +481,11 @@
     "movementSound": "artillery-movement",
     "manpower": 75,
     "gold": 275,
-    "chargeResistance": -0.5,
+    "chargeResistance": -0.6,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
     "startsRunning": true,
-    "locked": true,
-    "friendlyFireImmuneDamageTypes": [
-      "4lb-cannon-ball",
-      "6lb-cannon-ball",
-      "8lb-cannon-ball",
-      "12lb-cannon-ball",
-      "explosive-shell"
-    ]
+    "locked": true
   }
 ]

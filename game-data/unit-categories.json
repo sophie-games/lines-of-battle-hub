@@ -21,8 +21,8 @@
       "6lb-cannon-ball": -0.15,
       "4lb-cannon-ball": -0.15,
       "explosive-shell": -0.15,
-      "canister-fire": -0.25,
-      "heavy-canister-fire": -0.25,
+      "8lb-canister-fire": -0.25,
+      "12lb-canister-fire": -0.25,
       "6lb-canister-fire": -0.25,
       "4lb-canister-fire": -0.25,
       "howitzer-canister": -0.25
@@ -47,8 +47,8 @@
       "6lb-cannon-ball": 0.6,
       "4lb-cannon-ball": 0.7,
       "explosive-shell": 0.4,
-      "canister-fire": 0.3,
-      "heavy-canister-fire": 0.3,
+      "8lb-canister-fire": 0.3,
+      "12lb-canister-fire": 0.3,
       "6lb-canister-fire": 0.4,
       "4lb-canister-fire": 0.4,
       "howitzer-canister": 0.3
@@ -77,8 +77,8 @@
       "6lb-cannon-ball": -0.15,
       "4lb-cannon-ball": -0.15,
       "explosive-shell": -0.15,
-      "canister-fire": -0.25,
-      "heavy-canister-fire": -0.25,
+      "8lb-canister-fire": -0.25,
+      "12lb-canister-fire": -0.25,
       "6lb-canister-fire": -0.25,
       "4lb-canister-fire": -0.25,
       "howitzer-canister": -0.25
@@ -102,8 +102,8 @@
       "6lb-cannon-ball": -0.15,
       "4lb-cannon-ball": -0.15,
       "explosive-shell": -0.15,
-      "canister-fire": -0.25,
-      "heavy-canister-fire": -0.25,
+      "8lb-canister-fire": -0.25,
+      "12lb-canister-fire": -0.25,
       "6lb-canister-fire": -0.25,
       "4lb-canister-fire": -0.25,
       "howitzer-canister": -0.25
@@ -132,7 +132,12 @@
       "6lb-cannon-ball": 0.8,
       "4lb-cannon-ball": 0.8,
       "explosive-shell": 0.5,
-      "rocket": 0.5
+      "rocket": 0.5,
+      "8lb-canister-fire": 0.3,
+      "12lb-canister-fire": 0.3,
+      "6lb-canister-fire": 0.3,
+      "4lb-canister-fire": 0.3,
+      "howitzer-canister": 0.3
     }
   }
 }

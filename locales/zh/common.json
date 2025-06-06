@@ -162,12 +162,12 @@
     "4lb-cannon-ball": "4磅实心炮弹",
     "explosive-shell": "榴弹",
     "cavalry-sword": "骑兵重剑",
-    "canister-fire": "炮射霰弹",
+    "8lb-canister-fire": "炮射霰弹",
     "6lb-canister-fire": "6磅炮射霰弹",
     "4lb-canister-fire": "4磅炮射霰弹",
     "howitzer-canister": "榴弹炮射霰弹",
     "12lb-cannon-ball": "重型实心炮弹",
-    "heavy-canister-fire": "重型炮射霰弹",
+    "12lb-canister-fire": "重型炮射霰弹",
     "dragoon-sword": "龙骑兵剑",
     "horse-archer-bow": "骑兵弓"
   },
@@ -620,5 +620,9 @@
     "message": "你确定要接受平局吗？"
   },
   "download": "下载",
-  "translationsMessage": "你想参与翻译合作吗？你可以<0>在这里</0>进行。"
+  "translationsMessage": "你想参与翻译合作吗？你可以<0>在这里</0>进行。",
+  "nearbyUnits": "附近单位",
+  "preset": "预设",
+  "hybrid": "混合",
+  "random": "随机"
 }
