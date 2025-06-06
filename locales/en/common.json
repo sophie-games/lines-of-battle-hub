@@ -465,9 +465,11 @@
 
   "unitEffect": {
     "1": "Full rotating",
-    "2": "Has been attacked",
+    "2": "Been in melee",
     "3": "Has ran",
-    "4": "Started routing"
+    "4": "Started routing",
+    "5": "Has taken fire",
+    "6": "Has charged"
   },
 
   "login": "Login",
@@ -724,5 +726,6 @@
   "preset": "Preset",
   "hybrid": "Hybrid",
   "random": "Random",
-  "projectileWidth": "Projectile width"
+  "projectileWidth": "Projectile width",
+  "nonCollidable": "Non-collidable"
 }

@@ -391,8 +391,7 @@
     "3": "회복 중"
   },
   "unitEffect": {
-    "1": "완전히 패주 중",
-    "2": "공격 받음"
+    "1": "완전히 패주 중"
   },
   "login": "로그인",
   "signUp": "등록",
@@ -422,7 +421,7 @@
     "subtitle": "누가 가장 <premiumCurrency/> 있나?",
     "description": "최고가 되고 싶으신가요? <storeLink>상점</storeLink>에서 <premiumCurrency/>을 얻으세요!"
   },
-  
+
   "team": "팀",
   "teams": "팀",
   "playerType": "플레이어 유형",
@@ -430,15 +429,14 @@
   "bot": "컴퓨터",
   "armyOfPlayer": "{{player}}번 플레이어의 군대",
   "averageElo": "평균 Elo",
-  
-  "hybridDescription": "혼성 지도는 무작위로 생성되는 것이 아닌 미리 설정된 지형을 사용하지만, 플레이어가 자신만의 군대를 사용하여 경기할 수 있습니다.",
-  
-  "playLastActionsModal": {
 
+  "hybridDescription": "혼성 지도는 무작위로 생성되는 것이 아닌 미리 설정된 지형을 사용하지만, 플레이어가 자신만의 군대를 사용하여 경기할 수 있습니다.",
+
+  "playLastActionsModal": {
     "message": "자리를 비운 사이에 새로운 전투 내 변동 사항이 발생했습니다. 최근 턴의 양상을 보고 싶으신가요?",
     "button": "시작"
   },
-  
+
   "battleReport": "전투 보고",
   "strength": "전력",
   "horse": "군마",

@@ -27,7 +27,7 @@
     "defenseModifier": {
       "infantry": 0.5,
       "lightInfantry": 0.6,
-      "skirmishInfantry": 0.5,
+      "skirmishInfantry": 0.84,
       "militiaInfantry": 0.75,
       "midCavalry": -0.2,
       "lightCavalry": -0.2,
@@ -79,7 +79,7 @@
     "defenseModifier": {
       "infantry": 0.8,
       "lightInfantry": 0.85,
-      "skirmishInfantry": 0.9,
+      "skirmishInfantry": 0.95,
       "militiaInfantry": 0.8,
       "midCavalry": -0.2,
       "lightCavalry": -0.2,

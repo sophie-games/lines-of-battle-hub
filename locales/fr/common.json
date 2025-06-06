@@ -410,8 +410,7 @@
   },
 
   "unitEffect": {
-    "1": "Rotation complète",
-    "2": "A été attaqué"
+    "1": "Rotation complète"
   },
 
   "login": "Connexion",

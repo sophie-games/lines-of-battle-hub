@@ -25,6 +25,7 @@
   },
   {
     "type": "musket",
+    "ranged": true,
     "orgDamageRatio": 200,
     "projectileWidth": 8,
     "ranges": [
@@ -52,6 +53,7 @@
   },
   {
     "type": "light-musket",
+    "ranged": true,
     "orgDamageRatio": 200,
     "projectileWidth": 8,
     "ranges": [
@@ -73,6 +75,7 @@
   },
   {
     "type": "marksman-musket",
+    "ranged": true,
     "orgDamageRatio": 250,
     "projectileWidth": 8,
     "ranges": [
@@ -94,6 +97,7 @@
   },
   {
     "type": "rifle",
+    "ranged": true,
     "orgDamageRatio": 300,
     "projectileWidth": 8,
     "ranges": [
@@ -143,6 +147,7 @@
   },
   {
     "type": "12lb-cannon-ball",
+    "ranged": true,
     "orgDamageRatio": 165,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
@@ -178,6 +183,7 @@
   },
   {
     "type": "6lb-cannon-ball",
+    "ranged": true,
     "orgDamageRatio": 165,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
@@ -213,6 +219,7 @@
   },
   {
     "type": "4lb-cannon-ball",
+    "ranged": true,
     "orgDamageRatio": 150,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
@@ -248,6 +255,7 @@
   },
   {
     "type": "explosive-shell",
+    "ranged": true,
     "orgDamageRatio": 180,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
@@ -282,8 +290,8 @@
   },
   {
     "type": "8lb-canister-fire",
-    "damageModifier": 0.85,
-    "orgDamageRatio": 200,
+    "ranged": true,
+    "orgDamageRatio": 180,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -296,7 +304,7 @@
       {
         "start": 69,
         "end": 135,
-        "startMod": 1.6,
+        "startMod": 1.25,
         "endMod": 0.3,
         "name": "long"
       }
@@ -310,8 +318,8 @@
   },
   {
     "type": "12lb-canister-fire",
-    "damageModifier": 1,
-    "orgDamageRatio": 200,
+    "ranged": true,
+    "orgDamageRatio": 180,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -324,7 +332,7 @@
       {
         "start": 69,
         "end": 145,
-        "startMod": 1.75,
+        "startMod": 1.5,
         "endMod": 0.3,
         "name": "long"
       }
@@ -338,15 +346,15 @@
   },
   {
     "type": "6lb-canister-fire",
-    "damageModifier": 0.75,
-    "orgDamageRatio": 200,
+    "ranged": true,
+    "orgDamageRatio": 180,
     "projectileWidth": 20,
     "ranges": [
       { "start": 0, "end": 69, "startMod": 1.5, "endMod": 1, "name": "close" },
       {
         "start": 69,
         "end": 120,
-        "startMod": 1.5,
+        "startMod": 1,
         "endMod": 0.35,
         "name": "long"
       }
@@ -360,15 +368,15 @@
   },
   {
     "type": "4lb-canister-fire",
-    "damageModifier": 0.65,
-    "orgDamageRatio": 200,
+    "ranged": true,
+    "orgDamageRatio": 180,
     "projectileWidth": 20,
     "ranges": [
       { "start": 0, "end": 69, "startMod": 1.5, "endMod": 1, "name": "close" },
       {
         "start": 69,
         "end": 110,
-        "startMod": 1.5,
+        "startMod": 1,
         "endMod": 0.35,
         "name": "long"
       }
@@ -382,9 +390,10 @@
   },
   {
     "type": "howitzer-canister",
+    "ranged": true,
     "damageModifier": 3,
-    "orgDamageRatio": 200,
-    "ranges": [{ "start": 0, "end": 69, "startMod": 0, "endMod": 0 }],
+    "orgDamageRatio": 180,
+    "ranges": [{ "start": 0, "end": 69, "startMod": 1, "endMod": 0 }],
     "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -395,6 +404,7 @@
 
   {
     "type": "horse-archer-bow",
+    "ranged": true,
     "orgDamageRatio": 200,
     "projectileWidth": 8,
     "ranges": [
@@ -410,6 +420,7 @@
 
   {
     "type": "rocket",
+    "ranged": true,
     "orgDamageRatio": 250,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
