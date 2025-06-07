@@ -173,11 +173,11 @@
     "6lb-cannon-ball": "Meriam Bola Ringan",
     "explosive-shell": "Peluru Ledakan",
     "cavalry-sword": "Kavaleri Pedang",
-    "canister-fire": "Tembakan Peluru Canister",
+    "8lb-canister-fire": "Tembakan Peluru Canister",
     "6lb-canister-fire": "Tembakan Peluru Canister Ringan",
     "howitzer-canister": "Meriam Besar Canister",
     "12lb-cannon-ball": "Meriam Bola Berat",
-    "heavy-canister-fire": "Tembakan Peluru Berat Canister",
+    "12lb-canister-fire": "Tembakan Peluru Berat Canister",
     "dragoon-sword": "Pedang Dragoon",
     "horse-archer-bow": "Pemanah Kuda"
   },
@@ -415,8 +415,7 @@
   },
 
   "unitEffect": {
-    "1": "Rotasi penuh",
-    "2": "Telah diserang"
+    "1": "Rotasi penuh"
   },
 
   "login": "Login",

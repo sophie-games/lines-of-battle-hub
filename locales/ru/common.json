@@ -177,12 +177,12 @@
     "4lb-cannon-ball": "4-фунтовое пушечное ядро",
     "explosive-shell": "Фугасный снаряд",
     "cavalry-sword": "Кирасирский палаш",
-    "canister-fire": "Картечь",
+    "8lb-canister-fire": "Картечь",
     "6lb-canister-fire": "6-фунтовая картечь",
     "4lb-canister-fire": "4-фунтовая картечь",
     "howitzer-canister": "Гаубичная картечь",
     "12lb-cannon-ball": "Крупнокалиберное ядро",
-    "heavy-canister-fire": "Крупнокалиберная картечь",
+    "12lb-canister-fire": "Крупнокалиберная картечь",
     "dragoon-sword": "Драгунский палаш",
     "horse-archer-bow": "Составной лук"
   },
@@ -433,8 +433,7 @@
   },
 
   "unitEffect": {
-    "1": "Полный поворот",
-    "2": "Был атакован"
+    "1": "Полный поворот"
   },
 
   "login": "Войти",

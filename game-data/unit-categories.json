@@ -21,8 +21,8 @@
       "6lb-cannon-ball": -0.15,
       "4lb-cannon-ball": -0.15,
       "explosive-shell": -0.15,
-      "canister-fire": -0.25,
-      "heavy-canister-fire": -0.25,
+      "8lb-canister-fire": -0.25,
+      "12lb-canister-fire": -0.25,
       "6lb-canister-fire": -0.25,
       "4lb-canister-fire": -0.25,
       "howitzer-canister": -0.25
@@ -32,6 +32,7 @@
   "artillery": {
     "id": 3,
     "targetAltitude": 0.5,
+    "nonCollidable": true,
     "damageTypeResistances": {
       "bayonet": -0.6,
       "cavalry-sabre": -0.7,
@@ -47,8 +48,8 @@
       "6lb-cannon-ball": 0.6,
       "4lb-cannon-ball": 0.7,
       "explosive-shell": 0.4,
-      "canister-fire": 0.3,
-      "heavy-canister-fire": 0.3,
+      "8lb-canister-fire": 0.3,
+      "12lb-canister-fire": 0.3,
       "6lb-canister-fire": 0.4,
       "4lb-canister-fire": 0.4,
       "howitzer-canister": 0.3
@@ -77,8 +78,8 @@
       "6lb-cannon-ball": -0.15,
       "4lb-cannon-ball": -0.15,
       "explosive-shell": -0.15,
-      "canister-fire": -0.25,
-      "heavy-canister-fire": -0.25,
+      "8lb-canister-fire": -0.25,
+      "12lb-canister-fire": -0.25,
       "6lb-canister-fire": -0.25,
       "4lb-canister-fire": -0.25,
       "howitzer-canister": -0.25
@@ -102,8 +103,8 @@
       "6lb-cannon-ball": -0.15,
       "4lb-cannon-ball": -0.15,
       "explosive-shell": -0.15,
-      "canister-fire": -0.25,
-      "heavy-canister-fire": -0.25,
+      "8lb-canister-fire": -0.25,
+      "12lb-canister-fire": -0.25,
       "6lb-canister-fire": -0.25,
       "4lb-canister-fire": -0.25,
       "howitzer-canister": -0.25
@@ -119,20 +120,28 @@
   "skirmishInfantry": {
     "id": 8,
     "targetAltitude": 0.9,
+    "nonCollidable": true,
+    "projectilePassThrough": 0.8,
     "damageTypeResistances": {
       "bayonet": -0.25,
       "cavalry-sabre": -0.5,
       "cavalry-lance": -0.5,
       "dragoon-sword": -0.5,
-      "musket": 0.25,
-      "light-musket": 0.25,
-      "marksman-musket": 0.15,
-      "8lb-cannon-ball": 0.8,
-      "12lb-cannon-ball": 0.8,
-      "6lb-cannon-ball": 0.8,
-      "4lb-cannon-ball": 0.8,
-      "explosive-shell": 0.5,
-      "rocket": 0.5
+      "musket": 0.9,
+      "light-musket": 0.9,
+      "marksman-musket": 0.8,
+      "rifle": 0.75,
+      "8lb-cannon-ball": 0.95,
+      "12lb-cannon-ball": 0.95,
+      "6lb-cannon-ball": 0.95,
+      "4lb-cannon-ball": 0.95,
+      "explosive-shell": 0.8,
+      "rocket": 0.8,
+      "8lb-canister-fire": 0.9,
+      "12lb-canister-fire": 0.9,
+      "6lb-canister-fire": 0.9,
+      "4lb-canister-fire": 0.9,
+      "howitzer-canister": 0.9
     }
   }
 }

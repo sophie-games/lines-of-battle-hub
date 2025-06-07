@@ -37,5 +37,17 @@
   },
   "12": {
     "category": "city"
+  },
+  "13": {
+    "category": "forest"
+  },
+  "14": {
+    "category": "cliff"
+  },
+  "15": {
+    "category": "path"
+  },
+  "16": {
+    "category": "shallowWater"
   }
 }

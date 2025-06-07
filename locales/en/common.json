@@ -182,12 +182,12 @@
     "4lb-cannon-ball": "4-lb Cannon Ball",
     "explosive-shell": "Explosive Shell",
     "cavalry-sword": "Cavalry Sword",
-    "canister-fire": "Canister Fire",
+    "8lb-canister-fire": "8-lb Canister Fire",
     "6lb-canister-fire": "6-lb Canister Fire",
     "4lb-canister-fire": "4-lb Canister Fire",
     "howitzer-canister": "Howitzer Canister",
     "12lb-cannon-ball": "12-lb Cannon Ball",
-    "heavy-canister-fire": "Heavy Canister Fire",
+    "12lb-canister-fire": "12-lb Canister Fire",
     "dragoon-sword": "Dragoon Sword",
     "horse-archer-bow": "Horse Archer Bow",
     "marksman-musket": "Marksman Musket",
@@ -312,7 +312,11 @@
     "9": "Dirt",
     "10": "Sand",
     "11": "Farm",
-    "12": "City"
+    "12": "City",
+    "13": "Forest, Winter",
+    "14": "Cliff, Winter",
+    "15": "Road, Winter",
+    "16": "Shallow water, Winter"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -461,9 +465,11 @@
 
   "unitEffect": {
     "1": "Full rotating",
-    "2": "Has been attacked",
+    "2": "Been in melee",
     "3": "Has ran",
-    "4": "Started routing"
+    "4": "Started routing",
+    "5": "Has taken fire",
+    "6": "Has charged"
   },
 
   "login": "Login",
@@ -704,7 +710,6 @@
   "selectIdleUnit": "Select idle unit",
   "receivedDamageWhenMoving": "Received damage when moving",
   "maxOrg": "Max org",
-  "chargeResistanceWhenMoving": "Charge resistance when moving",
   "allyOverlap": "Ally overlap",
   "copied": "Copied!",
   "download": "Download",
@@ -716,5 +721,12 @@
   "hasSkirmishers": "Has skirmishers",
   "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
   "skirmisherRatio": "Skirmisher ratio",
-  "friendlyFireImmune": "Friendly fire immune"
+  "friendlyFireImmune": "Friendly fire immune",
+  "nearbyUnits": "Nearby units",
+  "preset": "Preset",
+  "hybrid": "Hybrid",
+  "random": "Random",
+  "projectileWidth": "Projectile width",
+  "nonCollidable": "Non-collidable",
+  "projectilePassThrough": "Projectile pass through"
 }

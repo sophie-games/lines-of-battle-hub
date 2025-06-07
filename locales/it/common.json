@@ -171,11 +171,11 @@
     "6lb-cannon-ball": "Palla di cannone leggera",
     "explosive-shell": "Proiettile esplosivo",
     "cavalry-sword": "Spada da cavalleria",
-    "canister-fire": "Fuoco a mitraglia",
+    "8lb-canister-fire": "Fuoco a mitraglia",
     "6lb-canister-fire": "Fuoco a mitraglia leggero",
     "howitzer-canister": "Mitraglia da obice",
     "12lb-cannon-ball": "Palla di cannone pesante",
-    "heavy-canister-fire": "Fuoco a mitraglia pesante",
+    "12lb-canister-fire": "Fuoco a mitraglia pesante",
     "dragoon-sword": "Spada del dragone"
   },
 
@@ -412,8 +412,7 @@
   },
 
   "unitEffect": {
-    "1": "Rotazione completa",
-    "2": "È stato attaccato"
+    "1": "Rotazione completa"
   },
 
   "login": "Accedi",

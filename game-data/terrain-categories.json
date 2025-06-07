@@ -27,7 +27,7 @@
     "defenseModifier": {
       "infantry": 0.5,
       "lightInfantry": 0.6,
-      "skirmishInfantry": 0.5,
+      "skirmishInfantry": 0.84,
       "militiaInfantry": 0.75,
       "midCavalry": -0.2,
       "lightCavalry": -0.2,
@@ -50,8 +50,8 @@
       "8lb-cannon-ball": 0.18,
       "6lb-cannon-ball": 0.2,
       "4lb-cannon-ball": 0.2,
-      "canister-fire": 0.2,
-      "heavy-canister-fire": 0.2,
+      "8lb-canister-fire": 0.2,
+      "12lb-canister-fire": 0.2,
       "6lb-canister-fire": 0.2,
       "4lb-canister-fire": 0.2,
       "howitzer-canister": 0.2
@@ -79,7 +79,7 @@
     "defenseModifier": {
       "infantry": 0.8,
       "lightInfantry": 0.85,
-      "skirmishInfantry": 0.9,
+      "skirmishInfantry": 0.95,
       "militiaInfantry": 0.8,
       "midCavalry": -0.2,
       "lightCavalry": -0.2,
@@ -102,8 +102,8 @@
       "8lb-cannon-ball": 0.5,
       "6lb-cannon-ball": 0.6,
       "4lb-cannon-ball": 0.6,
-      "canister-fire": 0.6,
-      "heavy-canister-fire": 0.6,
+      "8lb-canister-fire": 0.6,
+      "12lb-canister-fire": 0.6,
       "6lb-canister-fire": 0.6,
       "4lb-canister-fire": 0.6,
       "howitzer-canister": 0.6
@@ -186,8 +186,8 @@
       "8lb-cannon-ball": 0.5,
       "6lb-cannon-ball": 0.6,
       "4lb-cannon-ball": 0.6,
-      "canister-fire": 0.6,
-      "heavy-canister-fire": 0.6,
+      "8lb-canister-fire": 0.6,
+      "12lb-canister-fire": 0.6,
       "6lb-canister-fire": 0.6,
       "4lb-canister-fire": 0.6,
       "howitzer-canister": 0.6

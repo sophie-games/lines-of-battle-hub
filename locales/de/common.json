@@ -171,11 +171,11 @@
     "6lb-cannon-ball": "Leichte Kanonenkugel",
     "explosive-shell": "Sprenggranate",
     "cavalry-sword": "Kavallerieschwert",
-    "canister-fire": "Kartätschenfeuer",
+    "8lb-canister-fire": "Kartätschenfeuer",
     "6lb-canister-fire": "Leichtes Kartätschenfeuer",
     "howitzer-canister": "HaubitzenKartätschen",
     "12lb-cannon-ball": "Schwere Kanonenkugel",
-    "heavy-canister-fire": "Schweres Kartätschenfeuer",
+    "12lb-canister-fire": "Schweres Kartätschenfeuer",
     "dragoon-sword": "Dragonerschwert"
   },
 
@@ -412,8 +412,7 @@
   },
 
   "unitEffect": {
-    "1": "Volle Drehung",
-    "2": "Wurde angegriffen"
+    "1": "Volle Drehung"
   },
 
   "login": "Anmeldung",
