@@ -163,15 +163,15 @@
     "4lb-cannon-ball": "4磅实心炮弹",
     "explosive-shell": "榴弹",
     "cavalry-sword": "骑兵重剑",
-    "canister-fire": "8磅炮射霰弹",
+    "8lb-canister-fire": "8磅炮射霰弹",
     "6lb-canister-fire": "6磅炮射霰弹",
     "4lb-canister-fire": "4磅炮射霰弹",
     "howitzer-canister": "榴弹炮射霰弹",
     "12lb-cannon-ball": "12磅实心炮弹",
-    "heavy-canister-fire": "12磅炮射霰弹",
+    "12lb-canister-fire": "12磅炮射霰弹",
     "dragoon-sword": "龙骑兵剑",
     "horse-archer-bow": "骑兵弓",
-    "marksman-musket": "精准滑膛枪",
+    "marksman-musket": "高精度滑膛枪",
     "rifle": "线膛枪",
     "rocket": "火箭弹"
   },
@@ -287,7 +287,11 @@
     "9": "泥地",
     "10": "沙地",
     "11": "农田",
-    "12": "城市"
+    "12": "城市",
+    "13": "树林，冬季",
+    "14": "悬崖，冬季",
+    "15": "道路，冬季",
+    "16": "浅水，冬季"
   },
   "clearPlayerUnits": "清除玩家单位",
   "clearBotUnits": "清除电脑单位",
@@ -419,9 +423,11 @@
   },
   "unitEffect": {
     "1": "原地转向",
-    "2": "受到攻击",
-    "3": "刚刚疾跑过",
-    "4": "开始溃退"
+    "2": "近战中",
+    "3": "已疾跑",
+    "4": "开始溃退",
+    "5": "受到火力攻击",
+    "6": "已冲锋"
   },
   "login": "登入",
   "signUp": "注册",
@@ -642,7 +648,6 @@
   "selectIdleUnit": "选择闲置单位",
   "receivedDamageWhenMoving": "移动中受到的伤害",
   "maxOrg": "最大组织度",
-  "chargeResistanceWhenMoving": "移动中的冲锋抗性",
   "allyOverlap": "友军堆叠",
   "copied": "已复制！",
   "download": "下载",
@@ -654,5 +659,12 @@
   "hasSkirmishers": "提供散兵",
   "skirmishersInfo": "特定兵种会按比例自动提供散兵。散兵比例取决于战斗规模。",
   "skirmisherRatio": "当前散兵比例",
-  "friendlyFireImmune": "免疫友军火力"
+  "friendlyFireImmune": "免疫友军火力",
+  "nearbyUnits": "附近单位",
+  "preset": "预设",
+  "hybrid": "混合",
+  "random": "随机",
+  "projectileWidth": "射击宽度",
+  "nonCollidable": "不可碰撞",
+  "projectilePassThrough": "射击经过"
 }

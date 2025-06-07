@@ -3,5 +3,6 @@
   "INCORRECT_PASSWORD": "密码错误",
   "TOURNAMENT_ROUND_CANNOT_START_YET": "轮次{{round}}目前不能开始。",
   "START_TIME_MUST_BE_IN_THE_FUTURE": "开始时间必须在未来",
-  "auth->OAUTH_ACCOUNT": "该账号已使用谷歌账号注册过。请使用谷歌账号登录"
+  "auth->OAUTH_ACCOUNT": "该账号已使用谷歌账号注册过。请使用谷歌账号登录",
+  "USER_IS_BANNED": "用户被封禁"
 }
