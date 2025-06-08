@@ -112,6 +112,7 @@
   },
   {
     "type": "8lb-cannon-ball",
+    "ranged": true,
     "orgDamageRatio": 165,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
