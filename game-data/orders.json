@@ -1,0 +1,22 @@
+{
+  "1": {},
+  "2": {
+    "receivedDamageModifier": 0.1
+  },
+  "3": {},
+  "4": {
+    "rangedDamageModifier": -0.35,
+    "speedModifierWhenShooting": -0.35,
+    "allowFireWhenMoving": true
+  },
+  "5": {},
+  "6": {
+    "meleeDamageModifier": -0.15,
+    "rangedDamageModifier": -0.4,
+    "speedModifier": -0.3,
+    "receivedOrgDamageModifier": 0.2,
+    "chargeResistance": -0.75,
+    "allowFireWhenMoving": true,
+    "keepsEnemyRun": true
+  }
+}
