@@ -5,8 +5,8 @@
   },
   "3": {},
   "4": {
-    "rangedDamageModifier": -0.35,
-    "speedModifierWhenShooting": -0.35,
+    "rangedDamageModifier": -0.15,
+    "speedModifierWhenShooting": -0.25,
     "allowFireWhenMoving": true
   },
   "5": {},
