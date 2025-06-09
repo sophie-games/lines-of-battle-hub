@@ -363,7 +363,6 @@
   "meleeDamage": "Nahkampfschaden",
   "rangedDamage": "Fernkampfschaden",
   "orgRegain": "Org Wiedergewinnung",
-  "rangedDamageWhenMoving": "Fernkampfschaden in der Bewegung",
   "speed": "Geschwindigkeit",
   "speedWhenShooting": "Geschwindigkeit beim Schießen",
   "receivedDamage": "Erhaltener Schaden",

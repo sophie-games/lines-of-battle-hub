@@ -304,8 +304,8 @@
     "1": "Forest",
     "2": "Building",
     "3": "Road",
-    "4": "Shallow water",
-    "5": "Deep water",
+    "4": "Water, Shallow",
+    "5": "Water, Deep",
     "6": "Cliff",
     "7": "Bridge",
     "8": "Snow",
@@ -316,7 +316,9 @@
     "13": "Forest, Winter",
     "14": "Cliff, Winter",
     "15": "Road, Winter",
-    "16": "Shallow water, Winter"
+    "16": "Ice",
+    "17": "Farm, Unplanted",
+    "18": "Farm, Grown"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -349,7 +351,7 @@
 
   "landing": {
     "title": "Welcome to <0>Lines of Battle</0>",
-    "message": "<b>Lines of Battle</b> is a multiplayer, simultaneous turn-based strategy game set during the Napoleonic Wars. Designed for tactical depth and historical immersion, you’ll engage in epic battles against others, using skill and strategy to outmaneuver and defeat your opponents!",
+    "message": "<b>Lines of Battle</b> is a multiplayer, simultaneous turn-based strategy game set during the Napoleonic Wars. Designed for tactical depth and historical immersion, you'll engage in epic battles against others, using skill and strategy to outmaneuver and defeat your opponents!",
     "privacy": "By starting, you agree to our <0>Privacy Policy</0>."
   },
 
@@ -413,7 +415,6 @@
   "meleeDamage": "Melee damage",
   "rangedDamage": "Ranged damage",
   "orgRegain": "Org regain",
-  "rangedDamageWhenMoving": "Ranged damage when moving",
   "speed": "Speed",
   "speedWhenShooting": "Speed when shooting",
   "receivedDamage": "Received damage",
@@ -468,8 +469,7 @@
     "2": "Been in melee",
     "3": "Has ran",
     "4": "Started routing",
-    "5": "Has taken fire",
-    "6": "Has charged"
+    "5": "Has taken fire"
   },
 
   "login": "Login",
@@ -567,7 +567,8 @@
     "next": "Next",
     "page": "Page",
     "of": "of",
-    "items": "items"
+    "items": "items",
+    "jump": "Jump"
   },
 
   "kick": "Kick",
@@ -708,7 +709,6 @@
   "staminaCost": "Stamina cost",
   "cannotUseAfterRun": "Cannot use after run",
   "selectIdleUnit": "Select idle unit",
-  "receivedDamageWhenMoving": "Received damage when moving",
   "maxOrg": "Max org",
   "allyOverlap": "Ally overlap",
   "copied": "Copied!",
@@ -728,5 +728,6 @@
   "random": "Random",
   "projectileWidth": "Projectile width",
   "nonCollidable": "Non-collidable",
-  "projectilePassThrough": "Projectile pass through"
+  "projectilePassThrough": "Projectile pass through",
+  "keepsEnemyRun": "Keeps enemy run"
 }

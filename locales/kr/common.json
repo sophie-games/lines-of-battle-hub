@@ -345,7 +345,6 @@
   "meleeDamage": "근접피해량",
   "rangedDamage": "사격피해량",
   "orgRegain": "조직 회복",
-  "rangedDamageWhenMoving": "이동 중 원거리 공격 피해량",
   "speed": "속도",
   "speedWhenShooting": "사격 중 속도",
   "receivedDamage": "받은 피해량",

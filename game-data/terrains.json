@@ -48,6 +48,12 @@
     "category": "path"
   },
   "16": {
-    "category": "shallowWater"
+    "category": "land"
+  },
+  "17": {
+    "category": "land"
+  },
+  "18": {
+    "category": "land"
   }
 }

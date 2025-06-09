@@ -363,7 +363,6 @@
   "meleeDamage": "接近戦ダメージ",
   "rangedDamage": "遠距離ダメージ",
   "orgRegain": "組織回復",
-  "rangedDamageWhenMoving": "移動中の遠距離ダメージ",
   "speed": "速度",
   "speedWhenShooting": "射撃時の速度",
   "receivedDamage": "受けたダメージ",

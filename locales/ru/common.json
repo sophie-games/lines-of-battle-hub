@@ -382,7 +382,6 @@
   "meleeDamage": "Урон в ближнем бою",
   "rangedDamage": "Урон от огня",
   "orgRegain": "Восстановление организации",
-  "rangedDamageWhenMoving": "Урон от огня при движении",
   "speed": "Манёвренность",
   "speedWhenShooting": "Манёвренность при стрельбе",
   "receivedDamage": "Получаемый урон по боеспособности",

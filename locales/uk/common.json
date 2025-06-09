@@ -328,7 +328,6 @@
   "meleeDamage": "Ушкодження в ближньому бою",
   "rangedDamage": "Ушкодження в дальньому бою",
   "orgRegain": "Org regain",
-  "rangedDamageWhenMoving": "Відновлення бойового духу залежно від рівня здоров’я",
   "speed": "Швидкість",
   "speedWhenShooting": "Швидкість під час руху",
   "receivedDamage": "Отримані ушкодження",

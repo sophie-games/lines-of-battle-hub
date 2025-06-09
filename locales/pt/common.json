@@ -363,7 +363,6 @@
   "meleeDamage": "Dano corpo a corpo",
   "rangedDamage": "Dano à distância",
   "orgRegain": "Recuperação de organização",
-  "rangedDamageWhenMoving": "Dano à distância ao mover",
   "speed": "Velocidade",
   "speedWhenShooting": "Velocidade ao atirar",
   "receivedDamage": "Dano recebido",
