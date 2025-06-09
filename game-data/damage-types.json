@@ -32,16 +32,16 @@
       {
         "start": 0,
         "end": 30,
-        "startMod": 2.5,
-        "endMod": 1,
+        "startMod": 3,
+        "endMod": 1.25,
         "name": "close"
       },
-      { "start": 30, "end": 60, "startMod": 1, "endMod": 0 },
+      { "start": 30, "end": 60, "startMod": 1.25, "endMod": 0 },
       {
         "start": 60,
         "end": 100,
         "startMod": 0,
-        "endMod": -0.75,
+        "endMod": -0.8,
         "name": "long"
       }
     ],
@@ -60,12 +60,18 @@
       {
         "start": 0,
         "end": 30,
-        "startMod": 1.5,
-        "endMod": 0.55,
+        "startMod": 3,
+        "endMod": 1.25,
         "name": "close"
       },
-      { "start": 30, "end": 60, "startMod": 0.55, "endMod": 0 },
-      { "start": 60, "end": 100, "startMod": 0, "endMod": -0.7, "name": "long" }
+      { "start": 30, "end": 60, "startMod": 1.25, "endMod": 0 },
+      {
+        "start": 60,
+        "end": 100,
+        "startMod": 0,
+        "endMod": -0.75,
+        "name": "long"
+      }
     ],
     "shootingAngle": 90,
     "enfiladeFire": true,
@@ -126,7 +132,7 @@
         "start": 235,
         "end": 425,
         "startMod": -0.1,
-        "endMod": -0.75,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -139,8 +145,9 @@
       "type": "trapezoidal",
       "topWidth": 26,
       "bottomWidth": 18,
-      "height": 62,
-      "absorptionModifier": 2
+      "height": 68,
+      "absorptionModifier": 2,
+      "offset": 0.8
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
@@ -162,7 +169,7 @@
         "start": 250,
         "end": 500,
         "startMod": -0.1,
-        "endMod": -0.8,
+        "endMod": -0.75,
         "name": "long"
       }
     ],
@@ -175,8 +182,9 @@
       "type": "trapezoidal",
       "topWidth": 28,
       "bottomWidth": 20,
-      "height": 72,
-      "absorptionModifier": 2
+      "height": 76,
+      "absorptionModifier": 2,
+      "offset": 0.8
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
@@ -198,7 +206,7 @@
         "start": 230,
         "end": 400,
         "startMod": -0.05,
-        "endMod": -0.7,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -211,8 +219,9 @@
       "type": "trapezoidal",
       "topWidth": 25,
       "bottomWidth": 17,
-      "height": 56,
-      "absorptionModifier": 2.0
+      "height": 64,
+      "absorptionModifier": 2.0,
+      "offset": 0.8
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
@@ -234,7 +243,7 @@
         "start": 200,
         "end": 375,
         "startMod": -0.05,
-        "endMod": -0.7,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -247,8 +256,9 @@
       "type": "trapezoidal",
       "topWidth": 24,
       "bottomWidth": 16,
-      "height": 52,
-      "absorptionModifier": 2.0
+      "height": 60,
+      "absorptionModifier": 2.0,
+      "offset": 0.8
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
@@ -298,7 +308,7 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 1.6,
+        "startMod": 2.25,
         "endMod": 1.25,
         "name": "close"
       },
@@ -326,7 +336,7 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 1.75,
+        "startMod": 2.5,
         "endMod": 1.5,
         "name": "close"
       },
@@ -351,7 +361,7 @@
     "orgDamageRatio": 180,
     "projectileWidth": 20,
     "ranges": [
-      { "start": 0, "end": 69, "startMod": 1.5, "endMod": 1, "name": "close" },
+      { "start": 0, "end": 69, "startMod": 2, "endMod": 1, "name": "close" },
       {
         "start": 69,
         "end": 120,
@@ -373,7 +383,7 @@
     "orgDamageRatio": 180,
     "projectileWidth": 20,
     "ranges": [
-      { "start": 0, "end": 69, "startMod": 1.5, "endMod": 1, "name": "close" },
+      { "start": 0, "end": 69, "startMod": 2, "endMod": 1, "name": "close" },
       {
         "start": 69,
         "end": 110,
@@ -392,9 +402,16 @@
   {
     "type": "howitzer-canister",
     "ranged": true,
-    "damageModifier": 3,
     "orgDamageRatio": 180,
-    "ranges": [{ "start": 0, "end": 69, "startMod": 1, "endMod": 0 }],
+    "ranges": [
+      {
+        "start": 0,
+        "end": 69,
+        "startMod": 4.5,
+        "endMod": 3,
+        "name": "close"
+      }
+    ],
     "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
