@@ -55,6 +55,16 @@
       "6lb-canister-fire": 0.2,
       "4lb-canister-fire": 0.2,
       "howitzer-canister": 0.2
+    },
+    "chargeResistanceModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "chargeBonusModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
     }
   },
 
@@ -107,6 +117,16 @@
       "6lb-canister-fire": 0.6,
       "4lb-canister-fire": 0.6,
       "howitzer-canister": 0.6
+    },
+    "chargeResistanceModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "chargeBonusModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
     }
   },
 
@@ -164,6 +184,16 @@
       "lightInfantry": -0.5,
       "militiaInfantry": -0.5,
       "skirmishInfantry": -0.4
+    },
+    "chargeResistanceModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "chargeBonusModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
     }
   },
 
