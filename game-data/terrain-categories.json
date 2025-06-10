@@ -57,6 +57,10 @@
       "howitzer-canister": 0.2
     },
     "chargeResistanceModifier": {
+      "infantry": 0.25,
+      "lightInfantry": 0.25,
+      "skirmishInfantry": 0.75,
+      "militiaInfantry": 0.5,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "heavyCavalry": -0.8
@@ -119,6 +123,10 @@
       "howitzer-canister": 0.6
     },
     "chargeResistanceModifier": {
+      "infantry": 0.25,
+      "lightInfantry": 0.25,
+      "skirmishInfantry": 0.75,
+      "militiaInfantry": 0.5,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "heavyCavalry": -0.8
