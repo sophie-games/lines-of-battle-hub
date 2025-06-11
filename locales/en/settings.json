@@ -99,6 +99,10 @@
   "spaceBetweenUnits": "Space between units",
   "spaceBetweenLines": "Space between lines",
 
+  "showSelectIdleUnitButton": {
+    "title": "Show select idle unit button"
+  },
+
   "keybindings": {
     "title": "Keybindings",
     "pressAKey": "Press a key...",

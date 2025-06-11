@@ -31,5 +31,10 @@
   "updatePlanned": {
     "title": "Actualización Planificada",
     "message": "Hay una nueva actualización de <b>{{name}}</b> planificada para <b>{{date}}</b>, clickea para ver los cambios."
+  },
+
+  "banDodge": {
+    "title": "Has sido suspendido por {{minutes}}",
+    "message": "Has abandonado las últimas {{games}} partidas clasificatorias, por lo que tendrás que esperar un poco para seguir jugando partidas clasificatorias."
   }
 }
