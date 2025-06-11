@@ -122,17 +122,17 @@
     "orgDamageRatio": 165,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 120,
-      "end": 90,
+      "start": 0.8,
+      "end": 0.6,
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 140, "end": 235, "startMod": 0.15, "endMod": -0.1 },
+      { "start": 140, "end": 235, "startMod": 0.15, "endMod": 0 },
       {
         "start": 235,
         "end": 425,
         "startMod": -0.1,
-        "endMod": -0.7,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -159,17 +159,17 @@
     "orgDamageRatio": 165,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 120,
-      "end": 90,
+      "start": 0.8,
+      "end": 0.6,
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 130, "end": 250, "startMod": 0.1, "endMod": -0.1 },
+      { "start": 130, "end": 250, "startMod": 0.1, "endMod": 0 },
       {
         "start": 250,
         "end": 500,
         "startMod": -0.1,
-        "endMod": -0.75,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -196,12 +196,12 @@
     "orgDamageRatio": 165,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 120,
-      "end": 90,
+      "start": 0.8,
+      "end": 0.6,
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 120, "end": 230, "startMod": 0.2, "endMod": -0.05 },
+      { "start": 120, "end": 230, "startMod": 0.2, "endMod": 0 },
       {
         "start": 230,
         "end": 400,
@@ -233,12 +233,12 @@
     "orgDamageRatio": 150,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 120,
-      "end": 90,
+      "start": 0.8,
+      "end": 0.6,
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 110, "end": 200, "startMod": 0.2, "endMod": -0.05 },
+      { "start": 110, "end": 200, "startMod": 0.2, "endMod": 0 },
       {
         "start": 200,
         "end": 375,
@@ -270,8 +270,8 @@
     "orgDamageRatio": 180,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 95,
-      "end": 85,
+      "start": 0.63,
+      "end": 0.56,
       "modifier": -0.6
     },
     "ranges": [
@@ -442,8 +442,8 @@
     "orgDamageRatio": 250,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 85,
-      "end": 75,
+      "start": 0.56,
+      "end": 0.5,
       "modifier": -0.5
     },
     "ranges": [

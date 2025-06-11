@@ -343,7 +343,7 @@
   "info": "Інфо",
   "meleePerformance": "Ефективність у ближньому бою",
   "speedByOrg": "Швидкість залежно від моралі",
-  "nTurnsLeft": "{{n}} ходів залишилось",
+  "turnsLeft": "ходів залишилось",
   "battleOverview": {
     "title": "Огляд битви",
     "victoryPoints": "Очки перемоги",

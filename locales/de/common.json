@@ -378,7 +378,7 @@
   "info": "Info",
   "meleePerformance": "Nahkampfperformance",
   "speedByOrg": "Geschwindigkeit durch org",
-  "nTurnsLeft": "Noch {{n}} Runden",
+  "turnsLeft": "Noch Runden",
 
   "battleOverview": {
     "title": "Schlachtübersicht",

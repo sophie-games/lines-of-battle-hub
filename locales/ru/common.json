@@ -397,7 +397,7 @@
   "info": "Информация",
   "meleePerformance": "Эффективность в ближнем бою",
   "speedByOrg": "Скорость от организации",
-  "nTurnsLeft": "{{n}} ходов осталось!",
+  "turnsLeft": "ходов осталось!",
 
   "battleOverview": {
     "title": "Обзор битвы",

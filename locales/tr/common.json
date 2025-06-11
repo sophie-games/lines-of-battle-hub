@@ -380,7 +380,7 @@
   "info": "Bilgi",
   "meleePerformance": "Yakın dövüş performansı",
   "speedByOrg": "Organizasyona göre hız",
-  "nTurnsLeft": "{{n}} tur kaldı",
+  "turnsLeft": "Tur kaldı",
 
   "battleOverview": {
     "title": "Savaş Genel Bakış",

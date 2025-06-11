@@ -360,7 +360,7 @@
   "info": "정보",
   "meleePerformance": "근접전 역량",
   "speedByOrg": "조직력에 의한 속도",
-  "nTurnsLeft": "{{n}}턴 남음",
+  "turnsLeft": "턴 남음",
   "battleOverview": {
     "title": "전투 개요",
     "victoryPoints": "승점",

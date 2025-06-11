@@ -393,7 +393,7 @@
   "info": "Info",
   "meleePerformance": "Rendimiento en cuerpo a cuerpo",
   "speedByOrg": "Velocidad por org",
-  "nTurnsLeft": "{{n}} turnos restantes",
+  "turnsLeft": "Turnos restantes",
 
   "battleOverview": {
     "title": "Resumen de la Batalla",

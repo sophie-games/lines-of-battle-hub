@@ -378,7 +378,7 @@
   "info": "情報",
   "meleePerformance": "接近戦のパフォーマンス",
   "speedByOrg": "組織力による速度",
-  "nTurnsLeft": "{{n}}ターン残り",
+  "turnsLeft": "ターン残り",
 
   "battleOverview": {
     "title": "戦闘概要",

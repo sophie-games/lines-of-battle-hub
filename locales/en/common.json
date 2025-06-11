@@ -430,7 +430,7 @@
   "info": "Info",
   "meleePerformance": "Melee performance",
   "speedByOrg": "Speed by org",
-  "nTurnsLeft": "{{n}} turns left",
+  "turnsLeft": "Turns left",
 
   "battleOverview": {
     "title": "Battle Overview",
@@ -727,7 +727,8 @@
   "hybrid": "Hybrid",
   "random": "Random",
   "projectileWidth": "Projectile width",
-  "nonCollidable": "Non-collidable",
+  "collisionLevel": "Collision level",
   "projectilePassThrough": "Projectile pass through",
-  "keepsEnemyRun": "Keeps enemy run"
+  "keepsEnemyRun": "Keeps enemy run",
+  "cannotMove": "Cannot move"
 }

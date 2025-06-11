@@ -378,7 +378,7 @@
   "info": "Info",
   "meleePerformance": "Közelharci teljesítmény",
   "speedByOrg": "Org alapú sebesség",
-  "nTurnsLeft": "{{n}} kör van hátra",
+  "turnsLeft": "Kör van hátra",
 
   "battleOverview": {
     "title": "Csata Elemzés",

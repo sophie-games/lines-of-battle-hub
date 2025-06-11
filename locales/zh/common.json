@@ -392,7 +392,7 @@
   "info": "信息",
   "meleePerformance": "近战表现",
   "speedByOrg": "基于组织度的速度",
-  "nTurnsLeft": "还剩{{n}}回合",
+  "turnsLeft": "还剩回合",
   "battleOverview": {
     "title": "战斗总览",
     "victoryPoints": "胜利点数",
@@ -665,6 +665,5 @@
   "hybrid": "混合",
   "random": "随机",
   "projectileWidth": "射击宽度",
-  "nonCollidable": "不可碰撞",
   "projectilePassThrough": "射击经过"
 }

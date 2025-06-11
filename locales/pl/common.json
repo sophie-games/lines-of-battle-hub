@@ -380,7 +380,7 @@
   "info": "Info",
   "meleePerformance": "Wydajność Wręcz",
   "speedByOrg": "Szybkość od Org.",
-  "nTurnsLeft": "Zostało {{n}} tur",
+  "turnsLeft": "Zostało tur",
 
   "battleOverview": {
     "title": "Podsumowanie Bitwy",

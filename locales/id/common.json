@@ -381,7 +381,7 @@
   "info": "Informasi",
   "meleePerformance": "Performa Pertarungan Jarak Dekat",
   "speedByOrg": "Kecepatan dipengaruhi oleh organisasi",
-  "nTurnsLeft": "sisa giliran : {{n}}",
+  "turnsLeft": "Sisa giliran",
 
   "battleOverview": {
     "title": "Ringkasan Pertempuran",

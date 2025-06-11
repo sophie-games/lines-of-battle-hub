@@ -2,12 +2,14 @@
   "infantry": {
     "id": 1,
     "targetAltitude": 0.9,
-    "canCaptureObjectives": true
+    "canCaptureObjectives": true,
+    "collisionLevel": 2
   },
 
   "midCavalry": {
     "id": 2,
     "targetAltitude": 0.9,
+    "collisionLevel": 2,
     "damageTypeResistances": {
       "bayonet": -0.1,
       "cavalry-lance": -0.05,
@@ -32,7 +34,7 @@
   "artillery": {
     "id": 3,
     "targetAltitude": 0.5,
-    "nonCollidable": true,
+    "collisionLevel": 1,
     "damageTypeResistances": {
       "bayonet": -0.6,
       "cavalry-sabre": -0.7,
@@ -59,12 +61,14 @@
   "lightInfantry": {
     "id": 4,
     "targetAltitude": 0.9,
-    "canCaptureObjectives": true
+    "canCaptureObjectives": true,
+    "collisionLevel": 2
   },
 
   "lightCavalry": {
     "id": 5,
     "targetAltitude": 0.9,
+    "collisionLevel": 2,
     "damageTypeResistances": {
       "bayonet": -0.15,
       "cavalry-lance": -0.15,
@@ -89,6 +93,7 @@
   "heavyCavalry": {
     "id": 6,
     "targetAltitude": 0.9,
+    "collisionLevel": 2,
     "damageTypeResistances": {
       "bayonet": -0.05,
       "cavalry-sabre": 0.4,
@@ -114,13 +119,14 @@
   "militiaInfantry": {
     "id": 7,
     "targetAltitude": 0.9,
-    "canCaptureObjectives": true
+    "canCaptureObjectives": true,
+    "collisionLevel": 2
   },
 
   "skirmishInfantry": {
     "id": 8,
     "targetAltitude": 0.9,
-    "nonCollidable": true,
+    "collisionLevel": 1,
     "projectilePassThrough": 0.8,
     "damageTypeResistances": {
       "bayonet": -0.25,

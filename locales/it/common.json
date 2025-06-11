@@ -378,7 +378,7 @@
   "info": "Info",
   "meleePerformance": "Prestazioni corpo a corpo",
   "speedByOrg": "Velocità per organizzazione",
-  "nTurnsLeft": "{{n}} turni rimanenti",
+  "turnsLeft": "Turni rimanenti",
 
   "battleOverview": {
     "title": "Panoramica della battaglia",

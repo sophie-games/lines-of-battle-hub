@@ -376,7 +376,7 @@
   "info": "Infos",
   "meleePerformance": "Performance en mêlée",
   "speedByOrg": "Vitesse grâce à l'organisation",
-  "nTurnsLeft": "{{n}} tours restants",
+  "turnsLeft": "Tours restants",
 
   "battleOverview": {
     "title": "Résumé de la bataille",
