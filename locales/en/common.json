@@ -733,5 +733,6 @@
   "keepsEnemyRun": "Keeps enemy run",
   "cannotMove": "Cannot move",
   "back": "Back",
-  "cannotRecoverOrg": "Cannot recover organization"
+  "cannotRecoverOrg": "Cannot recover organization",
+  "autofirePriority": "Autofire priority"
 }
