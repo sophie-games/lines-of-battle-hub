@@ -727,8 +727,11 @@
   "hybrid": "Hybrid",
   "random": "Random",
   "projectileWidth": "Projectile width",
-  "collisionLevel": "Collision level",
+  "allyCollisionLevel": "Ally collision level",
+  "enemyCollisionLevel": "Enemy collision level",
   "projectilePassThrough": "Projectile pass through",
   "keepsEnemyRun": "Keeps enemy run",
-  "cannotMove": "Cannot move"
+  "cannotMove": "Cannot move",
+  "back": "Back",
+  "cannotRecoverOrg": "Cannot recover organization"
 }
