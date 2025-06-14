@@ -665,5 +665,11 @@
   "hybrid": "混合",
   "random": "随机",
   "projectileWidth": "射击宽度",
-  "projectilePassThrough": "射击经过"
+  "projectilePassThrough": "射击经过",
+  "join": "加入",
+  "spectate": "观战",
+  "gameIsNotFull": "游戏尚未满员",
+  "invitationCopied": "链接已复制！发送给朋友。",
+  "inviteFriend": "邀请朋友",
+  "checkStarted": "检查是否开始"
 }

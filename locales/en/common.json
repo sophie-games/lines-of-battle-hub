@@ -735,5 +735,11 @@
   "back": "Back",
   "cannotRecoverOrg": "Cannot recover organization",
   "autofirePriority": "Autofire priority",
-  "new": "New"
+  "new": "New",
+  "join": "Join",
+  "spectate": "Spectate",
+  "gameIsNotFull": "The game isn't full yet",
+  "invitationCopied": "Link copied! Send it to a friend.",
+  "inviteFriend": "Invite a friend",
+  "checkStarted": "Check if started"
 }

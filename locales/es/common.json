@@ -678,5 +678,11 @@
   "nearbyUnits": "Unidades cercanas",
   "preset": "Preestablecido",
   "hybrid": "Híbrido",
-  "random": "Aleatorio"
+  "random": "Aleatorio",
+  "join": "Unirse",
+  "spectate": "Espectar",
+  "gameIsNotFull": "El juego aún no está lleno",
+  "invitationCopied": "¡Enlace copiado! Envíalo a un amigo.",
+  "inviteFriend": "Invitar a un amigo",
+  "checkStarted": "Verificar si ha comenzado"
 }
