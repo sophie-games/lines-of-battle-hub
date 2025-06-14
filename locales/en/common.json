@@ -734,5 +734,6 @@
   "cannotMove": "Cannot move",
   "back": "Back",
   "cannotRecoverOrg": "Cannot recover organization",
-  "autofirePriority": "Autofire priority"
+  "autofirePriority": "Autofire priority",
+  "new": "New"
 }
