@@ -3,4 +3,9 @@
   "INCORRECT_PASSWORD": "잘못된 비밀번호",
   "TOURNAMENT_ROUND_CANNOT_START_YET": "{{round}} 회차는 아직 시작할 수 없습니다.",
   "START_TIME_MUST_BE_IN_THE_FUTURE": "향후 시작해야 합니다."
+  "USER_IS_BANNED": "차단됨",
+
+  "auth": {
+    "OAUTH_ACCOUNT": "이 계정은 Google에 등록된 계정입니다. Google 로그인을 사용하세요."
+  }
 }
