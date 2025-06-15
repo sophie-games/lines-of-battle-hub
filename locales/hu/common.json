@@ -146,8 +146,7 @@
     "rangedAttack": "Távolsági támadás",
     "limberMovement": "Ágyútaliga mozgása",
     "chargeResistance": "Roham-ellenállás",
-    "status": "Státusz",
-    "currentChargeResistance": "Jelenlegi roham-ellenállás"
+    "status": "Státusz"
   },
 
   "unitCategory": {
@@ -166,17 +165,17 @@
     "light-musket": "Könnyű Muskéta",
     "artillery-sabre": "Tüzérségi Szablya",
     "bayonet": "Bajonett",
-    "cannon-ball": "Ágyúgolyó",
+    "8lb-cannon-ball": "Ágyúgolyó",
     "cavalry-sabre": "Lovassági Szablya",
     "cavalry-lance": "Lovassági Lándzsa",
     "6lb-cannon-ball": "Könnyű Ágyúgolyó",
     "explosive-shell": "Robbanó Lövedék",
     "cavalry-sword": "Lovassági Kard",
-    "canister-fire": "Sörétes Tüzelés",
+    "8lb-canister-fire": "Sörétes Tüzelés",
     "6lb-canister-fire": "Könnyű Sörétes Tüzelés",
     "howitzer-canister": "Mozsár Sörét",
-    "heavy-cannon-ball": "Nehéz ágyúgolyó",
-    "heavy-canister-fire": "Nehéz kartácstűz",
+    "12lb-cannon-ball": "Nehéz ágyúgolyó",
+    "12lb-canister-fire": "Nehéz kartácstűz",
     "dragoon-sword": "Dragonyos kard"
   },
 
@@ -245,8 +244,6 @@
   "midRange": "Közepes Hatótáv",
   "longRange": "Hosszú Hatótáv",
   "shootingAngle": "Kilőtt lövedék pályájának íve",
-  "closeAttackDamage": "Közeli Támadási Sebzés",
-  "longAttackDamage": "Távoli Támadási Sebzés",
   "arcHeight": "Ív magasság",
   "aoe": "Effekt kihatásának területe",
   "type": "Típus",
@@ -265,7 +262,6 @@
   "terrainHitboxHeight": "Környezet Hitboxjának Magassága",
   "statusEffects": "Státusz Effektek",
   "projectileAbsorption": "Lövedékelnyelés",
-  "orgRegainByNearbyUnits": "Org visszanyerés barátságos csapatok közelében",
   "terrainPName": "Terep: {{name}}",
   "effects": "Effektusok",
 
@@ -366,8 +362,7 @@
   "allowFireWhenMoving": "Lőhet mozgás közben",
   "meleeDamage": "Közelharci sebzés",
   "rangedDamage": "Távolsági sebzés",
-  "orgRegainByHp": "Org visszatöltődés HP alapján",
-  "rangedDamageWhenMoving": "Távolsági sebződés mozgás közben",
+  "orgRegain": "Org visszatöltődés",
   "speed": "Sebesség",
   "speedWhenShooting": "Lövés közbeni sebesség",
   "receivedDamage": "Ért sebződés",
@@ -383,7 +378,7 @@
   "info": "Info",
   "meleePerformance": "Közelharci teljesítmény",
   "speedByOrg": "Org alapú sebesség",
-  "nTurnsLeft": "{{n}} kör van hátra",
+  "turnsLeft": "Kör van hátra",
 
   "battleOverview": {
     "title": "Csata Elemzés",
@@ -416,9 +411,7 @@
   },
 
   "unitEffect": {
-    "1": "Teljes forgatás",
-    "2": "Meg lett támadva",
-    "3": "Edzés"
+    "1": "Teljes forgatás"
   },
 
   "login": "Bejelentkezés",

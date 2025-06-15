@@ -73,6 +73,10 @@
     "title": "阴影",
     "description": "为单位启用阴影。可能需要游戏经过一回合才能更新。"
   },
+  "showCollisionShapes": {
+    "title": "显示碰撞体积",
+    "description": "显示单位的碰撞体积。可能需要游戏经过一回合才能更新。"
+  },
   "fullScreen": {
     "title": "全屏",
     "description": "切换该应用的全屏模式",

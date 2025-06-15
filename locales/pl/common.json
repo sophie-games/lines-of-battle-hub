@@ -146,8 +146,7 @@
     "rangedAttack": "Atak Dystansowy",
     "limberMovement": "Ruch Zaprzodkowany",
     "chargeResistance": "Odporność na Szarżę",
-    "status": "Stan",
-    "currentChargeResistance": "Aktualna Odporność na Szarżę"
+    "status": "Stan"
   },
 
   "unitCategory": {
@@ -167,17 +166,17 @@
     "light-musket": "Karabinek",
     "artillery-sabre": "Szabla Artyleryjska",
     "bayonet": "Bagnet",
-    "cannon-ball": "Kula Armatnia",
+    "8lb-cannon-ball": "Kula Armatnia",
     "cavalry-sabre": "Szabla Kawaleryjska",
     "cavalry-lance": "Kopia Kawaleryjska",
     "6lb-cannon-ball": "Lekka Kula Armatnia",
     "explosive-shell": "Pocisk Wybuchowy",
     "cavalry-sword": "Miecz Kawaleryjski",
-    "canister-fire": "Ogień Kartaczami",
+    "8lb-canister-fire": "Ogień Kartaczami",
     "6lb-canister-fire": "Lekki Ogień Kartaczami",
     "howitzer-canister": "Kartacz z Haubicy",
-    "heavy-cannon-ball": "Ciężka Kula Armatnia",
-    "heavy-canister-fire": "Ciężki Ostrzał Kartaczami",
+    "12lb-cannon-ball": "Ciężka Kula Armatnia",
+    "12lb-canister-fire": "Ciężki Ostrzał Kartaczami",
     "dragoon-sword": "Miecz Dragoński",
     "horse-archer-bow": "Łuk kawaleryjski"
   },
@@ -247,8 +246,6 @@
   "midRange": "Średni Zasięg",
   "longRange": "Daleki Zasięg",
   "shootingAngle": "Kąt Wystrzału",
-  "closeAttackDamage": "Obrażenia z Bliska",
-  "longAttackDamage": "Obrażenia z Daleka",
   "arcHeight": "Wysokość Łuku",
   "aoe": "Strefa Obrażeń",
   "type": "Rodzaj",
@@ -267,7 +264,6 @@
   "terrainHitboxHeight": "Wysokość Hitboxa Terenu",
   "statusEffects": "Efekty",
   "projectileAbsorption": "Absorpcja Pocisków",
-  "orgRegainByNearbyUnits": "Odzyskiwanie Org. dzięki pobliskim jednostkom",
   "terrainPName": "Teren: {{name}}",
   "effects": "Efekty",
 
@@ -368,8 +364,7 @@
   "allowFireWhenMoving": "Pozwala strzelać podczas ruchu",
   "meleeDamage": "Obrażenia wręcz",
   "rangedDamage": "Obrażenia dystansowe",
-  "orgRegainByHp": "Odzyskiwanie Org. przez PŻ",
-  "rangedDamageWhenMoving": "Obrażenia dystansowe podczas ruchu",
+  "orgRegain": "Odzyskiwanie Org.",
   "speed": "Szybkość",
   "speedWhenShooting": "Szybkość w trakcie strzelania",
   "receivedDamage": "Otrzymywane obrażenia",
@@ -385,7 +380,7 @@
   "info": "Info",
   "meleePerformance": "Wydajność Wręcz",
   "speedByOrg": "Szybkość od Org.",
-  "nTurnsLeft": "Zostało {{n}} tur",
+  "turnsLeft": "Zostało tur",
 
   "battleOverview": {
     "title": "Podsumowanie Bitwy",
@@ -418,9 +413,7 @@
   },
 
   "unitEffect": {
-    "1": "Wykonuje pełny obrót",
-    "2": "Była atakowana",
-    "3": "W trakcie przygotowania"
+    "1": "Wykonuje pełny obrót"
   },
 
   "login": "Zaloguj się",

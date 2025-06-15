@@ -146,8 +146,7 @@
     "rangedAttack": "遠距離攻撃",
     "limberMovement": "砲架移動",
     "chargeResistance": "突撃耐性",
-    "status": "ステータス",
-    "currentChargeResistance": "現在の突撃耐性"
+    "status": "ステータス"
   },
 
   "unitCategory": {
@@ -166,17 +165,17 @@
     "light-musket": "軽マスケット銃",
     "artillery-sabre": "砲兵サーベル",
     "bayonet": "銃剣",
-    "cannon-ball": "砲弾",
+    "8lb-cannon-ball": "砲弾",
     "cavalry-sabre": "騎兵サーベル",
     "cavalry-lance": "騎兵槍",
     "6lb-cannon-ball": "軽砲弾",
     "explosive-shell": "炸裂弾",
     "cavalry-sword": "騎兵剣",
-    "canister-fire": "散弾射撃",
+    "8lb-canister-fire": "散弾射撃",
     "6lb-canister-fire": "軽散弾射撃",
     "howitzer-canister": "榴弾砲散弾",
-    "heavy-cannon-ball": "重砲弾",
-    "heavy-canister-fire": "重散弾射撃",
+    "12lb-cannon-ball": "重砲弾",
+    "12lb-canister-fire": "重散弾射撃",
     "dragoon-sword": "竜騎兵の剣"
   },
 
@@ -245,8 +244,6 @@
   "midRange": "中距離",
   "longRange": "長距離",
   "shootingAngle": "射撃角度",
-  "closeAttackDamage": "近距離攻撃ダメージ",
-  "longAttackDamage": "遠距離攻撃ダメージ",
   "arcHeight": "弾道高度",
   "aoe": "範囲効果",
   "type": "種類",
@@ -265,7 +262,6 @@
   "terrainHitboxHeight": "地形ヒットボックスの高さ",
   "statusEffects": "ステータス効果",
   "projectileAbsorption": "弾丸吸収",
-  "orgRegainByNearbyUnits": "近くのユニットによる組織回復",
   "terrainPName": "地形: {{name}}",
   "effects": "効果",
 
@@ -366,8 +362,7 @@
   "allowFireWhenMoving": "移動中に射撃を許可",
   "meleeDamage": "接近戦ダメージ",
   "rangedDamage": "遠距離ダメージ",
-  "orgRegainByHp": "HPによる組織回復",
-  "rangedDamageWhenMoving": "移動中の遠距離ダメージ",
+  "orgRegain": "組織回復",
   "speed": "速度",
   "speedWhenShooting": "射撃時の速度",
   "receivedDamage": "受けたダメージ",
@@ -383,7 +378,7 @@
   "info": "情報",
   "meleePerformance": "接近戦のパフォーマンス",
   "speedByOrg": "組織力による速度",
-  "nTurnsLeft": "{{n}}ターン残り",
+  "turnsLeft": "ターン残り",
 
   "battleOverview": {
     "title": "戦闘概要",
@@ -416,9 +411,7 @@
   },
 
   "unitEffect": {
-    "1": "完全回転",
-    "2": "攻撃を受けた",
-    "3": "準備運動中"
+    "1": "完全回転"
   },
 
   "login": "ログイン",

@@ -97,7 +97,8 @@
   "importScenario": "Import scenario",
   "importScenarioModal": {
     "importInfo": "You can import any scenario you want.",
-    "createInfo": "You can even create your own scenarios in the <scenarioEditorLink/>."
+    "createInfo": "You can even create your own scenarios in the <scenarioEditorLink/>.",
+    "createInfo2": "Or explore the <0>Community Hub</0> for ready-made scenarios."
   },
 
   "scenarioEditorTags": {
@@ -140,6 +141,8 @@
   "unitStat": {
     "hp": "HP",
     "org": "Organization",
+    "stamina": "Stamina",
+    "walkMovement": "Walk",
     "movement": "Movement",
     "meleeAttack": "Melee Attack",
     "meleeDefense": "Melee Defense",
@@ -151,7 +154,7 @@
     "limberMovement": "Limber Movement",
     "chargeResistance": "Charge Resistance",
     "status": "Status",
-    "currentChargeResistance": "Current Charge Resistance"
+    "timeToRun": "Time to run"
   },
 
   "unitCategory": {
@@ -161,7 +164,8 @@
     "4": "Light Infantry",
     "5": "Light Cavalry",
     "6": "Heavy Cavalry",
-    "7": "Militia Infantry"
+    "7": "Militia Infantry",
+    "8": "Skirmish Infantry"
   },
 
   "category": "Category",
@@ -171,21 +175,24 @@
     "light-musket": "Light Musket",
     "artillery-sabre": "Artillery Sabre",
     "bayonet": "Bayonet",
-    "cannon-ball": "Cannon Ball",
+    "8lb-cannon-ball": "8-lb Cannon Ball",
     "cavalry-sabre": "Cavalry Sabre",
     "cavalry-lance": "Cavalry Lance",
     "6lb-cannon-ball": "6-lb Cannon Ball",
     "4lb-cannon-ball": "4-lb Cannon Ball",
     "explosive-shell": "Explosive Shell",
     "cavalry-sword": "Cavalry Sword",
-    "canister-fire": "Canister Fire",
+    "8lb-canister-fire": "8-lb Canister Fire",
     "6lb-canister-fire": "6-lb Canister Fire",
     "4lb-canister-fire": "4-lb Canister Fire",
     "howitzer-canister": "Howitzer Canister",
-    "heavy-cannon-ball": "Heavy Cannon Ball",
-    "heavy-canister-fire": "Heavy Canister Fire",
+    "12lb-cannon-ball": "12-lb Cannon Ball",
+    "12lb-canister-fire": "12-lb Canister Fire",
     "dragoon-sword": "Dragoon Sword",
-    "horse-archer-bow": "Horse Archer Bow"
+    "horse-archer-bow": "Horse Archer Bow",
+    "marksman-musket": "Marksman Musket",
+    "rifle": "Rifle",
+    "rocket": "Rocket"
   },
 
   "unitName": {
@@ -203,7 +210,11 @@
     "12": "12-lb Foot Artillery",
     "13": "Horse Archers",
     "14": "Grenadiers",
-    "15": "4-lb Foot Artillery"
+    "15": "4-lb Foot Artillery",
+    "16": "Skirmishers",
+    "17": "Rifles",
+    "18": "6-lb Foot Artillery",
+    "19": "Rockets"
   },
 
   "battalionName": {
@@ -221,7 +232,11 @@
     "12": "{{n}} Foot Battery",
     "13": "{{n}} Horse Archers",
     "14": "{{n}} Grenadiers",
-    "15": "{{n}} Light Battery"
+    "15": "{{n}} Light Battery",
+    "16": "{{n}} Skirmishers",
+    "17": "{{n}} Rifles",
+    "18": "{{n}} Foot Battery",
+    "19": "{{n}} Rockets"
   },
 
   "unitDescription": {
@@ -239,7 +254,11 @@
     "10": "“To place any dependence upon militia is assuredly resting upon a broken staff.” - George Washington",
     "13": "“The Bashkir horse archers are undoubtedly the world's least dangerous troops.” - Baron Marbot, ignoring an arrow in his thigh",
     "14": "These shock troops are made up the tallest, strongest, and most imposing men of the line infantry. While they're generally more fearsome than average line troops, their most powerful option in combat is their devastating charge.",
-    "15": "The lightest common field artillery of the Napoleonic Wars, with modest firepower and good mobility that make it a natural companion to the infantry."
+    "15": "The lightest common field artillery of the Napoleonic Wars, with modest firepower and good mobility that make it a natural companion to the infantry.",
+    "16": "Napoleonic battalions would detach these small companies of loose-order troops, such as Voltigeurs and Jaegers, to carry out a variety of duties. These troops would occupy terrain unsuitable to large infantry units, harass the enemy line, and screen the army to fend off enemy skirmishers.",
+    "17": "While rifles of the Napoleonic era offer a much lower rate of fire than muskets, they compensated with excellent accuracy that helped win skirmishing duels, pick off enemy officers, and harass enemy artillery from a distance.",
+    "18": "Napoleon favored the 6lb cannon for its balance of power and maneuverability; as the Napoleonic Wars wore on, he sought to replace the 4 and 8lb guns with as many 6 and 12lb guns as possible.",
+    "19": "The Napoleonic rocket was an experimental, temperamental weapon with persistent accuracy issues. However, it boasts high maneuverability, a substantial explosive payload that's effective against terrain, and can deal excellent organizational damage at close range."
   },
 
   "damageResistances": "Damage Resistances",
@@ -259,8 +278,6 @@
   "midRange": "Mid Range",
   "longRange": "Long Range",
   "shootingAngle": "Shooting Angle",
-  "closeAttackDamage": "Close Attack Damage",
-  "longAttackDamage": "Long Attack Damage",
   "arcHeight": "Arc Height",
   "aoe": "Area of Effect",
   "type": "Type",
@@ -279,19 +296,29 @@
   "terrainHitboxHeight": "Terrain Hitbox Height",
   "statusEffects": "Status Effects",
   "projectileAbsorption": "Projectile Absorption",
-  "orgRegainByNearbyUnits": "Org Regain By Nearby Units",
   "terrainPName": "Terrain: {{name}}",
   "effects": "Effects",
 
   "terrain": {
-    "0": "Land",
+    "0": "Grass",
     "1": "Forest",
     "2": "Building",
     "3": "Road",
-    "4": "Shallow water",
-    "5": "Deep water",
+    "4": "Water, Shallow",
+    "5": "Water, Deep",
     "6": "Cliff",
-    "7": "Bridge"
+    "7": "Bridge",
+    "8": "Snow",
+    "9": "Dirt",
+    "10": "Sand",
+    "11": "Farm",
+    "12": "City",
+    "13": "Forest, Winter",
+    "14": "Cliff, Winter",
+    "15": "Road, Winter",
+    "16": "Ice",
+    "17": "Farm, Unplanted",
+    "18": "Farm, Grown"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -324,7 +351,7 @@
 
   "landing": {
     "title": "Welcome to <0>Lines of Battle</0>",
-    "message": "<b>Lines of Battle</b> is a multiplayer, simultaneous turn-based strategy game set during the Napoleonic Wars. Designed for tactical depth and historical immersion, you’ll engage in epic battles against others, using skill and strategy to outmaneuver and defeat your opponents!",
+    "message": "<b>Lines of Battle</b> is a multiplayer, simultaneous turn-based strategy game set during the Napoleonic Wars. Designed for tactical depth and historical immersion, you'll engage in epic battles against others, using skill and strategy to outmaneuver and defeat your opponents!",
     "privacy": "By starting, you agree to our <0>Privacy Policy</0>."
   },
 
@@ -367,14 +394,16 @@
     "tip21": "\"It is for the cavalry to follow up the victory and prevent the beaten enemy from rallying.\" - Napoleon Bonaparte",
     "tip22": "\"To plan to reserve cavalry for the finish of the battle, is to have no conception of the power of combined infantry and cavalry charges, either for attack or for defense.\" - Napoleon Bonaparte",
     "tip23": "\"Just attack.\" - Marechal Apeiro",
-    "tip24": "\"Where my dragons at?\" - Marechal SteelFlesher"
+    "tip24": "\"Where my dragons at?\" - Marechal SteelFlesher",
+    "tip25": "Units are very slow to regain 100% stamina; think before you commit your last reserve.",
+    "tip26": "Cavalry has less stamina than infantry; be mindful about using it at the right time."
   },
 
   "fetchingBattleActions": "Fetching battle actions...",
 
   "order": {
-    "1": "Move",
-    "2": "Seek",
+    "1": "Walk",
+    "2": "Run",
     "3": "Shoot",
     "4": "Fire and Advance",
     "6": "Fallback",
@@ -385,8 +414,7 @@
   "allowFireWhenMoving": "Allow fire when moving",
   "meleeDamage": "Melee damage",
   "rangedDamage": "Ranged damage",
-  "orgRegainByHp": "Org regain by HP",
-  "rangedDamageWhenMoving": "Ranged damage when moving",
+  "orgRegain": "Org regain",
   "speed": "Speed",
   "speedWhenShooting": "Speed when shooting",
   "receivedDamage": "Received damage",
@@ -402,7 +430,7 @@
   "info": "Info",
   "meleePerformance": "Melee performance",
   "speedByOrg": "Speed by org",
-  "nTurnsLeft": "{{n}} turns left",
+  "turnsLeft": "Turns left",
 
   "battleOverview": {
     "title": "Battle Overview",
@@ -438,8 +466,10 @@
 
   "unitEffect": {
     "1": "Full rotating",
-    "2": "Has been attacked",
-    "3": "Limbering up"
+    "2": "Been in melee",
+    "3": "Has ran",
+    "4": "Started routing",
+    "5": "Has taken fire"
   },
 
   "login": "Login",
@@ -537,7 +567,8 @@
     "next": "Next",
     "page": "Page",
     "of": "of",
-    "items": "items"
+    "items": "items",
+    "jump": "Jump"
   },
 
   "kick": "Kick",
@@ -670,6 +701,45 @@
     "descriptionBoldPart": "30,000 wishlists",
     "buttonText": "Add to Wishlist Now"
   },
-
-  "offerDrawCooldownMessage": "The last draw was offered a few turns ago. You may offer a new draw in {{turns}} turns."
+  "offerDrawCooldownMessage": "The last draw was offered a few turns ago. You may offer a new draw in {{turns}} turns.",
+  "acceptDrawModal": {
+    "title": "Accept Draw",
+    "message": "Are you sure you want to accept the draw?"
+  },
+  "staminaCost": "Stamina cost",
+  "cannotUseAfterRun": "Cannot use after run",
+  "selectIdleUnit": "Select idle unit",
+  "maxOrg": "Max org",
+  "allyOverlap": "Ally overlap",
+  "copied": "Copied!",
+  "download": "Download",
+  "translationsMessage": "Do you want to collaborate with translations? You can do it <0>here</0>.",
+  "gameSearch": "Game search",
+  "minTurn": "Min turn",
+  "applyFilters": "Apply filters",
+  "objective": "Objective",
+  "hasSkirmishers": "Has skirmishers",
+  "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
+  "skirmisherRatio": "Skirmisher ratio",
+  "friendlyFireImmune": "Friendly fire immune",
+  "nearbyUnits": "Nearby units",
+  "preset": "Preset",
+  "hybrid": "Hybrid",
+  "random": "Random",
+  "projectileWidth": "Projectile width",
+  "allyCollisionLevel": "Ally collision level",
+  "enemyCollisionLevel": "Enemy collision level",
+  "projectilePassThrough": "Projectile pass through",
+  "keepsEnemyRun": "Keeps enemy run",
+  "cannotMove": "Cannot move",
+  "back": "Back",
+  "cannotRecoverOrg": "Cannot recover organization",
+  "autofirePriority": "Autofire priority",
+  "new": "New",
+  "join": "Join",
+  "spectate": "Spectate",
+  "gameIsNotFull": "The game isn't full yet",
+  "invitationCopied": "Link copied! Send it to a friend.",
+  "inviteFriend": "Invite a friend",
+  "checkStarted": "Check if started"
 }

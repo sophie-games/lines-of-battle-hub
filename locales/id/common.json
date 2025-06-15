@@ -147,8 +147,7 @@
     "rangedAttack": "Serangan Jarak Jauh",
     "limberMovement": "Gerakan Lentur",
     "chargeResistance": "Daya Tahan Serangan",
-    "status": "Status",
-    "currentChargeResistance": "Ketahanan Serangan Saat Ini"
+    "status": "Status"
   },
 
   "unitCategory": {
@@ -168,17 +167,17 @@
     "light-musket": "Musket Ringan",
     "artillery-sabre": "Artileri Saber",
     "bayonet": "Bayonet",
-    "cannon-ball": "Bola Meriam",
+    "8lb-cannon-ball": "Bola Meriam",
     "cavalry-sabre": "Kavaeri Saber",
     "cavalry-lance": "Kavaleri Tombak",
     "6lb-cannon-ball": "Meriam Bola Ringan",
     "explosive-shell": "Peluru Ledakan",
     "cavalry-sword": "Kavaleri Pedang",
-    "canister-fire": "Tembakan Peluru Canister",
+    "8lb-canister-fire": "Tembakan Peluru Canister",
     "6lb-canister-fire": "Tembakan Peluru Canister Ringan",
     "howitzer-canister": "Meriam Besar Canister",
-    "heavy-cannon-ball": "Meriam Bola Berat",
-    "heavy-canister-fire": "Tembakan Peluru Berat Canister",
+    "12lb-cannon-ball": "Meriam Bola Berat",
+    "12lb-canister-fire": "Tembakan Peluru Berat Canister",
     "dragoon-sword": "Pedang Dragoon",
     "horse-archer-bow": "Pemanah Kuda"
   },
@@ -248,8 +247,6 @@
   "midRange": "Jarak Sedang",
   "longRange": "Jarak Jauh",
   "shootingAngle": "Sudut Menembak",
-  "closeAttackDamage": "Kerusakan Serangan Dekat",
-  "longAttackDamage": "Kerusakan Serangan Jauh",
   "arcHeight": "Tinggi Busur",
   "aoe": "Efek Area",
   "type": "Tipe",
@@ -268,7 +265,6 @@
   "terrainHitboxHeight": "Ketinggian Hitbox Medan",
   "statusEffects": "Status Efek",
   "projectileAbsorption": "Proyektil Absorption",
-  "orgRegainByNearbyUnits": "Organisasi yang Didapatkan Kembali Berdasarkan Unit Terdekat",
   "terrainPName": "Medan: {{name}}",
   "effects": "Efek",
 
@@ -369,8 +365,7 @@
   "allowFireWhenMoving": "Izinkan menembak sambil bergerak",
   "meleeDamage": "Kerusakan Jarak Dekat",
   "rangedDamage": "Kerusakan Jarak Jauh",
-  "orgRegainByHp": "Organisasi pulih berdasarkan HP",
-  "rangedDamageWhenMoving": "Kerusakan jarak jauh sambil bergerak",
+  "orgRegain": "Organisasi pulih",
   "speed": "Kecepatan",
   "speedWhenShooting": "Kecepatan sambil menembak",
   "receivedDamage": "Kerusakan yang diterima",
@@ -386,7 +381,7 @@
   "info": "Informasi",
   "meleePerformance": "Performa Pertarungan Jarak Dekat",
   "speedByOrg": "Kecepatan dipengaruhi oleh organisasi",
-  "nTurnsLeft": "sisa giliran : {{n}}",
+  "turnsLeft": "Sisa giliran",
 
   "battleOverview": {
     "title": "Ringkasan Pertempuran",
@@ -419,9 +414,7 @@
   },
 
   "unitEffect": {
-    "1": "Rotasi penuh",
-    "2": "Telah diserang",
-    "3": "Sedang menyiapkan meriam"
+    "1": "Rotasi penuh"
   },
 
   "login": "Login",

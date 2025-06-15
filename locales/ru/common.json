@@ -150,8 +150,7 @@
     "rangedAttack": "Огневая мощь",
     "limberMovement": "Манёвренность при смене позиции",
     "chargeResistance": "Сопротивление натиску",
-    "status": "Статус",
-    "currentChargeResistance": "Текущее сопротивление натиску"
+    "status": "Статус"
   },
 
   "unitCategory": {
@@ -171,19 +170,19 @@
     "light-musket": "Лёгкий мушкет",
     "artillery-sabre": "Артиллерийская сабля",
     "bayonet": "Штык",
-    "cannon-ball": "Пушечное ядро",
+    "8lb-cannon-ball": "Пушечное ядро",
     "cavalry-sabre": "Кавалерийская сабля",
     "cavalry-lance": "Кавалерийская пика",
     "6lb-cannon-ball": "6-фунтовое пушечное ядро",
     "4lb-cannon-ball": "4-фунтовое пушечное ядро",
     "explosive-shell": "Фугасный снаряд",
     "cavalry-sword": "Кирасирский палаш",
-    "canister-fire": "Картечь",
+    "8lb-canister-fire": "Картечь",
     "6lb-canister-fire": "6-фунтовая картечь",
     "4lb-canister-fire": "4-фунтовая картечь",
     "howitzer-canister": "Гаубичная картечь",
-    "heavy-cannon-ball": "Крупнокалиберное ядро",
-    "heavy-canister-fire": "Крупнокалиберная картечь",
+    "12lb-cannon-ball": "Крупнокалиберное ядро",
+    "12lb-canister-fire": "Крупнокалиберная картечь",
     "dragoon-sword": "Драгунский палаш",
     "horse-archer-bow": "Составной лук"
   },
@@ -259,8 +258,6 @@
   "midRange": "Средняя дистанция",
   "longRange": "Дальняя дистанция",
   "shootingAngle": "Угол стрельбы",
-  "closeAttackDamage": "Урон на близкой дистанции",
-  "longAttackDamage": "Урон на дальней дистанции",
   "arcHeight": "Высота траектории Снаряда",
   "aoe": "Область поражения",
   "type": "Тип",
@@ -279,7 +276,6 @@
   "terrainHitboxHeight": "Высота объектов местности",
   "statusEffects": "Эффекты статуса",
   "projectileAbsorption": "Поглощение снарядов",
-  "orgRegainByNearbyUnits": "Восстановление организации от соседних батальонов",
   "terrainPName": "Местность: {{name}}",
   "effects": "Эффекты",
 
@@ -385,8 +381,7 @@
   "allowFireWhenMoving": "Может стрелять при движении",
   "meleeDamage": "Урон в ближнем бою",
   "rangedDamage": "Урон от огня",
-  "orgRegainByHp": "Восстановление организации от Боеспособности",
-  "rangedDamageWhenMoving": "Урон от огня при движении",
+  "orgRegain": "Восстановление организации",
   "speed": "Манёвренность",
   "speedWhenShooting": "Манёвренность при стрельбе",
   "receivedDamage": "Получаемый урон по боеспособности",
@@ -402,7 +397,7 @@
   "info": "Информация",
   "meleePerformance": "Эффективность в ближнем бою",
   "speedByOrg": "Скорость от организации",
-  "nTurnsLeft": "{{n}} ходов осталось!",
+  "turnsLeft": "ходов осталось!",
 
   "battleOverview": {
     "title": "Обзор битвы",
@@ -437,9 +432,7 @@
   },
 
   "unitEffect": {
-    "1": "Полный поворот",
-    "2": "Был атакован",
-    "3": "Меняет позицию"
+    "1": "Полный поворот"
   },
 
   "login": "Войти",

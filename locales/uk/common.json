@@ -130,8 +130,7 @@
     "rangedAttack": "Стрільба",
     "limberMovement": "Походний рух",
     "chargeResistance": "Стійкість до натиску",
-    "status": "Статус",
-    "currentChargeResistance": "Поточна стійкість до натиску"
+    "status": "Статус"
   },
   "unitCategory": {
     "1": "Піхота",
@@ -148,17 +147,17 @@
     "light-musket": "Постріл із рушниці",
     "artillery-sabre": "Гармашова шабля",
     "bayonet": "Удар списом",
-    "cannon-ball": "Гарматне ядро",
+    "8lb-cannon-ball": "Гарматне ядро",
     "cavalry-sabre": "Кінна шабля",
     "cavalry-lance": "Козацьке списо",
     "6lb-cannon-ball": "Легке гарматне ядро",
     "explosive-shell": "Гармашова граната",
     "cavalry-sword": "Кінний тесак",
-    "canister-fire": "Картечний залп",
+    "8lb-canister-fire": "Картечний залп",
     "6lb-canister-fire": "Легкий картечний залп",
     "howitzer-canister": "Гаубичний картечний залп",
-    "heavy-cannon-ball": "Важке гарматне ядро",
-    "heavy-canister-fire": "Важкий картечний залп",
+    "12lb-cannon-ball": "Важке гарматне ядро",
+    "12lb-canister-fire": "Важкий картечний залп",
     "dragoon-sword": "Драгунський палаш",
     "horse-archer-bow": "Лук вершника"
   },
@@ -223,8 +222,6 @@
   "midRange": "Середня Дистанція",
   "longRange": "Велика Дистанція",
   "shootingAngle": "Кут ведення вогню",
-  "closeAttackDamage": "Ушкодження Ближнього Бою",
-  "longAttackDamage": "Ушкодження Дальнього Бою",
   "arcHeight": "Висота Дуги",
   "aoe": "Площа Ураження",
   "type": "Тип",
@@ -243,7 +240,6 @@
   "terrainHitboxHeight": "Висота Колізійної Зони Місцевості",
   "statusEffects": "Ефекти статусу",
   "projectileAbsorption": "Поглинання Снарядів",
-  "orgRegainByNearbyUnits": "Відновлення Бойового Духу Завдяки Сусіднім Підрозділам",
   "terrainPName": "Ландшафт: {{name}}",
   "effects": "Ефекти",
   "terrain": {
@@ -331,8 +327,7 @@
   "allowFireWhenMoving": "Дозволити вогонь під час руху",
   "meleeDamage": "Ушкодження в ближньому бою",
   "rangedDamage": "Ушкодження в дальньому бою",
-  "orgRegainByHp": "Org regain by HP",
-  "rangedDamageWhenMoving": "Відновлення бойового духу залежно від рівня здоров’я",
+  "orgRegain": "Org regain",
   "speed": "Швидкість",
   "speedWhenShooting": "Швидкість під час руху",
   "receivedDamage": "Отримані ушкодження",
@@ -348,7 +343,7 @@
   "info": "Інфо",
   "meleePerformance": "Ефективність у ближньому бою",
   "speedByOrg": "Швидкість залежно від моралі",
-  "nTurnsLeft": "{{n}} ходів залишилось",
+  "turnsLeft": "ходів залишилось",
   "battleOverview": {
     "title": "Огляд битви",
     "victoryPoints": "Очки перемоги",
@@ -376,9 +371,7 @@
     "3": "Відновлення"
   },
   "unitEffect": {
-    "1": "Повертається на місці",
-    "2": "Під обстрілом",
-    "3": "Готується до маршу"
+    "1": "Повертається на місці"
   },
   "login": "Увійти",
   "signUp": "Зареєструватися",

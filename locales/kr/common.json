@@ -134,8 +134,7 @@
     "rangedAttack": "사격공격력",
     "limberMovement": "포가 기동력",
     "chargeResistance": "돌격 저항력",
-    "status": "상태",
-    "currentChargeResistance": "현 돌격 저항력"
+    "status": "상태"
   },
   "unitCategory": {
     "1": "보병",
@@ -152,19 +151,19 @@
     "light-musket": "경활강총",
     "artillery-sabre": "포병 곡검",
     "bayonet": "총검",
-    "cannon-ball": "포환",
+    "8lb-cannon-ball": "포환",
     "cavalry-sabre": "기병 곡검",
     "cavalry-lance": "기병창",
     "6lb-cannon-ball": "6파운드 포환",
     "4lb-cannon-ball": "4파운드 포환",
     "explosive-shell": "고폭탄",
     "cavalry-sword": "기병검",
-    "canister-fire": "유산탄",
+    "8lb-canister-fire": "유산탄",
     "6lb-canister-fire": "6파운드 유산탄",
     "4lb-canister-fire": "4파운드 유산탄",
     "howitzer-canister": "곡사포 유산탄",
-    "heavy-cannon-ball": "중포탄",
-    "heavy-canister-fire": "중유산탄",
+    "12lb-cannon-ball": "중포탄",
+    "12lb-canister-fire": "중유산탄",
     "dragoon-sword": "용기병검",
     "horse-archer-bow": "궁기병 활"
   },
@@ -235,8 +234,6 @@
   "midRange": "중거리 사격",
   "longRange": "사거리",
   "shootingAngle": "사격각",
-  "closeAttackDamage": "근거리 공격 피해량",
-  "longAttackDamage": "원거리 공격 피해량",
   "arcHeight": "탄도 고도",
   "aoe": "효과 범위",
   "type": "유형",
@@ -255,7 +252,6 @@
   "terrainHitboxHeight": "지형 적중영역 높이",
   "statusEffects": "상태 효과",
   "projectileAbsorption": "발사체 흡수",
-  "orgRegainByNearbyUnits": "주변 부대에 의한 조직력 회복",
   "terrainPName": "지형 : {{name}}",
   "effects": "효과",
   "terrain": {
@@ -348,8 +344,7 @@
   "allowFireWhenMoving": "산병전",
   "meleeDamage": "근접피해량",
   "rangedDamage": "사격피해량",
-  "orgRegainByHp": "체력에 의한 조직력 회복",
-  "rangedDamageWhenMoving": "이동 중 원거리 공격 피해량",
+  "orgRegain": "조직 회복",
   "speed": "속도",
   "speedWhenShooting": "사격 중 속도",
   "receivedDamage": "받은 피해량",
@@ -365,7 +360,7 @@
   "info": "정보",
   "meleePerformance": "근접전 역량",
   "speedByOrg": "조직력에 의한 속도",
-  "nTurnsLeft": "{{n}}턴 남음",
+  "turnsLeft": "턴 남음",
   "battleOverview": {
     "title": "전투 개요",
     "victoryPoints": "승점",
@@ -395,9 +390,7 @@
     "3": "회복 중"
   },
   "unitEffect": {
-    "1": "완전히 패주 중",
-    "2": "공격 받음",
-    "3": "몸 푸는 중"
+    "1": "완전히 패주 중"
   },
   "login": "로그인",
   "signUp": "등록",
@@ -427,7 +420,7 @@
     "subtitle": "누가 가장 <premiumCurrency/> 있나?",
     "description": "최고가 되고 싶으신가요? <storeLink>상점</storeLink>에서 <premiumCurrency/>을 얻으세요!"
   },
-  
+
   "team": "팀",
   "teams": "팀",
   "playerType": "플레이어 유형",
@@ -439,11 +432,10 @@
   "hybridDescription": "혼성 지도는 무작위로 생성되는 것이 아닌 미리 설정된 지형을 사용하지만, 플레이어가 자신만의 군대를 사용하여 경기할 수 있습니다.",
   
   "playLastActionsModal": {
-
     "message": "자리를 비운 사이에 새로운 전투 내 변동 사항이 발생했습니다. 최근 턴의 양상을 보고 싶으신가요?",
     "button": "시작"
   },
-  
+
   "battleReport": "전투 보고",
   "strength": "전력",
   "horse": "군마",
@@ -614,7 +606,6 @@
     "descriptionBoldPart": "30,000명",
     "buttonText": "지금 바로 찜하기"
   },
-
   "offerDrawCooldownMessage": "몇 턴 전에 무승부가 제안되었었습니다. {{turns}} 턴에 다시 무승부를 제안할 수 있습니다."
   "acceptDrawModal": {
     "title": "무승부 수락",

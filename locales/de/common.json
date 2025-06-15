@@ -146,8 +146,7 @@
     "rangedAttack": "Fernkampfangriff",
     "limberMovement": "Protzenfortbewegung",
     "chargeResistance": "Ansturmwiderstandskraft",
-    "status": "Status",
-    "currentChargeResistance": "Aktuelle Ansturmwiderstandskraft"
+    "status": "Status"
   },
 
   "unitCategory": {
@@ -166,17 +165,17 @@
     "light-musket": "Leichte Muskete",
     "artillery-sabre": "Artilleriesäbel",
     "bayonet": "Bajonett",
-    "cannon-ball": "Kanonenkugel",
+    "8lb-cannon-ball": "Kanonenkugel",
     "cavalry-sabre": "Kavalleriesäbel",
     "cavalry-lance": "Kavallerielanze",
     "6lb-cannon-ball": "Leichte Kanonenkugel",
     "explosive-shell": "Sprenggranate",
     "cavalry-sword": "Kavallerieschwert",
-    "canister-fire": "Kartätschenfeuer",
+    "8lb-canister-fire": "Kartätschenfeuer",
     "6lb-canister-fire": "Leichtes Kartätschenfeuer",
     "howitzer-canister": "HaubitzenKartätschen",
-    "heavy-cannon-ball": "Schwere Kanonenkugel",
-    "heavy-canister-fire": "Schweres Kartätschenfeuer",
+    "12lb-cannon-ball": "Schwere Kanonenkugel",
+    "12lb-canister-fire": "Schweres Kartätschenfeuer",
     "dragoon-sword": "Dragonerschwert"
   },
 
@@ -245,8 +244,6 @@
   "midRange": "Mittlere Entfernung",
   "longRange": "Große Entfernung",
   "shootingAngle": "Schusswinkel",
-  "closeAttackDamage": "Schaden auf kurze Entfernung",
-  "longAttackDamage": "Schaden auf große Entfernung",
   "arcHeight": "Bogenhöhe",
   "aoe": "Wirkungsbereich",
   "type": "Typ",
@@ -265,7 +262,6 @@
   "terrainHitboxHeight": "Höhe der Geländehitbox",
   "statusEffects": "Statuseffekte",
   "projectileAbsorption": "Projektileabsorption",
-  "orgRegainByNearbyUnits": "Org Wiedergewinnung durch nahe Einheiten",
   "terrainPName": "Gelände: {{name}}",
   "effects": "Effekte",
 
@@ -366,8 +362,7 @@
   "allowFireWhenMoving": "Erlaube Feuern während der Bewegung",
   "meleeDamage": "Nahkampfschaden",
   "rangedDamage": "Fernkampfschaden",
-  "orgRegainByHp": "Org Wiedergewinnung durch LP",
-  "rangedDamageWhenMoving": "Fernkampfschaden in der Bewegung",
+  "orgRegain": "Org Wiedergewinnung",
   "speed": "Geschwindigkeit",
   "speedWhenShooting": "Geschwindigkeit beim Schießen",
   "receivedDamage": "Erhaltener Schaden",
@@ -383,7 +378,7 @@
   "info": "Info",
   "meleePerformance": "Nahkampfperformance",
   "speedByOrg": "Geschwindigkeit durch org",
-  "nTurnsLeft": "Noch {{n}} Runden",
+  "turnsLeft": "Noch Runden",
 
   "battleOverview": {
     "title": "Schlachtübersicht",
@@ -416,9 +411,7 @@
   },
 
   "unitEffect": {
-    "1": "Volle Drehung",
-    "2": "Wurde angegriffen",
-    "3": "Protzt auf"
+    "1": "Volle Drehung"
   },
 
   "login": "Anmeldung",

@@ -142,8 +142,7 @@
     "rangedAttack": "Attaque à distance",
     "limberMovement": "Mouvement tracté",
     "chargeResistance": "Résistance aux charges",
-    "status": "Statut",
-    "currentChargeResistance": "Résistance présente aux charges"
+    "status": "Statut"
   },
 
   "unitCategory": {
@@ -163,17 +162,17 @@
     "light-musket": "Mousquet léger",
     "artillery-sabre": "Sabre d'artilleur",
     "bayonet": "Bayonette",
-    "cannon-ball": "Boulet de canon",
+    "8lb-cannon-ball": "Boulet de canon",
     "cavalry-sabre": "Sabre de cavalerie",
     "cavalry-lance": "Lance de cavalerie",
     "6lb-cannon-ball": "Boulet de canon léger",
     "explosive-shell": "Obus explosif",
     "cavalry-sword": "Épée de cavalerie",
-    "canister-fire": "Mitraille",
+    "8lb-canister-fire": "Mitraille",
     "6lb-canister-fire": "Mitraille légère",
     "howitzer-canister": "Mitraille d'obusier",
-    "heavy-cannon-ball": "Boulet de canon lourd",
-    "heavy-canister-fire": "Tir de mitraille lourd",
+    "12lb-cannon-ball": "Boulet de canon lourd",
+    "12lb-canister-fire": "Tir de mitraille lourd",
     "dragoon-sword": "Épée de dragon",
     "horse-archer-bow": "Arc d'archer à cheval"
   },
@@ -243,8 +242,6 @@
   "midRange": "Moyenne portée",
   "longRange": "Longue portée",
   "shootingAngle": "Angle de feu",
-  "closeAttackDamage": "Dégâts à courte portée",
-  "longAttackDamage": "Dégâts à longue portée",
   "arcHeight": "Hauteur de l'arc",
   "aoe": "Zone d'impact",
   "type": "Type",
@@ -263,7 +260,6 @@
   "terrainHitboxHeight": "Hauteur du masque de collision du terrain",
   "statusEffects": "Effets de statuts",
   "projectileAbsorption": "Absorption des projectiles",
-  "orgRegainByNearbyUnits": "Organisation regagné par les unités proches",
   "terrainPName": "Terrain: {{name}}",
   "effects": "Effets",
 
@@ -364,8 +360,7 @@
   "allowFireWhenMoving": "Permet de tirer en avançant",
   "meleeDamage": "Dégâts de mêlée",
   "rangedDamage": "Dégâts à distance",
-  "orgRegainByHp": "Organisation regagnée par PV",
-  "rangedDamageWhenMoving": "Dégâts à distance en se déplaçant",
+  "orgRegain": "Organisation regagnée",
   "speed": "Vitesse",
   "speedWhenShooting": "Vitesse en tirant",
   "receivedDamage": "Dégâts reçus",
@@ -381,7 +376,7 @@
   "info": "Infos",
   "meleePerformance": "Performance en mêlée",
   "speedByOrg": "Vitesse grâce à l'organisation",
-  "nTurnsLeft": "{{n}} tours restants",
+  "turnsLeft": "Tours restants",
 
   "battleOverview": {
     "title": "Résumé de la bataille",
@@ -414,9 +409,7 @@
   },
 
   "unitEffect": {
-    "1": "Rotation complète",
-    "2": "A été attaqué",
-    "3": "En train d'harnacher"
+    "1": "Rotation complète"
   },
 
   "login": "Connexion",

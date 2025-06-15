@@ -76,6 +76,11 @@
     "description": "Enables shadows on units. This may require the game to pass turn for the units to update."
   },
 
+  "showCollisionShapes": {
+    "title": "Show collision shapes",
+    "description": "Shows collision shapes on units. This may require the game to pass turn for the units to update."
+  },
+
   "fullScreen": {
     "title": "Full Screen",
     "description": "Toggle full screen mode for the application",
@@ -93,6 +98,10 @@
   "checkerboardFormation": "Checkerboard Formation",
   "spaceBetweenUnits": "Space between units",
   "spaceBetweenLines": "Space between lines",
+
+  "showSelectIdleUnitButton": {
+    "title": "Show select idle unit button"
+  },
 
   "keybindings": {
     "title": "Keybindings",
