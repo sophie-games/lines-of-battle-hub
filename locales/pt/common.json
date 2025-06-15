@@ -302,7 +302,7 @@
   "armyInvalid": "Este exército é inválido, por favor, modifique-o.",
 
   "landing": {
-    "title": "Bem-vindo ao <0>Lines of Battle</0>",
+    "title": "Bem-vindo ao <0/>",
     "message": "<b>Lines of Battle</b> é um jogo de estratégia baseado em turnos simultâneos multijogador ambientado durante as Guerras Napoleônicas. Projetado para profundidade tática e imersão histórica, você participará de batalhas épicas contra outros, usando habilidade e estratégia para superar e derrotar seus oponentes!",
     "privacy": "Ao começar, você concorda com nossa <0>Política de Privacidade</0>."
   },

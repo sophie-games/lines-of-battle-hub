@@ -12,7 +12,7 @@
   "combat": {
     "manpower": 5000,
     "gold": 2200,
-    "skirmisherRatio": [4, 9]
+    "skirmisherRatio": [3, 8]
   },
   "battle": {
     "manpower": 8000,

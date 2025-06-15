@@ -304,7 +304,7 @@
   "armyInvalid": "Ta armia jest niewłaściwa, proszę ją zmodyfikować.",
 
   "landing": {
-    "title": "Witaj w <0>Lines of Battle</0>",
+    "title": "Witaj w <0/>",
     "message": "<b>Lines of Battle</b>, to wieloosobowa, gra strategiczna z równoczesnymi turami osadzona w czasach Wojen Napoleońskich. Doświadcz głębi taktycznej i historycznej immersji, tocz epickie bitwy przeciwko innym graczom, użyj zdolności i strategii, aby przechytrzyć i pokonać wroga!",
     "privacy": "Zaczynając, zgadzasz się z naszą <0>Polityką Prywatności</0>."
   },
