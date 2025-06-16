@@ -743,5 +743,7 @@
   "inviteFriend": "Invite a friend",
   "checkStarted": "Check if started",
   "errorWhenSubmittingOrders": "Error when submitting orders",
-  "syncGame": "Sync game"
+  "syncGame": "Sync game",
+  "copyLogs": "Copy logs",
+  "copyLogsInstructions": "Want to report a bug? Please take a screenshot, copy the logs, and send them to Leo."
 }
