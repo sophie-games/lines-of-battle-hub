@@ -1,0 +1,17 @@
+﻿{
+  "currencyShop": {
+    "title": "购买<0/>",
+    "subtitle": "解锁独特的装饰皮肤，于众生中脱颖而出！"
+  },
+  "aboutCurrencies": "货币介绍",
+  "currency": {
+    "basic": "<currency/>：通过游玩匹配游戏赚取。可以用它来解锁新单位，让你的军队配置有更多选择。",
+    "premium": "<currency/>：用于购买装饰，让你的外观更加华丽。一般需要通过充值获得。",
+    "rate": "{{rate}} {{currency}}每1美元",
+    "purchase": "购买 {{amount}} {{currency}}",
+    "totalSold": "目前总共售出的<currency/>：{{amount}}",
+    "nextGoal": "下一个目标：{{goal}} <currency/> "
+  },
+  "purchaseConfirmation": "你确定想要购买{{item}}吗？",
+  "showPurchased": "显示已购买"
+}

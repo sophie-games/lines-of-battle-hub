@@ -1,0 +1,108 @@
+{
+  "gameplay": "Jugabilidad",
+  "graphics": "Gráficos",
+  "camera": "Cámara",
+  "sound": "Sonido",
+  "language": "Idioma",
+
+  "multiTurnOrders": {
+    "title": "Órdenes de varios turnos",
+    "description": "Activar esta configuración le permitirá emitir órdenes que el juego recordará e implementará de un turno a otro. Estas órdenes de varios turnos pueden abarcar hasta 10 turnos de movimiento y cubrir órdenes de ubicación como 'Mover' y órdenes de objetivo como 'Buscar'."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Distancia mínima de camino de multi-turnos"
+  },
+  "edgePanning": {
+    "title": "Desplazamiento en Bordes",
+    "description": "Habilitar el desplazamiento cuando el ratón alcanza los bordes de la pantalla (PC)."
+  },
+  "useTouchControls": {
+    "title": "Usar Controles Táctiles",
+    "description": "Si está habilitado, usará controles como si fuera un dispositivo táctil. Si no está habilitado, usará controles como si fuera una PC."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Permitir Caja de Selección Táctil",
+    "description": "Habilitar cajas de selección en dispositivos táctiles para seleccionar múltiples unidades a la vez."
+  },
+  "smartCurvedMovements": {
+    "title": "Movimientos Curvos Inteligentes",
+    "description": "Habilita esta opción para optimizar las rutas de movimiento con curvas suaves, minimizando la pérdida de velocidad durante las rotaciones."
+  },
+  "openSelectOrderModal": {
+    "title": "Abrir Modal de Selección de Órdenes",
+    "description": "Habilita esta opción para mostrar un modal para seleccionar órdenes durante el juego."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Mostrar modal de nuevos eventos de batalla"
+  },
+  "showPlayableGamesAvailableModal": {
+    "title": "Mostrar modal de juegos jugables disponibles"
+  },
+  "hidePlayerInfo": {
+    "title": "Ocultar Información del Jugador",
+    "description": "Oculta el ELO y los nombres de usuario de la interfaz del juego, haciendo que los jugadores sean anónimos."
+  },
+  "smartReplayCamera": {
+    "title": "Cámara Inteligente de Repetición",
+    "description": "Permite que la cámara espectadora se enfoque automáticamente en la acción durante las repeticiones."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Zoom de Cámara Inteligente de Repetición"
+  },
+  "zoomSensibility": {
+    "title": "Sensibilidad de Zoom"
+  },
+  "cameraSensibility": {
+    "title": "Sensibilidad de Cámara (PC)"
+  },
+  "replaySpeed": {
+    "title": "Velocidad de Repetición"
+  },
+  "playerColor": {
+    "title": "Color del Jugador"
+  },
+  "enemyColor": {
+    "title": "Color del Enemigo"
+  },
+  "generalVolume": {
+    "title": "Volumen General"
+  },
+  "shadows": {
+    "title": "Sombras",
+    "description": "Habilita sombras en las unidades. Esto puede requerir que el juego pase un turno para que las unidades se actualicen."
+  },
+  "fullScreen": {
+    "title": "Pantalla Completa",
+    "description": "Alternar modo de pantalla completa para la aplicación",
+    "toggle": "Alternar Pantalla Completa"
+  },
+  "resetSettings": {
+    "title": "Restablecer Configuración",
+    "description": "Restaurar toda la configuración a sus valores predeterminados. Esta acción sobrescribirá cualquier personalización que hayas realizado."
+  },
+  "reset": "Restablecer",
+
+  "lineFormation": "Formación en línea",
+  "checkerboardFormation": "Formación en tablero de ajedrez",
+  "spaceBetweenUnits": "Espacio entre unidades",
+  "spaceBetweenLines": "Espacio entre líneas",
+
+  "keybindings": {
+    "title": "Atajos de teclado",
+    "pressAKey": "Presiona una tecla...",
+    "moveUp": "Mover hacia arriba",
+    "moveDown": "Mover hacia abajo",
+    "moveLeft": "Mover a la izquierda",
+    "moveRight": "Mover a la derecha",
+    "info": "Información",
+    "submitOrders": "Enviar órdenes",
+    "deselect": "Deseleccionar",
+    "moveOrder": "Orden de movimiento",
+    "seekOrder": "Orden de búsqueda",
+    "shootOrder": "Orden de disparo",
+    "fireAndAdvanceOrder": "Orden de disparar y avanzar",
+    "fallbackOrder": "Orden de retirada",
+    "toggleFormation": "Alternar formación",
+    "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes"
+  }
+}

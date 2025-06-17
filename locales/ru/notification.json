@@ -1,0 +1,30 @@
+{
+  "notifications": "Уведомления",
+  "noNotifications": "Нет уведомлений",
+  "clear": "Очистить",
+
+  "tournamentMatchStarted": {
+    "title": "Начался матч турнира!",
+    "message": "Ваш матч турнира {{tournamentName}} только что начался!"
+  },
+
+  "tournamentFilled": {
+    "title": "Максимальное число участников турнира!",
+    "message": "Ваш турнир {{tournamentName}} достиг максимума игроков. Вы можете начать его в любое время!"
+  },
+
+  "tournamentRewards": {
+    "title": "Вы заняли {{place}}-е место в турнире {{tournamentName}}!",
+    "message": "Ваша награда: {{reward}} <BasicCurrency/>."
+  },
+
+  "yourTournamentEnded": {
+    "title": "Ваш турнир {{tournamentName}} завершён!",
+    "message": "Вы получили {{reward}} <BasicCurrency/>."
+  },
+
+  "tournamentCancelled": {
+    "title": "Турнир отменён!",
+    "message": "Турнир {{tournamentName}} был отменён. Вам возвращено {{refund}} <BasicCurrency/>."
+  }
+}

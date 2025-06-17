@@ -1,0 +1,688 @@
+{
+  "appLoadingMessage": "¡Bienvenido a Lines of Battle!",
+  "home": "Inicio",
+  "language": "Idioma",
+  "tutorial": "Tutorial",
+  "play": "Jugar",
+  "ranking": "Ranking",
+  "history": "Historial",
+  "store": "Tienda",
+  "supporters": "Patrocinadores",
+  "credits": "Créditos",
+
+  "settings": "Configuración",
+  "eloDescription": "Elo es un sistema de clasificación utilizado para calcular el nivel relativo de habilidad de los jugadores. Cuanto más alto sea tu Elo, más fuerte eres en comparación con otros. Ganar aumenta tu Elo, mientras que perder lo disminuye.",
+  "welcomeName": "Bienvenido {{name}}!",
+  "myGames": "Mis juegos",
+  "gameStatus": {
+    "available": "Disponible para Jugar",
+    "notStarted": "Juego No Iniciado Aún"
+  },
+  "loadingGames": "Cargando juegos...",
+  "noGamesYet": "Aún no hay juegos. Haz clic en Jugar para crear uno nuevo.",
+  "failedToLoadGames": "No se pudieron cargar los juegos. Por favor, intenta nuevamente.",
+  "armyCompositions": "Composiciones de Ejército",
+  "account": "Cuenta",
+  "scenarioEditor": "Editor de Escenarios",
+  "wiki": "Wiki",
+  "gameCard": {
+    "title": "Juego {{id}}",
+    "turn": "Turno {{turnNumber}}/{{maxTurn}}"
+  },
+
+  "withdrawMessage": "Si te retiras de este juego, contará como una derrota y eso reducirá tu Elo, ¿estás seguro de que deseas retirarte?",
+
+  "loading": "Cargando...",
+  "yes": "Sí",
+  "no": "No",
+  "by": "De",
+  "logout": "Cerrar sesión",
+
+  "createNewGame": "Crear nuevo juego",
+  "randomGameInfo": "Para los juegos generados aleatoriamente, el juego utilizará el ejército que has creado para el modo de batalla seleccionado. Puedes ver y gestionar tus ejércitos en las <0>Composiciones de Ejército</0>. Si no has creado ejércitos para ese modo aún, se usará un ejército predeterminado.",
+  "selectGameMode": "Selecciona el modo de juego de las opciones a continuación.",
+  "or": "O",
+  "cancel": "Cancelar",
+
+  "matchmakingQueue": {
+    "inQueue": "¡Ahora estás en la cola de emparejamiento! El sistema está buscando otro jugador que haya seleccionado las mismas configuraciones que tú.",
+    "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido al juego.",
+    "onlyClanMembers": "Juega solo con compañeros de la coalición",
+    "extendQueueSuccess": "Buscando en cualquier rango de Elo."
+  },
+
+  "fastMode": "Modo rápido",
+  "slowMode": "Modo lento",
+  "maxTimePerTurn": "Tiempo máximo por turno",
+
+  "turnTimeLimit": {
+    "30s": "30 segundos",
+    "1m": "1 minuto",
+    "2m": "2 minutos",
+    "3m": "3 minutos",
+    "5m": "5 minutos",
+    "1d": "1 día",
+    "3d": "3 días",
+    "7d": "7 días"
+  },
+
+  "battleType": "Tipo de batalla",
+  "dynamicBattleType": {
+    "skirmish": "Escaramuza",
+    "clash": "Enfrentamiento",
+    "combat": "Combate",
+    "battle": "Batalla",
+    "grand_battle": "Gran Batalla"
+  },
+
+  "matchmaking": "Emparejamiento",
+  "matchmakingDescription": "El modo de emparejamiento te permite unirte rápidamente a un juego con jugadores aleatorios usando configuraciones predefinidas.",
+  "custom": "Personalizado",
+
+  "customDescription": "El modo personalizado te permite configurar un juego con ajustes específicos e invitar a tus amigos a jugar.",
+  "maxTurn": "Turno máximo",
+
+  "player": "Jugador",
+  "units": "Unidades",
+  "unitSkins": "Aspectos de las unidades",
+  "objectiveSkins": "Aspectos de objetivos",
+  "avatars": "Avatares",
+  "withdraw": "Retirarse",
+  "importScenario": "Importar escenario",
+  "importScenarioModal": {
+    "importInfo": "Podés importar cualquier escenario que quieras.",
+    "createInfo": "Incluso podés crear tus propios escenarios en el <scenarioEditorLink/>.",
+    "createInfo2": "O explora el <0>Centro Comunitario</0> para escenarios listos para usar."
+  },
+
+  "scenarioEditorTags": {
+    "tutorialMessage": "No estás seguro de cómo usarlo? No te preocupes, te tenemos cubierto! <tutorialLink>Mirá el tutorial acá.</tutorialLink>"
+  },
+
+  "createScenario": "Crear Escenario",
+  "loadScenario": "Cargar Escenario",
+  "playOffline": "Jugá offline!",
+  "createOfflineGame": "Crear juego offline",
+  "chooseAScenario": "Elegí un escenario",
+  "playerArmy": "Ejército del jugador",
+  "botArmy": "Ejército del bot",
+  "army": "Ejército",
+
+  "deploymentStateMessage": "Esta es la fase de despliegue. Aprovecha este turno para colocar tus unidades donde quieras dentro de la zona de despliegue. Cuando hayas terminado, envía tus órdenes para aplicar la colocación.",
+  "youAreColor": "Sos el {{color}}!",
+  "getStarted": "Comenzar",
+
+  "colorTag": {
+    "1": "Azul",
+    "2": "Rojo",
+    "3": "Amarillo",
+    "4": "Verde",
+    "5": "Negro"
+  },
+
+  "resume": "Reanudar",
+  "offerDraw": "Ofrecer empate",
+  "replayBattle": "Repetir batalla",
+  "result": "Resultado",
+  "exit": "Salir",
+  "attackColor": "Color de ataque",
+  "purchase": "Comprar",
+  "purchased": "Comprado",
+  "forUnit": "Para {{unit}}",
+  "select": "Seleccionar",
+  "deselect": "Deseleccionar",
+
+  "unitStat": {
+    "hp": "HP",
+    "org": "Organización",
+    "walkMovement": "Caminar",
+    "movement": "Movimiento",
+    "meleeAttack": "Ataque cuerpo a cuerpo",
+    "meleeDefense": "Defensa cuerpo a cuerpo",
+    "chargeBonus": "Bono de carga",
+    "chargePenetration": "Penetración de carga",
+    "orgRadius": "Radio de org",
+    "orgRadiusBonus": "Bono de radio de org",
+    "rangedAttack": "Ataque a distancia",
+    "limberMovement": "Movimiento enganchado",
+    "chargeResistance": "Resistencia a la carga",
+    "status": "Estado",
+    "timeToRun": "Tiempo para correr"
+  },
+
+  "unitCategory": {
+    "1": "Infantería",
+    "2": "Caballería",
+    "3": "Artillería",
+    "4": "Infantería Ligera",
+    "5": "Caballería Ligera",
+    "6": "Caballería Pesada"
+  },
+
+  "category": "Categoría",
+
+  "damageType": {
+    "musket": "Mosquete",
+    "light-musket": "Mosquete Ligero",
+    "artillery-sabre": "Sable de Artillería",
+    "bayonet": "Bayoneta",
+    "8lb-cannon-ball": "Bala de Cañón de 8 libras",
+    "cavalry-sabre": "Sable de Caballería",
+    "cavalry-lance": "Lanza de Caballería",
+    "6lb-cannon-ball": "Bala de Cañón de 6 libras",
+    "4lb-cannon-ball": "Bala de Cañón de 4 libras",
+    "explosive-shell": "Proyectil explosivo",
+    "cavalry-sword": "Espada de Caballería",
+    "8lb-canister-fire": "Fuego de Metralla",
+    "6lb-canister-fire": "Fuego de Metralla de 6 libras",
+    "4lb-canister-fire": "Fuego de Metralla de 4 libras",
+    "howitzer-canister": "Metralla de Obús",
+    "12lb-cannon-ball": "Bala de cañón de 12 libras",
+    "12lb-canister-fire": "Fuego de Metralla pesado",
+    "dragoon-sword": "Espada de dragón"
+  },
+
+  "unitName": {
+    "1": "Infantería de Línea",
+    "2": "Dragones",
+    "3": "Artillería de a Pie de 8 libras",
+    "4": "Infantería de la Guardia",
+    "5": "Lanceros",
+    "6": "Artillería a Caballo de 6 libras",
+    "7": "Infantería Ligera",
+    "8": "Coraceros",
+    "9": "Obús de 6 pulgadas",
+    "10": "Milicia",
+    "11": "Húsares",
+    "12": "Artillería de a Pie de 12 libras",
+    "13": "Arqueros a caballo",
+    "14": "Granaderos",
+    "15": "Artillería de a Pie de 4 libras"
+  },
+
+  "battalionName": {
+    "1": "{{n}} Batallón de línea",
+    "2": "{{n}} Dragones",
+    "3": "{{n}} Batería a pie",
+    "4": "{{n}} Batallón de guardias",
+    "5": "{{n}} Lanceros",
+    "6": "{{n}} Batería a caballo",
+    "7": "{{n}} Batallón ligero",
+    "8": "{{n}} Coraceros",
+    "9": "{{n}} Batería de obuses",
+    "10": "{{n}} Milicia",
+    "11": "{{n}} Húsares",
+    "12": "{{n}} Batería a pie",
+    "13": "{{n}} Arqueros a caballo",
+    "14": "{{n}} Granaderos",
+    "15": "{{n}} Batería ligera"
+  },
+
+  "unitDescription": {
+    "1": "El humilde batallón de infantería de línea es la unidad básica del ejército. El mosquete es su arma principal, pero también puede defenderse de la caballería o cargar contra otra infantería y artillería con la bayoneta.",
+    "2": "Caballería media confiable y versátil, apta tanto para el hostigamiento como para combates prolongados.",
+    "3": "Artillería media asequible con movilidad y potencia de fuego moderadas, junto con un impresionante fuego de metralla.",
+    "4": "Soldados experimentados y físicamente imponentes con la capacidad de inspirar a las tropas aliadas y aterrorizar a los enemigos. Estas unidades de élite son exclusivas para los soldados más dotados naturalmente, lo que las hace mucho más costosas de desplegar. Su intimidación y excelentes características cuerpo a cuerpo se aprovechan mejor en una carga con bayoneta.",
+    "7": "Infantería de línea de élite entrenada con un enfoque especial en el movimiento rápido y la puntería.",
+    "11": "Caballería ligera adecuada para atacar a enemigos débiles, dañados y en retirada. Sin embargo, tendrán dificultades contra la infantería organizada y la caballería pesada. Use infantería y artillería para debilitar al enemigo primero.",
+    "5": "Caballería ligera de élite que usa la lanza para realizar cargas devastadoras - una serie de cargas por múltiples escuadrones de Lanceros derrotará rápidamente cualquier oposición. Sin embargo, son mucho menos impresionantes en un combate cuerpo a cuerpo prolongado.",
+    "8": "Formidable caballería pesada con la efectividad de combate cuerpo a cuerpo más fuerte de cualquier unidad. Sin embargo, sigue siendo mejor debilitar al enemigo con infantería o artillería antes de enviar a tus Coraceros.",
+    "12": "El cañón de campo más pesado disponible para el ejército napoleónico; si bien estas baterías son extremadamente costosas, su alcance y poder son inigualables.",
+    "6": "La velocidad y bajo costo de esta artillería la hacen adecuada para apoyar a la caballería o avanzar junto a tu línea de infantería.",
+    "9": "Obuses de campo ligeros con proyectiles explosivos y fuego de metralla particularmente letal a corta distancia - ideales para apoyar tu línea de infantería a media y corta distancia.",
+    "10": "“Confiar en la milicia es, con seguridad, apoyarse en un bastón roto.” - George Washington",
+    "13": "«Los arqueros a caballo bashkir son, sin duda, las tropas menos peligrosas del mundo.» - Barón Marbot, ignorando una flecha en su muslo",
+    "14": "Estas tropas de choque están compuestas por los hombres más altos, fuertes e imponentes de la infantería de línea. Aunque generalmente son más temibles que las tropas de línea promedio, su opción más poderosa en combate es su carga devastadora.",
+    "15": "La artillería de campaña más ligera común de las Guerras Napoleónicas, con una potencia de fuego modesta y una buena movilidad que la convierten en una compañera natural de la infantería."
+  },
+
+  "damageResistances": "Resistencias al Daño",
+  "otherStats": "Otras Estadísticas",
+  "orgDamageRatio": "Ratio de Daño de Org",
+
+  "damage": "Daño",
+  "orgDamage": "Daño a la org",
+  "enfiladeFireModifiers": "Modificadores de fuego enfilado",
+  "rearFireModifiers": "Modificadores de fuego por la retaguardia",
+  "targetAltitude": "Altitud del objetivo",
+  "canCaptureObjectives": "Puede capturar objetivos",
+  "cantCaptureObjectives": "No puede capturar objetivos",
+  "enfiladeFire": "Fuego enfilado",
+  "closeRange": "Alcance corto",
+  "midRange": "Alcance medio",
+  "longRange": "Alcance largo",
+  "shootingAngle": "Ángulo de disparo",
+  "arcHeight": "Altura del arco",
+  "aoe": "Área de efecto",
+  "type": "Tipo",
+  "circular": "Circular",
+  "radius": "Radio",
+  "edgeDamageModifier": "Modificador de daño en el borde",
+  "absorption": "Absorción",
+  "trapezoidal": "Trapezoidal",
+  "topWidth": "Ancho superior",
+  "bottomWidth": "Ancho inferior",
+  "height": "Altura",
+  "diminishByTargetOrg": "Disminuir según la org del objetivo",
+  "from": "de",
+  "to": "a",
+  "lBy": "por",
+  "terrainHitboxHeight": "Altura de la hitbox del terreno",
+  "statusEffects": "Efectos de estado",
+  "projectileAbsorption": "Absorción de proyectiles",
+  "terrainPName": "Terreno: {{name}}",
+  "effects": "Efectos",
+
+  "terrain": {
+    "0": "Tierra",
+    "1": "Bosque",
+    "2": "Edificio",
+    "3": "Camino",
+    "4": "Agua poco profunda",
+    "5": "Agua profunda",
+    "6": "Acantilado",
+    "7": "Puente"
+  },
+
+  "clearPlayerUnits": "Borrar unidades del jugador",
+  "clearBotUnits": "Borrar unidades del bot",
+  "continueGame": "Continuar juego",
+  "createNewOfflineGame": "Crear nuevo juego offline",
+  "filterBy": "Filtrar por",
+  "name": "Nombre",
+
+  "retry": "Reintentar",
+
+  "networkErrorModal": {
+    "title": "Upa! Se perdió la conexión",
+    "message": "Parece que falló la conexión. No te preocupes! Podés seguir jugando offline."
+  },
+
+  "needsUpdateModal": {
+    "title": "Requiere actualización",
+    "message": "Hay una nueva versión de LoB disponible! Actualizá la app para seguir jugando en línea."
+  },
+
+  "update": "Actualizar!",
+  "yourArmyCompositionsFor": "Tu composiciones de ejército para",
+  "noUnitsYet": "Todavía no hay unidades",
+  "armyComposition": "Composición de ejército",
+  "budgetAvailable": "Presupuesto disponible",
+  "saveArmy": "Guardar ejército",
+  "clearUnits": "Borrar unidades",
+  "saving": "Guardando...",
+  "armyInvalid": "Este ejército no es válido, por favor modificalo.",
+
+  "landing": {
+    "title": "Bienvenido a <0/>",
+    "message": "<b>Lines of Battle</b> es un juego de estrategia multijugador por turnos simultáneos ambientado en las Guerras Napoleónicas. Diseñado para ofrecer profundidad táctica e inmersión histórica, te vas a enfrentar en batallas épicas contra otros jugadores, donde la habilidad y la estrategia serán clave para maniobrar y vencer a tus rivales.",
+    "privacy": "Al jugar, aceptás nuestra <0>Política de Privacidad</0>."
+  },
+
+  "welcomeModal": {
+    "title": "Bienvenido a Lines of Battle 👋!",
+    "thanks": "Gracias por sumarte, {{name}}!",
+    "p1": "Sos nuevo en <b>Lines of Battle</b>? Te recomiendo empezar con una <offlineLink>partida de práctica offline</offlineLink> contra un bot para familiarizarte con la mecánica del juego y desarrollar tu estrategia en un ambiente relajado.",
+    "p2": "Como el juego todavía está en beta, te invito a unirte al <discordLink>servidor de Discord</discordLink> para conectarte con otros jugadores, encontrar rivales, reportar bugs y compartir tus ideas para ayudar a mejorar la experiencia para todos."
+  },
+
+  "turn": "Turno",
+
+  "loadingScreen": {
+    "fonts": "Cargando fuentes...",
+    "joiningGame": "Uniéndote al juego...",
+    "resources": "Cargando recursos...",
+    "fetchingGameData": "Obteniendo datos del juego...",
+    "generatingMap": "Generando mapa...",
+
+    "tip1": "Las unidades con alta organización reciben poco o ningún daño extra por una carga. Ablanda los objetivos primero con fuego.",
+    "tip2": "Los húsares son caballería ligera que debe evitar el combate pesado y atacar unidades dañadas y artillería.",
+    "tip3": "Los mosquetes y la artillería hacen mucho más daño a media distancia que a larga distancia.",
+    "tip4": "Los obuses disparan a un alto arco, lo que los hace mucho más efectivos que otras piezas de artillería para atacar objetivos en bosques y edificios.",
+    "tip5": "Puedes encontrar mucha información útil sobre tus tropas seleccionando una unidad, haciendo clic en Info (tecla rápida I) y examinando las pestañas de la unidad.",
+    "tip6": "Las unidades en retirada tienen penalizaciones para reorganizarse y corren el riesgo de ser expulsadas del mapa por completo. Retira las unidades desorganizadas a un lugar seguro antes de que se retiren, siempre que sea posible.",
+    "tip7": "La artillería a caballo y los obuses son mucho más móviles que la artillería de 12 libras. Avanzarlos con tu infantería es arriesgado, pero puede cambiar el rumbo de las batallas con su potente fuego a corta distancia.",
+    "tip8": "Cuando seleccionas una unidad, verás su radio de organización en azul claro. Los enemigos dentro de este radio perderán organización, mientras que los aliados ganarán organización.",
+    "tip9": "Los lanceros son caballería de élite que se centran en su devastadora carga, pero son inferiores a los cuirassiers en un combate prolongado.",
+    "tip10": "Los ataques a distancia que golpean a una unidad de infantería en el flanco harán mucho más daño.",
+    "tip11": "Puedes ganar puntos de victoria infligiendo bajas o capturando el objetivo enemigo con infantería. Una gran ventaja de puntos de victoria ralentiza la reorganización de las unidades enemigas y asegura la victoria al límite de turnos.",
+    "tip12": "Flanquea al enemigo, no te dejes flanquear.",
+    "tip13": "¡Envía tus repeticiones favoritas a través del servidor de Discord de Lines of Battle, y el equipo de desarrollo las destacará en YouTube!",
+    "tip14": "Si tienes alguna pregunta sobre el juego, la wiki de Lines of Battle, Reddit y el servidor de Discord deberían poder ayudarte.",
+    "tip15": "Si te gusta Lines of Battle y quieres apoyar al creador, ¡únete al Patreon! Cada contribución ayuda.",
+    "tip16": "¿Sabías que puedes mover tu objetivo durante la fase inicial?",
+    "tip17": "Captura el objetivo enemigo colocando un batallón de infantería sobre él durante 8 turnos, 8 batallones por un turno, etc.",
+    "tip18": "Selecciona el botón de órdenes para acceder a comandos como Retiro, Fuego y Avance, y Disparar.",
+    "tip19": "La Infantería de Guardias y los Cuirassiers afectan fuertemente la organización de otras tropas solo con estar cerca. Este efecto se acumula y puede ayudar a algunas unidades de élite a cambiar el rumbo de la batalla.",
+    "tip21": "\"Es tarea de la caballería seguir la victoria y evitar que el enemigo derrotado se reagrupe.\" - Napoleon Bonaparte",
+    "tip22": "\"Planear reservar la caballería para el final de la batalla es no tener noción del poder de las cargas combinadas de infantería y caballería, ya sea para el ataque o para la defensa.\" - Napoleon Bonaparte",
+    "tip23": "\"Solo ataca.\" - Mariscal Apeiro",
+    "tip24": "\"¿Dónde están mis dragones?\" - Mariscal SteelFlesher",
+    "tip25": "Las unidades recuperan el 100% de la stamina muy lentamente; piensa antes de comprometer tu última reserva.",
+    "tip26": "La caballería tiene menos stamina que la infantería; ten cuidado de usarla en el momento adecuado."
+  },
+
+  "fetchingBattleActions": "Obteniendo acciones de batalla...",
+
+  "order": {
+    "1": "Mover",
+    "2": "Perseguir",
+    "3": "Disparar",
+    "4": "Disparar y Avanzar",
+    "6": "Retirada",
+    "7": "Escaramuzar"
+  },
+
+  "selectOrder": "Seleccionar orden",
+  "allowFireWhenMoving": "Permite disparar mientras te movés",
+  "meleeDamage": "Daño cuerpo a cuerpo",
+  "rangedDamage": "Daño a distancia",
+  "orgRegain": "Recuperación de org",
+  "speed": "Velocidad",
+  "speedWhenShooting": "Velocidad al disparar",
+  "receivedDamage": "Daño recibido",
+  "receivedOrgDamage": "Daño a la org recibido",
+  "noModifiers": "Sin modificadores",
+  "submitOrders": "Enviar órdenes",
+  "submitOrdersConfirmation": "Estás seguro de que quieres enviar tus órdenes de batalla? Una vez enviadas, no podrás volver atrás.",
+  "players": "Jugadores",
+  "menu": "Menú",
+  "replayActions": "Repetir acciones",
+  "deselectUnit": "Deseleccionar unidad",
+  "removeUnitOrders": "Eliminar órdenes de la unidad",
+  "info": "Info",
+  "meleePerformance": "Rendimiento en cuerpo a cuerpo",
+  "speedByOrg": "Velocidad por org",
+  "turnsLeft": "Turnos restantes",
+
+  "battleOverview": {
+    "title": "Resumen de la Batalla",
+    "victoryPoints": "Puntos de Victoria",
+    "initialArmyPower": "Poder Inicial del Ejército",
+    "powerLost": "Poder Perdido",
+    "lossesRatio": "Ratio de Pérdidas",
+    "objectives": "Objetivos",
+    "timeWithoutObjectives": "Tiempo sin Objetivos",
+    "unitsOrgRegain": "Recuperación de la Org de las Unidades"
+  },
+
+  "offerDrawModal": {
+    "withdrawOffer": "Retirar Oferta",
+    "alreadyWantsDrawMessage": "Ya estás ofreciendo un Empate. Querés retirar esta oferta?",
+    "offerDrawMessage": "Si ofreces un empate, esta opción permanecerá habilitada hasta que la desactives.",
+    "player": "{{player}} está ofreciendo un empate.",
+    "players": "{{players}} están ofreciendo un empate."
+  },
+
+  "defeat": "Derrota",
+  "victory": "Victoria",
+  "draw": "Empate",
+  "won": "Ganó",
+  "lost": "Perdió",
+  "tie": "Empate",
+
+  "unitStatus": {
+    "1": "Activa",
+    "2": "Huyendo",
+    "3": "Recuperándose"
+  },
+
+  "unitEffect": {
+    "1": "Rotando completamente",
+    "2": "Estuvo en melee",
+    "3": "Ha corrido"
+  },
+
+  "login": "Iniciar sesión",
+  "signUp": "Registrarse",
+  "forgotPassword": "Olvidaste tu contraseña?",
+  "username": "Nombre de usuario",
+  "password": "Contraseña",
+  "email": "Email",
+  "usernameOrEmail": "Nombre o Email",
+  "continueWithGoogle": "Continuar con Google",
+  "resetPassword": "Restablecer contraseña",
+  "enterYourEmail": "Ingresa tu email",
+  "sendResetLink": "Enviar link",
+  "enterNewPassword": "Ingresa una nueva contraseña",
+  "newPassword": "Nueva contraseña",
+  "repeatPassword": "Repetir contraseña",
+
+  "teamSize": {
+    "title": "Tamaño del equipo",
+    "1v1": "1 vs 1",
+    "2v2": "2 vs 2"
+  },
+
+  "offline": "Offline",
+  "offlineDescription": "Practica contra bots y juega en modo hotseat con amigos en el mismo dispositivo!",
+
+  "premiumCurrencyLeaderboard": {
+    "title": "Clasificación de <premiumCurrency/>",
+    "subtitle": "¿Quién tiene más <premiumCurrency/>?",
+    "description": "¿Quieres ser el primero? <storeLink>Ve a la tienda</storeLink> y consigue <premiumCurrency/>!"
+  },
+
+  "team": "Equipo",
+  "playerType": "Tipo de jugador",
+  "human": "Humano",
+  "bot": "Bot",
+  "armyOfPlayer": "Ejército del Jugador {{player}}",
+  "playLastActionsModal": {
+    "message": "Han ocurrido nuevos eventos de batalla mientras estabas ausente.\nTe gustaría ver las acciones del último turno?",
+    "button": "Ver"
+  },
+
+  "profile": "Perfil",
+  "elo": "Elo",
+  "joinedAt": "Se unió en {{date}}",
+  "addPlayer": "Agregar jugador",
+
+  "teams": "Equipos",
+  "averageElo": "Elo promedio",
+
+  "hybridDescription": "Los mapas híbridos usan terreno predefinido no aleatorio, pero permiten a los jugadores usar sus propios ejércitos personalizados para jugar.",
+
+  "battleReport": "Informe de batalla",
+  "strength": "Fuerza",
+  "horse": "Caballos",
+  "guns": "Cañones",
+  "casualties": "Bajas",
+  "horseLost": "Caballos perdidos",
+  "gunsLost": "Cañones perdidos",
+  "noRewards": "Sin recompensas",
+
+  "clan": "Coalición",
+  "clans": "Coaliciones",
+  "createClan": "Crear Coalición",
+  "create": "Crear",
+  "clanRole": {
+    "leader": "Líder",
+    "member": "Miembro"
+  },
+  "clanElo": "Elo de la coalición: {{elo}}",
+  "members": "Miembros",
+  "deleteClan": "Eliminar Coalición",
+  "deleteClanModal": {
+    "message": "¿Estás seguro de que quieres eliminar <0>{{clanName}}</0>? Todos los miembros serán removidos de la coalición y esta acción no se puede deshacer."
+  },
+  "joinClan": "Unirse a Coalición",
+  "joinClanModal": {
+    "message": "¿Quieres unirte a <0>{{clanName}}</0>? Una vez que hayas enviado tu solicitud, tendrás que esperar a que uno de los miembros la acepte. La solicitud expira después de {{expirationDays}} días."
+  },
+  "clanFull": "El clan está lleno",
+  "requested": "Solicitado",
+  "cancelJoinRequest": "Cancelar solicitud de unión",
+  "cancelJoinRequestModal": {
+    "message": "¿Estás seguro de que quieres cancelar tu solicitud de unión a <0>{{clanName}}</0>?"
+  },
+  "cancelRequest": "Cancelar solicitud",
+  "keepRequest": "Mantener solicitud",
+  "joinRequests": "Solicitudes de unión",
+  "noJoinRequests": "No hay solicitudes de unión pendientes",
+  "accept": "Aceptar",
+  "decline": "Rechazar",
+  "reject": "Rechazar",
+  "linkCopiedToClipboard": "Enlace copiado al portapapeles",
+  "revealPlayers": "Revelar jugadores",
+
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página",
+    "of": "de",
+    "items": "elementos"
+  },
+
+  "kick": "Expulsar",
+  "noDescription": "Sin descripción",
+  "save": "Guardar",
+
+  "ordersSubmittedDialog": {
+    "p1": "Ahora, espera a que los demás hagan su movimiento.",
+    "p2": "Chequeando las órdenes del oponente en {{value}} segundos",
+    "b": "Chequear ahora"
+  },
+
+  "search": {
+    "clans": "Buscar coaliciones"
+  },
+
+  "formation": "Formación",
+  "findGame": "Encontrar juego",
+  "gameIdOrLink": "ID del juego o link",
+  "playFree": "Jugá Gratis",
+  "unit": "Unidad",
+  "createArmy": "Crear ejército",
+  "leaveClan": "Abandonar clan",
+  "leave": "Salir",
+  "leaveClanModal": {
+    "message": "¿Estás seguro de que quieres abandonar <0>{{clanName}}</0>?"
+  },
+  "resetToDefault": "Restablecer a predeterminado",
+  "submittingOrders": "Enviando órdenes...",
+  "checkingUpdates": "Comprobando actualizaciones...",
+  "tournaments": "Torneos",
+  "createTournament": "Crear torneo",
+  "joinName": "Unirse a {{name}}",
+  "startTournament": "Iniciar torneo",
+  "startRoundN": "Iniciar ronda {{number}}",
+  "open": "Abierto",
+  "closed": "Cerrado",
+  "viewGame": "Ver juego",
+  "totalPrizePool": "Bolsa total de premios",
+  "rank": "Rango",
+  "creatorPrize": "Premio del creador",
+  "maxPlayers": "Máximo de jugadores",
+
+  "tournamentStatus": {
+    "open": "Abierto",
+    "active": "Activo",
+    "completed": "Completado",
+    "cancelled": "Cancelado"
+  },
+
+  "hasPassword": "Tiene contraseña",
+  "autoStartRounds": "Rondas de inicio automático",
+  "optional": "Opcional",
+  "round": "Ronda",
+  "current": "Actual",
+  "declareWinner": "Declarar ganador",
+  "declareDraw": "Declarar empate",
+  "cancelTournament": "Cancelar torneo",
+  "cancelTournamentMessage": "¿Estás seguro de que quieres cancelar el torneo?",
+  "noPairingsYet": "Aún no hay emparejamientos",
+  "minElo": "Elo mínimo",
+  "maxElo": "Elo máximo",
+  "eloRange": "Rango de Elo",
+  "description": "Descripción",
+  "tournamentPasswordNote": "Los torneos con contraseña se consideran privados y no otorgan Elo.",
+  "inSlowQueueModal": {
+    "title": "¡Juego añadido a la cola!",
+    "message": "Una vez que encuentre al resto de los jugadores, el juego aparecerá en la sección Mis Juegos de Inicio.",
+    "found": "Ya se han encontrado otros jugadores para este juego, puedes jugar ahora haciendo <0>clic aquí</0>."
+  },
+  "active": "Activo",
+  "inQueue": "En cola",
+  "playableGamesAvailable": "¡Tienes juegos jugables!",
+  "playableGamesMessage": "Tienes juegos listos para tu próximo movimiento. ¡Échales un vistazo ahora!",
+  "viewGames": "Ver juegos",
+  "close": "Cerrar",
+  "dontShowAgain": "No mostrar de nuevo",
+  "drawOfferedModal": {
+    "title": "¡Empate ofrecido!",
+    "messageSingular": "{{player}} está ofreciendo un empate. ¿Lo aceptas? El empate solo tendrá efecto si todos los jugadores están de acuerdo.",
+    "messagePlural": "{{players}} están ofreciendo un empate. ¿Lo aceptas? El empate solo tendrá efecto si todos los jugadores están de acuerdo."
+  },
+  "projectilePenetration": "Penetración de proyectiles",
+
+  "league": {
+    "title": "Liga",
+    "a": "Emperador",
+    "b1": "Diamante I",
+    "b2": "Diamante II",
+    "b3": "Diamante III",
+    "c1": "Platino I",
+    "c2": "Platino II",
+    "c3": "Platino III",
+    "d1": "Oro I",
+    "d2": "Oro II",
+    "d3": "Oro III",
+    "e1": "Plata I",
+    "e2": "Plata II",
+    "e3": "Plata III",
+    "f1": "Bronce I",
+    "f2": "Bronce II",
+    "f3": "Bronce III",
+    "g1": "Hierro I",
+    "g2": "Hierro II",
+    "g3": "Hierro III"
+  },
+
+  "skinTier": {
+    "1": "Conscripto",
+    "2": "Veterano",
+    "3": "Élite",
+    "4": "Imperial"
+  },
+
+  "currentPassword": "Contraseña actual",
+  "changePassword": "Cambiar contraseña",
+  "endRound": "Finalizar ronda",
+  "endTournamentRoundMessage": "¿Estás seguro de que quieres finalizar la ronda? Esto marcará como ganadores a los jugadores que lideran en los juegos no terminados.",
+  "rounds": "Rondas",
+  "ended": "Finalizado",
+  "schedule": "Programar",
+  "scheduleRound": "Programar ronda",
+  "altWarning": "Está prohibido el uso de cuentas alternativas para farmear Elo. Si se detecta, se pueden tomar medidas contra las cuentas involucradas.",
+  "withdrawFromName": "Retirarse de {{name}}",
+  "withdrawTournamentMessage": "¿Estás seguro de que quieres retirarte del torneo?",
+
+  "steamBanner": {
+    "title": "Añade Lines of Battle a tu Wishlist en Steam!",
+    "description": "Ayudanos a alcanzar <0>{{wishlistCount}}</0> para lanzar el juego!",
+    "descriptionBoldPart": "30.000 wishlists",
+    "buttonText": "Añadir a la Wishlist ahora"
+  },
+  "offerDrawCooldownMessage": "La última oferta de empate fue hace algunos turnos. Puedes ofrecer un nuevo empate en {{turns}} turnos.",
+  "acceptDrawModal": {
+    "title": "Aceptar empate",
+    "message": "¿Estás seguro de que quieres aceptar el empate?"
+  },
+  "staminaCost": "Costo de stamina",
+  "cannotUseAfterRun": "No usable tras correr",
+  "selectIdleUnit": "Seleccionar unidad parada",
+  "allyOverlap": "Superposición de aliados",
+  "download": "Descargar",
+  "translationsMessage": "¿Quieres colaborar con traducciones? Puedes hacerlo <0>aquí</0>.",
+  "nearbyUnits": "Unidades cercanas",
+  "preset": "Preestablecido",
+  "hybrid": "Híbrido",
+  "random": "Aleatorio",
+  "join": "Unirse",
+  "spectate": "Espectar",
+  "gameIsNotFull": "El juego aún no está lleno",
+  "invitationCopied": "¡Enlace copiado! Envíalo a un amigo.",
+  "inviteFriend": "Invitar a un amigo",
+  "checkStarted": "Verificar si ha comenzado"
+}

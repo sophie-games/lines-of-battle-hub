@@ -1,0 +1,108 @@
+{
+  "gameplay": "게임 플레이",
+  "graphics": "그래픽",
+  "camera": "카메라",
+  "sound": "소리",
+  "language": "언어",
+  "multiTurnOrders": {
+    "title": "다중 턴 명령",
+    "description": "이 설정을 켜면 게임이 특정 턴부터 다음 턴까지 기억하고 실행할 명령을 내릴 수 있습니다. 이러한 다중 턴 명령은 최대 10턴까지 가능하며, 이동과 같은 위치 명령과 추적과 같은 대상 명령을 모두 포함합니다."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "다중 턴 경로 최소 거리"
+  },
+  "edgePanning": {
+    "title": "외곽 이동",
+    "description": "마우스 커서를 화면 가장자리에 두어 화면을 이동할 수 있게 합니다 (PC)."
+  },
+  "useTouchControls": {
+    "title": "터치 조작 사용",
+    "description": "활성화하면 터치 기반 기기 조작 체계를 사용합니다. 활성화하지 않으면 PC 조작 체계를 사용합니다."
+  },
+  "allowTouchSelectionBox": {
+    "title": "터키 기기에서의 선택 상자 사용 허용",
+    "description": "터치 기기에서의 선택 상자 사용을 활성화하여 한 번에 여러 부대를 선택할 수 있도록 합니다."
+  },
+  "smartCurvedMovements": {
+    "title": "지능적 회전 이동",
+    "description": "이 설정을 활성화하면 부대의 이동 경로를 부드러운 곡선형으로 최적화하여 회전 중 속도 손실을 최소화할 수 있습니다."
+  },
+  "openSelectOrderModal": {
+    "title": "명령 선택 모달 창 사용",
+    "description": "이 설정을 활성화하면 경지 중 명령 선택을 위한 모달 창이 표시됩니다."
+  },
+  "showNewBattleEventsModal": {
+    "title": "새 전투 변동 사항 모달 창 표시"
+  },
+  "showPlayableGamesAvailableModal": {
+    "title": "플레이 가능 경기 모달 창 표시"
+  },
+  "hidePlayerInfo": {
+    "title": "플레이어 정보 숨기기",
+    "description": "게임 UI에서 Elo와 사용자 이름을 숨겨 플레이어를 익명으로 만듭니다."
+  },
+  "smartReplayCamera": {
+    "title": "지능적 리플레이 화면",
+    "description": "리플레이 중 화면을 자동으로 행동에 초점을 맞추도록 설정합니다."
+  },
+  "smartReplayCameraZoom": {
+    "title": "지능적 리플레이 화면 확대/축소"
+  },
+  "zoomSensibility": {
+    "title": "화면 확대/축소 감도"
+  },
+  "cameraSensibility": {
+    "title": "화면 감도 (PC)"
+  },
+  "replaySpeed": {
+    "title": "전투 복기 속도"
+  },
+  "playerColor": {
+    "title": "플레이어 색상"
+  },
+  "enemyColor": {
+    "title": "적 색상"
+  },
+  "allyColor": {
+    "title": "동맹 색상"
+  },
+  "generalVolume": {
+    "title": "총 음량"
+  },
+  "shadows": {
+    "title": "그림자",
+    "description": "부대 그림자를 활성화합니다. 게임 턴이 지나야 적용됩니다."
+  },
+  "fullScreen": {
+    "title": "전체 화면",
+    "description": "애플리케이션 전체 화면 전환",
+    "toggle": "전체 화면 전환"
+  },
+  "resetSettings": {
+    "title": "설정 초기화",
+    "description": "모든 설정을 기본값으로 초기화합니다. 모든 사용자 지정 설정을 덮어쓰게 됩니다."
+  },
+  "reset": "초기화",
+  "lineFormation": "선형진",
+  "checkerboardFormation": "귀진진",
+  "spaceBetweenUnits": "부대 간 공간",
+  "spaceBetweenLines": "선형진 간 공간",
+  "keybindings": {
+    "title": "키보드 단축키",
+    "pressAKey": "지정할 키를 누르세요...",
+    "moveUp": "위로 이동",
+    "moveDown": "아래로 이동",
+    "moveLeft": "왼쪽으로 이동",
+    "moveRight": "오른쪽으로 이동",
+    "info": "정보",
+    "submitOrders": "명령 하달",
+    "deselect": "선택 해제",
+    "moveOrder": "이동 명령",
+    "seekOrder": "추적 명령",
+    "shootOrder": "사격 명령",
+    "fireAndAdvanceOrder": "사격 및 전진 명령",
+    "fallbackOrder": "후퇴 명령",
+    "toggleFormation": "진형 전환",
+    "toggleSmartCurvedMovements": "지능적 곡선 이동 전환"
+  }
+}

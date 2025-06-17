@@ -1,0 +1,112 @@
+﻿{
+  "gameplay": "游戏性",
+  "graphics": "画面",
+  "camera": "镜头",
+  "sound": "声音",
+  "language": "语言",
+  "multiTurnOrders": {
+    "title": "多回合指令",
+    "description": "启用此设置后，你可以发出多回合指令，这种指令会被游戏记住并在之后的回合连续执行。多回合指令可以持续最长10个回合，包括地点类的指令如“移动”/“移动射击”和目标类的指令如“追踪”。"
+  },
+  "multiTurnPathMinDistance": {
+    "title": "多回合指令路径的最小距离"
+  },
+  "edgePanning": {
+    "title": "边缘平移",
+    "description": "当鼠标指针移到画面边缘时移动画面（PC）。"
+  },
+  "useTouchControls": {
+    "title": "使用触控",
+    "description": "如果启用，会使用触控设备的操作方式。如果禁用，会使用PC的操作方式。"
+  },
+  "allowTouchSelectionBox": {
+    "title": "允许触控框选",
+    "description": "允许在触控设备上使用框选来选择多个单位。"
+  },
+  "smartCurvedMovements": {
+    "title": "智能曲线移动",
+    "description": "启用后会自动优化行动路线，让曲线更加平滑来减少单位转向时浪费的速度。"
+  },
+  "openSelectOrderModal": {
+    "title": "启用指令菜单",
+    "description": "如果启用，会在选择单位指令时打开一个菜单而不是点击切换。"
+  },
+  "showNewBattleEventsModal": {
+    "title": "显示战斗事件弹窗"
+  },
+  "showPlayableGamesAvailableModal": {
+    "title": "显示可进行游戏菜单"
+  },
+  "hidePlayerInfo": {
+    "title": "隐藏玩家信息",
+    "description": "在UI中隐藏玩家的用户名和ELO。"
+  },
+  "smartReplayCamera": {
+    "title": "回放智能运镜",
+    "description": "在播放战斗回放时让镜头自动关注战场的重点。"
+  },
+  "smartReplayCameraZoom": {
+    "title": "回放智能缩放"
+  },
+  "zoomSensibility": {
+    "title": "缩放敏感度"
+  },
+  "cameraSensibility": {
+    "title": "镜头敏感度（PC）"
+  },
+  "replaySpeed": {
+    "title": "回放速度"
+  },
+  "playerColor": {
+    "title": "玩家颜色"
+  },
+  "enemyColor": {
+    "title": "敌人颜色"
+  },
+  "allyColor": {
+    "title": "盟友颜色"
+  },
+  "generalVolume": {
+    "title": "主音量"
+  },
+  "shadows": {
+    "title": "阴影",
+    "description": "为单位启用阴影。可能需要游戏经过一回合才能更新。"
+  },
+  "showCollisionShapes": {
+    "title": "显示碰撞体积",
+    "description": "显示单位的碰撞体积。可能需要游戏经过一回合才能更新。"
+  },
+  "fullScreen": {
+    "title": "全屏",
+    "description": "切换该应用的全屏模式",
+    "toggle": "切换全屏"
+  },
+  "resetSettings": {
+    "title": "重置设置",
+    "description": "重置所有设置选项到默认设置。该行动会覆盖你所有自定义的选项。"
+  },
+  "reset": "重置",
+  "lineFormation": "线形编队",
+  "checkerboardFormation": "棋盘编队",
+  "spaceBetweenUnits": "单位之间的间距",
+  "spaceBetweenLines": "前后列之间的间距",
+  "keybindings": {
+    "title": "键位绑定",
+    "pressAKey": "按下一个按键……",
+    "moveUp": "向上移动",
+    "moveDown": "向下移动",
+    "moveLeft": "向左移动",
+    "moveRight": "向右移动",
+    "info": "信息",
+    "submitOrders": "提交指令",
+    "deselect": "取消选择",
+    "moveOrder": "移动指令",
+    "seekOrder": "追踪指令",
+    "shootOrder": "射击指令",
+    "fireAndAdvanceOrder": "移动射击指令",
+    "fallbackOrder": "后退指令",
+    "toggleFormation": "切换阵型",
+    "toggleSmartCurvedMovements": "切换智能曲线移动"
+  }
+}

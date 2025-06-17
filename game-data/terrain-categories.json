@@ -1,0 +1,234 @@
+{
+  "land": {
+    "canPlaceObjectives": true,
+    "defenseModifier": {
+      "militia": -0.5
+    }
+  },
+
+  "forest": {
+    "staminaCostModifier": 1,
+    "hitboxHeight": 2,
+    "movementModifier": {
+      "infantry": -0.35,
+      "lightInfantry": -0.35,
+      "skirmishInfantry": -0.1,
+      "militiaInfantry": -0.35,
+      "midCavalry": -0.4,
+      "lightCavalry": -0.4,
+      "heavyCavalry": -0.4,
+      "artillery": -0.4
+    },
+    "attackModifier": {
+      "midCavalry": -0.5,
+      "lightCavalry": -0.5,
+      "heavyCavalry": -0.5
+    },
+    "defenseModifier": {
+      "infantry": 0.5,
+      "lightInfantry": 0.6,
+      "skirmishInfantry": 0.84,
+      "militiaInfantry": 0.75,
+      "midCavalry": -0.2,
+      "lightCavalry": -0.2,
+      "heavyCavalry": -0.2,
+      "artillery": 0.5
+    },
+    "rangedAttackModifier": {
+      "artillery": -0.3,
+      "infantry": -0.1,
+      "lightInfantry": -0.1,
+      "militiaInfantry": -0.1
+    },
+    "projectileAbsorption": {
+      "musket": 0.2,
+      "light-musket": 0.16,
+      "marksman-musket": 0.12,
+      "rifle": 0.08,
+      "explosive-shell": 0.02,
+      "12lb-cannon-ball": 0.15,
+      "8lb-cannon-ball": 0.18,
+      "6lb-cannon-ball": 0.2,
+      "4lb-cannon-ball": 0.2,
+      "8lb-canister-fire": 0.2,
+      "12lb-canister-fire": 0.2,
+      "6lb-canister-fire": 0.2,
+      "4lb-canister-fire": 0.2,
+      "howitzer-canister": 0.2
+    },
+    "chargeResistanceModifier": {
+      "infantry": 0.25,
+      "lightInfantry": 0.25,
+      "skirmishInfantry": 0.75,
+      "militiaInfantry": 0.5,
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "chargeBonusModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    }
+  },
+
+  "building": {
+    "staminaCostModifier": 1,
+    "hitboxHeight": 1.3,
+    "movementModifier": {
+      "infantry": -0.2,
+      "lightInfantry": -0.15,
+      "skirmishInfantry": -0.1,
+      "militiaInfantry": -0.2,
+      "midCavalry": -0.4,
+      "lightCavalry": -0.4,
+      "heavyCavalry": -0.4,
+      "artillery": -0.2
+    },
+    "attackModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "defenseModifier": {
+      "infantry": 0.8,
+      "lightInfantry": 0.85,
+      "skirmishInfantry": 0.95,
+      "militiaInfantry": 0.8,
+      "midCavalry": -0.2,
+      "lightCavalry": -0.2,
+      "heavyCavalry": -0.2,
+      "artillery": -0.4
+    },
+    "rangedAttackModifier": {
+      "artillery": -0.3,
+      "infantry": -0.1,
+      "lightInfantry": -0.1,
+      "militiaInfantry": -0.1
+    },
+    "projectileAbsorption": {
+      "musket": 0.6,
+      "light-musket": 0.55,
+      "marksman-musket": 0.45,
+      "rifle": 0.35,
+      "explosive-shell": 0.04,
+      "12lb-cannon-ball": 0.45,
+      "8lb-cannon-ball": 0.5,
+      "6lb-cannon-ball": 0.6,
+      "4lb-cannon-ball": 0.6,
+      "8lb-canister-fire": 0.6,
+      "12lb-canister-fire": 0.6,
+      "6lb-canister-fire": 0.6,
+      "4lb-canister-fire": 0.6,
+      "howitzer-canister": 0.6
+    },
+    "chargeResistanceModifier": {
+      "infantry": 0.25,
+      "lightInfantry": 0.25,
+      "skirmishInfantry": 0.75,
+      "militiaInfantry": 0.5,
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "chargeBonusModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    }
+  },
+
+  "path": {
+    "staminaCostModifier": -0.25,
+    "movementModifier": {
+      "infantry": 0.3,
+      "lightInfantry": 0.3,
+      "skirmishInfantry": 0.3,
+      "militiaInfantry": 0.3,
+      "midCavalry": 0.2,
+      "lightCavalry": 0.2,
+      "heavyCavalry": 0.2,
+      "artillery": 0.4
+    },
+    "defenseModifier": {
+      "militia": -0.4
+    }
+  },
+
+  "shallowWater": {
+    "movementModifier": {
+      "infantry": -0.5,
+      "lightInfantry": -0.45,
+      "skirmishInfantry": -0.25,
+      "militiaInfantry": -0.5,
+      "midCavalry": -0.5,
+      "lightCavalry": -0.5,
+      "heavyCavalry": -0.5,
+      "artillery": -0.5
+    },
+    "attackModifier": {
+      "infantry": -0.8,
+      "lightInfantry": -0.8,
+      "skirmishInfantry": -0.7,
+      "militiaInfantry": -0.85,
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8,
+      "artillery": -0.8
+    },
+    "defenseModifier": {
+      "infantry": -0.5,
+      "lightInfantry": -0.4,
+      "skirmishInfantry": -0.3,
+      "militiaInfantry": -0.5,
+      "midCavalry": -0.5,
+      "lightCavalry": -0.5,
+      "heavyCavalry": -0.5,
+      "artillery": -0.5
+    },
+    "rangedAttackModifier": {
+      "artillery": -1,
+      "infantry": -0.5,
+      "lightInfantry": -0.5,
+      "militiaInfantry": -0.5,
+      "skirmishInfantry": -0.4
+    },
+    "chargeResistanceModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "chargeBonusModifier": {
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "heavyCavalry": -0.8
+    }
+  },
+
+  "deepWater": { "impassable": true },
+
+  "cliff": {
+    "impassable": true
+  },
+
+  "city": {
+    "impassable": true,
+    "hitboxHeight": 1.3,
+    "projectileAbsorption": {
+      "musket": 0.6,
+      "light-musket": 0.55,
+      "marksman-musket": 0.45,
+      "rifle": 0.35,
+      "explosive-shell": 0.04,
+      "12lb-cannon-ball": 0.45,
+      "8lb-cannon-ball": 0.5,
+      "6lb-cannon-ball": 0.6,
+      "4lb-cannon-ball": 0.6,
+      "8lb-canister-fire": 0.6,
+      "12lb-canister-fire": 0.6,
+      "6lb-canister-fire": 0.6,
+      "4lb-canister-fire": 0.6,
+      "howitzer-canister": 0.6
+    }
+  }
+}

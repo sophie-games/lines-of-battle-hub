@@ -1,0 +1,6 @@
+{
+  "USER_REGISTERED": "¡Tu registro está completo! Revisa tu email para encontrar un link de confirmación. Si no lo encuentras de inmediato, revisa tu carpeta de spam.",
+  "INCORRECT_PASSWORD": "Contraseña incorrecta",
+  "TOURNAMENT_ROUND_CANNOT_START_YET": "La ronda {{round}} no puede comenzar todavía.",
+  "START_TIME_MUST_BE_IN_THE_FUTURE": "La hora de inicio debe ser en el futuro"
+}

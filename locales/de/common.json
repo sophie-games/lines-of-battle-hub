@@ -1,0 +1,520 @@
+{
+  "appLoadingMessage": "Willkommen bei Lines of Battle!",
+  "home": "Startseite",
+  "language": "Sprache",
+  "tutorial": "Tutorial",
+  "play": "Spielen",
+  "ranking": "Rangliste",
+  "profile": "Profil",
+  "history": "Historie",
+  "store": "Laden",
+  "supporters": "Unterstützer",
+  "elo": "Elo",
+  "joinedAt": "Am {{date}} beigetreten",
+  "addPlayer": "Spieler hinzufügen",
+  "credits": "Gutschriften",
+
+  "settings": "Einstellungen",
+  "eloDescription": "Elo ist ein Bewertungssystem, mit dem ein ungefähreres Geschicklevel des Spielers berechnet wird. Je höher Ihre Elo, desto besser sind Sie im Vergleich zu Anderen. Gewinnen erhöht Ihre Elo, währen Verlieren sie verringert.",
+  "welcomeName": "Willkommen {{name}}!",
+  "myGames": "Meine Spiele",
+  "gameStatus": {
+    "available": "Weiterspielen möglich",
+    "notStarted": "Spiel ist noch nicht gestartet"
+  },
+  "loadingGames": "Lädt Spiele...",
+  "noGamesYet": "Noch keine Spiele! Klicken Sie Spielen, um ein neues zu erstellen.",
+  "failedToLoadGames": "Konnte keine Spiele laden. Bitte versuchen Sie es nochmal.",
+  "armyCompositions": "Armeezusammensetzung",
+  "account": "Konto",
+  "scenarioEditor": "Szenarioeditor",
+  "wiki": "Wiki",
+  "gameCard": {
+    "title": "Spiel {{id}}",
+    "turn": "Runde {{turnNumber}}/{{maxTurn}}"
+  },
+
+  "withdrawMessage": "Wenn Sie sich von diesem Spiel zurückziehen, wird das als eine Niederlage gewertet und Ihre Elo verringern. Sind Sie sicher, dass Sie sich zurückziehen wollen?",
+
+  "loading": "Lädt...",
+  "yes": "Ja",
+  "no": "Nein",
+  "by": "von",
+  "logout": "Abmelden",
+
+  "createNewGame": "Neues Spiel erstellen",
+  "randomGameInfo": "Für zufallsgenerierte Spiele, werden Armeen verwendet, die Sie für diesen Spielmodus vorbereitet haben. Sie können Ihre Armeen in <0>Armeezusammensetzung</0>. Wenn Sie noch keine Armeen für einen Modus erstellt haben, dann wird die Standardarmee benutzt.",
+  "selectGameMode": "Wähle den Spielmodus von den unten angezeigten Optionen.",
+  "or": "Oder",
+  "cancel": "Abbrechen",
+
+  "matchmakingQueue": {
+    "inQueue": "Sie sind nun in der Warteschlange für das Spielsuche. Das System sucht einen anderen Spieler, der die gleichen Optionen gewählt hat wie Sie.",
+    "matchFound": "Sobald ein Spiel gefunden wurde, werden Sie zu diesem weitergeleitet.",
+    "onlyClanMembers": "Spiele nur mit Koalitionsteammitgliedern"
+  },
+
+  "fastMode": "schneller Modus",
+  "slowMode": "langsamer Modus",
+  "maxTimePerTurn": "Maximalzeit für jede Runde",
+
+  "turnTimeLimit": {
+    "30s": "30 Sekunden",
+    "1m": "1 Minute",
+    "2m": "2 Minuten",
+    "3m": "3 Minuten",
+    "5m": "5 Minuten",
+    "1d": "1 Tag",
+    "3d": "3 Tage",
+    "7d": "7 Tage"
+  },
+
+  "battleType": "Schlachttypen",
+  "dynamicBattleType": {
+    "skirmish": "Scharmützel",
+    "clash": "Zusammenstoß",
+    "combat": "Gefecht",
+    "battle": "Schlacht",
+    "grand_battle": "Große Schlacht"
+  },
+
+  "matchmaking": "Spielsuche",
+  "matchmakingDescription": "Spielsuchemodus erlaubt Ihnen schnell einem Spiel mit zufälligen Spielern und voreingestellten Einstellungen beizutreten.",
+  "custom": "Benutzerdefiniert",
+  "customDescription": "Benutzerdefinierter Modus erlaubt ein Spiel mit bestimmten Einstellungen und das Einladen von Freunden.",
+  "createCustomGame": "Ein benutzerdefiniertes Spiel erstellen",
+  "maxTurn": "Letzte Runde",
+
+  "player": "Spieler",
+  "units": "Einheiten",
+  "unitSkins": "Einheiten Kosmetika",
+  "avatars": "Avatare",
+  "withdraw": "Zurückziehen",
+  "importScenario": "Szenario importieren",
+  "importScenarioModal": {
+    "importInfo": "Sie können alle Szenarien importieren.",
+    "createInfo": "Sie können sogar Ihr eigenes Szenario im <scenarioEditorLink/> erstellen."
+  },
+
+  "scenarioEditorTags": {
+    "tutorialMessage": " Nicht sicher, wie Sie es benutzen wollen? Kein Problem, wir haben hier was für dich! <tutorialLink>Schaue dieses Tutorial!</tutorialLink>"
+  },
+
+  "createScenario": "Szenario erstellen",
+  "loadScenario": "Szenario laden",
+  "playOffline": "Offline spielen!",
+  "createOfflineGame": "Offlinespiel erstellen",
+  "chooseAScenario": "Szenario erstellen",
+  "playerArmy": "Armee des Spielers",
+  "botArmy": "Armee des Bots",
+  "army": "Armee",
+
+  "deploymentStateMessage": "Das ist die Aufmarschphase. Nutzen Sie diese Runde, um Ihre Einheiten im Aufmarschgebiet zu platzieren. Wenn Sie fertig sind, dann bestätigen Sie Ihre Aufmarschbefehle.",
+  "youAreColor": "Sie sind {{color}}!",
+  "getStarted": "Fangen wir an",
+
+  "colorTag": {
+    "1": "Blau",
+    "2": "Rot",
+    "3": "Gelb",
+    "4": "Grün",
+    "5": "Schwarz"
+  },
+
+  "resume": "Weitermachen",
+  "offerDraw": "Unentschieden anbieten",
+  "replayBattle": "Schlacht wiedergeben",
+  "result": "Ergebnis",
+  "exit": "Verlassen",
+  "attackColor": "Farbe des Angreifers",
+  "purchase": "Kaufen",
+  "purchased": "Gekauft",
+  "forUnit": "Für {{unit}}",
+  "select": "Auswählen",
+  "deselect": "Abwählen",
+
+  "unitStat": {
+    "hp": "LP",
+    "org": "Organisation",
+    "movement": "Fortbewegung",
+    "meleeAttack": "Nahkampfangriff",
+    "meleeDefense": "Nahkampfverteidigung",
+    "chargeBonus": "Ansturmbonus",
+    "chargePenetration": "Ansturmdurchdringung",
+    "orgRadius": "Org Radius",
+    "orgRadiusBonus": "Org Radius Bonus",
+    "rangedAttack": "Fernkampfangriff",
+    "limberMovement": "Protzenfortbewegung",
+    "chargeResistance": "Ansturmwiderstandskraft",
+    "status": "Status"
+  },
+
+  "unitCategory": {
+    "1": "Infantrie",
+    "2": "Kavallerie",
+    "3": "Artillerie",
+    "4": "Light Infantrie",
+    "5": "Leichte Kavallerie",
+    "6": "Schwere Kavallerie"
+  },
+
+  "category": "Kategorie",
+
+  "damageType": {
+    "musket": "Muskete",
+    "light-musket": "Leichte Muskete",
+    "artillery-sabre": "Artilleriesäbel",
+    "bayonet": "Bajonett",
+    "8lb-cannon-ball": "Kanonenkugel",
+    "cavalry-sabre": "Kavalleriesäbel",
+    "cavalry-lance": "Kavallerielanze",
+    "6lb-cannon-ball": "Leichte Kanonenkugel",
+    "explosive-shell": "Sprenggranate",
+    "cavalry-sword": "Kavallerieschwert",
+    "8lb-canister-fire": "Kartätschenfeuer",
+    "6lb-canister-fire": "Leichtes Kartätschenfeuer",
+    "howitzer-canister": "HaubitzenKartätschen",
+    "12lb-cannon-ball": "Schwere Kanonenkugel",
+    "12lb-canister-fire": "Schweres Kartätschenfeuer",
+    "dragoon-sword": "Dragonerschwert"
+  },
+
+  "unitName": {
+    "1": "Linieninfantrie",
+    "2": "Dragoner",
+    "3": "8-Pfd. Feldartillerie",
+    "4": "Gardeinfantrie",
+    "5": "Ulane",
+    "6": "4-Pfd. Pferdeartillery",
+    "7": "Leichte Infantrie",
+    "8": "Kürassiere",
+    "9": "6-Zoll Haubitzen",
+    "10": "Miliz",
+    "11": "Husaren",
+    "12": "12-Pfd Fußartillerie",
+    "13": "Pferdebogenschützen"
+  },
+
+  "battalionName": {
+    "1": "{{n}} Linienbataillon",
+    "2": "{{n}} Dragoner",
+    "3": "{{n}} Fußbatterie",
+    "4": "{{n}} Gardebataillon",
+    "5": "{{n}} Lanzer",
+    "6": "{{n}} Pferdebatterie",
+    "7": "{{n}} Leichtes Bataillon",
+    "8": "{{n}} Kürassiere",
+    "9": "{{n}} Haubitzbatterie",
+    "10": "{{n}} Miliz",
+    "11": "{{n}} Husaren",
+    "12": "{{n}} Fußbatterie",
+    "13": "{{n}} Pferdebogenschützen"
+  },
+
+  "unitDescription": {
+    "1": "Das einfache Linieninfanteriebataillon ist die Grundeinheit der Armee. Die Muskete ist seine Hauptwaffe, aber es kann auch Kavallerie abwehren oder einen Sturmangriff gegen andere Infanterie und Artillerie mit dem Bajonett durchführen.",
+    "2": "Zuverlässige, vielseitige mittlere Kavallerie, geeignet sowohl für Belästigung als auch für längere Kämpfe.",
+    "3": "Erschwingliche mittlere Artillerie mit bescheidener Mobilität und Feuerkraft, zusammen mit beeindruckendem Kartätschfeuer.",
+    "4": "Erfahrene, körperlich imposante Soldaten mit der Fähigkeit, befreundete Soldaten zu inspirieren und Feinde in Angst und Schrecken zu versetzen. Diese Eliteeinheiten sind nur den von Natur aus begabtesten Soldaten vorbehalten, was sie in der Anschaffung sehr viel teurer macht. Ihre Einschüchterung und ihre hervorragenden Nahkampfeigenschaften kommen am besten bei einem Bajonettangriff zur Geltung.",
+    "7": "Elite-Infanterie, die mit besonderem Augenmerk auf schnelle Bewegung und Treffsicherheit ausgebildet wird.",
+    "11": "Leichte Kavallerie eignet sich für Angriffe auf schwache, beschädigte und fliehende Gegner. Gegen organisierte Infanterie und schwere Kavallerie hat sie es jedoch schwer. Setzen Sie zuerst Infanterie und Artillerie ein, um den Feind zu schwächen.",
+    "5": "Mittelschwere Elitekavallerie, die die Lanze für verheerende Angriffe einsetzt - eine Reihe von Angriffen mehrerer Ulanen-Schwadronen wird jeden Gegner schnell in die Flucht schlagen. In einem langwierigen Nahkampf sind sie jedoch weit weniger beeindruckend.",
+    "8": "Beeindruckende schwere Kavallerie mit der stärksten Allround-Nahkampfstärke aller Einheiten. Es ist jedoch immer noch am besten, den Feind mit Infanterie oder Artillerie zu schwächen, bevor man seine Kürassiere einsetzt.",
+    "12": "Das schwerste Feldgeschütz, das der napoleonischen Armee zur Verfügung stand. Diese Batterien sind zwar extrem teuer, aber ihre Reichweite und Leistung sind unübertroffen.",
+    "6": "Die Schnelligkeit und die geringen Kosten dieser Artillerie machen sie zur Unterstützung der Kavallerie oder zum Vorrücken an der Seite der Infanterielinie geeignet.",
+    "9": "Leichte Feldhaubitzen mit explosiven Geschossen und besonders tödlichem Kartätschenfeuer auf kurze Distanz - ideal zur Unterstützung Ihrer Infanterielinie auf mittlere bis kurze Distanz.",
+    "10": "„Jegliche Abhängigkeit von der Miliz zu setzen, bedeutet sicherlich, sich auf einen gebrochenen Stab zu stützen.“ - George Washington",
+    "13": "„Die baschkirischen Pferdebogenschützen sind zweifellos die am wenigsten gefährlichen Truppen der Welt.“ - Baron Marbot, einen Pfeil im Oberschenkel ignorierend"
+  },
+
+  "damageResistances": "Wiederstandsfähigkeiten gegen Schaden",
+  "otherStats": "Weitere Statistiken",
+  "damageModifier": "Schadensmodifikatoren",
+  "orgDamageRatio": "Org Schadensverhältnis",
+
+  "damage": "Schaden",
+  "orgDamage": "Org Schaden",
+  "enfiladeFireModifiers": "Enfilade Feuermodifikatoren",
+  "rearFireModifiers": "Rückseitenfeuermodifikatoren",
+  "targetAltitude": "Zielhöhe",
+  "canCaptureObjectives": "Kann Objektive einnehmen",
+  "cantCaptureObjectives": "Kann Objektive nicht einnehmen",
+  "enfiladeFire": "Enfilade Feuer",
+  "closeRange": "Kurze Entfernung",
+  "midRange": "Mittlere Entfernung",
+  "longRange": "Große Entfernung",
+  "shootingAngle": "Schusswinkel",
+  "arcHeight": "Bogenhöhe",
+  "aoe": "Wirkungsbereich",
+  "type": "Typ",
+  "circular": "Kreisförmig",
+  "radius": "Radius",
+  "edgeDamageModifier": "Schadensgrenzmodifikator",
+  "absorption": "Absorption",
+  "trapezoidal": "Trapezförmig",
+  "topWidth": "obere Breite",
+  "bottomWidth": "untere Breite",
+  "height": "Höhe",
+  "diminishByTargetOrg": "Verminderd durch Org des Ziels",
+  "from": "von",
+  "to": "an",
+  "lBy": "von",
+  "terrainHitboxHeight": "Höhe der Geländehitbox",
+  "statusEffects": "Statuseffekte",
+  "projectileAbsorption": "Projektileabsorption",
+  "terrainPName": "Gelände: {{name}}",
+  "effects": "Effekte",
+
+  "terrain": {
+    "0": "Land",
+    "1": "Wald",
+    "2": "Gebäude",
+    "3": "Straße",
+    "4": "Wasser"
+  },
+
+  "clearPlayerUnits": "Einheiten des Spielers löschen",
+  "clearBotUnits": "Einheiten des Bots löschen",
+  "continueGame": "Spiel fortsetzen",
+  "createNewOfflineGame": "Ein neues Offlinespiel erstellen",
+  "filterBy": "Filtern",
+  "name": "Name",
+  "retry": "Nochmal versuchen",
+
+  "networkErrorModal": {
+    "title": "Ups! Verbindung verloren",
+    "message": "Es scheint als wäre die Verbindung fehlgeschlagen. Keine Sorge! Sie können immer noch offline spielen."
+  },
+
+  "needsUpdateModal": {
+    "title": "Update notwendig",
+    "message": "Eine neue Version von LoB ist verfügbar! Bitte updaten Sie auf die neuste Version, um weiter online spielen zu können."
+  },
+
+  "update": "Update!",
+  "yourArmyCompositionsFor": "Ihre Armeezusammensetzung für",
+  "noUnitsYet": "Noch keine Einheiten",
+  "armyComposition": "Armeezusammensetzung",
+  "budgetAvailable": "Budget verfügbar",
+  "saveArmy": "Armee speichern",
+  "clearUnits": "Einheiten löschen",
+  "saving": "Speichert...",
+  "armyInvalid": "Diese Armee ist ungültig. Bitte ändern Sie die Zusammensetzung.",
+
+  "landing": {
+    "title": "Willkommen bei <0/>",
+    "message": "<b>Lines of Battle</b> ist ein simulatenes, rundenbasiertes Multiplayer-Strategiespiel, dass während der Napoleonischen Kriege spielt. Entworfen für taktische Tiefe und historische Immersion, werden Sie in sagenhaften Schlachten gegen Andere schlagen und dabei Ihre Fähigkeiten und Strategien zum Ausmanövrieren und schlagen Ihrer Gegner unter Beweis stellen!",
+    "privacy": "Indem Sie das Spiel starten, stimmen Sie unseren <0>Datenschutzbestimmungen</0> zu."
+  },
+
+  "welcomeModal": {
+    "title": "Willkommen bei Lines of Battle 👋",
+    "thanks": "Schön das Sie dabei sind, {{name}}!",
+    "p1": "Neu bei <b>Lines of Battle</b>? Ich empfehle mit <offlineLink>Offlinespiel</offlineLink> gegen Bots anzufangen, damit Sie sich mit den Spielmechaniken vertraut machen und in aller Ruhe eine Strategie überlegen können.",
+    "p2": "Da das Spiel zur Zeit noch in der Beta ist, laden wir Sie herzlich ein unserem <discordLink>Discord-Server</discordLink> beizutreten, sich mit anderen Spielern auszutauschen, Gegner zu finden, Bugs zu melden oder Vorschläge zu teilen, wie die Spielerfahrung noch besser werden könnte."
+  },
+
+  "turn": "Runde",
+
+  "loadingScreen": {
+    "fonts": "Lädt Schriftart...",
+    "joiningGame": "Tritt Spiel bei...",
+    "resources": "Lädt Ressourcen...",
+    "fetchingGameData": "Ruft Spieldaten ab...",
+    "generatingMap": "Erzeugt Karte...",
+
+    "tip1": "Einheiten mit hoher Organisation erleiden bei einem Angriff wenig bis keinen zusätzlichen Schaden. Weichen Sie Ziele zuerst mit Feuer auf.",
+    "tip2": "Husaren sind eine leichte Kavallerie, die schwere Kämpfe vermeiden und beschädigte Einheiten und Artillerie aufspüren sollte.",
+    "tip3": "Musketen und Artillerie richten aus mittlerer Entfernung weit mehr Schaden an als aus großer Entfernung.",
+    "tip4": "Haubitzen feuern in einem hohen Bogen, was sie bei Angriffen auf Ziele in Wäldern und Gebäuden wesentlich effektiver macht als andere Artillerie.",
+    "tip5": "Sie können viele nützliche Informationen über Ihre Truppen finden, indem Sie eine Einheit auswählen, auf Info (Hotkey I) klicken und sich die Registerkarten der Einheiten ansehen.",
+    "tip6": "Fliehende Einheiten haben Abzüge bei der Neuorganisation und laufen Gefahr, komplett von der Karte gejagt zu werden. Bringen Sie desorganisierte Einheiten in Sicherheit, bevor sie fliehen, wann immer es möglich ist.",
+    "tip7": "Pferdeartillerie und Haubitzen sind viel mobiler als 12-Pfund-Artillerie. Es ist riskant, sie zusammen mit der Infanterie anzugreifen, aber sie können mit ihrem mächtigen Kartätschenfeuer auf kurze Entfernung das Blatt wenden.",
+    "tip8": "Wenn Sie eine Einheit auswählen, sehen Sie ihren Organisationsradius in Hellblau. Feinde in diesem Radius verlieren Organisation, während Freunde Organisation gewinnen.",
+    "tip9": "Ulane sind eine Elitekavallerie, die sich auf ihren verheerenden Angriff konzentriert, aber in einem längeren Kampf dem Kürassier unterlegen ist.",
+    "tip10": "Fernkampfangriffe, die eine Infanterieeinheit in der Flanke treffen, richten wesentlich mehr Schaden an.",
+    "tip11": "Siegpunkte erhält man, indem man dem Gegner Verluste zufügt oder das gegnerische Ziel mit Infanterie einnimmt. Ein großer Siegpunktevorsprung verlangsamt die Reorganisation der gegnerischen Einheiten und sichert den Sieg am Rundenende.",
+    "tip12": "Flankieren Sie den Feind, aber lassen Sie sich nicht flankieren.",
+    "tip13": "Schickt eure Lieblingsreplays über den Lines of Battle-Discord-Server ein, und das Entwicklerteam wird sie auf YouTube veröffentlichen!",
+    "tip14": "Wenn Sie Fragen zum Spiel haben, sollten Ihnen das Lines of Battle-Wiki, Reddit und der Discord-Server weiterhelfen können.",
+    "tip15": "Wenn Ihnen Lines of Battle gefällt und Sie die Entwicklern unterstützen möchten, treten Sie dem Patreon bei! Jeder Beitrag hilft.",
+    "tip16": "Wussten Sie, dass Sie Ihr Ziel während der Startphase verschieben können?",
+    "tip17": "Erobern Sie das feindliche Ziel, indem Sie 8 Runden lang ein Infanteriebataillon darauf platzieren, 8 Bataillone für eine Runde usw.",
+    "tip18": "Wählen Sie die Befehlsschaltfläche, um Befehle wie Rückzug, Feuern und Vorrücken und Schießen aufzurufen.",
+    "tip19": "Garde-Infanterie und Kürassiere haben einen starken Einfluss auf die Organisation anderer Truppen, indem sie einfach in der Nähe sind. Dieser Effekt ist stapelbar und kann dazu beitragen, dass einige wenige Eliteeinheiten das Blatt im Kampf wenden.",
+    "tip20": "Lassen Sie Ihrer Artillerie eine freie Sichtlinie; manövrieren Sie Ihre Infanterie nicht vor ihr.",
+    "tip21": "\"Es liegt an der Kavallerie, den Sieg zu verfolgen und zu verhindern, dass der geschlagene Feind sich sammelt.\" - Napoleon Bonaparte",
+    "tip22": "\"Zu planen, die Kavallerie für das Ende der Schlacht zurückzuhalten, zeigt kein Verständnis für die Kraft kombinierter Infanterie- und Kavallerieangriffe, weder für Angriff noch für Verteidigung.\" - Napoleon Bonaparte"
+  },
+
+  "fetchingBattleActions": "Ruft Schlachthandlungen ab...",
+
+  "order": {
+    "1": "Bewegen",
+    "2": "Suchen",
+    "3": "Schießen",
+    "4": "Feuern und Vorrücken",
+    "6": "Zurückfallen",
+    "7": "Plänkeln"
+  },
+
+  "selectOrder": "Befehl auswählen",
+  "allowFireWhenMoving": "Erlaube Feuern während der Bewegung",
+  "meleeDamage": "Nahkampfschaden",
+  "rangedDamage": "Fernkampfschaden",
+  "orgRegain": "Org Wiedergewinnung",
+  "speed": "Geschwindigkeit",
+  "speedWhenShooting": "Geschwindigkeit beim Schießen",
+  "receivedDamage": "Erhaltener Schaden",
+  "receivedOrgDamage": "Erhaltener Org Schaden",
+  "noModifiers": "Keine Modifikatoren",
+  "submitOrders": "Befehle einreichen",
+  "submitOrdersConfirmation": "Sind Sie sicher, dass Sie Ihre Befehle einreichen wollen? Einmal eingereicht, können diese nicht mehr rückgängig gemacht werden.",
+  "players": "Spieler",
+  "menu": "Menü",
+  "replayActions": "Handlungen wiedergeben",
+  "deselectUnit": "Einheit abwählen",
+  "removeUnitOrders": "Befehle der Einheit entfernen",
+  "info": "Info",
+  "meleePerformance": "Nahkampfperformance",
+  "speedByOrg": "Geschwindigkeit durch org",
+  "turnsLeft": "Noch Runden",
+
+  "battleOverview": {
+    "title": "Schlachtübersicht",
+    "victoryPoints": "Siegespunkte",
+    "initialArmyPower": "Ursprüngliche Armeestärke",
+    "powerLost": "eingebüßte Stärke",
+    "lossesRatio": "Verhältnis der Verluste",
+    "objectives": "Objektive",
+    "timeWithoutObjectives": "Zeit nicht auf dem Objektiv",
+    "unitsOrgRegain": "Einheiten Org Wiedergewinnung"
+  },
+
+  "offerDrawModal": {
+    "withdrawOffer": "Rückzugsangebot",
+    "alreadyWantsDrawMessage": "Sie bieten bereits einen Rückzug an. Wollen Sie das Angebot zurückziehen?",
+    "offerDrawMessage": "Wenn Sie einen Rückzug anbieten wird das Angebot aktiv bleiben bis Sie es zurückziehen."
+  },
+
+  "defeat": "Niederlage",
+  "victory": "Sieg",
+  "draw": "Unentschieden",
+  "won": "Gewonnen",
+  "lost": "Verloren",
+  "tie": "Unentschieden",
+
+  "unitStatus": {
+    "1": "Stehen noch",
+    "2": "Fliehen schon",
+    "3": "Erholen sich"
+  },
+
+  "unitEffect": {
+    "1": "Volle Drehung"
+  },
+
+  "login": "Anmeldung",
+  "signUp": "Registrieren",
+  "forgotPassword": "Passwort vergessen?",
+  "username": "Benutzername",
+  "password": "Passwort",
+  "email": "Email",
+  "usernameOrEmail": "Benutzername oder Email",
+  "continueWithGoogle": "Mit Google fortfahren",
+  "resetPassword": "Passwort zurücksetzen",
+  "enterYourEmail": "Email eingeben",
+  "sendResetLink": "Zurücksetzungs-Link senden",
+  "enterNewPassword": "Neues Passwort eingeben",
+  "newPassword": "Neues Passwort",
+  "repeatPassword": "Passwort wiederholen",
+
+  "teamSize": {
+    "title": "Teamgröße",
+    "1v1": "1 gg 1",
+    "2v2": "2 gg 2"
+  },
+
+  "offline": "Offline",
+  "offlineDescription": "Übe gegen Bots und spiele Hotseat mit Freunden auf dem gleichen Gerät!",
+
+  "premiumCurrencyLeaderboard": {
+    "title": "<premiumCurrency/> Bestenliste",
+    "subtitle": "Wer hat am meisten <premiumCurrency/>?",
+    "description": "Sie wollen der allerbeste sein? <storeLink>Gehe Sie zum Laden</storeLink> und holen Sie sich<premiumCurrency/>!"
+  },
+
+  "team": "Team",
+  "teams": "Teams",
+  "playerType": "Spielertyp",
+  "human": "Mensch",
+  "bot": "Bot",
+  "armyOfPlayer": "Armee des Spielers {{player}}",
+  "averageElo": "Durchschnittliche Elo",
+
+  "hybridDescription": "Hybridkarten benutzen nicht-zufälliges, voreingestelltes Gelände, aber ermöglichen dem Spieler benutzerdefinierte Armeen zu verwenden.",
+
+  "playLastActionsModal": {
+    "message": "Neue Schlachtereignisse haben stattgefunden, während Sie weg waren\nWollen Sie die Kampfhandlungen der letzen Runde ansehen?",
+    "button": "Abspielen"
+  },
+
+  "battleReport": "Schlachtbericht",
+  "strength": "Stärke",
+  "guns": "Kanonen",
+  "casualties": "Verluste",
+  "gunsLost": "Verlorene Kanonen",
+  "noRewards": "Keine Belohnungen",
+
+  "clan": "Koalition",
+  "clans": "Koalitionen",
+  "createClan": "Erstelle eine Koalition",
+  "clanRole": {
+    "leader": "Anführer",
+    "member": "Mitglieder"
+  },
+  "clanElo": "Koalitions-Elo: {{elo}}",
+  "members": "Mitglieder",
+  "deleteClan": "Koalition löschen",
+  "deleteClanModal": {
+    "message": "Sind Sie sicher, dass Sie <0>{{clanName}}</0> löschen wollen? Alle Mitglieder werden entfernt und es kann nicht rückgängig gemacht werden."
+  },
+  "joinClan": "Koalition beitreten",
+  "joinClanModal": {
+    "message": "Wollen Sie <0>{{clanName}}</0> beitreten? Sobald Sie eine Anfrage geschickt haben, werden Sie warten müssen, bis sie angenommen wurde. Die Anfrage läuft nach {{expirationDays}} Tagen aus."
+  },
+  "clanFull": "Koalition ist voll",
+  "requested": "Angefragt",
+  "cancelJoinRequest": "Anfrage zurückziehen",
+  "cancelJoinRequestModal": {
+    "message": "Sind Sie sicher, dass Sie die Anfrage bei <0>{{clanName}}</0> zurückziehen wollen?"
+  },
+  "cancelRequest": "Anfrage zurückziehen",
+  "keepRequest": "Anfrage beibehalten",
+  "joinRequests": "Beitrittsanfragen",
+  "noJoinRequests": "Keine unbearbeiteten Anfragen",
+  "accept": "Annehmen",
+  "reject": "Ablehnen",
+  "linkCopiedToClipboard": "Link wurde in die Zwischenablage kopiert",
+
+  "pagination": {
+    "previous": "Vorherige",
+    "next": "Nächste",
+    "page": "Seite",
+    "of": "von",
+    "items": "Einträgen"
+  },
+
+  "kick": "Rauswerfen",
+  "noDescription": "Keine Beschreibung",
+  "save": "Speichern",
+
+  "search": {
+    "clans": "Suche Koalitionen"
+  },
+
+  "formation": "Formation",
+  "findGame": "Spiel finden",
+  "gameIdOrLink": "Spiel-ID oder Link",
+  "playFree": "Kostenlos Spielen"
+}

@@ -1,0 +1,33 @@
+﻿{
+  "notifications": "提醒",
+  "noNotifications": "无提醒",
+  "clear": "清除",
+  "tournamentMatchStarted": {
+    "title": "锦标赛已开始！",
+    "message": "锦标赛 {{tournamentName}} 已经开始，加入战斗吧！"
+  },
+  "tournamentFilled": {
+    "title": "锦标赛已满员！",
+    "message": "锦标赛 {{tournamentName}} 已经满员。你随时可以开始！"
+  },
+  "tournamentRewards": {
+    "title": "你在锦标赛 {{tournamentName}} 中夺得第{{place}}位的成绩！",
+    "message": "你已收到{{reward}}<BasicCurrency/>。"
+  },
+  "yourTournamentEnded": {
+    "title": "你举办的锦标赛 {{tournamentName}} 已经结束。",
+    "message": "你已收到{{reward}}<BasicCurrency/>。"
+  },
+  "tournamentCancelled": {
+    "title": "锦标赛取消",
+    "message": "锦标赛 {{tournamentName}} 已被取消。你已收到退款{{refund}}<BasicCurrency/>。"
+  },
+  "updatePlanned": {
+    "title": "即将更新",
+    "message": "计划即将在<b>{{date}}</b>放出新的<b>{{name}}</b>更新，点击查看详情。"
+  },
+  "banDodge": {
+    "title": "您已被暂停 {{minutes}}",
+    "message": "您放弃了最近的 {{games}} 场排位赛，因此需要稍等片刻才能继续玩排位赛。"
+  }
+}

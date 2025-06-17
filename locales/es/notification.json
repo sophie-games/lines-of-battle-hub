@@ -1,0 +1,40 @@
+{
+  "notifications": "Notificaciones",
+  "noNotifications": "Sin notificaciones",
+  "clear": "Borrar",
+
+  "tournamentMatchStarted": {
+    "title": "¡Partida de torneo iniciada!",
+    "message": "Ha comenzado una partida del torneo {{tournamentName}}, ¡ve a jugarla!"
+  },
+
+  "tournamentFilled": {
+    "title": "¡Torneo completo!",
+    "message": "El torneo {{tournamentName}} está ahora lleno. ¡Puedes iniciarlo en cualquier momento!"
+  },
+
+  "tournamentRewards": {
+    "title": "¡Ganaste el {{place}}. lugar en el torneo {{tournamentName}}!",
+    "message": "Has recibido {{reward}} <BasicCurrency/>."
+  },
+
+  "yourTournamentEnded": {
+    "title": "Tu torneo {{tournamentName}} ha finalizado",
+    "message": "Has recibido {{reward}} <BasicCurrency/>."
+  },
+
+  "tournamentCancelled": {
+    "title": "Torneo cancelado",
+    "message": "El torneo {{tournamentName}} ha sido cancelado. Se te ha reembolsado {{refund}} <BasicCurrency/>."
+  },
+
+  "updatePlanned": {
+    "title": "Actualización Planificada",
+    "message": "Hay una nueva actualización de <b>{{name}}</b> planificada para <b>{{date}}</b>, clickea para ver los cambios."
+  },
+
+  "banDodge": {
+    "title": "Has sido suspendido por {{minutes}}",
+    "message": "Has abandonado las últimas {{games}} partidas clasificatorias, por lo que tendrás que esperar un poco para seguir jugando partidas clasificatorias."
+  }
+}
