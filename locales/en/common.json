@@ -746,5 +746,7 @@
   "syncGame": "Sync game",
   "copyLogs": "Copy logs",
   "copyLogsInstructions": "Want to report a bug? Please take a screenshot, copy the logs, and send them to Leo.",
-  "errorCheckingTimeout": "Error checking timeout"
+  "errorCheckingTimeout": "Error checking timeout",
+  "disconnectedMessage": "Lost connection with the server. Reconnecting...",
+  "reconnectedMessage": "Connection succeed. Syncing game..."
 }
