@@ -1,0 +1,40 @@
+{
+  "notifications": "Powiadomienia",
+  "noNotifications": "Brak powiadomień",
+  "clear": "Wyczyść",
+
+  "tournamentMatchStarted": {
+    "title": "Mecz turniejowy się rozpoczął!",
+    "message": "Rozpoczął się mecz turnieju {{tournamentName}}, do boju!"
+  },
+
+  "tournamentFilled": {
+    "title": "Turniej wypełniony!",
+    "message": "Turniej {{tournamentName}} jest pełny. Możesz rozpocząć rozgrywkę w dowolnym momencie!"
+  },
+
+  "tournamentRewards": {
+    "title": "Zdobyłeś {{place}}. miejsce w turnieju {{tournamentName}}!",
+    "message": "Wygrałeś {{reward}} <BasicCurrency/>."
+  },
+
+  "yourTournamentEnded": {
+    "title": "Twój Turniej {{tournamentName}} zakończył się",
+    "message": "Otrzymałeś {{reward}} <BasicCurrency/>."
+  },
+
+  "tournamentCancelled": {
+    "title": "Turniej odwołany",
+    "message": "Turniej{{tournamentName}} został odwołany. Otrzymałeś zwrot {{refund}} <BasicCurrency/>."
+  },
+
+  "updatePlanned": {
+    "title": "Planowana aktualizacja!",
+    "message": "Aktualizacja <b>{{name}}</b> jest zaplanowana na <b>{{date}}</b>, kliknij aby zobaczyć zmiany."
+  },
+
+  "banDodge": {
+    "title": "Zostałeś zablokowany na {{minutes}}",
+    "message": "Porzuciłeś ostatnie {{games}} gier rankingowych, więc będziesz musiał trochę poczekać, aby móc kontynuować grę w grach rankingowych."
+  }
+}
