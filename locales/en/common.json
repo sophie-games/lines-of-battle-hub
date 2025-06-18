@@ -350,7 +350,7 @@
   "armyInvalid": "This army is invalid, please modify it.",
 
   "landing": {
-    "title": "Welcome to <0>Lines of Battle</0>",
+    "title": "Welcome to <0/>",
     "message": "<b>Lines of Battle</b> is a multiplayer, simultaneous turn-based strategy game set during the Napoleonic Wars. Designed for tactical depth and historical immersion, you'll engage in epic battles against others, using skill and strategy to outmaneuver and defeat your opponents!",
     "privacy": "By starting, you agree to our <0>Privacy Policy</0>."
   },
@@ -741,5 +741,13 @@
   "gameIsNotFull": "The game isn't full yet",
   "invitationCopied": "Link copied! Send it to a friend.",
   "inviteFriend": "Invite a friend",
-  "checkStarted": "Check if started"
+  "checkStarted": "Check if started",
+  "errorWhenSubmittingOrders": "Error when submitting orders",
+  "syncGame": "Sync game",
+  "copyLogs": "Copy logs",
+  "copyLogsInstructions": "Want to report a bug? Please take a screenshot, copy the logs, and send them to Leo.",
+  "errorCheckingTimeout": "Error checking timeout",
+  "disconnectedMessage": "Lost connection with the server. Reconnecting...",
+  "reconnectedMessage": "Connection succeed. Syncing game...",
+  "removesX": "Removes {{x}}"
 }

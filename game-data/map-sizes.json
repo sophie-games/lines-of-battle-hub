@@ -1,0 +1,14 @@
+{
+  "s": {
+    "map": { "width": 1424, "height": 1248 },
+    "deployment": { "width": 720, "height": 112, "zoneSeparation": 522 }
+  },
+  "m": {
+    "map": { "width": 1968, "height": 1568 },
+    "deployment": { "width": 848, "height": 128, "zoneSeparation": 640 }
+  },
+  "l": {
+    "map": { "width": 2240, "height": 1808 },
+    "deployment": { "width": 1120, "height": 144, "zoneSeparation": 800 }
+  }
+}

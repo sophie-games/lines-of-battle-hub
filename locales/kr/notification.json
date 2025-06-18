@@ -1,4 +1,4 @@
-﻿{
+{
   "notifications": "알림",
   "noNotifications": "알림 없음",
   "clear": "정리",
@@ -22,10 +22,12 @@
     "title": "토너먼트가 취소되었습니다",
     "message": "{{tournamentName}} 토너먼트가 취소되었습니다. {{refund}} <BasicCurrency/> 만큼이 환불되었습니다."
   },
+
   "updatePlanned": {
     "title": "업데이트 계획",
     "message": "<b>{{date}}</b>에 <b>{{name}}</b> 업데이트가 예정되어 있습니다. 클릭해서 세부사항을 확인하세요."
   },
+
   "banDodge": {
     "title": "{{minutes}} 동안 일시중지됨",
     "message": "{{games}} 순위전을 포기했기에 타 순위전을 플레이하려면 조금 기다려야 합니다."
