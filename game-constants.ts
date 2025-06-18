@@ -160,4 +160,8 @@ export default {
 
   DEPLOYMENT_TURN_ADDITIONAL_SECONDS: 30,
   HEAD_ON_COLLISION_COSINE_THRESHOLD_SQUARED: 0.015625, // 0.125 * 0.125
+
+  HEIGHT_CHANGE_STAMINA_COST: 0.02, // 2% stamina cost for height changes
+  HEIGHT_CHANGE_TICKS: 12,
+  HEIGHT_CHANGE_RUNNING_STAMINA_COST: 0.04, // 4% stamina cost for height changes when running
 };
