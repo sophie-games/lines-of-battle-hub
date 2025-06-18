@@ -1,4 +1,4 @@
-{
+﻿{
   "gameplay": "게임 플레이",
   "graphics": "그래픽",
   "camera": "카메라",
@@ -73,6 +73,10 @@
     "title": "그림자",
     "description": "부대 그림자를 활성화합니다. 게임 턴이 지나야 적용됩니다."
   },
+  "showCollisionShapes": {
+    "title": "충돌범위 표시",
+    "description": "부대에 충돌범위를 표시합니다. 부대를 갱신하려면 턴이 지나야 합니다."
+  },
   "fullScreen": {
     "title": "전체 화면",
     "description": "애플리케이션 전체 화면 전환",
@@ -87,6 +91,9 @@
   "checkerboardFormation": "귀진진",
   "spaceBetweenUnits": "부대 간 공간",
   "spaceBetweenLines": "선형진 간 공간",
+  "showSelectIdleUnitButton": {
+    "title": "유휴 부대 선택 버튼 표시"
+  },
   "keybindings": {
     "title": "키보드 단축키",
     "pressAKey": "지정할 키를 누르세요...",
