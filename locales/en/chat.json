@@ -1,0 +1,9 @@
+{
+  "warning": "Messages are not saved and will be cleared when you exit the match.",
+  "rateLimitWarning": "You are sending messages too quickly. Please wait a moment (max {{count}} messages per {{seconds}} seconds).",
+  "placeholderAllies": "Message to allies...",
+  "placeholderAll": "Message to all...",
+  "userConnected": "{{username}} connected",
+  "userDisconnected": "{{username}} disconnected",
+  "profanityWarning": "Profanity detected: \"{{word}}\""
+}

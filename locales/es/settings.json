@@ -87,6 +87,10 @@
   "spaceBetweenUnits": "Espacio entre unidades",
   "spaceBetweenLines": "Espacio entre líneas",
 
+  "showChat": {
+    "title": "Mostrar chat"
+  },
+
   "keybindings": {
     "title": "Atajos de teclado",
     "pressAKey": "Presiona una tecla...",
@@ -103,6 +107,7 @@
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
     "fallbackOrder": "Orden de retirada",
     "toggleFormation": "Alternar formación",
-    "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes"
+    "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
+    "openChat": "Abrir chat"
   }
 }

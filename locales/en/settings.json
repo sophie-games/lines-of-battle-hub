@@ -103,6 +103,10 @@
     "title": "Show select idle unit button"
   },
 
+  "showChat": {
+    "title": "Show chat"
+  },
+
   "keybindings": {
     "title": "Keybindings",
     "pressAKey": "Press a key...",
@@ -119,6 +123,7 @@
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
     "toggleFormation": "Toggle formation",
-    "toggleSmartCurvedMovements": "Toggle Smart Curved Movements"
+    "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
+    "openChat": "Open chat"
   }
 }

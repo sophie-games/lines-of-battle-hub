@@ -1,0 +1,8 @@
+{
+  "warning": "Wiadomości nie są zapisywane i zostaną usunięte po opuszczeniu meczu.",
+  "rateLimitWarning": "Wysyłasz wiadomości zbyt szybko. Proszę poczekać (maks. {{count}} wiadomości na {{seconds}} sekund).",
+  "placeholderAllies": "Wiadomość do sojuszników...",
+  "placeholderAll": "Wiadomość do wszystkich...",
+  "userConnected": "{{username}} dołączył",
+  "userDisconnected": "{{username}} opuścił czat"
+} 

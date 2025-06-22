@@ -1,0 +1,8 @@
+{
+  "warning": "Pesan tidak disimpan dan akan dihapus saat Anda keluar dari pertandingan.",
+  "rateLimitWarning": "Anda mengirim pesan terlalu cepat. Harap tunggu sebentar (maks {{count}} pesan per {{seconds}} detik).",
+  "placeholderAllies": "Pesan ke sekutu...",
+  "placeholderAll": "Pesan ke semua...",
+  "userConnected": "{{username}} terhubung",
+  "userDisconnected": "{{username}} terputus"
+} 

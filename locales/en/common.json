@@ -311,14 +311,15 @@
     "8": "Snow",
     "9": "Dirt",
     "10": "Sand",
-    "11": "Farm",
+    "11": "Farm, Harvest",
     "12": "City",
     "13": "Forest, Winter",
     "14": "Cliff, Winter",
     "15": "Road, Winter",
     "16": "Ice",
     "17": "Farm, Unplanted",
-    "18": "Farm, Grown"
+    "18": "Farm, Growing",
+    "19": "Mud"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -749,5 +750,9 @@
   "errorCheckingTimeout": "Error checking timeout",
   "disconnectedMessage": "Lost connection with the server. Reconnecting...",
   "reconnectedMessage": "Connection succeed. Syncing game...",
-  "removesX": "Removes {{x}}"
+  "removesX": "Removes {{x}}",
+  "send": "Send",
+  "chat": "Chat",
+  "spectator": "Spectator",
+  "system": "System"
 }
