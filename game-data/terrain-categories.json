@@ -6,6 +6,23 @@
     }
   },
 
+  "mud": {
+    "canPlaceObjectives": true,
+    "defenseModifier": {
+      "militia": -0.5
+    },
+    "movementModifier": {
+      "infantry": -0.2,
+      "lightInfantry": -0.2,
+      "skirmishInfantry": -0.2,
+      "militiaInfantry": -0.2,
+      "midCavalry": -0.2,
+      "lightCavalry": -0.2,
+      "heavyCavalry": -0.2,
+      "artillery": -0.2
+    }
+  },
+
   "forest": {
     "staminaCostModifier": 1,
     "hitboxHeight": 2,
