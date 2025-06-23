@@ -44,7 +44,7 @@
     "orgRadius": 76,
     "orgRadiusBonus": 2,
     "movementSound": "cavalry-movement",
-    "manpower": 125,
+    "manpower": 100,
     "gold": 75
   },
   {
@@ -81,7 +81,7 @@
     "meleeDefense": 30,
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
-    "chargeBonus": 75,
+    "chargeBonus": 80,
     "chargeResistance": 0.5,
     "runChargeResistanceModifier": -0.85,
     "chargePenetration": 0.35,
@@ -119,7 +119,7 @@
     "orgRadius": 76,
     "orgRadiusBonus": 2,
     "movementSound": "cavalry-movement",
-    "manpower": 125,
+    "manpower": 100,
     "gold": 100,
     "basicPrice": 400,
     "premiumPrice": 40
@@ -195,11 +195,11 @@
     "timeToRun": 4,
     "hp": 550,
     "org": 575,
-    "stamina": 1000,
+    "stamina": 1100,
     "orgRadius": 120,
     "orgRadiusBonus": 6,
     "movementSound": "cavalry-movement",
-    "manpower": 150,
+    "manpower": 125,
     "gold": 100,
     "basicPrice": 400,
     "premiumPrice": 40
@@ -241,7 +241,7 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 30,
-    "chargeResistance": -0.35,
+    "chargeResistance": -0.4,
     "runChargeResistanceModifier": -0.85,
     "walkMovement": 60,
     "runMovement": 100,
@@ -275,7 +275,7 @@
     "orgRadius": 76,
     "orgRadiusBonus": 2,
     "movementSound": "cavalry-movement",
-    "manpower": 100,
+    "manpower": 75,
     "gold": 75
   },
   {
@@ -325,7 +325,7 @@
     "orgRadius": 24,
     "orgRadiusBonus": 3.3,
     "movementSound": "cavalry-movement",
-    "manpower": 100,
+    "manpower": 75,
     "gold": 75,
     "basicPrice": 10000,
     "premiumPrice": 500,
