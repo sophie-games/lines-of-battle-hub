@@ -106,7 +106,7 @@
     "submitOrders": "Befehle absenden",
     "deselect": "Abwählen",
     "moveOrder": "Bewegungsauftrag",
-    "seekOrder": "Suchauftrag",
+    "runOrder": "Suchauftrag",
     "shootOrder": "Schießauftrag",
     "fireAndAdvanceOrder": "Feuer-und-Vorrück-Auftrag",
     "fallbackOrder": "Rückzugsauftrag",

@@ -537,5 +537,9 @@
     "message": "Êtes-vous certain(e) de vouloir quitter <0>{{clanName}}</0>?"
   },
   "resetToDefault": "Réinitialiser",
-  "submittingOrders": "Envoyer les ordres..."
+  "submittingOrders": "Envoyer les ordres...",
+  "serverUpdating": {
+    "title": "Mise à jour du serveur",
+    "message": "Le serveur est en cours de mise à jour. Veuillez réessayer dans quelques minutes."
+  }
 }

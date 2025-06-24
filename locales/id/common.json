@@ -536,5 +536,9 @@
   "leaveClanModal": {
     "message": "Apakah anda yakin ingin meninggalkan koalisi <0>{{clanName}}</0>?"
   },
-  "resetToDefault": "Reset ke default"
+  "resetToDefault": "Reset ke default",
+  "serverUpdating": {
+    "title": "Server Sedang Diperbarui",
+    "message": "Server sedang diperbarui. Silakan coba lagi dalam beberapa menit."
+  }
 }

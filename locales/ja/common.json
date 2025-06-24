@@ -516,5 +516,9 @@
   "formation": "形成",
   "findGame": "ゲームを見つける",
   "gameIdOrLink": "ゲームIDまたはリンク",
-  "playFree": "無料で遊ぶ"
+  "playFree": "無料で遊ぶ",
+  "serverUpdating": {
+    "title": "サーバー更新中",
+    "message": "サーバーは現在更新中です。数分後に再度お試しください。"
+  }
 }

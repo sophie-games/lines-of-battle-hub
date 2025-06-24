@@ -684,5 +684,9 @@
   "gameIsNotFull": "El juego aún no está lleno",
   "invitationCopied": "¡Enlace copiado! Envíalo a un amigo.",
   "inviteFriend": "Invitar a un amigo",
-  "checkStarted": "Verificar si ha comenzado"
+  "checkStarted": "Verificar si ha comenzado",
+  "serverUpdating": {
+    "title": "Servidor en actualización",
+    "message": "El servidor se está actualizando. Por favor, inténtalo de nuevo en unos minutos."
+  }
 }

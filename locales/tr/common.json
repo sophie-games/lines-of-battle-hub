@@ -527,5 +527,9 @@
   "formation": "Formasyon",
   "findGame": "Oyun bul",
   "gameIdOrLink": "Oyun ID’si veya bağlantı",
-  "playFree": "Ücretsiz Oyna"
+  "playFree": "Ücretsiz Oyna",
+  "serverUpdating": {
+    "title": "Sunucu Güncelleniyor",
+    "message": "Sunucu şu anda güncelleniyor. Lütfen birkaç dakika sonra tekrar deneyin."
+  }
 }

@@ -681,5 +681,9 @@
   "gameIsNotFull": "경기 인원이 충족되지 않음",
   "invitationCopied": "링크가 복사되었습니다! 친구에게 보내세요.",
   "inviteFriend": "친구 초대",
-  "checkStarted": "시작 여부 확인"
+  "checkStarted": "시작 여부 확인",
+  "serverUpdating": {
+    "title": "서버 업데이트 중",
+    "message": "서버가 현재 업데이트 중입니다. 잠시 후 다시 시도해 주세요."
+  }
 }

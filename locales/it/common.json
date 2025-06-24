@@ -523,5 +523,9 @@
   "formation": "Formazione",
   "findGame": "Trova partita",
   "gameIdOrLink": "ID partita o link",
-  "playFree": "Gioca Gratis"
+  "playFree": "Gioca Gratis",
+  "serverUpdating": {
+    "title": "Aggiornamento del server",
+    "message": "Il server è attualmente in fase di aggiornamento. Riprova tra qualche minuto."
+  }
 }

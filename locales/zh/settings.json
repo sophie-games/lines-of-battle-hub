@@ -102,7 +102,7 @@
     "submitOrders": "提交指令",
     "deselect": "取消选择",
     "moveOrder": "移动指令",
-    "seekOrder": "追踪指令",
+    "runOrder": "追踪指令",
     "shootOrder": "射击指令",
     "fireAndAdvanceOrder": "移动射击指令",
     "fallbackOrder": "后退指令",

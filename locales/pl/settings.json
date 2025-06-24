@@ -95,7 +95,7 @@
     "submitOrders": "Zatwierdź rozkazy",
     "deselect": "Odznacz",
     "moveOrder": "Rozkaz Ruchu",
-    "seekOrder": "Rozkaz Pogoni",
+    "runOrder": "Rozkaz Pogoni",
     "shootOrder": "Rozkaz Ostrzału",
     "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
     "fallbackOrder": "Rozkaz Odwrotu",

@@ -463,5 +463,9 @@
   "formation": "Képzés",
   "findGame": "Játék keresése",
   "gameIdOrLink": "Játékazonosító vagy link",
-  "playFree": "Ingyen Játszik"
+  "playFree": "Ingyen Játszik",
+  "serverUpdating": {
+    "title": "Szerver frissítése",
+    "message": "A szervert jelenleg frissítik. Kérjük, próbálja meg néhány perc múlva újra."
+  }
 }

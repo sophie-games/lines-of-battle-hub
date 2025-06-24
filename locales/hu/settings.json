@@ -101,7 +101,7 @@
     "submitOrders": "Parancsok elküldése",
     "deselect": "Kijelölés megszüntetése",
     "moveOrder": "Mozgási parancs",
-    "seekOrder": "Keresési parancs",
+    "runOrder": "Keresési parancs",
     "shootOrder": "Lövési parancs",
     "fireAndAdvanceOrder": "Tüzelés és előrehaladás parancs",
     "fallbackOrder": "Visszavonulási parancs"

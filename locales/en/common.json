@@ -754,5 +754,10 @@
   "send": "Send",
   "chat": "Chat",
   "spectator": "Spectator",
-  "system": "System"
+  "system": "System",
+  "serverUpdating": {
+    "title": "Server Updating",
+    "message": "The server is currently being updated. Please try again in a few minutes."
+  },
+  "selectFormation": "Select formation"
 }

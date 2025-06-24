@@ -102,7 +102,7 @@
     "submitOrders": "Emirleri gönder",
     "deselect": "Seçimi kaldır",
     "moveOrder": "Hareket emri",
-    "seekOrder": "Ara emri",
+    "runOrder": "Ara emri",
     "shootOrder": "Ateş emri",
     "fireAndAdvanceOrder": "Ateş ve ilerle emri",
     "fallbackOrder": "Geri çekil emri",

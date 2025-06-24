@@ -102,7 +102,7 @@
     "submitOrders": "Kirim Perintah",
     "deselect": "Batalkan pilihan",
     "moveOrder": "Perintah Bergerak",
-    "seekOrder": "Perintah Mencari Musuh",
+    "runOrder": "Perintah Mencari Musuh",
     "shootOrder": "Perinntah Menembak",
     "fireAndAdvanceOrder": "Perintah Menembak Dengan Bergerak",
     "fallbackOrder": "Perintah Mundur",

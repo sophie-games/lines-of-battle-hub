@@ -516,5 +516,9 @@
   "formation": "Formation",
   "findGame": "Spiel finden",
   "gameIdOrLink": "Spiel-ID oder Link",
-  "playFree": "Kostenlos Spielen"
+  "playFree": "Kostenlos Spielen",
+  "serverUpdating": {
+    "title": "Server wird aktualisiert",
+    "message": "Der Server wird gerade aktualisiert. Bitte versuchen Sie es in ein paar Minuten erneut."
+  }
 }

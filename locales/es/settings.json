@@ -102,7 +102,7 @@
     "submitOrders": "Enviar órdenes",
     "deselect": "Deseleccionar",
     "moveOrder": "Orden de movimiento",
-    "seekOrder": "Orden de búsqueda",
+    "runOrder": "Orden de correr",
     "shootOrder": "Orden de disparo",
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
     "fallbackOrder": "Orden de retirada",

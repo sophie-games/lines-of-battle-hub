@@ -523,5 +523,9 @@
   "formation": "Formação",
   "findGame": "Encontrar jogo",
   "gameIdOrLink": "ID do jogo ou link",
-  "playFree": "Jogar Grátis"
+  "playFree": "Jogar Grátis",
+  "serverUpdating": {
+    "title": "Servidor em atualização",
+    "message": "O servidor está sendo atualizado. Por favor, tente novamente em alguns minutos."
+  }
 }

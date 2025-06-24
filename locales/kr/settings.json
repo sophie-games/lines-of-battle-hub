@@ -105,7 +105,7 @@
     "submitOrders": "명령 하달",
     "deselect": "선택 해제",
     "moveOrder": "이동 명령",
-    "seekOrder": "추적 명령",
+    "runOrder": "추적 명령",
     "shootOrder": "사격 명령",
     "fireAndAdvanceOrder": "사격 및 전진 명령",
     "fallbackOrder": "후퇴 명령",
