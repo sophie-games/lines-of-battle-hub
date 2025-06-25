@@ -630,7 +630,7 @@
   "schedule": "预定",
   "scheduleRound": "预定轮次",
   "altWarning": "开小号刷Elo的行为是被严令禁止的。一旦被发现将会对涉事账号进行处置。",
-  "withdrawFromName": "从{name}撤退",
+  "withdrawFromName": "从{{name}}撤退",
   "withdrawTournamentMessage": "你确定要从该锦标赛中撤退？",
   "steamBanner": {
     "title": "在Steam上将Lines of Battle加入愿望单吧！",
