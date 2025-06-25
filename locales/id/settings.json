@@ -107,5 +107,9 @@
     "fireAndAdvanceOrder": "Perintah Menembak Dengan Bergerak",
     "fallbackOrder": "Perintah Mundur",
     "toggleFormation": "Ubah Formasi"
+  },
+
+  "routingTransparency": {
+    "title": "Transparansi Unit Mundur"
   }
 }

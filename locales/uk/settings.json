@@ -92,5 +92,8 @@
     "fireAndAdvanceOrder": "Наказ стріляти і наступати",
     "fallbackOrder": "Наказ відступати",
     "toggleFormation": "Змінити формацію"
+  },
+  "routingTransparency": {
+    "title": "Прозорість відступаючих юнітів"
   }
 }

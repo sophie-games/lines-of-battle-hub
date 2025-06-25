@@ -108,5 +108,8 @@
     "fallbackOrder": "后退指令",
     "toggleFormation": "切换阵型",
     "toggleSmartCurvedMovements": "切换智能曲线移动"
+  },
+  "routingTransparency": {
+    "title": "溃退单位透明度"
   }
 }

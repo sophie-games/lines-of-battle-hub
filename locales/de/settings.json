@@ -113,5 +113,9 @@
     "toggleFormation": "Formation umschalten",
     "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
     "openChat": "Chat öffnen"
+  },
+
+  "routingTransparency": {
+    "title": "Transparenz von fliehenden Einheiten"
   }
 }

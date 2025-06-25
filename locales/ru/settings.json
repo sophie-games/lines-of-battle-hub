@@ -111,5 +111,9 @@
     "fallbackOrder": "Отход",
     "toggleFormation": "Выбор построения",
     "toggleSmartCurvedMovements": "Включение/отключение умного движения по кривой"
+  },
+
+  "routingTransparency": {
+    "title": "Прозрачность отступающих юнитов"
   }
 }

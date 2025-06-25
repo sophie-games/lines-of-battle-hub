@@ -105,5 +105,9 @@
     "shootOrder": "Ordine di sparo",
     "fireAndAdvanceOrder": "Ordine di sparare e avanzare",
     "fallbackOrder": "Ordine di ritirata"
+  },
+
+  "routingTransparency": {
+    "title": "Trasparenza delle unità in rotta"
   }
 }

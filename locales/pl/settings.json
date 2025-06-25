@@ -100,5 +100,9 @@
     "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
     "fallbackOrder": "Rozkaz Odwrotu",
     "toggleFormation": "Przełącz formację"
+  },
+
+  "routingTransparency": {
+    "title": "Przezroczystość jednostek uciekających"
   }
 }

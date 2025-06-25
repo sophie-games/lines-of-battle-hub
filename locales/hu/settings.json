@@ -105,5 +105,9 @@
     "shootOrder": "Lövési parancs",
     "fireAndAdvanceOrder": "Tüzelés és előrehaladás parancs",
     "fallbackOrder": "Visszavonulási parancs"
+  },
+
+  "routingTransparency": {
+    "title": "Menekülő egységek átlátszósága"
   }
 }

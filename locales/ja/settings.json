@@ -105,5 +105,9 @@
     "shootOrder": "射撃命令",
     "fireAndAdvanceOrder": "発砲して前進する命令",
     "fallbackOrder": "後退命令"
+  },
+
+  "routingTransparency": {
+    "title": "敗走ユニットの透明度"
   }
 }

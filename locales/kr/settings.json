@@ -111,5 +111,8 @@
     "fallbackOrder": "후퇴 명령",
     "toggleFormation": "진형 전환",
     "toggleSmartCurvedMovements": "지능적 곡선 이동 전환"
+  },
+  "routingTransparency": {
+    "title": "패주 유닛 투명도"
   }
 }

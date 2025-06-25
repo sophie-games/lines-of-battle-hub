@@ -109,5 +109,9 @@
     "toggleFormation": "Alternar formación",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
     "openChat": "Abrir chat"
+  },
+
+  "routingTransparency": {
+    "title": "Transparencia de Unidades en Retirada"
   }
 }

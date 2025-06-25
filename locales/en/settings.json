@@ -135,5 +135,9 @@
     "controlGroup8": "Control Group 8",
     "controlGroup9": "Control Group 9",
     "controlGroup0": "Control Group 0"
+  },
+
+  "routingTransparency": {
+    "title": "Routing Unit Transparency"
   }
 }

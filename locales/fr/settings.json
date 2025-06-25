@@ -106,5 +106,8 @@
     "toggleFormation": "Basculer la formation",
     "toggleSmartCurvedMovements": "Basculer les mouvements courbés intelligents",
     "openChat": "Ouvrir le chat"
+  },
+  "routingTransparency": {
+    "title": "Transparence des unités en déroute"
   }
 }
