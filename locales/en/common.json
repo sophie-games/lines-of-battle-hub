@@ -761,5 +761,12 @@
     "title": "Server Updating",
     "message": "The server is currently being updated. Please try again in a few minutes."
   },
-  "selectFormation": "Select formation"
+  "selectFormation": "Select formation",
+
+  "whatsNew": {
+    "title": "What's New",
+    "p1": "Check out the latest updates and features in Lines of Battle!",
+    "p2": "Stay tuned for more updates and new features coming to Lines of Battle!",
+    "p3": "Follow us on social media for the latest news and announcements."
+  }
 }

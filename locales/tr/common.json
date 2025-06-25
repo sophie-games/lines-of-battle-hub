@@ -531,5 +531,11 @@
   "serverUpdating": {
     "title": "Sunucu Güncelleniyor",
     "message": "Sunucu şu anda güncelleniyor. Lütfen birkaç dakika sonra tekrar deneyin."
+  },
+  "whatsNew": {
+    "title": "Yenilikler",
+    "p1": "Lines of Battle'deki en son güncellemeleri ve özellikleri kontrol edin!",
+    "p2": "Lines of Battle'e gelecek daha fazla güncelleme ve yeni özellikler için bizi takip edin!",
+    "p3": "En son haberler ve duyurular için bizi sosyal medyada takip edin."
   }
 }

@@ -675,5 +675,11 @@
   "serverUpdating": {
     "title": "服务器正在更新",
     "message": "服务器正在更新中，请几分钟后再试。"
+  },
+  "whatsNew": {
+    "title": "最新动态",
+    "p1": "查看Lines of Battle的最新更新和功能！",
+    "p2": "敬请期待更多更新和新功能即将登陆Lines of Battle！",
+    "p3": "在社交媒体上关注我们，获取最新消息和公告。"
   }
 }

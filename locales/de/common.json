@@ -520,5 +520,12 @@
   "serverUpdating": {
     "title": "Server wird aktualisiert",
     "message": "Der Server wird gerade aktualisiert. Bitte versuchen Sie es in ein paar Minuten erneut."
+  },
+
+  "whatsNew": {
+    "title": "Was ist neu",
+    "p1": "Schau dir die neuesten Updates und Funktionen in Lines of Battle an!",
+    "p2": "Bleib dran für weitere Updates und neue Funktionen, die zu Lines of Battle kommen!",
+    "p3": "Folge uns in den sozialen Medien für die neuesten Nachrichten und Ankündigungen."
   }
 }

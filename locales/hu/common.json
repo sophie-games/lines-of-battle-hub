@@ -467,5 +467,11 @@
   "serverUpdating": {
     "title": "Szerver frissítése",
     "message": "A szervert jelenleg frissítik. Kérjük, próbálja meg néhány perc múlva újra."
+  },
+  "whatsNew": {
+    "title": "Mi újság",
+    "p1": "Nézd meg a legújabb frissítéseket és funkciókat a Lines of Battle-ben!",
+    "p2": "Maradj velünk további frissítések és új funkciók érkezéséhez a Lines of Battle-ben!",
+    "p3": "Kövess minket a közösségi médiában a legfrissebb hírek és bejelentések érdekében."
   }
 }

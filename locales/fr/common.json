@@ -541,5 +541,11 @@
   "serverUpdating": {
     "title": "Mise à jour du serveur",
     "message": "Le serveur est en cours de mise à jour. Veuillez réessayer dans quelques minutes."
+  },
+  "whatsNew": {
+    "title": "Quoi de neuf",
+    "p1": "Découvrez les dernières mises à jour et fonctionnalités de Lines of Battle !",
+    "p2": "Restez à l'écoute pour plus de mises à jour et de nouvelles fonctionnalités à venir dans Lines of Battle !",
+    "p3": "Suivez-nous sur les réseaux sociaux pour les dernières nouvelles et annonces."
   }
 }
