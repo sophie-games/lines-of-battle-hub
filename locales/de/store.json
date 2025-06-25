@@ -7,8 +7,10 @@
   "aboutCurrencies": "Über Währungen",
 
   "currency": {
-    "basic": "<currency/>: Verdiene diese, in dem Sie Partien spielen. Benutzen Sie es, um Einheiten auszubilden und eine Armee aufzubauen.",
-    "premium": "<currency/>: Für den Kauf von Kosmetikartikeln, um mit Ihrem Style anzugeben. Wird hauptsächlich durch das Ausgeben von Echtgeld erstanden, da dies ein kostenloses Spiel ist.",
+    "basic": "Gulden",
+    "premium": "Prestige",
+    "basicDescription": "<currency/>: Verdiene diese, in dem Sie Partien spielen. Benutzen Sie es, um Einheiten auszubilden und eine Armee aufzubauen.",
+    "premiumDescription": "<currency/>: Für den Kauf von Kosmetikartikeln, um mit Ihrem Style anzugeben. Wird hauptsächlich durch das Ausgeben von Echtgeld erstanden, da dies ein kostenloses Spiel ist.",
     "rate": "{{rate}} {{currency}} pro USD",
     "purchase": "Kaufe {{amount}} {{currency}}",
     "totalSold": "Gesamtes <currency/> bisher verkauft: {{amount}}",

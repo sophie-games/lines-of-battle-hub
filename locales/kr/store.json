@@ -3,18 +3,20 @@
     "title": "<0/>을 얻으세요",
     "subtitle": "놀라운 치장들을 해금해 다른 이들과 차별화되세요!"
   },
-  
+
   "aboutCurrencies": "재화에 대해",
-  
+
   "currency": {
-    "basic": "<currency/>: 경기를 통해 획득할 수 있습니다. 부대를 모집하고 군대를 꾸리는 데 사용됩니다.",
-    "premium": "<currency/>: 치장을 구입하는 데 사용됩니다.  게임은 무료로 플레이할 수 있기에 대부분 실제 돈을 필요로 합니다.",
+    "basic": "플로린",
+    "premium": "명예",
+    "basicDescription": "<currency/>: 매치를 플레이하여 이 통화를 획득하세요. 유닛을 모집하고 군대를 구축하는 데 사용합니다.",
+    "premiumDescription": "<currency/>: 이 통화는 코스메틱을 구매하여 스타일을 과시하는 데 사용됩니다. 게임이 무료이므로 주로 실제 돈을 지출하여 획득합니다.",
     "rate": "1 미국 달러 당 {{rate}} {{currency}}",
     "purchase": "{{amount}} {{currency}} 구입",
     "totalSold": "총 <currency/> 판매량 : {{amount}}",
     "nextGoal": "다음 목표 : {{goal}} <currency/>"
   },
-  
+
   "purchaseConfirmation": "{{item}}(을)를 구입하시겠습니까?",
   "showPurchased": "구매 품목 표시"
 }

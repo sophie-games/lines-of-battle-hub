@@ -7,8 +7,10 @@
   "aboutCurrencies": "About Currencies",
 
   "currency": {
-    "basic": "<currency/>: Earn this by playing matches in the queue. Use it to recruit units and build your army.",
-    "premium": "<currency/>: This one's for buying cosmetics to flex your style. Mostly comes from spending real money since the game is free to play.",
+    "basic": "Florins",
+    "premium": "Prestige",
+    "basicDescription": "<currency/>: Earn this by playing matches in the queue. Use it to recruit units and build your army.",
+    "premiumDescription": "<currency/>: This one's for buying cosmetics to flex your style. Mostly comes from spending real money since the game is free to play.",
     "rate": "{{rate}} {{currency}} per USD",
     "purchase": "Purchase {{amount}} {{currency}}",
     "totalSold": "Total <currency/> sold so far: {{amount}}",

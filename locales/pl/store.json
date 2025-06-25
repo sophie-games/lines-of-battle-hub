@@ -7,8 +7,10 @@
   "aboutCurrencies": "O walutach",
 
   "currency": {
-    "basic": "<currency/>: Zdobywaj je grając losowe partie. Używane do rekrutowania jednostek i budowania armii.",
-    "premium": "<currency/>: Służy do kupowania dodatków kosmetycznych i chwalenia się stylem. Zdobywane głównie poprzez płacenie prawdziwymi pieniędzmi, bo gra jest darmowa.",
+    "basic": "Floreny",
+    "premium": "Prestiż",
+    "basicDescription": "<currency/>: Zdobywaj je grając losowe partie. Używane do rekrutowania jednostek i budowania armii.",
+    "premiumDescription": "<currency/>: Służy do kupowania dodatków kosmetycznych i chwalenia się stylem. Zdobywane głównie poprzez płacenie prawdziwymi pieniędzmi, bo gra jest darmowa.",
     "rate": "{{rate}} {{currency}} za USD",
     "purchase": "Zakup {{amount}} {{currency}}",
     "totalSold": "Łączna ilość sprzedanego <currency/>: {{amount}}",

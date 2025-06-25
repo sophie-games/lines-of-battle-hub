@@ -7,8 +7,10 @@
   "aboutCurrencies": "Sobre Moedas",
 
   "currency": {
-    "basic": "<currency/>: Ganhe isso jogando partidas na fila. Use-o para recrutar unidades e construir seu exército.",
-    "premium": "<currency/>: Esta é para comprar cosméticos e exibir seu estilo. Geralmente vem de gastar dinheiro real, já que o jogo é gratuito para jogar.",
+    "basic": "Florins",
+    "premium": "Prestígio",
+    "basicDescription": "<currency/>: Ganhe isso jogando partidas na fila. Use-o para recrutar unidades e construir seu exército.",
+    "premiumDescription": "<currency/>: Esta é para comprar cosméticos e exibir seu estilo. Geralmente vem de gastar dinheiro real, já que o jogo é gratuito para jogar.",
     "rate": "{{rate}} {{currency}} por USD",
     "purchase": "Compre {{amount}} {{currency}}",
     "totalSold": "Total de <currency/> vendido até agora: {{amount}}",

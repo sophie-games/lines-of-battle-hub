@@ -7,8 +7,10 @@
   "aboutCurrencies": "通貨について",
 
   "currency": {
-    "basic": "<currency/>: この通貨はマッチをプレイして得られます。ユニットを募集し、軍隊を編成するために使用します。",
-    "premium": "<currency/>: これはコスメティクスを購入してスタイルを自慢するためのものです。ゲームは無料でプレイできるため、ほとんどは実際のお金を使って入手します。",
+    "basic": "フロリン",
+    "premium": "威信",
+    "basicDescription": "<currency/>: この通貨はマッチをプレイして得られます。ユニットを募集し、軍隊を編成するために使用します。",
+    "premiumDescription": "<currency/>: これはコスメティクスを購入してスタイルを自慢するためのものです。ゲームは無料でプレイできるため、ほとんどは実際のお金を使って入手します。",
     "rate": "{{rate}} {{currency}} / USD",
     "purchase": "{{amount}} {{currency}} を購入",
     "totalSold": "これまでに販売された総 <currency/>: {{amount}}",

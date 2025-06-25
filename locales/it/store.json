@@ -7,8 +7,10 @@
   "aboutCurrencies": "Informazioni sulle valute",
 
   "currency": {
-    "basic": "<currency/>: Guadagna questa giocando partite in coda. Usala per reclutare unità e costruire il tuo esercito.",
-    "premium": "<currency/>: Questa serve per acquistare cosmetici per sfoggiare il tuo stile. Si ottiene principalmente spendendo soldi veri, dato che il gioco è gratuito.",
+    "basic": "Fiorini",
+    "premium": "Prestigio",
+    "basicDescription": "<currency/>: Guadagna questa giocando partite in coda. Usala per reclutare unità e costruire il tuo esercito.",
+    "premiumDescription": "<currency/>: Questa serve per acquistare cosmetici per sfoggiare il tuo stile. Si ottiene principalmente spendendo soldi veri, dato che il gioco è gratuito.",
     "rate": "{{rate}} {{currency}} per USD",
     "purchase": "Acquista {{amount}} {{currency}}",
     "totalSold": "Totale <currency/> venduti finora: {{amount}}",

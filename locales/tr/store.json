@@ -7,8 +7,10 @@
   "aboutCurrencies": "Para Birimleri Hakkında",
 
   "currency": {
-    "basic": "<currency/>: Bunu kuyrukta maç oynayarak kazan. Birimleri işe almak ve ordunu kurmak için kullan.",
-    "premium": "<currency/>: Bu, tarzını göstermek için kozmetik satın almak içindir. Oyun ücretsiz olduğu için genellikle gerçek para harcanarak elde edilir.",
+    "basic": "Florin",
+    "premium": "Prestij",
+    "basicDescription": "<currency/>: Bunu kuyrukta maç oynayarak kazan. Birimleri işe almak ve ordunu kurmak için kullan.",
+    "premiumDescription": "<currency/>: Bu, tarzını göstermek için kozmetik satın almak içindir. Oyun ücretsiz olduğu için genellikle gerçek para harcanarak elde edilir.",
     "rate": "USD başına {{rate}} {{currency}}",
     "purchase": "{{amount}} {{currency}} Satın Al",
     "totalSold": "Şimdiye kadar satılan toplam <currency/>: {{amount}}",
