@@ -107,9 +107,9 @@
     "autofirePriority": 2,
     "damageTypeResistances": {
       "bayonet": -0.05,
-      "cavalry-sabre": 0.4,
+      "cavalry-sabre": 0.45,
       "cavalry-lance": -0.05,
-      "dragoon-sword": 0.25,
+      "dragoon-sword": 0.2,
       "musket": -0.4,
       "light-musket": -0.4,
       "marksman-musket": -0.5,

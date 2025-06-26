@@ -11,12 +11,12 @@
   },
   "combat": {
     "manpower": 5000,
-    "gold": 2250,
+    "gold": 2500,
     "skirmisherRatio": [3, 6]
   },
   "battle": {
-    "manpower": 8000,
-    "gold": 4000,
+    "manpower": 7875,
+    "gold": 4150,
     "skirmisherRatio": [2, 5]
   },
   "grand_battle": {
