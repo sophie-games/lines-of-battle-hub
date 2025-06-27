@@ -154,9 +154,8 @@
     "limberMovement": "Limber Movement",
     "chargeResistance": "Charge Resistance",
     "status": "Status",
-    "timeToRun": "Time to run",
+    "timeToRun": "Time to Run",
     "runCost": "Run Cost",
-    "walkCost": "Walk Cost"
   },
 
   "unitCategory": {
