@@ -4,5 +4,6 @@
   "placeholderAllies": "发送给盟友的信息...",
   "placeholderAll": "发送给所有人的信息...",
   "userConnected": "{{username}} 已连接",
-  "userDisconnected": "{{username}} 已断开连接"
+  "userDisconnected": "{{username}} 已断开连接",
+  "profanityWarning": "检测到敏感词：\"{{word}}\""
 } 
