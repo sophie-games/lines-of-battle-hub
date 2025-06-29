@@ -94,6 +94,9 @@
   "showSelectIdleUnitButton": {
     "title": "유휴 부대 선택 버튼 표시"
   },
+  "showChat": {
+    "title": "채팅 보기"
+  },
   "keybindings": {
     "title": "키보드 단축키",
     "pressAKey": "지정할 키를 누르세요...",
@@ -105,11 +108,25 @@
     "submitOrders": "명령 하달",
     "deselect": "선택 해제",
     "moveOrder": "이동 명령",
-    "seekOrder": "추적 명령",
+    "runOrder": "주행 명령",
     "shootOrder": "사격 명령",
     "fireAndAdvanceOrder": "사격 및 전진 명령",
     "fallbackOrder": "후퇴 명령",
     "toggleFormation": "진형 전환",
-    "toggleSmartCurvedMovements": "지능적 곡선 이동 전환"
+    "toggleSmartCurvedMovements": "지능적 곡선 이동 전환",
+    "openChat": "채팅 열기",
+    "controlGroup1": "부대 지정 1",
+    "controlGroup2": "부대 지정 2",
+    "controlGroup3": "부대 지정 3",
+    "controlGroup4": "부대 지정 4",
+    "controlGroup5": "부대 지정 5",
+    "controlGroup6": "부대 지정 6",
+    "controlGroup7": "부대 지정 7",
+    "controlGroup8": "부대 지정 8",
+    "controlGroup9": "부대 지정 9",
+    "controlGroup0": "부대 지정 0"
+  },
+  "routingTransparency": {
+    "title": "궤멸 상태 부대 투명도"
   }
 }

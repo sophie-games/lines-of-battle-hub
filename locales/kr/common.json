@@ -138,7 +138,8 @@
     "limberMovement": "포가 기동력",
     "chargeResistance": "돌격 저항력",
     "status": "상태",
-    "timeToRun": "Time to run"
+    "timeToRun": "주행까지의 시간",
+    "runCost": "주행 비용"
   },
   "unitCategory": {
     "1": "보병",
@@ -286,14 +287,15 @@
     "8": "설원",
     "9": "야지",
     "10": "사장",
-    "11": "농원",
+    "11": "추수기 농원",
     "12": "도시",
     "13": "겨울 삼림",
     "14": "겨울 절벽",
     "15": "겨울 도로",
     "16": "빙판",
     "17": "빈 농원",
-    "18": "농원"
+    "18": "작물이 자라는 농원",
+    "19": "진창"
   },
   "clearPlayerUnits": "플레이어 부대 지우기",
   "clearBotUnits": "컴퓨터 부대 지우기",
@@ -320,7 +322,7 @@
   "saving": "저장 중...",
   "armyInvalid": "이 편제는 사용할 수 없습니다. 수정이 필요합니다.",
   "landing": {
-    "title": "<0>라인스 오브 배틀</0>에 오신 걸 환영합니다",
+    "title": "<0/>에 오신 걸 환영합니다",
     "message": "<b>라인스 오브 배틀</b>은 나폴레옹 전쟁을 배경으로 한 멀티플레이어 동시 턴제 전략 게임입니다. 플레이어는 전술적 깊이와 역사적 몰입을 위해 설계된 이 게임에서 자신의 기술과 전략으로 상대에게서 승리를 거두어야 하는 장대한 전투에 참여하게 됩니다!",
     "privacy": "시작하면 <0>개인정보 취급방침</0>에 동의하는 것으로 여겨집니다."
   },
@@ -464,9 +466,7 @@
   "bot": "컴퓨터",
   "armyOfPlayer": "{{player}}번 플레이어의 군대",
   "averageElo": "평균 Elo",
-
   "hybridDescription": "혼성 지도는 무작위로 생성되는 것이 아닌 미리 설정된 지형을 사용하지만, 플레이어가 자신만의 군대를 사용하여 경기할 수 있습니다.",
-
   "playLastActionsModal": {
     "message": "자리를 비운 사이에 새로운 전투 내 변동 사항이 발생했습니다.\n최근 턴의 양상을 보고 싶으신가요?",
     "button": "시작"
@@ -663,7 +663,7 @@
   "skirmisherRatio": "척후대 비율",
   "friendlyFireImmune": "아군 오사 면역",
   "nearbyUnits": "인근 부대",
-  "preset": "Preset",
+  "preset": "표준",
   "hybrid": "혼합",
   "random": "무작위",
   "projectileWidth": "발사체 너비",
@@ -675,11 +675,34 @@
   "back": "후퇴",
   "cannotRecoverOrg": "조직력 회복 불가",
   "autofirePriority": "자동 사격 우선 순위",
-  "new": "New",
+  "new": "신규",
   "join": "참가",
   "spectate": "관전",
   "gameIsNotFull": "경기 인원이 충족되지 않음",
   "invitationCopied": "링크가 복사되었습니다! 친구에게 보내세요.",
   "inviteFriend": "친구 초대",
-  "checkStarted": "시작 여부 확인"
+  "checkStarted": "시작 여부 확인",
+  "errorWhenSubmittingOrders": "명령 하달 중 오류",
+  "syncGame": "게임 동기화",
+  "copyLogs": "로그 복사",
+  "copyLogsInstructions": "버그를 신고하고 싶으신가요? 스크린샷을 찍고 로그를 복사해 레오에게 보내주세요.",
+  "errorCheckingTimeout": "확인 시간 초과 오류",
+  "disconnectedMessage": "서버와의 연결이 끊어졌습니다. 재연결 중...",
+  "reconnectedMessage": "연결하는 데 성공했습니다. 게임 동기화 중...",
+  "removesX": "{{x}} 제거",
+  "send": "보내기",
+  "chat": "채팅",
+  "spectator": "관전자",
+  "system": "시스템",
+  "serverUpdating": {
+    "title": "서버 업데이트 중",
+    "message": "서버가 업데이트 중입니다. 몇 분 후 다시 시도해 주세요."
+  },
+  "selectFormation": "진형 선택",
+  "whatsNew": {
+    "title": "새로운 소식",
+    "p1": "라인스 오브 배틀의 최신 업데이트와 기능을 확인해 보세요!",
+    "p2": "라인스 오브 배틀에 더 많은 기능이 추가될 예정이니 기대해 주세요!",
+    "p3": "소셜 미디어에서 최신 소식와 공지사항을 확인하세요."
+  }
 }
