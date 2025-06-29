@@ -1,8 +1,9 @@
 {
-  "warning": "메시지는 저장되지 않으며, 매치에서 나가면 삭제됩니다.",
-  "rateLimitWarning": "메시지를 너무 빠르게 보내고 있습니다. 잠시만 기다려 주세요 (최대 {{seconds}}초에 {{count}}개 메시지).",
-  "placeholderAllies": "동맹에게 메시지...",
-  "placeholderAll": "모두에게 메시지...",
-  "userConnected": "{{username}}님이 접속했습니다",
-  "userDisconnected": "{{username}}님이 나갔습니다"
-} 
+  "warning": "메시지는 저장되지 않으며, 경기가 종료되면 삭제됩니다.",
+  "rateLimitWarning": "메시지를 너무 빨리 보내고 있습니다. 잠시만 기다려 주세요. ({{seconds}}초 당 최대 메시지 : {{count}}개)",
+  "placeholderAllies": "동맹에게...",
+  "placeholderAll": "모두에게...",
+  "userConnected": "{{username}} 님과 연결됨",
+  "userDisconnected": "{{username}} 님과 연결이 끊김",
+  "profanityWarning": "욕설이 감지됨 : \"{{word}}\""
+}
