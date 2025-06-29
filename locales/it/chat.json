@@ -1,0 +1,9 @@
+{
+  "warning": "I messaggi non vengono salvati e saranno cancellati quando esci dalla partita.",
+  "rateLimitWarning": "Stai inviando messaggi troppo velocemente. Attendi un momento (max {{count}} messaggi ogni {{seconds}} secondi).",
+  "placeholderAllies": "Messaggio agli alleati...",
+  "placeholderAll": "Messaggio a tutti...",
+  "userConnected": "{{username}} si è connesso",
+  "userDisconnected": "{{username}} si è disconnesso",
+  "profanityWarning": "Rilevato linguaggio inappropriato: \"{{word}}\""
+} 

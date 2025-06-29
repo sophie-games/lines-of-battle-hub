@@ -523,5 +523,15 @@
   "formation": "Formação",
   "findGame": "Encontrar jogo",
   "gameIdOrLink": "ID do jogo ou link",
-  "playFree": "Jogar Grátis"
+  "playFree": "Jogar Grátis",
+  "serverUpdating": {
+    "title": "Servidor em atualização",
+    "message": "O servidor está sendo atualizado. Por favor, tente novamente em alguns minutos."
+  },
+  "whatsNew": {
+    "title": "O que há de novo",
+    "p1": "Confira as últimas atualizações e recursos em Lines of Battle!",
+    "p2": "Fique atento para mais atualizações e novos recursos chegando ao Lines of Battle!",
+    "p3": "Siga-nos nas redes sociais para as últimas notícias e anúncios."
+  }
 }

@@ -1,0 +1,8 @@
+{
+  "warning": "メッセージは保存されず、マッチを退出すると消去されます。",
+  "rateLimitWarning": "メッセージの送信が早すぎます。しばらくお待ちください（{{seconds}}秒ごとに最大{{count}}件まで）。",
+  "placeholderAllies": "味方へのメッセージ...",
+  "placeholderAll": "全員へのメッセージ...",
+  "userConnected": "{{username}}が接続しました",
+  "userDisconnected": "{{username}}が切断しました"
+} 

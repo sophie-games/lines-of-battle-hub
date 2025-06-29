@@ -87,10 +87,13 @@
     "submitOrders": "Віддати накази",
     "deselect": "Скасувати вибір",
     "moveOrder": "Наказ рухатися",
-    "seekOrder": "Наказ наступати",
+    "runOrder": "Наказ наступати",
     "shootOrder": "Наказ стріляти",
     "fireAndAdvanceOrder": "Наказ стріляти і наступати",
     "fallbackOrder": "Наказ відступати",
     "toggleFormation": "Змінити формацію"
+  },
+  "routingTransparency": {
+    "title": "Прозорість відступаючих юнітів"
   }
 }

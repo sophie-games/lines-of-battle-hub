@@ -91,6 +91,10 @@
   "spaceBetweenUnits": "Abstand zwischen Einheiten",
   "spaceBetweenLines": "Abstand zwischen Linien",
 
+  "showChat": {
+    "title": "Chat anzeigen"
+  },
+
   "keybindings": {
     "title": "Tastenkombinationen",
     "pressAKey": "Drücke eine Taste...",
@@ -102,9 +106,16 @@
     "submitOrders": "Befehle absenden",
     "deselect": "Abwählen",
     "moveOrder": "Bewegungsauftrag",
-    "seekOrder": "Suchauftrag",
+    "runOrder": "Suchauftrag",
     "shootOrder": "Schießauftrag",
     "fireAndAdvanceOrder": "Feuer-und-Vorrück-Auftrag",
-    "fallbackOrder": "Rückzugsauftrag"
+    "fallbackOrder": "Rückzugsauftrag",
+    "toggleFormation": "Formation umschalten",
+    "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
+    "openChat": "Chat öffnen"
+  },
+
+  "routingTransparency": {
+    "title": "Transparenz von fliehenden Einheiten"
   }
 }

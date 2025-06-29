@@ -154,7 +154,8 @@
     "limberMovement": "Limber Movement",
     "chargeResistance": "Charge Resistance",
     "status": "Status",
-    "timeToRun": "Time to run"
+    "timeToRun": "Time to Run",
+    "runCost": "Run Cost",
   },
 
   "unitCategory": {
@@ -311,14 +312,15 @@
     "8": "Snow",
     "9": "Dirt",
     "10": "Sand",
-    "11": "Farm",
+    "11": "Farm, Harvest",
     "12": "City",
     "13": "Forest, Winter",
     "14": "Cliff, Winter",
     "15": "Road, Winter",
     "16": "Ice",
     "17": "Farm, Unplanted",
-    "18": "Farm, Grown"
+    "18": "Farm, Growing",
+    "19": "Mud"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -749,5 +751,21 @@
   "errorCheckingTimeout": "Error checking timeout",
   "disconnectedMessage": "Lost connection with the server. Reconnecting...",
   "reconnectedMessage": "Connection succeed. Syncing game...",
-  "removesX": "Removes {{x}}"
+  "removesX": "Removes {{x}}",
+  "send": "Send",
+  "chat": "Chat",
+  "spectator": "Spectator",
+  "system": "System",
+  "serverUpdating": {
+    "title": "Server Updating",
+    "message": "The server is currently being updated. Please try again in a few minutes."
+  },
+  "selectFormation": "Select formation",
+
+  "whatsNew": {
+    "title": "What's New",
+    "p1": "Check out the latest updates and features in Lines of Battle!",
+    "p2": "Stay tuned for more updates and new features coming to Lines of Battle!",
+    "p3": "Follow us on social media for the latest news and announcements."
+  }
 }

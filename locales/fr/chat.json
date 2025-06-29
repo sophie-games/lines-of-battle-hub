@@ -1,0 +1,9 @@
+{
+  "warning": "Les messages ne sont pas sauvegardés et seront effacés lorsque vous quitterez la partie.",
+  "rateLimitWarning": "Vous envoyez des messages trop rapidement. Veuillez patienter un instant (max {{count}} messages par {{seconds}} secondes).",
+  "placeholderAllies": "Message aux alliés...",
+  "placeholderAll": "Message à tous...",
+  "userConnected": "{{username}} s'est connecté(e)",
+  "userDisconnected": "{{username}} s'est déconnecté(e)",
+  "profanityWarning": "Un mot inapproprié a été détecté : \"{{word}}\""
+} 

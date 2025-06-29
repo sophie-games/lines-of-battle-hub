@@ -7,8 +7,10 @@
   "aboutCurrencies": "Tentang Mata Uang",
 
   "currency": {
-    "basic": "<currency/>: Dapatkan mata uang ini dengan memainkan pertandingan dengan pemain lain. Gunakan untuk merekrut unit dan membangun pasukan Anda.",
-    "premium": "<currency/>: Mata uang yang ini untuk membeli kosmetik untuk memamerkan gaya Anda. Sebagian besar berasal dari pengeluaran uang sungguhan karena permainan ini gratis untuk dimainkan.",
+    "basic": "Florin",
+    "premium": "Prestise",
+    "basicDescription": "<currency/>: Dapatkan mata uang ini dengan memainkan pertandingan dengan pemain lain. Gunakan untuk merekrut unit dan membangun pasukan Anda.",
+    "premiumDescription": "<currency/>: Mata uang yang ini untuk membeli kosmetik untuk memamerkan gaya Anda. Sebagian besar berasal dari pengeluaran uang sungguhan karena permainan ini gratis untuk dimainkan.",
     "rate": "{{rate}} {{currency}} per USD",
     "purchase": "Beli {{amount}} {{currency}}",
     "totalSold": "Total <currency/> yang terjual sejauh ini: {{amount}}",

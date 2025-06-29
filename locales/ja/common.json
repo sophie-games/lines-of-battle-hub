@@ -516,5 +516,15 @@
   "formation": "形成",
   "findGame": "ゲームを見つける",
   "gameIdOrLink": "ゲームIDまたはリンク",
-  "playFree": "無料で遊ぶ"
+  "playFree": "無料で遊ぶ",
+  "serverUpdating": {
+    "title": "サーバー更新中",
+    "message": "サーバーは現在更新中です。数分後に再度お試しください。"
+  },
+  "whatsNew": {
+    "title": "新着情報",
+    "p1": "Lines of Battleの最新アップデートと機能をご覧ください！",
+    "p2": "Lines of Battleに来るさらなるアップデートと新機能にご期待ください！",
+    "p3": "最新のニュースとお知らせについては、ソーシャルメディアでフォローしてください。"
+  }
 }

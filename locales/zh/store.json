@@ -5,8 +5,10 @@
   },
   "aboutCurrencies": "货币介绍",
   "currency": {
-    "basic": "<currency/>：通过游玩匹配游戏赚取。可以用它来解锁新单位，让你的军队配置有更多选择。",
-    "premium": "<currency/>：用于购买装饰，让你的外观更加华丽。一般需要通过充值获得。",
+    "basic": "弗罗林",
+    "premium": "威望",
+    "basicDescription": "<currency/>：通过游玩匹配游戏赚取。可以用它来解锁新单位，让你的军队配置有更多选择。",
+    "premiumDescription": "<currency/>：用于购买装饰，让你的外观更加华丽。一般需要通过充值获得，毕竟游戏本身已经免费了嘛。",
     "rate": "{{rate}} {{currency}}每1美元",
     "purchase": "购买 {{amount}} {{currency}}",
     "totalSold": "目前总共售出的<currency/>：{{amount}}",

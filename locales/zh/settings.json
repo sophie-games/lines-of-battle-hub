@@ -91,6 +91,12 @@
   "checkerboardFormation": "棋盘编队",
   "spaceBetweenUnits": "单位之间的间距",
   "spaceBetweenLines": "前后列之间的间距",
+  "showSelectIdleUnitButton": {
+    "title": "显示选择闲置单位的按钮"
+  },
+  "showChat": {
+    "title": "显示聊天栏"
+  },
   "keybindings": {
     "title": "键位绑定",
     "pressAKey": "按下一个按键……",
@@ -102,11 +108,25 @@
     "submitOrders": "提交指令",
     "deselect": "取消选择",
     "moveOrder": "移动指令",
-    "seekOrder": "追踪指令",
+    "runOrder": "疾跑命令",
     "shootOrder": "射击指令",
     "fireAndAdvanceOrder": "移动射击指令",
     "fallbackOrder": "后退指令",
     "toggleFormation": "切换阵型",
-    "toggleSmartCurvedMovements": "切换智能曲线移动"
+    "toggleSmartCurvedMovements": "切换智能曲线移动",
+    "openChat": "打开聊天栏",
+    "controlGroup1": "控制编组1",
+    "controlGroup2": "控制编组2",
+    "controlGroup3": "控制编组3",
+    "controlGroup4": "控制编组4",
+    "controlGroup5": "控制编组5",
+    "controlGroup6": "控制编组6",
+    "controlGroup7": "控制编组7",
+    "controlGroup8": "控制编组8",
+    "controlGroup9": "控制编组9",
+    "controlGroup0": "控制编组0"
+  },
+  "routingTransparency": {
+    "title": "溃退单位透明度"
   }
 }

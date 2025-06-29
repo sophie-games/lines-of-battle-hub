@@ -684,5 +684,15 @@
   "gameIsNotFull": "El juego aún no está lleno",
   "invitationCopied": "¡Enlace copiado! Envíalo a un amigo.",
   "inviteFriend": "Invitar a un amigo",
-  "checkStarted": "Verificar si ha comenzado"
+  "checkStarted": "Verificar si ha comenzado",
+  "serverUpdating": {
+    "title": "Servidor en actualización",
+    "message": "El servidor se está actualizando. Por favor, inténtalo de nuevo en unos minutos."
+  },
+  "whatsNew": {
+    "title": "Qué hay de nuevo",
+    "p1": "¡Mira las últimas actualizaciones y funciones en Lines of Battle!",
+    "p2": "¡Mantente atento para más actualizaciones y nuevas funciones que llegarán a Lines of Battle!",
+    "p3": "Síguenos en las redes sociales para las últimas noticias y anuncios."
+  }
 }

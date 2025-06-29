@@ -536,5 +536,15 @@
   "leaveClanModal": {
     "message": "Apakah anda yakin ingin meninggalkan koalisi <0>{{clanName}}</0>?"
   },
-  "resetToDefault": "Reset ke default"
+  "resetToDefault": "Reset ke default",
+  "serverUpdating": {
+    "title": "Server Sedang Diperbarui",
+    "message": "Server sedang diperbarui. Silakan coba lagi dalam beberapa menit."
+  },
+  "whatsNew": {
+    "title": "Apa yang baru",
+    "p1": "Lihat pembaruan dan fitur terbaru di Lines of Battle!",
+    "p2": "Nantikan lebih banyak pembaruan dan fitur baru yang akan datang ke Lines of Battle!",
+    "p3": "Ikuti kami di media sosial untuk berita dan pengumuman terbaru."
+  }
 }

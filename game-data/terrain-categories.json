@@ -6,6 +6,23 @@
     }
   },
 
+  "mud": {
+    "canPlaceObjectives": true,
+    "defenseModifier": {
+      "militia": -0.5
+    },
+    "movementModifier": {
+      "infantry": -0.2,
+      "lightInfantry": -0.2,
+      "skirmishInfantry": -0.2,
+      "militiaInfantry": -0.2,
+      "midCavalry": -0.2,
+      "lightCavalry": -0.2,
+      "heavyCavalry": -0.2,
+      "artillery": -0.2
+    }
+  },
+
   "forest": {
     "staminaCostModifier": 1,
     "hitboxHeight": 2,
@@ -57,10 +74,10 @@
       "howitzer-canister": 0.2
     },
     "chargeResistanceModifier": {
-      "infantry": 0.25,
-      "lightInfantry": 0.25,
-      "skirmishInfantry": 0.75,
-      "militiaInfantry": 0.5,
+      "infantry": 0.3,
+      "lightInfantry": 0.3,
+      "skirmishInfantry": 0.8,
+      "militiaInfantry": 0.7,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "heavyCavalry": -0.8
@@ -69,7 +86,8 @@
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "heavyCavalry": -0.8
-    }
+    },
+    "fixedEnemyCollisionLevel": 2
   },
 
   "building": {
@@ -123,10 +141,10 @@
       "howitzer-canister": 0.6
     },
     "chargeResistanceModifier": {
-      "infantry": 0.25,
-      "lightInfantry": 0.25,
-      "skirmishInfantry": 0.75,
-      "militiaInfantry": 0.5,
+      "infantry": 0.5,
+      "lightInfantry": 0.5,
+      "skirmishInfantry": 1.0,
+      "militiaInfantry": 0.9,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "heavyCavalry": -0.8
@@ -135,7 +153,8 @@
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "heavyCavalry": -0.8
-    }
+    },
+    "fixedEnemyCollisionLevel": 2
   },
 
   "path": {

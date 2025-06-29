@@ -1,0 +1,8 @@
+{
+  "warning": "Az üzenetek nem kerülnek mentésre, és a mérkőzés elhagyásakor törlődnek.",
+  "rateLimitWarning": "Túl gyorsan küldesz üzeneteket. Kérlek, várj egy pillanatot (max. {{count}} üzenet {{seconds}} másodpercenként).",
+  "placeholderAllies": "Üzenet a szövetségeseknek...",
+  "placeholderAll": "Üzenet mindenkinek...",
+  "userConnected": "{{username}} csatlakozott",
+  "userDisconnected": "{{username}} lecsatlakozott"
+} 

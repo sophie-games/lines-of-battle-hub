@@ -746,5 +746,15 @@
   "syncGame": "Synchronizuj grę",
   "copyLogs": "Skopiuj logi",
   "copyLogsInstructions": "Chcesz zgłosić błąd? Proszę zrobić zrzut ekranu, skopiować logi i wysłać je do Leo.",
-  "errorCheckingTimeout": "Error checking timeout"
+  "errorCheckingTimeout": "Error checking timeout",
+  "serverUpdating": {
+    "title": "Aktualizacja serwera",
+    "message": "Serwer jest obecnie aktualizowany. Spróbuj ponownie za kilka minut."
+  },
+  "whatsNew": {
+    "title": "Co nowego",
+    "p1": "Sprawdź najnowsze aktualizacje i funkcje w Lines of Battle!",
+    "p2": "Bądź na bieżąco z kolejnymi aktualizacjami i nowymi funkcjami nadchodzącymi do Lines of Battle!",
+    "p3": "Śledź nas w mediach społecznościowych, aby otrzymywać najnowsze wiadomości i ogłoszenia."
+  }
 }

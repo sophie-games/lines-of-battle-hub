@@ -7,7 +7,7 @@
 
   "multiTurnOrders": {
     "title": "Ordres multi-tours",
-    "description": "Activer ce paramètre vous permettra de donner des ordres que le jeu mémorisera et mettra en œuvre d’un tour à l’autre. Ces ordres multi-tours peuvent s’étendre sur jusqu’à 10 tours de mouvement et inclure des ordres de mouvement comme 'Se déplacer' ainsi que des ordres de cible comme 'Chercher'."
+    "description": "Activer ce paramètre vous permettra de donner des ordres que le jeu mémorisera et mettra en œuvre d'un tour à l'autre. Ces ordres multi-tours peuvent s'étendre sur jusqu'à 10 tours de mouvement et inclure des ordres de mouvement comme 'Se déplacer' ainsi que des ordres de cible comme 'Chercher'."
   },
   "multiTurnPathMinDistance": {
     "title": "Distance minimale du chemin à plusieurs tours"
@@ -84,6 +84,10 @@
   "spaceBetweenUnits": "Espace entre les unités",
   "spaceBetweenLines": "Espace entre les lignes",
 
+  "showChat": {
+    "title": "Afficher le chat"
+  },
+
   "keybindings": {
     "title": "Raccourcis clavier",
     "pressAKey": "Appuie sur une touche...",
@@ -95,9 +99,15 @@
     "submitOrders": "Soumettre les ordres",
     "deselect": "Désélectionner",
     "moveOrder": "Ordre de déplacement",
-    "seekOrder": "Ordre de recherche",
+    "runOrder": "Ordre de recherche",
     "shootOrder": "Ordre de tir",
     "fireAndAdvanceOrder": "Ordre de tirer et avancer",
-    "fallbackOrder": "Ordre de repli"
+    "fallbackOrder": "Ordre de repli",
+    "toggleFormation": "Basculer la formation",
+    "toggleSmartCurvedMovements": "Basculer les mouvements courbés intelligents",
+    "openChat": "Ouvrir le chat"
+  },
+  "routingTransparency": {
+    "title": "Transparence des unités en déroute"
   }
 }

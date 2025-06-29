@@ -101,9 +101,13 @@
     "submitOrders": "命令を送信",
     "deselect": "選択解除",
     "moveOrder": "移動命令",
-    "seekOrder": "探索命令",
+    "runOrder": "探索命令",
     "shootOrder": "射撃命令",
     "fireAndAdvanceOrder": "発砲して前進する命令",
     "fallbackOrder": "後退命令"
+  },
+
+  "routingTransparency": {
+    "title": "敗走ユニットの透明度"
   }
 }

@@ -1,27 +1,27 @@
 [
   {
     "type": "bayonet",
-    "orgDamageRatio": 200
+    "orgDamageRatio": 215
   },
   {
     "type": "cavalry-sabre",
-    "orgDamageRatio": 200
+    "orgDamageRatio": 210
   },
   {
     "type": "cavalry-sword",
-    "orgDamageRatio": 200
+    "orgDamageRatio": 210
   },
   {
     "type": "dragoon-sword",
-    "orgDamageRatio": 200
+    "orgDamageRatio": 210
   },
   {
     "type": "artillery-sabre",
-    "orgDamageRatio": 200
+    "orgDamageRatio": 210
   },
   {
     "type": "cavalry-lance",
-    "orgDamageRatio": 200
+    "orgDamageRatio": 210
   },
   {
     "type": "musket",
@@ -31,12 +31,12 @@
     "ranges": [
       {
         "start": 0,
-        "end": 30,
-        "startMod": 3,
-        "endMod": 1.25,
+        "end": 35,
+        "startMod": 3.75,
+        "endMod": 1.5,
         "name": "close"
       },
-      { "start": 30, "end": 60, "startMod": 1.25, "endMod": 0 },
+      { "start": 35, "end": 65, "startMod": 1.5, "endMod": 0.25 },
       {
         "start": 60,
         "end": 100,
@@ -59,12 +59,12 @@
     "ranges": [
       {
         "start": 0,
-        "end": 30,
-        "startMod": 3,
-        "endMod": 1.25,
+        "end": 35,
+        "startMod": 3.75,
+        "endMod": 1.5,
         "name": "close"
       },
-      { "start": 30, "end": 60, "startMod": 1.25, "endMod": 0 },
+      { "start": 35, "end": 65, "startMod": 1.5, "endMod": 0.25 },
       {
         "start": 60,
         "end": 100,
@@ -82,17 +82,17 @@
   {
     "type": "marksman-musket",
     "ranged": true,
-    "orgDamageRatio": 250,
+    "orgDamageRatio": 275,
     "projectileWidth": 8,
     "ranges": [
       {
         "start": 0,
         "end": 45,
         "startMod": 1,
-        "endMod": 1,
+        "endMod": 0.75,
         "name": "close"
       },
-      { "start": 45, "end": 70, "startMod": 1, "endMod": 0 },
+      { "start": 45, "end": 70, "startMod": 0.75, "endMod": 0 },
       { "start": 70, "end": 100, "startMod": 0, "endMod": -0.4, "name": "long" }
     ],
     "shootingAngle": 350,
@@ -104,10 +104,10 @@
   {
     "type": "rifle",
     "ranged": true,
-    "orgDamageRatio": 300,
+    "orgDamageRatio": 325,
     "projectileWidth": 8,
     "ranges": [
-      { "start": 0, "end": 80, "startMod": 0, "endMod": 0 },
+      { "start": 0, "end": 80, "startMod": 0.5, "endMod": 0 },
       { "start": 80, "end": 100, "startMod": 0, "endMod": -0.2, "name": "long" }
     ],
     "shootingAngle": 350,
@@ -132,7 +132,7 @@
         "start": 235,
         "end": 425,
         "startMod": -0.1,
-        "endMod": -0.65,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -169,7 +169,7 @@
         "start": 250,
         "end": 500,
         "startMod": -0.1,
-        "endMod": -0.7,
+        "endMod": -0.75,
         "name": "long"
       }
     ],
@@ -206,7 +206,7 @@
         "start": 230,
         "end": 400,
         "startMod": -0.05,
-        "endMod": -0.65,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -243,7 +243,7 @@
         "start": 200,
         "end": 375,
         "startMod": -0.05,
-        "endMod": -0.65,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -270,8 +270,8 @@
     "orgDamageRatio": 180,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 0.63,
-      "end": 0.56,
+      "start": 0.7,
+      "end": 0.6,
       "modifier": -0.6
     },
     "ranges": [
@@ -281,7 +281,7 @@
         "start": 200,
         "end": 340,
         "startMod": 0,
-        "endMod": -0.25,
+        "endMod": -0.2,
         "name": "long"
       }
     ],
@@ -308,14 +308,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.25,
-        "endMod": 1.25,
+        "startMod": 2.5,
+        "endMod": 1.5,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 1.25,
+        "startMod": 1.5,
         "endMod": 0.3,
         "name": "long"
       }
@@ -336,14 +336,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.5,
-        "endMod": 1.5,
+        "startMod": 2.75,
+        "endMod": 1.75,
         "name": "close"
       },
       {
         "start": 69,
         "end": 145,
-        "startMod": 1.5,
+        "startMod": 1.75,
         "endMod": 0.3,
         "name": "long"
       }
@@ -361,11 +361,17 @@
     "orgDamageRatio": 180,
     "projectileWidth": 20,
     "ranges": [
-      { "start": 0, "end": 69, "startMod": 2, "endMod": 1, "name": "close" },
+      {
+        "start": 0,
+        "end": 69,
+        "startMod": 2.5,
+        "endMod": 1.5,
+        "name": "close"
+      },
       {
         "start": 69,
         "end": 120,
-        "startMod": 1,
+        "startMod": 1.5,
         "endMod": 0.35,
         "name": "long"
       }
@@ -383,11 +389,17 @@
     "orgDamageRatio": 180,
     "projectileWidth": 20,
     "ranges": [
-      { "start": 0, "end": 69, "startMod": 2, "endMod": 1, "name": "close" },
+      {
+        "start": 0,
+        "end": 69,
+        "startMod": 2.25,
+        "endMod": 1.25,
+        "name": "close"
+      },
       {
         "start": 69,
         "end": 110,
-        "startMod": 1,
+        "startMod": 1.25,
         "endMod": 0.35,
         "name": "long"
       }
@@ -403,6 +415,7 @@
     "type": "howitzer-canister",
     "ranged": true,
     "orgDamageRatio": 180,
+    "projectileWidth": 20,
     "ranges": [
       {
         "start": 0,

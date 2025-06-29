@@ -87,6 +87,10 @@
   "spaceBetweenUnits": "Espacio entre unidades",
   "spaceBetweenLines": "Espacio entre líneas",
 
+  "showChat": {
+    "title": "Mostrar chat"
+  },
+
   "keybindings": {
     "title": "Atajos de teclado",
     "pressAKey": "Presiona una tecla...",
@@ -98,11 +102,16 @@
     "submitOrders": "Enviar órdenes",
     "deselect": "Deseleccionar",
     "moveOrder": "Orden de movimiento",
-    "seekOrder": "Orden de búsqueda",
+    "runOrder": "Orden de correr",
     "shootOrder": "Orden de disparo",
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
     "fallbackOrder": "Orden de retirada",
     "toggleFormation": "Alternar formación",
-    "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes"
+    "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
+    "openChat": "Abrir chat"
+  },
+
+  "routingTransparency": {
+    "title": "Transparencia de Unidades en Retirada"
   }
 }

@@ -103,6 +103,10 @@
     "title": "Show select idle unit button"
   },
 
+  "showChat": {
+    "title": "Show chat"
+  },
+
   "keybindings": {
     "title": "Keybindings",
     "pressAKey": "Press a key...",
@@ -114,11 +118,26 @@
     "submitOrders": "Submit orders",
     "deselect": "Deselect",
     "moveOrder": "Move order",
-    "seekOrder": "Seek order",
+    "runOrder": "Run order",
     "shootOrder": "Shoot order",
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
     "toggleFormation": "Toggle formation",
-    "toggleSmartCurvedMovements": "Toggle Smart Curved Movements"
+    "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
+    "openChat": "Open chat",
+    "controlGroup1": "Control Group 1",
+    "controlGroup2": "Control Group 2",
+    "controlGroup3": "Control Group 3",
+    "controlGroup4": "Control Group 4",
+    "controlGroup5": "Control Group 5",
+    "controlGroup6": "Control Group 6",
+    "controlGroup7": "Control Group 7",
+    "controlGroup8": "Control Group 8",
+    "controlGroup9": "Control Group 9",
+    "controlGroup0": "Control Group 0"
+  },
+
+  "routingTransparency": {
+    "title": "Routing Unit Transparency"
   }
 }

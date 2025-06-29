@@ -1,0 +1,8 @@
+{
+  "warning": "Mesajlar kaydedilmez ve maçtan çıktığınızda silinir.",
+  "rateLimitWarning": "Çok hızlı mesaj gönderiyorsunuz. Lütfen biraz bekleyin (en fazla {{seconds}} saniyede {{count}} mesaj).",
+  "placeholderAllies": "Müttefiklere mesaj...",
+  "placeholderAll": "Herkese mesaj...",
+  "userConnected": "{{username}} bağlandı",
+  "userDisconnected": "{{username}} ayrıldı"
+} 

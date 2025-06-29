@@ -7,8 +7,10 @@
   "aboutCurrencies": "Acerca de las Monedas",
 
   "currency": {
-    "basic": "<currency/>: Gana esta moneda jugando partidas de emparejamiento. Usala para reclutar unidades y construir tu ejército.",
-    "premium": "<currency/>: Esta moneda sirve para comprar cosméticos y mostrar tu estilo. Principalmente se obtiene gastando dinero real, ya que el juego es gratuito.",
+    "basic": "Florines",
+    "premium": "Prestigio",
+    "basicDescription": "<currency/>: Gana esta moneda jugando partidas de emparejamiento. Usala para reclutar unidades y construir tu ejército.",
+    "premiumDescription": "<currency/>: Esta moneda sirve para comprar cosméticos y mostrar tu estilo. Principalmente se obtiene gastando dinero real, ya que el juego es gratuito.",
     "rate": "{{rate}} {{currency}} por USD",
     "purchase": "Comprar {{amount}} {{currency}}",
     "totalSold": "Total de <currency/> vendidos hasta ahora: {{amount}}",
