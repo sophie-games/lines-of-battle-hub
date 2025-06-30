@@ -155,7 +155,7 @@
     "chargeResistance": "Charge Resistance",
     "status": "Status",
     "timeToRun": "Time to Run",
-    "runCost": "Run Cost",
+    "runCost": "Run Cost"
   },
 
   "unitCategory": {
@@ -409,7 +409,7 @@
     "3": "Shoot",
     "4": "Fire and Advance",
     "6": "Fallback",
-    "7": "Skirmish"
+    "7": "No orders"
   },
 
   "selectOrder": "Select Order",

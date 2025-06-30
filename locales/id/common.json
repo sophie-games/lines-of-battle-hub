@@ -353,12 +353,12 @@
   "fetchingBattleActions": "Memuat data aksi pertempuran...",
 
   "order": {
-    "1": "Move",
-    "2": "Seek",
-    "3": "Shoot",
-    "4": "Fire and Advance",
-    "6": "Fallback",
-    "7": "Skirmish"
+    "1": "Bergerak",
+    "2": "Cari",
+    "3": "Tembak",
+    "4": "Tembak dan Maju",
+    "6": "Mundur",
+    "7": "Tidak ada perintah"
   },
 
   "selectOrder": "Pilih Perintah",

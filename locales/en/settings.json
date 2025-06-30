@@ -32,6 +32,10 @@
     "title": "Open Select Order Modal",
     "description": "Enable this option to show a modal for selecting orders during gameplay."
   },
+  "openSelectFormationModal": {
+    "title": "Open Select Formation Modal",
+    "description": "Enable this option to show a modal for selecting formations during gameplay."
+  },
   "showNewBattleEventsModal": {
     "title": "Show new battle events modal"
   },
