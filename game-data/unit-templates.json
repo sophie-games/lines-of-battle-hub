@@ -59,7 +59,7 @@
     "rangedDamageTypes": ["8lb-canister-fire", "8lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 35,
-    "runStartUpMovement": 0,
+    "runStartUpMovement": 16,
     "runMovement": 95,
     "timeToRun": 8,
     "runCost": 12,
@@ -139,7 +139,7 @@
     "rangedDamageTypes": ["6lb-canister-fire", "6lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 55,
-    "runStartUpMovement": 0,
+    "runStartUpMovement": 16,
     "runMovement": 165,
     "timeToRun": 8,
     "runCost": 12,
@@ -156,7 +156,8 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "deploymentBuffer": 48
   },
   {
     "type": 7,
@@ -222,7 +223,7 @@
     "rangedDamageTypes": ["howitzer-canister", "explosive-shell"],
     "chargeBonus": 5,
     "walkMovement": 60,
-    "runStartUpMovement": 0,
+    "runStartUpMovement": 16,
     "runMovement": 100,
     "timeToRun": 8,
     "runCost": 12,
@@ -288,7 +289,10 @@
     "orgRadiusBonus": 2,
     "movementSound": "cavalry-movement",
     "manpower": 75,
-    "gold": 75
+    "gold": 75,
+    "basicPrice": 400,
+    "premiumPrice": 40,
+    "deploymentBuffer": 64
   },
   {
     "type": 12,
@@ -300,7 +304,7 @@
     "rangedDamageTypes": ["12lb-canister-fire", "12lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 25,
-    "runStartUpMovement": 0,
+    "runStartUpMovement": 16,
     "runMovement": 90,
     "timeToRun": 8,
     "runCost": 12,
@@ -383,7 +387,7 @@
     "rangedDamageTypes": ["4lb-canister-fire", "4lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 65,
-    "runStartUpMovement": 0,
+    "runStartUpMovement": 16,
     "runMovement": 105,
     "timeToRun": 8,
     "runCost": 12,
@@ -433,7 +437,8 @@
       "12lb-cannon-ball",
       "explosive-shell"
     ],
-    "locked": true
+    "locked": true,
+    "deploymentBuffer": 64
   },
   {
     "type": 17,
@@ -468,7 +473,8 @@
       "12lb-cannon-ball",
       "explosive-shell"
     ],
-    "locked": true
+    "locked": true,
+    "deploymentBuffer": 64
   },
   {
     "type": 18,
@@ -480,7 +486,7 @@
     "rangedDamageTypes": ["6lb-canister-fire", "6lb-cannon-ball"],
     "chargeBonus": 5,
     "walkMovement": 55,
-    "runStartUpMovement": 0,
+    "runStartUpMovement": 16,
     "runMovement": 95,
     "timeToRun": 8,
     "runCost": 12,
@@ -510,7 +516,7 @@
     "rangedDamageTypes": ["rocket"],
     "chargeBonus": 5,
     "walkMovement": 60,
-    "runStartUpMovement": 0,
+    "runStartUpMovement": 16,
     "runMovement": 145,
     "timeToRun": 8,
     "runCost": 12,
