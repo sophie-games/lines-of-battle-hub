@@ -31,6 +31,10 @@
     "title": "启用指令菜单",
     "description": "如果启用，会在选择单位指令时打开一个菜单而不是点击切换。"
   },
+  "openSelectFormationModal": {
+    "title": "启用阵型菜单",
+    "description": "如果启用，会在选择阵型时打开一个菜单而不是点击切换。"
+  },
   "showNewBattleEventsModal": {
     "title": "显示战斗事件弹窗"
   },
