@@ -27,7 +27,7 @@
     "type": "musket",
     "ranged": true,
     "orgDamageRatio": 200,
-    "projectileWidth": 8,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -55,7 +55,7 @@
     "type": "light-musket",
     "ranged": true,
     "orgDamageRatio": 200,
-    "projectileWidth": 8,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -83,7 +83,7 @@
     "type": "marksman-musket",
     "ranged": true,
     "orgDamageRatio": 275,
-    "projectileWidth": 8,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -105,7 +105,7 @@
     "type": "rifle",
     "ranged": true,
     "orgDamageRatio": 325,
-    "projectileWidth": 8,
+    "projectileWidth": 12,
     "ranges": [
       { "start": 0, "end": 80, "startMod": 0.5, "endMod": 0 },
       { "start": 80, "end": 100, "startMod": 0, "endMod": -0.2, "name": "long" }
