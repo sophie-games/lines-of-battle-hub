@@ -163,5 +163,5 @@ export default {
   HEIGHT_CHANGE_STAMINA_COST: 0.02, // 2% stamina cost for height changes
   HEIGHT_CHANGE_TICKS: 12,
   HEIGHT_CHANGE_RUNNING_STAMINA_COST: 0.04, // 4% stamina cost for height changes when running
-  WALKING_STAMINA_REGAIN_MULTIPLIER: 0.75, // -75% stamina regain penalty when walking
+  WALKING_STAMINA_REGAIN_MODIFIER: -0.75, // -75% stamina regain penalty when walking
 };
