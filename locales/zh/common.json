@@ -139,8 +139,7 @@
     "chargeResistance": "冲锋抗性",
     "status": "状态",
     "timeToRun": "疾跑时间",
-    "runCost": "疾跑消耗",
-    "walkCost": "行进消耗"
+    "runCost": "疾跑消耗"
   },
   "unitCategory": {
     "1": "步兵",
@@ -268,8 +267,8 @@
   "bottomWidth": "底边宽",
   "height": "高度",
   "diminishByTargetOrg": "伤害受目标组织度影响",
-  "from": "最高",
-  "to": "最低",
+  "from": "从",
+  "to": "到",
   "lBy": "修正",
   "terrainHitboxHeight": "地形遮蔽高度",
   "statusEffects": "状态效果",
@@ -373,7 +372,8 @@
     "2": "疾跑",
     "3": "射击",
     "4": "移动射击",
-    "6": "后退"
+    "6": "后退",
+    "7": "无指令"
   },
   "selectOrder": "选择指令",
   "allowFireWhenMoving": "允许移动射击",
@@ -667,8 +667,8 @@
   "hybrid": "混合",
   "random": "随机",
   "projectileWidth": "射击宽度",
-  "allyCollisionLevel": "盟友碰撞等级",
-  "enemyCollisionLevel": "敌人碰撞等级",
+  "allyCollisionLevel": "友军碰撞等级",
+  "enemyCollisionLevel": "敌军碰撞等级",
   "projectilePassThrough": "射击经过",
   "keepsEnemyRun": "强迫敌军溃逃",
   "cannotMove": "无法移动",
@@ -688,7 +688,7 @@
   "copyLogsInstructions": "想报告bug吗？请保存截屏，复制日志，然后把它们发给Leo。",
   "errorCheckingTimeout": "错误检查超时",
   "disconnectedMessage": "丢失与服务器的连接。重新连接中…",
-  "reconnectedMessage": "链接成功。同步对局中…",
+  "reconnectedMessage": "连接成功。同步对局中…",
   "removesX": "移除{{x}}",
   "send": "发送",
   "chat": "聊天",
