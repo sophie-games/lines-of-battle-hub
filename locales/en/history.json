@@ -1,5 +1,8 @@
 {
   "watchGame": "Watch Game",
   "loadingGames": "Loading games...",
-  "noFinishedGamesYet": "No finished games yet!"
+  "noFinishedGamesYet": "No finished games yet!",
+  "yourTeam": "Your team",
+  "opponentTeam": "Opponent team",
+  "ranked": "Ranked"
 }

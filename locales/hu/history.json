@@ -1,5 +1,8 @@
 {
   "watchGame": "Meccs megtekintése",
   "loadingGames": "Meccsek betöltése...",
-  "noFinishedGamesYet": "A meccsek listája még üres!"
+  "noFinishedGamesYet": "A meccsek listája még üres!",
+  "yourTeam": "Saját csapat",
+  "opponentTeam": "Ellenfél csapata",
+  "ranked": "Ranglista"
 }

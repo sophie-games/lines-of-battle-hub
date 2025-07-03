@@ -1,5 +1,8 @@
 {
   "watchGame": "Tonton Permainan",
   "loadingGames": "Memuat Permainan...",
-  "noFinishedGamesYet": "Belum ada game yang selesai!"
+  "noFinishedGamesYet": "Belum ada game yang selesai!",
+  "yourTeam": "Tim Anda",
+  "opponentTeam": "Tim lawan",
+  "ranked": "Peringkat"
 }

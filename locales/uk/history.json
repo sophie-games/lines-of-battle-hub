@@ -1,5 +1,8 @@
 {
   "watchGame": "Дивитися гру",
   "loadingGames": "Завантаження ігор...",
-  "noFinishedGamesYet": "Ще немає завершених ігор!"
+  "noFinishedGamesYet": "Ще немає завершених ігор!",
+  "yourTeam": "Ваша команда",
+  "opponentTeam": "Команда суперника",
+  "ranked": "Рейтинговий"
 }

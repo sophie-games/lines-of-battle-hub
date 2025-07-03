@@ -1,5 +1,8 @@
 {
   "watchGame": "Obejrzyj partię",
   "loadingGames": "Ładowanie partii...",
-  "noFinishedGamesYet": "Brak ukończonych partii!"
+  "noFinishedGamesYet": "Brak ukończonych partii!",
+  "yourTeam": "Twoja drużyna",
+  "opponentTeam": "Drużyna przeciwnika",
+  "ranked": "Rankingowy"
 }
