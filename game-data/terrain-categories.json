@@ -24,17 +24,17 @@
   },
 
   "forest": {
-    "staminaCostModifier": 1,
+    "staminaCostModifier": 1.5,
     "hitboxHeight": 2,
     "movementModifier": {
-      "infantry": -0.35,
+      "infantry": -0.4,
       "lightInfantry": -0.35,
       "skirmishInfantry": -0.1,
-      "militiaInfantry": -0.35,
-      "midCavalry": -0.4,
-      "lightCavalry": -0.4,
-      "heavyCavalry": -0.4,
-      "artillery": -0.4
+      "militiaInfantry": -0.3,
+      "midCavalry": -0.6,
+      "lightCavalry": -0.6,
+      "heavyCavalry": -0.6,
+      "artillery": -0.5
     },
     "attackModifier": {
       "midCavalry": -0.5,
@@ -74,13 +74,13 @@
       "howitzer-canister": 0.2
     },
     "chargeResistanceModifier": {
-      "infantry": 0.3,
-      "lightInfantry": 0.3,
-      "skirmishInfantry": 0.8,
+      "infantry": 0.5,
+      "lightInfantry": 0.5,
+      "skirmishInfantry": 1,
       "militiaInfantry": 0.7,
-      "midCavalry": -0.8,
-      "lightCavalry": -0.8,
-      "heavyCavalry": -0.8
+      "midCavalry": -0.5,
+      "lightCavalry": -0.5,
+      "heavyCavalry": -0.5
     },
     "chargeBonusModifier": {
       "midCavalry": -0.8,
@@ -91,17 +91,17 @@
   },
 
   "building": {
-    "staminaCostModifier": 1,
+    "staminaCostModifier": 1.5,
     "hitboxHeight": 1.3,
     "movementModifier": {
-      "infantry": -0.2,
-      "lightInfantry": -0.15,
+      "infantry": -0.35,
+      "lightInfantry": -0.3,
       "skirmishInfantry": -0.1,
-      "militiaInfantry": -0.2,
-      "midCavalry": -0.4,
-      "lightCavalry": -0.4,
-      "heavyCavalry": -0.4,
-      "artillery": -0.2
+      "militiaInfantry": -0.25,
+      "midCavalry": -0.6,
+      "lightCavalry": -0.6,
+      "heavyCavalry": -0.6,
+      "artillery": -0.3
     },
     "attackModifier": {
       "midCavalry": -0.8,
@@ -141,13 +141,13 @@
       "howitzer-canister": 0.6
     },
     "chargeResistanceModifier": {
-      "infantry": 0.5,
-      "lightInfantry": 0.5,
-      "skirmishInfantry": 1.0,
+      "infantry": 0.6,
+      "lightInfantry": 0.6,
+      "skirmishInfantry": 1.5,
       "militiaInfantry": 0.9,
-      "midCavalry": -0.8,
-      "lightCavalry": -0.8,
-      "heavyCavalry": -0.8
+      "midCavalry": -0.7,
+      "lightCavalry": -0.7,
+      "heavyCavalry": -0.7
     },
     "chargeBonusModifier": {
       "midCavalry": -0.8,
@@ -158,7 +158,7 @@
   },
 
   "path": {
-    "staminaCostModifier": -0.25,
+    "staminaCostModifier": -0.35,
     "movementModifier": {
       "infantry": 0.3,
       "lightInfantry": 0.3,
