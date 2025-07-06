@@ -327,8 +327,8 @@
   "fetchingBattleActions": "Buscando ações de batalha...",
 
   "order": {
-    "1": "Mover",
-    "2": "Buscar",
+    "1": "Caminhada",
+    "2": "Corrida",
     "3": "Atirar",
     "4": "Fogo e Avanço",
     "6": "Recuar"

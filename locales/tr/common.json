@@ -329,8 +329,8 @@
   "fetchingBattleActions": "Savaş eylemleri alınıyor...",
 
   "order": {
-    "1": "Hareket",
-    "2": "Ara",
+    "1": "Yürümek",
+    "2": "Koşmak",
     "3": "Ateş",
     "4": "Ateş ve İlerle",
     "6": "Geri Çekil"

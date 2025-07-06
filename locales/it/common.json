@@ -327,8 +327,8 @@
   "fetchingBattleActions": "Recupero azioni di battaglia...",
 
   "order": {
-    "1": "Muovi",
-    "2": "Cerca",
+    "1": "Camminare",
+    "2": "Correre",
     "3": "Spara",
     "4": "Fuoco e Avanza",
     "6": "Ripiega"

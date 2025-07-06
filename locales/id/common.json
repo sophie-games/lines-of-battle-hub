@@ -330,8 +330,8 @@
   "fetchingBattleActions": "Memuat data aksi pertempuran...",
 
   "order": {
-    "1": "Bergerak",
-    "2": "Cari",
+    "1": "Berjalan",
+    "2": "Berlari",
     "3": "Tembak",
     "4": "Tembak dan Maju",
     "6": "Mundur",

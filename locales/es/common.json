@@ -339,8 +339,8 @@
   "fetchingBattleActions": "Obteniendo acciones de batalla...",
 
   "order": {
-    "1": "Mover",
-    "2": "Perseguir",
+    "1": "Caminar",
+    "2": "Correr",
     "3": "Disparar",
     "4": "Disparar y Avanzar",
     "6": "Retirada",

@@ -375,8 +375,8 @@
   "fetchingBattleActions": "Pozyskiwanie akcji bitwy...",
 
   "order": {
-    "1": "Ruch",
-    "2": "Pogoń",
+    "1": "Spacer",
+    "2": "Bieganie",
     "3": "Ostrzał",
     "4": "Natarcie z ostrzałem",
     "6": "Odwrót"

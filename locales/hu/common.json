@@ -327,8 +327,8 @@
   "fetchingBattleActions": "Ellenséges mozgások lekérése...",
 
   "order": {
-    "1": "Mozgás",
-    "2": "Üldözés",
+    "1": "Séta",
+    "2": "Futás",
     "3": "Célpont megadása",
     "4": "Mozgás közben lő",
     "6": "Visszahúzódás"

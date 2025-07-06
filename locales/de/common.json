@@ -327,8 +327,8 @@
   "fetchingBattleActions": "Ruft Schlachthandlungen ab...",
 
   "order": {
-    "1": "Bewegen",
-    "2": "Suchen",
+    "1": "Gehen",
+    "2": "Laufen",
     "3": "Schießen",
     "4": "Feuern und Vorrücken",
     "6": "Zurückfallen"

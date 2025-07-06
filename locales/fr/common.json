@@ -325,8 +325,8 @@
   "fetchingBattleActions": "Récupération des actions de la bataille...",
 
   "order": {
-    "1": "Mouvement",
-    "2": "Charger",
+    "1": "Marcher",
+    "2": "Courir",
     "3": "Tirer",
     "4": "Tirer en avançant",
     "6": "Reculer"
