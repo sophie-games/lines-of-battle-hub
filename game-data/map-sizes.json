@@ -1,14 +1,14 @@
 {
   "s": {
-    "map": { "width": 1424, "height": 1184 },
-    "deployment": { "width": 960, "height": 128, "zoneSeparation": 624 }
+    "map": { "width": 1424, "height": 976 },
+    "deployment": { "width": 960, "height": 128, "zoneSeparation": 560 }
   },
   "m": {
-    "map": { "width": 1968, "height": 1488 },
-    "deployment": { "width": 1128, "height": 176, "zoneSeparation": 896 }
+    "map": { "width": 1808, "height": 1408 },
+    "deployment": { "width": 1128, "height": 176, "zoneSeparation": 848 }
   },
   "l": {
-    "map": { "width": 2240, "height": 1808 },
-    "deployment": { "width": 1520, "height": 224, "zoneSeparation": 1184 }
+    "map": { "width": 2240, "height": 1728 },
+    "deployment": { "width": 1520, "height": 224, "zoneSeparation": 1104 }
   }
 }

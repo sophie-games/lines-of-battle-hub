@@ -78,9 +78,9 @@
       "lightInfantry": 0.5,
       "skirmishInfantry": 1,
       "militiaInfantry": 0.7,
-      "midCavalry": -0.5,
-      "lightCavalry": -0.5,
-      "heavyCavalry": -0.5
+      "midCavalry": -0.3,
+      "lightCavalry": -0.3,
+      "heavyCavalry": -0.3
     },
     "chargeBonusModifier": {
       "midCavalry": -0.8,
@@ -143,11 +143,11 @@
     "chargeResistanceModifier": {
       "infantry": 0.6,
       "lightInfantry": 0.6,
-      "skirmishInfantry": 1.5,
+      "skirmishInfantry": 1.25,
       "militiaInfantry": 0.9,
-      "midCavalry": -0.7,
-      "lightCavalry": -0.7,
-      "heavyCavalry": -0.7
+      "midCavalry": -0.4,
+      "lightCavalry": -0.4,
+      "heavyCavalry": -0.4
     },
     "chargeBonusModifier": {
       "midCavalry": -0.8,
