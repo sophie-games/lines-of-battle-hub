@@ -321,41 +321,17 @@
     "joiningGame": "Tritt Spiel bei...",
     "resources": "Lädt Ressourcen...",
     "fetchingGameData": "Ruft Spieldaten ab...",
-    "generatingMap": "Erzeugt Karte...",
-
-    "tip1": "Einheiten mit hoher Organisation erleiden bei einem Angriff wenig bis keinen zusätzlichen Schaden. Weichen Sie Ziele zuerst mit Feuer auf.",
-    "tip2": "Husaren sind eine leichte Kavallerie, die schwere Kämpfe vermeiden und beschädigte Einheiten und Artillerie aufspüren sollte.",
-    "tip3": "Musketen und Artillerie richten aus mittlerer Entfernung weit mehr Schaden an als aus großer Entfernung.",
-    "tip4": "Haubitzen feuern in einem hohen Bogen, was sie bei Angriffen auf Ziele in Wäldern und Gebäuden wesentlich effektiver macht als andere Artillerie.",
-    "tip5": "Sie können viele nützliche Informationen über Ihre Truppen finden, indem Sie eine Einheit auswählen, auf Info (Hotkey I) klicken und sich die Registerkarten der Einheiten ansehen.",
-    "tip6": "Fliehende Einheiten haben Abzüge bei der Neuorganisation und laufen Gefahr, komplett von der Karte gejagt zu werden. Bringen Sie desorganisierte Einheiten in Sicherheit, bevor sie fliehen, wann immer es möglich ist.",
-    "tip7": "Pferdeartillerie und Haubitzen sind viel mobiler als 12-Pfund-Artillerie. Es ist riskant, sie zusammen mit der Infanterie anzugreifen, aber sie können mit ihrem mächtigen Kartätschenfeuer auf kurze Entfernung das Blatt wenden.",
-    "tip8": "Wenn Sie eine Einheit auswählen, sehen Sie ihren Organisationsradius in Hellblau. Feinde in diesem Radius verlieren Organisation, während Freunde Organisation gewinnen.",
-    "tip9": "Ulane sind eine Elitekavallerie, die sich auf ihren verheerenden Angriff konzentriert, aber in einem längeren Kampf dem Kürassier unterlegen ist.",
-    "tip10": "Fernkampfangriffe, die eine Infanterieeinheit in der Flanke treffen, richten wesentlich mehr Schaden an.",
-    "tip11": "Siegpunkte erhält man, indem man dem Gegner Verluste zufügt oder das gegnerische Ziel mit Infanterie einnimmt. Ein großer Siegpunktevorsprung verlangsamt die Reorganisation der gegnerischen Einheiten und sichert den Sieg am Rundenende.",
-    "tip12": "Flankieren Sie den Feind, aber lassen Sie sich nicht flankieren.",
-    "tip13": "Schickt eure Lieblingsreplays über den Lines of Battle-Discord-Server ein, und das Entwicklerteam wird sie auf YouTube veröffentlichen!",
-    "tip14": "Wenn Sie Fragen zum Spiel haben, sollten Ihnen das Lines of Battle-Wiki, Reddit und der Discord-Server weiterhelfen können.",
-    "tip15": "Wenn Ihnen Lines of Battle gefällt und Sie die Entwicklern unterstützen möchten, treten Sie dem Patreon bei! Jeder Beitrag hilft.",
-    "tip16": "Wussten Sie, dass Sie Ihr Ziel während der Startphase verschieben können?",
-    "tip17": "Erobern Sie das feindliche Ziel, indem Sie 8 Runden lang ein Infanteriebataillon darauf platzieren, 8 Bataillone für eine Runde usw.",
-    "tip18": "Wählen Sie die Befehlsschaltfläche, um Befehle wie Rückzug, Feuern und Vorrücken und Schießen aufzurufen.",
-    "tip19": "Garde-Infanterie und Kürassiere haben einen starken Einfluss auf die Organisation anderer Truppen, indem sie einfach in der Nähe sind. Dieser Effekt ist stapelbar und kann dazu beitragen, dass einige wenige Eliteeinheiten das Blatt im Kampf wenden.",
-    "tip20": "Lassen Sie Ihrer Artillerie eine freie Sichtlinie; manövrieren Sie Ihre Infanterie nicht vor ihr.",
-    "tip21": "\"Es liegt an der Kavallerie, den Sieg zu verfolgen und zu verhindern, dass der geschlagene Feind sich sammelt.\" - Napoleon Bonaparte",
-    "tip22": "\"Zu planen, die Kavallerie für das Ende der Schlacht zurückzuhalten, zeigt kein Verständnis für die Kraft kombinierter Infanterie- und Kavallerieangriffe, weder für Angriff noch für Verteidigung.\" - Napoleon Bonaparte"
+    "generatingMap": "Erzeugt Karte..."
   },
 
   "fetchingBattleActions": "Ruft Schlachthandlungen ab...",
 
   "order": {
-    "1": "Bewegen",
-    "2": "Suchen",
+    "1": "Gehen",
+    "2": "Laufen",
     "3": "Schießen",
     "4": "Feuern und Vorrücken",
-    "6": "Zurückfallen",
-    "7": "Plänkeln"
+    "6": "Zurückfallen"
   },
 
   "selectOrder": "Befehl auswählen",

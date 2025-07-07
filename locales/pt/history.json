@@ -1,5 +1,8 @@
 {
   "watchGame": "Assistir Jogo",
   "loadingGames": "Carregando jogos...",
-  "noFinishedGamesYet": "Nenhum jogo finalizado ainda!"
+  "noFinishedGamesYet": "Nenhum jogo finalizado ainda!",
+  "yourTeam": "Seu time",
+  "opponentTeam": "Time adversário",
+  "ranked": "Ranqueada"
 }

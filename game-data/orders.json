@@ -9,12 +9,11 @@
   },
   "5": {},
   "6": {
-    "meleeDamageModifier": -0.15,
     "rangedDamageModifier": -0.4,
     "speedModifier": -0.3,
-    "receivedOrgDamageModifier": 0.2,
     "chargeResistance": -0.5,
     "allowFireWhenMoving": true,
     "keepsEnemyRun": true
-  }
+  },
+  "7": {}
 }

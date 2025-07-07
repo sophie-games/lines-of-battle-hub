@@ -319,41 +319,17 @@
     "joiningGame": "En train de rejoindre la partie...",
     "resources": "Chargement des ressources...",
     "fetchingGameData": "Récupérarion des données de la partie...",
-    "generatingMap": "Génération de la carte...",
-
-    "tip1": "Les unités avec une organisation élevée ne subissent presqu'aucun dégâts lorsqu'elles se font charger. Affaiblissez-les d'abord avec un feu nourri.",
-    "tip2": "Les hussards devraient cibler en priorité les unités affaiblies ainsi que l'artillerie.",
-    "tip3": "Les mousquets et l'artillerie sont bien plus mortels à moyenne plutôt qu'à longe portée.",
-    "tip4": "Le feu indirect des obusiers les rend bien plus efficaces pour atteindre des cibles retranchées dans des villes ou des forêts.",
-    "tip5": "Vous pouvez trouver de nombreuses informations sur une unité en la sélectionnant et en cliquant sur le bouton info (raccourci I).",
-    "tip6": "Les unités en déroute ont des malus pour se réorganiser et risquent de quitter le champ de bataille. Dissimulez vos unités désorganisées derrière votre ligne, si possible avant qu'elles ne fuient.",
-    "tip7": "L'artillerie à cheval et les obusiers sont bien plus mobiles que l'artillerie de 12 livres. Les faire suivre la ligne d'infanterie est risqué mais leurs tirs de mitraille peuvent changer le cours de la bataille.",
-    "tip8": "Lorsque vous sélectionnez une unité, vous verrez un cercle bleu autour de celle-ci. Les unités alliés qui y pénètrent regagnerons de l'organisation et à l'inverse les unités ennemis en perdrons.",
-    "tip9": "Les lanciers sont des unités d'élites qui trouvent leur force dans des charges dévastatrices, mais, à l'inverse des cuirassiers, ils se retrouvent en difficulté si le combat se prolonge.",
-    "tip10": "Les attaques qui frappent une unité d'infanterie sur le flanc feront bien plus de dégâts.",
-    "tip11": "Vous pouvez gagner des points de victoire en capturant l'objectif ou en infligeant des pertes à l'adversaire. Si vous dominez l'adverdaire aux points, cela ralentira la réorganisation de son armée et garantira votre victoire lorsque la limite du nombre de tours sera atteinte.",
-    "tip12": "Prenez l'adversaire de flanc, ne le laissez pas faire pareil.",
-    "tip13": "Partagez vos replays préférés sur le Discord et l'équipe de dév les mettra en évidence sur YouTube !",
-    "tip14": "Si vous avez une question, vous trouverez sûrement une réponse sur le Discord, le Reddit ou le Wiki du jeu.",
-    "tip15": "Si vous aimez Line of Battle et souhaitez aider le créateur, rejoignez le Patreon ! Chaque contribution compte.",
-    "tip16": "Saviez-vous que vous pouviez déplacer l'objectif durant la phase de déploiement ?",
-    "tip17": "Capturez l'objectif ennemi en plaçant une unité d'infanterie pendant 8 tours, 8 unités pendant 1 tour, etc.",
-    "tip18": "Appuyer sur le bouton « Ordre » pour accéder à des commandes comme « Reculer », « Tirer en avançant », « Tirer ».",
-    "tip19": "Les grenadiers et les cuirassiers influencent fortement l'organisation des unités à proximité. Ces effets se cumulent et peuvent servir à changer l'issue d'une bataille.",
-    "tip20": "Laissez une ligne de vue dégagée à votre artillerie ; ne manœuvrez pas votre infanterie devant elle.",
-    "tip21": "\"C’est à la cavalerie de suivre la victoire et d’empêcher l’ennemi vaincu de se rallier.\" — Napoléon Bonaparte",
-    "tip22": "\"Planifier de réserver la cavalerie pour la fin de la bataille, c’est ne pas concevoir la puissance des charges combinées d’infanterie et de cavalerie, que ce soit pour l’attaque ou pour la défense.\" — Napoléon Bonaparte"
+    "generatingMap": "Génération de la carte..."
   },
 
   "fetchingBattleActions": "Récupération des actions de la bataille...",
 
   "order": {
-    "1": "Mouvement",
-    "2": "Charger",
+    "1": "Marcher",
+    "2": "Courir",
     "3": "Tirer",
     "4": "Tirer en avançant",
-    "6": "Reculer",
-    "7": "Escarmouche"
+    "6": "Reculer"
   },
 
   "selectOrder": "Sélectionner un ordre",

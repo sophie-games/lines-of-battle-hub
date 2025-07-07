@@ -333,44 +333,18 @@
     "joiningGame": "Uniéndote al juego...",
     "resources": "Cargando recursos...",
     "fetchingGameData": "Obteniendo datos del juego...",
-    "generatingMap": "Generando mapa...",
-
-    "tip1": "Las unidades con alta organización reciben poco o ningún daño extra por una carga. Ablanda los objetivos primero con fuego.",
-    "tip2": "Los húsares son caballería ligera que debe evitar el combate pesado y atacar unidades dañadas y artillería.",
-    "tip3": "Los mosquetes y la artillería hacen mucho más daño a media distancia que a larga distancia.",
-    "tip4": "Los obuses disparan a un alto arco, lo que los hace mucho más efectivos que otras piezas de artillería para atacar objetivos en bosques y edificios.",
-    "tip5": "Puedes encontrar mucha información útil sobre tus tropas seleccionando una unidad, haciendo clic en Info (tecla rápida I) y examinando las pestañas de la unidad.",
-    "tip6": "Las unidades en retirada tienen penalizaciones para reorganizarse y corren el riesgo de ser expulsadas del mapa por completo. Retira las unidades desorganizadas a un lugar seguro antes de que se retiren, siempre que sea posible.",
-    "tip7": "La artillería a caballo y los obuses son mucho más móviles que la artillería de 12 libras. Avanzarlos con tu infantería es arriesgado, pero puede cambiar el rumbo de las batallas con su potente fuego a corta distancia.",
-    "tip8": "Cuando seleccionas una unidad, verás su radio de organización en azul claro. Los enemigos dentro de este radio perderán organización, mientras que los aliados ganarán organización.",
-    "tip9": "Los lanceros son caballería de élite que se centran en su devastadora carga, pero son inferiores a los cuirassiers en un combate prolongado.",
-    "tip10": "Los ataques a distancia que golpean a una unidad de infantería en el flanco harán mucho más daño.",
-    "tip11": "Puedes ganar puntos de victoria infligiendo bajas o capturando el objetivo enemigo con infantería. Una gran ventaja de puntos de victoria ralentiza la reorganización de las unidades enemigas y asegura la victoria al límite de turnos.",
-    "tip12": "Flanquea al enemigo, no te dejes flanquear.",
-    "tip13": "¡Envía tus repeticiones favoritas a través del servidor de Discord de Lines of Battle, y el equipo de desarrollo las destacará en YouTube!",
-    "tip14": "Si tienes alguna pregunta sobre el juego, la wiki de Lines of Battle, Reddit y el servidor de Discord deberían poder ayudarte.",
-    "tip15": "Si te gusta Lines of Battle y quieres apoyar al creador, ¡únete al Patreon! Cada contribución ayuda.",
-    "tip16": "¿Sabías que puedes mover tu objetivo durante la fase inicial?",
-    "tip17": "Captura el objetivo enemigo colocando un batallón de infantería sobre él durante 8 turnos, 8 batallones por un turno, etc.",
-    "tip18": "Selecciona el botón de órdenes para acceder a comandos como Retiro, Fuego y Avance, y Disparar.",
-    "tip19": "La Infantería de Guardias y los Cuirassiers afectan fuertemente la organización de otras tropas solo con estar cerca. Este efecto se acumula y puede ayudar a algunas unidades de élite a cambiar el rumbo de la batalla.",
-    "tip21": "\"Es tarea de la caballería seguir la victoria y evitar que el enemigo derrotado se reagrupe.\" - Napoleon Bonaparte",
-    "tip22": "\"Planear reservar la caballería para el final de la batalla es no tener noción del poder de las cargas combinadas de infantería y caballería, ya sea para el ataque o para la defensa.\" - Napoleon Bonaparte",
-    "tip23": "\"Solo ataca.\" - Mariscal Apeiro",
-    "tip24": "\"¿Dónde están mis dragones?\" - Mariscal SteelFlesher",
-    "tip25": "Las unidades recuperan el 100% de la stamina muy lentamente; piensa antes de comprometer tu última reserva.",
-    "tip26": "La caballería tiene menos stamina que la infantería; ten cuidado de usarla en el momento adecuado."
+    "generatingMap": "Generando mapa..."
   },
 
   "fetchingBattleActions": "Obteniendo acciones de batalla...",
 
   "order": {
-    "1": "Mover",
-    "2": "Perseguir",
+    "1": "Caminar",
+    "2": "Correr",
     "3": "Disparar",
     "4": "Disparar y Avanzar",
     "6": "Retirada",
-    "7": "Escaramuzar"
+    "7": "Sin órdenes"
   },
 
   "selectOrder": "Seleccionar orden",

@@ -1,5 +1,8 @@
 {
   "watchGame": "Regarder la bataille",
   "loadingGames": "Chargement...",
-  "noFinishedGamesYet": "Pas de partie terminée !"
+  "noFinishedGamesYet": "Pas de partie terminée !",
+  "yourTeam": "Votre équipe",
+  "opponentTeam": "Équipe adverse",
+  "ranked": "Classé"
 }

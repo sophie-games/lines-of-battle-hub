@@ -98,9 +98,11 @@
   "showSelectIdleUnitButton": {
     "title": "유휴 부대 선택 버튼 표시"
   },
+
   "showChat": {
     "title": "채팅 보기"
   },
+
   "keybindings": {
     "title": "키보드 단축키",
     "pressAKey": "지정할 키를 누르세요...",
@@ -130,6 +132,7 @@
     "controlGroup9": "부대 지정 9",
     "controlGroup0": "부대 지정 0"
   },
+
   "routingTransparency": {
     "title": "궤멸 상태 부대 투명도"
   }

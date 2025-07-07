@@ -141,6 +141,7 @@
     "timeToRun": "주행까지의 시간",
     "runCost": "주행 비용"
   },
+
   "unitCategory": {
     "1": "보병",
     "2": "기병",
@@ -275,6 +276,7 @@
   "projectileAbsorption": "발사체 흡수치",
   "terrainPName": "지형 : {{name}}",
   "effects": "효과",
+
   "terrain": {
     "0": "대지",
     "1": "삼림",
@@ -297,6 +299,7 @@
     "18": "작물이 자라는 농원",
     "19": "진창"
   },
+
   "clearPlayerUnits": "플레이어 부대 지우기",
   "clearBotUnits": "컴퓨터 부대 지우기",
   "continueGame": "경기 재개",
@@ -342,8 +345,8 @@
   },
   "fetchingBattleActions": "전투 상황 가져오는 중...",
   "order": {
-    "1": "보행",
-    "2": "주행",
+    "1": "걷기",
+    "2": "달리기",
     "3": "사격",
     "4": "사격 및 전진",
     "6": "후퇴",

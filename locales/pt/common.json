@@ -321,41 +321,17 @@
     "joiningGame": "Entrando no jogo...",
     "resources": "Carregando recursos...",
     "fetchingGameData": "Buscando dados do jogo...",
-    "generatingMap": "Gerando mapa...",
-
-    "tip1": "Unidades com alta organização recebem pouco ou nenhum dano bônus de uma carga. Amacie os alvos com fogo primeiro.",
-    "tip2": "Hússares são cavalaria ligeira que devem evitar combates pesados e caçar unidades danificadas e artilharia.",
-    "tip3": "Mosquetes e artilharia causam muito mais dano a médio alcance do que a longo alcance.",
-    "tip4": "Obuses disparam em um arco alto, o que os torna muito mais eficazes do que outras artilharias ao atacar alvos em florestas e construções.",
-    "tip5": "Você pode encontrar muitas informações úteis sobre suas tropas selecionando uma unidade, clicando em Info (tecla de atalho I) e examinando as abas da unidade.",
-    "tip6": "Unidades em fuga têm penalidades na reorganização e correm o risco de serem completamente expulsas do mapa. Retire unidades desorganizadas para um local seguro antes que fujam sempre que possível.",
-    "tip7": "Artilharia a cavalo e obuses são muito mais móveis do que a artilharia de 12 libras. Avançá-los com sua infantaria é arriscado, mas pode virar a maré das batalhas com seu poderoso fogo de canister de curto alcance.",
-    "tip8": "Quando você seleciona uma unidade, verá seu raio de organização em azul claro. Inimigos neste raio perderão organização, enquanto aliados ganharão organização.",
-    "tip9": "Lanceiros são cavalaria de elite que focam em sua carga devastadora, mas são inferiores aos Couraceiros em uma luta prolongada.",
-    "tip10": "Ataques à distância que atingem uma unidade de infantaria no flanco causarão muito mais dano.",
-    "tip11": "Você pode ganhar pontos de vitória causando baixas ou capturando o objetivo inimigo com infantaria. Uma grande vantagem em pontos de vitória retarda a reorganização das unidades inimigas e garante a vitória no limite de turnos.",
-    "tip12": "Flanqueie o inimigo, não seja flanqueado.",
-    "tip13": "Envie seus replays favoritos através do servidor do Discord do Lines of Battle, e a equipe de desenvolvimento os destacará no YouTube!",
-    "tip14": "Se você tiver dúvidas sobre o jogo, a Wiki do Lines of Battle, Reddit e o servidor do Discord devem ajudar.",
-    "tip15": "Se você está gostando do Lines of Battle e quer ajudar a apoiar o criador, junte-se ao Patreon! Cada contribuição ajuda.",
-    "tip16": "Você sabia que pode mover seu objetivo durante a fase de inicialização?",
-    "tip17": "Capture o objetivo inimigo colocando um batalhão de infantaria sobre ele por 8 turnos, 8 batalhões por um turno, etc.",
-    "tip18": "Selecione o botão de ordem para acessar comandos como Retirada, Fogo e Avanço, e Atirar.",
-    "tip19": "Infantaria de Guardas e Couraceiros afetam fortemente a organização de outras tropas apenas por estarem por perto. Esse efeito acumula e pode ajudar algumas unidades de elite a virar a maré da batalha.",
-    "tip20": "Deixe sua artilharia com uma linha de visão clara; não manobre sua infantaria na frente dela.",
-    "tip21": "\"Cabe à cavalaria seguir a vitória e impedir que o inimigo derrotado se reagrupe.\" - Napoleon Bonaparte",
-    "tip22": "\"Planejar reservar a cavalaria para o final da batalha é não ter concepção do poder das cargas combinadas de infantaria e cavalaria, seja para ataque ou para defesa.\" - Napoleon Bonaparte"
+    "generatingMap": "Gerando mapa..."
   },
 
   "fetchingBattleActions": "Buscando ações de batalha...",
 
   "order": {
-    "1": "Mover",
-    "2": "Buscar",
+    "1": "Caminhada",
+    "2": "Corrida",
     "3": "Atirar",
     "4": "Fogo e Avanço",
-    "6": "Recuar",
-    "7": "Escaramuça"
+    "6": "Recuar"
   },
 
   "selectOrder": "Selecionar Ordem",
