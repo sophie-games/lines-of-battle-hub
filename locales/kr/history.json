@@ -1,5 +1,8 @@
 ﻿{
   "watchGame": "경기 관람",
   "loadingGames": "경기 불러오는 중...",
-  "noFinishedGamesYet": "아직 경기가 끝나지 않았습니다!"
+  "noFinishedGamesYet": "아직 경기가 끝나지 않았습니다!",
+  "yourTeam": "내 팀",
+  "opponentTeam": "상대 팀",
+  "ranked": "순위"
 }

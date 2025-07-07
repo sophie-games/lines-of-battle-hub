@@ -1,4 +1,4 @@
-{
+﻿{
   "warning": "메시지는 저장되지 않으며, 경기가 종료되면 삭제됩니다.",
   "rateLimitWarning": "메시지를 너무 빨리 보내고 있습니다. 잠시만 기다려 주세요. ({{seconds}}초 당 최대 메시지 : {{count}}개)",
   "placeholderAllies": "동맹에게...",
