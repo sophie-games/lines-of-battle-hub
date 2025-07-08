@@ -101,8 +101,8 @@ export default {
   NEARBY_UNITS_NEGATIVE_ORG_BONUS_CAP: -69,
 
   /**
-    * This org damage modifier is applied positively or negatively if the unit
-    * has reached one of the nearby units org bonus caps.
+   * This org damage modifier is applied positively or negatively if the unit
+   * has reached one of the nearby units org bonus caps.
    */
   NEARBY_UNITS_ORG_DAMAGE_MODIFIER_CAP: 0.2,
 
@@ -110,7 +110,7 @@ export default {
   NEARBY_UNITS_CHARGE_PENETRATION_MODIFIER_CAP: 0.3,
 
   /**
-    * Routing units will receive the org bonus by nearby units multiplied by this value.
+   * Routing units will receive the org bonus by nearby units multiplied by this value.
    */
   ROUTING_UNIT_NEARBY_UNITS_ORG_BONUS: 1.5,
 
@@ -164,4 +164,6 @@ export default {
   HEIGHT_CHANGE_TICKS: 12,
   HEIGHT_CHANGE_RUNNING_STAMINA_COST: 0.04, // 4% stamina cost for height changes when running
   WALKING_STAMINA_REGAIN_MODIFIER: -0.75, // -75% stamina regain penalty when walking
+
+  FORWARD_DEPLOYMENT_ZONE_OFFSET: 64,
 };

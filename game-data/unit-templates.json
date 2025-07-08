@@ -156,7 +156,7 @@
     "premiumPrice": 40,
     "fireAndAdvance": true,
     "startsRunning": true,
-    "deploymentBuffer": 48
+    "canDeployForward": true
   },
   {
     "type": 7,
@@ -185,7 +185,8 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "hasSkirmishers": true
+    "hasSkirmishers": true,
+    "canDeployForward": true
   },
   {
     "type": 8,
@@ -288,7 +289,7 @@
     "movementSound": "cavalry-movement",
     "manpower": 75,
     "gold": 75,
-    "deploymentBuffer": 64
+    "canDeployForward": true
   },
   {
     "type": 12,
@@ -433,7 +434,7 @@
       "explosive-shell"
     ],
     "locked": true,
-    "deploymentBuffer": 64
+    "canDeployForward": true
   },
   {
     "type": 17,
@@ -467,7 +468,8 @@
       "12lb-cannon-ball",
       "explosive-shell"
     ],
-    "locked": true
+    "locked": true,
+    "canDeployForward": true
   },
   {
     "type": 18,
