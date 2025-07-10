@@ -1,27 +1,27 @@
 [
   {
     "type": "bayonet",
-    "orgDamageRatio": 215
+    "orgDamageRatio": 220
   },
   {
     "type": "cavalry-sabre",
-    "orgDamageRatio": 210
+    "orgDamageRatio": 215
   },
   {
     "type": "cavalry-sword",
-    "orgDamageRatio": 210
+    "orgDamageRatio": 215
   },
   {
     "type": "dragoon-sword",
-    "orgDamageRatio": 210
+    "orgDamageRatio": 215
   },
   {
     "type": "artillery-sabre",
-    "orgDamageRatio": 210
+    "orgDamageRatio": 215
   },
   {
     "type": "cavalry-lance",
-    "orgDamageRatio": 210
+    "orgDamageRatio": 220
   },
   {
     "type": "musket",
@@ -32,44 +32,16 @@
       {
         "start": 0,
         "end": 35,
-        "startMod": 3.75,
+        "startMod": 6,
         "endMod": 1.5,
         "name": "close"
       },
-      { "start": 35, "end": 65, "startMod": 1.5, "endMod": 0.25 },
+      { "start": 35, "end": 70, "startMod": 1.5, "endMod": 0.25 },
       {
-        "start": 60,
-        "end": 100,
+        "start": 70,
+        "end": 110,
         "startMod": 0,
         "endMod": -0.8,
-        "name": "long"
-      }
-    ],
-    "shootingAngle": 90,
-    "enfiladeFire": true,
-    "projectilePenetration": 0.25,
-    "shotSound": "musket-volley",
-    "shotAnim": "musketVolley"
-  },
-  {
-    "type": "light-musket",
-    "ranged": true,
-    "orgDamageRatio": 200,
-    "projectileWidth": 12,
-    "ranges": [
-      {
-        "start": 0,
-        "end": 35,
-        "startMod": 3.75,
-        "endMod": 1.5,
-        "name": "close"
-      },
-      { "start": 35, "end": 65, "startMod": 1.5, "endMod": 0.25 },
-      {
-        "start": 60,
-        "end": 100,
-        "startMod": 0,
-        "endMod": -0.75,
         "name": "long"
       }
     ],
@@ -93,7 +65,7 @@
         "name": "close"
       },
       { "start": 45, "end": 70, "startMod": 0.75, "endMod": 0 },
-      { "start": 70, "end": 100, "startMod": 0, "endMod": -0.4, "name": "long" }
+      { "start": 70, "end": 110, "startMod": 0, "endMod": -0.4, "name": "long" }
     ],
     "shootingAngle": 350,
     "enfiladeFire": true,

@@ -9,9 +9,9 @@ export default {
   UNIT_RANGE_MARGIN: 6,
 
   TILE_SIZE: 16,
-  UNIT_ROTATION_SPEED: 0.26179939, // 15 degrees
+  UNIT_ROTATION_SPEED: 0.29670597, // 17 degrees
   UNIT_ROTATION_MAX_THRESHOLD: 0.52359878, // 30 degrees
-  RUN_ROTATION_SPEED: 0.20398535, // 15 degrees * 0.78 = 11.7 degrees
+  RUN_ROTATION_SPEED: 0.20398535, // 15 degrees * 0.82 = 12.3 degrees
 
   MAX_RANKED_GAME_TURNS: 60,
   MIN_CUSTOM_GAME_MAX_TURNS: 10,
@@ -101,8 +101,8 @@ export default {
   NEARBY_UNITS_NEGATIVE_ORG_BONUS_CAP: -69,
 
   /**
-   * This org damage modifier is applied positively or negatively if the unit
-   * has reached one of the nearby units org bonus caps.
+    * This org damage modifier is applied positively or negatively if the unit
+    * has reached one of the nearby units org bonus caps.
    */
   NEARBY_UNITS_ORG_DAMAGE_MODIFIER_CAP: 0.2,
 
@@ -110,7 +110,7 @@ export default {
   NEARBY_UNITS_CHARGE_PENETRATION_MODIFIER_CAP: 0.3,
 
   /**
-   * Routing units will receive the org bonus by nearby units multiplied by this value.
+    * Routing units will receive the org bonus by nearby units multiplied by this value.
    */
   ROUTING_UNIT_NEARBY_UNITS_ORG_BONUS: 1.5,
 
@@ -141,29 +141,29 @@ export default {
   CHARGE_BACKLASH_DEFENDER_CHARGE_BONUS_MULTIPLIER: 1.25,
 
   HAS_TAKEN_FIRE_SPEED_MODIFIER: -0.15,
-  HAS_TAKEN_FIRE_CHARGE_RESISTANCE_MODIFIER: -0.25,
+  HAS_TAKEN_FIRE_CHARGE_RESISTANCE_MODIFIER: -0.2,
   HAS_TAKEN_FIRE_CHARGE_PENETRATION_MODIFIER: -0.15,
   BEEN_IN_MELEE_CHARGE_RESISTANCE_MODIFIER: -0.15,
 
-  EFFECT_BEEN_IN_MELEE_TICKS: 8,
-  EFFECT_FULL_STOP_ON_ROTATE_180_TICKS: 6,
-  EFFECT_HAS_RAN_TICKS: 10,
+  EFFECT_BEEN_IN_MELEE_TICKS: 6,
+  EFFECT_FULL_STOP_ON_ROTATE_180_TICKS: 3,
+  EFFECT_HAS_RAN_TICKS: 6,
   EFFECT_STARTED_ROUTING_TICKS: 24,
   EFFECT_HAS_TAKEN_FIRE_TICKS: 6,
 
-  FLANK_MELEE_ORG_DAMAGE_MODIFIER: 1,
-  REAR_MELEE_ORG_DAMAGE_MODIFIER: 1,
+  FLANK_MELEE_ORG_DAMAGE_MODIFIER: 1.1,
+  REAR_MELEE_ORG_DAMAGE_MODIFIER: 1.1,
 
-  FLANK_CHARGE_PENETRATION_MODIFIER: 1.2,
-  REAR_CHARGE_PENETRATION_MODIFIER: 1.2,
+  FLANK_CHARGE_PENETRATION_MODIFIER: 1.4,
+  REAR_CHARGE_PENETRATION_MODIFIER: 1.4,
 
   DEPLOYMENT_TURN_ADDITIONAL_SECONDS: 45,
-  HEAD_ON_COLLISION_COSINE_THRESHOLD_SQUARED: 0.015625, // 0.125 * 0.125
+  HEAD_ON_COLLISION_COSINE_THRESHOLD_SQUARED: 0.0144, // 0.12 * 0.12
 
   HEIGHT_CHANGE_STAMINA_COST: 0.02, // 2% stamina cost for height changes
   HEIGHT_CHANGE_TICKS: 12,
   HEIGHT_CHANGE_RUNNING_STAMINA_COST: 0.04, // 4% stamina cost for height changes when running
   WALKING_STAMINA_REGAIN_MODIFIER: -0.75, // -75% stamina regain penalty when walking
 
-  FORWARD_DEPLOYMENT_ZONE_OFFSET: 64,
+  FORWARD_DEPLOYMENT_ZONE_OFFSET: 72,
 };
