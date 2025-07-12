@@ -1,7 +1,7 @@
 [
   {
     "type": "bayonet",
-    "orgDamageRatio": 220
+    "orgDamageRatio": 230
   },
   {
     "type": "cavalry-sabre",
@@ -33,10 +33,10 @@
         "start": 0,
         "end": 35,
         "startMod": 6,
-        "endMod": 1.5,
+        "endMod": 1.75,
         "name": "close"
       },
-      { "start": 35, "end": 70, "startMod": 1.5, "endMod": 0.25 },
+      { "start": 35, "end": 70, "startMod": 1.75, "endMod": 0.25 },
       {
         "start": 70,
         "end": 110,
