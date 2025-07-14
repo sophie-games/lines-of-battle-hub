@@ -29,11 +29,7 @@
   },
   "openSelectOrderModal": {
     "title": "명령 선택 모달 창 사용",
-    "description": "이 설정을 활성화하면 경기 중 명령 선택을 위한 모달 창이 표시됩니다."
-  },
-  "openSelectFormationModal": {
-    "title": "명령 진형 모달 창 사용",
-    "description": "이 설정을 활성화하면 경기 중 진형 선택을 위한 모달 창이 표시됩니다."
+    "description": "이 설정을 활성화하면 경지 중 명령 선택을 위한 모달 창이 표시됩니다."
   },
   "showNewBattleEventsModal": {
     "title": "새 전투 변동 사항 모달 창 표시"
@@ -132,7 +128,7 @@
     "controlGroup9": "부대 지정 9",
     "controlGroup0": "부대 지정 0"
   },
-
+   
   "routingTransparency": {
     "title": "궤멸 상태 부대 투명도"
   }

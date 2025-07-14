@@ -52,9 +52,9 @@
   "matchmakingQueue": {
     "inQueue": "You are now in the matchmaking queue! The system is searching for another player who has selected the same settings as you.",
     "matchFound": "Once a match is found, you will be redirected to the game.",
-    "onlyClanMembers": "Play only with coalition teammates",
     "extendQueue": "Extend Queue",
-    "extendQueueSuccess": "Searching in any Elo range."
+    "extendQueueSuccess": "Searching in any Elo range.",
+    "cancelledBy": "The queue was cancelled by {{username}}."
   },
 
   "fastMode": "Fast Mode",
@@ -83,6 +83,14 @@
 
   "matchmaking": "Matchmaking",
   "matchmakingDescription": "Matchmaking mode lets you quickly join a game with random players using predefined settings.",
+  "onlyPartyLeaderCanSearch": "Only the party leader can search for a match.",
+  "partyFormed": "Party formed",
+  "partySearchStatus": {
+    "leaderTitle": "You are the party leader",
+    "leaderDescription": "You can search for a match. Your party members will be notified when you start searching.",
+    "memberTitle": "Waiting for party leader",
+    "memberDescription": "Only the party leader can search for a match. You will be notified when they start searching."
+  },
   "custom": "Custom",
   "customDescription": "Custom mode lets you set up a game with specific settings and invite friends to play.",
   "createCustomGame": "Create Custom game",
@@ -271,7 +279,7 @@
   "orgDamage": "Org Damage",
   "enfiladeFireModifiers": "Enfilade Fire Modifiers",
   "rearFireModifiers": "Rear Fire Modifiers",
-  "targetAltitude": "Target Altitude",
+  "firingAltitude": "Firing Altitude",
   "canCaptureObjectives": "Can capture objectives",
   "cantCaptureObjectives": "Cannot capture objectives",
   "enfiladeFire": "Enfilade Fire",
@@ -320,7 +328,8 @@
     "16": "Ice",
     "17": "Farm, Unplanted",
     "18": "Farm, Growing",
-    "19": "Mud"
+    "19": "Mud",
+    "20": "Road, Sunken"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -740,5 +749,13 @@
     "p1": "Check out the latest updates and features in Lines of Battle!",
     "p2": "Stay tuned for more updates and new features coming to Lines of Battle!",
     "p3": "Follow us on social media for the latest news and announcements."
-  }
+  },
+
+  "invitedPlayers": "Invited players",
+  "partyInviteFrom": "Party invite from",
+  "leader": "Leader",
+  "you": "You",
+  "pending": "Pending",
+  "leaveParty": "Leave party",
+  "heightOffset": "Height offset"
 }

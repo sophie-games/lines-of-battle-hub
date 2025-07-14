@@ -52,7 +52,6 @@
   "matchmakingQueue": {
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
-    "onlyClanMembers": "Graj tylko z członkami koalicji",
     "extendQueue": "Rozszerzona Kolejka",
     "extendQueueSuccess": "Szukanie w zasięgu Twojego ELO"
   },
@@ -270,7 +269,7 @@
   "orgDamage": "Obrażenia do Org.",
   "enfiladeFireModifiers": "Modyfikator Ognia z Flanki",
   "rearFireModifiers": "Modyfikator Ognia od Tyłu",
-  "targetAltitude": "Wysokość Celu",
+  "firingAltitude": "Wysokość Celu",
   "canCaptureObjectives": "Może przejmować punkty",
   "cantCaptureObjectives": "Nie może przejmować punktów",
   "enfiladeFire": "Ogień z Flanki",

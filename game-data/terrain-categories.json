@@ -232,5 +232,38 @@
       "4lb-canister-fire": 0.6,
       "howitzer-canister": 0.6
     }
+  },
+
+  "sunkenRoad": {
+    "heightOffset": -0.5,
+    "hitboxHeight": 0.6,
+    "staminaCostModifier": -0.35,
+    "movementModifier": {
+      "infantry": 0.3,
+      "skirmishInfantry": 0.3,
+      "militiaInfantry": 0.3,
+      "midCavalry": 0.2,
+      "lightCavalry": 0.2,
+      "heavyCavalry": 0.2,
+      "artillery": 0.4
+    },
+    "defenseModifier": {
+      "militia": -0.4
+    },
+    "projectileAbsorption": {
+      "musket": 0.2,
+      "marksman-musket": 0.12,
+      "rifle": 0.08,
+      "explosive-shell": 0.02,
+      "12lb-cannon-ball": 0.15,
+      "8lb-cannon-ball": 0.18,
+      "6lb-cannon-ball": 0.2,
+      "4lb-cannon-ball": 0.2,
+      "8lb-canister-fire": 0.2,
+      "12lb-canister-fire": 0.2,
+      "6lb-canister-fire": 0.2,
+      "4lb-canister-fire": 0.2,
+      "howitzer-canister": 0.2
+    }
   }
 }

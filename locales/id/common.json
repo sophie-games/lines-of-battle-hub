@@ -51,8 +51,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Kamu sekarang berada dalam antrean! Sistem sedang mencari pemain lain yang telah memilih pengaturan yang sama dengan kamu.",
-    "matchFound": "Ketika permainan telah ditemukan, kamu akan diarahkan ke permainan.",
-    "onlyClanMembers": "Bermain hanya dengan rekan tim koalisi."
+    "matchFound": "Ketika permainan telah ditemukan, kamu akan diarahkan ke permainan."
   },
 
   "fastMode": "Mode Cepat",
@@ -239,7 +238,7 @@
   "orgDamage": "Organisasi Kerusakan",
   "enfiladeFireModifiers": "Efek Tambahan Tembakan Sepanjang Garis",
   "rearFireModifiers": "Efek Tambahan Menembak Dari Belakang",
-  "targetAltitude": "Ketinggian Target",
+  "firingAltitude": "Ketinggian Target",
   "canCaptureObjectives": "Dapat Mengambil Objektif",
   "cantCaptureObjectives": "Tidak Dapat Mengambil Objektif",
   "enfiladeFire": "Tembakan Sepanjang Garis",

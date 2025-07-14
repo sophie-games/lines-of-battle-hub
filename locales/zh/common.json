@@ -47,7 +47,6 @@
   "matchmakingQueue": {
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的对局选项一致的其他玩家。",
     "matchFound": "当搜索到匹配对象时，你会自动进入对局。",
-    "onlyClanMembers": "只与联盟成员组队",
     "extendQueue": "扩大匹配范围",
     "extendQueueSuccess": "匹配范围已经扩大！正在匹配全分段的对手。"
   },
@@ -247,7 +246,7 @@
   "orgDamage": "组织度伤害",
   "enfiladeFireModifiers": "侧翼攻击修正",
   "rearFireModifiers": "后部攻击修正",
-  "targetAltitude": "目标高度",
+  "firingAltitude": "目标高度",
   "canCaptureObjectives": "可以占领目标点",
   "cantCaptureObjectives": "不可以占领目标点",
   "enfiladeFire": "弹道可穿透",

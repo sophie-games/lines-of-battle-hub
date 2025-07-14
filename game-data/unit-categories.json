@@ -1,7 +1,7 @@
 {
   "infantry": {
     "id": 1,
-    "targetAltitude": 0.9,
+    "firingAltitude": 0.9,
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
@@ -10,7 +10,7 @@
 
   "midCavalry": {
     "id": 2,
-    "targetAltitude": 0.9,
+    "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "autofirePriority": 2,
@@ -36,7 +36,7 @@
 
   "artillery": {
     "id": 3,
-    "targetAltitude": 0.5,
+    "firingAltitude": 0.5,
     "enemyCollisionLevel": 1,
     "autofirePriority": 2,
     "damageTypeResistances": {
@@ -63,7 +63,7 @@
 
   "lightInfantry": {
     "id": 4,
-    "targetAltitude": 0.9,
+    "firingAltitude": 0.9,
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
@@ -72,7 +72,7 @@
 
   "lightCavalry": {
     "id": 5,
-    "targetAltitude": 0.9,
+    "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "autofirePriority": 2,
@@ -98,7 +98,7 @@
 
   "heavyCavalry": {
     "id": 6,
-    "targetAltitude": 0.9,
+    "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "autofirePriority": 2,
@@ -125,7 +125,7 @@
 
   "militiaInfantry": {
     "id": 7,
-    "targetAltitude": 0.9,
+    "firingAltitude": 0.9,
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
@@ -134,7 +134,7 @@
 
   "skirmishInfantry": {
     "id": 8,
-    "targetAltitude": 0.9,
+    "firingAltitude": 0.9,
     "enemyCollisionLevel": 1,
     "autofirePriority": 1,
     "projectilePassThrough": 0.8,

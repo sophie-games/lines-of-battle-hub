@@ -50,8 +50,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Sei ora nella coda di matchmaking! Il sistema sta cercando un altro giocatore che ha selezionato le stesse impostazioni di te.",
-    "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco.",
-    "onlyClanMembers": "Gioca solo con compagni della coalizione"
+    "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco."
   },
 
   "fastMode": "Modalità veloce",
@@ -236,7 +235,7 @@
   "orgDamage": "Danno all'organizzazione",
   "enfiladeFireModifiers": "Modificatori fuoco di infilata",
   "rearFireModifiers": "Modificatori fuoco posteriore",
-  "targetAltitude": "Altitudine del bersaglio",
+  "firingAltitude": "Altitudine del bersaglio",
   "canCaptureObjectives": "Può catturare obiettivi",
   "cantCaptureObjectives": "Non può catturare obiettivi",
   "enfiladeFire": "Fuoco di infilata",

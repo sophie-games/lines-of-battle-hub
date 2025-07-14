@@ -50,8 +50,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Sikeresen felkerültél a várólistára! A rendszerünk most olyan ellenfelet keres neked, aki az általad kiválaszott módban és alkalmas beállítások mellett szeretne játszani.",
-    "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára.",
-    "onlyClanMembers": "Csak koalíciós csapattársakkal játssz"
+    "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára."
   },
 
   "fastMode": "Gyors mód",
@@ -236,7 +235,7 @@
   "orgDamage": "Org Sebzés",
   "enfiladeFireModifiers": "Oldalsótűz Módosítók",
   "rearFireModifiers": "Háttűz Módosítók",
-  "targetAltitude": "Célpont Magassága",
+  "firingAltitude": "Célpont Magassága",
   "canCaptureObjectives": "Képes objektívákat elfoglalni",
   "cantCaptureObjectives": "Nem tud objektívákat elfoglalni",
   "enfiladeFire": "Oldalsótűz",

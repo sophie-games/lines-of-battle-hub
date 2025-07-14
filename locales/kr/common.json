@@ -1,5 +1,5 @@
 ﻿{
-  "appLoadingMessage": "Lines of Battle에 오신 걸 환영합니다!",
+  "appLoadingMessage": "라인스 오브 배틀에 오신 걸 환영합니다!",
   "home": "홈",
   "language": "언어",
   "tutorial": "배우기",
@@ -47,7 +47,6 @@
   "matchmakingQueue": {
     "inQueue": "경기 탐색 대기열에 들어오셨습니다! 등급 체계에 기반해 귀하와 동일한 설정을 선택한 다른 플레이어를 탐색 중입니다.",
     "matchFound": "일치하는 항목이 발견되면 경기로 리디렉션됩니다.",
-    "onlyClanMembers": "연합원과만 경기",
     "extendQueue": "대기 연장",
     "extendQueueSuccess": "모든 Elo 범위대에서 탐색."
   },
@@ -248,7 +247,7 @@
   "orgDamage": "조직력 피해량",
   "enfiladeFireModifiers": "측방사격 변동치",
   "rearFireModifiers": "측방사격 변동치",
-  "targetAltitude": "표적고도",
+  "firingAltitude": "표적고도",
   "canCaptureObjectives": "지점목표 점령 가능",
   "cantCaptureObjectives": "지점목표 점령 불가능",
   "enfiladeFire": "측방사격",
@@ -326,13 +325,13 @@
   "armyInvalid": "이 편제는 사용할 수 없습니다. 수정이 필요합니다.",
   "landing": {
     "title": "<0/>에 오신 걸 환영합니다",
-    "message": "<b>Lines of Battle</b>은 나폴레옹 전쟁을 배경으로 한 멀티플레이어 동시 턴제 전략 게임입니다. 플레이어는 전술적 깊이와 역사적 몰입을 위해 설계된 이 게임에서 자신의 기술과 전략으로 상대에게서 승리를 거두어야 하는 장대한 전투에 참여하게 됩니다!",
+    "message": "<b>라인스 오브 배틀</b>은 나폴레옹 전쟁을 배경으로 한 멀티플레이어 동시 턴제 전략 게임입니다. 플레이어는 전술적 깊이와 역사적 몰입을 위해 설계된 이 게임에서 자신의 기술과 전략으로 상대에게서 승리를 거두어야 하는 장대한 전투에 참여하게 됩니다!",
     "privacy": "시작하면 <0>개인정보 취급방침</0>에 동의하는 것으로 여겨집니다."
   },
   "welcomeModal": {
-    "title": "Lines of Battle에 오신 걸 환영합니다! 👋",
+    "title": "라인스 오브 배틀에 오신 걸 환영합니다! 👋",
     "thanks": "{{name}}님, 가입해주셔서 감사합니다!",
-    "p1": "<b>Lines of Battle</b>이 처음이신가요? <offlineLink>오프라인 연습 경기</offlineLink>를 통해 편안한 환경에서 게임 메커니즘을 익히고 전략을 개발하는 것을 추천드립니다.",
+    "p1": "<b>라인스 오브 배틀</b>이 처음이신가요? <offlineLink>오프라인 연습 경기</offlineLink>를 통해 편안한 환경에서 게임 메커니즘을 익히고 전략을 개발하는 것을 추천드립니다.",
     "p2": "게임은 현재 베타 버전이므로 <discordLink>디스코드 서버</discordLink>에 가입해 다른 플레이어와 교류하고, 함께 경기할 상대를 찾고, 버그를 신고하고, 생각을 공유해 모두의 게임 경험을 개선하는 데 기여하세요!"
   },
   "turn": "턴",
@@ -350,7 +349,7 @@
     "3": "사격",
     "4": "사격 및 전진",
     "6": "후퇴",
-    "7": "명령 없음"
+    "7": "산병전"
   },
   "selectOrder": "명령 선택",
   "allowFireWhenMoving": "이동 중 사격 허용",
@@ -443,7 +442,9 @@
   "bot": "컴퓨터",
   "armyOfPlayer": "{{player}}번 플레이어의 군대",
   "averageElo": "평균 Elo",
+
   "hybridDescription": "혼성 지도는 무작위로 생성되는 것이 아닌 미리 설정된 지형을 사용하지만, 플레이어가 자신만의 군대를 사용하여 경기할 수 있습니다.",
+
   "playLastActionsModal": {
     "message": "자리를 비운 사이에 새로운 전투 내 변동 사항이 발생했습니다.\n최근 턴의 양상을 보고 싶으신가요?",
     "button": "시작"
@@ -613,7 +614,7 @@
   "withdrawFromName": "{{name}}에서 이탈",
   "withdrawTournamentMessage": "토너먼트에서 이탈하시겠습니까?",
   "steamBanner": {
-    "title": "스팀에서 Lines of Battle을 찜하세요!",
+    "title": "스팀에서 라인스 오브 배틀을 찜하세요!",
     "description": "찜하기 <0>{{wishlistCount}}</0>에 도달해 게임을 런칭할 수 있도록 도와주세요!",
     "descriptionBoldPart": "30,000명",
     "buttonText": "지금 바로 찜하기"
@@ -652,7 +653,9 @@
   "back": "후퇴",
   "cannotRecoverOrg": "조직력 회복 불가",
   "autofirePriority": "자동 사격 우선 순위",
+
   "new": "신규",
+
   "join": "참가",
   "spectate": "관전",
   "gameIsNotFull": "경기 인원이 충족되지 않음",
@@ -678,8 +681,8 @@
   "selectFormation": "진형 선택",
   "whatsNew": {
     "title": "새로운 소식",
-    "p1": "Lines of Battle의 최신 업데이트와 기능을 확인해 보세요!",
-    "p2": "Lines of Battle에 더 많은 기능이 추가될 예정이니 기대해 주세요!",
-    "p3": "소셜 미디어에서 최신 소식와 공지사항을 확인하세요."
+    "p1": "Lines of Battle의 최신 업데이트와 기능을 확인하세요!",
+    "p2": "Lines of Battle에 올 더 많은 업데이트와 새로운 기능을 기대하세요!",
+    "p3": "최신 뉴스와 발표를 위해 소셜 미디어에서 팔로우하세요."
   }
 }

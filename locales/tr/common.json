@@ -50,8 +50,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Şimdi eşleştirme kuyruğundasınız! Sistem, sizinle aynı ayarları seçmiş başka bir oyuncu arıyor.",
-    "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz.",
-    "onlyClanMembers": "Yalnızca koalisyon takım arkadaşlarıyla oyna"
+    "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz."
   },
 
   "fastMode": "Hızlı Mod",
@@ -238,7 +237,7 @@
   "orgDamage": "Organizasyon Hasarı",
   "enfiladeFireModifiers": "Yan Ateş Değiştiricileri",
   "rearFireModifiers": "Arka Ateş Değiştiricileri",
-  "targetAltitude": "Hedef Yükseklik",
+  "firingAltitude": "Hedef Yükseklik",
   "canCaptureObjectives": "Hedefleri ele geçirebilir",
   "cantCaptureObjectives": "Hedefleri ele geçiremez",
   "enfiladeFire": "Yan Ateş",

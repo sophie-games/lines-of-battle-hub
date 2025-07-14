@@ -46,8 +46,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Vous êtes désormais dans la file d'attente ! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
-    "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",
-    "onlyClanMembers": "Jouer uniquement avec des coéquipiers de la coalition"
+    "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie."
   },
 
   "fastMode": "Partie rapide",
@@ -234,7 +233,7 @@
   "orgDamage": "Dégâts à l'organisation",
   "enfiladeFireModifiers": "Modificateur de feu sur le flanc",
   "rearFireModifiers": "Modificateur de feu sur l'arrière",
-  "targetAltitude": "Altitude de la cible",
+  "firingAltitude": "Altitude de la cible",
   "canCaptureObjectives": "Peut capturer les objectifs",
   "cantCaptureObjectives": "Ne peut pas capturer les objectifs",
   "enfiladeFire": "Tir sur le flanc",

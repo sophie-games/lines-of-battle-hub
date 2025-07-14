@@ -50,8 +50,7 @@
 
   "matchmakingQueue": {
     "inQueue": "現在マッチメイキングキューにいます。同じ設定を選択したプレイヤーを探しています。",
-    "matchFound": "マッチが見つかると、自動的にゲームに移動します。",
-    "onlyClanMembers": "連合チームメイトとだけプレイする"
+    "matchFound": "マッチが見つかると、自動的にゲームに移動します。"
   },
 
   "fastMode": "高速モード",
@@ -236,7 +235,7 @@
   "orgDamage": "編成ダメージ",
   "enfiladeFireModifiers": "側面射撃補正",
   "rearFireModifiers": "後方射撃補正",
-  "targetAltitude": "目標高度",
+  "firingAltitude": "目標高度",
   "canCaptureObjectives": "目標を占領可能",
   "cantCaptureObjectives": "目標を占領不可",
   "enfiladeFire": "側面射撃",
