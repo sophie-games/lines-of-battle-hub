@@ -1,19 +1,19 @@
 [
   {
     "type": "bayonet",
-    "orgDamageRatio": 230
+    "orgDamageRatio": 235
   },
   {
     "type": "cavalry-sabre",
-    "orgDamageRatio": 215
+    "orgDamageRatio": 225
   },
   {
     "type": "cavalry-sword",
-    "orgDamageRatio": 215
+    "orgDamageRatio": 225
   },
   {
     "type": "dragoon-sword",
-    "orgDamageRatio": 215
+    "orgDamageRatio": 225
   },
   {
     "type": "artillery-sabre",
@@ -99,11 +99,11 @@
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 140, "end": 235, "startMod": 0.15, "endMod": 0 },
+      { "start": 140, "end": 235, "startMod": 0.1, "endMod": 0 },
       {
         "start": 235,
         "end": 425,
-        "startMod": -0.1,
+        "startMod": -0.05,
         "endMod": -0.7,
         "name": "long"
       }
