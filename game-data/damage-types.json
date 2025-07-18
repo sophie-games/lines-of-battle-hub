@@ -21,7 +21,7 @@
   },
   {
     "type": "cavalry-lance",
-    "orgDamageRatio": 220
+    "orgDamageRatio": 225
   },
   {
     "type": "musket",
@@ -280,14 +280,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.5,
-        "endMod": 1.5,
+        "startMod": 2.75,
+        "endMod": 1.75,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 1.5,
+        "startMod": 1.75,
         "endMod": 0.3,
         "name": "long"
       }
@@ -308,14 +308,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.75,
-        "endMod": 1.75,
+        "startMod": 3,
+        "endMod": 2,
         "name": "close"
       },
       {
         "start": 69,
         "end": 145,
-        "startMod": 1.75,
+        "startMod": 2,
         "endMod": 0.3,
         "name": "long"
       }
@@ -392,7 +392,7 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 4.5,
+        "startMod": 5,
         "endMod": 3,
         "name": "close"
       }
