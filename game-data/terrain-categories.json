@@ -1,9 +1,7 @@
 {
   "land": {
     "canPlaceObjectives": true,
-    "defenseModifier": {
-      "militia": -0.5
-    }
+    "defenseModifier": {}
   },
 
   "mud": {
@@ -11,9 +9,7 @@
     "hitboxHeight": 0.5,
     "staminaCostModifier": 0.3,
     "canPlaceObjectives": true,
-    "defenseModifier": {
-      "militia": -0.5
-    },
+    "defenseModifier": {},
     "movementModifier": {
       "infantry": -0.2,
       "skirmishInfantry": -0.2,
@@ -167,9 +163,7 @@
       "heavyCavalry": 0.2,
       "artillery": 0.4
     },
-    "defenseModifier": {
-      "militia": -0.4
-    }
+    "defenseModifier": {}
   },
 
   "shallowWater": {

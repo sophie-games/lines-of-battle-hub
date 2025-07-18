@@ -107,7 +107,7 @@ export default {
   NEARBY_UNITS_ORG_DAMAGE_MODIFIER_CAP: 0.16,
 
   NEARBY_UNITS_CHARGE_RESISTANCE_MODIFIER_CAP: 0.12,
-  NEARBY_UNITS_CHARGE_PENETRATION_MODIFIER_CAP: 0.8,
+  NEARBY_UNITS_CHARGE_PENETRATION_MODIFIER_CAP: 0.08,
 
   /**
    * Routing units will receive the org bonus by nearby units multiplied by this value.
