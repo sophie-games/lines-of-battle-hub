@@ -166,4 +166,8 @@ export default {
   WALKING_STAMINA_REGAIN_MODIFIER: -0.75, // -75% stamina regain penalty when walking
 
   FORWARD_DEPLOYMENT_ZONE_OFFSET: 72,
+
+  // Unit direction arc constants
+  UNIT_FRONT_ARC_RADIANS: 1.7453292519943295, // 100 degrees
+  UNIT_BACK_ARC_RADIANS: 1.5707963267948966, // 90 degrees
 };
