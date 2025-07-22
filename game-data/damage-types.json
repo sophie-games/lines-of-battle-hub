@@ -91,11 +91,11 @@
   {
     "type": "8lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 165,
+    "orgDamageRatio": 170,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 0.8,
-      "end": 0.6,
+      "start": 0.75,
+      "end": 0.55,
       "modifier": -0.4
     },
     "ranges": [
@@ -128,11 +128,11 @@
   {
     "type": "12lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 165,
+    "orgDamageRatio": 170,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 0.8,
-      "end": 0.6,
+      "start": 0.75,
+      "end": 0.55,
       "modifier": -0.4
     },
     "ranges": [
@@ -165,11 +165,11 @@
   {
     "type": "6lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 165,
+    "orgDamageRatio": 170,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 0.8,
-      "end": 0.6,
+      "start": 0.75,
+      "end": 0.55,
       "modifier": -0.4
     },
     "ranges": [
@@ -202,11 +202,11 @@
   {
     "type": "4lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 150,
+    "orgDamageRatio": 165,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 0.8,
-      "end": 0.6,
+      "start": 0.75,
+      "end": 0.55,
       "modifier": -0.4
     },
     "ranges": [
@@ -274,20 +274,20 @@
   {
     "type": "8lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 180,
+    "orgDamageRatio": 185,
     "projectileWidth": 20,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.75,
-        "endMod": 1.75,
+        "startMod": 3,
+        "endMod": 2,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 1.75,
+        "startMod": 2,
         "endMod": 0.3,
         "name": "long"
       }
@@ -302,20 +302,20 @@
   {
     "type": "12lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 180,
+    "orgDamageRatio": 185,
     "projectileWidth": 20,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 3,
-        "endMod": 2,
+        "startMod": 3.25,
+        "endMod": 2.25,
         "name": "close"
       },
       {
         "start": 69,
         "end": 145,
-        "startMod": 2,
+        "startMod": 2.25,
         "endMod": 0.3,
         "name": "long"
       }
@@ -330,13 +330,13 @@
   {
     "type": "6lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 180,
+    "orgDamageRatio": 185,
     "projectileWidth": 20,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.5,
+        "startMod": 2.75,
         "endMod": 1.5,
         "name": "close"
       },
@@ -358,13 +358,13 @@
   {
     "type": "4lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 180,
+    "orgDamageRatio": 185,
     "projectileWidth": 20,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.25,
+        "startMod": 2.5,
         "endMod": 1.25,
         "name": "close"
       },
@@ -386,14 +386,14 @@
   {
     "type": "howitzer-canister",
     "ranged": true,
-    "orgDamageRatio": 180,
+    "orgDamageRatio": 185,
     "projectileWidth": 20,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 5,
-        "endMod": 3,
+        "startMod": 5.5,
+        "endMod": 3.75,
         "name": "close"
       }
     ],
