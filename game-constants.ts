@@ -168,6 +168,6 @@ export default {
   FORWARD_DEPLOYMENT_ZONE_OFFSET: 72,
 
   // Unit direction arc constants
-  UNIT_FRONT_ARC_RADIANS: 1.7453292519943295, // 100 degrees
-  UNIT_BACK_ARC_RADIANS: 1.5707963267948966, // 90 degrees
+  UNIT_FRONT_ARC_RADIANS: 2.21429922, // 126.87 degrees (2:1 rectangle)
+  UNIT_BACK_ARC_RADIANS: 2.21429922, // 126.87 degrees (2:1 rectangle)
 };
