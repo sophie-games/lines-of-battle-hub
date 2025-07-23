@@ -1,5 +1,5 @@
 {
-  "warning": "Les messages ne sont pas sauvegardés et seront effacés lorsque vous quitterez la partie.",
+  "warning": "Pour que cet espace reste sûr et respectueux pour tous, les messages peuvent être examinés s’ils sont jugés agressifs ou nuisibles.",
   "rateLimitWarning": "Vous envoyez des messages trop rapidement. Veuillez patienter un instant (max {{count}} messages par {{seconds}} secondes).",
   "placeholderAllies": "Message aux alliés...",
   "placeholderAll": "Message à tous...",

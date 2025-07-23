@@ -1,5 +1,5 @@
 {
-  "warning": "Los mensajes no se guardan y se borrarán al salir de la partida.",
+  "warning": "Para mantener este espacio seguro y respetuoso para todos, los mensajes pueden ser revisados si se identifican como agresivos o dañinos.",
   "rateLimitWarning": "Estás enviando mensajes demasiado rápido. Por favor, espera un momento (máx {{count}} mensajes cada {{seconds}} segundos).",
   "placeholderAllies": "Mensaje a los aliados...",
   "placeholderAll": "Mensaje a todos...",

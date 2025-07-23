@@ -1,5 +1,5 @@
 {
-  "warning": "消息不会被保存，退出对局时将被清除。",
+  "warning": "为了让这个空间对所有人都安全且互相尊重，如被识别为具有攻击性或有害的信息可能会被审查。",
   "rateLimitWarning": "你发送消息过快。请稍等片刻（每{{seconds}}秒最多{{count}}条消息）。",
   "placeholderAllies": "发送给盟友的信息...",
   "placeholderAll": "发送给所有人的信息...",

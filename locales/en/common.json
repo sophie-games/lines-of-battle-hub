@@ -329,7 +329,9 @@
     "17": "Farm, Unplanted",
     "18": "Farm, Growing",
     "19": "Mud",
-    "20": "Road, Sunken"
+    "20": "Road, Sunken",
+    "21": "Trench",
+    "22": "Redoubt"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -752,10 +754,25 @@
   },
 
   "invitedPlayers": "Invited players",
-  "partyInviteFrom": "Party invite from",
+  "partyInviteFrom": "Party invite from {{username}}",
   "leader": "Leader",
   "you": "You",
   "pending": "Pending",
   "leaveParty": "Leave party",
-  "heightOffset": "Height offset"
+  "heightOffset": "Height offset",
+  "inviteToParty": "Invite to party",
+  "partyInfo": "Party Information",
+  "partyInfoDescription": "Use the friend bar to invite friends to your party. Only party leaders can invite friends.",
+  "moreOptions": "More options",
+  "friends": "Friends",
+  "addFriend": "Add friend",
+  "outgoingRequests": "Out going requests",
+  "removeFriend": "Remove friend",
+  "noFriends": "No friends :(",
+  "partyInvitation": "Party Invitation",
+  "social": "Social",
+  "friendChat": "Friend Chat",
+  "typeMessage": "Type a message...",
+  "noMessagesYet": "No messages yet",
+  "sending": "Sending..."
 }
