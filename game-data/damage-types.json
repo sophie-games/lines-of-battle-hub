@@ -80,7 +80,7 @@
     "projectileWidth": 12,
     "ranges": [
       { "start": 0, "end": 80, "startMod": 0.5, "endMod": 0 },
-      { "start": 80, "end": 100, "startMod": 0, "endMod": -0.2, "name": "long" }
+      { "start": 80, "end": 110, "startMod": 0, "endMod": -0.2, "name": "long" }
     ],
     "shootingAngle": 350,
     "enfiladeFire": true,
