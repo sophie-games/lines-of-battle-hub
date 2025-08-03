@@ -29,7 +29,7 @@
   },
 
   "forest": {
-    "staminaCostModifier": 1.5,
+    "staminaCostModifier": 0.75,
     "hitboxHeight": 2,
     "movementModifier": {
       "infantry": -0.4,
@@ -41,18 +41,21 @@
       "artillery": -0.5
     },
     "attackModifier": {
-      "midCavalry": -0.5,
-      "lightCavalry": -0.5,
-      "heavyCavalry": -0.5
+      "infantry": 0.25,
+      "militiaInfantry": 0.25,
+      "midCavalry": -0.75,
+      "skirmishInfantry": 1,
+      "lightCavalry": -0.75,
+      "heavyCavalry": -0.75
     },
     "defenseModifier": {
       "infantry": 0.5,
-      "skirmishInfantry": 0.87,
+      "skirmishInfantry": 0.95,
       "militiaInfantry": 0.75,
-      "midCavalry": -0.2,
-      "lightCavalry": -0.2,
-      "heavyCavalry": -0.2,
-      "artillery": 0.5
+      "midCavalry": -0.5,
+      "lightCavalry": -0.5,
+      "heavyCavalry": -0.5,
+      "artillery": -0.75
     },
     "rangedAttackModifier": {
       "artillery": -0.3,
@@ -76,8 +79,8 @@
     },
     "chargeResistanceModifier": {
       "infantry": 0.5,
-      "skirmishInfantry": 1,
-      "militiaInfantry": 0.7,
+      "skirmishInfantry": 1.5,
+      "militiaInfantry": 0.75,
       "midCavalry": -0.3,
       "lightCavalry": -0.3,
       "heavyCavalry": -0.3
@@ -91,7 +94,7 @@
   },
 
   "building": {
-    "staminaCostModifier": 1.5,
+    "staminaCostModifier": 0.5,
     "hitboxHeight": 1.3,
     "movementModifier": {
       "infantry": -0.35,
@@ -103,18 +106,21 @@
       "artillery": -0.3
     },
     "attackModifier": {
-      "midCavalry": -0.8,
-      "lightCavalry": -0.8,
-      "heavyCavalry": -0.8
+      "infantry": 0.2,
+      "skirmishInfantry": 0.75,
+      "militiaInfantry": 0.25,
+      "midCavalry": -0.9,
+      "lightCavalry": -0.9,
+      "heavyCavalry": -0.9
     },
     "defenseModifier": {
       "infantry": 0.8,
-      "skirmishInfantry": 0.95,
+      "skirmishInfantry": 0.97,
       "militiaInfantry": 0.8,
-      "midCavalry": -0.2,
-      "lightCavalry": -0.2,
-      "heavyCavalry": -0.2,
-      "artillery": -0.4
+      "midCavalry": -0.75,
+      "lightCavalry": -0.75,
+      "heavyCavalry": -0.75,
+      "artillery": -0.8
     },
     "rangedAttackModifier": {
       "artillery": -0.3,
@@ -137,8 +143,8 @@
       "howitzer-canister": 0.6
     },
     "chargeResistanceModifier": {
-      "infantry": 0.6,
-      "skirmishInfantry": 1.25,
+      "infantry": 0.65,
+      "skirmishInfantry": 1.5,
       "militiaInfantry": 0.9,
       "midCavalry": -0.4,
       "lightCavalry": -0.4,
@@ -153,7 +159,7 @@
   },
 
   "path": {
-    "staminaCostModifier": -0.35,
+    "staminaCostModifier": -0.5,
     "movementModifier": {
       "infantry": 0.3,
       "skirmishInfantry": 0.3,
@@ -246,7 +252,7 @@
   "sunkenRoad": {
     "heightOffset": -0.5,
     "hitboxHeight": 0.6,
-    "staminaCostModifier": -0.35,
+    "staminaCostModifier": -0.5,
     "movementModifier": {
       "infantry": 0.3,
       "skirmishInfantry": 0.3,

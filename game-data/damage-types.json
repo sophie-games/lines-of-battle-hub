@@ -1,27 +1,27 @@
 [
   {
     "type": "bayonet",
-    "orgDamageRatio": 235
+    "orgDamageRatio": 240
   },
   {
     "type": "cavalry-sabre",
-    "orgDamageRatio": 225
+    "orgDamageRatio": 240
   },
   {
     "type": "cavalry-sword",
-    "orgDamageRatio": 225
+    "orgDamageRatio": 240
   },
   {
     "type": "dragoon-sword",
-    "orgDamageRatio": 225
+    "orgDamageRatio": 240
   },
   {
     "type": "artillery-sabre",
-    "orgDamageRatio": 215
+    "orgDamageRatio": 240
   },
   {
     "type": "cavalry-lance",
-    "orgDamageRatio": 225
+    "orgDamageRatio": 240
   },
   {
     "type": "musket",
@@ -32,8 +32,8 @@
       {
         "start": 0,
         "end": 35,
-        "startMod": 6,
-        "endMod": 1.75,
+        "startMod": 7,
+        "endMod": 2,
         "name": "close"
       },
       { "start": 35, "end": 70, "startMod": 1.75, "endMod": 0.25 },
@@ -60,11 +60,11 @@
       {
         "start": 0,
         "end": 45,
-        "startMod": 1,
-        "endMod": 0.75,
+        "startMod": 2,
+        "endMod": 1,
         "name": "close"
       },
-      { "start": 45, "end": 70, "startMod": 0.75, "endMod": 0 },
+      { "start": 45, "end": 70, "startMod": 1, "endMod": 0 },
       { "start": 70, "end": 110, "startMod": 0, "endMod": -0.4, "name": "long" }
     ],
     "shootingAngle": 350,
@@ -79,8 +79,14 @@
     "orgDamageRatio": 325,
     "projectileWidth": 12,
     "ranges": [
-      { "start": 0, "end": 80, "startMod": 0.5, "endMod": 0 },
-      { "start": 80, "end": 110, "startMod": 0, "endMod": -0.2, "name": "long" }
+      { "start": 0, "end": 80, "startMod": 1.25, "endMod": 0.25 },
+      {
+        "start": 80,
+        "end": 110,
+        "startMod": 0.25,
+        "endMod": -0.2,
+        "name": "long"
+      }
     ],
     "shootingAngle": 350,
     "enfiladeFire": true,
@@ -102,9 +108,9 @@
       { "start": 140, "end": 235, "startMod": 0.1, "endMod": 0 },
       {
         "start": 235,
-        "end": 425,
+        "end": 435,
         "startMod": -0.05,
-        "endMod": -0.7,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -140,8 +146,8 @@
       {
         "start": 250,
         "end": 500,
-        "startMod": -0.1,
-        "endMod": -0.75,
+        "startMod": -0.05,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -177,8 +183,8 @@
       {
         "start": 230,
         "end": 400,
-        "startMod": -0.05,
-        "endMod": -0.7,
+        "startMod": -0.1,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
@@ -210,12 +216,12 @@
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 110, "end": 200, "startMod": 0.2, "endMod": 0 },
+      { "start": 110, "end": 200, "startMod": 0.2, "endMod": 0.05 },
       {
         "start": 200,
         "end": 375,
-        "startMod": -0.05,
-        "endMod": -0.7,
+        "startMod": -0.1,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
