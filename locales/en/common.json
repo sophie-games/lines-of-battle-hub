@@ -223,7 +223,8 @@
     "16": "Skirmishers",
     "17": "Rifles",
     "18": "6-lb Foot Artillery",
-    "19": "Rockets"
+    "19": "Rockets",
+    "20": "Unknown"
   },
 
   "battalionName": {
@@ -245,7 +246,8 @@
     "16": "{{n}} Skirmishers",
     "17": "{{n}} Rifles",
     "18": "{{n}} Foot Battery",
-    "19": "{{n}} Rockets"
+    "19": "{{n}} Rockets",
+    "20": "Unknown"
   },
 
   "unitDescription": {
@@ -667,6 +669,13 @@
     "2": "Veteran",
     "3": "Elite",
     "4": "Imperial"
+  },
+
+  "tier": {
+    "free": "Free",
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold"
   },
 
   "currentPassword": "Current Password",
