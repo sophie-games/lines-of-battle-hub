@@ -5,8 +5,8 @@
   },
 
   "mud": {
-    "heightOffset": -0.6,
-    "hitboxHeight": 0.5,
+    "heightOffset": -0.7,
+    "hitboxHeight": 0.4,
     "staminaCostModifier": 0.3,
     "canPlaceObjectives": true,
     "defenseModifier": {},
@@ -31,6 +31,7 @@
   "forest": {
     "staminaCostModifier": 1.5,
     "hitboxHeight": 2,
+    "visionAbsorption": 32,
     "movementModifier": {
       "infantry": -0.4,
       "skirmishInfantry": -0.1,
@@ -93,6 +94,7 @@
   "building": {
     "staminaCostModifier": 1.5,
     "hitboxHeight": 1.3,
+    "visionAbsorption": 32,
     "movementModifier": {
       "infantry": -0.35,
       "skirmishInfantry": -0.1,
@@ -153,7 +155,7 @@
   },
 
   "path": {
-    "staminaCostModifier": -0.35,
+    "staminaCostModifier": -0.5,
     "movementModifier": {
       "infantry": 0.3,
       "skirmishInfantry": 0.3,
@@ -161,7 +163,7 @@
       "midCavalry": 0.2,
       "lightCavalry": 0.2,
       "heavyCavalry": 0.2,
-      "artillery": 0.4
+      "artillery": 0.3
     },
     "defenseModifier": {}
   },
@@ -216,7 +218,9 @@
     }
   },
 
-  "deepWater": { "impassable": true },
+  "deepWater": {
+    "impassable": true
+  },
 
   "cliff": {
     "impassable": true
@@ -226,6 +230,7 @@
     "impassable": true,
     "hitboxHeight": 1.3,
     "staminaCostModifier": 1,
+    "visionAbsorption": 64,
     "projectileAbsorption": {
       "musket": 0.6,
       "marksman-musket": 0.45,
@@ -244,9 +249,9 @@
   },
 
   "sunkenRoad": {
-    "heightOffset": -0.5,
-    "hitboxHeight": 0.6,
-    "staminaCostModifier": -0.35,
+    "heightOffset": -0.7,
+    "hitboxHeight": 0.4,
+    "staminaCostModifier": -0.5,
     "movementModifier": {
       "infantry": 0.3,
       "skirmishInfantry": 0.3,
@@ -254,7 +259,7 @@
       "midCavalry": 0.2,
       "lightCavalry": 0.2,
       "heavyCavalry": 0.2,
-      "artillery": 0.4
+      "artillery": 0.3
     },
     "projectileAbsorption": {
       "musket": 0.15,
