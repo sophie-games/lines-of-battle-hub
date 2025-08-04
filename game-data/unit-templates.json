@@ -437,7 +437,8 @@
       "explosive-shell"
     ],
     "locked": true,
-    "canDeployForward": true
+    "canDeployForward": true,
+    "reducedVisibilityRange": 16
   },
   {
     "type": 17,
@@ -472,7 +473,8 @@
       "explosive-shell"
     ],
     "locked": true,
-    "canDeployForward": true
+    "canDeployForward": true,
+    "reducedVisibilityRange": 16
   },
   {
     "type": 18,
@@ -531,7 +533,28 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true,
+    "startsRunning": true
+  },
+
+  {
+    "type": 20,
+    "category": "infantry",
+    "meleeAttack": 1,
+    "meleeDefense": 1,
+    "meleeDamageType": "bayonet",
+    "chargeBonus": 1,
+    "walkMovement": 1,
+    "runMovement": 2,
+    "timeToRun": 1,
+    "runCost": 1,
+    "hp": 1,
+    "org": 1,
+    "stamina": 1,
+    "movementSound": "infantry-movement",
+    "manpower": 200,
+    "gold": 50,
+    "fireAndAdvance": true,
+    "hasSkirmishers": true,
     "locked": true
   }
 ]

@@ -40,6 +40,12 @@ export default {
   MIN_FOLLOW_ALLY_DISTANCE_SQUARED: 256, // 16 ** 2
   ALLY_HARD_COLLISION_THRESHOLD: 100,
 
+  // Movement path proximity thresholds
+  MOVEMENT_PATH_POINT_PROXIMITY_THRESHOLD_SQUARED: 16, // 4 ** 2
+  MOVEMENT_PATH_FINAL_POINT_PROXIMITY_THRESHOLD_SQUARED: 2, // ~1.4 ** 2
+  MOVEMENT_PATH_ROTATION_SIMILARITY_THRESHOLD: 0.03490658503988659, // (Math.PI / 90) 2 degrees
+  MOVEMENT_PATH_FINAL_POINT_ROTATION_SIMILARITY_THRESHOLD: 0.03490658503988659, // (Math.PI / 90) 2 degrees
+
   FOLLOW_ROTATION_THRESHOLD: 0.7853981633974483, // PI / 4
   CAN_LEAVE_MAP_MIN_ORG: 80,
   CAN_LEAVE_MAP_MIN_HP_PROPORTION: 0.75,
@@ -170,4 +176,37 @@ export default {
   // Unit direction arc constants
   UNIT_FRONT_ARC_RADIANS: 2.21429922, // 126.87 degrees (2:1 rectangle)
   UNIT_BACK_ARC_RADIANS: 2.21429922, // 126.87 degrees (2:1 rectangle)
+
+  /**
+   * ================================
+   * ===== Fog of War constants =====
+   * ================================
+   */
+  FOW_EYE_HEIGHT: 0.5,
+  FOW_TARGET_HEIGHT: 0.5,
+
+  /**
+   * Not visible.
+   */
+  FOW_LEVEL_0_DISTANCE: 56,
+
+  /**
+   * Fully unknown.
+   */
+  FOW_LEVEL_1_DISTANCE: 48,
+
+  /**
+   * Partially unknown.
+   */
+  FOW_LEVEL_2_DISTANCE: 36,
+
+  /**
+   * Visible without bars.
+   */
+  FOW_LEVEL_3_DISTANCE: 24,
+
+  /**
+   * Fully visible.
+   */
+  FOW_LEVEL_4_DISTANCE: 12,
 };
