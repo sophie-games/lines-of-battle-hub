@@ -24,7 +24,8 @@
     "orgRadius": 64,
     "orgRadiusBonus": 8,
     "fireAndAdvance": true,
-    "hasSkirmishers": true
+    "hasSkirmishers": true,
+    "unknownType": 21
   },
   {
     "type": 2,
@@ -47,7 +48,8 @@
     "orgRadiusBonus": 6,
     "movementSound": "cavalry-movement",
     "manpower": 100,
-    "gold": 75
+    "gold": 75,
+    "unknownType": 22
   },
   {
     "type": 3,
@@ -74,7 +76,8 @@
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "unknownType": 23
   },
   {
     "type": 4,
@@ -103,7 +106,8 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "hasSkirmishers": true
+    "hasSkirmishers": true,
+    "unknownType": 21
   },
   {
     "type": 5,
@@ -128,7 +132,8 @@
     "manpower": 100,
     "gold": 100,
     "basicPrice": 400,
-    "premiumPrice": 40
+    "premiumPrice": 40,
+    "unknownType": 22
   },
   {
     "type": 6,
@@ -158,7 +163,8 @@
     "premiumPrice": 40,
     "fireAndAdvance": true,
     "startsRunning": true,
-    "canDeployForward": true
+    "canDeployForward": true,
+    "unknownType": 23
   },
   {
     "type": 7,
@@ -188,7 +194,8 @@
     "premiumPrice": 40,
     "fireAndAdvance": true,
     "hasSkirmishers": true,
-    "canDeployForward": true
+    "canDeployForward": true,
+    "unknownType": 21
   },
   {
     "type": 8,
@@ -213,7 +220,8 @@
     "manpower": 125,
     "gold": 100,
     "basicPrice": 400,
-    "premiumPrice": 40
+    "premiumPrice": 40,
+    "unknownType": 22
   },
   {
     "type": 9,
@@ -242,7 +250,8 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "unknownType": 23
   },
   {
     "type": 10,
@@ -268,7 +277,8 @@
     "gold": 50,
     "orgRadius": 64,
     "orgRadiusBonus": 3,
-    "fireAndAdvance": true
+    "fireAndAdvance": true,
+    "unknownType": 21
   },
   {
     "type": 11,
@@ -292,7 +302,8 @@
     "movementSound": "cavalry-movement",
     "manpower": 75,
     "gold": 75,
-    "canDeployForward": true
+    "canDeployForward": true,
+    "unknownType": 22
   },
   {
     "type": 12,
@@ -319,7 +330,8 @@
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "unknownType": 23
   },
   {
     "type": 13,
@@ -347,7 +359,8 @@
     "gold": 75,
     "basicPrice": 10000,
     "premiumPrice": 500,
-    "fireWhileMoving": true
+    "fireWhileMoving": true,
+    "unknownType": 22
   },
   {
     "type": 14,
@@ -375,7 +388,8 @@
     "orgRadiusBonus": 8,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true
+    "fireAndAdvance": true,
+    "unknownType": 21
   },
   {
     "type": 15,
@@ -402,7 +416,8 @@
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "unknownType": 22
   },
   {
     "type": 16,
@@ -438,7 +453,8 @@
     ],
     "locked": true,
     "canDeployForward": true,
-    "reducedVisibilityRange": 16
+    "reducedVisibilityRange": 16,
+    "unknownType": 21
   },
   {
     "type": 17,
@@ -474,7 +490,8 @@
     ],
     "locked": true,
     "canDeployForward": true,
-    "reducedVisibilityRange": 16
+    "reducedVisibilityRange": 16,
+    "unknownType": 21
   },
   {
     "type": 18,
@@ -503,7 +520,8 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "unknownType": 23
   },
 
   {
@@ -533,7 +551,8 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "startsRunning": true
+    "startsRunning": true,
+    "unknownType": 23
   },
 
   {
@@ -551,6 +570,72 @@
     "org": 1,
     "stamina": 1,
     "movementSound": "infantry-movement",
+    "manpower": 200,
+    "gold": 50,
+    "fireAndAdvance": true,
+    "hasSkirmishers": true,
+    "locked": true
+  },
+
+  {
+    "type": 21,
+    "category": "infantry",
+    "meleeAttack": 1,
+    "meleeDefense": 1,
+    "meleeDamageType": "bayonet",
+    "chargeBonus": 1,
+    "walkMovement": 1,
+    "runMovement": 2,
+    "timeToRun": 1,
+    "runCost": 1,
+    "hp": 1,
+    "org": 1,
+    "stamina": 1,
+    "movementSound": "infantry-movement",
+    "manpower": 200,
+    "gold": 50,
+    "fireAndAdvance": true,
+    "hasSkirmishers": true,
+    "locked": true
+  },
+
+  {
+    "type": 22,
+    "category": "midCavalry",
+    "meleeAttack": 1,
+    "meleeDefense": 1,
+    "meleeDamageType": "bayonet",
+    "chargeBonus": 1,
+    "walkMovement": 1,
+    "runMovement": 2,
+    "timeToRun": 1,
+    "runCost": 1,
+    "hp": 1,
+    "org": 1,
+    "stamina": 1,
+    "movementSound": "cavalry-movement",
+    "manpower": 200,
+    "gold": 50,
+    "fireAndAdvance": true,
+    "hasSkirmishers": true,
+    "locked": true
+  },
+
+  {
+    "type": 23,
+    "category": "artillery",
+    "meleeAttack": 1,
+    "meleeDefense": 1,
+    "meleeDamageType": "bayonet",
+    "chargeBonus": 1,
+    "walkMovement": 1,
+    "runMovement": 2,
+    "timeToRun": 1,
+    "runCost": 1,
+    "hp": 1,
+    "org": 1,
+    "stamina": 1,
+    "movementSound": "artillery-movement",
     "manpower": 200,
     "gold": 50,
     "fireAndAdvance": true,
