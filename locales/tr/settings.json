@@ -111,5 +111,14 @@
 
   "routingTransparency": {
     "title": "Kaçan Birim Şeffaflığı"
+  },
+
+  "fogOfWar": {
+    "title": "Savaş sisi",
+    "description": "Savaş sisi, birimlerinizin göremediği arazi üzerinde görünen gölgedir. Bir oyuncunun görebileceği her kareyi kontrol etmenin hesaplama yükü maliyetlidir, bu nedenle bu seçeneği devre dışı bırakmak performansı artırabilir. Ancak bu seçenek %100 grafikseldir; devre dışı bırakılması gizli düşman birimlerini görünür hale getirmeyecektir."
+  },
+
+  "fogOfWarColor": {
+    "title": "Savaş sisi rengi"
   }
 }

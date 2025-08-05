@@ -109,5 +109,14 @@
 
   "routingTransparency": {
     "title": "Menekülő egységek átlátszósága"
+  },
+
+  "fogOfWar": {
+    "title": "Háború ködje",
+    "description": "A háború ködje az árnyék, amely megjelenik azon a terepen, amelyet az egységeid nem látnak. A minden mező ellenőrzésének számítási terhelése, amelyet egy játékos látni tud, költséges, ezért ennek a beállításnak a kikapcsolása javíthatja a teljesítményt. Ez a beállítás azonban 100%-ban grafikus; a kikapcsolása nem teszi láthatóvá a rejtett ellenséges egységeket."
+  },
+
+  "fogOfWarColor": {
+    "title": "Háború ködjének színe"
   }
 }

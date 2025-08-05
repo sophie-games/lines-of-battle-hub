@@ -117,5 +117,14 @@
 
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"
+  },
+
+  "fogOfWar": {
+    "title": "Nebel des Krieges",
+    "description": "Der Nebel des Krieges ist der Schatten, der über Gelände erscheint, das Ihre Einheiten nicht sehen können. Der Rechenaufwand für die Überprüfung jedes Feldes, das ein Spieler sehen kann, ist kostspielig, daher kann das Deaktivieren dieser Option die Leistung verbessern. Diese Option ist jedoch 100% grafisch; das Deaktivieren macht versteckte feindliche Einheiten nicht sichtbar."
+  },
+
+  "fogOfWarColor": {
+    "title": "Nebel des Krieges Farbe"
   }
 }

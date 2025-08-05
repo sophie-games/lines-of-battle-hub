@@ -104,5 +104,14 @@
 
   "routingTransparency": {
     "title": "Przezroczystość jednostek uciekających"
+  },
+
+  "fogOfWar": {
+    "title": "Mgła wojny",
+    "description": "Mgła wojny to cień, który pojawia się nad terenem, którego twoje jednostki nie mogą zobaczyć. Obciążenie obliczeniowe sprawdzania każdego pola, które gracz może zobaczyć, jest kosztowne, więc wyłączenie tej opcji może poprawić wydajność. Jednak ta opcja jest w 100% graficzna; wyłączenie jej nie sprawi, że ukryte wrogie jednostki staną się widoczne."
+  },
+
+  "fogOfWarColor": {
+    "title": "Kolor mgły wojny"
   }
 }

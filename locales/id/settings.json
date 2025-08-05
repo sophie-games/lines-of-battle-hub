@@ -111,5 +111,14 @@
 
   "routingTransparency": {
     "title": "Transparansi Unit Mundur"
+  },
+
+  "fogOfWar": {
+    "title": "Kabut perang",
+    "description": "Kabut perang adalah bayangan yang muncul di atas medan yang tidak dapat dilihat oleh unit Anda. Beban komputasi untuk memeriksa setiap petak yang dapat dilihat pemain sangat mahal, jadi menonaktifkan opsi ini dapat meningkatkan kinerja. Namun, opsi ini 100% grafis; menonaktifkannya tidak akan membuat unit musuh yang tersembunyi menjadi terlihat."
+  },
+
+  "fogOfWarColor": {
+    "title": "Warna kabut perang"
   }
 }

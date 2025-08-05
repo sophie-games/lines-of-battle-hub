@@ -109,5 +109,14 @@
 
   "routingTransparency": {
     "title": "Transparência de Unidades em Fuga"
+  },
+
+  "fogOfWar": {
+    "title": "Névoa de guerra",
+    "description": "A névoa de guerra é a sombra que aparece sobre o terreno que suas unidades não podem ver. A sobrecarga computacional de verificar cada quadrado que um jogador pode ver é custosa, então desabilitar esta opção pode melhorar o desempenho. No entanto, esta opção é 100% gráfica; desabilitá-la não tornará visíveis as unidades inimigas ocultas."
+  },
+
+  "fogOfWarColor": {
+    "title": "Cor da névoa de guerra"
   }
 }
