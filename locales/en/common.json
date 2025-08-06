@@ -224,7 +224,10 @@
     "17": "Rifles",
     "18": "6-lb Foot Artillery",
     "19": "Rockets",
-    "20": "Unknown"
+    "20": "Unknown",
+    "21": "Unknown Infantry",
+    "22": "Unknown Cavalry",
+    "23": "Unknown Artillery"
   },
 
   "battalionName": {
@@ -247,7 +250,10 @@
     "17": "{{n}} Rifles",
     "18": "{{n}} Foot Battery",
     "19": "{{n}} Rockets",
-    "20": "Unknown"
+    "20": "Unknown",
+    "21": "Unknown Infantry",
+    "22": "Unknown Cavalry",
+    "23": "Unknown Artillery"
   },
 
   "unitDescription": {
@@ -783,5 +789,6 @@
   "friendChat": "Friend Chat",
   "typeMessage": "Type a message...",
   "noMessagesYet": "No messages yet",
-  "sending": "Sending..."
+  "sending": "Sending...",
+  "immuneToFlankRearBonuses": "Immune to flank and rear bonuses"
 }

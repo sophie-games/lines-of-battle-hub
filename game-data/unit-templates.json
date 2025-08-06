@@ -454,7 +454,8 @@
     "locked": true,
     "canDeployForward": true,
     "reducedVisibilityRange": 16,
-    "unknownType": 21
+    "unknownType": 21,
+    "immuneToFlankRearBonuses": true
   },
   {
     "type": 17,
@@ -491,7 +492,8 @@
     "locked": true,
     "canDeployForward": true,
     "reducedVisibilityRange": 16,
-    "unknownType": 21
+    "unknownType": 21,
+    "immuneToFlankRearBonuses": true
   },
   {
     "type": 18,

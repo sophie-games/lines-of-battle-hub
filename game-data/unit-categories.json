@@ -5,7 +5,7 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 2
+    "autofirePriority": 3
   },
 
   "midCavalry": {
@@ -13,7 +13,7 @@
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 2,
+    "autofirePriority": 3,
     "damageTypeResistances": {
       "bayonet": -0.15,
       "cavalry-lance": -0.05,
@@ -67,7 +67,7 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 2
+    "autofirePriority": 3
   },
 
   "lightCavalry": {
@@ -75,7 +75,7 @@
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 2,
+    "autofirePriority": 3,
     "damageTypeResistances": {
       "bayonet": -0.15,
       "cavalry-lance": -0.15,
@@ -101,7 +101,7 @@
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 2,
+    "autofirePriority": 3,
     "damageTypeResistances": {
       "bayonet": -0.1,
       "cavalry-sabre": 0.45,
@@ -129,7 +129,7 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 2
+    "autofirePriority": 3
   },
 
   "skirmishInfantry": {
