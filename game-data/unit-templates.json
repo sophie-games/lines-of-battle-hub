@@ -489,7 +489,6 @@
       "12lb-cannon-ball",
       "explosive-shell"
     ],
-    "locked": true,
     "canDeployForward": true,
     "reducedVisibilityRange": 16,
     "unknownType": 21,

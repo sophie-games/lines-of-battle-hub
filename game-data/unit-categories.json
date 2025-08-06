@@ -39,6 +39,7 @@
     "firingAltitude": 0.5,
     "enemyCollisionLevel": 1,
     "autofirePriority": 2,
+    "projectilePassThrough": 1.0,
     "damageTypeResistances": {
       "bayonet": -0.75,
       "cavalry-sabre": -1,
@@ -57,7 +58,8 @@
       "12lb-canister-fire": 0.3,
       "6lb-canister-fire": 0.4,
       "4lb-canister-fire": 0.4,
-      "howitzer-canister": 0.3
+      "howitzer-canister": 0.3,
+      "rocket": 0.8
     }
   },
 
