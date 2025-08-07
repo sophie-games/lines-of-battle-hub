@@ -486,7 +486,11 @@
   "save": "Salvar",
 
   "ordersSubmittedDialog": {
-    "p1": "Você enviou suas ordens. Agora, espere os outros fazerem seu movimento.",
+    "p1": {
+      "sent": "Ordens enviadas ao servidor.",
+      "received": "Ordens recebidas pelo servidor.",
+      "processed": "Ordens processadas pelo servidor. Agora, espere os outros fazerem seu movimento."
+    },
     "p2": "Verificando atualizações em {{value}} segundos",
     "b": "Verificar Agora"
   },
@@ -508,5 +512,12 @@
     "p1": "Confira as últimas atualizações e recursos em Lines of Battle!",
     "p2": "Fique atento para mais atualizações e novos recursos chegando ao Lines of Battle!",
     "p3": "Siga-nos nas redes sociais para as últimas notícias e anúncios."
-  }
+  },
+
+  "measuring": "Medindo...",
+  "disconnected": "Desconectado",
+  "reconnected": "Reconectado",
+  "connecting": "Conectando...",
+  "disconnecting": "Desconectando...",
+  "unknown": "Desconhecido"
 }
