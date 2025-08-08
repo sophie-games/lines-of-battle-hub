@@ -73,9 +73,8 @@
 
   "battleType": "Tryb bitwy",
   "dynamicBattleType": {
-    "skirmish": "Potyczka",
-    "clash": "Starcie",
-    "combat": "Batalia",
+    "blitz": "Blitz",
+    "encounter": "Starcie",
     "battle": "Bitwa",
     "grand_battle": "Wielka Bitwa"
   },
@@ -547,7 +546,11 @@
   "save": "Zapisz",
 
   "ordersSubmittedDialog": {
-    "p1": "Poczekaj aż inni prześlą swoje rozkazy",
+    "p1": {
+      "sent": "Rozkazy wysłane do serwera.",
+      "received": "Rozkazy otrzymane przez serwer.",
+      "processed": "Rozkazy przetworzone przez serwer. Teraz poczekaj, aż inni wykonają swój ruch."
+    },
     "p2": "Aktualizacja rozkazów za {{value}}s",
     "b": "Aktualizowanie rozkazów"
   },
@@ -727,5 +730,16 @@
     "p1": "Sprawdź najnowsze aktualizacje i funkcje w Lines of Battle!",
     "p2": "Bądź na bieżąco z kolejnymi aktualizacjami i nowymi funkcjami nadchodzącymi do Lines of Battle!",
     "p3": "Śledź nas w mediach społecznościowych, aby otrzymywać najnowsze wiadomości i ogłoszenia."
-  }
+  },
+
+  "allVisible": "Wszystko Widoczne",
+  "teamN": "Drużyna {{number}}",
+  "measuring": "Mierzenie...",
+  "disconnected": "Rozłączono",
+  "reconnected": "Ponowne połączenie",
+  "connecting": "Łączenie...",
+  "disconnecting": "Rozłączanie...",
+  "unknown": "Nieznane",
+
+  "fogOfWar": "Mgła wojny"
 }

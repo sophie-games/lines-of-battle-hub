@@ -70,9 +70,8 @@
 
   "battleType": "Savaş türü",
   "dynamicBattleType": {
-    "skirmish": "Çatışma",
-    "clash": "Karşılaşma",
-    "combat": "Mücadele",
+    "blitz": "Yıldırım",
+    "encounter": "Karşılaşma",
     "battle": "Savaş",
     "grand_battle": "Büyük Savaş"
   },
@@ -490,7 +489,11 @@
   "save": "Kaydet",
 
   "ordersSubmittedDialog": {
-    "p1": "Emirlerinizi gönderdiniz. Şimdi diğerlerinin hamle yapmasını bekleyin.",
+    "p1": {
+      "sent": "Emirler sunucuya gönderildi.",
+      "received": "Emirler sunucu tarafından alındı.",
+      "processed": "Emirler sunucu tarafından işlendi. Şimdi diğerlerinin hamle yapmasını bekleyin."
+    },
     "p2": "{{value}} saniye içinde güncellemeler kontrol ediliyor",
     "b": "Şimdi Kontrol Et"
   },
@@ -512,5 +515,16 @@
     "p1": "Lines of Battle'deki en son güncellemeleri ve özellikleri kontrol edin!",
     "p2": "Lines of Battle'e gelecek daha fazla güncelleme ve yeni özellikler için bizi takip edin!",
     "p3": "En son haberler ve duyurular için bizi sosyal medyada takip edin."
-  }
+  },
+
+  "allVisible": "Tümü Görünür",
+  "teamN": "Takım {{number}}",
+  "measuring": "Ölçülüyor...",
+  "disconnected": "Bağlantı kesildi",
+  "reconnected": "Yeniden bağlandı",
+  "connecting": "Bağlanıyor...",
+  "disconnecting": "Bağlantı kesiliyor...",
+  "unknown": "Bilinmiyor",
+
+  "fogOfWar": "Savaş sisi"
 }

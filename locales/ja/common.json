@@ -70,11 +70,10 @@
 
   "battleType": "戦闘タイプ",
   "dynamicBattleType": {
-    "skirmish": "小競り合い",
-    "clash": "衝突",
-    "combat": "戦闘",
-    "battle": "バトル",
-    "grand_battle": "大規模戦闘"
+    "blitz": "電撃戦",
+    "encounter": "遭遇戦",
+    "battle": "戦闘",
+    "grand_battle": "大戦闘"
   },
 
   "matchmaking": "マッチメイキング",
@@ -484,6 +483,16 @@
   "noDescription": "説明なし",
   "save": "保存",
 
+  "ordersSubmittedDialog": {
+    "p1": {
+      "sent": "サーバーに命令が送信されました。",
+      "received": "サーバーが命令を受信しました。",
+      "processed": "サーバーが命令を処理しました。他のプレイヤーが手を打つまでお待ちください。"
+    },
+    "p2": "{{value}}秒後に相手の命令を確認中",
+    "b": "今すぐ確認"
+  },
+
   "search": {
     "clans": "連合を検索"
   },
@@ -501,5 +510,16 @@
     "p1": "Lines of Battleの最新アップデートと機能をご覧ください！",
     "p2": "Lines of Battleに来るさらなるアップデートと新機能にご期待ください！",
     "p3": "最新のニュースとお知らせについては、ソーシャルメディアでフォローしてください。"
-  }
+  },
+
+  "allVisible": "すべて表示",
+  "teamN": "チーム{{number}}",
+  "measuring": "測定中...",
+  "disconnected": "切断",
+  "reconnected": "再接続",
+  "connecting": "接続中...",
+  "disconnecting": "切断中...",
+  "unknown": "不明",
+
+  "fogOfWar": "戦争の霧"
 }

@@ -112,7 +112,6 @@
   },
 
   "fogOfWar": {
-    "title": "Brouillard de guerre",
     "description": "Le brouillard de guerre est l'ombre qui apparaît sur le terrain que vos unités ne peuvent pas voir. La surcharge de calcul pour vérifier chaque case qu'un joueur peut voir est coûteuse, donc désactiver cette option peut améliorer les performances. Cependant, cette option est 100% graphique ; la désactiver ne rendra pas visibles les unités ennemies cachées."
   },
 

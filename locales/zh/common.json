@@ -66,10 +66,9 @@
   },
   "battleType": "战斗规模",
   "dynamicBattleType": {
-    "skirmish": "遭遇战",
-    "clash": "冲突",
-    "combat": "战斗",
-    "battle": "战役",
+    "blitz": "闪电战",
+    "encounter": "遭遇战",
+    "battle": "战斗",
     "grand_battle": "大战役"
   },
   "matchmaking": "匹配",
@@ -509,7 +508,11 @@
   "noDescription": "无描述",
   "save": "保存",
   "ordersSubmittedDialog": {
-    "p1": "现在请等待其它玩家作出行动。",
+    "p1": {
+      "sent": "指令已发送到服务器。",
+      "received": "服务器已接收指令。",
+      "processed": "服务器已处理指令。现在请等待其它玩家作出行动。"
+    },
     "p2": "{{value}}秒后检查更新",
     "b": "立刻检查"
   },
@@ -672,8 +675,6 @@
   "copyLogs": "复制日志",
   "copyLogsInstructions": "想报告bug吗？请保存截屏，复制日志，然后把它们发给Leo。",
   "errorCheckingTimeout": "错误检查超时",
-  "disconnectedMessage": "丢失与服务器的连接。重新连接中…",
-  "reconnectedMessage": "连接成功。同步对局中…",
   "removesX": "移除{{x}}",
   "send": "发送",
   "chat": "聊天",
@@ -711,5 +712,16 @@
   "friendChat": "好友聊天",
   "typeMessage": "发送信息……",
   "noMessagesYet": "没有聊天历史",
-  "sending": "发送中……"
+  "sending": "发送中……",
+  "allVisible": "全部可见",
+  "teamN": "队伍{{number}}",
+
+  "measuring": "测量中...",
+  "disconnected": "断开连接",
+  "reconnected": "重新连接",
+  "connecting": "连接中...",
+  "disconnecting": "断开连接...",
+  "unknown": "未知",
+
+  "fogOfWar": "战争迷雾"
 }

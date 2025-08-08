@@ -66,11 +66,10 @@
 
   "battleType": "Type de bataille",
   "dynamicBattleType": {
-    "skirmish": "Escarmouche",
-    "clash": "Affrontement",
-    "combat": "Combat",
+    "blitz": "Blitz",
+    "encounter": "Rencontre",
     "battle": "Bataille",
-    "grand_battle": "Grande bataille"
+    "grand_battle": "Grande Bataille"
   },
 
   "matchmaking": "Partie classée",
@@ -79,6 +78,7 @@
 
   "customDescription": "Le mode personnalisé vous permet de jouer contre vos amis avec des paramètres que vous aurez définis.",
   "maxTurn": "Nb de tour max",
+  "seed": "Graine",
 
   "player": "Joueur",
   "units": "Unités",
@@ -491,7 +491,11 @@
   "save": "Sauvegarder",
 
   "ordersSubmittedDialog": {
-    "p1": "Vous avez soumis vos ordres. Maintenant, attendez que les autres fassent leur mouvement.",
+    "p1": {
+      "sent": "Ordres envoyés au serveur.",
+      "received": "Ordres reçus par le serveur.",
+      "processed": "Ordres traités par le serveur. Maintenant, attendez que les autres fassent leur mouvement."
+    },
     "p2": "Vérification des mises à jour dans {{value}} secondes",
     "b": "Vérifier maintenant"
   },
@@ -522,5 +526,16 @@
     "p1": "Découvrez les dernières mises à jour et fonctionnalités de Lines of Battle !",
     "p2": "Restez à l'écoute pour plus de mises à jour et de nouvelles fonctionnalités à venir dans Lines of Battle !",
     "p3": "Suivez-nous sur les réseaux sociaux pour les dernières nouvelles et annonces."
-  }
+  },
+
+  "allVisible": "Tout Visible",
+  "teamN": "Équipe {{number}}",
+  "measuring": "Mesure...",
+  "disconnected": "Déconnecté",
+  "reconnected": "Reconnecté",
+  "connecting": "Connexion...",
+  "disconnecting": "Déconnexion...",
+  "unknown": "Inconnu",
+
+  "fogOfWar": "Brouillard de guerre"
 }

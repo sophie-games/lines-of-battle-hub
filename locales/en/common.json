@@ -74,9 +74,8 @@
 
   "battleType": "Battle type",
   "dynamicBattleType": {
-    "skirmish": "Skirmish",
-    "clash": "Clash",
-    "combat": "Combat",
+    "blitz": "Blitz",
+    "encounter": "Encounter",
     "battle": "Battle",
     "grand_battle": "Grand Battle"
   },
@@ -95,6 +94,7 @@
   "customDescription": "Custom mode lets you set up a game with specific settings and invite friends to play.",
   "createCustomGame": "Create Custom game",
   "maxTurn": "Max turn",
+  "seed": "Seed",
 
   "player": "Player",
   "units": "Units",
@@ -570,7 +570,11 @@
   "save": "Save",
 
   "ordersSubmittedDialog": {
-    "p1": "Now, wait for the others to make their move.",
+    "p1": {
+      "sent": "Orders sent to the server.",
+      "received": "Orders received by the server.",
+      "processed": "Orders processed by the server. Now, wait for the others to make their move."
+    },
     "p2": "Checking for the opponent's orders in {{value}} seconds",
     "b": "Check Now"
   },
@@ -748,8 +752,6 @@
   "copyLogs": "Copy logs",
   "copyLogsInstructions": "Want to report a bug? Please take a screenshot, copy the logs, and send them to Leo.",
   "errorCheckingTimeout": "Error checking timeout",
-  "disconnectedMessage": "Lost connection with the server. Reconnecting...",
-  "reconnectedMessage": "Connection succeed. Syncing game...",
   "removesX": "Removes {{x}}",
   "send": "Send",
   "chat": "Chat",
@@ -790,5 +792,18 @@
   "typeMessage": "Type a message...",
   "noMessagesYet": "No messages yet",
   "sending": "Sending...",
-  "immuneToFlankRearBonuses": "Immune to flank and rear bonuses"
+  "immuneToFlankRearBonuses": "Immune to flank and rear bonuses",
+
+  "allVisible": "All Visible",
+  "teamN": "Team {{number}}",
+
+  "measuring": "Measuring...",
+  "disconnected": "Disconnected",
+  "reconnected": "Reconnected",
+  "connecting": "Connecting...",
+  "disconnecting": "Disconnecting...",
+  "unknown": "Unknown",
+
+  "fogOfWar": "Fog of war",
+  "max": "Max"
 }

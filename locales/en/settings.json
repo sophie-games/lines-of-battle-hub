@@ -157,7 +157,6 @@
   },
 
   "fogOfWar": {
-    "title": "Fog of war",
     "description": "Fog of war is the shadow that appears over terrain that your units cannot see. The computational overhead of checking every tile a player can see is costly, so disabling this option may improve performance. However, this option is 100% graphical; disabling it will not make hidden enemy units visible."
   },
 

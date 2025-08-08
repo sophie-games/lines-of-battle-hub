@@ -112,7 +112,6 @@
   },
 
   "fogOfWar": {
-    "title": "Nebbia di guerra",
     "description": "La nebbia di guerra è l'ombra che appare sul terreno che le tue unità non possono vedere. Il sovraccarico computazionale per controllare ogni casella che un giocatore può vedere è costoso, quindi disabilitare questa opzione può migliorare le prestazioni. Tuttavia, questa opzione è 100% grafica; disabilitarla non renderà visibili le unità nemiche nascoste."
   },
 

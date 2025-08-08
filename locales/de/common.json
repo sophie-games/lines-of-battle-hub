@@ -70,9 +70,8 @@
 
   "battleType": "Schlachttypen",
   "dynamicBattleType": {
-    "skirmish": "Scharmützel",
-    "clash": "Zusammenstoß",
-    "combat": "Gefecht",
+    "blitz": "Blitz",
+    "encounter": "Begegnung",
     "battle": "Schlacht",
     "grand_battle": "Große Schlacht"
   },
@@ -484,6 +483,16 @@
   "noDescription": "Keine Beschreibung",
   "save": "Speichern",
 
+  "ordersSubmittedDialog": {
+    "p1": {
+      "sent": "Befehle an den Server gesendet.",
+      "received": "Befehle vom Server empfangen.",
+      "processed": "Befehle vom Server verarbeitet. Warten Sie jetzt darauf, dass die anderen ihren Zug machen."
+    },
+    "p2": "Überprüfung der Befehle des Gegners in {{value}} Sekunden",
+    "b": "Jetzt prüfen"
+  },
+
   "search": {
     "clans": "Suche Koalitionen"
   },
@@ -502,5 +511,16 @@
     "p1": "Schau dir die neuesten Updates und Funktionen in Lines of Battle an!",
     "p2": "Bleib dran für weitere Updates und neue Funktionen, die zu Lines of Battle kommen!",
     "p3": "Folge uns in den sozialen Medien für die neuesten Nachrichten und Ankündigungen."
-  }
+  },
+
+  "allVisible": "Alle Sichtbar",
+  "teamN": "Team {{number}}",
+  "measuring": "Messen...",
+  "disconnected": "Getrennt",
+  "reconnected": "Wieder verbunden",
+  "connecting": "Verbinden...",
+  "disconnecting": "Trennen...",
+  "unknown": "Unbekannt",
+
+  "fogOfWar": "Nebel des Krieges"
 }

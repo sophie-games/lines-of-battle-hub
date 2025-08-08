@@ -70,9 +70,8 @@
 
   "battleType": "Tipo di battaglia",
   "dynamicBattleType": {
-    "skirmish": "Schermaglia",
-    "clash": "Scontro",
-    "combat": "Combattimento",
+    "blitz": "Blitz",
+    "encounter": "Incontro",
     "battle": "Battaglia",
     "grand_battle": "Grande Battaglia"
   },
@@ -486,7 +485,11 @@
   "save": "Salva",
 
   "ordersSubmittedDialog": {
-    "p1": "Hai inviato i tuoi ordini. Ora, attendi che gli altri facciano la loro mossa.",
+    "p1": {
+      "sent": "Ordini inviati al server.",
+      "received": "Ordini ricevuti dal server.",
+      "processed": "Ordini elaborati dal server. Ora, attendi che gli altri facciano la loro mossa."
+    },
     "p2": "Controllo aggiornamenti tra {{value}} secondi",
     "b": "Controlla ora"
   },
@@ -508,5 +511,16 @@
     "p1": "Scopri gli ultimi aggiornamenti e le funzionalità in Lines of Battle!",
     "p2": "Rimani sintonizzato per ulteriori aggiornamenti e nuove funzionalità in arrivo su Lines of Battle!",
     "p3": "Seguici sui social media per le ultime notizie e annunci."
-  }
+  },
+
+  "allVisible": "Tutto Visibile",
+  "teamN": "Squadra {{number}}",
+  "measuring": "Misurando...",
+  "disconnected": "Disconnesso",
+  "reconnected": "Riconnesso",
+  "connecting": "Connessione...",
+  "disconnecting": "Disconnessione...",
+  "unknown": "Sconosciuto",
+
+  "fogOfWar": "Nebbia di guerra"
 }
