@@ -1,27 +1,38 @@
 {
-  "skirmish": {
+  "blitz": {
     "manpower": 1100,
     "gold": 500,
-    "skirmisherRatio": [2, 3]
+    "skirmisherRatio": [0, 1],
+    "fogOfWar": false,
+    "unitCaps": {
+      "17": 0
+    }
   },
-  "clash": {
+  "encounter": {
     "manpower": 2600,
     "gold": 1500,
-    "skirmisherRatio": [1, 2]
-  },
-  "combat": {
-    "manpower": 5200,
-    "gold": 3000,
-    "skirmisherRatio": [4, 8]
+    "skirmisherRatio": [1, 2],
+    "fogOfWar": false,
+    "unitCaps": {
+      "17": 2
+    }
   },
   "battle": {
     "manpower": 8400,
     "gold": 4800,
-    "skirmisherRatio": [2, 5]
+    "skirmisherRatio": [2, 5],
+    "fogOfWar": true,
+    "unitCaps": {
+      "17": 4
+    }
   },
   "grand_battle": {
     "manpower": 15000,
     "gold": 8800,
-    "skirmisherRatio": [1, 3]
+    "skirmisherRatio": [1, 3],
+    "fogOfWar": true,
+    "unitCaps": {
+      "17": 6
+    }
   }
 }
