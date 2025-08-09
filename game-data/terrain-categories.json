@@ -1,10 +1,12 @@
 {
   "land": {
+    "color": "#8a9b52",
     "canPlaceObjectives": true,
     "defenseModifier": {}
   },
 
   "mud": {
+    "color": "#70543e",
     "heightOffset": -0.7,
     "hitboxHeight": 0.4,
     "staminaCostModifier": 0.3,
@@ -29,6 +31,7 @@
   },
 
   "forest": {
+    "color": "#344c1c",
     "staminaCostModifier": 0.75,
     "hitboxHeight": 2,
     "visionAbsorption": 32,
@@ -96,6 +99,7 @@
   },
 
   "building": {
+    "color": "#9a8a70",
     "staminaCostModifier": 0.5,
     "hitboxHeight": 1.3,
     "visionAbsorption": 32,
@@ -163,6 +167,7 @@
   },
 
   "path": {
+    "color": "#c9be98",
     "staminaCostModifier": -0.5,
     "movementModifier": {
       "infantry": 0.3,
@@ -177,6 +182,7 @@
   },
 
   "shallowWater": {
+    "color": "#3e5b7e",
     "staminaCostModifier": 1,
     "movementModifier": {
       "infantry": -0.7,
@@ -257,6 +263,7 @@
   },
 
   "sunkenRoad": {
+    "color": "#A9866D",
     "heightOffset": -0.5,
     "hitboxHeight": 0.6,
     "staminaCostModifier": -0.5,
