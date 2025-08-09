@@ -562,7 +562,11 @@
   "save": "Save",
 
   "ordersSubmittedDialog": {
-    "p1": "Now, wait for the others to make their move.",
+    "p1": {
+      "sent": "Orders have been sent to the game server.",
+      "received": "Orders have been received by the server.",
+      "processed": "Orders have been processed by the server. Now, wait for the others to make their move.",
+    }, 
     "p2": "Checking for the opponent's orders in {{value}} seconds",
     "b": "Check Now"
   },
