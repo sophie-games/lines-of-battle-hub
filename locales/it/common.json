@@ -148,12 +148,15 @@
   },
 
   "unitCategory": {
-    "1": "Fanteria",
-    "2": "Cavalleria",
-    "3": "Artiglieria",
-    "4": "Fanteria leggera",
-    "5": "Cavalleria leggera",
-    "6": "Cavalleria pesante"
+    "infantry": "Fanteria",
+    "midCavalry": "Cavalleria",
+    "artillery": "Artiglieria",
+    "lightInfantry": "Fanteria leggera",
+    "scoutCavalry": "Cavalleria da ricognizione",
+    "lightCavalry": "Cavalleria leggera",
+    "heavyCavalry": "Cavalleria pesante",
+    "militiaInfantry": "Fanteria di milizia",
+    "skirmishInfantry": "Fanteria da schermaglia"
   },
 
   "category": "Categoria",

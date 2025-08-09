@@ -149,13 +149,15 @@
   },
 
   "unitCategory": {
-    "1": "Infanteri",
-    "2": "Kavaleri",
-    "3": "Artileri",
-    "4": "Infateri Ringan",
-    "5": "Kavaleri Ringan",
-    "6": "Kavaleri Berat",
-    "7": "Infateri Milisi"
+    "infantry": "Infanteri",
+    "midCavalry": "Kavaleri",
+    "artillery": "Artileri",
+    "lightInfantry": "Infanteri Ringan",
+    "scoutCavalry": "Kavaleri Pengintai",
+    "lightCavalry": "Kavaleri Ringan",
+    "heavyCavalry": "Kavaleri Berat",
+    "militiaInfantry": "Infanteri Milisi",
+    "skirmishInfantry": "Infanteri Penembak Jitu"
   },
 
   "category": "Kategori",

@@ -156,14 +156,15 @@
   },
 
   "unitCategory": {
-    "1": "Piechota",
-    "2": "Kawaleria",
-    "3": "Artyleria",
-    "4": "Lekka Piechota",
-    "5": "Lekka Kawaleria",
-    "6": "Ciężka Kawaleria",
-    "7": "Milicja",
-    "8": "Strzelcy"
+    "infantry": "Piechota",
+    "midCavalry": "Kawaleria",
+    "artillery": "Artyleria",
+    "lightInfantry": "Lekka Piechota",
+    "scoutCavalry": "Kawaleria Zwiadowcza",
+    "lightCavalry": "Lekka Kawaleria",
+    "heavyCavalry": "Ciężka Kawaleria",
+    "militiaInfantry": "Milicja",
+    "skirmishInfantry": "Strzelcy"
   },
 
   "category": "Kategoria",

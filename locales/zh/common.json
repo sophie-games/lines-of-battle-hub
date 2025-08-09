@@ -149,14 +149,15 @@
     "runCost": "疾跑消耗"
   },
   "unitCategory": {
-    "1": "步兵",
-    "2": "骑兵",
-    "3": "炮兵",
-    "4": "轻步兵",
-    "5": "轻骑兵",
-    "6": "重骑兵",
-    "7": "民兵",
-    "8": "散兵"
+    "infantry": "步兵",
+    "midCavalry": "骑兵",
+    "artillery": "炮兵",
+    "lightInfantry": "轻步兵",
+    "scoutCavalry": "侦察骑兵",
+    "lightCavalry": "轻骑兵",
+    "heavyCavalry": "重骑兵",
+    "militiaInfantry": "民兵",
+    "skirmishInfantry": "散兵"
   },
   "category": "类别",
   "damageType": {

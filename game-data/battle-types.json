@@ -1,38 +1,42 @@
 {
   "blitz": {
-    "manpower": 1100,
-    "gold": 500,
+    "manpower": 1950,
+    "gold": 1050,
     "skirmisherRatio": [0, 1],
     "fogOfWar": false,
     "unitCaps": {
-      "17": 0
+      "17": 0,
+      "19": 2
     }
   },
   "encounter": {
-    "manpower": 2600,
-    "gold": 1500,
+    "manpower": 4250,
+    "gold": 2500,
     "skirmisherRatio": [1, 2],
     "fogOfWar": false,
     "unitCaps": {
-      "17": 2
+      "17": 3,
+      "19": 1
     }
   },
   "battle": {
-    "manpower": 8400,
-    "gold": 4800,
-    "skirmisherRatio": [2, 5],
+    "manpower": 7300,
+    "gold": 4250,
+    "skirmisherRatio": [3, 6],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 4
+      "17": 6,
+      "19": 2
     }
   },
   "grand_battle": {
-    "manpower": 15000,
-    "gold": 8800,
-    "skirmisherRatio": [1, 3],
+    "manpower": 14600,
+    "gold": 8500,
+    "skirmisherRatio": [2, 5],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 6
+      "17": 8,
+      "19": 2
     }
   }
 }

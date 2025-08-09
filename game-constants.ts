@@ -188,22 +188,22 @@ export default {
   /**
    * Not visible.
    */
-  FOW_LEVEL_0_DISTANCE: 56,
+  FOW_LEVEL_0_DISTANCE: 48,
 
   /**
    * Fully unknown.
    */
-  FOW_LEVEL_1_DISTANCE: 48,
+  FOW_LEVEL_1_DISTANCE: 36,
 
   /**
    * Partially unknown.
    */
-  FOW_LEVEL_2_DISTANCE: 36,
+  FOW_LEVEL_2_DISTANCE: 24,
 
   /**
    * Visible without bars.
    */
-  FOW_LEVEL_3_DISTANCE: 24,
+  FOW_LEVEL_3_DISTANCE: 18,
 
   /**
    * Fully visible.

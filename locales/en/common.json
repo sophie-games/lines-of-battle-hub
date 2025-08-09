@@ -167,14 +167,15 @@
   },
 
   "unitCategory": {
-    "1": "Infantry",
-    "2": "Cavalry",
-    "3": "Artillery",
-    "4": "Light Infantry",
-    "5": "Light Cavalry",
-    "6": "Heavy Cavalry",
-    "7": "Militia Infantry",
-    "8": "Skirmish Infantry"
+    "infantry": "Infantry",
+    "midCavalry": "Cavalry",
+    "artillery": "Artillery",
+    "lightInfantry": "Light Infantry",
+    "scoutCavalry": "Scout Cavalry",
+    "lightCavalry": "Light Cavalry",
+    "heavyCavalry": "Heavy Cavalry",
+    "militiaInfantry": "Militia Infantry",
+    "skirmishInfantry": "Skirmish Infantry"
   },
 
   "category": "Category",

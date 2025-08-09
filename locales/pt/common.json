@@ -148,12 +148,15 @@
   },
 
   "unitCategory": {
-    "1": "Infantaria",
-    "2": "Cavalaria",
-    "3": "Artilharia",
-    "4": "Infantaria Ligeira",
-    "5": "Cavalaria Ligeira",
-    "6": "Cavalaria Pesada"
+    "infantry": "Infantaria",
+    "midCavalry": "Cavalaria",
+    "artillery": "Artilharia",
+    "lightInfantry": "Infantaria Ligeira",
+    "scoutCavalry": "Cavalaria de Reconhecimento",
+    "lightCavalry": "Cavalaria Ligeira",
+    "heavyCavalry": "Cavalaria Pesada",
+    "militiaInfantry": "Infantaria de Milícia",
+    "skirmishInfantry": "Infantaria de Escaramuça"
   },
 
   "category": "Categoria",

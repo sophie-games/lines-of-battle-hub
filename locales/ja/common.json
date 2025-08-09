@@ -148,12 +148,15 @@
   },
 
   "unitCategory": {
-    "1": "歩兵",
-    "2": "騎兵",
-    "3": "砲兵",
-    "4": "軽歩兵",
-    "5": "軽騎兵",
-    "6": "重騎兵"
+    "infantry": "歩兵",
+    "midCavalry": "騎兵",
+    "artillery": "砲兵",
+    "lightInfantry": "軽歩兵",
+    "scoutCavalry": "斥候騎兵",
+    "lightCavalry": "軽騎兵",
+    "heavyCavalry": "重騎兵",
+    "militiaInfantry": "民兵歩兵",
+    "skirmishInfantry": "散兵歩兵"
   },
 
   "category": "カテゴリー",

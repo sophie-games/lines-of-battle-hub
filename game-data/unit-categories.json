@@ -1,6 +1,5 @@
 {
   "infantry": {
-    "id": 1,
     "firingAltitude": 0.9,
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
@@ -9,7 +8,6 @@
   },
 
   "midCavalry": {
-    "id": 2,
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
@@ -35,7 +33,6 @@
   },
 
   "artillery": {
-    "id": 3,
     "firingAltitude": 0.5,
     "enemyCollisionLevel": 1,
     "autofirePriority": 2,
@@ -64,7 +61,6 @@
   },
 
   "lightInfantry": {
-    "id": 4,
     "firingAltitude": 0.9,
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
@@ -72,8 +68,32 @@
     "autofirePriority": 3
   },
 
+  "scoutCavalry": {
+    "firingAltitude": 0.9,
+    "allyCollisionLevel": 2,
+    "enemyCollisionLevel": 2,
+    "autofirePriority": 3,
+    "damageTypeResistances": {
+      "bayonet": -0.15,
+      "cavalry-lance": -0.15,
+      "cavalry-sword": -0.3,
+      "musket": -0.1,
+      "marksman-musket": -0.1,
+      "rifle": -0.1,
+      "8lb-cannon-ball": 0.3,
+      "12lb-cannon-ball": 0.3,
+      "6lb-cannon-ball": 0.3,
+      "4lb-cannon-ball": 0.3,
+      "explosive-shell": 0.3,
+      "8lb-canister-fire": -0.15,
+      "12lb-canister-fire": -0.15,
+      "6lb-canister-fire": -0.15,
+      "4lb-canister-fire": -0.15,
+      "howitzer-canister": -0.15
+    }
+  },
+
   "lightCavalry": {
-    "id": 5,
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
@@ -99,7 +119,6 @@
   },
 
   "heavyCavalry": {
-    "id": 6,
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
@@ -126,7 +145,6 @@
   },
 
   "militiaInfantry": {
-    "id": 7,
     "firingAltitude": 0.9,
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
@@ -135,7 +153,6 @@
   },
 
   "skirmishInfantry": {
-    "id": 8,
     "firingAltitude": 0.9,
     "enemyCollisionLevel": 1,
     "autofirePriority": 1,

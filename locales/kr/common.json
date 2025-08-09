@@ -141,14 +141,15 @@
   },
 
   "unitCategory": {
-    "1": "보병",
-    "2": "기병",
-    "3": "포병",
-    "4": "경보병",
-    "5": "경기병",
-    "6": "중기병",
-    "7": "민병",
-    "8": "척후보병"
+    "infantry": "보병",
+    "midCavalry": "기병",
+    "artillery": "포병",
+    "lightInfantry": "경보병",
+    "scoutCavalry": "정찰기병",
+    "lightCavalry": "경기병",
+    "heavyCavalry": "중기병",
+    "militiaInfantry": "민병",
+    "skirmishInfantry": "척후보병"
   },
   "category": "유형",
   "damageType": {

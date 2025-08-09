@@ -148,12 +148,15 @@
   },
 
   "unitCategory": {
-    "1": "Gyalogság",
-    "2": "Lovasság",
-    "3": "Tüzérség",
-    "4": "Könnyű gyalogság",
-    "5": "Könnyű lovasság",
-    "6": "Nehéz lovasság"
+    "infantry": "Gyalogság",
+    "midCavalry": "Lovasság",
+    "artillery": "Tüzérség",
+    "lightInfantry": "Könnyű gyalogság",
+    "scoutCavalry": "Felderítő Lovasság",
+    "lightCavalry": "Könnyű lovasság",
+    "heavyCavalry": "Nehéz lovasság",
+    "militiaInfantry": "Milícia Gyalogság",
+    "skirmishInfantry": "Felderítő Gyalogság"
   },
 
   "category": "Kategória",

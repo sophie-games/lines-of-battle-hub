@@ -60,6 +60,7 @@
     },
     "rangedAttackModifier": {
       "artillery": -0.3,
+      "skirmishInfantry": 0.15,
       "infantry": -0.1,
       "militiaInfantry": -0.1
     },
@@ -126,6 +127,7 @@
     },
     "rangedAttackModifier": {
       "artillery": -0.3,
+      "skirmishInfantry": 0.25,
       "infantry": -0.1,
       "militiaInfantry": -0.1
     },

@@ -145,13 +145,15 @@
   },
 
   "unitCategory": {
-    "1": "Infanterie",
-    "2": "Cavalerie",
-    "3": "Artillerie",
-    "4": "Infanterie légère",
-    "5": "Cavalerie légère",
-    "6": "Cavalerie lourde",
-    "7": "Milice"
+    "infantry": "Infanterie",
+    "midCavalry": "Cavalerie",
+    "artillery": "Artillerie",
+    "lightInfantry": "Infanterie légère",
+    "scoutCavalry": "Cavalerie d'éclairage",
+    "lightCavalry": "Cavalerie légère",
+    "heavyCavalry": "Cavalerie lourde",
+    "militiaInfantry": "Infanterie de milice",
+    "skirmishInfantry": "Infanterie de tirailleurs"
   },
 
   "category": "Catégorie",

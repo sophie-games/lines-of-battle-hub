@@ -148,13 +148,15 @@
   },
 
   "unitCategory": {
-    "1": "Piyade",
-    "2": "Süvari",
-    "3": "Topçu",
-    "4": "Hafif Piyade",
-    "5": "Hafif Süvari",
-    "6": "Ağır Süvari",
-    "7": "Milis Piyade"
+    "infantry": "Piyade",
+    "midCavalry": "Süvari",
+    "artillery": "Topçu",
+    "lightInfantry": "Hafif Piyade",
+    "scoutCavalry": "Keşif Süvarisi",
+    "lightCavalry": "Hafif Süvari",
+    "heavyCavalry": "Ağır Süvari",
+    "militiaInfantry": "Milis Piyade",
+    "skirmishInfantry": "Avcı Piyade"
   },
 
   "category": "Kategori",
