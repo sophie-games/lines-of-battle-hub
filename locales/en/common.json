@@ -292,6 +292,7 @@
   "canCaptureObjectives": "Can capture objectives",
   "cantCaptureObjectives": "Cannot capture objectives",
   "enfiladeFire": "Enfilade Fire",
+  "pointBlankRange": "Point Blank Range",
   "closeRange": "Close Range",
   "midRange": "Mid Range",
   "longRange": "Long Range",
@@ -806,5 +807,6 @@
   "unknown": "Unknown",
 
   "fogOfWar": "Fog of war",
-  "max": "Max"
+  "max": "Max",
+  "minDistanceToFAA": "Min distance to FAA"
 }

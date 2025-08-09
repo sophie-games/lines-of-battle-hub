@@ -24,6 +24,7 @@
     "orgRadius": 64,
     "orgRadiusBonus": 8,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 35,
     "hasSkirmishers": true,
     "unknownType": 21,
     "reportStats": {
@@ -86,6 +87,7 @@
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 70,
     "startsRunning": true,
     "unknownType": 23,
     "reportStats": {
@@ -121,6 +123,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 35,
     "hasSkirmishers": true,
     "unknownType": 21,
     "reportStats": {
@@ -187,6 +190,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 70,
     "startsRunning": true,
     "canDeployForward": true,
     "unknownType": 23,
@@ -223,6 +227,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 35,
     "hasSkirmishers": true,
     "canDeployForward": true,
     "unknownType": 21,
@@ -290,6 +295,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 70,
     "startsRunning": true,
     "unknownType": 23,
     "reportStats": {
@@ -323,6 +329,7 @@
     "orgRadius": 64,
     "orgRadiusBonus": 3,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 35,
     "unknownType": 21,
     "reportStats": {
       "men": 800,
@@ -385,6 +392,7 @@
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 70,
     "startsRunning": true,
     "unknownType": 23,
     "reportStats": {
@@ -420,6 +428,7 @@
     "basicPrice": 10000,
     "premiumPrice": 500,
     "fireWhileMoving": true,
+    "minDistanceToFAA": 35,
     "unknownType": 22,
     "reportStats": {
       "men": 250,
@@ -454,6 +463,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 35,
     "unknownType": 21,
     "reportStats": {
       "men": 800,
@@ -486,6 +496,7 @@
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 70,
     "startsRunning": true,
     "canDeployForward": true,
     "unknownType": 22,
@@ -520,6 +531,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 35,
     "friendlyFireImmuneDamageTypes": [
       "4lb-cannon-ball",
       "6lb-cannon-ball",
@@ -563,6 +575,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 35,
     "friendlyFireImmuneDamageTypes": [
       "4lb-cannon-ball",
       "6lb-cannon-ball",
@@ -607,6 +620,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 70,
     "startsRunning": true,
     "unknownType": 23,
     "reportStats": {
@@ -643,6 +657,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
+    "minDistanceToFAA": 70,
     "startsRunning": true,
     "unknownType": 23,
     "reportStats": {

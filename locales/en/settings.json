@@ -42,6 +42,10 @@
   "showPlayableGamesAvailableModal": {
     "title": "Show Playable Games Available Modal"
   },
+  "cinematicMode": {
+    "title": "Cinematic Mode",
+    "description": "Hides the turn indicator and victory bar from replays for a cleaner viewing experience."
+  },
   "hidePlayerInfo": {
     "title": "Hide Player Info",
     "description": "Hides ELO and usernames from the game UI, making players anonymous."
