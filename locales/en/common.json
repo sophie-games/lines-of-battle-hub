@@ -808,5 +808,9 @@
 
   "fogOfWar": "Fog of war",
   "max": "Max",
-  "minDistanceToFAA": "Min distance to FAA"
+  "minDistanceToFAA": "Min distance to FAA",
+  "captureProgress": "Capture progress",
+  "captureThreshold": "Capture threshold",
+  "big": "Big",
+  "small": "Small"
 }
