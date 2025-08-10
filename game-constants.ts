@@ -210,4 +210,13 @@ export default {
    * Fully visible.
    */
   FOW_LEVEL_4_DISTANCE: 12,
+
+  /**
+   * ================================
+   * ===== Victory points =====
+   * ================================
+   */
+  VP_TOTAL_OBJECTIVE_POINTS: 20,
+  VP_BASE_POINTS: 50,
+  VP_POINTS_TO_TIE_BREAK: 10,
 };
