@@ -180,6 +180,12 @@
 
   "category": "Category",
 
+  "routingBehavior": "Routing Behavior",
+  "baseSpeed": "Base Speed",
+  "moveWhileInMelee": "Move While In Melee",
+  "walk": "Walk",
+  "run": "Run",
+
   "damageType": {
     "musket": "Musket",
     "light-musket": "Light Musket",

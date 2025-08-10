@@ -4,7 +4,11 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3
+    "autofirePriority": 3,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    }
   },
 
   "midCavalry": {
@@ -12,6 +16,10 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "autofirePriority": 3,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    },
     "damageTypeResistances": {
       "bayonet": -0.15,
       "cavalry-lance": -0.05,
@@ -37,6 +45,10 @@
     "enemyCollisionLevel": 1,
     "autofirePriority": 2,
     "projectilePassThrough": 1.0,
+    "routingBehavior": {
+      "baseSpeed": "walk",
+      "moveWhileInMelee": false
+    },
     "damageTypeResistances": {
       "bayonet": -0.75,
       "cavalry-sabre": -1,
@@ -65,7 +77,11 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3
+    "autofirePriority": 3,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    }
   },
 
   "scoutCavalry": {
@@ -73,6 +89,10 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "autofirePriority": 3,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    },
     "damageTypeResistances": {
       "bayonet": -0.15,
       "cavalry-lance": -0.15,
@@ -98,6 +118,10 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "autofirePriority": 3,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    },
     "damageTypeResistances": {
       "bayonet": -0.15,
       "cavalry-lance": -0.15,
@@ -123,6 +147,10 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "autofirePriority": 3,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    },
     "damageTypeResistances": {
       "bayonet": -0.1,
       "cavalry-sabre": 0.45,
@@ -149,7 +177,11 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3
+    "autofirePriority": 3,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    }
   },
 
   "skirmishInfantry": {
@@ -157,6 +189,10 @@
     "enemyCollisionLevel": 1,
     "autofirePriority": 1,
     "projectilePassThrough": 0.8,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    },
     "damageTypeResistances": {
       "bayonet": -0.4,
       "cavalry-sabre": -0.9,
