@@ -66,7 +66,7 @@
   "battleType": "전투 유형",
   "dynamicBattleType": {
     "blitz": "전격전",
-    "encounter": "조우전",
+    "clash": "조우전",
     "battle": "전투",
     "grand_battle": "대전투"
   },
@@ -379,7 +379,8 @@
     "powerLost": "손실 전력",
     "lossesRatio": "손실률",
     "objectives": "지점목표",
-    "timeWithoutObjectives": "지점목표 상실 후 경과한 시간",
+    "timeUnderPressure": "압박 시간",
+    "timeUnderPressureTooltip": "압박 시간은 팀이 지점목표의 {{percentage}}% 이하를 점령하고 있는 시간입니다. 팀이 압박 상태에 있는 시간이 길수록 더 많은 승리 점수를 잃게 됩니다.",
     "unitsOrgRegain": "부대 조직력 회복"
   },
   "offerDrawModal": {

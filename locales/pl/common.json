@@ -74,7 +74,7 @@
   "battleType": "Tryb bitwy",
   "dynamicBattleType": {
     "blitz": "Blitz",
-    "encounter": "Starcie",
+    "clash": "Starcie",
     "battle": "Bitwa",
     "grand_battle": "Wielka Bitwa"
   },
@@ -410,7 +410,8 @@
     "powerLost": "Stracona Siła",
     "lossesRatio": "Stosunek Strat",
     "objectives": "Punkty",
-    "timeWithoutObjectives": "Czas bez punktu",
+    "timeUnderPressure": "Czas pod presją",
+    "timeUnderPressureTooltip": "Czas pod presją to czas, w którym drużyna kontroluje {{percentage}}% punktów lub mniej. Im dłużej drużyna pozostaje pod presją, tym więcej punktów zwycięstwa traci.",
     "unitsOrgRegain": "Odzyskiwanie Org. Jednostek"
   },
 

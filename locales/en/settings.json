@@ -44,7 +44,7 @@
   },
   "cinematicMode": {
     "title": "Cinematic Mode",
-    "description": "Hides the turn indicator and victory bar from replays for a cleaner viewing experience."
+    "description": "Hides the turn indicator, victory bar and unit bars from replays for a cleaner viewing experience."
   },
   "hidePlayerInfo": {
     "title": "Hide Player Info",

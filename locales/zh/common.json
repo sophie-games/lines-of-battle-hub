@@ -67,7 +67,7 @@
   "battleType": "战斗规模",
   "dynamicBattleType": {
     "blitz": "闪电战",
-    "encounter": "遭遇战",
+    "clash": "遭遇战",
     "battle": "战斗",
     "grand_battle": "大战役"
   },
@@ -388,7 +388,8 @@
     "powerLost": "军力损失",
     "lossesRatio": "损伤比",
     "objectives": "目标点",
-    "timeWithoutObjectives": "失去目标点的时间",
+    "timeUnderPressure": "受压时间",
+    "timeUnderPressureTooltip": "受压时间是指团队控制{{percentage}}%或更少目标点的时间。团队受压时间越长，损失的胜利点数就越多。",
     "unitsOrgRegain": "单位组织度恢复"
   },
   "offerDrawModal": {

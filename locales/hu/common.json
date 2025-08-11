@@ -71,7 +71,7 @@
   "battleType": "Csata típusa",
   "dynamicBattleType": {
     "blitz": "Villám",
-    "encounter": "Találkozás",
+    "clash": "Találkozás",
     "battle": "Csata",
     "grand_battle": "Nagy Csata"
   },
@@ -364,7 +364,8 @@
     "powerLost": "Elvesztett Erő",
     "lossesRatio": "Veszteségi Ráta",
     "objectives": "Objektívák",
-    "timeWithoutObjectives": "Objektíváktól nélkülözött idő",
+    "timeUnderPressure": "Idő nyomás alatt",
+    "timeUnderPressureTooltip": "A nyomás alatti idő az az idő, amikor egy csapat az objektívák {{percentage}}%-át vagy kevesebbet irányítja. Minél tovább marad egy csapat nyomás alatt, annál több győzelmi pontot veszít el.",
     "unitsOrgRegain": "Egységek felépülése (Org)"
   },
 

@@ -71,7 +71,7 @@
   "battleType": "Schlachttypen",
   "dynamicBattleType": {
     "blitz": "Blitz",
-    "encounter": "Begegnung",
+    "clash": "Begegnung",
     "battle": "Schlacht",
     "grand_battle": "Große Schlacht"
   },
@@ -364,7 +364,8 @@
     "powerLost": "eingebüßte Stärke",
     "lossesRatio": "Verhältnis der Verluste",
     "objectives": "Objektive",
-    "timeWithoutObjectives": "Zeit nicht auf dem Objektiv",
+    "timeUnderPressure": "Zeit unter Druck",
+    "timeUnderPressureTooltip": "Zeit unter Druck ist die Zeit, in der ein Team {{percentage}}% der Ziele oder weniger kontrolliert. Je länger ein Team unter Druck steht, desto mehr Siegpunkte verliert es.",
     "unitsOrgRegain": "Einheiten Org Wiedergewinnung"
   },
 

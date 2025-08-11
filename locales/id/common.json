@@ -72,7 +72,7 @@
   "battleType": "Jenis pertempuran",
   "dynamicBattleType": {
     "blitz": "Blitz",
-    "encounter": "Pertemuan",
+    "clash": "Pertemuan",
     "battle": "Pertempuran",
     "grand_battle": "Pertempuran Besar"
   },
@@ -367,7 +367,8 @@
     "powerLost": "Kekuatan yang Hilang",
     "lossesRatio": "Rasio Kekalahan",
     "objectives": "Objektif",
-    "timeWithoutObjectives": "Waktu Tanpa Objektif",
+    "timeUnderPressure": "Waktu di Bawah Tekanan",
+    "timeUnderPressureTooltip": "Waktu di bawah tekanan adalah waktu ketika tim mengontrol {{percentage}}% objektif atau kurang. Semakin lama tim berada di bawah tekanan, semakin banyak poin kemenangan yang hilang.",
     "unitsOrgRegain": "Tingkat Pemulihan Organisasi"
   },
 

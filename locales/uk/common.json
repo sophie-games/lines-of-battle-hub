@@ -59,7 +59,7 @@
   "battleType": "Тип битви",
   "dynamicBattleType": {
     "blitz": "Блиц",
-    "encounter": "Зустріч",
+    "clash": "Зустріч",
     "battle": "Битва",
     "grand_battle": "Велика Битва"
   },
@@ -328,7 +328,8 @@
     "powerLost": "Втрачена сила",
     "lossesRatio": "Співвідношення втрат",
     "objectives": "Цілі",
-    "timeWithoutObjectives": "Час без контролю над цілями",
+    "timeUnderPressure": "Час під тиском",
+    "timeUnderPressureTooltip": "Час під тиском - це час, коли команда контролює {{percentage}}% цілей або менше. Чим довше команда знаходиться під тиском, тим більше очок перемоги вона втрачає.",
     "unitsOrgRegain": "Відновлення організації підрозділів"
   },
   "offerDrawModal": {

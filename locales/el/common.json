@@ -75,7 +75,7 @@
   "battleType": "Τύπος μάχης",
   "dynamicBattleType": {
     "blitz": "Αστραπή",
-    "encounter": "Συνάντηση",
+    "clash": "Συνάντηση",
     "battle": "Μάχη",
     "grand_battle": "Μεγάλη Μάχη"
   },
@@ -423,7 +423,8 @@
     "powerLost": "Χάθηκε η ισχύς",
     "lossesRatio": "Αναλογία Απωλειών",
     "objectives": "Στόχοι",
-    "timeWithoutObjectives": "Χρόνος χωρίς Στόχους",
+    "timeUnderPressure": "Χρόνος υπό πίεση",
+    "timeUnderPressureTooltip": "Ο χρόνος υπό πίεση είναι ο χρόνος που μια ομάδα ελέγχει το {{percentage}}% των στόχων ή λιγότερο. Όσο περισσότερο μια ομάδα παραμένει υπό πίεση, τόσο περισσότερους βαθμούς νίκης χάνει.",
     "unitsOrgRegain": "Ανάκτηση org μονάδων"
   },
 

@@ -71,7 +71,7 @@
   "battleType": "Savaş türü",
   "dynamicBattleType": {
     "blitz": "Yıldırım",
-    "encounter": "Karşılaşma",
+    "clash": "Karşılaşma",
     "battle": "Savaş",
     "grand_battle": "Büyük Savaş"
   },
@@ -365,7 +365,8 @@
     "powerLost": "Kayıp Güç",
     "lossesRatio": "Kayıp Oranı",
     "objectives": "Hedefler",
-    "timeWithoutObjectives": "Hedefsiz Geçen Süre",
+    "timeUnderPressure": "Baskı Altındaki Süre",
+    "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin {{percentage}}%'ini veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
     "unitsOrgRegain": "Birim organizasyon kazanımı"
   },
 

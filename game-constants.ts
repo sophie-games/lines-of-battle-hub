@@ -219,4 +219,10 @@ export default {
   VP_TOTAL_OBJECTIVE_POINTS: 20,
   VP_BASE_POINTS: 50,
   VP_POINTS_TO_TIE_BREAK: 10,
+
+  /**
+   * Percentage threshold for objectives to avoid pressure ticks.
+   * Teams with more than this percentage of objectives won't get pressure ticks.
+   */
+  OBJECTIVE_PRESSURE_THRESHOLD: 0.25,
 };

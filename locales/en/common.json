@@ -75,7 +75,7 @@
   "battleType": "Battle type",
   "dynamicBattleType": {
     "blitz": "Blitz",
-    "encounter": "Encounter",
+    "clash": "Clash",
     "battle": "Battle",
     "grand_battle": "Grand Battle"
   },
@@ -441,7 +441,8 @@
     "powerLost": "Power Lost",
     "lossesRatio": "Losses Ratio",
     "objectives": "Objectives",
-    "timeWithoutObjectives": "Time without Objectives",
+    "timeUnderPressure": "Time under pressure",
+    "timeUnderPressureTooltip": "Time under pressure is the time a team has the {{percentage}}% of the objectives or less. The longer a team is under pressure, the more victory points they lose.",
     "unitsOrgRegain": "Units org regain"
   },
 
