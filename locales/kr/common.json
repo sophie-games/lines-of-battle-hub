@@ -47,9 +47,9 @@
   "matchmakingQueue": {
     "inQueue": "경기 탐색 대기열에 들어오셨습니다! 등급 체계에 기반해 귀하와 동일한 설정을 선택한 다른 플레이어를 탐색 중입니다.",
     "matchFound": "일치하는 항목이 발견되면 경기로 리디렉션됩니다.",
-    "onlyClanMembers": "연합원과만 경기",
     "extendQueue": "대기 연장",
-    "extendQueueSuccess": "모든 Elo 범위대에서 탐색."
+    "extendQueueSuccess": "모든 Elo 범위대에서 탐색.",
+    "cancelledBy": "{{username}} 님이 대기를 취소했습니다."
   },
   "fastMode": "단기전",
   "slowMode": "장기전",
@@ -74,8 +74,16 @@
   },
   "matchmaking": "경기 탐색",
   "matchmakingDescription": "경기 탐색을 통해 미리 설정된 설정으로 무작위 플레이어와 빠르게 경기할 수 있습니다.",
+  "onlyPartyLeaderCanSearch": "조장만 경기를 찾을 수 있습니다.",
+  "partyFormed": "조 생성",
+  "partySearchStatus": {
+    "leaderTitle": "당신이 조장합니다",
+    "leaderDescription": "경기를 찾을 수 있습니다. 찾기를 시작하면 조원에게 알림이 전송됩니다.",
+    "memberTitle": "조장 기다리는 중",
+    "memberDescription": "조장만 경기를 찾을 수 있습니다. 찾기가 시작되면 알림을 받게 됩니다."
+  },
   "custom": "사용자 지정",
-  "customDescription": "사용자 지정",
+  "customDescription": "사용자 지정을 사용하면 특정 설정으로 경기를 설정하고 친구를 초대해 경기할 수 있습니다.",
   "createCustomGame": "사용자 지정 경기 생성",
   "maxTurn": "최대 턴",
   "player": "플레이어",
@@ -94,7 +102,7 @@
     "tutorialMessage": "사용법을 잘 모르시겠나요? 걱정마세요, 저희가 도와드리겠습니다! <tutorialLink>이 영상을 통해 배워보세요.</tutorialLink>"
   },
   "createScenario": "전역 창작",
-  "loadScenario": "전역 창작",
+  "loadScenario": "전역 불러오기",
   "playOffline": "오프라인으로 경기하기!",
   "createOfflineGame": "오프라인 경기 생성",
   "chooseAScenario": "전역 선택",
@@ -141,7 +149,6 @@
     "timeToRun": "주행까지의 시간",
     "runCost": "주행 비용"
   },
-
   "unitCategory": {
     "1": "보병",
     "2": "기병",
@@ -248,7 +255,7 @@
   "orgDamage": "조직력 피해량",
   "enfiladeFireModifiers": "측방사격 변동치",
   "rearFireModifiers": "측방사격 변동치",
-  "targetAltitude": "표적고도",
+  "firingAltitude": "사격 고도",
   "canCaptureObjectives": "지점목표 점령 가능",
   "cantCaptureObjectives": "지점목표 점령 불가능",
   "enfiladeFire": "측방사격",
@@ -276,7 +283,6 @@
   "projectileAbsorption": "발사체 흡수치",
   "terrainPName": "지형 : {{name}}",
   "effects": "효과",
-
   "terrain": {
     "0": "대지",
     "1": "삼림",
@@ -297,9 +303,11 @@
     "16": "빙판",
     "17": "빈 농원",
     "18": "작물이 자라는 농원",
-    "19": "진창"
+    "19": "진창",
+    "20": "수몰된 도로",
+    "21": "참호",
+    "22": "보루"
   },
-
   "clearPlayerUnits": "플레이어 부대 지우기",
   "clearBotUnits": "컴퓨터 부대 지우기",
   "continueGame": "경기 재개",
@@ -345,8 +353,8 @@
   },
   "fetchingBattleActions": "전투 상황 가져오는 중...",
   "order": {
-    "1": "걷기",
-    "2": "달리기",
+    "1": "보행",
+    "2": "주행",
     "3": "사격",
     "4": "사격 및 전진",
     "6": "후퇴",
@@ -682,5 +690,26 @@
     "p2": "Lines of Battle에 더 많은 기능이 추가될 예정이니 기대해 주세요!",
     "p3": "소셜 미디어에서 최신 소식와 공지사항을 확인하세요."
   },
-  "deploymentBuffer": "Deployment buffer"
+  "invitedPlayers": "초대된 플레이어",
+  "partyInviteFrom": "{{username}}의 초대",
+  "leader": "조장",
+  "you": "당신",
+  "pending": "보류 중",
+  "leaveParty": "조 탈퇴",
+  "heightOffset": "Height offset",
+  "inviteToParty": "조에 초대",
+  "partyInfo": "조 정보",
+  "partyInfoDescription": "친구창을 이용해 친구를 조에 초대할 수 있습니다. 조장만 가능합니다.",
+  "moreOptions": "더 많은 설정",
+  "friends": "친구",
+  "addFriend": "친구 추가",
+  "outgoingRequests": "요청 보내기",
+  "removeFriend": "친구 삭제",
+  "noFriends": "친구 없음 :(",
+  "partyInvitation": "조 초대",
+  "social": "소셜",
+  "friendChat": "친구와 대화",
+  "typeMessage": "친구에게...",
+  "noMessagesYet": "대화 없음",
+  "sending": "보내는 중..."
 }
