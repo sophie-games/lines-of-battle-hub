@@ -27,6 +27,9 @@
     "minDistanceToFAA": 35,
     "hasSkirmishers": true,
     "unknownType": 21,
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204,
     "reportStats": {
       "men": 800,
       "horse": 0,
@@ -56,6 +59,9 @@
     "manpower": 100,
     "gold": 75,
     "unknownType": 22,
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204,
     "reportStats": {
       "men": 250,
       "horse": 250,
@@ -90,6 +96,9 @@
     "minDistanceToFAA": 70,
     "startsRunning": true,
     "unknownType": 23,
+    "rotationSpeed": 1.0,
+    "rotationMaxThreshold": 3.0,
+    "runRotationSpeed": 0.8,
     "reportStats": {
       "men": 104,
       "horse": 32,
@@ -130,7 +139,10 @@
       "men": 800,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 5,
@@ -161,7 +173,10 @@
       "men": 250,
       "horse": 250,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 6,
@@ -198,7 +213,10 @@
       "men": 72,
       "horse": 48,
       "guns": 6
-    }
+    },
+    "rotationSpeed": 1.0,
+    "rotationMaxThreshold": 3.0,
+    "runRotationSpeed": 0.8
   },
   {
     "type": 7,
@@ -235,7 +253,10 @@
       "men": 800,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 8,
@@ -266,7 +287,10 @@
       "men": 250,
       "horse": 250,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 9,
@@ -302,7 +326,10 @@
       "men": 80,
       "horse": 24,
       "guns": 6
-    }
+    },
+    "rotationSpeed": 1.0,
+    "rotationMaxThreshold": 3.0,
+    "runRotationSpeed": 0.8
   },
   {
     "type": 10,
@@ -335,7 +362,10 @@
       "men": 800,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 11,
@@ -365,7 +395,10 @@
       "men": 125,
       "horse": 125,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 12,
@@ -399,7 +432,10 @@
       "men": 120,
       "horse": 48,
       "guns": 8
-    }
+    },
+    "rotationSpeed": 1.0,
+    "rotationMaxThreshold": 3.0,
+    "runRotationSpeed": 0.8
   },
   {
     "type": 13,
@@ -434,7 +470,10 @@
       "men": 250,
       "horse": 250,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 14,
@@ -469,7 +508,10 @@
       "men": 800,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 15,
@@ -504,7 +546,10 @@
       "men": 800,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 1.0,
+    "rotationMaxThreshold": 3.0,
+    "runRotationSpeed": 0.8
   },
   {
     "type": 16,
@@ -548,7 +593,10 @@
       "men": 100,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 17,
@@ -591,7 +639,10 @@
       "men": 100,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
   {
     "type": 18,
@@ -627,9 +678,11 @@
       "men": 64,
       "horse": 40,
       "guns": 8
-    }
+    },
+    "rotationSpeed": 1.0,
+    "rotationMaxThreshold": 3.0,
+    "runRotationSpeed": 0.8
   },
-
   {
     "type": 19,
     "category": "artillery",
@@ -664,9 +717,11 @@
       "men": 60,
       "horse": 24,
       "guns": 6
-    }
+    },
+    "rotationSpeed": 1.0,
+    "rotationMaxThreshold": 3.0,
+    "runRotationSpeed": 0.8
   },
-
   {
     "type": 20,
     "category": "infantry",
@@ -691,9 +746,11 @@
       "men": 0,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
-
   {
     "type": 21,
     "category": "infantry",
@@ -718,9 +775,11 @@
       "men": 0,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
-
   {
     "type": 22,
     "category": "midCavalry",
@@ -745,9 +804,11 @@
       "men": 0,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 0.297,
+    "rotationMaxThreshold": 0.523,
+    "runRotationSpeed": 0.204
   },
-
   {
     "type": 23,
     "category": "artillery",
@@ -772,6 +833,9 @@
       "men": 0,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "rotationSpeed": 1.0,
+    "rotationMaxThreshold": 3.0,
+    "runRotationSpeed": 0.8
   }
 ]

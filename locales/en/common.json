@@ -819,5 +819,17 @@
   "captureProgress": "Capture progress",
   "captureThreshold": "Capture threshold",
   "big": "Big",
-  "small": "Small"
+  "small": "Small",
+
+  "chargePenetrationTooltip": "Reduces charge resistance of target.",
+  "forFlankCharges": "For flank charges is <0>{{value}}</0>",
+  "forRearCharges": "For rear charges is <0>{{value}}</0>",
+
+  "base": "Base",
+  "Terrain": "Terrain",
+  "chargeResistanceTooltip": "Reduces the enemy's charge damage.",
+
+  "rotationSpeed": "Rotation speed",
+  "runRotationSpeed": "Run rotation speed",
+  "rotationMaxThreshold": "Rotation max threshold"
 }
