@@ -110,7 +110,8 @@
   },
 
   "scenarioEditorTags": {
-    "tutorialMessage": " Not sure how to use it? Don't worry, we've got you covered! <tutorialLink>Watch the tutorial here.</tutorialLink>"
+    "tutorialMessage": "Not sure how to use it? Don't worry, we've got you covered! <tutorialLink>Watch the tutorial here.</tutorialLink>",
+    "randomGuide": "Want to learn how to create random maps? Read <0>this guide</0>."
   },
 
   "createScenario": "Create Scenario",
