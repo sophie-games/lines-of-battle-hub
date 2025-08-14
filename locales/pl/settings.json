@@ -112,5 +112,10 @@
 
   "fogOfWarColor": {
     "title": "Kolor mgły wojny"
+  },
+
+  "groundQuality": {
+    "title": "Jakość terenu",
+    "description": "Kontroluje jakość tekstur terenu. Wyższa jakość zapewnia lepsze szczegóły wizualne, ale może wpływać na wydajność. Wymaga odświeżenia mapy."
   }
 }

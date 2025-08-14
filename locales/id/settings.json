@@ -119,5 +119,10 @@
 
   "fogOfWarColor": {
     "title": "Warna kabut perang"
+  },
+
+  "groundQuality": {
+    "title": "Kualitas tanah",
+    "description": "Mengontrol kualitas tekstur tanah. Kualitas yang lebih tinggi memberikan detail visual yang lebih baik tetapi dapat mempengaruhi kinerja. Memerlukan penyegaran peta."
   }
 }

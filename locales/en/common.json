@@ -832,5 +832,9 @@
 
   "rotationSpeed": "Rotation speed",
   "runRotationSpeed": "Run rotation speed",
-  "rotationMaxThreshold": "Rotation max threshold"
+  "rotationMaxThreshold": "Rotation max threshold",
+
+  "low": "Low",
+  "medium": "Medium",
+  "high": "High"
 }

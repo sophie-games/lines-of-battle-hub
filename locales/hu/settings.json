@@ -117,5 +117,10 @@
 
   "fogOfWarColor": {
     "title": "Háború ködjének színe"
+  },
+
+  "groundQuality": {
+    "title": "Terep minősége",
+    "description": "Szabályozza a terep textúrák minőségét. A magasabb minőség jobb vizuális részleteket biztosít, de befolyásolhatja a teljesítményt. Megköveteli a térkép frissítését."
   }
 }

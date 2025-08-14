@@ -117,5 +117,10 @@
 
   "fogOfWarColor": {
     "title": "Couleur du brouillard de guerre"
+  },
+
+  "groundQuality": {
+    "title": "Qualité du terrain",
+    "description": "Contrôle la qualité des textures du terrain. Une qualité plus élevée fournit de meilleurs détails visuels mais peut affecter les performances. Nécessite de rafraîchir la carte."
   }
 }

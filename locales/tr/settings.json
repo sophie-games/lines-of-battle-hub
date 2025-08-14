@@ -119,5 +119,10 @@
 
   "fogOfWarColor": {
     "title": "Savaş sisi rengi"
+  },
+
+  "groundQuality": {
+    "title": "Arazi kalitesi",
+    "description": "Arazi dokularının kalitesini kontrol eder. Daha yüksek kalite daha iyi görsel detaylar sağlar ancak performansı etkileyebilir. Haritanın yenilenmesini gerektirir."
   }
 }

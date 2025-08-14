@@ -529,5 +529,9 @@
   "disconnecting": "Bağlantı kesiliyor...",
   "unknown": "Bilinmiyor",
 
-  "fogOfWar": "Savaş sisi"
+  "fogOfWar": "Savaş sisi",
+
+  "low": "Düşük",
+  "medium": "Orta",
+  "high": "Yüksek"
 }

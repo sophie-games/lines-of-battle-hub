@@ -472,5 +472,9 @@
   "disconnecting": "Elválasztás...",
   "unknown": "Ismeretlen",
 
-  "fogOfWar": "Háború ködje"
+  "fogOfWar": "Háború ködje",
+
+  "low": "Alacsony",
+  "medium": "Közepes",
+  "high": "Magas"
 }

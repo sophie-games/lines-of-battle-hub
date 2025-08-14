@@ -526,5 +526,9 @@
   "disconnecting": "Trennen...",
   "unknown": "Unbekannt",
 
-  "fogOfWar": "Nebel des Krieges"
+  "fogOfWar": "Nebel des Krieges",
+
+  "low": "Niedrig",
+  "medium": "Mittel",
+  "high": "Hoch"
 }

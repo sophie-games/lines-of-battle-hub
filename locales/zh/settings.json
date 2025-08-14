@@ -140,5 +140,10 @@
 
   "fogOfWarColor": {
     "title": "战争迷雾颜色"
+  },
+
+  "groundQuality": {
+    "title": "地形质量",
+    "description": "控制地形纹理的质量。更高的质量提供更好的视觉细节，但可能影响性能。需要刷新地图。"
   }
 }

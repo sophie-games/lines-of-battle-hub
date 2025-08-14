@@ -125,5 +125,10 @@
 
   "fogOfWarColor": {
     "title": "Nebel des Krieges Farbe"
+  },
+
+  "groundQuality": {
+    "title": "Bodenqualität",
+    "description": "Steuert die Qualität der Bodenstrukturen. Höhere Qualität bietet bessere visuelle Details, kann aber die Leistung beeinträchtigen. Erfordert das Aktualisieren der Karte."
   }
 }

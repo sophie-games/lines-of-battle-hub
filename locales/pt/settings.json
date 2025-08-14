@@ -117,5 +117,10 @@
 
   "fogOfWarColor": {
     "title": "Cor da névoa de guerra"
+  },
+
+  "groundQuality": {
+    "title": "Qualidade do terreno",
+    "description": "Controla a qualidade das texturas do terreno. Qualidade mais alta fornece melhores detalhes visuais, mas pode afetar o desempenho. Requer atualizar o mapa."
   }
 }

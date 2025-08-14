@@ -540,5 +540,9 @@
   "disconnecting": "Déconnexion...",
   "unknown": "Inconnu",
 
-  "fogOfWar": "Brouillard de guerre"
+  "fogOfWar": "Brouillard de guerre",
+
+  "low": "Faible",
+  "medium": "Moyen",
+  "high": "Élevé"
 }

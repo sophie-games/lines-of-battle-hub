@@ -166,5 +166,10 @@
 
   "fogOfWarColor": {
     "title": "Fog of war color"
+  },
+
+  "groundQuality": {
+    "title": "Ground Quality",
+    "description": "Controls the quality of ground textures. Higher quality provides better visual detail but may impact performance. Requires refreshing the map."
   }
 }

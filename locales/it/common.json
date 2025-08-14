@@ -526,5 +526,9 @@
   "disconnecting": "Disconnessione...",
   "unknown": "Sconosciuto",
 
-  "fogOfWar": "Nebbia di guerra"
+  "fogOfWar": "Nebbia di guerra",
+
+  "low": "Bassa",
+  "medium": "Media",
+  "high": "Alta"
 }

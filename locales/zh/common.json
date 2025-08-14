@@ -725,5 +725,9 @@
   "disconnecting": "断开连接...",
   "unknown": "未知",
 
-  "fogOfWar": "战争迷雾"
+  "fogOfWar": "战争迷雾",
+
+  "low": "低",
+  "medium": "中",
+  "high": "高"
 }

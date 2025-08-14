@@ -525,5 +525,9 @@
   "disconnecting": "切断中...",
   "unknown": "不明",
 
-  "fogOfWar": "戦争の霧"
+  "fogOfWar": "戦争の霧",
+
+  "low": "低",
+  "medium": "中",
+  "high": "高"
 }

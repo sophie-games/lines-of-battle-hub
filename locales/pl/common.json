@@ -743,5 +743,9 @@
   "disconnecting": "Rozłączanie...",
   "unknown": "Nieznane",
 
-  "fogOfWar": "Mgła wojny"
+  "fogOfWar": "Mgła wojny",
+
+  "low": "Niska",
+  "medium": "Średnia",
+  "high": "Wysoka"
 }

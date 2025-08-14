@@ -539,5 +539,9 @@
   "disconnecting": "Memutus koneksi...",
   "unknown": "Tidak diketahui",
 
-  "fogOfWar": "Kabut perang"
+  "fogOfWar": "Kabut perang",
+
+  "low": "Rendah",
+  "medium": "Sedang",
+  "high": "Tinggi"
 }
