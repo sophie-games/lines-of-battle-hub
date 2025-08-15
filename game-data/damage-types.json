@@ -128,9 +128,28 @@
     "projectilePenetration": 0.75,
     "areaOfEffect": {
       "type": "trapezoidal",
-      "topWidth": 26,
-      "bottomWidth": 18,
-      "height": 68,
+      "ranges": [
+        {
+          "start": 140,
+          "end": 235,
+          "startTopWidth": 26,
+          "endTopWidth": 28,
+          "startBottomWidth": 18,
+          "endBottomWidth": 20,
+          "startHeight": 68,
+          "endHeight": 70
+        },
+        {
+          "start": 235,
+          "end": 435,
+          "startTopWidth": 28,
+          "endTopWidth": 34,
+          "startBottomWidth": 20,
+          "endBottomWidth": 26,
+          "startHeight": 70,
+          "endHeight": 80
+        }
+      ],
       "absorptionModifier": 2,
       "offset": 0.8
     },
@@ -165,9 +184,28 @@
     "projectilePenetration": 0.75,
     "areaOfEffect": {
       "type": "trapezoidal",
-      "topWidth": 28,
-      "bottomWidth": 20,
-      "height": 76,
+      "ranges": [
+        {
+          "start": 130,
+          "end": 250,
+          "startTopWidth": 28,
+          "endTopWidth": 30,
+          "startBottomWidth": 20,
+          "endBottomWidth": 22,
+          "startHeight": 76,
+          "endHeight": 78
+        },
+        {
+          "start": 250,
+          "end": 500,
+          "startTopWidth": 30,
+          "endTopWidth": 36,
+          "startBottomWidth": 22,
+          "endBottomWidth": 30,
+          "startHeight": 78,
+          "endHeight": 86
+        }
+      ],
       "absorptionModifier": 2,
       "offset": 0.8
     },
@@ -202,9 +240,28 @@
     "projectilePenetration": 0.75,
     "areaOfEffect": {
       "type": "trapezoidal",
-      "topWidth": 25,
-      "bottomWidth": 17,
-      "height": 64,
+      "ranges": [
+        {
+          "start": 120,
+          "end": 230,
+          "startTopWidth": 25,
+          "endTopWidth": 27,
+          "startBottomWidth": 17,
+          "endBottomWidth": 19,
+          "startHeight": 64,
+          "endHeight": 67
+        },
+        {
+          "start": 230,
+          "end": 400,
+          "startTopWidth": 27,
+          "endTopWidth": 34,
+          "startBottomWidth": 19,
+          "endBottomWidth": 26,
+          "startHeight": 67,
+          "endHeight": 74
+        }
+      ],
       "absorptionModifier": 2.0,
       "offset": 0.8
     },
@@ -239,9 +296,28 @@
     "projectilePenetration": 0.75,
     "areaOfEffect": {
       "type": "trapezoidal",
-      "topWidth": 24,
-      "bottomWidth": 16,
-      "height": 60,
+      "ranges": [
+        {
+          "start": 110,
+          "end": 200,
+          "startTopWidth": 24,
+          "endTopWidth": 26,
+          "startBottomWidth": 16,
+          "endBottomWidth": 18,
+          "startHeight": 60,
+          "endHeight": 65
+        },
+        {
+          "start": 200,
+          "end": 375,
+          "startTopWidth": 26,
+          "endTopWidth": 30,
+          "startBottomWidth": 18,
+          "endBottomWidth": 22,
+          "startHeight": 65,
+          "endHeight": 70
+        }
+      ],
       "absorptionModifier": 2.0,
       "offset": 0.8
     },
@@ -276,7 +352,14 @@
     "projectilePenetration": 0.75,
     "areaOfEffect": {
       "type": "circular",
-      "radius": 30,
+      "ranges": [
+        {
+          "start": 200,
+          "end": 340,
+          "startRadius": 26,
+          "endRadius": 36
+        }
+      ],
       "edgeDamageModifier": -0.3,
       "absorptionModifier": 1.25
     },
@@ -467,7 +550,14 @@
     "projectilePenetration": 0.75,
     "areaOfEffect": {
       "type": "circular",
-      "radius": 42,
+      "ranges": [
+        {
+          "start": 270,
+          "end": 450,
+          "startRadius": 30,
+          "endRadius": 44
+        }
+      ],
       "edgeDamageModifier": -0.2,
       "absorptionModifier": 1.25
     },
