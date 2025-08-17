@@ -443,7 +443,7 @@
     "lossesRatio": "Losses Ratio",
     "objectives": "Objectives",
     "timeUnderPressure": "Time under pressure",
-    "timeUnderPressureTooltip": "Time under pressure is the time a team has the {{percentage}}% of the objectives or less. The longer a team is under pressure, the more victory points they lose.",
+    "timeUnderPressureTooltip": "Time under pressure is the time a team has the <0>{{percentage}}%</0> of the objectives or less. The longer a team is under pressure, the more victory points they lose.",
     "unitsOrgRegain": "Units org regain"
   },
 
@@ -473,7 +473,8 @@
     "2": "Been in melee",
     "3": "Has ran",
     "4": "Started routing",
-    "5": "Has taken fire"
+    "5": "Has taken fire",
+    "6": "Has fired"
   },
 
   "login": "Login",

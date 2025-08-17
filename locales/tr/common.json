@@ -366,7 +366,7 @@
     "lossesRatio": "Kayıp Oranı",
     "objectives": "Hedefler",
     "timeUnderPressure": "Baskı Altındaki Süre",
-    "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin {{percentage}}%'ini veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
+    "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin <0>{{percentage}}%</0>'ini veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
     "unitsOrgRegain": "Birim organizasyon kazanımı"
   },
 

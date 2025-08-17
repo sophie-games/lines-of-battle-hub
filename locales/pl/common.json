@@ -411,7 +411,7 @@
     "lossesRatio": "Stosunek Strat",
     "objectives": "Punkty",
     "timeUnderPressure": "Czas pod presją",
-    "timeUnderPressureTooltip": "Czas pod presją to czas, w którym drużyna kontroluje {{percentage}}% punktów lub mniej. Im dłużej drużyna pozostaje pod presją, tym więcej punktów zwycięstwa traci.",
+    "timeUnderPressureTooltip": "Czas pod presją to czas, w którym drużyna kontroluje <0>{{percentage}}%</0> punktów lub mniej. Im dłużej drużyna pozostaje pod presją, tym więcej punktów zwycięstwa traci.",
     "unitsOrgRegain": "Odzyskiwanie Org. Jednostek"
   },
 

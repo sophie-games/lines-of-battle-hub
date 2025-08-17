@@ -365,7 +365,7 @@
     "lossesRatio": "損失比率",
     "objectives": "目標",
     "timeUnderPressure": "圧迫時間",
-    "timeUnderPressureTooltip": "圧迫時間とは、チームが目標の{{percentage}}%以下を制御している時間です。チームが圧迫状態にある時間が長いほど、より多くの勝利ポイントを失います。",
+    "timeUnderPressureTooltip": "圧迫時間とは、チームが目標の<0>{{percentage}}%</0>以下を制御している時間です。チームが圧迫状態にある時間が長いほど、より多くの勝利ポイントを失います。",
     "unitsOrgRegain": "ユニットの組織回復"
   },
 

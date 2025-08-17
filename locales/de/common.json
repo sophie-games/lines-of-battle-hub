@@ -365,7 +365,7 @@
     "lossesRatio": "Verhältnis der Verluste",
     "objectives": "Objektive",
     "timeUnderPressure": "Zeit unter Druck",
-    "timeUnderPressureTooltip": "Zeit unter Druck ist die Zeit, in der ein Team {{percentage}}% der Ziele oder weniger kontrolliert. Je länger ein Team unter Druck steht, desto mehr Siegpunkte verliert es.",
+    "timeUnderPressureTooltip": "Zeit unter Druck ist die Zeit, in der ein Team <0>{{percentage}}%</0> der Ziele oder weniger kontrolliert. Je länger ein Team unter Druck steht, desto mehr Siegpunkte verliert es.",
     "unitsOrgRegain": "Einheiten Org Wiedergewinnung"
   },
 

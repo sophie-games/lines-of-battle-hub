@@ -368,7 +368,7 @@
     "lossesRatio": "Rasio Kekalahan",
     "objectives": "Objektif",
     "timeUnderPressure": "Waktu di Bawah Tekanan",
-    "timeUnderPressureTooltip": "Waktu di bawah tekanan adalah waktu ketika tim mengontrol {{percentage}}% objektif atau kurang. Semakin lama tim berada di bawah tekanan, semakin banyak poin kemenangan yang hilang.",
+    "timeUnderPressureTooltip": "Waktu di bawah tekanan adalah waktu ketika tim mengontrol <0>{{percentage}}%</0> objektif atau kurang. Semakin lama tim berada di bawah tekanan, semakin banyak poin kemenangan yang hilang.",
     "unitsOrgRegain": "Tingkat Pemulihan Organisasi"
   },
 
