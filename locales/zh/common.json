@@ -613,6 +613,12 @@
     "3": "精英",
     "4": "近卫"
   },
+  "tier": {
+    "free": "免费",
+    "bronze": "青铜",
+    "silver": "白银",
+    "gold": "黄金"
+  },
   "currentPassword": "当前密码",
   "changePassword": "更改密码",
   "endRound": "结束轮次",
@@ -714,11 +720,10 @@
   "typeMessage": "发送信息……",
   "noMessagesYet": "没有聊天历史",
   "sending": "发送中……",
-
-  "measuring": "测量中...",
-  "disconnected": "断开连接",
-  "reconnected": "重新连接",
-  "connecting": "连接中...",
-  "disconnecting": "断开连接...",
+  "measuring": "测量中……",
+  "disconnected": "已断线",
+  "reconnected": "已重连",
+  "connecting": "连接中……",
+  "disconnecting": "断开中……",
   "unknown": "未知"
 }
