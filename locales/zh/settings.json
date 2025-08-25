@@ -81,6 +81,10 @@
     "title": "显示碰撞体积",
     "description": "显示单位的碰撞体积。可能需要游戏经过一回合才能更新。"
   },
+  "disableSkins": {
+    "title": "禁用皮肤",
+    "description": "禁用单位的皮肤，只显示默认外观。"
+  },
   "fullScreen": {
     "title": "全屏",
     "description": "切换该应用的全屏模式",
@@ -91,6 +95,12 @@
     "description": "重置所有设置选项到默认设置。该行动会覆盖你所有自定义的选项。"
   },
   "reset": "重置",
+  "tierRequirement": {
+    "title": "会籍需求",
+    "settingRequires": "{{setting}}只对{{tier}}会籍玩家开放",
+    "description": "在Patreon上升级会籍以使用该项设置和其它会员专属功能！",
+    "goToPatreon": "前往Patreon"
+  },
   "lineFormation": "线形编队",
   "checkerboardFormation": "棋盘编队",
   "spaceBetweenUnits": "单位之间的间距",
