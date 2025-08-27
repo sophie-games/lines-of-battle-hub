@@ -837,5 +837,6 @@
 
   "low": "Low",
   "medium": "Medium",
-  "high": "High"
+  "high": "High",
+  "cannotChargeAgainst": "Cannot charge against"
 }

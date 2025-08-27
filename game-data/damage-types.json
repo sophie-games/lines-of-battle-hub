@@ -1,7 +1,8 @@
 [
   {
     "type": "bayonet",
-    "orgDamageRatio": 240
+    "orgDamageRatio": 240,
+    "cannotChargeAgainst": ["midCavalry", "lightCavalry", "scoutCavalry", "heavyCavalry"]
   },
   {
     "type": "cavalry-sabre",
