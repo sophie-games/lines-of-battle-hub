@@ -18,6 +18,7 @@
       "militiaInfantry": -0.2,
       "midCavalry": -0.2,
       "lightCavalry": -0.2,
+      "scoutCavalry": -0.2,
       "heavyCavalry": -0.2,
       "artillery": -0.2
     },
@@ -41,6 +42,7 @@
       "militiaInfantry": -0.3,
       "midCavalry": -0.6,
       "lightCavalry": -0.6,
+      "scoutCavalry": -0.6,
       "heavyCavalry": -0.6,
       "artillery": -0.5
     },
@@ -50,6 +52,7 @@
       "midCavalry": -0.75,
       "skirmishInfantry": 1,
       "lightCavalry": -0.75,
+      "scoutCavalry": -0.75,
       "heavyCavalry": -0.75
     },
     "defenseModifier": {
@@ -58,6 +61,7 @@
       "militiaInfantry": 0.75,
       "midCavalry": -0.5,
       "lightCavalry": -0.5,
+      "scoutCavalry": -0.5,
       "heavyCavalry": -0.5,
       "artillery": -0.75
     },
@@ -88,11 +92,13 @@
       "militiaInfantry": 0.75,
       "midCavalry": -0.3,
       "lightCavalry": -0.3,
+      "scoutCavalry": -0.3,
       "heavyCavalry": -0.3
     },
     "chargeBonusModifier": {
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
+      "scoutCavalry": -0.8,
       "heavyCavalry": -0.8
     },
     "fixedEnemyCollisionLevel": 2
@@ -109,6 +115,7 @@
       "militiaInfantry": -0.25,
       "midCavalry": -0.6,
       "lightCavalry": -0.6,
+      "scoutCavalry": -0.6,
       "heavyCavalry": -0.6,
       "artillery": -0.3
     },
@@ -118,6 +125,7 @@
       "militiaInfantry": 0.25,
       "midCavalry": -0.9,
       "lightCavalry": -0.9,
+      "scoutCavalry": -0.9,
       "heavyCavalry": -0.9
     },
     "defenseModifier": {
@@ -126,6 +134,7 @@
       "militiaInfantry": 0.8,
       "midCavalry": -0.75,
       "lightCavalry": -0.75,
+      "scoutCavalry": -0.75,
       "heavyCavalry": -0.75,
       "artillery": -0.8
     },
@@ -156,11 +165,13 @@
       "militiaInfantry": 0.9,
       "midCavalry": -0.4,
       "lightCavalry": -0.4,
+      "scoutCavalry": -0.4,
       "heavyCavalry": -0.4
     },
     "chargeBonusModifier": {
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
+      "scoutCavalry": -0.8,
       "heavyCavalry": -0.8
     },
     "fixedEnemyCollisionLevel": 2
@@ -175,6 +186,7 @@
       "militiaInfantry": 0.3,
       "midCavalry": 0.2,
       "lightCavalry": 0.2,
+      "scoutCavalry": 0.2,
       "heavyCavalry": 0.2,
       "artillery": 0.3
     },
@@ -190,6 +202,7 @@
       "militiaInfantry": -0.8,
       "midCavalry": -0.6,
       "lightCavalry": -0.6,
+      "scoutCavalry": -0.6,
       "heavyCavalry": -0.6,
       "artillery": -0.6
     },
@@ -199,6 +212,7 @@
       "militiaInfantry": -0.85,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
+      "scoutCavalry": -0.8,
       "heavyCavalry": -0.8,
       "artillery": -0.8
     },
@@ -208,6 +222,7 @@
       "militiaInfantry": -0.5,
       "midCavalry": -0.5,
       "lightCavalry": -0.5,
+      "scoutCavalry": -0.5,
       "heavyCavalry": -0.5,
       "artillery": -0.5
     },
@@ -223,11 +238,13 @@
       "militiaInfantry": -0.5,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
+      "scoutCavalry": -0.8,
       "heavyCavalry": -0.8
     },
     "chargeBonusModifier": {
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
+      "scoutCavalry": -0.8,
       "heavyCavalry": -0.8
     }
   },
@@ -273,6 +290,7 @@
       "militiaInfantry": 0.3,
       "midCavalry": 0.2,
       "lightCavalry": 0.2,
+      "scoutCavalry": 0.2,
       "heavyCavalry": 0.2,
       "artillery": 0.3
     },
