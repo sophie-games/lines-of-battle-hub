@@ -738,6 +738,7 @@
   "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
   "skirmisherRatio": "Skirmisher ratio",
   "friendlyFireImmune": "Friendly fire immune",
+  
   "nearbyUnits": "Nearby units",
   "preset": "Preset",
   "hybrid": "Hybrid",

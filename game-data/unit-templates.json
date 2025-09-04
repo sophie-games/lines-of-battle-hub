@@ -541,7 +541,7 @@
     "minDistanceToFAA": 70,
     "startsRunning": true,
     "canDeployForward": true,
-    "unknownType": 22,
+    "unknownType": 23,
     "reportStats": {
       "men": 800,
       "horse": 0,
