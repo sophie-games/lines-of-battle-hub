@@ -217,7 +217,13 @@
     "horse-archer-bow": "Horse Archer Bow",
     "marksman-musket": "Marksman Musket",
     "rifle": "Rifle",
-    "rocket": "Rocket"
+    "rocket": "Rocket",
+    "10lb-canister-fire": "10-lb Canister Fire",
+    "10lb-cannon-ball": "10-lb Cannon Ball",
+    "10lb-explosive-shell": "10-lb Explosive Shell",
+    "18lb-canister-fire": "18-lb Canister Fire",
+    "18lb-cannon-ball": "18-lb Cannon Ball",
+    "18lb-explosive-shell": "18-lb Explosive Shell"
   },
 
   "unitName": {
