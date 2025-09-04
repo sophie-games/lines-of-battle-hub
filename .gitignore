@@ -1,1 +1,6 @@
 **/.DS_Store
+node_modules
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
