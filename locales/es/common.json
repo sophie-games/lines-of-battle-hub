@@ -216,7 +216,9 @@
     "12": "Artillería de a Pie de 12 libras",
     "13": "Arqueros a caballo",
     "14": "Granaderos",
-    "15": "Artillería de a Pie de 4 libras"
+    "15": "Artillería de a Pie de 4 libras",
+    "24": "Licorne de 10 libras",
+    "25": "Licorne de 18 libras"
   },
 
   "battalionName": {

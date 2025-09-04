@@ -243,7 +243,9 @@
     "20": "Unknown",
     "21": "Unknown Infantry",
     "22": "Unknown Cavalry",
-    "23": "Unknown Artillery"
+    "23": "Unknown Artillery",
+    "24": "10-lb Licorne",
+    "25": "18-lb Licorne"
   },
 
   "battalionName": {
@@ -269,7 +271,9 @@
     "20": "Unknown",
     "21": "Unknown Infantry",
     "22": "Unknown Cavalry",
-    "23": "Unknown Artillery"
+    "23": "Unknown Artillery",
+    "24": "{{n}} Licorne",
+    "25": "{{n}} Licorne"
   },
 
   "unitDescription": {
@@ -291,7 +295,9 @@
     "16": "Napoleonic battalions would detach these small companies of loose-order troops, such as Voltigeurs and Jaegers, to carry out a variety of duties. These troops would occupy terrain unsuitable to large infantry units, harass the enemy line, and screen the army to fend off enemy skirmishers.",
     "17": "While rifles of the Napoleonic era offer a much lower rate of fire than muskets, they compensated with excellent accuracy that helped win skirmishing duels, pick off enemy officers, and harass enemy artillery from a distance.",
     "18": "Napoleon favored the 6lb cannon for its balance of power and maneuverability; as the Napoleonic Wars wore on, he sought to replace the 4 and 8lb guns with as many 6 and 12lb guns as possible.",
-    "19": "The Napoleonic rocket was an experimental, temperamental weapon with persistent accuracy issues. However, it boasts high maneuverability, a substantial explosive payload that's effective against terrain, and can deal excellent organizational damage at close range."
+    "19": "The Napoleonic rocket was an experimental, temperamental weapon with persistent accuracy issues. However, it boasts high maneuverability, a substantial explosive payload that's effective against terrain, and can deal excellent organizational damage at close range.",
+    "24": "The 10-pounder licorne was a Russian artillery piece used in the Napoleonic Wars. It combined features of cannons and howitzers, allowing it to fire both solid shot and explosive shells, and was valued for its versatility and range.",
+    "25": "The 18-pounder licorne was a Russian artillery piece of the Napoleonic Wars, combining the roles of cannon and howitzer. It could fire both solid shot and explosive shells, making it effective for long-range bombardment and battlefield support."
   },
 
   "damageResistances": "Damage Resistances",

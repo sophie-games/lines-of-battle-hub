@@ -108,7 +108,7 @@
     "shotAnim": "musketVolley"
   },
   {
-    "type": "8lb-cannon-ball",
+    "type": "18lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
     "projectileWidth": 20,
@@ -118,12 +118,12 @@
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 140, "end": 235, "startMod": 0.1, "endMod": 0 },
+      { "start": 130, "end": 250, "startMod": 0.1, "endMod": 0 },
       {
-        "start": 235,
-        "end": 435,
+        "start": 250,
+        "end": 500,
         "startMod": -0.05,
-        "endMod": -0.8,
+        "endMod": -0.85,
         "name": "long"
       }
     ],
@@ -136,14 +136,14 @@
       "type": "trapezoidal",
       "ranges": [
         {
-          "start": 135,
-          "end": 435,
-          "startTopWidth": 20,
-          "endTopWidth": 54,
-          "startBottomWidth": 16,
-          "endBottomWidth": 48,
-          "startHeight": 28,
-          "endHeight": 60
+          "start": 145,
+          "end": 500,
+          "startTopWidth": 22,
+          "endTopWidth": 68,
+          "startBottomWidth": 18,
+          "endBottomWidth": 60,
+          "startHeight": 36,
+          "endHeight": 72
         }
       ],
       "absorptionModifier": 2,
@@ -190,6 +190,98 @@
           "endBottomWidth": 60,
           "startHeight": 36,
           "endHeight": 72
+        }
+      ],
+      "absorptionModifier": 2,
+      "offset": 0.8
+    },
+    "shotSound": "artillery-fire",
+    "shotAnim": "cannonVolley",
+    "shotImpactAnim": "cannonBallImpact"
+  },
+  {
+    "type": "10lb-cannon-ball",
+    "ranged": true,
+    "orgDamageRatio": 170,
+    "projectileWidth": 20,
+    "diminishByTargetOrg": {
+      "start": 0.75,
+      "end": 0.55,
+      "modifier": -0.4
+    },
+    "ranges": [
+      { "start": 140, "end": 235, "startMod": 0.1, "endMod": 0 },
+      {
+        "start": 235,
+        "end": 435,
+        "startMod": -0.05,
+        "endMod": -0.8,
+        "name": "long"
+      }
+    ],
+    "shootingAngle": 60,
+    "arcHeight": 0.5,
+    "enfiladeFire": true,
+    "cannotUseAfterRun": true,
+    "projectilePenetration": 0.75,
+    "areaOfEffect": {
+      "type": "trapezoidal",
+      "ranges": [
+        {
+          "start": 135,
+          "end": 435,
+          "startTopWidth": 20,
+          "endTopWidth": 54,
+          "startBottomWidth": 16,
+          "endBottomWidth": 48,
+          "startHeight": 28,
+          "endHeight": 60
+        }
+      ],
+      "absorptionModifier": 2,
+      "offset": 0.8
+    },
+    "shotSound": "artillery-fire",
+    "shotAnim": "cannonVolley",
+    "shotImpactAnim": "cannonBallImpact"
+  },
+  {
+    "type": "8lb-cannon-ball",
+    "ranged": true,
+    "orgDamageRatio": 170,
+    "projectileWidth": 20,
+    "diminishByTargetOrg": {
+      "start": 0.75,
+      "end": 0.55,
+      "modifier": -0.4
+    },
+    "ranges": [
+      { "start": 140, "end": 235, "startMod": 0.1, "endMod": 0 },
+      {
+        "start": 235,
+        "end": 435,
+        "startMod": -0.05,
+        "endMod": -0.8,
+        "name": "long"
+      }
+    ],
+    "shootingAngle": 60,
+    "arcHeight": 0.5,
+    "enfiladeFire": true,
+    "cannotUseAfterRun": true,
+    "projectilePenetration": 0.75,
+    "areaOfEffect": {
+      "type": "trapezoidal",
+      "ranges": [
+        {
+          "start": 135,
+          "end": 435,
+          "startTopWidth": 20,
+          "endTopWidth": 54,
+          "startBottomWidth": 16,
+          "endBottomWidth": 48,
+          "startHeight": 28,
+          "endHeight": 60
         }
       ],
       "absorptionModifier": 2,
@@ -292,6 +384,102 @@
     "shotImpactAnim": "cannonBallImpact"
   },
   {
+    "type": "18lb-explosive-shell",
+    "ranged": true,
+    "orgDamageRatio": 180,
+    "projectileWidth": 20,
+    "diminishByTargetOrg": {
+      "start": 0.7,
+      "end": 0.6,
+      "modifier": -0.6
+    },
+    "ranges": [
+      { "start": 0, "end": 69, "startMod": 0, "endMod": 0, "name": "close" },
+      { "start": 69, "end": 200, "startMod": 0.1, "endMod": 0 },
+      {
+        "start": 200,
+        "end": 340,
+        "startMod": 0,
+        "endMod": -0.35,
+        "name": "long"
+      }
+    ],
+    "shootingAngle": 60,
+    "arcHeight": 1.75,
+    "cannotUseAfterRun": true,
+    "projectilePenetration": 0.75,
+    "areaOfEffect": {
+      "type": "circular",
+      "ranges": [
+        {
+          "start": 69,
+          "end": 200,
+          "startRadius": 18,
+          "endRadius": 24
+        },
+        {
+          "start": 200,
+          "end": 340,
+          "startRadius": 24,
+          "endRadius": 40
+        }
+      ],
+      "edgeDamageModifier": -0.3,
+      "absorptionModifier": 1.25
+    },
+    "shotSound": "artillery-fire",
+    "shotAnim": "cannonVolley",
+    "shotImpactAnim": "shellImpact"
+  },
+  {
+    "type": "10lb-explosive-shell",
+    "ranged": true,
+    "orgDamageRatio": 180,
+    "projectileWidth": 20,
+    "diminishByTargetOrg": {
+      "start": 0.7,
+      "end": 0.6,
+      "modifier": -0.6
+    },
+    "ranges": [
+      { "start": 0, "end": 69, "startMod": 0, "endMod": 0, "name": "close" },
+      { "start": 69, "end": 200, "startMod": 0.1, "endMod": 0 },
+      {
+        "start": 200,
+        "end": 340,
+        "startMod": 0,
+        "endMod": -0.35,
+        "name": "long"
+      }
+    ],
+    "shootingAngle": 60,
+    "arcHeight": 1.75,
+    "cannotUseAfterRun": true,
+    "projectilePenetration": 0.75,
+    "areaOfEffect": {
+      "type": "circular",
+      "ranges": [
+        {
+          "start": 69,
+          "end": 200,
+          "startRadius": 18,
+          "endRadius": 24
+        },
+        {
+          "start": 200,
+          "end": 340,
+          "startRadius": 24,
+          "endRadius": 40
+        }
+      ],
+      "edgeDamageModifier": -0.3,
+      "absorptionModifier": 1.25
+    },
+    "shotSound": "artillery-fire",
+    "shotAnim": "cannonVolley",
+    "shotImpactAnim": "shellImpact"
+  },
+  {
     "type": "explosive-shell",
     "ranged": true,
     "orgDamageRatio": 180,
@@ -340,7 +528,7 @@
     "shotImpactAnim": "shellImpact"
   },
   {
-    "type": "8lb-canister-fire",
+    "type": "18lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -348,14 +536,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3,
-        "endMod": 2,
+        "startMod": 3.25,
+        "endMod": 2.25,
         "name": "close"
       },
       {
         "start": 69,
-        "end": 135,
-        "startMod": 2,
+        "end": 145,
+        "startMod": 2.25,
         "endMod": 0.3,
         "name": "long"
       }
@@ -384,6 +572,62 @@
         "start": 69,
         "end": 145,
         "startMod": 2.25,
+        "endMod": 0.3,
+        "name": "long"
+      }
+    ],
+    "shootingAngle": 60,
+    "enfiladeFire": true,
+    "cannotUseAfterRun": true,
+    "projectilePenetration": 0.5,
+    "shotSound": "artillery-fire",
+    "shotAnim": "cannonVolley"
+  },
+  {
+    "type": "10lb-canister-fire",
+    "ranged": true,
+    "orgDamageRatio": 185,
+    "projectileWidth": 20,
+    "ranges": [
+      {
+        "start": 0,
+        "end": 69,
+        "startMod": 3,
+        "endMod": 2,
+        "name": "close"
+      },
+      {
+        "start": 69,
+        "end": 135,
+        "startMod": 2,
+        "endMod": 0.3,
+        "name": "long"
+      }
+    ],
+    "shootingAngle": 60,
+    "enfiladeFire": true,
+    "cannotUseAfterRun": true,
+    "projectilePenetration": 0.5,
+    "shotSound": "artillery-fire",
+    "shotAnim": "cannonVolley"
+  },
+  {
+    "type": "8lb-canister-fire",
+    "ranged": true,
+    "orgDamageRatio": 185,
+    "projectileWidth": 20,
+    "ranges": [
+      {
+        "start": 0,
+        "end": 69,
+        "startMod": 3,
+        "endMod": 2,
+        "name": "close"
+      },
+      {
+        "start": 69,
+        "end": 135,
+        "startMod": 2,
         "endMod": 0.3,
         "name": "long"
       }

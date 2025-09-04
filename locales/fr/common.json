@@ -202,7 +202,9 @@
     "10": "Milice",
     "11": "Hussards",
     "12": "Artillerie à pied de 12 livres",
-    "13": "Archers montés"
+    "13": "Archers montés",
+    "24": "Licorne de 10 livres",
+    "25": "Licorne de 18 livres"
   },
 
   "battalionName": {
@@ -218,7 +220,9 @@
     "10": "{{n}} Milice",
     "11": "{{n}} Hussards",
     "12": "{{n}} Batterie à pied",
-    "13": "{{n}} Archers à cheval"
+    "13": "{{n}} Archers à cheval",
+    "24": "{{n}} Licorne",
+    "25": "{{n}} Licorne"
   },
 
   "unitDescription": {
@@ -233,8 +237,10 @@
     "12": "L'artillerie la plus lourde de l'armée napoléonienne; malgré son coût exhorbitant, sa portée et sa puissance de feu reste inégalée.",
     "6": "La vitesse et le coût modeste de cette artillerie en font une candidate idéale pour soutenir la cavalerie et accompagner la ligne d'infanterie.",
     "9": "Grâce aux obus explosifs et à sa mitraille dévastatrice, l'obusier léger est idéal pour soutenir la ligne d'infanterie à courte et moyenne portée.",
-    "10": "« Placer une quelconque confiance dans la milice, c’est assurément s’appuyer sur un bâton brisé. » - George Washington",
-    "13": "« Les archers montés bachkirs sont sans aucun doute les troupes les moins dangereuses au monde. » - Baron Marbot, ignorant une flèche dans sa cuisse"
+    "10": "« Placer une quelconque confiance dans la milice, c'est assurément s'appuyer sur un bâton brisé. » - George Washington",
+    "13": "« Les archers montés bachkirs sont sans aucun doute les troupes les moins dangereuses au monde. » - Baron Marbot, ignorant une flèche dans sa cuisse",
+    "24": "La licorne de 10 livres était une pièce d'artillerie russe utilisée pendant les guerres napoléoniennes. Elle combinait les caractéristiques des canons et des obusiers, permettant de tirer à la fois des boulets pleins et des obus explosifs, et était appréciée pour sa polyvalence et sa portée.",
+    "25": "La licorne de 18 livres était une pièce d'artillerie russe des guerres napoléoniennes, combinant les rôles de canon et d'obusier. Elle pouvait tirer à la fois des boulets pleins et des obus explosifs, la rendant efficace pour le bombardement à longue portée et le soutien sur le champ de bataille."
   },
 
   "damageResistances": "Résistances aux dégâts",
