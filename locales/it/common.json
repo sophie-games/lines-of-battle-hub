@@ -50,7 +50,11 @@
 
   "matchmakingQueue": {
     "inQueue": "Sei ora nella coda di matchmaking! Il sistema sta cercando un altro giocatore che ha selezionato le stesse impostazioni di te.",
-    "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco."
+    "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco.",
+    "extendQueue": "Estendi coda",
+    "extendQueueSuccess": "Ricerca in qualsiasi intervallo Elo.",
+    "cancelledBy": "La coda è stata cancellata da {{username}}.",
+    "playersInQueue": "{{count}} giocatori in ricerca"
   },
 
   "fastMode": "Modalità veloce",

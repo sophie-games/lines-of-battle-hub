@@ -54,7 +54,8 @@
     "matchFound": "Once a match is found, you will be redirected to the game.",
     "extendQueue": "Extend Queue",
     "extendQueueSuccess": "Searching in any Elo range.",
-    "cancelledBy": "The queue was cancelled by {{username}}."
+    "cancelledBy": "The queue was cancelled by {{username}}.",
+    "playersInQueue": "{{count}} players searching"
   },
 
   "fastMode": "Fast Mode",

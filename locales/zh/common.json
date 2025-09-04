@@ -49,7 +49,8 @@
     "matchFound": "当搜索到匹配对象时，你会自动进入对局。",
     "extendQueue": "扩大匹配范围",
     "extendQueueSuccess": "匹配范围已经扩大！正在匹配全分段的对手。",
-    "cancelledBy": "匹配被{{username}}取消了。"
+    "cancelledBy": "匹配被{{username}}取消了。",
+    "playersInQueue": "{{count}}名玩家正在搜索"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",

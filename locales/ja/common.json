@@ -50,7 +50,11 @@
 
   "matchmakingQueue": {
     "inQueue": "現在マッチメイキングキューにいます。同じ設定を選択したプレイヤーを探しています。",
-    "matchFound": "マッチが見つかると、自動的にゲームに移動します。"
+    "matchFound": "マッチが見つかると、自動的にゲームに移動します。",
+    "extendQueue": "キューを拡張",
+    "extendQueueSuccess": "任意のElo範囲で検索中。",
+    "cancelledBy": "キューは{{username}}によってキャンセルされました。",
+    "playersInQueue": "{{count}}人のプレイヤーが検索中"
   },
 
   "fastMode": "高速モード",

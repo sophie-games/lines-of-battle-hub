@@ -50,7 +50,11 @@
 
   "matchmakingQueue": {
     "inQueue": "Sie sind nun in der Warteschlange für das Spielsuche. Das System sucht einen anderen Spieler, der die gleichen Optionen gewählt hat wie Sie.",
-    "matchFound": "Sobald ein Spiel gefunden wurde, werden Sie zu diesem weitergeleitet."
+    "matchFound": "Sobald ein Spiel gefunden wurde, werden Sie zu diesem weitergeleitet.",
+    "extendQueue": "Warteschlange erweitern",
+    "extendQueueSuccess": "Suche in jedem Elo-Bereich.",
+    "cancelledBy": "Die Warteschlange wurde von {{username}} abgebrochen.",
+    "playersInQueue": "{{count}} Spieler suchen"
   },
 
   "fastMode": "schneller Modus",

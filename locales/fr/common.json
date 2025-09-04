@@ -46,7 +46,11 @@
 
   "matchmakingQueue": {
     "inQueue": "Vous êtes désormais dans la file d'attente ! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
-    "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie."
+    "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",
+    "extendQueue": "Étendre la file",
+    "extendQueueSuccess": "Recherche dans n'importe quelle plage Elo.",
+    "cancelledBy": "La file a été annulée par {{username}}.",
+    "playersInQueue": "{{count}} joueurs en recherche"
   },
 
   "fastMode": "Partie rapide",

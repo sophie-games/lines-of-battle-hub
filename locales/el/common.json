@@ -54,7 +54,8 @@
     "matchFound": "Μόλις βρεθεί μια αντιστοιχία, θα μεταφερθείτε στο παιχνίδι.",
     "extendQueue": "Επέκταση ουράς",
     "extendQueueSuccess": "Αναζήτηση σε οποιαδήποτε σειρά Elo.",
-    "cancelledBy": "Η ουρά ακυρώθηκε από {{username}}."
+    "cancelledBy": "Η ουρά ακυρώθηκε από {{username}}.",
+    "playersInQueue": "{{count}} παίκτες αναζητούν"
   },
 
   "fastMode": "Γρήγορη λειτουργία",

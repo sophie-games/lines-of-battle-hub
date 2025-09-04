@@ -53,7 +53,9 @@
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
     "extendQueue": "Rozszerzona Kolejka",
-    "extendQueueSuccess": "Szukanie w zasięgu Twojego ELO"
+    "extendQueueSuccess": "Szukanie w zasięgu Twojego ELO",
+    "cancelledBy": "Kolejka została anulowana przez {{username}}.",
+    "playersInQueue": "{{count}} graczy szuka"
   },
 
   "fastMode": "Tryb Szybki",

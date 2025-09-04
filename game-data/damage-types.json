@@ -2,7 +2,12 @@
   {
     "type": "bayonet",
     "orgDamageRatio": 240,
-    "cannotChargeAgainst": ["midCavalry", "lightCavalry", "scoutCavalry", "heavyCavalry"]
+    "cannotChargeAgainst": [
+      "midCavalry",
+      "lightCavalry",
+      "scoutCavalry",
+      "heavyCavalry"
+    ]
   },
   {
     "type": "cavalry-sabre",
@@ -118,7 +123,7 @@
         "start": 235,
         "end": 435,
         "startMod": -0.05,
-        "endMod": -0.65,
+        "endMod": -0.8,
         "name": "long"
       }
     ],
@@ -131,24 +136,14 @@
       "type": "trapezoidal",
       "ranges": [
         {
-          "start": 140,
-          "end": 235,
-          "startTopWidth": 26,
-          "endTopWidth": 28,
-          "startBottomWidth": 18,
-          "endBottomWidth": 20,
-          "startHeight": 68,
-          "endHeight": 70
-        },
-        {
-          "start": 235,
+          "start": 135,
           "end": 435,
-          "startTopWidth": 28,
-          "endTopWidth": 34,
-          "startBottomWidth": 20,
-          "endBottomWidth": 26,
-          "startHeight": 70,
-          "endHeight": 80
+          "startTopWidth": 20,
+          "endTopWidth": 54,
+          "startBottomWidth": 16,
+          "endBottomWidth": 48,
+          "startHeight": 28,
+          "endHeight": 60
         }
       ],
       "absorptionModifier": 2,
@@ -174,7 +169,7 @@
         "start": 250,
         "end": 500,
         "startMod": -0.05,
-        "endMod": -0.65,
+        "endMod": -0.85,
         "name": "long"
       }
     ],
@@ -187,24 +182,14 @@
       "type": "trapezoidal",
       "ranges": [
         {
-          "start": 130,
-          "end": 250,
-          "startTopWidth": 28,
-          "endTopWidth": 30,
-          "startBottomWidth": 20,
-          "endBottomWidth": 22,
-          "startHeight": 76,
-          "endHeight": 78
-        },
-        {
-          "start": 250,
+          "start": 145,
           "end": 500,
-          "startTopWidth": 30,
-          "endTopWidth": 36,
-          "startBottomWidth": 22,
-          "endBottomWidth": 30,
-          "startHeight": 78,
-          "endHeight": 86
+          "startTopWidth": 22,
+          "endTopWidth": 68,
+          "startBottomWidth": 18,
+          "endBottomWidth": 60,
+          "startHeight": 36,
+          "endHeight": 72
         }
       ],
       "absorptionModifier": 2,
@@ -230,7 +215,7 @@
         "start": 230,
         "end": 400,
         "startMod": -0.1,
-        "endMod": -0.6,
+        "endMod": -0.75,
         "name": "long"
       }
     ],
@@ -244,23 +229,13 @@
       "ranges": [
         {
           "start": 120,
-          "end": 230,
-          "startTopWidth": 25,
-          "endTopWidth": 27,
-          "startBottomWidth": 17,
-          "endBottomWidth": 19,
-          "startHeight": 64,
-          "endHeight": 67
-        },
-        {
-          "start": 230,
           "end": 400,
-          "startTopWidth": 27,
-          "endTopWidth": 34,
-          "startBottomWidth": 19,
-          "endBottomWidth": 26,
-          "startHeight": 67,
-          "endHeight": 74
+          "startTopWidth": 17,
+          "endTopWidth": 48,
+          "startBottomWidth": 16,
+          "endBottomWidth": 42,
+          "startHeight": 24,
+          "endHeight": 54
         }
       ],
       "absorptionModifier": 2.0,
@@ -286,7 +261,7 @@
         "start": 200,
         "end": 375,
         "startMod": -0.1,
-        "endMod": -0.6,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -300,23 +275,13 @@
       "ranges": [
         {
           "start": 110,
-          "end": 200,
-          "startTopWidth": 24,
-          "endTopWidth": 26,
-          "startBottomWidth": 16,
-          "endBottomWidth": 18,
-          "startHeight": 60,
-          "endHeight": 65
-        },
-        {
-          "start": 200,
           "end": 375,
-          "startTopWidth": 26,
-          "endTopWidth": 30,
-          "startBottomWidth": 18,
-          "endBottomWidth": 22,
-          "startHeight": 65,
-          "endHeight": 70
+          "startTopWidth": 16,
+          "endTopWidth": 40,
+          "startBottomWidth": 14,
+          "endBottomWidth": 36,
+          "startHeight": 20,
+          "endHeight": 48
         }
       ],
       "absorptionModifier": 2.0,
@@ -338,12 +303,12 @@
     },
     "ranges": [
       { "start": 0, "end": 69, "startMod": 0, "endMod": 0, "name": "close" },
-      { "start": 69, "end": 200, "startMod": 0, "endMod": 0 },
+      { "start": 69, "end": 200, "startMod": 0.1, "endMod": 0 },
       {
         "start": 200,
         "end": 340,
         "startMod": 0,
-        "endMod": -0.2,
+        "endMod": -0.35,
         "name": "long"
       }
     ],
@@ -355,10 +320,16 @@
       "type": "circular",
       "ranges": [
         {
+          "start": 69,
+          "end": 200,
+          "startRadius": 18,
+          "endRadius": 24
+        },
+        {
           "start": 200,
           "end": 340,
-          "startRadius": 26,
-          "endRadius": 36
+          "startRadius": 24,
+          "endRadius": 40
         }
       ],
       "edgeDamageModifier": -0.3,
@@ -532,11 +503,11 @@
       {
         "start": 0,
         "end": 150,
-        "startMod": 0.5,
-        "endMod": 0.5,
+        "startMod": 0.75,
+        "endMod": 0.75,
         "name": "close"
       },
-      { "start": 150, "end": 270, "startMod": 0.5, "endMod": -0.15 },
+      { "start": 150, "end": 270, "startMod": 0.75, "endMod": -0.15 },
       {
         "start": 270,
         "end": 450,
@@ -553,10 +524,10 @@
       "type": "circular",
       "ranges": [
         {
-          "start": 270,
+          "start": 150,
           "end": 450,
-          "startRadius": 30,
-          "endRadius": 44
+          "startRadius": 20,
+          "endRadius": 48
         }
       ],
       "edgeDamageModifier": -0.2,

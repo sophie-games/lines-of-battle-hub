@@ -51,7 +51,11 @@
 
   "matchmakingQueue": {
     "inQueue": "Kamu sekarang berada dalam antrean! Sistem sedang mencari pemain lain yang telah memilih pengaturan yang sama dengan kamu.",
-    "matchFound": "Ketika permainan telah ditemukan, kamu akan diarahkan ke permainan."
+    "matchFound": "Ketika permainan telah ditemukan, kamu akan diarahkan ke permainan.",
+    "extendQueue": "Perluas Antrean",
+    "extendQueueSuccess": "Mencari dalam rentang Elo apa pun.",
+    "cancelledBy": "Antrean dibatalkan oleh {{username}}.",
+    "playersInQueue": "{{count}} pemain mencari"
   },
 
   "fastMode": "Mode Cepat",
