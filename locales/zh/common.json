@@ -87,6 +87,13 @@
   "maxTurn": "最大回合数",
   "player": "玩家",
   "units": "单位",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "您处于AFK状态",
+    "message": "您已经长时间未活动。为了防止游戏延迟，您的指令将自动提交。",
+    "autoSubmitIn": "自动提交倒计时",
+    "continuePlaying": "继续游戏"
+  },
   "unitSkins": "单位皮肤",
   "objectiveSkins": "目标点皮肤",
   "avatars": "头像",
@@ -729,5 +736,6 @@
 
   "low": "低",
   "medium": "中",
-  "high": "高"
+  "high": "高",
+  "turningDelay": "转向延迟"
 }

@@ -98,6 +98,13 @@
 
   "player": "Player",
   "units": "Units",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "You are AFK",
+    "message": "You have been inactive for too long. Your orders will be submitted automatically to prevent game delays.",
+    "autoSubmitIn": "Auto-submit in",
+    "continuePlaying": "Continue Playing"
+  },
   "unitSkins": "Unit Skins",
   "objectiveSkins": "Objective Skins",
   "avatars": "Avatars",
@@ -738,7 +745,7 @@
   "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
   "skirmisherRatio": "Skirmisher ratio",
   "friendlyFireImmune": "Friendly fire immune",
-  
+
   "nearbyUnits": "Nearby units",
   "preset": "Preset",
   "hybrid": "Hybrid",
@@ -839,5 +846,6 @@
   "low": "Low",
   "medium": "Medium",
   "high": "High",
-  "cannotChargeAgainst": "Cannot charge against"
+  "cannotChargeAgainst": "Cannot charge against",
+  "turningDelay": "Turning delay"
 }

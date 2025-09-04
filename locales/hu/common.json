@@ -85,6 +85,13 @@
 
   "player": "Játékos",
   "units": "Egységek",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "AFK állapotban vagy",
+    "message": "Túl sokáig voltál inaktív. A parancsaid automatikusan elküldésre kerülnek, hogy elkerüljük a játék késéseit.",
+    "autoSubmitIn": "Automatikus küldés",
+    "continuePlaying": "Játék folytatása"
+  },
   "unitSkins": "Egység Skinek",
   "avatars": "Profilképek",
   "withdraw": "Visszavonulás",
@@ -476,5 +483,6 @@
 
   "low": "Alacsony",
   "medium": "Közepes",
-  "high": "Magas"
+  "high": "Magas",
+  "turningDelay": "Fordulási késés"
 }

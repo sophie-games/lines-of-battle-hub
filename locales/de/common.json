@@ -85,6 +85,13 @@
 
   "player": "Spieler",
   "units": "Einheiten",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "Sie sind AFK",
+    "message": "Sie waren zu lange inaktiv. Ihre Befehle werden automatisch übermittelt, um Spielverzögerungen zu vermeiden.",
+    "autoSubmitIn": "Automatische Übermittlung in",
+    "continuePlaying": "Weiterspielen"
+  },
   "unitSkins": "Einheiten Kosmetika",
   "avatars": "Avatare",
   "withdraw": "Zurückziehen",
@@ -530,5 +537,6 @@
 
   "low": "Niedrig",
   "medium": "Mittel",
-  "high": "Hoch"
+  "high": "Hoch",
+  "turningDelay": "Drehverzögerung"
 }

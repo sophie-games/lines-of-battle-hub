@@ -85,6 +85,13 @@
 
   "player": "Jogador",
   "units": "Unidades",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "Você está AFK",
+    "message": "Você esteve inativo por muito tempo. Suas ordens serão enviadas automaticamente para evitar atrasos no jogo.",
+    "autoSubmitIn": "Envio automático em",
+    "continuePlaying": "Continuar jogando"
+  },
   "unitSkins": "Skins de Unidades",
   "avatars": "Avatares",
   "withdraw": "Retirar",
@@ -530,5 +537,6 @@
 
   "low": "Baixa",
   "medium": "Média",
-  "high": "Alta"
+  "high": "Alta",
+  "turningDelay": "Atraso de rotação"
 }

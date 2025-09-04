@@ -78,6 +78,13 @@
   "maxTurn": "최대 턴",
   "player": "플레이어",
   "units": "부대",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "AFK 상태입니다",
+    "message": "너무 오랫동안 비활성 상태였습니다. 게임 지연을 방지하기 위해 명령이 자동으로 제출됩니다.",
+    "autoSubmitIn": "자동 제출까지",
+    "continuePlaying": "게임 계속하기"
+  },
   "unitSkins": "부대 외형",
   "objectiveSkins": "지점목표 외형",
   "avatars": "아바타",
@@ -698,5 +705,6 @@
 
   "low": "낮음",
   "medium": "보통",
-  "high": "높음"
+  "high": "높음",
+  "turningDelay": "회전 지연"
 }

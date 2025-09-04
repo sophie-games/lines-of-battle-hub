@@ -8,10 +8,10 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 65,
-    "chargeResistance": 0.24,
-    "runChargeResistanceModifier": -1,
-    "chargePenetration": 0.24,
-    "walkMovement": 65,
+    "chargeResistance": 0.5,
+    "runChargeResistanceModifier": -1.25,
+    "chargePenetration": 0.4,
+    "walkMovement": 70,
     "runMovement": 110,
     "timeToRun": 4,
     "runCost": 112,
@@ -21,7 +21,7 @@
     "movementSound": "infantry-movement",
     "manpower": 200,
     "gold": 50,
-    "orgRadius": 64,
+    "orgRadius": 54,
     "orgRadiusBonus": 8,
     "fireAndAdvance": true,
     "minDistanceToFAA": 35,
@@ -30,6 +30,7 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
+    "turningDelay": 3,
     "reportStats": {
       "men": 800,
       "horse": 0,
@@ -43,25 +44,26 @@
     "meleeDefense": 27,
     "meleeDamageType": "dragoon-sword",
     "chargeBonus": 75,
-    "chargeResistance": -0.25,
-    "runChargeResistanceModifier": 0.5,
-    "chargePenetration": 0.1,
+    "chargeResistance": -0.5,
+    "runChargeResistanceModifier": 0.6,
+    "chargePenetration": 0.2,
     "walkMovement": 125,
     "runMovement": 195,
     "timeToRun": 3,
     "runCost": 96,
     "hp": 550,
-    "org": 550,
+    "org": 575,
     "stamina": 1250,
     "orgRadius": 72,
     "orgRadiusBonus": 6,
     "movementSound": "cavalry-movement",
-    "manpower": 100,
+    "manpower": 75,
     "gold": 75,
     "unknownType": 22,
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204,
+    "rotationSpeed": 0.31,
+    "rotationMaxThreshold": 0.52,
+    "runRotationSpeed": 0.22,
+    "turningDelay": 3,
     "reportStats": {
       "men": 250,
       "horse": 250,
@@ -113,10 +115,10 @@
     "meleeDefense": 31,
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
-    "chargeBonus": 75,
-    "chargeResistance": 0.28,
-    "runChargeResistanceModifier": -1,
-    "chargePenetration": 0.32,
+    "chargeBonus": 80,
+    "chargeResistance": 0.6,
+    "runChargeResistanceModifier": -1.25,
+    "chargePenetration": 0.55,
     "walkMovement": 65,
     "runMovement": 110,
     "timeToRun": 4,
@@ -124,8 +126,8 @@
     "hp": 800,
     "org": 650,
     "stamina": 1800,
-    "orgRadius": 72,
-    "orgRadiusBonus": 12,
+    "orgRadius": 64,
+    "orgRadiusBonus": 14,
     "movementSound": "infantry-movement",
     "manpower": 300,
     "gold": 75,
@@ -140,9 +142,10 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "rotationSpeed": 0.3,
+    "rotationMaxThreshold": 0.5,
+    "runRotationSpeed": 0.22,
+    "turningDelay": 3
   },
   {
     "type": 5,
@@ -151,9 +154,9 @@
     "meleeDefense": 19,
     "meleeDamageType": "cavalry-lance",
     "chargeBonus": 90,
-    "chargeResistance": -0.25,
+    "chargeResistance": -0.5,
     "runChargeResistanceModifier": 0.6,
-    "chargePenetration": 0.225,
+    "chargePenetration": 0.35,
     "walkMovement": 125,
     "runMovement": 200,
     "timeToRun": 3,
@@ -174,9 +177,10 @@
       "horse": 250,
       "guns": 0
     },
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "rotationSpeed": 0.33,
+    "rotationMaxThreshold": 0.53,
+    "runRotationSpeed": 0.23,
+    "turningDelay": 3
   },
   {
     "type": 6,
@@ -227,11 +231,11 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 70,
-    "chargeResistance": 0.28,
-    "runChargeResistanceModifier": -1,
-    "chargePenetration": 0.24,
-    "walkMovement": 65,
-    "runMovement": 110,
+    "chargeResistance": 0.5,
+    "runChargeResistanceModifier": -1.25,
+    "chargePenetration": 0.45,
+    "walkMovement": 70,
+    "runMovement": 115,
     "timeToRun": 4,
     "runCost": 112,
     "hp": 800,
@@ -240,12 +244,12 @@
     "movementSound": "infantry-movement",
     "manpower": 200,
     "gold": 75,
-    "orgRadius": 64,
+    "orgRadius": 48,
     "orgRadiusBonus": 8,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "minDistanceToFAA": 35,
+    "minDistanceToFAA": 25,
     "hasSkirmishers": true,
     "canDeployForward": true,
     "unknownType": 21,
@@ -254,9 +258,10 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "rotationSpeed": 0.34,
+    "rotationMaxThreshold": 0.54,
+    "runRotationSpeed": 0.24,
+    "turningDelay": 3
   },
   {
     "type": 8,
@@ -265,9 +270,9 @@
     "meleeDefense": 30,
     "meleeDamageType": "cavalry-sword",
     "chargeBonus": 80,
-    "chargeResistance": -0.25,
-    "runChargeResistanceModifier": 0.75,
-    "chargePenetration": 0.2,
+    "chargeResistance": -0.5,
+    "runChargeResistanceModifier": 0.7,
+    "chargePenetration": 0.3,
     "walkMovement": 125,
     "runMovement": 195,
     "timeToRun": 4,
@@ -278,7 +283,7 @@
     "orgRadius": 96,
     "orgRadiusBonus": 8,
     "movementSound": "cavalry-movement",
-    "manpower": 125,
+    "manpower": 100,
     "gold": 100,
     "basicPrice": 400,
     "premiumPrice": 40,
@@ -290,7 +295,8 @@
     },
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "runRotationSpeed": 0.204,
+    "turningDelay": 3
   },
   {
     "type": 9,
@@ -365,18 +371,19 @@
     },
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "runRotationSpeed": 0.204,
+    "turningDelay": 3
   },
   {
     "type": 11,
     "category": "scoutCavalry",
     "meleeAttack": 34,
-    "meleeDefense": 19,
+    "meleeDefense": 18,
     "meleeDamageType": "cavalry-sabre",
     "chargeBonus": 80,
-    "chargeResistance": -0.25,
-    "runChargeResistanceModifier": 0.65,
-    "chargePenetration": 0.05,
+    "chargeResistance": -0.5,
+    "runChargeResistanceModifier": 0.55,
+    "chargePenetration": 0.1,
     "walkMovement": 125,
     "runMovement": 200,
     "timeToRun": 5,
@@ -384,8 +391,8 @@
     "hp": 400,
     "org": 575,
     "stamina": 1600,
-    "orgRadius": 64,
-    "orgRadiusBonus": 6,
+    "orgRadius": 72,
+    "orgRadiusBonus": 4,
     "movementSound": "cavalry-movement",
     "manpower": 50,
     "gold": 75,
@@ -398,7 +405,8 @@
     },
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "runRotationSpeed": 0.204,
+    "turningDelay": 3
   },
   {
     "type": 12,
@@ -473,7 +481,8 @@
     },
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "runRotationSpeed": 0.204,
+    "turningDelay": 3
   },
   {
     "type": 14,
@@ -484,9 +493,9 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 75,
-    "chargeResistance": 0.28,
-    "runChargeResistanceModifier": -1,
-    "chargePenetration": 0.32,
+    "chargeResistance": 0.6,
+    "runChargeResistanceModifier": -1.3,
+    "chargePenetration": 0.65,
     "walkMovement": 65,
     "runMovement": 110,
     "timeToRun": 4,
@@ -497,8 +506,8 @@
     "movementSound": "infantry-movement",
     "manpower": 250,
     "gold": 50,
-    "orgRadius": 64,
-    "orgRadiusBonus": 8,
+    "orgRadius": 54,
+    "orgRadiusBonus": 12,
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
@@ -511,7 +520,8 @@
     },
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "runRotationSpeed": 0.204,
+    "turningDelay": 3
   },
   {
     "type": 15,
@@ -594,9 +604,10 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "rotationSpeed": 0.35,
+    "rotationMaxThreshold": 0.55,
+    "runRotationSpeed": 0.25,
+    "turningDelay": 3
   },
   {
     "type": 17,
@@ -640,9 +651,10 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "rotationSpeed": 0.35,
+    "rotationMaxThreshold": 0.55,
+    "runRotationSpeed": 0.25,
+    "turningDelay": 3
   },
   {
     "type": 18,
@@ -749,7 +761,8 @@
     },
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "runRotationSpeed": 0.204,
+    "turningDelay": 3
   },
   {
     "type": 21,
@@ -778,7 +791,8 @@
     },
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "runRotationSpeed": 0.204,
+    "turningDelay": 3
   },
   {
     "type": 22,
@@ -807,7 +821,8 @@
     },
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204
+    "runRotationSpeed": 0.204,
+    "turningDelay": 3
   },
   {
     "type": 23,

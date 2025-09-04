@@ -85,6 +85,13 @@
 
   "player": "Oyuncu",
   "units": "Birimler",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "AFK durumdasınız",
+    "message": "Çok uzun süre hareketsiz kaldınız. Oyun gecikmelerini önlemek için emirleriniz otomatik olarak gönderilecek.",
+    "autoSubmitIn": "Otomatik gönderim",
+    "continuePlaying": "Oynamaya devam et"
+  },
   "unitSkins": "Birim Görünümleri",
   "avatars": "Avatarlar",
   "withdraw": "Çekil",
@@ -533,5 +540,6 @@
 
   "low": "Düşük",
   "medium": "Orta",
-  "high": "Yüksek"
+  "high": "Yüksek",
+  "turningDelay": "Dönüş gecikmesi"
 }

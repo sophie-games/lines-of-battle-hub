@@ -88,6 +88,13 @@
 
   "player": "Gracz",
   "units": "Jednostki",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "Jesteś AFK",
+    "message": "Byłeś nieaktywny zbyt długo. Twoje rozkazy zostaną automatycznie wysłane, aby zapobiec opóźnieniom w grze.",
+    "autoSubmitIn": "Automatyczne wysłanie za",
+    "continuePlaying": "Kontynuuj grę"
+  },
   "unitSkins": "Skórki Jednostek",
   "objectiveSkins": "Skórki celi",
   "avatars": "Avatary",
@@ -747,5 +754,6 @@
 
   "low": "Niska",
   "medium": "Średnia",
-  "high": "Wysoka"
+  "high": "Wysoka",
+  "turningDelay": "Opóźnienie obrotu"
 }
