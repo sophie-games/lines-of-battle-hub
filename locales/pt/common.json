@@ -542,5 +542,9 @@
   "low": "Baixa",
   "medium": "Média",
   "high": "Alta",
-  "turningDelay": "Atraso de rotação"
+  "turningDelay": "Atraso de rotação",
+  "infantry": "Infantaria",
+  "cavalry": "Cavalaria",
+  "artillery": "Artilharia",
+  "special": "Especial"
 }

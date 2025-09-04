@@ -545,5 +545,9 @@
   "low": "Düşük",
   "medium": "Orta",
   "high": "Yüksek",
-  "turningDelay": "Dönüş gecikmesi"
+  "turningDelay": "Dönüş gecikmesi",
+  "infantry": "Piyade",
+  "cavalry": "Süvari",
+  "artillery": "Topçu",
+  "special": "Özel"
 }

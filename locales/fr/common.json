@@ -562,5 +562,9 @@
   "low": "Faible",
   "medium": "Moyen",
   "high": "Élevé",
-  "turningDelay": "Délai de rotation"
+  "turningDelay": "Délai de rotation",
+  "infantry": "Infanterie",
+  "cavalry": "Cavalerie",
+  "artillery": "Artillerie",
+  "special": "Spécial"
 }

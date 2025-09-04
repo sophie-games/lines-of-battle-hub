@@ -708,5 +708,9 @@
   "low": "낮음",
   "medium": "보통",
   "high": "높음",
-  "turningDelay": "회전 지연"
+  "turningDelay": "회전 지연",
+  "infantry": "보병",
+  "cavalry": "기병",
+  "artillery": "포병",
+  "special": "특수"
 }

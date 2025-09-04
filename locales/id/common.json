@@ -555,5 +555,9 @@
   "low": "Rendah",
   "medium": "Sedang",
   "high": "Tinggi",
-  "turningDelay": "Penundaan putaran"
+  "turningDelay": "Penundaan putaran",
+  "infantry": "Infanteri",
+  "cavalry": "Kavaleri",
+  "artillery": "Artileri",
+  "special": "Khusus"
 }

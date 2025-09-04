@@ -784,5 +784,9 @@
   "low": "Χαμηλή",
   "medium": "Μεσαία",
   "high": "Υψηλή",
-  "turningDelay": "Καθυστέρηση στροφής"
+  "turningDelay": "Καθυστέρηση στροφής",
+  "infantry": "Πεζικό",
+  "cavalry": "Ιππικό",
+  "artillery": "Πυροβολικό",
+  "special": "Ειδικό"
 }

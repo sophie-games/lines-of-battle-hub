@@ -860,5 +860,10 @@
   "medium": "Medium",
   "high": "High",
   "cannotChargeAgainst": "Cannot charge against",
-  "turningDelay": "Turning delay"
+  "turningDelay": "Turning delay",
+
+  "infantry": "Infantry",
+  "cavalry": "Cavalry",
+  "artillery": "Artillery",
+  "special": "Special"
 }

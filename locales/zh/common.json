@@ -738,5 +738,9 @@
   "low": "低",
   "medium": "中",
   "high": "高",
-  "turningDelay": "转向延迟"
+  "turningDelay": "转向延迟",
+  "infantry": "步兵",
+  "cavalry": "骑兵",
+  "artillery": "炮兵",
+  "special": "特殊"
 }

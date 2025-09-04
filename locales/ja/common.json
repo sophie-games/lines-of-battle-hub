@@ -541,5 +541,9 @@
   "low": "低",
   "medium": "中",
   "high": "高",
-  "turningDelay": "旋回遅延"
+  "turningDelay": "旋回遅延",
+  "infantry": "歩兵",
+  "cavalry": "騎兵",
+  "artillery": "砲兵",
+  "special": "特殊"
 }

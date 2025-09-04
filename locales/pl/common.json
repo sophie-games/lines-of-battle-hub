@@ -757,5 +757,9 @@
   "low": "Niska",
   "medium": "Średnia",
   "high": "Wysoka",
-  "turningDelay": "Opóźnienie obrotu"
+  "turningDelay": "Opóźnienie obrotu",
+  "infantry": "Piechota",
+  "cavalry": "Kawaleria",
+  "artillery": "Artyleria",
+  "special": "Specjalne"
 }
