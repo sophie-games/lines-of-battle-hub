@@ -712,5 +712,7 @@
   "infantry": "보병",
   "cavalry": "기병",
   "artillery": "포병",
-  "special": "특수"
+  "special": "특수",
+
+  "academy": "아카데미"
 }

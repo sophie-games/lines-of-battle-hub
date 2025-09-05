@@ -788,5 +788,7 @@
   "infantry": "Πεζικό",
   "cavalry": "Ιππικό",
   "artillery": "Πυροβολικό",
-  "special": "Ειδικό"
+  "special": "Ειδικό",
+
+  "academy": "Ακαδημία"
 }

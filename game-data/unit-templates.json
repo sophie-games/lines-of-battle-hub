@@ -30,7 +30,7 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3,
+    "turningDelay": 8,
     "reportStats": {
       "men": 800,
       "horse": 0,
@@ -45,7 +45,7 @@
     "meleeDamageType": "dragoon-sword",
     "chargeBonus": 75,
     "chargeResistance": -0.5,
-    "runChargeResistanceModifier": 0.6,
+    "runChargeResistanceModifier": 0.7,
     "chargePenetration": 0.2,
     "walkMovement": 125,
     "runMovement": 195,
@@ -145,7 +145,7 @@
     "rotationSpeed": 0.3,
     "rotationMaxThreshold": 0.5,
     "runRotationSpeed": 0.22,
-    "turningDelay": 3
+    "turningDelay": 8
   },
   {
     "type": 5,
@@ -155,8 +155,8 @@
     "meleeDamageType": "cavalry-lance",
     "chargeBonus": 90,
     "chargeResistance": -0.5,
-    "runChargeResistanceModifier": 0.6,
-    "chargePenetration": 0.35,
+    "runChargeResistanceModifier": 0.65,
+    "chargePenetration": 0.3,
     "walkMovement": 125,
     "runMovement": 200,
     "timeToRun": 3,
@@ -261,7 +261,7 @@
     "rotationSpeed": 0.34,
     "rotationMaxThreshold": 0.54,
     "runRotationSpeed": 0.24,
-    "turningDelay": 3
+    "turningDelay": 8
   },
   {
     "type": 8,
@@ -272,7 +272,7 @@
     "chargeBonus": 80,
     "chargeResistance": -0.5,
     "runChargeResistanceModifier": 0.7,
-    "chargePenetration": 0.3,
+    "chargePenetration": 0.25,
     "walkMovement": 125,
     "runMovement": 195,
     "timeToRun": 4,
@@ -372,7 +372,7 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3
+    "turningDelay": 8
   },
   {
     "type": 11,
@@ -382,7 +382,7 @@
     "meleeDamageType": "cavalry-sabre",
     "chargeBonus": 80,
     "chargeResistance": -0.5,
-    "runChargeResistanceModifier": 0.55,
+    "runChargeResistanceModifier": 0.65,
     "chargePenetration": 0.1,
     "walkMovement": 125,
     "runMovement": 200,
@@ -411,7 +411,7 @@
   {
     "type": 12,
     "category": "artillery",
-    "rangedAttack": 43,
+    "rangedAttack": 44,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -504,7 +504,7 @@
     "org": 525,
     "stamina": 1800,
     "movementSound": "infantry-movement",
-    "manpower": 250,
+    "manpower": 225,
     "gold": 50,
     "orgRadius": 54,
     "orgRadiusBonus": 12,
@@ -600,14 +600,14 @@
     "unknownType": 21,
     "immuneToFlankRearBonuses": true,
     "reportStats": {
-      "men": 100,
+      "men": 150,
       "horse": 0,
       "guns": 0
     },
     "rotationSpeed": 0.35,
     "rotationMaxThreshold": 0.55,
     "runRotationSpeed": 0.25,
-    "turningDelay": 3
+    "turningDelay": 2
   },
   {
     "type": 17,
@@ -647,14 +647,14 @@
     "unknownType": 21,
     "immuneToFlankRearBonuses": true,
     "reportStats": {
-      "men": 100,
+      "men": 150,
       "horse": 0,
       "guns": 0
     },
     "rotationSpeed": 0.35,
     "rotationMaxThreshold": 0.55,
     "runRotationSpeed": 0.25,
-    "turningDelay": 3
+    "turningDelay": 2
   },
   {
     "type": 18,
@@ -866,7 +866,7 @@
       "10lb-explosive-shell"
     ],
     "chargeBonus": 5,
-    "walkMovement": 35,
+    "walkMovement": 30,
     "runStartUpMovement": 16,
     "runMovement": 110,
     "timeToRun": 12,
@@ -877,8 +877,8 @@
     "orgRadius": 32,
     "orgRadiusBonus": 2,
     "movementSound": "artillery-movement",
-    "manpower": 25,
-    "gold": 200,
+    "manpower": 50,
+    "gold": 175,
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
@@ -893,7 +893,7 @@
     "reportStats": {
       "men": 104,
       "horse": 32,
-      "guns": 8
+      "guns": 6
     }
   },
   {
@@ -909,19 +909,19 @@
       "18lb-explosive-shell"
     ],
     "chargeBonus": 5,
-    "walkMovement": 35,
+    "walkMovement": 15,
     "runStartUpMovement": 16,
     "runMovement": 110,
     "timeToRun": 12,
     "runCost": 8,
     "hp": 600,
     "org": 300,
-    "stamina": 1700,
+    "stamina": 1500,
     "orgRadius": 32,
     "orgRadiusBonus": 2,
     "movementSound": "artillery-movement",
-    "manpower": 25,
-    "gold": 200,
+    "manpower": 100,
+    "gold": 225,
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
@@ -934,9 +934,9 @@
     "rotationMaxThreshold": 3.0,
     "runRotationSpeed": 0.8,
     "reportStats": {
-      "men": 104,
-      "horse": 32,
-      "guns": 8
+      "men": 122,
+      "horse": 54,
+      "guns": 6
     }
   }
 ]

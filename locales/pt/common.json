@@ -546,5 +546,7 @@
   "infantry": "Infantaria",
   "cavalry": "Cavalaria",
   "artillery": "Artilharia",
-  "special": "Especial"
+  "special": "Especial",
+
+  "academy": "Academia"
 }

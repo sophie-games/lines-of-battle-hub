@@ -492,5 +492,7 @@
   "infantry": "Gyalogság",
   "cavalry": "Lovasság",
   "artillery": "Tüzérség",
-  "special": "Speciális"
+  "special": "Speciális",
+
+  "academy": "Akadémia"
 }

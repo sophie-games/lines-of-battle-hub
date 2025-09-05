@@ -742,5 +742,7 @@
   "infantry": "步兵",
   "cavalry": "骑兵",
   "artillery": "炮兵",
-  "special": "特殊"
+  "special": "特殊",
+
+  "academy": "学院"
 }

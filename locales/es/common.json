@@ -714,5 +714,7 @@
   "infantry": "Infantería",
   "cavalry": "Caballería",
   "artillery": "Artillería",
-  "special": "Especial"
+  "special": "Especial",
+
+  "academy": "Academia"
 }

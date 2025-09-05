@@ -335,6 +335,10 @@
   "topWidth": "Top width",
   "bottomWidth": "Bottom width",
   "height": "Height",
+  "elevationModifiers": "Elevation Modifiers",
+  "heightModifierPerLevel": "Height Modifier per Level",
+  "damageModifierPerLevel": "Damage Modifier per Level",
+  "maxElevationDiff": "Max Elevation Difference",
   "diminishByTargetOrg": "Diminish by Target Org",
   "from": "from",
   "to": "to",
@@ -865,5 +869,7 @@
   "infantry": "Infantry",
   "cavalry": "Cavalry",
   "artillery": "Artillery",
-  "special": "Special"
+  "special": "Special",
+
+  "academy": "Academy"
 }

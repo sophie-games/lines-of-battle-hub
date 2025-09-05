@@ -545,5 +545,7 @@
   "infantry": "歩兵",
   "cavalry": "騎兵",
   "artillery": "砲兵",
-  "special": "特殊"
+  "special": "特殊",
+
+  "academy": "アカデミー"
 }

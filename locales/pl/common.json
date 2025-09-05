@@ -761,5 +761,7 @@
   "infantry": "Piechota",
   "cavalry": "Kawaleria",
   "artillery": "Artyleria",
-  "special": "Specjalne"
+  "special": "Specjalne",
+
+  "academy": "Akademia"
 }

@@ -559,5 +559,7 @@
   "infantry": "Infanteri",
   "cavalry": "Kavaleri",
   "artillery": "Artileri",
-  "special": "Khusus"
+  "special": "Khusus",
+
+  "academy": "Akademi"
 }

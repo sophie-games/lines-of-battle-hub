@@ -549,5 +549,7 @@
   "infantry": "Piyade",
   "cavalry": "Süvari",
   "artillery": "Topçu",
-  "special": "Özel"
+  "special": "Özel",
+
+  "academy": "Akademi"
 }
