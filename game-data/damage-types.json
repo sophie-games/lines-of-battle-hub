@@ -130,11 +130,11 @@
           "start": 110,
           "end": 280,
           "startTopWidth": 20,
-          "endTopWidth": 32,
+          "endTopWidth": 36,
           "startBottomWidth": 16,
           "endBottomWidth": 24,
-          "startHeight": 36,
-          "endHeight": 52
+          "startHeight": 48,
+          "endHeight": 60
         }
       ],
       "absorptionModifier": 2,
@@ -184,8 +184,8 @@
           "endTopWidth": 68,
           "startBottomWidth": 16,
           "endBottomWidth": 56,
-          "startHeight": 40,
-          "endHeight": 72
+          "startHeight": 52,
+          "endHeight": 80
         }
       ],
       "absorptionModifier": 2,
@@ -226,8 +226,8 @@
           "endTopWidth": 24,
           "startBottomWidth": 12,
           "endBottomWidth": 18,
-          "startHeight": 28,
-          "endHeight": 38
+          "startHeight": 38,
+          "endHeight": 48
         }
       ],
       "absorptionModifier": 2,
@@ -277,8 +277,8 @@
           "endTopWidth": 54,
           "startBottomWidth": 14,
           "endBottomWidth": 44,
-          "startHeight": 32,
-          "endHeight": 64
+          "startHeight": 44,
+          "endHeight": 70
         }
       ],
       "absorptionModifier": 2,
@@ -328,8 +328,8 @@
           "endTopWidth": 48,
           "startBottomWidth": 13,
           "endBottomWidth": 38,
-          "startHeight": 28,
-          "endHeight": 62
+          "startHeight": 32,
+          "endHeight": 64
         }
       ],
       "absorptionModifier": 2.0,
@@ -379,8 +379,8 @@
           "endTopWidth": 40,
           "startBottomWidth": 12,
           "endBottomWidth": 32,
-          "startHeight": 20,
-          "endHeight": 52
+          "startHeight": 28,
+          "endHeight": 60
         }
       ],
       "absorptionModifier": 2.0,

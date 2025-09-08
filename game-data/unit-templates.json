@@ -129,7 +129,7 @@
     "orgRadius": 64,
     "orgRadiusBonus": 14,
     "movementSound": "infantry-movement",
-    "manpower": 300,
+    "manpower": 275,
     "gold": 75,
     "basicPrice": 400,
     "premiumPrice": 40,
@@ -592,7 +592,11 @@
       "6lb-cannon-ball",
       "8lb-cannon-ball",
       "12lb-cannon-ball",
-      "explosive-shell"
+      "explosive-shell",
+      "10lb-cannon-ball",
+      "18lb-cannon-ball",
+      "10lb-explosive-shell",
+      "18lb-explosive-shell"
     ],
     "locked": true,
     "canDeployForward": true,
@@ -640,7 +644,11 @@
       "6lb-cannon-ball",
       "8lb-cannon-ball",
       "12lb-cannon-ball",
-      "explosive-shell"
+      "explosive-shell",
+      "10lb-cannon-ball",
+      "18lb-cannon-ball",
+      "10lb-explosive-shell",
+      "18lb-explosive-shell"
     ],
     "canDeployForward": true,
     "reducedVisibilityRange": 16,
