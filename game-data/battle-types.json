@@ -10,8 +10,8 @@
     }
   },
   "clash": {
-    "manpower": 4000,
-    "gold": 2500,
+    "manpower": 4100,
+    "gold": 2100,
     "skirmisherRatio": [1, 2],
     "fogOfWar": false,
     "unitCaps": {
