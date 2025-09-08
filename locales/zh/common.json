@@ -141,6 +141,7 @@
     "hp": "HP",
     "org": "组织度",
     "stamina": "体力",
+    "ammo": "弹药",
     "walkMovement": "行进",
     "movement": "移动力",
     "meleeAttack": "近战攻击",

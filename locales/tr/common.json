@@ -145,6 +145,8 @@
   "unitStat": {
     "hp": "Can",
     "org": "Organizasyon",
+    "stamina": "Dayanıklılık",
+    "ammo": "Cephane",
     "movement": "Hareket",
     "meleeAttack": "Yakın Saldırı",
     "meleeDefense": "Yakın Savunma",

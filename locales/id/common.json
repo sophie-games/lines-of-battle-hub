@@ -146,6 +146,8 @@
   "unitStat": {
     "hp": "Nyawa",
     "org": "Organisasi",
+    "stamina": "Stamina",
+    "ammo": "Ammunisi",
     "movement": "Pergerakan",
     "meleeAttack": "Serangan Jarak Dekat",
     "meleeDefense": "Ketahanan Jarak Dekat",

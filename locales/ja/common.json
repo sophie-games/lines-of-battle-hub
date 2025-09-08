@@ -145,6 +145,8 @@
   "unitStat": {
     "hp": "HP",
     "org": "編成",
+    "stamina": "スタミナ",
+    "ammo": "弾薬",
     "movement": "移動",
     "meleeAttack": "白兵攻撃",
     "meleeDefense": "白兵防御",

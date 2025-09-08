@@ -145,6 +145,8 @@
   "unitStat": {
     "hp": "HP",
     "org": "Organizáció",
+    "stamina": "Kitartás",
+    "ammo": "Lőszer",
     "movement": "Mozgás",
     "meleeAttack": "Közelharci támadás",
     "meleeDefense": "Közelharci védekezés",

@@ -159,6 +159,7 @@
     "hp": "HP",
     "org": "Organization",
     "stamina": "Stamina",
+    "ammo": "Ammo",
     "walkMovement": "Walk",
     "movement": "Movement",
     "meleeAttack": "Melee Attack",

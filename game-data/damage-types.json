@@ -147,7 +147,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "cannonBallImpact"
+    "shotImpactAnim": "cannonBallImpact",
+    "ammoCost": 16
   },
   {
     "type": "12lb-cannon-ball",
@@ -198,7 +199,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "cannonBallImpact"
+    "shotImpactAnim": "cannonBallImpact",
+    "ammoCost": 16
   },
   {
     "type": "10lb-cannon-ball",
@@ -240,7 +242,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "cannonBallImpact"
+    "shotImpactAnim": "cannonBallImpact",
+    "ammoCost": 16
   },
   {
     "type": "8lb-cannon-ball",
@@ -291,7 +294,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "cannonBallImpact"
+    "shotImpactAnim": "cannonBallImpact",
+    "ammoCost": 16
   },
   {
     "type": "6lb-cannon-ball",
@@ -342,7 +346,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "cannonBallImpact"
+    "shotImpactAnim": "cannonBallImpact",
+    "ammoCost": 16
   },
   {
     "type": "4lb-cannon-ball",
@@ -393,7 +398,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "cannonBallImpact"
+    "shotImpactAnim": "cannonBallImpact",
+    "ammoCost": 16
   },
   {
     "type": "18lb-explosive-shell",
@@ -433,7 +439,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "shellImpact"
+    "shotImpactAnim": "shellImpact",
+    "ammoCost": 16
   },
   {
     "type": "10lb-explosive-shell",
@@ -473,7 +480,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "shellImpact"
+    "shotImpactAnim": "shellImpact",
+    "ammoCost": 16
   },
   {
     "type": "explosive-shell",
@@ -521,7 +529,8 @@
     },
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "shotImpactAnim": "shellImpact"
+    "shotImpactAnim": "shellImpact",
+    "ammoCost": 16
   },
   {
     "type": "18lb-canister-fire",
@@ -549,7 +558,8 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
-    "shotAnim": "cannonVolley"
+    "shotAnim": "cannonVolley",
+    "ammoCost": 32
   },
   {
     "type": "12lb-canister-fire",
@@ -577,7 +587,8 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
-    "shotAnim": "cannonVolley"
+    "shotAnim": "cannonVolley",
+    "ammoCost": 32
   },
   {
     "type": "10lb-canister-fire",
@@ -605,7 +616,8 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
-    "shotAnim": "cannonVolley"
+    "shotAnim": "cannonVolley",
+    "ammoCost": 32
   },
   {
     "type": "8lb-canister-fire",
@@ -633,7 +645,8 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
-    "shotAnim": "cannonVolley"
+    "shotAnim": "cannonVolley",
+    "ammoCost": 32
   },
   {
     "type": "6lb-canister-fire",
@@ -661,7 +674,8 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
-    "shotAnim": "cannonVolley"
+    "shotAnim": "cannonVolley",
+    "ammoCost": 32
   },
   {
     "type": "4lb-canister-fire",
@@ -689,7 +703,8 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
-    "shotAnim": "cannonVolley"
+    "shotAnim": "cannonVolley",
+    "ammoCost": 32
   },
   {
     "type": "howitzer-canister",
@@ -710,7 +725,8 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
-    "shotAnim": "cannonVolley"
+    "shotAnim": "cannonVolley",
+    "ammoCost": 32
   },
   {
     "type": "horse-archer-bow",
@@ -773,6 +789,7 @@
     },
     "shotSound": "rocket-volley",
     "shotAnim": "rocketVolley",
-    "shotImpactAnim": "shellImpact"
+    "shotImpactAnim": "shellImpact",
+    "ammoCost": 16
   }
 ]

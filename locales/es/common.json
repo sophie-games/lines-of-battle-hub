@@ -151,6 +151,8 @@
   "unitStat": {
     "hp": "HP",
     "org": "Organización",
+    "stamina": "Resistencia",
+    "ammo": "Munición",
     "walkMovement": "Caminar",
     "movement": "Movimiento",
     "meleeAttack": "Ataque cuerpo a cuerpo",

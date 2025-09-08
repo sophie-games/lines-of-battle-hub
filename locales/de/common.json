@@ -145,6 +145,8 @@
   "unitStat": {
     "hp": "LP",
     "org": "Organisation",
+    "stamina": "Ausdauer",
+    "ammo": "Munition",
     "movement": "Fortbewegung",
     "meleeAttack": "Nahkampfangriff",
     "meleeDefense": "Nahkampfverteidigung",

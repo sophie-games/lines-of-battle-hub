@@ -142,6 +142,8 @@
   "unitStat": {
     "hp": "PV",
     "org": "Organisation",
+    "stamina": "Endurance",
+    "ammo": "Munitions",
     "movement": "Mouvement",
     "meleeAttack": "Attaque en mêlée",
     "meleeDefense": "Défense en mêlée",

@@ -133,6 +133,7 @@
     "hp": "체력",
     "org": "조직력",
     "stamina": "활력",
+    "ammo": "탄약",
     "walkMovement": "보행",
     "movement": "기동력",
     "meleeAttack": "근접전투력",

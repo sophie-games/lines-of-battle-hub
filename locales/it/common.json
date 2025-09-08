@@ -145,6 +145,8 @@
   "unitStat": {
     "hp": "PV",
     "org": "Organizzazione",
+    "stamina": "Resistenza",
+    "ammo": "Munizioni",
     "movement": "Movimento",
     "meleeAttack": "Attacco corpo a corpo",
     "meleeDefense": "Difesa corpo a corpo",

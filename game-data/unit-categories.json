@@ -54,6 +54,10 @@
       "baseSpeed": "walk",
       "moveWhileInMelee": false
     },
+    "ammoSystem": {
+      "noAmmoDamageReduction": 0.5,
+      "ammoRegenPerTurn": 80
+    },
     "damageTypeResistances": {
       "bayonet": -0.75,
       "cavalry-sabre": -1,
