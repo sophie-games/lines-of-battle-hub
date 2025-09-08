@@ -130,11 +130,11 @@
           "start": 110,
           "end": 280,
           "startTopWidth": 20,
-          "endTopWidth": 36,
+          "endTopWidth": 32,
           "startBottomWidth": 16,
           "endBottomWidth": 24,
-          "startHeight": 48,
-          "endHeight": 60
+          "startHeight": 36,
+          "endHeight": 52
         }
       ],
       "absorptionModifier": 2,
@@ -164,7 +164,7 @@
       {
         "start": 250,
         "end": 500,
-        "startMod": -0.05,
+        "startMod": -0.1,
         "endMod": -0.85,
         "name": "long"
       }
@@ -181,11 +181,11 @@
           "start": 145,
           "end": 500,
           "startTopWidth": 20,
-          "endTopWidth": 68,
+          "endTopWidth": 66,
           "startBottomWidth": 16,
-          "endBottomWidth": 56,
-          "startHeight": 52,
-          "endHeight": 80
+          "endBottomWidth": 50,
+          "startHeight": 48,
+          "endHeight": 76
         }
       ],
       "absorptionModifier": 2,
@@ -226,8 +226,8 @@
           "endTopWidth": 24,
           "startBottomWidth": 12,
           "endBottomWidth": 18,
-          "startHeight": 38,
-          "endHeight": 48
+          "startHeight": 28,
+          "endHeight": 38
         }
       ],
       "absorptionModifier": 2,
@@ -257,8 +257,8 @@
       {
         "start": 235,
         "end": 435,
-        "startMod": -0.05,
-        "endMod": -0.8,
+        "startMod": 0,
+        "endMod": -0.85,
         "name": "long"
       }
     ],
@@ -273,12 +273,12 @@
         {
           "start": 135,
           "end": 435,
-          "startTopWidth": 18,
+          "startTopWidth": 16,
           "endTopWidth": 54,
           "startBottomWidth": 14,
-          "endBottomWidth": 44,
-          "startHeight": 44,
-          "endHeight": 70
+          "endBottomWidth": 42,
+          "startHeight": 38,
+          "endHeight": 64
         }
       ],
       "absorptionModifier": 2,
@@ -309,7 +309,7 @@
         "start": 230,
         "end": 400,
         "startMod": -0.1,
-        "endMod": -0.75,
+        "endMod": -0.8,
         "name": "long"
       }
     ],
@@ -324,12 +324,12 @@
         {
           "start": 120,
           "end": 400,
-          "startTopWidth": 15,
-          "endTopWidth": 48,
+          "startTopWidth": 16,
+          "endTopWidth": 44,
           "startBottomWidth": 13,
-          "endBottomWidth": 38,
-          "startHeight": 32,
-          "endHeight": 64
+          "endBottomWidth": 32,
+          "startHeight": 30,
+          "endHeight": 60
         }
       ],
       "absorptionModifier": 2.0,
@@ -360,7 +360,7 @@
         "start": 200,
         "end": 375,
         "startMod": -0.1,
-        "endMod": -0.7,
+        "endMod": -0.75,
         "name": "long"
       }
     ],
@@ -375,12 +375,12 @@
         {
           "start": 110,
           "end": 375,
-          "startTopWidth": 14,
-          "endTopWidth": 40,
+          "startTopWidth": 16,
+          "endTopWidth": 38,
           "startBottomWidth": 12,
-          "endBottomWidth": 32,
-          "startHeight": 28,
-          "endHeight": 60
+          "endBottomWidth": 26,
+          "startHeight": 24,
+          "endHeight": 44
         }
       ],
       "absorptionModifier": 2.0,
@@ -741,15 +741,15 @@
       {
         "start": 0,
         "end": 150,
-        "startMod": 0.75,
-        "endMod": 0.75,
+        "startMod": 0.65,
+        "endMod": 0.65,
         "name": "close"
       },
-      { "start": 150, "end": 270, "startMod": 0.75, "endMod": -0.15 },
+      { "start": 150, "end": 270, "startMod": 0.65, "endMod": -0.25 },
       {
         "start": 270,
         "end": 450,
-        "startMod": -0.15,
+        "startMod": -0.25,
         "endMod": -0.9,
         "name": "long"
       }
@@ -762,7 +762,7 @@
       "type": "circular",
       "ranges": [
         {
-          "start": 150,
+          "start": 20,
           "end": 450,
           "startRadius": 20,
           "endRadius": 48
