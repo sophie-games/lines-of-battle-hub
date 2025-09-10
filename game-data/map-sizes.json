@@ -1,18 +1,18 @@
 {
   "s": {
-    "map": { "width": 1392, "height": 880 },
-    "deployment": { "width": 1040, "height": 96, "zoneSeparation": 512 }
+    "map": { "width": 1392, "height": 944 },
+    "deployment": { "width": 1040, "height": 96, "zoneSeparation": 560 }
   },
   "m": {
-    "map": { "width": 1808, "height": 1344 },
-    "deployment": { "width": 1600, "height": 160, "zoneSeparation": 832 }
+    "map": { "width": 1808, "height": 1440 },
+    "deployment": { "width": 1600, "height": 160, "zoneSeparation": 864 }
   },
   "l": {
-    "map": { "width": 1808, "height": 1600 },
+    "map": { "width": 1968, "height": 1600 },
     "deployment": { "width": 1600, "height": 176, "zoneSeparation": 1072 }
   },
   "xl": {
-    "map": { "width": 2240, "height": 1792 },
+    "map": { "width": 2320, "height": 1792 },
     "deployment": { "width": 1920, "height": 224, "zoneSeparation": 1168 }
   }
 }

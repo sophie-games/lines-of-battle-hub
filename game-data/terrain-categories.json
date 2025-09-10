@@ -48,6 +48,7 @@
     },
     "attackModifier": {
       "infantry": 0.25,
+      "skirmishInfantry": 0.75,
       "militiaInfantry": 0.25,
       "midCavalry": -0.75,
       "skirmishInfantry": 1,
@@ -96,8 +97,9 @@
       "heavyCavalry": -0.3
     },
     "chargeBonusModifier": {
-      "infantry": -0.75,
-      "militiaInfantry": -0.75,
+      "infantry": -0.9,
+      "skirmishInfantry": -0.9,
+      "militiaInfantry": -0.9,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "scoutCavalry": -0.8,
@@ -123,7 +125,7 @@
     },
     "attackModifier": {
       "infantry": 0.2,
-      "skirmishInfantry": 0.75,
+      "skirmishInfantry": 1,
       "militiaInfantry": 0.25,
       "midCavalry": -0.9,
       "lightCavalry": -0.9,
@@ -171,8 +173,9 @@
       "heavyCavalry": -0.4
     },
     "chargeBonusModifier": {
-      "infantry": -0.75,
-      "militiaInfantry": -0.75,
+      "infantry": -0.8,
+      "skirmishInfantry": -0.9,
+      "militiaInfantry": -0.8,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "scoutCavalry": -0.8,
@@ -315,8 +318,9 @@
       "howitzer-canister": 0.15
     },
     "chargeBonusModifier": {
-      "infantry": -0.75,
-      "militiaInfantry": -0.75,
+      "infantry": -0.8,
+      "skirmishInfantry": -0.9,
+      "militiaInfantry": -0.8,
       "midCavalry": -0.8,
       "lightCavalry": -0.8,
       "scoutCavalry": -0.8,
