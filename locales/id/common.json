@@ -147,7 +147,6 @@
     "hp": "Nyawa",
     "org": "Organisasi",
     "stamina": "Stamina",
-    "ammo": "Ammunisi",
     "movement": "Pergerakan",
     "meleeAttack": "Serangan Jarak Dekat",
     "meleeDefense": "Ketahanan Jarak Dekat",
@@ -557,11 +556,20 @@
   "low": "Rendah",
   "medium": "Sedang",
   "high": "Tinggi",
+
+  "tournamentStartedModal": {
+    "title": "Pertandingan telah dimulai",
+    "message": "Round {{round}} dari turnamen {{tournamentName}} telah dimulai!",
+    "goButtonText": "Pergi ke pertandingan turnamen"
+  },
+
+  "dismiss": "Tutup",
   "turningDelay": "Penundaan putaran",
   "infantry": "Infanteri",
   "cavalry": "Kavaleri",
   "artillery": "Artileri",
   "special": "Khusus",
 
-  "academy": "Akademi"
+  "academy": "Akademi",
+  "ammo": "Ammunisi"
 }

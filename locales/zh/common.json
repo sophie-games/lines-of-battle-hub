@@ -141,7 +141,6 @@
     "hp": "HP",
     "org": "组织度",
     "stamina": "体力",
-    "ammo": "弹药",
     "walkMovement": "行进",
     "movement": "移动力",
     "meleeAttack": "近战攻击",
@@ -739,11 +738,20 @@
   "low": "低",
   "medium": "中",
   "high": "高",
+
+  "tournamentStartedModal": {
+    "title": "锦标赛对局已开始",
+    "message": "{{tournamentName}}的第{{round}}轮已开始！",
+    "goButtonText": "前往锦标赛对局"
+  },
+
+  "dismiss": "关闭",
   "turningDelay": "转向延迟",
   "infantry": "步兵",
   "cavalry": "骑兵",
   "artillery": "炮兵",
   "special": "特殊",
 
-  "academy": "学院"
+  "academy": "学院",
+  "ammo": "弹药"
 }

@@ -159,7 +159,6 @@
     "hp": "HP",
     "org": "Organization",
     "stamina": "Stamina",
-    "ammo": "Ammo",
     "walkMovement": "Walk",
     "movement": "Movement",
     "meleeAttack": "Melee Attack",
@@ -807,6 +806,12 @@
     "p3": "Follow us on social media for the latest news and announcements."
   },
 
+  "tournamentStartedModal": {
+    "title": "A tournament game has started",
+    "message": "Round {{round}} of tournament {{tournamentName}} has started!",
+    "goButtonText": "Go to tournament game"
+  },
+
   "invitedPlayers": "Invited players",
   "partyInviteFrom": "Party invite from {{username}}",
   "leader": "Leader",
@@ -840,7 +845,6 @@
   "connecting": "Connecting...",
   "disconnecting": "Disconnecting...",
   "unknown": "Unknown",
-
   "fogOfWar": "Fog of war",
   "max": "Max",
   "minDistanceToFAA": "Min distance to FAA",
@@ -864,6 +868,7 @@
   "low": "Low",
   "medium": "Medium",
   "high": "High",
+  "dismiss": "Dismiss",
   "cannotChargeAgainst": "Cannot charge against",
   "turningDelay": "Turning delay",
 
@@ -872,5 +877,6 @@
   "artillery": "Artillery",
   "special": "Special",
 
-  "academy": "Academy"
+  "academy": "Academy",
+  "ammo": "Ammo"
 }

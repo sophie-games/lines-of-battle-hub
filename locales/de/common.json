@@ -146,7 +146,6 @@
     "hp": "LP",
     "org": "Organisation",
     "stamina": "Ausdauer",
-    "ammo": "Munition",
     "movement": "Fortbewegung",
     "meleeAttack": "Nahkampfangriff",
     "meleeDefense": "Nahkampfverteidigung",
@@ -534,6 +533,12 @@
     "p3": "Folge uns in den sozialen Medien für die neuesten Nachrichten und Ankündigungen."
   },
 
+  "tournamentStartedModal": {
+    "title": "Ein Turnierspiel hat begonnen",
+    "message": "Runde {{round}} des Turniers {{tournamentName}} hat begonnen!",
+    "goButtonText": "Zum Turnierspiel gehen"
+  },
+
   "allVisible": "Alle Sichtbar",
   "teamN": "Team {{number}}",
   "measuring": "Messen...",
@@ -548,11 +553,13 @@
   "low": "Niedrig",
   "medium": "Mittel",
   "high": "Hoch",
+  "dismiss": "Verwerfen",
   "turningDelay": "Drehverzögerung",
   "infantry": "Infanterie",
   "cavalry": "Kavallerie",
   "artillery": "Artillerie",
   "special": "Spezial",
 
-  "academy": "Akademie"
+  "academy": "Akademie",
+  "ammo": "Munition"
 }

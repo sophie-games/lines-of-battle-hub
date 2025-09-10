@@ -146,7 +146,6 @@
     "hp": "Can",
     "org": "Organizasyon",
     "stamina": "Dayanıklılık",
-    "ammo": "Cephane",
     "movement": "Hareket",
     "meleeAttack": "Yakın Saldırı",
     "meleeDefense": "Yakın Savunma",
@@ -547,11 +546,20 @@
   "low": "Düşük",
   "medium": "Orta",
   "high": "Yüksek",
+
+  "tournamentStartedModal": {
+    "title": "Bir turnuva oyunu başladı",
+    "message": "{{tournamentName}} turnuvasının {{round}}. turu başladı!",
+    "goButtonText": "Turnuva oyununa git"
+  },
+
+  "dismiss": "Kapat",
   "turningDelay": "Dönüş gecikmesi",
   "infantry": "Piyade",
   "cavalry": "Süvari",
   "artillery": "Topçu",
   "special": "Özel",
 
-  "academy": "Akademi"
+  "academy": "Akademi",
+  "ammo": "Cephane"
 }

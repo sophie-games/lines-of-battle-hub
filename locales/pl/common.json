@@ -149,7 +149,6 @@
     "hp": "PŻ",
     "org": "Organizacja",
     "stamina": "Wytrzymałość",
-    "ammo": "Amunicja",
     "walkMovement": "Marsz",
     "movement": "Ruch",
     "meleeAttack": "Atak Wręcz",
@@ -744,6 +743,12 @@
     "p3": "Śledź nas w mediach społecznościowych, aby otrzymywać najnowsze wiadomości i ogłoszenia."
   },
 
+  "tournamentStartedModal": {
+    "title": "Rozpoczęła się partia turniejowa",
+    "message": "Runda {{round}} turnieju {{tournamentName}} rozpoczęła się!",
+    "goButtonText": "Przejdź do partii turniejowej"
+  },
+
   "allVisible": "Wszystko Widoczne",
   "teamN": "Drużyna {{number}}",
   "measuring": "Mierzenie...",
@@ -758,11 +763,13 @@
   "low": "Niska",
   "medium": "Średnia",
   "high": "Wysoka",
+  "dismiss": "Odrzuć",
   "turningDelay": "Opóźnienie obrotu",
   "infantry": "Piechota",
   "cavalry": "Kawaleria",
   "artillery": "Artyleria",
   "special": "Specjalne",
 
-  "academy": "Akademia"
+  "academy": "Akademia",
+  "ammo": "Amunicja"
 }

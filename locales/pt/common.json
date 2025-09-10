@@ -146,7 +146,6 @@
     "hp": "HP",
     "org": "Organização",
     "stamina": "Resistência",
-    "ammo": "Munição",
     "movement": "Movimento",
     "meleeAttack": "Ataque Corpo a Corpo",
     "meleeDefense": "Defesa Corpo a Corpo",
@@ -544,11 +543,20 @@
   "low": "Baixa",
   "medium": "Média",
   "high": "Alta",
+
+  "tournamentStartedModal": {
+    "title": "Um jogo de torneio começou",
+    "message": "A rodada {{round}} do torneio {{tournamentName}} começou!",
+    "goButtonText": "Ir para o jogo do torneio"
+  },
+
+  "dismiss": "Dispensar",
   "turningDelay": "Atraso de rotação",
   "infantry": "Infantaria",
   "cavalry": "Cavalaria",
   "artillery": "Artilharia",
   "special": "Especial",
 
-  "academy": "Academia"
+  "academy": "Academia",
+  "ammo": "Munição"
 }

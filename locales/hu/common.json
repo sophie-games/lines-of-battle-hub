@@ -146,7 +146,6 @@
     "hp": "HP",
     "org": "Organizáció",
     "stamina": "Kitartás",
-    "ammo": "Lőszer",
     "movement": "Mozgás",
     "meleeAttack": "Közelharci támadás",
     "meleeDefense": "Közelharci védekezés",
@@ -476,6 +475,12 @@
     "p3": "Kövess minket a közösségi médiában a legfrissebb hírek és bejelentések érdekében."
   },
 
+  "tournamentStartedModal": {
+    "title": "Egy torna meccs elkezdődött",
+    "message": "A {{tournamentName}} torna {{round}}. köre elkezdődött!",
+    "goButtonText": "Menj a torna meccshez"
+  },
+
   "allVisible": "Minden Látható",
   "teamN": "Csapat {{number}}",
   "measuring": "Mérés...",
@@ -490,11 +495,13 @@
   "low": "Alacsony",
   "medium": "Közepes",
   "high": "Magas",
+  "dismiss": "Elutasítás",
   "turningDelay": "Fordulási késés",
   "infantry": "Gyalogság",
   "cavalry": "Lovasság",
   "artillery": "Tüzérség",
   "special": "Speciális",
 
-  "academy": "Akadémia"
+  "academy": "Akadémia",
+  "ammo": "Lőszer"
 }

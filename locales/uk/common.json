@@ -130,7 +130,6 @@
     "hp": "Чисельність підрозділу",
     "org": "Бойовий дух",
     "stamina": "Витривалість",
-    "ammo": "Боєприпаси",
     "movement": "Рух",
     "meleeAttack": "Рукопашна атака",
     "meleeDefense": "Рукопашний захист",
@@ -490,11 +489,20 @@
   "low": "Низька",
   "medium": "Середня",
   "high": "Висока",
+
+  "tournamentStartedModal": {
+    "title": "Турнірна гра розпочалася",
+    "message": "Раунд {{round}} турніру {{tournamentName}} розпочався!",
+    "goButtonText": "Перейти до турнірної гри"
+  },
+
+  "dismiss": "Закрити",
   "turningDelay": "Затримка повороту",
   "infantry": "Піхота",
   "cavalry": "Кіннота",
   "artillery": "Артилерія",
   "special": "Спеціальні",
 
-  "academy": "Академія"
+  "academy": "Академія",
+  "ammo": "Боєприпаси"
 }

@@ -152,7 +152,6 @@
     "hp": "HP",
     "org": "Organización",
     "stamina": "Resistencia",
-    "ammo": "Munición",
     "walkMovement": "Caminar",
     "movement": "Movimiento",
     "meleeAttack": "Ataque cuerpo a cuerpo",
@@ -698,6 +697,12 @@
     "p3": "Síguenos en las redes sociales para las últimas noticias y anuncios."
   },
 
+  "tournamentStartedModal": {
+    "title": "Un juego de torneo ha comenzado",
+    "message": "¡La ronda {{round}} del torneo {{tournamentName}} ha comenzado!",
+    "goButtonText": "Ir al juego del torneo"
+  },
+
   "allVisible": "Todo Visible",
   "teamN": "Equipo {{number}}",
   "measuring": "Midiendo...",
@@ -712,11 +717,13 @@
   "low": "Baja",
   "medium": "Media",
   "high": "Alta",
+  "dismiss": "Descartar",
   "turningDelay": "Retraso de giro",
   "infantry": "Infantería",
   "cavalry": "Caballería",
   "artillery": "Artillería",
   "special": "Especial",
 
-  "academy": "Academia"
+  "academy": "Academia",
+  "ammo": "Munición"
 }

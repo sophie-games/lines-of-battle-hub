@@ -146,7 +146,6 @@
     "hp": "HP",
     "org": "編成",
     "stamina": "スタミナ",
-    "ammo": "弾薬",
     "movement": "移動",
     "meleeAttack": "白兵攻撃",
     "meleeDefense": "白兵防御",
@@ -543,11 +542,20 @@
   "low": "低",
   "medium": "中",
   "high": "高",
+
+  "tournamentStartedModal": {
+    "title": "トーナメントゲームが開始されました",
+    "message": "{{tournamentName}}の第{{round}}ラウンドが開始されました！",
+    "goButtonText": "トーナメントゲームへ"
+  },
+
+  "dismiss": "閉じる",
   "turningDelay": "旋回遅延",
   "infantry": "歩兵",
   "cavalry": "騎兵",
   "artillery": "砲兵",
   "special": "特殊",
 
-  "academy": "アカデミー"
+  "academy": "アカデミー",
+  "ammo": "弾薬"
 }

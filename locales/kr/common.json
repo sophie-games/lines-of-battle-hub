@@ -133,7 +133,6 @@
     "hp": "체력",
     "org": "조직력",
     "stamina": "활력",
-    "ammo": "탄약",
     "walkMovement": "보행",
     "movement": "기동력",
     "meleeAttack": "근접전투력",
@@ -709,11 +708,20 @@
   "low": "낮음",
   "medium": "보통",
   "high": "높음",
+
+  "tournamentStartedModal": {
+    "title": "토너먼트 경기가 시작되었습니다",
+    "message": "{{tournamentName}}의 {{round}}회차가 시작되었습니다!",
+    "goButtonText": "토너먼트 경기로 이동"
+  },
+
+  "dismiss": "닫기",
   "turningDelay": "회전 지연",
   "infantry": "보병",
   "cavalry": "기병",
   "artillery": "포병",
   "special": "특수",
 
-  "academy": "아카데미"
+  "academy": "아카데미",
+  "ammo": "탄약"
 }
