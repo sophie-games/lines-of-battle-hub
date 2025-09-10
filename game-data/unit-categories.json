@@ -8,6 +8,13 @@
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
+    },
+    "enfiladeFire": {
+      "damageModifier": 0.5,
+      "orgModifier": 0.25
+    },
+    "rearFire": {
+      "orgModifier": 1.25
     }
   },
   "midCavalry": {
@@ -55,8 +62,7 @@
       "moveWhileInMelee": false
     },
     "ammoSystem": {
-      "noAmmoDamageReduction": 0.5,
-      "ammoRegenPerTurn": 80
+      "noAmmoDamageReduction": 0.5
     },
     "damageTypeResistances": {
       "bayonet": -0.75,
@@ -212,6 +218,13 @@
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
+    },
+    "enfiladeFire": {
+      "damageModifier": 0.5,
+      "orgModifier": 0.25
+    },
+    "rearFire": {
+      "orgModifier": 1.25
     }
   },
   "skirmishInfantry": {
