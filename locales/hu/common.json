@@ -309,6 +309,9 @@
   "noUnitsYet": "Nincsenek még egységek",
   "armyComposition": "Sereg összetétel",
   "budgetAvailable": "Elérhető költségvetés",
+  "reserveAmmo": "Tartalék Lőszer",
+  "avgTurnsOfFire": "Átlagos tüzelési körök",
+  "reserveAmmoDescription": "A nem elköltött arany hozzájárul a tartalék tüzérségi lőszeredhez, extra lőszerhez, amit a tüzérséged lőhet, miután elhasználta az összes lőszert, amit a csatába vitt.",
   "saveArmy": "Mentés",
   "clearUnits": "Visszaállítás",
   "saving": "Mentés...",
@@ -503,5 +506,6 @@
   "special": "Speciális",
 
   "academy": "Akadémia",
-  "ammo": "Lőszer"
+  "ammo": "Lőszer",
+  "ammoConsumption": "Lőszer Fogyasztás"
 }

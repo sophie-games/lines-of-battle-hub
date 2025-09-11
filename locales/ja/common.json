@@ -309,6 +309,9 @@
   "noUnitsYet": "ユニットはまだありません",
   "armyComposition": "軍編成",
   "budgetAvailable": "利用可能な予算",
+  "reserveAmmo": "予備弾薬",
+  "avgTurnsOfFire": "平均射撃ターン",
+  "reserveAmmoDescription": "未使用のゴールドは予備砲兵弾薬に貢献し、砲兵が戦闘に持ち込んだすべての弾薬を使い果たした後に発射できる追加弾薬です。",
   "saveArmy": "軍を保存",
   "clearUnits": "ユニットをクリア",
   "saving": "保存中...",
@@ -557,5 +560,6 @@
   "special": "特殊",
 
   "academy": "アカデミー",
-  "ammo": "弾薬"
+  "ammo": "弾薬",
+  "ammoConsumption": "弾薬消費"
 }

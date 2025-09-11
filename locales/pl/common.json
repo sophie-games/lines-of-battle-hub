@@ -352,6 +352,9 @@
   "noUnitsYet": "Brak Jednostek",
   "armyComposition": "Kompozycja Armii",
   "budgetAvailable": "Dostępny Budżet",
+  "reserveAmmo": "Zapasowa Amunicja",
+  "avgTurnsOfFire": "Średnia liczba tur ognia",
+  "reserveAmmoDescription": "Niewydane złoto przyczynia się do twojej zapasowej amunicji artyleryjskiej, dodatkowej amunicji, którą twoja artyleria może wystrzelić po zużyciu całej amunicji, którą zabrała do bitwy.",
   "saveArmy": "Zapisz armię",
   "clearUnits": "Wyczyść Jednostki",
   "saving": "Zapisywanie...",
@@ -771,5 +774,6 @@
   "special": "Specjalne",
 
   "academy": "Akademia",
-  "ammo": "Amunicja"
+  "ammo": "Amunicja",
+  "ammoConsumption": "Zużycie Amunicji"
 }

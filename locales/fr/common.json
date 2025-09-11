@@ -313,6 +313,9 @@
   "noUnitsYet": "Pas d'unités pour le moment",
   "armyComposition": "Ordre de bataille",
   "budgetAvailable": "Budget disponible",
+  "reserveAmmo": "Munitions de Réserve",
+  "avgTurnsOfFire": "Moy. tours de tir",
+  "reserveAmmoDescription": "L'or non dépensé contribue à vos munitions d'artillerie de réserve, munitions supplémentaires que votre artillerie peut tirer après avoir dépensé toutes les munitions qu'elle emporte au combat.",
   "saveArmy": "Sauvegarder l'armée",
   "clearUnits": "Supprimer les unités",
   "saving": "Sauvegarde...",
@@ -577,5 +580,6 @@
   "special": "Spécial",
 
   "academy": "Académie",
-  "ammo": "Munitions"
+  "ammo": "Munitions",
+  "ammoConsumption": "Consommation de Munitions"
 }

@@ -398,6 +398,9 @@
   "noUnitsYet": "No units yet",
   "armyComposition": "Army Composition",
   "budgetAvailable": "Budget Available",
+  "reserveAmmo": "Reserve Ammo",
+  "avgTurnsOfFire": "Avg. turns of fire",
+  "reserveAmmoDescription": "Unspent gold contributes to your reserve artillery ammo, extra ammunition your arty can fire after spending all of the ammo they carry into battle.",
   "saveArmy": "Save army",
   "clearUnits": "Clear units",
   "saving": "Saving...",
@@ -878,5 +881,6 @@
   "special": "Special",
 
   "academy": "Academy",
-  "ammo": "Ammo"
+  "ammo": "Ammo",
+  "ammoConsumption": "Ammo Consumption"
 }

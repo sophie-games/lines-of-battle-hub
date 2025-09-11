@@ -309,6 +309,9 @@
   "noUnitsYet": "Nenhuma unidade ainda",
   "armyComposition": "Composição de Exército",
   "budgetAvailable": "Orçamento Disponível",
+  "reserveAmmo": "Munição de Reserva",
+  "avgTurnsOfFire": "Média de turnos de fogo",
+  "reserveAmmoDescription": "Ouro não gasto contribui para sua munição de artilharia de reserva, munição extra que sua artilharia pode disparar após gastar toda a munição que carregou para a batalha.",
   "saveArmy": "Salvar exército",
   "clearUnits": "Limpar unidades",
   "saving": "Salvando...",
@@ -558,5 +561,6 @@
   "special": "Especial",
 
   "academy": "Academia",
-  "ammo": "Munição"
+  "ammo": "Munição",
+  "ammoConsumption": "Consumo de Munição"
 }
