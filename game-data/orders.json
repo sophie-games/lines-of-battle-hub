@@ -5,7 +5,8 @@
   "4": {
     "rangedDamageModifier": -0.25,
     "speedModifierWhenShooting": -0.15,
-    "allowFireWhenMoving": true
+    "allowFireWhenMoving": true,
+    "ammoConsumptionModifier": -0.25
   },
   "5": {},
   "6": {
