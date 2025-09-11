@@ -311,7 +311,7 @@
   "armyComposition": "Ordu Kompozisyonu",
   "budgetAvailable": "Kullanılabilir Bütçe",
   "reserveAmmo": "Yedek Mühimmat",
-  "avgTurnsOfFire": "Ortalama ateş turu",
+  "estimatedTurnsOfFire": "Tahmini ateş turu",
   "reserveAmmoDescription": "Harcanmamış altın, yedek topçu mühimmatınıza katkıda bulunur, topçunuzun savaşa getirdiği tüm mühimmatı harcadıktan sonra ateş edebileceği ek mühimmat.",
   "saveArmy": "Orduyu kaydet",
   "clearUnits": "Birimleri temizle",

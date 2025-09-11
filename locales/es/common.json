@@ -331,7 +331,7 @@
   "armyComposition": "Composición de ejército",
   "budgetAvailable": "Presupuesto disponible",
   "reserveAmmo": "Munición de Reserva",
-  "avgTurnsOfFire": "Promedio de turnos de fuego",
+  "estimatedTurnsOfFire": "Turnos de fuego estimados",
   "reserveAmmoDescription": "El oro no gastado contribuye a tu munición de artillería de reserva, munición extra que tu artillería puede disparar después de gastar toda la munición que lleva a la batalla.",
   "saveArmy": "Guardar ejército",
   "clearUnits": "Borrar unidades",

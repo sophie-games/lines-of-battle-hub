@@ -310,7 +310,7 @@
   "armyComposition": "Composizione dell'esercito",
   "budgetAvailable": "Budget disponibile",
   "reserveAmmo": "Munizioni di Riserva",
-  "avgTurnsOfFire": "Media turni di fuoco",
+  "estimatedTurnsOfFire": "Turni di fuoco stimati",
   "reserveAmmoDescription": "L'oro non speso contribuisce alle tue munizioni di artiglieria di riserva, munizioni extra che la tua artiglieria può sparare dopo aver esaurito tutte le munizioni che porta in battaglia.",
   "saveArmy": "Salva esercito",
   "clearUnits": "Cancella unità",

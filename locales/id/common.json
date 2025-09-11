@@ -312,7 +312,7 @@
   "armyComposition": "Komposisi Pasukan",
   "budgetAvailable": "Anggaran Tersedia",
   "reserveAmmo": "Ammunisi Cadangan",
-  "avgTurnsOfFire": "Rata-rata putaran tembakan",
+  "estimatedTurnsOfFire": "Perkiraan putaran tembakan",
   "reserveAmmoDescription": "Emas yang tidak terpakai berkontribusi pada amunisi artileri cadangan Anda, amunisi ekstra yang dapat ditembakkan artileri Anda setelah menghabiskan semua amunisi yang dibawa ke pertempuran.",
   "saveArmy": "Simpan Pasukan",
   "clearUnits": "Bersihkan Unit",

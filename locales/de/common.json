@@ -314,7 +314,7 @@
   "armyComposition": "Armeezusammensetzung",
   "budgetAvailable": "Budget verfügbar",
   "reserveAmmo": "Reserve-Munition",
-  "avgTurnsOfFire": "Durchschn. Feuerrunden",
+  "estimatedTurnsOfFire": "Geschätzte Feuerrunden",
   "reserveAmmoDescription": "Nicht ausgegebenes Gold trägt zu Ihrer Reserve-Artilleriemunition bei, zusätzliche Munition, die Ihre Artillerie nach dem Verbrauch aller in die Schlacht mitgebrachten Munition abfeuern kann.",
   "saveArmy": "Armee speichern",
   "clearUnits": "Einheiten löschen",

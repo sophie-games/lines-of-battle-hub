@@ -310,7 +310,7 @@
   "armyComposition": "Sereg összetétel",
   "budgetAvailable": "Elérhető költségvetés",
   "reserveAmmo": "Tartalék Lőszer",
-  "avgTurnsOfFire": "Átlagos tüzelési körök",
+  "estimatedTurnsOfFire": "Becsült tüzelési körök",
   "reserveAmmoDescription": "A nem elköltött arany hozzájárul a tartalék tüzérségi lőszeredhez, extra lőszerhez, amit a tüzérséged lőhet, miután elhasználta az összes lőszert, amit a csatába vitt.",
   "saveArmy": "Mentés",
   "clearUnits": "Visszaállítás",

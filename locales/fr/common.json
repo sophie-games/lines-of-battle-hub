@@ -314,7 +314,7 @@
   "armyComposition": "Ordre de bataille",
   "budgetAvailable": "Budget disponible",
   "reserveAmmo": "Munitions de Réserve",
-  "avgTurnsOfFire": "Moy. tours de tir",
+  "estimatedTurnsOfFire": "Tours de tir estimés",
   "reserveAmmoDescription": "L'or non dépensé contribue à vos munitions d'artillerie de réserve, munitions supplémentaires que votre artillerie peut tirer après avoir dépensé toutes les munitions qu'elle emporte au combat.",
   "saveArmy": "Sauvegarder l'armée",
   "clearUnits": "Supprimer les unités",

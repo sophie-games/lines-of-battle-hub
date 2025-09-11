@@ -329,7 +329,7 @@
   "armyComposition": "편제",
   "budgetAvailable": "가용 자원",
   "reserveAmmo": "예비 탄약",
-  "avgTurnsOfFire": "평균 발사 턴",
+  "estimatedTurnsOfFire": "예상 발사 턴",
   "reserveAmmoDescription": "사용하지 않은 골드는 예비 포병 탄약에 기여하며, 포병이 전투에 가져온 모든 탄약을 소모한 후 발사할 수 있는 추가 탄약입니다.",
   "saveArmy": "저장",
   "clearUnits": "초기화",

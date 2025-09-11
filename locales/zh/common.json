@@ -337,7 +337,7 @@
   "armyComposition": "军队配置",
   "budgetAvailable": "剩余预算",
   "reserveAmmo": "储备弹药",
-  "avgTurnsOfFire": "平均射击回合",
+  "estimatedTurnsOfFire": "预估射击回合",
   "reserveAmmoDescription": "未花费的金币会贡献给你的储备炮兵弹药，这是你的炮兵在消耗完携带的所有弹药后可以发射的额外弹药。",
   "saveArmy": "保存军队",
   "clearUnits": "清除单位",
