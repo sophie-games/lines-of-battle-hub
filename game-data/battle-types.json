@@ -1,8 +1,8 @@
 {
   "blitz": {
-    "manpower": 1950,
-    "gold": 1050,
-    "ammoReserve": 1500,
+    "manpower": 2350,
+    "gold": 1025,
+    "ammoReserve": 3000,
     "goldToAmmoRate": 25,
     "skirmisherRatio": [0, 1],
     "fogOfWar": false,
@@ -14,36 +14,36 @@
   "clash": {
     "manpower": 4000,
     "gold": 2100,
-    "ammoReserve": 1500,
+    "ammoReserve": 3500,
     "goldToAmmoRate": 28,
     "skirmisherRatio": [1, 2],
     "fogOfWar": false,
     "unitCaps": {
-      "17": 3,
+      "17": 2,
       "19": 1
     }
   },
   "battle": {
     "manpower": 7750,
     "gold": 4250,
-    "ammoReserve": 2500,
+    "ammoReserve": 4000,
     "goldToAmmoRate": 28,
     "skirmisherRatio": [3, 6],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 6,
+      "17": 4,
       "19": 2
     }
   },
   "grand_battle": {
     "manpower": 14000,
     "gold": 7800,
-    "ammoReserve": 3500,
+    "ammoReserve": 4500,
     "goldToAmmoRate": 28,
     "skirmisherRatio": [2, 5],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 8,
+      "17": 6,
       "19": 2
     }
   }
