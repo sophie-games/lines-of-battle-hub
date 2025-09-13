@@ -74,8 +74,8 @@
 
   "battleType": "Csata típusa",
   "dynamicBattleType": {
-    "blitz": "Villám",
     "clash": "Találkozás",
+    "combat": "Csata",
     "battle": "Csata",
     "grand_battle": "Nagy Csata"
   },
@@ -311,7 +311,7 @@
   "budgetAvailable": "Elérhető költségvetés",
   "reserveAmmo": "Tartalék Lőszer",
   "estimatedTurnsOfFire": "Becsült tüzelési körök",
-  "reserveAmmoDescription": "A nem elköltött arany hozzájárul a tartalék tüzérségi lőszeredhez, extra lőszerhez, amit a tüzérséged lőhet, miután elhasználta az összes lőszert, amit a csatába vitt.",
+  "reserveAmmoDescription": "A nem elköltött arany hozzájárul a tartalék tüzérségi lőszeredhez, amely automatikusan feltölti a tüzérséged beépített lőszerét lövés közben. A becsült tüzelési körök mind a tartalék, mind az egység lőszert figyelembe veszik.",
   "saveArmy": "Mentés",
   "clearUnits": "Visszaállítás",
   "saving": "Mentés...",
@@ -507,5 +507,7 @@
 
   "academy": "Akadémia",
   "ammo": "Lőszer",
-  "ammoConsumption": "Lőszer Fogyasztás"
+  "ammoConsumption": "Lőszer Fogyasztás",
+  "allowsCharging": "Lehetővé teszi a rohamot",
+  "limbersArtillery": "Szétszereli az tüzérséget"
 }

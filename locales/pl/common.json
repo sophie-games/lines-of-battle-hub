@@ -75,8 +75,8 @@
 
   "battleType": "Tryb bitwy",
   "dynamicBattleType": {
-    "blitz": "Blitz",
     "clash": "Starcie",
+    "combat": "Walka",
     "battle": "Bitwa",
     "grand_battle": "Wielka Bitwa"
   },
@@ -354,7 +354,7 @@
   "budgetAvailable": "Dostępny Budżet",
   "reserveAmmo": "Zapasowa Amunicja",
   "estimatedTurnsOfFire": "Szacowana liczba tur ognia",
-  "reserveAmmoDescription": "Niewydane złoto przyczynia się do twojej zapasowej amunicji artyleryjskiej, dodatkowej amunicji, którą twoja artyleria może wystrzelić po zużyciu całej amunicji, którą zabrała do bitwy.",
+  "reserveAmmoDescription": "Niewydane złoto przyczynia się do twojej zapasowej amunicji artyleryjskiej, która automatycznie uzupełnia wbudowaną amunicję twojej artylerii podczas strzelania. Szacowana liczba tur ognia uwzględnia zarówno amunicję zapasową, jak i jednostkową.",
   "saveArmy": "Zapisz armię",
   "clearUnits": "Wyczyść Jednostki",
   "saving": "Zapisywanie...",
@@ -775,5 +775,7 @@
 
   "academy": "Akademia",
   "ammo": "Amunicja",
-  "ammoConsumption": "Zużycie Amunicji"
+  "ammoConsumption": "Zużycie Amunicji",
+  "allowsCharging": "Pozwala na szarżę",
+  "limbersArtillery": "Rozkłada artylerię"
 }

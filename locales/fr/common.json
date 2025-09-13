@@ -70,8 +70,8 @@
 
   "battleType": "Type de bataille",
   "dynamicBattleType": {
-    "blitz": "Blitz",
     "clash": "Rencontre",
+    "combat": "Combat",
     "battle": "Bataille",
     "grand_battle": "Grande Bataille"
   },
@@ -315,7 +315,7 @@
   "budgetAvailable": "Budget disponible",
   "reserveAmmo": "Munitions de Réserve",
   "estimatedTurnsOfFire": "Tours de tir estimés",
-  "reserveAmmoDescription": "L'or non dépensé contribue à vos munitions d'artillerie de réserve, munitions supplémentaires que votre artillerie peut tirer après avoir dépensé toutes les munitions qu'elle emporte au combat.",
+  "reserveAmmoDescription": "L'or non dépensé contribue à vos munitions d'artillerie de réserve, qui reconstituent automatiquement les munitions inhérentes de votre artillerie pendant qu'elle tire. Les tours de tir estimés prennent en compte à la fois les munitions de réserve et celles de l'unité.",
   "saveArmy": "Sauvegarder l'armée",
   "clearUnits": "Supprimer les unités",
   "saving": "Sauvegarde...",
@@ -581,5 +581,7 @@
 
   "academy": "Académie",
   "ammo": "Munitions",
-  "ammoConsumption": "Consommation de Munitions"
+  "ammoConsumption": "Consommation de Munitions",
+  "allowsCharging": "Permet de charger",
+  "limbersArtillery": "Limite l'artillerie"
 }

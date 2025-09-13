@@ -74,8 +74,8 @@
 
   "battleType": "Tipo de batalha",
   "dynamicBattleType": {
-    "blitz": "Blitz",
     "clash": "Encontro",
+    "combat": "Combate",
     "battle": "Batalha",
     "grand_battle": "Grande Batalha"
   },
@@ -311,7 +311,7 @@
   "budgetAvailable": "Orçamento Disponível",
   "reserveAmmo": "Munição de Reserva",
   "estimatedTurnsOfFire": "Turnos de fogo estimados",
-  "reserveAmmoDescription": "Ouro não gasto contribui para sua munição de artilharia de reserva, munição extra que sua artilharia pode disparar após gastar toda a munição que carregou para a batalha.",
+  "reserveAmmoDescription": "Ouro não gasto contribui para sua munição de artilharia de reserva, que automaticamente reabastece a munição inerente de sua artilharia enquanto dispara. Os turnos de fogo estimados levam em conta tanto a munição de reserva quanto a da unidade.",
   "saveArmy": "Salvar exército",
   "clearUnits": "Limpar unidades",
   "saving": "Salvando...",
@@ -562,5 +562,7 @@
 
   "academy": "Academia",
   "ammo": "Munição",
-  "ammoConsumption": "Consumo de Munição"
+  "ammoConsumption": "Consumo de Munição",
+  "allowsCharging": "Permite carregar",
+  "limbersArtillery": "Desmonta a artilharia"
 }

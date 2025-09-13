@@ -67,8 +67,8 @@
   },
   "battleType": "전투 유형",
   "dynamicBattleType": {
-    "blitz": "전격전",
     "clash": "조우전",
+    "combat": "전투",
     "battle": "전투",
     "grand_battle": "대전투"
   },
@@ -330,7 +330,7 @@
   "budgetAvailable": "가용 자원",
   "reserveAmmo": "예비 탄약",
   "estimatedTurnsOfFire": "예상 발사 턴",
-  "reserveAmmoDescription": "사용하지 않은 골드는 예비 포병 탄약에 기여하며, 포병이 전투에 가져온 모든 탄약을 소모한 후 발사할 수 있는 추가 탄약입니다.",
+  "reserveAmmoDescription": "사용하지 않은 골드는 예비 포병 탄약에 기여하며, 포병이 사격할 때 자동으로 내장 탄약을 보충합니다. 예상 사격 턴 수는 예비 탄약과 유닛 탄약을 모두 고려합니다.",
   "saveArmy": "저장",
   "clearUnits": "초기화",
   "saving": "저장 중...",
@@ -727,5 +727,7 @@
 
   "academy": "아카데미",
   "ammo": "탄약",
-  "ammoConsumption": "탄약 소비"
+  "ammoConsumption": "탄약 소비",
+  "allowsCharging": "돌격을 허용",
+  "limbersArtillery": "포병을 해체"
 }

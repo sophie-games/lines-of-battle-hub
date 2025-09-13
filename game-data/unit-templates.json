@@ -526,7 +526,7 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3
+    "turningDelay": 8
   },
   {
     "type": 15,

@@ -74,8 +74,8 @@
 
   "battleType": "Savaş türü",
   "dynamicBattleType": {
-    "blitz": "Yıldırım",
     "clash": "Karşılaşma",
+    "combat": "Savaş",
     "battle": "Savaş",
     "grand_battle": "Büyük Savaş"
   },
@@ -312,7 +312,7 @@
   "budgetAvailable": "Kullanılabilir Bütçe",
   "reserveAmmo": "Yedek Mühimmat",
   "estimatedTurnsOfFire": "Tahmini ateş turu",
-  "reserveAmmoDescription": "Harcanmamış altın, yedek topçu mühimmatınıza katkıda bulunur, topçunuzun savaşa getirdiği tüm mühimmatı harcadıktan sonra ateş edebileceği ek mühimmat.",
+  "reserveAmmoDescription": "Harcanmamış altın, yedek topçu mühimmatınıza katkıda bulunur ve topçunuz ateş ettiğinde doğal mühimmatını otomatik olarak yeniler. Tahmini ateş turları hem yedek hem de birim mühimmatını dikkate alır.",
   "saveArmy": "Orduyu kaydet",
   "clearUnits": "Birimleri temizle",
   "saving": "Kaydediliyor...",
@@ -565,5 +565,7 @@
 
   "academy": "Akademi",
   "ammo": "Cephane",
-  "ammoConsumption": "Cephane Tüketimi"
+  "ammoConsumption": "Cephane Tüketimi",
+  "allowsCharging": "Hücum etmeye izin verir",
+  "limbersArtillery": "Topçuyu söker"
 }

@@ -75,8 +75,8 @@
 
   "battleType": "Battle type",
   "dynamicBattleType": {
-    "blitz": "Blitz",
     "clash": "Clash",
+    "combat": "Combat",
     "battle": "Battle",
     "grand_battle": "Grand Battle"
   },
@@ -400,7 +400,7 @@
   "budgetAvailable": "Budget Available",
   "reserveAmmo": "Reserve Ammo",
   "estimatedTurnsOfFire": "Estimated turns of fire",
-  "reserveAmmoDescription": "Unspent gold contributes to your reserve artillery ammo, extra ammunition your arty can fire after spending all of the ammo they carry into battle.",
+  "reserveAmmoDescription": "Unspent gold contributes to your reserve artillery ammunition, which automatically replenishes your artillery's inherent ammo as it fires. The estimated turns of fire take both reserve and unit ammo into account.",
   "saveArmy": "Save army",
   "clearUnits": "Clear units",
   "saving": "Saving...",
@@ -882,5 +882,7 @@
 
   "academy": "Academy",
   "ammo": "Ammo",
-  "ammoConsumption": "Ammo Consumption"
+  "ammoConsumption": "Ammo Consumption",
+  "allowsCharging": "Allows charging",
+  "limbersArtillery": "Limbers artillery"
 }

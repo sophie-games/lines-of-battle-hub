@@ -67,8 +67,8 @@
   },
   "battleType": "战斗规模",
   "dynamicBattleType": {
-    "blitz": "闪电战",
     "clash": "遭遇战",
+    "combat": "战斗",
     "battle": "战斗",
     "grand_battle": "大战役"
   },
@@ -338,7 +338,7 @@
   "budgetAvailable": "剩余预算",
   "reserveAmmo": "储备弹药",
   "estimatedTurnsOfFire": "预估射击回合",
-  "reserveAmmoDescription": "未花费的金币会贡献给你的储备炮兵弹药，这是你的炮兵在消耗完携带的所有弹药后可以发射的额外弹药。",
+  "reserveAmmoDescription": "未花费的金币会贡献给你的储备炮兵弹药，它会自动补充你的炮兵在射击时的固有弹药。预估射击回合数同时考虑了储备弹药和单位弹药。",
   "saveArmy": "保存军队",
   "clearUnits": "清除单位",
   "saving": "保存中……",
@@ -757,5 +757,7 @@
 
   "academy": "学院",
   "ammo": "弹药",
-  "ammoConsumption": "弹药消耗"
+  "ammoConsumption": "弹药消耗",
+  "allowsCharging": "允许冲锋",
+  "limbersArtillery": "拆卸火炮"
 }

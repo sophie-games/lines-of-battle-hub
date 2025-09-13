@@ -75,8 +75,8 @@
 
   "battleType": "Jenis pertempuran",
   "dynamicBattleType": {
-    "blitz": "Blitz",
     "clash": "Pertemuan",
+    "combat": "Pertempuran",
     "battle": "Pertempuran",
     "grand_battle": "Pertempuran Besar"
   },
@@ -313,7 +313,7 @@
   "budgetAvailable": "Anggaran Tersedia",
   "reserveAmmo": "Ammunisi Cadangan",
   "estimatedTurnsOfFire": "Perkiraan putaran tembakan",
-  "reserveAmmoDescription": "Emas yang tidak terpakai berkontribusi pada amunisi artileri cadangan Anda, amunisi ekstra yang dapat ditembakkan artileri Anda setelah menghabiskan semua amunisi yang dibawa ke pertempuran.",
+  "reserveAmmoDescription": "Emas yang tidak terpakai berkontribusi pada amunisi artileri cadangan Anda, yang secara otomatis mengisi ulang amunisi bawaan artileri Anda saat menembak. Perkiraan putaran tembakan mempertimbangkan baik amunisi cadangan maupun amunisi unit.",
   "saveArmy": "Simpan Pasukan",
   "clearUnits": "Bersihkan Unit",
   "saving": "Menyimpan...",
@@ -575,5 +575,7 @@
 
   "academy": "Akademi",
   "ammo": "Ammunisi",
-  "ammoConsumption": "Konsumsi Amunis"
+  "ammoConsumption": "Konsumsi Amunis",
+  "allowsCharging": "Memungkinkan menyerang",
+  "limbersArtillery": "Membongkar artileri"
 }

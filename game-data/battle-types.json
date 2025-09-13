@@ -1,5 +1,5 @@
 {
-  "blitz": {
+  "clash": {
     "manpower": 2350,
     "gold": 1025,
     "ammoReserve": 1000,
@@ -11,7 +11,7 @@
       "19": 2
     }
   },
-  "clash": {
+  "combat": {
     "manpower": 5000,
     "gold": 2750,
     "ammoReserve": 1250,

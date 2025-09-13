@@ -74,8 +74,8 @@
 
   "battleType": "Schlachttypen",
   "dynamicBattleType": {
-    "blitz": "Blitz",
     "clash": "Begegnung",
+    "combat": "Kampf",
     "battle": "Schlacht",
     "grand_battle": "Große Schlacht"
   },
@@ -315,7 +315,7 @@
   "budgetAvailable": "Budget verfügbar",
   "reserveAmmo": "Reserve-Munition",
   "estimatedTurnsOfFire": "Geschätzte Feuerrunden",
-  "reserveAmmoDescription": "Nicht ausgegebenes Gold trägt zu Ihrer Reserve-Artilleriemunition bei, zusätzliche Munition, die Ihre Artillerie nach dem Verbrauch aller in die Schlacht mitgebrachten Munition abfeuern kann.",
+  "reserveAmmoDescription": "Nicht ausgegebenes Gold trägt zu Ihrer Reserve-Artilleriemunition bei, die automatisch die inhärente Munition Ihrer Artillerie auffüllt, während sie feuert. Die geschätzten Feuerrunden berücksichtigen sowohl Reserve- als auch Einheitsmunition.",
   "saveArmy": "Armee speichern",
   "clearUnits": "Einheiten löschen",
   "saving": "Speichert...",
@@ -565,5 +565,7 @@
 
   "academy": "Akademie",
   "ammo": "Munition",
-  "ammoConsumption": "Munitionsverbrauch"
+  "ammoConsumption": "Munitionsverbrauch",
+  "allowsCharging": "Ermöglicht Laden",
+  "limbersArtillery": "Geschütze werden eingefahren"
 }

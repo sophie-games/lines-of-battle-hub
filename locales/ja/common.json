@@ -74,8 +74,8 @@
 
   "battleType": "戦闘タイプ",
   "dynamicBattleType": {
-    "blitz": "電撃戦",
     "clash": "遭遇戦",
+    "combat": "戦闘",
     "battle": "戦闘",
     "grand_battle": "大戦闘"
   },
@@ -311,7 +311,7 @@
   "budgetAvailable": "利用可能な予算",
   "reserveAmmo": "予備弾薬",
   "estimatedTurnsOfFire": "推定射撃ターン",
-  "reserveAmmoDescription": "未使用のゴールドは予備砲兵弾薬に貢献し、砲兵が戦闘に持ち込んだすべての弾薬を使い果たした後に発射できる追加弾薬です。",
+  "reserveAmmoDescription": "未使用のゴールドは予備砲兵弾薬に貢献し、砲兵が射撃する際に自動的に内蔵弾薬を補充します。推定射撃ターン数は予備弾薬とユニット弾薬の両方を考慮します。",
   "saveArmy": "軍を保存",
   "clearUnits": "ユニットをクリア",
   "saving": "保存中...",
@@ -561,5 +561,7 @@
 
   "academy": "アカデミー",
   "ammo": "弾薬",
-  "ammoConsumption": "弾薬消費"
+  "ammoConsumption": "弾薬消費",
+  "allowsCharging": "突撃を可能にする",
+  "limbersArtillery": "大砲を分解する"
 }
