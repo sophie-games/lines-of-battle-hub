@@ -667,6 +667,7 @@
   "preset": "预设",
   "hybrid": "混合",
   "random": "随机",
+  "classic": "经典",
   "projectileWidth": "射击宽度",
   "allyCollisionLevel": "友军碰撞等级",
   "enemyCollisionLevel": "敌军碰撞等级",

@@ -717,6 +717,7 @@
   "preset": "Заранее заданная",
   "hybrid": "Гибридная",
   "random": "Случайная",
+  "classic": "Классическая",
   "projectileWidth": "Ширина области огня",
   "allyCollisionLevel": "Уровень столкновения с союзниками",
   "enemyCollisionLevel": "Уровень столкновения с врагом",

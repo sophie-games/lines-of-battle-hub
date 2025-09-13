@@ -9,7 +9,8 @@
     "unitCaps": {
       "17": 0,
       "19": 2
-    }
+    },
+    "eloKFactor": 16
   },
   "combat": {
     "manpower": 5000,
@@ -21,7 +22,8 @@
     "unitCaps": {
       "17": 2,
       "19": 1
-    }
+    },
+    "eloKFactor": 24
   },
   "battle": {
     "manpower": 7750,
@@ -33,7 +35,8 @@
     "unitCaps": {
       "17": 4,
       "19": 2
-    }
+    },
+    "eloKFactor": 32
   },
   "grand_battle": {
     "manpower": 14000,
@@ -45,6 +48,7 @@
     "unitCaps": {
       "17": 6,
       "19": 2
-    }
+    },
+    "eloKFactor": 40
   }
 }

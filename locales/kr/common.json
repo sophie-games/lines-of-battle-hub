@@ -659,6 +659,7 @@
   "preset": "표준",
   "hybrid": "혼합",
   "random": "무작위",
+  "classic": "클래식",
   "projectileWidth": "발사체 너비",
   "allyCollisionLevel": "동맹 충돌 수준",
   "enemyCollisionLevel": "적 충돌 수준",

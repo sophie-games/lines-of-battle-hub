@@ -573,6 +573,11 @@
   "artillery": "Artileri",
   "special": "Khusus",
 
+  "preset": "Prasetelan",
+  "hybrid": "Hibrida",
+  "random": "Acak",
+  "classic": "Klasik",
+
   "academy": "Akademi",
   "ammo": "Ammunisi",
   "ammoConsumption": "Konsumsi Amunis",

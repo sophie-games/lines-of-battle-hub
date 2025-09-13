@@ -770,6 +770,7 @@
   "preset": "Preset",
   "hybrid": "Hybrid",
   "random": "Random",
+  "classic": "Classic",
   "projectileWidth": "Projectile width",
   "allyCollisionLevel": "Ally collision level",
   "enemyCollisionLevel": "Enemy collision level",

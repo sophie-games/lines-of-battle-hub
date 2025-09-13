@@ -559,6 +559,11 @@
   "artillery": "砲兵",
   "special": "特殊",
 
+  "preset": "プリセット",
+  "hybrid": "ハイブリッド",
+  "random": "ランダム",
+  "classic": "クラシック",
+
   "academy": "アカデミー",
   "ammo": "弾薬",
   "ammoConsumption": "弾薬消費",

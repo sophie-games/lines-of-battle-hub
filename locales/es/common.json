@@ -683,6 +683,7 @@
   "preset": "Preestablecido",
   "hybrid": "Híbrido",
   "random": "Aleatorio",
+  "classic": "Clásico",
   "join": "Unirse",
   "spectate": "Espectar",
   "gameIsNotFull": "El juego aún no está lleno",

@@ -560,6 +560,11 @@
   "artillery": "Artilharia",
   "special": "Especial",
 
+  "preset": "Predefinido",
+  "hybrid": "Híbrido",
+  "random": "Aleatório",
+  "classic": "Clássico",
+
   "academy": "Academia",
   "ammo": "Munição",
   "ammoConsumption": "Consumo de Munição",

@@ -714,6 +714,7 @@
   "preset": "Preset",
   "hybrid": "Hybrydowy",
   "random": "Losowy",
+  "classic": "Klasyczny",
   "projectileWidth": "Szerokość pocisku",
   "allyCollisionLevel": "Poziom sojuszniczych kolizji",
   "enemyCollisionLevel": "Poziom wrogich kolizji",

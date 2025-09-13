@@ -505,6 +505,11 @@
   "artillery": "Tüzérség",
   "special": "Speciális",
 
+  "preset": "Előre beállított",
+  "hybrid": "Hibrid",
+  "random": "Véletlenszerű",
+  "classic": "Klasszikus",
+
   "academy": "Akadémia",
   "ammo": "Lőszer",
   "ammoConsumption": "Lőszer Fogyasztás",

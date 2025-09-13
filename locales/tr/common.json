@@ -563,6 +563,11 @@
   "artillery": "Topçu",
   "special": "Özel",
 
+  "preset": "Önceden ayarlanmış",
+  "hybrid": "Hibrit",
+  "random": "Rastgele",
+  "classic": "Klasik",
+
   "academy": "Akademi",
   "ammo": "Cephane",
   "ammoConsumption": "Cephane Tüketimi",
