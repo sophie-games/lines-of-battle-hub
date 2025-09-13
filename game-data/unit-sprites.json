@@ -27,7 +27,9 @@
   },
   "6": {
     "baseSprite": "horse-artillery",
-    "overlaySprite": "horse-artillery"
+    "overlaySprite": "horse-artillery",
+    "width": 16,
+    "height": 32
   },
   "7": {
     "baseSprite": "infantry",
@@ -65,7 +67,9 @@
   },
   "15": {
     "baseSprite": "4lb-artillery",
-    "overlaySprite": null
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
   },
   "16": {
     "baseSprite": "skirmishers",
@@ -77,7 +81,9 @@
   },
   "18": {
     "baseSprite": "6lb-artillery",
-    "overlaySprite": null
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
   },
   "19": {
     "baseSprite": "rockets",
@@ -109,10 +115,14 @@
   },
   "24": {
     "baseSprite": "10lb-licorne",
-    "overlaySprite": null
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
   },
   "25": {
     "baseSprite": "18lb-licorne",
-    "overlaySprite": null
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
   }
 }
