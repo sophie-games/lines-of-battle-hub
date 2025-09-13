@@ -181,12 +181,12 @@
         {
           "start": 145,
           "end": 500,
-          "startTopWidth": 20,
-          "endTopWidth": 66,
-          "startBottomWidth": 16,
-          "endBottomWidth": 50,
-          "startHeight": 48,
-          "endHeight": 76
+          "startTopWidth": 22,
+          "endTopWidth": 68,
+          "startBottomWidth": 18,
+          "endBottomWidth": 52,
+          "startHeight": 54,
+          "endHeight": 80
         }
       ],
       "absorptionModifier": 2,
@@ -256,12 +256,12 @@
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 140, "end": 235, "startMod": 0.1, "endMod": 0 },
+      { "start": 140, "end": 240, "startMod": 0.1, "endMod": 0 },
       {
-        "start": 235,
+        "start": 240,
         "end": 435,
         "startMod": -0.05,
-        "endMod": -0.8,
+        "endMod": -0.75,
         "name": "long"
       }
     ],
@@ -277,11 +277,11 @@
           "start": 135,
           "end": 435,
           "startTopWidth": 16,
-          "endTopWidth": 54,
+          "endTopWidth": 60,
           "startBottomWidth": 14,
-          "endBottomWidth": 42,
-          "startHeight": 38,
-          "endHeight": 64
+          "endBottomWidth": 44,
+          "startHeight": 42,
+          "endHeight": 68
         }
       ],
       "absorptionModifier": 2,
@@ -310,9 +310,9 @@
     "ranges": [
       { "start": 120, "end": 220, "startMod": 0.2, "endMod": 0 },
       {
-        "start": 220,
+        "start": 225,
         "end": 400,
-        "startMod": -0.1,
+        "startMod": -0.5,
         "endMod": -0.8,
         "name": "long"
       }
@@ -360,7 +360,7 @@
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 110, "end": 200, "startMod": 0.2, "endMod": 0.05 },
+      { "start": 110, "end": 200, "startMod": 0.2, "endMod": 0 },
       {
         "start": 200,
         "end": 375,
