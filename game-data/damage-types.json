@@ -49,12 +49,12 @@
         "endMod": 2,
         "name": "close"
       },
-      { "start": 40, "end": 70, "startMod": 1.75, "endMod": 0.25 },
+      { "start": 40, "end": 70, "startMod": 2, "endMod": -0.1 },
       {
         "start": 70,
         "end": 110,
-        "startMod": 0,
-        "endMod": -0.8,
+        "startMod": -0.1,
+        "endMod": -0.85,
         "name": "long"
       }
     ],
@@ -117,7 +117,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 110, "end": 310, "startMod": 0.15, "endMod": -0.2 }],
+    "ranges": [{ "start": 110, "end": 310, "startMod": 0.1, "endMod": -0.15 }],
     "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
@@ -148,7 +148,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 128
+    "ammoCost": 176
   },
   {
     "type": "12lb-cannon-ball",
@@ -165,8 +165,8 @@
       {
         "start": 250,
         "end": 500,
-        "startMod": -0.05,
-        "endMod": -0.8,
+        "startMod": -0.5,
+        "endMod": -0.85,
         "name": "long"
       }
     ],
@@ -200,7 +200,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 112
+    "ammoCost": 160
   },
   {
     "type": "10lb-cannon-ball",
@@ -212,7 +212,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 90, "end": 250, "startMod": 0.15, "endMod": 0.05 }],
+    "ranges": [{ "start": 90, "end": 250, "startMod": 0.1, "endMod": -0.1 }],
     "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
@@ -243,7 +243,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 128
+    "ammoCost": 154
   },
   {
     "type": "8lb-cannon-ball",
@@ -295,7 +295,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 128
+    "ammoCost": 144
   },
   {
     "type": "6lb-cannon-ball",
@@ -308,7 +308,7 @@
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 120, "end": 220, "startMod": 0.2, "endMod": 0 },
+      { "start": 120, "end": 220, "startMod": 0.15, "endMod": 0 },
       {
         "start": 225,
         "end": 400,
@@ -347,7 +347,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 144
+    "ammoCost": 136
   },
   {
     "type": "4lb-cannon-ball",
@@ -360,7 +360,7 @@
       "modifier": -0.4
     },
     "ranges": [
-      { "start": 110, "end": 200, "startMod": 0.2, "endMod": 0 },
+      { "start": 110, "end": 200, "startMod": 0.15, "endMod": 0 },
       {
         "start": 200,
         "end": 375,
@@ -399,7 +399,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 160
+    "ammoCost": 128
   },
   {
     "type": "18lb-explosive-shell",
@@ -415,8 +415,8 @@
       {
         "start": 310,
         "end": 550,
-        "startMod": -0.35,
-        "endMod": -0.55,
+        "startMod": -0.4,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -440,7 +440,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 160
+    "ammoCost": 196
   },
   {
     "type": "10lb-explosive-shell",
@@ -456,8 +456,8 @@
       {
         "start": 250,
         "end": 425,
-        "startMod": -0.3,
-        "endMod": -0.45,
+        "startMod": -0.4,
+        "endMod": -0.55,
         "name": "long"
       }
     ],
@@ -481,7 +481,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 144
+    "ammoCost": 164
   },
   {
     "type": "explosive-shell",
@@ -530,7 +530,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 176
+    "ammoCost": 208
   },
   {
     "type": "18lb-canister-fire",
@@ -541,15 +541,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 4.75,
-        "endMod": 3.25,
+        "startMod": 3.25,
+        "endMod": 3,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 2.75,
-        "endMod": 1.25,
+        "startMod": 3,
+        "endMod": 0.6,
         "name": "long"
       }
     ],
@@ -559,7 +559,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 240
+    "ammoCost": 420
   },
   {
     "type": "12lb-canister-fire",
@@ -570,15 +570,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.25,
-        "endMod": 2.25,
+        "startMod": 2.15,
+        "endMod": 1.9,
         "name": "close"
       },
       {
         "start": 69,
         "end": 145,
-        "startMod": 2.25,
-        "endMod": 0.3,
+        "startMod": 1.9,
+        "endMod": 0.4,
         "name": "long"
       }
     ],
@@ -588,7 +588,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 224
+    "ammoCost": 380
   },
   {
     "type": "10lb-canister-fire",
@@ -599,15 +599,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.75,
-        "endMod": 3,
+        "startMod": 2.75,
+        "endMod": 2.5,
         "name": "close"
       },
       {
         "start": 69,
         "end": 90,
-        "startMod": 3,
-        "endMod": 1,
+        "startMod": 2.5,
+        "endMod": 0.8,
         "name": "long"
       }
     ],
@@ -617,7 +617,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 228
+    "ammoCost": 360
   },
   {
     "type": "8lb-canister-fire",
@@ -628,15 +628,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3,
-        "endMod": 2,
+        "startMod": 2.15,
+        "endMod": 1.9,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 2,
-        "endMod": 0.3,
+        "startMod": 1.9,
+        "endMod": 0.6,
         "name": "long"
       }
     ],
@@ -646,7 +646,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 208
+    "ammoCost": 340
   },
   {
     "type": "6lb-canister-fire",
@@ -657,15 +657,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.75,
-        "endMod": 1.5,
+        "startMod": 1.9,
+        "endMod": 1.75,
         "name": "close"
       },
       {
         "start": 69,
         "end": 120,
-        "startMod": 1.5,
-        "endMod": 0.35,
+        "startMod": 1.75,
+        "endMod": 0.7,
         "name": "long"
       }
     ],
@@ -675,7 +675,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 208
+    "ammoCost": 300
   },
   {
     "type": "4lb-canister-fire",
@@ -686,15 +686,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.5,
-        "endMod": 1.25,
+        "startMod": 1.75,
+        "endMod": 1.5,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 1.25,
-        "endMod": 0.35,
+        "startMod": 1.5,
+        "endMod": 0.7,
         "name": "long"
       }
     ],
@@ -704,7 +704,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 192
+    "ammoCost": 260
   },
   {
     "type": "howitzer-canister",
@@ -715,8 +715,8 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 5.5,
-        "endMod": 3.75,
+        "startMod": 6.5,
+        "endMod": 6,
         "name": "close"
       }
     ],
@@ -726,7 +726,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 272
+    "ammoCost": 460
   },
   {
     "type": "horse-archer-bow",

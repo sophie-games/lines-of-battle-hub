@@ -14,7 +14,7 @@
       "orgModifier": 0.25
     },
     "rearFire": {
-      "orgModifier": 1.25
+      "orgModifier": 1.5
     }
   },
   "midCavalry": {
@@ -65,23 +65,23 @@
       "noAmmoDamageReduction": 0.5
     },
     "damageTypeResistances": {
-      "bayonet": -0.75,
-      "cavalry-sabre": -1,
-      "cavalry-lance": -0.9,
-      "cavalry-sword": -0.9,
-      "dragoon-sword": -0.9,
-      "musket": -0.7,
+      "bayonet": -1,
+      "cavalry-sabre": -1.2,
+      "cavalry-lance": -1.2,
+      "cavalry-sword": -1.2,
+      "dragoon-sword": -1.2,
+      "musket": -0.6,
       "marksman-musket": -0.9,
       "rifle": -0.9,
-      "8lb-cannon-ball": 0.45,
-      "12lb-cannon-ball": 0.4,
-      "10lb-cannon-ball": 0.45,
-      "18lb-cannon-ball": 0.4,
-      "6lb-cannon-ball": 0.8,
-      "4lb-cannon-ball": 0.85,
-      "explosive-shell": 0.35,
+      "8lb-cannon-ball": 0.5,
+      "12lb-cannon-ball": 0.45,
+      "10lb-cannon-ball": 0.5,
+      "18lb-cannon-ball": 0.5,
+      "6lb-cannon-ball": 0.65,
+      "4lb-cannon-ball": 0.8,
+      "explosive-shell": 0.3,
       "10lb-explosive-shell": 0.4,
-      "18lb-explosive-shell": 0.4,
+      "18lb-explosive-shell": 0.35,
       "8lb-canister-fire": 0.4,
       "12lb-canister-fire": 0.4,
       "10lb-canister-fire": 0.4,
@@ -224,7 +224,7 @@
       "orgModifier": 0.25
     },
     "rearFire": {
-      "orgModifier": 1.25
+      "orgModifier": 1.75
     }
   },
   "skirmishInfantry": {
@@ -250,9 +250,9 @@
       "18lb-cannon-ball": 0.98,
       "6lb-cannon-ball": 0.99,
       "4lb-cannon-ball": 0.98,
-      "explosive-shell": 0.75,
+      "explosive-shell": 0.55,
       "10lb-explosive-shell": 0.75,
-      "18lb-explosive-shell": 0.75,
+      "18lb-explosive-shell": 0.65,
       "rocket": 0.8,
       "8lb-canister-fire": 0.98,
       "12lb-canister-fire": 0.98,
