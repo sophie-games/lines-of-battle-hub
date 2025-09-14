@@ -3,20 +3,20 @@
     "manpower": 2350,
     "gold": 1025,
     "ammoReserve": 1000,
-    "goldToAmmoRate": 25,
+    "goldToAmmoRate": 24,
     "skirmisherRatio": [0, 1],
     "fogOfWar": false,
     "unitCaps": {
       "17": 0,
       "19": 2
     },
-    "eloKFactor": 16
+    "eloKFactor": 24
   },
   "combat": {
     "manpower": 5000,
-    "gold": 2750,
-    "ammoReserve": 1250,
-    "goldToAmmoRate": 28,
+    "gold": 2600,
+    "ammoReserve": 1000,
+    "goldToAmmoRate": 24,
     "skirmisherRatio": [3, 6],
     "fogOfWar": false,
     "unitCaps": {
@@ -28,27 +28,27 @@
   "battle": {
     "manpower": 7750,
     "gold": 4250,
-    "ammoReserve": 1500,
-    "goldToAmmoRate": 28,
+    "ammoReserve": 1250,
+    "goldToAmmoRate": 16,
     "skirmisherRatio": [3, 6],
     "fogOfWar": true,
     "unitCaps": {
       "17": 4,
       "19": 2
     },
-    "eloKFactor": 32
+    "eloKFactor": 24
   },
   "grand_battle": {
     "manpower": 14000,
     "gold": 7800,
-    "ammoReserve": 2000,
-    "goldToAmmoRate": 28,
+    "ammoReserve": 1500,
+    "goldToAmmoRate": 12,
     "skirmisherRatio": [2, 5],
     "fogOfWar": true,
     "unitCaps": {
       "17": 6,
       "19": 2
     },
-    "eloKFactor": 40
+    "eloKFactor": 24
   }
 }

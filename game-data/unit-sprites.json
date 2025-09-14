@@ -41,7 +41,9 @@
   },
   "9": {
     "baseSprite": "howitzers",
-    "overlaySprite": null
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
   },
   "10": {
     "baseSprite": "militia",
