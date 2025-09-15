@@ -13,6 +13,11 @@
     "message": "El torneo {{tournamentName}} está ahora lleno. ¡Puedes iniciarlo en cualquier momento!"
   },
 
+  "tournamentWillStart": {
+    "title": "¡Tu ronda de torneo comenzará pronto!",
+    "message": "La ronda del torneo {{tournamentName}} comenzará pronto."
+  },
+
   "tournamentRewards": {
     "title": "¡Ganaste el {{place}}. lugar en el torneo {{tournamentName}}!",
     "message": "Has recibido {{reward}} <BasicCurrency/>."

@@ -532,6 +532,13 @@
     "p3": "Seguici sui social media per le ultime notizie e annunci."
   },
 
+  "tournaments": "Tornei",
+  "createTournament": "Crea torneo",
+  "hasPassword": "Ha password",
+  "autoProgression": "Progressione automatica",
+  "autoProgressionInfo": "Se questa opzione è abilitata, il torneo passerà automaticamente al turno successivo non appena l'ultima partita del turno corrente sarà completata. Se è disabilitata, il torneo avanzerà quando l'amministratore lo avvierà manualmente o alla data e all'ora programmate (se ne è stata impostata una).",
+  "optional": "Opzionale",
+
   "tournamentStartedModal": {
     "title": "Una partita di torneo è iniziata",
     "message": "Il turno {{round}} del torneo {{tournamentName}} è iniziato!",
@@ -567,6 +574,7 @@
   "academy": "Accademia",
   "ammo": "Munizioni",
   "ammoConsumption": "Consumo Munizioni",
+  "initRound1": "Inizializza il round 1",
   "allowsCharging": "Permette di caricare",
   "limbersArtillery": "Smonta l'artiglieria"
 }

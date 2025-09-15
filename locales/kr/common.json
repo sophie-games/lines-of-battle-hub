@@ -543,6 +543,7 @@
   "joinName": "{{name}} 참가",
   "startTournament": "토너먼트 시작",
   "startRoundN": "{{number}}회차 시작",
+  "initRound1": "1회차 초기화",
   "open": "열기",
   "closed": "닫기",
   "viewGame": "관전",
@@ -557,7 +558,6 @@
     "cancelled": "취소됨"
   },
   "hasPassword": "암호 존재",
-  "autoStartRounds": "회차 자동 시작",
   "optional": "선택 사항",
   "round": "회차",
   "current": "현",
@@ -729,6 +729,8 @@
   "academy": "아카데미",
   "ammo": "탄약",
   "ammoConsumption": "탄약 소비",
+  "autoProgression": "자동 진행",
+  "autoProgressionInfo": "이 옵션이 활성화되면 토너먼트는 현재 라운드의 마지막 경기가 완료되는 즉시 자동으로 다음 라운드로 진행됩니다. 비활성화된 경우 토너먼트는 관리자가 수동으로 시작하거나 예정된 날짜와 시간(설정된 경우)에 진행됩니다.",
   "allowsCharging": "돌격을 허용",
   "limbersArtillery": "포병을 해체"
 }

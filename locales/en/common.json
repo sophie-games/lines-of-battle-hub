@@ -640,6 +640,7 @@
   "joinName": "Join {{name}}",
   "startTournament": "Start tournament",
   "startRoundN": "Start round {{number}}",
+  "initRound1": "Init the round 1",
   "open": "Open",
   "closed": "Closed",
   "viewGame": "View game",
@@ -656,7 +657,8 @@
   },
 
   "hasPassword": "Has password",
-  "autoStartRounds": "Auto start rounds",
+  "autoProgression": "Auto progression",
+  "autoProgressionInfo": "If this option is enabled, the tournament will automatically move to the next round as soon as the last match of the current round is completed. If it is disabled, the tournament will advance either when the administrator starts it manually or at the scheduled date and time (if one has been set).",
   "optional": "Optional",
   "round": "Round",
   "current": "Current",

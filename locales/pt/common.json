@@ -568,6 +568,15 @@
   "academy": "Academia",
   "ammo": "Munição",
   "ammoConsumption": "Consumo de Munição",
+  "tournaments": "Torneios",
+  "createTournament": "Criar torneio",
+  "hasPassword": "Tem senha",
+  "optional": "Opcional",
+
+  "initRound1": "Inicializar rodada 1",
+
+  "autoProgression": "Progressão automática",
+  "autoProgressionInfo": "Se esta opção estiver habilitada, o torneio avançará automaticamente para a próxima rodada assim que a última partida da rodada atual for concluída. Se estiver desabilitada, o torneio avançará quando o administrador iniciar manualmente ou na data e hora agendada (se uma foi definida).",
   "allowsCharging": "Permite carregar",
   "limbersArtillery": "Desmonta a artilharia"
 }

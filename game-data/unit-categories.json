@@ -62,7 +62,7 @@
       "moveWhileInMelee": false
     },
     "ammoSystem": {
-      "noAmmoDamageReduction": 0.5
+      "noAmmoDamageReduction": 0.75
     },
     "damageTypeResistances": {
       "bayonet": -1,
@@ -73,15 +73,15 @@
       "musket": -0.6,
       "marksman-musket": -0.9,
       "rifle": -0.9,
-      "8lb-cannon-ball": 0.5,
-      "12lb-cannon-ball": 0.45,
-      "10lb-cannon-ball": 0.5,
-      "18lb-cannon-ball": 0.5,
-      "6lb-cannon-ball": 0.65,
-      "4lb-cannon-ball": 0.8,
-      "explosive-shell": 0.3,
-      "10lb-explosive-shell": 0.4,
-      "18lb-explosive-shell": 0.35,
+      "8lb-cannon-ball": 0.4,
+      "12lb-cannon-ball": 0.35,
+      "10lb-cannon-ball": 0.4,
+      "18lb-cannon-ball": 0.35,
+      "6lb-cannon-ball": 0.5,
+      "4lb-cannon-ball": 0.65,
+      "explosive-shell": 0.2,
+      "10lb-explosive-shell": 0.3,
+      "18lb-explosive-shell": 0.25,
       "8lb-canister-fire": 0.4,
       "12lb-canister-fire": 0.4,
       "10lb-canister-fire": 0.4,

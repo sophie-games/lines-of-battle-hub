@@ -571,6 +571,15 @@
   "academy": "Akademi",
   "ammo": "Cephane",
   "ammoConsumption": "Cephane Tüketimi",
+  "tournaments": "Turnuvalar",
+  "createTournament": "Turnuva oluştur",
+  "hasPassword": "Şifre var",
+  "optional": "İsteğe bağlı",
+
+  "initRound1": "1. turu başlat",
+
+  "autoProgression": "Otomatik ilerleme",
+  "autoProgressionInfo": "Bu seçenek etkinleştirilirse, turnuva mevcut turun son maçı tamamlandığında otomatik olarak bir sonraki tura geçer. Devre dışı bırakılırsa, turnuva yönetici tarafından manuel olarak başlatıldığında veya planlanan tarih ve saatte (eğer ayarlanmışsa) ilerler.",
   "allowsCharging": "Hücum etmeye izin verir",
   "limbersArtillery": "Topçuyu söker"
 }

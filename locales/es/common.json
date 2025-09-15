@@ -571,6 +571,7 @@
   "joinName": "Unirse a {{name}}",
   "startTournament": "Iniciar torneo",
   "startRoundN": "Iniciar ronda {{number}}",
+  "initRound1": "Inicializar la ronda 1",
   "open": "Abierto",
   "closed": "Cerrado",
   "viewGame": "Ver juego",
@@ -587,7 +588,8 @@
   },
 
   "hasPassword": "Tiene contraseña",
-  "autoStartRounds": "Rondas de inicio automático",
+  "autoProgression": "Progresión automática",
+  "autoProgressionInfo": "Si esta opción está habilitada, el torneo avanzará automáticamente a la siguiente ronda tan pronto como se complete el último partido de la ronda actual. Si está deshabilitada, el torneo avanzará cuando el administrador lo inicie manualmente o en la fecha y hora programada (si se ha establecido una).",
   "optional": "Opcional",
   "round": "Ronda",
   "current": "Actual",

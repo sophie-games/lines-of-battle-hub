@@ -13,6 +13,11 @@
     "message": "Ο τουρνουάς {{tournamentName}} είναι πλέον γεμάτος. Μπορείτε να τον ξεκινήσετε οποιαδήποτε στιγμή!"
   },
 
+  "tournamentWillStart": {
+    "title": "Ο γύρος του τουρνουά σας θα ξεκινήσει σύντομα!",
+    "message": "Ο γύρος του τουρνουά {{tournamentName}} θα ξεκινήσει σύντομα."
+  },
+
   "tournamentRewards": {
     "title": "Κερδίσες {{place}}. μέρος στον {{tournamentName}} τουρνουά!",
     "message": "πείρατε {{reward}} <BasicCurrency/>."

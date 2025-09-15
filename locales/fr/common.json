@@ -552,6 +552,13 @@
     "p3": "Suivez-nous sur les réseaux sociaux pour les dernières nouvelles et annonces."
   },
 
+  "tournaments": "Tournois",
+  "createTournament": "Créer un tournoi",
+  "hasPassword": "A un mot de passe",
+  "autoProgression": "Progression automatique",
+  "autoProgressionInfo": "Si cette option est activée, le tournoi passera automatiquement au tour suivant dès que le dernier match du tour actuel sera terminé. Si elle est désactivée, le tournoi avancera soit lorsque l'administrateur le démarrera manuellement, soit à la date et l'heure prévues (si une a été définie).",
+  "optional": "Optionnel",
+
   "tournamentStartedModal": {
     "title": "Un match de tournoi a commencé",
     "message": "Le tour {{round}} du tournoi {{tournamentName}} a commencé !",
@@ -587,6 +594,8 @@
   "academy": "Académie",
   "ammo": "Munitions",
   "ammoConsumption": "Consommation de Munitions",
+  "initRound1": "Initialiser la ronde 1",
+
   "allowsCharging": "Permet de charger",
   "limbersArtillery": "Limite l'artillerie"
 }

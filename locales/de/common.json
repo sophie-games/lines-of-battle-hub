@@ -536,6 +536,13 @@
     "p3": "Folge uns in den sozialen Medien für die neuesten Nachrichten und Ankündigungen."
   },
 
+  "tournaments": "Turniere",
+  "createTournament": "Turnier erstellen",
+  "hasPassword": "Hat Passwort",
+  "autoProgression": "Automatischer Fortschritt",
+  "autoProgressionInfo": "Wenn diese Option aktiviert ist, wird das Turnier automatisch zur nächsten Runde übergehen, sobald das letzte Spiel der aktuellen Runde abgeschlossen ist. Wenn sie deaktiviert ist, wird das Turnier entweder fortgesetzt, wenn der Administrator es manuell startet, oder zum geplanten Datum und Zeitpunkt (falls einer festgelegt wurde).",
+  "optional": "Optional",
+
   "tournamentStartedModal": {
     "title": "Ein Turnierspiel hat begonnen",
     "message": "Runde {{round}} des Turniers {{tournamentName}} hat begonnen!",
@@ -571,6 +578,7 @@
   "academy": "Akademie",
   "ammo": "Munition",
   "ammoConsumption": "Munitionsverbrauch",
+  "initRound1": "Runde 1 initialisieren",
   "allowsCharging": "Ermöglicht Laden",
   "limbersArtillery": "Geschütze werden eingefahren"
 }

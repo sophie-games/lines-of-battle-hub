@@ -567,6 +567,15 @@
   "academy": "アカデミー",
   "ammo": "弾薬",
   "ammoConsumption": "弾薬消費",
+  "tournaments": "トーナメント",
+  "createTournament": "トーナメントを作成",
+  "hasPassword": "パスワードあり",
+  "optional": "オプション",
+
+  "initRound1": "ラウンド1を初期化",
+
+  "autoProgression": "自動進行",
+  "autoProgressionInfo": "このオプションが有効になっている場合、現在のラウンドの最後の試合が完了するとすぐに、トーナメントは自動的に次のラウンドに進みます。無効になっている場合、トーナメントは管理者が手動で開始するか、スケジュールされた日時（設定されている場合）に進行します。",
   "allowsCharging": "突撃を可能にする",
   "limbersArtillery": "大砲を分解する"
 }

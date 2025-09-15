@@ -478,6 +478,13 @@
     "p3": "Kövess minket a közösségi médiában a legfrissebb hírek és bejelentések érdekében."
   },
 
+  "tournaments": "Tornák",
+  "createTournament": "Torna létrehozása",
+  "hasPassword": "Jelszóval védett",
+  "autoProgression": "Automatikus előrehaladás",
+  "autoProgressionInfo": "Ha ez a beállítás engedélyezve van, a torna automatikusan továbblép a következő körbe, amint az aktuális kör utolsó mérkőzése befejeződött. Ha le van tiltva, a torna akkor halad előre, amikor a rendszergazda manuálisan indítja el, vagy a tervezett dátumon és időpontban (ha be van állítva).",
+  "optional": "Opcionális",
+
   "tournamentStartedModal": {
     "title": "Egy torna meccs elkezdődött",
     "message": "A {{tournamentName}} torna {{round}}. köre elkezdődött!",
@@ -513,6 +520,7 @@
   "academy": "Akadémia",
   "ammo": "Lőszer",
   "ammoConsumption": "Lőszer Fogyasztás",
+  "initRound1": "1. forduló inicializálása",
   "allowsCharging": "Lehetővé teszi a rohamot",
   "limbersArtillery": "Szétszereli az tüzérséget"
 }
