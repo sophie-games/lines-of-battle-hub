@@ -27,10 +27,10 @@
       "moveWhileInMelee": true
     },
     "damageTypeResistances": {
-      "bayonet": -0.15,
+      "bayonet": -0.2,
       "cavalry-lance": -0.05,
       "dragoon-sword": -0.1,
-      "musket": -0.4,
+      "musket": -0.45,
       "marksman-musket": -0.4,
       "rifle": -0.4,
       "8lb-cannon-ball": -0.1,
@@ -60,9 +60,6 @@
     "routingBehavior": {
       "baseSpeed": "walk",
       "moveWhileInMelee": false
-    },
-    "ammoSystem": {
-      "noAmmoDamageReduction": 0.75
     },
     "damageTypeResistances": {
       "bayonet": -1,
@@ -113,7 +110,7 @@
       "moveWhileInMelee": true
     },
     "damageTypeResistances": {
-      "bayonet": -0.15,
+      "bayonet": -0.2,
       "cavalry-lance": -0.15,
       "cavalry-sword": -0.3,
       "musket": -0.1,
@@ -148,10 +145,10 @@
       "moveWhileInMelee": true
     },
     "damageTypeResistances": {
-      "bayonet": -0.15,
+      "bayonet": -0.2,
       "cavalry-lance": -0.15,
       "cavalry-sword": -0.3,
-      "musket": -0.4,
+      "musket": -0.45,
       "marksman-musket": -0.4,
       "rifle": -0.4,
       "8lb-cannon-ball": -0.1,
@@ -183,11 +180,11 @@
       "moveWhileInMelee": true
     },
     "damageTypeResistances": {
-      "bayonet": -0.1,
+      "bayonet": -0.15,
       "cavalry-sabre": 0.5,
       "cavalry-lance": -0.05,
       "dragoon-sword": 0.35,
-      "musket": -0.3,
+      "musket": -0.4,
       "marksman-musket": -0.4,
       "rifle": -0.4,
       "8lb-cannon-ball": -0.1,
