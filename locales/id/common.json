@@ -591,5 +591,7 @@
   "autoProgression": "Progresi otomatis",
   "autoProgressionInfo": "Jika opsi ini diaktifkan, turnamen akan otomatis pindah ke ronde berikutnya segera setelah pertandingan terakhir dari ronde saat ini selesai. Jika dinonaktifkan, turnamen akan maju baik ketika administrator memulainya secara manual atau pada tanggal dan waktu yang dijadwalkan (jika sudah ditetapkan).",
   "allowsCharging": "Memungkinkan menyerang",
-  "limbersArtillery": "Membongkar artileri"
+  "limbersArtillery": "Membongkar artileri",
+  "scenario": "Skenario",
+  "banned": "Dilarang"
 }

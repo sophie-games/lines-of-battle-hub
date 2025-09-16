@@ -790,5 +790,7 @@
   "ammo": "Боеприпасы",
   "ammoConsumption": "Расход Боеприпасов",
   "allowsCharging": "Позволяет атаковать",
-  "limbersArtillery": "Разбирает артиллерию"
+  "limbersArtillery": "Разбирает артиллерию",
+  "scenario": "Сценарий",
+  "banned": "Заблокирован"
 }

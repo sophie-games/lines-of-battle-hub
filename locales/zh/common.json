@@ -762,5 +762,7 @@
   "autoProgression": "自动进行",
   "autoProgressionInfo": "如果启用此选项，锦标赛将在当前轮次的最后一场比赛完成后自动进入下一轮。如果禁用，锦标赛将在管理员手动启动时或在预定日期和时间（如果已设置）进行。",
   "allowsCharging": "允许冲锋",
-  "limbersArtillery": "拆卸火炮"
+  "limbersArtillery": "拆卸火炮",
+  "scenario": "场景",
+  "banned": "已封禁"
 }

@@ -576,5 +576,7 @@
   "ammoConsumption": "Consumo Munizioni",
   "initRound1": "Inizializza il round 1",
   "allowsCharging": "Permette di caricare",
-  "limbersArtillery": "Smonta l'artiglieria"
+  "limbersArtillery": "Smonta l'artiglieria",
+  "scenario": "Scenario",
+  "banned": "Bannato"
 }

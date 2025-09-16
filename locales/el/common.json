@@ -807,5 +807,7 @@
   "ammo": "Μουντια",
   "ammoConsumption": "Κατανάλωση Μουντιας",
   "allowsCharging": "Επιτρέπει επίθεση",
-  "limbersArtillery": "Αποσυναρμολογεί πυροβολικό"
+  "limbersArtillery": "Αποσυναρμολογεί πυροβολικό",
+  "scenario": "Σενάριο",
+  "banned": "Αποκλεισμένος"
 }

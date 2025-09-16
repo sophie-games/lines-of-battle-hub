@@ -734,5 +734,7 @@
   "ammo": "Munición",
   "ammoConsumption": "Consumo de Munición",
   "allowsCharging": "Permite cargar",
-  "limbersArtillery": "Desmonta la artillería"
+  "limbersArtillery": "Desmonta la artillería",
+  "scenario": "Escenario",
+  "banned": "Baneado"
 }

@@ -887,5 +887,8 @@
   "ammo": "Ammo",
   "ammoConsumption": "Ammo Consumption",
   "allowsCharging": "Allows charging",
-  "limbersArtillery": "Limbers artillery"
+  "limbersArtillery": "Limbers artillery",
+
+  "scenario": "Scenario",
+  "banned": "Banned"
 }

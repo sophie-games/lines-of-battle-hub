@@ -597,5 +597,7 @@
   "initRound1": "Initialiser la ronde 1",
 
   "allowsCharging": "Permet de charger",
-  "limbersArtillery": "Limite l'artillerie"
+  "limbersArtillery": "Limite l'artillerie",
+  "scenario": "Scénario",
+  "banned": "Banni"
 }

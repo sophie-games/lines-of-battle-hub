@@ -581,5 +581,7 @@
   "autoProgression": "Otomatik ilerleme",
   "autoProgressionInfo": "Bu seçenek etkinleştirilirse, turnuva mevcut turun son maçı tamamlandığında otomatik olarak bir sonraki tura geçer. Devre dışı bırakılırsa, turnuva yönetici tarafından manuel olarak başlatıldığında veya planlanan tarih ve saatte (eğer ayarlanmışsa) ilerler.",
   "allowsCharging": "Hücum etmeye izin verir",
-  "limbersArtillery": "Topçuyu söker"
+  "limbersArtillery": "Topçuyu söker",
+  "scenario": "Senaryo",
+  "banned": "Yasaklandı"
 }

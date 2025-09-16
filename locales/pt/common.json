@@ -578,5 +578,7 @@
   "autoProgression": "Progressão automática",
   "autoProgressionInfo": "Se esta opção estiver habilitada, o torneio avançará automaticamente para a próxima rodada assim que a última partida da rodada atual for concluída. Se estiver desabilitada, o torneio avançará quando o administrador iniciar manualmente ou na data e hora agendada (se uma foi definida).",
   "allowsCharging": "Permite carregar",
-  "limbersArtillery": "Desmonta a artilharia"
+  "limbersArtillery": "Desmonta a artilharia",
+  "scenario": "Cenário",
+  "banned": "Banido"
 }

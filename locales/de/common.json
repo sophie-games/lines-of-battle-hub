@@ -580,5 +580,7 @@
   "ammoConsumption": "Munitionsverbrauch",
   "initRound1": "Runde 1 initialisieren",
   "allowsCharging": "Ermöglicht Laden",
-  "limbersArtillery": "Geschütze werden eingefahren"
+  "limbersArtillery": "Geschütze werden eingefahren",
+  "scenario": "Szenario",
+  "banned": "Gesperrt"
 }

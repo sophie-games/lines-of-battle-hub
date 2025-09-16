@@ -522,5 +522,7 @@
   "ammoConsumption": "Lőszer Fogyasztás",
   "initRound1": "1. forduló inicializálása",
   "allowsCharging": "Lehetővé teszi a rohamot",
-  "limbersArtillery": "Szétszereli az tüzérséget"
+  "limbersArtillery": "Szétszereli az tüzérséget",
+  "scenario": "Forgatókönyv",
+  "banned": "Kitiltva"
 }

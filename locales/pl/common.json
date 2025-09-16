@@ -780,5 +780,7 @@
   "ammo": "Amunicja",
   "ammoConsumption": "Zużycie Amunicji",
   "allowsCharging": "Pozwala na szarżę",
-  "limbersArtillery": "Rozkłada artylerię"
+  "limbersArtillery": "Rozkłada artylerię",
+  "scenario": "Scenariusz",
+  "banned": "Zablokowany"
 }
