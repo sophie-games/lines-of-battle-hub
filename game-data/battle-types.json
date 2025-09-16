@@ -4,10 +4,10 @@
     "gold": 1000,
     "ammoReserve": 850,
     "goldToAmmoRate": 24,
-    "skirmisherRatio": [0, 1],
+    "skirmisherRatio": [1, 4],
     "fogOfWar": false,
     "unitCaps": {
-      "17": 0,
+      "17": 1,
       "19": 2
     },
     "eloKFactor": 24
@@ -17,7 +17,7 @@
     "gold": 2300,
     "ammoReserve": 1500,
     "goldToAmmoRate": 25,
-    "skirmisherRatio": [3, 6],
+    "skirmisherRatio": [4, 8],
     "fogOfWar": false,
     "unitCaps": {
       "17": 2,
@@ -30,7 +30,7 @@
     "gold": 4000,
     "ammoReserve": 2400,
     "goldToAmmoRate": 18,
-    "skirmisherRatio": [3, 6],
+    "skirmisherRatio": [2, 5],
     "fogOfWar": true,
     "unitCaps": {
       "17": 4,
@@ -43,7 +43,7 @@
     "gold": 7250,
     "ammoReserve": 3000,
     "goldToAmmoRate": 15,
-    "skirmisherRatio": [2, 5],
+    "skirmisherRatio": [1, 3],
     "fogOfWar": true,
     "unitCaps": {
       "17": 6,
