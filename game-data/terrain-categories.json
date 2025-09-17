@@ -48,17 +48,16 @@
     },
     "attackModifier": {
       "infantry": 0.25,
-      "skirmishInfantry": 0.75,
+      "skirmishInfantry": 1,
       "militiaInfantry": 0.25,
       "midCavalry": -0.75,
-      "skirmishInfantry": 1,
       "lightCavalry": -0.75,
       "scoutCavalry": -0.75,
       "heavyCavalry": -0.75
     },
     "defenseModifier": {
       "infantry": 0.5,
-      "skirmishInfantry": 0.98,
+      "skirmishInfantry": 2,
       "militiaInfantry": 0.75,
       "midCavalry": -0.5,
       "lightCavalry": -0.5,
@@ -125,7 +124,7 @@
     },
     "attackModifier": {
       "infantry": 0.2,
-      "skirmishInfantry": 1,
+      "skirmishInfantry": 1.25,
       "militiaInfantry": 0.25,
       "midCavalry": -0.9,
       "lightCavalry": -0.9,
@@ -134,7 +133,7 @@
     },
     "defenseModifier": {
       "infantry": 0.8,
-      "skirmishInfantry": 0.98,
+      "skirmishInfantry": 1.5,
       "militiaInfantry": 0.8,
       "midCavalry": -0.75,
       "lightCavalry": -0.75,

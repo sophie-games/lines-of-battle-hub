@@ -36,7 +36,7 @@
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
-      "end": 0.55,
+      "end": 0.6,
       "modifier": -0.45
     },
     "ranges": [
@@ -49,12 +49,12 @@
       },
       {
         "start": 20,
-        "end": 40,
+        "end": 45,
         "startMod": 6,
         "endMod": 2,
         "name": "close"
       },
-      { "start": 40, "end": 72, "startMod": 2, "endMod": -0.25 }
+      { "start": 45, "end": 72, "startMod": 2, "endMod": -0.3 }
     ],
     "shootingAngle": 90,
     "enfiladeFire": true,
@@ -69,7 +69,7 @@
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
-      "end": 0.55,
+      "end": 0.7,
       "modifier": -0.7
     },
     "ranges": [
@@ -80,8 +80,8 @@
         "endMod": 1,
         "name": "close"
       },
-      { "start": 45, "end": 70, "startMod": 1, "endMod": 0 },
-      { "start": 70, "end": 125, "startMod": 0, "endMod": -0.4, "name": "long" }
+      { "start": 45, "end": 75, "startMod": 1, "endMod": 0 },
+      { "start": 75, "end": 115, "startMod": 0, "endMod": -0.4, "name": "long" }
     ],
     "shootingAngle": 350,
     "enfiladeFire": true,
@@ -96,15 +96,15 @@
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
-      "end": 0.55,
+      "end": 0.7,
       "modifier": -0.8
     },
     "ranges": [
-      { "start": 0, "end": 80, "startMod": 1.25, "endMod": 0.25 },
+      { "start": 0, "end": 75, "startMod": 1.5, "endMod": 0.35 },
       {
-        "start": 80,
-        "end": 125,
-        "startMod": 0.25,
+        "start": 75,
+        "end": 115,
+        "startMod": 0.35,
         "endMod": -0.2,
         "name": "long"
       }
