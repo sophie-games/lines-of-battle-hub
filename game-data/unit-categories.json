@@ -4,7 +4,6 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3,
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
@@ -15,13 +14,16 @@
     },
     "rearFire": {
       "orgModifier": 1.5
+    },
+    "autofirePriority": {
+      "artillery": 1,
+      "skirmishInfantry": -1
     }
   },
   "midCavalry": {
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3,
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
@@ -56,7 +58,6 @@
   "artillery": {
     "firingAltitude": 0.5,
     "enemyCollisionLevel": 1,
-    "autofirePriority": 2,
     "projectilePassThrough": 1.0,
     "routingBehavior": {
       "baseSpeed": "walk",
@@ -88,6 +89,10 @@
       "4lb-canister-fire": 0.5,
       "howitzer-canister": 0.4,
       "rocket": 0.8
+    },
+    "autofirePriority": {
+      "artillery": -1,
+      "skirmishInfantry": -2
     }
   },
   "lightInfantry": {
@@ -95,7 +100,6 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3,
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
@@ -105,7 +109,6 @@
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3,
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
@@ -141,7 +144,6 @@
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3,
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
@@ -176,7 +178,6 @@
     "firingAltitude": 0.9,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3,
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
@@ -213,7 +214,6 @@
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
-    "autofirePriority": 3,
     "routingBehavior": {
       "baseSpeed": "run",
       "moveWhileInMelee": true
@@ -224,12 +224,15 @@
     },
     "rearFire": {
       "orgModifier": 1.75
+    },
+    "autofirePriority": {
+      "artillery": -1,
+      "skirmishInfantry": -1
     }
   },
   "skirmishInfantry": {
     "firingAltitude": 0.9,
     "enemyCollisionLevel": 1,
-    "autofirePriority": 1,
     "projectilePassThrough": 0.8,
     "routingBehavior": {
       "baseSpeed": "run",
@@ -260,6 +263,10 @@
       "6lb-canister-fire": 0.98,
       "4lb-canister-fire": 0.98,
       "howitzer-canister": 0.98
+    },
+    "autofirePriority": {
+      "artillery": 2,
+      "skirmishInfantry": 1
     }
   }
 }
