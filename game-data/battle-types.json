@@ -1,6 +1,6 @@
 {
   "clash": {
-    "manpower": 2550,
+    "manpower": 2600,
     "gold": 900,
     "ammoReserve": 850,
     "goldToAmmoRate": 24,
@@ -13,7 +13,7 @@
     "eloKFactor": 24
   },
   "combat": {
-    "manpower": 5200,
+    "manpower": 5300,
     "gold": 2000,
     "ammoReserve": 1500,
     "goldToAmmoRate": 25,
@@ -26,7 +26,7 @@
     "eloKFactor": 24
   },
   "battle": {
-    "manpower": 8500,
+    "manpower": 8700,
     "gold": 3500,
     "ammoReserve": 2400,
     "goldToAmmoRate": 18,
