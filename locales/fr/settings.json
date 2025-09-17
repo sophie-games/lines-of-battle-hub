@@ -105,6 +105,7 @@
     "fallbackOrder": "Ordre de repli",
     "toggleFormation": "Basculer la formation",
     "toggleSmartCurvedMovements": "Basculer les mouvements courbés intelligents",
+    "toggleFowPerspective": "Basculer la perspective de brouillard de guerre",
     "openChat": "Ouvrir le chat"
   },
   "routingTransparency": {

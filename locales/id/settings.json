@@ -106,7 +106,20 @@
     "shootOrder": "Perinntah Menembak",
     "fireAndAdvanceOrder": "Perintah Menembak Dengan Bergerak",
     "fallbackOrder": "Perintah Mundur",
-    "toggleFormation": "Ubah Formasi"
+    "toggleFormation": "Ubah Formasi",
+    "toggleSmartCurvedMovements": "Ubah Gerakan Melengkung Cerdas",
+    "toggleFowPerspective": "Ubah Perspektif Kabut Perang",
+    "openChat": "Buka Chat",
+    "controlGroup1": "Grup Kontrol 1",
+    "controlGroup2": "Grup Kontrol 2",
+    "controlGroup3": "Grup Kontrol 3",
+    "controlGroup4": "Grup Kontrol 4",
+    "controlGroup5": "Grup Kontrol 5",
+    "controlGroup6": "Grup Kontrol 6",
+    "controlGroup7": "Grup Kontrol 7",
+    "controlGroup8": "Grup Kontrol 8",
+    "controlGroup9": "Grup Kontrol 9",
+    "controlGroup0": "Grup Kontrol 0"
   },
 
   "routingTransparency": {

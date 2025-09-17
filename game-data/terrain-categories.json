@@ -34,7 +34,7 @@
   "forest": {
     "color": "#344c1c",
     "staminaCostModifier": 0.75,
-    "hitboxHeight": 2,
+    "hitboxHeight": 1.3,
     "visionAbsorption": 32,
     "movementModifier": {
       "infantry": -0.4,
@@ -57,7 +57,7 @@
     },
     "defenseModifier": {
       "infantry": 0.5,
-      "skirmishInfantry": 2,
+      "skirmishInfantry": 2.5,
       "militiaInfantry": 0.75,
       "midCavalry": -0.5,
       "lightCavalry": -0.5,
@@ -133,7 +133,7 @@
     },
     "defenseModifier": {
       "infantry": 0.8,
-      "skirmishInfantry": 1.5,
+      "skirmishInfantry": 3,
       "militiaInfantry": 0.8,
       "midCavalry": -0.75,
       "lightCavalry": -0.75,
@@ -195,16 +195,15 @@
       "scoutCavalry": 0.2,
       "heavyCavalry": 0.2,
       "artillery": 0.3
-    },
-    "defenseModifier": {}
+    }
   },
 
   "shallowWater": {
     "color": "#3e5b7e",
     "staminaCostModifier": 1,
     "movementModifier": {
-      "infantry": -0.7,
-      "skirmishInfantry": -0.6,
+      "infantry": -0.8,
+      "skirmishInfantry": -0.75,
       "militiaInfantry": -0.8,
       "midCavalry": -0.6,
       "lightCavalry": -0.6,
@@ -224,7 +223,7 @@
     },
     "defenseModifier": {
       "infantry": -0.5,
-      "skirmishInfantry": -0.3,
+      "skirmishInfantry": -1,
       "militiaInfantry": -0.5,
       "midCavalry": -0.5,
       "lightCavalry": -0.5,
@@ -264,7 +263,11 @@
   "cliff": {
     "impassable": true
   },
+  
+  "farm": {
+    "visionAbsorption": 16
 
+  },
   "city": {
     "impassable": true,
     "hitboxHeight": 1.3,
@@ -284,6 +287,73 @@
       "6lb-canister-fire": 0.6,
       "4lb-canister-fire": 0.6,
       "howitzer-canister": 0.6
+    }
+  },"redoubt": {
+    "color": "#A9866D",
+    "heightOffset": -0.5,
+    "hitboxHeight": 0.6,
+    "projectileAbsorption": {
+      "musket": 0.15,
+      "marksman-musket": 0.15,
+      "rifle": 0.1,
+      "12lb-cannon-ball": 0.25,
+      "8lb-cannon-ball": 0.25,
+      "6lb-cannon-ball": 0.25,
+      "4lb-cannon-ball": 0.25,
+      "8lb-canister-fire": 0.15,
+      "12lb-canister-fire": 0.15,
+      "6lb-canister-fire": 0.15,
+      "4lb-canister-fire": 0.15,
+      "howitzer-canister": 0.15
+    },
+    "chargeBonusModifier": {
+      "infantry": -0.8,
+      "skirmishInfantry": -0.9,
+      "militiaInfantry": -0.8,
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "scoutCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "chargeResistanceModifier": {
+      "infantry": 0.15,
+      "skirmishInfantry": 0.75,
+      "militiaInfantry": 0.4,
+      "artillery": 1
+    }
+  },
+
+  "trench": {
+    "color": "#A9866D",
+    "heightOffset": -0.5,
+    "hitboxHeight": 0.6,
+    "projectileAbsorption": {
+      "musket": 0.15,
+      "marksman-musket": 0.15,
+      "rifle": 0.1,
+      "12lb-cannon-ball": 0.25,
+      "8lb-cannon-ball": 0.25,
+      "6lb-cannon-ball": 0.25,
+      "4lb-cannon-ball": 0.25,
+      "8lb-canister-fire": 0.15,
+      "12lb-canister-fire": 0.15,
+      "6lb-canister-fire": 0.15,
+      "4lb-canister-fire": 0.15,
+      "howitzer-canister": 0.15
+    },
+    "chargeBonusModifier": {
+      "infantry": -0.8,
+      "skirmishInfantry": -0.9,
+      "militiaInfantry": -0.8,
+      "midCavalry": -0.8,
+      "lightCavalry": -0.8,
+      "scoutCavalry": -0.8,
+      "heavyCavalry": -0.8
+    },
+    "chargeResistanceModifier": {
+      "infantry": 0.15,
+      "skirmishInfantry": 0.75,
+      "militiaInfantry": 0.4
     }
   },
 

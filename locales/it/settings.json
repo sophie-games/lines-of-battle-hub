@@ -104,7 +104,21 @@
     "runOrder": "Ordine di ricerca",
     "shootOrder": "Ordine di sparo",
     "fireAndAdvanceOrder": "Ordine di sparare e avanzare",
-    "fallbackOrder": "Ordine di ritirata"
+    "fallbackOrder": "Ordine di ritirata",
+    "toggleFormation": "Cambia formazione",
+    "toggleSmartCurvedMovements": "Attiva/disattiva movimenti curvi intelligenti",
+    "toggleFowPerspective": "Cambia prospettiva nebbia di guerra",
+    "openChat": "Apri chat",
+    "controlGroup1": "Gruppo di controllo 1",
+    "controlGroup2": "Gruppo di controllo 2",
+    "controlGroup3": "Gruppo di controllo 3",
+    "controlGroup4": "Gruppo di controllo 4",
+    "controlGroup5": "Gruppo di controllo 5",
+    "controlGroup6": "Gruppo di controllo 6",
+    "controlGroup7": "Gruppo di controllo 7",
+    "controlGroup8": "Gruppo di controllo 8",
+    "controlGroup9": "Gruppo di controllo 9",
+    "controlGroup0": "Gruppo di controllo 0"
   },
 
   "routingTransparency": {

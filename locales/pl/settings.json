@@ -99,7 +99,20 @@
     "shootOrder": "Rozkaz Ostrzału",
     "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
     "fallbackOrder": "Rozkaz Odwrotu",
-    "toggleFormation": "Przełącz formację"
+    "toggleFormation": "Przełącz formację",
+    "toggleSmartCurvedMovements": "Przełącz inteligentne zakrzywione ruchy",
+    "toggleFowPerspective": "Przełącz perspektywę mgły wojny",
+    "openChat": "Otwórz czat",
+    "controlGroup1": "Grupa kontrolna 1",
+    "controlGroup2": "Grupa kontrolna 2",
+    "controlGroup3": "Grupa kontrolna 3",
+    "controlGroup4": "Grupa kontrolna 4",
+    "controlGroup5": "Grupa kontrolna 5",
+    "controlGroup6": "Grupa kontrolna 6",
+    "controlGroup7": "Grupa kontrolna 7",
+    "controlGroup8": "Grupa kontrolna 8",
+    "controlGroup9": "Grupa kontrolna 9",
+    "controlGroup0": "Grupa kontrolna 0"
   },
 
   "routingTransparency": {

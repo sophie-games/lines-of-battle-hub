@@ -782,5 +782,6 @@
   "allowsCharging": "Pozwala na szarżę",
   "limbersArtillery": "Rozkłada artylerię",
   "scenario": "Scenariusz",
-  "banned": "Zablokowany"
+  "banned": "Zablokowany",
+  "baseAmmo": "Podstawowa amunicja"
 }

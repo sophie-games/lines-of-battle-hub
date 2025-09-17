@@ -91,7 +91,20 @@
     "shootOrder": "Наказ стріляти",
     "fireAndAdvanceOrder": "Наказ стріляти і наступати",
     "fallbackOrder": "Наказ відступати",
-    "toggleFormation": "Змінити формацію"
+    "toggleFormation": "Змінити формацію",
+    "toggleSmartCurvedMovements": "Перемкнути розумні криволінійні рухи",
+    "toggleFowPerspective": "Перемкнути перспективу туману війни",
+    "openChat": "Відкрити чат",
+    "controlGroup1": "Група управління 1",
+    "controlGroup2": "Група управління 2",
+    "controlGroup3": "Група управління 3",
+    "controlGroup4": "Група управління 4",
+    "controlGroup5": "Група управління 5",
+    "controlGroup6": "Група управління 6",
+    "controlGroup7": "Група управління 7",
+    "controlGroup8": "Група управління 8",
+    "controlGroup9": "Група управління 9",
+    "controlGroup0": "Група управління 0"
   },
   "routingTransparency": {
     "title": "Прозорість відступаючих юнітів"

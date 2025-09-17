@@ -104,7 +104,21 @@
     "runOrder": "探索命令",
     "shootOrder": "射撃命令",
     "fireAndAdvanceOrder": "発砲して前進する命令",
-    "fallbackOrder": "後退命令"
+    "fallbackOrder": "後退命令",
+    "toggleFormation": "フォーメーション切り替え",
+    "toggleSmartCurvedMovements": "スマートカーブ移動切り替え",
+    "toggleFowPerspective": "戦争の霧の視点切り替え",
+    "openChat": "チャットを開く",
+    "controlGroup1": "コントロールグループ1",
+    "controlGroup2": "コントロールグループ2",
+    "controlGroup3": "コントロールグループ3",
+    "controlGroup4": "コントロールグループ4",
+    "controlGroup5": "コントロールグループ5",
+    "controlGroup6": "コントロールグループ6",
+    "controlGroup7": "コントロールグループ7",
+    "controlGroup8": "コントロールグループ8",
+    "controlGroup9": "コントロールグループ9",
+    "controlGroup0": "コントロールグループ0"
   },
 
   "routingTransparency": {

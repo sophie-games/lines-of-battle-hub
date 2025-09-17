@@ -583,5 +583,6 @@
   "allowsCharging": "Hücum etmeye izin verir",
   "limbersArtillery": "Topçuyu söker",
   "scenario": "Senaryo",
-  "banned": "Yasaklandı"
+  "banned": "Yasaklandı",
+  "baseAmmo": "Temel cephane"
 }

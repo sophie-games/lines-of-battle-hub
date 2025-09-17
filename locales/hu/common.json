@@ -524,5 +524,6 @@
   "allowsCharging": "Lehetővé teszi a rohamot",
   "limbersArtillery": "Szétszereli az tüzérséget",
   "scenario": "Forgatókönyv",
-  "banned": "Kitiltva"
+  "banned": "Kitiltva",
+  "baseAmmo": "Alap lőszer"
 }

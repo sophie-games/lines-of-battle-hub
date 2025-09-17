@@ -582,5 +582,6 @@
   "allowsCharging": "Ermöglicht Laden",
   "limbersArtillery": "Geschütze werden eingefahren",
   "scenario": "Szenario",
-  "banned": "Gesperrt"
+  "banned": "Gesperrt",
+  "baseAmmo": "Grundmunition"
 }

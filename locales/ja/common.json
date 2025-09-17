@@ -579,5 +579,6 @@
   "allowsCharging": "突撃を可能にする",
   "limbersArtillery": "大砲を分解する",
   "scenario": "シナリオ",
-  "banned": "禁止"
+  "banned": "禁止",
+  "baseAmmo": "基本弾薬"
 }

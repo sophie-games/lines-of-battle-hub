@@ -890,5 +890,6 @@
   "limbersArtillery": "Limbers artillery",
 
   "scenario": "Scenario",
-  "banned": "Banned"
+  "banned": "Banned",
+  "baseAmmo": "Base ammo"
 }

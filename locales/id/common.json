@@ -593,5 +593,6 @@
   "allowsCharging": "Memungkinkan menyerang",
   "limbersArtillery": "Membongkar artileri",
   "scenario": "Skenario",
-  "banned": "Dilarang"
+  "banned": "Dilarang",
+  "baseAmmo": "Ammunisi dasar"
 }

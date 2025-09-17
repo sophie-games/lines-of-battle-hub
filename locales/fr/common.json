@@ -599,5 +599,6 @@
   "allowsCharging": "Permet de charger",
   "limbersArtillery": "Limite l'artillerie",
   "scenario": "Scénario",
-  "banned": "Banni"
+  "banned": "Banni",
+  "baseAmmo": "Munitions de base"
 }

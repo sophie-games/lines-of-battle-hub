@@ -734,5 +734,6 @@
   "allowsCharging": "돌격을 허용",
   "limbersArtillery": "포병을 해체",
   "scenario": "시나리오",
-  "banned": "차단됨"
+  "banned": "차단됨",
+  "baseAmmo": "기본 탄약"
 }

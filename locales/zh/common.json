@@ -764,5 +764,6 @@
   "allowsCharging": "允许冲锋",
   "limbersArtillery": "拆卸火炮",
   "scenario": "场景",
-  "banned": "已封禁"
+  "banned": "已封禁",
+  "baseAmmo": "基础弹药"
 }

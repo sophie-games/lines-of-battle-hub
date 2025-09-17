@@ -736,5 +736,6 @@
   "allowsCharging": "Permite cargar",
   "limbersArtillery": "Desmonta la artillería",
   "scenario": "Escenario",
-  "banned": "Baneado"
+  "banned": "Baneado",
+  "baseAmmo": "Munición base"
 }

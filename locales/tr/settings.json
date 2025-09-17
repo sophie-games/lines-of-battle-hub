@@ -106,7 +106,20 @@
     "shootOrder": "Ateş emri",
     "fireAndAdvanceOrder": "Ateş ve ilerle emri",
     "fallbackOrder": "Geri çekil emri",
-    "toggleFormation": "Formasyonu değiştir"
+    "toggleFormation": "Formasyonu değiştir",
+    "toggleSmartCurvedMovements": "Akıllı eğri hareketleri değiştir",
+    "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
+    "openChat": "Sohbeti aç",
+    "controlGroup1": "Kontrol Grubu 1",
+    "controlGroup2": "Kontrol Grubu 2",
+    "controlGroup3": "Kontrol Grubu 3",
+    "controlGroup4": "Kontrol Grubu 4",
+    "controlGroup5": "Kontrol Grubu 5",
+    "controlGroup6": "Kontrol Grubu 6",
+    "controlGroup7": "Kontrol Grubu 7",
+    "controlGroup8": "Kontrol Grubu 8",
+    "controlGroup9": "Kontrol Grubu 9",
+    "controlGroup0": "Kontrol Grubu 0"
   },
 
   "routingTransparency": {
