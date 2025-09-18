@@ -36,8 +36,8 @@
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
-      "end": 0.65,
-      "modifier": -0.5
+      "end": 0.7,
+      "modifier": -0.52
     },
     "ranges": [
       {
@@ -70,7 +70,7 @@
     "diminishByTargetOrg": {
       "start": 0.9,
       "end": 0.65,
-      "modifier": -0.7
+      "modifier": -0.77
     },
     "ranges": [
       {
@@ -607,14 +607,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.25,
-        "endMod": 2.5,
+        "startMod": 3.5,
+        "endMod": 2.8,
         "name": "close"
       },
       {
         "start": 69,
         "end": 90,
-        "startMod": 2.5,
+        "startMod": 2.8,
         "endMod": 0.85,
         "name": "long"
       }
@@ -636,14 +636,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.5,
-        "endMod": 2.25,
+        "startMod": 3,
+        "endMod": 2.5,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 2.25,
+        "startMod": 2.5,
         "endMod": 0.65,
         "name": "long"
       }
@@ -665,15 +665,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.75,
-        "endMod": 2,
+        "startMod": 3,
+        "endMod": 2.25,
         "name": "close"
       },
       {
         "start": 69,
         "end": 120,
-        "startMod": 2,
-        "endMod": 0.8,
+        "startMod": 2.25,
+        "endMod": 0.9,
         "name": "long"
       }
     ],
@@ -694,14 +694,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.25,
-        "endMod": 1.7,
+        "startMod": 2.5,
+        "endMod": 1.8,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 1.7,
+        "startMod": 1.8,
         "endMod": 0.8,
         "name": "long"
       }
@@ -724,7 +724,7 @@
         "start": 0,
         "end": 69,
         "startMod": 7,
-        "endMod": 4.75,
+        "endMod": 4.8,
         "name": "close"
       }
     ],
@@ -754,12 +754,12 @@
   {
     "type": "rocket",
     "ranged": true,
-    "orgDamageRatio": 275,
+    "orgDamageRatio": 300,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.5,
-      "modifier": -0.6
+      "modifier": -0.45
     },
     "ranges": [
       {

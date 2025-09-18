@@ -260,9 +260,9 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 0.28,
+    "rotationSpeed": 0.3,
     "rotationMaxThreshold": 0.54,
-    "runRotationSpeed": 0.19,
+    "runRotationSpeed": 0.21,
     "turningDelay": 8
   },
   {
@@ -273,7 +273,7 @@
     "meleeDamageType": "cavalry-sword",
     "chargeBonus": 80,
     "chargeResistance": -0.25,
-    "runChargeResistanceModifier": 0.45,
+    "runChargeResistanceModifier": 0.4,
     "chargePenetration": 0.24,
     "walkMovement": 125,
     "runMovement": 195,
@@ -713,7 +713,7 @@
   {
     "type": 19,
     "category": "artillery",
-    "rangedAttack": 27,
+    "rangedAttack": 26,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -872,7 +872,7 @@
   {
     "type": 24,
     "category": "artillery",
-    "rangedAttack": 33,
+    "rangedAttack": 37,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -895,7 +895,7 @@
     "orgRadiusBonus": 9,
     "movementSound": "artillery-movement",
     "manpower": 50,
-    "gold": 125,
+    "gold": 150,
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
@@ -916,7 +916,7 @@
   {
     "type": 25,
     "category": "artillery",
-    "rangedAttack": 40,
+    "rangedAttack": 41,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
