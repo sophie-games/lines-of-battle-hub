@@ -754,7 +754,7 @@
   {
     "type": "rocket",
     "ranged": true,
-    "orgDamageRatio": 350,
+    "orgDamageRatio": 400,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
