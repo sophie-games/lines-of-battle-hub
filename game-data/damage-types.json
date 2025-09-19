@@ -137,10 +137,10 @@
         {
           "start": 110,
           "end": 310,
-          "startTopWidth": 20,
-          "endTopWidth": 36,
-          "startBottomWidth": 16,
-          "endBottomWidth": 26,
+          "startTopWidth": 22,
+          "endTopWidth": 48,
+          "startBottomWidth": 20,
+          "endBottomWidth": 38,
           "startHeight": 38,
           "endHeight": 56
         }
@@ -232,12 +232,12 @@
         {
           "start": 90,
           "end": 250,
-          "startTopWidth": 14,
+          "startTopWidth": 28,
           "endTopWidth": 24,
-          "startBottomWidth": 12,
-          "endBottomWidth": 18,
-          "startHeight": 28,
-          "endHeight": 38
+          "startBottomWidth": 16,
+          "endBottomWidth": 24,
+          "startHeight": 26,
+          "endHeight": 40
         }
       ],
       "absorptionModifier": 2,
