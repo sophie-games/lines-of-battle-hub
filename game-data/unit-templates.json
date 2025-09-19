@@ -569,7 +569,7 @@
   {
     "type": 16,
     "category": "skirmishInfantry",
-    "rangedAttack": 9,
+    "rangedAttack": 10,
     "meleeAttack": 21,
     "meleeDefense": 14,
     "meleeDamageType": "bayonet",
@@ -713,7 +713,7 @@
   {
     "type": 19,
     "category": "artillery",
-    "rangedAttack": 26,
+    "rangedAttack": 20,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
