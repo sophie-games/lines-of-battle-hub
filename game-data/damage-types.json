@@ -125,7 +125,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 110, "end": 310, "startMod": 0.1, "endMod": -0.15 }],
+    "ranges": [{ "start": 110, "end": 310, "startMod": 0.15, "endMod": -0.05 }],
     "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
@@ -137,10 +137,10 @@
         {
           "start": 110,
           "end": 310,
-          "startTopWidth": 20,
-          "endTopWidth": 36,
-          "startBottomWidth": 16,
-          "endBottomWidth": 26,
+          "startTopWidth": 22,
+          "endTopWidth": 48,
+          "startBottomWidth": 20,
+          "endBottomWidth": 38,
           "startHeight": 38,
           "endHeight": 56
         }
@@ -220,7 +220,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 90, "end": 250, "startMod": 0.1, "endMod": -0.1 }],
+    "ranges": [{ "start": 90, "end": 250, "startMod": 0.2, "endMod": -0.05 }],
     "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
@@ -232,12 +232,12 @@
         {
           "start": 90,
           "end": 250,
-          "startTopWidth": 14,
+          "startTopWidth": 28,
           "endTopWidth": 24,
-          "startBottomWidth": 12,
-          "endBottomWidth": 18,
-          "startHeight": 28,
-          "endHeight": 38
+          "startBottomWidth": 16,
+          "endBottomWidth": 24,
+          "startHeight": 26,
+          "endHeight": 40
         }
       ],
       "absorptionModifier": 2,
@@ -754,26 +754,26 @@
   {
     "type": "rocket",
     "ranged": true,
-    "orgDamageRatio": 300,
+    "orgDamageRatio": 380,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
-      "end": 0.5,
+      "end": 0.55,
       "modifier": -0.45
     },
     "ranges": [
       {
         "start": 0,
         "end": 150,
-        "startMod": 0.75,
+        "startMod": 0.5,
         "endMod": 0.75,
         "name": "close"
       },
-      { "start": 150, "end": 270, "startMod": 0.75, "endMod": -0.25 },
+      { "start": 150, "end": 270, "startMod": 0.75, "endMod": -0.35 },
       {
         "start": 270,
         "end": 450,
-        "startMod": -0.25,
+        "startMod": -0.35,
         "endMod": -0.9,
         "name": "long"
       }
