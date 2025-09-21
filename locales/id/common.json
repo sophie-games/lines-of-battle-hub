@@ -49,24 +49,6 @@
   "or": "Atau",
   "quickMatchmaking": "Pencocokan Cepat",
   "ranked": "Berperingkat",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "Bentrok 1-2 mnt",
-      "description": "Pertempuran cepat di dataran, bukit, dan tundra"
-    },
-    "combat": {
-      "name": "Tempur 2-3 mnt",
-      "description": "Pertempuran sedang di dataran, bukit, dan tundra"
-    },
-    "battle": {
-      "name": "Pertempuran 3-5 mnt",
-      "description": "Pertempuran panjang di dataran, bukit, dan tundra"
-    },
-    "grandBattle": {
-      "name": "3-5 mnt GB",
-      "description": "Pertempuran epik di dataran, bukit, dan tundra"
-    }
-  },
   "cancel": "Batal",
 
   "matchmakingQueue": {

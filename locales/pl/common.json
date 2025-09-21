@@ -49,24 +49,6 @@
   "or": "Albo",
   "quickMatchmaking": "Szybkie Dopasowanie",
   "ranked": "Rankingowy",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "Starcie 1-2 min",
-      "description": "Szybkie bitwy na równinach, wzgórzach i tundrze"
-    },
-    "combat": {
-      "name": "Walka 2-3 min",
-      "description": "Średnie bitwy na równinach, wzgórzach i tundrze"
-    },
-    "battle": {
-      "name": "Bitwa 3-5 min",
-      "description": "Długie bitwy na równinach, wzgórzach i tundrze"
-    },
-    "grandBattle": {
-      "name": "3-5 min GB",
-      "description": "Epickie bitwy na równinach, wzgórzach i tundrze"
-    }
-  },
   "cancel": "Anuluj",
 
   "matchmakingQueue": {

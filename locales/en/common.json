@@ -48,24 +48,6 @@
   "selectGameMode": "Select the game mode from the options below.",
   "quickMatchmaking": "Quick Matchmaking",
   "ranked": "Ranked",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "1-2 min Clash",
-      "description": "Quick battles on plains, hills, and tundra"
-    },
-    "combat": {
-      "name": "2-3 min Combat",
-      "description": "Medium battles on plains, hills, and tundra"
-    },
-    "battle": {
-      "name": "3-5 min Battle",
-      "description": "Longer battles on plains, hills, and tundra"
-    },
-    "grandBattle": {
-      "name": "3-5 min GB",
-      "description": "Epic battles on plains, hills, and tundra"
-    }
-  },
   "or": "Or",
   "cancel": "Cancel",
 

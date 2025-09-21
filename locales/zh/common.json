@@ -45,24 +45,6 @@
   "or": "或是",
   "quickMatchmaking": "快速匹配",
   "ranked": "排位赛",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "冲突 1-2 分钟",
-      "description": "在平原、丘陵和苔原上的快速战斗"
-    },
-    "combat": {
-      "name": "战斗 2-3 分钟",
-      "description": "在平原、丘陵和苔原上的中等战斗"
-    },
-    "battle": {
-      "name": "战役 3-5 分钟",
-      "description": "在平原、丘陵和苔原上的长时间战斗"
-    },
-    "grandBattle": {
-      "name": "3-5 分钟 GB",
-      "description": "在平原、丘陵和苔原上的史诗战斗"
-    }
-  },
   "cancel": "取消",
   "matchmakingQueue": {
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的对局选项一致的其他玩家。",

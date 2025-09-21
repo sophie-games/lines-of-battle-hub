@@ -48,24 +48,6 @@
   "or": "または",
   "quickMatchmaking": "クイックマッチメイキング",
   "ranked": "ランク戦",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "衝突 1-2 分",
-      "description": "平原、丘陵、ツンドラでの高速戦闘"
-    },
-    "combat": {
-      "name": "戦闘 2-3 分",
-      "description": "平原、丘陵、ツンドラでの中程度の戦闘"
-    },
-    "battle": {
-      "name": "戦い 3-5 分",
-      "description": "平原、丘陵、ツンドラでの長時間戦闘"
-    },
-    "grandBattle": {
-      "name": "3-5 分 GB",
-      "description": "平原、丘陵、ツンドラでの壮大な戦闘"
-    }
-  },
   "cancel": "キャンセル",
 
   "matchmakingQueue": {

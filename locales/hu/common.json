@@ -48,24 +48,6 @@
   "or": "Vagy",
   "quickMatchmaking": "Gyors Párosítás",
   "ranked": "Rangsorolt",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "Összecsapás 1-2 p",
-      "description": "Gyors csaták síkságokon, dombokon és tundrán"
-    },
-    "combat": {
-      "name": "Harc 2-3 p",
-      "description": "Közepes csaták síkságokon, dombokon és tundrán"
-    },
-    "battle": {
-      "name": "Csata 3-5 p",
-      "description": "Hosszú csaták síkságokon, dombokon és tundrán"
-    },
-    "grandBattle": {
-      "name": "3-5 p GB",
-      "description": "Epikus csaták síkságokon, dombokon és tundrán"
-    }
-  },
   "cancel": "Mégsem",
 
   "matchmakingQueue": {

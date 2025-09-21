@@ -44,24 +44,6 @@
   "or": "O",
   "quickMatchmaking": "Emparejamiento Rápido",
   "ranked": "Clasificado",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "Choque 1-2 min",
-      "description": "Batallas rápidas en llanuras, colinas y tundra"
-    },
-    "combat": {
-      "name": "Combate 2-3 min",
-      "description": "Batallas medianas en llanuras, colinas y tundra"
-    },
-    "battle": {
-      "name": "Batalla 3-5 min",
-      "description": "Batallas largas en llanuras, colinas y tundra"
-    },
-    "grandBattle": {
-      "name": "3-5 min GB",
-      "description": "Batallas épicas en llanuras, colinas y tundra"
-    }
-  },
   "cancel": "Cancelar",
 
   "matchmakingQueue": {

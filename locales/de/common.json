@@ -48,24 +48,6 @@
   "or": "Oder",
   "quickMatchmaking": "Schnelles Matchmaking",
   "ranked": "Bewertet",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "Zusammenstoß 1-2 min",
-      "description": "Schnelle Schlachten auf Ebenen, Hügeln und Tundra"
-    },
-    "combat": {
-      "name": "Kampf 2-3 min",
-      "description": "Mittlere Schlachten auf Ebenen, Hügeln und Tundra"
-    },
-    "battle": {
-      "name": "Schlacht 3-5 min",
-      "description": "Längere Schlachten auf Ebenen, Hügeln und Tundra"
-    },
-    "grandBattle": {
-      "name": "3-5 min GB",
-      "description": "Epische Schlachten auf Ebenen, Hügeln und Tundra"
-    }
-  },
   "cancel": "Abbrechen",
 
   "matchmakingQueue": {

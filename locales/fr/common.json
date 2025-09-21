@@ -44,24 +44,6 @@
   "or": "Ou",
   "quickMatchmaking": "Appariement Rapide",
   "ranked": "Classé",
-  "matchmakingPresets": {
-    "clash": {
-      "name": "Affrontement 1-2 min",
-      "description": "Batailles rapides sur plaines, collines et toundra"
-    },
-    "combat": {
-      "name": "Combat 2-3 min",
-      "description": "Batailles moyennes sur plaines, collines et toundra"
-    },
-    "battle": {
-      "name": "Bataille 3-5 min",
-      "description": "Batailles longues sur plaines, collines et toundra"
-    },
-    "grandBattle": {
-      "name": "3-5 min GB",
-      "description": "Batailles épiques sur plaines, collines et toundra"
-    }
-  },
   "cancel": "Annulez",
 
   "matchmakingQueue": {
