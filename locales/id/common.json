@@ -47,6 +47,26 @@
   "randomGameInfo": "Untuk permainan yang dibuat secara acak, permainan akan menggunakan pasukan yang telah kamu buat untuk mode pertempuran yang dipilih. kamu dapat melihat dan mengelola pasukan kamu di <0>Army Compositions</0>. Jika kamu belum membuat pasukan apa pun untuk mode tersebut, pasukan default akan digunakan.",
   "selectGameMode": "Pilih mode permainan dari pilihan di bawah ini.",
   "or": "Atau",
+  "quickMatchmaking": "Pencocokan Cepat",
+  "ranked": "Berperingkat",
+  "matchmakingPresets": {
+    "clash": {
+      "name": "Bentrok 1-2 mnt",
+      "description": "Pertempuran cepat di dataran, bukit, dan tundra"
+    },
+    "combat": {
+      "name": "Tempur 2-3 mnt",
+      "description": "Pertempuran sedang di dataran, bukit, dan tundra"
+    },
+    "battle": {
+      "name": "Pertempuran 3-5 mnt",
+      "description": "Pertempuran panjang di dataran, bukit, dan tundra"
+    },
+    "grandBattle": {
+      "name": "3-5 mnt GB",
+      "description": "Pertempuran epik di dataran, bukit, dan tundra"
+    }
+  },
   "cancel": "Batal",
 
   "matchmakingQueue": {
@@ -354,6 +374,7 @@
   },
 
   "selectOrder": "Pilih Perintah",
+  "autofire": "Tembak otomatis",
   "allowFireWhenMoving": "Izinkan menembak sambil bergerak",
   "meleeDamage": "Kerusakan Jarak Dekat",
   "rangedDamage": "Kerusakan Jarak Jauh",
@@ -592,6 +613,7 @@
   "autoProgressionInfo": "Jika opsi ini diaktifkan, turnamen akan otomatis pindah ke ronde berikutnya segera setelah pertandingan terakhir dari ronde saat ini selesai. Jika dinonaktifkan, turnamen akan maju baik ketika administrator memulainya secara manual atau pada tanggal dan waktu yang dijadwalkan (jika sudah ditetapkan).",
   "allowsCharging": "Memungkinkan menyerang",
   "limbersArtillery": "Membongkar artileri",
+  "all": "Semua",
   "scenario": "Skenario",
   "banned": "Dilarang",
   "baseAmmo": "Ammunisi dasar"

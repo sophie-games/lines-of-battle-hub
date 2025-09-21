@@ -42,6 +42,26 @@
   "randomGameInfo": "Para los juegos generados aleatoriamente, el juego utilizará el ejército que has creado para el modo de batalla seleccionado. Puedes ver y gestionar tus ejércitos en las <0>Composiciones de Ejército</0>. Si no has creado ejércitos para ese modo aún, se usará un ejército predeterminado.",
   "selectGameMode": "Selecciona el modo de juego de las opciones a continuación.",
   "or": "O",
+  "quickMatchmaking": "Emparejamiento Rápido",
+  "ranked": "Clasificado",
+  "matchmakingPresets": {
+    "clash": {
+      "name": "Choque 1-2 min",
+      "description": "Batallas rápidas en llanuras, colinas y tundra"
+    },
+    "combat": {
+      "name": "Combate 2-3 min",
+      "description": "Batallas medianas en llanuras, colinas y tundra"
+    },
+    "battle": {
+      "name": "Batalla 3-5 min",
+      "description": "Batallas largas en llanuras, colinas y tundra"
+    },
+    "grandBattle": {
+      "name": "3-5 min GB",
+      "description": "Batallas épicas en llanuras, colinas y tundra"
+    }
+  },
   "cancel": "Cancelar",
 
   "matchmakingQueue": {
@@ -373,6 +393,7 @@
   },
 
   "selectOrder": "Seleccionar orden",
+  "autofire": "Fuego automático",
   "allowFireWhenMoving": "Permite disparar mientras te movés",
   "meleeDamage": "Daño cuerpo a cuerpo",
   "rangedDamage": "Daño a distancia",
@@ -735,6 +756,7 @@
   "ammoConsumption": "Consumo de Munición",
   "allowsCharging": "Permite cargar",
   "limbersArtillery": "Desmonta la artillería",
+  "all": "Todos",
   "scenario": "Escenario",
   "banned": "Baneado",
   "baseAmmo": "Munición base"

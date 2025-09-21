@@ -46,6 +46,26 @@
   "randomGameInfo": "Rastgele oluşturulan oyunlar için, oyun seçtiğiniz savaş modu için oluşturduğunuz orduyu kullanır. Ordularınızı <0>Ordu Kompozisyonları</0> bölümünde görüntüleyebilir ve yönetebilirsiniz. Eğer o mod için henüz bir ordu oluşturmadıysanız, varsayılan bir ordu kullanılacaktır.",
   "selectGameMode": "Aşağıdaki seçeneklerden oyun modunu seçin.",
   "or": "Veya",
+  "quickMatchmaking": "Hızlı Eşleşme",
+  "ranked": "Sıralı",
+  "matchmakingPresets": {
+    "clash": {
+      "name": "Çarpışma 1-2 dk",
+      "description": "Düzlükler, tepeler ve tundrada hızlı savaşlar"
+    },
+    "combat": {
+      "name": "Muharebe 2-3 dk",
+      "description": "Düzlükler, tepeler ve tundrada orta savaşlar"
+    },
+    "battle": {
+      "name": "Savaş 3-5 dk",
+      "description": "Düzlükler, tepeler ve tundrada uzun savaşlar"
+    },
+    "grandBattle": {
+      "name": "3-5 dk GB",
+      "description": "Düzlükler, tepeler ve tundrada destansı savaşlar"
+    }
+  },
   "cancel": "İptal",
 
   "matchmakingQueue": {
@@ -352,6 +372,7 @@
   },
 
   "selectOrder": "Emir Seç",
+  "autofire": "Otomatik ateş",
   "allowFireWhenMoving": "Hareket ederken ateşe izin ver",
   "meleeDamage": "Yakın dövüş hasarı",
   "rangedDamage": "Uzak mesafe hasarı",
@@ -582,6 +603,7 @@
   "autoProgressionInfo": "Bu seçenek etkinleştirilirse, turnuva mevcut turun son maçı tamamlandığında otomatik olarak bir sonraki tura geçer. Devre dışı bırakılırsa, turnuva yönetici tarafından manuel olarak başlatıldığında veya planlanan tarih ve saatte (eğer ayarlanmışsa) ilerler.",
   "allowsCharging": "Hücum etmeye izin verir",
   "limbersArtillery": "Topçuyu söker",
+  "all": "Tümü",
   "scenario": "Senaryo",
   "banned": "Yasaklandı",
   "baseAmmo": "Temel cephane"

@@ -46,6 +46,26 @@
   "randomGameInfo": "A véletlenszerűen generált pályákon az általad adott játékmódra előre meghatározott seregek állnak rendelkezésedre. A seregedet a <0>Seregek összetételénél</0> tudod módosítani és megtekinteni. Ha még nem állítottál be speciális összeállítást, az alapból beállított sereggel kell játszanod.",
   "selectGameMode": "Válassz az alábbi opciók közül!",
   "or": "Vagy",
+  "quickMatchmaking": "Gyors Párosítás",
+  "ranked": "Rangsorolt",
+  "matchmakingPresets": {
+    "clash": {
+      "name": "Összecsapás 1-2 p",
+      "description": "Gyors csaták síkságokon, dombokon és tundrán"
+    },
+    "combat": {
+      "name": "Harc 2-3 p",
+      "description": "Közepes csaták síkságokon, dombokon és tundrán"
+    },
+    "battle": {
+      "name": "Csata 3-5 p",
+      "description": "Hosszú csaták síkságokon, dombokon és tundrán"
+    },
+    "grandBattle": {
+      "name": "3-5 p GB",
+      "description": "Epikus csaták síkságokon, dombokon és tundrán"
+    }
+  },
   "cancel": "Mégsem",
 
   "matchmakingQueue": {
@@ -351,6 +371,7 @@
   },
 
   "selectOrder": "Utasítás Kiválasztása",
+  "autofire": "Automatikus tüzelés",
   "allowFireWhenMoving": "Lőhet mozgás közben",
   "meleeDamage": "Közelharci sebzés",
   "rangedDamage": "Távolsági sebzés",
@@ -523,6 +544,7 @@
   "initRound1": "1. forduló inicializálása",
   "allowsCharging": "Lehetővé teszi a rohamot",
   "limbersArtillery": "Szétszereli az tüzérséget",
+  "all": "Minden",
   "scenario": "Forgatókönyv",
   "banned": "Kitiltva",
   "baseAmmo": "Alap lőszer"

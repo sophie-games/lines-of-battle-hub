@@ -46,6 +46,26 @@
   "randomGameInfo": "ランダム生成ゲームでは、選択した戦闘モードの軍編成が使用されます。「軍編成」で管理・確認できます。軍編成が未作成の場合、デフォルトの編成が使用されます。",
   "selectGameMode": "以下のオプションからゲームモードを選択してください。",
   "or": "または",
+  "quickMatchmaking": "クイックマッチメイキング",
+  "ranked": "ランク戦",
+  "matchmakingPresets": {
+    "clash": {
+      "name": "衝突 1-2 分",
+      "description": "平原、丘陵、ツンドラでの高速戦闘"
+    },
+    "combat": {
+      "name": "戦闘 2-3 分",
+      "description": "平原、丘陵、ツンドラでの中程度の戦闘"
+    },
+    "battle": {
+      "name": "戦い 3-5 分",
+      "description": "平原、丘陵、ツンドラでの長時間戦闘"
+    },
+    "grandBattle": {
+      "name": "3-5 分 GB",
+      "description": "平原、丘陵、ツンドラでの壮大な戦闘"
+    }
+  },
   "cancel": "キャンセル",
 
   "matchmakingQueue": {
@@ -351,6 +371,7 @@
   },
 
   "selectOrder": "命令を選択",
+  "autofire": "自動射撃",
   "allowFireWhenMoving": "移動中に射撃を許可",
   "meleeDamage": "接近戦ダメージ",
   "rangedDamage": "遠距離ダメージ",
@@ -578,6 +599,7 @@
   "autoProgressionInfo": "このオプションが有効になっている場合、現在のラウンドの最後の試合が完了するとすぐに、トーナメントは自動的に次のラウンドに進みます。無効になっている場合、トーナメントは管理者が手動で開始するか、スケジュールされた日時（設定されている場合）に進行します。",
   "allowsCharging": "突撃を可能にする",
   "limbersArtillery": "大砲を分解する",
+  "all": "すべて",
   "scenario": "シナリオ",
   "banned": "禁止",
   "baseAmmo": "基本弾薬"
