@@ -3,10 +3,10 @@
   "2": {},
   "3": {},
   "4": {
-    "rangedDamageModifier": -0.4,
-    "speedModifierWhenShooting": -0.1,
+    "rangedDamageModifier": -0.45,
+    "speedModifierWhenShooting": -0.25,
     "allowFireWhenMoving": true,
-    "ammoConsumptionModifier": -0.2
+    "ammoConsumptionModifier": -0.15
   },
   "5": {},
   "6": {
