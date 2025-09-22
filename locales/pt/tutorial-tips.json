@@ -1,5 +1,6 @@
 {
   "gotIt": "Entendi!",
+  "disableTips": "Desativar dicas",
   "friendlyFire": {
     "title": "Aviso de Fogo Amigo",
     "message": "Este tiro causará fogo amigo! Procure pelo ícone amarelo nas unidades para ver quais serão danificadas."

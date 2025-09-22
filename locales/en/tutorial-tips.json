@@ -1,5 +1,6 @@
 {
   "gotIt": "Got it!",
+  "disableTips": "Disable tips",
   "friendlyFire": {
     "title": "Friendly Fire Warning",
     "message": "This shot will cause friendly fire! Look for the yellow icon on units to see which will be damaged."

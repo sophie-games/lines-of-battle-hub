@@ -1,5 +1,6 @@
 {
   "gotIt": "Verstanden!",
+  "disableTips": "Tipps deaktivieren",
   "friendlyFire": {
     "title": "Warnung vor Eigenbeschuss",
     "message": "Dieser Schuss wird Eigenbeschuss verursachen! Schauen Sie nach dem gelben Symbol auf Einheiten, um zu sehen, welche beschädigt werden."
