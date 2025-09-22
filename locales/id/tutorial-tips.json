@@ -47,5 +47,9 @@
   "waterMovement": {
     "title": "Medan Air",
     "message": "Anda telah memerintahkan unit ini untuk bergerak melalui air. Air:\n\n• Memberikan hukuman berat pada kecepatan pergerakan, pertahanan jarak dekat, stamina, dan output serangan jarak jauh\n• Jika Anda bergerak melalui air, jangan terjebak bertarung di sana\n• Pertimbangkan bagaimana menggunakan air untuk menghalangi musuh"
+  },
+  "runOrder": {
+    "title": "Perintah Lari",
+    "message": "Gunakan perintah lari untuk menghabiskan stamina agar bergerak dengan kecepatan tinggi dan menyerang unit musuh\n\nSerangan bergantung pada statistik Resistensi Serangan pembela dan statistik Penetrasi Serangan penyerang (bersebelahan di kartu unit)\n\nSerang unit musuh dengan Resistensi Serangan rendah untuk membuat mereka lari seketika.\n\nGunakan tembakan musket dan artileri untuk mengurangi Organisasi dan Resistensi Serangan musuh\n\nSerang unit dengan Organisasi tinggi ke unit dengan Organisasi rendah.\n\nJika Anda tidak yakin tentang menyerang, Anda dapat memeriksa Resistensi Serangan target dengan mengkliknya dan melihat kartu unit. Kemudian, pilih unit Anda dan periksa Penetrasi Serangannya.\n\n• Jika resistensi mereka dikurangi penetrasi Anda adalah 90% atau kurang, pertimbangkan serangan sayap.\n• Jika resistensi mereka dikurangi penetrasi Anda adalah 60% atau kurang, pertimbangkan serangan frontal."
   }
 }

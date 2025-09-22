@@ -47,5 +47,9 @@
   "waterMovement": {
     "title": "Terreno Acquatico",
     "message": "Hai ordinato a questa unità di muoversi attraverso l'acqua. L'acqua:\n\n• Penalizza severamente la velocità di movimento, difesa corpo a corpo, resistenza e potenza di fuoco a distanza\n• Se ti muovi attraverso l'acqua, non rimanere bloccato a combattere lì\n• Considera come usare l'acqua per ostacolare il nemico"
+  },
+  "runOrder": {
+    "title": "Ordine di Corsa",
+    "message": "Usa l'ordine di corsa per spendere resistenza e muoverti ad alta velocità e caricare le unità nemiche\n\nLe cariche dipendono dalla statistica di Resistenza alle Cariche del difensore e dalla statistica di Penetrazione delle Cariche dell'attaccante (affiancate sulla carta dell'unità)\n\nCarica le unità nemiche con bassa Resistenza alle Cariche per farle fuggire istantaneamente.\n\nUsa il fuoco di moschetto e artiglieria per ridurre l'Organizzazione e la Resistenza alle Cariche del nemico\n\nCarica un'unità con alta Organizzazione contro un'unità con bassa Organizzazione.\n\nSe non sei sicuro di caricare, puoi controllare la Resistenza alle Cariche del tuo bersaglio cliccandoci sopra e visualizzando la carta dell'unità. Poi, seleziona la tua unità e controlla la sua Penetrazione delle Cariche.\n\n• Se la loro resistenza meno la tua penetrazione è del 90% o meno, considera una carica di fianco.\n• Se la loro resistenza meno la tua penetrazione è del 60% o meno, considera una carica frontale."
   }
 }

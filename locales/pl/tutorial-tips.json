@@ -47,5 +47,9 @@
   "waterMovement": {
     "title": "Teren Wodny",
     "message": "Rozkazałeś tej jednostce poruszać się przez wodę. Woda:\n\n• Znacznie karze prędkość ruchu, obronę wręcz, wytrzymałość i zasięg ataku\n• Jeśli poruszasz się przez wodę, nie daj się uwięzić w walce tam\n• Rozważ, jak użyć wody do utrudnienia wrogowi"
+  },
+  "runOrder": {
+    "title": "Rozkaz Biegu",
+    "message": "Użyj rozkazu biegu, aby wydać wytrzymałość na szybkie poruszanie się i atakowanie wrogich jednostek\n\nAtaki zależą od statystyki Odporności na Ataki obrońcy i statystyki Przebijania Ataków atakującego (obok siebie na karcie jednostki)\n\nAtakuj wrogie jednostki z niską Odpornością na Ataki, aby natychmiast je rozproszyć.\n\nUżyj ognia muszkietów i artylerii, aby zmniejszyć Organizację i Odporność na Ataki wroga\n\nAtakuj jednostkę z wysoką Organizacją przeciwko jednostce z niską Organizacją.\n\nJeśli nie jesteś pewien ataku, możesz sprawdzić Odporność na Ataki swojego celu, klikając na niego i przeglądając kartę jednostki. Następnie wybierz swoją jednostkę i sprawdź jej Przebijanie Ataków.\n\n• Jeśli ich odporność minus twoje przebijanie wynosi 90% lub mniej, rozważ atak z flanki.\n• Jeśli ich odporność minus twoje przebijanie wynosi 60% lub mniej, rozważ atak frontalny."
   }
 }

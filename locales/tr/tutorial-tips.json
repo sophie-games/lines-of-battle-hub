@@ -47,5 +47,9 @@
   "waterMovement": {
     "title": "Su Arazisi",
     "message": "Bu birime su üzerinden geçmesini emrettiniz. Su:\n\n• Hareket hızını, yakın dövüş savunmasını, dayanıklılığı ve uzun menzilli saldırı çıktısını ciddi şekilde cezalandırır\n• Su üzerinden hareket ediyorsanız, orada savaşmaya takılıp kalmayın\n• Suyu düşmanı engellemek için nasıl kullanacağınızı düşünün"
+  },
+  "runOrder": {
+    "title": "Koşu Emri",
+    "message": "Dayanıklılık harcayarak yüksek hızda hareket etmek ve düşman birimlerine saldırmak için koşu emrini kullanın\n\nSaldırılar, savunmacının Saldırı Direnci istatistiğine ve saldırganın Saldırı Delme istatistiğine bağlıdır (birim kartında yan yana)\n\nDüşük Saldırı Direnci olan düşman birimlerine saldırarak onları anında kaçırın.\n\nDüşmanın Organizasyon ve Saldırı Direncini azaltmak için tüfek ve topçu ateşi kullanın\n\nYüksek Organizasyona sahip bir birimi düşük Organizasyona sahip bir birime saldırın.\n\nSaldırı konusunda emin değilseniz, hedefinize tıklayarak birim kartını görüntüleyip Saldırı Direncini kontrol edebilirsiniz. Sonra biriminizi seçin ve Saldırı Delme değerini kontrol edin.\n\n• Dirençleri eksi delme değeriniz %90 veya daha azsa, yan saldırı düşünün.\n• Dirençleri eksi delme değeriniz %60 veya daha azsa, cephe saldırısı düşünün."
   }
 }

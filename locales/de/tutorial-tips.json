@@ -47,5 +47,9 @@
   "waterMovement": {
     "title": "Wassergelände",
     "message": "Sie haben dieser Einheit befohlen, sich durch Wasser zu bewegen. Wasser:\n\n• Bestraft Bewegungsgeschwindigkeit, Nahkampfverteidigung, Ausdauer und Fernkampfleistung stark\n• Wenn Sie sich durch Wasser bewegen, lassen Sie sich nicht dort im Kampf festsetzen\n• Überlegen Sie, wie Sie Wasser nutzen können, um den Feind zu behindern"
+  },
+  "runOrder": {
+    "title": "Lauf-Befehl",
+    "message": "Verwenden Sie den Lauf-Befehl, um Ausdauer zu verbrauchen und sich mit hoher Geschwindigkeit zu bewegen und feindliche Einheiten anzugreifen\n\nAngriffe basieren auf der Angriffsresistenz des Verteidigers und der Angriffsdurchdringung des Angreifers (nebeneinander auf der Einheitskarte)\n\nGreifen Sie feindliche Einheiten mit niedriger Angriffsresistenz an, um sie sofort in die Flucht zu schlagen.\n\nVerwenden Sie Musketen- und Artilleriefeuer, um die Organisation und Angriffsresistenz des Feindes zu reduzieren\n\nGreifen Sie eine Einheit mit hoher Organisation in eine Einheit mit niedriger Organisation an.\n\nWenn Sie sich beim Angreifen unsicher sind, können Sie die Angriffsresistenz Ihres Ziels überprüfen, indem Sie darauf klicken und die Einheitskarte anzeigen. Wählen Sie dann Ihre Einheit aus und überprüfen Sie ihre Angriffsdurchdringung.\n\n• Wenn ihre Resistenz minus Ihrer Durchdringung 90% oder weniger beträgt, ziehen Sie einen Flankenangriff in Betracht.\n• Wenn ihre Resistenz minus Ihrer Durchdringung 60% oder weniger beträgt, ziehen Sie einen Frontalangriff in Betracht."
   }
 }

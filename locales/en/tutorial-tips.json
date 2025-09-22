@@ -47,5 +47,9 @@
   "waterMovement": {
     "title": "Water Terrain",
     "message": "You've ordered this unit to move through water. Water:\n\n• Severely penalizes movement speed, melee defense, stamina, and ranged attack output\n• If you're moving through water, don't get stuck fighting there\n• Consider how to use water to obstruct the enemy"
+  },
+  "runOrder": {
+    "title": "Run Order",
+    "message": "Use the Run order to spend stamina to move at high speed and charge enemy units\n\nCharges rely on the defender's Charge Resistance stat and the attacker's Charge Penetration stat (side by side on the unit card)\n\nCharge enemy units with low Charge Resistance to rout them instantly.\n\nUse musket and artillery fire to reduce enemy Organization and Charge Resistance\n\nCharge a unit with high Organization into a unit with low Organization.\n\nIf you're unsure about charging, you can check your target's Charge Resistance by clicking on it and viewing the unit card. Then, select your unit and check its Charge Penetration.\n\n• If their resistance minus your penetration is 90% or less, consider a flank charge.\n• If their resistance minus your penetration is 60% or less, consider a frontal charge."
   }
 }

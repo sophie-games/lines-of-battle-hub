@@ -47,5 +47,9 @@
   "waterMovement": {
     "title": "Terreno Acuático",
     "message": "Has ordenado a esta unidad moverse a través del agua. El agua:\n\n• Penaliza severamente la velocidad de movimiento, defensa cuerpo a cuerpo, resistencia y potencia de fuego a distancia\n• Si te mueves a través del agua, no te quedes atrapado luchando ahí\n• Considera cómo usar el agua para obstruir al enemigo"
+  },
+  "runOrder": {
+    "title": "Orden de Carrera",
+    "message": "Usa la orden de carrera para gastar resistencia y moverte a alta velocidad y cargar contra unidades enemigas\n\nLas cargas dependen de la estadística de Resistencia a Cargas del defensor y la estadística de Penetración de Cargas del atacante (lado a lado en la tarjeta de unidad)\n\nCarga contra unidades enemigas con baja Resistencia a Cargas para hacerlas huir instantáneamente.\n\nUsa fuego de mosquete y artillería para reducir la Organización y Resistencia a Cargas del enemigo\n\nCarga una unidad con alta Organización contra una unidad con baja Organización.\n\nSi no estás seguro sobre cargar, puedes verificar la Resistencia a Cargas de tu objetivo haciendo clic en él y viendo la tarjeta de unidad. Luego, selecciona tu unidad y verifica su Penetración de Cargas.\n\n• Si su resistencia menos tu penetración es 90% o menos, considera una carga de flanco.\n• Si su resistencia menos tu penetración es 60% o menos, considera una carga frontal."
   }
 }

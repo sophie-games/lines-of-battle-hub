@@ -47,5 +47,9 @@
   "waterMovement": {
     "title": "Terrain Aquatique",
     "message": "Vous avez ordonné à cette unité de se déplacer à travers l'eau. L'eau :\n\n• Pénalise sévèrement la vitesse de déplacement, la défense au corps à corps, l'endurance et la puissance de tir à distance\n• Si vous vous déplacez à travers l'eau, ne vous retrouvez pas coincé à combattre là\n• Considérez comment utiliser l'eau pour obstruer l'ennemi"
+  },
+  "runOrder": {
+    "title": "Ordre de Course",
+    "message": "Utilisez l'ordre de course pour dépenser de l'endurance afin de vous déplacer à grande vitesse et charger les unités ennemies\n\nLes charges dépendent de la statistique de Résistance aux Charges du défenseur et de la statistique de Pénétration des Charges de l'attaquant (côte à côte sur la carte d'unité)\n\nChargez les unités ennemies avec une faible Résistance aux Charges pour les faire fuir instantanément.\n\nUtilisez le feu de mousquet et d'artillerie pour réduire l'Organisation et la Résistance aux Charges de l'ennemi\n\nChargez une unité avec une Organisation élevée dans une unité avec une Organisation faible.\n\nSi vous n'êtes pas sûr de charger, vous pouvez vérifier la Résistance aux Charges de votre cible en cliquant dessus et en consultant la carte d'unité. Ensuite, sélectionnez votre unité et vérifiez sa Pénétration des Charges.\n\n• Si leur résistance moins votre pénétration est de 90% ou moins, envisagez une charge de flanc.\n• Si leur résistance moins votre pénétration est de 60% ou moins, envisagez une charge frontale."
   }
 }
