@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Topçu",
     "message": "Topçu bir güç çarpanıdır; piyade ve süvariyi destekler, ancak savaşları tek başına kazanamaz.\n\n• Topçunun dayanıklılığı yoktur; uzun mesafeleri geçerken her zaman 'Koş' emrini kullanın\n• Topçunun cephanesi vardır; cephanenizin bitmemesi için cephane rezervinizi takip edin\n• Napolyon dönemi topçusu ateş etmek için net bir görüş hattı gerektirir; piyadenizle engellemeyin\n\nTopçunun farklı menzillerinin en iyi kullanımını anlayın:\n\n• Uzun menzilli ateş: birçok birime düşük hasar (geniş etki alanı)\n• Orta menzilli ateş: birkaç birime iyi hasar (küçük etki alanı)\n• Yakın menzilli ateş: tek bir birime aşırı hasar (saçma ateşi)\n\nTopçunuzu arkadan uzun menzilli ateş etmek yerine savaş hattıyla birlikte ilerletmeyi düşünün."
+  },
+  "forestMovement": {
+    "title": "Orman Arazisi",
+    "message": "Bu birime orman içinden geçmesini emrettiniz. Bu arazi:\n\n• Düşman ateşinden koruma sağlar ve görüşü azaltır\n• Yakın dövüş ve hareket için dayanıklılık maliyetlerini artırır\n• Süvarinin savaş etkinliğini azaltır\n• İçindeki topçunun hasar çıktısını azaltır"
+  },
+  "buildingMovement": {
+    "title": "Bina Arazisi",
+    "message": "Bu birime bina içinden geçmesini emrettiniz. Bu arazi:\n\n• Düşman ateşinden mükemmel koruma sağlar ve görüşü azaltır\n• Yakın dövüş ve hareket için dayanıklılık maliyetlerini artırır\n• Süvarinin savaş etkinliğini ciddi şekilde azaltır\n• İçindeki topçunun hasar çıktısını büyük ölçüde azaltır"
+  },
+  "roadMovement": {
+    "title": "Yol Hareketi",
+    "message": "Bu birime yol üzerinden geçmesini emrettiniz. Yollar:\n\n• Hareket hızını büyük ölçüde artırır, özellikle topçu için\n• Dayanıklılık maliyetlerini yarıya indirir – birimleri hedefinize kadar yol boyunca koşturmayı düşünün"
+  },
+  "waterMovement": {
+    "title": "Su Arazisi",
+    "message": "Bu birime su üzerinden geçmesini emrettiniz. Su:\n\n• Hareket hızını, yakın dövüş savunmasını, dayanıklılığı ve uzun menzilli saldırı çıktısını ciddi şekilde cezalandırır\n• Su üzerinden hareket ediyorsanız, orada savaşmaya takılıp kalmayın\n• Suyu düşmanı engellemek için nasıl kullanacağınızı düşünün"
   }
 }

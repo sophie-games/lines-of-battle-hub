@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Artilharia",
     "message": "A artilharia é um multiplicador de força; ela apoia infantaria e cavalaria, mas não pode vencer batalhas sozinha.\n\n• A artilharia não tem resistência; sempre use a ordem 'Correr' ao cruzar longas distâncias\n• A artilharia tem munição; fique de olho na sua reserva de munição para não ficar sem\n• A artilharia napoleônica requer uma linha de visão clara para atirar; não a bloqueie com sua infantaria\n\nEntenda o melhor uso dos diferentes alcances da artilharia:\n\n• Fogo de longo alcance: baixo dano a muitas unidades (grande área de efeito)\n• Fogo de alcance médio: bom dano a poucas unidades (pequena área de efeito)\n• Fogo de curto alcance: dano extremo a uma unidade (fogo de metralha)\n\nConsidere mover sua artilharia com a linha de batalha em vez de deixá-la atirando a longo alcance da retaguarda."
+  },
+  "forestMovement": {
+    "title": "Terreno Florestal",
+    "message": "Você ordenou que esta unidade se mova através de uma floresta. Este terreno:\n\n• Fornece proteção contra fogo inimigo e reduz a visão\n• Aumenta os custos de resistência para combate corpo a corpo e movimento\n• Reduz a eficácia de combate da cavalaria\n• Reduz a produção de dano da artilharia dentro dele"
+  },
+  "buildingMovement": {
+    "title": "Terreno de Edifícios",
+    "message": "Você ordenou que esta unidade se mova através de um edifício. Este terreno:\n\n• Fornece excelente proteção contra fogo inimigo e reduz a visão\n• Aumenta os custos de resistência para combate corpo a corpo e movimento\n• Reduz severamente a eficácia de combate da cavalaria\n• Reduz enormemente a produção de dano da artilharia dentro dele"
+  },
+  "roadMovement": {
+    "title": "Movimento em Estrada",
+    "message": "Você ordenou que esta unidade se mova em uma estrada. Estradas:\n\n• Aumentam enormemente a velocidade de movimento, especialmente para artilharia\n• Reduzem pela metade os custos de resistência – considere fazer as unidades correrem ao longo da estrada até seu destino"
+  },
+  "waterMovement": {
+    "title": "Terreno Aquático",
+    "message": "Você ordenou que esta unidade se mova através da água. A água:\n\n• Penaliza severamente a velocidade de movimento, defesa corpo a corpo, resistência e potência de fogo à distância\n• Se você está se movendo através da água, não fique preso lutando lá\n• Considere como usar a água para obstruir o inimigo"
   }
 }

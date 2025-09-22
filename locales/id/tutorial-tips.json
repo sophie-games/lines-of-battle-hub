@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Artileri",
     "message": "Artileri adalah pengganda kekuatan; mendukung infanteri dan kavaleri, tetapi tidak dapat memenangkan pertempuran sendirian.\n\n• Artileri tidak memiliki stamina; selalu gunakan perintah 'Lari' saat menyeberangi jarak jauh\n• Artileri memiliki amunisi; awasi cadangan amunisi Anda agar tidak kehabisan\n• Artileri Napoleon memerlukan garis pandang yang jelas untuk menembak; jangan halangi dengan infanteri Anda\n\nPahami penggunaan terbaik dari berbagai jangkauan artileri:\n\n• Tembakan jarak jauh: kerusakan rendah pada banyak unit (area efek besar)\n• Tembakan jarak menengah: kerusakan baik pada beberapa unit (area efek kecil)\n• Tembakan jarak dekat: kerusakan ekstrem pada satu unit (tembakan kartrij)\n\nPertimbangkan untuk memindahkan artileri Anda dengan garis pertempuran alih-alih membiarkannya menembak dari jarak jauh di belakang."
+  },
+  "forestMovement": {
+    "title": "Medan Hutan",
+    "message": "Anda telah memerintahkan unit ini untuk bergerak melalui hutan. Medan ini:\n\n• Memberikan perlindungan dari tembakan musuh dan mengurangi visibilitas\n• Meningkatkan biaya stamina untuk pertarungan jarak dekat dan pergerakan\n• Mengurangi efektivitas tempur kavaleri\n• Mengurangi output kerusakan artileri di dalamnya"
+  },
+  "buildingMovement": {
+    "title": "Medan Bangunan",
+    "message": "Anda telah memerintahkan unit ini untuk bergerak melalui bangunan. Medan ini:\n\n• Memberikan perlindungan yang sangat baik dari tembakan musuh dan mengurangi visibilitas\n• Meningkatkan biaya stamina untuk pertarungan jarak dekat dan pergerakan\n• Mengurangi efektivitas tempur kavaleri secara drastis\n• Mengurangi output kerusakan artileri di dalamnya secara signifikan"
+  },
+  "roadMovement": {
+    "title": "Pergerakan Jalan",
+    "message": "Anda telah memerintahkan unit ini untuk bergerak melalui jalan. Jalan:\n\n• Meningkatkan kecepatan pergerakan secara signifikan, terutama untuk artileri\n• Mengurangi biaya stamina setengahnya – pertimbangkan untuk membuat unit berlari di sepanjang jalan ke tujuan Anda"
+  },
+  "waterMovement": {
+    "title": "Medan Air",
+    "message": "Anda telah memerintahkan unit ini untuk bergerak melalui air. Air:\n\n• Memberikan hukuman berat pada kecepatan pergerakan, pertahanan jarak dekat, stamina, dan output serangan jarak jauh\n• Jika Anda bergerak melalui air, jangan terjebak bertarung di sana\n• Pertimbangkan bagaimana menggunakan air untuk menghalangi musuh"
   }
 }

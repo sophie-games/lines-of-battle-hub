@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Tüzérség",
     "message": "A tüzérség erősítő tényező; támogatja a gyalogságot és lovasságot, de nem tudja egyedül megnyerni a csatákat.\n\n• A tüzérségnek nincs kitartása; mindig használd a 'Futás' parancsot hosszú távolságok megtételénél\n• A tüzérségnek van lőszerkészlete; figyeld a lőszerkészletedet, hogy ne maradj lőszer nélkül\n• A napóleoni tüzérség tiszta látóvonalat igényel a tüzeléshez; ne akadályozd el a gyalogságoddal\n\nÉrtsd meg a tüzérség különböző hatótávolságainak legjobb használatát:\n\n• Távolsági tűz: alacsony sebzés sok egységnek (nagy hatóterület)\n• Közepes hatótávolságú tűz: jó sebzés néhány egységnek (kis hatóterület)\n• Közeli tűz: extrém sebzés egy egységnek (sörétes tűz)\n\nFontold meg, hogy a tüzérségedet a csatavonallal együtt mozgatod, ahelyett, hogy hátulról távolsági tüzet engednél."
+  },
+  "forestMovement": {
+    "title": "Erdei Terület",
+    "message": "Rendelted ezt az egységet, hogy erdőn keresztül mozogjon. Ez a terület:\n\n• Védelmet nyújt az ellenséges tűz ellen és csökkenti a látótávolságot\n• Növeli a kitartás költségeit közelharc és mozgás esetén\n• Csökkenti a lovasság harci hatékonyságát\n• Csökkenti az ágyúk sebzését benne"
+  },
+  "buildingMovement": {
+    "title": "Épület Terület",
+    "message": "Rendelted ezt az egységet, hogy épületen keresztül mozogjon. Ez a terület:\n\n• Kiváló védelmet nyújt az ellenséges tűz ellen és csökkenti a látótávolságot\n• Növeli a kitartás költségeit közelharc és mozgás esetén\n• Súlyosan csökkenti a lovasság harci hatékonyságát\n• Jelentősen csökkenti az ágyúk sebzését benne"
+  },
+  "roadMovement": {
+    "title": "Úti Mozgás",
+    "message": "Rendelted ezt az egységet, hogy úton mozogjon. Az utak:\n\n• Jelentősen növelik a mozgási sebességet, különösen a tüzérség számára\n• Felezik a kitartás költségeit – fontold meg, hogy az egységeket az úton futtatod a célodig"
+  },
+  "waterMovement": {
+    "title": "Víz Terület",
+    "message": "Rendelted ezt az egységet, hogy vízen keresztül mozogjon. A víz:\n\n• Súlyosan bünteti a mozgási sebességet, közelharc védelmet, kitartást és távolsági támadás kimenetelét\n• Ha vízen keresztül mozogsz, ne ragadj ott harcolni\n• Gondold át, hogyan használhatod a vizet az ellenség akadályozására"
   }
 }

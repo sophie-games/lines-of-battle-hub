@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Artillery",
     "message": "Artillery is a force multiplier; it supports infantry and cavalry, but can't win battles alone.\n\n• Artillery doesn't have stamina; always use Run order when crossing long distances\n• Artillery does have ammo; keep an eye on your ammo reserve so you don't run out\n• Napoleonic artillery requires a clear line of sight to fire; do not block it with your infantry\n\nUnderstand the best use of artillery's different ranges:\n\n• Long-range fire: low damage to many units (large area of effect)\n• Medium-range fire: good damage to a few units (small area of effect)\n• Close-range fire: Extreme damage to one unit (canister fire)\n\nConsider moving your artillery up with the battle line instead of leaving it firing at long range from the rear."
+  },
+  "forestMovement": {
+    "title": "Forest Terrain",
+    "message": "You've ordered this unit to move through a forest. This terrain:\n\n• Provides protection from enemy fire and reduces vision\n• Increases stamina costs for melee and movement\n• Reduces the combat effectiveness of cavalry\n• Reduces the damage output of artillery inside of it"
+  },
+  "buildingMovement": {
+    "title": "Building Terrain",
+    "message": "You've ordered this unit to move through a building. This terrain:\n\n• Provides excellent protection from enemy fire and reduces vision\n• Increases stamina costs for melee and movement\n• Severely reduces the combat effectiveness of cavalry\n• Greatly reduces the damage output of artillery inside of it"
+  },
+  "roadMovement": {
+    "title": "Road Movement",
+    "message": "You've ordered this unit to move through a road. Roads:\n\n• Greatly increase movement speed, especially for artillery\n• Halve stamina costs – consider running units along the road to your destination"
+  },
+  "waterMovement": {
+    "title": "Water Terrain",
+    "message": "You've ordered this unit to move through water. Water:\n\n• Severely penalizes movement speed, melee defense, stamina, and ranged attack output\n• If you're moving through water, don't get stuck fighting there\n• Consider how to use water to obstruct the enemy"
   }
 }

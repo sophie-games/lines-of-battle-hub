@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Artyleria",
     "message": "Artyleria jest multiplikatorem siły; wspiera piechotę i kawalerię, ale nie może wygrać bitew sama.\n\n• Artyleria nie ma wytrzymałości; zawsze używaj rozkazu 'Bieg' podczas pokonywania długich dystansów\n• Artyleria ma amunicję; miej oko na swoją rezerwę amunicji, aby nie zabrakło\n• Artyleria napoleońska wymaga czystej linii wzroku do strzelania; nie blokuj jej swoją piechotą\n\nZrozum najlepsze wykorzystanie różnych zasięgów artylerii:\n\n• Ogień dalekiego zasięgu: niskie obrażenia wielu jednostkom (duży obszar efektu)\n• Ogień średniego zasięgu: dobre obrażenia kilku jednostkom (mały obszar efektu)\n• Ogień bliskiego zasięgu: ekstremalne obrażenia jednej jednostce (ogień kartaczowy)\n\nRozważ przesunięcie swojej artylerii z linią bojową zamiast pozostawiania jej do strzelania z daleka z tyłu."
+  },
+  "forestMovement": {
+    "title": "Teren Leśny",
+    "message": "Rozkazałeś tej jednostce poruszać się przez las. Ten teren:\n\n• Zapewnia ochronę przed ogniem wroga i zmniejsza widoczność\n• Zwiększa koszty wytrzymałości dla walki wręcz i ruchu\n• Zmniejsza skuteczność bojową kawalerii\n• Zmniejsza obrażenia artylerii wewnątrz niego"
+  },
+  "buildingMovement": {
+    "title": "Teren Budynków",
+    "message": "Rozkazałeś tej jednostce poruszać się przez budynek. Ten teren:\n\n• Zapewnia doskonałą ochronę przed ogniem wroga i zmniejsza widoczność\n• Zwiększa koszty wytrzymałości dla walki wręcz i ruchu\n• Znacznie zmniejsza skuteczność bojową kawalerii\n• Znacznie zmniejsza obrażenia artylerii wewnątrz niego"
+  },
+  "roadMovement": {
+    "title": "Ruch po Drodze",
+    "message": "Rozkazałeś tej jednostce poruszać się po drodze. Drogi:\n\n• Znacznie zwiększają prędkość ruchu, szczególnie dla artylerii\n• Zmniejszają koszty wytrzymałości o połowę – rozważ bieganie jednostek po drodze do celu"
+  },
+  "waterMovement": {
+    "title": "Teren Wodny",
+    "message": "Rozkazałeś tej jednostce poruszać się przez wodę. Woda:\n\n• Znacznie karze prędkość ruchu, obronę wręcz, wytrzymałość i zasięg ataku\n• Jeśli poruszasz się przez wodę, nie daj się uwięzić w walce tam\n• Rozważ, jak użyć wody do utrudnienia wrogowi"
   }
 }

@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Artillerie",
     "message": "Artillerie ist ein Kraftmultiplikator; sie unterstützt Infanterie und Kavallerie, kann aber keine Schlachten allein gewinnen.\n\n• Artillerie hat keine Ausdauer; verwenden Sie immer den Laufbefehl beim Überqueren langer Distanzen\n• Artillerie hat Munition; behalten Sie Ihre Munitionsreserve im Auge, damit Sie nicht leer ausgehen\n• Napoleonische Artillerie benötigt eine klare Sichtlinie zum Feuern; blockieren Sie sie nicht mit Ihrer Infanterie\n\nVerstehen Sie die beste Nutzung der verschiedenen Artilleriereichweiten:\n\n• Fernfeuer: niedriger Schaden an vielen Einheiten (großer Wirkungsbereich)\n• Mittlere Reichweite: guter Schaden an wenigen Einheiten (kleiner Wirkungsbereich)\n• Nahfeuer: extremer Schaden an einer Einheit (Kartätschenfeuer)\n\nErwägen Sie, Ihre Artillerie mit der Schlachtlinie vorzurücken, anstatt sie aus der Ferne im Hintergrund feuern zu lassen."
+  },
+  "forestMovement": {
+    "title": "Waldgelände",
+    "message": "Sie haben dieser Einheit befohlen, sich durch einen Wald zu bewegen. Dieses Gelände:\n\n• Bietet Schutz vor feindlichem Feuer und reduziert die Sicht\n• Erhöht die Ausdauerkosten für Nahkampf und Bewegung\n• Reduziert die Kampfeffektivität der Kavallerie\n• Reduziert die Schadensleistung der Artillerie darin"
+  },
+  "buildingMovement": {
+    "title": "Gebäudegelände",
+    "message": "Sie haben dieser Einheit befohlen, sich durch ein Gebäude zu bewegen. Dieses Gelände:\n\n• Bietet ausgezeichneten Schutz vor feindlichem Feuer und reduziert die Sicht\n• Erhöht die Ausdauerkosten für Nahkampf und Bewegung\n• Reduziert die Kampfeffektivität der Kavallerie erheblich\n• Reduziert die Schadensleistung der Artillerie darin erheblich"
+  },
+  "roadMovement": {
+    "title": "Straßenbewegung",
+    "message": "Sie haben dieser Einheit befohlen, sich auf einer Straße zu bewegen. Straßen:\n\n• Erhöhen die Bewegungsgeschwindigkeit erheblich, besonders für Artillerie\n• Halbieren die Ausdauerkosten – erwägen Sie, Einheiten entlang der Straße zu Ihrem Ziel laufen zu lassen"
+  },
+  "waterMovement": {
+    "title": "Wassergelände",
+    "message": "Sie haben dieser Einheit befohlen, sich durch Wasser zu bewegen. Wasser:\n\n• Bestraft Bewegungsgeschwindigkeit, Nahkampfverteidigung, Ausdauer und Fernkampfleistung stark\n• Wenn Sie sich durch Wasser bewegen, lassen Sie sich nicht dort im Kampf festsetzen\n• Überlegen Sie, wie Sie Wasser nutzen können, um den Feind zu behindern"
   }
 }

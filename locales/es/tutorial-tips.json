@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Artillería",
     "message": "La artillería es un multiplicador de fuerza; apoya a la infantería y caballería, pero no puede ganar batallas sola.\n\n• La artillería no tiene resistencia; siempre usa la orden 'Correr' al cruzar distancias largas\n• La artillería sí tiene munición; mantén un ojo en tu reserva de munición para no quedarte sin ella\n• La artillería napoleónica requiere una línea de visión clara para disparar; no la bloquees con tu infantería\n\nEntiende el mejor uso de los diferentes rangos de la artillería:\n\n• Fuego de largo alcance: bajo daño a muchas unidades (gran área de efecto)\n• Fuego de alcance medio: buen daño a pocas unidades (área de efecto pequeña)\n• Fuego de corto alcance: daño extremo a una unidad (fuego de metralla)\n\nConsidera mover tu artillería con la línea de batalla en lugar de dejarla disparando a largo alcance desde la retaguardia."
+  },
+  "forestMovement": {
+    "title": "Terreno Forestal",
+    "message": "Has ordenado a esta unidad moverse a través de un bosque. Este terreno:\n\n• Proporciona protección contra el fuego enemigo y reduce la visión\n• Aumenta los costos de resistencia para combate cuerpo a cuerpo y movimiento\n• Reduce la efectividad de combate de la caballería\n• Reduce el daño de la artillería dentro de él"
+  },
+  "buildingMovement": {
+    "title": "Terreno de Edificios",
+    "message": "Has ordenado a esta unidad moverse a través de un edificio. Este terreno:\n\n• Proporciona excelente protección contra el fuego enemigo y reduce la visión\n• Aumenta los costos de resistencia para combate cuerpo a cuerpo y movimiento\n• Reduce severamente la efectividad de combate de la caballería\n• Reduce enormemente el daño de la artillería dentro de él"
+  },
+  "roadMovement": {
+    "title": "Movimiento por Carretera",
+    "message": "Has ordenado a esta unidad moverse por una carretera. Las carreteras:\n\n• Aumentan enormemente la velocidad de movimiento, especialmente para la artillería\n• Reducen a la mitad los costos de resistencia – considera hacer correr las unidades por la carretera hacia tu destino"
+  },
+  "waterMovement": {
+    "title": "Terreno Acuático",
+    "message": "Has ordenado a esta unidad moverse a través del agua. El agua:\n\n• Penaliza severamente la velocidad de movimiento, defensa cuerpo a cuerpo, resistencia y potencia de fuego a distancia\n• Si te mueves a través del agua, no te quedes atrapado luchando ahí\n• Considera cómo usar el agua para obstruir al enemigo"
   }
 }

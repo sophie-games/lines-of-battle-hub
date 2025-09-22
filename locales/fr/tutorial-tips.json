@@ -31,5 +31,21 @@
   "artillerySelection": {
     "title": "Artillerie",
     "message": "L'artillerie est un multiplicateur de force ; elle soutient l'infanterie et la cavalerie, mais ne peut pas gagner les batailles seule.\n\n• L'artillerie n'a pas d'endurance ; utilisez toujours l'ordre 'Courir' lors de traversées de longues distances\n• L'artillerie a des munitions ; surveillez votre réserve de munitions pour ne pas en manquer\n• L'artillerie napoléonienne nécessite une ligne de vue claire pour tirer ; ne la bloquez pas avec votre infanterie\n\nComprenez la meilleure utilisation des différentes portées de l'artillerie :\n\n• Tir à longue portée : faible dégâts à de nombreuses unités (grande zone d'effet)\n• Tir à portée moyenne : bons dégâts à quelques unités (petite zone d'effet)\n• Tir à courte portée : dégâts extrêmes à une unité (feu de mitraille)\n\nConsidérez déplacer votre artillerie avec la ligne de bataille au lieu de la laisser tirer à longue portée depuis l'arrière."
+  },
+  "forestMovement": {
+    "title": "Terrain Forestier",
+    "message": "Vous avez ordonné à cette unité de se déplacer à travers une forêt. Ce terrain :\n\n• Fournit une protection contre les tirs ennemis et réduit la vision\n• Augmente les coûts d'endurance pour le combat au corps à corps et le mouvement\n• Réduit l'efficacité au combat de la cavalerie\n• Réduit les dégâts de l'artillerie à l'intérieur"
+  },
+  "buildingMovement": {
+    "title": "Terrain de Bâtiments",
+    "message": "Vous avez ordonné à cette unité de se déplacer à travers un bâtiment. Ce terrain :\n\n• Fournit une excellente protection contre les tirs ennemis et réduit la vision\n• Augmente les coûts d'endurance pour le combat au corps à corps et le mouvement\n• Réduit sévèrement l'efficacité au combat de la cavalerie\n• Réduit considérablement les dégâts de l'artillerie à l'intérieur"
+  },
+  "roadMovement": {
+    "title": "Mouvement sur Route",
+    "message": "Vous avez ordonné à cette unité de se déplacer sur une route. Les routes :\n\n• Augmentent considérablement la vitesse de déplacement, surtout pour l'artillerie\n• Réduisent de moitié les coûts d'endurance – envisagez de faire courir les unités le long de la route vers votre destination"
+  },
+  "waterMovement": {
+    "title": "Terrain Aquatique",
+    "message": "Vous avez ordonné à cette unité de se déplacer à travers l'eau. L'eau :\n\n• Pénalise sévèrement la vitesse de déplacement, la défense au corps à corps, l'endurance et la puissance de tir à distance\n• Si vous vous déplacez à travers l'eau, ne vous retrouvez pas coincé à combattre là\n• Considérez comment utiliser l'eau pour obstruer l'ennemi"
   }
 }
