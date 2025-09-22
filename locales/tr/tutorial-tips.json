@@ -3,5 +3,33 @@
   "friendlyFire": {
     "title": "Dost Ateşi Uyarısı",
     "message": "Bu atış dost ateşine neden olacak! Hangi birimlerin hasar alacağını görmek için birimlerdeki sarı ikonu arayın."
+  },
+  "armyComposition": {
+    "title": "Ordu Kompozisyonu İpuçları",
+    "message": "Burada kendi tarzınıza ve tercihlerinize uygun özel ordular tasarlayabilirsiniz. Lines of Battle'da yeniyseniz, temelleri öğrenene kadar varsayılan kompozisyonla kalın; varsayılan ordular oldukça rekabetçidir ve oyundaki en maliyet-etkin, dengeli birimlerden oluşur.\n\nEn iyi ordular tipik olarak %60-75 piyade, %20-35 süvari ve %10-15 topçudan oluşur."
+  },
+  "firstBattle": {
+    "title": "İlk savaşınızı başlattığınız için tebrikler, General!",
+    "message": "Yaklaşık eşit güçteki bir düşman kuvveti bu savaş alanında bizimle buluşmak için yürüyüşe geçti.\n\nZafer elde etmenin üç yolu vardır:\n\n1. Düşman kuvvetinin tamamen yok edilmesi – kazanmak için her birimi bozguna uğratın.\n2. Günün sonunda alanı tutmak – düşmana daha fazla zayiat verin veya piyade taburlarınızı nötr hedefleri ele geçirmek ve Zafer Puanları kazanmak için kullanın. Oyun bittiğinde +10 Zafer Puanı öndeyseniz, kazanırsınız.\n3. Düşman ikmal hatlarını kesmek – piyade taburlarınızı düşman konuşlandırma bölgesindeki büyük hedefi ele geçirmek için kullanın. Bu, küçük bir hedefi ele geçirmekten iki kattan fazla sürer, ancak oyunu lehinize sonlandıracaktır.\n\nİyi şanslar, General!"
+  },
+  "routingUnits": {
+    "title": "Kaçan Birimler",
+    "message": "Bir birim tüm uyumu kaybetti ve şimdi cepheden kaçıyor. Düşman kuvvetlerinden güvenli bir mesafeye ulaşabilirse, kaçmayı bırakacak ve hızla organizasyonunu geri kazanacak – %30 organizasyonda, yeniden toplanacak ve onun üzerindeki kontrolünüzü geri kazanacaksınız. Bu süreci hızlandırmak için süvari gibi dost birimleri yakına yerleştirebilirsiniz.\n\nSavaştaki düşük organizasyonlu birimleri taze, iyi organize edilmiş yedeklerle değiştirmeye çalışın. Dağınık bir birimi yeniden organize etmek, kırık bir birimi yeniden toplamaktan çok daha verimlidir."
+  },
+  "lineInfantrySelection": {
+    "title": "Hat Piyadesi",
+    "message": "Bu, 800 kişilik bir piyade taburudur ve hedefleri tüfek ateşi veya süngü ile savaşabilir. Yaklaşmak ve yıkıcı uzun menzilli hasar vermek için 'Ateş ve İlerle' emrini kullanın ve dayanıklılık harcayarak hızla zemin kapsamak ve diğer piyadelere karşı süngü saldırısı başlatmak için 'Koş' emrini kullanın. Ancak 'Koş' emrini aşırı kullanmamaya dikkat edin ve yüksek Organizasyona sahip düşman piyadelerine saldırmaktan kaçının."
+  },
+  "skirmisherSelection": {
+    "title": "Hafif Piyade",
+    "message": "Hafif piyadeler, düzen olmadan savaşan keskin nişancı bölüğünü (~150 asker) temsil eder.\n\nBu birimler tüfek ve topçudan neredeyse hiç hasar almaz, ancak yakın dövüşte ağır hasar alır.\n\nHafif piyadelerinizi araziye yerleştirin veya onları saldırılardan korumak için hat piyadesi ve süvari kullanın.\n\nHafif piyadeler güçlü noktaları tutmada veya topçu ve piyadeyi uzun menzilli ateşle taciz etmede mükemmeldir."
+  },
+  "cavalrySelection": {
+    "title": "Süvari",
+    "message": "Süvari birimleri hızlı ve güçlüdür ancak dikkatli yönetim gerektirir.\n\n• Hafif piyade, düşük organizasyonlu piyade ve kötü korunmuş topçulara saldırmak için dayanıklılık harcamak üzere 'Koş' emrini kullanın\n• Mümkün olduğunda süvariyi yürüterek dayanıklılığı koruyun\n• Süvari her zaman yüksek organizasyonlu piyadeye karşı 1'e 1'de kaybeder\n• Saldırıdan önce tüfek ve topçu ateşiyle düşman piyadesini dağıtın\n• Süvarinizi belirleyici anlar için koruyun\n• Süvariyi araziden uzak tutun"
+  },
+  "artillerySelection": {
+    "title": "Topçu",
+    "message": "Topçu bir güç çarpanıdır; piyade ve süvariyi destekler, ancak savaşları tek başına kazanamaz.\n\n• Topçunun dayanıklılığı yoktur; uzun mesafeleri geçerken her zaman 'Koş' emrini kullanın\n• Topçunun cephanesi vardır; cephanenizin bitmemesi için cephane rezervinizi takip edin\n• Napolyon dönemi topçusu ateş etmek için net bir görüş hattı gerektirir; piyadenizle engellemeyin\n\nTopçunun farklı menzillerinin en iyi kullanımını anlayın:\n\n• Uzun menzilli ateş: birçok birime düşük hasar (geniş etki alanı)\n• Orta menzilli ateş: birkaç birime iyi hasar (küçük etki alanı)\n• Yakın menzilli ateş: tek bir birime aşırı hasar (saçma ateşi)\n\nTopçunuzu arkadan uzun menzilli ateş etmek yerine savaş hattıyla birlikte ilerletmeyi düşünün."
   }
 }

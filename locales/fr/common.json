@@ -42,6 +42,8 @@
   "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'ordre de bataille que vous avez créé pour ce type de bataille. Vous pouvez voir et gérez la composition de vos armées dans le menu <0>Ordre de bataille</0>. Si vous n'avez pas encore créé d'ordre de bataille, le jeu en sélectionnera une par défaut.",
   "selectGameMode": "Sélectionner le mode de jeu grâce aux options ci-dessous.",
   "or": "Ou",
+  "quickMatchmaking": "Appariement Rapide",
+  "ranked": "Classé",
   "cancel": "Annulez",
 
   "matchmakingQueue": {
@@ -355,6 +357,7 @@
   },
 
   "selectOrder": "Sélectionner un ordre",
+  "autofire": "Tir automatique",
   "allowFireWhenMoving": "Permet de tirer en avançant",
   "meleeDamage": "Dégâts de mêlée",
   "rangedDamage": "Dégâts à distance",
@@ -598,6 +601,7 @@
 
   "allowsCharging": "Permet de charger",
   "limbersArtillery": "Limite l'artillerie",
+  "all": "Tous",
   "scenario": "Scénario",
   "banned": "Banni",
   "baseAmmo": "Munitions de base"

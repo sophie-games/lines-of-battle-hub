@@ -3,5 +3,33 @@
   "friendlyFire": {
     "title": "Ostrzeżenie o Przyjaznym Ogniu",
     "message": "Ten strzał spowoduje przyjazny ogień! Szukaj żółtej ikony na jednostkach, aby zobaczyć, które zostaną uszkodzone."
+  },
+  "armyComposition": {
+    "title": "Wskazówki dotyczące Składu Armii",
+    "message": "Tutaj możesz projektować niestandardowe armie, które pasują do Twojego stylu i preferencji. Jeśli jesteś nowy w Lines of Battle, zostań przy domyślnym składzie, dopóki nie nauczysz się podstaw; domyślne armie są bardzo konkurencyjne i składają się z najbardziej opłacalnych, zrównoważonych jednostek w grze.\n\nNajlepsze armie zazwyczaj składają się z 60-75% piechoty, 20-35% kawalerii i 10-15% artylerii."
+  },
+  "firstBattle": {
+    "title": "Gratulacje z rozpoczęcia pierwszej bitwy, Generale!",
+    "message": "Wroga siła o mniej więcej równej sile maszeruje, aby spotkać się z nami na tym polu bitwy.\n\nIstnieją trzy sposoby na osiągnięcie zwycięstwa:\n\n1. Całkowite zniszczenie sił wroga – rozbij każdą jednostkę, aby wygrać.\n2. Utrzymanie pola na koniec dnia – zadaj więcej strat wrogowi lub użyj swoich batalionów piechoty do zdobycia neutralnych celów i zdobycia Punktów Zwycięstwa. Jeśli masz przewagę +10 Punktów Zwycięstwa, gdy gra się kończy, wygrywasz.\n3. Przecięcie linii zaopatrzenia wroga – użyj swoich batalionów piechoty do zdobycia dużego celu w strefie rozmieszczenia wroga. To zajmuje więcej niż dwa razy więcej czasu niż zdobycie małego celu, ale zakończy grę na Twoją korzyść.\n\nPowodzenia, Generale!"
+  },
+  "routingUnits": {
+    "title": "Uciekające Jednostki",
+    "message": "Jednostka straciła całą spójność i teraz ucieka z frontu. Jeśli może dotrzeć do bezpiecznej odległości od sił wroga, przestanie uciekać i szybko odzyska organizację – przy 30% organizacji, przegrupuje się i odzyskasz nad nią kontrolę. Możesz przyspieszyć ten proces, umieszczając przyjazne jednostki, takie jak kawaleria, w pobliżu.\n\nSpróbuj zastąpić jednostki o niskiej organizacji w walce świeżymi, dobrze zorganizowanymi rezerwami. Znacznie bardziej efektywne jest reorganizowanie zdezorganizowanej jednostki niż przegrupowanie zniszczonej."
+  },
+  "lineInfantrySelection": {
+    "title": "Piechota Liniowa",
+    "message": "To batalion piechoty liczący 800 żołnierzy, zdolny do atakowania celów ogniem muszkietowym lub bagnetem. Użyj rozkazu 'Ogień i Natarcie', aby zbliżyć się i zadawać niszczycielskie obrażenia na dystans, i użyj rozkazu 'Bieg', aby wydać wytrzymałość i szybko pokryć teren, wykonując szarżę bagnetową przeciwko innej piechocie. Uważaj jednak, aby nie nadużywać rozkazu 'Bieg' i unikaj szarżowania wrogiej piechoty z wysoką Organizacją."
+  },
+  "skirmisherSelection": {
+    "title": "Strzelcy",
+    "message": "Strzelcy reprezentują kompanię (~150 żołnierzy) strzelców wyborowych walczących bez szyku.\n\nTe jednostki prawie nie otrzymują obrażeń od muszkietów i artylerii, ale otrzymują poważne obrażenia w walce wręcz.\n\nUmieść swoich strzelców w terenie lub użyj piechoty liniowej i kawalerii, aby chronić ich przed szarżami.\n\nStrzelcy doskonale sprawdzają się w utrzymywaniu punktów oporu lub nękaniu artylerii i piechoty ogniem dalekiego zasięgu."
+  },
+  "cavalrySelection": {
+    "title": "Kawaleria",
+    "message": "Jednostki kawalerii są szybkie i potężne, ale wymagają ostrożnego zarządzania.\n\n• Użyj rozkazu 'Bieg', aby wydać wytrzymałość i szarżować na strzelców, piechotę o niskiej organizacji i słabo chronioną artylerię\n• Oszczędzaj wytrzymałość, pozwalając kawalerii maszerować, gdy to możliwe\n• Kawaleria zawsze przegra 1 na 1 z piechotą o wysokiej organizacji\n• Dezorganizuj wrogą piechotę ogniem muszkietów i artylerii przed szarżą\n• Oszczędzaj swoją kawalerię na decydujące momenty\n• Trzymaj kawalerię z dala od terenu"
+  },
+  "artillerySelection": {
+    "title": "Artyleria",
+    "message": "Artyleria jest multiplikatorem siły; wspiera piechotę i kawalerię, ale nie może wygrać bitew sama.\n\n• Artyleria nie ma wytrzymałości; zawsze używaj rozkazu 'Bieg' podczas pokonywania długich dystansów\n• Artyleria ma amunicję; miej oko na swoją rezerwę amunicji, aby nie zabrakło\n• Artyleria napoleońska wymaga czystej linii wzroku do strzelania; nie blokuj jej swoją piechotą\n\nZrozum najlepsze wykorzystanie różnych zasięgów artylerii:\n\n• Ogień dalekiego zasięgu: niskie obrażenia wielu jednostkom (duży obszar efektu)\n• Ogień średniego zasięgu: dobre obrażenia kilku jednostkom (mały obszar efektu)\n• Ogień bliskiego zasięgu: ekstremalne obrażenia jednej jednostce (ogień kartaczowy)\n\nRozważ przesunięcie swojej artylerii z linią bojową zamiast pozostawiania jej do strzelania z daleka z tyłu."
   }
 }
