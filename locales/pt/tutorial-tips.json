@@ -3,5 +3,33 @@
   "friendlyFire": {
     "title": "Aviso de Fogo Amigo",
     "message": "Este tiro causará fogo amigo! Procure pelo ícone amarelo nas unidades para ver quais serão danificadas."
+  },
+  "armyComposition": {
+    "title": "Dicas de Composição do Exército",
+    "message": "Aqui, você pode projetar exércitos personalizados que se adequam ao seu próprio estilo e preferências. Se você é novo no Lines of Battle, fique com a composição padrão até aprender o básico; os exércitos padrão são altamente competitivos e consistem nas unidades mais custo-efetivas e equilibradas do jogo.\n\nOs melhores exércitos tipicamente consistem em 60-75% de infantaria, 20-35% de cavalaria, e 10-15% de artilharia."
+  },
+  "firstBattle": {
+    "title": "Parabéns por começar sua primeira batalha, General!",
+    "message": "Uma força inimiga de força aproximadamente igual marchou para nos encontrar neste campo de batalha.\n\nHá três maneiras de obter a vitória:\n\n1. A destruição completa da força inimiga – derrote cada unidade para vencer.\n2. Manter o campo no final do dia – inflija mais baixas ao inimigo ou use seus batalhões de infantaria para capturar objetivos neutros e ganhar Pontos de Vitória. Se você tiver uma vantagem de +10 Pontos de Vitória quando o jogo terminar, você vence.\n3. Cortar as linhas de suprimento inimigas – use seus batalhões de infantaria para capturar o grande objetivo na zona de implantação inimiga. Isso leva mais de duas vezes o tempo para capturar um objetivo pequeno, mas terminará o jogo a seu favor.\n\nBoa sorte, General!"
+  },
+  "routingUnits": {
+    "title": "Unidades em Fuga",
+    "message": "Uma unidade perdeu toda coesão e agora está fugindo da frente. Se conseguir alcançar uma distância segura das forças inimigas, parará de fugir e rapidamente recuperará a organização – a 30% de organização, se reagrupará e você recuperará o controle dela. Você pode acelerar este processo posicionando unidades amigas como cavalaria nas proximidades.\n\nTente substituir unidades de baixa organização em combate por reservas frescas e bem organizadas. É muito mais eficiente reorganizar uma unidade desorganizada do que reagrupar uma quebrada."
+  },
+  "lineInfantrySelection": {
+    "title": "Infantaria de Linha",
+    "message": "Este é um batalhão de infantaria de 800 homens, capaz de engajar alvos com fogo de mosquete ou baioneta. Use a ordem 'Fogo e Avanço' para se aproximar e infligir dano devastador à distância, e use a ordem 'Correr' para gastar resistência e cobrir terreno rapidamente, lançando uma carga de baioneta contra outra infantaria. Tenha cuidado para não usar demais a ordem 'Correr', no entanto, e evite carregar infantaria inimiga com alta Organização."
+  },
+  "skirmisherSelection": {
+    "title": "Atiradores",
+    "message": "Os atiradores representam uma companhia (~150 homens) de franco-atiradores que lutam sem formação.\n\nEssas unidades recebem quase nenhum dano de mosquetes e artilharia, mas dano severo no combate corpo a corpo.\n\nPosicione seus atiradores no terreno ou use infantaria de linha e cavalaria para protegê-los de cargas.\n\nOs atiradores se destacam em manter pontos fortes ou assediar artilharia e infantaria com fogo de longo alcance."
+  },
+  "cavalrySelection": {
+    "title": "Cavalaria",
+    "message": "Unidades de cavalaria são rápidas e poderosas mas requerem manejo cuidadoso.\n\n• Use a ordem 'Correr' para gastar resistência e carregar atiradores, infantaria de baixa organização e artilharia mal protegida\n• Preserve a resistência fazendo a cavalaria caminhar quando possível\n• A cavalaria sempre perderá 1 contra 1 contra infantaria com alta organização\n• Desorganize a infantaria inimiga com fogo de mosquete e artilharia antes de uma carga\n• Preserve sua cavalaria para momentos decisivos\n• Mantenha a cavalaria fora do terreno"
+  },
+  "artillerySelection": {
+    "title": "Artilharia",
+    "message": "A artilharia é um multiplicador de força; ela apoia infantaria e cavalaria, mas não pode vencer batalhas sozinha.\n\n• A artilharia não tem resistência; sempre use a ordem 'Correr' ao cruzar longas distâncias\n• A artilharia tem munição; fique de olho na sua reserva de munição para não ficar sem\n• A artilharia napoleônica requer uma linha de visão clara para atirar; não a bloqueie com sua infantaria\n\nEntenda o melhor uso dos diferentes alcances da artilharia:\n\n• Fogo de longo alcance: baixo dano a muitas unidades (grande área de efeito)\n• Fogo de alcance médio: bom dano a poucas unidades (pequena área de efeito)\n• Fogo de curto alcance: dano extremo a uma unidade (fogo de metralha)\n\nConsidere mover sua artilharia com a linha de batalha em vez de deixá-la atirando a longo alcance da retaguarda."
   }
 }

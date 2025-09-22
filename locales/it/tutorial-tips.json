@@ -3,5 +3,33 @@
   "friendlyFire": {
     "title": "Avviso di Fuoco Amico",
     "message": "Questo colpo causerà fuoco amico! Cerca l'icona gialla sulle unità per vedere quali saranno danneggiate."
+  },
+  "armyComposition": {
+    "title": "Suggerimenti per la Composizione dell'Esercito",
+    "message": "Qui puoi progettare eserciti personalizzati che si adattano al tuo stile e alle tue preferenze. Se sei nuovo a Lines of Battle, rimani con la composizione predefinita finché non impari le basi; gli eserciti predefiniti sono altamente competitivi e consistono nelle unità più convenienti e bilanciate del gioco.\n\nI migliori eserciti tipicamente consistono in 60-75% di fanteria, 20-35% di cavalleria, e 10-15% di artiglieria."
+  },
+  "firstBattle": {
+    "title": "Congratulazioni per aver iniziato la tua prima battaglia, Generale!",
+    "message": "Una forza nemica di forza approssimativamente uguale ha marciato per incontrarci su questo campo di battaglia.\n\nCi sono tre modi per ottenere la vittoria:\n\n1. La distruzione completa della forza nemica – metti in fuga ogni unità per vincere.\n2. Tenere il campo alla fine del giorno – infliggi più perdite al nemico o usa i tuoi battaglioni di fanteria per catturare obiettivi neutrali e guadagnare Punti Vittoria. Se hai un vantaggio di +10 Punti Vittoria quando il gioco finisce, vinci.\n3. Tagliare le linee di rifornimento nemiche – usa i tuoi battaglioni di fanteria per catturare il grande obiettivo nella zona di schieramento nemica. Questo richiede più del doppio del tempo rispetto alla cattura di un piccolo obiettivo, ma finirà il gioco a tuo favore.\n\nBuona fortuna, Generale!"
+  },
+  "routingUnits": {
+    "title": "Unità in Fuga",
+    "message": "Un'unità ha perso tutta la coesione e ora sta fuggendo dal fronte. Se può raggiungere una distanza sicura dalle forze nemiche, smetterà di fuggire e riacquisterà rapidamente l'organizzazione – al 30% di organizzazione, si riorganizzerà e riprenderai il controllo di essa. Puoi accelerare questo processo posizionando unità amiche come la cavalleria nelle vicinanze.\n\nProva a sostituire le unità a bassa organizzazione in combattimento con riserve fresche e ben organizzate. È molto più efficiente riorganizzare un'unità disorganizzata che riorganizzare una rotta."
+  },
+  "lineInfantrySelection": {
+    "title": "Fanteria di Linea",
+    "message": "Questo è un battaglione di fanteria di 800 uomini, capace di ingaggiare bersagli con fuoco di moschetto o baionetta. Usa l'ordine 'Fuoco e Avanzata' per avvicinarti e infliggere danni devastanti a distanza, e usa l'ordine 'Corsa' per spendere resistenza e coprire rapidamente il terreno, lanciando una carica alla baionetta contro altra fanteria. Fai attenzione a non usare troppo l'ordine 'Corsa', tuttavia, ed evita di caricare la fanteria nemica con alta Organizzazione."
+  },
+  "skirmisherSelection": {
+    "title": "Cacciatori",
+    "message": "I cacciatori rappresentano una compagnia (~150 uomini) di tiratori scelti che combattono senza formazione.\n\nQueste unità subiscono quasi nessun danno da moschetti e artiglieria, ma danni gravi nel combattimento corpo a corpo.\n\nPosiziona i tuoi cacciatori nel terreno o usa fanteria di linea e cavalleria per proteggerli dalle cariche.\n\nI cacciatori eccellono nel tenere punti forti o molestare artiglieria e fanteria con fuoco a lungo raggio."
+  },
+  "cavalrySelection": {
+    "title": "Cavalleria",
+    "message": "Le unità di cavalleria sono veloci e potenti ma richiedono una gestione attenta.\n\n• Usa l'ordine 'Corsa' per spendere resistenza e caricare cacciatori, fanteria a bassa organizzazione e artiglieria mal protetta\n• Preserva la resistenza facendo camminare la cavalleria quando possibile\n• La cavalleria perderà sempre 1 contro 1 contro fanteria con alta organizzazione\n• Disorganizza la fanteria nemica con fuoco di moschetto e artiglieria prima di una carica\n• Preserva la tua cavalleria per i momenti decisivi\n• Tieni la cavalleria fuori dal terreno"
+  },
+  "artillerySelection": {
+    "title": "Artiglieria",
+    "message": "L'artiglieria è un moltiplicatore di forza; supporta fanteria e cavalleria, ma non può vincere le battaglie da sola.\n\n• L'artiglieria non ha resistenza; usa sempre l'ordine 'Corsa' quando attraversi lunghe distanze\n• L'artiglieria ha munizioni; tieni d'occhio la tua riserva di munizioni per non rimanere senza\n• L'artiglieria napoleonica richiede una linea di vista chiara per sparare; non bloccarla con la tua fanteria\n\nComprendi il miglior uso delle diverse gittate dell'artiglieria:\n\n• Fuoco a lungo raggio: basso danno a molte unità (grande area di effetto)\n• Fuoco a media gittata: buon danno a poche unità (piccola area di effetto)\n• Fuoco a corto raggio: danno estremo a una unità (fuoco a mitraglia)\n\nConsidera di muovere la tua artiglieria con la linea di battaglia invece di lasciarla sparare a lungo raggio dalla retroguardia."
   }
 }

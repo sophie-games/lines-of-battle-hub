@@ -46,6 +46,8 @@
   "randomGameInfo": "Für zufallsgenerierte Spiele, werden Armeen verwendet, die Sie für diesen Spielmodus vorbereitet haben. Sie können Ihre Armeen in <0>Armeezusammensetzung</0>. Wenn Sie noch keine Armeen für einen Modus erstellt haben, dann wird die Standardarmee benutzt.",
   "selectGameMode": "Wähle den Spielmodus von den unten angezeigten Optionen.",
   "or": "Oder",
+  "quickMatchmaking": "Schnelles Matchmaking",
+  "ranked": "Bewertet",
   "cancel": "Abbrechen",
 
   "matchmakingQueue": {
@@ -355,6 +357,7 @@
   },
 
   "selectOrder": "Befehl auswählen",
+  "autofire": "Automatisches Feuern",
   "allowFireWhenMoving": "Erlaube Feuern während der Bewegung",
   "meleeDamage": "Nahkampfschaden",
   "rangedDamage": "Fernkampfschaden",
@@ -581,6 +584,7 @@
   "initRound1": "Runde 1 initialisieren",
   "allowsCharging": "Ermöglicht Laden",
   "limbersArtillery": "Geschütze werden eingefahren",
+  "all": "Alle",
   "scenario": "Szenario",
   "banned": "Gesperrt",
   "baseAmmo": "Grundmunition"

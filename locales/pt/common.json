@@ -46,6 +46,8 @@
   "randomGameInfo": "Para jogos gerados aleatoriamente, o jogo usará o exército que você criou para o modo de batalha selecionado. Você pode visualizar e gerenciar seus exércitos em <0>Composições de Exército</0>. Se você ainda não criou exércitos para esse modo, um exército padrão será usado.",
   "selectGameMode": "Selecione o modo de jogo nas opções abaixo.",
   "or": "Ou",
+  "quickMatchmaking": "Matchmaking Rápido",
+  "ranked": "Classificado",
   "cancel": "Cancelar",
 
   "matchmakingQueue": {
@@ -351,6 +353,7 @@
   },
 
   "selectOrder": "Selecionar Ordem",
+  "autofire": "Tiro automático",
   "allowFireWhenMoving": "Permitir fogo ao mover",
   "meleeDamage": "Dano corpo a corpo",
   "rangedDamage": "Dano à distância",
@@ -579,6 +582,7 @@
   "autoProgressionInfo": "Se esta opção estiver habilitada, o torneio avançará automaticamente para a próxima rodada assim que a última partida da rodada atual for concluída. Se estiver desabilitada, o torneio avançará quando o administrador iniciar manualmente ou na data e hora agendada (se uma foi definida).",
   "allowsCharging": "Permite carregar",
   "limbersArtillery": "Desmonta a artilharia",
+  "all": "Todos",
   "scenario": "Cenário",
   "banned": "Banido",
   "baseAmmo": "Munição base"

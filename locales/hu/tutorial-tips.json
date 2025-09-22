@@ -3,5 +3,33 @@
   "friendlyFire": {
     "title": "Baráti Tűz Figyelmeztetés",
     "message": "Ez a lövés baráti tüzet okoz! Keresse a sárga ikont az egységeken, hogy lássa, melyek sérülnek meg."
+  },
+  "armyComposition": {
+    "title": "Hadsereg Összetétel Tippek",
+    "message": "Itt egyedi hadseregeket tervezhetsz, amelyek a saját stílusodnak és preferenciáidnak megfelelnek. Ha új vagy a Lines of Battle-ban, maradj a default összetételnél, amíg meg nem tanulod az alapokat; a default hadseregek nagyon versenyképesek és a játék legköltséghatékonyabb, legkiegyensúlyozottabb egységeiből állnak.\n\nA legjobb hadseregek jellemzően 60-75% gyalogságból, 20-35% lovasságból és 10-15% tüzérségből állnak."
+  },
+  "firstBattle": {
+    "title": "Gratulálok az első csatád kezdetéhez, Tábornok!",
+    "message": "Egy körülbelül egyenlő erősségű ellenséges erő vonult fel, hogy találkozzon velünk ezen a csatatéren.\n\nHárom módja van a győzelem elérésének:\n\n1. Az ellenséges erő teljes megsemmisítése – zúzd minden egységet menekülésre, hogy nyerj.\n2. A mező megtartása a nap végén – okozz több veszteséget az ellenségnek vagy használd a gyalogsági zászlóaljaidat semleges célpontok elfoglalására és Győzelmi Pontok szerzésére. Ha +10 Győzelmi Pont előnyöd van, amikor a játék véget ér, nyersz.\n3. Az ellenséges utánpótlási vonalak elvágása – használd a gyalogsági zászlóaljaidat a nagy célpont elfoglalására az ellenséges telepítési zónában. Ez több mint kétszer annyi időt vesz igénybe, mint egy kis célpont elfoglalása, de a játékot a javadra zárja.\n\nSok szerencsét, Tábornok!"
+  },
+  "routingUnits": {
+    "title": "Menekülő Egységek",
+    "message": "Egy egység elvesztette az összes kohéziót és most menekül a frontról. Ha biztonságos távolságra tud jutni az ellenséges erőktől, abbahagyja a menekülést és gyorsan visszanyeri a szervezettséget – 30%-os szervezettségnél újraszerveződik és visszanyered a felettük való irányítást. Felgyorsíthatod ezt a folyamatot, ha baráti egységeket, például lovasságot helyezel a közelükbe.\n\nPróbálj meg alacsony szervezettségű egységeket cserélni a harcban friss, jól szervezett tartalékokra. Sokkal hatékonyabb egy szervezetlen egységet újraszervezni, mint egy összetört egységet újraszervezni."
+  },
+  "lineInfantrySelection": {
+    "title": "Sorakozó Gyalogság",
+    "message": "Ez egy 800 fős gyalogsági zászlóalj, amely képes célpontokkal harcolni musketttűzzel vagy szuronyos támadással. Használd a 'Tűz és Előre' parancsot a közeledéshez és pusztító távolsági sebzés okozásához, és használd a 'Futás' parancsot a kitartás elköltéséhez és a gyors terepbejáráshoz, szuronyos rohamot indítva más gyalogság ellen. Azonban légy óvatos, ne használd túl gyakran a 'Futás' parancsot, és kerüld a magas Szervezettséggel rendelkező ellenséges gyalogság megtámadását."
+  },
+  "skirmisherSelection": {
+    "title": "Harcászok",
+    "message": "A harcászok egy szakasz (~150 katona) mesterlövészt képviselnek, akik rend nélkül harcolnak.\n\nEzek az egységek szinte semmilyen kárt nem szenvednek a musketek és tüzérségtől, de súlyos kárt a közelharcban.\n\nHelyezd a harcászaidat terepre vagy használj sorakozó gyalogságot és lovasságot, hogy megvédd őket a rohamoktól.\n\nA harcászok kiválóak erődített pontok megtartásában vagy tüzérség és gyalogság zaklatásában hosszú távú tűzzel."
+  },
+  "cavalrySelection": {
+    "title": "Lovasság",
+    "message": "A lovassági egységek gyorsak és erősek, de óvatos kezelést igényelnek.\n\n• Használd a 'Futás' parancsot kitartás elköltéséhez és harcászok, alacsony szervezettségű gyalogság és rosszul védett tüzérség megtámadásához\n• Óvd a kitartást azáltal, hogy a lovasságot gyalogoltatod, amikor lehetséges\n• A lovasság mindig veszít 1-1-ben a magas szervezettségű gyalogsággal szemben\n• Szervezd szét az ellenséges gyalogságot musket és tüzérségi tűzzel a roham előtt\n• Óvd a lovasságodat a döntő pillanatokra\n• Tartsd a lovasságot távol a tereptől"
+  },
+  "artillerySelection": {
+    "title": "Tüzérség",
+    "message": "A tüzérség erősítő tényező; támogatja a gyalogságot és lovasságot, de nem tudja egyedül megnyerni a csatákat.\n\n• A tüzérségnek nincs kitartása; mindig használd a 'Futás' parancsot hosszú távolságok megtételénél\n• A tüzérségnek van lőszerkészlete; figyeld a lőszerkészletedet, hogy ne maradj lőszer nélkül\n• A napóleoni tüzérség tiszta látóvonalat igényel a tüzeléshez; ne akadályozd el a gyalogságoddal\n\nÉrtsd meg a tüzérség különböző hatótávolságainak legjobb használatát:\n\n• Távolsági tűz: alacsony sebzés sok egységnek (nagy hatóterület)\n• Közepes hatótávolságú tűz: jó sebzés néhány egységnek (kis hatóterület)\n• Közeli tűz: extrém sebzés egy egységnek (sörétes tűz)\n\nFontold meg, hogy a tüzérségedet a csatavonallal együtt mozgatod, ahelyett, hogy hátulról távolsági tüzet engednél."
   }
 }

@@ -47,6 +47,8 @@
   "randomGameInfo": "Dla losowo wygenerowanych partii, gra użyje stworzonych przez Ciebie armii do wybranego trybu bitwy. Możesz zobaczyć i edytować swoje armie w <0>Układzie Armii</0>. Jeżeli nie stworzyłeś(łaś) jeszcze armii do danego trybu, użyta będzie domyślna armia.",
   "selectGameMode": "Wybierz tryb gry z poniższych opcji.",
   "or": "Albo",
+  "quickMatchmaking": "Szybkie Dopasowanie",
+  "ranked": "Rankingowy",
   "cancel": "Anuluj",
 
   "matchmakingQueue": {
@@ -394,6 +396,7 @@
   },
 
   "selectOrder": "Wybierz Rozkaz",
+  "autofire": "Automatyczny ogień",
   "allowFireWhenMoving": "Pozwala strzelać podczas ruchu",
   "meleeDamage": "Obrażenia wręcz",
   "rangedDamage": "Obrażenia dystansowe",
@@ -781,6 +784,7 @@
   "ammoConsumption": "Zużycie Amunicji",
   "allowsCharging": "Pozwala na szarżę",
   "limbersArtillery": "Rozkłada artylerię",
+  "all": "Wszystkie",
   "scenario": "Scenariusz",
   "banned": "Zablokowany",
   "baseAmmo": "Podstawowa amunicja"

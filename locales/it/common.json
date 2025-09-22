@@ -46,6 +46,8 @@
   "randomGameInfo": "Per i giochi generati casualmente, il gioco utilizzerà l'esercito che hai creato per la modalità di battaglia selezionata. Puoi visualizzare e gestire i tuoi eserciti in <0>Composizioni dell'esercito</0>. Se non hai ancora creato eserciti per quella modalità, verrà utilizzato un esercito predefinito.",
   "selectGameMode": "Seleziona la modalità di gioco dalle opzioni qui sotto.",
   "or": "O",
+  "quickMatchmaking": "Matchmaking Rapido",
+  "ranked": "Classificato",
   "cancel": "Annulla",
 
   "matchmakingQueue": {
@@ -351,6 +353,7 @@
   },
 
   "selectOrder": "Seleziona ordine",
+  "autofire": "Fuoco automatico",
   "allowFireWhenMoving": "Consenti fuoco durante il movimento",
   "meleeDamage": "Danno corpo a corpo",
   "rangedDamage": "Danno a distanza",
@@ -577,6 +580,7 @@
   "initRound1": "Inizializza il round 1",
   "allowsCharging": "Permette di caricare",
   "limbersArtillery": "Smonta l'artiglieria",
+  "all": "Tutti",
   "scenario": "Scenario",
   "banned": "Bannato",
   "baseAmmo": "Munizioni base"

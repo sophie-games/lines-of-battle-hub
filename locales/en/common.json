@@ -46,6 +46,8 @@
   "createNewGame": "Create new game",
   "randomGameInfo": "For randomly generated games, the game will use the army you've created for the selected battle mode. You can view and manage your armies in the <0>Army Compositions</0>. If you haven't created any armies for that mode yet, a default army will be used.",
   "selectGameMode": "Select the game mode from the options below.",
+  "quickMatchmaking": "Quick Matchmaking",
+  "ranked": "Ranked",
   "or": "Or",
   "cancel": "Cancel",
 
@@ -441,6 +443,7 @@
   },
 
   "selectOrder": "Select Order",
+  "autofire": "Autofire",
   "allowFireWhenMoving": "Allow fire when moving",
   "meleeDamage": "Melee damage",
   "rangedDamage": "Ranged damage",
@@ -888,7 +891,7 @@
   "ammoConsumption": "Ammo Consumption",
   "allowsCharging": "Allows charging",
   "limbersArtillery": "Limbers artillery",
-
+  "all": "All",
   "scenario": "Scenario",
   "banned": "Banned",
   "baseAmmo": "Base ammo"
