@@ -37,14 +37,14 @@
     "diminishByTargetOrg": {
       "start": 0.9,
       "end": 0.7,
-      "modifier": -0.52
+      "modifier": -0.45
     },
     "ranges": [
       {
         "start": 0,
         "end": 20,
-        "startMod": 6,
-        "endMod": 6,
+        "startMod": 5.5,
+        "endMod": 5.5,
         "name": "pointBlank"
       },
       {
