@@ -2,7 +2,7 @@
   "clash": {
     "manpower": 2600,
     "gold": 900,
-    "ammoReserve": 750,
+    "ammoReserve": 800,
     "goldToAmmoRate": 24,
     "skirmisherRatio": [1, 4],
     "fogOfWar": true,
@@ -28,7 +28,7 @@
   "battle": {
     "manpower": 8750,
     "gold": 3750,
-    "ammoReserve": 2500,
+    "ammoReserve": 2400,
     "goldToAmmoRate": 15,
     "skirmisherRatio": [2, 5],
     "fogOfWar": true,
@@ -39,9 +39,9 @@
     "eloKFactor": 24
   },
   "grand_battle": {
-    "manpower": 15150,
-    "gold": 6600,
-    "ammoReserve": 3300,
+    "manpower": 16250,
+    "gold": 7000,
+    "ammoReserve": 3200,
     "goldToAmmoRate": 12,
     "skirmisherRatio": [1, 3],
     "fogOfWar": true,
