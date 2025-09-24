@@ -51,6 +51,18 @@
   },
   "runOrder": {
     "title": "Ordine di Corsa",
-    "message": "Usa l'ordine di corsa per spendere resistenza e muoverti ad alta velocità e caricare le unità nemiche\n\nLe cariche dipendono dalla statistica di Resistenza alle Cariche del difensore e dalla statistica di Penetrazione delle Cariche dell'attaccante (affiancate sulla carta dell'unità)\n\nCarica le unità nemiche con bassa Resistenza alle Cariche per farle fuggire istantaneamente.\n\nUsa il fuoco di moschetto e artiglieria per ridurre l'Organizzazione e la Resistenza alle Cariche del nemico\n\nCarica un'unità con alta Organizzazione contro un'unità con bassa Organizzazione.\n\nSe non sei sicuro di caricare, puoi controllare la Resistenza alle Cariche del tuo bersaglio cliccandoci sopra e visualizzando la carta dell'unità. Poi, seleziona la tua unità e controlla la sua Penetrazione delle Cariche.\n\n• Se la loro resistenza meno la tua penetrazione è del 90% o meno, considera una carica di fianco.\n• Se la loro resistenza meno la tua penetrazione è del 60% o meno, considera una carica frontale."
+    "message": "Usa l'ordine di corsa per spendere resistenza e muoverti ad alta velocità e caricare le unità nemiche, ma non abusarne e non esaurire le tue truppe.\n\nLe cariche dipendono dalla statistica di Resistenza alle Cariche del difensore e dalla statistica di Penetrazione delle Cariche dell'attaccante, che riduce la resistenza alle cariche del difensore (affiancate sulla carta dell'unità, che è visibile a sinistra dello schermo quando selezioni un'unità).\n\nUna carica condotta con alta Penetrazione contro bassa Resistenza metterà in fuga il difensore; una carica con bassa Penetrazione contro alta Resistenza potrebbe non causare danni o addirittura disorganizzare l'attaccante.\n\nLa Resistenza alle Cariche e la Penetrazione sono entrambe basate sull'Organizzazione; usa il fuoco di moschetto e artiglieria per disorganizzare il nemico, poi carica con un'unità fresca e ben organizzata.\n\nProva a caricare frontalmente le unità quando la loro resistenza è solo del 60% superiore alla tua penetrazione.\n\nIn breve: usa unità con alta Organizzazione per caricare unità con bassa Organizzazione."
+  },
+  "fallbackOrder": {
+    "title": "Ordine di Ripiegamento",
+    "message": "Il ripiegamento è una manovra altamente complessa e faticosa – un'unità che si ritira e riceve una carica subirà gravi danni anche se ben organizzata. Usa questo ordine con parsimonia e cerca di proteggere le truppe in ritirata con unità fresche."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Ordine di Fuoco e Avanzata",
+    "message": "La fanteria e l'artiglieria leggera possono usare Fuoco e Avanzata verso i nemici per migliorare la loro posizione mantenendo il fuoco. Ma tieni presente che questo ordine riduce velocità e potenza di fuoco."
+  },
+  "lowStamina": {
+    "title": "Avviso di Resistenza Bassa",
+    "message": "Hai esaurito la resistenza di questa unità – ha già modificatori di combattimento negativi severi, e se la spingi molto oltre, perderà persino la capacità di correre.\n\nQuando la tua unità ha poca resistenza, dovresti:\n\n• Usarla per inseguire unità nemiche in fuga che non possono contrattaccare, per impedire loro di riorganizzarsi\n• Posizionarla dietro la tua linea di battaglia o vicino alle tue unità in fuga, così la tua unità con poca resistenza può supportarle con il suo raggio di morale\n• O semplicemente lasciarla senza ordini così può recuperare un po' di resistenza\n\nLa rigenerazione della resistenza è molto lenta, quindi cerca di usarla solo quando conta davvero!"
   }
 }

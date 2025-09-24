@@ -51,6 +51,18 @@
   },
   "runOrder": {
     "title": "Ordre de Course",
-    "message": "Utilisez l'ordre de course pour dépenser de l'endurance afin de vous déplacer à grande vitesse et charger les unités ennemies\n\nLes charges dépendent de la statistique de Résistance aux Charges du défenseur et de la statistique de Pénétration des Charges de l'attaquant (côte à côte sur la carte d'unité)\n\nChargez les unités ennemies avec une faible Résistance aux Charges pour les faire fuir instantanément.\n\nUtilisez le feu de mousquet et d'artillerie pour réduire l'Organisation et la Résistance aux Charges de l'ennemi\n\nChargez une unité avec une Organisation élevée dans une unité avec une Organisation faible.\n\nSi vous n'êtes pas sûr de charger, vous pouvez vérifier la Résistance aux Charges de votre cible en cliquant dessus et en consultant la carte d'unité. Ensuite, sélectionnez votre unité et vérifiez sa Pénétration des Charges.\n\n• Si leur résistance moins votre pénétration est de 90% ou moins, envisagez une charge de flanc.\n• Si leur résistance moins votre pénétration est de 60% ou moins, envisagez une charge frontale."
+    "message": "Utilisez l'ordre de course pour dépenser de l'endurance afin de vous déplacer à grande vitesse et charger les unités ennemies, mais ne l'utilisez pas excessivement et n'épuisez pas vos troupes.\n\nLes charges dépendent de la statistique de Résistance aux Charges du défenseur et de la statistique de Pénétration des Charges de l'attaquant, qui réduit la résistance aux charges du défenseur (côte à côte sur la carte d'unité, qui est visible à gauche de l'écran lors de la sélection d'une unité).\n\nUne charge effectuée avec une Pénétration élevée contre une Résistance faible mettra le défenseur en déroute ; une charge avec une Pénétration faible contre une Résistance élevée peut ne causer aucun dégât ou même désorganiser l'attaquant.\n\nLa Résistance aux Charges et la Pénétration sont toutes deux basées sur l'Organisation ; utilisez le feu de mousquet et d'artillerie pour désorganiser l'ennemi, puis chargez avec une unité fraîche et bien organisée.\n\nEssayez de charger frontalement les unités lorsque leur résistance n'est que 60% supérieure à votre pénétration.\n\nEn bref : utilisez des unités avec une Organisation élevée pour charger des unités avec une Organisation faible."
+  },
+  "fallbackOrder": {
+    "title": "Ordre de Repli",
+    "message": "Le repli est une manœuvre hautement complexe et éprouvante – une unité qui se retire et reçoit une charge subira de lourds dégâts même si elle est bien organisée. Utilisez cet ordre avec parcimonie et essayez de protéger les troupes qui se replient avec des unités fraîches."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Ordre de Tir et Avance",
+    "message": "L'infanterie et l'artillerie légère peuvent Tirer et Avancer vers les ennemis pour améliorer leur position tout en maintenant le feu. Mais gardez à l'esprit que cet ordre réduit la vitesse et la puissance de tir."
+  },
+  "lowStamina": {
+    "title": "Avertissement d'Endurance Faible",
+    "message": "Vous avez épuisé l'endurance de cette unité – elle a déjà des modificateurs de combat négatifs sévères, et si vous la poussez beaucoup plus loin, elle perdra même la capacité de courir.\n\nQuand votre unité a une faible endurance, vous devriez :\n\n• L'utiliser pour poursuivre les unités ennemies en fuite qui ne peuvent pas riposter, pour les empêcher de se rallier\n• La placer derrière votre ligne de bataille ou près de vos unités en fuite, pour que votre unité à faible endurance puisse les soutenir avec son rayon de moral\n• Ou simplement la laisser sans ordres pour qu'elle puisse récupérer un peu d'endurance\n\nLa régénération d'endurance est très lente, alors essayez de l'utiliser seulement quand cela compte vraiment !"
   }
 }

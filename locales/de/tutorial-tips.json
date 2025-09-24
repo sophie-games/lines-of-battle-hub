@@ -51,6 +51,18 @@
   },
   "runOrder": {
     "title": "Lauf-Befehl",
-    "message": "Verwenden Sie den Lauf-Befehl, um Ausdauer zu verbrauchen und sich mit hoher Geschwindigkeit zu bewegen und feindliche Einheiten anzugreifen\n\nAngriffe basieren auf der Angriffsresistenz des Verteidigers und der Angriffsdurchdringung des Angreifers (nebeneinander auf der Einheitskarte)\n\nGreifen Sie feindliche Einheiten mit niedriger Angriffsresistenz an, um sie sofort in die Flucht zu schlagen.\n\nVerwenden Sie Musketen- und Artilleriefeuer, um die Organisation und Angriffsresistenz des Feindes zu reduzieren\n\nGreifen Sie eine Einheit mit hoher Organisation in eine Einheit mit niedriger Organisation an.\n\nWenn Sie sich beim Angreifen unsicher sind, können Sie die Angriffsresistenz Ihres Ziels überprüfen, indem Sie darauf klicken und die Einheitskarte anzeigen. Wählen Sie dann Ihre Einheit aus und überprüfen Sie ihre Angriffsdurchdringung.\n\n• Wenn ihre Resistenz minus Ihrer Durchdringung 90% oder weniger beträgt, ziehen Sie einen Flankenangriff in Betracht.\n• Wenn ihre Resistenz minus Ihrer Durchdringung 60% oder weniger beträgt, ziehen Sie einen Frontalangriff in Betracht."
+    "message": "Verwenden Sie den Lauf-Befehl, um Ausdauer zu verbrauchen und sich mit hoher Geschwindigkeit zu bewegen und feindliche Einheiten anzugreifen, aber übertreiben Sie es nicht und erschöpfen Sie Ihre Truppen nicht.\n\nAngriffe basieren auf der Angriffsresistenz des Verteidigers und der Angriffsdurchdringung des Angreifers, die die Angriffsresistenz des Verteidigers reduziert (nebeneinander auf der Einheitskarte, die links auf dem Bildschirm sichtbar ist, wenn Sie eine Einheit auswählen).\n\nEin Angriff mit hoher Durchdringung gegen niedrige Resistenz wird den Verteidiger in die Flucht schlagen; ein Angriff mit niedriger Durchdringung gegen hohe Resistenz kann keinen Schaden verursachen oder sogar den Angreifer desorganisieren.\n\nAngriffsresistenz und -durchdringung basieren beide auf der Organisation; verwenden Sie Musketen- und Artilleriefeuer, um den Feind zu desorganisieren, und greifen Sie dann mit einer frischen, hochorganisierten Einheit an.\n\nVersuchen Sie, Einheiten frontal anzugreifen, wenn ihre Resistenz nur 60% höher ist als Ihre Durchdringung.\n\nKurz gesagt: verwenden Sie Einheiten mit hoher Organisation, um Einheiten mit niedriger Organisation anzugreifen."
+  },
+  "fallbackOrder": {
+    "title": "Rückzugs-Befehl",
+    "message": "Rückzug ist ein hochkomplexes und anstrengendes Manöver – eine sich zurückziehende Einheit, die angegriffen wird, wird schweren Schaden erleiden, auch wenn sie gut organisiert ist. Verwenden Sie diesen Befehl sparsam und versuchen Sie, sich zurückziehende Truppen mit frischen Einheiten zu schützen."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Feuer und Vorrücken Befehl",
+    "message": "Infanterie und leichte Artillerie können Feuer und Vorrücken gegen Feinde verwenden, um ihre Position zu verbessern und dabei das Feuer aufrechtzuerhalten. Bedenken Sie jedoch, dass dieser Befehl Geschwindigkeit und Schadensausgabe reduziert."
+  },
+  "lowStamina": {
+    "title": "Niedrige Ausdauer Warnung",
+    "message": "Sie haben die Ausdauer dieser Einheit erschöpft – sie hat bereits schwere negative Kampfmodifikatoren, und wenn Sie sie weiter drängen, wird sie sogar die Fähigkeit zu laufen verlieren.\n\nWenn Ihre Einheit niedrige Ausdauer hat, sollten Sie:\n\n• Sie verwenden, um fliehende feindliche Einheiten zu verfolgen, die nicht zurückschlagen können, um zu verhindern, dass sie sich sammeln\n• Sie hinter Ihre Schlachtlinie oder in die Nähe Ihrer fliehenden Einheiten stellen, damit Ihre niedrig-ausdauernde Einheit sie mit ihrem Moralradius unterstützen kann\n• Oder sie einfach ohne Befehle lassen, damit sie etwas Ausdauer regenerieren kann\n\nDie Ausdauerregeneration ist sehr langsam, also versuchen Sie, sie nur dann zu verwenden, wenn es darauf ankommt!"
   }
 }

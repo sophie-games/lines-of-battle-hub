@@ -51,6 +51,18 @@
   },
   "runOrder": {
     "title": "Perintah Lari",
-    "message": "Gunakan perintah lari untuk menghabiskan stamina agar bergerak dengan kecepatan tinggi dan menyerang unit musuh\n\nSerangan bergantung pada statistik Resistensi Serangan pembela dan statistik Penetrasi Serangan penyerang (bersebelahan di kartu unit)\n\nSerang unit musuh dengan Resistensi Serangan rendah untuk membuat mereka lari seketika.\n\nGunakan tembakan musket dan artileri untuk mengurangi Organisasi dan Resistensi Serangan musuh\n\nSerang unit dengan Organisasi tinggi ke unit dengan Organisasi rendah.\n\nJika Anda tidak yakin tentang menyerang, Anda dapat memeriksa Resistensi Serangan target dengan mengkliknya dan melihat kartu unit. Kemudian, pilih unit Anda dan periksa Penetrasi Serangannya.\n\n• Jika resistensi mereka dikurangi penetrasi Anda adalah 90% atau kurang, pertimbangkan serangan sayap.\n• Jika resistensi mereka dikurangi penetrasi Anda adalah 60% atau kurang, pertimbangkan serangan frontal."
+    "message": "Gunakan perintah lari untuk menghabiskan stamina agar bergerak dengan kecepatan tinggi dan menyerang unit musuh, tetapi jangan berlebihan dan jangan kehabisan pasukan Anda.\n\nSerangan bergantung pada statistik Resistensi Serangan pembela dan statistik Penetrasi Serangan penyerang, yang mengurangi resistensi serangan pembela (bersebelahan di kartu unit, yang terlihat di sebelah kiri layar saat memilih satu unit).\n\nSerangan yang dilakukan dengan Penetrasi tinggi terhadap Resistensi rendah akan membuat pembela lari; serangan dengan Penetrasi rendah terhadap Resistensi tinggi mungkin tidak menyebabkan kerusakan atau bahkan membuat penyerang tidak terorganisir.\n\nResistensi Serangan dan Penetrasi keduanya didasarkan pada Organisasi; gunakan tembakan musket dan artileri untuk membuat musuh tidak terorganisir, kemudian serang dengan unit segar yang memiliki Organisasi tinggi.\n\nCoba serang frontal unit ketika resistensi mereka hanya 60% lebih tinggi dari penetrasi Anda.\n\nSingkatnya: gunakan unit dengan Organisasi tinggi untuk menyerang unit dengan Organisasi rendah."
+  },
+  "fallbackOrder": {
+    "title": "Perintah Mundur",
+    "message": "Mundur adalah manuver yang sangat kompleks dan melelahkan – unit yang mundur dan menerima serangan akan mengalami kerusakan parah meskipun terorganisir dengan baik. Gunakan perintah ini dengan hemat dan coba lindungi pasukan yang mundur dengan unit segar."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Perintah Tembak dan Maju",
+    "message": "Infanteri dan artileri ringan dapat menggunakan Tembak dan Maju ke arah musuh untuk meningkatkan posisi mereka sambil mempertahankan tembakan. Tapi ingat, perintah ini mengurangi kecepatan dan output kerusakan."
+  },
+  "lowStamina": {
+    "title": "Peringatan Stamina Rendah",
+    "message": "Anda telah menghabiskan stamina unit ini – unit ini sudah memiliki modifikator pertempuran negatif yang parah, dan jika Anda mendorongnya lebih jauh, unit ini bahkan akan kehilangan kemampuan untuk berlari.\n\nKetika unit Anda memiliki stamina rendah, Anda seharusnya:\n\n• Menggunakannya untuk mengejar unit musuh yang melarikan diri yang tidak dapat melawan balik, untuk mencegah mereka berkumpul kembali\n• Menempatkannya di belakang garis pertempuran Anda atau dekat dengan unit-unit yang melarikan diri, sehingga unit stamina rendah Anda dapat mendukung mereka dengan radius moralnya\n• Atau cukup biarkan tanpa perintah agar dapat memulihkan sedikit stamina\n\nPemulihan stamina sangat lambat, jadi cobalah untuk menggunakannya hanya ketika benar-benar penting!"
   }
 }

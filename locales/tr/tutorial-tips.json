@@ -51,6 +51,18 @@
   },
   "runOrder": {
     "title": "Koşu Emri",
-    "message": "Dayanıklılık harcayarak yüksek hızda hareket etmek ve düşman birimlerine saldırmak için koşu emrini kullanın\n\nSaldırılar, savunmacının Saldırı Direnci istatistiğine ve saldırganın Saldırı Delme istatistiğine bağlıdır (birim kartında yan yana)\n\nDüşük Saldırı Direnci olan düşman birimlerine saldırarak onları anında kaçırın.\n\nDüşmanın Organizasyon ve Saldırı Direncini azaltmak için tüfek ve topçu ateşi kullanın\n\nYüksek Organizasyona sahip bir birimi düşük Organizasyona sahip bir birime saldırın.\n\nSaldırı konusunda emin değilseniz, hedefinize tıklayarak birim kartını görüntüleyip Saldırı Direncini kontrol edebilirsiniz. Sonra biriminizi seçin ve Saldırı Delme değerini kontrol edin.\n\n• Dirençleri eksi delme değeriniz %90 veya daha azsa, yan saldırı düşünün.\n• Dirençleri eksi delme değeriniz %60 veya daha azsa, cephe saldırısı düşünün."
+    "message": "Dayanıklılık harcayarak yüksek hızda hareket etmek ve düşman birimlerine saldırmak için koşu emrini kullanın, ancak aşırı kullanmayın ve birliklerinizi tüketmeyin.\n\nSaldırılar, savunmacının Saldırı Direnci istatistiğine ve saldırganın Saldırı Delme istatistiğine bağlıdır, bu da savunmacının saldırı direncini azaltır (birim kartında yan yana, bir birim seçildiğinde ekranın sol tarafında görünür).\n\nYüksek Delme ile düşük Dirençe karşı yapılan bir saldırı savunmacıyı kaçıracak; düşük Delme ile yüksek Dirençe karşı yapılan bir saldırı hasar vermeyebilir veya hatta saldırganı dağıtabilir.\n\nSaldırı Direnci ve Delme her ikisi de Organizasyona dayanır; düşmanı dağıtmak için tüfek ve topçu ateşi kullanın, sonra taze, yüksek organizasyonlu bir birimle saldırın.\n\nDirençleri sadece sizin delme değerinizden %60 daha yüksek olduğunda frontal saldırı yapmayı deneyin.\n\nKısaca: düşük Organizasyona sahip birimlere saldırmak için yüksek Organizasyona sahip birimler kullanın."
+  },
+  "fallbackOrder": {
+    "title": "Geri Çekilme Emri",
+    "message": "Geri çekilme son derece karmaşık ve yorucu bir manevradır – geri çekilen bir birim saldırı alırsa, iyi organize olsa bile ağır hasar alacaktır. Bu emri idareli kullanın ve geri çekilen birlikleri taze birimlerle korumaya çalışın."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Ateş ve İlerleme Emri",
+    "message": "Piyade ve hafif topçu, ateşi sürdürürken pozisyonlarını iyileştirmek için düşmanlara doğru Ateş ve İlerleme kullanabilir. Ancak bu emrin hızı ve hasar çıktısını azalttığını unutmayın."
+  },
+  "lowStamina": {
+    "title": "Düşük Dayanıklılık Uyarısı",
+    "message": "Bu birimin dayanıklılığını tükettiniz – zaten ciddi negatif savaş modifikatörleri var ve daha fazla zorlarsanız, koşma yeteneğini bile kaybedecek.\n\nBiriminizin dayanıklılığı düşük olduğunda, şunları yapmalısınız:\n\n• Karşı saldırı yapamayan kaçan düşman birimlerini takip etmek için kullanın, böylece yeniden organize olmalarını engelleyin\n• Savaş hattınızın arkasına veya kaçan birimlerinizin yakınına yerleştirin, böylece düşük dayanıklılığa sahip biriminiz onları moral yarıçapıyla destekleyebilir\n• Veya sadece emir vermeden bırakın ki biraz dayanıklılık kazanabilsin\n\nDayanıklılık yenilenmesi çok yavaştır, bu yüzden sadece gerçekten önemli olduğunda kullanmaya çalışın!"
   }
 }

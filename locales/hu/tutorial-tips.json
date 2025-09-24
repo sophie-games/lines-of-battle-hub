@@ -51,6 +51,18 @@
   },
   "runOrder": {
     "title": "Futás Parancs",
-    "message": "Használd a futás parancsot, hogy kitartást költs nagy sebességű mozgásra és ellenséges egységek rohamozására\n\nA rohamok a védő Roham Ellenállás statisztikájától és a támadó Roham Áthatolás statisztikájától függenek (egymás mellett az egység kártyán)\n\nRohamozz alacsony Roham Ellenállású ellenséges egységeket, hogy azonnal megfutamítsd őket.\n\nHasználj musket és tüzérségi tüzet az ellenség Szervezettség és Roham Ellenállás csökkentésére\n\nRohamozz egy magas Szervezettségű egységet egy alacsony Szervezettségű egységre.\n\nHa nem vagy biztos a rohamozásban, ellenőrizheted a célpont Roham Ellenállását rákattintva és megtekintve az egység kártyát. Ezután válaszd ki az egységedet és ellenőrizd a Roham Áthatolását.\n\n• Ha az ellenállásuk mínusz a te áthatolásod 90% vagy kevesebb, fontold meg az oldalsó rohamot.\n• Ha az ellenállásuk mínusz a te áthatolásod 60% vagy kevesebb, fontold meg a frontális rohamot."
+    "message": "Használd a futás parancsot, hogy kitartást költs nagy sebességű mozgásra és ellenséges egységek rohamozására, de ne élj vele túl és ne kimerítsd a csapataidat.\n\nA rohamok a védő Roham Ellenállás statisztikájától és a támadó Roham Áthatolás statisztikájától függenek, amely csökkenti a védő roham ellenállását (egymás mellett az egység kártyán, amely látható a képernyő bal oldalán, amikor egy egységet választasz).\n\nEgy magas Áthatolással végrehajtott roham alacsony Ellenállás ellen megfutamítja a védőt; egy alacsony Áthatolással végrehajtott roham magas Ellenállás ellen nem okozhat kárt vagy akár a támadót is dezorganizálhatja.\n\nA Roham Ellenállás és az Áthatolás mindkettő a Szervezettségen alapul; használj musket és tüzérségi tüzet az ellenség dezorganizálására, majd rohamozz egy friss, magas szervezettségű egységgel.\n\nPróbálj frontálisan rohamozni egységeket, amikor az ellenállásuk csak 60%-kal magasabb, mint a te áthatolásod.\n\nRöviden: használj magas Szervezettségű egységeket alacsony Szervezettségű egységek rohamozására."
+  },
+  "fallbackOrder": {
+    "title": "Visszavonulás Parancs",
+    "message": "A visszavonulás egy rendkívül összetett és kimerítő manőver – egy visszavonuló egység, amely rohamot kap, súlyos kárt szenved, még ha jól szervezett is. Használd ezt a parancsot mérsékelten és próbáld meg friss egységekkel védeni a visszavonuló csapatokat."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Tűz és Előrehaladás Parancs",
+    "message": "A gyalogság és a könnyű tüzérség használhatja a Tűz és Előrehaladás parancsot az ellenségek felé a pozíciójuk javítása érdekében, miközben fenntartják a tüzet. De ne feledd, hogy ez a parancs csökkenti a sebességet és a kimeneti kárt."
+  },
+  "lowStamina": {
+    "title": "Alacsony Kitartás Figyelmeztetés",
+    "message": "Kimerítetted ennek az egységnek a kitartását – már súlyos negatív harcmodifikátorai vannak, és ha tovább nyomás alá helyezed, még a futás képességét is elveszíti.\n\nAmikor az egységed kitartása alacsony, a következőket kellene tenned:\n\n• Használd futó ellenséges egységek üldözésére, amelyek nem tudnak ellentámadni, hogy megakadályozd a szerveződésüket\n• Helyezd a harcvonalad mögé vagy a futó egységeid közelébe, hogy az alacsony kitartású egységed morál sugárral támogathassa őket\n• Vagy egyszerűen hagyd parancs nélkül, hogy egy kicsit regenerálódhasson a kitartása\n\nA kitartás regenerálódása nagyon lassú, ezért próbáld csak akkor használni, amikor tényleg számít!"
   }
 }

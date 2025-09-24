@@ -51,6 +51,18 @@
   },
   "runOrder": {
     "title": "Orden de Carrera",
-    "message": "Usa la orden de carrera para gastar resistencia y moverte a alta velocidad y cargar contra unidades enemigas\n\nLas cargas dependen de la estadística de Resistencia a Cargas del defensor y la estadística de Penetración de Cargas del atacante (lado a lado en la tarjeta de unidad)\n\nCarga contra unidades enemigas con baja Resistencia a Cargas para hacerlas huir instantáneamente.\n\nUsa fuego de mosquete y artillería para reducir la Organización y Resistencia a Cargas del enemigo\n\nCarga una unidad con alta Organización contra una unidad con baja Organización.\n\nSi no estás seguro sobre cargar, puedes verificar la Resistencia a Cargas de tu objetivo haciendo clic en él y viendo la tarjeta de unidad. Luego, selecciona tu unidad y verifica su Penetración de Cargas.\n\n• Si su resistencia menos tu penetración es 90% o menos, considera una carga de flanco.\n• Si su resistencia menos tu penetración es 60% o menos, considera una carga frontal."
+    "message": "Usa la orden de carrera para gastar resistencia y moverte a alta velocidad y cargar contra unidades enemigas, pero no la uses en exceso y agotes a tus tropas.\n\nLas cargas dependen de la estadística de Resistencia a Cargas del defensor y la estadística de Penetración de Cargas del atacante, que reduce la resistencia a cargas del defensor (lado a lado en la tarjeta de unidad, que es visible en la izquierda de la pantalla cuando seleccionas una unidad).\n\nUna carga realizada con alta Penetración contra baja Resistencia hará huir al defensor; una carga con baja Penetración contra alta Resistencia puede no causar daño o incluso desorganizar al atacante.\n\nLa Resistencia a Cargas y la Penetración se basan ambas en la Organización; usa fuego de mosquete y artillería para desorganizar al enemigo, luego carga con una unidad fresca y de alta Organización.\n\nTrata de cargar frontalmente a unidades cuando su resistencia sea solo 60% mayor que tu penetración.\n\nEn resumen: usa unidades con alta Organización para cargar contra unidades con baja Organización."
+  },
+  "fallbackOrder": {
+    "title": "Orden de Retirada",
+    "message": "La retirada es una maniobra altamente compleja y agotadora – una unidad que se retira y recibe una carga sufrirá daño severo incluso si está bien organizada. Usa esta orden con moderación y trata de proteger a las tropas que se retiran con unidades frescas."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Orden de Fuego y Avance",
+    "message": "La infantería y la artillería ligera pueden usar Fuego y Avance hacia los enemigos para mejorar su posición mientras mantienen el fuego. Pero ten en cuenta que esta orden reduce la velocidad y el daño de salida."
+  },
+  "lowStamina": {
+    "title": "Advertencia de Resistencia Baja",
+    "message": "Has agotado la resistencia de esta unidad – ya tiene modificadores de combate negativos severos, y si la presionas mucho más, incluso perderá la capacidad de correr.\n\nCuando tu unidad tiene poca resistencia, deberías:\n\n• Usarla para perseguir unidades enemigas en fuga que no pueden contraatacar, para evitar que se reagrupen\n• Colocarla detrás de tu línea de batalla o cerca de tus unidades en fuga, para que tu unidad con poca resistencia pueda apoyarlas con su radio de moral\n• O simplemente dejarla sin órdenes para que pueda recuperar un poco de resistencia\n\n¡La regeneración de resistencia es muy lenta, así que trata de usarla solo cuando realmente importe!"
   }
 }

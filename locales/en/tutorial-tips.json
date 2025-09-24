@@ -51,6 +51,18 @@
   },
   "runOrder": {
     "title": "Run Order",
-    "message": "Use the Run order to spend stamina to move at high speed and charge enemy units\n\nCharges rely on the defender's Charge Resistance stat and the attacker's Charge Penetration stat (side by side on the unit card)\n\nCharge enemy units with low Charge Resistance to rout them instantly.\n\nUse musket and artillery fire to reduce enemy Organization and Charge Resistance\n\nCharge a unit with high Organization into a unit with low Organization.\n\nIf you're unsure about charging, you can check your target's Charge Resistance by clicking on it and viewing the unit card. Then, select your unit and check its Charge Penetration.\n\n• If their resistance minus your penetration is 90% or less, consider a flank charge.\n• If their resistance minus your penetration is 60% or less, consider a frontal charge."
+    "message": "Use the Run order to spend stamina to move at high speed and charge enemy units, but don't overuse it and exhaust your troops.\n\nCharges rely on the defender's Charge Resistance stat and the attacker's Charge Penetration stat, which reduces defender charge resistance (side by side on the unit card, which is visible on the left of the screen when selecting one unit).\n\nA charge conducted with high Penetration against low Resistance will rout the defender; a charge with low Penetration against high Resistance may deal no damage or even disorganize the attacker.\n\nCharge Resistance and Penetration are both based on Organization; use musket and artillery fire to disorganize the enemy, then charge with a fresh, high-Organization unit.\n\nTry to frontally charge units when their resistance is only 60% higher than your penetration.\n\nIn short: use units with high Organization to charge units with low Organization."
+  },
+  "fallbackOrder": {
+    "title": "Fallback Order",
+    "message": "Fallback is a highly complex and taxing maneuver – a withdrawing unit that receives a charge will take heavy damage even if well-organized. Use this order sparingly and try to protect withdrawing troops with fresh units."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Fire and Advance Order",
+    "message": "Infantry and light artillery may Fire and Advance toward enemies to improve their position while maintaining fire. But keep in mind, this order reduces speed and damage output."
+  },
+  "lowStamina": {
+    "title": "Low Stamina Warning",
+    "message": "You've exhausted this unit's stamina – it already has severe negative combat modifiers, and if you push it much further it will even lose the ability to run.\n\nWhen your unit is low on stamina, you should:\n\n• Use it to pursue routing enemy units that can't fight back, to prevent them from rallying\n• Place it behind your battle line or near your routing units, so your low-stamina unit can support them with its morale radius\n• Or simply leave it without orders so it can recover a little stamina\n\nStamina regain is very slow, so try to only use it when it counts!"
   }
 }
