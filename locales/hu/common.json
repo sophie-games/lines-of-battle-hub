@@ -48,6 +48,8 @@
   "or": "Vagy",
   "quickMatchmaking": "Gyors Párosítás",
   "ranked": "Rangsorolt",
+  "classicUnranked": "Klasszikus Nem Rangsorolt",
+  "classicUnrankedTooltip": "A klasszikus nem rangsorolt módban az Elo nem befolyásolt és csak az alapértelmezett hadsereg használatos.",
   "cancel": "Mégsem",
 
   "matchmakingQueue": {

@@ -49,6 +49,8 @@
   "or": "Или",
   "quickMatchmaking": "Быстрый Поиск",
   "ranked": "Рейтинговый",
+  "classicUnranked": "Классический Нерейтинговый",
+  "classicUnrankedTooltip": "В классическом нерейтинговом режиме Elo не влияет и используется только армия по умолчанию.",
   "cancel": "Отменить",
 
   "matchmakingQueue": {

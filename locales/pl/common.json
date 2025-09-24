@@ -48,7 +48,9 @@
   "selectGameMode": "Wybierz tryb gry z poniższych opcji.",
   "or": "Albo",
   "quickMatchmaking": "Szybkie Dopasowanie",
-  "ranked": "Rankingowy",
+  "ranked": "Rankingowe",
+  "classicUnranked": "Klasyczne Nierankingowe",
+  "classicUnrankedTooltip": "W trybie klasycznym nierankingowym Elo nie jest wpływane i używana jest tylko domyślna armia.",
   "cancel": "Anuluj",
 
   "matchmakingQueue": {

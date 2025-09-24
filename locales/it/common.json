@@ -48,6 +48,8 @@
   "or": "O",
   "quickMatchmaking": "Matchmaking Rapido",
   "ranked": "Classificato",
+  "classicUnranked": "Classico Non Classificato",
+  "classicUnrankedTooltip": "In modalità classica non classificata, l'Elo non viene influenzato e viene utilizzato solo l'esercito predefinito.",
   "cancel": "Annulla",
 
   "matchmakingQueue": {

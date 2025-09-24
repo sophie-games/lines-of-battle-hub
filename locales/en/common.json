@@ -48,6 +48,8 @@
   "selectGameMode": "Select the game mode from the options below.",
   "quickMatchmaking": "Quick Matchmaking",
   "ranked": "Ranked",
+  "classicUnranked": "Classic Unranked",
+  "classicUnrankedTooltip": "In classic unranked mode, Elo is not affected and only the default army is used.",
   "or": "Or",
   "cancel": "Cancel",
 

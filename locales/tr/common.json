@@ -48,6 +48,8 @@
   "or": "Veya",
   "quickMatchmaking": "Hızlı Eşleşme",
   "ranked": "Sıralı",
+  "classicUnranked": "Klasik Sırasız",
+  "classicUnrankedTooltip": "Klasik sırasız modda Elo etkilenmez ve sadece varsayılan ordu kullanılır.",
   "cancel": "İptal",
 
   "matchmakingQueue": {

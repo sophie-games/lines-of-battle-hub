@@ -48,6 +48,8 @@
   "or": "Ou",
   "quickMatchmaking": "Matchmaking Rápido",
   "ranked": "Classificado",
+  "classicUnranked": "Clássico Não Classificado",
+  "classicUnrankedTooltip": "No modo clássico não classificado, o Elo não é afetado e apenas o exército padrão é usado.",
   "cancel": "Cancelar",
 
   "matchmakingQueue": {

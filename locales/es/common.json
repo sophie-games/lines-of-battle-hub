@@ -44,6 +44,8 @@
   "or": "O",
   "quickMatchmaking": "Emparejamiento Rápido",
   "ranked": "Clasificado",
+  "classicUnranked": "Clásico No Clasificado",
+  "classicUnrankedTooltip": "En el modo unranked clásico no afecta el Elo y solo se usa el ejército default.",
   "cancel": "Cancelar",
 
   "matchmakingQueue": {
