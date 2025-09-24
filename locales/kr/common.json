@@ -47,6 +47,7 @@
   "ranked": "랭크전",
   "classicUnranked": "클래식 비랭크",
   "classicUnrankedTooltip": "클래식 비랭크 모드에서는 Elo에 영향을 주지 않으며 기본 군대만 사용됩니다.",
+  "unranked": "비랭크",
   "cancel": "취소",
   "matchmakingQueue": {
     "inQueue": "경기 탐색 대기열에 들어오셨습니다! 등급 체계에 기반해 귀하와 동일한 설정을 선택한 다른 플레이어를 탐색 중입니다.",

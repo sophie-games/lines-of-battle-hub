@@ -51,6 +51,7 @@
   "ranked": "Berperingkat",
   "classicUnranked": "Klasik Tidak Berperingkat",
   "classicUnrankedTooltip": "Dalam mode klasik tidak berperingkat, Elo tidak terpengaruh dan hanya tentara default yang digunakan.",
+  "unranked": "Tidak Berperingkat",
   "cancel": "Batal",
 
   "matchmakingQueue": {

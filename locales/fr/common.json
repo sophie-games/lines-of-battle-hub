@@ -46,6 +46,7 @@
   "ranked": "Classé",
   "classicUnranked": "Classique Non Classé",
   "classicUnrankedTooltip": "En mode classique non classé, l'Elo n'est pas affecté et seule l'armée par défaut est utilisée.",
+  "unranked": "Non Classé",
   "cancel": "Annulez",
 
   "matchmakingQueue": {

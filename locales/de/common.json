@@ -50,6 +50,7 @@
   "ranked": "Bewertet",
   "classicUnranked": "Klassisch Unbewertet",
   "classicUnrankedTooltip": "Im klassischen unbewerteten Modus wird das Elo nicht beeinflusst und nur die Standardarmee verwendet.",
+  "unranked": "Unbewertet",
   "cancel": "Abbrechen",
 
   "matchmakingQueue": {

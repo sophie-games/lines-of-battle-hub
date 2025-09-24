@@ -50,6 +50,7 @@
   "ranked": "Classificado",
   "classicUnranked": "Clássico Não Classificado",
   "classicUnrankedTooltip": "No modo clássico não classificado, o Elo não é afetado e apenas o exército padrão é usado.",
+  "unranked": "Não Classificado",
   "cancel": "Cancelar",
 
   "matchmakingQueue": {

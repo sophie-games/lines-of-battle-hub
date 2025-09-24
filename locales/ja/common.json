@@ -50,6 +50,7 @@
   "ranked": "ランク戦",
   "classicUnranked": "クラシック非ランク",
   "classicUnrankedTooltip": "クラシック非ランクモードでは、Eloに影響せず、デフォルトの軍隊のみが使用されます。",
+  "unranked": "非ランク",
   "cancel": "キャンセル",
 
   "matchmakingQueue": {

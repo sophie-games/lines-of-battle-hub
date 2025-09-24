@@ -47,6 +47,7 @@
   "ranked": "排位赛",
   "classicUnranked": "经典非排位",
   "classicUnrankedTooltip": "在经典非排位模式中，不会影响Elo，只使用默认军队。",
+  "unranked": "非排位",
   "cancel": "取消",
   "matchmakingQueue": {
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的对局选项一致的其他玩家。",

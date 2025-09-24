@@ -50,6 +50,7 @@
   "ranked": "Sıralı",
   "classicUnranked": "Klasik Sırasız",
   "classicUnrankedTooltip": "Klasik sırasız modda Elo etkilenmez ve sadece varsayılan ordu kullanılır.",
+  "unranked": "Sırasız",
   "cancel": "İptal",
 
   "matchmakingQueue": {

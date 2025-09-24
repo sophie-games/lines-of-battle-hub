@@ -51,6 +51,7 @@
   "ranked": "Rankingowe",
   "classicUnranked": "Klasyczne Nierankingowe",
   "classicUnrankedTooltip": "W trybie klasycznym nierankingowym Elo nie jest wpływane i używana jest tylko domyślna armia.",
+  "unranked": "Nierankingowe",
   "cancel": "Anuluj",
 
   "matchmakingQueue": {
