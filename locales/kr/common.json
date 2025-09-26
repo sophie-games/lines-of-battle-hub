@@ -5,7 +5,7 @@
   "tutorial": "배우기",
   "play": "시작",
   "ranking": "순위",
-  "profile": "프로필",
+  "profile": "내 정보",
   "history": "전적",
   "store": "상점",
   "supporters": "후원자",
@@ -276,7 +276,7 @@
   "height": "높이",
   "diminishByTargetOrg": "표적 조직력에 의한 감소치",
   "from": "에서",
-  "to": "까지",
+  "to": "~",
   "lBy": "에 의해",
   "terrainHitboxHeight": "지형 적중영역 높이",
   "statusEffects": "상태 효과",
@@ -380,7 +380,7 @@
   "info": "정보",
   "meleePerformance": "근접방어력",
   "speedByOrg": "조직력에 의한 속도",
-  "turnsLeft": "Turns left",
+  "turnsLeft": "남은 턴",
   "battleOverview": {
     "title": "전투 개요",
     "victoryPoints": "승점",
@@ -509,7 +509,11 @@
   "noDescription": "설명 없음",
   "save": "저장",
   "ordersSubmittedDialog": {
-    "p1": "이제, 상대를 기다립시다.",
+    "p1": {
+      "sent": "서버에 전달된 명령.",
+      "received": "서버가 받은 명형.",
+      "processed": "서버에서 명령을 처리 중입니다. 다른 명령이 처리될 때까지 대기하십시오."
+    },
     "p2": "{{value}}초 뒤 하달 여부 확인",
     "b": "지금 확인"
   },
@@ -609,6 +613,12 @@
     "3": "정예병",
     "4": "제국"
   },
+  "tier": {
+    "free": "무료 이용자",
+    "bronze": "브론즈",
+    "silver": "실버",
+    "gold": "골드"
+  },
   "currentPassword": "현 암호",
   "changePassword": "암호 변경",
   "endRound": "회차 종료",
@@ -672,8 +682,6 @@
   "copyLogs": "로그 복사",
   "copyLogsInstructions": "버그를 신고하고 싶으신가요? 스크린샷을 찍고 로그를 복사해 레오에게 보내주세요.",
   "errorCheckingTimeout": "확인 시간 초과 오류",
-  "disconnectedMessage": "서버와의 연결이 끊어졌습니다. 재연결 중...",
-  "reconnectedMessage": "연결하는 데 성공했습니다. 게임 동기화 중...",
   "removesX": "{{x}} 제거",
   "send": "보내기",
   "chat": "채팅",
@@ -711,5 +719,11 @@
   "friendChat": "친구와 대화",
   "typeMessage": "친구에게...",
   "noMessagesYet": "대화 없음",
-  "sending": "보내는 중..."
+  "sending": "보내는 중...",
+  "measuring": "측정 중...",
+  "disconnected": "연결 끊김",
+  "reconnected": "재연결됨",
+  "connecting": "연결 중...",
+  "disconnecting": "연결이 끊기는 중...",
+  "unknown": "미상"
 }

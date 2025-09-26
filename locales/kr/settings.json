@@ -81,6 +81,10 @@
     "title": "충돌범위 표시",
     "description": "부대에 충돌범위를 표시합니다. 부대를 갱신하려면 턴이 지나야 합니다."
   },
+  "disableSkins": {
+    "title": "외형 끄기",
+    "description": "부대 외형을 비활성화해 기본 외형만 표시합니다."
+  },
   "fullScreen": {
     "title": "전체 화면",
     "description": "애플리케이션 전체 화면 전환",
@@ -91,6 +95,12 @@
     "description": "모든 설정을 기본값으로 초기화합니다. 모든 사용자 지정 설정을 덮어쓰게 됩니다."
   },
   "reset": "초기화",
+  "tierRequirement": {
+    "title": "등급 요구",
+    "settingRequires": "{{setting}는 {{tier}} 등급 플레이어만 사용할 수 있습니다.",
+    "description": "해당 설정과 다른 프리미엄 기능을 이용하려면 Patreon에서 등급을 상승시키세요!",
+    "goToPatreon": "Patreon으로"
+  },
   "lineFormation": "선형진",
   "checkerboardFormation": "귀진진",
   "spaceBetweenUnits": "부대 간 공간",
@@ -98,11 +108,9 @@
   "showSelectIdleUnitButton": {
     "title": "유휴 부대 선택 버튼 표시"
   },
-
   "showChat": {
     "title": "채팅 보기"
   },
-
   "keybindings": {
     "title": "키보드 단축키",
     "pressAKey": "지정할 키를 누르세요...",
@@ -132,7 +140,6 @@
     "controlGroup9": "부대 지정 9",
     "controlGroup0": "부대 지정 0"
   },
-
   "routingTransparency": {
     "title": "궤멸 상태 부대 투명도"
   }
