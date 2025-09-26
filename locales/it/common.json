@@ -50,8 +50,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Sei ora nella coda di matchmaking! Il sistema sta cercando un altro giocatore che ha selezionato le stesse impostazioni di te.",
-    "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco.",
-    "onlyClanMembers": "Gioca solo con compagni della coalizione"
+    "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco."
   },
 
   "fastMode": "Modalità veloce",
@@ -236,7 +235,7 @@
   "orgDamage": "Danno all'organizzazione",
   "enfiladeFireModifiers": "Modificatori fuoco di infilata",
   "rearFireModifiers": "Modificatori fuoco posteriore",
-  "targetAltitude": "Altitudine del bersaglio",
+  "firingAltitude": "Altitudine del bersaglio",
   "canCaptureObjectives": "Può catturare obiettivi",
   "cantCaptureObjectives": "Non può catturare obiettivi",
   "enfiladeFire": "Fuoco di infilata",
@@ -487,7 +486,11 @@
   "save": "Salva",
 
   "ordersSubmittedDialog": {
-    "p1": "Hai inviato i tuoi ordini. Ora, attendi che gli altri facciano la loro mossa.",
+    "p1": {
+      "sent": "Ordini inviati al server.",
+      "received": "Ordini ricevuti dal server.",
+      "processed": "Ordini elaborati dal server. Ora, attendi che gli altri facciano la loro mossa."
+    },
     "p2": "Controllo aggiornamenti tra {{value}} secondi",
     "b": "Controlla ora"
   },
@@ -509,5 +512,12 @@
     "p1": "Scopri gli ultimi aggiornamenti e le funzionalità in Lines of Battle!",
     "p2": "Rimani sintonizzato per ulteriori aggiornamenti e nuove funzionalità in arrivo su Lines of Battle!",
     "p3": "Seguici sui social media per le ultime notizie e annunci."
-  }
+  },
+
+  "measuring": "Misurando...",
+  "disconnected": "Disconnesso",
+  "reconnected": "Riconnesso",
+  "connecting": "Connessione...",
+  "disconnecting": "Disconnessione...",
+  "unknown": "Sconosciuto"
 }

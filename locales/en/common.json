@@ -52,9 +52,9 @@
   "matchmakingQueue": {
     "inQueue": "You are now in the matchmaking queue! The system is searching for another player who has selected the same settings as you.",
     "matchFound": "Once a match is found, you will be redirected to the game.",
-    "onlyClanMembers": "Play only with coalition teammates",
     "extendQueue": "Extend Queue",
-    "extendQueueSuccess": "Searching in any Elo range."
+    "extendQueueSuccess": "Searching in any Elo range.",
+    "cancelledBy": "The queue was cancelled by {{username}}."
   },
 
   "fastMode": "Fast Mode",
@@ -83,6 +83,14 @@
 
   "matchmaking": "Matchmaking",
   "matchmakingDescription": "Matchmaking mode lets you quickly join a game with random players using predefined settings.",
+  "onlyPartyLeaderCanSearch": "Only the party leader can search for a match.",
+  "partyFormed": "Party formed",
+  "partySearchStatus": {
+    "leaderTitle": "You are the party leader",
+    "leaderDescription": "You can search for a match. Your party members will be notified when you start searching.",
+    "memberTitle": "Waiting for party leader",
+    "memberDescription": "Only the party leader can search for a match. You will be notified when they start searching."
+  },
   "custom": "Custom",
   "customDescription": "Custom mode lets you set up a game with specific settings and invite friends to play.",
   "createCustomGame": "Create Custom game",
@@ -271,7 +279,7 @@
   "orgDamage": "Org Damage",
   "enfiladeFireModifiers": "Enfilade Fire Modifiers",
   "rearFireModifiers": "Rear Fire Modifiers",
-  "targetAltitude": "Target Altitude",
+  "firingAltitude": "Firing Altitude",
   "canCaptureObjectives": "Can capture objectives",
   "cantCaptureObjectives": "Cannot capture objectives",
   "enfiladeFire": "Enfilade Fire",
@@ -320,7 +328,10 @@
     "16": "Ice",
     "17": "Farm, Unplanted",
     "18": "Farm, Growing",
-    "19": "Mud"
+    "19": "Mud",
+    "20": "Road, Sunken",
+    "21": "Trench",
+    "22": "Redoubt"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -551,7 +562,11 @@
   "save": "Save",
 
   "ordersSubmittedDialog": {
-    "p1": "Now, wait for the others to make their move.",
+    "p1": {
+      "sent": "Orders sent to the server.",
+      "received": "Orders received by the server.",
+      "processed": "Orders processed by the server. Now, wait for the others to make their move."
+    },
     "p2": "Checking for the opponent's orders in {{value}} seconds",
     "b": "Check Now"
   },
@@ -658,6 +673,13 @@
     "4": "Imperial"
   },
 
+  "tier": {
+    "free": "Free",
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold"
+  },
+
   "currentPassword": "Current Password",
   "changePassword": "Change Password",
   "endRound": "End round",
@@ -722,8 +744,6 @@
   "copyLogs": "Copy logs",
   "copyLogsInstructions": "Want to report a bug? Please take a screenshot, copy the logs, and send them to Leo.",
   "errorCheckingTimeout": "Error checking timeout",
-  "disconnectedMessage": "Lost connection with the server. Reconnecting...",
-  "reconnectedMessage": "Connection succeed. Syncing game...",
   "removesX": "Removes {{x}}",
   "send": "Send",
   "chat": "Chat",
@@ -742,5 +762,33 @@
     "p3": "Follow us on social media for the latest news and announcements."
   },
 
-  "deploymentBuffer": "Deployment buffer"
+  "invitedPlayers": "Invited players",
+  "partyInviteFrom": "Party invite from {{username}}",
+  "leader": "Leader",
+  "you": "You",
+  "pending": "Pending",
+  "leaveParty": "Leave party",
+  "heightOffset": "Height offset",
+  "inviteToParty": "Invite to party",
+  "partyInfo": "Party Information",
+  "partyInfoDescription": "Use the friend bar to invite friends to your party. Only party leaders can invite friends.",
+  "moreOptions": "More options",
+  "friends": "Friends",
+  "addFriend": "Add friend",
+  "outgoingRequests": "Out going requests",
+  "removeFriend": "Remove friend",
+  "noFriends": "No friends :(",
+  "partyInvitation": "Party Invitation",
+  "social": "Social",
+  "friendChat": "Friend Chat",
+  "typeMessage": "Type a message...",
+  "noMessagesYet": "No messages yet",
+  "sending": "Sending...",
+
+  "measuring": "Measuring...",
+  "disconnected": "Disconnected",
+  "reconnected": "Reconnected",
+  "connecting": "Connecting...",
+  "disconnecting": "Disconnecting...",
+  "unknown": "Unknown"
 }

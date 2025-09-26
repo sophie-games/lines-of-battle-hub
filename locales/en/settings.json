@@ -84,6 +84,10 @@
     "title": "Show collision shapes",
     "description": "Shows collision shapes on units. This may require the game to pass turn for the units to update."
   },
+  "disableSkins": {
+    "title": "Disable Skins",
+    "description": "Disable unit skins and show default ones."
+  },
 
   "fullScreen": {
     "title": "Full Screen",
@@ -97,6 +101,13 @@
   },
 
   "reset": "Reset",
+
+  "tierRequirement": {
+    "title": "Tier Requirement",
+    "settingRequires": "{{setting}} is only available for {{tier}} tier players",
+    "description": "Upgrade your tier on Patreon to access this setting and other premium features!",
+    "goToPatreon": "Go to Patreon"
+  },
 
   "lineFormation": "Line Formation",
   "checkerboardFormation": "Checkerboard Formation",

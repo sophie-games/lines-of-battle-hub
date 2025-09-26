@@ -50,8 +50,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Şimdi eşleştirme kuyruğundasınız! Sistem, sizinle aynı ayarları seçmiş başka bir oyuncu arıyor.",
-    "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz.",
-    "onlyClanMembers": "Yalnızca koalisyon takım arkadaşlarıyla oyna"
+    "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz."
   },
 
   "fastMode": "Hızlı Mod",
@@ -238,7 +237,7 @@
   "orgDamage": "Organizasyon Hasarı",
   "enfiladeFireModifiers": "Yan Ateş Değiştiricileri",
   "rearFireModifiers": "Arka Ateş Değiştiricileri",
-  "targetAltitude": "Hedef Yükseklik",
+  "firingAltitude": "Hedef Yükseklik",
   "canCaptureObjectives": "Hedefleri ele geçirebilir",
   "cantCaptureObjectives": "Hedefleri ele geçiremez",
   "enfiladeFire": "Yan Ateş",
@@ -491,7 +490,11 @@
   "save": "Kaydet",
 
   "ordersSubmittedDialog": {
-    "p1": "Emirlerinizi gönderdiniz. Şimdi diğerlerinin hamle yapmasını bekleyin.",
+    "p1": {
+      "sent": "Emirler sunucuya gönderildi.",
+      "received": "Emirler sunucu tarafından alındı.",
+      "processed": "Emirler sunucu tarafından işlendi. Şimdi diğerlerinin hamle yapmasını bekleyin."
+    },
     "p2": "{{value}} saniye içinde güncellemeler kontrol ediliyor",
     "b": "Şimdi Kontrol Et"
   },
@@ -513,5 +516,12 @@
     "p1": "Lines of Battle'deki en son güncellemeleri ve özellikleri kontrol edin!",
     "p2": "Lines of Battle'e gelecek daha fazla güncelleme ve yeni özellikler için bizi takip edin!",
     "p3": "En son haberler ve duyurular için bizi sosyal medyada takip edin."
-  }
+  },
+
+  "measuring": "Ölçülüyor...",
+  "disconnected": "Bağlantı kesildi",
+  "reconnected": "Yeniden bağlandı",
+  "connecting": "Bağlanıyor...",
+  "disconnecting": "Bağlantı kesiliyor...",
+  "unknown": "Bilinmiyor"
 }

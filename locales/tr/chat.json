@@ -1,5 +1,5 @@
 {
-  "warning": "Mesajlar kaydedilmez ve maçtan çıktığınızda silinir.",
+  "warning": "Bu alanın herkes için güvenli ve saygılı kalmasını sağlamak adına, mesajlar saldırgan veya zararlı olarak tespit edilirse incelenebilir.",
   "rateLimitWarning": "Çok hızlı mesaj gönderiyorsunuz. Lütfen biraz bekleyin (en fazla {{seconds}} saniyede {{count}} mesaj).",
   "placeholderAllies": "Müttefiklere mesaj...",
   "placeholderAll": "Herkese mesaj...",

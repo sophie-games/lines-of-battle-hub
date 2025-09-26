@@ -1,5 +1,5 @@
 {
-  "warning": "Messages are not saved and will be cleared when you exit the match.",
+  "warning": "To keep this space safe and respectful for everyone, messages may be reviewed if they are identified as aggressive or harmful.",
   "rateLimitWarning": "You are sending messages too quickly. Please wait a moment (max {{count}} messages per {{seconds}} seconds).",
   "placeholderAllies": "Message to allies...",
   "placeholderAll": "Message to all...",

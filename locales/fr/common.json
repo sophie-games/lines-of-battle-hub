@@ -46,8 +46,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Vous êtes désormais dans la file d'attente ! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
-    "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",
-    "onlyClanMembers": "Jouer uniquement avec des coéquipiers de la coalition"
+    "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie."
   },
 
   "fastMode": "Partie rapide",
@@ -234,7 +233,7 @@
   "orgDamage": "Dégâts à l'organisation",
   "enfiladeFireModifiers": "Modificateur de feu sur le flanc",
   "rearFireModifiers": "Modificateur de feu sur l'arrière",
-  "targetAltitude": "Altitude de la cible",
+  "firingAltitude": "Altitude de la cible",
   "canCaptureObjectives": "Peut capturer les objectifs",
   "cantCaptureObjectives": "Ne peut pas capturer les objectifs",
   "enfiladeFire": "Tir sur le flanc",
@@ -492,7 +491,11 @@
   "save": "Sauvegarder",
 
   "ordersSubmittedDialog": {
-    "p1": "Vous avez soumis vos ordres. Maintenant, attendez que les autres fassent leur mouvement.",
+    "p1": {
+      "sent": "Ordres envoyés au serveur.",
+      "received": "Ordres reçus par le serveur.",
+      "processed": "Ordres traités par le serveur. Maintenant, attendez que les autres fassent leur mouvement."
+    },
     "p2": "Vérification des mises à jour dans {{value}} secondes",
     "b": "Vérifier maintenant"
   },
@@ -523,5 +526,12 @@
     "p1": "Découvrez les dernières mises à jour et fonctionnalités de Lines of Battle !",
     "p2": "Restez à l'écoute pour plus de mises à jour et de nouvelles fonctionnalités à venir dans Lines of Battle !",
     "p3": "Suivez-nous sur les réseaux sociaux pour les dernières nouvelles et annonces."
-  }
+  },
+
+  "measuring": "Mesure...",
+  "disconnected": "Déconnecté",
+  "reconnected": "Reconnecté",
+  "connecting": "Connexion...",
+  "disconnecting": "Déconnexion...",
+  "unknown": "Inconnu"
 }

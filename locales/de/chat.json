@@ -1,5 +1,5 @@
 {
-  "warning": "Nachrichten werden nicht gespeichert und beim Verlassen des Spiels gelöscht.",
+  "warning": "Um diesen Raum für alle sicher und respektvoll zu halten, können Nachrichten überprüft werden, wenn sie als aggressiv oder schädlich eingestuft werden.",
   "rateLimitWarning": "Du sendest Nachrichten zu schnell. Bitte warte einen Moment (max. {{count}} Nachrichten pro {{seconds}} Sekunden).",
   "placeholderAllies": "Nachricht an Verbündete...",
   "placeholderAll": "Nachricht an alle...",

@@ -29,8 +29,12 @@
     "description": "Включите, чтобы минимизировать потери скорости при поворотах."
   },
   "openSelectOrderModal": {
-    "title": "Открывать сообщение о выборе приказа",
+    "title": "Открывать окно выбора приказа",
     "description": "Если активно, во время игры будет показываться окно выбора приказа."
+  },
+  "openSelectFormationModal": {
+    "title": "Открывать окно выбора боевого построения",
+    "description": "Если активно, во время игры будет показываться окно выбора боевого построения."
   },
   "showNewBattleEventsModal": {
     "title": "Показывать сообщение о новых событиях на поле боя"
@@ -76,6 +80,11 @@
     "description": "Включает тени на юнитах. Игра может пропустить ход для обновления юнитов."
   },
 
+  "showCollisionShapes": {
+    "title": "Показывать формы столкновения",
+    "description": "Показывать формы столкновения на юнитах. Игра может пропустить ход для обновления юнитов."
+  },
+
   "fullScreen": {
     "title": "Полноэкранный режим",
     "description": "Включить полноэкранный режим для приложения",
@@ -94,6 +103,14 @@
   "spaceBetweenUnits": "Расстояние между отрядами",
   "spaceBetweenLines": "Расстояние между линиями",
 
+  "showSelectIdleUnitButton": {
+    "title": "Показывать кнопку выбора отрядов без приказа"
+  },
+
+  "showChat": {
+    "title": "Показывать чат"
+  },
+
   "keybindings": {
     "title": "Горячие клавиши",
     "pressAKey": "Нажмите клавишу...",
@@ -104,16 +121,27 @@
     "info": "Информация",
     "submitOrders": "Отдать приказы",
     "deselect": "Снять выделение",
-    "moveOrder": "Движение",
-    "runOrder": "Ближний бой",
+    "moveOrder": "Движение шагом",
+    "runOrder": "Бег/Ближний бой",
     "shootOrder": "Огонь",
-    "fireAndAdvanceOrder": "огонь при движении",
+    "fireAndAdvanceOrder": "Огонь при движении",
     "fallbackOrder": "Отход",
     "toggleFormation": "Выбор построения",
-    "toggleSmartCurvedMovements": "Включение/отключение умного движения по кривой"
+    "toggleSmartCurvedMovements": "Включение/отключение умного движения по кривой",
+    "openChat": "Открыть чат",
+    "controlGroup1": "Группа 1",
+    "controlGroup2": "Группа 2",
+    "controlGroup3": "Группа 3",
+    "controlGroup4": "Группа 4",
+    "controlGroup5": "Группа 5",
+    "controlGroup6": "Группа 6",
+    "controlGroup7": "Группа 7",
+    "controlGroup8": "Группа 8",
+    "controlGroup9": "Группа 9",
+    "controlGroup0": "Группа 0"
   },
 
   "routingTransparency": {
-    "title": "Прозрачность отступающих юнитов"
+    "title": "Прозрачность дезорганизованных отрядов"
   }
 }

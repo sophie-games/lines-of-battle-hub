@@ -50,8 +50,7 @@
 
   "matchmakingQueue": {
     "inQueue": "Sikeresen felkerültél a várólistára! A rendszerünk most olyan ellenfelet keres neked, aki az általad kiválaszott módban és alkalmas beállítások mellett szeretne játszani.",
-    "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára.",
-    "onlyClanMembers": "Csak koalíciós csapattársakkal játssz"
+    "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára."
   },
 
   "fastMode": "Gyors mód",
@@ -236,7 +235,7 @@
   "orgDamage": "Org Sebzés",
   "enfiladeFireModifiers": "Oldalsótűz Módosítók",
   "rearFireModifiers": "Háttűz Módosítók",
-  "targetAltitude": "Célpont Magassága",
+  "firingAltitude": "Célpont Magassága",
   "canCaptureObjectives": "Képes objektívákat elfoglalni",
   "cantCaptureObjectives": "Nem tud objektívákat elfoglalni",
   "enfiladeFire": "Oldalsótűz",
@@ -436,6 +435,16 @@
     "clans": "Koalíciók keresése"
   },
 
+  "ordersSubmittedDialog": {
+    "p1": {
+      "sent": "Parancsok elküldve a szervernek.",
+      "received": "Parancsok megérkeztek a szerverhez.",
+      "processed": "Parancsok feldolgozva a szerver által. Most várj a többi játékos lépésére."
+    },
+    "p2": "Ellenfél parancsainak ellenőrzése {{value}} másodperc múlva",
+    "b": "Most ellenőriz"
+  },
+
   "formation": "Képzés",
   "findGame": "Játék keresése",
   "gameIdOrLink": "Játékazonosító vagy link",
@@ -449,5 +458,12 @@
     "p1": "Nézd meg a legújabb frissítéseket és funkciókat a Lines of Battle-ben!",
     "p2": "Maradj velünk további frissítések és új funkciók érkezéséhez a Lines of Battle-ben!",
     "p3": "Kövess minket a közösségi médiában a legfrissebb hírek és bejelentések érdekében."
-  }
+  },
+
+  "measuring": "Mérés...",
+  "disconnected": "Elválasztva",
+  "reconnected": "Újra csatlakoztatva",
+  "connecting": "Csatlakozás...",
+  "disconnecting": "Elválasztás...",
+  "unknown": "Ismeretlen"
 }

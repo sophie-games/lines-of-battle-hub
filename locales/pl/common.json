@@ -52,7 +52,6 @@
   "matchmakingQueue": {
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
-    "onlyClanMembers": "Graj tylko z członkami koalicji",
     "extendQueue": "Rozszerzona Kolejka",
     "extendQueueSuccess": "Szukanie w zasięgu Twojego ELO"
   },
@@ -270,7 +269,7 @@
   "orgDamage": "Obrażenia do Org.",
   "enfiladeFireModifiers": "Modyfikator Ognia z Flanki",
   "rearFireModifiers": "Modyfikator Ognia od Tyłu",
-  "targetAltitude": "Wysokość Celu",
+  "firingAltitude": "Wysokość Celu",
   "canCaptureObjectives": "Może przejmować punkty",
   "cantCaptureObjectives": "Nie może przejmować punktów",
   "enfiladeFire": "Ogień z Flanki",
@@ -548,7 +547,11 @@
   "save": "Zapisz",
 
   "ordersSubmittedDialog": {
-    "p1": "Poczekaj aż inni prześlą swoje rozkazy",
+    "p1": {
+      "sent": "Rozkazy wysłane do serwera.",
+      "received": "Rozkazy otrzymane przez serwer.",
+      "processed": "Rozkazy przetworzone przez serwer. Teraz poczekaj, aż inni wykonają swój ruch."
+    },
     "p2": "Aktualizacja rozkazów za {{value}}s",
     "b": "Aktualizowanie rozkazów"
   },
@@ -728,5 +731,12 @@
     "p1": "Sprawdź najnowsze aktualizacje i funkcje w Lines of Battle!",
     "p2": "Bądź na bieżąco z kolejnymi aktualizacjami i nowymi funkcjami nadchodzącymi do Lines of Battle!",
     "p3": "Śledź nas w mediach społecznościowych, aby otrzymywać najnowsze wiadomości i ogłoszenia."
-  }
+  },
+
+  "measuring": "Mierzenie...",
+  "disconnected": "Rozłączono",
+  "reconnected": "Ponowne połączenie",
+  "connecting": "Łączenie...",
+  "disconnecting": "Rozłączanie...",
+  "unknown": "Nieznane"
 }
