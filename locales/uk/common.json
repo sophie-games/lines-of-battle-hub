@@ -10,6 +10,8 @@
   "store": "Магазин",
   "supporters": "Меценати",
   "elo": "Ело",
+  "season": "Сезон",
+  "of": "з",
   "joinedAt": "Приєднано {{date}}",
   "addPlayer": "Додати гравця",
   "credits": "Автори",

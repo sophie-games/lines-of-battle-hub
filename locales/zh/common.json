@@ -10,6 +10,8 @@
   "store": "商店",
   "supporters": "赞助者",
   "elo": "Elo",
+  "season": "赛季",
+  "of": "的",
   "joinedAt": "加入于{{date}}",
   "createdAt": "创建于{{date}}",
   "addPlayer": "添加玩家",

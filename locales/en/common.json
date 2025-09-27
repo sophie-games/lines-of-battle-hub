@@ -10,6 +10,8 @@
   "store": "Store",
   "supporters": "Supporters",
   "elo": "Elo",
+  "season": "Season",
+  "of": "of",
   "joinedAt": "Joined at {{date}}",
   "createdAt": "Created at {{date}}",
   "addPlayer": "Add player",

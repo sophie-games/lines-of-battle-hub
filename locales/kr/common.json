@@ -10,6 +10,8 @@
   "store": "상점",
   "supporters": "후원자",
   "elo": "Elo",
+  "season": "시즌",
+  "of": "중",
   "joinedAt": "가입일 : {{date}}",
   "createdAt": "{{date}} 생성됨",
   "addPlayer": "플레이어 추가",

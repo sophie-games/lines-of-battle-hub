@@ -481,6 +481,8 @@
 
   "profile": "Perfil",
   "elo": "Elo",
+  "season": "Temporada",
+  "of": "de",
   "joinedAt": "Se unió en {{date}}",
   "addPlayer": "Agregar jugador",
 

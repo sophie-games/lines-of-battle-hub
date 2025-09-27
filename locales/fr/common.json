@@ -462,6 +462,8 @@
 
   "profile": "Profil",
   "elo": "Elo",
+  "season": "Saison",
+  "of": "de",
   "joinedAt": "Inscrit le {{date}}",
   "addPlayer": "Ajouter un joueur",
   "createCustomGame": "Créer un jeu personnalisé",

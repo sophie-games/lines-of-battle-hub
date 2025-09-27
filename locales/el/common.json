@@ -10,6 +10,8 @@
   "store": "Κατάστημα",
   "supporters": "υποστηρικτές",
   "elo": "Elo",
+  "season": "Σεζόν",
+  "of": "από",
   "joinedAt": "εγγράφηκες στίς {{date}}",
   "createdAt": "φτιάχτηκε στίς {{date}}",
   "addPlayer": "Βάλε παίχτη",

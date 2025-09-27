@@ -10,6 +10,8 @@
   "store": "Laden",
   "supporters": "Unterstützer",
   "elo": "Elo",
+  "season": "Saison",
+  "of": "von",
   "joinedAt": "Am {{date}} beigetreten",
   "addPlayer": "Spieler hinzufügen",
   "credits": "Gutschriften",

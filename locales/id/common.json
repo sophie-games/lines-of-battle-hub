@@ -10,6 +10,8 @@
   "store": "Toko",
   "supporters": "Supporters",
   "elo": "Elo",
+  "season": "Musim",
+  "of": "dari",
   "joinedAt": "Bergabung pada {{date}}",
   "createdAt": "Dibuat pada {{date}}",
   "addPlayer": "Tambah Pemain",
