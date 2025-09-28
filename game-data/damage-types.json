@@ -174,7 +174,7 @@
         "start": 250,
         "end": 500,
         "startMod": -0.05,
-        "endMod": -0.85,
+        "endMod": -0.8,
         "name": "long"
       }
     ],
@@ -190,11 +190,11 @@
           "start": 145,
           "end": 500,
           "startTopWidth": 22,
-          "endTopWidth": 68,
+          "endTopWidth": 72,
           "startBottomWidth": 18,
-          "endBottomWidth": 52,
-          "startHeight": 54,
-          "endHeight": 80
+          "endBottomWidth": 54,
+          "startHeight": 58,
+          "endHeight": 82
         }
       ],
       "absorptionModifier": 2,
