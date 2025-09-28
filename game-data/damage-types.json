@@ -173,7 +173,7 @@
       {
         "start": 250,
         "end": 500,
-        "startMod": -0.05,
+        "startMod": -0.1,
         "endMod": -0.8,
         "name": "long"
       }
