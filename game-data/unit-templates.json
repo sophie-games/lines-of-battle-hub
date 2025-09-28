@@ -197,7 +197,7 @@
     "runMovement": 170,
     "timeToRun": 12,
     "runCost": 12,
-    "hp": 600,
+    "hp": 800,
     "org": 300,
     "stamina": null,
     "ammo": 360,
