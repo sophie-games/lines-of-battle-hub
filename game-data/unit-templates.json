@@ -455,7 +455,7 @@
   },
   {
     "type": 13,
-    "category": "ScoutCavalry",
+    "category": "scoutCavalry",
     "rangedAttack": 14,
     "meleeAttack": 14,
     "meleeDefense": 10,
