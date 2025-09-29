@@ -303,7 +303,7 @@
   {
     "type": 9,
     "category": "artillery",
-    "rangedAttack": 28,
+    "rangedAttack": 29,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -872,7 +872,7 @@
   {
     "type": 24,
     "category": "artillery",
-    "rangedAttack": 37,
+    "rangedAttack": 38,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -916,7 +916,7 @@
   {
     "type": 25,
     "category": "artillery",
-    "rangedAttack": 41,
+    "rangedAttack": 42,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
