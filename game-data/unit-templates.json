@@ -349,6 +349,7 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 55,
+    "chargeResistance": 0.05,
     "runChargeResistanceModifier": -0.8,
     "chargePenetration": 0.2,
     "walkMovement": 65,
@@ -452,7 +453,7 @@
   },
   {
     "type": 13,
-    "category": "lightCavalry",
+    "category": "ScoutCavalry",
     "rangedAttack": 14,
     "meleeAttack": 14,
     "meleeDefense": 10,
