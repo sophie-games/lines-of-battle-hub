@@ -10,6 +10,8 @@
   "store": "Store",
   "supporters": "Supporters",
   "elo": "Elo",
+  "season": "Season",
+  "of": "of",
   "joinedAt": "Joined at {{date}}",
   "createdAt": "Created at {{date}}",
   "addPlayer": "Add player",
@@ -46,6 +48,11 @@
   "createNewGame": "Create new game",
   "randomGameInfo": "For randomly generated games, the game will use the army you've created for the selected battle mode. You can view and manage your armies in the <0>Army Compositions</0>. If you haven't created any armies for that mode yet, a default army will be used.",
   "selectGameMode": "Select the game mode from the options below.",
+  "quickMatchmaking": "Quick Matchmaking",
+  "ranked": "Ranked",
+  "classicUnranked": "Classic Unranked",
+  "classicUnrankedTooltip": "In classic unranked mode, Elo is not affected and only the default army is used.",
+  "unranked": "Unranked",
   "or": "Or",
   "cancel": "Cancel",
 
@@ -54,7 +61,8 @@
     "matchFound": "Once a match is found, you will be redirected to the game.",
     "extendQueue": "Extend Queue",
     "extendQueueSuccess": "Searching in any Elo range.",
-    "cancelledBy": "The queue was cancelled by {{username}}."
+    "cancelledBy": "The queue was cancelled by {{username}}.",
+    "playersInQueue": "{{count}} players searching"
   },
 
   "fastMode": "Fast Mode",
@@ -74,7 +82,6 @@
 
   "battleType": "Battle type",
   "dynamicBattleType": {
-    "skirmish": "Skirmish",
     "clash": "Clash",
     "combat": "Combat",
     "battle": "Battle",
@@ -95,9 +102,17 @@
   "customDescription": "Custom mode lets you set up a game with specific settings and invite friends to play.",
   "createCustomGame": "Create Custom game",
   "maxTurn": "Max turn",
+  "seed": "Seed",
 
   "player": "Player",
   "units": "Units",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "You are AFK",
+    "message": "You have been inactive for too long. Your orders will be submitted automatically to prevent game delays.",
+    "autoSubmitIn": "Auto-submit in",
+    "continuePlaying": "Continue Playing"
+  },
   "unitSkins": "Unit Skins",
   "objectiveSkins": "Objective Skins",
   "avatars": "Avatars",
@@ -110,7 +125,8 @@
   },
 
   "scenarioEditorTags": {
-    "tutorialMessage": " Not sure how to use it? Don't worry, we've got you covered! <tutorialLink>Watch the tutorial here.</tutorialLink>"
+    "tutorialMessage": "Not sure how to use it? Don't worry, we've got you covered! <tutorialLink>Watch the tutorial here.</tutorialLink>",
+    "randomGuide": "Want to learn how to create random maps? Read <0>this guide</0>."
   },
 
   "createScenario": "Create Scenario",
@@ -167,17 +183,24 @@
   },
 
   "unitCategory": {
-    "1": "Infantry",
-    "2": "Cavalry",
-    "3": "Artillery",
-    "4": "Light Infantry",
-    "5": "Light Cavalry",
-    "6": "Heavy Cavalry",
-    "7": "Militia Infantry",
-    "8": "Skirmish Infantry"
+    "infantry": "Infantry",
+    "midCavalry": "Cavalry",
+    "artillery": "Artillery",
+    "lightInfantry": "Light Infantry",
+    "scoutCavalry": "Scout Cavalry",
+    "lightCavalry": "Light Cavalry",
+    "heavyCavalry": "Heavy Cavalry",
+    "militiaInfantry": "Militia Infantry",
+    "skirmishInfantry": "Skirmish Infantry"
   },
 
   "category": "Category",
+
+  "routingBehavior": "Routing Behavior",
+  "baseSpeed": "Base Speed",
+  "moveWhileInMelee": "Move While In Melee",
+  "walk": "Walk",
+  "run": "Run",
 
   "damageType": {
     "musket": "Musket",
@@ -201,7 +224,13 @@
     "horse-archer-bow": "Horse Archer Bow",
     "marksman-musket": "Marksman Musket",
     "rifle": "Rifle",
-    "rocket": "Rocket"
+    "rocket": "Rocket",
+    "10lb-canister-fire": "10-lb Canister Fire",
+    "10lb-cannon-ball": "10-lb Cannon Ball",
+    "10lb-explosive-shell": "10-lb Explosive Shell",
+    "18lb-canister-fire": "18-lb Canister Fire",
+    "18lb-cannon-ball": "18-lb Cannon Ball",
+    "18lb-explosive-shell": "18-lb Explosive Shell"
   },
 
   "unitName": {
@@ -223,7 +252,13 @@
     "16": "Skirmishers",
     "17": "Rifles",
     "18": "6-lb Foot Artillery",
-    "19": "Rockets"
+    "19": "Rockets",
+    "20": "Unknown",
+    "21": "Unknown Infantry",
+    "22": "Unknown Cavalry",
+    "23": "Unknown Artillery",
+    "24": "10-lb Licorne",
+    "25": "18-lb Licorne"
   },
 
   "battalionName": {
@@ -245,7 +280,13 @@
     "16": "{{n}} Skirmishers",
     "17": "{{n}} Rifles",
     "18": "{{n}} Foot Battery",
-    "19": "{{n}} Rockets"
+    "19": "{{n}} Rockets",
+    "20": "Unknown",
+    "21": "Unknown Infantry",
+    "22": "Unknown Cavalry",
+    "23": "Unknown Artillery",
+    "24": "{{n}} Licorne",
+    "25": "{{n}} Licorne"
   },
 
   "unitDescription": {
@@ -267,7 +308,9 @@
     "16": "Napoleonic battalions would detach these small companies of loose-order troops, such as Voltigeurs and Jaegers, to carry out a variety of duties. These troops would occupy terrain unsuitable to large infantry units, harass the enemy line, and screen the army to fend off enemy skirmishers.",
     "17": "While rifles of the Napoleonic era offer a much lower rate of fire than muskets, they compensated with excellent accuracy that helped win skirmishing duels, pick off enemy officers, and harass enemy artillery from a distance.",
     "18": "Napoleon favored the 6lb cannon for its balance of power and maneuverability; as the Napoleonic Wars wore on, he sought to replace the 4 and 8lb guns with as many 6 and 12lb guns as possible.",
-    "19": "The Napoleonic rocket was an experimental, temperamental weapon with persistent accuracy issues. However, it boasts high maneuverability, a substantial explosive payload that's effective against terrain, and can deal excellent organizational damage at close range."
+    "19": "The Napoleonic rocket was an experimental, temperamental weapon with persistent accuracy issues. However, it boasts high maneuverability, a substantial explosive payload that's effective against terrain, and can deal excellent organizational damage at close range.",
+    "24": "The 10-pounder licorne was a Russian artillery piece used in the Napoleonic Wars. It combined features of cannons and howitzers, allowing it to fire both solid shot and explosive shells, and was valued for its versatility and range.",
+    "25": "The 18-pounder licorne was a Russian artillery piece of the Napoleonic Wars, combining the roles of cannon and howitzer. It could fire both solid shot and explosive shells, making it effective for long-range bombardment and battlefield support."
   },
 
   "damageResistances": "Damage Resistances",
@@ -283,6 +326,7 @@
   "canCaptureObjectives": "Can capture objectives",
   "cantCaptureObjectives": "Cannot capture objectives",
   "enfiladeFire": "Enfilade Fire",
+  "pointBlankRange": "Point Blank Range",
   "closeRange": "Close Range",
   "midRange": "Mid Range",
   "longRange": "Long Range",
@@ -298,6 +342,10 @@
   "topWidth": "Top width",
   "bottomWidth": "Bottom width",
   "height": "Height",
+  "elevationModifiers": "Elevation Modifiers",
+  "heightModifierPerLevel": "Height Modifier per Level",
+  "damageModifierPerLevel": "Damage Modifier per Level",
+  "maxElevationDiff": "Max Elevation Difference",
   "diminishByTargetOrg": "Diminish by Target Org",
   "from": "from",
   "to": "to",
@@ -357,6 +405,9 @@
   "noUnitsYet": "No units yet",
   "armyComposition": "Army Composition",
   "budgetAvailable": "Budget Available",
+  "reserveAmmo": "Reserve Ammo",
+  "estimatedTurnsOfFire": "Estimated turns of fire",
+  "reserveAmmoDescription": "Unspent gold contributes to your reserve artillery ammunition, which automatically replenishes your artillery's inherent ammo as it fires. The estimated turns of fire take both reserve and unit ammo into account.",
   "saveArmy": "Save army",
   "clearUnits": "Clear units",
   "saving": "Saving...",
@@ -397,6 +448,7 @@
   },
 
   "selectOrder": "Select Order",
+  "autofire": "Autofire",
   "allowFireWhenMoving": "Allow fire when moving",
   "meleeDamage": "Melee damage",
   "rangedDamage": "Ranged damage",
@@ -425,7 +477,8 @@
     "powerLost": "Power Lost",
     "lossesRatio": "Losses Ratio",
     "objectives": "Objectives",
-    "timeWithoutObjectives": "Time without Objectives",
+    "timeUnderPressure": "Time under pressure",
+    "timeUnderPressureTooltip": "Time under pressure is the time a team has the <0>{{percentage}}%</0> of the objectives or less. The longer a team is under pressure, the more victory points they lose.",
     "unitsOrgRegain": "Units org regain"
   },
 
@@ -455,7 +508,8 @@
     "2": "Been in melee",
     "3": "Has ran",
     "4": "Started routing",
-    "5": "Has taken fire"
+    "5": "Has taken fire",
+    "6": "Has fired"
   },
 
   "login": "Login",
@@ -594,6 +648,7 @@
   "joinName": "Join {{name}}",
   "startTournament": "Start tournament",
   "startRoundN": "Start round {{number}}",
+  "initRound1": "Init the round 1",
   "open": "Open",
   "closed": "Closed",
   "viewGame": "View game",
@@ -610,7 +665,8 @@
   },
 
   "hasPassword": "Has password",
-  "autoStartRounds": "Auto start rounds",
+  "autoProgression": "Auto progression",
+  "autoProgressionInfo": "If this option is enabled, the tournament will automatically move to the next round as soon as the last match of the current round is completed. If it is disabled, the tournament will advance either when the administrator starts it manually or at the scheduled date and time (if one has been set).",
   "optional": "Optional",
   "round": "Round",
   "current": "Current",
@@ -719,10 +775,12 @@
   "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
   "skirmisherRatio": "Skirmisher ratio",
   "friendlyFireImmune": "Friendly fire immune",
+
   "nearbyUnits": "Nearby units",
   "preset": "Preset",
   "hybrid": "Hybrid",
   "random": "Random",
+  "classic": "Classic",
   "projectileWidth": "Projectile width",
   "allyCollisionLevel": "Ally collision level",
   "enemyCollisionLevel": "Enemy collision level",
@@ -762,6 +820,12 @@
     "p3": "Follow us on social media for the latest news and announcements."
   },
 
+  "tournamentStartedModal": {
+    "title": "A tournament game has started",
+    "message": "Round {{round}} of tournament {{tournamentName}} has started!",
+    "goButtonText": "Go to tournament game"
+  },
+
   "invitedPlayers": "Invited players",
   "partyInviteFrom": "Party invite from {{username}}",
   "leader": "Leader",
@@ -784,11 +848,56 @@
   "typeMessage": "Type a message...",
   "noMessagesYet": "No messages yet",
   "sending": "Sending...",
+  "immuneToFlankRearBonuses": "Immune to flank and rear bonuses",
+
+  "allVisible": "All Visible",
+  "teamN": "Team {{number}}",
 
   "measuring": "Measuring...",
   "disconnected": "Disconnected",
   "reconnected": "Reconnected",
   "connecting": "Connecting...",
   "disconnecting": "Disconnecting...",
-  "unknown": "Unknown"
+  "unknown": "Unknown",
+  "fogOfWar": "Fog of war",
+  "max": "Max",
+  "minDistanceToFAA": "Min distance to FAA",
+  "captureProgress": "Capture progress",
+  "captureThreshold": "Capture threshold",
+  "big": "Big",
+  "small": "Small",
+
+  "chargePenetrationTooltip": "Reduces charge resistance of target.",
+  "forFlankCharges": "For flank charges is <0>{{value}}</0>",
+  "forRearCharges": "For rear charges is <0>{{value}}</0>",
+
+  "base": "Base",
+  "Terrain": "Terrain",
+  "chargeResistanceTooltip": "Reduces the enemy's charge damage.",
+
+  "rotationSpeed": "Rotation speed",
+  "runRotationSpeed": "Run rotation speed",
+  "rotationMaxThreshold": "Rotation max threshold",
+
+  "low": "Low",
+  "medium": "Medium",
+  "high": "High",
+  "dismiss": "Dismiss",
+  "cannotChargeAgainst": "Cannot charge against",
+  "turningDelay": "Turning delay",
+
+  "infantry": "Infantry",
+  "cavalry": "Cavalry",
+  "artillery": "Artillery",
+  "special": "Special",
+
+  "academy": "Academy",
+  "ammo": "Ammo",
+  "ammoConsumption": "Ammo Consumption",
+  "allowsCharging": "Allows charging",
+  "limbersArtillery": "Limbers artillery",
+  "all": "All",
+  "scenario": "Scenario",
+  "banned": "Banned",
+  "baseAmmo": "Base ammo"
 }

@@ -42,12 +42,20 @@
   "randomGameInfo": "Para los juegos generados aleatoriamente, el juego utilizará el ejército que has creado para el modo de batalla seleccionado. Puedes ver y gestionar tus ejércitos en las <0>Composiciones de Ejército</0>. Si no has creado ejércitos para ese modo aún, se usará un ejército predeterminado.",
   "selectGameMode": "Selecciona el modo de juego de las opciones a continuación.",
   "or": "O",
+  "quickMatchmaking": "Emparejamiento Rápido",
+  "ranked": "Clasificado",
+  "classicUnranked": "Clásico No Clasificado",
+  "classicUnrankedTooltip": "En el modo unranked clásico no afecta el Elo y solo se usa el ejército default.",
+  "unranked": "No Clasificado",
   "cancel": "Cancelar",
 
   "matchmakingQueue": {
     "inQueue": "¡Ahora estás en la cola de emparejamiento! El sistema está buscando otro jugador que haya seleccionado las mismas configuraciones que tú.",
     "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido al juego.",
-    "extendQueueSuccess": "Buscando en cualquier rango de Elo."
+    "extendQueue": "Extender cola",
+    "extendQueueSuccess": "Buscando en cualquier rango de Elo.",
+    "cancelledBy": "La cola fue cancelada por {{username}}.",
+    "playersInQueue": "{{count}} jugadores buscando"
   },
 
   "fastMode": "Modo rápido",
@@ -67,8 +75,7 @@
 
   "battleType": "Tipo de batalla",
   "dynamicBattleType": {
-    "skirmish": "Escaramuza",
-    "clash": "Enfrentamiento",
+    "clash": "Encuentro",
     "combat": "Combate",
     "battle": "Batalla",
     "grand_battle": "Gran Batalla"
@@ -87,9 +94,17 @@
 
   "customDescription": "El modo personalizado te permite configurar un juego con ajustes específicos e invitar a tus amigos a jugar.",
   "maxTurn": "Turno máximo",
+  "seed": "Semilla",
 
   "player": "Jugador",
   "units": "Unidades",
+  "afk": "Ausente",
+  "afkWarning": {
+    "title": "Estás Ausente",
+    "message": "Has estado inactivo por demasiado tiempo. Tus órdenes se enviarán automáticamente para evitar retrasos en el juego.",
+    "autoSubmitIn": "Envío automático en",
+    "continuePlaying": "Continuar Jugando"
+  },
   "unitSkins": "Aspectos de las unidades",
   "objectiveSkins": "Aspectos de objetivos",
   "avatars": "Avatares",
@@ -141,6 +156,7 @@
   "unitStat": {
     "hp": "HP",
     "org": "Organización",
+    "stamina": "Resistencia",
     "walkMovement": "Caminar",
     "movement": "Movimiento",
     "meleeAttack": "Ataque cuerpo a cuerpo",
@@ -157,12 +173,15 @@
   },
 
   "unitCategory": {
-    "1": "Infantería",
-    "2": "Caballería",
-    "3": "Artillería",
-    "4": "Infantería Ligera",
-    "5": "Caballería Ligera",
-    "6": "Caballería Pesada"
+    "infantry": "Infantería",
+    "midCavalry": "Caballería",
+    "artillery": "Artillería",
+    "lightInfantry": "Infantería Ligera",
+    "scoutCavalry": "Caballería de Exploración",
+    "lightCavalry": "Caballería Ligera",
+    "heavyCavalry": "Caballería Pesada",
+    "militiaInfantry": "Infantería de Milicia",
+    "skirmishInfantry": "Infantería de Tiradores"
   },
 
   "category": "Categoría",
@@ -203,7 +222,9 @@
     "12": "Artillería de a Pie de 12 libras",
     "13": "Arqueros a caballo",
     "14": "Granaderos",
-    "15": "Artillería de a Pie de 4 libras"
+    "15": "Artillería de a Pie de 4 libras",
+    "24": "Licorne de 10 libras",
+    "25": "Licorne de 18 libras"
   },
 
   "battalionName": {
@@ -314,6 +335,9 @@
   "noUnitsYet": "Todavía no hay unidades",
   "armyComposition": "Composición de ejército",
   "budgetAvailable": "Presupuesto disponible",
+  "reserveAmmo": "Munición de Reserva",
+  "estimatedTurnsOfFire": "Turnos de fuego estimados",
+  "reserveAmmoDescription": "El oro no gastado contribuye a tu munición de artillería de reserva, que automáticamente repone la munición inherente de tu artillería mientras dispara. Los turnos de fuego estimados toman en cuenta tanto la munición de reserva como la de la unidad.",
   "saveArmy": "Guardar ejército",
   "clearUnits": "Borrar unidades",
   "saving": "Guardando...",
@@ -354,6 +378,7 @@
   },
 
   "selectOrder": "Seleccionar orden",
+  "autofire": "Fuego automático",
   "allowFireWhenMoving": "Permite disparar mientras te movés",
   "meleeDamage": "Daño cuerpo a cuerpo",
   "rangedDamage": "Daño a distancia",
@@ -382,7 +407,8 @@
     "powerLost": "Poder Perdido",
     "lossesRatio": "Ratio de Pérdidas",
     "objectives": "Objetivos",
-    "timeWithoutObjectives": "Tiempo sin Objetivos",
+    "timeUnderPressure": "Tiempo bajo presión",
+    "timeUnderPressureTooltip": "El tiempo bajo presión es el tiempo en que un equipo controla <0>{{percentage}}%</0> de los objetivos o menos. Cuanto más tiempo permanezca un equipo bajo presión, más puntos de victoria perderá.",
     "unitsOrgRegain": "Recuperación de la Org de las Unidades"
   },
 
@@ -455,6 +481,8 @@
 
   "profile": "Perfil",
   "elo": "Elo",
+  "season": "Temporada",
+  "of": "de",
   "joinedAt": "Se unió en {{date}}",
   "addPlayer": "Agregar jugador",
 
@@ -551,6 +579,7 @@
   "joinName": "Unirse a {{name}}",
   "startTournament": "Iniciar torneo",
   "startRoundN": "Iniciar ronda {{number}}",
+  "initRound1": "Inicializar la ronda 1",
   "open": "Abierto",
   "closed": "Cerrado",
   "viewGame": "Ver juego",
@@ -567,7 +596,8 @@
   },
 
   "hasPassword": "Tiene contraseña",
-  "autoStartRounds": "Rondas de inicio automático",
+  "autoProgression": "Progresión automática",
+  "autoProgressionInfo": "Si esta opción está habilitada, el torneo avanzará automáticamente a la siguiente ronda tan pronto como se complete el último partido de la ronda actual. Si está deshabilitada, el torneo avanzará cuando el administrador lo inicie manualmente o en la fecha y hora programada (si se ha establecido una).",
   "optional": "Opcional",
   "round": "Ronda",
   "current": "Actual",
@@ -663,6 +693,7 @@
   "preset": "Preestablecido",
   "hybrid": "Híbrido",
   "random": "Aleatorio",
+  "classic": "Clásico",
   "join": "Unirse",
   "spectate": "Espectar",
   "gameIsNotFull": "El juego aún no está lleno",
@@ -680,10 +711,40 @@
     "p3": "Síguenos en las redes sociales para las últimas noticias y anuncios."
   },
 
+  "tournamentStartedModal": {
+    "title": "Un juego de torneo ha comenzado",
+    "message": "¡La ronda {{round}} del torneo {{tournamentName}} ha comenzado!",
+    "goButtonText": "Ir al juego del torneo"
+  },
+
+  "allVisible": "Todo Visible",
+  "teamN": "Equipo {{number}}",
   "measuring": "Midiendo...",
   "disconnected": "Desconectado",
   "reconnected": "Reconectado",
   "connecting": "Conectando...",
   "disconnecting": "Desconectando...",
-  "unknown": "Desconocido"
+  "unknown": "Desconocido",
+
+  "fogOfWar": "Niebla de guerra",
+
+  "low": "Baja",
+  "medium": "Media",
+  "high": "Alta",
+  "dismiss": "Descartar",
+  "turningDelay": "Retraso de giro",
+  "infantry": "Infantería",
+  "cavalry": "Caballería",
+  "artillery": "Artillería",
+  "special": "Especial",
+
+  "academy": "Academia",
+  "ammo": "Munición",
+  "ammoConsumption": "Consumo de Munición",
+  "allowsCharging": "Permite cargar",
+  "limbersArtillery": "Desmonta la artillería",
+  "all": "Todos",
+  "scenario": "Escenario",
+  "banned": "Baneado",
+  "baseAmmo": "Munición base"
 }

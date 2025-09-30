@@ -10,6 +10,8 @@
   "store": "商店",
   "supporters": "赞助者",
   "elo": "Elo",
+  "season": "赛季",
+  "of": "的",
   "joinedAt": "加入于{{date}}",
   "createdAt": "创建于{{date}}",
   "addPlayer": "添加玩家",
@@ -43,13 +45,19 @@
   "randomGameInfo": "在随机生成地图的对局中，游戏会使用你在对应模式里预先配置的军队。你可以在<0>军队配置</0>里查看并管理你的军队配置。如果你还没有创建任何军队配置，游戏会按默认方案给你提供配置。",
   "selectGameMode": "从以下选项中选择游戏模式。",
   "or": "或是",
+  "quickMatchmaking": "快速匹配",
+  "ranked": "排位赛",
+  "classicUnranked": "经典非排位",
+  "classicUnrankedTooltip": "在经典非排位模式中，不会影响Elo，只使用默认军队。",
+  "unranked": "非排位",
   "cancel": "取消",
   "matchmakingQueue": {
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的对局选项一致的其他玩家。",
     "matchFound": "当搜索到匹配对象时，你会自动进入对局。",
     "extendQueue": "扩大匹配范围",
     "extendQueueSuccess": "匹配范围已经扩大！正在匹配全分段的对手。",
-    "cancelledBy": "匹配被{{username}}取消了。"
+    "cancelledBy": "匹配被{{username}}取消了。",
+    "playersInQueue": "{{count}}名玩家正在搜索"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
@@ -66,10 +74,9 @@
   },
   "battleType": "战斗规模",
   "dynamicBattleType": {
-    "skirmish": "遭遇战",
-    "clash": "冲突",
+    "clash": "遭遇战",
     "combat": "战斗",
-    "battle": "战役",
+    "battle": "战斗",
     "grand_battle": "大战役"
   },
   "matchmaking": "匹配",
@@ -88,6 +95,13 @@
   "maxTurn": "最大回合数",
   "player": "玩家",
   "units": "单位",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "您处于AFK状态",
+    "message": "您已经长时间未活动。为了防止游戏延迟，您的指令将自动提交。",
+    "autoSubmitIn": "自动提交倒计时",
+    "continuePlaying": "继续游戏"
+  },
   "unitSkins": "单位皮肤",
   "objectiveSkins": "目标点皮肤",
   "avatars": "头像",
@@ -150,14 +164,15 @@
     "runCost": "疾跑消耗"
   },
   "unitCategory": {
-    "1": "步兵",
-    "2": "骑兵",
-    "3": "炮兵",
-    "4": "轻步兵",
-    "5": "轻骑兵",
-    "6": "重骑兵",
-    "7": "民兵",
-    "8": "散兵"
+    "infantry": "步兵",
+    "midCavalry": "骑兵",
+    "artillery": "炮兵",
+    "lightInfantry": "轻步兵",
+    "scoutCavalry": "侦察骑兵",
+    "lightCavalry": "轻骑兵",
+    "heavyCavalry": "重骑兵",
+    "militiaInfantry": "民兵",
+    "skirmishInfantry": "散兵"
   },
   "category": "类别",
   "damageType": {
@@ -328,6 +343,9 @@
   "noUnitsYet": "没有单位",
   "armyComposition": "军队配置",
   "budgetAvailable": "剩余预算",
+  "reserveAmmo": "储备弹药",
+  "estimatedTurnsOfFire": "预估射击回合",
+  "reserveAmmoDescription": "未花费的金币会贡献给你的储备炮兵弹药，它会自动补充你的炮兵在射击时的固有弹药。预估射击回合数同时考虑了储备弹药和单位弹药。",
   "saveArmy": "保存军队",
   "clearUnits": "清除单位",
   "saving": "保存中……",
@@ -361,6 +379,7 @@
     "7": "无指令"
   },
   "selectOrder": "选择指令",
+  "autofire": "自动射击",
   "allowFireWhenMoving": "允许移动射击",
   "meleeDamage": "近战伤害",
   "rangedDamage": "远程伤害",
@@ -388,7 +407,8 @@
     "powerLost": "军力损失",
     "lossesRatio": "损伤比",
     "objectives": "目标点",
-    "timeWithoutObjectives": "失去目标点的时间",
+    "timeUnderPressure": "受压时间",
+    "timeUnderPressureTooltip": "受压时间是指团队控制<0>{{percentage}}%</0>或更少目标点的时间。团队受压时间越长，损失的胜利点数就越多。",
     "unitsOrgRegain": "单位组织度恢复"
   },
   "offerDrawModal": {
@@ -539,6 +559,7 @@
   "joinName": "加入 {{name}}",
   "startTournament": "开始锦标赛",
   "startRoundN": "开始第{{number}}轮",
+  "initRound1": "初始化第1轮",
   "open": "开放",
   "closed": "已关闭",
   "viewGame": "查看对局",
@@ -553,7 +574,6 @@
     "cancelled": "已取消"
   },
   "hasPassword": "有密码",
-  "autoStartRounds": "自动开始新轮次",
   "optional": "可选",
   "round": "轮次",
   "current": "当前",
@@ -655,6 +675,7 @@
   "preset": "预设",
   "hybrid": "混合",
   "random": "随机",
+  "classic": "经典",
   "projectileWidth": "射击宽度",
   "allyCollisionLevel": "友军碰撞等级",
   "enemyCollisionLevel": "敌军碰撞等级",
@@ -714,11 +735,44 @@
   "typeMessage": "发送信息……",
   "noMessagesYet": "没有聊天历史",
   "sending": "发送中……",
+  "allVisible": "全部可见",
+  "teamN": "队伍{{number}}",
 
   "measuring": "测量中...",
   "disconnected": "断开连接",
   "reconnected": "重新连接",
   "connecting": "连接中...",
   "disconnecting": "断开连接...",
-  "unknown": "未知"
+  "unknown": "未知",
+
+  "fogOfWar": "战争迷雾",
+
+  "low": "低",
+  "medium": "中",
+  "high": "高",
+
+  "tournamentStartedModal": {
+    "title": "锦标赛对局已开始",
+    "message": "{{tournamentName}}的第{{round}}轮已开始！",
+    "goButtonText": "前往锦标赛对局"
+  },
+
+  "dismiss": "关闭",
+  "turningDelay": "转向延迟",
+  "infantry": "步兵",
+  "cavalry": "骑兵",
+  "artillery": "炮兵",
+  "special": "特殊",
+
+  "academy": "学院",
+  "ammo": "弹药",
+  "ammoConsumption": "弹药消耗",
+  "autoProgression": "自动进行",
+  "autoProgressionInfo": "如果启用此选项，锦标赛将在当前轮次的最后一场比赛完成后自动进入下一轮。如果禁用，锦标赛将在管理员手动启动时或在预定日期和时间（如果已设置）进行。",
+  "allowsCharging": "允许冲锋",
+  "limbersArtillery": "拆卸火炮",
+  "all": "全部",
+  "scenario": "场景",
+  "banned": "已封禁",
+  "baseAmmo": "基础弹药"
 }

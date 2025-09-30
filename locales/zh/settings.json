@@ -118,6 +118,7 @@
     "fallbackOrder": "后退指令",
     "toggleFormation": "切换阵型",
     "toggleSmartCurvedMovements": "切换智能曲线移动",
+    "toggleFowPerspective": "切换战争迷雾视角",
     "openChat": "打开聊天栏",
     "controlGroup1": "控制编组1",
     "controlGroup2": "控制编组2",
@@ -132,5 +133,18 @@
   },
   "routingTransparency": {
     "title": "溃退单位透明度"
+  },
+
+  "fogOfWar": {
+    "description": "战争迷雾是出现在你的单位无法看到的地形上的阴影。检查玩家可以看到的每个瓦片的计算开销是昂贵的，因此禁用此选项可能会提高性能。但是，此选项是100%图形化的；禁用它不会使隐藏的敌方单位可见。"
+  },
+
+  "fogOfWarColor": {
+    "title": "战争迷雾颜色"
+  },
+
+  "groundQuality": {
+    "title": "地形质量",
+    "description": "控制地形纹理的质量。更高的质量提供更好的视觉细节，但可能影响性能。需要刷新地图。"
   }
 }

@@ -10,6 +10,8 @@
   "store": "Mağaza",
   "supporters": "Destekçiler",
   "elo": "Elo",
+  "season": "Sezon",
+  "of": "arasında",
   "joinedAt": "{{date}} tarihinde katıldı",
   "addPlayer": "Oyuncu ekle",
   "credits": "Katkılar",
@@ -46,11 +48,20 @@
   "randomGameInfo": "Rastgele oluşturulan oyunlar için, oyun seçtiğiniz savaş modu için oluşturduğunuz orduyu kullanır. Ordularınızı <0>Ordu Kompozisyonları</0> bölümünde görüntüleyebilir ve yönetebilirsiniz. Eğer o mod için henüz bir ordu oluşturmadıysanız, varsayılan bir ordu kullanılacaktır.",
   "selectGameMode": "Aşağıdaki seçeneklerden oyun modunu seçin.",
   "or": "Veya",
+  "quickMatchmaking": "Hızlı Eşleşme",
+  "ranked": "Sıralı",
+  "classicUnranked": "Klasik Sırasız",
+  "classicUnrankedTooltip": "Klasik sırasız modda Elo etkilenmez ve sadece varsayılan ordu kullanılır.",
+  "unranked": "Sırasız",
   "cancel": "İptal",
 
   "matchmakingQueue": {
     "inQueue": "Şimdi eşleştirme kuyruğundasınız! Sistem, sizinle aynı ayarları seçmiş başka bir oyuncu arıyor.",
-    "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz."
+    "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz.",
+    "extendQueue": "Kuyruğu genişlet",
+    "extendQueueSuccess": "Herhangi bir Elo aralığında aranıyor.",
+    "cancelledBy": "Kuyruk {{username}} tarafından iptal edildi.",
+    "playersInQueue": "{{count}} oyuncu aranıyor"
   },
 
   "fastMode": "Hızlı Mod",
@@ -70,9 +81,8 @@
 
   "battleType": "Savaş türü",
   "dynamicBattleType": {
-    "skirmish": "Çatışma",
     "clash": "Karşılaşma",
-    "combat": "Mücadele",
+    "combat": "Savaş",
     "battle": "Savaş",
     "grand_battle": "Büyük Savaş"
   },
@@ -86,6 +96,13 @@
 
   "player": "Oyuncu",
   "units": "Birimler",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "AFK durumdasınız",
+    "message": "Çok uzun süre hareketsiz kaldınız. Oyun gecikmelerini önlemek için emirleriniz otomatik olarak gönderilecek.",
+    "autoSubmitIn": "Otomatik gönderim",
+    "continuePlaying": "Oynamaya devam et"
+  },
   "unitSkins": "Birim Görünümleri",
   "avatars": "Avatarlar",
   "withdraw": "Çekil",
@@ -135,6 +152,7 @@
   "unitStat": {
     "hp": "Can",
     "org": "Organizasyon",
+    "stamina": "Dayanıklılık",
     "movement": "Hareket",
     "meleeAttack": "Yakın Saldırı",
     "meleeDefense": "Yakın Savunma",
@@ -149,13 +167,15 @@
   },
 
   "unitCategory": {
-    "1": "Piyade",
-    "2": "Süvari",
-    "3": "Topçu",
-    "4": "Hafif Piyade",
-    "5": "Hafif Süvari",
-    "6": "Ağır Süvari",
-    "7": "Milis Piyade"
+    "infantry": "Piyade",
+    "midCavalry": "Süvari",
+    "artillery": "Topçu",
+    "lightInfantry": "Hafif Piyade",
+    "scoutCavalry": "Keşif Süvarisi",
+    "lightCavalry": "Hafif Süvari",
+    "heavyCavalry": "Ağır Süvari",
+    "militiaInfantry": "Milis Piyade",
+    "skirmishInfantry": "Avcı Piyade"
   },
 
   "category": "Kategori",
@@ -297,6 +317,9 @@
   "noUnitsYet": "Henüz birim yok",
   "armyComposition": "Ordu Kompozisyonu",
   "budgetAvailable": "Kullanılabilir Bütçe",
+  "reserveAmmo": "Yedek Mühimmat",
+  "estimatedTurnsOfFire": "Tahmini ateş turu",
+  "reserveAmmoDescription": "Harcanmamış altın, yedek topçu mühimmatınıza katkıda bulunur ve topçunuz ateş ettiğinde doğal mühimmatını otomatik olarak yeniler. Tahmini ateş turları hem yedek hem de birim mühimmatını dikkate alır.",
   "saveArmy": "Orduyu kaydet",
   "clearUnits": "Birimleri temizle",
   "saving": "Kaydediliyor...",
@@ -336,6 +359,7 @@
   },
 
   "selectOrder": "Emir Seç",
+  "autofire": "Otomatik ateş",
   "allowFireWhenMoving": "Hareket ederken ateşe izin ver",
   "meleeDamage": "Yakın dövüş hasarı",
   "rangedDamage": "Uzak mesafe hasarı",
@@ -364,7 +388,8 @@
     "powerLost": "Kayıp Güç",
     "lossesRatio": "Kayıp Oranı",
     "objectives": "Hedefler",
-    "timeWithoutObjectives": "Hedefsiz Geçen Süre",
+    "timeUnderPressure": "Baskı Altındaki Süre",
+    "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin <0>{{percentage}}%</0>'ini veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
     "unitsOrgRegain": "Birim organizasyon kazanımı"
   },
 
@@ -518,10 +543,55 @@
     "p3": "En son haberler ve duyurular için bizi sosyal medyada takip edin."
   },
 
+  "allVisible": "Tümü Görünür",
+  "teamN": "Takım {{number}}",
   "measuring": "Ölçülüyor...",
   "disconnected": "Bağlantı kesildi",
   "reconnected": "Yeniden bağlandı",
   "connecting": "Bağlanıyor...",
   "disconnecting": "Bağlantı kesiliyor...",
-  "unknown": "Bilinmiyor"
+  "unknown": "Bilinmiyor",
+
+  "fogOfWar": "Savaş sisi",
+
+  "low": "Düşük",
+  "medium": "Orta",
+  "high": "Yüksek",
+
+  "tournamentStartedModal": {
+    "title": "Bir turnuva oyunu başladı",
+    "message": "{{tournamentName}} turnuvasının {{round}}. turu başladı!",
+    "goButtonText": "Turnuva oyununa git"
+  },
+
+  "dismiss": "Kapat",
+  "turningDelay": "Dönüş gecikmesi",
+  "infantry": "Piyade",
+  "cavalry": "Süvari",
+  "artillery": "Topçu",
+  "special": "Özel",
+
+  "preset": "Önceden ayarlanmış",
+  "hybrid": "Hibrit",
+  "random": "Rastgele",
+  "classic": "Klasik",
+
+  "academy": "Akademi",
+  "ammo": "Cephane",
+  "ammoConsumption": "Cephane Tüketimi",
+  "tournaments": "Turnuvalar",
+  "createTournament": "Turnuva oluştur",
+  "hasPassword": "Şifre var",
+  "optional": "İsteğe bağlı",
+
+  "initRound1": "1. turu başlat",
+
+  "autoProgression": "Otomatik ilerleme",
+  "autoProgressionInfo": "Bu seçenek etkinleştirilirse, turnuva mevcut turun son maçı tamamlandığında otomatik olarak bir sonraki tura geçer. Devre dışı bırakılırsa, turnuva yönetici tarafından manuel olarak başlatıldığında veya planlanan tarih ve saatte (eğer ayarlanmışsa) ilerler.",
+  "allowsCharging": "Hücum etmeye izin verir",
+  "limbersArtillery": "Topçuyu söker",
+  "all": "Tümü",
+  "scenario": "Senaryo",
+  "banned": "Yasaklandı",
+  "baseAmmo": "Temel cephane"
 }

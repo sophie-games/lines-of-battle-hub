@@ -42,11 +42,20 @@
   "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'ordre de bataille que vous avez créé pour ce type de bataille. Vous pouvez voir et gérez la composition de vos armées dans le menu <0>Ordre de bataille</0>. Si vous n'avez pas encore créé d'ordre de bataille, le jeu en sélectionnera une par défaut.",
   "selectGameMode": "Sélectionner le mode de jeu grâce aux options ci-dessous.",
   "or": "Ou",
+  "quickMatchmaking": "Appariement Rapide",
+  "ranked": "Classé",
+  "classicUnranked": "Classique Non Classé",
+  "classicUnrankedTooltip": "En mode classique non classé, l'Elo n'est pas affecté et seule l'armée par défaut est utilisée.",
+  "unranked": "Non Classé",
   "cancel": "Annulez",
 
   "matchmakingQueue": {
     "inQueue": "Vous êtes désormais dans la file d'attente ! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
-    "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie."
+    "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",
+    "extendQueue": "Étendre la file",
+    "extendQueueSuccess": "Recherche dans n'importe quelle plage Elo.",
+    "cancelledBy": "La file a été annulée par {{username}}.",
+    "playersInQueue": "{{count}} joueurs en recherche"
   },
 
   "fastMode": "Partie rapide",
@@ -66,11 +75,10 @@
 
   "battleType": "Type de bataille",
   "dynamicBattleType": {
-    "skirmish": "Escarmouche",
-    "clash": "Affrontement",
+    "clash": "Rencontre",
     "combat": "Combat",
     "battle": "Bataille",
-    "grand_battle": "Grande bataille"
+    "grand_battle": "Grande Bataille"
   },
 
   "matchmaking": "Partie classée",
@@ -79,9 +87,17 @@
 
   "customDescription": "Le mode personnalisé vous permet de jouer contre vos amis avec des paramètres que vous aurez définis.",
   "maxTurn": "Nb de tour max",
+  "seed": "Graine",
 
   "player": "Joueur",
   "units": "Unités",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "Vous êtes AFK",
+    "message": "Vous êtes inactif depuis trop longtemps. Vos ordres seront soumis automatiquement pour éviter les retards de jeu.",
+    "autoSubmitIn": "Soumission automatique dans",
+    "continuePlaying": "Continuer à jouer"
+  },
   "unitSkins": "Cosmétiques",
   "avatars": "Avatars",
   "withdraw": "Battre en retraite",
@@ -131,6 +147,7 @@
   "unitStat": {
     "hp": "PV",
     "org": "Organisation",
+    "stamina": "Endurance",
     "movement": "Mouvement",
     "meleeAttack": "Attaque en mêlée",
     "meleeDefense": "Défense en mêlée",
@@ -145,13 +162,15 @@
   },
 
   "unitCategory": {
-    "1": "Infanterie",
-    "2": "Cavalerie",
-    "3": "Artillerie",
-    "4": "Infanterie légère",
-    "5": "Cavalerie légère",
-    "6": "Cavalerie lourde",
-    "7": "Milice"
+    "infantry": "Infanterie",
+    "midCavalry": "Cavalerie",
+    "artillery": "Artillerie",
+    "lightInfantry": "Infanterie légère",
+    "scoutCavalry": "Cavalerie d'éclairage",
+    "lightCavalry": "Cavalerie légère",
+    "heavyCavalry": "Cavalerie lourde",
+    "militiaInfantry": "Infanterie de milice",
+    "skirmishInfantry": "Infanterie de tirailleurs"
   },
 
   "category": "Catégorie",
@@ -189,7 +208,9 @@
     "10": "Milice",
     "11": "Hussards",
     "12": "Artillerie à pied de 12 livres",
-    "13": "Archers montés"
+    "13": "Archers montés",
+    "24": "Licorne de 10 livres",
+    "25": "Licorne de 18 livres"
   },
 
   "battalionName": {
@@ -205,7 +226,9 @@
     "10": "{{n}} Milice",
     "11": "{{n}} Hussards",
     "12": "{{n}} Batterie à pied",
-    "13": "{{n}} Archers à cheval"
+    "13": "{{n}} Archers à cheval",
+    "24": "{{n}} Licorne",
+    "25": "{{n}} Licorne"
   },
 
   "unitDescription": {
@@ -220,8 +243,10 @@
     "12": "L'artillerie la plus lourde de l'armée napoléonienne; malgré son coût exhorbitant, sa portée et sa puissance de feu reste inégalée.",
     "6": "La vitesse et le coût modeste de cette artillerie en font une candidate idéale pour soutenir la cavalerie et accompagner la ligne d'infanterie.",
     "9": "Grâce aux obus explosifs et à sa mitraille dévastatrice, l'obusier léger est idéal pour soutenir la ligne d'infanterie à courte et moyenne portée.",
-    "10": "« Placer une quelconque confiance dans la milice, c’est assurément s’appuyer sur un bâton brisé. » - George Washington",
-    "13": "« Les archers montés bachkirs sont sans aucun doute les troupes les moins dangereuses au monde. » - Baron Marbot, ignorant une flèche dans sa cuisse"
+    "10": "« Placer une quelconque confiance dans la milice, c'est assurément s'appuyer sur un bâton brisé. » - George Washington",
+    "13": "« Les archers montés bachkirs sont sans aucun doute les troupes les moins dangereuses au monde. » - Baron Marbot, ignorant une flèche dans sa cuisse",
+    "24": "La licorne de 10 livres était une pièce d'artillerie russe utilisée pendant les guerres napoléoniennes. Elle combinait les caractéristiques des canons et des obusiers, permettant de tirer à la fois des boulets pleins et des obus explosifs, et était appréciée pour sa polyvalence et sa portée.",
+    "25": "La licorne de 18 livres était une pièce d'artillerie russe des guerres napoléoniennes, combinant les rôles de canon et d'obusier. Elle pouvait tirer à la fois des boulets pleins et des obus explosifs, la rendant efficace pour le bombardement à longue portée et le soutien sur le champ de bataille."
   },
 
   "damageResistances": "Résistances aux dégâts",
@@ -293,6 +318,9 @@
   "noUnitsYet": "Pas d'unités pour le moment",
   "armyComposition": "Ordre de bataille",
   "budgetAvailable": "Budget disponible",
+  "reserveAmmo": "Munitions de Réserve",
+  "estimatedTurnsOfFire": "Tours de tir estimés",
+  "reserveAmmoDescription": "L'or non dépensé contribue à vos munitions d'artillerie de réserve, qui reconstituent automatiquement les munitions inhérentes de votre artillerie pendant qu'elle tire. Les tours de tir estimés prennent en compte à la fois les munitions de réserve et celles de l'unité.",
   "saveArmy": "Sauvegarder l'armée",
   "clearUnits": "Supprimer les unités",
   "saving": "Sauvegarde...",
@@ -332,6 +360,7 @@
   },
 
   "selectOrder": "Sélectionner un ordre",
+  "autofire": "Tir automatique",
   "allowFireWhenMoving": "Permet de tirer en avançant",
   "meleeDamage": "Dégâts de mêlée",
   "rangedDamage": "Dégâts à distance",
@@ -360,7 +389,8 @@
     "powerLost": "Pertes",
     "lossesRatio": "Ratio de pertes",
     "objectives": "Objectifs",
-    "timeWithoutObjectives": "Temps passé sans objectif",
+    "timeUnderPressure": "Temps sous pression",
+    "timeUnderPressureTooltip": "Le temps sous pression est le temps pendant lequel une équipe contrôle <0>{{percentage}}%</0> des objectifs ou moins. Plus une équipe reste sous pression longtemps, plus elle perd de points de victoire.",
     "unitsOrgRegain": "Regain d'organisation des unités"
   },
 
@@ -432,6 +462,8 @@
 
   "profile": "Profil",
   "elo": "Elo",
+  "season": "Saison",
+  "of": "de",
   "joinedAt": "Inscrit le {{date}}",
   "addPlayer": "Ajouter un joueur",
   "createCustomGame": "Créer un jeu personnalisé",
@@ -528,10 +560,54 @@
     "p3": "Suivez-nous sur les réseaux sociaux pour les dernières nouvelles et annonces."
   },
 
+  "tournaments": "Tournois",
+  "createTournament": "Créer un tournoi",
+  "hasPassword": "A un mot de passe",
+  "autoProgression": "Progression automatique",
+  "autoProgressionInfo": "Si cette option est activée, le tournoi passera automatiquement au tour suivant dès que le dernier match du tour actuel sera terminé. Si elle est désactivée, le tournoi avancera soit lorsque l'administrateur le démarrera manuellement, soit à la date et l'heure prévues (si une a été définie).",
+  "optional": "Optionnel",
+
+  "tournamentStartedModal": {
+    "title": "Un match de tournoi a commencé",
+    "message": "Le tour {{round}} du tournoi {{tournamentName}} a commencé !",
+    "goButtonText": "Aller au match de tournoi"
+  },
+
+  "allVisible": "Tout Visible",
+  "teamN": "Équipe {{number}}",
   "measuring": "Mesure...",
   "disconnected": "Déconnecté",
   "reconnected": "Reconnecté",
   "connecting": "Connexion...",
   "disconnecting": "Déconnexion...",
-  "unknown": "Inconnu"
+  "unknown": "Inconnu",
+
+  "fogOfWar": "Brouillard de guerre",
+
+  "low": "Faible",
+  "medium": "Moyen",
+  "high": "Élevé",
+  "dismiss": "Ignorer",
+  "turningDelay": "Délai de rotation",
+  "infantry": "Infanterie",
+  "cavalry": "Cavalerie",
+  "artillery": "Artillerie",
+  "special": "Spécial",
+
+  "preset": "Prédéfini",
+  "hybrid": "Hybride",
+  "random": "Aléatoire",
+  "classic": "Classique",
+
+  "academy": "Académie",
+  "ammo": "Munitions",
+  "ammoConsumption": "Consommation de Munitions",
+  "initRound1": "Initialiser la ronde 1",
+
+  "allowsCharging": "Permet de charger",
+  "limbersArtillery": "Limite l'artillerie",
+  "all": "Tous",
+  "scenario": "Scénario",
+  "banned": "Banni",
+  "baseAmmo": "Munitions de base"
 }

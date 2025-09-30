@@ -10,6 +10,8 @@
   "store": "ストア",
   "supporters": "サポーター",
   "elo": "Elo",
+  "season": "シーズン",
+  "of": "の",
   "joinedAt": "{{date}} に参加",
   "addPlayer": "プレイヤーを追加",
   "credits": "クレジット",
@@ -46,11 +48,20 @@
   "randomGameInfo": "ランダム生成ゲームでは、選択した戦闘モードの軍編成が使用されます。「軍編成」で管理・確認できます。軍編成が未作成の場合、デフォルトの編成が使用されます。",
   "selectGameMode": "以下のオプションからゲームモードを選択してください。",
   "or": "または",
+  "quickMatchmaking": "クイックマッチメイキング",
+  "ranked": "ランク戦",
+  "classicUnranked": "クラシック非ランク",
+  "classicUnrankedTooltip": "クラシック非ランクモードでは、Eloに影響せず、デフォルトの軍隊のみが使用されます。",
+  "unranked": "非ランク",
   "cancel": "キャンセル",
 
   "matchmakingQueue": {
     "inQueue": "現在マッチメイキングキューにいます。同じ設定を選択したプレイヤーを探しています。",
-    "matchFound": "マッチが見つかると、自動的にゲームに移動します。"
+    "matchFound": "マッチが見つかると、自動的にゲームに移動します。",
+    "extendQueue": "キューを拡張",
+    "extendQueueSuccess": "任意のElo範囲で検索中。",
+    "cancelledBy": "キューは{{username}}によってキャンセルされました。",
+    "playersInQueue": "{{count}}人のプレイヤーが検索中"
   },
 
   "fastMode": "高速モード",
@@ -70,11 +81,10 @@
 
   "battleType": "戦闘タイプ",
   "dynamicBattleType": {
-    "skirmish": "小競り合い",
-    "clash": "衝突",
+    "clash": "遭遇戦",
     "combat": "戦闘",
-    "battle": "バトル",
-    "grand_battle": "大規模戦闘"
+    "battle": "戦闘",
+    "grand_battle": "大戦闘"
   },
 
   "matchmaking": "マッチメイキング",
@@ -86,6 +96,13 @@
 
   "player": "プレイヤー",
   "units": "ユニット",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "あなたはAFKです",
+    "message": "長時間非アクティブです。ゲームの遅延を防ぐため、あなたの命令は自動的に送信されます。",
+    "autoSubmitIn": "自動送信まで",
+    "continuePlaying": "プレイを続ける"
+  },
   "unitSkins": "ユニットスキン",
   "avatars": "アバター",
   "withdraw": "撤退",
@@ -135,6 +152,7 @@
   "unitStat": {
     "hp": "HP",
     "org": "編成",
+    "stamina": "スタミナ",
     "movement": "移動",
     "meleeAttack": "白兵攻撃",
     "meleeDefense": "白兵防御",
@@ -149,12 +167,15 @@
   },
 
   "unitCategory": {
-    "1": "歩兵",
-    "2": "騎兵",
-    "3": "砲兵",
-    "4": "軽歩兵",
-    "5": "軽騎兵",
-    "6": "重騎兵"
+    "infantry": "歩兵",
+    "midCavalry": "騎兵",
+    "artillery": "砲兵",
+    "lightInfantry": "軽歩兵",
+    "scoutCavalry": "斥候騎兵",
+    "lightCavalry": "軽騎兵",
+    "heavyCavalry": "重騎兵",
+    "militiaInfantry": "民兵歩兵",
+    "skirmishInfantry": "散兵歩兵"
   },
 
   "category": "カテゴリー",
@@ -295,6 +316,9 @@
   "noUnitsYet": "ユニットはまだありません",
   "armyComposition": "軍編成",
   "budgetAvailable": "利用可能な予算",
+  "reserveAmmo": "予備弾薬",
+  "estimatedTurnsOfFire": "推定射撃ターン",
+  "reserveAmmoDescription": "未使用のゴールドは予備砲兵弾薬に貢献し、砲兵が射撃する際に自動的に内蔵弾薬を補充します。推定射撃ターン数は予備弾薬とユニット弾薬の両方を考慮します。",
   "saveArmy": "軍を保存",
   "clearUnits": "ユニットをクリア",
   "saving": "保存中...",
@@ -334,6 +358,7 @@
   },
 
   "selectOrder": "命令を選択",
+  "autofire": "自動射撃",
   "allowFireWhenMoving": "移動中に射撃を許可",
   "meleeDamage": "接近戦ダメージ",
   "rangedDamage": "遠距離ダメージ",
@@ -362,7 +387,8 @@
     "powerLost": "失われた軍事力",
     "lossesRatio": "損失比率",
     "objectives": "目標",
-    "timeWithoutObjectives": "目標なしの時間",
+    "timeUnderPressure": "圧迫時間",
+    "timeUnderPressureTooltip": "圧迫時間とは、チームが目標の<0>{{percentage}}%</0>以下を制御している時間です。チームが圧迫状態にある時間が長いほど、より多くの勝利ポイントを失います。",
     "unitsOrgRegain": "ユニットの組織回復"
   },
 
@@ -513,10 +539,55 @@
     "p3": "最新のニュースとお知らせについては、ソーシャルメディアでフォローしてください。"
   },
 
+  "allVisible": "すべて表示",
+  "teamN": "チーム{{number}}",
   "measuring": "測定中...",
   "disconnected": "切断",
   "reconnected": "再接続",
   "connecting": "接続中...",
   "disconnecting": "切断中...",
-  "unknown": "不明"
+  "unknown": "不明",
+
+  "fogOfWar": "戦争の霧",
+
+  "low": "低",
+  "medium": "中",
+  "high": "高",
+
+  "tournamentStartedModal": {
+    "title": "トーナメントゲームが開始されました",
+    "message": "{{tournamentName}}の第{{round}}ラウンドが開始されました！",
+    "goButtonText": "トーナメントゲームへ"
+  },
+
+  "dismiss": "閉じる",
+  "turningDelay": "旋回遅延",
+  "infantry": "歩兵",
+  "cavalry": "騎兵",
+  "artillery": "砲兵",
+  "special": "特殊",
+
+  "preset": "プリセット",
+  "hybrid": "ハイブリッド",
+  "random": "ランダム",
+  "classic": "クラシック",
+
+  "academy": "アカデミー",
+  "ammo": "弾薬",
+  "ammoConsumption": "弾薬消費",
+  "tournaments": "トーナメント",
+  "createTournament": "トーナメントを作成",
+  "hasPassword": "パスワードあり",
+  "optional": "オプション",
+
+  "initRound1": "ラウンド1を初期化",
+
+  "autoProgression": "自動進行",
+  "autoProgressionInfo": "このオプションが有効になっている場合、現在のラウンドの最後の試合が完了するとすぐに、トーナメントは自動的に次のラウンドに進みます。無効になっている場合、トーナメントは管理者が手動で開始するか、スケジュールされた日時（設定されている場合）に進行します。",
+  "allowsCharging": "突撃を可能にする",
+  "limbersArtillery": "大砲を分解する",
+  "all": "すべて",
+  "scenario": "シナリオ",
+  "banned": "禁止",
+  "baseAmmo": "基本弾薬"
 }

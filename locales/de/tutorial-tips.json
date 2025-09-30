@@ -1,0 +1,68 @@
+{
+  "gotIt": "Verstanden!",
+  "disableTips": "Tipps deaktivieren",
+  "friendlyFire": {
+    "title": "Warnung vor Eigenbeschuss",
+    "message": "Dieser Schuss wird Eigenbeschuss verursachen! Schauen Sie nach dem gelben Symbol auf Einheiten, um zu sehen, welche beschädigt werden."
+  },
+  "armyComposition": {
+    "title": "Tipps zur Armeezusammensetzung",
+    "message": "Hier können Sie benutzerdefinierte Armeen entwerfen, die Ihrem eigenen Stil und Ihren Vorlieben entsprechen. Wenn Sie neu bei Lines of Battle sind, bleiben Sie bei der Standardzusammensetzung, bis Sie die Grundlagen gelernt haben; die Standardarmeen sind sehr wettbewerbsfähig und bestehen aus den kosteneffektivsten, ausgewogensten Einheiten im Spiel.\n\nDie besten Armeen bestehen typischerweise aus 60-75% Infanterie, 20-35% Kavallerie und 10-15% Artillerie."
+  },
+  "firstBattle": {
+    "title": "Glückwunsch zum Beginn Ihrer ersten Schlacht, General!",
+    "message": "Eine feindliche Streitmacht von etwa gleicher Stärke ist marschiert, um uns auf diesem Schlachtfeld zu treffen.\n\nEs gibt drei Wege, den Sieg zu erringen:\n\n1. Die vollständige Zerstörung der feindlichen Streitmacht – routen Sie jede Einheit, um zu gewinnen.\n2. Das Halten des Feldes am Ende des Tages – fügen Sie dem Feind mehr Verluste zu oder nutzen Sie Ihre Infanteriebataillone, um neutrale Ziele zu erobern und Siegpunkte zu sammeln. Wenn Sie am Ende des Spiels einen Vorsprung von +10 Siegpunkten haben, gewinnen Sie.\n3. Das Durchtrennen der feindlichen Versorgungslinien – nutzen Sie Ihre Infanteriebataillone, um das große Ziel in der feindlichen Aufstellungszone zu erobern. Dies dauert mehr als doppelt so lange wie die Eroberung eines kleinen Ziels, wird das Spiel aber zu Ihren Gunsten beenden.\n\nViel Glück, General!"
+  },
+  "routingUnits": {
+    "title": "Fliehende Einheiten",
+    "message": "Eine Einheit hat alle Kohäsion verloren und flieht jetzt von der Front. Wenn sie eine sichere Entfernung von feindlichen Kräften erreichen kann, wird sie aufhören zu fliehen und schnell ihre Organisation wiedererlangen – bei 30% Organisation wird sie sich sammeln und Sie werden die Kontrolle über sie zurückgewinnen. Sie können diesen Prozess beschleunigen, indem Sie befreundete Einheiten wie Kavallerie in der Nähe platzieren.\n\nVersuchen Sie, niedrig organisierte Einheiten im Kampf durch frische, gut organisierte Reserven zu ersetzen. Es ist viel effizienter, eine desorganisierte Einheit zu reorganisieren, als eine gebrochene zu sammeln."
+  },
+  "lineInfantrySelection": {
+    "title": "Linieninfanterie",
+    "message": "Dies ist ein Infanteriebataillon von 800 Mann, das in der Lage ist, Ziele mit Musketenfeuer oder dem Bajonett zu bekämpfen. Verwenden Sie den Befehl 'Feuern und Vorrücken', um sich zu nähern und verheerenden Fernkampfschaden zu verursachen, und verwenden Sie den Befehl 'Laufen', um Ausdauer zu verbrauchen und schnell Boden zu gewinnen, um einen Bajonettangriff gegen andere Infanterie zu starten. Seien Sie jedoch vorsichtig, den Laufbefehl nicht zu oft zu verwenden, und vermeiden Sie es, feindliche Infanterie mit hoher Organisation anzugreifen."
+  },
+  "skirmisherSelection": {
+    "title": "Schützen",
+    "message": "Schützen repräsentieren eine Kompanie (~150 Mann) von Scharfschützen, die ohne Formation kämpfen.\n\nDiese Einheiten nehmen fast keinen Schaden von Musketen und Artillerie, aber schweren Schaden im Nahkampf.\n\nPlatzieren Sie Ihre Schützen im Gelände oder nutzen Sie Linieninfanterie und Kavallerie, um sie vor Angriffen zu schützen.\n\nSchützen sind hervorragend darin, Stützpunkte zu halten oder Artillerie und Infanterie mit Fernfeuer zu belästigen."
+  },
+  "cavalrySelection": {
+    "title": "Kavallerie",
+    "message": "Kavallerieeinheiten sind schnell und mächtig, erfordern aber sorgfältige Führung.\n\n• Verwenden Sie den Laufbefehl, um Ausdauer zu verbrauchen und Schützen, niedrig organisierte Infanterie und schlecht geschützte Artillerie anzugreifen\n• Bewahren Sie Ausdauer, indem Sie Kavallerie nach Möglichkeit gehen lassen\n• Kavallerie wird immer 1 gegen 1 gegen Infanterie mit hoher Organisation verlieren\n• Desorganisieren Sie feindliche Infanterie mit Musketen- und Artilleriefeuer vor einem Angriff\n• Bewahren Sie Ihre Kavallerie für entscheidende Momente\n• Halten Sie Kavallerie aus dem Gelände heraus"
+  },
+  "artillerySelection": {
+    "title": "Artillerie",
+    "message": "Artillerie ist ein Kraftmultiplikator; sie unterstützt Infanterie und Kavallerie, kann aber keine Schlachten allein gewinnen.\n\n• Artillerie hat keine Ausdauer; verwenden Sie immer den Laufbefehl beim Überqueren langer Distanzen\n• Artillerie hat Munition; behalten Sie Ihre Munitionsreserve im Auge, damit Sie nicht leer ausgehen\n• Napoleonische Artillerie benötigt eine klare Sichtlinie zum Feuern; blockieren Sie sie nicht mit Ihrer Infanterie\n\nVerstehen Sie die beste Nutzung der verschiedenen Artilleriereichweiten:\n\n• Fernfeuer: niedriger Schaden an vielen Einheiten (großer Wirkungsbereich)\n• Mittlere Reichweite: guter Schaden an wenigen Einheiten (kleiner Wirkungsbereich)\n• Nahfeuer: extremer Schaden an einer Einheit (Kartätschenfeuer)\n\nErwägen Sie, Ihre Artillerie mit der Schlachtlinie vorzurücken, anstatt sie aus der Ferne im Hintergrund feuern zu lassen."
+  },
+  "forestMovement": {
+    "title": "Waldgelände",
+    "message": "Sie haben dieser Einheit befohlen, sich durch einen Wald zu bewegen. Dieses Gelände:\n\n• Bietet Schutz vor feindlichem Feuer und reduziert die Sicht\n• Erhöht die Ausdauerkosten für Nahkampf und Bewegung\n• Reduziert die Kampfeffektivität der Kavallerie\n• Reduziert die Schadensleistung der Artillerie darin"
+  },
+  "buildingMovement": {
+    "title": "Gebäudegelände",
+    "message": "Sie haben dieser Einheit befohlen, sich durch ein Gebäude zu bewegen. Dieses Gelände:\n\n• Bietet ausgezeichneten Schutz vor feindlichem Feuer und reduziert die Sicht\n• Erhöht die Ausdauerkosten für Nahkampf und Bewegung\n• Reduziert die Kampfeffektivität der Kavallerie erheblich\n• Reduziert die Schadensleistung der Artillerie darin erheblich"
+  },
+  "roadMovement": {
+    "title": "Straßenbewegung",
+    "message": "Sie haben dieser Einheit befohlen, sich auf einer Straße zu bewegen. Straßen:\n\n• Erhöhen die Bewegungsgeschwindigkeit erheblich, besonders für Artillerie\n• Halbieren die Ausdauerkosten – erwägen Sie, Einheiten entlang der Straße zu Ihrem Ziel laufen zu lassen"
+  },
+  "waterMovement": {
+    "title": "Wassergelände",
+    "message": "Sie haben dieser Einheit befohlen, sich durch Wasser zu bewegen. Wasser:\n\n• Bestraft Bewegungsgeschwindigkeit, Nahkampfverteidigung, Ausdauer und Fernkampfleistung stark\n• Wenn Sie sich durch Wasser bewegen, lassen Sie sich nicht dort im Kampf festsetzen\n• Überlegen Sie, wie Sie Wasser nutzen können, um den Feind zu behindern"
+  },
+  "runOrder": {
+    "title": "Lauf-Befehl",
+    "message": "Verwenden Sie den Lauf-Befehl, um Ausdauer zu verbrauchen und sich mit hoher Geschwindigkeit zu bewegen und feindliche Einheiten anzugreifen, aber übertreiben Sie es nicht und erschöpfen Sie Ihre Truppen nicht.\n\nAngriffe basieren auf der Angriffsresistenz des Verteidigers und der Angriffsdurchdringung des Angreifers, die die Angriffsresistenz des Verteidigers reduziert (nebeneinander auf der Einheitskarte, die links auf dem Bildschirm sichtbar ist, wenn Sie eine Einheit auswählen).\n\nEin Angriff mit hoher Durchdringung gegen niedrige Resistenz wird den Verteidiger in die Flucht schlagen; ein Angriff mit niedriger Durchdringung gegen hohe Resistenz kann keinen Schaden verursachen oder sogar den Angreifer desorganisieren.\n\nAngriffsresistenz und -durchdringung basieren beide auf der Organisation; verwenden Sie Musketen- und Artilleriefeuer, um den Feind zu desorganisieren, und greifen Sie dann mit einer frischen, hochorganisierten Einheit an.\n\nVersuchen Sie, Einheiten frontal anzugreifen, wenn ihre Resistenz nur 60% höher ist als Ihre Durchdringung.\n\nKurz gesagt: verwenden Sie Einheiten mit hoher Organisation, um Einheiten mit niedriger Organisation anzugreifen."
+  },
+  "fallbackOrder": {
+    "title": "Rückzugs-Befehl",
+    "message": "Rückzug ist ein hochkomplexes und anstrengendes Manöver – eine sich zurückziehende Einheit, die angegriffen wird, wird schweren Schaden erleiden, auch wenn sie gut organisiert ist. Verwenden Sie diesen Befehl sparsam und versuchen Sie, sich zurückziehende Truppen mit frischen Einheiten zu schützen."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Feuer und Vorrücken Befehl",
+    "message": "Infanterie und leichte Artillerie können Feuer und Vorrücken gegen Feinde verwenden, um ihre Position zu verbessern und dabei das Feuer aufrechtzuerhalten. Bedenken Sie jedoch, dass dieser Befehl Geschwindigkeit und Schadensausgabe reduziert."
+  },
+  "lowStamina": {
+    "title": "Niedrige Ausdauer Warnung",
+    "message": "Sie haben die Ausdauer dieser Einheit erschöpft – sie hat bereits schwere negative Kampfmodifikatoren, und wenn Sie sie weiter drängen, wird sie sogar die Fähigkeit zu laufen verlieren.\n\nWenn Ihre Einheit niedrige Ausdauer hat, sollten Sie:\n\n• Sie verwenden, um fliehende feindliche Einheiten zu verfolgen, die nicht zurückschlagen können, um zu verhindern, dass sie sich sammeln\n• Sie hinter Ihre Schlachtlinie oder in die Nähe Ihrer fliehenden Einheiten stellen, damit Ihre niedrig-ausdauernde Einheit sie mit ihrem Moralradius unterstützen kann\n• Oder sie einfach ohne Befehle lassen, damit sie etwas Ausdauer regenerieren kann\n\nDie Ausdauerregeneration ist sehr langsam, also versuchen Sie, sie nur dann zu verwenden, wenn es darauf ankommt!"
+  }
+}

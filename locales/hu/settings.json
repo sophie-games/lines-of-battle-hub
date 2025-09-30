@@ -104,10 +104,37 @@
     "runOrder": "Keresési parancs",
     "shootOrder": "Lövési parancs",
     "fireAndAdvanceOrder": "Tüzelés és előrehaladás parancs",
-    "fallbackOrder": "Visszavonulási parancs"
+    "fallbackOrder": "Visszavonulási parancs",
+    "toggleFormation": "Formáció váltása",
+    "toggleSmartCurvedMovements": "Okos görbült mozgások váltása",
+    "toggleFowPerspective": "Háborús köd perspektíva váltása",
+    "openChat": "Chat megnyitása",
+    "controlGroup1": "Vezérlőcsoport 1",
+    "controlGroup2": "Vezérlőcsoport 2",
+    "controlGroup3": "Vezérlőcsoport 3",
+    "controlGroup4": "Vezérlőcsoport 4",
+    "controlGroup5": "Vezérlőcsoport 5",
+    "controlGroup6": "Vezérlőcsoport 6",
+    "controlGroup7": "Vezérlőcsoport 7",
+    "controlGroup8": "Vezérlőcsoport 8",
+    "controlGroup9": "Vezérlőcsoport 9",
+    "controlGroup0": "Vezérlőcsoport 0"
   },
 
   "routingTransparency": {
     "title": "Menekülő egységek átlátszósága"
+  },
+
+  "fogOfWar": {
+    "description": "A háború ködje az árnyék, amely megjelenik azon a terepen, amelyet az egységeid nem látnak. A minden mező ellenőrzésének számítási terhelése, amelyet egy játékos látni tud, költséges, ezért ennek a beállításnak a kikapcsolása javíthatja a teljesítményt. Ez a beállítás azonban 100%-ban grafikus; a kikapcsolása nem teszi láthatóvá a rejtett ellenséges egységeket."
+  },
+
+  "fogOfWarColor": {
+    "title": "Háború ködjének színe"
+  },
+
+  "groundQuality": {
+    "title": "Terep minősége",
+    "description": "Szabályozza a terep textúrák minőségét. A magasabb minőség jobb vizuális részleteket biztosít, de befolyásolhatja a teljesítményt. Megköveteli a térkép frissítését."
   }
 }

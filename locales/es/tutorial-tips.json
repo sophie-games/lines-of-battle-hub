@@ -1,0 +1,68 @@
+{
+  "gotIt": "¡Entendido!",
+  "disableTips": "Desactivar consejos",
+  "friendlyFire": {
+    "title": "Advertencia de Fuego Amigo",
+    "message": "¡Este disparo causará fuego amigo! Busca el ícono amarillo en las unidades para ver cuáles serán dañadas."
+  },
+  "armyComposition": {
+    "title": "Consejos de Composición de Ejército",
+    "message": "Aquí puedes diseñar ejércitos personalizados que se adapten a tu propio estilo y preferencias. Si eres nuevo en Lines of Battle, mantente con la composición por defecto hasta que aprendas los conceptos básicos; los ejércitos por defecto son altamente competitivos y consisten en las unidades más rentables y equilibradas del juego.\n\nLos mejores ejércitos típicamente consisten en 60-75% de infantería, 20-35% de caballería, y 10-15% de artillería."
+  },
+  "firstBattle": {
+    "title": "¡Felicitaciones por comenzar tu primera batalla, General!",
+    "message": "Una fuerza enemiga de aproximadamente igual fuerza ha marchado para encontrarnos en este campo de batalla.\n\nHay tres formas en las que puedes obtener la victoria:\n\n1. La destrucción completa de la fuerza enemiga – derrota a cada unidad para ganar.\n2. Mantener el campo al final del día – inflige más bajas al enemigo o usa tus batallones de infantería para capturar objetivos neutrales y ganar Puntos de Victoria. Si tienes una ventaja de +10 Puntos de Victoria cuando termine el juego, ganas.\n3. Cortar las líneas de suministro del enemigo – usa tus batallones de infantería para capturar el gran objetivo en la zona de despliegue enemiga. Esto toma más del doble de tiempo que capturar un objetivo pequeño, pero terminará el juego a tu favor.\n\n¡Buena suerte, General!"
+  },
+  "routingUnits": {
+    "title": "Unidades en Fuga",
+    "message": "Una unidad ha perdido toda cohesión y ahora está huyendo del frente. Si puede alcanzar una distancia segura de las fuerzas enemigas, dejará de huir y recuperará rápidamente la organización – al 30% de organización, se reagrupará y recuperarás el control de ella. Puedes acelerar este proceso colocando unidades amigas como caballería cerca.\n\nTrata de reemplazar unidades de baja organización en combate con reservas frescas y bien organizadas. Es mucho más eficiente reorganizar una unidad desorganizada que reagrupar una rota."
+  },
+  "lineInfantrySelection": {
+    "title": "Infantería de Línea",
+    "message": "Este es un batallón de infantería de 800 hombres, capaz de enfrentar objetivos con fuego de mosquete o bayoneta. Usa la orden 'Fuego y Avance' para acercarte e infligir daño devastador a distancia, y usa la orden 'Correr' para gastar resistencia y cubrir terreno rápidamente, lanzando una carga de bayoneta contra otra infantería. Ten cuidado de no usar demasiado la orden 'Correr', sin embargo, y evita cargar contra infantería enemiga con alta Organización."
+  },
+  "skirmisherSelection": {
+    "title": "Tiradores",
+    "message": "Los tiradores representan una compañía (~150 hombres) de francotiradores que luchan sin formación.\n\nEstas unidades reciben casi ningún daño de mosquetes y artillería, pero daño severo en combate cuerpo a cuerpo.\n\nColoca a tus tiradores en terreno o usa infantería de línea y caballería para protegerlos de las cargas.\n\nLos tiradores sobresalen en mantener puntos fuertes o acosar artillería e infantería con fuego de largo alcance."
+  },
+  "cavalrySelection": {
+    "title": "Caballería",
+    "message": "Las unidades de caballería son rápidas y poderosas pero requieren manejo cuidadoso.\n\n• Usa la orden 'Correr' para gastar resistencia y cargar contra tiradores, infantería de baja organización y artillería mal protegida\n• Preserva la resistencia caminando con la caballería cuando sea posible\n• La caballería siempre perderá 1 contra 1 contra infantería con alta organización\n• Desorganiza la infantería enemiga con fuego de mosquete y artillería antes de una carga\n• Preserva tu caballería para momentos decisivos\n• Mantén la caballería fuera del terreno"
+  },
+  "artillerySelection": {
+    "title": "Artillería",
+    "message": "La artillería es un multiplicador de fuerza; apoya a la infantería y caballería, pero no puede ganar batallas sola.\n\n• La artillería no tiene resistencia; siempre usa la orden 'Correr' al cruzar distancias largas\n• La artillería sí tiene munición; mantén un ojo en tu reserva de munición para no quedarte sin ella\n• La artillería napoleónica requiere una línea de visión clara para disparar; no la bloquees con tu infantería\n\nEntiende el mejor uso de los diferentes rangos de la artillería:\n\n• Fuego de largo alcance: bajo daño a muchas unidades (gran área de efecto)\n• Fuego de alcance medio: buen daño a pocas unidades (área de efecto pequeña)\n• Fuego de corto alcance: daño extremo a una unidad (fuego de metralla)\n\nConsidera mover tu artillería con la línea de batalla en lugar de dejarla disparando a largo alcance desde la retaguardia."
+  },
+  "forestMovement": {
+    "title": "Terreno Forestal",
+    "message": "Has ordenado a esta unidad moverse a través de un bosque. Este terreno:\n\n• Proporciona protección contra el fuego enemigo y reduce la visión\n• Aumenta los costos de resistencia para combate cuerpo a cuerpo y movimiento\n• Reduce la efectividad de combate de la caballería\n• Reduce el daño de la artillería dentro de él"
+  },
+  "buildingMovement": {
+    "title": "Terreno de Edificios",
+    "message": "Has ordenado a esta unidad moverse a través de un edificio. Este terreno:\n\n• Proporciona excelente protección contra el fuego enemigo y reduce la visión\n• Aumenta los costos de resistencia para combate cuerpo a cuerpo y movimiento\n• Reduce severamente la efectividad de combate de la caballería\n• Reduce enormemente el daño de la artillería dentro de él"
+  },
+  "roadMovement": {
+    "title": "Movimiento por Carretera",
+    "message": "Has ordenado a esta unidad moverse por una carretera. Las carreteras:\n\n• Aumentan enormemente la velocidad de movimiento, especialmente para la artillería\n• Reducen a la mitad los costos de resistencia – considera hacer correr las unidades por la carretera hacia tu destino"
+  },
+  "waterMovement": {
+    "title": "Terreno Acuático",
+    "message": "Has ordenado a esta unidad moverse a través del agua. El agua:\n\n• Penaliza severamente la velocidad de movimiento, defensa cuerpo a cuerpo, resistencia y potencia de fuego a distancia\n• Si te mueves a través del agua, no te quedes atrapado luchando ahí\n• Considera cómo usar el agua para obstruir al enemigo"
+  },
+  "runOrder": {
+    "title": "Orden de Carrera",
+    "message": "Usa la orden de carrera para gastar resistencia y moverte a alta velocidad y cargar contra unidades enemigas, pero no la uses en exceso y agotes a tus tropas.\n\nLas cargas dependen de la estadística de Resistencia a Cargas del defensor y la estadística de Penetración de Cargas del atacante, que reduce la resistencia a cargas del defensor (lado a lado en la tarjeta de unidad, que es visible en la izquierda de la pantalla cuando seleccionas una unidad).\n\nUna carga realizada con alta Penetración contra baja Resistencia hará huir al defensor; una carga con baja Penetración contra alta Resistencia puede no causar daño o incluso desorganizar al atacante.\n\nLa Resistencia a Cargas y la Penetración se basan ambas en la Organización; usa fuego de mosquete y artillería para desorganizar al enemigo, luego carga con una unidad fresca y de alta Organización.\n\nTrata de cargar frontalmente a unidades cuando su resistencia sea solo 60% mayor que tu penetración.\n\nEn resumen: usa unidades con alta Organización para cargar contra unidades con baja Organización."
+  },
+  "fallbackOrder": {
+    "title": "Orden de Retirada",
+    "message": "La retirada es una maniobra altamente compleja y agotadora – una unidad que se retira y recibe una carga sufrirá daño severo incluso si está bien organizada. Usa esta orden con moderación y trata de proteger a las tropas que se retiran con unidades frescas."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Orden de Fuego y Avance",
+    "message": "La infantería y la artillería ligera pueden usar Fuego y Avance hacia los enemigos para mejorar su posición mientras mantienen el fuego. Pero ten en cuenta que esta orden reduce la velocidad y el daño de salida."
+  },
+  "lowStamina": {
+    "title": "Advertencia de Resistencia Baja",
+    "message": "Has agotado la resistencia de esta unidad – ya tiene modificadores de combate negativos severos, y si la presionas mucho más, incluso perderá la capacidad de correr.\n\nCuando tu unidad tiene poca resistencia, deberías:\n\n• Usarla para perseguir unidades enemigas en fuga que no pueden contraatacar, para evitar que se reagrupen\n• Colocarla detrás de tu línea de batalla o cerca de tus unidades en fuga, para que tu unidad con poca resistencia pueda apoyarlas con su radio de moral\n• O simplemente dejarla sin órdenes para que pueda recuperar un poco de resistencia\n\n¡La regeneración de resistencia es muy lenta, así que trata de usarla solo cuando realmente importe!"
+  }
+}

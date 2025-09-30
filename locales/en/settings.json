@@ -42,6 +42,10 @@
   "showPlayableGamesAvailableModal": {
     "title": "Show Playable Games Available Modal"
   },
+  "cinematicMode": {
+    "title": "Cinematic Mode",
+    "description": "Hides the turn indicator, victory bar and unit bars from replays for a cleaner viewing experience."
+  },
   "hidePlayerInfo": {
     "title": "Hide Player Info",
     "description": "Hides ELO and usernames from the game UI, making players anonymous."
@@ -139,6 +143,7 @@
     "fallbackOrder": "Fallback order",
     "toggleFormation": "Toggle formation",
     "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
+    "toggleFowPerspective": "Toggle Fog of War Perspective",
     "openChat": "Open chat",
     "controlGroup1": "Control Group 1",
     "controlGroup2": "Control Group 2",
@@ -154,5 +159,18 @@
 
   "routingTransparency": {
     "title": "Routing Unit Transparency"
+  },
+
+  "fogOfWar": {
+    "description": "Fog of war is the shadow that appears over terrain that your units cannot see. The computational overhead of checking every tile a player can see is costly, so disabling this option may improve performance. However, this option is 100% graphical; disabling it will not make hidden enemy units visible."
+  },
+
+  "fogOfWarColor": {
+    "title": "Fog of war color"
+  },
+
+  "groundQuality": {
+    "title": "Ground Quality",
+    "description": "Controls the quality of ground textures. Higher quality provides better visual detail but may impact performance. Requires refreshing the map."
   }
 }

@@ -1,0 +1,162 @@
+{
+  "name": "City",
+  "description": "A dynamic map featuring a small city at its center, intersected by a river and a road. The layout creates unique tactical opportunities as units navigate urban environments, bridges, and crossings, adding complexity to battle strategies.",
+  "type": "random",
+  "instructions": [
+    {
+      "type": "HEIGHT_NOISE",
+      "noises": [
+        { "scale": 50, "multiplier": 1.5 },
+        { "scale": 50, "multiplier": 1.5 }
+      ],
+      "mergeStrategy": "min",
+      "max": 6
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 1,
+      "scale": 20,
+      "ranges": [{ "min": 0.8, "max": 1.0 }]
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 2,
+      "scale": 15,
+      "ranges": [{ "min": 0.95, "max": 1.0 }]
+    },
+    {
+      "type": "TERRAIN_CIRCLE",
+      "radius": 8,
+      "falloff": 0.7,
+      "position": {
+        "type": "exact",
+        "coords": [50, 50]
+      },
+      "terrain": 9,
+      "height": 0
+    },
+    {
+      "type": "TERRAIN_CIRCLE",
+      "radius": 6,
+      "falloff": 0.7,
+      "position": {
+        "type": "exact",
+        "coords": [50, 50]
+      },
+      "terrain": 2,
+      "height": 0
+    },
+    {
+      "type": "TERRAIN_CIRCLE",
+      "radius": 3,
+      "falloff": 0.7,
+      "position": {
+        "type": "exact",
+        "coords": [50, 50]
+      },
+      "terrain": 12,
+      "height": 0
+    },
+    {
+      "type": "TERRAIN_CIRCLE",
+      "radius": 6,
+      "falloff": 1,
+      "position": {
+        "type": "exact",
+        "coords": [35, 50]
+      },
+      "terrain": 0,
+      "height": 5
+    },
+    {
+      "type": "TERRAIN_CIRCLE",
+      "radius": 6,
+      "falloff": 1,
+      "position": {
+        "type": "exact",
+        "coords": [65, 50]
+      },
+      "terrain": 0,
+      "height": 5
+    },
+    {
+      "type": "NATURAL_PATH",
+      "terrain": 4,
+      "between": "edges",
+      "amount": { "min": 1, "max": 1 }
+    },
+    {
+      "type": "NATURAL_PATH",
+      "terrain": 3,
+      "between": "edges",
+      "amount": { "min": 1, "max": 1 },
+      "terrainReplacements": [
+        {
+          "fromTerrain": 4,
+          "toTerrain": 7
+        },
+        {
+          "fromTerrain": 5,
+          "toTerrain": 7
+        }
+      ],
+      "terrainCosts": [
+        {
+          "terrain": 4,
+          "cost": 4
+        },
+        {
+          "terrain": 5,
+          "cost": 4
+        }
+      ]
+    },
+    {
+      "type": "CONNECT_CLUSTERS",
+      "fromTerrain": [2, 12],
+      "pathTerrain": 3,
+      "minGroupSize": 3,
+      "maxDistance": 50,
+      "terrainReplacements": [
+        {
+          "fromTerrain": 4,
+          "toTerrain": 7
+        },
+        {
+          "fromTerrain": 5,
+          "toTerrain": 7
+        }
+      ],
+      "terrainCosts": [
+        {
+          "terrain": 4,
+          "cost": 4
+        },
+        {
+          "terrain": 5,
+          "cost": 4
+        },
+        {
+          "terrain": 10,
+          "cost": 4
+        }
+      ]
+    },
+    {
+      "type": "OBJECTIVE",
+      "player": 0,
+      "position": {
+        "type": "exact",
+        "coords": [35, 50]
+      }
+    },
+    {
+      "type": "OBJECTIVE",
+      "player": 0,
+      "position": {
+        "type": "exact",
+        "coords": [65, 50]
+      }
+    }
+  ]
+}

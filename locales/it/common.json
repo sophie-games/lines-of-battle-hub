@@ -10,6 +10,8 @@
   "store": "Negozio",
   "supporters": "Sostenitori",
   "elo": "Elo",
+  "season": "Stagione",
+  "of": "di",
   "joinedAt": "Iscritto il {{date}}",
   "addPlayer": "Aggiungi giocatore",
   "credits": "Crediti",
@@ -46,11 +48,20 @@
   "randomGameInfo": "Per i giochi generati casualmente, il gioco utilizzerà l'esercito che hai creato per la modalità di battaglia selezionata. Puoi visualizzare e gestire i tuoi eserciti in <0>Composizioni dell'esercito</0>. Se non hai ancora creato eserciti per quella modalità, verrà utilizzato un esercito predefinito.",
   "selectGameMode": "Seleziona la modalità di gioco dalle opzioni qui sotto.",
   "or": "O",
+  "quickMatchmaking": "Matchmaking Rapido",
+  "ranked": "Classificato",
+  "classicUnranked": "Classico Non Classificato",
+  "classicUnrankedTooltip": "In modalità classica non classificata, l'Elo non viene influenzato e viene utilizzato solo l'esercito predefinito.",
+  "unranked": "Non Classificato",
   "cancel": "Annulla",
 
   "matchmakingQueue": {
     "inQueue": "Sei ora nella coda di matchmaking! Il sistema sta cercando un altro giocatore che ha selezionato le stesse impostazioni di te.",
-    "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco."
+    "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco.",
+    "extendQueue": "Estendi coda",
+    "extendQueueSuccess": "Ricerca in qualsiasi intervallo Elo.",
+    "cancelledBy": "La coda è stata cancellata da {{username}}.",
+    "playersInQueue": "{{count}} giocatori in ricerca"
   },
 
   "fastMode": "Modalità veloce",
@@ -70,8 +81,7 @@
 
   "battleType": "Tipo di battaglia",
   "dynamicBattleType": {
-    "skirmish": "Schermaglia",
-    "clash": "Scontro",
+    "clash": "Incontro",
     "combat": "Combattimento",
     "battle": "Battaglia",
     "grand_battle": "Grande Battaglia"
@@ -86,6 +96,13 @@
 
   "player": "Giocatore",
   "units": "Unità",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "Sei AFK",
+    "message": "Sei stato inattivo per troppo tempo. I tuoi ordini verranno inviati automaticamente per prevenire ritardi nel gioco.",
+    "autoSubmitIn": "Invio automatico tra",
+    "continuePlaying": "Continua a giocare"
+  },
   "unitSkins": "Skin delle unità",
   "avatars": "Avatar",
   "withdraw": "Ritirati",
@@ -135,6 +152,7 @@
   "unitStat": {
     "hp": "PV",
     "org": "Organizzazione",
+    "stamina": "Resistenza",
     "movement": "Movimento",
     "meleeAttack": "Attacco corpo a corpo",
     "meleeDefense": "Difesa corpo a corpo",
@@ -149,12 +167,15 @@
   },
 
   "unitCategory": {
-    "1": "Fanteria",
-    "2": "Cavalleria",
-    "3": "Artiglieria",
-    "4": "Fanteria leggera",
-    "5": "Cavalleria leggera",
-    "6": "Cavalleria pesante"
+    "infantry": "Fanteria",
+    "midCavalry": "Cavalleria",
+    "artillery": "Artiglieria",
+    "lightInfantry": "Fanteria leggera",
+    "scoutCavalry": "Cavalleria da ricognizione",
+    "lightCavalry": "Cavalleria leggera",
+    "heavyCavalry": "Cavalleria pesante",
+    "militiaInfantry": "Fanteria di milizia",
+    "skirmishInfantry": "Fanteria da schermaglia"
   },
 
   "category": "Categoria",
@@ -295,6 +316,9 @@
   "noUnitsYet": "Nessuna unità ancora",
   "armyComposition": "Composizione dell'esercito",
   "budgetAvailable": "Budget disponibile",
+  "reserveAmmo": "Munizioni di Riserva",
+  "estimatedTurnsOfFire": "Turni di fuoco stimati",
+  "reserveAmmoDescription": "L'oro non speso contribuisce alle tue munizioni di artiglieria di riserva, che rifornisce automaticamente le munizioni intrinseche della tua artiglieria mentre spara. I turni di fuoco stimati tengono conto sia delle munizioni di riserva che di quelle dell'unità.",
   "saveArmy": "Salva esercito",
   "clearUnits": "Cancella unità",
   "saving": "Salvataggio...",
@@ -334,6 +358,7 @@
   },
 
   "selectOrder": "Seleziona ordine",
+  "autofire": "Fuoco automatico",
   "allowFireWhenMoving": "Consenti fuoco durante il movimento",
   "meleeDamage": "Danno corpo a corpo",
   "rangedDamage": "Danno a distanza",
@@ -362,7 +387,8 @@
     "powerLost": "Potenza persa",
     "lossesRatio": "Rapporto perdite",
     "objectives": "Obiettivi",
-    "timeWithoutObjectives": "Tempo senza obiettivi",
+    "timeUnderPressure": "Tempo sotto pressione",
+    "timeUnderPressureTooltip": "Il tempo sotto pressione è il tempo in cui una squadra controlla <0>{{percentage}}%</0> degli obiettivi o meno. Più a lungo una squadra rimane sotto pressione, più punti vittoria perde.",
     "unitsOrgRegain": "Recupero organizzazione unità"
   },
 
@@ -514,10 +540,53 @@
     "p3": "Seguici sui social media per le ultime notizie e annunci."
   },
 
+  "tournaments": "Tornei",
+  "createTournament": "Crea torneo",
+  "hasPassword": "Ha password",
+  "autoProgression": "Progressione automatica",
+  "autoProgressionInfo": "Se questa opzione è abilitata, il torneo passerà automaticamente al turno successivo non appena l'ultima partita del turno corrente sarà completata. Se è disabilitata, il torneo avanzerà quando l'amministratore lo avvierà manualmente o alla data e all'ora programmate (se ne è stata impostata una).",
+  "optional": "Opzionale",
+
+  "tournamentStartedModal": {
+    "title": "Una partita di torneo è iniziata",
+    "message": "Il turno {{round}} del torneo {{tournamentName}} è iniziato!",
+    "goButtonText": "Vai alla partita del torneo"
+  },
+
+  "allVisible": "Tutto Visibile",
+  "teamN": "Squadra {{number}}",
   "measuring": "Misurando...",
   "disconnected": "Disconnesso",
   "reconnected": "Riconnesso",
   "connecting": "Connessione...",
   "disconnecting": "Disconnessione...",
-  "unknown": "Sconosciuto"
+  "unknown": "Sconosciuto",
+
+  "fogOfWar": "Nebbia di guerra",
+
+  "low": "Bassa",
+  "medium": "Media",
+  "high": "Alta",
+  "dismiss": "Ignora",
+  "turningDelay": "Ritardo di rotazione",
+  "infantry": "Fanteria",
+  "cavalry": "Cavalleria",
+  "artillery": "Artiglieria",
+  "special": "Speciale",
+
+  "preset": "Preimpostato",
+  "hybrid": "Ibrido",
+  "random": "Casuale",
+  "classic": "Classico",
+
+  "academy": "Accademia",
+  "ammo": "Munizioni",
+  "ammoConsumption": "Consumo Munizioni",
+  "initRound1": "Inizializza il round 1",
+  "allowsCharging": "Permette di caricare",
+  "limbersArtillery": "Smonta l'artiglieria",
+  "all": "Tutti",
+  "scenario": "Scenario",
+  "banned": "Bannato",
+  "baseAmmo": "Munizioni base"
 }

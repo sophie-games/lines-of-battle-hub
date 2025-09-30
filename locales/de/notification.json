@@ -1,0 +1,45 @@
+{
+  "notifications": "Benachrichtigungen",
+  "noNotifications": "Keine Benachrichtigungen",
+  "clear": "Löschen",
+
+  "tournamentMatchStarted": {
+    "title": "Turnier-Match gestartet!",
+    "message": "Ein Match des Turniers {{tournamentName}} hat begonnen, geh und spiele es!"
+  },
+
+  "tournamentFilled": {
+    "title": "Turnier gefüllt!",
+    "message": "Das Turnier {{tournamentName}} ist jetzt voll. Du kannst es jederzeit starten!"
+  },
+
+  "tournamentWillStart": {
+    "title": "Deine Turnier-Runde wird bald starten!",
+    "message": "Die Turnier-Runde für das Turnier {{tournamentName}} wird bald starten."
+  },
+
+  "tournamentRewards": {
+    "title": "Du hast den {{place}}. Platz im {{tournamentName}} Turnier gewonnen!",
+    "message": "Du hast {{reward}} <BasicCurrency/> erhalten."
+  },
+
+  "yourTournamentEnded": {
+    "title": "Dein Turnier {{tournamentName}} ist beendet",
+    "message": "Du hast {{reward}} <BasicCurrency/> erhalten."
+  },
+
+  "tournamentCancelled": {
+    "title": "Turnier abgesagt",
+    "message": "Das Turnier {{tournamentName}} wurde abgesagt. Du hast {{refund}} <BasicCurrency/> zurückerstattet bekommen."
+  },
+
+  "updatePlanned": {
+    "title": "Update geplant",
+    "message": "Es ist ein neues <b>{{name}}</b> Update für <b>{{date}}</b> geplant, klicke um die Änderungen zu sehen."
+  },
+
+  "banDodge": {
+    "title": "Du wurdest für {{minutes}} gesperrt",
+    "message": "Du hast die letzten {{games}} Ranglisten-Spiele verlassen, daher musst du etwas warten, um weiter Ranglisten-Spiele zu spielen."
+  }
+}

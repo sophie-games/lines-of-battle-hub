@@ -10,6 +10,10 @@
     "title": "锦标赛已满员！",
     "message": "锦标赛 {{tournamentName}} 已经满员。你随时可以开始！"
   },
+  "tournamentWillStart": {
+    "title": "你的锦标赛轮次即将开始！",
+    "message": "锦标赛 {{tournamentName}} 的轮次即将开始。"
+  },
   "tournamentRewards": {
     "title": "你在锦标赛 {{tournamentName}} 中夺得第{{place}}位的成绩！",
     "message": "你已收到{{reward}}<BasicCurrency/>。"
