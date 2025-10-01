@@ -47,9 +47,9 @@
       "artillery": -0.5
     },
     "attackModifier": {
-      "infantry": 0.25,
+      "infantry": 0.4,
       "skirmishInfantry": 1,
-      "militiaInfantry": 0.25,
+      "militiaInfantry": 0.4,
       "midCavalry": -0.75,
       "lightCavalry": -0.75,
       "scoutCavalry": -0.75,
@@ -58,7 +58,7 @@
     "defenseModifier": {
       "infantry": 0.5,
       "skirmishInfantry": 2.5,
-      "militiaInfantry": 0.75,
+      "militiaInfantry": 0.1,
       "midCavalry": -0.5,
       "lightCavalry": -0.5,
       "scoutCavalry": -0.5,
@@ -123,9 +123,9 @@
       "artillery": -0.3
     },
     "attackModifier": {
-      "infantry": 0.2,
+      "infantry": 0.4,
       "skirmishInfantry": 1.25,
-      "militiaInfantry": 0.25,
+      "militiaInfantry": 0.4,
       "midCavalry": -0.9,
       "lightCavalry": -0.9,
       "scoutCavalry": -0.9,
@@ -134,7 +134,7 @@
     "defenseModifier": {
       "infantry": 0.8,
       "skirmishInfantry": 3,
-      "militiaInfantry": 0.8,
+      "militiaInfantry": 1,
       "midCavalry": -0.75,
       "lightCavalry": -0.75,
       "scoutCavalry": -0.75,
@@ -293,9 +293,9 @@
     "heightOffset": -0.5,
     "hitboxHeight": 0.6,
     "projectileAbsorption": {
-      "musket": 0.15,
-      "marksman-musket": 0.15,
-      "rifle": 0.1,
+      "musket": 0.35,
+      "marksman-musket": 0.25,
+      "rifle": 0.15,
       "12lb-cannon-ball": 0.25,
       "8lb-cannon-ball": 0.25,
       "6lb-cannon-ball": 0.25,
@@ -306,6 +306,12 @@
       "4lb-canister-fire": 0.15,
       "howitzer-canister": 0.15
     },
+    "defenseModifier": {
+      "infantry": 0.5,
+      "skirmishInfantry": 1,
+      "militiaInfantry": 0.5,
+      "artillery": 3
+    }
     "chargeBonusModifier": {
       "infantry": -0.8,
       "skirmishInfantry": -0.9,
@@ -319,8 +325,9 @@
       "infantry": 0.15,
       "skirmishInfantry": 0.75,
       "militiaInfantry": 0.4,
-      "artillery": 1
-    }
+      "artillery": 1.5
+    },
+    "fixedEnemyCollisionLevel": 2
   },
 
   "trench": {
