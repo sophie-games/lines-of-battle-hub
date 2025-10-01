@@ -414,8 +414,7 @@
   "armyInvalid": "This army is invalid, please modify it.",
 
   "landing": {
-    "title": "Welcome to <0/>",
-    "message": "<b>Lines of Battle</b> is a multiplayer, simultaneous turn-based strategy game set during the Napoleonic Wars. Designed for tactical depth and historical immersion, you'll engage in epic battles against others, using skill and strategy to outmaneuver and defeat your opponents!",
+    "message": "<b>Lines of Battle</b> is a Napoleonic tactical game with simultaneous turns and real-time combat. Defeat human opponents with accurate troops and tactics!",
     "privacy": "By starting, you agree to our <0>Privacy Policy</0>."
   },
 

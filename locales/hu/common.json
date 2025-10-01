@@ -325,8 +325,7 @@
   "armyInvalid": "Érvénytelen sereg, ameddig nem módosítod, addig az alap összetételt fogod csak tudni használni ebben a módban.",
 
   "landing": {
-    "title": "Üdv a <0/> játékban!",
-    "message": "A <b>Lines of Battle</b> egy többnyire többjátékos, egyidejű körökön alapuló stratégia játék, ami a napóleoni időkben játszódik. A játék taktikai és történelmi elmélyülésre lett tervezve, s epikus csaták megörökítésére, melyek során a képességeid és stratégiai érzéked alapján vezetheted győzelemre seregeidet.",
+    "message": "<b>Lines of Battle</b> egy napóleoni taktikai játék egyidejű körökkel és valós idejű harcokkal. Győzd le az emberi ellenfeleket pontos csapatokkal és taktikákkal!",
     "privacy": "A kezdéssel beleegyezel az <0>Adatvédelmi Nyilatkozatunkba</0>."
   },
 

@@ -326,8 +326,7 @@
   "armyInvalid": "Bu ordu geçersiz, lütfen düzenleyin.",
 
   "landing": {
-    "title": "<0/>'na hoş geldiniz",
-    "message": "<b>Savaş Çizgileri</b>, Napolyon Savaşları döneminde geçen çok oyunculu, eşzamanlı tur tabanlı bir strateji oyunudur. Taktiksel derinlik ve tarihi atmosfer için tasarlanmıştır; beceri ve strateji kullanarak diğer oyunculara karşı epik savaşlara katılacaksınız!",
+    "message": "<b>Lines of Battle</b>, eşzamanlı turlar ve gerçek zamanlı savaş ile Napolyon taktik oyunudur. Doğru birlikler ve taktiklerle insan rakiplerinizi yenin!",
     "privacy": "Başlayarak <0>Gizlilik Politikamızı</0> kabul etmiş olursunuz."
   },
 

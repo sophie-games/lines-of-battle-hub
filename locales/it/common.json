@@ -325,8 +325,7 @@
   "armyInvalid": "Questo esercito non è valido, per favore modificalo.",
 
   "landing": {
-    "title": "Benvenuto in <0/>",
-    "message": "<b>Lines of Battle</b> è un gioco di strategia a turni simultanei multigiocatore ambientato durante le guerre napoleoniche. Progettato per profondità tattica e immersione storica, ti impegnerai in epiche battaglie contro altri, usando abilità e strategia per superare e sconfiggere i tuoi avversari!",
+    "message": "<b>Lines of Battle</b> è un gioco tattico napoleonico con turni simultanei e combattimento in tempo reale. Sconfiggi avversari umani con truppe e tattiche precise!",
     "privacy": "Iniziando, accetti la nostra <0>Informativa sulla privacy</0>."
   },
 

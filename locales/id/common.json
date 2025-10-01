@@ -327,8 +327,7 @@
   "armyInvalid": "Pasukan ini tidak valid, harap dimodifikasi.",
 
   "landing": {
-    "title": "Selamat Datang di Lines of Battle",
-    "message": "<b>Lines of Battle</b> adalah permainan multiplayer, permainan strategi berbasis giliran simultan yang berlatar belakang Perang Napoleon. Dirancang untuk taktis yang rumit dan nuansa sejarah, kamu akan terlibat dalam pertempuran epik melawan orang lain, menggunakan keterampilan dan strategi untuk mengalahkan lawan kamu!",
+    "message": "<b>Lines of Battle</b> adalah permainan taktis Napoleon dengan giliran simultan dan pertempuran real-time. Kalahkan lawan manusia dengan pasukan dan taktik yang akurat!",
     "privacy": "Sebelum memulai permainan, Dimohon kamu menyetujui ketentuan kami<0>Privacy Policy</0>."
   },
 

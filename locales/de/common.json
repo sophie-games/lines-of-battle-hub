@@ -329,8 +329,7 @@
   "armyInvalid": "Diese Armee ist ungültig. Bitte ändern Sie die Zusammensetzung.",
 
   "landing": {
-    "title": "Willkommen bei <0/>",
-    "message": "<b>Lines of Battle</b> ist ein simulatenes, rundenbasiertes Multiplayer-Strategiespiel, dass während der Napoleonischen Kriege spielt. Entworfen für taktische Tiefe und historische Immersion, werden Sie in sagenhaften Schlachten gegen Andere schlagen und dabei Ihre Fähigkeiten und Strategien zum Ausmanövrieren und schlagen Ihrer Gegner unter Beweis stellen!",
+    "message": "<b>Lines of Battle</b> ist ein napoleonisches taktisches Spiel mit gleichzeitigen Zügen und Echtzeit-Kampf. Besiege menschliche Gegner mit präzisen Truppen und Taktiken!",
     "privacy": "Indem Sie das Spiel starten, stimmen Sie unseren <0>Datenschutzbestimmungen</0> zu."
   },
 

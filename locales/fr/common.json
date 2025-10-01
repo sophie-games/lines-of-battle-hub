@@ -327,8 +327,7 @@
   "armyInvalid": "Cette armée est invalide, veuillez la modifier.",
 
   "landing": {
-    "title": "Bienvenue sur <0/>",
-    "message": "<b>Lines of Battle</b> est un jeu de stratégie en tour par tour simultané ayant pour thème les guerres napoléoniennes. Au centre de la jouabilité se trouvent l'immersion historique et la profondeur tactique, vous vous engagerez dans des batailles épiques contre d'autres joueurs où ce seront vos compétences et les décisions que vous prendrez qui vous permettrons de l'emporter!",
+    "message": "<b>Lines of Battle</b> est un jeu tactique napoléonien avec des tours simultanés et des combats en temps réel. Vainquez des adversaires humains avec des troupes et des tactiques précises !",
     "privacy": "En continuant, vous acceptez notre <0>Politique sur la vie privée</0>."
   },
 
