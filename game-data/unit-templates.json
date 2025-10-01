@@ -481,6 +481,7 @@
     "premiumPrice": 500,
     "fireWhileMoving": true,
     "minDistanceToFAA": 35,
+    "canDeployForward": true,
     "unknownType": 22,
     "reportStats": {
       "men": 250,
@@ -743,6 +744,7 @@
     "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
+    "canDeployForward": true,
     "unknownType": 23,
     "reportStats": {
       "men": 60,
