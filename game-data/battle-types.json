@@ -23,7 +23,7 @@
       "17": 2,
       "19": 1
     },
-    "eloKFactor": 24
+    "eloKFactor": 36
   },
   "battle": {
     "manpower": 8750,
@@ -36,19 +36,19 @@
       "17": 4,
       "19": 2
     },
-    "eloKFactor": 24
+    "eloKFactor": 36
   },
   "grand_battle": {
     "manpower": 17500,
     "gold": 7250,
-    "ammoReserve": 3200,
-    "goldToAmmoRate": 12,
+    "ammoReserve": 3500,
+    "goldToAmmoRate": 10,
     "skirmisherRatio": [1, 3],
     "fogOfWar": true,
     "unitCaps": {
       "17": 6,
       "19": 2
     },
-    "eloKFactor": 24
+    "eloKFactor": 36
   }
 }
