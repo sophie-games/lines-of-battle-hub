@@ -263,10 +263,9 @@
   "cliff": {
     "impassable": true
   },
-  
+
   "farm": {
     "visionAbsorption": 16
-
   },
   "city": {
     "impassable": true,
@@ -288,7 +287,8 @@
       "4lb-canister-fire": 0.6,
       "howitzer-canister": 0.6
     }
-  },"redoubt": {
+  },
+  "redoubt": {
     "color": "#A9866D",
     "heightOffset": -0.5,
     "hitboxHeight": 0.6,
@@ -311,7 +311,7 @@
       "skirmishInfantry": 1,
       "militiaInfantry": 0.5,
       "artillery": 3
-    }
+    },
     "chargeBonusModifier": {
       "infantry": -0.8,
       "skirmishInfantry": -0.9,
