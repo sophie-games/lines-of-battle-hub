@@ -460,6 +460,13 @@
   },
 
   "battleReport": "Relatório de Batalha",
+  "gameEndReasons": {
+    "cancelled": "O jogo foi cancelado porque pelo menos um dos jogadores não enviou ordens no primeiro turno.",
+    "victory": "O jogo terminou porque uma equipe alcançou a vitória.",
+    "maxTurn": "O jogo atingiu o número máximo de turnos.",
+    "drawByAgreement": "O jogo terminou em empate por acordo mútuo.",
+    "unknown": "Motivo desconhecido."
+  },
   "strength": "Força",
   "guns": "Canhões",
   "casualties": "Baixas",

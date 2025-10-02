@@ -463,6 +463,13 @@
   },
 
   "battleReport": "Savaş Raporu",
+  "gameEndReasons": {
+    "cancelled": "Oyun iptal edildi çünkü en az bir oyuncu ilk turda emir göndermedi.",
+    "victory": "Oyun bitti çünkü bir takım zafer elde etti.",
+    "maxTurn": "Oyun maksimum tur sayısına ulaştı.",
+    "drawByAgreement": "Oyun karşılıklı anlaşma ile berabere bitti.",
+    "unknown": "Bilinmeyen neden."
+  },
   "strength": "Güç",
   "guns": "Toplar",
   "casualties": "Kayıplar",

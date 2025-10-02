@@ -559,6 +559,13 @@
   },
 
   "battleReport": "Battle Report",
+  "gameEndReasons": {
+    "cancelled": "The game was cancelled because at least one of the players didn't submit orders in the first turn.",
+    "victory": "The game ended because one team achieved victory.",
+    "maxTurn": "The game reached the maximum turns.",
+    "drawByAgreement": "The game ended in a draw by mutual agreement.",
+    "unknown": "Unknown reason."
+  },
   "strength": "Strength",
   "horse": "Horse",
   "guns": "Guns",

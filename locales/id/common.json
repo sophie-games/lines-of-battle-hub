@@ -465,6 +465,13 @@
   },
 
   "battleReport": "Laporan Pertempuran",
+  "gameEndReasons": {
+    "cancelled": "Permainan dibatalkan karena setidaknya satu pemain tidak mengirimkan perintah di putaran pertama.",
+    "victory": "Permainan berakhir karena satu tim mencapai kemenangan.",
+    "maxTurn": "Permainan mencapai jumlah putaran maksimum.",
+    "drawByAgreement": "Permainan berakhir seri berdasarkan kesepakatan bersama.",
+    "unknown": "Alasan tidak diketahui."
+  },
   "strength": "Kekuatan",
   "guns": "Senjata",
   "casualties": "Korban",

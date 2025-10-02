@@ -471,6 +471,13 @@
   "hybridDescription": "Les cartes hybrides utilisent un terrain prédéfini non aléatoire, mais permettent aux joueurs d'utiliser leurs propres armées personnalisées pour jouer.",
 
   "battleReport": "Rapport de bataille",
+  "gameEndReasons": {
+    "cancelled": "Le jeu a été annulé car au moins un des joueurs n'a pas soumis d'ordres au premier tour.",
+    "victory": "Le jeu s'est terminé car une équipe a remporté la victoire.",
+    "maxTurn": "Le jeu a atteint le nombre maximum de tours.",
+    "drawByAgreement": "Le jeu s'est terminé par un match nul par accord mutuel.",
+    "unknown": "Raison inconnue."
+  },
   "strength": "Force",
   "guns": "Canons",
   "casualties": "Pertes",
