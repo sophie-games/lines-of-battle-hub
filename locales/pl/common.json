@@ -791,6 +791,9 @@
   "special": "Specjalne",
 
   "academy": "Akademia",
+  "encyclopedia": "Encyklopedia",
+  "tutorialTips": "Wskazówki Tutorialu",
+  "loadingScreenTips": "Wskazówki Ekranu Ładowania",
   "ammo": "Amunicja",
   "ammoConsumption": "Zużycie Amunicji",
   "allowsCharging": "Pozwala na szarżę",

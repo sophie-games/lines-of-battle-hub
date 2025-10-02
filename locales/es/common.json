@@ -745,6 +745,9 @@
   "special": "Especial",
 
   "academy": "Academia",
+  "encyclopedia": "Enciclopedia",
+  "tutorialTips": "Consejos del Tutorial",
+  "loadingScreenTips": "Consejos de Pantalla de Carga",
   "ammo": "Munición",
   "ammoConsumption": "Consumo de Munición",
   "allowsCharging": "Permite cargar",

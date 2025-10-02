@@ -818,6 +818,9 @@
   "special": "Ειδικό",
 
   "academy": "Ακαδημία",
+  "encyclopedia": "Εγκυκλοπαίδεια",
+  "tutorialTips": "Συμβουλές Οδηγού",
+  "loadingScreenTips": "Συμβουλές Οθόνης Φόρτωσης",
   "ammo": "Μουντια",
   "ammoConsumption": "Κατανάλωση Μουντιας",
   "allowsCharging": "Επιτρέπει επίθεση",

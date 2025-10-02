@@ -586,6 +586,9 @@
   "classic": "Classico",
 
   "academy": "Accademia",
+  "encyclopedia": "Enciclopedia",
+  "tutorialTips": "Suggerimenti Tutorial",
+  "loadingScreenTips": "Suggerimenti Schermata di Caricamento",
   "ammo": "Munizioni",
   "ammoConsumption": "Consumo Munizioni",
   "initRound1": "Inizializza il round 1",

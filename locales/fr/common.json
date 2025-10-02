@@ -606,6 +606,9 @@
   "classic": "Classique",
 
   "academy": "Académie",
+  "encyclopedia": "Encyclopédie",
+  "tutorialTips": "Conseils du Tutoriel",
+  "loadingScreenTips": "Conseils d'Écran de Chargement",
   "ammo": "Munitions",
   "ammoConsumption": "Consommation de Munitions",
   "initRound1": "Initialiser la ronde 1",

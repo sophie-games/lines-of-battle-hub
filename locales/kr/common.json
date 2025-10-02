@@ -741,6 +741,9 @@
   "special": "특수",
 
   "academy": "아카데미",
+  "encyclopedia": "백과사전",
+  "tutorialTips": "튜토리얼 팁",
+  "loadingScreenTips": "로딩 화면 팁",
   "ammo": "탄약",
   "ammoConsumption": "탄약 소비",
   "autoProgression": "자동 진행",
