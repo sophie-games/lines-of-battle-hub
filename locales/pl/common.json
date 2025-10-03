@@ -801,5 +801,6 @@
   "all": "Wszystkie",
   "scenario": "Scenariusz",
   "banned": "Zablokowany",
-  "baseAmmo": "Podstawowa amunicja"
+  "baseAmmo": "Podstawowa amunicja",
+  "range": "Zasięg"
 }

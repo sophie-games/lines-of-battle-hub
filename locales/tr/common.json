@@ -602,5 +602,6 @@
   "all": "Tümü",
   "scenario": "Senaryo",
   "banned": "Yasaklandı",
-  "baseAmmo": "Temel cephane"
+  "baseAmmo": "Temel cephane",
+  "range": "Menzil"
 }

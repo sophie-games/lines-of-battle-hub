@@ -598,5 +598,6 @@
   "all": "すべて",
   "scenario": "シナリオ",
   "banned": "禁止",
-  "baseAmmo": "基本弾薬"
+  "baseAmmo": "基本弾薬",
+  "range": "射程"
 }

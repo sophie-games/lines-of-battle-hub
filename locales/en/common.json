@@ -908,5 +908,6 @@
   "all": "All",
   "scenario": "Scenario",
   "banned": "Banned",
-  "baseAmmo": "Base ammo"
+  "baseAmmo": "Base ammo",
+  "range": "Range"
 }

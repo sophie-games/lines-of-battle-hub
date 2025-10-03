@@ -601,5 +601,6 @@
   "all": "Alle",
   "scenario": "Szenario",
   "banned": "Gesperrt",
-  "baseAmmo": "Grundmunition"
+  "baseAmmo": "Grundmunition",
+  "range": "Reichweite"
 }

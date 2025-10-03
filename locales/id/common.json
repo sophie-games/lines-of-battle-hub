@@ -612,5 +612,6 @@
   "all": "Semua",
   "scenario": "Skenario",
   "banned": "Dilarang",
-  "baseAmmo": "Ammunisi dasar"
+  "baseAmmo": "Ammunisi dasar",
+  "range": "Jangkauan"
 }

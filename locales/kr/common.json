@@ -753,5 +753,6 @@
   "all": "모두",
   "scenario": "시나리오",
   "banned": "차단됨",
-  "baseAmmo": "기본 탄약"
+  "baseAmmo": "기본 탄약",
+  "range": "사거리"
 }

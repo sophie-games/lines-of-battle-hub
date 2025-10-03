@@ -755,5 +755,6 @@
   "all": "Todos",
   "scenario": "Escenario",
   "banned": "Baneado",
-  "baseAmmo": "Munición base"
+  "baseAmmo": "Munición base",
+  "range": "Alcance"
 }

@@ -597,5 +597,6 @@
   "all": "Tutti",
   "scenario": "Scenario",
   "banned": "Bannato",
-  "baseAmmo": "Munizioni base"
+  "baseAmmo": "Munizioni base",
+  "range": "Gittata"
 }

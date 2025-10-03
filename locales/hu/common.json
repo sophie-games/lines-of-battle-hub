@@ -544,5 +544,6 @@
     "maxTurn": "A játék elérte a maximális körszámot.",
     "drawByAgreement": "A játék döntetlennel ért véget kölcsönös megegyezés alapján.",
     "unknown": "Ismeretlen ok."
-  }
+  },
+  "range": "Távolság"
 }

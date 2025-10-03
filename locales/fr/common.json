@@ -618,5 +618,6 @@
   "all": "Tous",
   "scenario": "Scénario",
   "banned": "Banni",
-  "baseAmmo": "Munitions de base"
+  "baseAmmo": "Munitions de base",
+  "range": "Portée"
 }

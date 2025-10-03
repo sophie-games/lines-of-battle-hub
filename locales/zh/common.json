@@ -833,5 +833,6 @@
   "all": "所有",
   "scenario": "战役",
   "banned": "封禁",
-  "baseAmmo": "基础弹药"
+  "baseAmmo": "基础弹药",
+  "range": "射程"
 }
