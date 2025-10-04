@@ -10,6 +10,10 @@
     "title": "토너먼트가 충원되었습니다!",
     "message": "{{tournamentName}} 토너먼트가 충원되었습니다. 언제든지 시작할 수 있습니다!"
   },
+  "tournamentWillStart": {
+    "title": "토너먼트가 곧 시작됩니다!",
+    "message": "{{tournamentName}} 토너먼트가 곧 시작됩니다."
+  },
   "tournamentRewards": {
     "title": "{{tournamentName}} 토너먼트의 {{place}}에서 승리하셨습니다!",
     "message": "{{reward}} <BasicCurrency/> 만큼의 보상을 받으셨습니다."
