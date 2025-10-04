@@ -10,6 +10,8 @@
   "store": "Laden",
   "supporters": "Unterstützer",
   "elo": "Elo",
+  "season": "Saison",
+  "of": "von",
   "joinedAt": "Am {{date}} beigetreten",
   "addPlayer": "Spieler hinzufügen",
   "credits": "Gutschriften",
@@ -46,11 +48,20 @@
   "randomGameInfo": "Für zufallsgenerierte Spiele, werden Armeen verwendet, die Sie für diesen Spielmodus vorbereitet haben. Sie können Ihre Armeen in <0>Armeezusammensetzung</0>. Wenn Sie noch keine Armeen für einen Modus erstellt haben, dann wird die Standardarmee benutzt.",
   "selectGameMode": "Wähle den Spielmodus von den unten angezeigten Optionen.",
   "or": "Oder",
+  "quickMatchmaking": "Schnelles Matchmaking",
+  "ranked": "Bewertet",
+  "classicUnranked": "Klassisch Unbewertet",
+  "classicUnrankedTooltip": "Im klassischen unbewerteten Modus wird das Elo nicht beeinflusst und nur die Standardarmee verwendet.",
+  "unranked": "Unbewertet",
   "cancel": "Abbrechen",
 
   "matchmakingQueue": {
     "inQueue": "Sie sind nun in der Warteschlange für das Spielsuche. Das System sucht einen anderen Spieler, der die gleichen Optionen gewählt hat wie Sie.",
-    "matchFound": "Sobald ein Spiel gefunden wurde, werden Sie zu diesem weitergeleitet."
+    "matchFound": "Sobald ein Spiel gefunden wurde, werden Sie zu diesem weitergeleitet.",
+    "extendQueue": "Warteschlange erweitern",
+    "extendQueueSuccess": "Suche in jedem Elo-Bereich.",
+    "cancelledBy": "Die Warteschlange wurde von {{username}} abgebrochen.",
+    "playersInQueue": "{{count}} Spieler suchen"
   },
 
   "fastMode": "schneller Modus",
@@ -70,9 +81,8 @@
 
   "battleType": "Schlachttypen",
   "dynamicBattleType": {
-    "skirmish": "Scharmützel",
-    "clash": "Zusammenstoß",
-    "combat": "Gefecht",
+    "clash": "Begegnung",
+    "combat": "Kampf",
     "battle": "Schlacht",
     "grand_battle": "Große Schlacht"
   },
@@ -86,6 +96,13 @@
 
   "player": "Spieler",
   "units": "Einheiten",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "Sie sind AFK",
+    "message": "Sie waren zu lange inaktiv. Ihre Befehle werden automatisch übermittelt, um Spielverzögerungen zu vermeiden.",
+    "autoSubmitIn": "Automatische Übermittlung in",
+    "continuePlaying": "Weiterspielen"
+  },
   "unitSkins": "Einheiten Kosmetika",
   "avatars": "Avatare",
   "withdraw": "Zurückziehen",
@@ -135,6 +152,7 @@
   "unitStat": {
     "hp": "LP",
     "org": "Organisation",
+    "stamina": "Ausdauer",
     "movement": "Fortbewegung",
     "meleeAttack": "Nahkampfangriff",
     "meleeDefense": "Nahkampfverteidigung",
@@ -149,12 +167,15 @@
   },
 
   "unitCategory": {
-    "1": "Infantrie",
-    "2": "Kavallerie",
-    "3": "Artillerie",
-    "4": "Light Infantrie",
-    "5": "Leichte Kavallerie",
-    "6": "Schwere Kavallerie"
+    "infantry": "Infantrie",
+    "midCavalry": "Kavallerie",
+    "artillery": "Artillerie",
+    "lightInfantry": "Leichte Infantrie",
+    "scoutCavalry": "Aufklärungskavallerie",
+    "lightCavalry": "Leichte Kavallerie",
+    "heavyCavalry": "Schwere Kavallerie",
+    "militiaInfantry": "Milizinfantrie",
+    "skirmishInfantry": "Schützeninfantrie"
   },
 
   "category": "Kategorie",
@@ -191,7 +212,9 @@
     "10": "Miliz",
     "11": "Husaren",
     "12": "12-Pfd Fußartillerie",
-    "13": "Pferdebogenschützen"
+    "13": "Pferdebogenschützen",
+    "24": "10-Pfd. Licorne",
+    "25": "18-Pfd. Licorne"
   },
 
   "battalionName": {
@@ -207,7 +230,9 @@
     "10": "{{n}} Miliz",
     "11": "{{n}} Husaren",
     "12": "{{n}} Fußbatterie",
-    "13": "{{n}} Pferdebogenschützen"
+    "13": "{{n}} Pferdebogenschützen",
+    "24": "{{n}} Licorne",
+    "25": "{{n}} Licorne"
   },
 
   "unitDescription": {
@@ -295,14 +320,16 @@
   "noUnitsYet": "Noch keine Einheiten",
   "armyComposition": "Armeezusammensetzung",
   "budgetAvailable": "Budget verfügbar",
+  "reserveAmmo": "Reserve-Munition",
+  "estimatedTurnsOfFire": "Geschätzte Feuerrunden",
+  "reserveAmmoDescription": "Nicht ausgegebenes Gold trägt zu Ihrer Reserve-Artilleriemunition bei, die automatisch die inhärente Munition Ihrer Artillerie auffüllt, während sie feuert. Die geschätzten Feuerrunden berücksichtigen sowohl Reserve- als auch Einheitsmunition.",
   "saveArmy": "Armee speichern",
   "clearUnits": "Einheiten löschen",
   "saving": "Speichert...",
   "armyInvalid": "Diese Armee ist ungültig. Bitte ändern Sie die Zusammensetzung.",
 
   "landing": {
-    "title": "Willkommen bei <0/>",
-    "message": "<b>Lines of Battle</b> ist ein simulatenes, rundenbasiertes Multiplayer-Strategiespiel, dass während der Napoleonischen Kriege spielt. Entworfen für taktische Tiefe und historische Immersion, werden Sie in sagenhaften Schlachten gegen Andere schlagen und dabei Ihre Fähigkeiten und Strategien zum Ausmanövrieren und schlagen Ihrer Gegner unter Beweis stellen!",
+    "message": "<b>Lines of Battle</b> ist ein napoleonisches taktisches Spiel mit gleichzeitigen Zügen und Echtzeit-Kampf. Besiege menschliche Gegner mit präzisen Truppen und Taktiken!",
     "privacy": "Indem Sie das Spiel starten, stimmen Sie unseren <0>Datenschutzbestimmungen</0> zu."
   },
 
@@ -334,6 +361,7 @@
   },
 
   "selectOrder": "Befehl auswählen",
+  "autofire": "Automatisches Feuern",
   "allowFireWhenMoving": "Erlaube Feuern während der Bewegung",
   "meleeDamage": "Nahkampfschaden",
   "rangedDamage": "Fernkampfschaden",
@@ -362,7 +390,8 @@
     "powerLost": "eingebüßte Stärke",
     "lossesRatio": "Verhältnis der Verluste",
     "objectives": "Objektive",
-    "timeWithoutObjectives": "Zeit nicht auf dem Objektiv",
+    "timeUnderPressure": "Zeit unter Druck",
+    "timeUnderPressureTooltip": "Zeit unter Druck ist die Zeit, in der ein Team <0>{{percentage}}%</0> der Ziele oder weniger kontrolliert. Je länger ein Team unter Druck steht, desto mehr Siegpunkte verliert es.",
     "unitsOrgRegain": "Einheiten Org Wiedergewinnung"
   },
 
@@ -435,6 +464,13 @@
   },
 
   "battleReport": "Schlachtbericht",
+  "gameEndReasons": {
+    "cancelled": "Das Spiel wurde abgebrochen, weil mindestens einer der Spieler im ersten Zug keine Befehle eingereicht hat.",
+    "victory": "Das Spiel endete, weil ein Team den Sieg errungen hat.",
+    "maxTurn": "Das Spiel hat die maximale Anzahl von Zügen erreicht.",
+    "drawByAgreement": "Das Spiel endete unentschieden durch gegenseitige Vereinbarung.",
+    "unknown": "Unbekannter Grund."
+  },
   "strength": "Stärke",
   "guns": "Kanonen",
   "casualties": "Verluste",
@@ -514,10 +550,57 @@
     "p3": "Folge uns in den sozialen Medien für die neuesten Nachrichten und Ankündigungen."
   },
 
+  "tournaments": "Turniere",
+  "createTournament": "Turnier erstellen",
+  "hasPassword": "Hat Passwort",
+  "autoProgression": "Automatischer Fortschritt",
+  "autoProgressionInfo": "Wenn diese Option aktiviert ist, wird das Turnier automatisch zur nächsten Runde übergehen, sobald das letzte Spiel der aktuellen Runde abgeschlossen ist. Wenn sie deaktiviert ist, wird das Turnier entweder fortgesetzt, wenn der Administrator es manuell startet, oder zum geplanten Datum und Zeitpunkt (falls einer festgelegt wurde).",
+  "optional": "Optional",
+
+  "tournamentStartedModal": {
+    "title": "Ein Turnierspiel hat begonnen",
+    "message": "Runde {{round}} des Turniers {{tournamentName}} hat begonnen!",
+    "goButtonText": "Zum Turnierspiel gehen"
+  },
+
+  "allVisible": "Alle Sichtbar",
+  "teamN": "Team {{number}}",
   "measuring": "Messen...",
   "disconnected": "Getrennt",
   "reconnected": "Wieder verbunden",
   "connecting": "Verbinden...",
   "disconnecting": "Trennen...",
-  "unknown": "Unbekannt"
+  "unknown": "Unbekannt",
+
+  "fogOfWar": "Nebel des Krieges",
+
+  "low": "Niedrig",
+  "medium": "Mittel",
+  "high": "Hoch",
+  "dismiss": "Verwerfen",
+  "turningDelay": "Drehverzögerung",
+  "infantry": "Infanterie",
+  "cavalry": "Kavallerie",
+  "artillery": "Artillerie",
+  "special": "Spezial",
+
+  "preset": "Voreinstellung",
+  "hybrid": "Hybrid",
+  "random": "Zufällig",
+  "classic": "Klassisch",
+
+  "academy": "Akademie",
+  "encyclopedia": "Enzyklopädie",
+  "tutorialTips": "Tutorial-Tipps",
+  "loadingScreenTips": "Ladebildschirm-Tipps",
+  "ammo": "Munition",
+  "ammoConsumption": "Munitionsverbrauch",
+  "initRound1": "Runde 1 initialisieren",
+  "allowsCharging": "Ermöglicht Laden",
+  "limbersArtillery": "Geschütze werden eingefahren",
+  "all": "Alle",
+  "scenario": "Szenario",
+  "banned": "Gesperrt",
+  "baseAmmo": "Grundmunition",
+  "range": "Reichweite"
 }

@@ -1,0 +1,130 @@
+{
+  "default": {
+    "width": 12,
+    "height": 24
+  },
+  "1": {
+    "baseSprite": "infantry",
+    "overlaySprite": "infantry"
+  },
+  "2": {
+    "baseSprite": "cavalry",
+    "overlaySprite": "dragoons"
+  },
+  "3": {
+    "baseSprite": "8lb-artillery",
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
+  },
+  "4": {
+    "baseSprite": "infantry",
+    "overlaySprite": "guards"
+  },
+  "5": {
+    "baseSprite": "cavalry",
+    "overlaySprite": "lancers"
+  },
+  "6": {
+    "baseSprite": "horse-artillery",
+    "overlaySprite": "horse-artillery",
+    "width": 16,
+    "height": 32
+  },
+  "7": {
+    "baseSprite": "infantry",
+    "overlaySprite": "chasseurs"
+  },
+  "8": {
+    "baseSprite": "cavalry",
+    "overlaySprite": "cuirassiers"
+  },
+  "9": {
+    "baseSprite": "howitzers",
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
+  },
+  "10": {
+    "baseSprite": "militia",
+    "overlaySprite": "militia"
+  },
+  "11": {
+    "baseSprite": "cavalry",
+    "overlaySprite": "cavalry"
+  },
+  "12": {
+    "baseSprite": "12lb-artillery",
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
+  },
+  "13": {
+    "baseSprite": "cavalry",
+    "overlaySprite": "horse-archers"
+  },
+  "14": {
+    "baseSprite": "infantry",
+    "overlaySprite": "grenadiers"
+  },
+  "15": {
+    "baseSprite": "4lb-artillery",
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
+  },
+  "16": {
+    "baseSprite": "skirmishers",
+    "overlaySprite": "skirmishers"
+  },
+  "17": {
+    "baseSprite": "skirmishers",
+    "overlaySprite": "rifles"
+  },
+  "18": {
+    "baseSprite": "6lb-artillery",
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
+  },
+  "19": {
+    "baseSprite": "rockets",
+    "overlaySprite": "rockets"
+  },
+  "20": {
+    "baseSprite": "unknown",
+    "overlaySprite": null,
+    "width": 16,
+    "height": 16
+  },
+  "21": {
+    "baseSprite": "unknown",
+    "overlaySprite": "unknown-infantry",
+    "width": 16,
+    "height": 16
+  },
+  "22": {
+    "baseSprite": "unknown",
+    "overlaySprite": "unknown-cavalry",
+    "width": 16,
+    "height": 16
+  },
+  "23": {
+    "baseSprite": "unknown",
+    "overlaySprite": "unknown-artillery",
+    "width": 16,
+    "height": 16
+  },
+  "24": {
+    "baseSprite": "10lb-licorne",
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
+  },
+  "25": {
+    "baseSprite": "18lb-licorne",
+    "overlaySprite": null,
+    "width": 16,
+    "height": 32
+  }
+}

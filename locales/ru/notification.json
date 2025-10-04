@@ -13,6 +13,11 @@
     "message": "Ваш турнир {{tournamentName}} достиг максимума игроков. Вы можете начать его в любое время!"
   },
 
+  "tournamentWillStart": {
+    "title": "Ваш раунд турнира скоро начнётся!",
+    "message": "Раунд турнира {{tournamentName}} скоро начнётся."
+  },
+
   "tournamentRewards": {
     "title": "Вы заняли {{place}}-е место в турнире {{tournamentName}}!",
     "message": "Ваша награда: {{reward}} <BasicCurrency/>."

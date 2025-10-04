@@ -1,0 +1,148 @@
+{
+  "presets": [
+    {
+      "id": "ranked_clash_1v1",
+      "image": "clash",
+      "turnTimeLimits": ["1m", "2m"],
+      "scenarios": ["plains", "hills", "tundra"],
+      "dynamicBattleTypes": ["clash"],
+      "teamSizes": ["1v1"],
+      "classicUnranked": false
+    },
+    {
+      "id": "ranked_clash_2v2",
+      "image": "clash",
+      "turnTimeLimits": ["1m", "2m"],
+      "scenarios": ["plains", "hills", "tundra"],
+      "dynamicBattleTypes": ["clash"],
+      "teamSizes": ["2v2"],
+      "classicUnranked": false
+    },
+    {
+      "id": "ranked_combat_1v1",
+      "image": "combat",
+      "turnTimeLimits": ["2m", "3m"],
+      "scenarios": ["plains", "hills", "tundra"],
+      "dynamicBattleTypes": ["combat"],
+      "teamSizes": ["1v1"],
+      "classicUnranked": false
+    },
+    {
+      "id": "ranked_combat_2v2",
+      "image": "combat",
+      "turnTimeLimits": ["2m", "3m"],
+      "scenarios": ["plains", "hills", "tundra"],
+      "dynamicBattleTypes": ["combat"],
+      "teamSizes": ["2v2"],
+      "classicUnranked": false
+    },
+    {
+      "id": "ranked_battle_1v1",
+      "image": "battle",
+      "turnTimeLimits": ["3m", "5m"],
+      "scenarios": ["plains", "hills", "tundra"],
+      "dynamicBattleTypes": ["battle"],
+      "teamSizes": ["1v1"],
+      "classicUnranked": false
+    },
+    {
+      "id": "ranked_battle_2v2",
+      "image": "battle",
+      "turnTimeLimits": ["3m", "5m"],
+      "scenarios": ["plains", "hills", "tundra"],
+      "dynamicBattleTypes": ["battle"],
+      "teamSizes": ["2v2"],
+      "classicUnranked": false
+    },
+    {
+      "id": "ranked_grandBattle_1v1",
+      "image": "grand_battle",
+      "turnTimeLimits": ["3m", "5m"],
+      "scenarios": ["plains", "hills", "tundra"],
+      "dynamicBattleTypes": ["grand_battle"],
+      "teamSizes": ["1v1"],
+      "classicUnranked": false
+    },
+    {
+      "id": "ranked_grandBattle_2v2",
+      "image": "grand_battle",
+      "turnTimeLimits": ["3m", "5m"],
+      "scenarios": ["plains", "hills", "tundra"],
+      "dynamicBattleTypes": ["grand_battle"],
+      "teamSizes": ["2v2"],
+      "classicUnranked": false
+    },
+    {
+      "id": "unranked_clash_1v1",
+      "image": "clash",
+      "turnTimeLimits": ["1m", "2m"],
+      "scenarios": ["classic-plains", "classic-hills", "classic-tundra"],
+      "dynamicBattleTypes": ["clash"],
+      "teamSizes": ["1v1"],
+      "classicUnranked": true
+    },
+    {
+      "id": "unranked_clash_2v2",
+      "image": "clash",
+      "turnTimeLimits": ["1m", "2m"],
+      "scenarios": ["classic-plains", "classic-hills", "classic-tundra"],
+      "dynamicBattleTypes": ["clash"],
+      "teamSizes": ["2v2"],
+      "classicUnranked": true
+    },
+    {
+      "id": "unranked_combat_1v1",
+      "image": "combat",
+      "turnTimeLimits": ["2m", "3m"],
+      "scenarios": ["classic-plains", "classic-hills", "classic-tundra"],
+      "dynamicBattleTypes": ["combat"],
+      "teamSizes": ["1v1"],
+      "classicUnranked": true
+    },
+    {
+      "id": "unranked_combat_2v2",
+      "image": "combat",
+      "turnTimeLimits": ["2m", "3m"],
+      "scenarios": ["classic-plains", "classic-hills", "classic-tundra"],
+      "dynamicBattleTypes": ["combat"],
+      "teamSizes": ["2v2"],
+      "classicUnranked": true
+    },
+    {
+      "id": "unranked_battle_1v1",
+      "image": "battle",
+      "turnTimeLimits": ["3m", "5m"],
+      "scenarios": ["classic-plains", "classic-hills", "classic-tundra"],
+      "dynamicBattleTypes": ["battle"],
+      "teamSizes": ["1v1"],
+      "classicUnranked": true
+    },
+    {
+      "id": "unranked_battle_2v2",
+      "image": "battle",
+      "turnTimeLimits": ["3m", "5m"],
+      "scenarios": ["classic-plains", "classic-hills", "classic-tundra"],
+      "dynamicBattleTypes": ["battle"],
+      "teamSizes": ["2v2"],
+      "classicUnranked": true
+    },
+    {
+      "id": "unranked_grandBattle_1v1",
+      "image": "grand_battle",
+      "turnTimeLimits": ["3m", "5m"],
+      "scenarios": ["classic-plains", "classic-hills", "classic-tundra"],
+      "dynamicBattleTypes": ["grand_battle"],
+      "teamSizes": ["1v1"],
+      "classicUnranked": true
+    },
+    {
+      "id": "unranked_grandBattle_2v2",
+      "image": "grand_battle",
+      "turnTimeLimits": ["3m", "5m"],
+      "scenarios": ["classic-plains", "classic-hills", "classic-tundra"],
+      "dynamicBattleTypes": ["grand_battle"],
+      "teamSizes": ["2v2"],
+      "classicUnranked": true
+    }
+  ]
+}

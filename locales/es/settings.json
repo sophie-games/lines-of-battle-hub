@@ -108,10 +108,24 @@
     "fallbackOrder": "Orden de retirada",
     "toggleFormation": "Alternar formación",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
+    "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
     "openChat": "Abrir chat"
   },
 
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"
+  },
+
+  "fogOfWar": {
+    "description": "La niebla de guerra es la sombra que aparece sobre el terreno que tus unidades no pueden ver. La sobrecarga computacional de verificar cada casilla que un jugador puede ver es costosa, por lo que deshabilitar esta opción puede mejorar el rendimiento. Sin embargo, esta opción es 100% gráfica; deshabilitarla no hará visibles las unidades enemigas ocultas."
+  },
+
+  "fogOfWarColor": {
+    "title": "Color de la niebla de guerra"
+  },
+
+  "groundQuality": {
+    "title": "Calidad del Terreno",
+    "description": "Controla la calidad de las texturas del terreno. Mayor calidad proporciona mejor detalle visual pero puede afectar el rendimiento. Requiere refrescar el mapa."
   }
 }

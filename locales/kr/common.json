@@ -11,7 +11,7 @@
   "supporters": "후원자",
   "elo": "Elo",
   "season": "시즌",
-  "of": "의",
+  "of": "중",
   "joinedAt": "가입일 : {{date}}",
   "createdAt": "{{date}} 생성됨",
   "addPlayer": "플레이어 추가",
@@ -50,6 +50,11 @@
   "classicUnrankedTooltip": "클래식 비순위전은 Elo에 영향을 주지 않으며, 기본 군대만 사용합니다.",
   "unranked": "비순위전",
   "or": "또는",
+  "quickMatchmaking": "빠른 매칭",
+  "ranked": "랭크전",
+  "classicUnranked": "클래식 비랭크",
+  "classicUnrankedTooltip": "클래식 비랭크 모드에서는 Elo에 영향을 주지 않으며 기본 군대만 사용됩니다.",
+  "unranked": "비랭크",
   "cancel": "취소",
   "matchmakingQueue": {
     "inQueue": "경기 탐색 대기열에 들어오셨습니다! 등급 체계에 기반해 귀하와 동일한 설정을 선택한 다른 플레이어를 탐색 중입니다.",
@@ -57,7 +62,7 @@
     "extendQueue": "대기 연장",
     "extendQueueSuccess": "모든 Elo 범위대에서 탐색.",
     "cancelledBy": "{{username}} 님이 대기를 취소했습니다.",
-    "playersInQueue": "{{count}} 플레이어 검색 중"
+    "playersInQueue": "{{count}} 명의 플레이어가 탐색 중"
   },
   "fastMode": "단기전",
   "slowMode": "장기전",
@@ -74,10 +79,11 @@
   },
   "battleType": "전투 유형",
   "dynamicBattleType": {
+
     "clash": "접전",
     "combat": "교전",
     "battle": "전투",
-    "grand_battle": "대전"
+    "grand_battle": "대전투"
   },
   "matchmaking": "경기 탐색",
   "matchmakingDescription": "경기 탐색을 통해 미리 설정된 설정으로 무작위 플레이어와 빠르게 경기할 수 있습니다.",
@@ -96,6 +102,7 @@
   "seed": "시드",
   "player": "플레이어",
   "units": "부대",
+
   "afk": "잠수",
   "afkWarning": {
     "title": "잠수 중",
@@ -376,14 +383,17 @@
   "armyComposition": "편제",
   "budgetAvailable": "가용 자원",
   "reserveAmmo": "예비 탄약",
-  "estimatedTurnsOfFire": "예상 턴당 사격 횟수",
+
+  "estimatedTurnsOfFire": "예상 사격 턴",
   "reserveAmmoDescription": "사용하지 않은 골드는 포병의 예비 탄약으로 전환됩니다. 포병이 사격하면 자동으로 해당 포병이 보유한 탄약을 보충합니다. 예상 사격 횟수는 예비 탄약과 부대 탄약을 모두 고려합니다.",
   "saveArmy": "저장",
   "clearUnits": "초기화",
   "saving": "저장 중...",
   "armyInvalid": "이 편제는 사용할 수 없습니다. 수정이 필요합니다.",
   "landing": {
+
     "message": "<b>Lines of Battle</b>은 나폴레옹 전쟁을 배경으로 한 실시간 동시 턴제 전략 게임입니다. 정밀한 편제와 전술로 상대를 물리치세요!",
+
     "privacy": "시작하면 <0>개인정보 취급방침</0>에 동의하는 것으로 여겨집니다."
   },
   "welcomeModal": {
@@ -439,7 +449,9 @@
     "lossesRatio": "손실률",
     "objectives": "지점목표",
     "timeUnderPressure": "압박 시간",
+
     "timeUnderPressureTooltip": "압박 시간은 팀이 지점목표를 <0>{{percentage}}%</0> 이하로 점령한 시간을 말합니다. 압박 시간이 길어질수록 더 많은 승점을 잃게 됩니다.",
+
     "unitsOrgRegain": "부대 조직력 회복"
   },
   "offerDrawModal": {
@@ -510,11 +522,13 @@
   },
   "battleReport": "전투 보고",
   "gameEndReasons": {
+
     "cancelled": "플레이어 중 최소 한 명이 첫 턴에 명령을 하달하지 않아 경기가 취소되었습니다.",
     "victory": "한 팀이 승리하여 경기가 종료되었습니다.",
     "maxTurn": "경기가 최대 턴에 도달했습니다.",
     "drawByAgreement": "경기가 상호 합의하에 무승부로 끝났습니다.",
     "unknown": "사유 미상."
+
   },
   "strength": "전력",
   "horse": "군마",
@@ -613,8 +627,10 @@
     "cancelled": "취소됨"
   },
   "hasPassword": "암호 존재",
+
   "autoProgression": "자동 진행",
   "autoProgressionInfo": "이 설정을 활성화하면 현 라운드의 마지막 경기가 완료되는 즉시 토너먼트가 자동으로 다음 라운드로 전환됩니다. 이 설정을 비활성화하면 관리자가 수동으로 토너먼트를 시작하거나 예약된 날짜와 시간(설정된 경우)에 토너먼트가 진행됩니다.",
+
   "optional": "선택 사항",
   "round": "회차",
   "current": "현",
@@ -722,7 +738,9 @@
   "preset": "표준",
   "hybrid": "혼합",
   "random": "무작위",
+
   "classic": "기본",
+
   "projectileWidth": "발사체 너비",
   "allyCollisionLevel": "동맹 충돌 수준",
   "enemyCollisionLevel": "적 충돌 수준",
@@ -760,6 +778,7 @@
     "p2": "Lines of Battle에 더 많은 기능이 추가될 예정이니 기대해 주세요!",
     "p3": "소셜 미디어에서 최신 소식와 공지사항을 확인하세요."
   },
+
   "tournamentStartedModal": {
     "title": "토너먼트 경기가 시작됨",
     "message": "{{tournamentName}} 토너먼트의 {{round}}회차가 시작되었습니다!",
@@ -790,10 +809,12 @@
   "immuneToFlankRearBonuses": "측후방 혜택 면역",
   "allVisible": "모두 표시",
   "teamN": "{{number}}팀",
+
   "measuring": "측정 중...",
   "disconnected": "연결 끊김",
   "reconnected": "재연결됨",
   "connecting": "연결 중...",
+
   "disconnecting": "연결이 끊기는 중...",
   "unknown": "미상",
   "fogOfWar": "전장의 안개",
@@ -818,10 +839,12 @@
   "dismiss": "해산",
   "cannotChargeAgainst": "돌격 재시도 불가",
   "turningDelay": "선회 지연",
+
   "infantry": "보병",
   "cavalry": "기병",
   "artillery": "포병",
   "special": "특수",
+
   "academy": "학술원",
   "encyclopedia": "백과사전",
   "tutorialTips": "학습 조언",
@@ -836,3 +859,4 @@
   "baseAmmo": "기본 탄약",
   "range": "범위"
 }
+

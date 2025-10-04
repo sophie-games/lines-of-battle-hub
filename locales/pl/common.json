@@ -10,6 +10,8 @@
   "store": "Sklep",
   "supporters": "Wspierający",
   "elo": "Elo",
+  "season": "Sezon",
+  "of": "z",
   "joinedAt": "Dołączono {{date}}",
   "createdAt": "Utworzono {{date}}",
   "addPlayer": "Dodaj gracza",
@@ -47,13 +49,20 @@
   "randomGameInfo": "Dla losowo wygenerowanych partii, gra użyje stworzonych przez Ciebie armii do wybranego trybu bitwy. Możesz zobaczyć i edytować swoje armie w <0>Układzie Armii</0>. Jeżeli nie stworzyłeś(łaś) jeszcze armii do danego trybu, użyta będzie domyślna armia.",
   "selectGameMode": "Wybierz tryb gry z poniższych opcji.",
   "or": "Albo",
+  "quickMatchmaking": "Szybkie Dopasowanie",
+  "ranked": "Rankingowe",
+  "classicUnranked": "Klasyczne Nierankingowe",
+  "classicUnrankedTooltip": "W trybie klasycznym nierankingowym Elo nie jest wpływane i używana jest tylko domyślna armia.",
+  "unranked": "Nierankingowe",
   "cancel": "Anuluj",
 
   "matchmakingQueue": {
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
     "extendQueue": "Rozszerzona Kolejka",
-    "extendQueueSuccess": "Szukanie w zasięgu Twojego ELO"
+    "extendQueueSuccess": "Szukanie w zasięgu Twojego ELO",
+    "cancelledBy": "Kolejka została anulowana przez {{username}}.",
+    "playersInQueue": "{{count}} graczy szuka"
   },
 
   "fastMode": "Tryb Szybki",
@@ -73,9 +82,8 @@
 
   "battleType": "Tryb bitwy",
   "dynamicBattleType": {
-    "skirmish": "Potyczka",
     "clash": "Starcie",
-    "combat": "Batalia",
+    "combat": "Walka",
     "battle": "Bitwa",
     "grand_battle": "Wielka Bitwa"
   },
@@ -89,6 +97,13 @@
 
   "player": "Gracz",
   "units": "Jednostki",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "Jesteś AFK",
+    "message": "Byłeś nieaktywny zbyt długo. Twoje rozkazy zostaną automatycznie wysłane, aby zapobiec opóźnieniom w grze.",
+    "autoSubmitIn": "Automatyczne wysłanie za",
+    "continuePlaying": "Kontynuuj grę"
+  },
   "unitSkins": "Skórki Jednostek",
   "objectiveSkins": "Skórki celi",
   "avatars": "Avatary",
@@ -157,14 +172,15 @@
   },
 
   "unitCategory": {
-    "1": "Piechota",
-    "2": "Kawaleria",
-    "3": "Artyleria",
-    "4": "Lekka Piechota",
-    "5": "Lekka Kawaleria",
-    "6": "Ciężka Kawaleria",
-    "7": "Milicja",
-    "8": "Strzelcy"
+    "infantry": "Piechota",
+    "midCavalry": "Kawaleria",
+    "artillery": "Artyleria",
+    "lightInfantry": "Lekka Piechota",
+    "scoutCavalry": "Kawaleria Zwiadowcza",
+    "lightCavalry": "Lekka Kawaleria",
+    "heavyCavalry": "Ciężka Kawaleria",
+    "militiaInfantry": "Milicja",
+    "skirmishInfantry": "Strzelcy"
   },
 
   "category": "Kategoria",
@@ -343,14 +359,16 @@
   "noUnitsYet": "Brak Jednostek",
   "armyComposition": "Kompozycja Armii",
   "budgetAvailable": "Dostępny Budżet",
+  "reserveAmmo": "Zapasowa Amunicja",
+  "estimatedTurnsOfFire": "Szacowana liczba tur ognia",
+  "reserveAmmoDescription": "Niewydane złoto przyczynia się do twojej zapasowej amunicji artyleryjskiej, która automatycznie uzupełnia wbudowaną amunicję twojej artylerii podczas strzelania. Szacowana liczba tur ognia uwzględnia zarówno amunicję zapasową, jak i jednostkową.",
   "saveArmy": "Zapisz armię",
   "clearUnits": "Wyczyść Jednostki",
   "saving": "Zapisywanie...",
   "armyInvalid": "Ta armia jest niepoprawna, zmodyfikuj ją",
 
   "landing": {
-    "title": "Witaj w <0>Lines of Battle</0>",
-    "message": "<b>Lines of Battle</b>, to wieloosobowa, gra strategiczna z równoczesnymi turami osadzona w czasach Wojen Napoleońskich. Doświadcz głębi taktycznej i historycznej immersji, tocz epickie bitwy przeciwko innym graczom, użyj zdolności i strategii, aby przechytrzyć i pokonać wroga!",
+    "message": "<b>Lines of Battle</b> to napoleońska gra taktyczna z równoczesnymi turami i walką w czasie rzeczywistym. Pokonaj ludzkich przeciwników precyzyjnymi oddziałami i taktykami!",
     "privacy": "Zaczynając, zgadzasz się z naszą <0>Polityką Prywatności</0>."
   },
 
@@ -382,6 +400,7 @@
   },
 
   "selectOrder": "Wybierz Rozkaz",
+  "autofire": "Automatyczny ogień",
   "allowFireWhenMoving": "Pozwala strzelać podczas ruchu",
   "meleeDamage": "Obrażenia wręcz",
   "rangedDamage": "Obrażenia dystansowe",
@@ -410,7 +429,8 @@
     "powerLost": "Stracona Siła",
     "lossesRatio": "Stosunek Strat",
     "objectives": "Punkty",
-    "timeWithoutObjectives": "Czas bez punktu",
+    "timeUnderPressure": "Czas pod presją",
+    "timeUnderPressureTooltip": "Czas pod presją to czas, w którym drużyna kontroluje <0>{{percentage}}%</0> punktów lub mniej. Im dłużej drużyna pozostaje pod presją, tym więcej punktów zwycięstwa traci.",
     "unitsOrgRegain": "Odzyskiwanie Org. Jednostek"
   },
 
@@ -491,6 +511,13 @@
   },
 
   "battleReport": "Raport z Bitwy",
+  "gameEndReasons": {
+    "cancelled": "Gra została anulowana, ponieważ co najmniej jeden z graczy nie przesłał rozkazów w pierwszej turze.",
+    "victory": "Gra zakończyła się, ponieważ jedna drużyna osiągnęła zwycięstwo.",
+    "maxTurn": "Gra osiągnęła maksymalną liczbę tur.",
+    "drawByAgreement": "Gra zakończyła się remisem za obopólną zgodą.",
+    "unknown": "Nieznany powód."
+  },
   "strength": "Siła",
   "horse": "Konie",
   "guns": "Działa",
@@ -579,6 +606,7 @@
   "joinName": "Dołącz do {{name}}",
   "startTournament": "Rozpocznij Turniej",
   "startRoundN": "Rozpocznij {{number}} rundę",
+  "initRound1": "Zainicjuj rundę 1",
   "open": "Otwarty",
   "closed": "Zamknięty",
   "viewGame": "Zobacz Grę",
@@ -595,7 +623,8 @@
   },
 
   "hasPassword": "Zabezpieczona hasłem",
-  "autoStartRounds": "Rozpocznij rundy automatycznie",
+  "autoProgression": "Automatyczna progresja",
+  "autoProgressionInfo": "Jeśli ta opcja jest włączona, turniej automatycznie przejdzie do następnej rundy, gdy tylko ostatnia rozgrywka bieżącej rundy zostanie ukończona. Jeśli jest wyłączona, turniej będzie postępował, gdy administrator uruchomi go ręcznie lub w zaplanowanym terminie (jeśli został ustawiony).",
   "optional": "Opcjonalne",
   "round": "Runda",
   "current": "Aktualna",
@@ -701,6 +730,7 @@
   "preset": "Preset",
   "hybrid": "Hybrydowy",
   "random": "Losowy",
+  "classic": "Klasyczny",
   "projectileWidth": "Szerokość pocisku",
   "allyCollisionLevel": "Poziom sojuszniczych kolizji",
   "enemyCollisionLevel": "Poziom wrogich kolizji",
@@ -733,10 +763,44 @@
     "p3": "Śledź nas w mediach społecznościowych, aby otrzymywać najnowsze wiadomości i ogłoszenia."
   },
 
+  "tournamentStartedModal": {
+    "title": "Rozpoczęła się partia turniejowa",
+    "message": "Runda {{round}} turnieju {{tournamentName}} rozpoczęła się!",
+    "goButtonText": "Przejdź do partii turniejowej"
+  },
+
+  "allVisible": "Wszystko Widoczne",
+  "teamN": "Drużyna {{number}}",
   "measuring": "Mierzenie...",
   "disconnected": "Rozłączono",
   "reconnected": "Ponowne połączenie",
   "connecting": "Łączenie...",
   "disconnecting": "Rozłączanie...",
-  "unknown": "Nieznane"
+  "unknown": "Nieznane",
+
+  "fogOfWar": "Mgła wojny",
+
+  "low": "Niska",
+  "medium": "Średnia",
+  "high": "Wysoka",
+  "dismiss": "Odrzuć",
+  "turningDelay": "Opóźnienie obrotu",
+  "infantry": "Piechota",
+  "cavalry": "Kawaleria",
+  "artillery": "Artyleria",
+  "special": "Specjalne",
+
+  "academy": "Akademia",
+  "encyclopedia": "Encyklopedia",
+  "tutorialTips": "Wskazówki Tutorialu",
+  "loadingScreenTips": "Wskazówki Ekranu Ładowania",
+  "ammo": "Amunicja",
+  "ammoConsumption": "Zużycie Amunicji",
+  "allowsCharging": "Pozwala na szarżę",
+  "limbersArtillery": "Rozkłada artylerię",
+  "all": "Wszystkie",
+  "scenario": "Scenariusz",
+  "banned": "Zablokowany",
+  "baseAmmo": "Podstawowa amunicja",
+  "range": "Zasięg"
 }

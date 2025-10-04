@@ -1,0 +1,45 @@
+{
+  "notifications": "Értesítések",
+  "noNotifications": "Nincsenek értesítések",
+  "clear": "Törlés",
+
+  "tournamentMatchStarted": {
+    "title": "Torna mérkőzés elkezdődött!",
+    "message": "A {{tournamentName}} torna mérkőzése elkezdődött, menj és játssz!"
+  },
+
+  "tournamentFilled": {
+    "title": "Torna megtelt!",
+    "message": "A {{tournamentName}} torna most már tele van. Bármikor elindíthatod!"
+  },
+
+  "tournamentWillStart": {
+    "title": "A torna fordulója hamarosan kezdődik!",
+    "message": "A {{tournamentName}} torna fordulója hamarosan kezdődik."
+  },
+
+  "tournamentRewards": {
+    "title": "A {{place}}. helyet szerezted meg a {{tournamentName}} tornán!",
+    "message": "{{reward}} <BasicCurrency/>-t kaptál."
+  },
+
+  "yourTournamentEnded": {
+    "title": "A {{tournamentName}} tornád véget ért",
+    "message": "{{reward}} <BasicCurrency/>-t kaptál."
+  },
+
+  "tournamentCancelled": {
+    "title": "Torna törölve",
+    "message": "A {{tournamentName}} tornát törölték. {{refund}} <BasicCurrency/>-t kaptál vissza."
+  },
+
+  "updatePlanned": {
+    "title": "Frissítés tervezve",
+    "message": "Új <b>{{name}}</b> frissítés van tervezve <b>{{date}}</b>-re, kattints a változások megtekintéséhez."
+  },
+
+  "banDodge": {
+    "title": "{{minutes}} percre fel vagy függesztve",
+    "message": "Elhagytad az utolsó {{games}} rangsorolt játékot, ezért várnod kell egy kicsit, hogy folytathasd a rangsorolt játékokat."
+  }
+}

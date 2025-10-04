@@ -1,0 +1,68 @@
+{
+  "gotIt": "Compris !",
+  "disableTips": "Désactiver les conseils",
+  "friendlyFire": {
+    "title": "Avertissement de Tir Ami",
+    "message": "Ce tir causera des tirs amis ! Cherchez l'icône jaune sur les unités pour voir lesquelles seront endommagées."
+  },
+  "armyComposition": {
+    "title": "Conseils de Composition d'Armée",
+    "message": "Ici, vous pouvez concevoir des armées personnalisées qui correspondent à votre propre style et préférences. Si vous êtes nouveau sur Lines of Battle, restez avec la composition par défaut jusqu'à ce que vous appreniez les bases ; les armées par défaut sont très compétitives et consistent en les unités les plus rentables et équilibrées du jeu.\n\nLes meilleures armées consistent typiquement en 60-75% d'infanterie, 20-35% de cavalerie, et 10-15% d'artillerie."
+  },
+  "firstBattle": {
+    "title": "Félicitations pour le début de votre première bataille, Général !",
+    "message": "Une force ennemie d'une force à peu près égale a marché pour nous rencontrer sur ce champ de bataille.\n\nIl y a trois façons d'obtenir la victoire :\n\n1. La destruction complète de la force ennemie – mettez en déroute chaque unité pour gagner.\n2. Tenir le champ à la fin de la journée – infligez plus de pertes à l'ennemi ou utilisez vos bataillons d'infanterie pour s'emparer d'objectifs neutres et gagner des Points de Victoire. Si vous avez une avance de +10 Points de Victoire quand le jeu se termine, vous gagnez.\n3. Couper les lignes d'approvisionnement ennemies – utilisez vos bataillons d'infanterie pour capturer le grand objectif dans la zone de déploiement ennemie. Cela prend plus de deux fois plus de temps que de capturer un petit objectif, mais mettra fin au jeu en votre faveur.\n\nBonne chance, Général !"
+  },
+  "routingUnits": {
+    "title": "Unités en Déroute",
+    "message": "Une unité a perdu toute cohésion et fuit maintenant le front. Si elle peut atteindre une distance sûre des forces ennemies, elle cessera de fuir et retrouvera rapidement son organisation – à 30% d'organisation, elle se ralliera et vous reprendrez le contrôle d'elle. Vous pouvez accélérer ce processus en plaçant des unités amies comme la cavalerie à proximité.\n\nEssayez de remplacer les unités à faible organisation au combat par des réserves fraîches et bien organisées. Il est beaucoup plus efficace de réorganiser une unité désorganisée que de rallier une unité brisée."
+  },
+  "lineInfantrySelection": {
+    "title": "Infanterie de Ligne",
+    "message": "Ceci est un bataillon d'infanterie de 800 hommes, capable d'engager des cibles avec le feu de mousquet ou la baïonnette. Utilisez l'ordre 'Tirer et Avancer' pour vous rapprocher et infliger des dégâts à distance dévastateurs, et utilisez l'ordre 'Courir' pour dépenser de l'endurance et couvrir rapidement le terrain, lançant une charge à la baïonnette contre d'autres infanteries. Attention cependant à ne pas trop utiliser l'ordre 'Courir', et évitez de charger l'infanterie ennemie avec une Organisation élevée."
+  },
+  "skirmisherSelection": {
+    "title": "Tirailleurs",
+    "message": "Les tirailleurs représentent une compagnie (~150 hommes) de tireurs d'élite combattant sans formation.\n\nCes unités subissent presque aucun dégât des mousquets et de l'artillerie, mais des dégâts sévères au corps à corps.\n\nPlacez vos tirailleurs dans le terrain ou utilisez l'infanterie de ligne et la cavalerie pour les protéger des charges.\n\nLes tirailleurs excellent à tenir des points forts ou à harceler l'artillerie et l'infanterie avec des tirs à longue portée."
+  },
+  "cavalrySelection": {
+    "title": "Cavalerie",
+    "message": "Les unités de cavalerie sont rapides et puissantes mais nécessitent une gestion prudente.\n\n• Utilisez l'ordre 'Courir' pour dépenser de l'endurance et charger les tirailleurs, l'infanterie à faible organisation et l'artillerie mal protégée\n• Préservez l'endurance en faisant marcher la cavalerie quand possible\n• La cavalerie perdra toujours en 1 contre 1 contre l'infanterie à haute organisation\n• Désorganisez l'infanterie ennemie avec le feu de mousquet et d'artillerie avant une charge\n• Préservez votre cavalerie pour les moments décisifs\n• Gardez la cavalerie hors du terrain"
+  },
+  "artillerySelection": {
+    "title": "Artillerie",
+    "message": "L'artillerie est un multiplicateur de force ; elle soutient l'infanterie et la cavalerie, mais ne peut pas gagner les batailles seule.\n\n• L'artillerie n'a pas d'endurance ; utilisez toujours l'ordre 'Courir' lors de traversées de longues distances\n• L'artillerie a des munitions ; surveillez votre réserve de munitions pour ne pas en manquer\n• L'artillerie napoléonienne nécessite une ligne de vue claire pour tirer ; ne la bloquez pas avec votre infanterie\n\nComprenez la meilleure utilisation des différentes portées de l'artillerie :\n\n• Tir à longue portée : faible dégâts à de nombreuses unités (grande zone d'effet)\n• Tir à portée moyenne : bons dégâts à quelques unités (petite zone d'effet)\n• Tir à courte portée : dégâts extrêmes à une unité (feu de mitraille)\n\nConsidérez déplacer votre artillerie avec la ligne de bataille au lieu de la laisser tirer à longue portée depuis l'arrière."
+  },
+  "forestMovement": {
+    "title": "Terrain Forestier",
+    "message": "Vous avez ordonné à cette unité de se déplacer à travers une forêt. Ce terrain :\n\n• Fournit une protection contre les tirs ennemis et réduit la vision\n• Augmente les coûts d'endurance pour le combat au corps à corps et le mouvement\n• Réduit l'efficacité au combat de la cavalerie\n• Réduit les dégâts de l'artillerie à l'intérieur"
+  },
+  "buildingMovement": {
+    "title": "Terrain de Bâtiments",
+    "message": "Vous avez ordonné à cette unité de se déplacer à travers un bâtiment. Ce terrain :\n\n• Fournit une excellente protection contre les tirs ennemis et réduit la vision\n• Augmente les coûts d'endurance pour le combat au corps à corps et le mouvement\n• Réduit sévèrement l'efficacité au combat de la cavalerie\n• Réduit considérablement les dégâts de l'artillerie à l'intérieur"
+  },
+  "roadMovement": {
+    "title": "Mouvement sur Route",
+    "message": "Vous avez ordonné à cette unité de se déplacer sur une route. Les routes :\n\n• Augmentent considérablement la vitesse de déplacement, surtout pour l'artillerie\n• Réduisent de moitié les coûts d'endurance – envisagez de faire courir les unités le long de la route vers votre destination"
+  },
+  "waterMovement": {
+    "title": "Terrain Aquatique",
+    "message": "Vous avez ordonné à cette unité de se déplacer à travers l'eau. L'eau :\n\n• Pénalise sévèrement la vitesse de déplacement, la défense au corps à corps, l'endurance et la puissance de tir à distance\n• Si vous vous déplacez à travers l'eau, ne vous retrouvez pas coincé à combattre là\n• Considérez comment utiliser l'eau pour obstruer l'ennemi"
+  },
+  "runOrder": {
+    "title": "Ordre de Course",
+    "message": "Utilisez l'ordre de course pour dépenser de l'endurance afin de vous déplacer à grande vitesse et charger les unités ennemies, mais ne l'utilisez pas excessivement et n'épuisez pas vos troupes.\n\nLes charges dépendent de la statistique de Résistance aux Charges du défenseur et de la statistique de Pénétration des Charges de l'attaquant, qui réduit la résistance aux charges du défenseur (côte à côte sur la carte d'unité, qui est visible à gauche de l'écran lors de la sélection d'une unité).\n\nUne charge effectuée avec une Pénétration élevée contre une Résistance faible mettra le défenseur en déroute ; une charge avec une Pénétration faible contre une Résistance élevée peut ne causer aucun dégât ou même désorganiser l'attaquant.\n\nLa Résistance aux Charges et la Pénétration sont toutes deux basées sur l'Organisation ; utilisez le feu de mousquet et d'artillerie pour désorganiser l'ennemi, puis chargez avec une unité fraîche et bien organisée.\n\nEssayez de charger frontalement les unités lorsque leur résistance n'est que 60% supérieure à votre pénétration.\n\nEn bref : utilisez des unités avec une Organisation élevée pour charger des unités avec une Organisation faible."
+  },
+  "fallbackOrder": {
+    "title": "Ordre de Repli",
+    "message": "Le repli est une manœuvre hautement complexe et éprouvante – une unité qui se retire et reçoit une charge subira de lourds dégâts même si elle est bien organisée. Utilisez cet ordre avec parcimonie et essayez de protéger les troupes qui se replient avec des unités fraîches."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Ordre de Tir et Avance",
+    "message": "L'infanterie et l'artillerie légère peuvent Tirer et Avancer vers les ennemis pour améliorer leur position tout en maintenant le feu. Mais gardez à l'esprit que cet ordre réduit la vitesse et la puissance de tir."
+  },
+  "lowStamina": {
+    "title": "Avertissement d'Endurance Faible",
+    "message": "Vous avez épuisé l'endurance de cette unité – elle a déjà des modificateurs de combat négatifs sévères, et si vous la poussez beaucoup plus loin, elle perdra même la capacité de courir.\n\nQuand votre unité a une faible endurance, vous devriez :\n\n• L'utiliser pour poursuivre les unités ennemies en fuite qui ne peuvent pas riposter, pour les empêcher de se rallier\n• La placer derrière votre ligne de bataille ou près de vos unités en fuite, pour que votre unité à faible endurance puisse les soutenir avec son rayon de moral\n• Ou simplement la laisser sans ordres pour qu'elle puisse récupérer un peu d'endurance\n\nLa régénération d'endurance est très lente, alors essayez de l'utiliser seulement quand cela compte vraiment !"
+  }
+}

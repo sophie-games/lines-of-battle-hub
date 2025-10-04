@@ -1,0 +1,68 @@
+{
+  "gotIt": "Got it!",
+  "disableTips": "Disable tips",
+  "friendlyFire": {
+    "title": "Friendly Fire Warning",
+    "message": "This shot will cause friendly fire! Look for the yellow icon on units to see which will be damaged."
+  },
+  "armyComposition": {
+    "title": "Army Composition Tips",
+    "message": "Here, you can design custom armies that suit your own style and preferences. If you're new to Lines of Battle, stick with the default composition until you learn the basics; the default armies are highly competitive and consist of the most cost-effective, well-rounded units in the game.\n\nThe best armies typically consist of 60-75% infantry, 20-35% cavalry, and 10-15% artillery."
+  },
+  "firstBattle": {
+    "title": "Congratulations on starting your first battle, General!",
+    "message": "An enemy force of roughly equal strength has marched to meet us on this battlefield.\n\nThere are three ways you can obtain victory:\n\n1. The complete destruction of the enemy force – rout every unit to win.\n2. Holding the field at the end of the day – inflict more casualties than the enemy or use your infantry battalions to seize neutral objectives to gain Victory Points. If you have a +10 Victory Point lead when the game ends, you win.\n3. Cutting the enemy lines of supply – use your infantry battalions to capture the large objective in the enemy deployment zone. This takes more than twice as long as capturing a small objective, but will end the game in your favor.\n\nBest of luck, General!"
+  },
+  "routingUnits": {
+    "title": "Routing Units",
+    "message": "A unit has lost all cohesion and is now fleeing the front. If it can reach a safe distance from enemy forces, it will stop fleeing and rapidly regain organization – at 30% organization, it will rally and you will regain control of it. You can accelerate this process by placing friendly units such as cavalry nearby.\n\nTry to replace low-organization units in combat with fresh, well-organized reserves. It's much more efficient to reorganize a disorganized unit than to rally a broken one."
+  },
+  "lineInfantrySelection": {
+    "title": "Line Infantry",
+    "message": "This is an infantry battalion of 800 men, capable of engaging targets with musket fire or the bayonet. Use the Fire and Advance order to close in and inflict devastating ranged damage, and use the Run order to expend stamina and quickly cover ground, launching a bayonet charge against other infantry. Be mindful not to overuse the Run order, however, and avoid charging enemy infantry with high Organization."
+  },
+  "skirmisherSelection": {
+    "title": "Skirmishers",
+    "message": "Skirmishers represent a company (~150 men) of marksmen fighting without a formation.\n\nThese units take almost no damage from muskets and artillery, but severe damage from melee.\n\nPlace your skirmishers in terrain or use line infantry and cavalry to protect them from charges.\n\nSkirmishers excel at holding strongpoints or harassing artillery and infantry with long-range fire."
+  },
+  "cavalrySelection": {
+    "title": "Cavalry",
+    "message": "Cavalry units are fast and powerful but require careful management.\n\n• Use the Run order to spend stamina and charge skirmishers, low-organization infantry, and poorly protected artillery\n• Preserve stamina by walking cavalry when possible\n• Cavalry will always lose a 1 v 1 against infantry with high organization\n• Disorganize enemy infantry with musket and artillery fire before a charge\n• Preserve your cavalry for decisive moments\n• Keep cavalry out of terrain"
+  },
+  "artillerySelection": {
+    "title": "Artillery",
+    "message": "Artillery is a force multiplier; it supports infantry and cavalry, but can't win battles alone.\n\n• Artillery doesn't have stamina; always use Run order when crossing long distances\n• Artillery does have ammo; keep an eye on your ammo reserve so you don't run out\n• Napoleonic artillery requires a clear line of sight to fire; do not block it with your infantry\n\nUnderstand the best use of artillery's different ranges:\n\n• Long-range fire: low damage to many units (large area of effect)\n• Medium-range fire: good damage to a few units (small area of effect)\n• Close-range fire: Extreme damage to one unit (canister fire)\n\nConsider moving your artillery up with the battle line instead of leaving it firing at long range from the rear."
+  },
+  "forestMovement": {
+    "title": "Forest Terrain",
+    "message": "You've ordered this unit to move through a forest. This terrain:\n\n• Provides protection from enemy fire and reduces vision\n• Increases stamina costs for melee and movement\n• Reduces the combat effectiveness of cavalry\n• Reduces the damage output of artillery inside of it"
+  },
+  "buildingMovement": {
+    "title": "Building Terrain",
+    "message": "You've ordered this unit to move through a building. This terrain:\n\n• Provides excellent protection from enemy fire and reduces vision\n• Increases stamina costs for melee and movement\n• Severely reduces the combat effectiveness of cavalry\n• Greatly reduces the damage output of artillery inside of it"
+  },
+  "roadMovement": {
+    "title": "Road Movement",
+    "message": "You've ordered this unit to move through a road. Roads:\n\n• Greatly increase movement speed, especially for artillery\n• Halve stamina costs – consider running units along the road to your destination"
+  },
+  "waterMovement": {
+    "title": "Water Terrain",
+    "message": "You've ordered this unit to move through water. Water:\n\n• Severely penalizes movement speed, melee defense, stamina, and ranged attack output\n• If you're moving through water, don't get stuck fighting there\n• Consider how to use water to obstruct the enemy"
+  },
+  "runOrder": {
+    "title": "Run Order",
+    "message": "Use the Run order to spend stamina to move at high speed and charge enemy units, but don't overuse it and exhaust your troops.\n\nCharges rely on the defender's Charge Resistance stat and the attacker's Charge Penetration stat, which reduces defender charge resistance (side by side on the unit card, which is visible on the left of the screen when selecting one unit).\n\nA charge conducted with high Penetration against low Resistance will rout the defender; a charge with low Penetration against high Resistance may deal no damage or even disorganize the attacker.\n\nCharge Resistance and Penetration are both based on Organization; use musket and artillery fire to disorganize the enemy, then charge with a fresh, high-Organization unit.\n\nTry to frontally charge units when their resistance is only 60% higher than your penetration.\n\nIn short: use units with high Organization to charge units with low Organization."
+  },
+  "fallbackOrder": {
+    "title": "Fallback Order",
+    "message": "Fallback is a highly complex and taxing maneuver – a withdrawing unit that receives a charge will take heavy damage even if well-organized. Use this order sparingly and try to protect withdrawing troops with fresh units."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Fire and Advance Order",
+    "message": "Infantry and light artillery may Fire and Advance toward enemies to improve their position while maintaining fire. But keep in mind, this order reduces speed and damage output."
+  },
+  "lowStamina": {
+    "title": "Low Stamina Warning",
+    "message": "You've exhausted this unit's stamina – it already has severe negative combat modifiers, and if you push it much further it will even lose the ability to run.\n\nWhen your unit is low on stamina, you should:\n\n• Use it to pursue routing enemy units that can't fight back, to prevent them from rallying\n• Place it behind your battle line or near your routing units, so your low-stamina unit can support them with its morale radius\n• Or simply leave it without orders so it can recover a little stamina\n\nStamina regain is very slow, so try to only use it when it counts!"
+  }
+}

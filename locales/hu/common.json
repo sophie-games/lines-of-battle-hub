@@ -10,6 +10,8 @@
   "store": "Áruház",
   "supporters": "Támogatóink",
   "elo": "Élő",
+  "season": "Szezon",
+  "of": "a",
   "joinedAt": "Csatlakozás dátuma: {{date}}",
   "addPlayer": "Játékos hozzáadása",
   "credits": "Kreditek",
@@ -46,11 +48,20 @@
   "randomGameInfo": "A véletlenszerűen generált pályákon az általad adott játékmódra előre meghatározott seregek állnak rendelkezésedre. A seregedet a <0>Seregek összetételénél</0> tudod módosítani és megtekinteni. Ha még nem állítottál be speciális összeállítást, az alapból beállított sereggel kell játszanod.",
   "selectGameMode": "Válassz az alábbi opciók közül!",
   "or": "Vagy",
+  "quickMatchmaking": "Gyors Párosítás",
+  "ranked": "Rangsorolt",
+  "classicUnranked": "Klasszikus Nem Rangsorolt",
+  "classicUnrankedTooltip": "A klasszikus nem rangsorolt módban az Elo nem befolyásolt és csak az alapértelmezett hadsereg használatos.",
+  "unranked": "Nem Rangsorolt",
   "cancel": "Mégsem",
 
   "matchmakingQueue": {
     "inQueue": "Sikeresen felkerültél a várólistára! A rendszerünk most olyan ellenfelet keres neked, aki az általad kiválaszott módban és alkalmas beállítások mellett szeretne játszani.",
-    "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára."
+    "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára.",
+    "extendQueue": "Várólista bővítése",
+    "extendQueueSuccess": "Keresés bármilyen Elo tartományban.",
+    "cancelledBy": "A várólistát {{username}} törölte.",
+    "playersInQueue": "{{count}} játékos keres"
   },
 
   "fastMode": "Gyors mód",
@@ -70,11 +81,10 @@
 
   "battleType": "Csata típusa",
   "dynamicBattleType": {
-    "skirmish": "Csatározás",
-    "clash": "Összecsapás",
-    "combat": "Küzdelem",
+    "clash": "Találkozás",
+    "combat": "Csata",
     "battle": "Csata",
-    "grand_battle": "Nagy csata"
+    "grand_battle": "Nagy Csata"
   },
 
   "matchmaking": "Meccskeresés",
@@ -86,6 +96,13 @@
 
   "player": "Játékos",
   "units": "Egységek",
+  "afk": "AFK",
+  "afkWarning": {
+    "title": "AFK állapotban vagy",
+    "message": "Túl sokáig voltál inaktív. A parancsaid automatikusan elküldésre kerülnek, hogy elkerüljük a játék késéseit.",
+    "autoSubmitIn": "Automatikus küldés",
+    "continuePlaying": "Játék folytatása"
+  },
   "unitSkins": "Egység Skinek",
   "avatars": "Profilképek",
   "withdraw": "Visszavonulás",
@@ -135,6 +152,7 @@
   "unitStat": {
     "hp": "HP",
     "org": "Organizáció",
+    "stamina": "Kitartás",
     "movement": "Mozgás",
     "meleeAttack": "Közelharci támadás",
     "meleeDefense": "Közelharci védekezés",
@@ -149,12 +167,15 @@
   },
 
   "unitCategory": {
-    "1": "Gyalogság",
-    "2": "Lovasság",
-    "3": "Tüzérség",
-    "4": "Könnyű gyalogság",
-    "5": "Könnyű lovasság",
-    "6": "Nehéz lovasság"
+    "infantry": "Gyalogság",
+    "midCavalry": "Lovasság",
+    "artillery": "Tüzérség",
+    "lightInfantry": "Könnyű gyalogság",
+    "scoutCavalry": "Felderítő Lovasság",
+    "lightCavalry": "Könnyű lovasság",
+    "heavyCavalry": "Nehéz lovasság",
+    "militiaInfantry": "Milícia Gyalogság",
+    "skirmishInfantry": "Felderítő Gyalogság"
   },
 
   "category": "Kategória",
@@ -295,14 +316,16 @@
   "noUnitsYet": "Nincsenek még egységek",
   "armyComposition": "Sereg összetétel",
   "budgetAvailable": "Elérhető költségvetés",
+  "reserveAmmo": "Tartalék Lőszer",
+  "estimatedTurnsOfFire": "Becsült tüzelési körök",
+  "reserveAmmoDescription": "A nem elköltött arany hozzájárul a tartalék tüzérségi lőszeredhez, amely automatikusan feltölti a tüzérséged beépített lőszerét lövés közben. A becsült tüzelési körök mind a tartalék, mind az egység lőszert figyelembe veszik.",
   "saveArmy": "Mentés",
   "clearUnits": "Visszaállítás",
   "saving": "Mentés...",
   "armyInvalid": "Érvénytelen sereg, ameddig nem módosítod, addig az alap összetételt fogod csak tudni használni ebben a módban.",
 
   "landing": {
-    "title": "Üdv a <0/> játékban!",
-    "message": "A <b>Lines of Battle</b> egy többnyire többjátékos, egyidejű körökön alapuló stratégia játék, ami a napóleoni időkben játszódik. A játék taktikai és történelmi elmélyülésre lett tervezve, s epikus csaták megörökítésére, melyek során a képességeid és stratégiai érzéked alapján vezetheted győzelemre seregeidet.",
+    "message": "<b>Lines of Battle</b> egy napóleoni taktikai játék egyidejű körökkel és valós idejű harcokkal. Győzd le az emberi ellenfeleket pontos csapatokkal és taktikákkal!",
     "privacy": "A kezdéssel beleegyezel az <0>Adatvédelmi Nyilatkozatunkba</0>."
   },
 
@@ -334,6 +357,7 @@
   },
 
   "selectOrder": "Utasítás Kiválasztása",
+  "autofire": "Automatikus tüzelés",
   "allowFireWhenMoving": "Lőhet mozgás közben",
   "meleeDamage": "Közelharci sebzés",
   "rangedDamage": "Távolsági sebzés",
@@ -362,7 +386,8 @@
     "powerLost": "Elvesztett Erő",
     "lossesRatio": "Veszteségi Ráta",
     "objectives": "Objektívák",
-    "timeWithoutObjectives": "Objektíváktól nélkülözött idő",
+    "timeUnderPressure": "Idő nyomás alatt",
+    "timeUnderPressureTooltip": "A nyomás alatti idő az az idő, amikor egy csapat az objektívák <0>{{percentage}}%</0>-át vagy kevesebbet irányítja. Minél tovább marad egy csapat nyomás alatt, annál több győzelmi pontot veszít el.",
     "unitsOrgRegain": "Egységek felépülése (Org)"
   },
 
@@ -460,10 +485,65 @@
     "p3": "Kövess minket a közösségi médiában a legfrissebb hírek és bejelentések érdekében."
   },
 
+  "tournaments": "Tornák",
+  "createTournament": "Torna létrehozása",
+  "hasPassword": "Jelszóval védett",
+  "autoProgression": "Automatikus előrehaladás",
+  "autoProgressionInfo": "Ha ez a beállítás engedélyezve van, a torna automatikusan továbblép a következő körbe, amint az aktuális kör utolsó mérkőzése befejeződött. Ha le van tiltva, a torna akkor halad előre, amikor a rendszergazda manuálisan indítja el, vagy a tervezett dátumon és időpontban (ha be van állítva).",
+  "optional": "Opcionális",
+
+  "tournamentStartedModal": {
+    "title": "Egy torna meccs elkezdődött",
+    "message": "A {{tournamentName}} torna {{round}}. köre elkezdődött!",
+    "goButtonText": "Menj a torna meccshez"
+  },
+
+  "allVisible": "Minden Látható",
+  "teamN": "Csapat {{number}}",
   "measuring": "Mérés...",
   "disconnected": "Elválasztva",
   "reconnected": "Újra csatlakoztatva",
   "connecting": "Csatlakozás...",
   "disconnecting": "Elválasztás...",
-  "unknown": "Ismeretlen"
+  "unknown": "Ismeretlen",
+
+  "fogOfWar": "Háború ködje",
+
+  "low": "Alacsony",
+  "medium": "Közepes",
+  "high": "Magas",
+  "dismiss": "Elutasítás",
+  "turningDelay": "Fordulási késés",
+  "infantry": "Gyalogság",
+  "cavalry": "Lovasság",
+  "artillery": "Tüzérség",
+  "special": "Speciális",
+
+  "preset": "Előre beállított",
+  "hybrid": "Hibrid",
+  "random": "Véletlenszerű",
+  "classic": "Klasszikus",
+
+  "academy": "Akadémia",
+  "encyclopedia": "Enciklopédia",
+  "tutorialTips": "Oktatóanyag Tippek",
+  "loadingScreenTips": "Betöltőképernyő Tippek",
+  "ammo": "Lőszer",
+  "ammoConsumption": "Lőszer Fogyasztás",
+  "initRound1": "1. forduló inicializálása",
+  "allowsCharging": "Lehetővé teszi a rohamot",
+  "limbersArtillery": "Szétszereli az tüzérséget",
+  "all": "Minden",
+  "scenario": "Forgatókönyv",
+  "banned": "Kitiltva",
+  "baseAmmo": "Alap lőszer",
+  "battleReport": "Csata jelentés",
+  "gameEndReasons": {
+    "cancelled": "A játék törölve lett, mert legalább egy játékos nem küldött parancsot az első körben.",
+    "victory": "A játék véget ért, mert egy csapat győzelmet ért el.",
+    "maxTurn": "A játék elérte a maximális körszámot.",
+    "drawByAgreement": "A játék döntetlennel ért véget kölcsönös megegyezés alapján.",
+    "unknown": "Ismeretlen ok."
+  },
+  "range": "Távolság"
 }

@@ -1,0 +1,68 @@
+{
+  "gotIt": "Értem!",
+  "disableTips": "Tippek letiltása",
+  "friendlyFire": {
+    "title": "Baráti Tűz Figyelmeztetés",
+    "message": "Ez a lövés baráti tüzet okoz! Keresse a sárga ikont az egységeken, hogy lássa, melyek sérülnek meg."
+  },
+  "armyComposition": {
+    "title": "Hadsereg Összetétel Tippek",
+    "message": "Itt egyedi hadseregeket tervezhetsz, amelyek a saját stílusodnak és preferenciáidnak megfelelnek. Ha új vagy a Lines of Battle-ban, maradj a default összetételnél, amíg meg nem tanulod az alapokat; a default hadseregek nagyon versenyképesek és a játék legköltséghatékonyabb, legkiegyensúlyozottabb egységeiből állnak.\n\nA legjobb hadseregek jellemzően 60-75% gyalogságból, 20-35% lovasságból és 10-15% tüzérségből állnak."
+  },
+  "firstBattle": {
+    "title": "Gratulálok az első csatád kezdetéhez, Tábornok!",
+    "message": "Egy körülbelül egyenlő erősségű ellenséges erő vonult fel, hogy találkozzon velünk ezen a csatatéren.\n\nHárom módja van a győzelem elérésének:\n\n1. Az ellenséges erő teljes megsemmisítése – zúzd minden egységet menekülésre, hogy nyerj.\n2. A mező megtartása a nap végén – okozz több veszteséget az ellenségnek vagy használd a gyalogsági zászlóaljaidat semleges célpontok elfoglalására és Győzelmi Pontok szerzésére. Ha +10 Győzelmi Pont előnyöd van, amikor a játék véget ér, nyersz.\n3. Az ellenséges utánpótlási vonalak elvágása – használd a gyalogsági zászlóaljaidat a nagy célpont elfoglalására az ellenséges telepítési zónában. Ez több mint kétszer annyi időt vesz igénybe, mint egy kis célpont elfoglalása, de a játékot a javadra zárja.\n\nSok szerencsét, Tábornok!"
+  },
+  "routingUnits": {
+    "title": "Menekülő Egységek",
+    "message": "Egy egység elvesztette az összes kohéziót és most menekül a frontról. Ha biztonságos távolságra tud jutni az ellenséges erőktől, abbahagyja a menekülést és gyorsan visszanyeri a szervezettséget – 30%-os szervezettségnél újraszerveződik és visszanyered a felettük való irányítást. Felgyorsíthatod ezt a folyamatot, ha baráti egységeket, például lovasságot helyezel a közelükbe.\n\nPróbálj meg alacsony szervezettségű egységeket cserélni a harcban friss, jól szervezett tartalékokra. Sokkal hatékonyabb egy szervezetlen egységet újraszervezni, mint egy összetört egységet újraszervezni."
+  },
+  "lineInfantrySelection": {
+    "title": "Sorakozó Gyalogság",
+    "message": "Ez egy 800 fős gyalogsági zászlóalj, amely képes célpontokkal harcolni musketttűzzel vagy szuronyos támadással. Használd a 'Tűz és Előre' parancsot a közeledéshez és pusztító távolsági sebzés okozásához, és használd a 'Futás' parancsot a kitartás elköltéséhez és a gyors terepbejáráshoz, szuronyos rohamot indítva más gyalogság ellen. Azonban légy óvatos, ne használd túl gyakran a 'Futás' parancsot, és kerüld a magas Szervezettséggel rendelkező ellenséges gyalogság megtámadását."
+  },
+  "skirmisherSelection": {
+    "title": "Harcászok",
+    "message": "A harcászok egy szakasz (~150 katona) mesterlövészt képviselnek, akik rend nélkül harcolnak.\n\nEzek az egységek szinte semmilyen kárt nem szenvednek a musketek és tüzérségtől, de súlyos kárt a közelharcban.\n\nHelyezd a harcászaidat terepre vagy használj sorakozó gyalogságot és lovasságot, hogy megvédd őket a rohamoktól.\n\nA harcászok kiválóak erődített pontok megtartásában vagy tüzérség és gyalogság zaklatásában hosszú távú tűzzel."
+  },
+  "cavalrySelection": {
+    "title": "Lovasság",
+    "message": "A lovassági egységek gyorsak és erősek, de óvatos kezelést igényelnek.\n\n• Használd a 'Futás' parancsot kitartás elköltéséhez és harcászok, alacsony szervezettségű gyalogság és rosszul védett tüzérség megtámadásához\n• Óvd a kitartást azáltal, hogy a lovasságot gyalogoltatod, amikor lehetséges\n• A lovasság mindig veszít 1-1-ben a magas szervezettségű gyalogsággal szemben\n• Szervezd szét az ellenséges gyalogságot musket és tüzérségi tűzzel a roham előtt\n• Óvd a lovasságodat a döntő pillanatokra\n• Tartsd a lovasságot távol a tereptől"
+  },
+  "artillerySelection": {
+    "title": "Tüzérség",
+    "message": "A tüzérség erősítő tényező; támogatja a gyalogságot és lovasságot, de nem tudja egyedül megnyerni a csatákat.\n\n• A tüzérségnek nincs kitartása; mindig használd a 'Futás' parancsot hosszú távolságok megtételénél\n• A tüzérségnek van lőszerkészlete; figyeld a lőszerkészletedet, hogy ne maradj lőszer nélkül\n• A napóleoni tüzérség tiszta látóvonalat igényel a tüzeléshez; ne akadályozd el a gyalogságoddal\n\nÉrtsd meg a tüzérség különböző hatótávolságainak legjobb használatát:\n\n• Távolsági tűz: alacsony sebzés sok egységnek (nagy hatóterület)\n• Közepes hatótávolságú tűz: jó sebzés néhány egységnek (kis hatóterület)\n• Közeli tűz: extrém sebzés egy egységnek (sörétes tűz)\n\nFontold meg, hogy a tüzérségedet a csatavonallal együtt mozgatod, ahelyett, hogy hátulról távolsági tüzet engednél."
+  },
+  "forestMovement": {
+    "title": "Erdei Terület",
+    "message": "Rendelted ezt az egységet, hogy erdőn keresztül mozogjon. Ez a terület:\n\n• Védelmet nyújt az ellenséges tűz ellen és csökkenti a látótávolságot\n• Növeli a kitartás költségeit közelharc és mozgás esetén\n• Csökkenti a lovasság harci hatékonyságát\n• Csökkenti az ágyúk sebzését benne"
+  },
+  "buildingMovement": {
+    "title": "Épület Terület",
+    "message": "Rendelted ezt az egységet, hogy épületen keresztül mozogjon. Ez a terület:\n\n• Kiváló védelmet nyújt az ellenséges tűz ellen és csökkenti a látótávolságot\n• Növeli a kitartás költségeit közelharc és mozgás esetén\n• Súlyosan csökkenti a lovasság harci hatékonyságát\n• Jelentősen csökkenti az ágyúk sebzését benne"
+  },
+  "roadMovement": {
+    "title": "Úti Mozgás",
+    "message": "Rendelted ezt az egységet, hogy úton mozogjon. Az utak:\n\n• Jelentősen növelik a mozgási sebességet, különösen a tüzérség számára\n• Felezik a kitartás költségeit – fontold meg, hogy az egységeket az úton futtatod a célodig"
+  },
+  "waterMovement": {
+    "title": "Víz Terület",
+    "message": "Rendelted ezt az egységet, hogy vízen keresztül mozogjon. A víz:\n\n• Súlyosan bünteti a mozgási sebességet, közelharc védelmet, kitartást és távolsági támadás kimenetelét\n• Ha vízen keresztül mozogsz, ne ragadj ott harcolni\n• Gondold át, hogyan használhatod a vizet az ellenség akadályozására"
+  },
+  "runOrder": {
+    "title": "Futás Parancs",
+    "message": "Használd a futás parancsot, hogy kitartást költs nagy sebességű mozgásra és ellenséges egységek rohamozására, de ne élj vele túl és ne kimerítsd a csapataidat.\n\nA rohamok a védő Roham Ellenállás statisztikájától és a támadó Roham Áthatolás statisztikájától függenek, amely csökkenti a védő roham ellenállását (egymás mellett az egység kártyán, amely látható a képernyő bal oldalán, amikor egy egységet választasz).\n\nEgy magas Áthatolással végrehajtott roham alacsony Ellenállás ellen megfutamítja a védőt; egy alacsony Áthatolással végrehajtott roham magas Ellenállás ellen nem okozhat kárt vagy akár a támadót is dezorganizálhatja.\n\nA Roham Ellenállás és az Áthatolás mindkettő a Szervezettségen alapul; használj musket és tüzérségi tüzet az ellenség dezorganizálására, majd rohamozz egy friss, magas szervezettségű egységgel.\n\nPróbálj frontálisan rohamozni egységeket, amikor az ellenállásuk csak 60%-kal magasabb, mint a te áthatolásod.\n\nRöviden: használj magas Szervezettségű egységeket alacsony Szervezettségű egységek rohamozására."
+  },
+  "fallbackOrder": {
+    "title": "Visszavonulás Parancs",
+    "message": "A visszavonulás egy rendkívül összetett és kimerítő manőver – egy visszavonuló egység, amely rohamot kap, súlyos kárt szenved, még ha jól szervezett is. Használd ezt a parancsot mérsékelten és próbáld meg friss egységekkel védeni a visszavonuló csapatokat."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Tűz és Előrehaladás Parancs",
+    "message": "A gyalogság és a könnyű tüzérség használhatja a Tűz és Előrehaladás parancsot az ellenségek felé a pozíciójuk javítása érdekében, miközben fenntartják a tüzet. De ne feledd, hogy ez a parancs csökkenti a sebességet és a kimeneti kárt."
+  },
+  "lowStamina": {
+    "title": "Alacsony Kitartás Figyelmeztetés",
+    "message": "Kimerítetted ennek az egységnek a kitartását – már súlyos negatív harcmodifikátorai vannak, és ha tovább nyomás alá helyezed, még a futás képességét is elveszíti.\n\nAmikor az egységed kitartása alacsony, a következőket kellene tenned:\n\n• Használd futó ellenséges egységek üldözésére, amelyek nem tudnak ellentámadni, hogy megakadályozd a szerveződésüket\n• Helyezd a harcvonalad mögé vagy a futó egységeid közelébe, hogy az alacsony kitartású egységed morál sugárral támogathassa őket\n• Vagy egyszerűen hagyd parancs nélkül, hogy egy kicsit regenerálódhasson a kitartása\n\nA kitartás regenerálódása nagyon lassú, ezért próbáld csak akkor használni, amikor tényleg számít!"
+  }
+}

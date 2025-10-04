@@ -1,0 +1,45 @@
+{
+  "notifications": "Notifiche",
+  "noNotifications": "Nessuna notifica",
+  "clear": "Cancella",
+
+  "tournamentMatchStarted": {
+    "title": "Partita del torneo iniziata!",
+    "message": "Una partita del torneo {{tournamentName}} è iniziata, vai a giocarla!"
+  },
+
+  "tournamentFilled": {
+    "title": "Torneo riempito!",
+    "message": "Il torneo {{tournamentName}} è ora pieno. Puoi iniziarlo in qualsiasi momento!"
+  },
+
+  "tournamentWillStart": {
+    "title": "Il tuo round del torneo inizierà presto!",
+    "message": "Il round del torneo {{tournamentName}} inizierà presto."
+  },
+
+  "tournamentRewards": {
+    "title": "Hai vinto il {{place}}° posto nel torneo {{tournamentName}}!",
+    "message": "Hai ricevuto {{reward}} <BasicCurrency/>."
+  },
+
+  "yourTournamentEnded": {
+    "title": "Il tuo torneo {{tournamentName}} è terminato",
+    "message": "Hai ricevuto {{reward}} <BasicCurrency/>."
+  },
+
+  "tournamentCancelled": {
+    "title": "Torneo cancellato",
+    "message": "Il torneo {{tournamentName}} è stato cancellato. Ti è stato rimborsato {{refund}} <BasicCurrency/>."
+  },
+
+  "updatePlanned": {
+    "title": "Aggiornamento pianificato",
+    "message": "C'è un nuovo aggiornamento <b>{{name}}</b> pianificato per <b>{{date}}</b>, clicca per vedere le modifiche."
+  },
+
+  "banDodge": {
+    "title": "Sei stato sospeso per {{minutes}}",
+    "message": "Hai abbandonato le ultime {{games}} partite classificate, quindi dovrai aspettare un po' per continuare a giocare partite classificate."
+  }
+}

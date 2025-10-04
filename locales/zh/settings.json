@@ -41,6 +41,10 @@
   "showPlayableGamesAvailableModal": {
     "title": "显示可进行游戏菜单"
   },
+  "cinematicMode": {
+    "title": "电影模式",
+    "description": "回放时隐藏回合指示器，胜利进度条和单位栏，让回放界面更干净。"
+  },
   "hidePlayerInfo": {
     "title": "隐藏玩家信息",
     "description": "在UI中隐藏玩家的用户名和ELO。"
@@ -81,6 +85,10 @@
     "title": "显示碰撞体积",
     "description": "显示单位的碰撞体积。可能需要游戏经过一回合才能更新。"
   },
+  "disableSkins": {
+    "title": "禁用皮肤",
+    "description": "禁用单位的皮肤，只显示默认外观。"
+  },
   "fullScreen": {
     "title": "全屏",
     "description": "切换该应用的全屏模式",
@@ -91,6 +99,12 @@
     "description": "重置所有设置选项到默认设置。该行动会覆盖你所有自定义的选项。"
   },
   "reset": "重置",
+  "tierRequirement": {
+    "title": "会籍需求",
+    "settingRequires": "{{setting}}只对{{tier}}会籍玩家开放",
+    "description": "在Patreon上升级会籍以使用该项设置和其它会员专属功能！",
+    "goToPatreon": "前往Patreon"
+  },
   "lineFormation": "线形编队",
   "checkerboardFormation": "棋盘编队",
   "spaceBetweenUnits": "单位之间的间距",
@@ -118,6 +132,7 @@
     "fallbackOrder": "后退指令",
     "toggleFormation": "切换阵型",
     "toggleSmartCurvedMovements": "切换智能曲线移动",
+    "toggleFowPerspective": "切换战争迷雾视角",
     "openChat": "打开聊天栏",
     "controlGroup1": "控制编组1",
     "controlGroup2": "控制编组2",
@@ -132,5 +147,15 @@
   },
   "routingTransparency": {
     "title": "溃退单位透明度"
+  },
+  "fogOfWar": {
+    "description": "战争迷雾就是出现在你单位视野之外的地形上的阴影。检查每个地块的可见度非常消耗计算力，因此禁用此选项可能会提高性能。注意此选项只有视觉效果；禁用它不会使隐藏的敌方单位可见。"
+  },
+  "fogOfWarColor": {
+    "title": "战争迷雾颜色"
+  },
+  "groundQuality": {
+    "title": "地形质量",
+    "description": "控制地形纹理的质量。更高的质量提供更好的视觉细节，但可能会影响性能。需要刷新地图。"
   }
 }

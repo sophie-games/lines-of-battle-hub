@@ -1,0 +1,68 @@
+{
+  "gotIt": "Mengerti!",
+  "disableTips": "Nonaktifkan tips",
+  "friendlyFire": {
+    "title": "Peringatan Tembakan Kawan",
+    "message": "Tembakan ini akan menyebabkan tembakan kawan! Cari ikon kuning pada unit untuk melihat mana yang akan rusak."
+  },
+  "armyComposition": {
+    "title": "Tips Komposisi Tentara",
+    "message": "Di sini, Anda dapat merancang tentara khusus yang sesuai dengan gaya dan preferensi Anda sendiri. Jika Anda baru di Lines of Battle, tetaplah dengan komposisi default sampai Anda mempelajari dasar-dasarnya; tentara default sangat kompetitif dan terdiri dari unit yang paling hemat biaya dan seimbang dalam permainan.\n\nTentara terbaik biasanya terdiri dari 60-75% infanteri, 20-35% kavaleri, dan 10-15% artileri."
+  },
+  "firstBattle": {
+    "title": "Selamat memulai pertempuran pertama Anda, Jenderal!",
+    "message": "Pasukan musuh dengan kekuatan yang kira-kira sama telah berbaris untuk menemui kami di medan perang ini.\n\nAda tiga cara Anda dapat memperoleh kemenangan:\n\n1. Penghancuran total pasukan musuh – kalahkan setiap unit untuk menang.\n2. Memegang medan perang di akhir hari – timbulkan lebih banyak korban pada musuh atau gunakan batalion infanteri Anda untuk merebut sasaran netral dan mendapatkan Poin Kemenangan. Jika Anda memiliki keunggulan +10 Poin Kemenangan ketika permainan berakhir, Anda menang.\n3. Memotong jalur pasokan musuh – gunakan batalion infanteri Anda untuk merebut sasaran besar di zona penyebaran musuh. Ini membutuhkan waktu lebih dari dua kali lipat dibandingkan merebut sasaran kecil, tetapi akan mengakhiri permainan demi kemenangan Anda.\n\nSemoga berhasil, Jenderal!"
+  },
+  "routingUnits": {
+    "title": "Unit yang Melarikan Diri",
+    "message": "Sebuah unit telah kehilangan semua kohesi dan sekarang melarikan diri dari garis depan. Jika dapat mencapai jarak aman dari pasukan musuh, unit akan berhenti melarikan diri dan dengan cepat memulihkan organisasi – pada 30% organisasi, unit akan berkumpul kembali dan Anda akan mendapatkan kembali kendali atasnya. Anda dapat mempercepat proses ini dengan menempatkan unit sekutu seperti kavaleri di dekatnya.\n\nCobalah mengganti unit dengan organisasi rendah dalam pertempuran dengan cadangan segar yang terorganisir dengan baik. Jauh lebih efisien untuk mengatur ulang unit yang tidak terorganisir daripada mengumpulkan unit yang hancur."
+  },
+  "lineInfantrySelection": {
+    "title": "Infanteri Garis",
+    "message": "Ini adalah batalion infanteri 800 orang, mampu melibatkan sasaran dengan tembakan musket atau bayonet. Gunakan perintah 'Tembak dan Maju' untuk mendekat dan memberikan kerusakan jarak jauh yang menghancurkan, dan gunakan perintah 'Lari' untuk menghabiskan stamina dan dengan cepat menutupi medan, meluncurkan serangan bayonet terhadap infanteri lain. Namun, berhati-hatilah untuk tidak terlalu sering menggunakan perintah 'Lari', dan hindari menyerang infanteri musuh dengan Organisasi yang tinggi."
+  },
+  "skirmisherSelection": {
+    "title": "Penembak Jitu",
+    "message": "Penembak jitu mewakili kompi (~150 prajurit) penembak runduk yang bertempur tanpa formasi.\n\nUnit-unit ini hampir tidak menerima kerusakan dari musket dan artileri, tetapi menerima kerusakan parah dalam pertempuran jarak dekat.\n\nTempatkan penembak jitu Anda di medan atau gunakan infanteri garis dan kavaleri untuk melindungi mereka dari serangan.\n\nPenembak jitu unggul dalam memegang posisi kuat atau mengganggu artileri dan infanteri dengan tembakan jarak jauh."
+  },
+  "cavalrySelection": {
+    "title": "Kavaleri",
+    "message": "Unit kavaleri cepat dan kuat tetapi memerlukan manajemen yang hati-hati.\n\n• Gunakan perintah 'Lari' untuk menghabiskan stamina dan menyerang penembak jitu, infanteri berorganisasi rendah, dan artileri yang terlindungi buruk\n• Pertahankan stamina dengan membuat kavaleri berjalan ketika memungkinkan\n• Kavaleri akan selalu kalah 1 lawan 1 melawan infanteri dengan organisasi tinggi\n• Disorganisir infanteri musuh dengan tembakan musket dan artileri sebelum serangan\n• Pertahankan kavaleri Anda untuk momen-momen penentu\n• Jauhkan kavaleri dari medan"
+  },
+  "artillerySelection": {
+    "title": "Artileri",
+    "message": "Artileri adalah pengganda kekuatan; mendukung infanteri dan kavaleri, tetapi tidak dapat memenangkan pertempuran sendirian.\n\n• Artileri tidak memiliki stamina; selalu gunakan perintah 'Lari' saat menyeberangi jarak jauh\n• Artileri memiliki amunisi; awasi cadangan amunisi Anda agar tidak kehabisan\n• Artileri Napoleon memerlukan garis pandang yang jelas untuk menembak; jangan halangi dengan infanteri Anda\n\nPahami penggunaan terbaik dari berbagai jangkauan artileri:\n\n• Tembakan jarak jauh: kerusakan rendah pada banyak unit (area efek besar)\n• Tembakan jarak menengah: kerusakan baik pada beberapa unit (area efek kecil)\n• Tembakan jarak dekat: kerusakan ekstrem pada satu unit (tembakan kartrij)\n\nPertimbangkan untuk memindahkan artileri Anda dengan garis pertempuran alih-alih membiarkannya menembak dari jarak jauh di belakang."
+  },
+  "forestMovement": {
+    "title": "Medan Hutan",
+    "message": "Anda telah memerintahkan unit ini untuk bergerak melalui hutan. Medan ini:\n\n• Memberikan perlindungan dari tembakan musuh dan mengurangi visibilitas\n• Meningkatkan biaya stamina untuk pertarungan jarak dekat dan pergerakan\n• Mengurangi efektivitas tempur kavaleri\n• Mengurangi output kerusakan artileri di dalamnya"
+  },
+  "buildingMovement": {
+    "title": "Medan Bangunan",
+    "message": "Anda telah memerintahkan unit ini untuk bergerak melalui bangunan. Medan ini:\n\n• Memberikan perlindungan yang sangat baik dari tembakan musuh dan mengurangi visibilitas\n• Meningkatkan biaya stamina untuk pertarungan jarak dekat dan pergerakan\n• Mengurangi efektivitas tempur kavaleri secara drastis\n• Mengurangi output kerusakan artileri di dalamnya secara signifikan"
+  },
+  "roadMovement": {
+    "title": "Pergerakan Jalan",
+    "message": "Anda telah memerintahkan unit ini untuk bergerak melalui jalan. Jalan:\n\n• Meningkatkan kecepatan pergerakan secara signifikan, terutama untuk artileri\n• Mengurangi biaya stamina setengahnya – pertimbangkan untuk membuat unit berlari di sepanjang jalan ke tujuan Anda"
+  },
+  "waterMovement": {
+    "title": "Medan Air",
+    "message": "Anda telah memerintahkan unit ini untuk bergerak melalui air. Air:\n\n• Memberikan hukuman berat pada kecepatan pergerakan, pertahanan jarak dekat, stamina, dan output serangan jarak jauh\n• Jika Anda bergerak melalui air, jangan terjebak bertarung di sana\n• Pertimbangkan bagaimana menggunakan air untuk menghalangi musuh"
+  },
+  "runOrder": {
+    "title": "Perintah Lari",
+    "message": "Gunakan perintah lari untuk menghabiskan stamina agar bergerak dengan kecepatan tinggi dan menyerang unit musuh, tetapi jangan berlebihan dan jangan kehabisan pasukan Anda.\n\nSerangan bergantung pada statistik Resistensi Serangan pembela dan statistik Penetrasi Serangan penyerang, yang mengurangi resistensi serangan pembela (bersebelahan di kartu unit, yang terlihat di sebelah kiri layar saat memilih satu unit).\n\nSerangan yang dilakukan dengan Penetrasi tinggi terhadap Resistensi rendah akan membuat pembela lari; serangan dengan Penetrasi rendah terhadap Resistensi tinggi mungkin tidak menyebabkan kerusakan atau bahkan membuat penyerang tidak terorganisir.\n\nResistensi Serangan dan Penetrasi keduanya didasarkan pada Organisasi; gunakan tembakan musket dan artileri untuk membuat musuh tidak terorganisir, kemudian serang dengan unit segar yang memiliki Organisasi tinggi.\n\nCoba serang frontal unit ketika resistensi mereka hanya 60% lebih tinggi dari penetrasi Anda.\n\nSingkatnya: gunakan unit dengan Organisasi tinggi untuk menyerang unit dengan Organisasi rendah."
+  },
+  "fallbackOrder": {
+    "title": "Perintah Mundur",
+    "message": "Mundur adalah manuver yang sangat kompleks dan melelahkan – unit yang mundur dan menerima serangan akan mengalami kerusakan parah meskipun terorganisir dengan baik. Gunakan perintah ini dengan hemat dan coba lindungi pasukan yang mundur dengan unit segar."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Perintah Tembak dan Maju",
+    "message": "Infanteri dan artileri ringan dapat menggunakan Tembak dan Maju ke arah musuh untuk meningkatkan posisi mereka sambil mempertahankan tembakan. Tapi ingat, perintah ini mengurangi kecepatan dan output kerusakan."
+  },
+  "lowStamina": {
+    "title": "Peringatan Stamina Rendah",
+    "message": "Anda telah menghabiskan stamina unit ini – unit ini sudah memiliki modifikator pertempuran negatif yang parah, dan jika Anda mendorongnya lebih jauh, unit ini bahkan akan kehilangan kemampuan untuk berlari.\n\nKetika unit Anda memiliki stamina rendah, Anda seharusnya:\n\n• Menggunakannya untuk mengejar unit musuh yang melarikan diri yang tidak dapat melawan balik, untuk mencegah mereka berkumpul kembali\n• Menempatkannya di belakang garis pertempuran Anda atau dekat dengan unit-unit yang melarikan diri, sehingga unit stamina rendah Anda dapat mendukung mereka dengan radius moralnya\n• Atau cukup biarkan tanpa perintah agar dapat memulihkan sedikit stamina\n\nPemulihan stamina sangat lambat, jadi cobalah untuk menggunakannya hanya ketika benar-benar penting!"
+  }
+}

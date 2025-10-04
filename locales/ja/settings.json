@@ -104,10 +104,37 @@
     "runOrder": "探索命令",
     "shootOrder": "射撃命令",
     "fireAndAdvanceOrder": "発砲して前進する命令",
-    "fallbackOrder": "後退命令"
+    "fallbackOrder": "後退命令",
+    "toggleFormation": "フォーメーション切り替え",
+    "toggleSmartCurvedMovements": "スマートカーブ移動切り替え",
+    "toggleFowPerspective": "戦争の霧の視点切り替え",
+    "openChat": "チャットを開く",
+    "controlGroup1": "コントロールグループ1",
+    "controlGroup2": "コントロールグループ2",
+    "controlGroup3": "コントロールグループ3",
+    "controlGroup4": "コントロールグループ4",
+    "controlGroup5": "コントロールグループ5",
+    "controlGroup6": "コントロールグループ6",
+    "controlGroup7": "コントロールグループ7",
+    "controlGroup8": "コントロールグループ8",
+    "controlGroup9": "コントロールグループ9",
+    "controlGroup0": "コントロールグループ0"
   },
 
   "routingTransparency": {
     "title": "敗走ユニットの透明度"
+  },
+
+  "fogOfWar": {
+    "description": "戦争の霧は、あなたのユニットが見ることができない地形の上に現れる影です。プレイヤーが見ることができるすべてのタイルをチェックする計算オーバーヘッドは高価なので、このオプションを無効にするとパフォーマンスが向上する場合があります。ただし、このオプションは100％グラフィカルです。無効にしても隠れた敵のユニットは見えません。"
+  },
+
+  "fogOfWarColor": {
+    "title": "戦争の霧の色"
+  },
+
+  "groundQuality": {
+    "title": "地形品質",
+    "description": "地形テクスチャの品質を制御します。より高い品質はより良い視覚的詳細を提供しますが、パフォーマンスに影響を与える可能性があります。マップの更新が必要です。"
   }
 }
