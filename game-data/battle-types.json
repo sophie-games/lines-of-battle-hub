@@ -15,8 +15,8 @@
   "combat": {
     "manpower": 5400,
     "gold": 2150,
-    "ammoReserve": 1600,
-    "goldToAmmoRate": 24,
+    "ammoReserve": 1800,
+    "goldToAmmoRate": 20,
     "skirmisherRatio": [4, 8],
     "fogOfWar": true,
     "unitCaps": {
@@ -28,8 +28,8 @@
   "battle": {
     "manpower": 8750,
     "gold": 3750,
-    "ammoReserve": 2400,
-    "goldToAmmoRate": 15,
+    "ammoReserve": 2500,
+    "goldToAmmoRate": 14,
     "skirmisherRatio": [2, 5],
     "fogOfWar": true,
     "unitCaps": {
