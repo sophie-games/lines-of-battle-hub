@@ -1,0 +1,9 @@
+{
+  "warning": "للحفاظ على هذه المساحة آمنة ومحترمة للجميع، قد يتم مراجعة الرسائل إذا تم تحديدها على أنها عدوانية أو ضارة.",
+  "rateLimitWarning": "أنت ترسل الرسائل بسرعة كبيرة. يرجى الانتظار لحظة (حد أقصى {{count}} رسائل لكل {{seconds}} ثانية).",
+  "placeholderAllies": "رسالة إلى الحلفاء...",
+  "placeholderAll": "رسالة للجميع...",
+  "userConnected": "{{username}} متصل",
+  "userDisconnected": "{{username}} غير متصل",
+  "profanityWarning": "تم اكتشاف كلمات نابية: \"{{word}}\""
+}

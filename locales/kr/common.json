@@ -847,8 +847,11 @@
 
   "academy": "학술원",
   "encyclopedia": "백과사전",
+
   "tutorialTips": "학습 조언",
   "loadingScreenTips": "불러오기 화면 조언",
+  "gameConstants": "게임 상수",
+
   "ammo": "탄약",
   "ammoConsumption": "탄약 소비량",
   "allowsCharging": "돌격 허용",
