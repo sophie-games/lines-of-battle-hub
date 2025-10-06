@@ -156,7 +156,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 176
+    "ammoCost": 156
   },
   {
     "type": "12lb-cannon-ball",
@@ -251,7 +251,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 154
+    "ammoCost": 128
   },
   {
     "type": "8lb-cannon-ball",
@@ -412,7 +412,7 @@
   {
     "type": "18lb-explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 180,
+    "orgDamageRatio": 185,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.7,
@@ -453,7 +453,7 @@
   {
     "type": "10lb-explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 180,
+    "orgDamageRatio": 185,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.7,
@@ -489,12 +489,12 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 150
+    "ammoCost": 136
   },
   {
     "type": "explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 180,
+    "orgDamageRatio": 185,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.7,
@@ -503,12 +503,12 @@
     },
     "ranges": [
       { "start": 0, "end": 69, "startMod": 0, "endMod": 0, "name": "close" },
-      { "start": 69, "end": 200, "startMod": 0.1, "endMod": 0 },
+      { "start": 69, "end": 200, "startMod": 0.15, "endMod": 0 },
       {
         "start": 200,
         "end": 340,
         "startMod": 0,
-        "endMod": -0.35,
+        "endMod": -0.3,
         "name": "long"
       }
     ],
@@ -538,7 +538,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 170
+    "ammoCost": 176
   },
   {
     "type": "18lb-canister-fire",
@@ -798,6 +798,6 @@
     "shotSound": "rocket-volley",
     "shotAnim": "rocketVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 144
+    "ammoCost": 128
   }
 ]
