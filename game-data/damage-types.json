@@ -76,12 +76,12 @@
       {
         "start": 0,
         "end": 45,
-        "startMod": 2,
-        "endMod": 1,
+        "startMod": 3,
+        "endMod": 2,
         "name": "close"
       },
-      { "start": 45, "end": 75, "startMod": 1, "endMod": 0 },
-      { "start": 75, "end": 115, "startMod": 0, "endMod": -0.4, "name": "long" }
+      { "start": 45, "end": 75, "startMod": 1.5, "endMod": .25 },
+      { "start": 75, "end": 115, "startMod": 0.25, "endMod": -0.35, "name": "long" }
     ],
     "shootingAngle": 350,
     "enfiladeFire": true,
