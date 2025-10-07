@@ -1,0 +1,6 @@
+{
+  "default": "{{number}}वां",
+  "1": "{{number}}ला",
+  "2": "{{number}}रा",
+  "3": "{{number}}रा"
+}
