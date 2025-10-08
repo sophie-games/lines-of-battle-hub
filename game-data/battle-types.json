@@ -10,7 +10,7 @@
       "17": 2,
       "19": 1
     },
-    "eloKFactor": 24
+    "eloKFactor": 20
   },
   "combat": {
     "manpower": 5400,
@@ -23,7 +23,7 @@
       "17": 3,
       "19": 1
     },
-    "eloKFactor": 30
+    "eloKFactor": 28
   },
   "battle": {
     "manpower": 8750,
@@ -36,7 +36,7 @@
       "17": 6,
       "19": 2
     },
-    "eloKFactor": 36
+    "eloKFactor": 32
   },
   "grand_battle": {
     "manpower": 17500,
@@ -49,6 +49,6 @@
       "17": 8,
       "19": 2
     },
-    "eloKFactor": 36
+    "eloKFactor": 32
   }
 }
