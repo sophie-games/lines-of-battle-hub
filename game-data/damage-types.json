@@ -549,15 +549,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.25,
-        "endMod": 3,
+        "startMod": 3.3,
+        "endMod": 3.1,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 3,
-        "endMod": 0.6,
+        "startMod": 3.1,
+        "endMod": 0.7,
         "name": "long"
       }
     ],
@@ -608,14 +608,14 @@
         "start": 0,
         "end": 69,
         "startMod": 3.5,
-        "endMod": 2.8,
+        "endMod": 3,
         "name": "close"
       },
       {
         "start": 69,
-        "end": 90,
-        "startMod": 2.8,
-        "endMod": 0.85,
+        "end": 105,
+        "startMod": 3,
+        "endMod": 0.8,
         "name": "long"
       }
     ],
@@ -636,15 +636,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3,
-        "endMod": 2.5,
+        "startMod": 3.1,
+        "endMod": 2.6,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 2.5,
-        "endMod": 0.65,
+        "startMod": 2.6,
+        "endMod": 0.75,
         "name": "long"
       }
     ],
@@ -665,15 +665,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3,
-        "endMod": 2.25,
+        "startMod": 3.1,
+        "endMod": 2.4,
         "name": "close"
       },
       {
         "start": 69,
         "end": 120,
-        "startMod": 2.25,
-        "endMod": 0.9,
+        "startMod": 2.4,
+        "endMod": 1,
         "name": "long"
       }
     ],
@@ -694,15 +694,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.5,
-        "endMod": 1.8,
+        "startMod": 2.6,
+        "endMod": 2,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 1.8,
-        "endMod": 0.8,
+        "startMod": 2,
+        "endMod": 1.1,
         "name": "long"
       }
     ],
@@ -724,7 +724,7 @@
         "start": 0,
         "end": 69,
         "startMod": 7,
-        "endMod": 4.8,
+        "endMod": 5,
         "name": "close"
       }
     ],
