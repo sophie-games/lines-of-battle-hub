@@ -2,8 +2,8 @@
   "clash": {
     "manpower": 2600,
     "gold": 900,
-    "ammoReserve": 800,
-    "goldToAmmoRate": 24,
+    "ammoReserve": 850,
+    "goldToAmmoRate": 22,
     "skirmisherRatio": [1, 4],
     "fogOfWar": true,
     "unitCaps": {
@@ -15,8 +15,8 @@
   "combat": {
     "manpower": 5400,
     "gold": 2150,
-    "ammoReserve": 1800,
-    "goldToAmmoRate": 20,
+    "ammoReserve": 1750,
+    "goldToAmmoRate": 18,
     "skirmisherRatio": [4, 8],
     "fogOfWar": true,
     "unitCaps": {
@@ -29,7 +29,7 @@
     "manpower": 8750,
     "gold": 3750,
     "ammoReserve": 2500,
-    "goldToAmmoRate": 14,
+    "goldToAmmoRate": 12,
     "skirmisherRatio": [2, 5],
     "fogOfWar": true,
     "unitCaps": {
