@@ -597,7 +597,7 @@
     "basicPrice": 400,
     "premiumPrice": 40,
     "fireAndAdvance": true,
-    "minDistanceToFAA": 10,
+    "minDistanceToFAA": 30,
     "friendlyFireImmuneDamageTypes": [
       "4lb-cannon-ball",
       "6lb-cannon-ball",
@@ -650,7 +650,7 @@
     "premiumPrice": 40,
     "fireAndAdvance": true,
     "hasSkirmishers": true,
-    "minDistanceToFAA": 10,
+    "minDistanceToFAA": 30,
     "friendlyFireImmuneDamageTypes": [
       "4lb-cannon-ball",
       "6lb-cannon-ball",
