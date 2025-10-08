@@ -53,7 +53,7 @@
     "runCost": 96,
     "hp": 550,
     "org": 575,
-    "stamina": 1300,
+    "stamina": 1200,
     "orgRadius": 64,
     "orgRadiusBonus": 3,
     "movementSound": "cavalry-movement",
