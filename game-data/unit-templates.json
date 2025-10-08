@@ -73,7 +73,7 @@
   {
     "type": 3,
     "category": "artillery",
-    "rangedAttack": 44,
+    "rangedAttack": 46,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -188,7 +188,7 @@
   {
     "type": 6,
     "category": "artillery",
-    "rangedAttack": 40,
+    "rangedAttack": 42,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -305,7 +305,7 @@
   {
     "type": 9,
     "category": "artillery",
-    "rangedAttack": 29,
+    "rangedAttack": 31,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -418,7 +418,7 @@
   {
     "type": 12,
     "category": "artillery",
-    "rangedAttack": 50,
+    "rangedAttack": 52,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -432,7 +432,7 @@
     "hp": 800,
     "org": 300,
     "stamina": null,
-    "ammo": 360,
+    "ammo": 400,
     "orgRadius": 40,
     "orgRadiusBonus": 9,
     "movementSound": "artillery-movement",
@@ -534,7 +534,7 @@
   {
     "type": 15,
     "category": "artillery",
-    "rangedAttack": 36,
+    "rangedAttack": 38,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -679,7 +679,7 @@
   {
     "type": 18,
     "category": "artillery",
-    "rangedAttack": 40,
+    "rangedAttack": 42,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -717,7 +717,7 @@
   {
     "type": 19,
     "category": "artillery",
-    "rangedAttack": 19,
+    "rangedAttack": 20,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -877,7 +877,7 @@
   {
     "type": 24,
     "category": "artillery",
-    "rangedAttack": 38,
+    "rangedAttack": 40,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -921,7 +921,7 @@
   {
     "type": 25,
     "category": "artillery",
-    "rangedAttack": 42,
+    "rangedAttack": 44,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
