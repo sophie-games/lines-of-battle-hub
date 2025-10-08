@@ -46,13 +46,13 @@
       "10lb-explosive-shell": 0.1,
       "18lb-explosive-shell": 0.1,
       "rocket": -0.25,
-      "8lb-canister-fire": -0.1,
-      "12lb-canister-fire": -0.1,
-      "10lb-canister-fire": -0.1,
-      "18lb-canister-fire": -0.1,
-      "6lb-canister-fire": -0.1,
-      "4lb-canister-fire": -0.1,
-      "howitzer-canister": -0.1
+      "8lb-canister-fire": 0.05,
+      "12lb-canister-fire": 0.05,
+      "10lb-canister-fire": 0.05,
+      "18lb-canister-fire": 0.05,
+      "6lb-canister-fire": 0.05,
+      "4lb-canister-fire": 0.05,
+      "howitzer-canister": 0.05
     }
   },
   "artillery": {
@@ -131,13 +131,13 @@
       "10lb-explosive-shell": 0.5,
       "18lb-explosive-shell": 0.5,
       "rocket": 0.2,
-      "8lb-canister-fire": 0.05,
-      "12lb-canister-fire": 0.05,
-      "10lb-canister-fire": 0.05,
-      "18lb-canister-fire": 0.05,
-      "6lb-canister-fire": 0.05,
-      "4lb-canister-fire": 0.05,
-      "howitzer-canister": 0.05
+      "8lb-canister-fire": 0.15,
+      "12lb-canister-fire": 0.15,
+      "10lb-canister-fire": 0.15,
+      "18lb-canister-fire": 0.15,
+      "6lb-canister-fire": 0.15,
+      "4lb-canister-fire": 0.15,
+      "howitzer-canister": 0.15
     }
   },
   "lightCavalry": {
@@ -165,13 +165,13 @@
       "10lb-explosive-shell": 0.1,
       "18lb-explosive-shell": 0.1,
       "rocket": -0.2,
-      "8lb-canister-fire": 0.05,
-      "12lb-canister-fire": 0.05,
-      "10lb-canister-fire": 0.05,
-      "18lb-canister-fire": 0.05,
-      "6lb-canister-fire": 0.05,
-      "4lb-canister-fire": 0.05,
-      "howitzer-canister": 0.05
+      "8lb-canister-fire": 0.15,
+      "12lb-canister-fire": 0.15,
+      "10lb-canister-fire": 0.15,
+      "18lb-canister-fire": 0.15,
+      "6lb-canister-fire": 0.15,
+      "4lb-canister-fire": 0.15,
+      "howitzer-canister": 0.15
     }
   },
   "heavyCavalry": {
@@ -200,13 +200,13 @@
       "10lb-explosive-shell": 0.1,
       "18lb-explosive-shell": 0.1,
       "rocket": -0.25,
-      "8lb-canister-fire": -0.1,
-      "12lb-canister-fire": -0.1,
-      "10lb-canister-fire": -0.1,
-      "18lb-canister-fire": -0.1,
-      "6lb-canister-fire": -0.1,
-      "4lb-canister-fire": -0.1,
-      "howitzer-canister": -0.1
+      "8lb-canister-fire": 0.1,
+      "12lb-canister-fire": 0.1,
+      "10lb-canister-fire": 0.1,
+      "18lb-canister-fire": 0.1,
+      "6lb-canister-fire": 0.1,
+      "4lb-canister-fire": 0.1,
+      "howitzer-canister": 0.1
     }
   },
   "militiaInfantry": ,
@@ -249,9 +249,9 @@
       "cavalry-sabre": -0.7,
       "cavalry-lance": -0.7,
       "dragoon-sword": -0.7,
-      "musket": 0.85,
-      "marksman-musket": 0.5,
-      "rifle": 0.35,
+      "musket": 0.8,
+      "marksman-musket": 0.65,
+      "rifle": 0.3,
       "8lb-cannon-ball": 0.98,
       "12lb-cannon-ball": 0.98,
       "10lb-cannon-ball": 0.98,
