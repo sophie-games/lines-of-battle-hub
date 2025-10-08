@@ -29,10 +29,10 @@
       "moveWhileInMelee": true
     },
     "damageTypeResistances": {
-      "bayonet": -0.2,
+      "bayonet": -0.25,
       "cavalry-sabre": 0.1,
       "cavalry-lance": -0.05,
-      "dragoon-sword": -0.1,
+      "cavalry-sword": -0.1,
       "musket": -0.45,
       "marksman-musket": -0.4,
       "rifle": -0.4,
@@ -116,7 +116,7 @@
     "damageTypeResistances": {
       "bayonet": -0.2,
       "cavalry-lance": -0.15,
-      "dragoon-sword": -0.1,
+      "dragoon-sword": -0.15,
       "cavalry-sword": -0.3,
       "musket": -0.1,
       "marksman-musket": -0.15,
@@ -186,7 +186,7 @@
       "bayonet": -0.15,
       "cavalry-sabre": 0.5,
       "cavalry-lance": -0.2,
-      "dragoon-sword": 0.35,
+      "dragoon-sword": 0.4,
       "musket": -0.4,
       "marksman-musket": -0.4,
       "rifle": -0.4,
