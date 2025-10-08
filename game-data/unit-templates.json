@@ -41,7 +41,7 @@
     "type": 2,
     "category": "midCavalry",
     "meleeAttack": 36,
-    "meleeDefense": 25,
+    "meleeDefense": 26,
     "meleeDamageType": "dragoon-sword",
     "chargeBonus": 75,
     "chargeResistance": -0.4,
