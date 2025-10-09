@@ -1,0 +1,22 @@
+{
+  "currencyShop": {
+    "title": "<0/> प्राप्त करें",
+    "subtitle": "अद्भुत कॉस्मेटिक्स अनलॉक करें और भीड़ से अलग दिखें!"
+  },
+
+  "aboutCurrencies": "मुद्राओं के बारे में",
+
+  "currency": {
+    "basic": "फ्लोरिन्स",
+    "premium": "प्रेस्टीज",
+    "basicDescription": "<currency/>: कतार में मैच खेलकर इसे कमाएं। यूनिट्स भर्ती करने और अपनी सेना बनाने के लिए इसका उपयोग करें।",
+    "premiumDescription": "<currency/>: यह आपकी शैली दिखाने के लिए कॉस्मेटिक्स खरीदने के लिए है। चूंकि गेम मुफ्त में खेलने योग्य है, इसलिए यह ज्यादातर असली पैसा खर्च करने से आता है।",
+    "rate": "{{rate}} {{currency}} प्रति USD",
+    "purchase": "{{amount}} {{currency}} खरीदें",
+    "totalSold": "अब तक कुल <currency/> बेचे गए: {{amount}}",
+    "nextGoal": "अगला लक्ष्य: {{goal}} <currency/> "
+  },
+
+  "purchaseConfirmation": "क्या आप वाकई {{item}} खरीदना चाहते हैं?",
+  "showPurchased": "खरीदे गए दिखाएं"
+}
