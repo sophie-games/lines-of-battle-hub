@@ -209,14 +209,13 @@
       "howitzer-canister": 0.1
     }
   },
-  "militiaInfantry": ,
+  "militiaInfantry": {
     "damageTypeResistances": {
       "cavalry-sabre": -0.1,
       "cavalry-lance": -0.1,
       "dragoon-sword": -0.1,
-      "cavalry-sword": -0.1,
-      },
-      {
+      "cavalry-sword": -0.1
+    },
     "firingAltitude": 0.9,
     "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
