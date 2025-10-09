@@ -1,11 +1,9 @@
-{
+﻿{
   "currencyShop": {
     "title": "<0/> 구매",
     "subtitle": "놀라운 치장을 해금해 다른 이들과 차별화되세요!"
   },
-
   "aboutCurrencies": "재화에 대하여",
-
   "currency": {
     "basic": "플로린",
     "premium": "명예",
