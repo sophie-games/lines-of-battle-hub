@@ -509,6 +509,13 @@
     "button": "播放"
   },
   "battleReport": "战斗简报",
+  "gameEndReasons": {
+    "cancelled": "游戏被取消，因为至少有一名玩家在第一回合没有提交指令。",
+    "victory": "游戏结束，因为一个队伍取得了胜利。",
+    "maxTurn": "游戏达到了最大回合数。",
+    "drawByAgreement": "游戏因双方协议而以平局结束。",
+    "unknown": "未知原因。"
+  },
   "strength": "军力",
   "horse": "马匹",
   "guns": "火炮",
@@ -816,6 +823,10 @@
   "artillery": "炮兵",
   "special": "特殊",
   "academy": "学院",
+  "encyclopedia": "百科全书",
+  "tutorialTips": "教程提示",
+  "loadingScreenTips": "加载屏幕提示",
+  "gameConstants": "游戏常量",
   "ammo": "弹药",
   "ammoConsumption": "弹药消耗",
   "allowsCharging": "允许冲锋",
@@ -823,5 +834,6 @@
   "all": "所有",
   "scenario": "战役",
   "banned": "封禁",
-  "baseAmmo": "基础弹药"
+  "baseAmmo": "基础弹药",
+  "range": "射程"
 }

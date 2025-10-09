@@ -1,0 +1,45 @@
+{
+  "notifications": "الإشعارات",
+  "noNotifications": "لا توجد إشعارات",
+  "clear": "مسح",
+
+  "tournamentMatchStarted": {
+    "title": "بدأت مباراة البطولة!",
+    "message": "بدأت مباراة من بطولة {{tournamentName}}، اذهب والعبها!"
+  },
+
+  "tournamentFilled": {
+    "title": "البطولة ممتلئة!",
+    "message": "البطولة {{tournamentName}} ممتلئة الآن. يمكنك بدءها في أي وقت!"
+  },
+
+  "tournamentWillStart": {
+    "title": "دور البطولة الخاص بك سوف يبدأ قريباً!",
+    "message": "دور البطولة لبطولة {{tournamentName}} سوف يبدأ قريباً."
+  },
+
+  "tournamentRewards": {
+    "title": "لقد فزت بالمركز {{place}} في بطولة {{tournamentName}}!",
+    "message": "لقد تلقيت {{reward}} <BasicCurrency/>."
+  },
+
+  "yourTournamentEnded": {
+    "title": "بطولتك {{tournamentName}} انتهت",
+    "message": "لقد تلقيت {{reward}} <BasicCurrency/>."
+  },
+
+  "tournamentCancelled": {
+    "title": "البطولة ملغية",
+    "message": "تم إلغاء البطولة {{tournamentName}}. تم استرداد {{refund}} <BasicCurrency/> لك."
+  },
+
+  "updatePlanned": {
+    "title": "تحديث مخطط",
+    "message": "هناك تحديث جديد <b>{{name}}</b> مخطط لـ <b>{{date}}</b>، انقر لرؤية التغييرات."
+  },
+
+  "banDodge": {
+    "title": "تم تعليقك لمدة {{minutes}} دقيقة",
+    "message": "لقد تخلت عن آخر {{games}} ألعاب مصنفة، لذا سيتعين عليك الانتظار قليلاً لمتابعة لعب الألعاب المصنفة."
+  }
+}

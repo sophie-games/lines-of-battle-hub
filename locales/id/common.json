@@ -465,6 +465,13 @@
   },
 
   "battleReport": "Laporan Pertempuran",
+  "gameEndReasons": {
+    "cancelled": "Permainan dibatalkan karena setidaknya satu pemain tidak mengirimkan perintah di putaran pertama.",
+    "victory": "Permainan berakhir karena satu tim mencapai kemenangan.",
+    "maxTurn": "Permainan mencapai jumlah putaran maksimum.",
+    "drawByAgreement": "Permainan berakhir seri berdasarkan kesepakatan bersama.",
+    "unknown": "Alasan tidak diketahui."
+  },
   "strength": "Kekuatan",
   "guns": "Senjata",
   "casualties": "Korban",
@@ -586,6 +593,10 @@
   "classic": "Klasik",
 
   "academy": "Akademi",
+  "encyclopedia": "Ensiklopedia",
+  "tutorialTips": "Tips Tutorial",
+  "loadingScreenTips": "Tips Layar Pemuatan",
+  "gameConstants": "Konstanta Permainan",
   "ammo": "Ammunisi",
   "ammoConsumption": "Konsumsi Amunis",
   "tournaments": "Turnamen",
@@ -602,5 +613,6 @@
   "all": "Semua",
   "scenario": "Skenario",
   "banned": "Dilarang",
-  "baseAmmo": "Ammunisi dasar"
+  "baseAmmo": "Ammunisi dasar",
+  "range": "Jangkauan"
 }

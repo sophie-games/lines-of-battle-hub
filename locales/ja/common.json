@@ -460,6 +460,13 @@
   },
 
   "battleReport": "戦闘報告",
+  "gameEndReasons": {
+    "cancelled": "少なくとも1人のプレイヤーが最初のターンで命令を送信しなかったため、ゲームがキャンセルされました。",
+    "victory": "1つのチームが勝利を達成したため、ゲームが終了しました。",
+    "maxTurn": "ゲームが最大ターン数に達しました。",
+    "drawByAgreement": "相互合意によりゲームが引き分けで終了しました。",
+    "unknown": "不明な理由。"
+  },
   "strength": "力",
   "guns": "大砲",
   "casualties": "犠牲者",
@@ -572,6 +579,10 @@
   "classic": "クラシック",
 
   "academy": "アカデミー",
+  "encyclopedia": "百科事典",
+  "tutorialTips": "チュートリアルのヒント",
+  "loadingScreenTips": "ローディング画面のヒント",
+  "gameConstants": "ゲーム定数",
   "ammo": "弾薬",
   "ammoConsumption": "弾薬消費",
   "tournaments": "トーナメント",
@@ -588,5 +599,6 @@
   "all": "すべて",
   "scenario": "シナリオ",
   "banned": "禁止",
-  "baseAmmo": "基本弾薬"
+  "baseAmmo": "基本弾薬",
+  "range": "射程"
 }

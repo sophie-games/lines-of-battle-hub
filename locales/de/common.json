@@ -464,6 +464,13 @@
   },
 
   "battleReport": "Schlachtbericht",
+  "gameEndReasons": {
+    "cancelled": "Das Spiel wurde abgebrochen, weil mindestens einer der Spieler im ersten Zug keine Befehle eingereicht hat.",
+    "victory": "Das Spiel endete, weil ein Team den Sieg errungen hat.",
+    "maxTurn": "Das Spiel hat die maximale Anzahl von Zügen erreicht.",
+    "drawByAgreement": "Das Spiel endete unentschieden durch gegenseitige Vereinbarung.",
+    "unknown": "Unbekannter Grund."
+  },
   "strength": "Stärke",
   "guns": "Kanonen",
   "casualties": "Verluste",
@@ -583,6 +590,10 @@
   "classic": "Klassisch",
 
   "academy": "Akademie",
+  "encyclopedia": "Enzyklopädie",
+  "tutorialTips": "Tutorial-Tipps",
+  "loadingScreenTips": "Ladebildschirm-Tipps",
+  "gameConstants": "Spielkonstanten",
   "ammo": "Munition",
   "ammoConsumption": "Munitionsverbrauch",
   "initRound1": "Runde 1 initialisieren",
@@ -591,5 +602,6 @@
   "all": "Alle",
   "scenario": "Szenario",
   "banned": "Gesperrt",
-  "baseAmmo": "Grundmunition"
+  "baseAmmo": "Grundmunition",
+  "range": "Reichweite"
 }

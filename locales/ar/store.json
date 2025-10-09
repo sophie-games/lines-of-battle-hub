@@ -1,0 +1,22 @@
+{
+  "currencyShop": {
+    "title": "احصل على <0/>",
+    "subtitle": "افتح الإكسسوارات المذهلة وتميز عن الحشد!"
+  },
+
+  "aboutCurrencies": "حول العملات",
+
+  "currency": {
+    "basic": "فلورين",
+    "premium": "هيبة",
+    "basicDescription": "<currency/>: اكسب هذا من خلال لعب المباريات في الطابور. استخدمه لتجنيد الوحدات وبناء جيشك.",
+    "premiumDescription": "<currency/>: هذا لشراء الإكسسوارات لإظهار أسلوبك. يأتي معظمه من إنفاق المال الحقيقي لأن اللعبة مجانية.",
+    "rate": "{{rate}} {{currency}} لكل دولار أمريكي",
+    "purchase": "شراء {{amount}} {{currency}}",
+    "totalSold": "إجمالي <currency/> المباع حتى الآن: {{amount}}",
+    "nextGoal": "الهدف التالي: {{goal}} <currency/> "
+  },
+
+  "purchaseConfirmation": "هل أنت متأكد من أنك تريد شراء {{item}}؟",
+  "showPurchased": "إظهار المشترى"
+}

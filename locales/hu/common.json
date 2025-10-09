@@ -525,6 +525,10 @@
   "classic": "Klasszikus",
 
   "academy": "Akadémia",
+  "encyclopedia": "Enciklopédia",
+  "tutorialTips": "Oktatóanyag Tippek",
+  "loadingScreenTips": "Betöltőképernyő Tippek",
+  "gameConstants": "Játék Konstansok",
   "ammo": "Lőszer",
   "ammoConsumption": "Lőszer Fogyasztás",
   "initRound1": "1. forduló inicializálása",
@@ -533,5 +537,14 @@
   "all": "Minden",
   "scenario": "Forgatókönyv",
   "banned": "Kitiltva",
-  "baseAmmo": "Alap lőszer"
+  "baseAmmo": "Alap lőszer",
+  "battleReport": "Csata jelentés",
+  "gameEndReasons": {
+    "cancelled": "A játék törölve lett, mert legalább egy játékos nem küldött parancsot az első körben.",
+    "victory": "A játék véget ért, mert egy csapat győzelmet ért el.",
+    "maxTurn": "A játék elérte a maximális körszámot.",
+    "drawByAgreement": "A játék döntetlennel ért véget kölcsönös megegyezés alapján.",
+    "unknown": "Ismeretlen ok."
+  },
+  "range": "Távolság"
 }

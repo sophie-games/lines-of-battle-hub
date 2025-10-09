@@ -491,6 +491,13 @@
   "hybridDescription": "Los mapas híbridos usan terreno predefinido no aleatorio, pero permiten a los jugadores usar sus propios ejércitos personalizados para jugar.",
 
   "battleReport": "Informe de batalla",
+  "gameEndReasons": {
+    "cancelled": "El juego fue cancelado porque al menos uno de los jugadores no envió órdenes en el primer turno.",
+    "victory": "El juego terminó porque un equipo logró la victoria.",
+    "maxTurn": "El juego alcanzó el máximo de turnos.",
+    "drawByAgreement": "El juego terminó en empate por acuerdo mutuo.",
+    "unknown": "Razón desconocida."
+  },
   "strength": "Fuerza",
   "horse": "Caballos",
   "guns": "Cañones",
@@ -738,6 +745,10 @@
   "special": "Especial",
 
   "academy": "Academia",
+  "encyclopedia": "Enciclopedia",
+  "tutorialTips": "Consejos del Tutorial",
+  "loadingScreenTips": "Consejos de Pantalla de Carga",
+  "gameConstants": "Constantes del Juego",
   "ammo": "Munición",
   "ammoConsumption": "Consumo de Munición",
   "allowsCharging": "Permite cargar",
@@ -745,5 +756,6 @@
   "all": "Todos",
   "scenario": "Escenario",
   "banned": "Baneado",
-  "baseAmmo": "Munición base"
+  "baseAmmo": "Munición base",
+  "range": "Alcance"
 }
