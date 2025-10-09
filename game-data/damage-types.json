@@ -65,7 +65,7 @@
   {
     "type": "marksman-musket",
     "ranged": true,
-    "orgDamageRatio": 425,
+    "orgDamageRatio": 435,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
@@ -95,7 +95,7 @@
     "orgDamageRatio": 500,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
-      "start": 0.9,
+      "start": 0.85,
       "end": 0.65,
       "modifier": -0.8
     },
@@ -105,7 +105,7 @@
         "start": 75,
         "end": 120,
         "startMod": 0.35,
-        "endMod": -0.2,
+        "endMod": -0.15,
         "name": "long"
       }
     ],
@@ -438,11 +438,11 @@
         {
           "start": 280,
           "end": 550,
-          "startRadius": 28,
-          "endRadius": 46
+          "startRadius": 26,
+          "endRadius": 52
         }
       ],
-      "edgeDamageModifier": -0.35,
+      "edgeDamageModifier": -0.25,
       "absorptionModifier": 1.25
     },
     "shotSound": "artillery-fire",
@@ -480,10 +480,10 @@
           "start": 250,
           "end": 425,
           "startRadius": 24,
-          "endRadius": 36
+          "endRadius": 48
         }
       ],
-      "edgeDamageModifier": -0.3,
+      "edgeDamageModifier": -0.2,
       "absorptionModifier": 1.25
     },
     "shotSound": "artillery-fire",
@@ -529,10 +529,10 @@
           "start": 200,
           "end": 340,
           "startRadius": 24,
-          "endRadius": 46
+          "endRadius": 44
         }
       ],
-      "edgeDamageModifier": -0.25,
+      "edgeDamageModifier": -0.2,
       "absorptionModifier": 1.25
     },
     "shotSound": "artillery-fire",
@@ -754,7 +754,7 @@
   {
     "type": "rocket",
     "ranged": true,
-    "orgDamageRatio": 380,
+    "orgDamageRatio": 400,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -765,11 +765,11 @@
       {
         "start": 0,
         "end": 150,
-        "startMod": 0.5,
-        "endMod": 0.75,
+        "startMod": 0.8,
+        "endMod": 0.8,
         "name": "close"
       },
-      { "start": 150, "end": 270, "startMod": 0.75, "endMod": -0.35 },
+      { "start": 150, "end": 270, "startMod": 0.8, "endMod": -0.35 },
       {
         "start": 270,
         "end": 450,
@@ -789,10 +789,10 @@
           "start": 20,
           "end": 450,
           "startRadius": 20,
-          "endRadius": 48
+          "endRadius": 56
         }
       ],
-      "edgeDamageModifier": -0.25,
+      "edgeDamageModifier": -0.1,
       "absorptionModifier": 1.25
     },
     "shotSound": "rocket-volley",
