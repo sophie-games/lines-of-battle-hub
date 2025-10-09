@@ -460,6 +460,13 @@
   },
 
   "battleReport": "Relatório de Batalha",
+  "gameEndReasons": {
+    "cancelled": "O jogo foi cancelado porque pelo menos um dos jogadores não enviou ordens no primeiro turno.",
+    "victory": "O jogo terminou porque uma equipe alcançou a vitória.",
+    "maxTurn": "O jogo atingiu o número máximo de turnos.",
+    "drawByAgreement": "O jogo terminou em empate por acordo mútuo.",
+    "unknown": "Motivo desconhecido."
+  },
   "strength": "Força",
   "guns": "Canhões",
   "casualties": "Baixas",
@@ -573,6 +580,10 @@
   "classic": "Clássico",
 
   "academy": "Academia",
+  "encyclopedia": "Enciclopédia",
+  "tutorialTips": "Dicas do Tutorial",
+  "loadingScreenTips": "Dicas da Tela de Carregamento",
+  "gameConstants": "Constantes do Jogo",
   "ammo": "Munição",
   "ammoConsumption": "Consumo de Munição",
   "tournaments": "Torneios",
@@ -589,5 +600,6 @@
   "all": "Todos",
   "scenario": "Cenário",
   "banned": "Banido",
-  "baseAmmo": "Munição base"
+  "baseAmmo": "Munição base",
+  "range": "Alcance"
 }

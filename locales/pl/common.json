@@ -511,6 +511,13 @@
   },
 
   "battleReport": "Raport z Bitwy",
+  "gameEndReasons": {
+    "cancelled": "Gra została anulowana, ponieważ co najmniej jeden z graczy nie przesłał rozkazów w pierwszej turze.",
+    "victory": "Gra zakończyła się, ponieważ jedna drużyna osiągnęła zwycięstwo.",
+    "maxTurn": "Gra osiągnęła maksymalną liczbę tur.",
+    "drawByAgreement": "Gra zakończyła się remisem za obopólną zgodą.",
+    "unknown": "Nieznany powód."
+  },
   "strength": "Siła",
   "horse": "Konie",
   "guns": "Działa",
@@ -784,6 +791,10 @@
   "special": "Specjalne",
 
   "academy": "Akademia",
+  "encyclopedia": "Encyklopedia",
+  "tutorialTips": "Wskazówki Tutorialu",
+  "loadingScreenTips": "Wskazówki Ekranu Ładowania",
+  "gameConstants": "Stałe Gry",
   "ammo": "Amunicja",
   "ammoConsumption": "Zużycie Amunicji",
   "allowsCharging": "Pozwala na szarżę",
@@ -791,5 +802,6 @@
   "all": "Wszystkie",
   "scenario": "Scenariusz",
   "banned": "Zablokowany",
-  "baseAmmo": "Podstawowa amunicja"
+  "baseAmmo": "Podstawowa amunicja",
+  "range": "Zasięg"
 }
