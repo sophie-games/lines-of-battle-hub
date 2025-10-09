@@ -243,7 +243,7 @@
     "timeToRun": 4,
     "runCost": 104,
     "hp": 800,
-    "org": 540,
+    "org": 525,
     "stamina": 1950,
     "movementSound": "infantry-movement",
     "manpower": 225,
@@ -406,8 +406,8 @@
     "canDeployForward": true,
     "unknownType": 22,
     "reportStats": {
-      "men": 175,
-      "horse": 175,
+      "men": 250,
+      "horse": 250,
       "guns": 0
     },
     "rotationSpeed": 0.297,
