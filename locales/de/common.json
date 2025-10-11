@@ -126,7 +126,6 @@
   "army": "Armee",
 
   "deploymentStateMessage": "Das ist die Aufmarschphase. Nutzen Sie diese Runde, um Ihre Einheiten im Aufmarschgebiet zu platzieren. Wenn Sie fertig sind, dann bestätigen Sie Ihre Aufmarschbefehle.",
-  "youAreColor": "Sie sind {{color}}!",
   "getStarted": "Fangen wir an",
 
   "colorTag": {
@@ -611,5 +610,6 @@
   "scenario": "Szenario",
   "banned": "Gesperrt",
   "baseAmmo": "Grundmunition",
-  "range": "Reichweite"
+  "range": "Reichweite",
+  "faaRangedDamage": "FAA Fernkampfschaden"
 }

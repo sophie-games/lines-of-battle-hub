@@ -116,7 +116,6 @@
   "botArmy": "컴퓨터의 군대",
   "army": "군대",
   "deploymentStateMessage": "배치 단계가 되었습니다. 이 단계에서는 배치 구역 내 원하는 위치에 부대를 배치할 수 있습니다. 배치가 완료되면 명령 하달을 통해 배치를 적용하세요.",
-  "youAreColor": "당신은 {{color}}입니다!",
   "getStarted": "시작",
   "colorTag": {
     "1": "청색",
@@ -757,5 +756,6 @@
   "scenario": "시나리오",
   "banned": "차단됨",
   "baseAmmo": "기본 탄약",
-  "range": "사거리"
+  "range": "사거리",
+  "faaRangedDamage": "FAA 원거리 피해"
 }

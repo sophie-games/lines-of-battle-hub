@@ -121,7 +121,6 @@
   "army": "Armée",
 
   "deploymentStateMessage": "Phase de déploiement. Durant ce tour, vous pouvez placer vos unités où vous le souhaitez dans la zone de déploiement. Lorsque vous avez terminé, envoyez vos ordres pour confirmer votre placement.",
-  "youAreColor": "Vous êtes {{color}} !",
   "getStarted": "Commencer",
 
   "colorTag": {
@@ -626,5 +625,6 @@
   "scenario": "Scénario",
   "banned": "Banni",
   "baseAmmo": "Munitions de base",
-  "range": "Portée"
+  "range": "Portée",
+  "faaRangedDamage": "Dégâts FAA à Distance"
 }

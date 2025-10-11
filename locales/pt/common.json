@@ -126,7 +126,6 @@
   "army": "Exército",
 
   "deploymentStateMessage": "Esta é a etapa de implantação. Use este turno para posicionar suas unidades onde desejar dentro da zona de implantação. Quando terminar, envie suas ordens para aplicar o posicionamento.",
-  "youAreColor": "Você é {{color}}!",
   "getStarted": "Começar",
 
   "colorTag": {
@@ -609,5 +608,6 @@
   "scenario": "Cenário",
   "banned": "Banido",
   "baseAmmo": "Munição base",
-  "range": "Alcance"
+  "range": "Alcance",
+  "faaRangedDamage": "Dano FAA à Distância"
 }

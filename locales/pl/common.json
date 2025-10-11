@@ -129,7 +129,6 @@
   "army": "Armia",
 
   "deploymentStateMessage": "To jest etap rozstawiania. Wykorzystaj tą turę, aby rozmieścić jednostki strefie rozstawienia. Gdy skończysz, wyślij swoje rozkazy aby zatwierdzić rozstawienie.",
-  "youAreColor": "Twój kolor to {{color}}!",
   "getStarted": "Zaczynaj",
 
   "colorTag": {
@@ -805,5 +804,6 @@
   "scenario": "Scenariusz",
   "banned": "Zablokowany",
   "baseAmmo": "Podstawowa amunicja",
-  "range": "Zasięg"
+  "range": "Zasięg",
+  "faaRangedDamage": "Obrażenia FAA na Odległość"
 }

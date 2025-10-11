@@ -18,7 +18,8 @@
     "autofirePriority": {
       "artillery": 1,
       "skirmishInfantry": -1
-    }
+    },
+    "faaRangedDamageModifier": -0.25
   },
   "midCavalry": {
     "firingAltitude": 0.9,
@@ -93,7 +94,8 @@
     "autofirePriority": {
       "artillery": -1,
       "skirmishInfantry": -2
-    }
+    },
+    "faaRangedDamageModifier": -0.4
   },
   "lightInfantry": {
     "firingAltitude": 0.9,
@@ -233,7 +235,8 @@
     },
     "autofirePriority": {
       "skirmishInfantry": -1
-    }
+    },
+    "faaRangedDamageModifier": -0.25
   },
   "skirmishInfantry": {
     "firingAltitude": 0.9,
@@ -266,12 +269,12 @@
       "10lb-canister-fire": 0.98,
       "18lb-canister-fire": 0.98,
       "6lb-canister-fire": 0.98,
-      "4lb-canister-fire": 0.98,
       "howitzer-canister": 0.98
     },
     "autofirePriority": {
       "artillery": 2,
       "skirmishInfantry": 1
-    }
+    },
+    "faaRangedDamageModifier": -0.4
   }
 }

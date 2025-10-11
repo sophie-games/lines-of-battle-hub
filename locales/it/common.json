@@ -126,7 +126,6 @@
   "army": "Esercito",
 
   "deploymentStateMessage": "Questa è la fase di schieramento. Usa questo turno per posizionare le tue unità dove desideri all'interno della zona di schieramento. Quando hai finito, invia i tuoi ordini per applicare il posizionamento.",
-  "youAreColor": "Sei {{color}}!",
   "getStarted": "Inizia",
 
   "colorTag": {
@@ -607,5 +606,6 @@
   "scenario": "Scenario",
   "banned": "Bannato",
   "baseAmmo": "Munizioni base",
-  "range": "Gittata"
+  "range": "Gittata",
+  "faaRangedDamage": "Danno FAA a Distanza"
 }

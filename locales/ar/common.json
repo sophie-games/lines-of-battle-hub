@@ -139,7 +139,6 @@
   "army": "الجيش",
 
   "deploymentStateMessage": "هذه مرحلة النشر. استخدم هذا الدور لوضع وحداتك حيث تريد داخل منطقة النشر. عندما تنتهي، أرسل أوامرك لتطبيق المواضع.",
-  "youAreColor": "أنت {{color}}!",
   "getStarted": "ابدأ",
 
   "colorTag": {
@@ -910,5 +909,6 @@
   "scenario": "سيناريو",
   "banned": "محظور",
   "baseAmmo": "ذخيرة أساسية",
-  "range": "المدى"
+  "range": "المدى",
+  "faaRangedDamage": "ضرر FAA المدى"
 }

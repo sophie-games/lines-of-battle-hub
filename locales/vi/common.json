@@ -139,7 +139,6 @@
   "army": "Quân đội",
 
   "deploymentStateMessage": "Đây là giai đoạn triển khai. Sử dụng lượt này để đặt các đơn vị của bạn ở nơi bạn muốn trong vùng triển khai. Khi hoàn thành, gửi lệnh để áp dụng vị trí.",
-  "youAreColor": "Bạn là {{color}}!",
   "getStarted": "Bắt đầu",
 
   "colorTag": {
@@ -910,5 +909,6 @@
   "scenario": "Kịch bản",
   "banned": "Bị cấm",
   "baseAmmo": "Đạn cơ sở",
-  "range": "Tầm"
+  "range": "Tầm",
+  "faaRangedDamage": "Sát Thương FAA Tầm Xa"
 }

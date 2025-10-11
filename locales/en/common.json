@@ -139,7 +139,6 @@
   "army": "Army",
 
   "deploymentStateMessage": "This is the deployment stage. Take this turn to place your units where you want within the deployment zone. When you're finished, submit your orders to apply the placement.",
-  "youAreColor": "You are {{color}}!",
   "getStarted": "Get started",
 
   "colorTag": {
@@ -910,5 +909,6 @@
   "scenario": "Scenario",
   "banned": "Banned",
   "baseAmmo": "Base ammo",
-  "range": "Range"
+  "range": "Range",
+  "faaRangedDamage": "FAA Ranged Damage"
 }

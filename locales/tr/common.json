@@ -126,7 +126,6 @@
   "army": "Ordu",
 
   "deploymentStateMessage": "Bu, konuşlanma aşamasıdır. Bu turu, birimlerinizi konuşlanma bölgesinde istediğiniz yere yerleştirmek için kullanın. İşiniz bittiğinde, yerleştirmeyi uygulamak için emirlerinizi gönderin.",
-  "youAreColor": "Siz {{color}}sunuz!",
   "getStarted": "Başla",
 
   "colorTag": {
@@ -612,5 +611,6 @@
   "scenario": "Senaryo",
   "banned": "Yasaklandı",
   "baseAmmo": "Temel cephane",
-  "range": "Menzil"
+  "range": "Menzil",
+  "faaRangedDamage": "FAA Uzak Mesafe Hasarı"
 }

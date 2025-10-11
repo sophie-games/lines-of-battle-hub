@@ -126,7 +126,6 @@
   "army": "軍隊",
 
   "deploymentStateMessage": "これは配置フェーズです。このターンを使ってユニットを配置ゾーン内の好きな場所に配置してください。完了したら、命令を提出して配置を確定します。",
-  "youAreColor": "あなたは{{color}}です！",
   "getStarted": "開始",
 
   "colorTag": {
@@ -608,5 +607,6 @@
   "scenario": "シナリオ",
   "banned": "禁止",
   "baseAmmo": "基本弾薬",
-  "range": "射程"
+  "range": "射程",
+  "faaRangedDamage": "FAA射撃ダメージ"
 }

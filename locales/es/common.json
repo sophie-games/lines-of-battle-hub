@@ -130,7 +130,6 @@
   "army": "Ejército",
 
   "deploymentStateMessage": "Esta es la fase de despliegue. Aprovecha este turno para colocar tus unidades donde quieras dentro de la zona de despliegue. Cuando hayas terminado, envía tus órdenes para aplicar la colocación.",
-  "youAreColor": "Sos el {{color}}!",
   "getStarted": "Comenzar",
 
   "colorTag": {
@@ -763,5 +762,6 @@
   "scenario": "Escenario",
   "banned": "Baneado",
   "baseAmmo": "Munición base",
-  "range": "Alcance"
+  "range": "Alcance",
+  "faaRangedDamage": "Daño FAA a Distancia"
 }
