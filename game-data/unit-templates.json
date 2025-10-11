@@ -1,5 +1,6 @@
 [
   {
+    "name": "line_infantry",
     "type": 1,
     "category": "infantry",
     "rangedAttack": 24,
@@ -38,6 +39,7 @@
     }
   },
   {
+    "name": "dragoons",
     "type": 2,
     "category": "midCavalry",
     "meleeAttack": 37,
@@ -71,6 +73,7 @@
     }
   },
   {
+    "name": "8lb_artillery",
     "type": 3,
     "category": "artillery",
     "rangedAttack": 47,
@@ -111,6 +114,7 @@
     }
   },
   {
+    "name": "guards",
     "type": 4,
     "category": "infantry",
     "rangedAttack": 25,
@@ -151,6 +155,7 @@
     "turningDelay": 8
   },
   {
+    "name": "lancers",
     "type": 5,
     "category": "lightCavalry",
     "meleeAttack": 34,
@@ -186,6 +191,7 @@
     "turningDelay": 3
   },
   {
+    "name": "6lb_artillery",
     "type": 6,
     "category": "artillery",
     "rangedAttack": 43,
@@ -227,6 +233,7 @@
     "runRotationSpeed": 0.8
   },
   {
+    "name": "light_infantry",
     "type": 7,
     "category": "infantry",
     "rangedAttack": 30,
@@ -268,6 +275,7 @@
     "turningDelay": 8
   },
   {
+    "name": "cuirassiers",
     "type": 8,
     "category": "heavyCavalry",
     "meleeAttack": 39,
@@ -303,6 +311,7 @@
     "turningDelay": 3
   },
   {
+    "name": "6in_howitzer",
     "type": 9,
     "category": "artillery",
     "rangedAttack": 32,
@@ -343,6 +352,7 @@
     "runRotationSpeed": 0.8
   },
   {
+    "name": "militia",
     "type": 10,
     "category": "militiaInfantry",
     "rangedAttack": 23,
@@ -382,6 +392,7 @@
     "turningDelay": 8
   },
   {
+    "name": "hussars",
     "type": 11,
     "category": "scoutCavalry",
     "meleeAttack": 34,
@@ -416,6 +427,7 @@
     "turningDelay": 3
   },
   {
+    "name": "12lb_artillery",
     "type": 12,
     "category": "artillery",
     "rangedAttack": 53,
@@ -454,6 +466,7 @@
     "runRotationSpeed": 0.8
   },
   {
+    "name": "horse_archers",
     "type": 13,
     "category": "scoutCavalry",
     "rangedAttack": 15,
@@ -494,6 +507,7 @@
     "turningDelay": 3
   },
   {
+    "name": "grenadiers",
     "type": 14,
     "category": "infantry",
     "rangedAttack": 25,
@@ -532,6 +546,7 @@
     "turningDelay": 8
   },
   {
+    "name": "4lb_artillery",
     "type": 15,
     "category": "artillery",
     "rangedAttack": 39,
@@ -573,6 +588,7 @@
     "runRotationSpeed": 0.8
   },
   {
+    "name": "skirmishers",
     "type": 16,
     "category": "skirmishInfantry",
     "rangedAttack": 10,
@@ -625,6 +641,7 @@
     "turningDelay": 2
   },
   {
+    "name": "rifles",
     "type": 17,
     "category": "skirmishInfantry",
     "rangedAttack": 11,
@@ -677,6 +694,7 @@
     "turningDelay": 2
   },
   {
+    "name": "6lb_artillery",
     "type": 18,
     "category": "artillery",
     "rangedAttack": 43,
@@ -715,6 +733,7 @@
     "runRotationSpeed": 0.8
   },
   {
+    "name": "rockets",
     "type": 19,
     "category": "artillery",
     "rangedAttack": 20,
@@ -756,6 +775,7 @@
     "runRotationSpeed": 0.8
   },
   {
+    "name": "unknown",
     "type": 20,
     "category": "infantry",
     "meleeAttack": 1,
@@ -786,6 +806,7 @@
     "turningDelay": 3
   },
   {
+    "name": "unknown_infantry",
     "type": 21,
     "category": "infantry",
     "meleeAttack": 1,
@@ -816,6 +837,7 @@
     "turningDelay": 3
   },
   {
+    "name": "unknown_cavalry",
     "type": 22,
     "category": "midCavalry",
     "meleeAttack": 1,
@@ -846,6 +868,7 @@
     "turningDelay": 3
   },
   {
+    "name": "unknown_artillery",
     "type": 23,
     "category": "artillery",
     "meleeAttack": 1,
@@ -875,6 +898,7 @@
     "runRotationSpeed": 0.8
   },
   {
+    "name": "10lb_licorne",
     "type": 24,
     "category": "artillery",
     "rangedAttack": 41,
@@ -919,6 +943,7 @@
     }
   },
   {
+    "name": "18lb_licorne",
     "type": 25,
     "category": "artillery",
     "rangedAttack": 45,
