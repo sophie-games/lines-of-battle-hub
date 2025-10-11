@@ -39,7 +39,7 @@
     "eloKFactor": 32
   },
   "grand_battle": {
-    "manpower": 17500,
+    "manpower": 18500,
     "gold": 8000,
     "ammoReserve": 4000,
     "goldToAmmoRate": 10,
