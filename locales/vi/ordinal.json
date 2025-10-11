@@ -1,0 +1,6 @@
+{
+  "default": "thứ {{number}}",
+  "1": "thứ {{number}}",
+  "2": "thứ {{number}}",
+  "3": "thứ {{number}}"
+}

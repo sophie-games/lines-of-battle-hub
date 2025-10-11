@@ -1,12 +1,13 @@
 {
   "1": {},
-  "2": {},
+  "2": {
+    "receivedOrgDamage": 0.15
+  },
   "3": {},
   "4": {
-    "rangedDamageModifier": -0.45,
     "speedModifierWhenShooting": -0.25,
     "allowFireWhenMoving": true,
-    "ammoConsumptionModifier": -0.15
+    "ammoConsumptionModifier": -0.25
   },
   "5": {},
   "6": {

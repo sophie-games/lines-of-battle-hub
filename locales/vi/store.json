@@ -1,0 +1,22 @@
+{
+  "currencyShop": {
+    "title": "Lấy <0/>",
+    "subtitle": "Mở khóa các trang phục tuyệt vời và nổi bật giữa đám đông!"
+  },
+
+  "aboutCurrencies": "Về tiền tệ",
+
+  "currency": {
+    "basic": "Florin",
+    "premium": "Prestige",
+    "basicDescription": "<currency/>: Kiếm được bằng cách chơi các trận đấu trong hàng đợi. Sử dụng để tuyển quân và xây dựng quân đội của bạn.",
+    "premiumDescription": "<currency/>: Dùng để mua trang phục để thể hiện phong cách của bạn. Chủ yếu đến từ việc chi tiền thật vì trò chơi miễn phí.",
+    "rate": "{{rate}} {{currency}} mỗi USD",
+    "purchase": "Mua {{amount}} {{currency}}",
+    "totalSold": "Tổng <currency/> đã bán: {{amount}}",
+    "nextGoal": "Mục tiêu tiếp theo: {{goal}} <currency/> "
+  },
+
+  "purchaseConfirmation": "Bạn có chắc chắn muốn mua {{item}}?",
+  "showPurchased": "Hiển thị đã mua"
+}

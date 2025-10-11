@@ -1,0 +1,11 @@
+{
+  "USER_REGISTERED": "Đăng ký của bạn đã hoàn tất! Kiểm tra email của bạn để lấy liên kết xác nhận. Nếu bạn không tìm thấy ngay lập tức, hãy kiểm tra thư mục spam.",
+  "INCORRECT_PASSWORD": "Mật khẩu không đúng",
+  "TOURNAMENT_ROUND_CANNOT_START_YET": "Vòng {{round}} chưa thể bắt đầu.",
+  "START_TIME_MUST_BE_IN_THE_FUTURE": "Thời gian bắt đầu phải ở tương lai",
+  "USER_IS_BANNED": "Người dùng bị cấm",
+
+  "auth": {
+    "OAUTH_ACCOUNT": "Tài khoản này đã được đăng ký với Google. Vui lòng sử dụng phương thức đăng nhập Google."
+  }
+}

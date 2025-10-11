@@ -57,7 +57,7 @@
     },
     "defenseModifier": {
       "infantry": 0.5,
-      "skirmishInfantry": 2.5,
+      "skirmishInfantry": 3,
       "militiaInfantry": 0.1,
       "midCavalry": -0.5,
       "lightCavalry": -0.5,
@@ -72,7 +72,7 @@
       "militiaInfantry": -0.1
     },
     "projectileAbsorption": {
-      "musket": 0.2,
+      "musket": 0.3,
       "marksman-musket": 0.12,
       "rifle": 0.08,
       "explosive-shell": 0.02,
@@ -133,7 +133,7 @@
     },
     "defenseModifier": {
       "infantry": 0.8,
-      "skirmishInfantry": 3,
+      "skirmishInfantry": 3.5,
       "militiaInfantry": 1,
       "midCavalry": -0.75,
       "lightCavalry": -0.75,
@@ -144,13 +144,13 @@
     "rangedAttackModifier": {
       "artillery": -0.3,
       "skirmishInfantry": 0.25,
-      "infantry": -0.1,
+      "infantry": -0.2,
       "militiaInfantry": -0.1
     },
     "projectileAbsorption": {
-      "musket": 0.6,
-      "marksman-musket": 0.45,
-      "rifle": 0.35,
+      "musket": 0.75,
+      "marksman-musket": 0.4,
+      "rifle": 0.3,
       "explosive-shell": 0.04,
       "12lb-cannon-ball": 0.45,
       "8lb-cannon-ball": 0.5,

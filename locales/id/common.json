@@ -127,7 +127,6 @@
   "army": "Pasukan",
 
   "deploymentStateMessage": "Ini adalah tahap mengatur formasi pasukan. Digiliran ini tempatkan unitmu sesuai formasi yang kau inginkan dan pastikan unitmu didalam zona penempatan. Jika sudah selesai, tekan tombol centang untuk menerapkan penempatan",
-  "youAreColor": "Kau warna {{color}}!",
   "getStarted": "Bersiap untuk mulai",
 
   "colorTag": {
@@ -614,5 +613,6 @@
   "scenario": "Skenario",
   "banned": "Dilarang",
   "baseAmmo": "Ammunisi dasar",
-  "range": "Jangkauan"
+  "range": "Jangkauan",
+  "faaRangedDamage": "Kerusakan FAA Jarak Jauh"
 }

@@ -126,7 +126,6 @@
   "botArmy": "电脑的军队",
   "army": "军队",
   "deploymentStateMessage": "现在是部署阶段。你可以在部署区域内随意布置你的单位。结束布置后点击提交。",
-  "youAreColor": "你是{{color}}！",
   "getStarted": "开始吧",
   "colorTag": {
     "1": "蓝方",
@@ -835,5 +834,6 @@
   "scenario": "战役",
   "banned": "封禁",
   "baseAmmo": "基础弹药",
-  "range": "射程"
+  "range": "射程",
+  "faaRangedDamage": "FAA远程伤害"
 }

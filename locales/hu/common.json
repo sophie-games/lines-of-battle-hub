@@ -126,7 +126,6 @@
   "army": "Sereg",
 
   "deploymentStateMessage": "Elindult a seregfelállítás. Ebben a körben oda tudod helyezni az egységeidet, ahova csak akarod a kijelölt zónán belül. Amint végeztél, nyomj rá a pipára, hogy elinduljon a következő kör.",
-  "youAreColor": "Te a {{color}} színnel vagy!",
   "getStarted": "Készítsd fel a sereged a csatára!",
 
   "colorTag": {
@@ -546,5 +545,6 @@
     "drawByAgreement": "A játék döntetlennel ért véget kölcsönös megegyezés alapján.",
     "unknown": "Ismeretlen ok."
   },
-  "range": "Távolság"
+  "range": "Távolság",
+  "faaRangedDamage": "FAA Távolsági Sebzés"
 }
