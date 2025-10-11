@@ -1,6 +1,8 @@
 {
   "1": {},
-  "2": {},
+  "2": {
+    "receivedOrgDamage": 0.15
+  },
   "3": {},
   "4": {
     "rangedDamageModifier": -0.25,
