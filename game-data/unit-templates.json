@@ -734,7 +734,7 @@
   },
   {
     "name": "rockets",
-    "type": 19,
+    "type": 18,
     "category": "artillery",
     "rangedAttack": 20,
     "meleeAttack": 6,
