@@ -4,7 +4,6 @@
   "camera": "Camera",
   "sound": "Sound",
   "language": "Language",
-
   "multiTurnOrders": {
     "title": "Multi-turn orders",
     "description": "Toggling this setting on will enable you to issue orders that the game will remember and implement from one turn to the next. These multi-turn orders can span up to 10 turns of movement, and cover location orders like Move as well as target orders like Seek."
@@ -78,12 +77,10 @@
   "generalVolume": {
     "title": "General Volume"
   },
-
   "shadows": {
     "title": "Shadows",
     "description": "Enables shadows on units. This may require the game to pass turn for the units to update."
   },
-
   "showCollisionShapes": {
     "title": "Show collision shapes",
     "description": "Shows collision shapes on units. This may require the game to pass turn for the units to update."
@@ -92,40 +89,32 @@
     "title": "Disable Skins",
     "description": "Disable unit skins and show default ones."
   },
-
   "fullScreen": {
     "title": "Full Screen",
     "description": "Toggle full screen mode for the application",
     "toggle": "Toggle Full Screen"
   },
-
   "resetSettings": {
     "title": "Reset Settings",
     "description": "Restore all settings to their default values. This action will overwrite any customizations you have made."
   },
-
   "reset": "Reset",
-
   "tierRequirement": {
     "title": "Tier Requirement",
     "settingRequires": "{{setting}} is only available for {{tier}} tier players",
     "description": "Upgrade your tier on Patreon to access this setting and other premium features!",
     "goToPatreon": "Go to Patreon"
   },
-
   "lineFormation": "Line Formation",
   "checkerboardFormation": "Checkerboard Formation",
   "spaceBetweenUnits": "Space between units",
   "spaceBetweenLines": "Space between lines",
-
   "showSelectIdleUnitButton": {
     "title": "Show select idle unit button"
   },
-
   "showChat": {
     "title": "Show chat"
   },
-
   "keybindings": {
     "title": "Keybindings",
     "pressAKey": "Press a key...",
@@ -156,19 +145,15 @@
     "controlGroup9": "Control Group 9",
     "controlGroup0": "Control Group 0"
   },
-
   "routingTransparency": {
     "title": "Routing Unit Transparency"
   },
-
   "fogOfWar": {
     "description": "Fog of war is the shadow that appears over terrain that your units cannot see. The computational overhead of checking every tile a player can see is costly, so disabling this option may improve performance. However, this option is 100% graphical; disabling it will not make hidden enemy units visible."
   },
-
   "fogOfWarColor": {
     "title": "Fog of war color"
   },
-
   "groundQuality": {
     "title": "Ground Quality",
     "description": "Controls the quality of ground textures. Higher quality provides better visual detail but may impact performance. Requires refreshing the map."

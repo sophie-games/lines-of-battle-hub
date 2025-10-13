@@ -16,7 +16,6 @@
   "createdAt": "Utworzono {{date}}",
   "addPlayer": "Dodaj gracza",
   "credits": "Autorzy",
-
   "settings": "Ustawienia",
   "eloDescription": "Elo to system oceny używany do obliczenia względnego poziomu umiejętności graczy. Im wyższe jest twoje Elo, tym lepszy jesteś w porównaniu do innych. Wygrywanie zwiększa twoje Elo, a przegrywanie je zmniejsza.",
   "welcomeName": "Witaj {{name}}!",
@@ -36,26 +35,23 @@
     "title": "Partia {{id}}",
     "turn": "Tura {{turnNumber}}/{{maxTurn}}"
   },
-
   "withdrawMessage": "Jeżeli wycofasz się z tej gry, będzie to uznane za przegraną i obniży twoje Elo, na pewno chcesz to zrobić?",
-
   "loading": "Ładowanie...",
   "yes": "Tak",
   "no": "Nie",
   "by": "Stworzone przez",
   "logout": "Wyloguj się",
-
   "createNewGame": "Stwórz nową partię",
   "randomGameInfo": "Dla losowo wygenerowanych partii, gra użyje stworzonych przez Ciebie armii do wybranego trybu bitwy. Możesz zobaczyć i edytować swoje armie w <0>Układzie Armii</0>. Jeżeli nie stworzyłeś(łaś) jeszcze armii do danego trybu, użyta będzie domyślna armia.",
   "selectGameMode": "Wybierz tryb gry z poniższych opcji.",
   "or": "Albo",
   "quickMatchmaking": "Szybkie Dopasowanie",
   "ranked": "Rankingowe",
-  "classicUnranked": "Klasyczne Nierankingowe",
-  "classicUnrankedTooltip": "W trybie klasycznym nierankingowym Elo nie jest wpływane i używana jest tylko domyślna armia.",
+  "classic": "Klasyczny",
+  "classicTooltip": "Użyj proceduralnie generowanych klasycznych map z domyślnymi armiami",
+  "rankedTooltip": "Gry wpływają na twoją ocenę Elo",
   "unranked": "Nierankingowe",
   "cancel": "Anuluj",
-
   "matchmakingQueue": {
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
@@ -64,11 +60,9 @@
     "cancelledBy": "Kolejka została anulowana przez {{username}}.",
     "playersInQueue": "{{count}} graczy szuka"
   },
-
   "fastMode": "Tryb Szybki",
   "slowMode": "Tryb Wolny",
   "maxTimePerTurn": "Maksymalny czas na turę",
-
   "turnTimeLimit": {
     "30s": "30 sekund",
     "1m": "1 minuta",
@@ -79,7 +73,6 @@
     "3d": "3 dni",
     "7d": "7 dni"
   },
-
   "battleType": "Tryb bitwy",
   "dynamicBattleType": {
     "clash": "Starcie",
@@ -87,14 +80,12 @@
     "battle": "Bitwa",
     "grand_battle": "Wielka Bitwa"
   },
-
   "matchmaking": "Losowa Partia",
   "matchmakingDescription": "Tryb Losowa Partia pozwala na szybkie stworzenie partii z losowymi graczami używając wcześniej ustalonych ustawień.",
   "custom": "Niestandardowa Partia",
   "customDescription": "Tryb Niestandardowa Partia pozwala stworzyć partię ze specyficznymi ustawieniami i zaprosić znajomych do gry.",
   "createCustomGame": "Stwórz Niestandardową Partię.",
   "maxTurn": "Maksymalna ilość tur",
-
   "player": "Gracz",
   "units": "Jednostki",
   "afk": "AFK",
@@ -114,11 +105,9 @@
     "createInfo": "Możesz nawet tworzyć własne scenariusze używając <scenarioEditorLink/>.",
     "createInfo2": "Lub odwiedzić <0>Community Hub</0> w poszukiwaniu gotowych scenariuszy."
   },
-
   "scenarioEditorTags": {
     "tutorialMessage": "Nie wiesz jak dowodzić armią? Nie martw się, mamy to pod kontrolą! <tutorialLink>Obejrzyj poradnik tutaj.</tutorialLink>"
   },
-
   "createScenario": "Stwórz Scenariusz",
   "loadScenario": "Załaduj Scenariusz",
   "playOffline": "Graj Offline!",
@@ -127,10 +116,8 @@
   "playerArmy": "Armia gracza",
   "botArmy": "Armia bota",
   "army": "Armia",
-
   "deploymentStateMessage": "To jest etap rozstawiania. Wykorzystaj tą turę, aby rozmieścić jednostki strefie rozstawienia. Gdy skończysz, wyślij swoje rozkazy aby zatwierdzić rozstawienie.",
   "getStarted": "Zaczynaj",
-
   "colorTag": {
     "1": "Niebieski",
     "2": "Czerwony",
@@ -138,7 +125,6 @@
     "4": "Zielony",
     "5": "Czarny"
   },
-
   "resume": "Wróć do gry",
   "offerDraw": "Zaproponuj remis",
   "replayBattle": "Odtwórz bitwę",
@@ -150,7 +136,6 @@
   "forUnit": "Dla {{unit}}",
   "select": "Wybierz",
   "deselect": "Anuluj Wybór",
-
   "unitStat": {
     "hp": "PŻ",
     "org": "Organizacja",
@@ -169,7 +154,6 @@
     "status": "Stan",
     "timeToRun": "Czas do ucieczki"
   },
-
   "unitCategory": {
     "infantry": "Piechota",
     "midCavalry": "Kawaleria",
@@ -181,9 +165,7 @@
     "militiaInfantry": "Milicja",
     "skirmishInfantry": "Strzelcy"
   },
-
   "category": "Kategoria",
-
   "damageType": {
     "musket": "karabin",
     "light-musket": "Karabinek",
@@ -208,7 +190,6 @@
     "rifle": "Sztucer",
     "rocket": "Rakieta"
   },
-
   "unitName": {
     "1": "Piechota Liniowa",
     "2": "Dragoni",
@@ -230,7 +211,6 @@
     "18": "6-Funtowa Artyleria Piesza",
     "19": "Rakiety"
   },
-
   "battalionName": {
     "1": "{{n}} Batalion Piechoty",
     "2": "{{n}} Szwadron Dragonów",
@@ -252,20 +232,19 @@
     "18": "{{n}} Bateria Piesza",
     "19": "{{n}} Bateria Rakietowa"
   },
-
   "unitDescription": {
     "1": "Skromny batalion piechoty liniowej to podstawowa jednostka armii. Karabin to ich główna broń, ale mogą także odpierać kawalerię lub szarżować na inną piechotę i artylerię bagnetem.",
     "2": "Dragoni byli najczęstszą kawalerią w armii Napoleona. Mogą im brakować brawury huzarów i splendoru kirasjerów, ale ta groźna średnia kawaleria powinna być ogólnie podstawą waszej siły kawalerii.",
     "3": "Przystępna średnia artyleria z bardzo potężną kartaczą i dobrymi obrażeniami na dystansie, ale nieco słabą mobilnością.",
     "4": "Doświadczeni, fizycznie imponujący żołnierze, którzy poprawiają wydajność pobliskich wojsk samą swoją obecnością. Te elitarne jednostki są wyłączne dla najbardziej naturalnie utalentowanych żołnierzy, co czyni je znacznie droższymi w utrzymaniu. Będą walczyć mimo obrażeń, które złamałyby każdą mniejszą jednostkę.",
-    "7": "Elitarne bataliony piechoty liniowej wyszkolone ze szczególnym naciskiem na szybki ruch i celność.",
-    "11": "Te eleganckie szwadrony lekkiej kawalerii oferują wysoką prędkość i wytrzymałość, ale przegrają w walce z piechotą lub cięższą kawalerią. Zamiast tego używaj huzarów do zwiadu i terroryzowania wrażliwych celów - strzelców, kawalerii i zdezorganizowanych lub uciekających wojsk.",
     "5": "Elitarna lekka kawaleria, która używa lanc do zadawania niszczycielskich szarż - seria szarż przez wiele szwadronów ułanów szybko rozbije każdy opór. Jednak są znacznie mniej imponujące w przedłużonej walce wręcz.",
-    "8": "Groźna ciężka kawaleria z najsilniejszą ogólną skutecznością walki wręcz ze wszystkich jednostek. Używaj kirasjerów do dominowania nad wrogą kawalerią lub masuj je, aby przełamać wrogi front po osłabieniu go ogniem artyleryjskim.",
-    "12": "Najcięższa armata polowa dostępna dla armii napoleońskiej; choć te baterie są niezwykle drogie, ich zasięg i moc są niezrównane.",
     "6": "Prędkość i niski koszt tej artylerii czyni ją odpowiednią do wspierania kawalerii lub posuwania się wraz z waszą linią piechoty.",
+    "7": "Elitarne bataliony piechoty liniowej wyszkolone ze szczególnym naciskiem na szybki ruch i celność.",
+    "8": "Groźna ciężka kawaleria z najsilniejszą ogólną skutecznością walki wręcz ze wszystkich jednostek. Używaj kirasjerów do dominowania nad wrogą kawalerią lub masuj je, aby przełamać wrogi front po osłabieniu go ogniem artyleryjskim.",
     "9": "Te lekkie, mobilne polowe haubice wyrzucają 23-funtowe pociski, które zadają kompetentne obrażenia niezależnie od terenu czy dystansu. Na bliskim dystansie ich ciężkie salwy kartaczowe dostarczają jednych z najbardziej niszczycielskich ogni znanych w Wojnach Napoleońskich.",
     "10": "\"Poleganie na milicji to z pewnością opieranie się na złamanej lasce.\" - George Washington",
+    "11": "Te eleganckie szwadrony lekkiej kawalerii oferują wysoką prędkość i wytrzymałość, ale przegrają w walce z piechotą lub cięższą kawalerią. Zamiast tego używaj huzarów do zwiadu i terroryzowania wrażliwych celów - strzelców, kawalerii i zdezorganizowanych lub uciekających wojsk.",
+    "12": "Najcięższa armata polowa dostępna dla armii napoleońskiej; choć te baterie są niezwykle drogie, ich zasięg i moc są niezrównane.",
     "13": "\"Baszkirscy łucznicy konni są bez wątpienia najmniej niebezpiecznymi wojskami na świecie.\" - Baron Marbot, ignorując strzałę w udzie",
     "14": "Te wojska szturmowe składają się z najwyższych, najsilniejszych i najbardziej imponujących mężczyzn piechoty liniowej. Utrzymujcie waszych grenadierów w dobrej kondycji i angażujcie ich, gdy wróg zaczyna się chwiać, aby złamać ich całkowicie.",
     "15": "Najlżejsza powszechna polowa artyleria Wojen Napoleońskich, ze skromną siłą ognia i dobrą mobilnością, która czyni ją naturalnym towarzyszem piechoty.",
@@ -276,12 +255,10 @@
     "24": "10-funtowa jednorożec była działem-haubicą armii rosyjskiej Wojen Napoleońskich. Jej dalekosiężne pociski wybuchowe są dobrze przystosowane do radzenia sobie z wrogami w terenie, a jej bliska kartacz jest niszczycielska. Używaj średniego dystansu kul 10-funtowca do dziesiątkowania celów na otwartym terenie.",
     "25": "18-funtowa jednorożec to ciężka rosyjska armata-haubica z przerażającą bliską kartaczą, średniodystansowymi kulami wysoce skutecznymi przeciwko wojskom na otwartym terenie, i dalekosiężnymi pociskami wybuchowymi, które ignorują korzyści wrogiego terenu obronnego."
   },
-
   "damageResistances": "Odporność na Obrażenia",
   "otherStats": "Inne Statystyki",
   "damageModifier": "Modyfikator Obrażeń",
   "orgDamageRatio": "Stosunek Obrażeń do Org.",
-
   "damage": "Obrażenia",
   "orgDamage": "Obrażenia do Org.",
   "enfiladeFireModifiers": "Modyfikator Ognia z Flanki",
@@ -314,7 +291,6 @@
   "projectileAbsorption": "Absorpcja Pocisków",
   "terrainPName": "Teren: {{name}}",
   "effects": "Efekty",
-
   "terrain": {
     "0": "Łąka",
     "1": "Las",
@@ -336,7 +312,6 @@
     "17": "Pole, Zaorane",
     "18": "Pole, Uprawiane"
   },
-
   "clearPlayerUnits": "Wyczyść jednostki gracza",
   "clearBotUnits": "Wyczyść jednostki bota",
   "continueGame": "Kontynuuj partię",
@@ -344,17 +319,14 @@
   "filterBy": "Filtruj po",
   "name": "Nazwa",
   "retry": "Spróbuj ponownie",
-
   "networkErrorModal": {
     "title": "Ups! Stracono połączenie z internetem!",
     "message": "Wygląda na to, że nie udało się połączyć z internetem. Nie martw się! Wciąż możesz grać offline."
   },
-
   "needsUpdateModal": {
     "title": "Wymagana Aktualizacja",
     "message": "Nowa wersja Lines of Battle jest dostępna! Proszę zaktualizować do najnowszej wersji by móc grać online."
   },
-
   "update": "Aktualizacja!",
   "yourArmyCompositionsFor": "Kompozycja Twojej armii dla: ",
   "noUnitsYet": "Brak Jednostek",
@@ -367,21 +339,17 @@
   "clearUnits": "Wyczyść Jednostki",
   "saving": "Zapisywanie...",
   "armyInvalid": "Ta armia jest niepoprawna, zmodyfikuj ją",
-
   "landing": {
     "message": "<b>Lines of Battle</b> to napoleońska gra taktyczna z równoczesnymi turami i walką w czasie rzeczywistym. Pokonaj ludzkich przeciwników precyzyjnymi oddziałami i taktykami!",
     "privacy": "Zaczynając, zgadzasz się z naszą <0>Polityką Prywatności</0>."
   },
-
   "welcomeModal": {
     "title": "Witaj w Lines of Battle 👋",
     "thanks": "Dobrze cię tu widzieć {{name}}!",
     "p1": "To Twój pierwszy kontakt z <b>Lines of Battle</b>? Jeśli tak, to polecam rozpocząć <offlineLink>Partią Offline</offlineLink> przeciwko botowi, aby zaznajomić się z mechanikami gry i popracować nad strategią w spokojnym środowisku.",
     "p2": "Dlatego, że gra wciąż jest w fazie beta, zapraszam do dołączenia do <discordLink>Serwera na Discordzie</discordLink> żeby połączyć się z innymi graczami, znaleźć przeciwników do gry, zgłosić błędy, i podzielić się pomysłami, aby polepszyć doświadczenie dla wszystkich graczy!"
   },
-
   "turn": "Tura",
-
   "loadingScreen": {
     "fonts": "Ładowanie czcionek...",
     "joiningGame": "Dołączanie do partii...",
@@ -389,9 +357,7 @@
     "fetchingGameData": "Zdobywanie danych gry...",
     "generatingMap": "Generowanie mapy..."
   },
-
   "fetchingBattleActions": "Pozyskiwanie akcji bitwy...",
-
   "order": {
     "1": "Spacer",
     "2": "Bieganie",
@@ -399,7 +365,6 @@
     "4": "Natarcie z ostrzałem",
     "6": "Odwrót"
   },
-
   "selectOrder": "Wybierz Rozkaz",
   "autofire": "Automatyczny ogień",
   "allowFireWhenMoving": "Pozwala strzelać podczas ruchu",
@@ -422,7 +387,6 @@
   "meleePerformance": "Wydajność Wręcz",
   "speedByOrg": "Szybkość od Org.",
   "turnsLeft": "Pozostałych tur",
-
   "battleOverview": {
     "title": "Podsumowanie Bitwy",
     "victoryPoints": "Punkty Zwycięstwa",
@@ -434,7 +398,6 @@
     "timeUnderPressureTooltip": "Czas pod presją to czas, w którym drużyna kontroluje <0>{{percentage}}%</0> punktów lub mniej. Im dłużej drużyna pozostaje pod presją, tym więcej punktów zwycięstwa traci.",
     "unitsOrgRegain": "Odzyskiwanie Org. Jednostek"
   },
-
   "offerDrawModal": {
     "withdrawOffer": "Wycofaj Propozycję",
     "alreadyWantsDrawMessage": "Już proponujesz remis. Czy chcesz wycofać propozycję?",
@@ -442,20 +405,17 @@
     "player": "{{player}} oferuje remis.",
     "players": "{{players}} oferują remis."
   },
-
   "defeat": "Klęska",
   "victory": "Zwycięstwo",
   "draw": "Remis",
   "won": "Wygrana",
   "lost": "Przegrana",
   "tie": "Remis",
-
   "unitStatus": {
     "1": "Stoi",
     "2": "Ucieka",
     "3": "Odpoczywa"
   },
-
   "unitEffect": {
     "1": "Wykonuje pełny obrót",
     "2": "W zwarciu",
@@ -463,7 +423,6 @@
     "4": "Rozpoczęła ucieczkę",
     "5": "Pod ostrzałem"
   },
-
   "login": "Zaloguj się",
   "signUp": "Zarejestruj się",
   "forgotPassword": "Nie pamiętasz hasła?",
@@ -480,22 +439,18 @@
   "enterNewPassword": "Wprowadź nowe hasło",
   "newPassword": "Nowe hasło",
   "repeatPassword": "Powtórz hasło",
-
   "teamSize": {
     "title": "Wielkość Drużyn",
     "1v1": "1 vs 1",
     "2v2": "2 vs 2"
   },
-
   "offline": "Offline",
   "offlineDescription": "Ćwicz z botami i graj ze znajomymi na tym samym urządzeniu!",
-
   "premiumCurrencyLeaderboard": {
     "title": "Tabela <premiumCurrency/>",
     "subtitle": "Kto ma najwięcej <premiumCurrency/>?",
     "description": "Chcesz być na pierwszym miejscu? <storeLink>Wejdź do sklepu</storeLink> i kup <premiumCurrency/>!"
   },
-
   "team": "Drużyna",
   "teams": "Drużyny",
   "playerType": "Rodzaj Gracza",
@@ -503,14 +458,11 @@
   "bot": "Bot",
   "armyOfPlayer": "Armia gracza {{player}}",
   "averageElo": "Średnie Elo",
-
   "hybridDescription": "Hybrydowe mapy używają ustalonego terenu, ale pozwalają graczom używać własnych armii.",
-
   "playLastActionsModal": {
     "message": "Nowe rzeczy zdarzyły się na polu bitwy, gdy cię nie było.\nCzy chcesz zobaczyć akcję z poprzedniej tury?",
     "button": "Kontynuuj"
   },
-
   "battleReport": "Raport z Bitwy",
   "gameEndReasons": {
     "cancelled": "Gra została anulowana, ponieważ co najmniej jeden z graczy nie przesłał rozkazów w pierwszej turze.",
@@ -526,7 +478,6 @@
   "horseLost": "Stracone Konie",
   "gunsLost": "Stracone Działa",
   "noRewards": "Brak Nagród",
-
   "clan": "Koalicja",
   "clans": "Koalicje",
   "createClan": "Stwórz Koalicję",
@@ -560,7 +511,6 @@
   "reject": "Odrzuć",
   "linkCopiedToClipboard": "Skopiowano link do schowka",
   "revealPlayers": "Pokaż Graczy",
-
   "pagination": {
     "previous": "Poprzednia",
     "next": "Następna",
@@ -569,11 +519,9 @@
     "items": "elementy",
     "jump": "Skocz"
   },
-
   "kick": "Wyrzuć",
   "noDescription": "Brak opisu",
   "save": "Zapisz",
-
   "ordersSubmittedDialog": {
     "p1": {
       "sent": "Rozkazy wysłane do serwera.",
@@ -583,11 +531,9 @@
     "p2": "Aktualizacja rozkazów za {{value}}s",
     "b": "Aktualizowanie rozkazów"
   },
-
   "search": {
     "clans": "Szukaj koalicji"
   },
-
   "formation": "Formacja",
   "findGame": "Znajdź grę",
   "gameIdOrLink": "ID partii lub link",
@@ -615,14 +561,12 @@
   "rank": "Ranga",
   "creatorPrize": "Nagroda Twórcy",
   "maxPlayers": "Maksymalna liczba Graczy",
-
   "tournamentStatus": {
     "open": "Open",
     "active": "Active",
     "completed": "Completed",
     "cancelled": "Cancelled"
   },
-
   "hasPassword": "Zabezpieczona hasłem",
   "autoProgression": "Automatyczna progresja",
   "autoProgressionInfo": "Jeśli ta opcja jest włączona, turniej automatycznie przejdzie do następnej rundy, gdy tylko ostatnia rozgrywka bieżącej rundy zostanie ukończona. Jeśli jest wyłączona, turniej będzie postępował, gdy administrator uruchomi go ręcznie lub w zaplanowanym terminie (jeśli został ustawiony).",
@@ -657,7 +601,6 @@
     "messagePlural": "{{players}} proponują remis. Akceptujesz? Remis zostanie ogłoszony tylko, jeżeli wszyscy gracze się zgodzą."
   },
   "projectilePenetration": "Penetracja pocisku",
-
   "league": {
     "title": "Liga",
     "a": "Cesarz",
@@ -680,14 +623,12 @@
     "g2": "Żelazo II",
     "g3": "Żelazo III"
   },
-
   "skinTier": {
     "1": "Poborowy",
     "2": "Weteran",
     "3": "Elita",
     "4": "Cesarski"
   },
-
   "currentPassword": "Aktualne hasło",
   "changePassword": "Zmień hasło",
   "endRound": "Zakończ rundę",
@@ -699,7 +640,6 @@
   "altWarning": "Używanie alternatywnych kont do farmienia ELO jest zabronione. Jeśli zostanie to wykryte, środki zostaną podjęte wobec wszystkich kont",
   "withdrawFromName": "Wycofaj się z {{name}}",
   "withdrawTournamentMessage": "Czy na pewno chcesz się wycofać z Turnieju?",
-
   "steamBanner": {
     "title": "Dodaj Lines of Battle do Listy Życzeń na Steamie!",
     "description": "Pomóż nam osiągnąć <0>{{wishlistCount}}</0> do premiery gry!",
@@ -731,7 +671,6 @@
   "preset": "Preset",
   "hybrid": "Hybrydowy",
   "random": "Losowy",
-  "classic": "Klasyczny",
   "projectileWidth": "Szerokość pocisku",
   "allyCollisionLevel": "Poziom sojuszniczych kolizji",
   "enemyCollisionLevel": "Poziom wrogich kolizji",
@@ -763,13 +702,11 @@
     "p2": "Bądź na bieżąco z kolejnymi aktualizacjami i nowymi funkcjami nadchodzącymi do Lines of Battle!",
     "p3": "Śledź nas w mediach społecznościowych, aby otrzymywać najnowsze wiadomości i ogłoszenia."
   },
-
   "tournamentStartedModal": {
     "title": "Rozpoczęła się partia turniejowa",
     "message": "Runda {{round}} turnieju {{tournamentName}} rozpoczęła się!",
     "goButtonText": "Przejdź do partii turniejowej"
   },
-
   "allVisible": "Wszystko Widoczne",
   "teamN": "Drużyna {{number}}",
   "measuring": "Mierzenie...",
@@ -778,9 +715,7 @@
   "connecting": "Łączenie...",
   "disconnecting": "Rozłączanie...",
   "unknown": "Nieznane",
-
   "fogOfWar": "Mgła wojny",
-
   "low": "Niska",
   "medium": "Średnia",
   "high": "Wysoka",
@@ -790,7 +725,6 @@
   "cavalry": "Kawaleria",
   "artillery": "Artyleria",
   "special": "Specjalne",
-
   "academy": "Akademia",
   "encyclopedia": "Encyklopedia",
   "tutorialTips": "Wskazówki Tutorialu",

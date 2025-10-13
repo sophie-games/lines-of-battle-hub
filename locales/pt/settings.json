@@ -4,7 +4,6 @@
   "camera": "Câmera",
   "sound": "Som",
   "language": "Idioma",
-
   "multiTurnOrders": {
     "title": "Ordens de vários turnos",
     "description": "Ativar esta configuração permitirá que você emita ordens que o jogo lembrará e implementará de um turno para o próximo. Essas ordens de vários turnos podem abranger até 10 turnos de movimento e incluir ordens de localização como 'Mover' e ordens de alvo como 'Buscar'."
@@ -71,25 +70,20 @@
     "title": "Sombras",
     "description": "Ativa sombras nas unidades. Isso pode exigir que o jogo passe um turno para que as unidades sejam atualizadas."
   },
-
   "fullScreen": {
     "title": "Tela Cheia",
     "description": "Alternar o modo de tela cheia para o aplicativo",
     "toggle": "Alternar Tela Cheia"
   },
-
   "resetSettings": {
     "title": "Redefinir Configurações",
     "description": "Restaurar todas as configurações para seus valores padrão. Esta ação substituirá quaisquer personalizações que você tenha feito."
   },
-
   "reset": "Redefinir",
-
   "lineFormation": "Formação em linha",
   "checkerboardFormation": "Formação em tabuleiro de xadrez",
   "spaceBetweenUnits": "Espaço entre unidades",
   "spaceBetweenLines": "Espaço entre linhas",
-
   "keybindings": {
     "title": "Atalhos de teclado",
     "pressAKey": "Pressione uma tecla...",
@@ -120,19 +114,15 @@
     "controlGroup9": "Grupo de controle 9",
     "controlGroup0": "Grupo de controle 0"
   },
-
   "routingTransparency": {
     "title": "Transparência de Unidades em Fuga"
   },
-
   "fogOfWar": {
     "description": "A névoa de guerra é a sombra que aparece sobre o terreno que suas unidades não podem ver. A sobrecarga computacional de verificar cada quadrado que um jogador pode ver é custosa, então desabilitar esta opção pode melhorar o desempenho. No entanto, esta opção é 100% gráfica; desabilitá-la não tornará visíveis as unidades inimigas ocultas."
   },
-
   "fogOfWarColor": {
     "title": "Cor da névoa de guerra"
   },
-
   "groundQuality": {
     "title": "Qualidade do terreno",
     "description": "Controla a qualidade das texturas do terreno. Qualidade mais alta fornece melhores detalhes visuais, mas pode afetar o desempenho. Requer atualizar o mapa."

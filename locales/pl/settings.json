@@ -4,7 +4,6 @@
   "camera": "Kamera",
   "sound": "Dźwięk",
   "language": "Język",
-
   "edgePanning": {
     "title": "Przesuwanie krawędzi",
     "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
@@ -60,30 +59,24 @@
   "generalVolume": {
     "title": "Głośność"
   },
-
   "shadows": {
     "title": "Cienie",
     "description": "Włącz cienie jednostek. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
   },
-
   "fullScreen": {
     "title": "Pełny Ekran",
     "description": "Przełącz pełny ekran w tej aplikacji.",
     "toggle": "Przełącz Pełny Ekran"
   },
-
   "resetSettings": {
     "title": "Resetuj Ustawienia",
     "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
   },
-
   "reset": "Reset",
-
   "lineFormation": "Formacja Liniowa",
   "checkerboardFormation": "Formacja Szachownicy",
   "spaceBetweenUnits": "Odległość między jednostkami",
   "spaceBetweenLines": "Odległość między liniami",
-
   "keybindings": {
     "title": "Skróty klawiszowe",
     "pressAKey": "Wciśnij przycisk...",
@@ -114,19 +107,15 @@
     "controlGroup9": "Grupa kontrolna 9",
     "controlGroup0": "Grupa kontrolna 0"
   },
-
   "routingTransparency": {
     "title": "Przezroczystość jednostek uciekających"
   },
-
   "fogOfWar": {
     "description": "Mgła wojny to cień, który pojawia się nad terenem, którego twoje jednostki nie mogą zobaczyć. Obciążenie obliczeniowe sprawdzania każdego pola, które gracz może zobaczyć, jest kosztowne, więc wyłączenie tej opcji może poprawić wydajność. Jednak ta opcja jest w 100% graficzna; wyłączenie jej nie sprawi, że ukryte wrogie jednostki staną się widoczne."
   },
-
   "fogOfWarColor": {
     "title": "Kolor mgły wojny"
   },
-
   "groundQuality": {
     "title": "Jakość terenu",
     "description": "Kontroluje jakość tekstur terenu. Wyższa jakość zapewnia lepsze szczegóły wizualne, ale może wpływać na wydajność. Wymaga odświeżenia mapy."

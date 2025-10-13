@@ -16,7 +16,6 @@
   "createdAt": "Tạo vào {{date}}",
   "addPlayer": "Thêm người chơi",
   "credits": "Ghi công",
-
   "settings": "Cài đặt",
   "eloDescription": "Elo là hệ thống xếp hạng được sử dụng để tính toán trình độ kỹ năng tương đối của người chơi. Elo của bạn càng cao, bạn càng mạnh so với những người khác. Thắng sẽ tăng Elo, thua sẽ giảm Elo.",
   "welcomeName": "Chào mừng {{name}}!",
@@ -36,26 +35,23 @@
     "title": "Trò chơi {{id}}",
     "turn": "Lượt {{turnNumber}}/{{maxTurn}}"
   },
-
   "withdrawMessage": "Nếu bạn rút khỏi trò chơi này, nó sẽ được tính là thua và sẽ làm giảm Elo của bạn, bạn có chắc chắn muốn rút không?",
-
   "loading": "Đang tải...",
   "yes": "Có",
   "no": "Không",
   "by": "Bởi",
   "logout": "Đăng xuất",
-
   "createNewGame": "Tạo trò chơi mới",
   "randomGameInfo": "Đối với các trò chơi được tạo ngẫu nhiên, trò chơi sẽ sử dụng quân đội bạn đã tạo cho chế độ chiến đấu đã chọn. Bạn có thể xem và quản lý quân đội của mình trong <0>Cấu trúc quân đội</0>. Nếu bạn chưa tạo quân đội nào cho chế độ đó, quân đội mặc định sẽ được sử dụng.",
   "selectGameMode": "Chọn chế độ trò chơi từ các tùy chọn bên dưới.",
   "quickMatchmaking": "Ghép nhanh",
   "ranked": "Có xếp hạng",
-  "classicUnranked": "Cổ điển không xếp hạng",
-  "classicUnrankedTooltip": "Ở chế độ cổ điển không xếp hạng, Elo không bị ảnh hưởng và chỉ sử dụng quân đội mặc định.",
+  "classic": "Cổ điển",
+  "classicTooltip": "Sử dụng bản đồ cổ điển được tạo theo thủ tục với quân đội mặc định",
+  "rankedTooltip": "Trò chơi ảnh hưởng đến xếp hạng Elo của bạn",
   "unranked": "Không xếp hạng",
   "or": "Hoặc",
   "cancel": "Hủy",
-
   "matchmakingQueue": {
     "inQueue": "Bạn hiện đang trong hàng đợi ghép! Hệ thống đang tìm kiếm người chơi khác đã chọn cùng cài đặt với bạn.",
     "matchFound": "Khi tìm thấy trận đấu, bạn sẽ được chuyển hướng đến trò chơi.",
@@ -64,11 +60,9 @@
     "cancelledBy": "Hàng đợi đã bị hủy bởi {{username}}.",
     "playersInQueue": "{{count}} người chơi đang tìm kiếm"
   },
-
   "fastMode": "Chế độ nhanh",
   "slowMode": "Chế độ chậm",
   "maxTimePerTurn": "Thời gian tối đa mỗi lượt",
-
   "turnTimeLimit": {
     "30s": "30 giây",
     "1m": "1 phút",
@@ -79,7 +73,6 @@
     "3d": "3 ngày",
     "7d": "7 ngày"
   },
-
   "battleType": "Loại trận chiến",
   "dynamicBattleType": {
     "clash": "Đụng độ",
@@ -87,7 +80,6 @@
     "battle": "Trận chiến",
     "grand_battle": "Trận chiến lớn"
   },
-
   "matchmaking": "Ghép trận",
   "matchmakingDescription": "Chế độ ghép trận cho phép bạn nhanh chóng tham gia trò chơi với người chơi ngẫu nhiên sử dụng cài đặt được định sẵn.",
   "onlyPartyLeaderCanSearch": "Chỉ trưởng nhóm mới có thể tìm kiếm trận đấu.",
@@ -103,7 +95,6 @@
   "createCustomGame": "Tạo trò chơi tùy chỉnh",
   "maxTurn": "Lượt tối đa",
   "seed": "Hạt giống",
-
   "player": "Người chơi",
   "units": "Đơn vị",
   "afk": "AFK",
@@ -123,12 +114,10 @@
     "createInfo": "Bạn thậm chí có thể tạo kịch bản riêng của mình trong <scenarioEditorLink/>.",
     "createInfo2": "Hoặc khám phá <0>Trung tâm cộng đồng</0> để tìm các kịch bản có sẵn."
   },
-
   "scenarioEditorTags": {
     "tutorialMessage": "Không chắc cách sử dụng? Đừng lo, chúng tôi đã hỗ trợ bạn! <tutorialLink>Xem hướng dẫn tại đây.</tutorialLink>",
     "randomGuide": "Muốn học cách tạo bản đồ ngẫu nhiên? Đọc <0>hướng dẫn này</0>."
   },
-
   "createScenario": "Tạo kịch bản",
   "loadScenario": "Tải kịch bản",
   "playOffline": "Chơi ngoại tuyến!",
@@ -137,10 +126,8 @@
   "playerArmy": "Quân đội người chơi",
   "botArmy": "Quân đội bot",
   "army": "Quân đội",
-
   "deploymentStateMessage": "Đây là giai đoạn triển khai. Sử dụng lượt này để đặt các đơn vị của bạn ở nơi bạn muốn trong vùng triển khai. Khi hoàn thành, gửi lệnh để áp dụng vị trí.",
   "getStarted": "Bắt đầu",
-
   "colorTag": {
     "1": "Xanh dương",
     "2": "Đỏ",
@@ -148,7 +135,6 @@
     "4": "Xanh lá",
     "5": "Đen"
   },
-
   "resume": "Tiếp tục",
   "offerDraw": "Đề nghị hòa",
   "replayBattle": "Xem lại trận chiến",
@@ -160,7 +146,6 @@
   "forUnit": "Cho {{unit}}",
   "select": "Chọn",
   "deselect": "Bỏ chọn",
-
   "unitStat": {
     "hp": "HP",
     "org": "Tổ chức",
@@ -180,7 +165,6 @@
     "timeToRun": "Thời gian chạy",
     "runCost": "Chi phí chạy"
   },
-
   "unitCategory": {
     "infantry": "Bộ binh",
     "midCavalry": "Kỵ binh",
@@ -192,15 +176,12 @@
     "militiaInfantry": "Bộ binh dân quân",
     "skirmishInfantry": "Bộ binh tản chiến"
   },
-
   "category": "Danh mục",
-
   "routingBehavior": "Hành vi rút lui",
   "baseSpeed": "Tốc độ cơ bản",
   "moveWhileInMelee": "Di chuyển khi cận chiến",
   "walk": "Đi bộ",
   "run": "Chạy",
-
   "damageType": {
     "musket": "Súng trường",
     "light-musket": "Súng trường nhẹ",
@@ -231,7 +212,6 @@
     "18lb-cannon-ball": "Đạn pháo 18-lb",
     "18lb-explosive-shell": "Đạn nổ 18-lb"
   },
-
   "unitName": {
     "1": "Bộ binh tuyến",
     "2": "Dragoon",
@@ -259,7 +239,6 @@
     "24": "Licorne 10-lb",
     "25": "Licorne 18-lb"
   },
-
   "battalionName": {
     "1": "Tiểu đoàn tuyến {{n}}",
     "2": "Dragoon {{n}}",
@@ -287,20 +266,19 @@
     "24": "Licorne {{n}}",
     "25": "Licorne {{n}}"
   },
-
   "unitDescription": {
     "1": "Tiểu đoàn bộ binh tuyến khiêm tốn là đơn vị cơ bản của quân đội. Súng trường là vũ khí chính của nó, nhưng nó cũng có thể chống lại kỵ binh hoặc xung kích bộ binh và pháo binh khác bằng lưỡi lê.",
     "2": "Dragoon là kỵ binh phổ biến nhất trong quân đội của Napoleon. Chúng có thể thiếu sự hào hoa của Hussar và vinh quang của Cuirassier, nhưng kỵ binh trung bình đáng gờm này thường nên là nền tảng của lực lượng kỵ binh của bạn.",
     "3": "Pháo binh trung bình giá cả phải chăng với canister rất mạnh và sát thương tốt ở tầm xa, nhưng khả năng cơ động hơi kém.",
     "4": "Những người lính có kinh nghiệm, uy nghiêm về thể chất với khả năng cải thiện hiệu suất của các lực lượng gần đó chỉ bằng sự hiện diện của họ. Những đơn vị tinh nhuệ này dành riêng cho những người lính có tài năng tự nhiên nhất, điều này làm cho chúng đắt đỏ hơn nhiều để triển khai. Chúng sẽ chiến đấu qua những sát thương sẽ phá vỡ bất kỳ đơn vị thấp hơn nào.",
-    "7": "Các tiểu đoàn bộ binh tuyến tinh nhuệ được huấn luyện với trọng tâm đặc biệt về di chuyển nhanh và bắn súng trường.",
-    "11": "Những phi đội kỵ binh nhẹ thanh lịch này cung cấp tốc độ cao và sức chịu đựng, nhưng sẽ thua trong một cuộc chiến chống lại bộ binh hoặc kỵ binh nặng hơn. Thay vào đó, sử dụng Hussar để trinh sát và khủng bố các mục tiêu dễ bị tổn thương - lính tản chiến, kỵ binh, và các lực lượng vô tổ chức hoặc đang rút lui.",
     "5": "Kỵ binh nhẹ tinh nhuệ sử dụng giáo để thực hiện các cuộc xung kích tàn phá - một loạt các cuộc xung kích của nhiều phi đội Lancer sẽ nhanh chóng đánh bại mọi đối thủ. Tuy nhiên, chúng kém ấn tượng hơn nhiều trong một cuộc cận chiến kéo dài.",
-    "8": "Kỵ binh nặng đáng gờm với hiệu quả chiến đấu cận chiến toàn diện mạnh nhất của bất kỳ đơn vị nào. Sử dụng Cuirassier để thống trị kỵ binh địch, hoặc tập trung chúng để phá vỡ mặt trận địch sau khi làm suy yếu bằng hỏa lực pháo binh.",
-    "12": "Khẩu pháo dã chiến nặng nhất có sẵn cho quân đội Napoleon; mặc dù những khẩu pháo này cực kỳ đắt đỏ, tầm bắn và sức mạnh của chúng không có đối thủ.",
     "6": "Tốc độ và chi phí thấp của pháo binh này làm cho nó phù hợp để hỗ trợ kỵ binh hoặc tiến cùng với hàng bộ binh của bạn.",
+    "7": "Các tiểu đoàn bộ binh tuyến tinh nhuệ được huấn luyện với trọng tâm đặc biệt về di chuyển nhanh và bắn súng trường.",
+    "8": "Kỵ binh nặng đáng gờm với hiệu quả chiến đấu cận chiến toàn diện mạnh nhất của bất kỳ đơn vị nào. Sử dụng Cuirassier để thống trị kỵ binh địch, hoặc tập trung chúng để phá vỡ mặt trận địch sau khi làm suy yếu bằng hỏa lực pháo binh.",
     "9": "Những khẩu howitzer dã chiến nhẹ, cơ động này bắn đạn 23 pound gây sát thương có năng lực bất kể địa hình hay khoảng cách. Ở tầm gần, những loạt canister nặng của chúng cung cấp một số trong những hỏa lực tàn phá nhất được biết đến trong Chiến tranh Napoleon.",
     "10": "\"Đặt bất kỳ sự phụ thuộc nào vào dân quân chắc chắn là dựa vào một cây gậy gãy.\" - George Washington",
+    "11": "Những phi đội kỵ binh nhẹ thanh lịch này cung cấp tốc độ cao và sức chịu đựng, nhưng sẽ thua trong một cuộc chiến chống lại bộ binh hoặc kỵ binh nặng hơn. Thay vào đó, sử dụng Hussar để trinh sát và khủng bố các mục tiêu dễ bị tổn thương - lính tản chiến, kỵ binh, và các lực lượng vô tổ chức hoặc đang rút lui.",
+    "12": "Khẩu pháo dã chiến nặng nhất có sẵn cho quân đội Napoleon; mặc dù những khẩu pháo này cực kỳ đắt đỏ, tầm bắn và sức mạnh của chúng không có đối thủ.",
     "13": "\"Cung thủ kỵ binh Bashkir chắc chắn là lực lượng ít nguy hiểm nhất thế giới.\" - Nam tước Marbot, bỏ qua mũi tên ở đùi",
     "14": "Những lực lượng xung kích này được tạo thành từ những người đàn ông cao nhất, khỏe nhất và uy nghiêm nhất của bộ binh tuyến. Giữ Grenadier của bạn trong tình trạng tốt và triển khai chúng khi kẻ thù bắt đầu dao động để phá vỡ chúng hoàn toàn.",
     "15": "Pháo binh dã chiến phổ biến nhẹ nhất của Chiến tranh Napoleon, với hỏa lực khiêm tốn và khả năng cơ động tốt làm cho nó trở thành người bạn đồng hành tự nhiên của bộ binh.",
@@ -311,12 +289,10 @@
     "24": "Licorne 10 pound là một khẩu pháo-howitzer của quân đội Nga trong Chiến tranh Napoleon. Đạn nổ tầm xa của nó phù hợp để đối phó với kẻ thù trong địa hình, và canister tầm gần của nó tàn phá. Sử dụng đạn tầm trung của Licorne 10 pound để tiêu diệt các mục tiêu ở ngoài trời.",
     "25": "Licorne 18 pound là một khẩu pháo-howitzer nặng của Nga với canister tầm gần đáng sợ, đạn tầm trung hiệu quả cao chống lại các lực lượng ở ngoài trời, và đạn nổ tầm xa bỏ qua lợi ích của địa hình phòng thủ địch."
   },
-
   "damageResistances": "Kháng sát thương",
   "otherStats": "Thống kê khác",
   "damageModifier": "Hệ số sát thương",
   "orgDamageRatio": "Tỷ lệ sát thương tổ chức",
-
   "damage": "Sát thương",
   "orgDamage": "Sát thương tổ chức",
   "enfiladeFireModifiers": "Hệ số hỏa lực dọc",
@@ -354,7 +330,6 @@
   "projectileAbsorption": "Hấp thụ đạn",
   "terrainPName": "Địa hình: {{name}}",
   "effects": "Hiệu ứng",
-
   "terrain": {
     "0": "Cỏ",
     "1": "Rừng",
@@ -380,7 +355,6 @@
     "21": "Hào",
     "22": "Pháo đài"
   },
-
   "clearPlayerUnits": "Xóa đơn vị người chơi",
   "clearBotUnits": "Xóa đơn vị bot",
   "continueGame": "Tiếp tục trò chơi",
@@ -388,17 +362,14 @@
   "filterBy": "Lọc theo",
   "name": "Tên",
   "retry": "Thử lại",
-
   "networkErrorModal": {
     "title": "Ôi! Mất kết nối",
     "message": "Có vẻ như kết nối đã thất bại. Đừng lo! Bạn vẫn có thể chơi ngoại tuyến."
   },
-
   "needsUpdateModal": {
     "title": "Cần cập nhật",
     "message": "Phiên bản mới của LoB đã có sẵn! Vui lòng cập nhật lên phiên bản mới nhất để tiếp tục chơi trực tuyến."
   },
-
   "update": "Cập nhật!",
   "yourArmyCompositionsFor": "Cấu trúc quân đội của bạn cho",
   "noUnitsYet": "Chưa có đơn vị nào",
@@ -411,21 +382,17 @@
   "clearUnits": "Xóa đơn vị",
   "saving": "Đang lưu...",
   "armyInvalid": "Quân đội này không hợp lệ, vui lòng sửa đổi.",
-
   "landing": {
     "message": "<b>Lines of Battle</b> là trò chơi chiến thuật thời Napoleon với lượt đồng thời và chiến đấu thời gian thực. Đánh bại đối thủ người với quân đội chính xác và chiến thuật!",
     "privacy": "Bằng cách bắt đầu, bạn đồng ý với <0>Chính sách bảo mật</0> của chúng tôi."
   },
-
   "welcomeModal": {
     "title": "Chào mừng đến với Lines of Battle 👋",
     "thanks": "Cảm ơn bạn đã tham gia, {{name}}!",
     "p1": "Mới với <b>Lines of Battle</b>? Tôi khuyên bạn nên bắt đầu với <offlineLink>trò chơi luyện tập ngoại tuyến</offlineLink> chống lại bot để làm quen với cơ chế trò chơi và phát triển chiến lược trong môi trường thoải mái.",
     "p2": "Vì trò chơi hiện đang trong giai đoạn beta, tôi mời bạn tham gia <discordLink>máy chủ Discord</discordLink> để kết nối với người chơi khác, tìm đối thủ để chơi, báo cáo lỗi và chia sẻ ý tưởng để giúp cải thiện trải nghiệm trò chơi cho mọi người!"
   },
-
   "turn": "Lượt",
-
   "loadingScreen": {
     "fonts": "Đang tải phông chữ...",
     "joiningGame": "Đang tham gia trò chơi...",
@@ -433,9 +400,7 @@
     "fetchingGameData": "Đang lấy dữ liệu trò chơi...",
     "generatingMap": "Đang tạo bản đồ..."
   },
-
   "fetchingBattleActions": "Đang lấy hành động chiến đấu...",
-
   "order": {
     "1": "Đi bộ",
     "2": "Chạy",
@@ -444,7 +409,6 @@
     "6": "Rút lui",
     "7": "Không có lệnh"
   },
-
   "selectOrder": "Chọn lệnh",
   "autofire": "Tự động bắn",
   "allowFireWhenMoving": "Cho phép bắn khi di chuyển",
@@ -467,7 +431,6 @@
   "meleePerformance": "Hiệu suất cận chiến",
   "speedByOrg": "Tốc độ theo tổ chức",
   "turnsLeft": "Lượt còn lại",
-
   "battleOverview": {
     "title": "Tổng quan trận chiến",
     "victoryPoints": "Điểm chiến thắng",
@@ -479,7 +442,6 @@
     "timeUnderPressureTooltip": "Thời gian bị áp lực là thời gian một đội có <0>{{percentage}}%</0> mục tiêu hoặc ít hơn. Đội càng bị áp lực lâu, càng mất nhiều điểm chiến thắng.",
     "unitsOrgRegain": "Hồi phục tổ chức đơn vị"
   },
-
   "offerDrawModal": {
     "withdrawOffer": "Rút đề nghị",
     "alreadyWantsDrawMessage": "Bạn đã đang đề nghị hòa. Bạn có muốn rút đề nghị này không?",
@@ -487,20 +449,17 @@
     "player": "{{player}} đang đề nghị hòa.",
     "players": "{{players}} đang đề nghị hòa."
   },
-
   "defeat": "Thất bại",
   "victory": "Chiến thắng",
   "draw": "Hòa",
   "won": "Thắng",
   "lost": "Thua",
   "tie": "Hòa",
-
   "unitStatus": {
     "1": "Đứng",
     "2": "Rút lui",
     "3": "Hồi phục"
   },
-
   "unitEffect": {
     "1": "Xoay hoàn toàn",
     "2": "Đã cận chiến",
@@ -509,7 +468,6 @@
     "5": "Đã bị bắn",
     "6": "Đã bắn"
   },
-
   "login": "Đăng nhập",
   "signUp": "Đăng ký",
   "forgotPassword": "Quên mật khẩu?",
@@ -526,22 +484,18 @@
   "enterNewPassword": "Nhập mật khẩu mới",
   "newPassword": "Mật khẩu mới",
   "repeatPassword": "Nhập lại mật khẩu",
-
   "teamSize": {
     "title": "Kích thước đội",
     "1v1": "1 vs 1",
     "2v2": "2 vs 2"
   },
-
   "offline": "Ngoại tuyến",
   "offlineDescription": "Luyện tập chống lại bot và chơi hotseat với bạn bè trên cùng thiết bị!",
-
   "premiumCurrencyLeaderboard": {
     "title": "Bảng xếp hạng <premiumCurrency/>",
     "subtitle": "Ai có nhiều <premiumCurrency/> nhất?",
     "description": "Muốn đứng đầu? <storeLink>Đến cửa hàng</storeLink> và lấy <premiumCurrency/>!"
   },
-
   "team": "Đội",
   "teams": "Các đội",
   "playerType": "Loại người chơi",
@@ -549,14 +503,11 @@
   "bot": "Bot",
   "armyOfPlayer": "Quân đội của người chơi {{player}}",
   "averageElo": "Elo trung bình",
-
   "hybridDescription": "Bản đồ lai sử dụng địa hình được định sẵn không ngẫu nhiên, nhưng cho phép người chơi sử dụng quân đội tùy chỉnh của riêng họ để chơi.",
-
   "playLastActionsModal": {
     "message": "Các sự kiện chiến đấu mới đã xảy ra khi bạn vắng mặt.\nBạn có muốn xem các hành động từ lượt mới nhất không?",
     "button": "Chơi"
   },
-
   "battleReport": "Báo cáo trận chiến",
   "gameEndReasons": {
     "cancelled": "Trò chơi bị hủy vì ít nhất một người chơi không gửi lệnh trong lượt đầu tiên.",
@@ -572,7 +523,6 @@
   "horseLost": "Ngựa mất",
   "gunsLost": "Súng mất",
   "noRewards": "Không có phần thưởng",
-
   "clan": "Liên minh",
   "clans": "Các liên minh",
   "createClan": "Tạo liên minh",
@@ -606,7 +556,6 @@
   "reject": "Từ chối",
   "linkCopiedToClipboard": "Liên kết đã sao chép vào clipboard",
   "revealPlayers": "Hiện người chơi",
-
   "pagination": {
     "previous": "Trước",
     "next": "Tiếp",
@@ -615,11 +564,9 @@
     "items": "mục",
     "jump": "Nhảy"
   },
-
   "kick": "Đá",
   "noDescription": "Không có mô tả",
   "save": "Lưu",
-
   "ordersSubmittedDialog": {
     "p1": {
       "sent": "Lệnh đã gửi đến máy chủ.",
@@ -629,11 +576,9 @@
     "p2": "Kiểm tra lệnh của đối thủ trong {{value}} giây",
     "b": "Kiểm tra ngay"
   },
-
   "search": {
     "clans": "Tìm kiếm liên minh"
   },
-
   "formation": "Đội hình",
   "findGame": "Tìm trò chơi",
   "gameIdOrLink": "ID trò chơi hoặc liên kết",
@@ -661,14 +606,12 @@
   "rank": "Xếp hạng",
   "creatorPrize": "Giải thưởng người tạo",
   "maxPlayers": "Số người chơi tối đa",
-
   "tournamentStatus": {
     "open": "Mở",
     "active": "Hoạt động",
     "completed": "Hoàn thành",
     "cancelled": "Hủy bỏ"
   },
-
   "hasPassword": "Có mật khẩu",
   "autoProgression": "Tự động tiến bộ",
   "autoProgressionInfo": "Nếu tùy chọn này được bật, giải đấu sẽ tự động chuyển sang vòng tiếp theo ngay khi trận đấu cuối cùng của vòng hiện tại hoàn thành. Nếu bị tắt, giải đấu sẽ tiến bộ khi quản trị viên khởi động thủ công hoặc vào ngày giờ đã lên lịch (nếu có).",
@@ -703,7 +646,6 @@
     "messagePlural": "{{players}} đang đề nghị hòa. Bạn có chấp nhận? Hòa chỉ có hiệu lực nếu tất cả người chơi đồng ý."
   },
   "projectilePenetration": "Xuyên thủng đạn",
-
   "league": {
     "title": "Hạng",
     "a": "Hoàng đế",
@@ -726,21 +668,18 @@
     "g2": "Sắt II",
     "g3": "Sắt III"
   },
-
   "skinTier": {
     "1": "Lính mới",
     "2": "Cựu binh",
     "3": "Tinh nhuệ",
     "4": "Hoàng gia"
   },
-
   "tier": {
     "free": "Miễn phí",
     "bronze": "Đồng",
     "silver": "Bạc",
     "gold": "Vàng"
   },
-
   "currentPassword": "Mật khẩu hiện tại",
   "changePassword": "Đổi mật khẩu",
   "endRound": "Kết thúc vòng",
@@ -752,7 +691,6 @@
   "altWarning": "Việc sử dụng tài khoản thay thế để farm Elo bị cấm. Nếu bị phát hiện, có thể có hành động chống lại các tài khoản liên quan.",
   "withdrawFromName": "Rút khỏi {{name}}",
   "withdrawTournamentMessage": "Bạn có chắc chắn muốn rút khỏi giải đấu?",
-
   "steamBanner": {
     "title": "Thêm Lines of Battle vào Wishlist trên Steam!",
     "description": "Giúp chúng tôi đạt <0>{{wishlistCount}}</0> để ra mắt trò chơi!",
@@ -780,12 +718,10 @@
   "skirmishersInfo": "Lính tản chiến được đặt tự động tùy thuộc vào số lượng đơn vị có lính tản chiến trong quân đội và tỷ lệ lính tản chiến của loại trận chiến.",
   "skirmisherRatio": "Tỷ lệ lính tản chiến",
   "friendlyFireImmune": "Miễn nhiễm hỏa lực đồng minh",
-
   "nearbyUnits": "Đơn vị gần",
   "preset": "Định sẵn",
   "hybrid": "Lai",
   "random": "Ngẫu nhiên",
-  "classic": "Cổ điển",
   "projectileWidth": "Chiều rộng đạn",
   "allyCollisionLevel": "Mức va chạm đồng minh",
   "enemyCollisionLevel": "Mức va chạm kẻ thù",
@@ -817,20 +753,17 @@
     "message": "Máy chủ hiện đang được cập nhật. Vui lòng thử lại sau vài phút."
   },
   "selectFormation": "Chọn đội hình",
-
   "whatsNew": {
     "title": "Có gì mới",
     "p1": "Khám phá các cập nhật và tính năng mới nhất trong Lines of Battle!",
     "p2": "Hãy theo dõi để biết thêm các cập nhật và tính năng mới sắp tới trong Lines of Battle!",
     "p3": "Theo dõi chúng tôi trên mạng xã hội để biết tin tức và thông báo mới nhất."
   },
-
   "tournamentStartedModal": {
     "title": "Một trò chơi giải đấu đã bắt đầu",
     "message": "Vòng {{round}} của giải đấu {{tournamentName}} đã bắt đầu!",
     "goButtonText": "Đi đến trò chơi giải đấu"
   },
-
   "invitedPlayers": "Người chơi được mời",
   "partyInviteFrom": "Lời mời nhóm từ {{username}}",
   "leader": "Thủ lĩnh",
@@ -854,10 +787,8 @@
   "noMessagesYet": "Chưa có tin nhắn nào",
   "sending": "Đang gửi...",
   "immuneToFlankRearBonuses": "Miễn nhiễm với thưởng sườn và sau",
-
   "allVisible": "Tất cả hiển thị",
   "teamN": "Đội {{number}}",
-
   "measuring": "Đang đo...",
   "disconnected": "Mất kết nối",
   "reconnected": "Đã kết nối lại",
@@ -871,31 +802,25 @@
   "captureThreshold": "Ngưỡng chiếm",
   "big": "Lớn",
   "small": "Nhỏ",
-
   "chargePenetrationTooltip": "Giảm kháng xung kích của mục tiêu.",
   "forFlankCharges": "Đối với xung kích sườn là <0>{{value}}</0>",
   "forRearCharges": "Đối với xung kích sau là <0>{{value}}</0>",
-
   "base": "Cơ sở",
   "Terrain": "Địa hình",
   "chargeResistanceTooltip": "Giảm sát thương xung kích của kẻ thù.",
-
   "rotationSpeed": "Tốc độ xoay",
   "runRotationSpeed": "Tốc độ xoay khi chạy",
   "rotationMaxThreshold": "Ngưỡng xoay tối đa",
-
   "low": "Thấp",
   "medium": "Trung bình",
   "high": "Cao",
   "dismiss": "Bỏ qua",
   "cannotChargeAgainst": "Không thể xung kích chống lại",
   "turningDelay": "Độ trễ xoay",
-
   "infantry": "Bộ binh",
   "cavalry": "Kỵ binh",
   "artillery": "Pháo binh",
   "special": "Đặc biệt",
-
   "academy": "Học viện",
   "encyclopedia": "Bách khoa toàn thư",
   "tutorialTips": "Mẹo hướng dẫn",

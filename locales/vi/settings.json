@@ -4,7 +4,6 @@
   "camera": "Camera",
   "sound": "Âm thanh",
   "language": "Ngôn ngữ",
-
   "multiTurnOrders": {
     "title": "Lệnh đa lượt",
     "description": "Bật cài đặt này sẽ cho phép bạn đưa ra các lệnh mà trò chơi sẽ ghi nhớ và thực hiện từ lượt này sang lượt khác. Các lệnh đa lượt này có thể kéo dài tới 10 lượt di chuyển và bao gồm các lệnh vị trí như Di chuyển cũng như các lệnh mục tiêu như Tìm kiếm."
@@ -78,12 +77,10 @@
   "generalVolume": {
     "title": "Âm lượng chung"
   },
-
   "shadows": {
     "title": "Bóng",
     "description": "Bật bóng trên các đơn vị. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
   },
-
   "showCollisionShapes": {
     "title": "Hiển thị hình dạng va chạm",
     "description": "Hiển thị hình dạng va chạm trên các đơn vị. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
@@ -92,40 +89,32 @@
     "title": "Tắt giao diện",
     "description": "Tắt giao diện đơn vị và hiển thị giao diện mặc định."
   },
-
   "fullScreen": {
     "title": "Toàn màn hình",
     "description": "Chuyển đổi chế độ toàn màn hình cho ứng dụng",
     "toggle": "Chuyển đổi toàn màn hình"
   },
-
   "resetSettings": {
     "title": "Đặt lại cài đặt",
     "description": "Khôi phục tất cả cài đặt về giá trị mặc định. Hành động này sẽ ghi đè lên mọi tùy chỉnh bạn đã thực hiện."
   },
-
   "reset": "Đặt lại",
-
   "tierRequirement": {
     "title": "Yêu cầu hạng",
     "settingRequires": "{{setting}} chỉ có sẵn cho người chơi hạng {{tier}}",
     "description": "Nâng cấp hạng của bạn trên Patreon để truy cập cài đặt này và các tính năng cao cấp khác!",
     "goToPatreon": "Đi đến Patreon"
   },
-
   "lineFormation": "Đội hình tuyến",
   "checkerboardFormation": "Đội hình bàn cờ",
   "spaceBetweenUnits": "Khoảng cách giữa các đơn vị",
   "spaceBetweenLines": "Khoảng cách giữa các hàng",
-
   "showSelectIdleUnitButton": {
     "title": "Hiển thị nút chọn đơn vị rảnh"
   },
-
   "showChat": {
     "title": "Hiển thị trò chuyện"
   },
-
   "keybindings": {
     "title": "Phím tắt",
     "pressAKey": "Nhấn một phím...",
@@ -156,19 +145,15 @@
     "controlGroup9": "Nhóm điều khiển 9",
     "controlGroup0": "Nhóm điều khiển 0"
   },
-
   "routingTransparency": {
     "title": "Độ trong suốt đơn vị rút lui"
   },
-
   "fogOfWar": {
     "description": "Sương mù chiến tranh là bóng tối xuất hiện trên địa hình mà các đơn vị của bạn không thể nhìn thấy. Chi phí tính toán để kiểm tra mọi ô mà người chơi có thể nhìn thấy rất tốn kém, vì vậy tắt tùy chọn này có thể cải thiện hiệu suất. Tuy nhiên, tùy chọn này 100% là đồ họa; tắt nó sẽ không làm cho các đơn vị kẻ thù ẩn trở nên hiển thị."
   },
-
   "fogOfWarColor": {
     "title": "Màu sương mù chiến tranh"
   },
-
   "groundQuality": {
     "title": "Chất lượng mặt đất",
     "description": "Điều khiển chất lượng của kết cấu mặt đất. Chất lượng cao hơn cung cấp chi tiết hình ảnh tốt hơn nhưng có thể ảnh hưởng đến hiệu suất. Yêu cầu làm mới bản đồ."
