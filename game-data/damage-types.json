@@ -290,10 +290,10 @@
         {
           "start": 135,
           "end": 435,
-          "startTopWidth": 16,
-          "endTopWidth": 60,
-          "startBottomWidth": 14,
-          "endBottomWidth": 44,
+          "startTopWidth": 18,
+          "endTopWidth": 62,
+          "startBottomWidth": 16,
+          "endBottomWidth": 46,
           "startHeight": 42,
           "endHeight": 68
         }
@@ -342,12 +342,12 @@
         {
           "start": 120,
           "end": 400,
-          "startTopWidth": 16,
-          "endTopWidth": 44,
-          "startBottomWidth": 13,
-          "endBottomWidth": 32,
+          "startTopWidth": 18,
+          "endTopWidth": 50,
+          "startBottomWidth": 14,
+          "endBottomWidth": 36,
           "startHeight": 30,
-          "endHeight": 60
+          "endHeight": 64
         }
       ],
       "absorptionModifier": 2.0,
@@ -631,7 +631,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 240
+    "ammoCost": 256
   },
   {
     "type": "8lb-canister-fire",
@@ -660,7 +660,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 232
+    "ammoCost": 240
   },
   {
     "type": "6lb-canister-fire",
@@ -689,7 +689,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 216
+    "ammoCost": 224
   },
   {
     "type": "4lb-canister-fire",
@@ -718,7 +718,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 224
+    "ammoCost": 232
   },
   {
     "type": "howitzer-canister",
@@ -760,22 +760,22 @@
   {
     "type": "rocket",
     "ranged": true,
-    "orgDamageRatio": 400,
+    "orgDamageRatio": 380,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
-      "end": 0.55,
+      "end": 0.6,
       "modifier": -0.45
     },
     "ranges": [
       {
         "start": 0,
         "end": 150,
-        "startMod": 0.8,
-        "endMod": 0.8,
+        "startMod": 0.75,
+        "endMod": 0.75,
         "name": "close"
       },
-      { "start": 150, "end": 270, "startMod": 0.8, "endMod": -0.35 },
+      { "start": 150, "end": 270, "startMod": 0.75, "endMod": -0.4 },
       {
         "start": 270,
         "end": 450,
