@@ -823,8 +823,8 @@
   "special": "Особые отряды",
   "academy": "Академия",
   "encyclopedia": "Энциклопедия",
-  "tutorialTips": "Советы по Обучению",
-  "loadingScreenTips": "Советы на Экране Загрузки",
+  "tutorialTips": "Обучающие подсказки",
+  "loadingScreenTips": "Подсказки на Экране загрузки",
   "gameConstants": "Игровые Константы",
   "ammo": "Боеприпасы",
   "ammoConsumption": "Расход боеприпасов",
@@ -835,5 +835,5 @@
   "banned": "Заблокирован",
   "baseAmmo": "Базовое значение боеприпасов",
   "range": "Дальность",
-  "faaRangedDamage": "Урон FAA на Дистанции"
+  "faaRangedDamage": "Огневая мощь (Огонь при движении)"
 }
