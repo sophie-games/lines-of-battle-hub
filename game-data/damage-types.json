@@ -211,7 +211,7 @@
     "ammoCost": 164
   },
   {
-    "type": "-cannon-ball",
+    "type": "10lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
     "projectileWidth": 20,
