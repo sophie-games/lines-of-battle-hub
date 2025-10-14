@@ -1,7 +1,7 @@
 {
   "infantry": {
     "firingAltitude": 0.9,
-    "canCaptureObjectives": true,
+    "captureSpeed": 1.0,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -23,6 +23,7 @@
   },
   "midCavalry": {
     "firingAltitude": 0.9,
+    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -99,7 +100,6 @@
   },
   "lightInfantry": {
     "firingAltitude": 0.9,
-    "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -109,6 +109,7 @@
   },
   "scoutCavalry": {
     "firingAltitude": 0.9,
+    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -144,6 +145,7 @@
   },
   "lightCavalry": {
     "firingAltitude": 0.9,
+    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -178,6 +180,7 @@
   },
   "heavyCavalry": {
     "firingAltitude": 0.9,
+    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -219,7 +222,7 @@
       "cavalry-sword": -0.1
     },
     "firingAltitude": 0.9,
-    "canCaptureObjectives": true,
+    "captureSpeed": 1.0,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {

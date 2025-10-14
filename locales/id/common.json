@@ -235,7 +235,7 @@
   "enfiladeFireModifiers": "Efek Tambahan Tembakan Sepanjang Garis",
   "rearFireModifiers": "Efek Tambahan Menembak Dari Belakang",
   "firingAltitude": "Ketinggian Target",
-  "canCaptureObjectives": "Dapat Mengambil Objektif",
+  "captureSpeed": "Kecepatan Penangkapan",
   "cantCaptureObjectives": "Tidak Dapat Mengambil Objektif",
   "enfiladeFire": "Tembakan Sepanjang Garis",
   "closeRange": "Jarak Dekat",

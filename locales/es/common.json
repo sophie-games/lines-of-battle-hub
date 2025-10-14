@@ -253,7 +253,7 @@
   "enfiladeFireModifiers": "Modificadores de fuego enfilado",
   "rearFireModifiers": "Modificadores de fuego por la retaguardia",
   "firingAltitude": "Altitud de disparo",
-  "canCaptureObjectives": "Puede capturar objetivos",
+  "captureSpeed": "Velocidad de captura",
   "cantCaptureObjectives": "No puede capturar objetivos",
   "enfiladeFire": "Fuego enfilado",
   "closeRange": "Alcance corto",

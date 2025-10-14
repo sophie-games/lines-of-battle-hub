@@ -240,7 +240,7 @@
   "enfiladeFireModifiers": "Modificateur de feu sur le flanc",
   "rearFireModifiers": "Modificateur de feu sur l'arrière",
   "firingAltitude": "Altitude de la cible",
-  "canCaptureObjectives": "Peut capturer les objectifs",
+  "captureSpeed": "Vitesse de capture",
   "cantCaptureObjectives": "Ne peut pas capturer les objectifs",
   "enfiladeFire": "Tir sur le flanc",
   "closeRange": "Courte portée",

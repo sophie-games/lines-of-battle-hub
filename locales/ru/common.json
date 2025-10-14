@@ -298,7 +298,7 @@
   "enfiladeFireModifiers": "Модификаторы огня во фланг",
   "rearFireModifiers": "Модификаторы огня в тыл",
   "firingAltitude": "Возвышение цели",
-  "canCaptureObjectives": "Может захватывать ключевую позицию",
+  "captureSpeed": "Скорость захвата",
   "cantCaptureObjectives": "Не может захватывать ключевую позицию",
   "enfiladeFire": "Огонь во фланг",
   "pointBlankRange": "Огонь в упор",

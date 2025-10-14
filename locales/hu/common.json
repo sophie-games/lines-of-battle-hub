@@ -233,7 +233,7 @@
   "enfiladeFireModifiers": "Oldalsótűz Módosítók",
   "rearFireModifiers": "Háttűz Módosítók",
   "firingAltitude": "Célpont Magassága",
-  "canCaptureObjectives": "Képes objektívákat elfoglalni",
+  "captureSpeed": "Elfoglalási sebesség",
   "cantCaptureObjectives": "Nem tud objektívákat elfoglalni",
   "enfiladeFire": "Oldalsótűz",
   "closeRange": "Közeli Hatótáv",

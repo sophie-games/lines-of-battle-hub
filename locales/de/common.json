@@ -245,7 +245,7 @@
   "enfiladeFireModifiers": "Enfilade Feuermodifikatoren",
   "rearFireModifiers": "Rückseitenfeuermodifikatoren",
   "firingAltitude": "Zielhöhe",
-  "canCaptureObjectives": "Kann Objektive einnehmen",
+  "captureSpeed": "Eroberungsgeschwindigkeit",
   "cantCaptureObjectives": "Kann Objektive nicht einnehmen",
   "enfiladeFire": "Enfilade Feuer",
   "closeRange": "Kurze Entfernung",

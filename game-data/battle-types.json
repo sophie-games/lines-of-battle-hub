@@ -10,7 +10,9 @@
       "17": 2,
       "19": 1
     },
-    "eloKFactor": 20
+    "eloKFactor": 20,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 20
   },
   "combat": {
     "manpower": 5500,
@@ -23,7 +25,9 @@
       "17": 3,
       "19": 1
     },
-    "eloKFactor": 28
+    "eloKFactor": 28,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 28
   },
   "battle": {
     "manpower": 9000,
@@ -36,7 +40,9 @@
       "17": 6,
       "19": 2
     },
-    "eloKFactor": 32
+    "eloKFactor": 32,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 32
   },
   "grand_battle": {
     "manpower": 17500,
@@ -49,6 +55,8 @@
       "17": 8,
       "19": 2
     },
-    "eloKFactor": 32
+    "eloKFactor": 32,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 36
   }
 }

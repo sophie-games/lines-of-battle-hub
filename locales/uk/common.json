@@ -242,7 +242,7 @@
   "enfiladeFireModifiers": "Модифікатори Флангового Вогню",
   "rearFireModifiers": "Модифікатори Вогню з Тилу",
   "firingAltitude": "Висота Цілі",
-  "canCaptureObjectives": "Здатні захоплювати стратегічні об'єкти",
+  "captureSpeed": "Швидкість захоплення",
   "cantCaptureObjectives": "Нездатні захоплювати стратегічні об'єкти",
   "enfiladeFire": "Фланговий Вогнь",
   "closeRange": "Близька Дистанція",

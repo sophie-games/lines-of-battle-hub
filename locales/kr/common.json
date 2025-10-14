@@ -265,7 +265,7 @@
   "enfiladeFireModifiers": "측방사격 변동치",
   "rearFireModifiers": "측방사격 변동치",
   "firingAltitude": "표적고도",
-  "canCaptureObjectives": "지점목표 점령 가능",
+  "captureSpeed": "점령 속도",
   "cantCaptureObjectives": "지점목표 점령 불가능",
   "enfiladeFire": "측방사격",
   "closeRange": "근접사격",

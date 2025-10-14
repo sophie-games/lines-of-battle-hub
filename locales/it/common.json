@@ -241,7 +241,7 @@
   "enfiladeFireModifiers": "Modificatori fuoco di infilata",
   "rearFireModifiers": "Modificatori fuoco posteriore",
   "firingAltitude": "Altitudine del bersaglio",
-  "canCaptureObjectives": "Può catturare obiettivi",
+  "captureSpeed": "Velocità di cattura",
   "cantCaptureObjectives": "Non può catturare obiettivi",
   "enfiladeFire": "Fuoco di infilata",
   "closeRange": "Corto raggio",

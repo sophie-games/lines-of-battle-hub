@@ -298,7 +298,7 @@
   "enfiladeFireModifiers": "Enfilade Fire Modifiers",
   "rearFireModifiers": "Rear Fire Modifiers",
   "firingAltitude": "Firing Altitude",
-  "canCaptureObjectives": "Can capture objectives",
+  "captureSpeed": "Capture Speed",
   "cantCaptureObjectives": "Cannot capture objectives",
   "enfiladeFire": "Enfilade Fire",
   "pointBlankRange": "Point Blank Range",

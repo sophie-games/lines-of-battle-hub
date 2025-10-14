@@ -298,7 +298,7 @@
   "enfiladeFireModifiers": "معدلات النيران الجانبية",
   "rearFireModifiers": "معدلات النيران الخلفية",
   "firingAltitude": "ارتفاع الإطلاق",
-  "canCaptureObjectives": "يمكن الاستيلاء على الأهداف",
+  "captureSpeed": "سرعة الاستيلاء",
   "cantCaptureObjectives": "لا يمكن الاستيلاء على الأهداف",
   "enfiladeFire": "نيران جانبية",
   "pointBlankRange": "مدى قريب جداً",

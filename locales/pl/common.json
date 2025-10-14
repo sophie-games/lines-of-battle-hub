@@ -264,7 +264,7 @@
   "enfiladeFireModifiers": "Modyfikator Ognia z Flanki",
   "rearFireModifiers": "Modyfikator Ognia od Tyłu",
   "firingAltitude": "Wysokość Celu",
-  "canCaptureObjectives": "Może przejmować punkty",
+  "captureSpeed": "Prędkość przejmowania",
   "cantCaptureObjectives": "Nie może przejmować punktów",
   "enfiladeFire": "Ogień z Flanki",
   "closeRange": "Bliski Zasięg",

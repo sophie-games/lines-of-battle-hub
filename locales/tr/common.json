@@ -242,7 +242,7 @@
   "enfiladeFireModifiers": "Yan Ateş Değiştiricileri",
   "rearFireModifiers": "Arka Ateş Değiştiricileri",
   "firingAltitude": "Hedef Yükseklik",
-  "canCaptureObjectives": "Hedefleri ele geçirebilir",
+  "captureSpeed": "Ele geçirme hızı",
   "cantCaptureObjectives": "Hedefleri ele geçiremez",
   "enfiladeFire": "Yan Ateş",
   "closeRange": "Yakın Mesafe",

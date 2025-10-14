@@ -298,7 +298,7 @@
   "enfiladeFireModifiers": "Hệ số hỏa lực dọc",
   "rearFireModifiers": "Hệ số hỏa lực sau",
   "firingAltitude": "Độ cao bắn",
-  "canCaptureObjectives": "Có thể chiếm mục tiêu",
+  "captureSpeed": "Tốc độ chiếm",
   "cantCaptureObjectives": "Không thể chiếm mục tiêu",
   "enfiladeFire": "Hỏa lực dọc",
   "pointBlankRange": "Tầm bắn gần",

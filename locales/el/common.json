@@ -273,7 +273,7 @@
   "enfiladeFireModifiers": "Τροποποιητές πυρκαγιάς Enfilade",
   "rearFireModifiers": "Τροποποιητές Πίσω Πυρός",
   "firingAltitude": "Υψόμετρο βολής",
-  "canCaptureObjectives": "Μπορεί να συλλάβει στόχους",
+  "captureSpeed": "Ταχύτητα κατάληψης",
   "cantCaptureObjectives": "Δεν είναι δυνατή η καταγραφή των στόχων",
   "enfiladeFire": "Enfilade Fire",
   "closeRange": "Κοντινό εύρος",

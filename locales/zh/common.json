@@ -298,7 +298,7 @@
   "enfiladeFireModifiers": "侧翼攻击修正",
   "rearFireModifiers": "后部攻击修正",
   "firingAltitude": "射击高度",
-  "canCaptureObjectives": "可以占领目标点",
+  "captureSpeed": "占领速度",
   "cantCaptureObjectives": "不可以占领目标点",
   "enfiladeFire": "弹道可穿透",
   "pointBlankRange": "极近距离范围",
