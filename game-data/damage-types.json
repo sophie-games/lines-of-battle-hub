@@ -309,7 +309,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 144
+    "ammoCost": 148
   },
   {
     "type": "6lb-cannon-ball",
@@ -361,7 +361,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 156
+    "ammoCost": 124
   },
   {
     "type": "4lb-cannon-ball",
@@ -413,7 +413,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 148
+    "ammoCost": 136
   },
   {
     "type": "18lb-explosive-shell",
@@ -660,7 +660,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 220
+    "ammoCost": 232
   },
   {
     "type": "6lb-canister-fire",
@@ -689,7 +689,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 232
+    "ammoCost": 216
   },
   {
     "type": "4lb-canister-fire",
