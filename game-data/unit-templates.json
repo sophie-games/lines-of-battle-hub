@@ -901,7 +901,7 @@
     "name": "10lb_licorne",
     "type": 24,
     "category": "artillery",
-    "rangedAttack": 36,
+    "rangedAttack": 37,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
