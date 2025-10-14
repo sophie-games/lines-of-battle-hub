@@ -208,7 +208,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 164
+    "ammoCost": 160
   },
   {
     "type": "10lb-cannon-ball",
@@ -303,7 +303,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 156
+    "ammoCost": 144
   },
   {
     "type": "6lb-cannon-ball",
@@ -464,8 +464,8 @@
       {
         "start": 250,
         "end": 425,
-        "startMod": -0.35,
-        "endMod": -0.5,
+        "startMod": -0.4,
+        "endMod": -0.55,
         "name": "long"
       }
     ],
@@ -754,7 +754,7 @@
   {
     "type": "rocket",
     "ranged": true,
-    "orgDamageRatio": 390,
+    "orgDamageRatio": 380,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -779,7 +779,7 @@
       }
     ],
     "shootingAngle": 60,
-    "arcHeight": 1.5,
+    "arcHeight": 3,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
