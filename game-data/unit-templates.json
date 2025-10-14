@@ -549,7 +549,7 @@
     "name": "4lb_artillery",
     "type": 15,
     "category": "artillery",
-    "rangedAttack": 39,
+    "rangedAttack": 40,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
