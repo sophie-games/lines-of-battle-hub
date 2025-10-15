@@ -226,7 +226,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 90, "end": 250, "startMod": 0.2, "endMod": -0.05 }],
+    "ranges": [{ "start": 105, "end": 250, "startMod": 0.2, "endMod": 0 }],
     "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
