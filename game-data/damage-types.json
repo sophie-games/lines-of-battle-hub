@@ -162,7 +162,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 156
+    "ammoCost": 148
   },
   {
     "type": "12lb-cannon-ball",
@@ -257,7 +257,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 128
+    "ammoCost": 118
   },
   {
     "type": "8lb-cannon-ball",
@@ -454,7 +454,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 160
+    "ammoCost": 172
   },
   {
     "type": "10lb-explosive-shell",
@@ -495,7 +495,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 136
+    "ammoCost": 128
   },
   {
     "type": "explosive-shell",
@@ -544,7 +544,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 176
+    "ammoCost": 196
   },
   {
     "type": "18lb-canister-fire",
@@ -740,7 +740,7 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 340
+    "ammoCost": 356
   },
   {
     "type": "horse-archer-bow",
@@ -804,6 +804,6 @@
     "shotSound": "rocket-volley",
     "shotAnim": "rocketVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 128
+    "ammoCost": 116
   }
 ]
