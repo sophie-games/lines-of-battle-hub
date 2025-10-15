@@ -1,8 +1,8 @@
 {
   "clash": {
     "manpower": 3300,
-    "gold": 1300,
-    "ammoReserve": 1500,
+    "gold": 1350,
+    "ammoReserve": 1600,
     "goldToAmmoRate": 20,
     "skirmisherRatio": [1, 4],
     "fogOfWar": true,
