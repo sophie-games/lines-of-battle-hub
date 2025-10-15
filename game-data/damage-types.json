@@ -429,8 +429,8 @@
       {
         "start": 310,
         "end": 550,
-        "startMod": -0.4,
-        "endMod": -0.7,
+        "startMod": -0.45,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
