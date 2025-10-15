@@ -53,7 +53,7 @@
     "runMovement": 195,
     "timeToRun": 3,
     "runCost": 96,
-    "hp": 600,
+    "hp": 550,
     "org": 575,
     "stamina": 1250,
     "orgRadius": 64,
