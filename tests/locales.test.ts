@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 describe("Locales JSON Validation", () => {
-  const localesDir = path.join(__dirname, "./locales");
+  const localesDir = path.join(__dirname, "../locales");
 
   // Get all language directories
   const languageDirs = fs

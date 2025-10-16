@@ -2,7 +2,7 @@ import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 
 describe("Game Data JSON Files", () => {
-  const gameDataPath = join(__dirname, "game-data");
+  const gameDataPath = join(__dirname, "../game-data");
   const gameDataFiles = readdirSync(gameDataPath)
     .filter((file) => file.endsWith(".json"))
     .sort();
