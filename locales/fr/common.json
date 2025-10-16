@@ -99,7 +99,7 @@
   "scenarioEditorTags": {
     "tutorialMessage": " Vous ne savez pas l'utiliser, pas de panique, tout est prévu ! <tutorialLink>Regardez le tutoriel ici.</tutorialLink>",
     "randomGuide": "Vous voulez apprendre à créer des cartes aléatoires ? Lisez <0>ce guide</0>.",
-    "baleriiMessage": "Le joueur Balerii a créé son propre éditeur de cartes ! Jetez un œil à sa chaîne YouTube pour voir comment ça fonctionne :"
+    "baleriiMessage": "Les joueurs Balerii et Nytka ont créé leur propre éditeur de cartes ! Jetez un œil à leur chaîne YouTube pour voir comment ça fonctionne :"
   },
   "createScenario": "Créer un scénario",
   "loadScenario": "Charger un scénario",

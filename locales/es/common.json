@@ -108,7 +108,7 @@
   "scenarioEditorTags": {
     "tutorialMessage": "No estás seguro de cómo usarlo? No te preocupes, te tenemos cubierto! <tutorialLink>Mirá el tutorial acá.</tutorialLink>",
     "randomGuide": "¿Querés aprender a crear mapas aleatorios? Leé <0>esta guía</0>.",
-    "baleriiMessage": "El jugador Balerii ha creado su propio editor de mapas! Echa un vistazo a su canal de YouTube para ver como funciona:"
+    "baleriiMessage": "Los jugadores Balerii y Nytka han creado su propio editor de mapas! Echa un vistazo a su canal de YouTube para ver como funciona:"
   },
   "createScenario": "Crear Escenario",
   "loadScenario": "Cargar Escenario",

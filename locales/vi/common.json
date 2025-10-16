@@ -117,7 +117,7 @@
   "scenarioEditorTags": {
     "tutorialMessage": "Không chắc cách sử dụng? Đừng lo, chúng tôi đã hỗ trợ bạn! <tutorialLink>Xem hướng dẫn tại đây.</tutorialLink>",
     "randomGuide": "Muốn học cách tạo bản đồ ngẫu nhiên? Đọc <0>hướng dẫn này</0>.",
-    "baleriiMessage": "Người chơi Balerii đã tạo ra trình chỉnh sửa bản đồ riêng của mình! Hãy xem kênh YouTube của anh ấy để xem cách hoạt động:"
+    "baleriiMessage": "Người chơi Balerii và Nytka đã tạo ra trình chỉnh sửa bản đồ riêng của họ! Hãy xem kênh YouTube của họ để xem cách hoạt động:"
   },
   "createScenario": "Tạo kịch bản",
   "loadScenario": "Tải kịch bản",

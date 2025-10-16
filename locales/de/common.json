@@ -105,7 +105,7 @@
   "scenarioEditorTags": {
     "tutorialMessage": " Nicht sicher, wie Sie es benutzen wollen? Kein Problem, wir haben hier was für dich! <tutorialLink>Schaue dieses Tutorial!</tutorialLink>",
     "randomGuide": "Möchten Sie lernen, wie man zufällige Karten erstellt? Lesen Sie <0>diese Anleitung</0>.",
-    "baleriiMessage": "Spieler Balerii hat seinen eigenen Karteneditor erstellt! Schauen Sie sich seinen YouTube-Kanal an, um zu sehen, wie es funktioniert:"
+    "baleriiMessage": "Die Spieler Balerii und Nytka haben ihren eigenen Karteneditor erstellt! Schauen Sie sich ihren YouTube-Kanal an, um zu sehen, wie es funktioniert:"
   },
   "createScenario": "Szenario erstellen",
   "loadScenario": "Szenario laden",

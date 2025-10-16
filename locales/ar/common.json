@@ -117,7 +117,7 @@
   "scenarioEditorTags": {
     "tutorialMessage": "لست متأكداً من كيفية استخدامه؟ لا تقلق، نحن هنا لمساعدتك! <tutorialLink>شاهد البرنامج التعليمي هنا.</tutorialLink>",
     "randomGuide": "تريد تعلم كيفية إنشاء خرائط عشوائية؟ اقرأ <0>هذا الدليل</0>.",
-    "baleriiMessage": "اللاعب Balerii أنشأ محرر خرائط خاص به! تحقق من قناته على YouTube لترى كيف يعمل:"
+    "baleriiMessage": "اللاعبان Balerii و Nytka أنشآ محرر خرائط خاص بهما! تحقق من قناتهما على YouTube لترى كيف يعمل:"
   },
   "createScenario": "إنشاء سيناريو",
   "loadScenario": "تحميل سيناريو",

@@ -117,7 +117,7 @@
   "scenarioEditorTags": {
     "tutorialMessage": "Not sure how to use it? Don't worry, we've got you covered! <tutorialLink>Watch the tutorial here.</tutorialLink>",
     "randomGuide": "Want to learn how to create random maps? Read <0>this guide</0>.",
-    "baleriiMessage": "Player Balerii has created his own map editor! Check out his YouTube channel to see how it works:"
+    "baleriiMessage": "Players Balerii and Nytka have created their own map editor! Check out their YouTube channel to see how it works:"
   },
   "createScenario": "Create Scenario",
   "loadScenario": "Load Scenario",

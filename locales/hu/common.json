@@ -105,7 +105,7 @@
   "scenarioEditorTags": {
     "tutorialMessage": " Bizonytalan vagy? Ne agggódj, van róla videó! <tutorialLink>Nézd meg a tutorial videót itt.</tutorialLink>",
     "randomGuide": "Szeretnél megtanulni véletlenszerű térképeket készíteni? Olvass <0>ezt az útmutatót</0>.",
-    "baleriiMessage": "A Balerii játékos létrehozta a saját térképszerkesztőjét! Nézd meg a YouTube csatornáját, hogy lásd, hogyan működik:"
+    "baleriiMessage": "A Balerii és Nytka játékosok létrehozták a saját térképszerkesztőjüket! Nézd meg a YouTube csatornájukat, hogy lásd, hogyan működik:"
   },
   "createScenario": "Pálya létrehozása",
   "loadScenario": "Pálya betöltése",
