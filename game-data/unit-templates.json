@@ -314,7 +314,7 @@
     "name": "6in_howitzer",
     "type": 9,
     "category": "artillery",
-    "rangedAttack": 32,
+    "rangedAttack": 33,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
