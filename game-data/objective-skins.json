@@ -233,5 +233,15 @@
     "tier": 2,
     "premiumPrice": 350,
     "discount": 0.5
+  },
+  {
+    "id": 26,
+    "name": "chilean-flag",
+    "base": {
+      "sprite": "square-flag"
+    },
+    "tier": 2,
+    "premiumPrice": 350,
+    "discount": 0.5
   }
 ]
