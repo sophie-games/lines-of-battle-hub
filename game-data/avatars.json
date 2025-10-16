@@ -126,7 +126,13 @@
     "discount": 0.5
   },
 
-  { "id": 17, "name": "frog-in-fire", "tier": 4, "premiumPrice": 3750, "discount": 0.5 },
+  {
+    "id": 17,
+    "name": "frog-in-fire",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
 
   {
     "id": 18,
@@ -232,8 +238,20 @@
     "discount": 0.5
   },
 
-  { "id": 31, "name": "jazzhands", "tier": 4, "premiumPrice": 3750, "discount": 0.5 },
-  { "id": 32, "name": "belisarius", "tier": 1, "premiumPrice": 100, "discount": 0.5 },
+  {
+    "id": 31,
+    "name": "jazzhands",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
+  {
+    "id": 32,
+    "name": "belisarius",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
   {
     "id": 33,
     "name": "guan-yu",
@@ -412,5 +430,19 @@
     "tier": 2,
     "premiumPrice": 300,
     "discount": 0.75
+  },
+  {
+    "id": 56,
+    "name": "marble-emperor",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+  {
+    "id": 57,
+    "name": "suleiman",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
   }
 ]
