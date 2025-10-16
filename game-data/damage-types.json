@@ -529,7 +529,7 @@
           "start": 200,
           "end": 340,
           "startRadius": 24,
-          "endRadius": 46
+          "endRadius": 48
         }
       ],
       "edgeDamageModifier": -0.25,
