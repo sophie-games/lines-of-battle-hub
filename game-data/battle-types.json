@@ -17,7 +17,7 @@
   "combat": {
     "manpower": 6000,
     "gold": 2600,
-    "ammoReserve": 2000,
+    "ammoReserve": 2250,
     "goldToAmmoRate": 16,
     "skirmisherRatio": [4, 8],
     "fogOfWar": true,
