@@ -1,7 +1,7 @@
 {
   "infantry": {
     "firingAltitude": 0.9,
-    "canCaptureObjectives": true,
+    "captureSpeed": 1.0,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -18,10 +18,12 @@
     "autofirePriority": {
       "artillery": 1,
       "skirmishInfantry": -1
-    }
+    },
+    "faaRangedDamageModifier": -0.25
   },
   "midCavalry": {
     "firingAltitude": 0.9,
+    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -29,13 +31,13 @@
       "moveWhileInMelee": true
     },
     "damageTypeResistances": {
-      "bayonet": -0.2,
+      "bayonet": -0.25,
       "cavalry-sabre": 0.1,
       "cavalry-lance": -0.05,
-      "dragoon-sword": -0.1,
-      "musket": -0.45,
-      "marksman-musket": -0.4,
-      "rifle": -0.4,
+      "cavalry-sword": -0.1,
+      "musket": -0.5,
+      "marksman-musket": -0.6,
+      "rifle": -0.6,
       "8lb-cannon-ball": 0.05,
       "12lb-cannon-ball": 0.05,
       "10lb-cannon-ball": 0.05,
@@ -45,14 +47,14 @@
       "explosive-shell": 0.05,
       "10lb-explosive-shell": 0.1,
       "18lb-explosive-shell": 0.1,
-      "rocket": -0.15,
-      "8lb-canister-fire": -0.1,
-      "12lb-canister-fire": -0.1,
-      "10lb-canister-fire": -0.1,
-      "18lb-canister-fire": -0.1,
-      "6lb-canister-fire": -0.1,
-      "4lb-canister-fire": -0.1,
-      "howitzer-canister": -0.1
+      "rocket": -0.25,
+      "8lb-canister-fire": 0.05,
+      "12lb-canister-fire": 0.05,
+      "10lb-canister-fire": 0.05,
+      "18lb-canister-fire": 0.05,
+      "6lb-canister-fire": 0.05,
+      "4lb-canister-fire": 0.05,
+      "howitzer-canister": 0.05
     }
   },
   "artillery": {
@@ -72,15 +74,15 @@
       "musket": -0.6,
       "marksman-musket": -0.9,
       "rifle": -0.9,
-      "8lb-cannon-ball": 0.4,
-      "12lb-cannon-ball": 0.35,
-      "10lb-cannon-ball": 0.4,
-      "18lb-cannon-ball": 0.35,
-      "6lb-cannon-ball": 0.5,
-      "4lb-cannon-ball": 0.65,
-      "explosive-shell": 0.2,
-      "10lb-explosive-shell": 0.3,
-      "18lb-explosive-shell": 0.25,
+      "8lb-cannon-ball": 0.25,
+      "12lb-cannon-ball": 0.15,
+      "10lb-cannon-ball": 0.25,
+      "18lb-cannon-ball": 0.15,
+      "6lb-cannon-ball": 0.4,
+      "4lb-cannon-ball": 0.6,
+      "explosive-shell": 0.1,
+      "10lb-explosive-shell": 0.2,
+      "18lb-explosive-shell": 0.15,
       "8lb-canister-fire": 0.4,
       "12lb-canister-fire": 0.4,
       "10lb-canister-fire": 0.4,
@@ -93,11 +95,11 @@
     "autofirePriority": {
       "artillery": -1,
       "skirmishInfantry": -2
-    }
+    },
+    "faaRangedDamageModifier": -0.4
   },
   "lightInfantry": {
     "firingAltitude": 0.9,
-    "canCaptureObjectives": true,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -107,6 +109,7 @@
   },
   "scoutCavalry": {
     "firingAltitude": 0.9,
+    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -116,11 +119,11 @@
     "damageTypeResistances": {
       "bayonet": -0.2,
       "cavalry-lance": -0.15,
-      "dragoon-sword": -0.1,
+      "dragoon-sword": -0.15,
       "cavalry-sword": -0.3,
-      "musket": -0.1,
-      "marksman-musket": -0.15,
-      "rifle": -0.15,
+      "musket": -0.2,
+      "marksman-musket": -0.25,
+      "rifle": -0.25,
       "8lb-cannon-ball": 0.5,
       "12lb-cannon-ball": 0.5,
       "10lb-cannon-ball": 0.5,
@@ -130,18 +133,19 @@
       "explosive-shell": 0.55,
       "10lb-explosive-shell": 0.5,
       "18lb-explosive-shell": 0.5,
-      "rocket": 0.25,
-      "8lb-canister-fire": 0.05,
-      "12lb-canister-fire": 0.05,
-      "10lb-canister-fire": 0.05,
-      "18lb-canister-fire": 0.05,
-      "6lb-canister-fire": 0.05,
-      "4lb-canister-fire": 0.05,
-      "howitzer-canister": 0.05
+      "rocket": 0.2,
+      "8lb-canister-fire": 0.15,
+      "12lb-canister-fire": 0.15,
+      "10lb-canister-fire": 0.15,
+      "18lb-canister-fire": 0.15,
+      "6lb-canister-fire": 0.15,
+      "4lb-canister-fire": 0.15,
+      "howitzer-canister": 0.15
     }
   },
   "lightCavalry": {
     "firingAltitude": 0.9,
+    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -152,44 +156,9 @@
       "bayonet": -0.2,
       "cavalry-lance": -0.15,
       "cavalry-sword": -0.3,
-      "musket": -0.45,
-      "marksman-musket": -0.4,
-      "rifle": -0.4,
-      "8lb-cannon-ball": 0.05,
-      "12lb-cannon-ball": 0.05,
-      "10lb-cannon-ball": 0.05,
-      "18lb-cannon-ball": 0.05,
-      "6lb-cannon-ball": 0.05,
-      "4lb-cannon-ball": 0.05,
-      "explosive-shell": 0.05,
-      "10lb-explosive-shell": 0.1,
-      "18lb-explosive-shell": 0.1,
-      "rocket": -0.15,
-      "8lb-canister-fire": 0.05,
-      "12lb-canister-fire": 0.05,
-      "10lb-canister-fire": 0.05,
-      "18lb-canister-fire": 0.05,
-      "6lb-canister-fire": 0.05,
-      "4lb-canister-fire": 0.05,
-      "howitzer-canister": 0.05
-    }
-  },
-  "heavyCavalry": {
-    "firingAltitude": 0.9,
-    "allyCollisionLevel": 2,
-    "enemyCollisionLevel": 2,
-    "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
-    },
-    "damageTypeResistances": {
-      "bayonet": -0.15,
-      "cavalry-sabre": 0.5,
-      "cavalry-lance": -0.2,
-      "dragoon-sword": 0.35,
-      "musket": -0.4,
-      "marksman-musket": -0.4,
-      "rifle": -0.4,
+      "musket": -0.5,
+      "marksman-musket": -0.5,
+      "rifle": -0.5,
       "8lb-cannon-ball": 0.05,
       "12lb-cannon-ball": 0.05,
       "10lb-cannon-ball": 0.05,
@@ -200,18 +169,60 @@
       "10lb-explosive-shell": 0.1,
       "18lb-explosive-shell": 0.1,
       "rocket": -0.2,
-      "8lb-canister-fire": -0.1,
-      "12lb-canister-fire": -0.1,
-      "10lb-canister-fire": -0.1,
-      "18lb-canister-fire": -0.1,
-      "6lb-canister-fire": -0.1,
-      "4lb-canister-fire": -0.1,
-      "howitzer-canister": -0.1
+      "8lb-canister-fire": 0.15,
+      "12lb-canister-fire": 0.15,
+      "10lb-canister-fire": 0.15,
+      "18lb-canister-fire": 0.15,
+      "6lb-canister-fire": 0.15,
+      "4lb-canister-fire": 0.15,
+      "howitzer-canister": 0.15
+    }
+  },
+  "heavyCavalry": {
+    "firingAltitude": 0.9,
+    "captureSpeed": 0.25,
+    "allyCollisionLevel": 2,
+    "enemyCollisionLevel": 2,
+    "routingBehavior": {
+      "baseSpeed": "run",
+      "moveWhileInMelee": true
+    },
+    "damageTypeResistances": {
+      "bayonet": -0.15,
+      "cavalry-sabre": 0.5,
+      "cavalry-lance": -0.2,
+      "dragoon-sword": 0.4,
+      "musket": -0.35,
+      "marksman-musket": -0.4,
+      "rifle": -0.4,
+      "8lb-cannon-ball": 0.05,
+      "12lb-cannon-ball": 0.05,
+      "10lb-cannon-ball": 0.05,
+      "18lb-cannon-ball": 0.05,
+      "6lb-cannon-ball": 0.05,
+      "4lb-cannon-ball": 0.05,
+      "explosive-shell": 0.05,
+      "10lb-explosive-shell": 0.1,
+      "18lb-explosive-shell": 0.1,
+      "rocket": -0.25,
+      "8lb-canister-fire": 0.1,
+      "12lb-canister-fire": 0.1,
+      "10lb-canister-fire": 0.1,
+      "18lb-canister-fire": 0.1,
+      "6lb-canister-fire": 0.1,
+      "4lb-canister-fire": 0.1,
+      "howitzer-canister": 0.1
     }
   },
   "militiaInfantry": {
+    "damageTypeResistances": {
+      "cavalry-sabre": -0.1,
+      "cavalry-lance": -0.1,
+      "dragoon-sword": -0.1,
+      "cavalry-sword": -0.1
+    },
     "firingAltitude": 0.9,
-    "canCaptureObjectives": true,
+    "captureSpeed": 1.0,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -227,7 +238,8 @@
     },
     "autofirePriority": {
       "skirmishInfantry": -1
-    }
+    },
+    "faaRangedDamageModifier": -0.25
   },
   "skirmishInfantry": {
     "firingAltitude": 0.9,
@@ -242,9 +254,9 @@
       "cavalry-sabre": -0.7,
       "cavalry-lance": -0.7,
       "dragoon-sword": -0.7,
-      "musket": 0.85,
-      "marksman-musket": 0.5,
-      "rifle": 0.35,
+      "musket": 0.8,
+      "marksman-musket": 0.65,
+      "rifle": 0.3,
       "8lb-cannon-ball": 0.98,
       "12lb-cannon-ball": 0.98,
       "10lb-cannon-ball": 0.98,
@@ -260,12 +272,12 @@
       "10lb-canister-fire": 0.98,
       "18lb-canister-fire": 0.98,
       "6lb-canister-fire": 0.98,
-      "4lb-canister-fire": 0.98,
       "howitzer-canister": 0.98
     },
     "autofirePriority": {
       "artillery": 2,
       "skirmishInfantry": 1
-    }
+    },
+    "faaRangedDamageModifier": -0.4
   }
 }

@@ -2,42 +2,34 @@
   "notifications": "Notifications",
   "noNotifications": "No notifications",
   "clear": "Clear",
-
   "tournamentMatchStarted": {
     "title": "Tournament Match Started!",
     "message": "A match of tournament {{tournamentName}} has started, go play it!"
   },
-
   "tournamentFilled": {
     "title": "Tournament Filled!",
     "message": "The tournament {{tournamentName}} is now full. You can start it anytime!"
   },
-
   "tournamentWillStart": {
     "title": "Your tournament round will start soon!",
     "message": "Tournament round for tournament {{tournamentName}} will start soon."
   },
-
   "tournamentRewards": {
     "title": "You won {{place}}. place in the {{tournamentName}} tournament!",
     "message": "You have received {{reward}} <BasicCurrency/>."
   },
-
   "yourTournamentEnded": {
     "title": "Your tournament {{tournamentName}} has ended",
     "message": "You have received {{reward}} <BasicCurrency/>."
   },
-
   "tournamentCancelled": {
     "title": "Tournament Cancelled",
     "message": "The tournament {{tournamentName}} has been cancelled. You have been refunded {{refund}} <BasicCurrency/>."
   },
-
   "updatePlanned": {
     "title": "Update Planned",
     "message": "There is a new <b>{{name}}</b> update planned for <b>{{date}}</b>, click to see the changes."
   },
-
   "banDodge": {
     "title": "You have been suspended for {{minutes}}",
     "message": "You have abandoned the last {{games}} ranked games, so you will have to wait a bit to continue playing ranked games."

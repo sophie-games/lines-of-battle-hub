@@ -89,7 +89,9 @@
   },
   "19": {
     "baseSprite": "rockets",
-    "overlaySprite": "rockets"
+    "overlaySprite": "rockets",
+    "width": 16,
+    "height": 32
   },
   "20": {
     "baseSprite": "unknown",

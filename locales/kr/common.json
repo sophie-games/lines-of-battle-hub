@@ -1,4 +1,4 @@
-﻿{
+{
   "appLoadingMessage": "Lines of Battle에 오신 걸 환영합니다!",
   "home": "홈",
   "language": "언어",
@@ -51,9 +51,10 @@
   "unranked": "비순위전",
   "or": "또는",
   "quickMatchmaking": "빠른 매칭",
-  "ranked": "랭크전",
-  "classicUnranked": "클래식 비랭크",
-  "classicUnrankedTooltip": "클래식 비랭크 모드에서는 Elo에 영향을 주지 않으며 기본 군대만 사용됩니다.",
+  "ranked": "랭크",
+  "classic": "클래식",
+  "classicTooltip": "기본 군대와 함께 절차적으로 생성된 클래식 맵 사용",
+  "rankedTooltip": "게임이 당신의 Elo 등급에 영향을 줍니다",
   "unranked": "비랭크",
   "cancel": "취소",
   "matchmakingQueue": {
@@ -133,7 +134,6 @@
   "botArmy": "컴퓨터의 군대",
   "army": "군대",
   "deploymentStateMessage": "배치 단계가 되었습니다. 이 단계에서는 배치 구역 내 원하는 위치에 부대를 배치할 수 있습니다. 배치가 완료되면 명령 하달을 통해 배치를 적용하세요.",
-  "youAreColor": "당신은 {{color}}입니다!",
   "getStarted": "시작",
   "colorTag": {
     "1": "청색",
@@ -738,9 +738,7 @@
   "preset": "표준",
   "hybrid": "혼합",
   "random": "무작위",
-
   "classic": "기본",
-
   "projectileWidth": "발사체 너비",
   "allyCollisionLevel": "동맹 충돌 수준",
   "enemyCollisionLevel": "적 충돌 수준",
@@ -778,7 +776,6 @@
     "p2": "Lines of Battle에 더 많은 기능이 추가될 예정이니 기대해 주세요!",
     "p3": "소셜 미디어에서 최신 소식와 공지사항을 확인하세요."
   },
-
   "tournamentStartedModal": {
     "title": "토너먼트 경기가 시작됨",
     "message": "{{tournamentName}} 토너먼트의 {{round}}회차가 시작되었습니다!",
@@ -814,7 +811,6 @@
   "disconnected": "연결 끊김",
   "reconnected": "재연결됨",
   "connecting": "연결 중...",
-
   "disconnecting": "연결이 끊기는 중...",
   "unknown": "미상",
   "fogOfWar": "전장의 안개",
@@ -862,4 +858,3 @@
   "baseAmmo": "기본 탄약",
   "range": "범위"
 }
-

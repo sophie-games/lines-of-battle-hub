@@ -2,42 +2,34 @@
   "notifications": "Ειδοποιήσεις",
   "noNotifications": "Δεν υπάρχουν ειδοποιήσεις.",
   "clear": "εγκαθάρηση",
-
   "tournamentMatchStarted": {
     "title": "Ο αγώνας του τουρνουά ξεκίνησε!",
     "message": "Ένας αγώνας τουρνουά {{tournamentName}} ξεκίνησε, παίξτε το!"
   },
-
   "tournamentFilled": {
     "title": "ο τουρνουάς είναι γεμάτος!",
     "message": "Ο τουρνουάς {{tournamentName}} είναι πλέον γεμάτος. Μπορείτε να τον ξεκινήσετε οποιαδήποτε στιγμή!"
   },
-
   "tournamentWillStart": {
     "title": "Ο γύρος του τουρνουά σας θα ξεκινήσει σύντομα!",
     "message": "Ο γύρος του τουρνουά {{tournamentName}} θα ξεκινήσει σύντομα."
   },
-
   "tournamentRewards": {
     "title": "Κερδίσες {{place}}. μέρος στον {{tournamentName}} τουρνουά!",
     "message": "πείρατε {{reward}} <BasicCurrency/>."
   },
-
   "yourTournamentEnded": {
     "title": "Ο τουρνουάς σας {{tournamentName}} έχει τελειώσει.",
     "message": "έχετε λάβει {{reward}} <BasicCurrency/>."
   },
-
   "tournamentCancelled": {
     "title": "ο τουρνουάς ακυρώθηκε.",
     "message": "Ο τούρνουάς {{tournamentName}} σας έχουν επιστραφεί: {{refund}} <BasicCurrency/>."
   },
-
   "updatePlanned": {
     "title": "Προγραμματισμένη αναβάθμηση!",
     "message": "υπάρχει νέα <b>{{name}}</b> αναβαθμηση για <b>{{date}}</b>, κάνε κλίκ για περισσότερα"
   },
-
   "banDodge": {
     "title": " σε αναστολή για {{minutes}} λεπτα.",
     "message": "Εγκατέλειψες το τελευταία {{games}} παιχνίδια με κατάταξη, επομένως θα πρέπει να περιμένετε λίγο για να συνεχίσετε να παίζετε παιχνίδια με κατάταξη."

@@ -2,42 +2,34 @@
   "notifications": "Notificações",
   "noNotifications": "Nenhuma notificação",
   "clear": "Limpar",
-
   "tournamentMatchStarted": {
     "title": "Partida do torneio iniciada!",
     "message": "Uma partida do torneio {{tournamentName}} começou, vá jogar!"
   },
-
   "tournamentFilled": {
     "title": "Torneio preenchido!",
     "message": "O torneio {{tournamentName}} está agora cheio. Você pode iniciá-lo a qualquer momento!"
   },
-
   "tournamentWillStart": {
     "title": "Sua rodada do torneio começará em breve!",
     "message": "A rodada do torneio {{tournamentName}} começará em breve."
   },
-
   "tournamentRewards": {
     "title": "Você ganhou o {{place}}º lugar no torneio {{tournamentName}}!",
     "message": "Você recebeu {{reward}} <BasicCurrency/>."
   },
-
   "yourTournamentEnded": {
     "title": "Seu torneio {{tournamentName}} terminou",
     "message": "Você recebeu {{reward}} <BasicCurrency/>."
   },
-
   "tournamentCancelled": {
     "title": "Torneio cancelado",
     "message": "O torneio {{tournamentName}} foi cancelado. Você foi reembolsado com {{refund}} <BasicCurrency/>."
   },
-
   "updatePlanned": {
     "title": "Atualização planejada",
     "message": "Há uma nova atualização <b>{{name}}</b> planejada para <b>{{date}}</b>, clique para ver as mudanças."
   },
-
   "banDodge": {
     "title": "Você foi suspenso por {{minutes}}",
     "message": "Você abandonou os últimos {{games}} jogos ranqueados, então terá que esperar um pouco para continuar jogando jogos ranqueados."

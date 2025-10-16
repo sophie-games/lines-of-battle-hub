@@ -2,42 +2,34 @@
   "notifications": "Bildirimler",
   "noNotifications": "Bildirim yok",
   "clear": "Temizle",
-
   "tournamentMatchStarted": {
     "title": "Turnuva maçı başladı!",
     "message": "{{tournamentName}} turnuvasının maçı başladı, git oyna!"
   },
-
   "tournamentFilled": {
     "title": "Turnuva dolu!",
     "message": "{{tournamentName}} turnuvası artık dolu. İstediğiniz zaman başlatabilirsiniz!"
   },
-
   "tournamentWillStart": {
     "title": "Turnuva turunuz yakında başlayacak!",
     "message": "{{tournamentName}} turnuvasının turu yakında başlayacak."
   },
-
   "tournamentRewards": {
     "title": "{{tournamentName}} turnuvasında {{place}}. sırayı kazandınız!",
     "message": "{{reward}} <BasicCurrency/> aldınız."
   },
-
   "yourTournamentEnded": {
     "title": "{{tournamentName}} turnuvanız sona erdi",
     "message": "{{reward}} <BasicCurrency/> aldınız."
   },
-
   "tournamentCancelled": {
     "title": "Turnuva iptal edildi",
     "message": "{{tournamentName}} turnuvası iptal edildi. {{refund}} <BasicCurrency/> iade edildi."
   },
-
   "updatePlanned": {
     "title": "Güncelleme planlandı",
     "message": "<b>{{date}}</b> için yeni <b>{{name}}</b> güncellemesi planlandı, değişiklikleri görmek için tıklayın."
   },
-
   "banDodge": {
     "title": "{{minutes}} dakika boyunca askıya alındınız",
     "message": "Son {{games}} sıralama oyununu terk ettiniz, bu yüzden sıralama oyunlarını oynamaya devam etmek için biraz beklemeniz gerekecek."

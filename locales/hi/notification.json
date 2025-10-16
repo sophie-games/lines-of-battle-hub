@@ -1,0 +1,37 @@
+{
+  "notifications": "सूचनाएं",
+  "noNotifications": "कोई सूचना नहीं",
+  "clear": "साफ़ करें",
+  "tournamentMatchStarted": {
+    "title": "टूर्नामेंट मैच शुरू हो गया!",
+    "message": "टूर्नामेंट {{tournamentName}} का एक मैच शुरू हो गया है, जाकर खेलें!"
+  },
+  "tournamentFilled": {
+    "title": "टूर्नामेंट भर गया!",
+    "message": "टूर्नामेंट {{tournamentName}} अब भर गया है। आप इसे कभी भी शुरू कर सकते हैं!"
+  },
+  "tournamentWillStart": {
+    "title": "आपका टूर्नामेंट राउंड जल्द ही शुरू होगा!",
+    "message": "टूर्नामेंट {{tournamentName}} के लिए टूर्नामेंट राउंड जल्द ही शुरू होगा।"
+  },
+  "tournamentRewards": {
+    "title": "आपने {{tournamentName}} टूर्नामेंट में {{place}}. स्थान जीता!",
+    "message": "आपको {{reward}} <BasicCurrency/> प्राप्त हुआ है।"
+  },
+  "yourTournamentEnded": {
+    "title": "आपका टूर्नामेंट {{tournamentName}} समाप्त हो गया",
+    "message": "आपको {{reward}} <BasicCurrency/> प्राप्त हुआ है।"
+  },
+  "tournamentCancelled": {
+    "title": "टूर्नामेंट रद्द",
+    "message": "टूर्नामेंट {{tournamentName}} रद्द कर दिया गया है। आपको {{refund}} <BasicCurrency/> वापस मिल गया है।"
+  },
+  "updatePlanned": {
+    "title": "अपडेट की योजना",
+    "message": "<b>{{date}}</b> के लिए एक नया <b>{{name}}</b> अपडेट योजनाबद्ध है, बदलाव देखने के लिए क्लिक करें।"
+  },
+  "banDodge": {
+    "title": "आपको {{minutes}} के लिए निलंबित कर दिया गया है",
+    "message": "आपने पिछले {{games}} रैंक किए गए गेम छोड़ दिए हैं, इसलिए रैंक किए गए गेम खेलना जारी रखने के लिए आपको थोड़ा इंतजार करना होगा।"
+  }
+}

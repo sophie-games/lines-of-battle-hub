@@ -1,4 +1,4 @@
-﻿{
+{
   "appLoadingMessage": "欢迎来到 Lines of Battle！",
   "home": "主页",
   "language": "语言",
@@ -46,8 +46,9 @@
   "selectGameMode": "从以下选项中选择游戏模式。",
   "quickMatchmaking": "快速匹配",
   "ranked": "排位模式",
-  "classicUnranked": "经典模式",
-  "classicUnrankedTooltip": "在经典友谊赛模式下，Elo不会受到影响，双方都会使用默认军队配置。",
+  "classic": "经典",
+  "classicTooltip": "使用程序生成的经典地图和默认军队",
+  "rankedTooltip": "游戏会影响你的Elo评分",
   "unranked": "非排位",
   "or": "或是",
   "cancel": "取消",
@@ -126,7 +127,6 @@
   "botArmy": "电脑的军队",
   "army": "军队",
   "deploymentStateMessage": "现在是部署阶段。你可以在部署区域内随意布置你的单位。结束布置后点击提交。",
-  "youAreColor": "你是{{color}}！",
   "getStarted": "开始吧",
   "colorTag": {
     "1": "蓝方",
@@ -298,7 +298,7 @@
   "enfiladeFireModifiers": "侧翼攻击修正",
   "rearFireModifiers": "后部攻击修正",
   "firingAltitude": "射击高度",
-  "canCaptureObjectives": "可以占领目标点",
+  "captureSpeed": "占领速度",
   "cantCaptureObjectives": "不可以占领目标点",
   "enfiladeFire": "弹道可穿透",
   "pointBlankRange": "极近距离范围",
@@ -722,7 +722,6 @@
   "preset": "预设",
   "hybrid": "混合",
   "random": "随机",
-  "classic": "经典",
   "projectileWidth": "射击宽度",
   "allyCollisionLevel": "友军碰撞等级",
   "enemyCollisionLevel": "敌军碰撞等级",
@@ -835,5 +834,6 @@
   "scenario": "战役",
   "banned": "封禁",
   "baseAmmo": "基础弹药",
-  "range": "射程"
+  "range": "射程",
+  "faaRangedDamage": "FAA远程伤害"
 }

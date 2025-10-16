@@ -1,5 +1,6 @@
 **/.DS_Store
 node_modules
+*.json.backup.*
 
 # Coverage directory used by tools like istanbul
 coverage/

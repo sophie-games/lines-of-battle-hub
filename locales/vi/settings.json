@@ -1,0 +1,161 @@
+{
+  "gameplay": "Lối chơi",
+  "graphics": "Đồ họa",
+  "camera": "Camera",
+  "sound": "Âm thanh",
+  "language": "Ngôn ngữ",
+  "multiTurnOrders": {
+    "title": "Lệnh đa lượt",
+    "description": "Bật cài đặt này sẽ cho phép bạn đưa ra các lệnh mà trò chơi sẽ ghi nhớ và thực hiện từ lượt này sang lượt khác. Các lệnh đa lượt này có thể kéo dài tới 10 lượt di chuyển và bao gồm các lệnh vị trí như Di chuyển cũng như các lệnh mục tiêu như Tìm kiếm."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Khoảng cách tối thiểu đường đi đa lượt"
+  },
+  "edgePanning": {
+    "title": "Pan cạnh",
+    "description": "Bật pan khi chuột đến cạnh màn hình (PC)."
+  },
+  "useTouchControls": {
+    "title": "Sử dụng điều khiển cảm ứng",
+    "description": "Nếu được bật, nó sẽ sử dụng điều khiển như thể là thiết bị cảm ứng. Nếu không bật, nó sẽ sử dụng điều khiển như thể là PC."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Cho phép hộp chọn cảm ứng",
+    "description": "Bật hộp chọn trên thiết bị cảm ứng để chọn nhiều đơn vị cùng lúc."
+  },
+  "smartCurvedMovements": {
+    "title": "Di chuyển cong thông minh",
+    "description": "Bật tùy chọn này để tối ưu hóa đường di chuyển với các đường cong mượt mà, giảm thiểu mất tốc độ trong quá trình xoay."
+  },
+  "openSelectOrderModal": {
+    "title": "Mở modal chọn lệnh",
+    "description": "Bật tùy chọn này để hiển thị modal để chọn lệnh trong quá trình chơi."
+  },
+  "openSelectFormationModal": {
+    "title": "Mở modal chọn đội hình",
+    "description": "Bật tùy chọn này để hiển thị modal để chọn đội hình trong quá trình chơi."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Hiển thị modal sự kiện chiến đấu mới"
+  },
+  "showPlayableGamesAvailableModal": {
+    "title": "Hiển thị modal trò chơi có thể chơi"
+  },
+  "cinematicMode": {
+    "title": "Chế độ điện ảnh",
+    "description": "Ẩn chỉ báo lượt, thanh chiến thắng và thanh đơn vị khỏi replay để có trải nghiệm xem sạch sẽ hơn."
+  },
+  "hidePlayerInfo": {
+    "title": "Ẩn thông tin người chơi",
+    "description": "Ẩn ELO và tên người dùng khỏi giao diện trò chơi, làm cho người chơi ẩn danh."
+  },
+  "smartReplayCamera": {
+    "title": "Camera replay thông minh",
+    "description": "Bật camera khán giả để tự động tập trung vào hành động trong quá trình replay."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Zoom camera replay thông minh"
+  },
+  "zoomSensibility": {
+    "title": "Độ nhạy zoom"
+  },
+  "cameraSensibility": {
+    "title": "Độ nhạy camera (PC)"
+  },
+  "replaySpeed": {
+    "title": "Tốc độ replay"
+  },
+  "playerColor": {
+    "title": "Màu người chơi"
+  },
+  "enemyColor": {
+    "title": "Màu kẻ thù"
+  },
+  "allyColor": {
+    "title": "Màu đồng minh"
+  },
+  "generalVolume": {
+    "title": "Âm lượng chung"
+  },
+  "shadows": {
+    "title": "Bóng",
+    "description": "Bật bóng trên các đơn vị. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
+  },
+  "showCollisionShapes": {
+    "title": "Hiển thị hình dạng va chạm",
+    "description": "Hiển thị hình dạng va chạm trên các đơn vị. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
+  },
+  "disableSkins": {
+    "title": "Tắt giao diện",
+    "description": "Tắt giao diện đơn vị và hiển thị giao diện mặc định."
+  },
+  "fullScreen": {
+    "title": "Toàn màn hình",
+    "description": "Chuyển đổi chế độ toàn màn hình cho ứng dụng",
+    "toggle": "Chuyển đổi toàn màn hình"
+  },
+  "resetSettings": {
+    "title": "Đặt lại cài đặt",
+    "description": "Khôi phục tất cả cài đặt về giá trị mặc định. Hành động này sẽ ghi đè lên mọi tùy chỉnh bạn đã thực hiện."
+  },
+  "reset": "Đặt lại",
+  "tierRequirement": {
+    "title": "Yêu cầu hạng",
+    "settingRequires": "{{setting}} chỉ có sẵn cho người chơi hạng {{tier}}",
+    "description": "Nâng cấp hạng của bạn trên Patreon để truy cập cài đặt này và các tính năng cao cấp khác!",
+    "goToPatreon": "Đi đến Patreon"
+  },
+  "lineFormation": "Đội hình tuyến",
+  "checkerboardFormation": "Đội hình bàn cờ",
+  "spaceBetweenUnits": "Khoảng cách giữa các đơn vị",
+  "spaceBetweenLines": "Khoảng cách giữa các hàng",
+  "showSelectIdleUnitButton": {
+    "title": "Hiển thị nút chọn đơn vị rảnh"
+  },
+  "showChat": {
+    "title": "Hiển thị trò chuyện"
+  },
+  "keybindings": {
+    "title": "Phím tắt",
+    "pressAKey": "Nhấn một phím...",
+    "moveUp": "Di chuyển lên",
+    "moveDown": "Di chuyển xuống",
+    "moveLeft": "Di chuyển trái",
+    "moveRight": "Di chuyển phải",
+    "info": "Thông tin",
+    "submitOrders": "Gửi lệnh",
+    "deselect": "Bỏ chọn",
+    "moveOrder": "Lệnh di chuyển",
+    "runOrder": "Lệnh chạy",
+    "shootOrder": "Lệnh bắn",
+    "fireAndAdvanceOrder": "Lệnh bắn và tiến",
+    "fallbackOrder": "Lệnh rút lui",
+    "toggleFormation": "Chuyển đổi đội hình",
+    "toggleSmartCurvedMovements": "Chuyển đổi di chuyển cong thông minh",
+    "toggleFowPerspective": "Chuyển đổi góc nhìn sương mù chiến tranh",
+    "openChat": "Mở trò chuyện",
+    "controlGroup1": "Nhóm điều khiển 1",
+    "controlGroup2": "Nhóm điều khiển 2",
+    "controlGroup3": "Nhóm điều khiển 3",
+    "controlGroup4": "Nhóm điều khiển 4",
+    "controlGroup5": "Nhóm điều khiển 5",
+    "controlGroup6": "Nhóm điều khiển 6",
+    "controlGroup7": "Nhóm điều khiển 7",
+    "controlGroup8": "Nhóm điều khiển 8",
+    "controlGroup9": "Nhóm điều khiển 9",
+    "controlGroup0": "Nhóm điều khiển 0"
+  },
+  "routingTransparency": {
+    "title": "Độ trong suốt đơn vị rút lui"
+  },
+  "fogOfWar": {
+    "description": "Sương mù chiến tranh là bóng tối xuất hiện trên địa hình mà các đơn vị của bạn không thể nhìn thấy. Chi phí tính toán để kiểm tra mọi ô mà người chơi có thể nhìn thấy rất tốn kém, vì vậy tắt tùy chọn này có thể cải thiện hiệu suất. Tuy nhiên, tùy chọn này 100% là đồ họa; tắt nó sẽ không làm cho các đơn vị kẻ thù ẩn trở nên hiển thị."
+  },
+  "fogOfWarColor": {
+    "title": "Màu sương mù chiến tranh"
+  },
+  "groundQuality": {
+    "title": "Chất lượng mặt đất",
+    "description": "Điều khiển chất lượng của kết cấu mặt đất. Chất lượng cao hơn cung cấp chi tiết hình ảnh tốt hơn nhưng có thể ảnh hưởng đến hiệu suất. Yêu cầu làm mới bản đồ."
+  }
+}

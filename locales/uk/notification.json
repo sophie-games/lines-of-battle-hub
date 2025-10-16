@@ -2,42 +2,34 @@
   "notifications": "Сповіщення",
   "noNotifications": "Немає сповіщень",
   "clear": "Очистити",
-
   "tournamentMatchStarted": {
     "title": "Матч турніру розпочався!",
     "message": "Матч турніру {{tournamentName}} розпочався, йди грати!"
   },
-
   "tournamentFilled": {
     "title": "Турнір заповнений!",
     "message": "Турнір {{tournamentName}} тепер повний. Ви можете розпочати його в будь-який час!"
   },
-
   "tournamentWillStart": {
     "title": "Ваш раунд турніру скоро розпочнеться!",
     "message": "Раунд турніру {{tournamentName}} скоро розпочнеться."
   },
-
   "tournamentRewards": {
     "title": "Ви посіли {{place}}-е місце в турнірі {{tournamentName}}!",
     "message": "Ви отримали {{reward}} <BasicCurrency/>."
   },
-
   "yourTournamentEnded": {
     "title": "Ваш турнір {{tournamentName}} закінчився",
     "message": "Ви отримали {{reward}} <BasicCurrency/>."
   },
-
   "tournamentCancelled": {
     "title": "Турнір скасовано",
     "message": "Турнір {{tournamentName}} було скасовано. Вам повернули {{refund}} <BasicCurrency/>."
   },
-
   "updatePlanned": {
     "title": "Заплановано оновлення",
     "message": "Заплановано нове оновлення <b>{{name}}</b> на <b>{{date}}</b>, натисніть, щоб побачити зміни."
   },
-
   "banDodge": {
     "title": "Вас заблоковано на {{minutes}}",
     "message": "Ви покинули останні {{games}} рейтингових ігор, тому вам доведеться трохи почекати, щоб продовжити грати рейтингові ігри."

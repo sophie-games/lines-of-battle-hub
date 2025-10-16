@@ -15,7 +15,6 @@
   "joinedAt": "Csatlakozás dátuma: {{date}}",
   "addPlayer": "Játékos hozzáadása",
   "credits": "Kreditek",
-
   "settings": "Beállítások",
   "eloDescription": "Az Élő (világnyelvi nevén Elo) egy pontozási rendszer - Élő Árpád találmánya - azt a célt szolgálja, hogy összevethesd a teljesítményed más játékosokaiéval. Minél több az Élőd, annál erősebb vagy más játékosokhoz képest. A győzelmeid növelik az Élődet, míg a vereségek csökkentik.",
   "welcomeName": "Üdv {{name}}!",
@@ -35,26 +34,23 @@
     "title": "Meccs {{id}}",
     "turn": "Kör {{turnNumber}}/{{maxTurn}}"
   },
-
   "withdrawMessage": "Ha visszavonulsz a csatából, az vereségként lesz számon tartva, és csökkenteni fogja az Élődet. Biztosan vissza akarsz vonulni?",
-
   "loading": "Betöltés...",
   "yes": "Igen",
   "no": "Nem",
   "by": "By",
   "logout": "Kijelentkezés",
-
   "createNewGame": "Új Meccs Léterhozása",
   "randomGameInfo": "A véletlenszerűen generált pályákon az általad adott játékmódra előre meghatározott seregek állnak rendelkezésedre. A seregedet a <0>Seregek összetételénél</0> tudod módosítani és megtekinteni. Ha még nem állítottál be speciális összeállítást, az alapból beállított sereggel kell játszanod.",
   "selectGameMode": "Válassz az alábbi opciók közül!",
   "or": "Vagy",
   "quickMatchmaking": "Gyors Párosítás",
   "ranked": "Rangsorolt",
-  "classicUnranked": "Klasszikus Nem Rangsorolt",
-  "classicUnrankedTooltip": "A klasszikus nem rangsorolt módban az Elo nem befolyásolt és csak az alapértelmezett hadsereg használatos.",
+  "classic": "Klasszikus",
+  "classicTooltip": "Alapértelmezett seregekkel rendelkező eljárásos módon generált klasszikus térképek használata",
+  "rankedTooltip": "A játékok befolyásolják az Elo értékelésedet",
   "unranked": "Nem Rangsorolt",
   "cancel": "Mégsem",
-
   "matchmakingQueue": {
     "inQueue": "Sikeresen felkerültél a várólistára! A rendszerünk most olyan ellenfelet keres neked, aki az általad kiválaszott módban és alkalmas beállítások mellett szeretne játszani.",
     "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára.",
@@ -63,11 +59,9 @@
     "cancelledBy": "A várólistát {{username}} törölte.",
     "playersInQueue": "{{count}} játékos keres"
   },
-
   "fastMode": "Gyors mód",
   "slowMode": "Lassú mód",
   "maxTimePerTurn": "Max körönkénti idő",
-
   "turnTimeLimit": {
     "30s": "30 másodperc",
     "1m": "1 perc",
@@ -78,7 +72,6 @@
     "3d": "3 nap",
     "7d": "7 nap"
   },
-
   "battleType": "Csata típusa",
   "dynamicBattleType": {
     "clash": "Találkozás",
@@ -86,14 +79,12 @@
     "battle": "Csata",
     "grand_battle": "Nagy Csata"
   },
-
   "matchmaking": "Meccskeresés",
   "matchmakingDescription": "A meccskereső lehetővé teszi, hogy rövid idő alatt játékba került idegen játékosokkal.",
   "custom": "Személyre szabás",
   "customDescription": "A személyre szabott lehetőséggel specializálhatod a csata valamennyi körülményét, illetve meghívhatod barátaidat.",
   "createCustomGame": "Személyre szabott meccs létrehozása",
   "maxTurn": "Körök max száma",
-
   "player": "Játékos",
   "units": "Egységek",
   "afk": "AFK",
@@ -111,11 +102,9 @@
     "importInfo": "Importálhatsz bármilyen pályát, amit csak akarsz",
     "createInfo": "A saját pályáidat is létrehozhatod emitt: <scenarioEditorLink/>."
   },
-
   "scenarioEditorTags": {
     "tutorialMessage": " Bizonytalan vagy? Ne agggódj, van róla videó! <tutorialLink>Nézd meg a tutorial videót itt.</tutorialLink>"
   },
-
   "createScenario": "Pálya létrehozása",
   "loadScenario": "Pálya betöltése",
   "playOffline": "Offline meccs",
@@ -124,11 +113,8 @@
   "playerArmy": "Játékos seregének összetétele",
   "botArmy": "Bot seregének összetétele",
   "army": "Sereg",
-
   "deploymentStateMessage": "Elindult a seregfelállítás. Ebben a körben oda tudod helyezni az egységeidet, ahova csak akarod a kijelölt zónán belül. Amint végeztél, nyomj rá a pipára, hogy elinduljon a következő kör.",
-  "youAreColor": "Te a {{color}} színnel vagy!",
   "getStarted": "Készítsd fel a sereged a csatára!",
-
   "colorTag": {
     "1": "Kék",
     "2": "Vörös",
@@ -136,7 +122,6 @@
     "4": "Zöld",
     "5": "Fekete"
   },
-
   "resume": "Folytatás",
   "offerDraw": "Döntetlen felajánlása",
   "replayBattle": "Visszajátszás",
@@ -148,7 +133,6 @@
   "forUnit": "Költség {{unit}}",
   "select": "Kiválasztás",
   "deselect": "Visszaállítás",
-
   "unitStat": {
     "hp": "HP",
     "org": "Organizáció",
@@ -165,7 +149,6 @@
     "chargeResistance": "Roham-ellenállás",
     "status": "Státusz"
   },
-
   "unitCategory": {
     "infantry": "Gyalogság",
     "midCavalry": "Lovasság",
@@ -177,9 +160,7 @@
     "militiaInfantry": "Milícia Gyalogság",
     "skirmishInfantry": "Felderítő Gyalogság"
   },
-
   "category": "Kategória",
-
   "damageType": {
     "musket": "Muskéta",
     "light-musket": "Könnyű Muskéta",
@@ -198,7 +179,6 @@
     "12lb-canister-fire": "Nehéz kartácstűz",
     "dragoon-sword": "Dragonyos kard"
   },
-
   "unitName": {
     "1": "Sorgyalogság",
     "2": "Dragonyos",
@@ -214,7 +194,6 @@
     "12": "12-fontos Gyalogüteg",
     "13": "Lovasíjászok"
   },
-
   "battalionName": {
     "1": "{{n}} Gyalogzászlóalj",
     "2": "{{n}} Dragonyos Osztály",
@@ -230,34 +209,31 @@
     "12": "{{n}} Gyalogüteg",
     "13": "{{n}} Lovas íjászok"
   },
-
   "unitDescription": {
     "1": "A szerény sorgyalogság minden formáció legalapvetőbb egysége. Elsősorban muskétákkal harcolnak, de közelharcban bajonett-tel küzdenek.",
     "2": "Megbízható, sokoldalú félnehéz lovasság, alkalmas zaklatásra és hosszan tartó harcokra egyaránt.",
     "3": "Megfizethető közepes tüzérség szerény mozgékonysággal és tűzerővel, valamint lenyűgöző kartácstűzzel.",
     "4": "Tapasztalt, erős fizikumban lévő katonák, akik példát képesek mutatni más barátságos egységeknek, míg félelmet és rettegést keltenek az ellenség szemében. Ez az elit alakulat kizárólag a legjobb katonákra támaszkodik, azonban így költséges is fenntartani azt. A félelmetes karakterisztikájuk és rendkívüli tapasztalatuk kiválóan érvényesülnek közelharcban.",
-    "7": "Továbbképzett sorgyalogosok, akik gyors mozgásra és tüzelési pontosságra specializálódtak.",
-    "11": "Könnyűlovasság, ami tökéletes a meggyengült és menekülő egységek megtámadására, azonban vergődni fognak magas organizációjú egységek ellen. Használd a gyalogságodat vagy a tüzérségedet, hogy meggyengítsd az ellenfeledet, mielőtt bevetnéd a könnyűlovasságod.",
     "5": "Félnehéz, elit lovasság, ami kopjákkal végez pusztítást az ellenfél soraiban - Könnyen menekülésre tudsz kényszeríteni ellenséges egységeket, ha Ulánus rohamok sorozatával támadsz rájuk. Azonban nem annyira effektívek az elhúzódó közelharcokban.",
-    "8": "Rettenetes nehézlovasság, ami minden egység közül a legerősebb közelharci támadással rendelkezik, azonban még mindig úgy a legjobb, ha megtudod gyengíteni az ellenségedet gyalogsággal vagy tüzérséggel, mielőtt bevetnéd vérteseid.",
-    "12": "A napóleoni fegyvernem legnehezebb súlyú ágyúja. Kiváló távolságra képes ellőni.",
     "6": "Ennek a tüzérségnek a sebessége és alacsony költsége kiválóvá teszi arra, hogy a lovassággal vagy frontvonallal együtt mozoghasson, és hogy olyan manővereket hajtson létre, amire más tüzérségi egységek nem lennének képesek.",
+    "7": "Továbbképzett sorgyalogosok, akik gyors mozgásra és tüzelési pontosságra specializálódtak.",
+    "8": "Rettenetes nehézlovasság, ami minden egység közül a legerősebb közelharci támadással rendelkezik, azonban még mindig úgy a legjobb, ha megtudod gyengíteni az ellenségedet gyalogsággal vagy tüzérséggel, mielőtt bevetnéd vérteseid.",
     "9": "A könnyű mozsárágyúk robbanó töltettel és kifejezetten halálos rövid-távú sörétes lövedékekkel rendelkeznek - Ideális a gyalogságod támogatására közeli és közepes távolságokból.",
     "10": "„Bármilyen bizalmat helyezni a milíciába annyi, mint biztosan egy törött botra támaszkodni.” - George Washington",
+    "11": "Könnyűlovasság, ami tökéletes a meggyengült és menekülő egységek megtámadására, azonban vergődni fognak magas organizációjú egységek ellen. Használd a gyalogságodat vagy a tüzérségedet, hogy meggyengítsd az ellenfeledet, mielőtt bevetnéd a könnyűlovasságod.",
+    "12": "A napóleoni fegyvernem legnehezebb súlyú ágyúja. Kiváló távolságra képes ellőni.",
     "13": "„A baskír lovas íjászok kétségtelenül a világ legkevésbé veszélyes csapatai.“ - Marbot báró, figyelmen kívül hagyva egy nyilat a combjában"
   },
-
   "damageResistances": "Sebzés ellenállás",
   "otherStats": "További statisztikák",
   "damageModifier": "Sebzési Modifierek",
   "orgDamageRatio": "Org Sebzés Ráta",
-
   "damage": "Sebzés",
   "orgDamage": "Org Sebzés",
   "enfiladeFireModifiers": "Oldalsótűz Módosítók",
   "rearFireModifiers": "Háttűz Módosítók",
   "firingAltitude": "Célpont Magassága",
-  "canCaptureObjectives": "Képes objektívákat elfoglalni",
+  "captureSpeed": "Elfoglalási sebesség",
   "cantCaptureObjectives": "Nem tud objektívákat elfoglalni",
   "enfiladeFire": "Oldalsótűz",
   "closeRange": "Közeli Hatótáv",
@@ -284,7 +260,6 @@
   "projectileAbsorption": "Lövedékelnyelés",
   "terrainPName": "Terep: {{name}}",
   "effects": "Effektusok",
-
   "terrain": {
     "0": "Nyílt Terep",
     "1": "Erdő",
@@ -292,7 +267,6 @@
     "3": "Út",
     "4": "Víz"
   },
-
   "clearPlayerUnits": "Játékos egységeinek visszaállítása",
   "clearBotUnits": "Bot egységeinek visszaállítása",
   "continueGame": "Meccs folytatása",
@@ -300,17 +274,14 @@
   "filterBy": "Szűrők",
   "name": "Név",
   "retry": "Újra",
-
   "networkErrorModal": {
     "title": "Hoppá! Megszűnt a Kapcsolat!",
     "message": "Úgy tűnik, hogy megszakadt a kapcsolat. Ne aggódj, továbbra is játszhatsz offline."
   },
-
   "needsUpdateModal": {
     "title": "Frissítés szükséges",
     "message": "A LoB egy új verziója elérhető! Kérlek frissíts, hogy tovább élvezhesd a játékot."
   },
-
   "update": "Frissítés!",
   "yourArmyCompositionsFor": "A sereged összetétele a következő módra: ",
   "noUnitsYet": "Nincsenek még egységek",
@@ -323,21 +294,17 @@
   "clearUnits": "Visszaállítás",
   "saving": "Mentés...",
   "armyInvalid": "Érvénytelen sereg, ameddig nem módosítod, addig az alap összetételt fogod csak tudni használni ebben a módban.",
-
   "landing": {
     "message": "<b>Lines of Battle</b> egy napóleoni taktikai játék egyidejű körökkel és valós idejű harcokkal. Győzd le az emberi ellenfeleket pontos csapatokkal és taktikákkal!",
     "privacy": "A kezdéssel beleegyezel az <0>Adatvédelmi Nyilatkozatunkba</0>."
   },
-
   "welcomeModal": {
     "title": "Üdv a Lines of Battle játékban 👋",
     "thanks": "Köszönöm, hogy csatlakoztál, {{name}}!",
     "p1": "Új vagy a <b>Lines of Battle</b>-ben? Javaslom, hogy először vessd próbára magad az <offlineLink>offline gyakorlásban</offlineLink> botok ellen, hogy megismerkedj a játékmechanikákkal, és hogy kidolgozhasd a stragédiádat egy nyugodt környezetben.",
     "p2": "Mivel a játék még bétában van, meghívlak, hogy csatlakozz a <discordLink>Discord szerverünkre</discordLink> hogy részesévé válj a közösségnek, könnyebben találj ellenfeleket, hibákat jelenthess, és hogy mindenkivel megoszthatsd az ötleteidet a játékélmény javításáról!"
   },
-
   "turn": "Kör",
-
   "loadingScreen": {
     "fonts": "Fontok betöltése...",
     "joiningGame": "Csatlakozás a játékhoz...",
@@ -345,9 +312,7 @@
     "fetchingGameData": "Játékadatok lekérése...",
     "generatingMap": "Pálya generálása..."
   },
-
   "fetchingBattleActions": "Ellenséges mozgások lekérése...",
-
   "order": {
     "1": "Séta",
     "2": "Futás",
@@ -355,7 +320,6 @@
     "4": "Mozgás közben lő",
     "6": "Visszahúzódás"
   },
-
   "selectOrder": "Utasítás Kiválasztása",
   "autofire": "Automatikus tüzelés",
   "allowFireWhenMoving": "Lőhet mozgás közben",
@@ -378,7 +342,6 @@
   "meleePerformance": "Közelharci teljesítmény",
   "speedByOrg": "Org alapú sebesség",
   "turnsLeft": "Kör van hátra",
-
   "battleOverview": {
     "title": "Csata Elemzés",
     "victoryPoints": "Győzelmi Pontok",
@@ -390,30 +353,25 @@
     "timeUnderPressureTooltip": "A nyomás alatti idő az az idő, amikor egy csapat az objektívák <0>{{percentage}}%</0>-át vagy kevesebbet irányítja. Minél tovább marad egy csapat nyomás alatt, annál több győzelmi pontot veszít el.",
     "unitsOrgRegain": "Egységek felépülése (Org)"
   },
-
   "offerDrawModal": {
     "withdrawOffer": "Döntetlen felajánlása",
     "alreadyWantsDrawMessage": "Már felajánlottad a döntetlent. Esetleg visszaszeretnéd vonni az ajánlatot?",
     "offerDrawMessage": "Ha döntetlent ajánlasz fel, az ellenfeled azt bármikor elfogadhatja, ameddig vissza nem vonod."
   },
-
   "defeat": "Vereség",
   "victory": "Győzelem",
   "draw": "Döntetlen",
   "won": "Győzedelmes Fél",
   "lost": "Vesztes Fél",
   "tie": "Döntetlen",
-
   "unitStatus": {
     "1": "Helyt Áll",
     "2": "Menekül",
     "3": "Éppen Felépül"
   },
-
   "unitEffect": {
     "1": "Teljes forgatás"
   },
-
   "login": "Bejelentkezés",
   "signUp": "Regisztráció",
   "forgotPassword": "Elfelejtett jelszó?",
@@ -428,38 +386,30 @@
   "enterNewPassword": "Új jelszó megadása",
   "newPassword": "Új jelszó",
   "repeatPassword": "Új jelszó megismétlése",
-
   "teamSize": {
     "title": "Csapat mérete",
     "1v1": "1 vs 1",
     "2v2": "2 vs 2"
   },
-
   "offline": "Offline",
   "offlineDescription": "Gyakorolj offline botok ellen vagy játssz barátaiddal egy készülékén!",
-
   "premiumCurrencyLeaderboard": {
     "title": "<premiumCurrency/> Ranglista",
     "subtitle": "Kinek van a legtöbb <premiumCurrency/>-zse?",
     "description": "Szeretnél az első lenni? <storeLink>Látogasd meg az Áruházat</storeLink> és szerezz <premiumCurrency/>-et!"
   },
-
   "team": "Csapat",
   "playerType": "Irányító típusa",
   "human": "Ember",
   "bot": "Bot",
   "armyOfPlayer": "Játékos {{player}} serege",
-
   "hybridDescription": "A hybrid pályák előre felépett pályák, ahol egyedül a seregeid összetételét tudod módosítani.",
-
   "playLastActionsModal": {
     "message": "Új csataesemények zajlottak le, amíg távol voltál.\nSzeretnéd, ha lejátszanánk ezeket?"
   },
-
   "search": {
     "clans": "Koalíciók keresése"
   },
-
   "ordersSubmittedDialog": {
     "p1": {
       "sent": "Parancsok elküldve a szervernek.",
@@ -469,7 +419,6 @@
     "p2": "Ellenfél parancsainak ellenőrzése {{value}} másodperc múlva",
     "b": "Most ellenőriz"
   },
-
   "formation": "Képzés",
   "findGame": "Játék keresése",
   "gameIdOrLink": "Játékazonosító vagy link",
@@ -484,20 +433,17 @@
     "p2": "Maradj velünk további frissítések és új funkciók érkezéséhez a Lines of Battle-ben!",
     "p3": "Kövess minket a közösségi médiában a legfrissebb hírek és bejelentések érdekében."
   },
-
   "tournaments": "Tornák",
   "createTournament": "Torna létrehozása",
   "hasPassword": "Jelszóval védett",
   "autoProgression": "Automatikus előrehaladás",
   "autoProgressionInfo": "Ha ez a beállítás engedélyezve van, a torna automatikusan továbblép a következő körbe, amint az aktuális kör utolsó mérkőzése befejeződött. Ha le van tiltva, a torna akkor halad előre, amikor a rendszergazda manuálisan indítja el, vagy a tervezett dátumon és időpontban (ha be van állítva).",
   "optional": "Opcionális",
-
   "tournamentStartedModal": {
     "title": "Egy torna meccs elkezdődött",
     "message": "A {{tournamentName}} torna {{round}}. köre elkezdődött!",
     "goButtonText": "Menj a torna meccshez"
   },
-
   "allVisible": "Minden Látható",
   "teamN": "Csapat {{number}}",
   "measuring": "Mérés...",
@@ -506,9 +452,7 @@
   "connecting": "Csatlakozás...",
   "disconnecting": "Elválasztás...",
   "unknown": "Ismeretlen",
-
   "fogOfWar": "Háború ködje",
-
   "low": "Alacsony",
   "medium": "Közepes",
   "high": "Magas",
@@ -518,12 +462,9 @@
   "cavalry": "Lovasság",
   "artillery": "Tüzérség",
   "special": "Speciális",
-
   "preset": "Előre beállított",
   "hybrid": "Hibrid",
   "random": "Véletlenszerű",
-  "classic": "Klasszikus",
-
   "academy": "Akadémia",
   "encyclopedia": "Enciklopédia",
   "tutorialTips": "Oktatóanyag Tippek",
@@ -546,5 +487,6 @@
     "drawByAgreement": "A játék döntetlennel ért véget kölcsönös megegyezés alapján.",
     "unknown": "Ismeretlen ok."
   },
-  "range": "Távolság"
+  "range": "Távolság",
+  "faaRangedDamage": "FAA Távolsági Sebzés"
 }

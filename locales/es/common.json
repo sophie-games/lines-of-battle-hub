@@ -9,7 +9,6 @@
   "store": "Tienda",
   "supporters": "Patrocinadores",
   "credits": "Créditos",
-
   "settings": "Configuración",
   "eloDescription": "Elo es un sistema de clasificación utilizado para calcular el nivel relativo de habilidad de los jugadores. Cuanto más alto sea tu Elo, más fuerte eres en comparación con otros. Ganar aumenta tu Elo, mientras que perder lo disminuye.",
   "welcomeName": "Bienvenido {{name}}!",
@@ -29,26 +28,23 @@
     "title": "Juego {{id}}",
     "turn": "Turno {{turnNumber}}/{{maxTurn}}"
   },
-
   "withdrawMessage": "Si te retiras de este juego, contará como una derrota y eso reducirá tu Elo, ¿estás seguro de que deseas retirarte?",
-
   "loading": "Cargando...",
   "yes": "Sí",
   "no": "No",
   "by": "De",
   "logout": "Cerrar sesión",
-
   "createNewGame": "Crear nuevo juego",
   "randomGameInfo": "Para los juegos generados aleatoriamente, el juego utilizará el ejército que has creado para el modo de batalla seleccionado. Puedes ver y gestionar tus ejércitos en las <0>Composiciones de Ejército</0>. Si no has creado ejércitos para ese modo aún, se usará un ejército predeterminado.",
   "selectGameMode": "Selecciona el modo de juego de las opciones a continuación.",
   "or": "O",
   "quickMatchmaking": "Emparejamiento Rápido",
   "ranked": "Clasificado",
-  "classicUnranked": "Clásico No Clasificado",
-  "classicUnrankedTooltip": "En el modo unranked clásico no afecta el Elo y solo se usa el ejército default.",
+  "classic": "Clásico",
+  "classicTooltip": "Usa mapas clásicos generados proceduralmente con ejércitos predeterminados",
+  "rankedTooltip": "Los juegos afectan tu calificación Elo",
   "unranked": "No Clasificado",
   "cancel": "Cancelar",
-
   "matchmakingQueue": {
     "inQueue": "¡Ahora estás en la cola de emparejamiento! El sistema está buscando otro jugador que haya seleccionado las mismas configuraciones que tú.",
     "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido al juego.",
@@ -57,11 +53,9 @@
     "cancelledBy": "La cola fue cancelada por {{username}}.",
     "playersInQueue": "{{count}} jugadores buscando"
   },
-
   "fastMode": "Modo rápido",
   "slowMode": "Modo lento",
   "maxTimePerTurn": "Tiempo máximo por turno",
-
   "turnTimeLimit": {
     "30s": "30 segundos",
     "1m": "1 minuto",
@@ -72,7 +66,6 @@
     "3d": "3 días",
     "7d": "7 días"
   },
-
   "battleType": "Tipo de batalla",
   "dynamicBattleType": {
     "clash": "Encuentro",
@@ -80,7 +73,6 @@
     "battle": "Batalla",
     "grand_battle": "Gran Batalla"
   },
-
   "matchmaking": "Emparejamiento",
   "matchmakingDescription": "El modo de emparejamiento te permite unirte rápidamente a un juego con jugadores aleatorios usando configuraciones predefinidas.",
   "onlyPartyLeaderCanSearch": "Solo el líder de la party puede buscar partida.",
@@ -91,11 +83,9 @@
     "memberDescription": "Solo el líder de la party puede buscar partida. Serás notificado cuando empiece a buscar."
   },
   "custom": "Personalizado",
-
   "customDescription": "El modo personalizado te permite configurar un juego con ajustes específicos e invitar a tus amigos a jugar.",
   "maxTurn": "Turno máximo",
   "seed": "Semilla",
-
   "player": "Jugador",
   "units": "Unidades",
   "afk": "Ausente",
@@ -115,11 +105,9 @@
     "createInfo": "Incluso podés crear tus propios escenarios en el <scenarioEditorLink/>.",
     "createInfo2": "O explora el <0>Centro Comunitario</0> para escenarios listos para usar."
   },
-
   "scenarioEditorTags": {
     "tutorialMessage": "No estás seguro de cómo usarlo? No te preocupes, te tenemos cubierto! <tutorialLink>Mirá el tutorial acá.</tutorialLink>"
   },
-
   "createScenario": "Crear Escenario",
   "loadScenario": "Cargar Escenario",
   "playOffline": "Jugá offline!",
@@ -128,11 +116,8 @@
   "playerArmy": "Ejército del jugador",
   "botArmy": "Ejército del bot",
   "army": "Ejército",
-
   "deploymentStateMessage": "Esta es la fase de despliegue. Aprovecha este turno para colocar tus unidades donde quieras dentro de la zona de despliegue. Cuando hayas terminado, envía tus órdenes para aplicar la colocación.",
-  "youAreColor": "Sos el {{color}}!",
   "getStarted": "Comenzar",
-
   "colorTag": {
     "1": "Azul",
     "2": "Rojo",
@@ -140,7 +125,6 @@
     "4": "Verde",
     "5": "Negro"
   },
-
   "resume": "Reanudar",
   "offerDraw": "Ofrecer empate",
   "replayBattle": "Repetir batalla",
@@ -152,7 +136,6 @@
   "forUnit": "Para {{unit}}",
   "select": "Seleccionar",
   "deselect": "Deseleccionar",
-
   "unitStat": {
     "hp": "HP",
     "org": "Organización",
@@ -171,7 +154,6 @@
     "status": "Estado",
     "timeToRun": "Tiempo para correr"
   },
-
   "unitCategory": {
     "infantry": "Infantería",
     "midCavalry": "Caballería",
@@ -183,9 +165,7 @@
     "militiaInfantry": "Infantería de Milicia",
     "skirmishInfantry": "Infantería de Tiradores"
   },
-
   "category": "Categoría",
-
   "damageType": {
     "musket": "Mosquete",
     "light-musket": "Mosquete Ligero",
@@ -206,7 +186,6 @@
     "12lb-canister-fire": "Fuego de Metralla pesado",
     "dragoon-sword": "Espada de dragón"
   },
-
   "unitName": {
     "1": "Infantería de Línea",
     "2": "Dragones",
@@ -226,7 +205,6 @@
     "24": "Licorne de 10 libras",
     "25": "Licorne de 18 libras"
   },
-
   "battalionName": {
     "1": "{{n}} Batallón de línea",
     "2": "{{n}} Dragones",
@@ -244,35 +222,38 @@
     "14": "{{n}} Granaderos",
     "15": "{{n}} Batería ligera"
   },
-
   "unitDescription": {
     "1": "El humilde batallón de infantería de línea es la unidad básica del ejército. El mosquete es su arma principal, pero también puede defenderse de la caballería o cargar contra otra infantería y artillería con la bayoneta.",
-    "2": "Caballería media confiable y versátil, apta tanto para el hostigamiento como para combates prolongados.",
-    "3": "Artillería media asequible con movilidad y potencia de fuego moderadas, junto con un impresionante fuego de metralla.",
-    "4": "Soldados experimentados y físicamente imponentes con la capacidad de inspirar a las tropas aliadas y aterrorizar a los enemigos. Estas unidades de élite son exclusivas para los soldados más dotados naturalmente, lo que las hace mucho más costosas de desplegar. Su intimidación y excelentes características cuerpo a cuerpo se aprovechan mejor en una carga con bayoneta.",
-    "7": "Infantería de línea de élite entrenada con un enfoque especial en el movimiento rápido y la puntería.",
-    "11": "Caballería ligera adecuada para atacar a enemigos débiles, dañados y en retirada. Sin embargo, tendrán dificultades contra la infantería organizada y la caballería pesada. Use infantería y artillería para debilitar al enemigo primero.",
-    "5": "Caballería ligera de élite que usa la lanza para realizar cargas devastadoras - una serie de cargas por múltiples escuadrones de Lanceros derrotará rápidamente cualquier oposición. Sin embargo, son mucho menos impresionantes en un combate cuerpo a cuerpo prolongado.",
-    "8": "Formidable caballería pesada con la efectividad de combate cuerpo a cuerpo más fuerte de cualquier unidad. Sin embargo, sigue siendo mejor debilitar al enemigo con infantería o artillería antes de enviar a tus Coraceros.",
-    "12": "El cañón de campo más pesado disponible para el ejército napoleónico; si bien estas baterías son extremadamente costosas, su alcance y poder son inigualables.",
-    "6": "La velocidad y bajo costo de esta artillería la hacen adecuada para apoyar a la caballería o avanzar junto a tu línea de infantería.",
-    "9": "Obuses de campo ligeros con proyectiles explosivos y fuego de metralla particularmente letal a corta distancia - ideales para apoyar tu línea de infantería a media y corta distancia.",
-    "10": "“Confiar en la milicia es, con seguridad, apoyarse en un bastón roto.” - George Washington",
-    "13": "«Los arqueros a caballo bashkir son, sin duda, las tropas menos peligrosas del mundo.» - Barón Marbot, ignorando una flecha en su muslo",
-    "14": "Estas tropas de choque están compuestas por los hombres más altos, fuertes e imponentes de la infantería de línea. Aunque generalmente son más temibles que las tropas de línea promedio, su opción más poderosa en combate es su carga devastadora.",
-    "15": "La artillería de campaña más ligera común de las Guerras Napoleónicas, con una potencia de fuego modesta y una buena movilidad que la convierten en una compañera natural de la infantería."
+    "2": "Los dragones eran la caballería más común del ejército de Napoleón. Pueden carecer del ímpetu de los húsares y la gloria de los coraceros, pero esta formidable caballería media debería ser generalmente la base de tu fuerza de caballería.",
+    "3": "Artillería media asequible con metralla muy potente y buen daño a distancia, pero movilidad algo pobre.",
+    "4": "Soldados experimentados y físicamente imponentes que mejoran el rendimiento de las tropas cercanas solo con su presencia. Estas unidades de élite son exclusivas para los soldados más naturalmente dotados, lo que las hace mucho más costosas de desplegar. Lucharán a través de daño que quebraría cualquier unidad menor.",
+    "5": "Caballería ligera de élite que usa la lanza para realizar cargas devastadoras: una serie de cargas por múltiples escuadrones de lanceros derrotará rápidamente cualquier oposición. Sin embargo, son mucho menos impresionantes en un combate cuerpo a cuerpo prolongado.",
+    "6": "La velocidad y bajo costo de esta artillería la hacen adecuada para apoyar caballería o avanzar junto a tu línea de infantería.",
+    "7": "Batallones de infantería de línea de élite entrenados con un enfoque especial en movimiento rápido y puntería.",
+    "8": "Formidable caballería pesada con la efectividad de combate cuerpo a cuerpo más fuerte de cualquier unidad. Usa coraceros para dominar la caballería enemiga, o masifícalos para atravesar el frente enemigo después de ablandarlo con fuego de artillería.",
+    "9": "Estos obuses de campo ligeros y móviles lanzan proyectiles de 23 libras que infligen daño competente sin importar el terreno o la distancia. A corta distancia, sus salvas de metralla pesada entregan algunos de los fuegos más destructivos conocidos en las Guerras Napoleónicas.",
+    "10": "\"Confiar en la milicia es, con seguridad, apoyarse en un bastón roto.\" - George Washington",
+    "11": "Estos elegantes escuadrones de caballería ligera ofrecen alta velocidad y resistencia, pero perderán en una pelea contra infantería o caballería más pesada. En su lugar, usa húsares para explorar y aterrorizar objetivos vulnerables: tiradores, caballería y tropas desorganizadas o en retirada.",
+    "12": "El cañón de campo más pesado disponible para el ejército napoleónico; aunque estas baterías son extremadamente costosas, su alcance y poder son inigualables.",
+    "13": "\"Los arqueros a caballo bashkir son, sin duda, las tropas menos peligrosas del mundo.\" - Barón Marbot, ignorando una flecha en su muslo",
+    "14": "Estas tropas de choque están compuestas por los hombres más altos, fuertes e imponentes de la infantería de línea. Mantén a tus granaderos en buen estado y comprómelos cuando el enemigo comience a vacilar para quebrarlos completamente.",
+    "15": "La artillería de campo más ligera común de las Guerras Napoleónicas, con potencia de fuego modesta y buena movilidad que la convierten en una compañera natural de la infantería.",
+    "16": "Los batallones napoleónicos desprendían estas pequeñas compañías de tropas en orden disperso, como voltigeurs y cazadores, para realizar diversas tareas. Estas tropas ocuparían terreno inadecuado para grandes unidades de infantería, acosarían la línea enemiga y protegerían el ejército para repeler tiradores enemigos.",
+    "17": "Aunque los rifles de la era napoleónica ofrecen una tasa de fuego mucho menor que los mosquetes, compensaban con excelente precisión que ayudaba a ganar duelos de tiradores, eliminar oficiales enemigos y acosar artillería enemiga desde la distancia.",
+    "18": "Napoleón favorecía el cañón de 6 libras por su equilibrio de poder y maniobrabilidad; a medida que las Guerras Napoleónicas avanzaban, buscó reemplazar los cañones de 4 y 8 libras con tantos cañones de 6 y 12 libras como fuera posible.",
+    "19": "El cohete napoleónico era un arma experimental y temperamental con problemas persistentes de precisión. Sin embargo, se jacta de alta maniobrabilidad, y a corta distancia puede entregar fuego intenso que inflige poco daño pero tiene efectos catastróficos en la moral enemiga.",
+    "24": "La licorne de 10 libras era un cañón-obús del ejército ruso de las Guerras Napoleónicas. Sus proyectiles explosivos de largo alcance son adecuados para tratar con enemigos en terreno, y su metralla de corto alcance es devastadora. Usa el proyectil de medio alcance de la licorne de 10 libras para diezmar objetivos al descubierto.",
+    "25": "La licorne de 18 libras es un cañón-obús pesado ruso con metralla aterradora de corto alcance, proyectil de medio alcance altamente efectivo contra tropas al descubierto, y proyectiles explosivos de largo alcance que ignoran los beneficios del terreno defensivo enemigo."
   },
-
   "damageResistances": "Resistencias al Daño",
   "otherStats": "Otras Estadísticas",
   "orgDamageRatio": "Ratio de Daño de Org",
-
   "damage": "Daño",
   "orgDamage": "Daño a la org",
   "enfiladeFireModifiers": "Modificadores de fuego enfilado",
   "rearFireModifiers": "Modificadores de fuego por la retaguardia",
   "firingAltitude": "Altitud de disparo",
-  "canCaptureObjectives": "Puede capturar objetivos",
+  "captureSpeed": "Velocidad de captura",
   "cantCaptureObjectives": "No puede capturar objetivos",
   "enfiladeFire": "Fuego enfilado",
   "closeRange": "Alcance corto",
@@ -299,7 +280,6 @@
   "projectileAbsorption": "Absorción de proyectiles",
   "terrainPName": "Terreno: {{name}}",
   "effects": "Efectos",
-
   "terrain": {
     "0": "Tierra",
     "1": "Bosque",
@@ -310,26 +290,21 @@
     "6": "Acantilado",
     "7": "Puente"
   },
-
   "clearPlayerUnits": "Borrar unidades del jugador",
   "clearBotUnits": "Borrar unidades del bot",
   "continueGame": "Continuar juego",
   "createNewOfflineGame": "Crear nuevo juego offline",
   "filterBy": "Filtrar por",
   "name": "Nombre",
-
   "retry": "Reintentar",
-
   "networkErrorModal": {
     "title": "Upa! Se perdió la conexión",
     "message": "Parece que falló la conexión. No te preocupes! Podés seguir jugando offline."
   },
-
   "needsUpdateModal": {
     "title": "Requiere actualización",
     "message": "Hay una nueva versión de LoB disponible! Actualizá la app para seguir jugando en línea."
   },
-
   "update": "Actualizar!",
   "yourArmyCompositionsFor": "Tu composiciones de ejército para",
   "noUnitsYet": "Todavía no hay unidades",
@@ -342,21 +317,17 @@
   "clearUnits": "Borrar unidades",
   "saving": "Guardando...",
   "armyInvalid": "Este ejército no es válido, por favor modificalo.",
-
   "landing": {
     "message": "<b>Lines of Battle</b> es un juego táctico napoleónico con turnos simultáneos y combate en tiempo real. ¡Derrota a oponentes humanos con tropas y tácticas precisas!",
     "privacy": "Al jugar, aceptás nuestra <0>Política de Privacidad</0>."
   },
-
   "welcomeModal": {
     "title": "Bienvenido a Lines of Battle 👋!",
     "thanks": "Gracias por sumarte, {{name}}!",
     "p1": "Sos nuevo en <b>Lines of Battle</b>? Te recomiendo empezar con una <offlineLink>partida de práctica offline</offlineLink> contra un bot para familiarizarte con la mecánica del juego y desarrollar tu estrategia en un ambiente relajado.",
     "p2": "Como el juego todavía está en beta, te invito a unirte al <discordLink>servidor de Discord</discordLink> para conectarte con otros jugadores, encontrar rivales, reportar bugs y compartir tus ideas para ayudar a mejorar la experiencia para todos."
   },
-
   "turn": "Turno",
-
   "loadingScreen": {
     "fonts": "Cargando fuentes...",
     "joiningGame": "Uniéndote al juego...",
@@ -364,9 +335,7 @@
     "fetchingGameData": "Obteniendo datos del juego...",
     "generatingMap": "Generando mapa..."
   },
-
   "fetchingBattleActions": "Obteniendo acciones de batalla...",
-
   "order": {
     "1": "Caminar",
     "2": "Correr",
@@ -375,7 +344,6 @@
     "6": "Retirada",
     "7": "Sin órdenes"
   },
-
   "selectOrder": "Seleccionar orden",
   "autofire": "Fuego automático",
   "allowFireWhenMoving": "Permite disparar mientras te movés",
@@ -398,7 +366,6 @@
   "meleePerformance": "Rendimiento en cuerpo a cuerpo",
   "speedByOrg": "Velocidad por org",
   "turnsLeft": "Turnos restantes",
-
   "battleOverview": {
     "title": "Resumen de la Batalla",
     "victoryPoints": "Puntos de Victoria",
@@ -410,7 +377,6 @@
     "timeUnderPressureTooltip": "El tiempo bajo presión es el tiempo en que un equipo controla <0>{{percentage}}%</0> de los objetivos o menos. Cuanto más tiempo permanezca un equipo bajo presión, más puntos de victoria perderá.",
     "unitsOrgRegain": "Recuperación de la Org de las Unidades"
   },
-
   "offerDrawModal": {
     "withdrawOffer": "Retirar Oferta",
     "alreadyWantsDrawMessage": "Ya estás ofreciendo un Empate. Querés retirar esta oferta?",
@@ -418,26 +384,22 @@
     "player": "{{player}} está ofreciendo un empate.",
     "players": "{{players}} están ofreciendo un empate."
   },
-
   "defeat": "Derrota",
   "victory": "Victoria",
   "draw": "Empate",
   "won": "Ganó",
   "lost": "Perdió",
   "tie": "Empate",
-
   "unitStatus": {
     "1": "Activa",
     "2": "Huyendo",
     "3": "Recuperándose"
   },
-
   "unitEffect": {
     "1": "Rotando completamente",
     "2": "Estuvo en melee",
     "3": "Ha corrido"
   },
-
   "login": "Iniciar sesión",
   "signUp": "Registrarse",
   "forgotPassword": "Olvidaste tu contraseña?",
@@ -452,22 +414,18 @@
   "enterNewPassword": "Ingresa una nueva contraseña",
   "newPassword": "Nueva contraseña",
   "repeatPassword": "Repetir contraseña",
-
   "teamSize": {
     "title": "Tamaño del equipo",
     "1v1": "1 vs 1",
     "2v2": "2 vs 2"
   },
-
   "offline": "Offline",
   "offlineDescription": "Practica contra bots y juega en modo hotseat con amigos en el mismo dispositivo!",
-
   "premiumCurrencyLeaderboard": {
     "title": "Clasificación de <premiumCurrency/>",
     "subtitle": "¿Quién tiene más <premiumCurrency/>?",
     "description": "¿Quieres ser el primero? <storeLink>Ve a la tienda</storeLink> y consigue <premiumCurrency/>!"
   },
-
   "team": "Equipo",
   "playerType": "Tipo de jugador",
   "human": "Humano",
@@ -477,19 +435,15 @@
     "message": "Han ocurrido nuevos eventos de batalla mientras estabas ausente.\nTe gustaría ver las acciones del último turno?",
     "button": "Ver"
   },
-
   "profile": "Perfil",
   "elo": "Elo",
   "season": "Temporada",
   "of": "de",
   "joinedAt": "Se unió en {{date}}",
   "addPlayer": "Agregar jugador",
-
   "teams": "Equipos",
   "averageElo": "Elo promedio",
-
   "hybridDescription": "Los mapas híbridos usan terreno predefinido no aleatorio, pero permiten a los jugadores usar sus propios ejércitos personalizados para jugar.",
-
   "battleReport": "Informe de batalla",
   "gameEndReasons": {
     "cancelled": "El juego fue cancelado porque al menos uno de los jugadores no envió órdenes en el primer turno.",
@@ -505,7 +459,6 @@
   "horseLost": "Caballos perdidos",
   "gunsLost": "Cañones perdidos",
   "noRewards": "Sin recompensas",
-
   "clan": "Coalición",
   "clans": "Coaliciones",
   "createClan": "Crear Coalición",
@@ -539,7 +492,6 @@
   "reject": "Rechazar",
   "linkCopiedToClipboard": "Enlace copiado al portapapeles",
   "revealPlayers": "Revelar jugadores",
-
   "pagination": {
     "previous": "Anterior",
     "next": "Siguiente",
@@ -547,11 +499,9 @@
     "of": "de",
     "items": "elementos"
   },
-
   "kick": "Expulsar",
   "noDescription": "Sin descripción",
   "save": "Guardar",
-
   "ordersSubmittedDialog": {
     "p1": {
       "sent": "Órdenes enviadas al servidor.",
@@ -561,11 +511,9 @@
     "p2": "Chequeando las órdenes del oponente en {{value}} segundos",
     "b": "Chequear ahora"
   },
-
   "search": {
     "clans": "Buscar coaliciones"
   },
-
   "formation": "Formación",
   "findGame": "Encontrar juego",
   "gameIdOrLink": "ID del juego o link",
@@ -593,14 +541,12 @@
   "rank": "Rango",
   "creatorPrize": "Premio del creador",
   "maxPlayers": "Máximo de jugadores",
-
   "tournamentStatus": {
     "open": "Abierto",
     "active": "Activo",
     "completed": "Completado",
     "cancelled": "Cancelado"
   },
-
   "hasPassword": "Tiene contraseña",
   "autoProgression": "Progresión automática",
   "autoProgressionInfo": "Si esta opción está habilitada, el torneo avanzará automáticamente a la siguiente ronda tan pronto como se complete el último partido de la ronda actual. Si está deshabilitada, el torneo avanzará cuando el administrador lo inicie manualmente o en la fecha y hora programada (si se ha establecido una).",
@@ -635,7 +581,6 @@
     "messagePlural": "{{players}} están ofreciendo un empate. ¿Lo aceptas? El empate solo tendrá efecto si todos los jugadores están de acuerdo."
   },
   "projectilePenetration": "Penetración de proyectiles",
-
   "league": {
     "title": "Liga",
     "a": "Emperador",
@@ -658,14 +603,12 @@
     "g2": "Hierro II",
     "g3": "Hierro III"
   },
-
   "skinTier": {
     "1": "Conscripto",
     "2": "Veterano",
     "3": "Élite",
     "4": "Imperial"
   },
-
   "currentPassword": "Contraseña actual",
   "changePassword": "Cambiar contraseña",
   "endRound": "Finalizar ronda",
@@ -677,7 +620,6 @@
   "altWarning": "Está prohibido el uso de cuentas alternativas para farmear Elo. Si se detecta, se pueden tomar medidas contra las cuentas involucradas.",
   "withdrawFromName": "Retirarse de {{name}}",
   "withdrawTournamentMessage": "¿Estás seguro de que quieres retirarte del torneo?",
-
   "steamBanner": {
     "title": "Añade Lines of Battle a tu Wishlist en Steam!",
     "description": "Ayudanos a alcanzar <0>{{wishlistCount}}</0> para lanzar el juego!",
@@ -699,7 +641,6 @@
   "preset": "Preestablecido",
   "hybrid": "Híbrido",
   "random": "Aleatorio",
-  "classic": "Clásico",
   "join": "Unirse",
   "spectate": "Espectar",
   "gameIsNotFull": "El juego aún no está lleno",
@@ -716,13 +657,11 @@
     "p2": "¡Mantente atento para más actualizaciones y nuevas funciones que llegarán a Lines of Battle!",
     "p3": "Síguenos en las redes sociales para las últimas noticias y anuncios."
   },
-
   "tournamentStartedModal": {
     "title": "Un juego de torneo ha comenzado",
     "message": "¡La ronda {{round}} del torneo {{tournamentName}} ha comenzado!",
     "goButtonText": "Ir al juego del torneo"
   },
-
   "allVisible": "Todo Visible",
   "teamN": "Equipo {{number}}",
   "measuring": "Midiendo...",
@@ -731,9 +670,7 @@
   "connecting": "Conectando...",
   "disconnecting": "Desconectando...",
   "unknown": "Desconocido",
-
   "fogOfWar": "Niebla de guerra",
-
   "low": "Baja",
   "medium": "Media",
   "high": "Alta",
@@ -743,7 +680,6 @@
   "cavalry": "Caballería",
   "artillery": "Artillería",
   "special": "Especial",
-
   "academy": "Academia",
   "encyclopedia": "Enciclopedia",
   "tutorialTips": "Consejos del Tutorial",
@@ -757,5 +693,6 @@
   "scenario": "Escenario",
   "banned": "Baneado",
   "baseAmmo": "Munición base",
-  "range": "Alcance"
+  "range": "Alcance",
+  "faaRangedDamage": "Daño FAA a Distancia"
 }
