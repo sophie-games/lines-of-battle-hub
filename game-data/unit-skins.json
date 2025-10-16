@@ -1799,7 +1799,7 @@
   },
   {
     "id": 209,
-    "name": "chilean-line-infantry",
+    "name": "chilean-viejos-estandartes",
     "tier": 1,
     "premiumPrice": 150,
     "unitType": 1,
@@ -1807,7 +1807,7 @@
   },
   {
     "id": 210,
-    "name": "chilean-hussars",
+    "name": "chilean-husares-de-la-muerte",
     "tier": 1,
     "premiumPrice": 150,
     "unitType": 11,
@@ -1823,7 +1823,7 @@
   },
   {
     "id": 212,
-    "name": "chilean-militia",
+    "name": "chilean-huasos-y-gauchos",
     "tier": 1,
     "premiumPrice": 150,
     "unitType": 10,
@@ -1844,7 +1844,7 @@
   },
   {
     "id": 214,
-    "name": "chilean-lancers",
+    "name": "chilean-haras-nacionales",
     "tier": 1,
     "premiumPrice": 150,
     "unitType": 5,
