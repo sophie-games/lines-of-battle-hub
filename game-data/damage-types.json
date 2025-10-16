@@ -361,7 +361,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 124
+    "ammoCost": 132
   },
   {
     "type": "4lb-cannon-ball",
@@ -413,7 +413,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 136
+    "ammoCost": 148
   },
   {
     "type": "18lb-explosive-shell",
