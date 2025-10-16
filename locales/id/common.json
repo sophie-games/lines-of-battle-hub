@@ -104,7 +104,9 @@
     "createInfo": "Kamu bahkan bisa membuat skenariomu sendiri di <scenarioEditorLink/>."
   },
   "scenarioEditorTags": {
-    "tutorialMessage": " Tidak yakin bagaimana cara menggunakannya? Jangan kawatir, Kami siap membantu kamu! <tutorialLink>Tonton tutorialnya disini.</tutorialLink>"
+    "tutorialMessage": " Tidak yakin bagaimana cara menggunakannya? Jangan kawatir, Kami siap membantu kamu! <tutorialLink>Tonton tutorialnya disini.</tutorialLink>",
+    "randomGuide": "Ingin belajar cara membuat peta acak? Baca <0>panduan ini</0>.",
+    "baleriiMessage": "Pemain Balerii telah membuat editor peta sendiri! Lihat saluran YouTube-nya untuk melihat cara kerjanya:"
   },
   "createScenario": "Buat Skenario",
   "loadScenario": "Muat Skenario",

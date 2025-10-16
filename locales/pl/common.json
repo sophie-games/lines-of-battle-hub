@@ -106,7 +106,9 @@
     "createInfo2": "Lub odwiedzić <0>Community Hub</0> w poszukiwaniu gotowych scenariuszy."
   },
   "scenarioEditorTags": {
-    "tutorialMessage": "Nie wiesz jak dowodzić armią? Nie martw się, mamy to pod kontrolą! <tutorialLink>Obejrzyj poradnik tutaj.</tutorialLink>"
+    "tutorialMessage": "Nie wiesz jak dowodzić armią? Nie martw się, mamy to pod kontrolą! <tutorialLink>Obejrzyj poradnik tutaj.</tutorialLink>",
+    "randomGuide": "Chcesz nauczyć się tworzyć losowe mapy? Przeczytaj <0>ten przewodnik</0>.",
+    "baleriiMessage": "Gracz Balerii stworzył swój własny edytor map! Sprawdź jego kanał YouTube, aby zobaczyć, jak to działa:"
   },
   "createScenario": "Stwórz Scenariusz",
   "loadScenario": "Załaduj Scenariusz",

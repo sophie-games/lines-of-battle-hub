@@ -117,7 +117,8 @@
   },
   "scenarioEditorTags": {
     "tutorialMessage": "사용법을 잘 모르시겠나요? 걱정마세요, 저희가 도와드리겠습니다! <tutorialLink>이 영상을 통해 배워보세요.</tutorialLink>",
-    "randomGuide": "무작위 지도를 만드는 법을 알고 싶으신 가요? <0>이 설명</0>을 읽어보세요."
+    "randomGuide": "무작위 지도를 만드는 법을 알고 싶으신 가요? <0>이 설명</0>을 읽어보세요.",
+    "baleriiMessage": "플레이어 Balerii가 자신만의 맵 에디터를 만들었습니다! 작동 방식을 보려면 그의 YouTube 채널을 확인해보세요:"
   },
   "createScenario": "전역 창작",
   "loadScenario": "전역 불러오기",

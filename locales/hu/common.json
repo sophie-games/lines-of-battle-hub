@@ -103,7 +103,9 @@
     "createInfo": "A saját pályáidat is létrehozhatod emitt: <scenarioEditorLink/>."
   },
   "scenarioEditorTags": {
-    "tutorialMessage": " Bizonytalan vagy? Ne agggódj, van róla videó! <tutorialLink>Nézd meg a tutorial videót itt.</tutorialLink>"
+    "tutorialMessage": " Bizonytalan vagy? Ne agggódj, van róla videó! <tutorialLink>Nézd meg a tutorial videót itt.</tutorialLink>",
+    "randomGuide": "Szeretnél megtanulni véletlenszerű térképeket készíteni? Olvass <0>ezt az útmutatót</0>.",
+    "baleriiMessage": "A Balerii játékos létrehozta a saját térképszerkesztőjét! Nézd meg a YouTube csatornáját, hogy lásd, hogyan működik:"
   },
   "createScenario": "Pálya létrehozása",
   "loadScenario": "Pálya betöltése",

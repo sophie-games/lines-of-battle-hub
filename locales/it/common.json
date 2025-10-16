@@ -103,7 +103,9 @@
     "createInfo": "Puoi anche creare i tuoi scenari nell'<scenarioEditorLink/>."
   },
   "scenarioEditorTags": {
-    "tutorialMessage": "Non sei sicuro di come usarlo? Non preoccuparti, ti copriamo noi! <tutorialLink>Guarda il tutorial qui.</tutorialLink>"
+    "tutorialMessage": "Non sei sicuro di come usarlo? Non preoccuparti, ti copriamo noi! <tutorialLink>Guarda il tutorial qui.</tutorialLink>",
+    "randomGuide": "Vuoi imparare a creare mappe casuali? Leggi <0>questa guida</0>.",
+    "baleriiMessage": "Il giocatore Balerii ha creato il suo editor di mappe! Dai un'occhiata al suo canale YouTube per vedere come funziona:"
   },
   "createScenario": "Crea scenario",
   "loadScenario": "Carica scenario",

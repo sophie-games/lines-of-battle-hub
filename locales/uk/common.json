@@ -99,7 +99,9 @@
     "createInfo": "Ви навіть можете створювати власні сценарії у <scenarioEditorLink/>."
   },
   "scenarioEditorTags": {
-    "tutorialMessage": " Не знаєте, як це використовувати? Не хвилюйтеся — ми подбали про все! <tutorialLink>Watch the tutorial here.</tutorialLink>"
+    "tutorialMessage": " Не знаєте, як це використовувати? Не хвилюйтеся — ми подбали про все! <tutorialLink>Watch the tutorial here.</tutorialLink>",
+    "randomGuide": "Хочете навчитися створювати випадкові карти? Прочитайте <0>цей посібник</0>.",
+    "baleriiMessage": "Гравець Balerii створив власний редактор карт! Подивіться на його YouTube канал, щоб побачити, як це працює:"
   },
   "createScenario": "Створити сценарій",
   "gameStatus": {

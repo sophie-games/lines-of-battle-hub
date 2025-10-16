@@ -116,7 +116,8 @@
   },
   "scenarioEditorTags": {
     "tutorialMessage": "不会用？别担心！<tutorialLink>在这里观看教程。</tutorialLink>",
-    "randomGuide": "想学习如何创建随机地图吗？可以阅读<0>此文档</0>。"
+    "randomGuide": "想学习如何创建随机地图吗？可以阅读<0>此文档</0>。",
+    "baleriiMessage": "玩家Balerii创建了自己的地图编辑器！查看他的YouTube频道了解如何使用："
   },
   "createScenario": "创建战役剧本",
   "loadScenario": "加载战役剧本",
