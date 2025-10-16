@@ -1835,7 +1835,7 @@
     "tier": 3,
     "premiumPrice": 1250,
     "unitType": 11,
-    "discount": 0.5,
+    "discount": 0.75,
     "base": {
       "sprite": "headless-hussarman",
       "width": 18,
