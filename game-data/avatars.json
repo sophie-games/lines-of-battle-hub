@@ -311,8 +311,8 @@
   {
     "id": 40,
     "name": "joan-of-arc",
-    "tier": 1,
-    "premiumPrice": 100,
+    "tier": 3,
+    "premiumPrice": 1250,
     "discount": 0.5
   },
 
@@ -443,6 +443,14 @@
     "name": "suleiman",
     "tier": 1,
     "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 58,
+    "name": "gengis-khan",
+    "tier": 3,
+    "premiumPrice": 1250,
     "discount": 0.5
   }
 ]
