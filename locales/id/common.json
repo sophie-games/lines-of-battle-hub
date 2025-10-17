@@ -555,5 +555,7 @@
   "banned": "Dilarang",
   "baseAmmo": "Ammunisi dasar",
   "range": "Jangkauan",
-  "faaRangedDamage": "Kerusakan FAA Jarak Jauh"
+  "faaRangedDamage": "Kerusakan FAA Jarak Jauh",
+  "quickPlay": "Main cepat",
+  "quickPlayWithCount": "Main cepat ({{count}})"
 }

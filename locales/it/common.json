@@ -550,5 +550,7 @@
   "banned": "Bannato",
   "baseAmmo": "Munizioni base",
   "range": "Gittata",
-  "faaRangedDamage": "Danno FAA a Distanza"
+  "faaRangedDamage": "Danno FAA a Distanza",
+  "quickPlay": "Gioco veloce",
+  "quickPlayWithCount": "Gioco veloce ({{count}})"
 }

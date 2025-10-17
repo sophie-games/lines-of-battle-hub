@@ -839,5 +839,7 @@
   "banned": "封禁",
   "baseAmmo": "基础弹药",
   "range": "射程",
-  "faaRangedDamage": "FAA远程伤害"
+  "faaRangedDamage": "FAA远程伤害",
+  "quickPlay": "快速游戏",
+  "quickPlayWithCount": "快速游戏 ({{count}})"
 }

@@ -744,5 +744,7 @@
   "banned": "Zablokowany",
   "baseAmmo": "Podstawowa amunicja",
   "range": "Zasięg",
-  "faaRangedDamage": "Obrażenia FAA na Odległość"
+  "faaRangedDamage": "Obrażenia FAA na Odległość",
+  "quickPlay": "Szybka gra",
+  "quickPlayWithCount": "Szybka gra ({{count}})"
 }

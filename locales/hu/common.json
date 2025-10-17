@@ -493,5 +493,7 @@
     "unknown": "Ismeretlen ok."
   },
   "range": "Távolság",
-  "faaRangedDamage": "FAA Távolsági Sebzés"
+  "faaRangedDamage": "FAA Távolsági Sebzés",
+  "quickPlay": "Gyors játék",
+  "quickPlayWithCount": "Gyors játék ({{count}})"
 }

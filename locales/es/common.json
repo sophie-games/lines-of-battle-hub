@@ -699,5 +699,7 @@
   "banned": "Baneado",
   "baseAmmo": "Munición base",
   "range": "Alcance",
-  "faaRangedDamage": "Daño FAA a Distancia"
+  "faaRangedDamage": "Daño FAA a Distancia",
+  "quickPlay": "Juego rápido",
+  "quickPlayWithCount": "Juego rápido ({{count}})"
 }

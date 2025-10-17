@@ -549,5 +549,7 @@
   "banned": "禁止",
   "baseAmmo": "基本弾薬",
   "range": "射程",
-  "faaRangedDamage": "FAA射撃ダメージ"
+  "faaRangedDamage": "FAA射撃ダメージ",
+  "quickPlay": "クイックプレイ",
+  "quickPlayWithCount": "クイックプレイ ({{count}})"
 }

@@ -553,5 +553,7 @@
   "banned": "Yasaklandı",
   "baseAmmo": "Temel cephane",
   "range": "Menzil",
-  "faaRangedDamage": "FAA Uzak Mesafe Hasarı"
+  "faaRangedDamage": "FAA Uzak Mesafe Hasarı",
+  "quickPlay": "Hızlı oyun",
+  "quickPlayWithCount": "Hızlı oyun ({{count}})"
 }
