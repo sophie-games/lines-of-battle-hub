@@ -452,5 +452,13 @@
     "tier": 3,
     "premiumPrice": 1250,
     "discount": 0.5
+  },
+
+  {
+    "id": 59,
+    "name": "stapleton-cotton",
+    "tier": 2,
+    "premiumPrice": 300,
+    "discount": 0.5
   }
 ]
