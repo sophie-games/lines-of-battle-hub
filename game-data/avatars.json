@@ -402,9 +402,9 @@
 
   {
     "id": 52,
-    "name": "idk-how-to-call-this",
-    "tier": 2,
-    "premiumPrice": 300,
+    "name": "creepy-napoleon",
+    "tier": 3,
+    "premiumPrice": 1250,
     "discount": 0.75
   },
 
@@ -418,7 +418,7 @@
 
   {
     "id": 54,
-    "name": "tlou-ney",
+    "name": "zombie-ney",
     "tier": 2,
     "premiumPrice": 300,
     "discount": 0.75
