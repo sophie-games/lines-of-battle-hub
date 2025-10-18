@@ -243,5 +243,14 @@
     "tier": 2,
     "premiumPrice": 350,
     "discount": 0.5
+  },
+
+  {
+    "id": 27,
+    "name": "imperial-ottoman-standard",
+    "base": { "sprite": "imperial-ottoman-standard" },
+    "tier": 3,
+    "premiumPrice": 720,
+    "discount": 0.5
   }
 ]
