@@ -424,6 +424,10 @@
   },
   "profile": "Profil",
   "elo": "Elo",
+  "level": "Niveau",
+  "baseLevelExperience": "Expérience de base du niveau",
+  "experience": "Expérience",
+  "nextLevelExperience": "Expérience du niveau suivant",
   "season": "Saison",
   "of": "de",
   "joinedAt": "Inscrit le {{date}}",
@@ -569,5 +573,18 @@
   "range": "Portée",
   "faaRangedDamage": "Dégâts FAA à Distance",
   "quickPlay": "Jeu rapide",
-  "quickPlayWithCount": "Jeu rapide ({{count}})"
+  "quickPlayWithCount": "Jeu rapide ({{count}})",
+  "discord": {
+    "link": "Lier Discord",
+    "unlink": "Délier Discord",
+    "confirmMessage": "Êtes-vous sûr de vouloir délier votre compte Discord ?",
+    "authWaitMessage": "Veuillez patienter pendant que nous traitons votre autorisation Discord...",
+    "authSuccessMessage": "Compte Discord lié avec succès !",
+    "authErrorMessage": "L'autorisation Discord a échoué. Veuillez réessayer.",
+    "linkingAccount": "Liaison du compte Discord..."
+  },
+  "redirecting": "Redirection...",
+  "success": "Succès !",
+  "error": "Erreur !",
+  "processing": "Traitement..."
 }

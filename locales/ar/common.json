@@ -10,6 +10,10 @@
   "store": "المتجر",
   "supporters": "المؤيدون",
   "elo": "Elo",
+  "level": "المستوى",
+  "baseLevelExperience": "خبرة المستوى الأساسية",
+  "experience": "الخبرة",
+  "nextLevelExperience": "خبرة المستوى التالي",
   "season": "الموسم",
   "of": "من",
   "joinedAt": "انضم في {{date}}",
@@ -841,5 +845,18 @@
   "range": "المدى",
   "faaRangedDamage": "ضرر FAA المدى",
   "quickPlay": "لعب سريع",
-  "quickPlayWithCount": "لعب سريع ({{count}})"
+  "quickPlayWithCount": "لعب سريع ({{count}})",
+  "discord": {
+    "link": "ربط Discord",
+    "unlink": "إلغاء ربط Discord",
+    "confirmMessage": "هل أنت متأكد من أنك تريد إلغاء ربط حساب Discord الخاص بك؟",
+    "authWaitMessage": "يرجى الانتظار بينما نعالج تفويض Discord الخاص بك...",
+    "authSuccessMessage": "تم ربط حساب Discord بنجاح!",
+    "authErrorMessage": "فشل تفويض Discord. يرجى المحاولة مرة أخرى.",
+    "linkingAccount": "جاري ربط حساب Discord..."
+  },
+  "redirecting": "جاري إعادة التوجيه...",
+  "success": "نجح!",
+  "error": "خطأ!",
+  "processing": "جاري المعالجة..."
 }

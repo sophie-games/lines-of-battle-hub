@@ -10,6 +10,10 @@
   "store": "Áruház",
   "supporters": "Támogatóink",
   "elo": "Élő",
+  "level": "Szint",
+  "baseLevelExperience": "Alapszint tapasztalat",
+  "experience": "Tapasztalat",
+  "nextLevelExperience": "Következő szint tapasztalata",
   "season": "Szezon",
   "of": "a",
   "joinedAt": "Csatlakozás dátuma: {{date}}",
@@ -495,5 +499,18 @@
   "range": "Távolság",
   "faaRangedDamage": "FAA Távolsági Sebzés",
   "quickPlay": "Gyors játék",
-  "quickPlayWithCount": "Gyors játék ({{count}})"
+  "quickPlayWithCount": "Gyors játék ({{count}})",
+  "discord": {
+    "link": "Discord összekapcsolása",
+    "unlink": "Discord leválasztása",
+    "confirmMessage": "Biztosan le szeretnéd választani a Discord fiókodat?",
+    "authWaitMessage": "Kérlek várj, amíg feldolgozzuk a Discord engedélyezésedet...",
+    "authSuccessMessage": "Discord fiók sikeresen összekapcsolva!",
+    "authErrorMessage": "A Discord engedélyezés sikertelen. Kérlek próbáld újra.",
+    "linkingAccount": "Discord fiók összekapcsolása..."
+  },
+  "redirecting": "Átirányítás...",
+  "success": "Siker!",
+  "error": "Hiba!",
+  "processing": "Feldolgozás..."
 }

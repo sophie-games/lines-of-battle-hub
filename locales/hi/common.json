@@ -10,6 +10,10 @@
   "store": "स्टोर",
   "supporters": "समर्थक",
   "elo": "एलो",
+  "level": "स्तर",
+  "baseLevelExperience": "आधार स्तर अनुभव",
+  "experience": "अनुभव",
+  "nextLevelExperience": "अगले स्तर का अनुभव",
   "season": "सीज़न",
   "of": "का",
   "joinedAt": "{{date}} को शामिल हुए",
@@ -841,5 +845,18 @@
   "range": "रेंज",
   "faaRangedDamage": "FAA रेंज्ड डैमेज",
   "quickPlay": "त्वरित खेल",
-  "quickPlayWithCount": "त्वरित खेल ({{count}})"
+  "quickPlayWithCount": "त्वरित खेल ({{count}})",
+  "discord": {
+    "link": "Discord लिंक करें",
+    "unlink": "Discord अनलिंक करें",
+    "confirmMessage": "क्या आप वाकई अपना Discord खाता अनलिंक करना चाहते हैं?",
+    "authWaitMessage": "कृपया प्रतीक्षा करें जबकि हम आपकी Discord प्राधिकरण को संसाधित करते हैं...",
+    "authSuccessMessage": "Discord खाता सफलतापूर्वक लिंक हो गया!",
+    "authErrorMessage": "Discord प्राधिकरण विफल। कृपया पुनः प्रयास करें।",
+    "linkingAccount": "Discord खाता लिंक कर रहे हैं..."
+  },
+  "redirecting": "पुनर्निर्देशित कर रहे हैं...",
+  "success": "सफलता!",
+  "error": "त्रुटि!",
+  "processing": "संसाधित कर रहे हैं..."
 }

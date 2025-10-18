@@ -10,6 +10,10 @@
   "store": "Negozio",
   "supporters": "Sostenitori",
   "elo": "Elo",
+  "level": "Livello",
+  "baseLevelExperience": "Esperienza base del livello",
+  "experience": "Esperienza",
+  "nextLevelExperience": "Esperienza del livello successivo",
   "season": "Stagione",
   "of": "di",
   "joinedAt": "Iscritto il {{date}}",
@@ -552,5 +556,18 @@
   "range": "Gittata",
   "faaRangedDamage": "Danno FAA a Distanza",
   "quickPlay": "Gioco veloce",
-  "quickPlayWithCount": "Gioco veloce ({{count}})"
+  "quickPlayWithCount": "Gioco veloce ({{count}})",
+  "discord": {
+    "link": "Collega Discord",
+    "unlink": "Scollega Discord",
+    "confirmMessage": "Sei sicuro di voler scollegare il tuo account Discord?",
+    "authWaitMessage": "Attendere mentre elaboriamo l'autorizzazione Discord...",
+    "authSuccessMessage": "Account Discord collegato con successo!",
+    "authErrorMessage": "Autorizzazione Discord fallita. Riprova.",
+    "linkingAccount": "Collegamento account Discord..."
+  },
+  "redirecting": "Reindirizzamento...",
+  "success": "Successo!",
+  "error": "Errore!",
+  "processing": "Elaborazione..."
 }

@@ -10,6 +10,10 @@
   "store": "Cửa hàng",
   "supporters": "Người ủng hộ",
   "elo": "Elo",
+  "level": "Cấp độ",
+  "baseLevelExperience": "Kinh nghiệm cơ bản cấp độ",
+  "experience": "Kinh nghiệm",
+  "nextLevelExperience": "Kinh nghiệm cấp tiếp theo",
   "season": "Mùa",
   "of": "của",
   "joinedAt": "Tham gia vào {{date}}",
@@ -841,5 +845,18 @@
   "range": "Tầm",
   "faaRangedDamage": "Sát Thương FAA Tầm Xa",
   "quickPlay": "Chơi nhanh",
-  "quickPlayWithCount": "Chơi nhanh ({{count}})"
+  "quickPlayWithCount": "Chơi nhanh ({{count}})",
+  "discord": {
+    "link": "Liên kết Discord",
+    "unlink": "Hủy liên kết Discord",
+    "confirmMessage": "Bạn có chắc chắn muốn hủy liên kết tài khoản Discord của mình?",
+    "authWaitMessage": "Vui lòng đợi trong khi chúng tôi xử lý ủy quyền Discord của bạn...",
+    "authSuccessMessage": "Tài khoản Discord đã được liên kết thành công!",
+    "authErrorMessage": "Ủy quyền Discord thất bại. Vui lòng thử lại.",
+    "linkingAccount": "Đang liên kết tài khoản Discord..."
+  },
+  "redirecting": "Đang chuyển hướng...",
+  "success": "Thành công!",
+  "error": "Lỗi!",
+  "processing": "Đang xử lý..."
 }

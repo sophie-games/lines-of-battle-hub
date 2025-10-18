@@ -10,6 +10,10 @@
   "store": "Магазин",
   "supporters": "Спонсоры",
   "elo": "Эло",
+  "level": "Уровень",
+  "baseLevelExperience": "Базовый опыт уровня",
+  "experience": "Опыт",
+  "nextLevelExperience": "Опыт следующего уровня",
   "season": "Сезон",
   "of": "из",
   "joinedAt": "Дата регистрации: {{date}}",
@@ -841,5 +845,18 @@
   "range": "Дальность",
   "faaRangedDamage": "Огневая мощь (Огонь при движении)",
   "quickPlay": "Быстрая игра",
-  "quickPlayWithCount": "Быстрая игра ({{count}})"
+  "quickPlayWithCount": "Быстрая игра ({{count}})",
+  "discord": {
+    "link": "Связать Discord",
+    "unlink": "Отвязать Discord",
+    "confirmMessage": "Вы уверены, что хотите отвязать свой аккаунт Discord?",
+    "authWaitMessage": "Пожалуйста, подождите, пока мы обрабатываем вашу авторизацию Discord...",
+    "authSuccessMessage": "Аккаунт Discord успешно связан!",
+    "authErrorMessage": "Авторизация Discord не удалась. Попробуйте снова.",
+    "linkingAccount": "Связывание аккаунта Discord..."
+  },
+  "redirecting": "Перенаправление...",
+  "success": "Успех!",
+  "error": "Ошибка!",
+  "processing": "Обработка..."
 }

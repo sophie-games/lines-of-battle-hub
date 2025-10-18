@@ -442,6 +442,10 @@
   },
   "profile": "Perfil",
   "elo": "Elo",
+  "level": "Nivel",
+  "baseLevelExperience": "Experiencia base del nivel",
+  "experience": "Experiencia",
+  "nextLevelExperience": "Experiencia del siguiente nivel",
   "season": "Temporada",
   "of": "de",
   "joinedAt": "Se unió en {{date}}",
@@ -701,5 +705,18 @@
   "range": "Alcance",
   "faaRangedDamage": "Daño FAA a Distancia",
   "quickPlay": "Juego rápido",
-  "quickPlayWithCount": "Juego rápido ({{count}})"
+  "quickPlayWithCount": "Juego rápido ({{count}})",
+  "discord": {
+    "link": "Vincular Discord",
+    "unlink": "Desvincular Discord",
+    "confirmMessage": "¿Estás seguro de que quieres desvincular tu cuenta de Discord?",
+    "authWaitMessage": "Por favor espera mientras procesamos tu autorización de Discord...",
+    "authSuccessMessage": "¡Cuenta de Discord vinculada exitosamente!",
+    "authErrorMessage": "Falló la autorización de Discord. Por favor intenta de nuevo.",
+    "linkingAccount": "Vinculando cuenta de Discord..."
+  },
+  "redirecting": "Redirigiendo...",
+  "success": "¡Éxito!",
+  "error": "¡Error!",
+  "processing": "Procesando..."
 }

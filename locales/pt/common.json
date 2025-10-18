@@ -10,6 +10,10 @@
   "store": "Loja",
   "supporters": "Apoiadores",
   "elo": "Elo",
+  "level": "Nível",
+  "baseLevelExperience": "Experiência base do nível",
+  "experience": "Experiência",
+  "nextLevelExperience": "Experiência do próximo nível",
   "season": "Temporada",
   "of": "de",
   "joinedAt": "Entrou em {{date}}",
@@ -552,5 +556,18 @@
   "range": "Alcance",
   "faaRangedDamage": "Dano FAA à Distância",
   "quickPlay": "Jogo rápido",
-  "quickPlayWithCount": "Jogo rápido ({{count}})"
+  "quickPlayWithCount": "Jogo rápido ({{count}})",
+  "discord": {
+    "link": "Vincular Discord",
+    "unlink": "Desvincular Discord",
+    "confirmMessage": "Tem certeza de que deseja desvincular sua conta Discord?",
+    "authWaitMessage": "Aguarde enquanto processamos sua autorização Discord...",
+    "authSuccessMessage": "Conta Discord vinculada com sucesso!",
+    "authErrorMessage": "Autorização Discord falhou. Tente novamente.",
+    "linkingAccount": "Vinculando conta Discord..."
+  },
+  "redirecting": "Redirecionando...",
+  "success": "Sucesso!",
+  "error": "Erro!",
+  "processing": "Processando..."
 }

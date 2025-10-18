@@ -10,6 +10,10 @@
   "store": "ストア",
   "supporters": "サポーター",
   "elo": "Elo",
+  "level": "レベル",
+  "baseLevelExperience": "基本レベル経験値",
+  "experience": "経験値",
+  "nextLevelExperience": "次のレベルの経験値",
   "season": "シーズン",
   "of": "の",
   "joinedAt": "{{date}} に参加",
@@ -551,5 +555,18 @@
   "range": "射程",
   "faaRangedDamage": "FAA射撃ダメージ",
   "quickPlay": "クイックプレイ",
-  "quickPlayWithCount": "クイックプレイ ({{count}})"
+  "quickPlayWithCount": "クイックプレイ ({{count}})",
+  "discord": {
+    "link": "Discordをリンク",
+    "unlink": "Discordのリンクを解除",
+    "confirmMessage": "Discordアカウントのリンクを解除してもよろしいですか？",
+    "authWaitMessage": "Discord認証を処理中です。お待ちください...",
+    "authSuccessMessage": "Discordアカウントが正常にリンクされました！",
+    "authErrorMessage": "Discord認証に失敗しました。もう一度お試しください。",
+    "linkingAccount": "Discordアカウントをリンク中..."
+  },
+  "redirecting": "リダイレクト中...",
+  "success": "成功！",
+  "error": "エラー！",
+  "processing": "処理中..."
 }

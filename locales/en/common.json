@@ -10,6 +10,10 @@
   "store": "Store",
   "supporters": "Supporters",
   "elo": "Elo",
+  "level": "Level",
+  "nextLevelExperience": "Next level experience",
+  "baseLevelExperience": "Base level experience",
+  "experience": "Experience",
   "season": "Season",
   "of": "of",
   "joinedAt": "Joined at {{date}}",
@@ -841,5 +845,19 @@
   "range": "Range",
   "faaRangedDamage": "FAA Ranged Damage",
   "quickPlay": "Quick play",
-  "quickPlayWithCount": "Quick play ({{count}})"
+  "quickPlayWithCount": "Quick play ({{count}})",
+
+  "discord": {
+    "link": "Link Discord",
+    "unlink": "Unlink Discord",
+    "confirmMessage": "Are you sure you want to unlink your Discord account?",
+    "authWaitMessage": "Please wait while we process your Discord authorization...",
+    "authSuccessMessage": "Discord account linked successfully!",
+    "authErrorMessage": "Discord authorization failed. Please try again.",
+    "linkingAccount": "Linking Discord account..."
+  },
+  "redirecting": "Redirecting...",
+  "success": "Success!",
+  "error": "Error!",
+  "processing": "Processing..."
 }

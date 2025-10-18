@@ -10,6 +10,10 @@
   "store": "Магазин",
   "supporters": "Меценати",
   "elo": "Ело",
+  "level": "Рівень",
+  "baseLevelExperience": "Базовий досвід рівня",
+  "experience": "Досвід",
+  "nextLevelExperience": "Досвід наступного рівня",
   "season": "Сезон",
   "of": "з",
   "joinedAt": "Приєднано {{date}}",
@@ -553,5 +557,18 @@
   "range": "Дальність",
   "faaRangedDamage": "Урон FAA на Дистанції",
   "quickPlay": "Швидка гра",
-  "quickPlayWithCount": "Швидка гра ({{count}})"
+  "quickPlayWithCount": "Швидка гра ({{count}})",
+  "discord": {
+    "link": "Пов'язати Discord",
+    "unlink": "Відв'язати Discord",
+    "confirmMessage": "Ви впевнені, що хочете відв'язати свій обліковий запис Discord?",
+    "authWaitMessage": "Будь ласка, зачекайте, поки ми обробляємо вашу авторизацію Discord...",
+    "authSuccessMessage": "Обліковий запис Discord успішно пов'язано!",
+    "authErrorMessage": "Авторизація Discord не вдалася. Спробуйте ще раз.",
+    "linkingAccount": "Пов'язування облікового запису Discord..."
+  },
+  "redirecting": "Перенаправлення...",
+  "success": "Успіх!",
+  "error": "Помилка!",
+  "processing": "Обробка..."
 }

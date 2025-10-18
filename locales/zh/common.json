@@ -10,6 +10,10 @@
   "store": "商店",
   "supporters": "赞助者",
   "elo": "Elo",
+  "level": "等级",
+  "baseLevelExperience": "基础等级经验",
+  "experience": "经验",
+  "nextLevelExperience": "下一级经验",
   "season": "赛季",
   "of": "/",
   "joinedAt": "加入于{{date}}",
@@ -841,5 +845,18 @@
   "range": "射程",
   "faaRangedDamage": "FAA远程伤害",
   "quickPlay": "快速游戏",
-  "quickPlayWithCount": "快速游戏 ({{count}})"
+  "quickPlayWithCount": "快速游戏 ({{count}})",
+  "discord": {
+    "link": "绑定 Discord",
+    "unlink": "解绑 Discord",
+    "confirmMessage": "您确定要解绑您的 Discord 账户吗？",
+    "authWaitMessage": "请稍候，我们正在处理您的 Discord 授权...",
+    "authSuccessMessage": "Discord 账户绑定成功！",
+    "authErrorMessage": "Discord 授权失败。请重试。",
+    "linkingAccount": "正在绑定 Discord 账户..."
+  },
+  "redirecting": "重定向中...",
+  "success": "成功！",
+  "error": "错误！",
+  "processing": "处理中..."
 }

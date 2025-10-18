@@ -10,6 +10,10 @@
   "store": "Κατάστημα",
   "supporters": "υποστηρικτές",
   "elo": "Elo",
+  "level": "Επίπεδο",
+  "baseLevelExperience": "Βασική εμπειρία επιπέδου",
+  "experience": "Εμπειρία",
+  "nextLevelExperience": "Εμπειρία επόμενου επιπέδου",
   "season": "Σεζόν",
   "of": "από",
   "joinedAt": "εγγράφηκες στίς {{date}}",
@@ -771,5 +775,18 @@
   "range": "Εμβέλεια",
   "faaRangedDamage": "FAA Βολή Εμβέλειας",
   "quickPlay": "Γρήγορο παιχνίδι",
-  "quickPlayWithCount": "Γρήγορο παιχνίδι ({{count}})"
+  "quickPlayWithCount": "Γρήγορο παιχνίδι ({{count}})",
+  "discord": {
+    "link": "Σύνδεση Discord",
+    "unlink": "Αποσύνδεση Discord",
+    "confirmMessage": "Είστε σίγουροι ότι θέλετε να αποσυνδέσετε τον λογαριασμό Discord σας;",
+    "authWaitMessage": "Παρακαλώ περιμένετε ενώ επεξεργαζόμαστε την εξουσιοδότηση Discord σας...",
+    "authSuccessMessage": "Ο λογαριασμός Discord συνδέθηκε επιτυχώς!",
+    "authErrorMessage": "Η εξουσιοδότηση Discord απέτυχε. Παρακαλώ δοκιμάστε ξανά.",
+    "linkingAccount": "Σύνδεση λογαριασμού Discord..."
+  },
+  "redirecting": "Ανακατεύθυνση...",
+  "success": "Επιτυχία!",
+  "error": "Σφάλμα!",
+  "processing": "Επεξεργασία..."
 }

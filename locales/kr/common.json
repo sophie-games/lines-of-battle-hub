@@ -10,6 +10,10 @@
   "store": "상점",
   "supporters": "후원자",
   "elo": "Elo",
+  "level": "레벨",
+  "baseLevelExperience": "기본 레벨 경험치",
+  "experience": "경험치",
+  "nextLevelExperience": "다음 레벨 경험치",
   "season": "시즌",
   "of": "중",
   "joinedAt": "가입일 : {{date}}",
@@ -842,5 +846,18 @@
   "range": "범위",
   "faaRangedDamage": "FAA 원거리 피해",
   "quickPlay": "빠른 플레이",
-  "quickPlayWithCount": "빠른 플레이 ({{count}})"
+  "quickPlayWithCount": "빠른 플레이 ({{count}})",
+  "discord": {
+    "link": "Discord 연결",
+    "unlink": "Discord 연결 해제",
+    "confirmMessage": "Discord 계정 연결을 해제하시겠습니까?",
+    "authWaitMessage": "Discord 인증을 처리하는 중입니다. 잠시만 기다려주세요...",
+    "authSuccessMessage": "Discord 계정이 성공적으로 연결되었습니다!",
+    "authErrorMessage": "Discord 인증에 실패했습니다. 다시 시도해주세요.",
+    "linkingAccount": "Discord 계정 연결 중..."
+  },
+  "redirecting": "리디렉션 중...",
+  "success": "성공!",
+  "error": "오류!",
+  "processing": "처리 중..."
 }

@@ -10,6 +10,10 @@
   "store": "Mağaza",
   "supporters": "Destekçiler",
   "elo": "Elo",
+  "level": "Seviye",
+  "baseLevelExperience": "Temel seviye deneyimi",
+  "experience": "Deneyim",
+  "nextLevelExperience": "Sonraki seviye deneyimi",
   "season": "Sezon",
   "of": "arasında",
   "joinedAt": "{{date}} tarihinde katıldı",
@@ -555,5 +559,18 @@
   "range": "Menzil",
   "faaRangedDamage": "FAA Uzak Mesafe Hasarı",
   "quickPlay": "Hızlı oyun",
-  "quickPlayWithCount": "Hızlı oyun ({{count}})"
+  "quickPlayWithCount": "Hızlı oyun ({{count}})",
+  "discord": {
+    "link": "Discord Bağla",
+    "unlink": "Discord Bağlantısını Kes",
+    "confirmMessage": "Discord hesabınızın bağlantısını kesmek istediğinizden emin misiniz?",
+    "authWaitMessage": "Discord yetkilendirmenizi işlerken lütfen bekleyin...",
+    "authSuccessMessage": "Discord hesabı başarıyla bağlandı!",
+    "authErrorMessage": "Discord yetkilendirmesi başarısız oldu. Lütfen tekrar deneyin.",
+    "linkingAccount": "Discord hesabı bağlanıyor..."
+  },
+  "redirecting": "Yönlendiriliyor...",
+  "success": "Başarılı!",
+  "error": "Hata!",
+  "processing": "İşleniyor..."
 }

@@ -10,6 +10,10 @@
   "store": "Sklep",
   "supporters": "Wspierający",
   "elo": "Elo",
+  "level": "Poziom",
+  "baseLevelExperience": "Podstawowe doświadczenie poziomu",
+  "experience": "Doświadczenie",
+  "nextLevelExperience": "Doświadczenie następnego poziomu",
   "season": "Sezon",
   "of": "z",
   "joinedAt": "Dołączono {{date}}",
@@ -746,5 +750,18 @@
   "range": "Zasięg",
   "faaRangedDamage": "Obrażenia FAA na Odległość",
   "quickPlay": "Szybka gra",
-  "quickPlayWithCount": "Szybka gra ({{count}})"
+  "quickPlayWithCount": "Szybka gra ({{count}})",
+  "discord": {
+    "link": "Połącz Discord",
+    "unlink": "Rozłącz Discord",
+    "confirmMessage": "Czy na pewno chcesz rozłączyć swoje konto Discord?",
+    "authWaitMessage": "Proszę czekać, przetwarzamy autoryzację Discord...",
+    "authSuccessMessage": "Konto Discord zostało pomyślnie połączone!",
+    "authErrorMessage": "Autoryzacja Discord nie powiodła się. Spróbuj ponownie.",
+    "linkingAccount": "Łączenie konta Discord..."
+  },
+  "redirecting": "Przekierowywanie...",
+  "success": "Sukces!",
+  "error": "Błąd!",
+  "processing": "Przetwarzanie..."
 }

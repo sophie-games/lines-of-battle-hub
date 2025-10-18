@@ -10,6 +10,10 @@
   "store": "Toko",
   "supporters": "Supporters",
   "elo": "Elo",
+  "level": "Level",
+  "baseLevelExperience": "Pengalaman dasar level",
+  "experience": "Pengalaman",
+  "nextLevelExperience": "Pengalaman level berikutnya",
   "season": "Musim",
   "of": "dari",
   "joinedAt": "Bergabung pada {{date}}",
@@ -557,5 +561,18 @@
   "range": "Jangkauan",
   "faaRangedDamage": "Kerusakan FAA Jarak Jauh",
   "quickPlay": "Main cepat",
-  "quickPlayWithCount": "Main cepat ({{count}})"
+  "quickPlayWithCount": "Main cepat ({{count}})",
+  "discord": {
+    "link": "Tautkan Discord",
+    "unlink": "Putuskan Discord",
+    "confirmMessage": "Apakah Anda yakin ingin memutuskan akun Discord Anda?",
+    "authWaitMessage": "Harap tunggu sementara kami memproses otorisasi Discord Anda...",
+    "authSuccessMessage": "Akun Discord berhasil ditautkan!",
+    "authErrorMessage": "Otorisasi Discord gagal. Silakan coba lagi.",
+    "linkingAccount": "Menautkan akun Discord..."
+  },
+  "redirecting": "Mengarahkan ulang...",
+  "success": "Berhasil!",
+  "error": "Kesalahan!",
+  "processing": "Memproses..."
 }
