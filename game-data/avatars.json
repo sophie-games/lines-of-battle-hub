@@ -468,5 +468,13 @@
     "tier": 3,
     "premiumPrice": 1250,
     "discount": 0.5
+  },
+
+  {
+    "id": 61,
+    "name": "white-lily",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.75
   }
 ]
