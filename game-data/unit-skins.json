@@ -1849,5 +1849,14 @@
     "premiumPrice": 150,
     "unitType": 5,
     "discount": 0.5
+  },
+
+  {
+    "id": 215,
+    "name": "roman-legion",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 1,
+    "discount": 0.5
   }
 ]
