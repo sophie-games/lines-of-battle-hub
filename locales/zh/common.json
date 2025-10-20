@@ -702,7 +702,7 @@
   "steamBanner": {
     "title": "在Steam上将Lines of Battle加入愿望单吧！",
     "description": "我们达到 <0>{{wishlistCount}}</0> 后就可以发行游戏！",
-    "descriptionBoldPart": "30000愿望单",
+    "descriptionBoldPart": "{{wishlists}}愿望单",
     "buttonText": "现在加入"
   },
   "offerDrawCooldownMessage": "上一次和局提议是在几回合之前，你可以在 {{turns}} 回合后再次提议和局。 ",

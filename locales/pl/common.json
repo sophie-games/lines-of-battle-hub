@@ -652,7 +652,7 @@
   "steamBanner": {
     "title": "Dodaj Lines of Battle do Listy Życzeń na Steamie!",
     "description": "Pomóż nam osiągnąć <0>{{wishlistCount}}</0> do premiery gry!",
-    "descriptionBoldPart": "30,000 kliknięć",
+    "descriptionBoldPart": "{{wishlists}} kliknięć",
     "buttonText": "Dodaj do listy życzeń"
   },
   "offerDrawCooldownMessage": "Remis został zaproponowany kilka tur temu. Możesz zaoferować remis ponownie za {{turns}} tur.",

@@ -569,4 +569,11 @@
   "success": "成功！",
   "error": "エラー！",
   "processing": "処理中..."
+  ,
+  "steamBanner": {
+    "title": "SteamのウィッシュリストにLines of Battleを追加！",
+    "description": "ゲーム発売のために<0>{{wishlistCount}}</0>を達成するのを手伝ってください！",
+    "descriptionBoldPart": "{{wishlists}} ウィッシュリスト",
+    "buttonText": "今すぐウィッシュリストに追加"
+  }
 }

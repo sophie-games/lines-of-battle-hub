@@ -702,7 +702,7 @@
   "steamBanner": {
     "title": "स्टीम पर लाइन्स ऑफ बैटल को विशलिस्ट करें!",
     "description": "खेल लॉन्च करने के लिए <0>{{wishlistCount}}</0> तक पहुंचने में हमारी मदद करें!",
-    "descriptionBoldPart": "30,000 विशलिस्ट",
+    "descriptionBoldPart": "{{wishlists}} विशलिस्ट",
     "buttonText": "अभी विशलिस्ट में जोड़ें"
   },
   "offerDrawCooldownMessage": "अंतिम ड्रॉ कुछ चाल पहले पेश किया गया था। आप {{turns}} चालों में एक नया ड्रॉ पेश कर सकते हैं।",

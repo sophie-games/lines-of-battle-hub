@@ -513,4 +513,11 @@
   "success": "Siker!",
   "error": "Hiba!",
   "processing": "Feldolgozás..."
+  ,
+  "steamBanner": {
+    "title": "Tedd a Lines of Battle-t a Steam kívánságlistádra!",
+    "description": "Segíts elérnünk a <0>{{wishlistCount}}</0> célt a megjelenéshez!",
+    "descriptionBoldPart": "{{wishlists}} kívánságlista",
+    "buttonText": "Hozzáadás a kívánságlistához"
+  }
 }

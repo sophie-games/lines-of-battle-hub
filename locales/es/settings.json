@@ -105,7 +105,8 @@
     "toggleFormation": "Alternar formación",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
     "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
-    "openChat": "Abrir chat"
+    "openChat": "Abrir chat",
+    "toggleFullscreen": "Alternar pantalla completa"
   },
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"

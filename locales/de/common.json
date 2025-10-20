@@ -573,4 +573,11 @@
   "success": "Erfolg!",
   "error": "Fehler!",
   "processing": "Verarbeitung..."
+  ,
+  "steamBanner": {
+    "title": "Setze Lines of Battle auf deine Steam-Wunschliste!",
+    "description": "Hilf uns, <0>{{wishlistCount}}</0> zu erreichen, um das Spiel zu veröffentlichen!",
+    "descriptionBoldPart": "{{wishlists}} Wunschlisten",
+    "buttonText": "Jetzt zur Wunschliste hinzufügen"
+  }
 }

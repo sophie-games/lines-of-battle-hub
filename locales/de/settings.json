@@ -105,7 +105,8 @@
     "toggleFormation": "Formation umschalten",
     "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
-    "openChat": "Chat öffnen"
+    "openChat": "Chat öffnen",
+    "toggleFullscreen": "Vollbild umschalten"
   },
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"

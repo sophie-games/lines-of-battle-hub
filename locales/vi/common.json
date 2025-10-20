@@ -702,7 +702,7 @@
   "steamBanner": {
     "title": "Thêm Lines of Battle vào Wishlist trên Steam!",
     "description": "Giúp chúng tôi đạt <0>{{wishlistCount}}</0> để ra mắt trò chơi!",
-    "descriptionBoldPart": "30,000 wishlist",
+    "descriptionBoldPart": "{{wishlists}} wishlist",
     "buttonText": "Thêm vào Wishlist ngay"
   },
   "offerDrawCooldownMessage": "Lần hòa cuối cùng được đề nghị vài lượt trước. Bạn có thể đề nghị hòa mới trong {{turns}} lượt.",

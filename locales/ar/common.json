@@ -702,7 +702,7 @@
   "steamBanner": {
     "title": "أضف خطوط المعركة إلى قائمة الأمنيات على Steam!",
     "description": "ساعدنا في الوصول إلى <0>{{wishlistCount}}</0> لإطلاق اللعبة!",
-    "descriptionBoldPart": "30,000 قائمة أمنيات",
+    "descriptionBoldPart": "{{wishlists}} قائمة أمنيات",
     "buttonText": "أضف إلى قائمة الأمنيات الآن"
   },
   "offerDrawCooldownMessage": "تم عرض آخر تعادل قبل بضعة أدوار. يمكنك عرض تعادل جديد خلال {{turns}} أدوار.",

@@ -571,4 +571,11 @@
   "success": "Успіх!",
   "error": "Помилка!",
   "processing": "Обробка..."
+  ,
+  "steamBanner": {
+    "title": "Додайте Lines of Battle до списку бажаного в Steam!",
+    "description": "Допоможіть нам досягти <0>{{wishlistCount}}</0>, щоб випустити гру!",
+    "descriptionBoldPart": "{{wishlists}} списків бажаного",
+    "buttonText": "Додати до списку бажаного"
+  }
 }

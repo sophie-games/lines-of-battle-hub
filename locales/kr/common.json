@@ -699,7 +699,7 @@
   "steamBanner": {
     "title": "스팀에서 Lines of Battle을 찜하세요!",
     "description": "찜하기 <0>{{wishlistCount}}</0>에 도달해 게임을 런칭할 수 있도록 도와주세요!",
-    "descriptionBoldPart": "30,000명",
+    "descriptionBoldPart": "{{wishlists}}명",
     "buttonText": "지금 바로 찜하기"
   },
   "offerDrawCooldownMessage": "몇 턴 전에 무승부가 제안되었었습니다. {{turns}} 턴에 다시 무승부를 제안할 수 있습니다.",

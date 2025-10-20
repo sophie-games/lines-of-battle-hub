@@ -702,7 +702,7 @@
   "steamBanner": {
     "title": "Внесите Lines of Battle в Список желаемого в Steam!",
     "description": "Помогите нам набрать <0>{{wishlistCount}}</0>, чтобы запустить игру!",
-    "descriptionBoldPart": "30,000 Заявок",
+    "descriptionBoldPart": "{{wishlists}} Заявок",
     "buttonText": "Добавить в Список желаемого Сейчас"
   },
   "offerDrawCooldownMessage": "Ничья уже была предложена недавно. Вы можете предложить ничью снова через {{turns}} ходов.",

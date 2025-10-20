@@ -573,4 +573,11 @@
   "success": "Başarılı!",
   "error": "Hata!",
   "processing": "İşleniyor..."
+  ,
+  "steamBanner": {
+    "title": "Lines of Battle’ı Steam istek listenize ekleyin!",
+    "description": "Oyunu çıkarmak için <0>{{wishlistCount}}</0> hedefine ulaşmamıza yardım edin!",
+    "descriptionBoldPart": "{{wishlists}} istek listesi",
+    "buttonText": "Şimdi istek listesine ekle"
+  }
 }
