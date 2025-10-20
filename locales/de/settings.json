@@ -4,7 +4,6 @@
   "camera": "Kamera",
   "sound": "Ton",
   "language": "Sprache",
-
   "multiTurnOrders": {
     "title": "Mehrzügige Befehle",
     "description": "Wenn Sie diese Einstellung aktivieren, können Sie Befehle erteilen, die das Spiel speichert und von einem Zug zum nächsten umsetzt. Diese mehrzügigen Befehle können bis zu 10 Züge Bewegung umfassen und beinhalten Ortsbefehle wie 'Bewegen' sowie Zielbefehle wie 'Suchen'."
@@ -67,34 +66,27 @@
   "generalVolume": {
     "title": "Allgemeines Volumen"
   },
-
   "shadows": {
     "title": "Schatten",
     "description": "Aktiviert Schatten bei Einheiten. Dies kann erfordern, dass das Spiel einen Zug vergeht, damit die Einheiten aktualisiert werden."
   },
-
   "fullScreen": {
     "title": "Vollbild",
     "description": "Schaltet den Vollbildmodus für die Anwendung um",
     "toggle": "Vollbild umschalten"
   },
-
   "resetSettings": {
     "title": "Einstellungen zurücksetzen",
     "description": "Stellt alle Standardeinstellungen wieder her. Diese Aktion überschreibt alle Einstellungen die Sie gemacht haben."
   },
-
   "reset": "Zurücksetzen",
-
   "lineFormation": "Linienformation",
   "checkerboardFormation": "Schachbrettformation",
   "spaceBetweenUnits": "Abstand zwischen Einheiten",
   "spaceBetweenLines": "Abstand zwischen Linien",
-
   "showChat": {
     "title": "Chat anzeigen"
   },
-
   "keybindings": {
     "title": "Tastenkombinationen",
     "pressAKey": "Drücke eine Taste...",
@@ -113,21 +105,18 @@
     "toggleFormation": "Formation umschalten",
     "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
-    "openChat": "Chat öffnen"
+    "openChat": "Chat öffnen",
+    "toggleFullscreen": "Vollbild umschalten"
   },
-
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"
   },
-
   "fogOfWar": {
     "description": "Der Nebel des Krieges ist der Schatten, der über Gelände erscheint, das Ihre Einheiten nicht sehen können. Der Rechenaufwand für die Überprüfung jedes Feldes, das ein Spieler sehen kann, ist kostspielig, daher kann das Deaktivieren dieser Option die Leistung verbessern. Diese Option ist jedoch 100% grafisch; das Deaktivieren macht versteckte feindliche Einheiten nicht sichtbar."
   },
-
   "fogOfWarColor": {
     "title": "Nebel des Krieges Farbe"
   },
-
   "groundQuality": {
     "title": "Bodenqualität",
     "description": "Steuert die Qualität der Bodenstrukturen. Höhere Qualität bietet bessere visuelle Details, kann aber die Leistung beeinträchtigen. Erfordert das Aktualisieren der Karte."

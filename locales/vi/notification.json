@@ -1,0 +1,37 @@
+{
+  "notifications": "Thông báo",
+  "noNotifications": "Không có thông báo",
+  "clear": "Xóa",
+  "tournamentMatchStarted": {
+    "title": "Trận đấu giải đấu đã bắt đầu!",
+    "message": "Một trận đấu của giải đấu {{tournamentName}} đã bắt đầu, hãy chơi nó!"
+  },
+  "tournamentFilled": {
+    "title": "Giải đấu đã đầy!",
+    "message": "Giải đấu {{tournamentName}} hiện đã đầy. Bạn có thể bắt đầu nó bất cứ lúc nào!"
+  },
+  "tournamentWillStart": {
+    "title": "Vòng giải đấu của bạn sẽ bắt đầu sớm!",
+    "message": "Vòng giải đấu cho giải đấu {{tournamentName}} sẽ bắt đầu sớm."
+  },
+  "tournamentRewards": {
+    "title": "Bạn đã thắng vị trí {{place}} trong giải đấu {{tournamentName}}!",
+    "message": "Bạn đã nhận được {{reward}} <BasicCurrency/>."
+  },
+  "yourTournamentEnded": {
+    "title": "Giải đấu {{tournamentName}} của bạn đã kết thúc",
+    "message": "Bạn đã nhận được {{reward}} <BasicCurrency/>."
+  },
+  "tournamentCancelled": {
+    "title": "Giải đấu bị hủy",
+    "message": "Giải đấu {{tournamentName}} đã bị hủy. Bạn đã được hoàn tiền {{refund}} <BasicCurrency/>."
+  },
+  "updatePlanned": {
+    "title": "Cập nhật được lên kế hoạch",
+    "message": "Có một cập nhật <b>{{name}}</b> mới được lên kế hoạch cho <b>{{date}}</b>, nhấp để xem các thay đổi."
+  },
+  "banDodge": {
+    "title": "Bạn đã bị tạm ngưng {{minutes}} phút",
+    "message": "Bạn đã bỏ cuộc {{games}} trò chơi có xếp hạng cuối cùng, vì vậy bạn sẽ phải đợi một chút để tiếp tục chơi các trò chơi có xếp hạng."
+  }
+}

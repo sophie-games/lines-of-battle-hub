@@ -2,42 +2,34 @@
   "notifications": "通知",
   "noNotifications": "通知なし",
   "clear": "クリア",
-
   "tournamentMatchStarted": {
     "title": "トーナメントマッチが開始されました！",
     "message": "{{tournamentName}}トーナメントのマッチが開始されました。プレイしてください！"
   },
-
   "tournamentFilled": {
     "title": "トーナメントが満員になりました！",
     "message": "{{tournamentName}}トーナメントが満員になりました。いつでも開始できます！"
   },
-
   "tournamentWillStart": {
     "title": "あなたのトーナメントラウンドがまもなく開始されます！",
     "message": "{{tournamentName}}トーナメントのラウンドがまもなく開始されます。"
   },
-
   "tournamentRewards": {
     "title": "{{tournamentName}}トーナメントで{{place}}位を獲得しました！",
     "message": "{{reward}} <BasicCurrency/>を受け取りました。"
   },
-
   "yourTournamentEnded": {
     "title": "あなたの{{tournamentName}}トーナメントが終了しました",
     "message": "{{reward}} <BasicCurrency/>を受け取りました。"
   },
-
   "tournamentCancelled": {
     "title": "トーナメントがキャンセルされました",
     "message": "{{tournamentName}}トーナメントがキャンセルされました。{{refund}} <BasicCurrency/>が返金されました。"
   },
-
   "updatePlanned": {
     "title": "アップデート予定",
     "message": "<b>{{date}}</b>に新しい<b>{{name}}</b>アップデートが予定されています。クリックして変更内容を確認してください。"
   },
-
   "banDodge": {
     "title": "{{minutes}}分間停止されました",
     "message": "最近の{{games}}回のランクマッチを放棄したため、ランクマッチを続けるには少し待つ必要があります。"

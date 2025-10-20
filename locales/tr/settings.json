@@ -4,7 +4,6 @@
   "camera": "Kamera",
   "sound": "Ses",
   "language": "Dil",
-
   "multiTurnOrders": {
     "title": "Çok Turlu Emirler",
     "description": "Bu ayarı açmak, oyunun bir turdan diğerine hatırlayacağı ve uygulayacağı emirleri vermenizi sağlar. Bu çok turlu emirler, 10 tura kadar hareketi kapsayabilir ve Hareket gibi konum emirlerini ve Ara gibi hedef emirlerini içerir."
@@ -67,30 +66,24 @@
   "generalVolume": {
     "title": "Genel Ses Seviyesi"
   },
-
   "shadows": {
     "title": "Gölgeler",
     "description": "Birimlerde gölgeleri etkinleştirir. Bu, birimlerin güncellenmesi için oyunun tur geçmesini gerektirebilir."
   },
-
   "fullScreen": {
     "title": "Tam Ekran",
     "description": "Uygulama için tam ekran modunu açıp kapatır",
     "toggle": "Tam Ekranı Değiştir"
   },
-
   "resetSettings": {
     "title": "Ayarları Sıfırla",
     "description": "Tüm ayarları varsayılan değerlerine geri yükler. Bu işlem, yaptığınız tüm özelleştirmeleri geçersiz kılacaktır."
   },
-
   "reset": "Sıfırla",
-
   "lineFormation": "Hat Formasyonu",
   "checkerboardFormation": "Dama Tahtası Formasyonu",
   "spaceBetweenUnits": "Birimler Arasındaki Boşluk",
   "spaceBetweenLines": "Hatlar Arasındaki Boşluk",
-
   "keybindings": {
     "title": "Tuş Atamaları",
     "pressAKey": "Bir tuşa basın...",
@@ -110,6 +103,7 @@
     "toggleSmartCurvedMovements": "Akıllı eğri hareketleri değiştir",
     "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
     "openChat": "Sohbeti aç",
+    "toggleFullscreen": "Tam ekranı değiştir",
     "controlGroup1": "Kontrol Grubu 1",
     "controlGroup2": "Kontrol Grubu 2",
     "controlGroup3": "Kontrol Grubu 3",
@@ -121,19 +115,15 @@
     "controlGroup9": "Kontrol Grubu 9",
     "controlGroup0": "Kontrol Grubu 0"
   },
-
   "routingTransparency": {
     "title": "Kaçan Birim Şeffaflığı"
   },
-
   "fogOfWar": {
     "description": "Savaş sisi, birimlerinizin göremediği arazi üzerinde görünen gölgedir. Bir oyuncunun görebileceği her kareyi kontrol etmenin hesaplama yükü maliyetlidir, bu nedenle bu seçeneği devre dışı bırakmak performansı artırabilir. Ancak bu seçenek %100 grafikseldir; devre dışı bırakılması gizli düşman birimlerini görünür hale getirmeyecektir."
   },
-
   "fogOfWarColor": {
     "title": "Savaş sisi rengi"
   },
-
   "groundQuality": {
     "title": "Arazi kalitesi",
     "description": "Arazi dokularının kalitesini kontrol eder. Daha yüksek kalite daha iyi görsel detaylar sağlar ancak performansı etkileyebilir. Haritanın yenilenmesini gerektirir."

@@ -1,0 +1,68 @@
+{
+  "gotIt": "Hiểu rồi!",
+  "disableTips": "Tắt mẹo",
+  "friendlyFire": {
+    "title": "Cảnh báo hỏa lực đồng minh",
+    "message": "Phát bắn này sẽ gây hỏa lực đồng minh! Tìm biểu tượng màu vàng trên các đơn vị để xem đơn vị nào sẽ bị hư hỏng."
+  },
+  "armyComposition": {
+    "title": "Mẹo cấu trúc quân đội",
+    "message": "Ở đây, bạn có thể thiết kế các quân đội tùy chỉnh phù hợp với phong cách và sở thích của riêng bạn. Nếu bạn mới với Lines of Battle, hãy gắn bó với cấu trúc mặc định cho đến khi bạn học được những điều cơ bản; các quân đội mặc định rất cạnh tranh và bao gồm các đơn vị hiệu quả nhất, cân bằng tốt trong trò chơi.\n\nCác quân đội tốt nhất thường bao gồm 60-75% bộ binh, 20-35% kỵ binh và 10-15% pháo binh."
+  },
+  "firstBattle": {
+    "title": "Chúc mừng bạn đã bắt đầu trận chiến đầu tiên, Tướng quân!",
+    "message": "Một lực lượng kẻ thù có sức mạnh tương đương đã hành quân để gặp chúng ta trên chiến trường này.\n\nCó ba cách bạn có thể giành chiến thắng:\n\n1. Tiêu diệt hoàn toàn lực lượng kẻ thù – đánh bại mọi đơn vị để thắng.\n2. Giữ vững chiến trường vào cuối ngày – gây thương vong nhiều hơn kẻ thù hoặc sử dụng các tiểu đoàn bộ binh của bạn để chiếm các mục tiêu trung lập để giành Điểm Chiến thắng. Nếu bạn dẫn đầu +10 Điểm Chiến thắng khi trò chơi kết thúc, bạn thắng.\n3. Cắt đứt đường tiếp tế của kẻ thù – sử dụng các tiểu đoàn bộ binh của bạn để chiếm mục tiêu lớn trong vùng triển khai của kẻ thù. Điều này mất hơn gấp đôi thời gian so với việc chiếm một mục tiêu nhỏ, nhưng sẽ kết thúc trò chơi có lợi cho bạn.\n\nChúc may mắn, Tướng quân!"
+  },
+  "routingUnits": {
+    "title": "Đơn vị rút lui",
+    "message": "Một đơn vị đã mất tất cả sự gắn kết và hiện đang chạy trốn khỏi mặt trận. Nếu nó có thể đạt được khoảng cách an toàn khỏi lực lượng kẻ thù, nó sẽ ngừng chạy trốn và nhanh chóng lấy lại tổ chức – ở 30% tổ chức, nó sẽ tập hợp lại và bạn sẽ lấy lại quyền kiểm soát nó. Bạn có thể tăng tốc quá trình này bằng cách đặt các đơn vị đồng minh như kỵ binh gần đó.\n\nHãy cố gắng thay thế các đơn vị có tổ chức thấp trong chiến đấu bằng các dự trữ tươi mới, có tổ chức tốt. Việc tái tổ chức một đơn vị bị rối loạn hiệu quả hơn nhiều so với việc tập hợp một đơn vị bị phá vỡ."
+  },
+  "lineInfantrySelection": {
+    "title": "Bộ binh tuyến",
+    "message": "Đây là một tiểu đoàn bộ binh gồm 800 người, có khả năng tấn công mục tiêu bằng hỏa lực súng trường hoặc lưỡi lê. Sử dụng lệnh Bắn và Tiến để tiến gần và gây sát thương tầm xa tàn phá, và sử dụng lệnh Chạy để tiêu hao thể lực và nhanh chóng di chuyển, phát động một cuộc xung kích lưỡi lê chống lại bộ binh khác. Tuy nhiên, hãy cẩn thận không lạm dụng lệnh Chạy, và tránh xung kích bộ binh kẻ thù có Tổ chức cao."
+  },
+  "skirmisherSelection": {
+    "title": "Lính tản chiến",
+    "message": "Lính tản chiến đại diện cho một đại đội (~150 người) xạ thủ chiến đấu không có đội hình.\n\nCác đơn vị này hầu như không bị sát thương từ súng trường và pháo binh, nhưng bị sát thương nghiêm trọng từ cận chiến.\n\nĐặt lính tản chiến của bạn trong địa hình hoặc sử dụng bộ binh tuyến và kỵ binh để bảo vệ chúng khỏi các cuộc xung kích.\n\nLính tản chiến xuất sắc trong việc giữ các điểm mạnh hoặc quấy rối pháo binh và bộ binh bằng hỏa lực tầm xa."
+  },
+  "cavalrySelection": {
+    "title": "Kỵ binh",
+    "message": "Các đơn vị kỵ binh nhanh và mạnh nhưng cần quản lý cẩn thận.\n\n• Sử dụng lệnh Chạy để tiêu hao thể lực và xung kích lính tản chiến, bộ binh có tổ chức thấp và pháo binh được bảo vệ kém\n• Bảo tồn thể lực bằng cách đi bộ kỵ binh khi có thể\n• Kỵ binh sẽ luôn thua 1 v 1 chống lại bộ binh có tổ chức cao\n• Làm rối loạn bộ binh kẻ thù bằng hỏa lực súng trường và pháo binh trước khi xung kích\n• Bảo tồn kỵ binh của bạn cho những khoảnh khắc quyết định\n• Giữ kỵ binh ra khỏi địa hình"
+  },
+  "artillerySelection": {
+    "title": "Pháo binh",
+    "message": "Pháo binh là hệ số nhân lực; nó hỗ trợ bộ binh và kỵ binh, nhưng không thể thắng trận chiến một mình.\n\n• Pháo binh không có thể lực; luôn sử dụng lệnh Chạy khi vượt qua khoảng cách dài\n• Pháo binh có đạn; theo dõi dự trữ đạn của bạn để không hết đạn\n• Pháo binh Napoleon yêu cầu tầm nhìn rõ ràng để bắn; đừng chặn nó bằng bộ binh của bạn\n\nHiểu cách sử dụng tốt nhất các tầm bắn khác nhau của pháo binh:\n\n• Hỏa lực tầm xa: sát thương thấp cho nhiều đơn vị (vùng ảnh hưởng lớn)\n• Hỏa lực tầm trung: sát thương tốt cho một vài đơn vị (vùng ảnh hưởng nhỏ)\n• Hỏa lực tầm gần: Sát thương cực mạnh cho một đơn vị (hỏa lực canister)\n\nCân nhắc di chuyển pháo binh của bạn lên với hàng chiến đấu thay vì để nó bắn tầm xa từ phía sau."
+  },
+  "forestMovement": {
+    "title": "Địa hình rừng",
+    "message": "Bạn đã ra lệnh cho đơn vị này di chuyển qua rừng. Địa hình này:\n\n• Cung cấp bảo vệ khỏi hỏa lực kẻ thù và giảm tầm nhìn\n• Tăng chi phí thể lực cho cận chiến và di chuyển\n• Giảm hiệu quả chiến đấu của kỵ binh\n• Giảm sát thương của pháo binh bên trong nó"
+  },
+  "buildingMovement": {
+    "title": "Địa hình tòa nhà",
+    "message": "Bạn đã ra lệnh cho đơn vị này di chuyển qua tòa nhà. Địa hình này:\n\n• Cung cấp bảo vệ tuyệt vời khỏi hỏa lực kẻ thù và giảm tầm nhìn\n• Tăng chi phí thể lực cho cận chiến và di chuyển\n• Giảm nghiêm trọng hiệu quả chiến đấu của kỵ binh\n• Giảm đáng kể sát thương của pháo binh bên trong nó"
+  },
+  "roadMovement": {
+    "title": "Di chuyển đường",
+    "message": "Bạn đã ra lệnh cho đơn vị này di chuyển qua đường. Đường:\n\n• Tăng đáng kể tốc độ di chuyển, đặc biệt cho pháo binh\n• Giảm một nửa chi phí thể lực – cân nhắc chạy các đơn vị dọc theo đường đến đích của bạn"
+  },
+  "waterMovement": {
+    "title": "Địa hình nước",
+    "message": "Bạn đã ra lệnh cho đơn vị này di chuyển qua nước. Nước:\n\n• Phạt nghiêm trọng tốc độ di chuyển, phòng thủ cận chiến, thể lực và sát thương tấn công tầm xa\n• Nếu bạn di chuyển qua nước, đừng bị kẹt chiến đấu ở đó\n• Cân nhắc cách sử dụng nước để cản trở kẻ thù"
+  },
+  "runOrder": {
+    "title": "Lệnh chạy",
+    "message": "Sử dụng lệnh Chạy để tiêu hao thể lực di chuyển với tốc độ cao và xung kích các đơn vị kẻ thù, nhưng đừng lạm dụng nó và làm kiệt sức quân đội của bạn.\n\nCác cuộc xung kích dựa vào chỉ số Kháng xung kích của người phòng thủ và chỉ số Xuyên thủng xung kích của kẻ tấn công, làm giảm kháng xung kích của người phòng thủ (cạnh nhau trên thẻ đơn vị, có thể nhìn thấy ở bên trái màn hình khi chọn một đơn vị).\n\nMột cuộc xung kích được thực hiện với Xuyên thủng cao chống lại Kháng cự thấp sẽ đánh bại người phòng thủ; một cuộc xung kích với Xuyên thủng thấp chống lại Kháng cự cao có thể không gây sát thương hoặc thậm chí làm rối loạn kẻ tấn công.\n\nKháng xung kích và Xuyên thủng đều dựa trên Tổ chức; sử dụng hỏa lực súng trường và pháo binh để làm rối loạn kẻ thù, sau đó xung kích với một đơn vị tươi mới, có Tổ chức cao.\n\nHãy cố gắng xung kích trực diện các đơn vị khi kháng cự của chúng chỉ cao hơn 60% so với xuyên thủng của bạn.\n\nTóm lại: sử dụng các đơn vị có Tổ chức cao để xung kích các đơn vị có Tổ chức thấp."
+  },
+  "fallbackOrder": {
+    "title": "Lệnh rút lui",
+    "message": "Rút lui là một thao tác phức tạp và tốn kém – một đơn vị rút lui nhận được xung kích sẽ bị sát thương nặng ngay cả khi có tổ chức tốt. Sử dụng lệnh này một cách tiết kiệm và cố gắng bảo vệ quân rút lui bằng các đơn vị tươi mới."
+  },
+  "fireAndAdvanceOrder": {
+    "title": "Lệnh bắn và tiến",
+    "message": "Bộ binh và pháo binh nhẹ có thể Bắn và Tiến về phía kẻ thù để cải thiện vị trí của chúng trong khi duy trì hỏa lực. Nhưng hãy nhớ, lệnh này giảm tốc độ và sát thương."
+  },
+  "lowStamina": {
+    "title": "Cảnh báo thể lực thấp",
+    "message": "Bạn đã làm kiệt sức thể lực của đơn vị này – nó đã có các hệ số chiến đấu tiêu cực nghiêm trọng, và nếu bạn đẩy nó xa hơn nữa, nó thậm chí sẽ mất khả năng chạy.\n\nKhi đơn vị của bạn có thể lực thấp, bạn nên:\n\n• Sử dụng nó để đuổi theo các đơn vị kẻ thù đang rút lui không thể chống trả, để ngăn chúng tập hợp lại\n• Đặt nó sau hàng chiến đấu của bạn hoặc gần các đơn vị rút lui của bạn, để đơn vị thể lực thấp của bạn có thể hỗ trợ chúng bằng bán kính tinh thần của nó\n• Hoặc đơn giản để nó không có lệnh để nó có thể hồi phục một chút thể lực\n\nHồi phục thể lực rất chậm, vì vậy hãy cố gắng chỉ sử dụng nó khi cần thiết!"
+  }
+}

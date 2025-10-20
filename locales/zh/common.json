@@ -1,4 +1,4 @@
-﻿{
+{
   "appLoadingMessage": "欢迎来到 Lines of Battle！",
   "home": "主页",
   "language": "语言",
@@ -10,6 +10,10 @@
   "store": "商店",
   "supporters": "赞助者",
   "elo": "Elo",
+  "level": "等级",
+  "baseLevelExperience": "基础等级经验",
+  "experience": "经验",
+  "nextLevelExperience": "下一级经验",
   "season": "赛季",
   "of": "/",
   "joinedAt": "加入于{{date}}",
@@ -46,8 +50,9 @@
   "selectGameMode": "从以下选项中选择游戏模式。",
   "quickMatchmaking": "快速匹配",
   "ranked": "排位模式",
-  "classicUnranked": "经典模式",
-  "classicUnrankedTooltip": "在经典友谊赛模式下，Elo不会受到影响，双方都会使用默认军队配置。",
+  "classic": "经典",
+  "classicTooltip": "使用程序生成的经典地图和默认军队",
+  "rankedTooltip": "游戏会影响你的Elo评分",
   "unranked": "非排位",
   "or": "或是",
   "cancel": "取消",
@@ -115,7 +120,8 @@
   },
   "scenarioEditorTags": {
     "tutorialMessage": "不会用？别担心！<tutorialLink>在这里观看教程。</tutorialLink>",
-    "randomGuide": "想学习如何创建随机地图吗？可以阅读<0>此文档</0>。"
+    "randomGuide": "想学习如何创建随机地图吗？可以阅读<0>此文档</0>。",
+    "baleriiMessage": "玩家Balerii和Nytka创建了自己的地图编辑器！查看他们的YouTube频道了解如何使用："
   },
   "createScenario": "创建战役剧本",
   "loadScenario": "加载战役剧本",
@@ -126,7 +132,6 @@
   "botArmy": "电脑的军队",
   "army": "军队",
   "deploymentStateMessage": "现在是部署阶段。你可以在部署区域内随意布置你的单位。结束布置后点击提交。",
-  "youAreColor": "你是{{color}}！",
   "getStarted": "开始吧",
   "colorTag": {
     "1": "蓝方",
@@ -138,6 +143,9 @@
   "resume": "继续",
   "offerDraw": "提议和局",
   "replayBattle": "回放战斗",
+  "downloadReplay": "下载回放",
+  "replayGame": "回放游戏",
+  "importReplay": "导入回放",
   "result": "对局结果",
   "exit": "退出",
   "attackColor": "攻击颜色",
@@ -298,7 +306,7 @@
   "enfiladeFireModifiers": "侧翼攻击修正",
   "rearFireModifiers": "后部攻击修正",
   "firingAltitude": "射击高度",
-  "canCaptureObjectives": "可以占领目标点",
+  "captureSpeed": "占领速度",
   "cantCaptureObjectives": "不可以占领目标点",
   "enfiladeFire": "弹道可穿透",
   "pointBlankRange": "极近距离范围",
@@ -694,7 +702,7 @@
   "steamBanner": {
     "title": "在Steam上将Lines of Battle加入愿望单吧！",
     "description": "我们达到 <0>{{wishlistCount}}</0> 后就可以发行游戏！",
-    "descriptionBoldPart": "30000愿望单",
+    "descriptionBoldPart": "{{wishlists}}愿望单",
     "buttonText": "现在加入"
   },
   "offerDrawCooldownMessage": "上一次和局提议是在几回合之前，你可以在 {{turns}} 回合后再次提议和局。 ",
@@ -722,7 +730,6 @@
   "preset": "预设",
   "hybrid": "混合",
   "random": "随机",
-  "classic": "经典",
   "projectileWidth": "射击宽度",
   "allyCollisionLevel": "友军碰撞等级",
   "enemyCollisionLevel": "敌军碰撞等级",
@@ -835,5 +842,21 @@
   "scenario": "战役",
   "banned": "封禁",
   "baseAmmo": "基础弹药",
-  "range": "射程"
+  "range": "射程",
+  "faaRangedDamage": "FAA远程伤害",
+  "quickPlay": "快速游戏",
+  "quickPlayWithCount": "快速游戏 ({{count}})",
+  "discord": {
+    "link": "绑定 Discord",
+    "unlink": "解绑 Discord",
+    "confirmMessage": "您确定要解绑您的 Discord 账户吗？",
+    "authWaitMessage": "请稍候，我们正在处理您的 Discord 授权...",
+    "authSuccessMessage": "Discord 账户绑定成功！",
+    "authErrorMessage": "Discord 授权失败。请重试。",
+    "linkingAccount": "正在绑定 Discord 账户..."
+  },
+  "redirecting": "重定向中...",
+  "success": "成功！",
+  "error": "错误！",
+  "processing": "处理中..."
 }

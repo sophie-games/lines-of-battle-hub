@@ -4,7 +4,6 @@
   "camera": "カメラ",
   "sound": "サウンド",
   "language": "言語",
-
   "multiTurnOrders": {
     "title": "複数ターン命令",
     "description": "この設定をオンにすると、ゲームが記憶し、ターンごとに実行する命令を発行できます。これらの複数ターン命令は最大10ターンの移動をカバーし、位置に関する命令（例: '移動'）や目標に関する命令（例: '探す'）を含めることができます。"
@@ -71,25 +70,20 @@
     "title": "影",
     "description": "ユニットに影を有効にします。ユニットが更新されるには、ゲームがターンを経過する必要がある場合があります。"
   },
-
   "fullScreen": {
     "title": "フルスクリーン",
     "description": "アプリケーションのフルスクリーンモードを切り替えます",
     "toggle": "フルスクリーンの切り替え"
   },
-
   "resetSettings": {
     "title": "設定をリセット",
     "description": "すべての設定をデフォルトの値に戻します。この操作は行ったカスタマイズを上書きします。"
   },
-
   "reset": "リセット",
-
   "lineFormation": "線形陣形",
   "checkerboardFormation": "チェッカーボード陣形",
   "spaceBetweenUnits": "ユニット間の間隔",
   "spaceBetweenLines": "ライン間の間隔",
-
   "keybindings": {
     "title": "キーバインド",
     "pressAKey": "キーを押してください...",
@@ -109,6 +103,7 @@
     "toggleSmartCurvedMovements": "スマートカーブ移動切り替え",
     "toggleFowPerspective": "戦争の霧の視点切り替え",
     "openChat": "チャットを開く",
+    "toggleFullscreen": "フルスクリーン切り替え",
     "controlGroup1": "コントロールグループ1",
     "controlGroup2": "コントロールグループ2",
     "controlGroup3": "コントロールグループ3",
@@ -120,19 +115,15 @@
     "controlGroup9": "コントロールグループ9",
     "controlGroup0": "コントロールグループ0"
   },
-
   "routingTransparency": {
     "title": "敗走ユニットの透明度"
   },
-
   "fogOfWar": {
     "description": "戦争の霧は、あなたのユニットが見ることができない地形の上に現れる影です。プレイヤーが見ることができるすべてのタイルをチェックする計算オーバーヘッドは高価なので、このオプションを無効にするとパフォーマンスが向上する場合があります。ただし、このオプションは100％グラフィカルです。無効にしても隠れた敵のユニットは見えません。"
   },
-
   "fogOfWarColor": {
     "title": "戦争の霧の色"
   },
-
   "groundQuality": {
     "title": "地形品質",
     "description": "地形テクスチャの品質を制御します。より高い品質はより良い視覚的詳細を提供しますが、パフォーマンスに影響を与える可能性があります。マップの更新が必要です。"

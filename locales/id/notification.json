@@ -2,42 +2,34 @@
   "notifications": "Notifikasi",
   "noNotifications": "Tidak ada notifikasi",
   "clear": "Hapus",
-
   "tournamentMatchStarted": {
     "title": "Pertandingan turnamen dimulai!",
     "message": "Pertandingan turnamen {{tournamentName}} telah dimulai, ayo mainkan!"
   },
-
   "tournamentFilled": {
     "title": "Turnamen penuh!",
     "message": "Turnamen {{tournamentName}} sekarang sudah penuh. Kamu bisa memulainya kapan saja!"
   },
-
   "tournamentWillStart": {
     "title": "Ronde turnamenmu akan segera dimulai!",
     "message": "Ronde turnamen {{tournamentName}} akan segera dimulai."
   },
-
   "tournamentRewards": {
     "title": "Kamu memenangkan tempat ke-{{place}} di turnamen {{tournamentName}}!",
     "message": "Kamu telah menerima {{reward}} <BasicCurrency/>."
   },
-
   "yourTournamentEnded": {
     "title": "Turnamen {{tournamentName}} telah berakhir",
     "message": "Kamu telah menerima {{reward}} <BasicCurrency/>."
   },
-
   "tournamentCancelled": {
     "title": "Turnamen dibatalkan",
     "message": "Turnamen {{tournamentName}} telah dibatalkan. Kamu telah menerima pengembalian {{refund}} <BasicCurrency/>."
   },
-
   "updatePlanned": {
     "title": "Update direncanakan",
     "message": "Ada update <b>{{name}}</b> baru yang direncanakan untuk <b>{{date}}</b>, klik untuk melihat perubahan."
   },
-
   "banDodge": {
     "title": "Kamu telah ditangguhkan selama {{minutes}}",
     "message": "Kamu telah meninggalkan {{games}} permainan peringkat terakhir, jadi kamu harus menunggu sebentar untuk melanjutkan bermain permainan peringkat."

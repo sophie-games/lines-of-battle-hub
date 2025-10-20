@@ -4,7 +4,6 @@
   "camera": "Caméra",
   "sound": "Son",
   "language": "Langue",
-
   "multiTurnOrders": {
     "title": "Ordres multi-tours",
     "description": "Activer ce paramètre vous permettra de donner des ordres que le jeu mémorisera et mettra en œuvre d'un tour à l'autre. Ces ordres multi-tours peuvent s'étendre sur jusqu'à 10 tours de mouvement et inclure des ordres de mouvement comme 'Se déplacer' ainsi que des ordres de cible comme 'Chercher'."
@@ -78,16 +77,13 @@
     "description": "Restaure tous les paramètres à leurs valeurs par défaut. Cette action écrasera toutes les personnalisations que vous avez effectuées."
   },
   "reset": "Réinitialiser",
-
   "lineFormation": "Formation en ligne",
   "checkerboardFormation": "Formation en damier",
   "spaceBetweenUnits": "Espace entre les unités",
   "spaceBetweenLines": "Espace entre les lignes",
-
   "showChat": {
     "title": "Afficher le chat"
   },
-
   "keybindings": {
     "title": "Raccourcis clavier",
     "pressAKey": "Appuie sur une touche...",
@@ -106,20 +102,18 @@
     "toggleFormation": "Basculer la formation",
     "toggleSmartCurvedMovements": "Basculer les mouvements courbés intelligents",
     "toggleFowPerspective": "Basculer la perspective de brouillard de guerre",
-    "openChat": "Ouvrir le chat"
+    "openChat": "Ouvrir le chat",
+    "toggleFullscreen": "Basculer le plein écran"
   },
   "routingTransparency": {
     "title": "Transparence des unités en déroute"
   },
-
   "fogOfWar": {
     "description": "Le brouillard de guerre est l'ombre qui apparaît sur le terrain que vos unités ne peuvent pas voir. La surcharge de calcul pour vérifier chaque case qu'un joueur peut voir est coûteuse, donc désactiver cette option peut améliorer les performances. Cependant, cette option est 100% graphique ; la désactiver ne rendra pas visibles les unités ennemies cachées."
   },
-
   "fogOfWarColor": {
     "title": "Couleur du brouillard de guerre"
   },
-
   "groundQuality": {
     "title": "Qualité du terrain",
     "description": "Contrôle la qualité des textures du terrain. Une qualité plus élevée fournit de meilleurs détails visuels mais peut affecter les performances. Nécessite de rafraîchir la carte."

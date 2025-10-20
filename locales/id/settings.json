@@ -4,7 +4,6 @@
   "camera": "Kamera",
   "sound": "Suara",
   "language": "Bahasa",
-
   "multiTurnOrders": {
     "title": "Multi-turn orders",
     "description": "Mengaktifkan pengaturan ini akan memungkinkan Anda untuk mengeluarkan perintah yang akan diingat dan diterapkan oleh permainan dari satu giliran ke giliran berikutnya. Multi turn orders atau perintah multi-giliran ini dapat mencakup hingga 10 giliran gerakan, dan mencakup perintah lokasi seperti Bergerak serta perintah target seperti Seek."
@@ -67,30 +66,24 @@
   "generalVolume": {
     "title": "General Volume"
   },
-
   "shadows": {
     "title": "Bayangan",
     "description": "Mengaktifkan bayangan pada unit. Mungkin memerlukan giliran permainan untuk memperbarui unit."
   },
-
   "fullScreen": {
     "title": "Layar Penuh",
     "description": "Beralih ke mode layar penuh untuk aplikasi",
     "toggle": "Alihkan Layar Penuh"
   },
-
   "resetSettings": {
     "title": "Reset Pengaturan",
     "description": "Kembalikan semua pengaturan ke nilai default. Tindakan ini akan menimpa semua penyesuaian yang telah Anda buat."
   },
-
   "reset": "Reset",
-
   "lineFormation": "Line Formation",
   "checkerboardFormation": "Checkerboard Formation",
   "spaceBetweenUnits": "Jarak Antar Unit",
   "spaceBetweenLines": "Jarak Antar Baris",
-
   "keybindings": {
     "title": "Tombol Pintasan",
     "pressAKey": "Tekan Tombol...",
@@ -110,6 +103,7 @@
     "toggleSmartCurvedMovements": "Ubah Gerakan Melengkung Cerdas",
     "toggleFowPerspective": "Ubah Perspektif Kabut Perang",
     "openChat": "Buka Chat",
+    "toggleFullscreen": "Ubah Layar Penuh",
     "controlGroup1": "Grup Kontrol 1",
     "controlGroup2": "Grup Kontrol 2",
     "controlGroup3": "Grup Kontrol 3",
@@ -121,19 +115,15 @@
     "controlGroup9": "Grup Kontrol 9",
     "controlGroup0": "Grup Kontrol 0"
   },
-
   "routingTransparency": {
     "title": "Transparansi Unit Mundur"
   },
-
   "fogOfWar": {
     "description": "Kabut perang adalah bayangan yang muncul di atas medan yang tidak dapat dilihat oleh unit Anda. Beban komputasi untuk memeriksa setiap petak yang dapat dilihat pemain sangat mahal, jadi menonaktifkan opsi ini dapat meningkatkan kinerja. Namun, opsi ini 100% grafis; menonaktifkannya tidak akan membuat unit musuh yang tersembunyi menjadi terlihat."
   },
-
   "fogOfWarColor": {
     "title": "Warna kabut perang"
   },
-
   "groundQuality": {
     "title": "Kualitas tanah",
     "description": "Mengontrol kualitas tekstur tanah. Kualitas yang lebih tinggi memberikan detail visual yang lebih baik tetapi dapat mempengaruhi kinerja. Memerlukan penyegaran peta."

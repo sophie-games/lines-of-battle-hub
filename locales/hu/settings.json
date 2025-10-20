@@ -4,7 +4,6 @@
   "camera": "Kamera",
   "sound": "Hang",
   "language": "Nyelv",
-
   "multiTurnOrders": {
     "title": "Több körös parancsok",
     "description": "Ennek a beállításnak az engedélyezésével olyan parancsokat adhatsz ki, amelyeket a játék megjegyez és körönként végrehajt. Ezek a több körös parancsok akár 10 környi mozgást is magukban foglalhatnak, és tartalmazhatnak helymeghatározó parancsokat, mint például 'Mozgás', valamint célparancsokat, mint például 'Keresés'."
@@ -71,25 +70,20 @@
     "title": "Árnyékok",
     "description": "Engedélyezi az árnyékokat az egységeken. Ehhez szükség lehet arra, hogy a játék egy kört lépjen előre az egységek frissítéséhez."
   },
-
   "fullScreen": {
     "title": "Teljes Képernyő",
     "description": "Teljes Képernyő ki-be kapcsolása",
     "toggle": "Teljes Képernyő ki-be kapcsolása"
   },
-
   "resetSettings": {
     "title": "Beállítások visszaállítása",
     "description": "Visszaállítja a beállításaidat az kezdeti beállításokra. Ez felül ír minden személyre szabást.."
   },
-
   "reset": "Reset",
-
   "lineFormation": "Vonalalakzat",
   "checkerboardFormation": "Sakktábla alakzat",
   "spaceBetweenUnits": "Egységek közötti távolság",
   "spaceBetweenLines": "Sorok közötti távolság",
-
   "keybindings": {
     "title": "Billentyűparancsok",
     "pressAKey": "Nyomj meg egy billentyűt...",
@@ -109,6 +103,7 @@
     "toggleSmartCurvedMovements": "Okos görbült mozgások váltása",
     "toggleFowPerspective": "Háborús köd perspektíva váltása",
     "openChat": "Chat megnyitása",
+    "toggleFullscreen": "Teljes képernyő váltása",
     "controlGroup1": "Vezérlőcsoport 1",
     "controlGroup2": "Vezérlőcsoport 2",
     "controlGroup3": "Vezérlőcsoport 3",
@@ -120,19 +115,15 @@
     "controlGroup9": "Vezérlőcsoport 9",
     "controlGroup0": "Vezérlőcsoport 0"
   },
-
   "routingTransparency": {
     "title": "Menekülő egységek átlátszósága"
   },
-
   "fogOfWar": {
     "description": "A háború ködje az árnyék, amely megjelenik azon a terepen, amelyet az egységeid nem látnak. A minden mező ellenőrzésének számítási terhelése, amelyet egy játékos látni tud, költséges, ezért ennek a beállításnak a kikapcsolása javíthatja a teljesítményt. Ez a beállítás azonban 100%-ban grafikus; a kikapcsolása nem teszi láthatóvá a rejtett ellenséges egységeket."
   },
-
   "fogOfWarColor": {
     "title": "Háború ködjének színe"
   },
-
   "groundQuality": {
     "title": "Terep minősége",
     "description": "Szabályozza a terep textúrák minőségét. A magasabb minőség jobb vizuális részleteket biztosít, de befolyásolhatja a teljesítményt. Megköveteli a térkép frissítését."

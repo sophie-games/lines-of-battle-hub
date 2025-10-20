@@ -18,8 +18,6 @@
   "MAX_OFFLINE_GAME_MAX_TURNS": "gameLimits",
   "MAX_INACTIVE_TURNS": "gameLimits",
   "TURN_LIMIT_TIME_MARGIN_SECONDS": "gameLimits",
-  "CAPTURE_OBJECTIVE_THRESHOLD": "objectives",
-  "CAPTURE_OBJECTIVE_THRESHOLD_BIG": "objectives",
 
   "ROUT_THRESHOLD_TURNS": "routing",
 
@@ -185,6 +183,5 @@
   "AMMO_REGENERATION_BASE_RATE": "ammunition",
   "AMMO_REGENERATION_BONUS_RATE": "ammunition",
 
-  "CLASSIC_SCENARIO_ELO_K_FACTOR": "rating",
   "PRESET_SCENARIO_ELO_K_FACTOR": "rating"
 }

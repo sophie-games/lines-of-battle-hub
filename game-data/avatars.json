@@ -1,0 +1,480 @@
+[
+  {
+    "id": 1,
+    "name": "young-napoleon",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 12,
+    "name": "blucher",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 8,
+    "name": "san-martin",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 9,
+    "name": "bolivar",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 11,
+    "name": "sherman",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 7,
+    "name": "laigle",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 10,
+    "name": "line-of-battle",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 3,
+    "name": "survivors-from-russia",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+  {
+    "id": 4,
+    "name": "british-cat",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 6,
+    "name": "pike-and-shot",
+    "tier": 2,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 2,
+    "name": "veteran",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
+
+  {
+    "id": 5,
+    "name": "hawke",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 13,
+    "name": "napoleon",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
+
+  {
+    "id": 14,
+    "name": "alexandre-suvurov",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 15,
+    "name": "kutuzov",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 16,
+    "name": "wellington",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
+
+  {
+    "id": 17,
+    "name": "frog-in-fire",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
+
+  {
+    "id": 18,
+    "name": "murat",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 19,
+    "name": "anime-british-girl",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.5
+  },
+
+  {
+    "id": 20,
+    "name": "aurelian",
+    "tier": 2,
+    "premiumPrice": 200,
+    "discount": 0.5
+  },
+
+  {
+    "id": 21,
+    "name": "anime-napoleana",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.5
+  },
+
+  {
+    "id": 22,
+    "name": "anime-prussian-girl",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.5
+  },
+
+  {
+    "id": 23,
+    "name": "emperor-leo",
+    "tier": 2,
+    "premiumPrice": 200,
+    "discount": 0.5
+  },
+
+  {
+    "id": 24,
+    "name": "napoleon-iii",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 25,
+    "name": "theodoros-kolokotronis",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 26,
+    "name": "french-bulldog",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 27,
+    "name": "archduke-charles",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 28,
+    "name": "davout",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 29,
+    "name": "de-tolly",
+    "tier": 2,
+    "premiumPrice": 200,
+    "discount": 0.5
+  },
+
+  {
+    "id": 30,
+    "name": "lannes",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 31,
+    "name": "jazzhands",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
+  {
+    "id": 32,
+    "name": "belisarius",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+  {
+    "id": 33,
+    "name": "guan-yu",
+    "tier": 2,
+    "premiumPrice": 200,
+    "discount": 0.5
+  },
+
+  {
+    "id": 34,
+    "name": "washington",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 35,
+    "name": "mr-v",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
+
+  {
+    "id": 36,
+    "name": "lasalle",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 37,
+    "name": "massena",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 38,
+    "name": "suchet",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 39,
+    "name": "koszciuszko",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 40,
+    "name": "joan-of-arc",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.5
+  },
+
+  {
+    "id": 41,
+    "name": "lobster-hawke",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "discount": 0.5
+  },
+
+  {
+    "id": 42,
+    "name": "adam-ludwig-lewenhaupt",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 43,
+    "name": "carl-gustav-renhskiold",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+  {
+    "id": 44,
+    "name": "karl-xii",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+  {
+    "id": 45,
+    "name": "gottfried-wilhelm-leibniz",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+  {
+    "id": 46,
+    "name": "magnus-stenbock",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+  {
+    "id": 47,
+    "name": "peter-the-great",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 48,
+    "name": "marshal-omar",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.5
+  },
+
+  {
+    "id": 49,
+    "name": "friedrich-der-tote",
+    "tier": 2,
+    "premiumPrice": 300,
+    "discount": 0.75
+  },
+
+  {
+    "id": 50,
+    "name": "headless-chevauleger",
+    "tier": 2,
+    "premiumPrice": 300,
+    "discount": 0.75
+  },
+
+  {
+    "id": 51,
+    "name": "hound-of-war",
+    "tier": 2,
+    "premiumPrice": 300,
+    "discount": 0.75
+  },
+
+  {
+    "id": 52,
+    "name": "creepy-napoleon",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.75
+  },
+
+  {
+    "id": 53,
+    "name": "skull-han",
+    "tier": 2,
+    "premiumPrice": 300,
+    "discount": 0.75
+  },
+
+  {
+    "id": 54,
+    "name": "zombie-ney",
+    "tier": 2,
+    "premiumPrice": 300,
+    "discount": 0.75
+  },
+
+  {
+    "id": 55,
+    "name": "vampire-napoleon",
+    "tier": 2,
+    "premiumPrice": 300,
+    "discount": 0.75
+  },
+  {
+    "id": 56,
+    "name": "marble-emperor",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+  {
+    "id": 57,
+    "name": "suleiman",
+    "tier": 1,
+    "premiumPrice": 100,
+    "discount": 0.5
+  },
+
+  {
+    "id": 58,
+    "name": "gengis-khan",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.5
+  },
+
+  {
+    "id": 59,
+    "name": "stapleton-cotton",
+    "tier": 2,
+    "premiumPrice": 300,
+    "discount": 0.5
+  },
+
+  {
+    "id": 60,
+    "name": "empress-of-the-east",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.5
+  },
+
+  {
+    "id": 61,
+    "name": "white-lily",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "discount": 0.75
+  }
+]

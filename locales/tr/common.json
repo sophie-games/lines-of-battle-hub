@@ -10,12 +10,15 @@
   "store": "Mağaza",
   "supporters": "Destekçiler",
   "elo": "Elo",
+  "level": "Seviye",
+  "baseLevelExperience": "Temel seviye deneyimi",
+  "experience": "Deneyim",
+  "nextLevelExperience": "Sonraki seviye deneyimi",
   "season": "Sezon",
   "of": "arasında",
   "joinedAt": "{{date}} tarihinde katıldı",
   "addPlayer": "Oyuncu ekle",
   "credits": "Katkılar",
-
   "settings": "Ayarlar",
   "eloDescription": "Elo, oyuncuların göreceli beceri seviyelerini hesaplamak için kullanılan bir derecelendirme sistemidir. Elo'nuz ne kadar yüksekse, diğerlerine göre o kadar güçlüsünüz demektir. Kazanmak Elo'nuzu artırır, kaybetmek ise düşürür.",
   "welcomeName": "Hoş geldiniz {{name}}!",
@@ -35,26 +38,23 @@
     "title": "Oyun {{id}}",
     "turn": "Tur {{turnNumber}}/{{maxTurn}}"
   },
-
   "withdrawMessage": "Bu oyundan çekilirseniz bu bir kayıp olarak sayılacak ve Elo'nuz düşecektir, çekilmek istediğinizden emin misiniz?",
-
   "loading": "Yükleniyor...",
   "yes": "Evet",
   "no": "Hayır",
   "by": "Tarafından",
   "logout": "Çıkış Yap",
-
   "createNewGame": "Yeni oyun oluştur",
   "randomGameInfo": "Rastgele oluşturulan oyunlar için, oyun seçtiğiniz savaş modu için oluşturduğunuz orduyu kullanır. Ordularınızı <0>Ordu Kompozisyonları</0> bölümünde görüntüleyebilir ve yönetebilirsiniz. Eğer o mod için henüz bir ordu oluşturmadıysanız, varsayılan bir ordu kullanılacaktır.",
   "selectGameMode": "Aşağıdaki seçeneklerden oyun modunu seçin.",
   "or": "Veya",
   "quickMatchmaking": "Hızlı Eşleşme",
   "ranked": "Sıralı",
-  "classicUnranked": "Klasik Sırasız",
-  "classicUnrankedTooltip": "Klasik sırasız modda Elo etkilenmez ve sadece varsayılan ordu kullanılır.",
+  "classic": "Klasik",
+  "classicTooltip": "Varsayılan ordularla prosedürel olarak oluşturulan klasik haritaları kullan",
+  "rankedTooltip": "Oyunlar Elo puanınızı etkiler",
   "unranked": "Sırasız",
   "cancel": "İptal",
-
   "matchmakingQueue": {
     "inQueue": "Şimdi eşleştirme kuyruğundasınız! Sistem, sizinle aynı ayarları seçmiş başka bir oyuncu arıyor.",
     "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz.",
@@ -63,11 +63,9 @@
     "cancelledBy": "Kuyruk {{username}} tarafından iptal edildi.",
     "playersInQueue": "{{count}} oyuncu aranıyor"
   },
-
   "fastMode": "Hızlı Mod",
   "slowMode": "Yavaş Mod",
   "maxTimePerTurn": "Tur başına maksimum süre",
-
   "turnTimeLimit": {
     "30s": "30 saniye",
     "1m": "1 dakika",
@@ -78,7 +76,6 @@
     "3d": "3 gün",
     "7d": "7 gün"
   },
-
   "battleType": "Savaş türü",
   "dynamicBattleType": {
     "clash": "Karşılaşma",
@@ -86,14 +83,12 @@
     "battle": "Savaş",
     "grand_battle": "Büyük Savaş"
   },
-
   "matchmaking": "Eşleştirme",
   "matchmakingDescription": "Eşleştirme modu, önceden tanımlanmış ayarlarla rastgele oyuncularla hızlıca bir oyuna katılmanızı sağlar.",
   "custom": "Özel",
   "customDescription": "Özel mod, belirli ayarlarla bir oyun kurmanıza ve arkadaşlarınızı davet etmenize olanak tanır.",
   "createCustomGame": "Özel oyun oluştur",
   "maxTurn": "Maksimum tur",
-
   "player": "Oyuncu",
   "units": "Birimler",
   "afk": "AFK",
@@ -111,11 +106,11 @@
     "importInfo": "İstediğiniz herhangi bir senaryoyu içe aktarabilirsiniz.",
     "createInfo": "Kendi senaryolarınızı bile <scenarioEditorLink/> içinde oluşturabilirsiniz."
   },
-
   "scenarioEditorTags": {
-    "tutorialMessage": "Nasıl kullanılacağını bilmiyor musunuz? Endişelenmeyin, size yardımcı olacağız! <tutorialLink>Burada eğitimi izleyin.</tutorialLink>"
+    "tutorialMessage": "Nasıl kullanılacağını bilmiyor musunuz? Endişelenmeyin, size yardımcı olacağız! <tutorialLink>Burada eğitimi izleyin.</tutorialLink>",
+    "randomGuide": "Rastgele haritalar oluşturmayı öğrenmek ister misiniz? <0>Bu kılavuzu</0> okuyun.",
+    "baleriiMessage": "Oyuncular Balerii ve Nytka kendi harita editörlerini oluşturdular! Nasıl çalıştığını görmek için YouTube kanallarına göz atın:"
   },
-
   "createScenario": "Senaryo Oluştur",
   "loadScenario": "Senaryo Yükle",
   "playOffline": "Çevrimdışı Oyna!",
@@ -124,11 +119,8 @@
   "playerArmy": "Oyuncunun ordusu",
   "botArmy": "Botun ordusu",
   "army": "Ordu",
-
   "deploymentStateMessage": "Bu, konuşlanma aşamasıdır. Bu turu, birimlerinizi konuşlanma bölgesinde istediğiniz yere yerleştirmek için kullanın. İşiniz bittiğinde, yerleştirmeyi uygulamak için emirlerinizi gönderin.",
-  "youAreColor": "Siz {{color}}sunuz!",
   "getStarted": "Başla",
-
   "colorTag": {
     "1": "Mavi",
     "2": "Kırmızı",
@@ -136,10 +128,12 @@
     "4": "Yeşil",
     "5": "Siyah"
   },
-
   "resume": "Devam Et",
   "offerDraw": "Beraberlik Teklif Et",
   "replayBattle": "Savaşı Tekrar Oyna",
+  "downloadReplay": "Tekrarı İndir",
+  "replayGame": "Oyunu Tekrar Oyna",
+  "importReplay": "Tekrarı İçe Aktar",
   "result": "Sonuç",
   "exit": "Çık",
   "attackColor": "Saldırı rengi",
@@ -148,7 +142,6 @@
   "forUnit": "{{unit}} için",
   "select": "Seç",
   "deselect": "Seçimi Kaldır",
-
   "unitStat": {
     "hp": "Can",
     "org": "Organizasyon",
@@ -165,7 +158,6 @@
     "chargeResistance": "Hücum Direnci",
     "status": "Durum"
   },
-
   "unitCategory": {
     "infantry": "Piyade",
     "midCavalry": "Süvari",
@@ -177,9 +169,7 @@
     "militiaInfantry": "Milis Piyade",
     "skirmishInfantry": "Avcı Piyade"
   },
-
   "category": "Kategori",
-
   "damageType": {
     "musket": "Muskete",
     "light-musket": "Hafif Muskete",
@@ -199,7 +189,6 @@
     "dragoon-sword": "Ejder Kılıcı",
     "horse-archer-bow": "Atlı Okçu Yayı"
   },
-
   "unitName": {
     "1": "Hat Piyadesi",
     "2": "Ejderler",
@@ -215,7 +204,6 @@
     "12": "12-libre Ayak Topçusu",
     "13": "Atlı Okçular"
   },
-
   "battalionName": {
     "1": "{{n}} Hat Taburu",
     "2": "{{n}} Ejderler",
@@ -231,34 +219,39 @@
     "12": "{{n}} Ayak Bataryası",
     "13": "{{n}} Atlı Okçular"
   },
-
   "unitDescription": {
-    "1": "Mütevazı hat piyade taburu, ordunun temel birimidir. Ana silahı muskete olsa da, süngü ile süvarilere karşı koyabilir veya diğer piyade ve topçulara hücum edebilir.",
-    "2": "Güvenilir, çok yönlü orta sınıf süvari; taciz için olduğu kadar uzun süreli çatışmalar için de uygundur.",
-    "3": "Uygun fiyatlı orta sınıf topçu; mütevazı hareket kabiliyeti ve ateş gücü ile birlikte etkileyici kartuş ateşi sağlar.",
-    "4": "Tecrübeli, fiziksel olarak etkileyici askerler; dost askerlere ilham verme ve düşmanları korkutma yeteneğine sahiptir. Bu elit birimler, yalnızca en yetkin askerlere özeldir, bu da onları sahaya sürmeyi çok daha pahalı hale getirir. Korkutma ve mükemmel yakın dövüş özellikleri, süngü hücumunda en iyi şekilde kullanılır.",
-    "7": "Hızlı hareket ve nişancılık üzerine özel eğitim almış elit hat piyadesi.",
-    "11": "Zayıf, hasar görmüş ve dağılmış düşmanlara saldırmak için uygun hafif süvari. Ancak organize piyade ve ağır süvari karşısında zorlanacaktır. Önce düşmanı piyade ve topçu ile zayıflatın.",
-    "5": "Mızrak kullanarak yıkıcı hücumlar gerçekleştiren elit orta sınıf süvari - birden fazla Mızraklı birliği tarafından yapılan bir dizi hücum, herhangi bir direnişi hızla bozguna uğratır. Ancak uzun süreli bir yakın dövüşte çok daha az etkileyicidirler.",
-    "8": "Herhangi bir birimin en güçlü çok yönlü yakın dövüş etkinliğine sahip olan korkutucu ağır süvari. Yine de, Zırhlı Süvarileri göndermeden önce düşmanı piyade veya topçu ile zayıflatmak en iyisidir.",
-    "12": "Napolyon ordusunun sahip olduğu en ağır saha topu; bu bataryalar son derece pahalı olsa da menzilleri ve güçleri eşsizdir.",
+    "1": "Mütevazı hat piyade taburu, ordunun temel birimidir. Tüfek ana silahıdır, ancak süvarilere karşı koyabilir veya süngü ile diğer piyade ve topçulara hücum edebilir.",
+    "2": "Ejderler, Napolyon'un ordusundaki en yaygın süvariydi. Hüsarların cüretinden ve Kürassiyerlerin ihtişamından yoksun olabilirler, ancak bu güçlü orta süvari genellikle süvari gücünüzün temeli olmalıdır.",
+    "3": "Çok güçlü kartuş ve uzak mesafede iyi hasar ile uygun fiyatlı orta topçu, ancak biraz zayıf hareket kabiliyeti.",
+    "4": "Sadece varlıklarıyla yakındaki birliklerin performansını artıran deneyimli, fiziksel olarak etkileyici askerler. Bu elit birimler, en doğal yetenekli askerlere özeldir, bu da onları sahaya sürmeyi çok daha pahalı hale getirir. Herhangi bir daha düşük birimi kıracak hasarların üstesinden gelecekler.",
+    "5": "Yıkıcı hücumlar gerçekleştirmek için mızrak kullanan elit hafif süvari - birden fazla Mızraklı birliği tarafından yapılan bir dizi hücum herhangi bir direnişi hızla bozguna uğratacaktır. Ancak uzun süreli yakın dövüşte çok daha az etkileyicidirler.",
     "6": "Bu topçunun hızı ve düşük maliyeti, süvarileri desteklemek veya piyade hattınızla birlikte ilerlemek için uygundur.",
-    "9": "Patlayıcı mermilere sahip hafif saha obüsleri ve özellikle ölümcül kısa menzilli kartuş ateşi - piyade hattınızı orta ve kısa mesafede desteklemek için idealdir.",
-    "10": "“Milislere herhangi bir güven duymak, kesinlikle kırık bir asaya dayanmaktır.” - George Washington",
-    "13": "“Başkır atlı okçuları, şüphesiz dünyadaki en az tehlikeli birliklerdir.” - Baron Marbot, uyluğundaki oku görmezden gelerek"
+    "7": "Hızlı hareket ve nişancılık üzerine özel odaklanmış elit hat piyade taburları.",
+    "8": "Herhangi bir birimin en güçlü çok yönlü yakın dövüş etkinliğine sahip güçlü ağır süvari. Kürassiyerleri düşman süvarisini domine etmek için kullanın veya onları topçu ateşiyle yumuşattıktan sonra düşman cephesini kırmak için toplayın.",
+    "9": "Bu hafif, mobil saha obüsleri arazi veya mesafeden bağımsız olarak yetkin hasar veren 23 lb mermiler fırlatır. Yakın mesafede, ağır kartuş salvoları Napolyon Savaşları'nda bilinen en yıkıcı ateşlerden bazılarını verir.",
+    "10": "\"Milislere herhangi bir güven duymak, kesinlikle kırık bir asaya dayanmaktır.\" - George Washington",
+    "11": "Bu zarif hafif süvari birlikleri yüksek hız ve dayanıklılık sunar, ancak piyade veya daha ağır süvariye karşı savaşta kaybedecekler. Bunun yerine, hüsarları keşif için ve savunmasız hedefleri terörize etmek için kullanın - avcılar, süvari ve dağınık veya kaçan birlikler.",
+    "12": "Napolyon ordusunun sahip olduğu en ağır saha topu; bu bataryalar son derece pahalı olsa da menzilleri ve güçleri eşsizdir.",
+    "13": "\"Başkır atlı okçuları, şüphesiz dünyadaki en az tehlikeli birliklerdir.\" - Baron Marbot, uyluğundaki oku görmezden gelerek",
+    "14": "Bu şok birlikleri hat piyadesinin en uzun, en güçlü ve en etkileyici erkeklerinden oluşur. Grenadyerlerinizi iyi durumda tutun ve düşman sarsılmaya başladığında onları tamamen kırmak için gönderin.",
+    "15": "Napolyon Savaşları'nın en hafif yaygın saha topçusu, mütevazı ateş gücü ve onu piyadenin doğal yoldaşı yapan iyi hareket kabiliyeti ile.",
+    "16": "Napolyon taburları çeşitli görevleri yerine getirmek için Voltijörler ve Avcılar gibi gevşek düzenli birliklerin bu küçük bölüklerini ayırırdı. Bu birlikler büyük piyade birimleri için uygun olmayan araziyi işgal eder, düşman hattını taciz eder ve düşman avcılarını püskürtmek için orduyu korurdu.",
+    "17": "Napolyon dönemi tüfekleri musketlerden çok daha düşük ateş hızı sunarken, avcı düellolarını kazanmaya, düşman subaylarını öldürmeye ve düşman topçusunu uzaktan taciz etmeye yardımcı olan mükemmel doğrulukla telafi ettiler.",
+    "18": "Napolyon 6 lb topunu güç ve manevra kabiliyeti dengesi için tercih etti; Napolyon Savaşları ilerledikçe, 4 ve 8 lb topları mümkün olduğunca çok 6 ve 12 lb top ile değiştirmeye çalıştı.",
+    "19": "Napolyon roketi sürekli doğruluk sorunları olan deneysel, huysuz bir silahtı. Ancak yüksek manevra kabiliyeti ile övünür ve yakın mesafede az hasar veren ancak düşman moralinde felaket etkileri olan yoğun ateş verebilir.",
+    "24": "10 lb likorn, Napolyon Savaşları'nın Rus ordusunun bir top-obüsüydü. Uzun menzilli patlayıcı mermileri arazi içindeki düşmanlarla başa çıkmak için iyi uygundur ve yakın menzilli kartuşu yıkıcıdır. 10 lb'lik orta menzilli gülle kullanarak açık alandaki hedefleri yok edin.",
+    "25": "18 lb likorn, korkunç yakın menzilli kartuş, açık alandaki birliklere karşı yüksek etkili orta menzilli gülle ve düşman savunma arazisinin faydalarını görmezden gelen uzun menzilli patlayıcı mermiler ile ağır bir Rus top-obüsüdür."
   },
-
   "damageResistances": "Hasar Dirençleri",
   "otherStats": "Diğer İstatistikler",
   "damageModifier": "Hasar Değiştirici",
   "orgDamageRatio": "Organizasyon Hasar Oranı",
-
   "damage": "Hasar",
   "orgDamage": "Organizasyon Hasarı",
   "enfiladeFireModifiers": "Yan Ateş Değiştiricileri",
   "rearFireModifiers": "Arka Ateş Değiştiricileri",
   "firingAltitude": "Hedef Yükseklik",
-  "canCaptureObjectives": "Hedefleri ele geçirebilir",
+  "captureSpeed": "Ele geçirme hızı",
   "cantCaptureObjectives": "Hedefleri ele geçiremez",
   "enfiladeFire": "Yan Ateş",
   "closeRange": "Yakın Mesafe",
@@ -285,7 +278,6 @@
   "projectileAbsorption": "Mermi Emilimi",
   "terrainPName": "Arazi: {{name}}",
   "effects": "Etkiler",
-
   "terrain": {
     "0": "Kara",
     "1": "Orman",
@@ -293,7 +285,6 @@
     "3": "Yol",
     "4": "Su"
   },
-
   "clearPlayerUnits": "Oyuncu birimlerini temizle",
   "clearBotUnits": "Bot birimlerini temizle",
   "continueGame": "Oyuna devam et",
@@ -301,17 +292,14 @@
   "filterBy": "Filtrele",
   "name": "İsim",
   "retry": "Tekrar Dene",
-
   "networkErrorModal": {
     "title": "Oops! Bağlantı Koptu",
     "message": "Bağlantı başarısız gibi görünüyor. Endişelenmeyin! Hala çevrimdışı oynayabilirsiniz."
   },
-
   "needsUpdateModal": {
     "title": "Güncelleme gerekli",
     "message": "LoB'nin yeni bir sürümü mevcut! Çevrimiçi oynamaya devam etmek için lütfen en son sürüme güncelleyin."
   },
-
   "update": "Güncelle!",
   "yourArmyCompositionsFor": "{{mode}} için Ordu Kompozisyonunuz",
   "noUnitsYet": "Henüz birim yok",
@@ -324,21 +312,17 @@
   "clearUnits": "Birimleri temizle",
   "saving": "Kaydediliyor...",
   "armyInvalid": "Bu ordu geçersiz, lütfen düzenleyin.",
-
   "landing": {
     "message": "<b>Lines of Battle</b>, eşzamanlı turlar ve gerçek zamanlı savaş ile Napolyon taktik oyunudur. Doğru birlikler ve taktiklerle insan rakiplerinizi yenin!",
     "privacy": "Başlayarak <0>Gizlilik Politikamızı</0> kabul etmiş olursunuz."
   },
-
   "welcomeModal": {
     "title": "Savaş Çizgilerine Hoş Geldiniz 👋",
     "thanks": "Katıldığınız için teşekkürler, {{name}}!",
     "p1": "<b>Savaş Çizgileri</b>'nde yeni misiniz? Oyun mekaniklerini öğrenmek ve rahat bir ortamda stratejinizi geliştirmek için bir <offlineLink>çevrimdışı pratik oyunu</offlineLink> ile başlamanızı öneririm.",
     "p2": "Oyun şu anda beta aşamasında olduğu için, diğer oyuncularla bağlantı kurmak, rakipler bulmak, hataları bildirmek ve oyun deneyimini herkes için iyileştirmek için fikirlerinizi paylaşmak adına <discordLink>Discord sunucusuna</discordLink> katılmaya davetlisiniz!"
   },
-
   "turn": "Tur",
-
   "loadingScreen": {
     "fonts": "Yazı tipleri yükleniyor...",
     "joiningGame": "Oyuna katılınıyor...",
@@ -346,9 +330,7 @@
     "fetchingGameData": "Oyun verileri alınıyor...",
     "generatingMap": "Harita oluşturuluyor..."
   },
-
   "fetchingBattleActions": "Savaş eylemleri alınıyor...",
-
   "order": {
     "1": "Yürümek",
     "2": "Koşmak",
@@ -356,7 +338,6 @@
     "4": "Ateş ve İlerle",
     "6": "Geri Çekil"
   },
-
   "selectOrder": "Emir Seç",
   "autofire": "Otomatik ateş",
   "allowFireWhenMoving": "Hareket ederken ateşe izin ver",
@@ -379,7 +360,6 @@
   "meleePerformance": "Yakın dövüş performansı",
   "speedByOrg": "Organizasyona göre hız",
   "turnsLeft": "Tur kaldı",
-
   "battleOverview": {
     "title": "Savaş Genel Bakış",
     "victoryPoints": "Zafer Puanları",
@@ -391,30 +371,25 @@
     "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin <0>{{percentage}}%</0>'ini veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
     "unitsOrgRegain": "Birim organizasyon kazanımı"
   },
-
   "offerDrawModal": {
     "withdrawOffer": "Teklifi Geri Çek",
     "alreadyWantsDrawMessage": "Zaten bir beraberlik teklif ediyorsunuz. Bu teklifi geri çekmek istiyor musunuz?",
     "offerDrawMessage": "Eğer bir beraberlik teklif ederseniz, bu seçenek siz devre dışı bırakana kadar etkin kalacaktır."
   },
-
   "defeat": "Yenilgi",
   "victory": "Zafer",
   "draw": "Beraberlik",
   "won": "Kazanıldı",
   "lost": "Kaybedildi",
   "tie": "Berabere",
-
   "unitStatus": {
     "1": "Ayakta",
     "2": "Dağılmış",
     "3": "Toparlanıyor"
   },
-
   "unitEffect": {
     "1": "Tam dönme"
   },
-
   "login": "Giriş Yap",
   "signUp": "Kayıt Ol",
   "forgotPassword": "Şifremi unuttum?",
@@ -431,22 +406,18 @@
   "enterNewPassword": "Yeni şifreyi girin",
   "newPassword": "Yeni şifre",
   "repeatPassword": "Şifreyi tekrarla",
-
   "teamSize": {
     "title": "Takım boyutu",
     "1v1": "1’e 1",
     "2v2": "2’ye 2"
   },
-
   "offline": "Çevrimdışı",
   "offlineDescription": "Botlara karşı pratik yapın ve aynı cihazda arkadaşlarınızla hotseat oynayın!",
-
   "premiumCurrencyLeaderboard": {
     "title": "<premiumCurrency/> Lider Tablosu",
     "subtitle": "En fazla <premiumCurrency/> kimde?",
     "description": "İlk olmak ister misiniz? <storeLink>Mağazaya gidin</storeLink> ve <premiumCurrency/> alın!"
   },
-
   "team": "Takım",
   "teams": "Takımlar",
   "playerType": "Oyuncu türü",
@@ -454,14 +425,11 @@
   "bot": "Bot",
   "armyOfPlayer": "Oyuncu {{player}}’ın ordusu",
   "averageElo": "Ortalama Elo",
-
   "hybridDescription": "Hibrit haritalar rastgele olmayan, önceden ayarlanmış arazi kullanır, ancak oyuncuların kendi özel ordularını kullanmalarına olanak tanır.",
-
   "playLastActionsModal": {
     "message": "Siz yokken yeni savaş olayları gerçekleşti.\nSon turdaki eylemleri görmek ister misiniz?",
     "button": "Oynat"
   },
-
   "battleReport": "Savaş Raporu",
   "gameEndReasons": {
     "cancelled": "Oyun iptal edildi çünkü en az bir oyuncu ilk turda emir göndermedi.",
@@ -475,7 +443,6 @@
   "casualties": "Kayıplar",
   "gunsLost": "Kayıp Toplar",
   "noRewards": "Ödül yok",
-
   "clan": "Koalisyon",
   "clans": "Koalisyonlar",
   "createClan": "Koalisyon Oluştur",
@@ -507,7 +474,6 @@
   "accept": "Kabul Et",
   "reject": "Reddet",
   "linkCopiedToClipboard": "Bağlantı panoya kopyalandı",
-
   "pagination": {
     "previous": "Önceki",
     "next": "Sonraki",
@@ -515,11 +481,9 @@
     "of": "/",
     "items": "öğeler"
   },
-
   "kick": "At",
   "noDescription": "Açıklama yok",
   "save": "Kaydet",
-
   "ordersSubmittedDialog": {
     "p1": {
       "sent": "Emirler sunucuya gönderildi.",
@@ -529,11 +493,9 @@
     "p2": "{{value}} saniye içinde güncellemeler kontrol ediliyor",
     "b": "Şimdi Kontrol Et"
   },
-
   "search": {
     "clans": "Koalisyonları ara"
   },
-
   "formation": "Formasyon",
   "findGame": "Oyun bul",
   "gameIdOrLink": "Oyun ID’si veya bağlantı",
@@ -548,7 +510,6 @@
     "p2": "Lines of Battle'e gelecek daha fazla güncelleme ve yeni özellikler için bizi takip edin!",
     "p3": "En son haberler ve duyurular için bizi sosyal medyada takip edin."
   },
-
   "allVisible": "Tümü Görünür",
   "teamN": "Takım {{number}}",
   "measuring": "Ölçülüyor...",
@@ -557,31 +518,24 @@
   "connecting": "Bağlanıyor...",
   "disconnecting": "Bağlantı kesiliyor...",
   "unknown": "Bilinmiyor",
-
   "fogOfWar": "Savaş sisi",
-
   "low": "Düşük",
   "medium": "Orta",
   "high": "Yüksek",
-
   "tournamentStartedModal": {
     "title": "Bir turnuva oyunu başladı",
     "message": "{{tournamentName}} turnuvasının {{round}}. turu başladı!",
     "goButtonText": "Turnuva oyununa git"
   },
-
   "dismiss": "Kapat",
   "turningDelay": "Dönüş gecikmesi",
   "infantry": "Piyade",
   "cavalry": "Süvari",
   "artillery": "Topçu",
   "special": "Özel",
-
   "preset": "Önceden ayarlanmış",
   "hybrid": "Hibrit",
   "random": "Rastgele",
-  "classic": "Klasik",
-
   "academy": "Akademi",
   "encyclopedia": "Ansiklopedi",
   "tutorialTips": "Eğitim İpuçları",
@@ -593,9 +547,7 @@
   "createTournament": "Turnuva oluştur",
   "hasPassword": "Şifre var",
   "optional": "İsteğe bağlı",
-
   "initRound1": "1. turu başlat",
-
   "autoProgression": "Otomatik ilerleme",
   "autoProgressionInfo": "Bu seçenek etkinleştirilirse, turnuva mevcut turun son maçı tamamlandığında otomatik olarak bir sonraki tura geçer. Devre dışı bırakılırsa, turnuva yönetici tarafından manuel olarak başlatıldığında veya planlanan tarih ve saatte (eğer ayarlanmışsa) ilerler.",
   "allowsCharging": "Hücum etmeye izin verir",
@@ -604,5 +556,28 @@
   "scenario": "Senaryo",
   "banned": "Yasaklandı",
   "baseAmmo": "Temel cephane",
-  "range": "Menzil"
+  "range": "Menzil",
+  "faaRangedDamage": "FAA Uzak Mesafe Hasarı",
+  "quickPlay": "Hızlı oyun",
+  "quickPlayWithCount": "Hızlı oyun ({{count}})",
+  "discord": {
+    "link": "Discord Bağla",
+    "unlink": "Discord Bağlantısını Kes",
+    "confirmMessage": "Discord hesabınızın bağlantısını kesmek istediğinizden emin misiniz?",
+    "authWaitMessage": "Discord yetkilendirmenizi işlerken lütfen bekleyin...",
+    "authSuccessMessage": "Discord hesabı başarıyla bağlandı!",
+    "authErrorMessage": "Discord yetkilendirmesi başarısız oldu. Lütfen tekrar deneyin.",
+    "linkingAccount": "Discord hesabı bağlanıyor..."
+  },
+  "redirecting": "Yönlendiriliyor...",
+  "success": "Başarılı!",
+  "error": "Hata!",
+  "processing": "İşleniyor..."
+  ,
+  "steamBanner": {
+    "title": "Lines of Battle’ı Steam istek listenize ekleyin!",
+    "description": "Oyunu çıkarmak için <0>{{wishlistCount}}</0> hedefine ulaşmamıza yardım edin!",
+    "descriptionBoldPart": "{{wishlists}} istek listesi",
+    "buttonText": "Şimdi istek listesine ekle"
+  }
 }

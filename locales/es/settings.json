@@ -4,7 +4,6 @@
   "camera": "Cámara",
   "sound": "Sonido",
   "language": "Idioma",
-
   "multiTurnOrders": {
     "title": "Órdenes de varios turnos",
     "description": "Activar esta configuración le permitirá emitir órdenes que el juego recordará e implementará de un turno a otro. Estas órdenes de varios turnos pueden abarcar hasta 10 turnos de movimiento y cubrir órdenes de ubicación como 'Mover' y órdenes de objetivo como 'Buscar'."
@@ -81,16 +80,13 @@
     "description": "Restaurar toda la configuración a sus valores predeterminados. Esta acción sobrescribirá cualquier personalización que hayas realizado."
   },
   "reset": "Restablecer",
-
   "lineFormation": "Formación en línea",
   "checkerboardFormation": "Formación en tablero de ajedrez",
   "spaceBetweenUnits": "Espacio entre unidades",
   "spaceBetweenLines": "Espacio entre líneas",
-
   "showChat": {
     "title": "Mostrar chat"
   },
-
   "keybindings": {
     "title": "Atajos de teclado",
     "pressAKey": "Presiona una tecla...",
@@ -109,21 +105,18 @@
     "toggleFormation": "Alternar formación",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
     "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
-    "openChat": "Abrir chat"
+    "openChat": "Abrir chat",
+    "toggleFullscreen": "Alternar pantalla completa"
   },
-
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"
   },
-
   "fogOfWar": {
     "description": "La niebla de guerra es la sombra que aparece sobre el terreno que tus unidades no pueden ver. La sobrecarga computacional de verificar cada casilla que un jugador puede ver es costosa, por lo que deshabilitar esta opción puede mejorar el rendimiento. Sin embargo, esta opción es 100% gráfica; deshabilitarla no hará visibles las unidades enemigas ocultas."
   },
-
   "fogOfWarColor": {
     "title": "Color de la niebla de guerra"
   },
-
   "groundQuality": {
     "title": "Calidad del Terreno",
     "description": "Controla la calidad de las texturas del terreno. Mayor calidad proporciona mejor detalle visual pero puede afectar el rendimiento. Requiere refrescar el mapa."

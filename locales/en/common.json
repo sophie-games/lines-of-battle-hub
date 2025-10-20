@@ -10,13 +10,16 @@
   "store": "Store",
   "supporters": "Supporters",
   "elo": "Elo",
+  "level": "Level",
+  "nextLevelExperience": "Next level experience",
+  "baseLevelExperience": "Base level experience",
+  "experience": "Experience",
   "season": "Season",
   "of": "of",
   "joinedAt": "Joined at {{date}}",
   "createdAt": "Created at {{date}}",
   "addPlayer": "Add player",
   "credits": "Credits",
-
   "settings": "Settings",
   "eloDescription": "Elo is a rating system used to calculate the relative skill level of players. The higher your Elo, the stronger you are compared to others. Winning increases your Elo, while losing decreases it.",
   "welcomeName": "Welcome {{name}}!",
@@ -36,26 +39,23 @@
     "title": "Game {{id}}",
     "turn": "Turn {{turnNumber}}/{{maxTurn}}"
   },
-
   "withdrawMessage": "If you withdraw from this game it will count as a loss and that will lower your Elo, are you sure you want to withdraw?",
-
   "loading": "Loading...",
   "yes": "Yes",
   "no": "No",
   "by": "By",
   "logout": "Logout",
-
   "createNewGame": "Create new game",
   "randomGameInfo": "For randomly generated games, the game will use the army you've created for the selected battle mode. You can view and manage your armies in the <0>Army Compositions</0>. If you haven't created any armies for that mode yet, a default army will be used.",
   "selectGameMode": "Select the game mode from the options below.",
   "quickMatchmaking": "Quick Matchmaking",
+  "classic": "Classic",
+  "classicTooltip": "Use procedurally generated classic maps with default armies",
   "ranked": "Ranked",
-  "classicUnranked": "Classic Unranked",
-  "classicUnrankedTooltip": "In classic unranked mode, Elo is not affected and only the default army is used.",
+  "rankedTooltip": "Games affect your Elo rating",
   "unranked": "Unranked",
   "or": "Or",
   "cancel": "Cancel",
-
   "matchmakingQueue": {
     "inQueue": "You are now in the matchmaking queue! The system is searching for another player who has selected the same settings as you.",
     "matchFound": "Once a match is found, you will be redirected to the game.",
@@ -64,11 +64,9 @@
     "cancelledBy": "The queue was cancelled by {{username}}.",
     "playersInQueue": "{{count}} players searching"
   },
-
   "fastMode": "Fast Mode",
   "slowMode": "Slow Mode",
   "maxTimePerTurn": "Max time per turn",
-
   "turnTimeLimit": {
     "30s": "30 seconds",
     "1m": "1 minute",
@@ -79,7 +77,6 @@
     "3d": "3 days",
     "7d": "7 days"
   },
-
   "battleType": "Battle type",
   "dynamicBattleType": {
     "clash": "Clash",
@@ -87,7 +84,6 @@
     "battle": "Battle",
     "grand_battle": "Grand Battle"
   },
-
   "matchmaking": "Matchmaking",
   "matchmakingDescription": "Matchmaking mode lets you quickly join a game with random players using predefined settings.",
   "onlyPartyLeaderCanSearch": "Only the party leader can search for a match.",
@@ -103,7 +99,6 @@
   "createCustomGame": "Create Custom game",
   "maxTurn": "Max turn",
   "seed": "Seed",
-
   "player": "Player",
   "units": "Units",
   "afk": "AFK",
@@ -123,12 +118,11 @@
     "createInfo": "You can even create your own scenarios in the <scenarioEditorLink/>.",
     "createInfo2": "Or explore the <0>Community Hub</0> for ready-made scenarios."
   },
-
   "scenarioEditorTags": {
     "tutorialMessage": "Not sure how to use it? Don't worry, we've got you covered! <tutorialLink>Watch the tutorial here.</tutorialLink>",
-    "randomGuide": "Want to learn how to create random maps? Read <0>this guide</0>."
+    "randomGuide": "Want to learn how to create random maps? Read <0>this guide</0>.",
+    "baleriiMessage": "Players Balerii and Nytka have created their own map editor! Check out their YouTube channel to see how it works:"
   },
-
   "createScenario": "Create Scenario",
   "loadScenario": "Load Scenario",
   "playOffline": "Play Offline!",
@@ -137,11 +131,8 @@
   "playerArmy": "Player's army",
   "botArmy": "Bot's army",
   "army": "Army",
-
   "deploymentStateMessage": "This is the deployment stage. Take this turn to place your units where you want within the deployment zone. When you're finished, submit your orders to apply the placement.",
-  "youAreColor": "You are {{color}}!",
   "getStarted": "Get started",
-
   "colorTag": {
     "1": "Blue",
     "2": "Red",
@@ -149,10 +140,12 @@
     "4": "Green",
     "5": "Black"
   },
-
   "resume": "Resume",
   "offerDraw": "Offer draw",
   "replayBattle": "Replay battle",
+  "downloadReplay": "Download Replay",
+  "replayGame": "Replay Game",
+  "importReplay": "Import Replay",
   "result": "Result",
   "exit": "Exit",
   "attackColor": "Attack color",
@@ -161,7 +154,6 @@
   "forUnit": "For {{unit}}",
   "select": "Select",
   "deselect": "Deselect",
-
   "unitStat": {
     "hp": "HP",
     "org": "Organization",
@@ -181,7 +173,6 @@
     "timeToRun": "Time to Run",
     "runCost": "Run Cost"
   },
-
   "unitCategory": {
     "infantry": "Infantry",
     "midCavalry": "Cavalry",
@@ -193,15 +184,12 @@
     "militiaInfantry": "Militia Infantry",
     "skirmishInfantry": "Skirmish Infantry"
   },
-
   "category": "Category",
-
   "routingBehavior": "Routing Behavior",
   "baseSpeed": "Base Speed",
   "moveWhileInMelee": "Move While In Melee",
   "walk": "Walk",
   "run": "Run",
-
   "damageType": {
     "musket": "Musket",
     "light-musket": "Light Musket",
@@ -232,7 +220,6 @@
     "18lb-cannon-ball": "18-lb Cannon Ball",
     "18lb-explosive-shell": "18-lb Explosive Shell"
   },
-
   "unitName": {
     "1": "Line Infantry",
     "2": "Dragoons",
@@ -260,7 +247,6 @@
     "24": "10-lb Licorne",
     "25": "18-lb Licorne"
   },
-
   "battalionName": {
     "1": "{{n}} Line Battalion",
     "2": "{{n}} Dragoons",
@@ -288,42 +274,39 @@
     "24": "{{n}} Licorne",
     "25": "{{n}} Licorne"
   },
-
   "unitDescription": {
     "1": "The humble line infantry battalion is the basic unit of the army. The musket is its primary weapon, but it can also fend off cavalry or charge other infantry and artillery with the bayonet.",
-    "2": "Reliable, well-rounded medium cavalry fit for harassment as well as prolonged fighting.",
-    "3": "Affordable medium artillery with modest mobility and firepower, together with impressive canister fire.",
-    "4": "Experienced, physically imposing soldiers with the ability to inspire friendly soldiers and terrify enemies. These elite units are exclusive to the most naturally gifted soldiers, which makes them much more expensive to field. Their intimidation and excellent melee characteristics are put to best use in a bayonet charge.",
-    "7": "Elite line infantry trained with a special focus on rapid movement and marksmanship.",
-    "11": "Light cavalry suited to attacking weak, damaged, and routing enemies. However, they will struggle against organized infantry and heavy cavalry. Use infantry and artillery to weaken the enemy first.",
+    "2": "Dragoons were the single most common cavalry in Napoleon's army. They may lack the dash of hussars and the glamour of Cuirassiers, but these formidable medium cavalry should generally be the basis of your cavalry force.",
+    "3": "Affordable medium artillery with very potent canister and good damage at range, but somewhat poor mobility.",
+    "4": "Experienced, physically imposing soldiers that improve the performance of nearby troops through their presence alone. These elite units are exclusive to the most naturally gifted soldiers, which makes them much more expensive to field. They will fight through damage that would break any lesser unit.",
     "5": "Elite light cavalry that use the lance to deliver devastating charges - a series of charges by multiple Lancer squadrons will swiftly rout any opposition. However, they're much less impressive in a drawn-out melee.",
-    "8": "Formidable heavy cavalry with the strongest all-around melee combat effectiveness of any unit. However, it's still best to weaken the enemy with infantry or artillery before sending in your Cuirassiers.",
-    "12": "The heaviest field gun available to the Napoleonic army; while these batteries are extremely expensive, their range and power are unmatched.",
     "6": "This artillery's speed and low cost make it suitable for supporting cavalry or advancing alongside your infantry line.",
-    "9": "Light field howitzers with explosive shells and particularly lethal short-range canister fire - ideal for supporting your infantry line at medium to short range.",
+    "7": "Elite line infantry battalions trained with a special focus on rapid movement and marksmanship.",
+    "8": "Formidable heavy cavalry with the strongest all-around melee combat effectiveness of any unit. Use Cuirassiers to dominate enemy cavalry, or mass them to break through the enemy front after softening it with artillery fire.",
+    "9": "These light, mobile field howitzers throw 23lb shells that deal competent damage regardless of terrain or distance. At close range, their heavy canister volleys deliver some of the most destructive fire known to the Napoleonic Wars.",
     "10": "“To place any dependence upon militia is assuredly resting upon a broken staff.” - George Washington",
+    "11": "These dashing light cavalry squadrons offer high speed and stamina, but will lose in a fight against infantry or heavier cavalry. Instead, use hussars to scout and terrorize vulnerable targets - skirmishers, cavalry, and disorganized or routing troops.",
+    "12": "The heaviest field gun available to the Napoleonic army; while these batteries are extremely expensive, their range and power are unmatched.",
     "13": "“The Bashkir horse archers are undoubtedly the world's least dangerous troops.” - Baron Marbot, ignoring an arrow in his thigh",
-    "14": "These shock troops are made up the tallest, strongest, and most imposing men of the line infantry. While they're generally more fearsome than average line troops, their most powerful option in combat is their devastating charge.",
+    "14": "These shock troops are made up the tallest, strongest, and most imposing men of the line infantry. Keep your Grenadiers in good condition and commit them when the enemy begins to waver to break them utterly.",
     "15": "The lightest common field artillery of the Napoleonic Wars, with modest firepower and good mobility that make it a natural companion to the infantry.",
     "16": "Napoleonic battalions would detach these small companies of loose-order troops, such as Voltigeurs and Jaegers, to carry out a variety of duties. These troops would occupy terrain unsuitable to large infantry units, harass the enemy line, and screen the army to fend off enemy skirmishers.",
     "17": "While rifles of the Napoleonic era offer a much lower rate of fire than muskets, they compensated with excellent accuracy that helped win skirmishing duels, pick off enemy officers, and harass enemy artillery from a distance.",
     "18": "Napoleon favored the 6lb cannon for its balance of power and maneuverability; as the Napoleonic Wars wore on, he sought to replace the 4 and 8lb guns with as many 6 and 12lb guns as possible.",
-    "19": "The Napoleonic rocket was an experimental, temperamental weapon with persistent accuracy issues. However, it boasts high maneuverability, a substantial explosive payload that's effective against terrain, and can deal excellent organizational damage at close range.",
-    "24": "The 10-pounder licorne was a Russian artillery piece used in the Napoleonic Wars. It combined features of cannons and howitzers, allowing it to fire both solid shot and explosive shells, and was valued for its versatility and range.",
-    "25": "The 18-pounder licorne was a Russian artillery piece of the Napoleonic Wars, combining the roles of cannon and howitzer. It could fire both solid shot and explosive shells, making it effective for long-range bombardment and battlefield support."
+    "19": "The Napoleonic rocket was an experimental, temperamental weapon with persistent accuracy issues. However, it boasts high maneuverability, and at close range it can deliver intense fire that deals little damage but has catastrophic effects on enemy morale.",
+    "24": "The 10-pounder licorne was a gun-howitzer of the Russian army of the Napoleonic Wars. Its long-range explosive shells are well-suited to dealing with enemies in terrain, and its close-range canister is devastating. Use the medium-range round shot of the 10lber to decimate targets in the open.",
+    "25": "The 18-pounder licorne is a heavy Russian gun howitzer with terrifying close-range canister, medium-range round shot that's highly effective against troops in the open, and long-range explosive shells that ignore the benefits of enemy defensive terrain."
   },
-
   "damageResistances": "Damage Resistances",
   "otherStats": "Other Stats",
   "damageModifier": "Damage Modifier",
   "orgDamageRatio": "Org Damage Ratio",
-
   "damage": "Damage",
   "orgDamage": "Org Damage",
   "enfiladeFireModifiers": "Enfilade Fire Modifiers",
   "rearFireModifiers": "Rear Fire Modifiers",
   "firingAltitude": "Firing Altitude",
-  "canCaptureObjectives": "Can capture objectives",
+  "captureSpeed": "Capture Speed",
   "cantCaptureObjectives": "Cannot capture objectives",
   "enfiladeFire": "Enfilade Fire",
   "pointBlankRange": "Point Blank Range",
@@ -355,7 +338,6 @@
   "projectileAbsorption": "Projectile Absorption",
   "terrainPName": "Terrain: {{name}}",
   "effects": "Effects",
-
   "terrain": {
     "0": "Grass",
     "1": "Forest",
@@ -381,7 +363,6 @@
     "21": "Trench",
     "22": "Redoubt"
   },
-
   "clearPlayerUnits": "Clear player units",
   "clearBotUnits": "Clear bot units",
   "continueGame": "Continue game",
@@ -389,17 +370,14 @@
   "filterBy": "Filter by",
   "name": "Name",
   "retry": "Retry",
-
   "networkErrorModal": {
     "title": "Oops! Connection Lost",
     "message": "Seems like the connection failed. Don't worry! You can still enjoy playing offline."
   },
-
   "needsUpdateModal": {
     "title": "Update required",
     "message": "A new version of LoB is available! Please update to the latest version to continue playing online."
   },
-
   "update": "Update!",
   "yourArmyCompositionsFor": "Your Army Compositions for",
   "noUnitsYet": "No units yet",
@@ -412,21 +390,17 @@
   "clearUnits": "Clear units",
   "saving": "Saving...",
   "armyInvalid": "This army is invalid, please modify it.",
-
   "landing": {
     "message": "<b>Lines of Battle</b> is a Napoleonic tactical game with simultaneous turns and real-time combat. Defeat human opponents with accurate troops and tactics!",
     "privacy": "By starting, you agree to our <0>Privacy Policy</0>."
   },
-
   "welcomeModal": {
     "title": "Welcome to Lines of Battle 👋",
     "thanks": "Thank you for joining, {{name}}!",
     "p1": "New to <b>Lines of Battle</b>? I recommend starting with an <offlineLink>offline practice game</offlineLink> against a bot to familiarize yourself with the game mechanics and develop your strategy in a relaxed environment.",
     "p2": "Since the game is currently in beta, I invite you to join the <discordLink>Discord server</discordLink> to connect with other players, find opponents to play with, report bugs, and share your ideas to help improve the game experience for everyone!"
   },
-
   "turn": "Turn",
-
   "loadingScreen": {
     "fonts": "Loading fonts...",
     "joiningGame": "Joining game...",
@@ -434,9 +408,7 @@
     "fetchingGameData": "Fetching game data...",
     "generatingMap": "Generating map..."
   },
-
   "fetchingBattleActions": "Fetching battle actions...",
-
   "order": {
     "1": "Walk",
     "2": "Run",
@@ -445,7 +417,6 @@
     "6": "Fallback",
     "7": "No orders"
   },
-
   "selectOrder": "Select Order",
   "autofire": "Autofire",
   "allowFireWhenMoving": "Allow fire when moving",
@@ -468,7 +439,6 @@
   "meleePerformance": "Melee performance",
   "speedByOrg": "Speed by org",
   "turnsLeft": "Turns left",
-
   "battleOverview": {
     "title": "Battle Overview",
     "victoryPoints": "Victory Points",
@@ -480,7 +450,6 @@
     "timeUnderPressureTooltip": "Time under pressure is the time a team has the <0>{{percentage}}%</0> of the objectives or less. The longer a team is under pressure, the more victory points they lose.",
     "unitsOrgRegain": "Units org regain"
   },
-
   "offerDrawModal": {
     "withdrawOffer": "Withdraw Offer",
     "alreadyWantsDrawMessage": "You are already offering a Draw. Do you want to withdraw this offer?",
@@ -488,20 +457,17 @@
     "player": "{{player}} is offering draw.",
     "players": "{{players}} are offering draw."
   },
-
   "defeat": "Defeat",
   "victory": "Victory",
   "draw": "Draw",
   "won": "Won",
   "lost": "Lost",
   "tie": "Tie",
-
   "unitStatus": {
     "1": "Standing",
     "2": "Routing",
     "3": "Recovering"
   },
-
   "unitEffect": {
     "1": "Full rotating",
     "2": "Been in melee",
@@ -510,7 +476,6 @@
     "5": "Has taken fire",
     "6": "Has fired"
   },
-
   "login": "Login",
   "signUp": "Sign up",
   "forgotPassword": "Forgot password?",
@@ -527,22 +492,18 @@
   "enterNewPassword": "Enter new password",
   "newPassword": "New password",
   "repeatPassword": "Repeat password",
-
   "teamSize": {
     "title": "Team size",
     "1v1": "1 vs 1",
     "2v2": "2 vs 2"
   },
-
   "offline": "Offline",
   "offlineDescription": "Practice against bots and play hotseat with friends on the same device!",
-
   "premiumCurrencyLeaderboard": {
     "title": "<premiumCurrency/> Leaderboard",
     "subtitle": "Who has the greatest <premiumCurrency/>?",
     "description": "Want to be the first? <storeLink>Go to the store</storeLink> and get <premiumCurrency/>!"
   },
-
   "team": "Team",
   "teams": "Teams",
   "playerType": "Player type",
@@ -550,14 +511,11 @@
   "bot": "Bot",
   "armyOfPlayer": "Army of Player {{player}}",
   "averageElo": "Average Elo",
-
   "hybridDescription": "Hybrid maps use non-random, preset terrain, but enable players to use their own custom armies to play.",
-
   "playLastActionsModal": {
     "message": "New battle events have occurred while you were away.\nWould you like to see the actions from the latest turn?",
     "button": "Play"
   },
-
   "battleReport": "Battle Report",
   "gameEndReasons": {
     "cancelled": "The game was cancelled because at least one of the players didn't submit orders in the first turn.",
@@ -573,7 +531,6 @@
   "horseLost": "Horse Lost",
   "gunsLost": "Guns Lost",
   "noRewards": "No rewards",
-
   "clan": "Coalition",
   "clans": "Coalitions",
   "createClan": "Create Coalition",
@@ -607,7 +564,6 @@
   "reject": "Reject",
   "linkCopiedToClipboard": "Link copied to clipboard",
   "revealPlayers": "Reveal players",
-
   "pagination": {
     "previous": "Previous",
     "next": "Next",
@@ -616,11 +572,9 @@
     "items": "items",
     "jump": "Jump"
   },
-
   "kick": "Kick",
   "noDescription": "No description",
   "save": "Save",
-
   "ordersSubmittedDialog": {
     "p1": {
       "sent": "Orders sent to the server.",
@@ -630,11 +584,9 @@
     "p2": "Checking for the opponent's orders in {{value}} seconds",
     "b": "Check Now"
   },
-
   "search": {
     "clans": "Search coalitions"
   },
-
   "formation": "Formation",
   "findGame": "Find game",
   "gameIdOrLink": "Game ID or link",
@@ -662,14 +614,12 @@
   "rank": "Rank",
   "creatorPrize": "Creator Prize",
   "maxPlayers": "Max players",
-
   "tournamentStatus": {
     "open": "Open",
     "active": "Active",
     "completed": "Completed",
     "cancelled": "Cancelled"
   },
-
   "hasPassword": "Has password",
   "autoProgression": "Auto progression",
   "autoProgressionInfo": "If this option is enabled, the tournament will automatically move to the next round as soon as the last match of the current round is completed. If it is disabled, the tournament will advance either when the administrator starts it manually or at the scheduled date and time (if one has been set).",
@@ -704,7 +654,6 @@
     "messagePlural": "{{players}} are offering a draw. Do you accept? The draw will only take effect if all players agree."
   },
   "projectilePenetration": "Projectile penetration",
-
   "league": {
     "title": "League",
     "a": "Emperor",
@@ -727,21 +676,18 @@
     "g2": "Iron II",
     "g3": "Iron III"
   },
-
   "skinTier": {
     "1": "Conscript",
     "2": "Veteran",
     "3": "Elite",
     "4": "Imperial"
   },
-
   "tier": {
     "free": "Free",
     "bronze": "Bronze",
     "silver": "Silver",
     "gold": "Gold"
   },
-
   "currentPassword": "Current Password",
   "changePassword": "Change Password",
   "endRound": "End round",
@@ -753,11 +699,10 @@
   "altWarning": "The use of alternate accounts to farm Elo is prohibited. If detected, actions may be taken against the accounts involved.",
   "withdrawFromName": "Withdraw from {{name}}",
   "withdrawTournamentMessage": "Are you sure you want to withdraw from the tournament?",
-
   "steamBanner": {
     "title": "Wishlist Lines of Battle on Steam!",
     "description": "Help us reach <0>{{wishlistCount}}</0> to launch the game!",
-    "descriptionBoldPart": "30,000 wishlists",
+    "descriptionBoldPart": "{{wishlists}} wishlists",
     "buttonText": "Add to Wishlist Now"
   },
   "offerDrawCooldownMessage": "The last draw was offered a few turns ago. You may offer a new draw in {{turns}} turns.",
@@ -781,12 +726,10 @@
   "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
   "skirmisherRatio": "Skirmisher ratio",
   "friendlyFireImmune": "Friendly fire immune",
-
   "nearbyUnits": "Nearby units",
   "preset": "Preset",
   "hybrid": "Hybrid",
   "random": "Random",
-  "classic": "Classic",
   "projectileWidth": "Projectile width",
   "allyCollisionLevel": "Ally collision level",
   "enemyCollisionLevel": "Enemy collision level",
@@ -818,20 +761,17 @@
     "message": "The server is currently being updated. Please try again in a few minutes."
   },
   "selectFormation": "Select formation",
-
   "whatsNew": {
     "title": "What's New",
     "p1": "Check out the latest updates and features in Lines of Battle!",
     "p2": "Stay tuned for more updates and new features coming to Lines of Battle!",
     "p3": "Follow us on social media for the latest news and announcements."
   },
-
   "tournamentStartedModal": {
     "title": "A tournament game has started",
     "message": "Round {{round}} of tournament {{tournamentName}} has started!",
     "goButtonText": "Go to tournament game"
   },
-
   "invitedPlayers": "Invited players",
   "partyInviteFrom": "Party invite from {{username}}",
   "leader": "Leader",
@@ -855,10 +795,8 @@
   "noMessagesYet": "No messages yet",
   "sending": "Sending...",
   "immuneToFlankRearBonuses": "Immune to flank and rear bonuses",
-
   "allVisible": "All Visible",
   "teamN": "Team {{number}}",
-
   "measuring": "Measuring...",
   "disconnected": "Disconnected",
   "reconnected": "Reconnected",
@@ -872,31 +810,25 @@
   "captureThreshold": "Capture threshold",
   "big": "Big",
   "small": "Small",
-
   "chargePenetrationTooltip": "Reduces charge resistance of target.",
   "forFlankCharges": "For flank charges is <0>{{value}}</0>",
   "forRearCharges": "For rear charges is <0>{{value}}</0>",
-
   "base": "Base",
   "Terrain": "Terrain",
   "chargeResistanceTooltip": "Reduces the enemy's charge damage.",
-
   "rotationSpeed": "Rotation speed",
   "runRotationSpeed": "Run rotation speed",
   "rotationMaxThreshold": "Rotation max threshold",
-
   "low": "Low",
   "medium": "Medium",
   "high": "High",
   "dismiss": "Dismiss",
   "cannotChargeAgainst": "Cannot charge against",
   "turningDelay": "Turning delay",
-
   "infantry": "Infantry",
   "cavalry": "Cavalry",
   "artillery": "Artillery",
   "special": "Special",
-
   "academy": "Academy",
   "encyclopedia": "Encyclopedia",
   "tutorialTips": "Tutorial Tips",
@@ -910,5 +842,22 @@
   "scenario": "Scenario",
   "banned": "Banned",
   "baseAmmo": "Base ammo",
-  "range": "Range"
+  "range": "Range",
+  "faaRangedDamage": "FAA Ranged Damage",
+  "quickPlay": "Quick play",
+  "quickPlayWithCount": "Quick play ({{count}})",
+
+  "discord": {
+    "link": "Link Discord",
+    "unlink": "Unlink Discord",
+    "confirmMessage": "Are you sure you want to unlink your Discord account?",
+    "authWaitMessage": "Please wait while we process your Discord authorization...",
+    "authSuccessMessage": "Discord account linked successfully!",
+    "authErrorMessage": "Discord authorization failed. Please try again.",
+    "linkingAccount": "Linking Discord account..."
+  },
+  "redirecting": "Redirecting...",
+  "success": "Success!",
+  "error": "Error!",
+  "processing": "Processing..."
 }

@@ -1,15 +1,19 @@
-﻿{
+{
   "appLoadingMessage": "Lines of Battle에 오신 걸 환영합니다!",
   "home": "홈",
   "language": "언어",
   "tutorial": "배우기",
   "play": "시작",
   "ranking": "순위",
-  "profile": "프로필",
+  "profile": "내 정보",
   "history": "전적",
   "store": "상점",
   "supporters": "후원자",
   "elo": "Elo",
+  "level": "레벨",
+  "baseLevelExperience": "기본 레벨 경험치",
+  "experience": "경험치",
+  "nextLevelExperience": "다음 레벨 경험치",
   "season": "시즌",
   "of": "중",
   "joinedAt": "가입일 : {{date}}",
@@ -44,20 +48,20 @@
   "createNewGame": "새 경기 생성",
   "randomGameInfo": "무작위 생성 경기에 경우, 미리 생성한 선택한 전투 유형용 편제가 사용됩니다. <0>편제</0>에서 편제를 확인 및 관리할 수 있습니다. 선택한 전투 유형용 편제를 아직 생성하지 않았다면 기본 편제가 사용됩니다.",
   "selectGameMode": "아래에서 게임 유형을 선택하세요.",
+  "quickMatchmaking": "빠른 탐색",
+  "ranked": "순위전",
+  "unranked": "비순위전",
   "or": "또는",
-  "quickMatchmaking": "빠른 매칭",
-  "ranked": "랭크전",
-  "classicUnranked": "클래식 비랭크",
-  "classicUnrankedTooltip": "클래식 비랭크 모드에서는 Elo에 영향을 주지 않으며 기본 군대만 사용됩니다.",
-  "unranked": "비랭크",
+  "classicTooltip": "기본 군대와 함께 절차적으로 생성된 클래식 맵 사용",
+  "rankedTooltip": "게임이 당신의 Elo 등급에 영향을 줍니다",
   "cancel": "취소",
   "matchmakingQueue": {
     "inQueue": "경기 탐색 대기열에 들어오셨습니다! 등급 체계에 기반해 귀하와 동일한 설정을 선택한 다른 플레이어를 탐색 중입니다.",
     "matchFound": "일치하는 항목이 발견되면 경기로 리디렉션됩니다.",
     "extendQueue": "대기 연장",
     "extendQueueSuccess": "모든 Elo 범위대에서 탐색.",
-    "cancelledBy": "대기열이 {{username}}에 의해 취소되었습니다.",
-    "playersInQueue": "{{count}}명의 플레이어가 탐색 중"
+    "cancelledBy": "{{username}} 님이 대기를 취소했습니다.",
+    "playersInQueue": "{{count}} 명의 플레이어가 탐색 중"
   },
   "fastMode": "단기전",
   "slowMode": "장기전",
@@ -74,25 +78,34 @@
   },
   "battleType": "전투 유형",
   "dynamicBattleType": {
-    "clash": "조우전",
-    "combat": "전투",
+    "clash": "접전",
+    "combat": "교전",
     "battle": "전투",
     "grand_battle": "대전투"
   },
   "matchmaking": "경기 탐색",
   "matchmakingDescription": "경기 탐색을 통해 미리 설정된 설정으로 무작위 플레이어와 빠르게 경기할 수 있습니다.",
+  "onlyPartyLeaderCanSearch": "조장만 경기를 찾을 수 있습니다.",
+  "partyFormed": "조 생성",
+  "partySearchStatus": {
+    "leaderTitle": "당신이 조장합니다",
+    "leaderDescription": "경기를 찾을 수 있습니다. 찾기를 시작하면 조원에게 알림이 전송됩니다.",
+    "memberTitle": "조장 기다리는 중",
+    "memberDescription": "조장만 경기를 찾을 수 있습니다. 찾기가 시작되면 알림을 받게 됩니다."
+  },
   "custom": "사용자 지정",
-  "customDescription": "사용자 지정",
+  "customDescription": "사용자 지정을 사용하면 특정 설정으로 경기를 설정하고 친구를 초대해 경기할 수 있습니다.",
   "createCustomGame": "사용자 지정 경기 생성",
   "maxTurn": "최대 턴",
+  "seed": "시드",
   "player": "플레이어",
   "units": "부대",
-  "afk": "AFK",
+  "afk": "잠수",
   "afkWarning": {
-    "title": "AFK 상태입니다",
-    "message": "너무 오랫동안 비활성 상태였습니다. 게임 지연을 방지하기 위해 명령이 자동으로 제출됩니다.",
-    "autoSubmitIn": "자동 제출까지",
-    "continuePlaying": "게임 계속하기"
+    "title": "잠수 중",
+    "message": "오랫동안 비활동 상태였습니다. 경기 지연을 방지하기 위해 명령이 자동으로 하달됩니다.",
+    "autoSubmitIn": "자동 하달 중",
+    "continuePlaying": "경기 재개"
   },
   "unitSkins": "부대 외형",
   "objectiveSkins": "지점목표 외형",
@@ -105,10 +118,12 @@
     "createInfo2": "또는 <0>커뮤니티</0>에서 이미 만들어진 전역을 가져올 수도 있습니다."
   },
   "scenarioEditorTags": {
-    "tutorialMessage": "사용법을 잘 모르시겠나요? 걱정마세요, 저희가 도와드리겠습니다! <tutorialLink>이 영상을 통해 배워보세요.</tutorialLink>"
+    "tutorialMessage": "사용법을 잘 모르시겠나요? 걱정마세요, 저희가 도와드리겠습니다! <tutorialLink>이 영상을 통해 배워보세요.</tutorialLink>",
+    "randomGuide": "무작위 지도를 만드는 법을 알고 싶으신 가요? <0>이 설명</0>을 읽어보세요.",
+    "baleriiMessage": "플레이어 Balerii와 Nytka가 자신만의 맵 에디터를 만들었습니다! 작동 방식을 보려면 그들의 YouTube 채널을 확인해보세요:"
   },
   "createScenario": "전역 창작",
-  "loadScenario": "전역 창작",
+  "loadScenario": "전역 불러오기",
   "playOffline": "오프라인으로 경기하기!",
   "createOfflineGame": "오프라인 경기 생성",
   "chooseAScenario": "전역 선택",
@@ -116,7 +131,6 @@
   "botArmy": "컴퓨터의 군대",
   "army": "군대",
   "deploymentStateMessage": "배치 단계가 되었습니다. 이 단계에서는 배치 구역 내 원하는 위치에 부대를 배치할 수 있습니다. 배치가 완료되면 명령 하달을 통해 배치를 적용하세요.",
-  "youAreColor": "당신은 {{color}}입니다!",
   "getStarted": "시작",
   "colorTag": {
     "1": "청색",
@@ -155,7 +169,6 @@
     "timeToRun": "주행까지의 시간",
     "runCost": "주행 비용"
   },
-
   "unitCategory": {
     "infantry": "보병",
     "midCavalry": "기병",
@@ -168,6 +181,11 @@
     "skirmishInfantry": "척후보병"
   },
   "category": "유형",
+  "routingBehavior": "궤멸 중 행동",
+  "baseSpeed": "기본 속도",
+  "moveWhileInMelee": "백병전 중 이동",
+  "walk": "보행",
+  "run": "주행",
   "damageType": {
     "musket": "활강소총",
     "light-musket": "경활강소총",
@@ -190,7 +208,13 @@
     "horse-archer-bow": "궁기병 활",
     "marksman-musket": "저격병 활강소총",
     "rifle": "강선소총",
-    "rocket": "로켓"
+    "rocket": "로켓",
+    "10lb-canister-fire": "10파운드 유산탄",
+    "10lb-cannon-ball": "10파운드 포환",
+    "10lb-explosive-shell": "10파운드 포탄",
+    "18lb-canister-fire": "18파운드 유산탄",
+    "18lb-cannon-ball": "18파운드 포환",
+    "18lb-explosive-shell": "18파운드 포탄"
   },
   "unitName": {
     "1": "전열보병",
@@ -211,7 +235,13 @@
     "16": "척후병",
     "17": "소총병",
     "18": "6파운드 보병포병",
-    "19": "로켓포병"
+    "19": "로켓포병",
+    "20": "미상",
+    "21": "미상 보병대",
+    "22": "미상 기병대",
+    "23": "미상 포병대",
+    "24": "10파운드 일각포",
+    "25": "18파운드 일각포"
   },
   "battalionName": {
     "1": "제{{n}}전열대대",
@@ -232,7 +262,13 @@
     "16": "제{{n}}척후병대",
     "17": "제{{n}}소총병대",
     "18": "제{{n}}보병포대",
-    "19": "제{{n}}로켓포대"
+    "19": "제{{n}}로켓포대",
+    "20": "미상",
+    "21": "미상 보병대",
+    "22": "미상 기병대",
+    "23": "미상 포병대",
+    "24": "제{{n}}일각포대",
+    "25": "제{{n}}일각포대"
   },
   "unitDescription": {
     "1": "이 보잘것없는 보병대대야말로 군대의 기초입니다. 소총으로 무장하고 있으며, 총검을 이용해 기병에 대응하거나 적 보병과 포병을 향해 돌격할 수도 있습니다.",
@@ -253,7 +289,9 @@
     "16": "나폴레옹 시대 군대는 볼티저, 예거와 같이 소규모 병력으로 구성된 부대를 분리 운용해 다양한 임무를 수행했습니다. 이 부대는 대규모 보병부대에 적합하지 않은 지형을 점령하고, 적을 괴롭히며, 아군 본대를 엄호하며 적 척후병대를 견제했습니다.",
     "17": "나폴레옹 시대의 강선총은 활강총보다 연사력은 훨씬 낮았지만, 그 뛰어난 정확도로 소규모 교전에서의 승리와 장교 저격, 포병 견제에 유용했습니다.",
     "18": "나폴레옹은 전력의 균형과 기동성 측면에서 6파운드 포를 선호했고, 전쟁이 계속되자 4파운드와 8파운드 대포를 가능한 한 많이 6파운드와 12파운드 대포로 대체하려고 노력했습니다.",
-    "19": "나폴레옹 시대의 로켓은 실험적인 병기였기에 정확도에 있어 문제가 많았습니다. 하지만 높은 기동성과 상당한 폭발력을 자랑해 비교적 근거리에서는 적군의 조직을 효과적으로 붕괴시킬 수 있었습니다."
+    "19": "나폴레옹 시대의 로켓은 실험적인 병기였기에 정확도에 있어 문제가 많았습니다. 하지만 높은 기동성과 상당한 폭발력을 자랑해 비교적 근거리에서는 적군의 조직을 효과적으로 붕괴시킬 수 있었습니다.",
+    "24": "10파운드 일각포는 나폴레옹 전쟁 당시 사용된 러시아 화포입니다. 대포와 곡사포의 특징을 결합하여 포환과 포탄을 모두 발사할 수 있었으며, 그 다용성과 사거리로 높은 평가를 받았습니다.",
+    "25": "10파운드 일각포는 나폴레옹 전쟁 당시 사용된 러시아 화포입니다. 대포와 곡사포의 특징을 결합하여 포환과 포탄을 모두 발사할 수 있어, 장거리 포격과 전장지원에 효과적이었습니다."
   },
   "damageResistances": "피해 저항력",
   "otherStats": "기타 능력치",
@@ -263,10 +301,10 @@
   "orgDamage": "조직력 피해량",
   "enfiladeFireModifiers": "측방사격 변동치",
   "rearFireModifiers": "측방사격 변동치",
-  "firingAltitude": "표적고도",
-  "canCaptureObjectives": "지점목표 점령 가능",
+  "firingAltitude": "사격 고도",
   "cantCaptureObjectives": "지점목표 점령 불가능",
   "enfiladeFire": "측방사격",
+  "pointBlankRange": "직사 범위",
   "closeRange": "근접사격",
   "midRange": "중거리 사격",
   "longRange": "사거리",
@@ -282,16 +320,19 @@
   "topWidth": "윗변 너비",
   "bottomWidth": "밑변 너비",
   "height": "높이",
+  "elevationModifiers": "고도 변동피",
+  "heightModifierPerLevel": "단계 당 높이 변동치",
+  "damageModifierPerLevel": "단계 당 피해량 변동치",
+  "maxElevationDiff": "최대 고도 차이",
   "diminishByTargetOrg": "표적 조직력에 의한 감소치",
   "from": "에서",
-  "to": "까지",
+  "to": "~",
   "lBy": "에 의해",
   "terrainHitboxHeight": "지형 적중영역 높이",
   "statusEffects": "상태 효과",
   "projectileAbsorption": "발사체 흡수치",
   "terrainPName": "지형 : {{name}}",
   "effects": "효과",
-
   "terrain": {
     "0": "대지",
     "1": "삼림",
@@ -312,9 +353,11 @@
     "16": "빙판",
     "17": "빈 농원",
     "18": "작물이 자라는 농원",
-    "19": "진창"
+    "19": "진창",
+    "20": "수몰된 도로",
+    "21": "참호",
+    "22": "보루"
   },
-
   "clearPlayerUnits": "플레이어 부대 지우기",
   "clearBotUnits": "컴퓨터 부대 지우기",
   "continueGame": "경기 재개",
@@ -336,14 +379,14 @@
   "armyComposition": "편제",
   "budgetAvailable": "가용 자원",
   "reserveAmmo": "예비 탄약",
-  "estimatedTurnsOfFire": "예상 발사 턴",
-  "reserveAmmoDescription": "사용하지 않은 골드는 예비 포병 탄약에 기여하며, 포병이 사격할 때 자동으로 내장 탄약을 보충합니다. 예상 사격 턴 수는 예비 탄약과 유닛 탄약을 모두 고려합니다.",
+  "estimatedTurnsOfFire": "예상 사격 턴",
+  "reserveAmmoDescription": "사용하지 않은 골드는 포병의 예비 탄약으로 전환됩니다. 포병이 사격하면 자동으로 해당 포병이 보유한 탄약을 보충합니다. 예상 사격 횟수는 예비 탄약과 부대 탄약을 모두 고려합니다.",
   "saveArmy": "저장",
   "clearUnits": "초기화",
   "saving": "저장 중...",
   "armyInvalid": "이 편제는 사용할 수 없습니다. 수정이 필요합니다.",
   "landing": {
-    "message": "<b>Lines of Battle</b>는 동시 턴제와 실시간 전투를 특징으로 하는 나폴레옹 전술 게임입니다. 정확한 부대와 전술로 인간 상대를 물리치세요!",
+    "message": "<b>Lines of Battle</b>은 나폴레옹 전쟁을 배경으로 한 실시간 동시 턴제 전략 게임입니다. 정밀한 편제와 전술로 상대를 물리치세요!",
     "privacy": "시작하면 <0>개인정보 취급방침</0>에 동의하는 것으로 여겨집니다."
   },
   "welcomeModal": {
@@ -362,8 +405,8 @@
   },
   "fetchingBattleActions": "전투 상황 가져오는 중...",
   "order": {
-    "1": "걷기",
-    "2": "달리기",
+    "1": "보행",
+    "2": "주행",
     "3": "사격",
     "4": "사격 및 전진",
     "6": "후퇴",
@@ -390,7 +433,7 @@
   "info": "정보",
   "meleePerformance": "근접방어력",
   "speedByOrg": "조직력에 의한 속도",
-  "turnsLeft": "Turns left",
+  "turnsLeft": "남은 턴",
   "battleOverview": {
     "title": "전투 개요",
     "victoryPoints": "승점",
@@ -399,7 +442,9 @@
     "lossesRatio": "손실률",
     "objectives": "지점목표",
     "timeUnderPressure": "압박 시간",
-    "timeUnderPressureTooltip": "압박 시간은 팀이 지점목표의 <0>{{percentage}}%</0> 이하를 점령하고 있는 시간입니다. 팀이 압박 상태에 있는 시간이 길수록 더 많은 승리 점수를 잃게 됩니다.",
+
+    "timeUnderPressureTooltip": "압박 시간은 팀이 지점목표를 <0>{{percentage}}%</0> 이하로 점령한 시간을 말합니다. 압박 시간이 길어질수록 더 많은 승점을 잃게 됩니다.",
+
     "unitsOrgRegain": "부대 조직력 회복"
   },
   "offerDrawModal": {
@@ -425,7 +470,8 @@
     "2": "백병전 중",
     "3": "주행 중",
     "4": "궤멸하는 중",
-    "5": "피격됨"
+    "5": "피격됨",
+    "6": "사격 중"
   },
   "login": "로그인",
   "signUp": "등록",
@@ -469,11 +515,11 @@
   },
   "battleReport": "전투 보고",
   "gameEndReasons": {
-    "cancelled": "최소 한 명의 플레이어가 첫 번째 턴에서 명령을 제출하지 않았기 때문에 게임이 취소되었습니다.",
-    "victory": "한 팀이 승리를 달성했기 때문에 게임이 종료되었습니다.",
-    "maxTurn": "게임이 최대 턴 수에 도달했습니다.",
-    "drawByAgreement": "상호 합의에 의해 게임이 무승부로 종료되었습니다.",
-    "unknown": "알 수 없는 이유."
+    "cancelled": "플레이어 중 최소 한 명이 첫 턴에 명령을 하달하지 않아 경기가 취소되었습니다.",
+    "victory": "한 팀이 승리하여 경기가 종료되었습니다.",
+    "maxTurn": "경기가 최대 턴에 도달했습니다.",
+    "drawByAgreement": "경기가 상호 합의하에 무승부로 끝났습니다.",
+    "unknown": "사유 미상."
   },
   "strength": "전력",
   "horse": "군마",
@@ -528,9 +574,9 @@
   "save": "저장",
   "ordersSubmittedDialog": {
     "p1": {
-      "sent": "명령이 서버로 전송되었습니다.",
-      "received": "서버가 명령을 수신했습니다.",
-      "processed": "서버가 명령을 처리했습니다. 이제 상대를 기다립시다."
+      "sent": "서버에 전달된 명령.",
+      "received": "서버가 받은 명령.",
+      "processed": "서버에서 명령을 처리 중입니다. 상대의 명령이 처리될 때까지 대기하십시오."
     },
     "p2": "{{value}}초 뒤 하달 여부 확인",
     "b": "지금 확인"
@@ -572,6 +618,8 @@
     "cancelled": "취소됨"
   },
   "hasPassword": "암호 존재",
+  "autoProgression": "자동 진행",
+  "autoProgressionInfo": "이 설정을 활성화하면 현 라운드의 마지막 경기가 완료되는 즉시 토너먼트가 자동으로 다음 라운드로 전환됩니다. 이 설정을 비활성화하면 관리자가 수동으로 토너먼트를 시작하거나 예약된 날짜와 시간(설정된 경우)에 토너먼트가 진행됩니다.",
   "optional": "선택 사항",
   "round": "회차",
   "current": "현",
@@ -631,6 +679,12 @@
     "3": "정예병",
     "4": "제국"
   },
+  "tier": {
+    "free": "무료 이용자",
+    "bronze": "브론즈",
+    "silver": "실버",
+    "gold": "골드"
+  },
   "currentPassword": "현 암호",
   "changePassword": "암호 변경",
   "endRound": "회차 종료",
@@ -645,7 +699,7 @@
   "steamBanner": {
     "title": "스팀에서 Lines of Battle을 찜하세요!",
     "description": "찜하기 <0>{{wishlistCount}}</0>에 도달해 게임을 런칭할 수 있도록 도와주세요!",
-    "descriptionBoldPart": "30,000명",
+    "descriptionBoldPart": "{{wishlists}}명",
     "buttonText": "지금 바로 찜하기"
   },
   "offerDrawCooldownMessage": "몇 턴 전에 무승부가 제안되었었습니다. {{turns}} 턴에 다시 무승부를 제안할 수 있습니다.",
@@ -673,7 +727,7 @@
   "preset": "표준",
   "hybrid": "혼합",
   "random": "무작위",
-  "classic": "클래식",
+  "classic": "기본",
   "projectileWidth": "발사체 너비",
   "allyCollisionLevel": "동맹 충돌 수준",
   "enemyCollisionLevel": "적 충돌 수준",
@@ -711,49 +765,99 @@
     "p2": "Lines of Battle에 더 많은 기능이 추가될 예정이니 기대해 주세요!",
     "p3": "소셜 미디어에서 최신 소식와 공지사항을 확인하세요."
   },
-
-  "allVisible": "모두 보임",
-  "teamN": "팀 {{number}}",
+  "tournamentStartedModal": {
+    "title": "토너먼트 경기가 시작됨",
+    "message": "{{tournamentName}} 토너먼트의 {{round}}회차가 시작되었습니다!",
+    "goButtonText": "토너먼트 경기로 가기"
+  },
+  "invitedPlayers": "초대된 플레이어",
+  "partyInviteFrom": "{{username}}의 초대",
+  "leader": "조장",
+  "you": "당신",
+  "pending": "보류 중",
+  "leaveParty": "조 탈퇴",
+  "heightOffset": "높이 오프셋",
+  "inviteToParty": "조에 초대",
+  "partyInfo": "조 정보",
+  "partyInfoDescription": "친구창을 이용해 친구를 조에 초대할 수 있습니다. 조장만 가능합니다.",
+  "moreOptions": "더 많은 설정",
+  "friends": "친구",
+  "addFriend": "친구 추가",
+  "outgoingRequests": "요청 보내기",
+  "removeFriend": "친구 삭제",
+  "noFriends": "친구 없음 :(",
+  "partyInvitation": "조 초대",
+  "social": "소셜",
+  "friendChat": "친구와 대화",
+  "typeMessage": "친구에게...",
+  "noMessagesYet": "대화 없음",
+  "sending": "보내는 중...",
+  "immuneToFlankRearBonuses": "측후방 혜택 면역",
+  "allVisible": "모두 표시",
+  "teamN": "{{number}}팀",
   "measuring": "측정 중...",
   "disconnected": "연결 끊김",
-  "reconnected": "재연결",
+  "reconnected": "재연결됨",
   "connecting": "연결 중...",
-  "disconnecting": "연결 끊김...",
-  "unknown": "알 수 없음",
-
-  "fogOfWar": "전쟁의 안개",
-
-  "low": "낮음",
-  "medium": "보통",
-  "high": "높음",
-
-  "tournamentStartedModal": {
-    "title": "토너먼트 경기가 시작되었습니다",
-    "message": "{{tournamentName}}의 {{round}}회차가 시작되었습니다!",
-    "goButtonText": "토너먼트 경기로 이동"
-  },
-
-  "dismiss": "닫기",
-  "turningDelay": "회전 지연",
+  "disconnecting": "연결이 끊기는 중...",
+  "unknown": "미상",
+  "fogOfWar": "전장의 안개",
+  "max": "최대",
+  "minDistanceToFAA": "FAA까지 최소 거리",
+  "captureProgress": "함락 진행도",
+  "captureThreshold": "함락 최대치",
+  "big": "대",
+  "small": "소",
+  "chargePenetrationTooltip": "대상의 돌격 저항력을 감소시킵니다.",
+  "forFlankCharges": "측방 돌격 : <0>{{value}}</0>",
+  "forRearCharges": "후방 돌격 : <0>{{value}}</0>",
+  "base": "기본",
+  "Terrain": "지형",
+  "chargeResistanceTooltip": "적의 돌격 피해량을 감소시킵니다.",
+  "rotationSpeed": "회전 속도",
+  "runRotationSpeed": "주행 회전 속도",
+  "rotationMaxThreshold": "회전 최대치",
+  "low": "저",
+  "medium": "중",
+  "high": "고",
+  "dismiss": "해산",
+  "cannotChargeAgainst": "돌격 재시도 불가",
+  "turningDelay": "선회 지연",
   "infantry": "보병",
   "cavalry": "기병",
   "artillery": "포병",
   "special": "특수",
 
-  "academy": "아카데미",
+  "academy": "학술원",
   "encyclopedia": "백과사전",
-  "tutorialTips": "튜토리얼 팁",
-  "loadingScreenTips": "로딩 화면 팁",
+
+  "tutorialTips": "학습 조언",
+  "loadingScreenTips": "불러오기 화면 조언",
   "gameConstants": "게임 상수",
+
   "ammo": "탄약",
-  "ammoConsumption": "탄약 소비",
-  "autoProgression": "자동 진행",
-  "autoProgressionInfo": "이 옵션이 활성화되면 토너먼트는 현재 라운드의 마지막 경기가 완료되는 즉시 자동으로 다음 라운드로 진행됩니다. 비활성화된 경우 토너먼트는 관리자가 수동으로 시작하거나 예정된 날짜와 시간(설정된 경우)에 진행됩니다.",
-  "allowsCharging": "돌격을 허용",
-  "limbersArtillery": "포병을 해체",
+  "ammoConsumption": "탄약 소비량",
+  "allowsCharging": "돌격 허용",
+  "limbersArtillery": "화포 분가",
   "all": "모두",
-  "scenario": "시나리오",
+  "scenario": "전역",
   "banned": "차단됨",
   "baseAmmo": "기본 탄약",
-  "range": "사거리"
+  "range": "범위",
+  "faaRangedDamage": "FAA 원거리 피해",
+  "quickPlay": "빠른 플레이",
+  "quickPlayWithCount": "빠른 플레이 ({{count}})",
+  "discord": {
+    "link": "Discord 연결",
+    "unlink": "Discord 연결 해제",
+    "confirmMessage": "Discord 계정 연결을 해제하시겠습니까?",
+    "authWaitMessage": "Discord 인증을 처리하는 중입니다. 잠시만 기다려주세요...",
+    "authSuccessMessage": "Discord 계정이 성공적으로 연결되었습니다!",
+    "authErrorMessage": "Discord 인증에 실패했습니다. 다시 시도해주세요.",
+    "linkingAccount": "Discord 계정 연결 중..."
+  },
+  "redirecting": "리디렉션 중...",
+  "success": "성공!",
+  "error": "오류!",
+  "processing": "처리 중..."
 }

@@ -1,54 +1,62 @@
 {
   "clash": {
-    "manpower": 2600,
-    "gold": 900,
-    "ammoReserve": 800,
-    "goldToAmmoRate": 24,
+    "manpower": 3300,
+    "gold": 1350,
+    "ammoReserve": 1600,
+    "goldToAmmoRate": 20,
     "skirmisherRatio": [1, 4],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 1,
+      "17": 3,
       "19": 1
     },
-    "eloKFactor": 24
+    "eloKFactor": 20,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 20
   },
   "combat": {
-    "manpower": 5400,
-    "gold": 2150,
-    "ammoReserve": 1600,
-    "goldToAmmoRate": 24,
+    "manpower": 6000,
+    "gold": 2600,
+    "ammoReserve": 2250,
+    "goldToAmmoRate": 16,
     "skirmisherRatio": [4, 8],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 2,
+      "17": 4,
       "19": 1
     },
-    "eloKFactor": 36
+    "eloKFactor": 28,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 28
   },
   "battle": {
-    "manpower": 8750,
-    "gold": 3750,
-    "ammoReserve": 2400,
-    "goldToAmmoRate": 15,
+    "manpower": 10000,
+    "gold": 4750,
+    "ammoReserve": 2800,
+    "goldToAmmoRate": 13,
     "skirmisherRatio": [2, 5],
-    "fogOfWar": true,
-    "unitCaps": {
-      "17": 4,
-      "19": 2
-    },
-    "eloKFactor": 36
-  },
-  "grand_battle": {
-    "manpower": 17500,
-    "gold": 7250,
-    "ammoReserve": 3500,
-    "goldToAmmoRate": 10,
-    "skirmisherRatio": [1, 3],
     "fogOfWar": true,
     "unitCaps": {
       "17": 6,
       "19": 2
     },
-    "eloKFactor": 36
+    "eloKFactor": 32,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 32
+  },
+  "grand_battle": {
+    "manpower": 17500,
+    "gold": 8000,
+    "ammoReserve": 4000,
+    "goldToAmmoRate": 11,
+    "skirmisherRatio": [1, 3],
+    "fogOfWar": true,
+    "unitCaps": {
+      "17": 8,
+      "19": 2
+    },
+    "eloKFactor": 32,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 36
   }
 }
