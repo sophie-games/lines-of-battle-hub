@@ -492,6 +492,9 @@
   "enterNewPassword": "أدخل كلمة مرور جديدة",
   "newPassword": "كلمة مرور جديدة",
   "repeatPassword": "كرر كلمة المرور",
+  "currentPassword": "كلمة المرور الحالية",
+  "changePassword": "تغيير كلمة المرور",
+  "setPassword": "تعيين كلمة المرور",
   "teamSize": {
     "title": "حجم الفريق",
     "1v1": "1 ضد 1",
@@ -858,5 +861,7 @@
   "redirecting": "جاري إعادة التوجيه...",
   "success": "نجح!",
   "error": "خطأ!",
-  "processing": "جاري المعالجة..."
+  "processing": "جاري المعالجة...",
+  "show": "إظهار",
+  "hide": "إخفاء"
 }

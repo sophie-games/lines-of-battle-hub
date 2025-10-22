@@ -442,9 +442,7 @@
     "lossesRatio": "손실률",
     "objectives": "지점목표",
     "timeUnderPressure": "압박 시간",
-
     "timeUnderPressureTooltip": "압박 시간은 팀이 지점목표를 <0>{{percentage}}%</0> 이하로 점령한 시간을 말합니다. 압박 시간이 길어질수록 더 많은 승점을 잃게 됩니다.",
-
     "unitsOrgRegain": "부대 조직력 회복"
   },
   "offerDrawModal": {
@@ -687,6 +685,7 @@
   },
   "currentPassword": "현 암호",
   "changePassword": "암호 변경",
+  "setPassword": "암호 설정",
   "endRound": "회차 종료",
   "endTournamentRoundMessage": "회차를 종료하시겠습니까? 아직 끝나지 않은 경기에서는 우세에 있는 플레이어가 승자로 판정됩니다.",
   "rounds": "회차",
@@ -827,14 +826,11 @@
   "cavalry": "기병",
   "artillery": "포병",
   "special": "특수",
-
   "academy": "학술원",
   "encyclopedia": "백과사전",
-
   "tutorialTips": "학습 조언",
   "loadingScreenTips": "불러오기 화면 조언",
   "gameConstants": "게임 상수",
-
   "ammo": "탄약",
   "ammoConsumption": "탄약 소비량",
   "allowsCharging": "돌격 허용",
@@ -859,5 +855,7 @@
   "redirecting": "리디렉션 중...",
   "success": "성공!",
   "error": "오류!",
-  "processing": "처리 중..."
+  "processing": "처리 중...",
+  "show": "표시",
+  "hide": "숨기기"
 }

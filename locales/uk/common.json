@@ -404,6 +404,9 @@
   "enterNewPassword": "Введіть новий пароль",
   "newPassword": "Новий пароль",
   "repeatPassword": "Повторіть пароль",
+  "currentPassword": "Поточний пароль",
+  "changePassword": "Змінити пароль",
+  "setPassword": "Встановити пароль",
   "teamSize": {
     "title": "Розмір команди",
     "1v1": "1 проти 1",
@@ -570,12 +573,13 @@
   "redirecting": "Перенаправлення...",
   "success": "Успіх!",
   "error": "Помилка!",
-  "processing": "Обробка..."
-  ,
+  "processing": "Обробка...",
   "steamBanner": {
     "title": "Додайте Lines of Battle до списку бажаного в Steam!",
     "description": "Допоможіть нам досягти <0>{{wishlistCount}}</0>, щоб випустити гру!",
     "descriptionBoldPart": "{{wishlists}} списків бажаного",
     "buttonText": "Додати до списку бажаного"
-  }
+  },
+  "show": "Показати",
+  "hide": "Приховати"
 }

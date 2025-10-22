@@ -448,6 +448,9 @@
   "enterNewPassword": "Wprowadź nowe hasło",
   "newPassword": "Nowe hasło",
   "repeatPassword": "Powtórz hasło",
+  "currentPassword": "Aktualne hasło",
+  "changePassword": "Zmień hasło",
+  "setPassword": "Ustaw hasło",
   "teamSize": {
     "title": "Wielkość Drużyn",
     "1v1": "1 vs 1",
@@ -763,5 +766,7 @@
   "redirecting": "Przekierowywanie...",
   "success": "Sukces!",
   "error": "Błąd!",
-  "processing": "Przetwarzanie..."
+  "processing": "Przetwarzanie...",
+  "show": "Pokaż",
+  "hide": "Ukryj"
 }

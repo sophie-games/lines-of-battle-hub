@@ -403,6 +403,9 @@
   "enterNewPassword": "新しいパスワードを入力",
   "newPassword": "新しいパスワード",
   "repeatPassword": "パスワードを繰り返し入力",
+  "currentPassword": "現在のパスワード",
+  "changePassword": "パスワードを変更",
+  "setPassword": "パスワードを設定",
   "teamSize": {
     "title": "チームサイズ",
     "1v1": "1対1",
@@ -568,12 +571,13 @@
   "redirecting": "リダイレクト中...",
   "success": "成功！",
   "error": "エラー！",
-  "processing": "処理中..."
-  ,
+  "processing": "処理中...",
   "steamBanner": {
     "title": "SteamのウィッシュリストにLines of Battleを追加！",
     "description": "ゲーム発売のために<0>{{wishlistCount}}</0>を達成するのを手伝ってください！",
     "descriptionBoldPart": "{{wishlists}} ウィッシュリスト",
     "buttonText": "今すぐウィッシュリストに追加"
-  }
+  },
+  "show": "表示",
+  "hide": "非表示"
 }

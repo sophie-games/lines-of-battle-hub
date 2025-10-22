@@ -690,6 +690,7 @@
   },
   "currentPassword": "当前密码",
   "changePassword": "更改密码",
+  "setPassword": "设置密码",
   "endRound": "结束轮次",
   "endTournamentRoundMessage": "你确定要结束该轮次？所有未完成对局中领先的玩家都会立刻赢下当前对局。",
   "rounds": "轮",
@@ -858,5 +859,7 @@
   "redirecting": "跳转中……",
   "success": "成功！",
   "error": "错误！",
+  "show": "显示",
+  "hide": "隐藏",
   "processing": "处理中……"
 }

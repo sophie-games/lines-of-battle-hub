@@ -620,6 +620,7 @@
   },
   "currentPassword": "Contraseña actual",
   "changePassword": "Cambiar contraseña",
+  "setPassword": "Establecer contraseña",
   "endRound": "Finalizar ronda",
   "endTournamentRoundMessage": "¿Estás seguro de que quieres finalizar la ronda? Esto marcará como ganadores a los jugadores que lideran en los juegos no terminados.",
   "rounds": "Rondas",
@@ -706,6 +707,8 @@
   "faaRangedDamage": "Daño FAA a Distancia",
   "quickPlay": "Juego rápido",
   "quickPlayWithCount": "Juego rápido ({{count}})",
+  "show": "Mostrar",
+  "hide": "Ocultar",
   "discord": {
     "link": "Vincular Discord",
     "unlink": "Desvincular Discord",
