@@ -837,8 +837,8 @@
   "gameConstants": "Игровые Константы",
   "ammo": "Боеприпасы",
   "ammoConsumption": "Расход боеприпасов",
-  "allowsCharging": "Разрешает натиск",
-  "limbersArtillery": "Замедляет артиллерию",
+  "allowsCharging": "Активирует натиск",
+  "limbersArtillery": "Режим перемещения (Артиллерия)",
   "all": "Все",
   "scenario": "Сценарий",
   "banned": "Заблокирован",
@@ -847,14 +847,15 @@
   "faaRangedDamage": "Огневая мощь (Огонь при движении)",
   "quickPlay": "Быстрая игра",
   "quickPlayWithCount": "Быстрая игра ({{count}})",
+  
   "discord": {
-    "link": "Связать Discord",
+    "link": "Привязать Discord",
     "unlink": "Отвязать Discord",
     "confirmMessage": "Вы уверены, что хотите отвязать свой аккаунт Discord?",
-    "authWaitMessage": "Пожалуйста, подождите, пока мы обрабатываем вашу авторизацию Discord...",
-    "authSuccessMessage": "Аккаунт Discord успешно связан!",
-    "authErrorMessage": "Авторизация Discord не удалась. Попробуйте снова.",
-    "linkingAccount": "Связывание аккаунта Discord..."
+    "authWaitMessage": "Авторизация в Discord обрабатывается; пожалуйста, подождите...",
+    "authSuccessMessage": "Аккаунт Discord успешно привязан!",
+    "authErrorMessage": "Не получилось авторизоваться в  Discord. Попробуйте снова.",
+    "linkingAccount": "Привязываем аккаунт Discord..."
   },
   "redirecting": "Перенаправление...",
   "success": "Успех!",
