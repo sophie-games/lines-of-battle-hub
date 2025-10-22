@@ -690,6 +690,7 @@
   },
   "currentPassword": "Current Password",
   "changePassword": "Change Password",
+  "setPassword": "Set Password",
   "endRound": "End round",
   "endTournamentRoundMessage": "Are you sure you want to end the round? This will mark the players who are leading in unfinished games as winners.",
   "rounds": "Rounds",
@@ -846,6 +847,8 @@
   "faaRangedDamage": "FAA Ranged Damage",
   "quickPlay": "Quick play",
   "quickPlayWithCount": "Quick play ({{count}})",
+  "show": "Show",
+  "hide": "Hide",
 
   "discord": {
     "link": "Link Discord",

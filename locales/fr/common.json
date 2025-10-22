@@ -400,6 +400,9 @@
   "enterNewPassword": "Entrez un nouveau mot de passe",
   "newPassword": "Nouveau mot de passe",
   "repeatPassword": "Répétez le mot de passe",
+  "currentPassword": "Mot de passe actuel",
+  "changePassword": "Changer le mot de passe",
+  "setPassword": "Définir le mot de passe",
   "teamSize": {
     "title": "Taille de l'équipe",
     "1v1": "1 contre 1",
@@ -586,12 +589,13 @@
   "redirecting": "Redirection...",
   "success": "Succès !",
   "error": "Erreur !",
-  "processing": "Traitement..."
-  ,
+  "processing": "Traitement...",
   "steamBanner": {
     "title": "Ajoutez Lines of Battle à votre liste de souhaits Steam !",
     "description": "Aidez-nous à atteindre <0>{{wishlistCount}}</0> pour lancer le jeu !",
     "descriptionBoldPart": "{{wishlists}} listes de souhaits",
     "buttonText": "Ajouter à la liste de souhaits"
-  }
+  },
+  "show": "Afficher",
+  "hide": "Masquer"
 }

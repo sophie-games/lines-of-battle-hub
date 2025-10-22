@@ -400,6 +400,9 @@
   "enterNewPassword": "Masukan password baru",
   "newPassword": "password baru",
   "repeatPassword": "Ulangi password",
+  "currentPassword": "Password saat ini",
+  "changePassword": "Ubah password",
+  "setPassword": "Atur password",
   "teamSize": {
     "title": "Jumlah anggota tim",
     "1v1": "1 vs 1",
@@ -574,12 +577,13 @@
   "redirecting": "Mengarahkan ulang...",
   "success": "Berhasil!",
   "error": "Kesalahan!",
-  "processing": "Memproses..."
-  ,
+  "processing": "Memproses...",
   "steamBanner": {
     "title": "Tambahkan Lines of Battle ke daftar keinginan Steam!",
     "description": "Bantu kami mencapai <0>{{wishlistCount}}</0> untuk merilis game!",
     "descriptionBoldPart": "{{wishlists}} daftar keinginan",
     "buttonText": "Tambahkan ke daftar keinginan"
-  }
+  },
+  "show": "Tampilkan",
+  "hide": "Sembunyikan"
 }

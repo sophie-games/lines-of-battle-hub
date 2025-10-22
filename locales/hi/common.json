@@ -492,6 +492,9 @@
   "enterNewPassword": "नया पासवर्ड दर्ज करें",
   "newPassword": "नया पासवर्ड",
   "repeatPassword": "पासवर्ड दोहराएं",
+  "currentPassword": "वर्तमान पासवर्ड",
+  "changePassword": "पासवर्ड बदलें",
+  "setPassword": "पासवर्ड सेट करें",
   "teamSize": {
     "title": "टीम का आकार",
     "1v1": "1 बनाम 1",
@@ -858,5 +861,7 @@
   "redirecting": "पुनर्निर्देशित कर रहे हैं...",
   "success": "सफलता!",
   "error": "त्रुटि!",
-  "processing": "संसाधित कर रहे हैं..."
+  "processing": "संसाधित कर रहे हैं...",
+  "show": "दिखाएं",
+  "hide": "छुपाएं"
 }

@@ -403,6 +403,9 @@
   "enterNewPassword": "Digite a nova senha",
   "newPassword": "Nova senha",
   "repeatPassword": "Repetir senha",
+  "currentPassword": "Senha atual",
+  "changePassword": "Alterar senha",
+  "setPassword": "Definir senha",
   "teamSize": {
     "title": "Tamanho da equipe",
     "1v1": "1 contra 1",
@@ -569,12 +572,13 @@
   "redirecting": "Redirecionando...",
   "success": "Sucesso!",
   "error": "Erro!",
-  "processing": "Processando..."
-  ,
+  "processing": "Processando...",
   "steamBanner": {
     "title": "Adicione Lines of Battle à sua lista de desejos na Steam!",
     "description": "Ajude-nos a alcançar <0>{{wishlistCount}}</0> para lançar o jogo!",
     "descriptionBoldPart": "{{wishlists}} listas de desejos",
     "buttonText": "Adicionar à lista de desejos"
-  }
+  },
+  "show": "Mostrar",
+  "hide": "Ocultar"
 }

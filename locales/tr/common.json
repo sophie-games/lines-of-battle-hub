@@ -406,6 +406,9 @@
   "enterNewPassword": "Yeni şifreyi girin",
   "newPassword": "Yeni şifre",
   "repeatPassword": "Şifreyi tekrarla",
+  "currentPassword": "Mevcut şifre",
+  "changePassword": "Şifreyi değiştir",
+  "setPassword": "Şifre belirle",
   "teamSize": {
     "title": "Takım boyutu",
     "1v1": "1’e 1",
@@ -572,12 +575,13 @@
   "redirecting": "Yönlendiriliyor...",
   "success": "Başarılı!",
   "error": "Hata!",
-  "processing": "İşleniyor..."
-  ,
+  "processing": "İşleniyor...",
   "steamBanner": {
     "title": "Lines of Battle’ı Steam istek listenize ekleyin!",
     "description": "Oyunu çıkarmak için <0>{{wishlistCount}}</0> hedefine ulaşmamıza yardım edin!",
     "descriptionBoldPart": "{{wishlists}} istek listesi",
     "buttonText": "Şimdi istek listesine ekle"
-  }
+  },
+  "show": "Göster",
+  "hide": "Gizle"
 }

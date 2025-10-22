@@ -492,6 +492,9 @@
   "enterNewPassword": "Nhập mật khẩu mới",
   "newPassword": "Mật khẩu mới",
   "repeatPassword": "Nhập lại mật khẩu",
+  "currentPassword": "Mật khẩu hiện tại",
+  "changePassword": "Đổi mật khẩu",
+  "setPassword": "Đặt mật khẩu",
   "teamSize": {
     "title": "Kích thước đội",
     "1v1": "1 vs 1",
@@ -858,5 +861,7 @@
   "redirecting": "Đang chuyển hướng...",
   "success": "Thành công!",
   "error": "Lỗi!",
-  "processing": "Đang xử lý..."
+  "processing": "Đang xử lý...",
+  "show": "Hiển thị",
+  "hide": "Ẩn"
 }
