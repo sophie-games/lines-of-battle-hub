@@ -1,5 +1,5 @@
 ﻿{
-  "appLoadingMessage": "欢迎来到 战线统帅！",
+  "appLoadingMessage": "欢迎来到 战线统帅：拿破仑！",
   "home": "主页",
   "language": "语言",
   "tutorial": "教程",
@@ -391,13 +391,13 @@
   "saving": "保存中……",
   "armyInvalid": "该军队配置无效，请修改。",
   "landing": {
-    "message": "<b>战线统帅</b>是一个同步回合制的多人策略游戏，背景取自拿破仑战争时期。与其它人类玩家对战，并动用你自己配置的军队和策略思维获胜吧！",
+    "message": "<b>战线统帅：拿破仑</b>是一个同步回合制的多人策略游戏，背景取自拿破仑战争时期。与其它人类玩家对战，并动用你自己配置的军队和策略思维获胜吧！",
     "privacy": "如果继续，将视作你同意我们的<0>隐私政策</0>。"
   },
   "welcomeModal": {
-    "title": "欢迎来到 战线统帅 👋",
+    "title": "欢迎来到 战线统帅：拿破仑 👋",
     "thanks": "欢迎您的加入，{{name}}！",
-    "p1": "是第一次玩<b>战线统帅</b>吗？推荐你先试着和电脑玩一局<offlineLink>离线对局</offlineLink>以熟悉游戏机制并在较为轻松的环境下研究你的战术。",
+    "p1": "是第一次玩<b>战线统帅：拿破仑</b>吗？推荐你先试着和电脑玩一局<offlineLink>离线对局</offlineLink>以熟悉游戏机制并在较为轻松的环境下研究你的战术。",
     "p2": "由于这个游戏尚在beta测试阶段，欢迎你加入我们的<discordLink>Discord服务器</discordLink>和其它玩家一起交流讨论，互相对局，报告bug，以及分享你对游戏建议，让大家的游戏体验越来越好！"
   },
   "turn": "回合",
@@ -700,7 +700,7 @@
   "withdrawFromName": "从{{name}}撤退",
   "withdrawTournamentMessage": "你确定要从该锦标赛中撤退？",
   "steamBanner": {
-    "title": "在Steam上将 战线统帅 加入愿望单吧！",
+    "title": "在Steam上将 战线统帅：拿破仑 加入愿望单吧！",
     "description": "我们达到 <0>{{wishlistCount}}</0> 后就可以发行游戏！",
     "descriptionBoldPart": "{{wishlists}} 愿望单",
     "buttonText": "现在加入"
@@ -763,8 +763,8 @@
   "selectFormation": "选择阵型",
   "whatsNew": {
     "title": "最新动态",
-    "p1": "查看 战线统帅 的最新更新和功能！",
-    "p2": "敬请期待更多更新和新功能即将登陆 战线统帅！",
+    "p1": "查看 战线统帅：拿破仑 的最新更新和功能！",
+    "p2": "敬请期待更多更新和新功能即将登陆 战线统帅：拿破仑！",
     "p3": "在社交媒体上关注我们，获取最新消息和公告。"
   },
   "tournamentStartedModal": {
