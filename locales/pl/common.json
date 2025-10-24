@@ -119,6 +119,14 @@
   "playOffline": "Graj Offline!",
   "createOfflineGame": "Stwórz partię offline",
   "chooseAScenario": "Wybierz scenariusz",
+  "scripting": {
+    "importScript": "Importuj skrypt",
+    "clearScript": "Wyczyść skrypt",
+    "scriptLoaded": "Skrypt załadowany pomyślnie",
+    "scriptDescription": "Zaimportuj skrypt do gry. Dowiedz się, jak tworzyć skrypty <0>tutaj</0>.",
+    "scriptWarning": "Używaj tylko skryptów, które rozumiesz. Nieznane skrypty mogą zawierać złośliwy kod, który może naruszyć Twoje konto, ukraść Twoje dane, wydobywać kryptowaluty lub powodować nieoczekiwane zachowanie w grze.",
+    "iUnderstand": "Rozumiem ryzyko"
+  },
   "playerArmy": "Armia gracza",
   "botArmy": "Armia bota",
   "army": "Armia",
@@ -768,5 +776,11 @@
   "error": "Błąd!",
   "processing": "Przetwarzanie...",
   "show": "Pokaż",
-  "hide": "Ukryj"
+  "hide": "Ukryj",
+  "mapGenerationError": {
+    "title": "Krytyczny Błąd Mapy",
+    "message": "Nie można wygenerować mapy poprawnie. Może to być spowodowane problemami z WebGL lub pamięcią. Proszę odświeżyć stronę.",
+    "reloadPage": "Odśwież Stronę",
+    "continueAnyway": "Kontynuuj Mimo To"
+  }
 }

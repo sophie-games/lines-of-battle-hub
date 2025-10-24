@@ -128,6 +128,14 @@
   "playOffline": "Chơi ngoại tuyến!",
   "createOfflineGame": "Tạo trò chơi ngoại tuyến",
   "chooseAScenario": "Chọn một kịch bản",
+  "scripting": {
+    "importScript": "Nhập kịch bản",
+    "clearScript": "Xóa kịch bản",
+    "scriptLoaded": "Kịch bản đã được tải thành công",
+    "scriptDescription": "Nhập kịch bản vào trò chơi. Học cách tạo kịch bản <0>tại đây</0>.",
+    "scriptWarning": "Chỉ sử dụng những kịch bản mà bạn hiểu. Các kịch bản không xác định có thể chứa mã độc hại có thể làm tổn hại tài khoản của bạn, đánh cắp dữ liệu, khai thác tiền điện tử hoặc gây ra hành vi không mong muốn trong trò chơi.",
+    "iUnderstand": "Tôi hiểu rủi ro"
+  },
   "playerArmy": "Quân đội người chơi",
   "botArmy": "Quân đội bot",
   "army": "Quân đội",
@@ -863,5 +871,11 @@
   "error": "Lỗi!",
   "processing": "Đang xử lý...",
   "show": "Hiển thị",
-  "hide": "Ẩn"
+  "hide": "Ẩn",
+  "mapGenerationError": {
+    "title": "Lỗi Nghiêm Trọng Bản Đồ",
+    "message": "Không thể tạo bản đồ một cách chính xác. Điều này có thể do các vấn đề về WebGL hoặc bộ nhớ. Vui lòng tải lại trang.",
+    "reloadPage": "Tải Lại Trang",
+    "continueAnyway": "Tiếp Tục Dù Sao"
+  }
 }

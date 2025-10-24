@@ -116,6 +116,14 @@
   "playOffline": "Çevrimdışı Oyna!",
   "createOfflineGame": "Çevrimdışı oyun oluştur",
   "chooseAScenario": "Bir senaryo seç",
+  "scripting": {
+    "importScript": "Betik İçe Aktar",
+    "clearScript": "Betiği Temizle",
+    "scriptLoaded": "Betik başarıyla yüklendi",
+    "scriptDescription": "Oyuna bir betik içe aktarın. Betik oluşturmayı <0>burada</0> öğrenin.",
+    "scriptWarning": "Sadece anladığınız betikleri kullanın. Bilinmeyen betikler hesabınızı tehlikeye atabilir, verilerinizi çalabilir, kripto para madenciliği yapabilir veya oyunda beklenmeyen davranışlara neden olabilen kötü amaçlı kod içerebilir.",
+    "iUnderstand": "Riskleri anlıyorum"
+  },
   "playerArmy": "Oyuncunun ordusu",
   "botArmy": "Botun ordusu",
   "army": "Ordu",
@@ -583,5 +591,11 @@
     "buttonText": "Şimdi istek listesine ekle"
   },
   "show": "Göster",
-  "hide": "Gizle"
+  "hide": "Gizle",
+  "mapGenerationError": {
+    "title": "Kritik Harita Hatası",
+    "message": "Harita doğru şekilde oluşturulamadı. Bu WebGL veya bellek sorunlarından kaynaklanabilir. Lütfen sayfayı yenileyin.",
+    "reloadPage": "Sayfayı Yenile",
+    "continueAnyway": "Yine de Devam Et"
+  }
 }

@@ -106,6 +106,14 @@
   "playOffline": "Jouer hors-ligne !",
   "createOfflineGame": "Créer une partie hors-ligne",
   "chooseAScenario": "Choisir un scénario",
+  "scripting": {
+    "importScript": "Importer Script",
+    "clearScript": "Effacer Script",
+    "scriptLoaded": "Script chargé avec succès",
+    "scriptDescription": "Importez un script dans le jeu. Apprenez à créer des scripts <0>ici</0>.",
+    "scriptWarning": "N'utilisez que des scripts que vous comprenez. Les scripts inconnus peuvent contenir du code malveillant qui pourrait compromettre votre compte, voler vos données, miner des cryptomonnaies ou causer un comportement inattendu dans le jeu.",
+    "iUnderstand": "Je comprends les risques"
+  },
   "playerArmy": "Armée du joueur",
   "botArmy": "Armée de l'ordinateur",
   "army": "Armée",
@@ -597,5 +605,11 @@
     "buttonText": "Ajouter à la liste de souhaits"
   },
   "show": "Afficher",
-  "hide": "Masquer"
+  "hide": "Masquer",
+  "mapGenerationError": {
+    "title": "Erreur Critique de la Carte",
+    "message": "Impossible de générer la carte correctement. Cela peut être dû à des problèmes WebGL ou de mémoire. Veuillez recharger la page.",
+    "reloadPage": "Recharger la Page",
+    "continueAnyway": "Continuer Malgré Tout"
+  }
 }

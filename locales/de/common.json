@@ -116,6 +116,14 @@
   "playOffline": "Offline spielen!",
   "createOfflineGame": "Offlinespiel erstellen",
   "chooseAScenario": "Szenario erstellen",
+  "scripting": {
+    "importScript": "Script importieren",
+    "clearScript": "Script löschen",
+    "scriptLoaded": "Script erfolgreich geladen",
+    "scriptDescription": "Importieren Sie ein Script in das Spiel. Lernen Sie, wie man Scripts erstellt <0>hier</0>.",
+    "scriptWarning": "Verwenden Sie nur Scripts, die Sie verstehen. Unbekannte Scripts können bösartigen Code enthalten, der Ihr Konto kompromittieren, Ihre Daten stehlen, Kryptowährung schürfen oder unerwartetes Verhalten im Spiel verursachen könnte.",
+    "iUnderstand": "Ich verstehe die Risiken"
+  },
   "playerArmy": "Armee des Spielers",
   "botArmy": "Armee des Bots",
   "army": "Armee",
@@ -583,5 +591,11 @@
     "buttonText": "Jetzt zur Wunschliste hinzufügen"
   },
   "show": "Anzeigen",
-  "hide": "Ausblenden"
+  "hide": "Ausblenden",
+  "mapGenerationError": {
+    "title": "Kritischer Kartenfehler",
+    "message": "Die Karte konnte nicht korrekt generiert werden. Dies kann auf WebGL- oder Speicherprobleme zurückzuführen sein. Bitte laden Sie die Seite neu.",
+    "reloadPage": "Seite neu laden",
+    "continueAnyway": "Trotzdem fortfahren"
+  }
 }

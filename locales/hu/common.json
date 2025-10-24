@@ -116,6 +116,14 @@
   "playOffline": "Offline meccs",
   "createOfflineGame": "Offline meccs létrehozása",
   "chooseAScenario": "Válassz egy pályát",
+  "scripting": {
+    "importScript": "Szkript importálása",
+    "clearScript": "Szkript törlése",
+    "scriptLoaded": "Szkript sikeresen betöltve",
+    "scriptDescription": "Importálj egy szkriptet a játékba. Tanulj meg szkripteket készíteni <0>itt</0>.",
+    "scriptWarning": "Csak olyan szkripteket használj, amelyeket megértesz. Az ismeretlen szkriptek rosszindulatú kódot tartalmazhatnak, amely veszélyeztetheti a fiókodat, ellophatja az adataidat, kriptovalutát bányászhat vagy váratlan viselkedést okozhat a játékban.",
+    "iUnderstand": "Értem a kockázatokat"
+  },
   "playerArmy": "Játékos seregének összetétele",
   "botArmy": "Bot seregének összetétele",
   "army": "Sereg",
@@ -523,5 +531,11 @@
     "buttonText": "Hozzáadás a kívánságlistához"
   },
   "show": "Mutat",
-  "hide": "Elrejt"
+  "hide": "Elrejt",
+  "mapGenerationError": {
+    "title": "Kritikus Térkép Hiba",
+    "message": "A térkép nem generálható helyesen. Ez WebGL vagy memória problémák miatt lehet. Kérjük, töltse újra az oldalt.",
+    "reloadPage": "Oldal Újratöltése",
+    "continueAnyway": "Folytatás Mindenképpen"
+  }
 }

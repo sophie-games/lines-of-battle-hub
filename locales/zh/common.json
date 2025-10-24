@@ -128,6 +128,14 @@
   "playOffline": "离线游玩！",
   "createOfflineGame": "创建离线对局",
   "chooseAScenario": "选择战役剧本",
+  "scripting": {
+    "importScript": "导入脚本",
+    "clearScript": "清除脚本",
+    "scriptLoaded": "脚本加载成功",
+    "scriptDescription": "将脚本导入游戏。学习如何创建脚本<0>这里</0>。",
+    "scriptWarning": "只使用您理解的脚本。未知脚本可能包含恶意代码，可能危及您的账户、窃取您的数据、挖掘加密货币或导致游戏中的意外行为。",
+    "iUnderstand": "我理解风险"
+  },
   "playerArmy": "玩家的军队",
   "botArmy": "电脑的军队",
   "army": "军队",
@@ -861,5 +869,11 @@
   "error": "错误！",
   "show": "显示",
   "hide": "隐藏",
-  "processing": "处理中……"
+  "processing": "处理中……",
+  "mapGenerationError": {
+    "title": "地图生成严重错误",
+    "message": "无法正确生成地图。这可能是由于WebGL或内存问题导致的。请重新加载页面。",
+    "reloadPage": "重新加载页面",
+    "continueAnyway": "无论如何继续"
+  }
 }

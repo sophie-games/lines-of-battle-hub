@@ -127,6 +127,14 @@
   "playOffline": "오프라인으로 경기하기!",
   "createOfflineGame": "오프라인 경기 생성",
   "chooseAScenario": "전역 선택",
+  "scripting": {
+    "importScript": "스크립트 가져오기",
+    "clearScript": "스크립트 지우기",
+    "scriptLoaded": "스크립트가 성공적으로 로드되었습니다",
+    "scriptDescription": "게임에 스크립트를 가져오세요. 스크립트 만드는 방법을 <0>여기서</0> 배우세요.",
+    "scriptWarning": "이해하는 스크립트만 사용하세요. 알 수 없는 스크립트는 계정을 위험에 빠뜨리거나, 데이터를 도용하거나, 암호화폐를 채굴하거나, 게임에서 예상치 못한 동작을 일으킬 수 있는 악성 코드를 포함할 수 있습니다.",
+    "iUnderstand": "위험을 이해합니다"
+  },
   "playerArmy": "플레이어의 군대",
   "botArmy": "컴퓨터의 군대",
   "army": "군대",
@@ -857,5 +865,11 @@
   "error": "오류!",
   "processing": "처리 중...",
   "show": "표시",
-  "hide": "숨기기"
+  "hide": "숨기기",
+  "mapGenerationError": {
+    "title": "지도 생성 심각한 오류",
+    "message": "지도를 올바르게 생성할 수 없습니다. 이는 WebGL 또는 메모리 문제로 인한 것일 수 있습니다. 페이지를 새로고침해주세요.",
+    "reloadPage": "페이지 새로고침",
+    "continueAnyway": "어쨌든 계속"
+  }
 }

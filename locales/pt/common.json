@@ -116,6 +116,14 @@
   "playOffline": "Jogar Offline!",
   "createOfflineGame": "Criar jogo offline",
   "chooseAScenario": "Escolher um cenário",
+  "scripting": {
+    "importScript": "Importar Script",
+    "clearScript": "Limpar Script",
+    "scriptLoaded": "Script carregado com sucesso",
+    "scriptDescription": "Importe um script para o jogo. Aprenda como criar scripts <0>aqui</0>.",
+    "scriptWarning": "Use apenas scripts que você entende. Scripts desconhecidos podem conter código malicioso que pode comprometer sua conta, roubar seus dados, minerar criptomoedas ou causar comportamento inesperado no jogo.",
+    "iUnderstand": "Entendo os riscos"
+  },
   "playerArmy": "Exército do jogador",
   "botArmy": "Exército do bot",
   "army": "Exército",
@@ -580,5 +588,11 @@
     "buttonText": "Adicionar à lista de desejos"
   },
   "show": "Mostrar",
-  "hide": "Ocultar"
+  "hide": "Ocultar",
+  "mapGenerationError": {
+    "title": "Erro Crítico do Mapa",
+    "message": "Não foi possível gerar o mapa corretamente. Isso pode ser devido a problemas de WebGL ou memória. Por favor, recarregue a página.",
+    "reloadPage": "Recarregar Página",
+    "continueAnyway": "Continuar Mesmo Assim"
+  }
 }
