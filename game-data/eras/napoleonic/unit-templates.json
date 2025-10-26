@@ -36,7 +36,13 @@
       "men": 800,
       "horse": 0,
       "guns": 0
-    }
+    },
+    "collisionCircles": 3,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 36,
+    "baseSprite": "line",
+    "overlaySprite": "infantry"
   },
   {
     "name": "dragoons",
@@ -70,7 +76,13 @@
       "men": 250,
       "horse": 250,
       "guns": 0
-    }
+    },
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "line",
+    "overlaySprite": "dragoons"
   },
   {
     "name": "8lb_artillery",
@@ -104,14 +116,20 @@
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "reportStats": {
       "men": 104,
       "horse": 32,
       "guns": 8
-    }
+    },
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "8lb-artillery",
+    "overlaySprite": null
   },
   {
     "name": "guards",
@@ -152,7 +170,13 @@
     "rotationSpeed": 0.29,
     "rotationMaxThreshold": 0.5,
     "runRotationSpeed": 0.195,
-    "turningDelay": 8
+    "turningDelay": 8,
+    "collisionCircles": 3,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 36,
+    "baseSprite": "line",
+    "overlaySprite": "guards"
   },
   {
     "name": "lancers",
@@ -188,7 +212,13 @@
     "rotationSpeed": 0.33,
     "rotationMaxThreshold": 0.53,
     "runRotationSpeed": 0.23,
-    "turningDelay": 3
+    "turningDelay": 3,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "line",
+    "overlaySprite": "lancers"
   },
   {
     "name": "6lb_artillery",
@@ -228,9 +258,15 @@
       "horse": 64,
       "guns": 8
     },
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
-    "runRotationSpeed": 0.8
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
+    "runRotationSpeed": 0.8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "horse-artillery",
+    "overlaySprite": "horse-artillery"
   },
   {
     "name": "light_infantry",
@@ -272,7 +308,13 @@
     "rotationSpeed": 0.3,
     "rotationMaxThreshold": 0.54,
     "runRotationSpeed": 0.21,
-    "turningDelay": 8
+    "turningDelay": 8,
+    "collisionCircles": 3,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 36,
+    "baseSprite": "line",
+    "overlaySprite": "chasseurs"
   },
   {
     "name": "cuirassiers",
@@ -308,7 +350,13 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3
+    "turningDelay": 3,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "line",
+    "overlaySprite": "cuirassiers"
   },
   {
     "name": "6in_howitzer",
@@ -347,9 +395,15 @@
       "horse": 24,
       "guns": 6
     },
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
-    "runRotationSpeed": 0.8
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
+    "runRotationSpeed": 0.8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "howitzers",
+    "overlaySprite": null
   },
   {
     "name": "militia",
@@ -389,7 +443,13 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 8
+    "turningDelay": 8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "militia",
+    "overlaySprite": "militia"
   },
   {
     "name": "hussars",
@@ -424,7 +484,13 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3
+    "turningDelay": 3,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "line",
+    "overlaySprite": "cavalry"
   },
   {
     "name": "12lb_artillery",
@@ -461,9 +527,15 @@
       "horse": 48,
       "guns": 8
     },
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
-    "runRotationSpeed": 0.8
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
+    "runRotationSpeed": 0.8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "12lb-artillery",
+    "overlaySprite": null
   },
   {
     "name": "horse_archers",
@@ -504,7 +576,13 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3
+    "turningDelay": 3,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "line",
+    "overlaySprite": "horse-archers"
   },
   {
     "name": "grenadiers",
@@ -543,7 +621,13 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 8
+    "turningDelay": 8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "line",
+    "overlaySprite": "grenadiers"
   },
   {
     "name": "4lb_artillery",
@@ -583,9 +667,15 @@
       "horse": 40,
       "guns": 8
     },
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
-    "runRotationSpeed": 0.8
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
+    "runRotationSpeed": 0.8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "4lb-artillery",
+    "overlaySprite": null
   },
   {
     "name": "skirmishers",
@@ -638,7 +728,13 @@
     "rotationSpeed": 0.35,
     "rotationMaxThreshold": 0.55,
     "runRotationSpeed": 0.25,
-    "turningDelay": 2
+    "turningDelay": 2,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "skirmishers",
+    "overlaySprite": "skirmishers"
   },
   {
     "name": "rifles",
@@ -691,7 +787,13 @@
     "rotationSpeed": 0.35,
     "rotationMaxThreshold": 0.55,
     "runRotationSpeed": 0.25,
-    "turningDelay": 2
+    "turningDelay": 2,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 12,
+    "height": 24,
+    "baseSprite": "skirmishers",
+    "overlaySprite": "rifles"
   },
   {
     "name": "6lb_artillery",
@@ -728,9 +830,15 @@
       "horse": 40,
       "guns": 8
     },
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
-    "runRotationSpeed": 0.8
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
+    "runRotationSpeed": 0.8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "6lb-artillery",
+    "overlaySprite": null
   },
   {
     "name": "rockets",
@@ -770,9 +878,15 @@
       "horse": 24,
       "guns": 6
     },
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
-    "runRotationSpeed": 0.8
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
+    "runRotationSpeed": 0.8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "rockets",
+    "overlaySprite": "rockets"
   },
   {
     "name": "unknown",
@@ -803,7 +917,13 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3
+    "turningDelay": 3,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 16,
+    "baseSprite": "unknown",
+    "overlaySprite": null
   },
   {
     "name": "unknown_infantry",
@@ -834,7 +954,13 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3
+    "turningDelay": 3,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 16,
+    "baseSprite": "unknown",
+    "overlaySprite": "unknown-infantry"
   },
   {
     "name": "unknown_cavalry",
@@ -865,7 +991,13 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 3
+    "turningDelay": 3,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 16,
+    "baseSprite": "unknown",
+    "overlaySprite": "unknown-cavalry"
   },
   {
     "name": "unknown_artillery",
@@ -893,9 +1025,15 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
-    "runRotationSpeed": 0.8
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
+    "runRotationSpeed": 0.8,
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 16,
+    "baseSprite": "unknown",
+    "overlaySprite": "unknown-artillery"
   },
   {
     "name": "10lb_licorne",
@@ -933,14 +1071,20 @@
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "reportStats": {
       "men": 104,
       "horse": 32,
       "guns": 6
-    }
+    },
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "10lb-licorne",
+    "overlaySprite": null
   },
   {
     "name": "18lb_licorne",
@@ -978,13 +1122,19 @@
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
-    "rotationSpeed": 1.0,
-    "rotationMaxThreshold": 3.0,
+    "rotationSpeed": 1,
+    "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "reportStats": {
       "men": 122,
       "horse": 54,
       "guns": 6
-    }
+    },
+    "collisionCircles": 2,
+    "collisionCircleSize": 12,
+    "width": 16,
+    "height": 32,
+    "baseSprite": "18lb-licorne",
+    "overlaySprite": null
   }
 ]

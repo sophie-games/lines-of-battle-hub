@@ -1,0 +1,10 @@
+[
+  {
+    "type": "soft_attack",
+    "orgDamageRatio": 240
+  },
+  {
+    "type": "hard_attack",
+    "orgDamageRatio": 240
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "unitName": {
+    "1": "Infantry",
+    "2": "Tanks"
+  },
+  "battalionName": {
+    "1": "{{n}} Line Division",
+    "2": "{{n}} Tank Division"
+  },
+  "unitDescription": {
+    "1": "infantry description bro",
+    "2": "tanks description bro"
+  },
+  "unitCategory": {
+    "infantry": "Infantry",
+    "midCavalry": "Cavalry"
+  },
+  "damageType": {
+    "soft_attack": "Soft Attack",
+    "hard_attack": "Hard Attack"
+  }
+}

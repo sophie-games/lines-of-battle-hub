@@ -1,0 +1,94 @@
+{
+  "grass": {
+    "id": 0,
+    "category": "land"
+  },
+  "forest": {
+    "id": 1,
+    "category": "forest"
+  },
+  "building": {
+    "id": 2,
+    "category": "building"
+  },
+  "road": {
+    "id": 3,
+    "category": "path"
+  },
+  "shallowWater": {
+    "id": 4,
+    "category": "shallowWater"
+  },
+  "deepWater": {
+    "id": 5,
+    "category": "deepWater"
+  },
+  "cliff": {
+    "id": 6,
+    "category": "cliff"
+  },
+  "bridge": {
+    "id": 7,
+    "category": "path"
+  },
+  "snow": {
+    "id": 8,
+    "category": "land"
+  },
+  "dirt": {
+    "id": 9,
+    "category": "land"
+  },
+  "sand": {
+    "id": 10,
+    "category": "land"
+  },
+  "farm": {
+    "id": 11,
+    "category": "land"
+  },
+  "city": {
+    "id": 12,
+    "category": "city"
+  },
+  "forestWinter": {
+    "id": 13,
+    "category": "forest"
+  },
+  "cliffWinter": {
+    "id": 14,
+    "category": "cliff"
+  },
+  "roadWinter": {
+    "id": 15,
+    "category": "path"
+  },
+  "ice": {
+    "id": 16,
+    "category": "land"
+  },
+  "farmUnplanted": {
+    "id": 17,
+    "category": "land"
+  },
+  "farmGrowing": {
+    "id": 18,
+    "category": "land"
+  },
+  "mud": {
+    "id": 19,
+    "category": "mud"
+  },
+  "sunkenRoad": {
+    "id": 20,
+    "category": "sunkenRoad"
+  },
+  "trench": {
+    "id": 21,
+    "category": "sunkenRoad"
+  },
+  "redoubt": {
+    "id": 22,
+    "category": "sunkenRoad"
+  }
+}
