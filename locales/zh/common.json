@@ -134,7 +134,9 @@
     "scriptLoaded": "脚本加载成功",
     "scriptDescription": "将脚本导入游戏。学习如何创建脚本<0>这里</0>。",
     "scriptWarning": "只使用您理解的脚本。未知脚本可能包含恶意代码，可能危及您的账户、窃取您的数据、挖掘加密货币或导致游戏中的意外行为。",
-    "iUnderstand": "我理解风险"
+    "iUnderstand": "我理解风险",
+    "invalidFileType": "文件必须是JavaScript文件（.js）",
+    "compilationFailed": "脚本编译失败。请检查JavaScript语法。"
   },
   "playerArmy": "玩家的军队",
   "botArmy": "电脑的军队",

@@ -125,7 +125,9 @@
     "scriptLoaded": "Skrypt załadowany pomyślnie",
     "scriptDescription": "Zaimportuj skrypt do gry. Dowiedz się, jak tworzyć skrypty <0>tutaj</0>.",
     "scriptWarning": "Używaj tylko skryptów, które rozumiesz. Nieznane skrypty mogą zawierać złośliwy kod, który może naruszyć Twoje konto, ukraść Twoje dane, wydobywać kryptowaluty lub powodować nieoczekiwane zachowanie w grze.",
-    "iUnderstand": "Rozumiem ryzyko"
+    "iUnderstand": "Rozumiem ryzyko",
+    "invalidFileType": "Plik musi być plikiem JavaScript (.js)",
+    "compilationFailed": "Kompilacja skryptu nie powiodła się. Sprawdź składnię JavaScript."
   },
   "playerArmy": "Armia gracza",
   "botArmy": "Armia bota",

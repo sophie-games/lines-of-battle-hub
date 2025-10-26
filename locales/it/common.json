@@ -122,7 +122,9 @@
     "scriptLoaded": "Script caricato con successo",
     "scriptDescription": "Importa uno script nel gioco. Impara come creare script <0>qui</0>.",
     "scriptWarning": "Usa solo script che capisci. Gli script sconosciuti possono contenere codice dannoso che potrebbe compromettere il tuo account, rubare i tuoi dati, minare criptovalute o causare comportamenti inaspettati nel gioco.",
-    "iUnderstand": "Comprendo i rischi"
+    "iUnderstand": "Comprendo i rischi",
+    "invalidFileType": "Il file deve essere un file JavaScript (.js)",
+    "compilationFailed": "Compilazione dello script fallita. Controlla la sintassi JavaScript."
   },
   "playerArmy": "Esercito del giocatore",
   "botArmy": "Esercito del bot",

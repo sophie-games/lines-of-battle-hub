@@ -123,7 +123,9 @@
     "scriptLoaded": "Skrip berhasil dimuat",
     "scriptDescription": "Impor skrip ke dalam permainan. Pelajari cara membuat skrip <0>di sini</0>.",
     "scriptWarning": "Gunakan hanya skrip yang Anda pahami. Skrip yang tidak dikenal mungkin mengandung kode berbahaya yang dapat membahayakan akun Anda, mencuri data Anda, menambang kripto, atau menyebabkan perilaku tak terduga dalam permainan.",
-    "iUnderstand": "Saya memahami risikonya"
+    "iUnderstand": "Saya memahami risikonya",
+    "invalidFileType": "File harus berupa file JavaScript (.js)",
+    "compilationFailed": "Kompilasi skrip gagal. Silakan periksa sintaks JavaScript."
   },
   "playerArmy": "Pasukan Pemain",
   "botArmy": "Pasukan Bot",

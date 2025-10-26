@@ -122,7 +122,9 @@
     "scriptLoaded": "Script erfolgreich geladen",
     "scriptDescription": "Importieren Sie ein Script in das Spiel. Lernen Sie, wie man Scripts erstellt <0>hier</0>.",
     "scriptWarning": "Verwenden Sie nur Scripts, die Sie verstehen. Unbekannte Scripts können bösartigen Code enthalten, der Ihr Konto kompromittieren, Ihre Daten stehlen, Kryptowährung schürfen oder unerwartetes Verhalten im Spiel verursachen könnte.",
-    "iUnderstand": "Ich verstehe die Risiken"
+    "iUnderstand": "Ich verstehe die Risiken",
+    "invalidFileType": "Die Datei muss eine JavaScript-Datei (.js) sein",
+    "compilationFailed": "Script-Kompilierung fehlgeschlagen. Bitte überprüfen Sie die JavaScript-Syntax."
   },
   "playerArmy": "Armee des Spielers",
   "botArmy": "Armee des Bots",

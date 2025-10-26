@@ -122,7 +122,9 @@
     "scriptLoaded": "Szkript sikeresen betöltve",
     "scriptDescription": "Importálj egy szkriptet a játékba. Tanulj meg szkripteket készíteni <0>itt</0>.",
     "scriptWarning": "Csak olyan szkripteket használj, amelyeket megértesz. Az ismeretlen szkriptek rosszindulatú kódot tartalmazhatnak, amely veszélyeztetheti a fiókodat, ellophatja az adataidat, kriptovalutát bányászhat vagy váratlan viselkedést okozhat a játékban.",
-    "iUnderstand": "Értem a kockázatokat"
+    "iUnderstand": "Értem a kockázatokat",
+    "invalidFileType": "A fájlnak JavaScript fájlnak (.js) kell lennie",
+    "compilationFailed": "Szkript fordítás sikertelen. Kérjük, ellenőrizze a JavaScript szintaxist."
   },
   "playerArmy": "Játékos seregének összetétele",
   "botArmy": "Bot seregének összetétele",
