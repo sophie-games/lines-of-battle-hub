@@ -444,10 +444,10 @@
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
     "turningDelay": 8,
-    "collisionCircles": 3,
+    "collisionCircles": 2,
     "collisionCircleSize": 12,
     "width": 12,
-    "height": 36,
+    "height": 24,
     "baseSprite": "militia",
     "overlaySprite": "militia"
   },
