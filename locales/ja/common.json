@@ -120,11 +120,15 @@
     "importScript": "スクリプトをインポート",
     "clearScript": "スクリプトをクリア",
     "scriptLoaded": "スクリプトが正常に読み込まれました",
-    "scriptDescription": "ゲームにスクリプトをインポートします。スクリプトの作成方法を<0>こちら</0>で学んでください。",
+    "scriptDescription": "スクリプトの作成方法を<0>こちら</0>で学んでください。",
     "scriptWarning": "理解できるスクリプトのみを使用してください。未知のスクリプトには、アカウントの侵害、データの盗難、暗号通貨のマイニング、またはゲーム内での予期しない動作を引き起こす可能性のある悪意のあるコードが含まれている可能性があります。",
     "iUnderstand": "リスクを理解しています",
     "invalidFileType": "ファイルはJavaScriptファイル（.js）である必要があります",
-    "compilationFailed": "スクリプトのコンパイルに失敗しました。JavaScriptの構文を確認してください。"
+    "compilationFailed": "スクリプトのコンパイルに失敗しました。JavaScriptの構文を確認してください。",
+    "selectBots": "このスクリプトを使用するボットを選択してください：",
+    "applyToAllBots": "すべてのボットに適用",
+    "selectSpecificBots": "特定のボットを選択",
+    "botPlayer": "プレイヤー{{playerNumber}}（チーム{{team}}）"
   },
   "playerArmy": "プレイヤーの軍隊",
   "botArmy": "ボットの軍隊",

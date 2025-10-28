@@ -120,11 +120,15 @@
     "importScript": "Betik İçe Aktar",
     "clearScript": "Betiği Temizle",
     "scriptLoaded": "Betik başarıyla yüklendi",
-    "scriptDescription": "Oyuna bir betik içe aktarın. Betik oluşturmayı <0>burada</0> öğrenin.",
+    "scriptDescription": "Betik oluşturmayı <0>burada</0> öğrenin.",
     "scriptWarning": "Sadece anladığınız betikleri kullanın. Bilinmeyen betikler hesabınızı tehlikeye atabilir, verilerinizi çalabilir, kripto para madenciliği yapabilir veya oyunda beklenmeyen davranışlara neden olabilen kötü amaçlı kod içerebilir.",
     "iUnderstand": "Riskleri anlıyorum",
     "invalidFileType": "Dosya bir JavaScript dosyası (.js) olmalıdır",
-    "compilationFailed": "Betik derlemesi başarısız oldu. JavaScript sözdizimini kontrol edin."
+    "compilationFailed": "Betik derlemesi başarısız oldu. JavaScript sözdizimini kontrol edin.",
+    "selectBots": "Bu betiği hangi botların kullanacağını seçin:",
+    "applyToAllBots": "Tüm botlara uygula",
+    "selectSpecificBots": "Belirli botları seç",
+    "botPlayer": "Oyuncu {{playerNumber}} (Takım {{team}})"
   },
   "playerArmy": "Oyuncunun ordusu",
   "botArmy": "Botun ordusu",

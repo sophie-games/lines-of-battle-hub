@@ -136,7 +136,11 @@
     "scriptWarning": "只使用您理解的脚本。未知脚本可能包含恶意代码，可能危及您的账户、窃取您的数据、挖掘加密货币或导致游戏中的意外行为。",
     "iUnderstand": "我理解风险",
     "invalidFileType": "文件必须是JavaScript文件（.js）",
-    "compilationFailed": "脚本编译失败。请检查JavaScript语法。"
+    "compilationFailed": "脚本编译失败。请检查JavaScript语法。",
+    "selectBots": "选择哪些机器人应使用此脚本：",
+    "applyToAllBots": "应用到所有机器人",
+    "selectSpecificBots": "选择特定机器人",
+    "botPlayer": "玩家 {{playerNumber}}（队伍 {{team}}）"
   },
   "playerArmy": "玩家的军队",
   "botArmy": "电脑的军队",
