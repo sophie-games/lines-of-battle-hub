@@ -98,5 +98,10 @@
     "marksman-musket": "Karabinek wyborowy",
     "rifle": "Sztucer",
     "rocket": "Rakieta"
+  },
+  "formation": {
+    "line": "Linia",
+    "column": "Kolumna",
+    "square": "Kwadrat"
   }
 }

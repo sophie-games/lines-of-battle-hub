@@ -73,5 +73,10 @@
     "12lb-canister-fire": "Tembakan Peluru Berat Canister",
     "dragoon-sword": "Pedang Dragoon",
     "horse-archer-bow": "Pemanah Kuda"
+  },
+  "formation": {
+    "line": "Baris",
+    "column": "Kolom",
+    "square": "Kotak"
   }
 }

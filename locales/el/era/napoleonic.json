@@ -98,5 +98,10 @@
     "marksman-musket": "Μουσκέτο Σκοπευτή",
     "rifle": "Τουφέκι",
     "rocket": "Ρουκέτα"
+  },
+  "formation": {
+    "line": "Γραμμή",
+    "column": "Στήλη",
+    "square": "Τετράγωνο"
   }
 }

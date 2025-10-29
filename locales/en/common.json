@@ -764,5 +764,15 @@
     "message": "Could not generate the map correctly. This may be due to WebGL or memory issues. Please reload the page.",
     "reloadPage": "Reload Page",
     "continueAnyway": "Continue Anyway"
-  }
+  },
+  "formations": "Formations",
+  "notAvailableForAllUnits": "Not available for all units",
+  "unitsHaveDifferentFormations": "Selected units have different formations",
+  "disablesFlankMelee": "Disables flank melee",
+  "disablesRearMelee": "Disables rear melee",
+  "disablesEnfiladeRearFire": "Disables enfilade rear fire",
+  "flankChargeResistance": "Flank charge resistance",
+  "rearChargeResistance": "Rear charge resistance",
+  "enfiladeFireResistance": "Enfilade fire resistance",
+  "rearFireResistance": "Rear fire resistance"
 }

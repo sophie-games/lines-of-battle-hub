@@ -105,5 +105,10 @@
     "18lb-canister-fire": "18磅炮射霰弹",
     "18lb-cannon-ball": "18磅实心炮弹",
     "18lb-explosive-shell": "18磅榴弹"
+  },
+  "formation": {
+    "line": "横队",
+    "column": "纵队",
+    "square": "方阵"
   }
 }

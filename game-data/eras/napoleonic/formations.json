@@ -1,0 +1,35 @@
+[
+  {
+    "id": "default",
+    "disablesFlankMelee": true,
+    "disablesRearMelee": true,
+    "disablesEnfiladeFire": true,
+    "disablesRearFire": true
+  },
+  {
+    "id": "cavalry",
+    "disablesEnfiladeFire": true,
+    "disablesRearFire": true
+  },
+  {
+    "id": "column"
+  },
+  {
+    "id": "line",
+    "movementModifier": -0.25,
+    "rotationSpeedModifier": -0.5,
+    "flankChargeResistance": 0.8,
+    "rearChargeResistance": 1.2,
+    "enfiladeFireResistance": 0.3,
+    "rearFireResistance": 0.5
+  },
+  {
+    "id": "square",
+    "movementModifier": -0.8,
+    "rotationSpeedModifier": -0.8,
+    "disablesFlankMelee": true,
+    "disablesRearMelee": true,
+    "disablesEnfiladeFire": true,
+    "disablesRearFire": true
+  }
+]

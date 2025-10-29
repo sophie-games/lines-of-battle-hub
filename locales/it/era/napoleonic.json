@@ -80,5 +80,10 @@
     "12lb-cannon-ball": "Palla di cannone pesante",
     "12lb-canister-fire": "Fuoco a mitraglia pesante",
     "dragoon-sword": "Spada del dragone"
+  },
+  "formation": {
+    "line": "Linea",
+    "column": "Colonna",
+    "square": "Quadrato"
   }
 }

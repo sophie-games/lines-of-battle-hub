@@ -116,5 +116,10 @@
     "18lb-canister-fire": "نيران علبة 18 رطل",
     "18lb-cannon-ball": "كرة مدفع 18 رطل",
     "18lb-explosive-shell": "قذيفة متفجرة 18 رطل"
+  },
+  "formation": {
+    "line": "خط",
+    "column": "عمود",
+    "square": "مربع"
   }
 }

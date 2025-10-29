@@ -85,5 +85,10 @@
     "12lb-canister-fire": "Tir de mitraille lourd",
     "dragoon-sword": "Épée de dragon",
     "horse-archer-bow": "Arc d'archer à cheval"
+  },
+  "formation": {
+    "line": "Ligne",
+    "column": "Colonne",
+    "square": "Carré"
   }
 }

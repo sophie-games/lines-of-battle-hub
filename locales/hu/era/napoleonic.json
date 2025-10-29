@@ -72,5 +72,10 @@
     "12lb-cannon-ball": "Nehéz ágyúgolyó",
     "12lb-canister-fire": "Nehéz kartácstűz",
     "dragoon-sword": "Dragonyos kard"
+  },
+  "formation": {
+    "line": "Sor",
+    "column": "Oszlop",
+    "square": "Négyzet"
   }
 }

@@ -116,5 +116,10 @@
     "18lb-canister-fire": "Hỏa lực 18-lb",
     "18lb-cannon-ball": "Đạn pháo 18-lb",
     "18lb-explosive-shell": "Đạn nổ 18-lb"
+  },
+  "formation": {
+    "line": "Hàng",
+    "column": "Cột",
+    "square": "Vuông"
   }
 }

@@ -81,5 +81,10 @@
     "12lb-canister-fire": "Важкий картечний залп",
     "dragoon-sword": "Драгунський палаш",
     "horse-archer-bow": "Лук вершника"
+  },
+  "formation": {
+    "line": "Лінія",
+    "column": "Колона",
+    "square": "Квадрат"
   }
 }

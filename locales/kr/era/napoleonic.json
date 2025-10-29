@@ -116,5 +116,10 @@
     "18lb-canister-fire": "18파운드 유산탄",
     "18lb-cannon-ball": "18파운드 포환",
     "18lb-explosive-shell": "18파운드 포탄"
+  },
+  "formation": {
+    "line": "횡대",
+    "column": "종대",
+    "square": "방진"
   }
 }

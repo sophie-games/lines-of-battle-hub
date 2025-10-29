@@ -81,5 +81,10 @@
     "12lb-canister-fire": "Ağır Kartuş Ateşi",
     "dragoon-sword": "Ejder Kılıcı",
     "horse-archer-bow": "Atlı Okçu Yayı"
+  },
+  "formation": {
+    "line": "Hat",
+    "column": "Sütun",
+    "square": "Kare"
   }
 }

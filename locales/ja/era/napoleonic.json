@@ -80,5 +80,10 @@
     "12lb-cannon-ball": "重砲弾",
     "12lb-canister-fire": "重散弾射撃",
     "dragoon-sword": "竜騎兵の剣"
+  },
+  "formation": {
+    "line": "横隊",
+    "column": "縦隊",
+    "square": "方陣"
   }
 }

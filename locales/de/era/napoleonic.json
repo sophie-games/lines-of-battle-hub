@@ -84,5 +84,10 @@
     "12lb-cannon-ball": "Schwere Kanonenkugel",
     "12lb-canister-fire": "Schweres Kartätschenfeuer",
     "dragoon-sword": "Dragonerschwert"
+  },
+  "formation": {
+    "line": "Linie",
+    "column": "Kolonne",
+    "square": "Karree"
   }
 }
