@@ -119,11 +119,15 @@
     "importScript": "Importar Script",
     "clearScript": "Limpiar Script",
     "scriptLoaded": "Script cargado exitosamente",
-    "scriptDescription": "Importa un script al juego. Aprende cómo crear scripts <0>aquí</0>.",
+    "scriptDescription": "Aprende cómo crear scripts <0>aquí</0>.",
     "scriptWarning": "Solo usa scripts que entiendas. Los scripts desconocidos pueden contener código malicioso que podría comprometer tu cuenta, robar tus datos, minar criptomonedas o causar comportamiento inesperado en el juego.",
     "iUnderstand": "Entiendo los riesgos",
     "invalidFileType": "El archivo debe ser un archivo JavaScript (.js)",
-    "compilationFailed": "Falló la compilación del script. Por favor verifica la sintaxis de JavaScript."
+    "compilationFailed": "Falló la compilación del script. Por favor verifica la sintaxis de JavaScript.",
+    "selectBots": "Selecciona qué bots usarán este script:",
+    "applyToAllBots": "Aplicar a todos los bots",
+    "selectSpecificBots": "Seleccionar bots específicos",
+    "botPlayer": "Jugador {{playerNumber}} (Equipo {{team}})"
   },
   "playerArmy": "Ejército del jugador",
   "botArmy": "Ejército del bot",
