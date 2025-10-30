@@ -18,6 +18,7 @@
     "id": "line",
     "movementModifier": -0.25,
     "rotationSpeedModifier": -0.5,
+    "rangedAttackModifier": 0.5,
     "flankChargeResistance": 0.8,
     "rearChargeResistance": 1.2,
     "enfiladeFireResistance": 0.3,
@@ -27,9 +28,28 @@
     "id": "square",
     "movementModifier": -0.8,
     "rotationSpeedModifier": -0.8,
+    "chargeBonusModifier": -0.5,
     "disablesFlankMelee": true,
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
-    "disablesRearFire": true
+    "disablesRearFire": true,
+    "firingArcs": [
+      {
+        "direction": 0,
+        "angle": 1.5707963267948966
+      },
+      {
+        "direction": 1.5707963267948966,
+        "angle": 1.5707963267948966
+      },
+      {
+        "direction": 3.141592653589793,
+        "angle": 1.5707963267948966
+      },
+      {
+        "direction": -1.5707963267948966,
+        "angle": 1.5707963267948966
+      }
+    ]
   }
 ]

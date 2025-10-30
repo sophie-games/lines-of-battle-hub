@@ -1,7 +1,7 @@
 [
   {
     "name": "infantry_division",
-    "unitType": 1,
+    "type": 1,
     "category": "infantry",
     "meleeAttack": 38,
     "meleeDefense": 29,
@@ -30,16 +30,22 @@
       "horse": 250,
       "guns": 0
     },
-    "collisionCircles": 1,
-    "collisionCircleSize": 16,
-    "width": 16,
-    "height": 16,
-    "baseSprite": "circle",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 1,
+        "collisionCircleSize": 16,
+        "width": 16,
+        "height": 16,
+        "baseSprite": "circle",
+        "overlaySprite": null
+      }
+    ]
   },
   {
     "name": "tank_division",
-    "unitType": 2,
+    "type": 2,
     "category": "tank",
     "meleeAttack": 38,
     "meleeDefense": 29,
@@ -68,17 +74,23 @@
       "horse": 250,
       "guns": 0
     },
-    "collisionCircles": 1,
-    "collisionCircleSize": 16,
-    "width": 16,
-    "height": 16,
-    "baseSprite": "circle",
-    "overlaySprite": "tank"
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 1,
+        "collisionCircleSize": 16,
+        "width": 16,
+        "height": 16,
+        "baseSprite": "circle",
+        "overlaySprite": "tank"
+      }
+    ]
   },
 
   {
     "name": "unknown",
-    "unitType": 20,
+    "type": 20,
     "category": "infantry",
     "meleeAttack": 1,
     "meleeDefense": 1,
@@ -104,11 +116,17 @@
     "rotationMaxThreshold": 100,
     "runRotationSpeed": 100,
     "turningDelay": 0,
-    "collisionCircles": 1,
-    "collisionCircleSize": 16,
-    "width": 16,
-    "height": 16,
-    "baseSprite": "unknown",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 1,
+        "collisionCircleSize": 16,
+        "width": 16,
+        "height": 16,
+        "baseSprite": "unknown",
+        "overlaySprite": null
+      }
+    ]
   }
 ]

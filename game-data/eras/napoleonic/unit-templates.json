@@ -37,12 +37,38 @@
       "horse": 0,
       "guns": 0
     },
-    "collisionCircles": 3,
+    "collisionCircles": 4,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 36,
-    "baseSprite": "line",
-    "overlaySprite": "infantry"
+    "defaultFormation": "column",
+    "formations": [
+      {
+        "id": "column",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "column",
+        "overlaySprite": "infantry"
+      },
+      {
+        "id": "line",
+        "collisionCircles": 4,
+        "collisionCircleSize": 11,
+        "width": 11,
+        "height": 44,
+        "baseSprite": "line",
+        "overlaySprite": "infantry"
+      },
+      {
+        "id": "square",
+        "collisionCircles": 1,
+        "collisionCircleSize": 24,
+        "width": 24,
+        "height": 24,
+        "baseSprite": "square",
+        "overlaySprite": "line-square"
+      }
+    ]
   },
   {
     "name": "dragoons",
@@ -79,10 +105,18 @@
     },
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
-    "baseSprite": "line",
-    "overlaySprite": "dragoons"
+    "defaultFormation": "cavalry",
+    "formations": [
+      {
+        "id": "cavalry",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "line",
+        "overlaySprite": "dragoons"
+      }
+    ]
   },
   {
     "name": "8lb_artillery",
@@ -126,10 +160,18 @@
     },
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "8lb-artillery",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "8lb-artillery",
+        "overlaySprite": null
+      }
+    ]
   },
   {
     "name": "guards",
@@ -173,10 +215,36 @@
     "turningDelay": 8,
     "collisionCircles": 3,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 36,
-    "baseSprite": "line",
-    "overlaySprite": "guards"
+    "defaultFormation": "column",
+    "formations": [
+      {
+        "id": "column",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "column",
+        "overlaySprite": "guards"
+      },
+      {
+        "id": "line",
+        "collisionCircles": 4,
+        "collisionCircleSize": 11,
+        "width": 11,
+        "height": 44,
+        "baseSprite": "line",
+        "overlaySprite": "guards"
+      },
+      {
+        "id": "square",
+        "collisionCircles": 1,
+        "collisionCircleSize": 24,
+        "width": 24,
+        "height": 24,
+        "baseSprite": "square",
+        "overlaySprite": "guard-square"
+      }
+    ]
   },
   {
     "name": "lancers",
@@ -215,10 +283,18 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
-    "baseSprite": "line",
-    "overlaySprite": "lancers"
+    "defaultFormation": "cavalry",
+    "formations": [
+      {
+        "id": "cavalry",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "line",
+        "overlaySprite": "lancers"
+      }
+    ]
   },
   {
     "name": "6lb_artillery",
@@ -263,10 +339,18 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "horse-artillery",
-    "overlaySprite": "horse-artillery"
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "horse-artillery",
+        "overlaySprite": "horse-artillery"
+      }
+    ]
   },
   {
     "name": "light_infantry",
@@ -311,10 +395,36 @@
     "turningDelay": 8,
     "collisionCircles": 3,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 36,
-    "baseSprite": "line",
-    "overlaySprite": "chasseurs"
+    "defaultFormation": "column",
+    "formations": [
+      {
+        "id": "column",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "column",
+        "overlaySprite": "chasseurs"
+      },
+      {
+        "id": "line",
+        "collisionCircles": 4,
+        "collisionCircleSize": 11,
+        "width": 11,
+        "height": 44,
+        "baseSprite": "line",
+        "overlaySprite": "chasseurs"
+      },
+      {
+        "id": "square",
+        "collisionCircles": 1,
+        "collisionCircleSize": 24,
+        "width": 24,
+        "height": 24,
+        "baseSprite": "square",
+        "overlaySprite": "chasseurs-square"
+      }
+    ]
   },
   {
     "name": "cuirassiers",
@@ -353,10 +463,18 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
-    "baseSprite": "line",
-    "overlaySprite": "cuirassiers"
+    "defaultFormation": "cavalry",
+    "formations": [
+      {
+        "id": "cavalry",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "line",
+        "overlaySprite": "cuirassiers"
+      }
+    ]
   },
   {
     "name": "6in_howitzer",
@@ -400,10 +518,18 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "howitzers",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "howitzers",
+        "overlaySprite": null
+      }
+    ]
   },
   {
     "name": "militia",
@@ -444,12 +570,20 @@
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
     "turningDelay": 8,
-    "collisionCircles": 2,
+    "collisionCircles": 3,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
-    "baseSprite": "militia",
-    "overlaySprite": "militia"
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "militia",
+        "overlaySprite": "militia"
+      }
+    ]
   },
   {
     "name": "hussars",
@@ -487,10 +621,18 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
-    "baseSprite": "line",
-    "overlaySprite": "cavalry"
+    "defaultFormation": "cavalry",
+    "formations": [
+      {
+        "id": "cavalry",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "line",
+        "overlaySprite": "cavalry"
+      }
+    ]
   },
   {
     "name": "12lb_artillery",
@@ -532,10 +674,18 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "12lb-artillery",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "12lb-artillery",
+        "overlaySprite": null
+      }
+    ]
   },
   {
     "name": "horse_archers",
@@ -579,10 +729,18 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
-    "baseSprite": "line",
-    "overlaySprite": "horse-archers"
+    "defaultFormation": "cavalry",
+    "formations": [
+      {
+        "id": "cavalry",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "line",
+        "overlaySprite": "horse-archers"
+      }
+    ]
   },
   {
     "name": "grenadiers",
@@ -624,10 +782,36 @@
     "turningDelay": 8,
     "collisionCircles": 3,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 36,
-    "baseSprite": "line",
-    "overlaySprite": "grenadiers"
+    "defaultFormation": "column",
+    "formations": [
+      {
+        "id": "column",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "column",
+        "overlaySprite": "grenadiers"
+      },
+      {
+        "id": "line",
+        "collisionCircles": 4,
+        "collisionCircleSize": 11,
+        "width": 11,
+        "height": 44,
+        "baseSprite": "line",
+        "overlaySprite": "grenadiers"
+      },
+      {
+        "id": "square",
+        "collisionCircles": 1,
+        "collisionCircleSize": 24,
+        "width": 24,
+        "height": 24,
+        "baseSprite": "square",
+        "overlaySprite": "grenadier-square"
+      }
+    ]
   },
   {
     "name": "4lb_artillery",
@@ -672,10 +856,18 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "4lb-artillery",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "4lb-artillery",
+        "overlaySprite": null
+      }
+    ]
   },
   {
     "name": "skirmishers",
@@ -719,7 +911,6 @@
     "canDeployForward": true,
     "reducedVisibilityRange": 18,
     "unknownType": 21,
-    "immuneToFlankRearBonuses": true,
     "reportStats": {
       "men": 150,
       "horse": 0,
@@ -731,10 +922,18 @@
     "turningDelay": 2,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
-    "baseSprite": "skirmishers",
-    "overlaySprite": "skirmishers"
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "skirmishers",
+        "overlaySprite": "skirmishers"
+      }
+    ]
   },
   {
     "name": "rifles",
@@ -778,7 +977,6 @@
     "canDeployForward": true,
     "reducedVisibilityRange": 16,
     "unknownType": 21,
-    "immuneToFlankRearBonuses": true,
     "reportStats": {
       "men": 150,
       "horse": 0,
@@ -790,10 +988,18 @@
     "turningDelay": 2,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
-    "baseSprite": "skirmishers",
-    "overlaySprite": "rifles"
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "skirmishers",
+        "overlaySprite": "rifles"
+      }
+    ]
   },
   {
     "name": "6lb_artillery",
@@ -835,10 +1041,18 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "6lb-artillery",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "6lb-artillery",
+        "overlaySprite": null
+      }
+    ]
   },
   {
     "name": "rockets",
@@ -883,10 +1097,18 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "rockets",
-    "overlaySprite": "rockets"
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "rockets",
+        "overlaySprite": "rockets"
+      }
+    ]
   },
   {
     "name": "unknown",
@@ -920,10 +1142,18 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 16,
-    "baseSprite": "unknown",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 16,
+        "baseSprite": "unknown",
+        "overlaySprite": null
+      }
+    ]
   },
   {
     "name": "unknown_infantry",
@@ -957,10 +1187,18 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 16,
-    "baseSprite": "unknown",
-    "overlaySprite": "unknown-infantry"
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 16,
+        "baseSprite": "unknown",
+        "overlaySprite": "unknown-infantry"
+      }
+    ]
   },
   {
     "name": "unknown_cavalry",
@@ -994,10 +1232,18 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 16,
-    "baseSprite": "unknown",
-    "overlaySprite": "unknown-cavalry"
+    "defaultFormation": "cavalry",
+    "formations": [
+      {
+        "id": "cavalry",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 16,
+        "baseSprite": "unknown",
+        "overlaySprite": "unknown-cavalry"
+      }
+    ]
   },
   {
     "name": "unknown_artillery",
@@ -1030,10 +1276,18 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 16,
-    "baseSprite": "unknown",
-    "overlaySprite": "unknown-artillery"
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 16,
+        "baseSprite": "unknown",
+        "overlaySprite": "unknown-artillery"
+      }
+    ]
   },
   {
     "name": "10lb_licorne",
@@ -1081,10 +1335,18 @@
     },
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "10lb-licorne",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "10lb-licorne",
+        "overlaySprite": null
+      }
+    ]
   },
   {
     "name": "18lb_licorne",
@@ -1132,9 +1394,17 @@
     },
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
-    "baseSprite": "18lb-licorne",
-    "overlaySprite": null
+    "defaultFormation": "default",
+    "formations": [
+      {
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 16,
+        "height": 32,
+        "baseSprite": "18lb-licorne",
+        "overlaySprite": null
+      }
+    ]
   }
 ]
