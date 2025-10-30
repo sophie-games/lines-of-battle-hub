@@ -1,6 +1,7 @@
 [
   {
     "id": "default",
+    "frontBackArcRadians": 2.21429922,
     "disablesFlankMelee": true,
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
@@ -8,14 +9,17 @@
   },
   {
     "id": "cavalry",
+    "frontBackArcRadians": 2.21429922,
     "disablesEnfiladeFire": true,
     "disablesRearFire": true
   },
   {
-    "id": "column"
+    "id": "column",
+    "frontBackArcRadians": 2.21429922
   },
   {
     "id": "line",
+    "frontBackArcRadians": 2.21429922,
     "movementModifier": -0.25,
     "rotationSpeedModifier": -0.5,
     "rangedAttackModifier": 0.5,
@@ -26,6 +30,7 @@
   },
   {
     "id": "square",
+    "frontBackArcRadians": 1.5707963267948966,
     "movementModifier": -0.8,
     "rotationSpeedModifier": -0.8,
     "chargeBonusModifier": -0.5,
