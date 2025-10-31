@@ -4,8 +4,6 @@
   "COLLISION_CHECK_RADIUS": "collision",
   "COLLISION_BOUNCE_SCALE": "collision",
 
-  "UNIT_WIDTH": "unitDimensions",
-  "UNIT_HEIGHT": "unitDimensions",
   "UNIT_HITBOX_ALTITUDE": "unitDimensions",
   "UNIT_RANGE_MARGIN": "unitDimensions",
 
@@ -51,7 +49,6 @@
 
   "MELEE_STAMINA_TURN_COST": "stamina",
   "RANGED_STAMINA_TURN_COST": "stamina",
-  "HAS_RAN_MELEE_STAMINA_COST_MODIFIER": "stamina",
 
   "STAMINA_RANGE_1_REGAIN_RATE": "stamina",
   "STAMINA_RANGE_2_REGAIN_RATE": "stamina",

@@ -252,5 +252,16 @@
     "tier": 3,
     "premiumPrice": 720,
     "discount": 0.5
+  },
+
+  {
+    "id": 28,
+    "name": "denmark-flag",
+    "base": {
+      "sprite": "base-flag"
+    },
+    "tier": 2,
+    "premiumPrice": 350,
+    "discount": 0.5
   }
 ]

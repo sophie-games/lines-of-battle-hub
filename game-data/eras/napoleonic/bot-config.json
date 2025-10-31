@@ -1,0 +1,40 @@
+{
+  "categoryGroups": {
+    "infantry": "Infantry",
+    "militiaInfantry": "Infantry", 
+    "midCavalry": "Cavalry",
+    "lightCavalry": "Cavalry",
+    "scoutCavalry": "Cavalry",
+    "heavyCavalry": "Cavalry",
+    "artillery": "Artillery",
+    "skirmishInfantry": "Infantry"
+  },
+  "maxGroupSize": {
+    "Infantry": 4,
+    "Cavalry": 4,
+    "Artillery": 2
+  },
+  "strategies": {
+    "Infantry": {
+      "behavior": "balanced",
+      "preferFireAndAdvance": true,
+      "chargeThreshold": 250,
+      "groupCohesion": 4
+    },
+    "Cavalry": {
+      "behavior": "flanking",
+      "preferRun": false,
+      "avoidArtillery": true,
+      "groupCohesion": 4
+    },
+    "Artillery": {
+      "behavior": "support",
+      "maintainDistance": true,
+      "minDistanceFromEnemies": 8,
+      "groupCohesion": 2
+    }
+  },
+  "thresholds": {
+    "orgChargeThreshold": 250
+  }
+}

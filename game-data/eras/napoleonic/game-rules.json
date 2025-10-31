@@ -1,0 +1,36 @@
+{
+  "flanking": {
+    "enabled": true,
+    "meleeOrgDamageModifier": 0.75,
+    "rearMeleeOrgDamageModifier": 0.75,
+    "chargePenetrationModifier": 1.0,
+    "rearChargePenetrationModifier": 1.0
+  },
+  "stamina": {
+    "enabled": true,
+    "meleeTurnCost": 150,
+    "rangedTurnCost": 50,
+    "hasRanMeleeStaminaCostModifier": 1.0,
+    "regainRates": {
+      "range1": 0.048,
+      "range2": 0.072,
+      "range3": 0.048,
+      "range4": 0.024,
+      "range5": 0.012
+    },
+    "upperModifierLimit": 0.8,
+    "lowerModifierLimit": 0.2,
+    "chargeResistanceModifier": -0.25,
+    "runningMovementPenalty": -1.0,
+    "rangedAttackPenalty": -0.35,
+    "meleeAttackPenalty": -0.4,
+    "meleeDefensePenalty": -0.3
+  },
+  "ammo": {
+    "enabled": true,
+    "baseReserve": 500,
+    "regenerationBaseRate": 0.04,
+    "regenerationBonusRate": 0.07,
+    "maxHpConsumptionReduction": -0.6
+  }
+}

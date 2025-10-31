@@ -1,94 +1,117 @@
-{
-  "grass": {
+[
+  {
+    "name": "grass",
     "id": 0,
     "category": "land"
   },
-  "forest": {
+  {
+    "name": "forest",
     "id": 1,
     "category": "forest"
   },
-  "building": {
+  {
+    "name": "building",
     "id": 2,
     "category": "building"
   },
-  "road": {
+  {
+    "name": "road",
     "id": 3,
     "category": "path"
   },
-  "shallowWater": {
+  {
+    "name": "shallowWater",
     "id": 4,
     "category": "shallowWater"
   },
-  "deepWater": {
+  {
+    "name": "deepWater",
     "id": 5,
     "category": "deepWater"
   },
-  "cliff": {
+  {
+    "name": "cliff",
     "id": 6,
     "category": "cliff"
   },
-  "bridge": {
+  {
+    "name": "bridge",
     "id": 7,
     "category": "path"
   },
-  "snow": {
+  {
+    "name": "snow",
     "id": 8,
     "category": "land"
   },
-  "dirt": {
+  {
+    "name": "dirt",
     "id": 9,
     "category": "land"
   },
-  "sand": {
+  {
+    "name": "sand",
     "id": 10,
     "category": "land"
   },
-  "farm": {
+  {
+    "name": "farm",
     "id": 11,
     "category": "land"
   },
-  "city": {
+  {
+    "name": "city",
     "id": 12,
     "category": "city"
   },
-  "forestWinter": {
+  {
+    "name": "forestWinter",
     "id": 13,
     "category": "forest"
   },
-  "cliffWinter": {
+  {
+    "name": "cliffWinter",
     "id": 14,
     "category": "cliff"
   },
-  "roadWinter": {
+  {
+    "name": "roadWinter",
     "id": 15,
     "category": "path"
   },
-  "ice": {
+  {
+    "name": "ice",
     "id": 16,
     "category": "land"
   },
-  "farmUnplanted": {
+  {
+    "name": "farmUnplanted",
     "id": 17,
     "category": "land"
   },
-  "farmGrowing": {
+  {
+    "name": "farmGrowing",
     "id": 18,
     "category": "land"
   },
-  "mud": {
+  {
+    "name": "mud",
     "id": 19,
     "category": "mud"
   },
-  "sunkenRoad": {
+  {
+    "name": "sunkenRoad",
     "id": 20,
     "category": "sunkenRoad"
   },
-  "trench": {
+  {
+    "name": "trench",
     "id": 21,
     "category": "sunkenRoad"
   },
-  "redoubt": {
+  {
+    "name": "redoubt",
     "id": 22,
     "category": "sunkenRoad"
   }
-}
+]
