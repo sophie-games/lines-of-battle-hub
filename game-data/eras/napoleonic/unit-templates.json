@@ -53,9 +53,10 @@
       {
         "id": "line",
         "collisionCircles": 4,
-        "collisionCircleSize": 11,
-        "width": 11,
-        "height": 44,
+        "collisionCircleSize": 9,
+        "collisionCircleDistance": 10.25,
+        "width": 9,
+        "height": 40,
         "baseSprite": "line",
         "overlaySprite": "infantry"
       },
@@ -229,9 +230,10 @@
       {
         "id": "line",
         "collisionCircles": 4,
-        "collisionCircleSize": 11,
-        "width": 11,
-        "height": 44,
+        "collisionCircleSize": 9,
+        "collisionCircleDistance": 10.25,
+        "width": 9,
+        "height": 40,
         "baseSprite": "line",
         "overlaySprite": "guards"
       },
@@ -409,9 +411,10 @@
       {
         "id": "line",
         "collisionCircles": 4,
-        "collisionCircleSize": 11,
-        "width": 11,
-        "height": 44,
+        "collisionCircleSize": 9,
+        "collisionCircleDistance": 10.25,
+        "width": 9,
+        "height": 40,
         "baseSprite": "line",
         "overlaySprite": "chasseurs"
       },
@@ -796,9 +799,10 @@
       {
         "id": "line",
         "collisionCircles": 4,
-        "collisionCircleSize": 11,
-        "width": 11,
-        "height": 44,
+        "collisionCircleSize": 9,
+        "collisionCircleDistance": 10.25,
+        "width": 9,
+        "height": 40,
         "baseSprite": "line",
         "overlaySprite": "grenadiers"
       },
