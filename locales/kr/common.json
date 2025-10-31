@@ -52,7 +52,7 @@
   "ranked": "순위전",
   "unranked": "비순위전",
   "or": "또는",
-  "classicTooltip": "기본 군대와 함께 절차적으로 생성된 클래식 맵 사용",
+  "classicTooltip": "클래식은 사용자 지정 군대를 비활성화합니다",
   "rankedTooltip": "게임이 당신의 Elo 등급에 영향을 줍니다",
   "cancel": "취소",
   "matchmakingQueue": {

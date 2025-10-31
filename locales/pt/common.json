@@ -51,7 +51,7 @@
   "quickMatchmaking": "Matchmaking Rápido",
   "ranked": "Classificado",
   "classic": "Clássico",
-  "classicTooltip": "Use mapas clássicos gerados proceduralmente com exércitos padrão",
+  "classicTooltip": "Clássico desativa exércitos personalizados",
   "rankedTooltip": "Jogos afetam sua avaliação Elo",
   "unranked": "Não Classificado",
   "cancel": "Cancelar",

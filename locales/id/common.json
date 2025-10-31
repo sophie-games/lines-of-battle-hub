@@ -52,7 +52,7 @@
   "quickMatchmaking": "Pencocokan Cepat",
   "ranked": "Berperingkat",
   "classic": "Klasik",
-  "classicTooltip": "Gunakan peta klasik yang dihasilkan secara prosedural dengan tentara default",
+  "classicTooltip": "Klasik menonaktifkan tentara kustom",
   "rankedTooltip": "Permainan mempengaruhi peringkat Elo Anda",
   "unranked": "Tidak Berperingkat",
   "cancel": "Batal",

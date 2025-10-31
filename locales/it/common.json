@@ -51,7 +51,7 @@
   "quickMatchmaking": "Matchmaking Rapido",
   "ranked": "Classificato",
   "classic": "Classico",
-  "classicTooltip": "Usa mappe classiche generate proceduralmente con eserciti predefiniti",
+  "classicTooltip": "Classico disabilita gli eserciti personalizzati",
   "rankedTooltip": "Le partite influenzano la tua valutazione Elo",
   "unranked": "Non Classificato",
   "cancel": "Annulla",

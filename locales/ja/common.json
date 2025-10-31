@@ -51,7 +51,7 @@
   "quickMatchmaking": "クイックマッチメイキング",
   "ranked": "ランク戦",
   "classic": "クラシック",
-  "classicTooltip": "デフォルトの軍隊でプロシージャル生成されたクラシックマップを使用",
+  "classicTooltip": "クラシックはカスタム軍隊を無効にします",
   "rankedTooltip": "ゲームはあなたのEloレーティングに影響します",
   "unranked": "非ランク",
   "cancel": "キャンセル",

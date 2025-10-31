@@ -51,7 +51,7 @@
   "quickMatchmaking": "Hızlı Eşleşme",
   "ranked": "Sıralı",
   "classic": "Klasik",
-  "classicTooltip": "Varsayılan ordularla prosedürel olarak oluşturulan klasik haritaları kullan",
+  "classicTooltip": "Klasik, özel orduları devre dışı bırakır",
   "rankedTooltip": "Oyunlar Elo puanınızı etkiler",
   "unranked": "Sırasız",
   "cancel": "İptal",

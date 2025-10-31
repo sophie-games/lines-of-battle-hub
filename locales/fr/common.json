@@ -41,7 +41,7 @@
   "quickMatchmaking": "Appariement Rapide",
   "ranked": "Classé",
   "classic": "Classique",
-  "classicTooltip": "Utilise des cartes classiques générées procéduralement avec des armées par défaut",
+  "classicTooltip": "Classique désactive les armées personnalisées",
   "rankedTooltip": "Les parties affectent votre classement Elo",
   "unranked": "Non Classé",
   "cancel": "Annulez",

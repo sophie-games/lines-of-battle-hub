@@ -51,7 +51,7 @@
   "quickMatchmaking": "Gyors Párosítás",
   "ranked": "Rangsorolt",
   "classic": "Klasszikus",
-  "classicTooltip": "Alapértelmezett seregekkel rendelkező eljárásos módon generált klasszikus térképek használata",
+  "classicTooltip": "A klasszikus letiltja az egyedi seregeket",
   "rankedTooltip": "A játékok befolyásolják az Elo értékelésedet",
   "unranked": "Nem Rangsorolt",
   "cancel": "Mégsem",

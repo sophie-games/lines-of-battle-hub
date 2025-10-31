@@ -52,7 +52,7 @@
   "quickMatchmaking": "Szybkie Dopasowanie",
   "ranked": "Rankingowe",
   "classic": "Klasyczny",
-  "classicTooltip": "Użyj proceduralnie generowanych klasycznych map z domyślnymi armiami",
+  "classicTooltip": "Klasyczny wyłącza niestandardowe armie",
   "rankedTooltip": "Gry wpływają na twoją ocenę Elo",
   "unranked": "Nierankingowe",
   "cancel": "Anuluj",

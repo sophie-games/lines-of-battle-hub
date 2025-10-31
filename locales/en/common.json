@@ -50,7 +50,7 @@
   "selectGameMode": "Select the game mode from the options below.",
   "quickMatchmaking": "Quick Matchmaking",
   "classic": "Classic",
-  "classicTooltip": "Use procedurally generated classic maps with default armies",
+  "classicTooltip": "Classic disables custom armies",
   "ranked": "Ranked",
   "rankedTooltip": "Games affect your Elo rating",
   "unranked": "Unranked",

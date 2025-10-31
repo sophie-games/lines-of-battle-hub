@@ -50,7 +50,7 @@
   "selectGameMode": "从以下选项中选择游戏模式。",
   "quickMatchmaking": "快速匹配",
   "classic": "经典",
-  "classicTooltip": "在程序生成的经典地图上使用默认军队",
+  "classicTooltip": "经典模式禁用自定义军队",
   "ranked": "排位模式",
   "rankedTooltip": "影响你Elo分数的对局",
   "unranked": "非排位",
