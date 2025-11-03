@@ -51,7 +51,7 @@
   "quickMatchmaking": "त्वरित मैचमेकिंग",
   "ranked": "रैंक्ड",
   "classic": "क्लासिक",
-  "classicTooltip": "डिफ़ॉल्ट सेनाओं के साथ प्रक्रियात्मक रूप से उत्पन्न क्लासिक मानचित्रों का उपयोग करें",
+  "classicTooltip": "क्लासिक कस्टम सेनाओं को अक्षम करता है",
   "rankedTooltip": "खेल आपकी Elo रेटिंग को प्रभावित करते हैं",
   "unranked": "अनरैंक्ड",
   "or": "या",
@@ -210,6 +210,8 @@
   "midRange": "मध्य रेंज",
   "longRange": "लंबी रेंज",
   "shootingAngle": "शूटिंग कोण",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "आर्क ऊंचाई",
   "aoe": "प्रभाव क्षेत्र",
   "type": "प्रकार",
@@ -306,12 +308,13 @@
   },
   "fetchingBattleActions": "लड़ाई क्रियाएं प्राप्त कर रहे हैं...",
   "order": {
+    "0": "कोई आदेश नहीं",
     "1": "चलना",
     "2": "दौड़ना",
     "3": "गोली चलाना",
     "4": "आग और आगे बढ़ना",
     "6": "पीछे हटना",
-    "7": "कोई आदेश नहीं"
+    "7": "मुख करना"
   },
   "selectOrder": "आदेश चुनें",
   "autofire": "स्वचालित आग",

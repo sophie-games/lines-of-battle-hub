@@ -51,7 +51,7 @@
   "quickMatchmaking": "Ghép nhanh",
   "ranked": "Có xếp hạng",
   "classic": "Cổ điển",
-  "classicTooltip": "Sử dụng bản đồ cổ điển được tạo theo thủ tục với quân đội mặc định",
+  "classicTooltip": "Cổ điển vô hiệu hóa quân đội tùy chỉnh",
   "rankedTooltip": "Trò chơi ảnh hưởng đến xếp hạng Elo của bạn",
   "unranked": "Không xếp hạng",
   "or": "Hoặc",
@@ -210,6 +210,8 @@
   "midRange": "Tầm trung",
   "longRange": "Tầm xa",
   "shootingAngle": "Góc bắn",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Độ cao cung",
   "aoe": "Vùng ảnh hưởng",
   "type": "Loại",
@@ -306,12 +308,13 @@
   },
   "fetchingBattleActions": "Đang lấy hành động chiến đấu...",
   "order": {
+    "0": "Không có lệnh",
     "1": "Đi bộ",
     "2": "Chạy",
     "3": "Bắn",
     "4": "Bắn và tiến",
     "6": "Rút lui",
-    "7": "Không có lệnh"
+    "7": "Đối mặt"
   },
   "selectOrder": "Chọn lệnh",
   "autofire": "Tự động bắn",

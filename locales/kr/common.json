@@ -52,7 +52,7 @@
   "ranked": "순위전",
   "unranked": "비순위전",
   "or": "또는",
-  "classicTooltip": "기본 군대와 함께 절차적으로 생성된 클래식 맵 사용",
+  "classicTooltip": "클래식은 사용자 지정 군대를 비활성화합니다",
   "rankedTooltip": "게임이 당신의 Elo 등급에 영향을 줍니다",
   "cancel": "취소",
   "matchmakingQueue": {
@@ -205,6 +205,8 @@
   "midRange": "중거리 사격",
   "longRange": "사거리",
   "shootingAngle": "사격각",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "탄도 고도",
   "aoe": "유효 범위",
   "type": "유형",
@@ -301,12 +303,13 @@
   },
   "fetchingBattleActions": "전투 상황 가져오는 중...",
   "order": {
+    "0": "명령 없음",
     "1": "보행",
     "2": "주행",
     "3": "사격",
     "4": "사격 및 전진",
     "6": "후퇴",
-    "7": "명령 없음"
+    "7": "향하다"
   },
   "selectOrder": "명령 선택",
   "autofire": "자동 사격",

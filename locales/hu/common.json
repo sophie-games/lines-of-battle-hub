@@ -51,7 +51,7 @@
   "quickMatchmaking": "Gyors Párosítás",
   "ranked": "Rangsorolt",
   "classic": "Klasszikus",
-  "classicTooltip": "Alapértelmezett seregekkel rendelkező eljárásos módon generált klasszikus térképek használata",
+  "classicTooltip": "A klasszikus letiltja az egyedi seregeket",
   "rankedTooltip": "A játékok befolyásolják az Elo értékelésedet",
   "unranked": "Nem Rangsorolt",
   "cancel": "Mégsem",
@@ -189,6 +189,8 @@
   "midRange": "Közepes Hatótáv",
   "longRange": "Hosszú Hatótáv",
   "shootingAngle": "Kilőtt lövedék pályájának íve",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Ív magasság",
   "aoe": "Effekt kihatásának területe",
   "type": "Típus",
@@ -267,7 +269,8 @@
     "2": "Futás",
     "3": "Célpont megadása",
     "4": "Mozgás közben lő",
-    "6": "Visszahúzódás"
+    "6": "Visszahúzódás",
+    "7": "Szembenéz"
   },
   "selectOrder": "Utasítás Kiválasztása",
   "autofire": "Automatikus tüzelés",

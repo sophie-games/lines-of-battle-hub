@@ -51,7 +51,7 @@
   "quickMatchmaking": "المطابقة السريعة",
   "ranked": "مصنف",
   "classic": "كلاسيكي",
-  "classicTooltip": "استخدم الخرائط الكلاسيكية المُولدة إجرائياً مع الجيوش الافتراضية",
+  "classicTooltip": "الكلاسيكية تعطل الجيوش المخصصة",
   "rankedTooltip": "الألعاب تؤثر على تقييم إيلو الخاص بك",
   "unranked": "غير مصنف",
   "or": "أو",
@@ -210,6 +210,8 @@
   "midRange": "مدى متوسط",
   "longRange": "مدى بعيد",
   "shootingAngle": "زاوية الرماية",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "ارتفاع القوس",
   "aoe": "منطقة التأثير",
   "type": "النوع",
@@ -306,12 +308,13 @@
   },
   "fetchingBattleActions": "جاري جلب إجراءات المعركة...",
   "order": {
+    "0": "لا توجد أوامر",
     "1": "مشي",
     "2": "جري",
     "3": "إطلاق نار",
     "4": "إطلاق نار وتقدم",
     "6": "تراجع",
-    "7": "لا توجد أوامر"
+    "7": "مواجهة"
   },
   "selectOrder": "اختيار الأمر",
   "autofire": "إطلاق تلقائي",

@@ -56,7 +56,6 @@
       },
       { "start": 45, "end": 72, "startMod": 2, "endMod": -0.3 }
     ],
-    "shootingAngle": 90,
     "enfiladeFire": true,
     "projectilePenetration": 0.25,
     "shotSound": "musket-volley",
@@ -89,7 +88,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 350,
     "enfiladeFire": true,
     "projectilePenetration": 0.25,
     "shotSound": "musket-volley",
@@ -115,7 +113,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 350,
     "enfiladeFire": true,
     "projectilePenetration": 0.25,
     "shotSound": "musket-volley",
@@ -132,7 +129,6 @@
       "modifier": -0.4
     },
     "ranges": [{ "start": 110, "end": 310, "startMod": 0.15, "endMod": -0.05 }],
-    "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -184,7 +180,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -227,7 +222,6 @@
       "modifier": -0.4
     },
     "ranges": [{ "start": 105, "end": 250, "startMod": 0.2, "endMod": 0 }],
-    "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -279,7 +273,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -331,7 +324,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -383,7 +375,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -434,7 +425,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "arcHeight": 1.75,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
@@ -475,7 +465,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "arcHeight": 1.75,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
@@ -518,7 +507,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "arcHeight": 1.75,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
@@ -567,7 +555,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
@@ -596,7 +583,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
@@ -625,7 +611,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
@@ -654,7 +639,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
@@ -683,7 +667,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
@@ -712,7 +695,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
@@ -734,7 +716,6 @@
         "name": "close"
       }
     ],
-    "shootingAngle": 60,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.5,
@@ -752,7 +733,6 @@
       { "start": 20, "end": 40, "startMod": 0, "endMod": 0 },
       { "start": 40, "end": 60, "startMod": 0, "endMod": -0.5, "name": "long" }
     ],
-    "shootingAngle": 300,
     "arcHeight": 3,
     "shotSound": "arrow-volley",
     "shotAnim": "arrowVolley"
@@ -784,7 +764,6 @@
         "name": "long"
       }
     ],
-    "shootingAngle": 60,
     "arcHeight": 3,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,

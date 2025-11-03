@@ -1,36 +1,56 @@
 [
   {
-    "id": "default",
-    "frontBackArcRadians": 2.21429922,
+    "id": "artillery",
+    "frontBackArc": 126.87,
     "disablesFlankMelee": true,
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
-    "disablesRearFire": true
+    "disablesRearFire": true,
+    "shootingAngle": 60,
+    "shootingMaxTargets": 1
+  },
+  {
+    "id": "skirmish",
+    "frontBackArc": 126.87,
+    "disablesFlankMelee": true,
+    "disablesRearMelee": true,
+    "disablesEnfiladeFire": true,
+    "disablesRearFire": true,
+    "shootingAngle": 360,
+    "shootingMaxTargets": 3,
+    "shootingAngleMargin": 0
   },
   {
     "id": "cavalry",
-    "frontBackArcRadians": 2.21429922,
+    "frontBackArc": 126.87,
     "disablesEnfiladeFire": true,
-    "disablesRearFire": true
+    "disablesRearFire": true,
+    "shootingAngle": 360,
+    "shootingMaxTargets": 1
   },
   {
     "id": "column",
-    "frontBackArcRadians": 2.21429922
+    "frontBackArc": 126.87,
+    "shootingAngle": 90,
+    "shootingMaxTargets": 1
   },
   {
     "id": "line",
-    "frontBackArcRadians": 2.21429922,
+    "frontBackArc": 126.87,
     "movementModifier": -0.25,
     "rotationSpeedModifier": -0.5,
     "rangedAttackModifier": 0.5,
     "flankChargeResistance": 0.8,
     "rearChargeResistance": 1.2,
     "enfiladeFireResistance": 0.3,
-    "rearFireResistance": 0.5
+    "rearFireResistance": 0.5,
+    "shootingAngle": 90,
+    "shootingMaxTargets": 2,
+    "shootingAngleMargin": 0
   },
   {
     "id": "square",
-    "frontBackArcRadians": 1.5707963267948966,
+    "frontBackArc": 90,
     "movementModifier": -0.8,
     "rotationSpeedModifier": -0.8,
     "chargeBonusModifier": -0.5,
@@ -38,23 +58,8 @@
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
     "disablesRearFire": true,
-    "firingArcs": [
-      {
-        "direction": 0,
-        "angle": 1.5707963267948966
-      },
-      {
-        "direction": 1.5707963267948966,
-        "angle": 1.5707963267948966
-      },
-      {
-        "direction": 3.141592653589793,
-        "angle": 1.5707963267948966
-      },
-      {
-        "direction": -1.5707963267948966,
-        "angle": 1.5707963267948966
-      }
-    ]
+    "shootingAngle": 360,
+    "shootingMaxTargets": 4,
+    "shootingAngleMargin": 90
   }
 ]

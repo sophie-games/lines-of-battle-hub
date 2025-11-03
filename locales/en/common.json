@@ -50,7 +50,7 @@
   "selectGameMode": "Select the game mode from the options below.",
   "quickMatchmaking": "Quick Matchmaking",
   "classic": "Classic",
-  "classicTooltip": "Use procedurally generated classic maps with default armies",
+  "classicTooltip": "Classic disables custom armies",
   "ranked": "Ranked",
   "rankedTooltip": "Games affect your Elo rating",
   "unranked": "Unranked",
@@ -210,6 +210,8 @@
   "midRange": "Mid Range",
   "longRange": "Long Range",
   "shootingAngle": "Shooting Angle",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Arc Height",
   "aoe": "Area of Effect",
   "type": "Type",
@@ -306,12 +308,13 @@
   },
   "fetchingBattleActions": "Fetching battle actions...",
   "order": {
+    "0": "No orders",
     "1": "Walk",
     "2": "Run",
     "3": "Shoot",
     "4": "Fire and Advance",
     "6": "Fallback",
-    "7": "No orders"
+    "7": "Face"
   },
   "selectOrder": "Select Order",
   "autofire": "Autofire",

@@ -50,7 +50,7 @@
   "selectGameMode": "从以下选项中选择游戏模式。",
   "quickMatchmaking": "快速匹配",
   "classic": "经典",
-  "classicTooltip": "在程序生成的经典地图上使用默认军队",
+  "classicTooltip": "经典模式禁用自定义军队",
   "ranked": "排位模式",
   "rankedTooltip": "影响你Elo分数的对局",
   "unranked": "非排位",
@@ -210,6 +210,8 @@
   "midRange": "中距离范围",
   "longRange": "远距离范围",
   "shootingAngle": "射击覆盖角度",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "弹道曲线高度",
   "aoe": "伤害范围",
   "type": "种类",
@@ -306,12 +308,13 @@
   },
   "fetchingBattleActions": "正在获取战斗行动……",
   "order": {
+    "0": "无指令",
     "1": "行进",
     "2": "疾跑",
     "3": "射击",
     "4": "移动射击",
     "6": "后退",
-    "7": "无指令"
+    "7": "面向"
   },
   "selectOrder": "选择指令",
   "autofire": "自动开火",

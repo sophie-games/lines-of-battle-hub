@@ -51,7 +51,7 @@
   "quickMatchmaking": "Matchmaking Rapido",
   "ranked": "Classificato",
   "classic": "Classico",
-  "classicTooltip": "Usa mappe classiche generate proceduralmente con eserciti predefiniti",
+  "classicTooltip": "Classico disabilita gli eserciti personalizzati",
   "rankedTooltip": "Le partite influenzano la tua valutazione Elo",
   "unranked": "Non Classificato",
   "cancel": "Annulla",
@@ -189,6 +189,8 @@
   "midRange": "Medio raggio",
   "longRange": "Lungo raggio",
   "shootingAngle": "Angolo di tiro",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Altezza arco",
   "aoe": "Area d'effetto",
   "type": "Tipo",
@@ -267,7 +269,8 @@
     "2": "Correre",
     "3": "Spara",
     "4": "Fuoco e Avanza",
-    "6": "Ripiega"
+    "6": "Ripiega",
+    "7": "Affrontare"
   },
   "selectOrder": "Seleziona ordine",
   "autofire": "Fuoco automatico",

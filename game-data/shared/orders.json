@@ -1,21 +1,46 @@
-{
-  "1": {},
-  "2": {
+[
+  {
+    "id": 0,
+    "name": "noOrder"
+  },
+  {
+    "id": 1,
+    "name": "walk"
+  },
+  {
+    "id": 2,
+    "name": "run",
     "receivedOrgDamage": 0.15
   },
-  "3": {},
-  "4": {
+  {
+    "id": 3,
+    "name": "shoot",
+    "canFocusLocation": true
+  },
+  {
+    "id": 4,
+    "name": "fireAndAdvance",
     "speedModifierWhenShooting": -0.25,
     "allowFireWhenMoving": true,
     "ammoConsumptionModifier": -0.25
   },
-  "5": {},
-  "6": {
+  {
+    "id": 5,
+    "name": "placeEntity"
+  },
+  {
+    "id": 6,
+    "name": "fallback",
     "rangedDamageModifier": -0.5,
     "speedModifier": -0.3,
     "chargeResistance": -0.5,
     "allowFireWhenMoving": true,
     "receivedOrgDamage": 0.2
   },
-  "7": {}
-}
+  {
+    "id": 7,
+    "name": "face",
+    "allowFireWhenMoving": true,
+    "canFocusLocation": true
+  }
+]

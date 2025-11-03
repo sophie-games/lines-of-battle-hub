@@ -51,7 +51,7 @@
   "quickMatchmaking": "Schnelles Matchmaking",
   "ranked": "Bewertet",
   "classic": "Klassisch",
-  "classicTooltip": "Verwende prozedural generierte klassische Karten mit Standardarmeen",
+  "classicTooltip": "Klassisch deaktiviert benutzerdefinierte Armeen",
   "rankedTooltip": "Spiele beeinflussen deine Elo-Bewertung",
   "unranked": "Unbewertet",
   "cancel": "Abbrechen",
@@ -189,6 +189,8 @@
   "midRange": "Mittlere Entfernung",
   "longRange": "Große Entfernung",
   "shootingAngle": "Schusswinkel",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Bogenhöhe",
   "aoe": "Wirkungsbereich",
   "type": "Typ",
@@ -267,7 +269,8 @@
     "2": "Laufen",
     "3": "Schießen",
     "4": "Feuern und Vorrücken",
-    "6": "Zurückfallen"
+    "6": "Zurückfallen",
+    "7": "Ausrichten"
   },
   "selectOrder": "Befehl auswählen",
   "autofire": "Automatisches Feuern",

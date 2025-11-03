@@ -41,7 +41,7 @@
   "quickMatchmaking": "Appariement Rapide",
   "ranked": "Classé",
   "classic": "Classique",
-  "classicTooltip": "Utilise des cartes classiques générées procéduralement avec des armées par défaut",
+  "classicTooltip": "Classique désactive les armées personnalisées",
   "rankedTooltip": "Les parties affectent votre classement Elo",
   "unranked": "Non Classé",
   "cancel": "Annulez",
@@ -179,6 +179,8 @@
   "midRange": "Moyenne portée",
   "longRange": "Longue portée",
   "shootingAngle": "Angle de feu",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Hauteur de l'arc",
   "aoe": "Zone d'impact",
   "type": "Type",
@@ -257,7 +259,8 @@
     "2": "Courir",
     "3": "Tirer",
     "4": "Tirer en avançant",
-    "6": "Reculer"
+    "6": "Reculer",
+    "7": "Se tourner"
   },
   "selectOrder": "Sélectionner un ordre",
   "autofire": "Tir automatique",

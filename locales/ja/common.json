@@ -51,7 +51,7 @@
   "quickMatchmaking": "クイックマッチメイキング",
   "ranked": "ランク戦",
   "classic": "クラシック",
-  "classicTooltip": "デフォルトの軍隊でプロシージャル生成されたクラシックマップを使用",
+  "classicTooltip": "クラシックはカスタム軍隊を無効にします",
   "rankedTooltip": "ゲームはあなたのEloレーティングに影響します",
   "unranked": "非ランク",
   "cancel": "キャンセル",
@@ -189,6 +189,8 @@
   "midRange": "中距離",
   "longRange": "長距離",
   "shootingAngle": "射撃角度",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "弾道高度",
   "aoe": "範囲効果",
   "type": "種類",
@@ -267,7 +269,8 @@
     "2": "走る",
     "3": "射撃",
     "4": "前進射撃",
-    "6": "撤退"
+    "6": "撤退",
+    "7": "向く"
   },
   "selectOrder": "命令を選択",
   "autofire": "自動射撃",

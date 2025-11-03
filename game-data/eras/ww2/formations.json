@@ -1,6 +1,6 @@
 [
   {
     "id": "default",
-    "frontBackArcRadians": 1.5707963267948966
+    "frontBackArc": 90
   }
 ]

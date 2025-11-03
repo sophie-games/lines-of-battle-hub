@@ -52,7 +52,7 @@
   "quickMatchmaking": "Pencocokan Cepat",
   "ranked": "Berperingkat",
   "classic": "Klasik",
-  "classicTooltip": "Gunakan peta klasik yang dihasilkan secara prosedural dengan tentara default",
+  "classicTooltip": "Klasik menonaktifkan tentara kustom",
   "rankedTooltip": "Permainan mempengaruhi peringkat Elo Anda",
   "unranked": "Tidak Berperingkat",
   "cancel": "Batal",
@@ -190,6 +190,8 @@
   "midRange": "Jarak Sedang",
   "longRange": "Jarak Jauh",
   "shootingAngle": "Sudut Menembak",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Tinggi Busur",
   "aoe": "Efek Area",
   "type": "Tipe",
@@ -264,12 +266,13 @@
   },
   "fetchingBattleActions": "Memuat data aksi pertempuran...",
   "order": {
+    "0": "Tidak ada perintah",
     "1": "Berjalan",
     "2": "Berlari",
     "3": "Tembak",
     "4": "Tembak dan Maju",
     "6": "Mundur",
-    "7": "Tidak ada perintah"
+    "7": "Menghadap"
   },
   "selectOrder": "Pilih Perintah",
   "autofire": "Tembak otomatis",

@@ -52,7 +52,7 @@
   "quickMatchmaking": "Szybkie Dopasowanie",
   "ranked": "Rankingowe",
   "classic": "Klasyczny",
-  "classicTooltip": "Użyj proceduralnie generowanych klasycznych map z domyślnymi armiami",
+  "classicTooltip": "Klasyczny wyłącza niestandardowe armie",
   "rankedTooltip": "Gry wpływają na twoją ocenę Elo",
   "unranked": "Nierankingowe",
   "cancel": "Anuluj",
@@ -194,6 +194,8 @@
   "midRange": "Średni Zasięg",
   "longRange": "Daleki Zasięg",
   "shootingAngle": "Kąt Wystrzału",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Wysokość Łuku",
   "aoe": "Strefa Obrażeń",
   "type": "Rodzaj",
@@ -286,7 +288,8 @@
     "2": "Bieganie",
     "3": "Ostrzał",
     "4": "Natarcie z ostrzałem",
-    "6": "Odwrót"
+    "6": "Odwrót",
+    "7": "Zwrócić się"
   },
   "selectOrder": "Wybierz Rozkaz",
   "autofire": "Automatyczny ogień",

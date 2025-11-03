@@ -1,5 +1,6 @@
-{
-  "infantry": {
+[
+  {
+    "id": "infantry",
     "firingAltitude": 0.9,
     "captureSpeed": 1.0,
     "allyCollisionLevel": 2,
@@ -19,9 +20,20 @@
       "artillery": 1,
       "skirmishInfantry": -1
     },
-    "faaRangedDamageModifier": -0.25
+    "faaRangedDamageModifier": -0.25,
+    "allowedOrders": [
+      "noOrder",
+      "walk",
+      "run",
+      "shoot",
+      "fireAndAdvance",
+      "placeEntity",
+      "fallback",
+      "face"
+    ]
   },
-  "midCavalry": {
+  {
+    "id": "midCavalry",
     "firingAltitude": 0.9,
     "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
@@ -55,9 +67,20 @@
       "6lb-canister-fire": 0.05,
       "4lb-canister-fire": 0.05,
       "howitzer-canister": 0.05
-    }
+    },
+    "allowedOrders": [
+      "noOrder",
+      "walk",
+      "run",
+      "shoot",
+      "fireAndAdvance",
+      "placeEntity",
+      "fallback",
+      "face"
+    ]
   },
-  "artillery": {
+  {
+    "id": "artillery",
     "firingAltitude": 0.5,
     "enemyCollisionLevel": 1,
     "projectilePassThrough": 1.0,
@@ -96,18 +119,19 @@
       "artillery": -1,
       "skirmishInfantry": -2
     },
-    "faaRangedDamageModifier": -0.4
+    "faaRangedDamageModifier": -0.4,
+    "allowedOrders": [
+      "noOrder",
+      "walk",
+      "run",
+      "shoot",
+      "fireAndAdvance",
+      "placeEntity",
+      "face"
+    ]
   },
-  "lightInfantry": {
-    "firingAltitude": 0.9,
-    "allyCollisionLevel": 2,
-    "enemyCollisionLevel": 2,
-    "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
-    }
-  },
-  "scoutCavalry": {
+  {
+    "id": "scoutCavalry",
     "firingAltitude": 0.9,
     "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
@@ -141,9 +165,20 @@
       "6lb-canister-fire": 0.15,
       "4lb-canister-fire": 0.15,
       "howitzer-canister": 0.15
-    }
+    },
+    "allowedOrders": [
+      "noOrder",
+      "walk",
+      "run",
+      "shoot",
+      "fireAndAdvance",
+      "placeEntity",
+      "fallback",
+      "face"
+    ]
   },
-  "lightCavalry": {
+  {
+    "id": "lightCavalry",
     "firingAltitude": 0.9,
     "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
@@ -176,9 +211,20 @@
       "6lb-canister-fire": 0.15,
       "4lb-canister-fire": 0.15,
       "howitzer-canister": 0.15
-    }
+    },
+    "allowedOrders": [
+      "noOrder",
+      "walk",
+      "run",
+      "shoot",
+      "fireAndAdvance",
+      "placeEntity",
+      "fallback",
+      "face"
+    ]
   },
-  "heavyCavalry": {
+  {
+    "id": "heavyCavalry",
     "firingAltitude": 0.9,
     "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
@@ -212,9 +258,20 @@
       "6lb-canister-fire": 0.1,
       "4lb-canister-fire": 0.1,
       "howitzer-canister": 0.1
-    }
+    },
+    "allowedOrders": [
+      "noOrder",
+      "walk",
+      "run",
+      "shoot",
+      "fireAndAdvance",
+      "placeEntity",
+      "fallback",
+      "face"
+    ]
   },
-  "militiaInfantry": {
+  {
+    "id": "militiaInfantry",
     "damageTypeResistances": {
       "cavalry-sabre": -0.1,
       "cavalry-lance": -0.1,
@@ -239,9 +296,20 @@
     "autofirePriority": {
       "skirmishInfantry": -1
     },
-    "faaRangedDamageModifier": -0.25
+    "faaRangedDamageModifier": -0.25,
+    "allowedOrders": [
+      "noOrder",
+      "walk",
+      "run",
+      "shoot",
+      "fireAndAdvance",
+      "placeEntity",
+      "fallback",
+      "face"
+    ]
   },
-  "skirmishInfantry": {
+  {
+    "id": "skirmishInfantry",
     "firingAltitude": 0.9,
     "enemyCollisionLevel": 1,
     "projectilePassThrough": 0.8,
@@ -278,6 +346,16 @@
       "artillery": 2,
       "skirmishInfantry": 1
     },
-    "faaRangedDamageModifier": -0.4
+    "faaRangedDamageModifier": -0.4,
+    "allowedOrders": [
+      "noOrder",
+      "walk",
+      "run",
+      "shoot",
+      "fireAndAdvance",
+      "placeEntity",
+      "fallback",
+      "face"
+    ]
   }
-}
+]

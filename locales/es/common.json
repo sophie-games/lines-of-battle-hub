@@ -41,7 +41,7 @@
   "quickMatchmaking": "Emparejamiento Rápido",
   "ranked": "Clasificado",
   "classic": "Clásico",
-  "classicTooltip": "Usa mapas clásicos generados proceduralmente con ejércitos predeterminados",
+  "classicTooltip": "Clásico desactiva los ejércitos personalizados",
   "rankedTooltip": "Los juegos afectan tu calificación Elo",
   "unranked": "No Clasificado",
   "cancel": "Cancelar",
@@ -189,6 +189,8 @@
   "midRange": "Alcance medio",
   "longRange": "Alcance largo",
   "shootingAngle": "Ángulo de disparo",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Altura del arco",
   "aoe": "Área de efecto",
   "type": "Tipo",
@@ -266,12 +268,13 @@
   },
   "fetchingBattleActions": "Obteniendo acciones de batalla...",
   "order": {
+    "0": "Sin órdenes",
     "1": "Caminar",
     "2": "Correr",
     "3": "Disparar",
     "4": "Disparar y Avanzar",
     "6": "Retirada",
-    "7": "Sin órdenes"
+    "7": "Enfrentar"
   },
   "selectOrder": "Seleccionar orden",
   "autofire": "Fuego automático",

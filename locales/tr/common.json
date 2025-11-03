@@ -51,7 +51,7 @@
   "quickMatchmaking": "Hızlı Eşleşme",
   "ranked": "Sıralı",
   "classic": "Klasik",
-  "classicTooltip": "Varsayılan ordularla prosedürel olarak oluşturulan klasik haritaları kullan",
+  "classicTooltip": "Klasik, özel orduları devre dışı bırakır",
   "rankedTooltip": "Oyunlar Elo puanınızı etkiler",
   "unranked": "Sırasız",
   "cancel": "İptal",
@@ -189,6 +189,8 @@
   "midRange": "Orta Mesafe",
   "longRange": "Uzun Mesafe",
   "shootingAngle": "Ateş Açısı",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
   "arcHeight": "Yay Yüksekliği",
   "aoe": "Etkilenen Alan",
   "type": "Tür",
@@ -267,7 +269,8 @@
     "2": "Koşmak",
     "3": "Ateş",
     "4": "Ateş ve İlerle",
-    "6": "Geri Çekil"
+    "6": "Geri Çekil",
+    "7": "Yüzleş"
   },
   "selectOrder": "Emir Seç",
   "autofire": "Otomatik ateş",

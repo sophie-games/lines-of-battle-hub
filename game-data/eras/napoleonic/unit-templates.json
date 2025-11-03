@@ -24,7 +24,6 @@
     "gold": 50,
     "orgRadius": 44,
     "orgRadiusBonus": 9,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 30,
     "hasSkirmishers": true,
     "unknownType": 21,
@@ -147,7 +146,6 @@
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
@@ -161,10 +159,10 @@
     },
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -201,7 +199,6 @@
     "gold": 75,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 20,
     "hasSkirmishers": true,
     "unknownType": 21,
@@ -326,7 +323,6 @@
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "canDeployForward": true,
@@ -341,10 +337,10 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -381,7 +377,6 @@
     "orgRadiusBonus": 9,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 25,
     "hasSkirmishers": true,
     "canDeployForward": true,
@@ -507,7 +502,6 @@
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
@@ -521,10 +515,10 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -559,7 +553,6 @@
     "gold": 50,
     "orgRadius": 48,
     "orgRadiusBonus": 4,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 35,
     "basicPrice": 400,
     "premiumPrice": 40,
@@ -575,10 +568,10 @@
     "turningDelay": 8,
     "collisionCircles": 3,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "column",
     "formations": [
       {
-        "id": "default",
+        "id": "column",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 12,
@@ -663,7 +656,6 @@
     "gold": 225,
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
@@ -677,10 +669,10 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -770,7 +762,6 @@
     "gold": 50,
     "orgRadius": 44,
     "orgRadiusBonus": 11,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 25,
     "hasSkirmishers": true,
     "unknownType": 21,
@@ -845,7 +836,6 @@
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "canDeployForward": true,
@@ -860,10 +850,10 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -898,7 +888,6 @@
     "orgRadiusBonus": 2,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 30,
     "friendlyFireImmuneDamageTypes": [
       "4lb-cannon-ball",
@@ -926,10 +915,10 @@
     "turningDelay": 2,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "skirmish",
     "formations": [
       {
-        "id": "default",
+        "id": "skirmish",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 12,
@@ -964,7 +953,6 @@
     "orgRadiusBonus": 2,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "hasSkirmishers": true,
     "minDistanceToFAA": 30,
     "friendlyFireImmuneDamageTypes": [
@@ -992,10 +980,10 @@
     "turningDelay": 2,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "skirmish",
     "formations": [
       {
-        "id": "default",
+        "id": "skirmish",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 12,
@@ -1031,7 +1019,6 @@
     "gold": 150,
     "chargeResistance": -1,
     "runChargeResistanceModifier": -0.75,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
@@ -1045,10 +1032,10 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -1086,7 +1073,6 @@
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "canDeployForward": true,
@@ -1101,10 +1087,10 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -1132,7 +1118,6 @@
     "movementSound": "infantry-movement",
     "manpower": 200,
     "gold": 50,
-    "fireAndAdvance": true,
     "hasSkirmishers": true,
     "locked": true,
     "reportStats": {
@@ -1146,10 +1131,10 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "column",
     "formations": [
       {
-        "id": "default",
+        "id": "column",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -1177,7 +1162,6 @@
     "movementSound": "infantry-movement",
     "manpower": 200,
     "gold": 50,
-    "fireAndAdvance": true,
     "hasSkirmishers": true,
     "locked": true,
     "reportStats": {
@@ -1191,10 +1175,10 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "column",
     "formations": [
       {
-        "id": "default",
+        "id": "column",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -1222,7 +1206,6 @@
     "movementSound": "cavalry-movement",
     "manpower": 200,
     "gold": 50,
-    "fireAndAdvance": true,
     "hasSkirmishers": true,
     "locked": true,
     "reportStats": {
@@ -1267,7 +1250,6 @@
     "movementSound": "artillery-movement",
     "manpower": 200,
     "gold": 50,
-    "fireAndAdvance": true,
     "hasSkirmishers": true,
     "locked": true,
     "reportStats": {
@@ -1280,10 +1262,10 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -1325,7 +1307,6 @@
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
@@ -1339,10 +1320,10 @@
     },
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -1384,7 +1365,6 @@
     "runChargeResistanceModifier": -0.75,
     "basicPrice": 400,
     "premiumPrice": 40,
-    "fireAndAdvance": true,
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
@@ -1398,10 +1378,10 @@
     },
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "defaultFormation": "default",
+    "defaultFormation": "artillery",
     "formations": [
       {
-        "id": "default",
+        "id": "artillery",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
