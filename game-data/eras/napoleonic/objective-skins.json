@@ -3,43 +3,37 @@
     "id": 1,
     "name": "royal-crown",
     "tier": 1,
-    "premiumPrice": 200,
-    "discount": 0.5
+    "premiumPrice": 200
   },
   {
     "id": 2,
     "name": "pour-le-merite",
     "tier": 1,
-    "premiumPrice": 200,
-    "discount": 0.5
+    "premiumPrice": 200
   },
   {
     "id": 3,
     "name": "austrias-venus",
     "tier": 1,
-    "premiumPrice": 200,
-    "discount": 0.5
+    "premiumPrice": 200
   },
   {
     "id": 4,
     "name": "french-eagle",
     "tier": 1,
-    "premiumPrice": 200,
-    "discount": 0.5
+    "premiumPrice": 200
   },
   {
     "id": 5,
     "name": "russian-cross",
     "tier": 1,
-    "premiumPrice": 200,
-    "discount": 0.5
+    "premiumPrice": 200
   },
   {
     "id": 6,
     "name": "serpe-of-braganca",
     "tier": 1,
-    "premiumPrice": 200,
-    "discount": 0.5
+    "premiumPrice": 200
   },
   {
     "id": 7,
@@ -48,8 +42,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 8,
@@ -58,8 +51,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 9,
@@ -68,8 +60,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 10,
@@ -78,8 +69,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 11,
@@ -88,8 +78,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 12,
@@ -98,8 +87,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 13,
@@ -108,8 +96,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 14,
@@ -118,8 +105,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 15,
@@ -128,8 +114,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 16,
@@ -139,8 +124,7 @@
     },
     "tier": 2,
     "premiumPrice": 350,
-    "locked": true,
-    "discount": 0.5
+    "locked": true
   },
   {
     "id": 17,
@@ -149,8 +133,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 18,
@@ -159,8 +142,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 19,
@@ -169,8 +151,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 20,
@@ -179,8 +160,7 @@
       "sprite": "xiangqi"
     },
     "tier": 3,
-    "premiumPrice": 720,
-    "discount": 0.5
+    "premiumPrice": 720
   },
   {
     "id": 21,
@@ -189,8 +169,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 22,
@@ -199,8 +178,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 23,
@@ -209,8 +187,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
 
   {
@@ -220,8 +197,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
 
   {
@@ -231,8 +207,7 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
   {
     "id": 26,
@@ -241,8 +216,7 @@
       "sprite": "square-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   },
 
   {
@@ -250,8 +224,7 @@
     "name": "imperial-ottoman-standard",
     "base": { "sprite": "imperial-ottoman-standard" },
     "tier": 3,
-    "premiumPrice": 720,
-    "discount": 0.5
+    "premiumPrice": 720
   },
 
   {
@@ -261,7 +234,6 @@
       "sprite": "base-flag"
     },
     "tier": 2,
-    "premiumPrice": 350,
-    "discount": 0.5
+    "premiumPrice": 350
   }
 ]

@@ -60,6 +60,7 @@
     "disablesRearFire": true,
     "shootingAngle": 360,
     "shootingMaxTargets": 4,
-    "shootingAngleMargin": 90
+    "shootingAngleMargin": 90,
+    "shootingSides": 4
   }
 ]
