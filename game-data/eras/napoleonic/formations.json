@@ -80,6 +80,6 @@
     "chargeResistanceModifier": -0.1,
     "timeToForm": 4,
     "timeToUnform": 4,
-    "SpeedWhileForming": -1
+    "formingSpeedModifier": -1
   }
 ]
