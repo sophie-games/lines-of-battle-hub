@@ -51,7 +51,7 @@
     "rangedAttackModifier": 1,
     "rangedDamageResistance": 0.1,
     "rangedOrgResistance": -0.15,
-    "chargePenetrationModifier": -0.15
+    "chargePenetrationModifier": -0.15,
     "flankChargeResistance": -0.6,
     "rearChargeResistance": -0.8,
     "shootingAngle": 90,
