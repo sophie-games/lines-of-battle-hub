@@ -73,8 +73,8 @@
     "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
   },
   "reset": "Reset",
-  "lineFormation": "Formacja Liniowa",
-  "checkerboardFormation": "Formacja Szachownicy",
+  "drawLineFormation": "Rysuj formację liniową",
+  "straightLineTolerance": "Tolerancja linii prostej",
   "spaceBetweenUnits": "Odległość między jednostkami",
   "spaceBetweenLines": "Odległość między liniami",
   "keybindings": {
@@ -92,10 +92,10 @@
     "shootOrder": "Rozkaz Ostrzału",
     "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
     "fallbackOrder": "Rozkaz Odwrotu",
-    "toggleFormation": "Przełącz formację",
     "toggleSmartCurvedMovements": "Przełącz inteligentne zakrzywione ruchy",
     "toggleFowPerspective": "Przełącz perspektywę mgły wojny",
     "openChat": "Otwórz czat",
+    "openFormationModal": "Otwórz okno formacji",
     "toggleFullscreen": "Przełącz tryb pełnoekranowy",
     "controlGroup1": "Grupa kontrolna 1",
     "controlGroup2": "Grupa kontrolna 2",

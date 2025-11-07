@@ -105,8 +105,8 @@
     "description": "इस सेटिंग और अन्य प्रीमियम सुविधाओं तक पहुंचने के लिए Patreon पर अपना टियर अपग्रेड करें!",
     "goToPatreon": "पैट्रियन पर जाएं"
   },
-  "lineFormation": "लाइन गठन",
-  "checkerboardFormation": "चेकरबोर्ड गठन",
+  "drawLineFormation": "लाइन गठन खींचें",
+  "straightLineTolerance": "सीधी रेखा सहनशीलता",
   "spaceBetweenUnits": "यूनिट्स के बीच की जगह",
   "spaceBetweenLines": "लाइनों के बीच की जगह",
   "showSelectIdleUnitButton": {
@@ -130,10 +130,10 @@
     "shootOrder": "गोली चलाने का आदेश",
     "fireAndAdvanceOrder": "गोली चलाकर आगे बढ़ने का आदेश",
     "fallbackOrder": "पीछे हटने का आदेश",
-    "toggleFormation": "गठन टॉगल करें",
     "toggleSmartCurvedMovements": "स्मार्ट कर्व्ड मूवमेंट्स टॉगल करें",
     "toggleFowPerspective": "कोहरे का दृष्टिकोण टॉगल करें",
     "openChat": "चैट खोलें",
+    "openFormationModal": "गठन विंडो खोलें",
     "toggleFullscreen": "पूर्ण स्क्रीन टॉगल करें",
     "controlGroup1": "नियंत्रण समूह 1",
     "controlGroup2": "नियंत्रण समूह 2",

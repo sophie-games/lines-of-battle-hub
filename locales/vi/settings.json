@@ -105,8 +105,8 @@
     "description": "Nâng cấp hạng của bạn trên Patreon để truy cập cài đặt này và các tính năng cao cấp khác!",
     "goToPatreon": "Đi đến Patreon"
   },
-  "lineFormation": "Đội hình tuyến",
-  "checkerboardFormation": "Đội hình bàn cờ",
+  "drawLineFormation": "Vẽ đội hình tuyến",
+  "straightLineTolerance": "Dung sai đường thẳng",
   "spaceBetweenUnits": "Khoảng cách giữa các đơn vị",
   "spaceBetweenLines": "Khoảng cách giữa các hàng",
   "showSelectIdleUnitButton": {
@@ -130,10 +130,10 @@
     "shootOrder": "Lệnh bắn",
     "fireAndAdvanceOrder": "Lệnh bắn và tiến",
     "fallbackOrder": "Lệnh rút lui",
-    "toggleFormation": "Chuyển đổi đội hình",
     "toggleSmartCurvedMovements": "Chuyển đổi di chuyển cong thông minh",
     "toggleFowPerspective": "Chuyển đổi góc nhìn sương mù chiến tranh",
     "openChat": "Mở trò chuyện",
+    "openFormationModal": "Mở cửa sổ đội hình",
     "toggleFullscreen": "Chuyển đổi chế độ toàn màn hình",
     "controlGroup1": "Nhóm điều khiển 1",
     "controlGroup2": "Nhóm điều khiển 2",

@@ -105,8 +105,8 @@
     "description": "在Patreon上升级会籍以使用该项设置和其它会员专属功能！",
     "goToPatreon": "前往Patreon"
   },
-  "lineFormation": "线形编队",
-  "checkerboardFormation": "棋盘编队",
+  "drawLineFormation": "绘制线形编队",
+  "straightLineTolerance": "直线容差",
   "spaceBetweenUnits": "单位之间的间距",
   "spaceBetweenLines": "前后列之间的间距",
   "showSelectIdleUnitButton": {
@@ -130,10 +130,10 @@
     "shootOrder": "射击指令",
     "fireAndAdvanceOrder": "移动射击指令",
     "fallbackOrder": "后退指令",
-    "toggleFormation": "切换阵型",
     "toggleSmartCurvedMovements": "切换智能曲线移动",
     "toggleFowPerspective": "切换战争迷雾视角",
     "openChat": "打开聊天栏",
+    "openFormationModal": "打开阵型窗口",
     "toggleFullscreen": "切换全屏",
     "controlGroup1": "控制编组1",
     "controlGroup2": "控制编组2",

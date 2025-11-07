@@ -85,6 +85,10 @@
     "title": "Show collision shapes",
     "description": "Shows collision shapes on units. This may require the game to pass turn for the units to update."
   },
+  "showDebugInfo": {
+    "title": "Show Debug Info",
+    "description": "This is useful for developers."
+  },
   "disableSkins": {
     "title": "Disable Skins",
     "description": "Disable unit skins and show default ones."
@@ -105,8 +109,8 @@
     "description": "Upgrade your tier on Patreon to access this setting and other premium features!",
     "goToPatreon": "Go to Patreon"
   },
-  "lineFormation": "Line Formation",
-  "checkerboardFormation": "Checkerboard Formation",
+  "drawLineFormation": "Draw Line Formation",
+  "straightLineTolerance": "Straight Line Tolerance",
   "spaceBetweenUnits": "Space between units",
   "spaceBetweenLines": "Space between lines",
   "showSelectIdleUnitButton": {
@@ -130,10 +134,10 @@
     "shootOrder": "Shoot order",
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
-    "toggleFormation": "Toggle formation",
     "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
     "toggleFowPerspective": "Toggle Fog of War Perspective",
     "openChat": "Open chat",
+    "openFormationModal": "Open formation modal",
     "toggleFullscreen": "Toggle Fullscreen",
     "controlGroup1": "Control Group 1",
     "controlGroup2": "Control Group 2",

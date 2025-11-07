@@ -105,8 +105,8 @@
     "description": "해당 설정과 다른 프리미엄 기능을 이용하려면 Patreon에서 등급을 상승시키세요!",
     "goToPatreon": "Patreon으로"
   },
-  "lineFormation": "선형진",
-  "checkerboardFormation": "귀진진",
+  "drawLineFormation": "선형진 그리기",
+  "straightLineTolerance": "직선 허용 오차",
   "spaceBetweenUnits": "부대 간 공간",
   "spaceBetweenLines": "선형진 간 공간",
   "showSelectIdleUnitButton": {
@@ -130,11 +130,10 @@
     "shootOrder": "사격 명령",
     "fireAndAdvanceOrder": "사격 및 전진 명령",
     "fallbackOrder": "후퇴 명령",
-    "toggleFormation": "진형 전환",
     "toggleSmartCurvedMovements": "지능적 곡선 이동 전환",
-
     "toggleFowPerspective": "전장의 안개 시점 전환",
     "openChat": "채팅 열기",
+    "openFormationModal": "진형 창 열기",
     "toggleFullscreen": "전체화면 전환",
     "controlGroup1": "부대 지정 1",
     "controlGroup2": "부대 지정 2",

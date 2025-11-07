@@ -191,6 +191,7 @@
   "shootingAngle": "射撃角度",
   "shootingMaxTargets": "Shooting Max Targets",
   "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "射撃側面",
   "arcHeight": "弾道高度",
   "aoe": "範囲効果",
   "type": "種類",

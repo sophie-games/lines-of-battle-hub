@@ -80,8 +80,8 @@
     "description": "すべての設定をデフォルトの値に戻します。この操作は行ったカスタマイズを上書きします。"
   },
   "reset": "リセット",
-  "lineFormation": "線形陣形",
-  "checkerboardFormation": "チェッカーボード陣形",
+  "drawLineFormation": "線形陣形を描画",
+  "straightLineTolerance": "直線許容値",
   "spaceBetweenUnits": "ユニット間の間隔",
   "spaceBetweenLines": "ライン間の間隔",
   "keybindings": {
@@ -99,10 +99,10 @@
     "shootOrder": "射撃命令",
     "fireAndAdvanceOrder": "発砲して前進する命令",
     "fallbackOrder": "後退命令",
-    "toggleFormation": "フォーメーション切り替え",
     "toggleSmartCurvedMovements": "スマートカーブ移動切り替え",
     "toggleFowPerspective": "戦争の霧の視点切り替え",
     "openChat": "チャットを開く",
+    "openFormationModal": "陣形ウィンドウを開く",
     "toggleFullscreen": "フルスクリーン切り替え",
     "controlGroup1": "コントロールグループ1",
     "controlGroup2": "コントロールグループ2",

@@ -212,6 +212,7 @@
   "shootingAngle": "射击覆盖角度",
   "shootingMaxTargets": "Shooting Max Targets",
   "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "射击侧面",
   "arcHeight": "弹道曲线高度",
   "aoe": "伤害范围",
   "type": "种类",

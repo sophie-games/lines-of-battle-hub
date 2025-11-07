@@ -212,6 +212,7 @@
   "shootingAngle": "Угол стрельбы",
   "shootingMaxTargets": "Shooting Max Targets",
   "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "Стороны стрельбы",
   "arcHeight": "Высота траектории снаряда",
   "aoe": "Область поражения",
   "type": "Тип",

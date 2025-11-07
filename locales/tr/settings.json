@@ -80,8 +80,8 @@
     "description": "Tüm ayarları varsayılan değerlerine geri yükler. Bu işlem, yaptığınız tüm özelleştirmeleri geçersiz kılacaktır."
   },
   "reset": "Sıfırla",
-  "lineFormation": "Hat Formasyonu",
-  "checkerboardFormation": "Dama Tahtası Formasyonu",
+  "drawLineFormation": "Hat Formasyonu Çiz",
+  "straightLineTolerance": "Düz Çizgi Toleransı",
   "spaceBetweenUnits": "Birimler Arasındaki Boşluk",
   "spaceBetweenLines": "Hatlar Arasındaki Boşluk",
   "keybindings": {
@@ -99,10 +99,10 @@
     "shootOrder": "Ateş emri",
     "fireAndAdvanceOrder": "Ateş ve ilerle emri",
     "fallbackOrder": "Geri çekil emri",
-    "toggleFormation": "Formasyonu değiştir",
     "toggleSmartCurvedMovements": "Akıllı eğri hareketleri değiştir",
     "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
     "openChat": "Sohbeti aç",
+    "openFormationModal": "Formasyon penceresini aç",
     "toggleFullscreen": "Tam ekranı değiştir",
     "controlGroup1": "Kontrol Grubu 1",
     "controlGroup2": "Kontrol Grubu 2",

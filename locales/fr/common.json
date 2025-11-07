@@ -181,6 +181,7 @@
   "shootingAngle": "Angle de feu",
   "shootingMaxTargets": "Shooting Max Targets",
   "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "Côtés de tir",
   "arcHeight": "Hauteur de l'arc",
   "aoe": "Zone d'impact",
   "type": "Type",

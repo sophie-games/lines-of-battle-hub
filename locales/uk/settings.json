@@ -76,6 +76,8 @@
     "description": "Відновити всі налаштування до стандартних значень. Ця дія перезапише всі зроблені вами налаштування."
   },
   "reset": "Скинути",
+  "drawLineFormation": "Малювати лінійну формацію",
+  "straightLineTolerance": "Допуск прямої лінії",
   "keybindings": {
     "title": "Призначення клавіш",
     "pressAKey": "Натисніть клавішу...",
@@ -91,10 +93,10 @@
     "shootOrder": "Наказ стріляти",
     "fireAndAdvanceOrder": "Наказ стріляти і наступати",
     "fallbackOrder": "Наказ відступати",
-    "toggleFormation": "Змінити формацію",
     "toggleSmartCurvedMovements": "Перемкнути розумні криволінійні рухи",
     "toggleFowPerspective": "Перемкнути перспективу туману війни",
     "openChat": "Відкрити чат",
+    "openFormationModal": "Відкрити вікно формації",
     "toggleFullscreen": "Перемкнути повноекранний режим",
     "controlGroup1": "Група управління 1",
     "controlGroup2": "Група управління 2",

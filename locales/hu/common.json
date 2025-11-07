@@ -191,6 +191,7 @@
   "shootingAngle": "Kilőtt lövedék pályájának íve",
   "shootingMaxTargets": "Shooting Max Targets",
   "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "Lövoldal",
   "arcHeight": "Ív magasság",
   "aoe": "Effekt kihatásának területe",
   "type": "Típus",

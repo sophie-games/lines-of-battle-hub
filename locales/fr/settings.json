@@ -77,8 +77,8 @@
     "description": "Restaure tous les paramètres à leurs valeurs par défaut. Cette action écrasera toutes les personnalisations que vous avez effectuées."
   },
   "reset": "Réinitialiser",
-  "lineFormation": "Formation en ligne",
-  "checkerboardFormation": "Formation en damier",
+  "drawLineFormation": "Dessiner la formation en ligne",
+  "straightLineTolerance": "Tolérance de ligne droite",
   "spaceBetweenUnits": "Espace entre les unités",
   "spaceBetweenLines": "Espace entre les lignes",
   "showChat": {
@@ -99,10 +99,10 @@
     "shootOrder": "Ordre de tir",
     "fireAndAdvanceOrder": "Ordre de tirer et avancer",
     "fallbackOrder": "Ordre de repli",
-    "toggleFormation": "Basculer la formation",
     "toggleSmartCurvedMovements": "Basculer les mouvements courbés intelligents",
     "toggleFowPerspective": "Basculer la perspective de brouillard de guerre",
     "openChat": "Ouvrir le chat",
+    "openFormationModal": "Ouvrir la fenêtre de formation",
     "toggleFullscreen": "Basculer le plein écran"
   },
   "routingTransparency": {

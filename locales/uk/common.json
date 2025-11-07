@@ -191,6 +191,7 @@
   "shootingAngle": "Кут ведення вогню",
   "shootingMaxTargets": "Shooting Max Targets",
   "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "Сторони стрільби",
   "arcHeight": "Висота Дуги",
   "aoe": "Площа Ураження",
   "type": "Тип",

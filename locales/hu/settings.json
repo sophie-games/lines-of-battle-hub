@@ -80,8 +80,8 @@
     "description": "Visszaállítja a beállításaidat az kezdeti beállításokra. Ez felül ír minden személyre szabást.."
   },
   "reset": "Reset",
-  "lineFormation": "Vonalalakzat",
-  "checkerboardFormation": "Sakktábla alakzat",
+  "drawLineFormation": "Vonalalakzat rajzolása",
+  "straightLineTolerance": "Egyenes vonal tűrés",
   "spaceBetweenUnits": "Egységek közötti távolság",
   "spaceBetweenLines": "Sorok közötti távolság",
   "keybindings": {
@@ -99,10 +99,10 @@
     "shootOrder": "Lövési parancs",
     "fireAndAdvanceOrder": "Tüzelés és előrehaladás parancs",
     "fallbackOrder": "Visszavonulási parancs",
-    "toggleFormation": "Formáció váltása",
     "toggleSmartCurvedMovements": "Okos görbült mozgások váltása",
     "toggleFowPerspective": "Háborús köd perspektíva váltása",
     "openChat": "Chat megnyitása",
+    "openFormationModal": "Formáció ablak megnyitása",
     "toggleFullscreen": "Teljes képernyő váltása",
     "controlGroup1": "Vezérlőcsoport 1",
     "controlGroup2": "Vezérlőcsoport 2",

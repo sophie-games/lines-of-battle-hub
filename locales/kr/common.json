@@ -207,6 +207,7 @@
   "shootingAngle": "사격각",
   "shootingMaxTargets": "Shooting Max Targets",
   "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "사격 측면",
   "arcHeight": "탄도 고도",
   "aoe": "유효 범위",
   "type": "유형",

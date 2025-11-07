@@ -80,8 +80,8 @@
     "description": "Kembalikan semua pengaturan ke nilai default. Tindakan ini akan menimpa semua penyesuaian yang telah Anda buat."
   },
   "reset": "Reset",
-  "lineFormation": "Line Formation",
-  "checkerboardFormation": "Checkerboard Formation",
+  "drawLineFormation": "Gambar Formasi Garis",
+  "straightLineTolerance": "Toleransi Garis Lurus",
   "spaceBetweenUnits": "Jarak Antar Unit",
   "spaceBetweenLines": "Jarak Antar Baris",
   "keybindings": {
@@ -99,10 +99,10 @@
     "shootOrder": "Perinntah Menembak",
     "fireAndAdvanceOrder": "Perintah Menembak Dengan Bergerak",
     "fallbackOrder": "Perintah Mundur",
-    "toggleFormation": "Ubah Formasi",
     "toggleSmartCurvedMovements": "Ubah Gerakan Melengkung Cerdas",
     "toggleFowPerspective": "Ubah Perspektif Kabut Perang",
     "openChat": "Buka Chat",
+    "openFormationModal": "Buka Jendela Formasi",
     "toggleFullscreen": "Ubah Layar Penuh",
     "controlGroup1": "Grup Kontrol 1",
     "controlGroup2": "Grup Kontrol 2",
