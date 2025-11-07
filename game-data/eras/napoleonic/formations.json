@@ -41,7 +41,8 @@
     "flankChargeResistance": -0.2,
     "rearChargeResistance": -0.4,
     "timeToForm": 2,
-    "timeToUnform": 2
+    "timeToUnform": 2,
+    "FormWhileMoving": true
   },
   {
     "id": "line",
@@ -58,7 +59,8 @@
     "shootingMaxTargets": 3,
     "shootingAngleMargin": 0,
     "timeToForm": 4,
-    "timeToUnform": 6
+    "timeToUnform": 6,
+    "FormWhileMoving": true
   },
   {
     "id": "square",
@@ -80,6 +82,6 @@
     "chargeResistanceModifier": -0.1,
     "timeToForm": 4,
     "timeToUnform": 4,
-    "formingSpeedModifier": -100%
+    "FormWhileMoving": false
   }
 ]
