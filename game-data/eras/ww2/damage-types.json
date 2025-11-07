@@ -1,10 +1,12 @@
 [
   {
-    "type": "soft_attack",
+    "id": 1,
+    "name": "soft_attack",
     "orgDamageRatio": 240
   },
   {
-    "type": "hard_attack",
+    "id": 2,
+    "name": "hard_attack",
     "orgDamageRatio": 240
   }
 ]

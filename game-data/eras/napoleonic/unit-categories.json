@@ -22,14 +22,13 @@
     },
     "faaRangedDamageModifier": -0.25,
     "allowedOrders": [
-      "noOrder",
       "walk",
       "run",
       "shoot",
       "fireAndAdvance",
       "placeEntity",
       "fallback",
-      "face"
+      "rotate"
     ]
   },
   {
@@ -69,14 +68,13 @@
       "howitzer-canister": 0.05
     },
     "allowedOrders": [
-      "noOrder",
       "walk",
       "run",
       "shoot",
       "fireAndAdvance",
       "placeEntity",
       "fallback",
-      "face"
+      "rotate"
     ]
   },
   {
@@ -121,13 +119,12 @@
     },
     "faaRangedDamageModifier": -0.4,
     "allowedOrders": [
-      "noOrder",
       "walk",
       "run",
       "shoot",
       "fireAndAdvance",
       "placeEntity",
-      "face"
+      "rotate"
     ]
   },
   {
@@ -167,14 +164,13 @@
       "howitzer-canister": 0.15
     },
     "allowedOrders": [
-      "noOrder",
       "walk",
       "run",
       "shoot",
       "fireAndAdvance",
       "placeEntity",
       "fallback",
-      "face"
+      "rotate"
     ]
   },
   {
@@ -213,14 +209,13 @@
       "howitzer-canister": 0.15
     },
     "allowedOrders": [
-      "noOrder",
       "walk",
       "run",
       "shoot",
       "fireAndAdvance",
       "placeEntity",
       "fallback",
-      "face"
+      "rotate"
     ]
   },
   {
@@ -260,14 +255,13 @@
       "howitzer-canister": 0.1
     },
     "allowedOrders": [
-      "noOrder",
       "walk",
       "run",
       "shoot",
       "fireAndAdvance",
       "placeEntity",
       "fallback",
-      "face"
+      "rotate"
     ]
   },
   {
@@ -298,14 +292,13 @@
     },
     "faaRangedDamageModifier": -0.25,
     "allowedOrders": [
-      "noOrder",
       "walk",
       "run",
       "shoot",
       "fireAndAdvance",
       "placeEntity",
       "fallback",
-      "face"
+      "rotate"
     ]
   },
   {
@@ -348,14 +341,13 @@
     },
     "faaRangedDamageModifier": -0.4,
     "allowedOrders": [
-      "noOrder",
       "walk",
       "run",
       "shoot",
       "fireAndAdvance",
       "placeEntity",
       "fallback",
-      "face"
+      "rotate"
     ]
   }
 ]

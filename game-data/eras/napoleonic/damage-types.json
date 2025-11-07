@@ -1,6 +1,7 @@
 [
   {
-    "type": "bayonet",
+    "id": 1,
+    "name": "bayonet",
     "orgDamageRatio": 240,
     "cannotChargeAgainst": [
       "midCavalry",
@@ -10,27 +11,33 @@
     ]
   },
   {
-    "type": "cavalry-sabre",
+    "id": 2,
+    "name": "cavalry-sabre",
     "orgDamageRatio": 240
   },
   {
-    "type": "cavalry-sword",
+    "id": 3,
+    "name": "cavalry-sword",
     "orgDamageRatio": 240
   },
   {
-    "type": "dragoon-sword",
+    "id": 4,
+    "name": "dragoon-sword",
     "orgDamageRatio": 240
   },
   {
-    "type": "artillery-sabre",
+    "id": 5,
+    "name": "artillery-sabre",
     "orgDamageRatio": 240
   },
   {
-    "type": "cavalry-lance",
+    "id": 6,
+    "name": "cavalry-lance",
     "orgDamageRatio": 240
   },
   {
-    "type": "musket",
+    "id": 7,
+    "name": "musket",
     "ranged": true,
     "orgDamageRatio": 250,
     "projectileWidth": 12,
@@ -62,7 +69,8 @@
     "shotAnim": "musketVolley"
   },
   {
-    "type": "marksman-musket",
+    "id": 8,
+    "name": "marksman-musket",
     "ranged": true,
     "orgDamageRatio": 435,
     "projectileWidth": 12,
@@ -94,7 +102,8 @@
     "shotAnim": "musketVolley"
   },
   {
-    "type": "rifle",
+    "id": 9,
+    "name": "rifle",
     "ranged": true,
     "orgDamageRatio": 500,
     "projectileWidth": 12,
@@ -119,7 +128,8 @@
     "shotAnim": "musketVolley"
   },
   {
-    "type": "18lb-cannon-ball",
+    "id": 10,
+    "name": "18lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
     "projectileWidth": 20,
@@ -134,7 +144,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "trapezoidal",
+      "name": "trapezoidal",
       "ranges": [
         {
           "start": 110,
@@ -161,7 +171,8 @@
     "ammoCost": 148
   },
   {
-    "type": "12lb-cannon-ball",
+    "id": 11,
+    "name": "12lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
     "projectileWidth": 20,
@@ -185,7 +196,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "trapezoidal",
+      "name": "trapezoidal",
       "ranges": [
         {
           "start": 145,
@@ -212,7 +223,8 @@
     "ammoCost": 160
   },
   {
-    "type": "10lb-cannon-ball",
+    "id": 12,
+    "name": "10lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
     "projectileWidth": 20,
@@ -227,7 +239,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "trapezoidal",
+      "name": "trapezoidal",
       "ranges": [
         {
           "start": 90,
@@ -254,7 +266,8 @@
     "ammoCost": 118
   },
   {
-    "type": "8lb-cannon-ball",
+    "id": 13,
+    "name": "8lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
     "projectileWidth": 20,
@@ -278,7 +291,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "trapezoidal",
+      "name": "trapezoidal",
       "ranges": [
         {
           "start": 135,
@@ -305,7 +318,8 @@
     "ammoCost": 148
   },
   {
-    "type": "6lb-cannon-ball",
+    "id": 14,
+    "name": "6lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
     "projectileWidth": 20,
@@ -329,7 +343,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "trapezoidal",
+      "name": "trapezoidal",
       "ranges": [
         {
           "start": 120,
@@ -356,7 +370,8 @@
     "ammoCost": 132
   },
   {
-    "type": "4lb-cannon-ball",
+    "id": 15,
+    "name": "4lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 165,
     "projectileWidth": 20,
@@ -380,7 +395,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "trapezoidal",
+      "name": "trapezoidal",
       "ranges": [
         {
           "start": 110,
@@ -407,7 +422,8 @@
     "ammoCost": 148
   },
   {
-    "type": "18lb-explosive-shell",
+    "id": 16,
+    "name": "18lb-explosive-shell",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -429,7 +445,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "circular",
+      "name": "circular",
       "ranges": [
         {
           "start": 280,
@@ -447,7 +463,8 @@
     "ammoCost": 172
   },
   {
-    "type": "10lb-explosive-shell",
+    "id": 17,
+    "name": "10lb-explosive-shell",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -469,7 +486,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "circular",
+      "name": "circular",
       "ranges": [
         {
           "start": 250,
@@ -487,7 +504,8 @@
     "ammoCost": 128
   },
   {
-    "type": "explosive-shell",
+    "id": 18,
+    "name": "explosive-shell",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -511,7 +529,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "circular",
+      "name": "circular",
       "ranges": [
         {
           "start": 69,
@@ -535,7 +553,8 @@
     "ammoCost": 196
   },
   {
-    "type": "18lb-canister-fire",
+    "id": 19,
+    "name": "18lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -563,7 +582,8 @@
     "ammoCost": 280
   },
   {
-    "type": "12lb-canister-fire",
+    "id": 20,
+    "name": "12lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -591,7 +611,8 @@
     "ammoCost": 260
   },
   {
-    "type": "10lb-canister-fire",
+    "id": 21,
+    "name": "10lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -619,7 +640,8 @@
     "ammoCost": 256
   },
   {
-    "type": "8lb-canister-fire",
+    "id": 22,
+    "name": "8lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -647,7 +669,8 @@
     "ammoCost": 240
   },
   {
-    "type": "6lb-canister-fire",
+    "id": 23,
+    "name": "6lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -675,7 +698,8 @@
     "ammoCost": 224
   },
   {
-    "type": "4lb-canister-fire",
+    "id": 24,
+    "name": "4lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -703,7 +727,8 @@
     "ammoCost": 232
   },
   {
-    "type": "howitzer-canister",
+    "id": 25,
+    "name": "howitzer-canister",
     "ranged": true,
     "orgDamageRatio": 185,
     "projectileWidth": 20,
@@ -724,7 +749,8 @@
     "ammoCost": 356
   },
   {
-    "type": "horse-archer-bow",
+    "id": 26,
+    "name": "horse-archer-bow",
     "ranged": true,
     "orgDamageRatio": 200,
     "projectileWidth": 8,
@@ -738,7 +764,8 @@
     "shotAnim": "arrowVolley"
   },
   {
-    "type": "rocket",
+    "id": 27,
+    "name": "rocket",
     "ranged": true,
     "orgDamageRatio": 380,
     "projectileWidth": 20,
@@ -768,7 +795,7 @@
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
-      "type": "circular",
+      "name": "circular",
       "ranges": [
         {
           "start": 20,

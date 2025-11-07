@@ -1,9 +1,5 @@
 [
   {
-    "id": 0,
-    "name": "noOrder"
-  },
-  {
     "id": 1,
     "name": "walk"
   },
@@ -39,7 +35,7 @@
   },
   {
     "id": 7,
-    "name": "face",
+    "name": "rotate",
     "allowFireWhenMoving": true,
     "canFocusLocation": true
   }
