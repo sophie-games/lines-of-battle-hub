@@ -24,6 +24,7 @@
     "id": "cavalry",
     "frontBackArc": 126.87,
     "disablesEnfiladeFire": true,
+    "disablesFlankMelee": true,
     "disablesRearFire": true,
     "shootingAngle": 360,
     "shootingMaxTargets": 1
@@ -32,28 +33,40 @@
     "id": "column",
     "frontBackArc": 126.87,
     "shootingAngle": 90,
-    "shootingMaxTargets": 1
+    "shootingMaxTargets": 1,
+    "enfiladeFireResistance": 0.3,
+    "rearFireResistance": 0.3,
+    "rangedDamageResistance": -0.5,
+    "rangedOrgResistance": 0.5,
+    "flankChargeResistance": -0.2,
+    "rearChargeResistance": -0.4,
+    "timeToForm": 2,
+    "timeToUnform": 2
   },
   {
     "id": "line",
     "frontBackArc": 126.87,
     "movementModifier": -0.25,
-    "rotationSpeedModifier": -0.5,
-    "rangedAttackModifier": 0.5,
-    "flankChargeResistance": 0.8,
-    "rearChargeResistance": 1.2,
-    "enfiladeFireResistance": 0.3,
-    "rearFireResistance": 0.5,
+    "rotationSpeedModifier": -0.6,
+    "rangedAttackModifier": 1,
+    "rangedDamageResistance": 0.1,
+    "rangedOrgResistance": -0.15,
+    "chargePenetrationModifier": -0.15
+    "flankChargeResistance": -0.6,
+    "rearChargeResistance": -0.8,
     "shootingAngle": 90,
-    "shootingMaxTargets": 2,
-    "shootingAngleMargin": 0
+    "shootingMaxTargets": 3,
+    "shootingAngleMargin": 0,
+    "timeToForm": 4,
+    "timeToUnform": 6
   },
   {
     "id": "square",
     "frontBackArc": 90,
     "movementModifier": -0.8,
     "rotationSpeedModifier": -0.8,
-    "chargeBonusModifier": -0.5,
+    "chargeBonusModifier": -0.75,
+    "rangedAttackModifier": 1.6,
     "disablesFlankMelee": true,
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
@@ -61,6 +74,12 @@
     "shootingAngle": 360,
     "shootingMaxTargets": 4,
     "shootingAngleMargin": 90,
-    "shootingSides": 4
+    "shootingSides": 4,
+    "rangedDamageResistance": -0.5,
+    "rangedOrgResistance": 0.5,
+    "chargeResistanceModifier": -0.1,
+    "timeToForm": 4,
+    "timeToUnform": 4,
+    "SpeedWhileForming": -1
   }
 ]
