@@ -763,5 +763,8 @@
     "message": "지도를 올바르게 생성할 수 없습니다. 이는 WebGL 또는 메모리 문제로 인한 것일 수 있습니다. 페이지를 새로고침해주세요.",
     "reloadPage": "페이지 새로고침",
     "continueAnyway": "어쨌든 계속"
-  }
+  },
+  "timeToForm": "편성 시간",
+  "timeToUnform": "해체 시간",
+  "formingSpeedModifier": "편성 속도"
 }

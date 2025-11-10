@@ -528,5 +528,8 @@
     "buttonText": "Tambahkan ke daftar keinginan"
   },
   "show": "Tampilkan",
-  "hide": "Sembunyikan"
+  "hide": "Sembunyikan",
+  "timeToForm": "Waktu untuk Membentuk",
+  "timeToUnform": "Waktu untuk Membubarkan",
+  "formingSpeedModifier": "Kecepatan saat Membentuk"
 }

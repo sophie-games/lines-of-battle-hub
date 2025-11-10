@@ -767,5 +767,8 @@
     "message": "Không thể tạo bản đồ một cách chính xác. Điều này có thể do các vấn đề về WebGL hoặc bộ nhớ. Vui lòng tải lại trang.",
     "reloadPage": "Tải Lại Trang",
     "continueAnyway": "Tiếp Tục Dù Sao"
-  }
+  },
+  "timeToForm": "Thời Gian Hình Thành",
+  "timeToUnform": "Thời Gian Giải Tán",
+  "formingSpeedModifier": "Tốc Độ Khi Hình Thành"
 }

@@ -524,5 +524,8 @@
     "message": "Harita doğru şekilde oluşturulamadı. Bu WebGL veya bellek sorunlarından kaynaklanabilir. Lütfen sayfayı yenileyin.",
     "reloadPage": "Sayfayı Yenile",
     "continueAnyway": "Yine de Devam Et"
-  }
+  },
+  "timeToForm": "Oluşturma Süresi",
+  "timeToUnform": "Dağıtma Süresi",
+  "formingSpeedModifier": "Oluşturma Hızı"
 }

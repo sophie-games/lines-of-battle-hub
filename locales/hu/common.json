@@ -473,5 +473,8 @@
     "message": "A térkép nem generálható helyesen. Ez WebGL vagy memória problémák miatt lehet. Kérjük, töltse újra az oldalt.",
     "reloadPage": "Oldal Újratöltése",
     "continueAnyway": "Folytatás Mindenképpen"
-  }
+  },
+  "timeToForm": "Alakítási Idő",
+  "timeToUnform": "Felbontási Idő",
+  "formingSpeedModifier": "Alakítási Sebesség"
 }

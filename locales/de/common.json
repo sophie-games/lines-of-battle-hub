@@ -521,5 +521,8 @@
     "message": "Die Karte konnte nicht korrekt generiert werden. Dies kann auf WebGL- oder Speicherprobleme zurückzuführen sein. Bitte laden Sie die Seite neu.",
     "reloadPage": "Seite neu laden",
     "continueAnyway": "Trotzdem fortfahren"
-  }
+  },
+  "timeToForm": "Zeit zum Formieren",
+  "timeToUnform": "Zeit zum Auflösen",
+  "formingSpeedModifier": "Geschwindigkeit beim Formieren"
 }

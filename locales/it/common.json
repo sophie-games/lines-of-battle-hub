@@ -522,5 +522,8 @@
     "message": "Impossibile generare la mappa correttamente. Questo potrebbe essere dovuto a problemi WebGL o di memoria. Si prega di ricaricare la pagina.",
     "reloadPage": "Ricarica Pagina",
     "continueAnyway": "Continua Comunque"
-  }
+  },
+  "timeToForm": "Tempo per Formare",
+  "timeToUnform": "Tempo per Sciogliere",
+  "formingSpeedModifier": "Velocità durante la Formazione"
 }

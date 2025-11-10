@@ -534,5 +534,8 @@
     "message": "Impossible de générer la carte correctement. Cela peut être dû à des problèmes WebGL ou de mémoire. Veuillez recharger la page.",
     "reloadPage": "Recharger la Page",
     "continueAnyway": "Continuer Malgré Tout"
-  }
+  },
+  "timeToForm": "Temps pour Former",
+  "timeToUnform": "Temps pour Déformer",
+  "formingSpeedModifier": "Vitesse lors de la Formation"
 }

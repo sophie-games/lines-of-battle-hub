@@ -521,5 +521,8 @@
     "message": "マップを正しく生成できませんでした。これはWebGLまたはメモリの問題が原因である可能性があります。ページを再読み込みしてください。",
     "reloadPage": "ページを再読み込み",
     "continueAnyway": "とにかく続行"
-  }
+  },
+  "timeToForm": "編成時間",
+  "timeToUnform": "解散時間",
+  "formingSpeedModifier": "編成時の速度"
 }

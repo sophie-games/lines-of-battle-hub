@@ -1131,6 +1131,7 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
+    "disableSpriteRotation": true,
     "defaultFormation": "column",
     "formations": [
       {
@@ -1175,6 +1176,7 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
+    "disableSpriteRotation": true,
     "defaultFormation": "column",
     "formations": [
       {
@@ -1219,6 +1221,7 @@
     "turningDelay": 3,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
+    "disableSpriteRotation": true,
     "defaultFormation": "cavalry",
     "formations": [
       {
@@ -1262,6 +1265,7 @@
     "runRotationSpeed": 0.8,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
+    "disableSpriteRotation": true,
     "defaultFormation": "artillery",
     "formations": [
       {
