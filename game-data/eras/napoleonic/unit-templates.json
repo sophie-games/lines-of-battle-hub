@@ -1049,7 +1049,7 @@
     "name": "rockets",
     "type": 19,
     "category": "artillery",
-    "rangedAttack": 20,
+    "rangedAttack": 18,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
