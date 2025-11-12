@@ -767,7 +767,7 @@
     "id": 27,
     "name": "rocket",
     "ranged": true,
-    "orgDamageRatio": 380,
+    "orgDamageRatio": 390,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
