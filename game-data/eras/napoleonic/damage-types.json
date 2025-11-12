@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "bayonet",
-    "orgDamageRatio": 240,
+    "orgDamageRatio": 250,
     "cannotChargeAgainst": [
       "midCavalry",
       "lightCavalry",
@@ -138,7 +138,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 110, "end": 310, "startMod": 0.15, "endMod": -0.05 }],
+    "ranges": [{ "start": 110, "end": 250, "startMod": 0.2, "endMod": 0.1 }],
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -148,7 +148,7 @@
       "ranges": [
         {
           "start": 110,
-          "end": 310,
+          "end": 250,
           "startTopWidth": 22,
           "endTopWidth": 48,
           "startBottomWidth": 20,
@@ -425,7 +425,7 @@
     "id": 16,
     "name": "18lb-explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 195,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.7,
@@ -434,10 +434,10 @@
     },
     "ranges": [
       {
-        "start": 310,
+        "start": 250,
         "end": 550,
-        "startMod": -0.45,
-        "endMod": -0.65,
+        "startMod": -0.35,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
@@ -448,7 +448,7 @@
       "type": "circular",
       "ranges": [
         {
-          "start": 280,
+          "start": 250,
           "end": 550,
           "startRadius": 26,
           "endRadius": 52
@@ -466,7 +466,7 @@
     "id": 17,
     "name": "10lb-explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 195,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.7,
@@ -507,7 +507,7 @@
     "id": 18,
     "name": "explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 200,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.7,
@@ -556,7 +556,7 @@
     "id": 19,
     "name": "18lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 210,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -585,7 +585,7 @@
     "id": 20,
     "name": "12lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 200,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -614,7 +614,7 @@
     "id": 21,
     "name": "10lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 200,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -643,7 +643,7 @@
     "id": 22,
     "name": "8lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 195,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -672,7 +672,7 @@
     "id": 23,
     "name": "6lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 190,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -730,14 +730,14 @@
     "id": 25,
     "name": "howitzer-canister",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 225,
     "projectileWidth": 20,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 7,
-        "endMod": 5,
+        "startMod": 6.5,
+        "endMod": 4.5,
         "name": "close"
       }
     ],
@@ -767,31 +767,31 @@
     "id": 27,
     "name": "rocket",
     "ranged": true,
-    "orgDamageRatio": 380,
+    "orgDamageRatio": 390,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.6,
-      "modifier": -0.45
+      "modifier": -0.6
     },
     "ranges": [
       {
         "start": 0,
         "end": 150,
-        "startMod": 0.75,
-        "endMod": 0.65,
+        "startMod": 1,
+        "endMod": 1,
         "name": "close"
       },
-      { "start": 150, "end": 230, "startMod": 0.75, "endMod": 0 },
+      { "start": 100, "end": 200, "startMod": 1, "endMod": 0.3 },
       {
-        "start": 230,
+        "start": 200,
         "end": 450,
-        "startMod": 0,
+        "startMod": 0.3,
         "endMod": -0.9,
         "name": "long"
       }
     ],
-    "arcHeight": 3,
+    "arcHeight": 1.25,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
