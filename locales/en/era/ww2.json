@@ -1,19 +1,20 @@
 {
   "unitName": {
     "1": "Infantry",
-    "2": "Tanks"
+    "2": "Tanks",
+    "20": "Unknown"
   },
   "battalionName": {
     "1": "{{n}} Line Division",
     "2": "{{n}} Tank Division"
   },
   "unitDescription": {
-    "1": "infantry description bro",
-    "2": "tanks description bro"
+    "1": "Although tank spearheads dominated the battlefields of World War II, the humble infantry remained the backbone of the armies of all the belligerent powers. Infantry is capable of delaying enemy advances thanks to earthworks and supporting weapons; furthermore, infantry can fight in the rough terrain like forests, cities, swamps and mountains, where armored vehicles are useless.",
+    "2": "Tank divisions are a formidable and mobile force, designed to create breakthroughs in enemy defenses and deliver powerful counterattacks. However, equipping and supplying mechanized units is a major industrial challenge, so the proportion of tank divisions in World War II armies generally did not exceed 10-15%."
   },
   "unitCategory": {
     "infantry": "Infantry",
-    "midCavalry": "Cavalry"
+    "tank": "Tank"
   },
   "damageType": {
     "soft_attack": "Soft Attack",
