@@ -105,8 +105,8 @@
     "description": "Повысьте свой уровень на Patreon для доступа к этой настройке, а также к другим премиальным функциям!",
     "goToPatreon": "Перейти на Patreon"
   },
-  "lineFormation": "Линейное построение",
-  "checkerboardFormation": "Шахматное построение",
+  "drawLineFormation": "Рисовать линейное построение",
+  "straightLineTolerance": "Допуск прямой линии",
   "spaceBetweenUnits": "Расстояние между отрядами",
   "spaceBetweenLines": "Расстояние между линиями",
   "showSelectIdleUnitButton": {
@@ -130,10 +130,10 @@
     "shootOrder": "Огонь",
     "fireAndAdvanceOrder": "Огонь при движении",
     "fallbackOrder": "Отход",
-    "toggleFormation": "Выбор построения",
     "toggleSmartCurvedMovements": "Включение/отключение умного движения по кривой",
     "toggleFowPerspective": "Переключение перспективы тумана войны",
     "openChat": "Открыть чат",
+    "openFormationModal": "Открыть окно формации",
     "toggleFullscreen": "Переключение полноэкранного режима",
     "controlGroup1": "Группа 1",
     "controlGroup2": "Группа 2",

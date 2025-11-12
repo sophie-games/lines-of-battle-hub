@@ -105,8 +105,8 @@
     "description": "قم بترقية مستواك على Patreon للوصول إلى هذا الإعداد والميزات المميزة الأخرى!",
     "goToPatreon": "الذهاب إلى Patreon"
   },
-  "lineFormation": "تشكيل الخط",
-  "checkerboardFormation": "تشكيل رقعة الشطرنج",
+  "drawLineFormation": "رسم تشكيل الخط",
+  "straightLineTolerance": "تسامح الخط المستقيم",
   "spaceBetweenUnits": "المسافة بين الوحدات",
   "spaceBetweenLines": "المسافة بين الخطوط",
   "showSelectIdleUnitButton": {
@@ -130,10 +130,10 @@
     "shootOrder": "أمر إطلاق النار",
     "fireAndAdvanceOrder": "أمر إطلاق النار والتقدم",
     "fallbackOrder": "أمر التراجع",
-    "toggleFormation": "تبديل التشكيل",
     "toggleSmartCurvedMovements": "تبديل الحركات المنحنية الذكية",
     "toggleFowPerspective": "تبديل منظور ضباب الحرب",
     "openChat": "فتح الدردشة",
+    "openFormationModal": "فتح نافذة التشكيل",
     "toggleFullscreen": "تبديل وضع الشاشة الكاملة",
     "controlGroup1": "مجموعة التحكم 1",
     "controlGroup2": "مجموعة التحكم 2",

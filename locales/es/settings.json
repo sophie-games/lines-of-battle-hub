@@ -80,8 +80,8 @@
     "description": "Restaurar toda la configuración a sus valores predeterminados. Esta acción sobrescribirá cualquier personalización que hayas realizado."
   },
   "reset": "Restablecer",
-  "lineFormation": "Formación en línea",
-  "checkerboardFormation": "Formación en tablero de ajedrez",
+  "drawLineFormation": "Dibujar formación en línea",
+  "straightLineTolerance": "Tolerancia de línea recta",
   "spaceBetweenUnits": "Espacio entre unidades",
   "spaceBetweenLines": "Espacio entre líneas",
   "showChat": {
@@ -102,10 +102,10 @@
     "shootOrder": "Orden de disparo",
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
     "fallbackOrder": "Orden de retirada",
-    "toggleFormation": "Alternar formación",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
     "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
     "openChat": "Abrir chat",
+    "openFormationModal": "Abrir ventana de formación",
     "toggleFullscreen": "Alternar pantalla completa"
   },
   "routingTransparency": {

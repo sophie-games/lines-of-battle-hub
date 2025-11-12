@@ -1,0 +1,33 @@
+{
+  "categoryGroups": {
+    "infantry": "Infantry",
+    "tank": "Cavalry"
+  },
+  "maxGroupSize": {
+    "Infantry": 4,
+    "Cavalry": 3
+  },
+  "strategies": {
+    "Infantry": {
+      "behavior": "defensive",
+      "preferFireAndAdvance": true,
+      "chargeThreshold": 200,
+      "groupCohesion": 3
+    },
+    "Cavalry": {
+      "behavior": "direct",
+      "preferRun": true,
+      "avoidArtillery": false,
+      "groupCohesion": 3
+    },
+    "Artillery": {
+      "behavior": "offensive",
+      "maintainDistance": true,
+      "minDistanceFromEnemies": 6,
+      "groupCohesion": 2
+    }
+  },
+  "thresholds": {
+    "orgChargeThreshold": 200
+  }
+}

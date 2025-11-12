@@ -91,8 +91,8 @@
     "description": "Επαναφέρετε όλες τις ρυθμίσεις στις προεπιλεγμένες τιμές τους. Αυτή η ενέργεια θα αντικαταστήσει τυχόν προσαρμογές που έχετε κάνει."
   },
   "reset": "Επαναφορά",
-  "lineFormation": "Επαναφορά",
-  "checkerboardFormation": "Σχηματισμός σκακιέρας",
+  "drawLineFormation": "Σχεδίαση σχηματισμού γραμμής",
+  "straightLineTolerance": "Ανεκτικότητα ευθείας γραμμής",
   "spaceBetweenUnits": "Χώρος μεταξύ των μονάδων",
   "spaceBetweenLines": "Διάστημα μεταξύ των γραμμών",
   "showSelectIdleUnitButton": {
@@ -116,10 +116,10 @@
     "shootOrder": "Σειρά πυροβολισμού",
     "fireAndAdvanceOrder": "Πυροβολίστε και προχωρήστε παραγγελία",
     "fallbackOrder": "οπισθοχώρηση παραγγελία",
-    "toggleFormation": "Εναλλαγή σχηματισμού",
     "toggleSmartCurvedMovements": "Εναλλαγή έξυπνων καμπυλωτών κινήσεων",
     "toggleFowPerspective": "Εναλλαγή οπτικής ομίχλης πολέμου",
     "openChat": "Ανοίξτε τη συνομιλία",
+    "openFormationModal": "Άνοιγμα παραθύρου σχηματισμού",
     "toggleFullscreen": "Εναλλαγή πλήρους οθόνης",
     "controlGroup1": "Ομάδα Ελέγχου 1",
     "controlGroup2": "Ομάδα Ελέγχου 2",

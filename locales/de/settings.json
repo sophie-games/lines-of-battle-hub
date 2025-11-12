@@ -80,8 +80,8 @@
     "description": "Stellt alle Standardeinstellungen wieder her. Diese Aktion überschreibt alle Einstellungen die Sie gemacht haben."
   },
   "reset": "Zurücksetzen",
-  "lineFormation": "Linienformation",
-  "checkerboardFormation": "Schachbrettformation",
+  "drawLineFormation": "Linienformation zeichnen",
+  "straightLineTolerance": "Geradlinigkeitstoleranz",
   "spaceBetweenUnits": "Abstand zwischen Einheiten",
   "spaceBetweenLines": "Abstand zwischen Linien",
   "showChat": {
@@ -102,10 +102,10 @@
     "shootOrder": "Schießauftrag",
     "fireAndAdvanceOrder": "Feuer-und-Vorrück-Auftrag",
     "fallbackOrder": "Rückzugsauftrag",
-    "toggleFormation": "Formation umschalten",
     "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
     "openChat": "Chat öffnen",
+    "openFormationModal": "Formationsfenster öffnen",
     "toggleFullscreen": "Vollbild umschalten"
   },
   "routingTransparency": {
