@@ -138,7 +138,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 110, "end": 310, "startMod": 0.15, "endMod": -0.05 }],
+    "ranges": [{ "start": 110, "end": 250, "startMod": 0.2, "endMod": 0.1 }],
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
@@ -148,7 +148,7 @@
       "ranges": [
         {
           "start": 110,
-          "end": 310,
+          "end": 250,
           "startTopWidth": 22,
           "endTopWidth": 48,
           "startBottomWidth": 20,
@@ -434,10 +434,10 @@
     },
     "ranges": [
       {
-        "start": 310,
+        "start": 250,
         "end": 550,
-        "startMod": -0.45,
-        "endMod": -0.65,
+        "startMod": -0.35,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
@@ -448,7 +448,7 @@
       "type": "circular",
       "ranges": [
         {
-          "start": 280,
+          "start": 250,
           "end": 550,
           "startRadius": 26,
           "endRadius": 52
