@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "german-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "default": {
+        "overlay": "german-infantry"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "french-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "default": {
+        "overlay": "french-infantry"
+      }
+    }
+  }
+]

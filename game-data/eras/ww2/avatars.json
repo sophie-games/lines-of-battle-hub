@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "soviet-machine-gunner",
+    "tier": 1,
+    "premiumPrice": 100
+  }
+]
