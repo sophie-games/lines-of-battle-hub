@@ -23,7 +23,6 @@
   },
   "midCavalry": {
     "firingAltitude": 0.9,
-    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -109,7 +108,6 @@
   },
   "scoutCavalry": {
     "firingAltitude": 0.9,
-    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -145,7 +143,6 @@
   },
   "lightCavalry": {
     "firingAltitude": 0.9,
-    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
@@ -180,7 +177,6 @@
   },
   "heavyCavalry": {
     "firingAltitude": 0.9,
-    "captureSpeed": 0.25,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
