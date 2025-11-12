@@ -131,7 +131,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 110, "end": 310, "startMod": 0.15, "endMod": -0.05 }],
+    "ranges": [{ "start": 110, "end": 310, "startMod": 0.15, "endMod": 0 }],
     "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
@@ -142,7 +142,7 @@
       "ranges": [
         {
           "start": 110,
-          "end": 310,
+          "end": 250,
           "startTopWidth": 22,
           "endTopWidth": 48,
           "startBottomWidth": 20,
@@ -226,7 +226,7 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 105, "end": 250, "startMod": 0.2, "endMod": 0 }],
+    "ranges": [{ "start": 105, "end": 250, "startMod": 0.2, "endMod": 0.1 }],
     "shootingAngle": 60,
     "arcHeight": 0.5,
     "enfiladeFire": true,
@@ -237,7 +237,7 @@
       "ranges": [
         {
           "start": 90,
-          "end": 250,
+          "end": 220,
           "startTopWidth": 28,
           "endTopWidth": 24,
           "startBottomWidth": 16,
@@ -418,19 +418,19 @@
   {
     "type": "18lb-explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 190,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 0.7,
+      "start": 0.8,
       "end": 0.6,
       "modifier": -0.6
     },
     "ranges": [
       {
-        "start": 310,
+        "start": 250,
         "end": 550,
-        "startMod": -0.45,
-        "endMod": -0.65,
+        "startMod": -0.25,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
@@ -459,19 +459,19 @@
   {
     "type": "10lb-explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 190,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 0.7,
+      "start": 0.8,
       "end": 0.6,
       "modifier": -0.6
     },
     "ranges": [
       {
-        "start": 250,
+        "start": 220,
         "end": 425,
         "startMod": -0.35,
-        "endMod": -0.5,
+        "endMod": -0.45,
         "name": "long"
       }
     ],
@@ -500,10 +500,10 @@
   {
     "type": "explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 190,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
-      "start": 0.7,
+      "start": 0.8,
       "end": 0.6,
       "modifier": -0.6
     },
@@ -760,32 +760,32 @@
   {
     "type": "rocket",
     "ranged": true,
-    "orgDamageRatio": 390,
+    "orgDamageRatio": 400,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.6,
-      "modifier": -0.45
+      "modifier": -0.6
     },
     "ranges": [
       {
         "start": 0,
-        "end": 150,
-        "startMod": 0.75,
-        "endMod": 0.75,
+        "end": 100,
+        "startMod": 1,
+        "endMod": 1,
         "name": "close"
       },
-      { "start": 150, "end": 270, "startMod": 0.75, "endMod": -0.4 },
+      { "start": 100, "end": 200, "startMod": 1, "endMod": 0.3 },
       {
         "start": 270,
         "end": 450,
-        "startMod": -0.35,
+        "startMod": 0.3,
         "endMod": -0.9,
         "name": "long"
       }
     ],
     "shootingAngle": 60,
-    "arcHeight": 1.5,
+    "arcHeight": 1,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
