@@ -791,7 +791,7 @@
         "name": "long"
       }
     ],
-    "arcHeight": 3,
+    "arcHeight": 1.25,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
