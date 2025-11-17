@@ -331,6 +331,7 @@
   "rangedDamage": "दूरस्थ क्षति",
   "orgRegain": "संगठन पुनर्प्राप्ति",
   "reorgDebuff": "संगठन पुनर्प्राप्ति दंड",
+  "attackEffectDuration": "हमले का प्रभाव अवधि",
   "speed": "गति",
   "speedWhenShooting": "गोली चलाते समय गति",
   "receivedDamage": "प्राप्त क्षति",

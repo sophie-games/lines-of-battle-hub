@@ -4,6 +4,7 @@
     "name": "bayonet",
     "orgDamageRatio": 250,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "cannotChargeAgainst": [
       "midCavalry",
       "lightCavalry",
@@ -15,31 +16,36 @@
     "id": 2,
     "name": "cavalry-sabre",
     "orgDamageRatio": 240,
-    "reorgDebuff": 1.0
+    "reorgDebuff": 1.0,
+    "attackEffectDuration": 6
   },
   {
     "id": 3,
     "name": "cavalry-sword",
     "orgDamageRatio": 240,
-    "reorgDebuff": 1.0
+    "reorgDebuff": 1.0,
+    "attackEffectDuration": 6
   },
   {
     "id": 4,
     "name": "dragoon-sword",
     "orgDamageRatio": 240,
-    "reorgDebuff": 1.0
+    "reorgDebuff": 1.0,
+    "attackEffectDuration": 6
   },
   {
     "id": 5,
     "name": "artillery-sabre",
     "orgDamageRatio": 240,
-    "reorgDebuff": 1.0
+    "reorgDebuff": 1.0,
+    "attackEffectDuration": 6
   },
   {
     "id": 6,
     "name": "cavalry-lance",
     "orgDamageRatio": 240,
-    "reorgDebuff": 1.0
+    "reorgDebuff": 1.0,
+    "attackEffectDuration": 6
   },
   {
     "id": 7,
@@ -47,6 +53,7 @@
     "ranged": true,
     "orgDamageRatio": 250,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
@@ -81,6 +88,7 @@
     "ranged": true,
     "orgDamageRatio": 435,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
@@ -115,6 +123,7 @@
     "ranged": true,
     "orgDamageRatio": 500,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.85,
@@ -142,6 +151,7 @@
     "ranged": true,
     "orgDamageRatio": 170,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -186,6 +196,7 @@
     "ranged": true,
     "orgDamageRatio": 170,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -239,6 +250,7 @@
     "ranged": true,
     "orgDamageRatio": 170,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -283,6 +295,7 @@
     "ranged": true,
     "orgDamageRatio": 170,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -336,6 +349,7 @@
     "ranged": true,
     "orgDamageRatio": 170,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -389,6 +403,7 @@
     "ranged": true,
     "orgDamageRatio": 165,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -442,6 +457,7 @@
     "ranged": true,
     "orgDamageRatio": 190,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -484,6 +500,7 @@
     "ranged": true,
     "orgDamageRatio": 190,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -526,6 +543,7 @@
     "ranged": true,
     "orgDamageRatio": 190,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -576,6 +594,7 @@
     "ranged": true,
     "orgDamageRatio": 210,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -606,6 +625,7 @@
     "ranged": true,
     "orgDamageRatio": 200,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -636,6 +656,7 @@
     "ranged": true,
     "orgDamageRatio": 200,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -666,6 +687,7 @@
     "ranged": true,
     "orgDamageRatio": 195,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -696,6 +718,7 @@
     "ranged": true,
     "orgDamageRatio": 190,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -726,6 +749,7 @@
     "ranged": true,
     "orgDamageRatio": 185,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -756,6 +780,7 @@
     "ranged": true,
     "orgDamageRatio": 225,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -779,6 +804,7 @@
     "ranged": true,
     "orgDamageRatio": 200,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 8,
     "ranges": [
       { "start": 0, "end": 20, "startMod": 0.5, "endMod": 0, "name": "close" },
@@ -795,6 +821,7 @@
     "ranged": true,
     "orgDamageRatio": 400,
     "reorgDebuff": 1.0,
+    "attackEffectDuration": 6,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,

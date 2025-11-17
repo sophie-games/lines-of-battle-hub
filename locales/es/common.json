@@ -291,6 +291,7 @@
   "rangedDamage": "Daño a distancia",
   "orgRegain": "Recuperación de org",
   "reorgDebuff": "Penalización de recuperación de org",
+  "attackEffectDuration": "Duración del efecto de ataque",
   "speed": "Velocidad",
   "speedWhenShooting": "Velocidad al disparar",
   "receivedDamage": "Daño recibido",

@@ -331,6 +331,7 @@
   "rangedDamage": "Sát thương tầm xa",
   "orgRegain": "Hồi phục tổ chức",
   "reorgDebuff": "Hình phạt hồi phục tổ chức",
+  "attackEffectDuration": "Thời lượng hiệu ứng tấn công",
   "speed": "Tốc độ",
   "speedWhenShooting": "Tốc độ khi bắn",
   "receivedDamage": "Sát thương nhận",

@@ -331,6 +331,7 @@
   "rangedDamage": "ضرر بعيد",
   "orgRegain": "استعادة التنظيم",
   "reorgDebuff": "عقوبة استعادة التنظيم",
+  "attackEffectDuration": "مدة تأثير الهجوم",
   "speed": "السرعة",
   "speedWhenShooting": "السرعة عند الإطلاق",
   "receivedDamage": "الضرر المستلم",

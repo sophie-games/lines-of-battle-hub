@@ -331,6 +331,7 @@
   "rangedDamage": "Ranged damage",
   "orgRegain": "Org regain",
   "reorgDebuff": "Reorg Debuff",
+  "attackEffectDuration": "Attack Effect Duration",
   "speed": "Speed",
   "speedWhenShooting": "Speed when shooting",
   "receivedDamage": "Received damage",

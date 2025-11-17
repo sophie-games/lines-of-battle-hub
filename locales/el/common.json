@@ -318,6 +318,7 @@
   "rangedDamage": "Εκτεταμένη ζημιά",
   "orgRegain": "Ανάκτηση org",
   "reorgDebuff": "Ποινή ανάκτησης org",
+  "attackEffectDuration": "Διάρκεια επίδρασης επίθεσης",
   "speed": "Ταχύτητα",
   "speedWhenShooting": "Ταχύτητα όταν Πυροβολείτε",
   "receivedDamage": "Έλαβε ζημιά",

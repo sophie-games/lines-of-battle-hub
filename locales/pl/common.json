@@ -306,6 +306,7 @@
   "rangedDamage": "Obrażenia dystansowe",
   "orgRegain": "Odzyskiwanie Org.",
   "reorgDebuff": "Kara odzyskiwania Org.",
+  "attackEffectDuration": "Czas trwania efektu ataku",
   "speed": "Szybkość",
   "speedWhenShooting": "Szybkość w trakcie strzelania",
   "receivedDamage": "Otrzymywane obrażenia",

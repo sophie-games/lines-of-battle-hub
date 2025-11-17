@@ -331,6 +331,7 @@
   "rangedDamage": "远程伤害",
   "orgRegain": "组织度恢复",
   "reorgDebuff": "组织度恢复惩罚",
+  "attackEffectDuration": "攻击效果持续时间",
   "speed": "速度",
   "speedWhenShooting": "射击时的速度",
   "receivedDamage": "受到的伤害",

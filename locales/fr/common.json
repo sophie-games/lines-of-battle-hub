@@ -277,6 +277,7 @@
   "rangedDamage": "Dégâts à distance",
   "orgRegain": "Organisation regagnée",
   "reorgDebuff": "Malus de réorganisation",
+  "attackEffectDuration": "Durée d'effet d'attaque",
   "speed": "Vitesse",
   "speedWhenShooting": "Vitesse en tirant",
   "receivedDamage": "Dégâts reçus",

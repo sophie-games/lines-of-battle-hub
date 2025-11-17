@@ -287,6 +287,7 @@
   "rangedDamage": "遠距離ダメージ",
   "orgRegain": "組織回復",
   "reorgDebuff": "組織回復ペナルティ",
+  "attackEffectDuration": "攻撃効果の持続時間",
   "speed": "速度",
   "speedWhenShooting": "射撃時の速度",
   "receivedDamage": "受けたダメージ",

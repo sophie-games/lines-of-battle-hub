@@ -134,8 +134,6 @@
 
   "HAS_TAKEN_FIRE_SPEED_MODIFIER": "combat",
 
-  "EFFECT_BEEN_IN_MELEE_TICKS": "effects",
-  "EFFECT_HAS_TAKEN_FIRE_TICKS": "effects",
   "EFFECT_HAS_FIRED_TICKS": "effects",
   "EFFECT_HAS_RAN_TICKS": "effects",
   "EFFECT_STARTED_ROUTING_TICKS": "effects",

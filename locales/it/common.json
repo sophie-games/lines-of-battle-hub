@@ -287,6 +287,7 @@
   "rangedDamage": "Danno a distanza",
   "orgRegain": "Recupero organizzazione",
   "reorgDebuff": "Malus recupero organizzazione",
+  "attackEffectDuration": "Durata effetto attacco",
   "speed": "Velocità",
   "speedWhenShooting": "Velocità durante il tiro",
   "receivedDamage": "Danno ricevuto",

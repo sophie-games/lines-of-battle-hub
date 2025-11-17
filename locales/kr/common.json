@@ -326,6 +326,7 @@
   "rangedDamage": "사격공격력",
   "orgRegain": "조직력 피해량",
   "reorgDebuff": "조직력 회복 페널티",
+  "attackEffectDuration": "공격 효과 지속 시간",
   "speed": "속도",
   "speedWhenShooting": "사격 중 속도",
   "receivedDamage": "받은 피해",

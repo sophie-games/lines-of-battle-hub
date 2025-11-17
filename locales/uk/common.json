@@ -287,6 +287,7 @@
   "rangedDamage": "Ушкодження в дальньому бою",
   "orgRegain": "Org regain",
   "reorgDebuff": "Штраф до відновлення організації",
+  "attackEffectDuration": "Тривалість ефекту атаки",
   "speed": "Швидкість",
   "speedWhenShooting": "Швидкість під час руху",
   "receivedDamage": "Отримані ушкодження",

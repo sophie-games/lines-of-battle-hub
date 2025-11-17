@@ -287,6 +287,7 @@
   "rangedDamage": "Távolsági sebzés",
   "orgRegain": "Org visszatöltődés",
   "reorgDebuff": "Org-visszatöltődés büntetés",
+  "attackEffectDuration": "Támadási hatás időtartama",
   "speed": "Sebesség",
   "speedWhenShooting": "Lövés közbeni sebesség",
   "receivedDamage": "Ért sebződés",
