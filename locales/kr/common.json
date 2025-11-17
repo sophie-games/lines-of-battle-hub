@@ -122,6 +122,13 @@
     "randomGuide": "무작위 지도를 만드는 법을 알고 싶으신 가요? <0>이 설명</0>을 읽어보세요.",
     "baleriiMessage": "플레이어 Balerii와 Nytka가 자신만의 맵 에디터를 만들었습니다! 작동 방식을 보려면 그들의 YouTube 채널을 확인해보세요:"
   },
+  "scenarioEditorAutosave": {
+    "title": "자동 저장된 전역",
+    "message": "자동 저장된 전역을 찾았습니다. 계속 편집하시겠습니까, 아니면 버리시겠습니까?",
+    "name": "이름: {{name}}",
+    "continue": "계속",
+    "discard": "버리기"
+  },
   "createScenario": "전역 창작",
   "loadScenario": "전역 불러오기",
   "playOffline": "오프라인으로 경기하기!",
@@ -318,6 +325,7 @@
   "meleeDamage": "근접전투력",
   "rangedDamage": "사격공격력",
   "orgRegain": "조직력 피해량",
+  "reorgDebuff": "조직력 회복 페널티",
   "speed": "속도",
   "speedWhenShooting": "사격 중 속도",
   "receivedDamage": "받은 피해",
@@ -364,7 +372,7 @@
     "3": "재편 중"
   },
   "unitEffect": {
-    "1": "완전 궤멸 중",
+    "1": "180° 회전",
     "2": "백병전 중",
     "3": "주행 중",
     "4": "궤멸하는 중",

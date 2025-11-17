@@ -111,6 +111,13 @@
     "randomGuide": "Quer aprender a criar mapas aleatórios? Leia <0>este guia</0>.",
     "baleriiMessage": "Os jogadores Balerii e Nytka criaram seu próprio editor de mapas! Confira seu canal do YouTube para ver como funciona:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Cenário Autosalvo",
+    "message": "Um cenário autosalvo foi encontrado. Você deseja continuar editando ou descartá-lo?",
+    "name": "Nome: {{name}}",
+    "continue": "Continuar",
+    "discard": "Descartar"
+  },
   "createScenario": "Criar Cenário",
   "loadScenario": "Carregar Cenário",
   "playOffline": "Jogar Offline!",
@@ -279,6 +286,7 @@
   "meleeDamage": "Dano corpo a corpo",
   "rangedDamage": "Dano à distância",
   "orgRegain": "Recuperação de organização",
+  "reorgDebuff": "Penalidade de recuperação de organização",
   "speed": "Velocidade",
   "speedWhenShooting": "Velocidade ao atirar",
   "receivedDamage": "Dano recebido",
@@ -323,7 +331,8 @@
     "3": "Recuperando"
   },
   "unitEffect": {
-    "1": "Rotação completa"
+    "1": "Rotacionado 180°",
+    "5": "Sob fogo"
   },
   "login": "Entrar",
   "signUp": "Inscrever-se",

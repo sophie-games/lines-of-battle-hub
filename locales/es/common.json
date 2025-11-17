@@ -110,6 +110,13 @@
     "randomGuide": "¿Querés aprender a crear mapas aleatorios? Leé <0>esta guía</0>.",
     "baleriiMessage": "Los jugadores Balerii y Nytka han creado su propio editor de mapas! Echa un vistazo a su canal de YouTube para ver como funciona:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Escenario Autoguardado",
+    "message": "Se encontró un escenario autoguardado. ¿Deseas continuar editándolo o descartarlo?",
+    "name": "Nombre: {{name}}",
+    "continue": "Continuar",
+    "discard": "Descartar"
+  },
   "createScenario": "Crear Escenario",
   "loadScenario": "Cargar Escenario",
   "playOffline": "Jugá offline!",
@@ -283,6 +290,7 @@
   "meleeDamage": "Daño cuerpo a cuerpo",
   "rangedDamage": "Daño a distancia",
   "orgRegain": "Recuperación de org",
+  "reorgDebuff": "Penalización de recuperación de org",
   "speed": "Velocidad",
   "speedWhenShooting": "Velocidad al disparar",
   "receivedDamage": "Daño recibido",
@@ -329,9 +337,10 @@
     "3": "Recuperándose"
   },
   "unitEffect": {
-    "1": "Rotando completamente",
+    "1": "Rotado 180°",
     "2": "Estuvo en melee",
-    "3": "Ha corrido"
+    "3": "Ha corrido",
+    "5": "Bajo fuego"
   },
   "login": "Iniciar sesión",
   "signUp": "Registrarse",

@@ -101,6 +101,13 @@
     "randomGuide": "Vous voulez apprendre à créer des cartes aléatoires ? Lisez <0>ce guide</0>.",
     "baleriiMessage": "Les joueurs Balerii et Nytka ont créé leur propre éditeur de cartes ! Jetez un œil à leur chaîne YouTube pour voir comment ça fonctionne :"
   },
+  "scenarioEditorAutosave": {
+    "title": "Scénario Enregistré Automatiquement",
+    "message": "Un scénario enregistré automatiquement a été trouvé. Voulez-vous continuer à le modifier ou l'abandonner ?",
+    "name": "Nom : {{name}}",
+    "continue": "Continuer",
+    "discard": "Abandonner"
+  },
   "createScenario": "Créer un scénario",
   "loadScenario": "Charger un scénario",
   "playOffline": "Jouer hors-ligne !",
@@ -269,6 +276,7 @@
   "meleeDamage": "Dégâts de mêlée",
   "rangedDamage": "Dégâts à distance",
   "orgRegain": "Organisation regagnée",
+  "reorgDebuff": "Malus de réorganisation",
   "speed": "Vitesse",
   "speedWhenShooting": "Vitesse en tirant",
   "receivedDamage": "Dégâts reçus",
@@ -313,7 +321,8 @@
     "3": "En train de récupérer"
   },
   "unitEffect": {
-    "1": "Rotation complète"
+    "1": "Rotation de 180°",
+    "5": "Sous le feu"
   },
   "login": "Connexion",
   "signUp": "S'inscrire",

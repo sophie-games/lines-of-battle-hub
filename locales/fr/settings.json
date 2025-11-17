@@ -103,7 +103,8 @@
     "toggleFowPerspective": "Basculer la perspective de brouillard de guerre",
     "openChat": "Ouvrir le chat",
     "openFormationModal": "Ouvrir la fenêtre de formation",
-    "toggleFullscreen": "Basculer le plein écran"
+    "toggleFullscreen": "Basculer le plein écran",
+    "simulateMultiTouch": "Simuler le multi-touch"
   },
   "routingTransparency": {
     "title": "Transparence des unités en déroute"

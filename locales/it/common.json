@@ -111,6 +111,13 @@
     "randomGuide": "Vuoi imparare a creare mappe casuali? Leggi <0>questa guida</0>.",
     "baleriiMessage": "I giocatori Balerii e Nytka hanno creato il loro editor di mappe! Dai un'occhiata al loro canale YouTube per vedere come funziona:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Scenario Salvato Automaticamente",
+    "message": "È stato trovato uno scenario salvato automaticamente. Vuoi continuare a modificarlo o scartarlo?",
+    "name": "Nome: {{name}}",
+    "continue": "Continua",
+    "discard": "Scarta"
+  },
   "createScenario": "Crea scenario",
   "loadScenario": "Carica scenario",
   "playOffline": "Gioca offline!",
@@ -279,6 +286,7 @@
   "meleeDamage": "Danno corpo a corpo",
   "rangedDamage": "Danno a distanza",
   "orgRegain": "Recupero organizzazione",
+  "reorgDebuff": "Malus recupero organizzazione",
   "speed": "Velocità",
   "speedWhenShooting": "Velocità durante il tiro",
   "receivedDamage": "Danno ricevuto",
@@ -323,7 +331,8 @@
     "3": "In recupero"
   },
   "unitEffect": {
-    "1": "Rotazione completa"
+    "1": "Ruotato di 180°",
+    "5": "Sotto tiro"
   },
   "login": "Accedi",
   "signUp": "Registrati",

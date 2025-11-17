@@ -111,6 +111,13 @@
     "randomGuide": "Rastgele haritalar oluşturmayı öğrenmek ister misiniz? <0>Bu kılavuzu</0> okuyun.",
     "baleriiMessage": "Oyuncular Balerii ve Nytka kendi harita editörlerini oluşturdular! Nasıl çalıştığını görmek için YouTube kanallarına göz atın:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Otomatik Kaydedilmiş Senaryo",
+    "message": "Otomatik kaydedilmiş bir senaryo bulundu. Düzenlemeye devam etmek mi yoksa atmak mı istiyorsunuz?",
+    "name": "İsim: {{name}}",
+    "continue": "Devam Et",
+    "discard": "At"
+  },
   "createScenario": "Senaryo Oluştur",
   "loadScenario": "Senaryo Yükle",
   "playOffline": "Çevrimdışı Oyna!",
@@ -279,6 +286,7 @@
   "meleeDamage": "Yakın dövüş hasarı",
   "rangedDamage": "Uzak mesafe hasarı",
   "orgRegain": "Organizasyon kazanımı",
+  "reorgDebuff": "Organizasyon kazanım cezası",
   "speed": "Hız",
   "speedWhenShooting": "Ateş ederken hız",
   "receivedDamage": "Alınan hasar",
@@ -323,7 +331,8 @@
     "3": "Toparlanıyor"
   },
   "unitEffect": {
-    "1": "Tam dönme"
+    "1": "180° döndürüldü",
+    "5": "Ateş altında"
   },
   "login": "Giriş Yap",
   "signUp": "Kayıt Ol",

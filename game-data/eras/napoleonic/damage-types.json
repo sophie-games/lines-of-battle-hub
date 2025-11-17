@@ -3,6 +3,7 @@
     "id": 1,
     "name": "bayonet",
     "orgDamageRatio": 250,
+    "reorgDebuff": 1.0,
     "cannotChargeAgainst": [
       "midCavalry",
       "lightCavalry",
@@ -13,33 +14,39 @@
   {
     "id": 2,
     "name": "cavalry-sabre",
-    "orgDamageRatio": 240
+    "orgDamageRatio": 240,
+    "reorgDebuff": 1.0
   },
   {
     "id": 3,
     "name": "cavalry-sword",
-    "orgDamageRatio": 240
+    "orgDamageRatio": 240,
+    "reorgDebuff": 1.0
   },
   {
     "id": 4,
     "name": "dragoon-sword",
-    "orgDamageRatio": 240
+    "orgDamageRatio": 240,
+    "reorgDebuff": 1.0
   },
   {
     "id": 5,
     "name": "artillery-sabre",
-    "orgDamageRatio": 240
+    "orgDamageRatio": 240,
+    "reorgDebuff": 1.0
   },
   {
     "id": 6,
     "name": "cavalry-lance",
-    "orgDamageRatio": 240
+    "orgDamageRatio": 240,
+    "reorgDebuff": 1.0
   },
   {
     "id": 7,
     "name": "musket",
     "ranged": true,
     "orgDamageRatio": 250,
+    "reorgDebuff": 1.0,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
@@ -73,6 +80,7 @@
     "name": "marksman-musket",
     "ranged": true,
     "orgDamageRatio": 435,
+    "reorgDebuff": 1.0,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
@@ -106,6 +114,7 @@
     "name": "rifle",
     "ranged": true,
     "orgDamageRatio": 500,
+    "reorgDebuff": 1.0,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.85,
@@ -132,6 +141,7 @@
     "name": "18lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -175,6 +185,7 @@
     "name": "12lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -227,6 +238,7 @@
     "name": "10lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -270,6 +282,7 @@
     "name": "8lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -322,6 +335,7 @@
     "name": "6lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 170,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -374,6 +388,7 @@
     "name": "4lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 165,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -426,6 +441,7 @@
     "name": "18lb-explosive-shell",
     "ranged": true,
     "orgDamageRatio": 190,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -467,6 +483,7 @@
     "name": "10lb-explosive-shell",
     "ranged": true,
     "orgDamageRatio": 190,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -508,6 +525,7 @@
     "name": "explosive-shell",
     "ranged": true,
     "orgDamageRatio": 190,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,
@@ -557,6 +575,7 @@
     "name": "18lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 210,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -586,6 +605,7 @@
     "name": "12lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 200,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -615,6 +635,7 @@
     "name": "10lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 200,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -644,6 +665,7 @@
     "name": "8lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 195,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -673,6 +695,7 @@
     "name": "6lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 190,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -702,6 +725,7 @@
     "name": "4lb-canister-fire",
     "ranged": true,
     "orgDamageRatio": 185,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -731,6 +755,7 @@
     "name": "howitzer-canister",
     "ranged": true,
     "orgDamageRatio": 225,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "ranges": [
       {
@@ -753,6 +778,7 @@
     "name": "horse-archer-bow",
     "ranged": true,
     "orgDamageRatio": 200,
+    "reorgDebuff": 1.0,
     "projectileWidth": 8,
     "ranges": [
       { "start": 0, "end": 20, "startMod": 0.5, "endMod": 0, "name": "close" },
@@ -768,6 +794,7 @@
     "name": "rocket",
     "ranged": true,
     "orgDamageRatio": 400,
+    "reorgDebuff": 1.0,
     "projectileWidth": 20,
     "diminishByTargetOrg": {
       "start": 0.8,

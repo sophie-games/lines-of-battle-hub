@@ -123,6 +123,13 @@
     "randomGuide": "Muốn học cách tạo bản đồ ngẫu nhiên? Đọc <0>hướng dẫn này</0>.",
     "baleriiMessage": "Người chơi Balerii và Nytka đã tạo ra trình chỉnh sửa bản đồ riêng của họ! Hãy xem kênh YouTube của họ để xem cách hoạt động:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Kịch bản đã tự động lưu",
+    "message": "Đã tìm thấy một kịch bản đã tự động lưu. Bạn có muốn tiếp tục chỉnh sửa hay bỏ nó?",
+    "name": "Tên: {{name}}",
+    "continue": "Tiếp tục",
+    "discard": "Bỏ"
+  },
   "createScenario": "Tạo kịch bản",
   "loadScenario": "Tải kịch bản",
   "playOffline": "Chơi ngoại tuyến!",
@@ -323,6 +330,7 @@
   "meleeDamage": "Sát thương cận chiến",
   "rangedDamage": "Sát thương tầm xa",
   "orgRegain": "Hồi phục tổ chức",
+  "reorgDebuff": "Hình phạt hồi phục tổ chức",
   "speed": "Tốc độ",
   "speedWhenShooting": "Tốc độ khi bắn",
   "receivedDamage": "Sát thương nhận",
@@ -369,11 +377,11 @@
     "3": "Hồi phục"
   },
   "unitEffect": {
-    "1": "Xoay hoàn toàn",
+    "1": "Xoay 180°",
     "2": "Đã cận chiến",
     "3": "Đã chạy",
     "4": "Bắt đầu rút lui",
-    "5": "Đã bị bắn",
+    "5": "Bị bắn",
     "6": "Đã bắn"
   },
   "login": "Đăng nhập",

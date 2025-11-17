@@ -114,6 +114,13 @@
     "randomGuide": "Chcesz nauczyć się tworzyć losowe mapy? Przeczytaj <0>ten przewodnik</0>.",
     "baleriiMessage": "Gracze Balerii i Nytka stworzyli swój własny edytor map! Sprawdź ich kanał YouTube, aby zobaczyć, jak to działa:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Automatycznie Zapisany Scenariusz",
+    "message": "Znaleziono automatycznie zapisany scenariusz. Czy chcesz kontynuować edycję czy go odrzucić?",
+    "name": "Nazwa: {{name}}",
+    "continue": "Kontynuuj",
+    "discard": "Odrzuć"
+  },
   "createScenario": "Stwórz Scenariusz",
   "loadScenario": "Załaduj Scenariusz",
   "playOffline": "Graj Offline!",
@@ -298,6 +305,7 @@
   "meleeDamage": "Obrażenia wręcz",
   "rangedDamage": "Obrażenia dystansowe",
   "orgRegain": "Odzyskiwanie Org.",
+  "reorgDebuff": "Kara odzyskiwania Org.",
   "speed": "Szybkość",
   "speedWhenShooting": "Szybkość w trakcie strzelania",
   "receivedDamage": "Otrzymywane obrażenia",
@@ -344,7 +352,7 @@
     "3": "Odpoczywa"
   },
   "unitEffect": {
-    "1": "Wykonuje pełny obrót",
+    "1": "Obrócono o 180°",
     "2": "W zwarciu",
     "3": "Uciekła",
     "4": "Rozpoczęła ucieczkę",

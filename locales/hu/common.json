@@ -111,6 +111,13 @@
     "randomGuide": "Szeretnél megtanulni véletlenszerű térképeket készíteni? Olvass <0>ezt az útmutatót</0>.",
     "baleriiMessage": "A Balerii és Nytka játékosok létrehozták a saját térképszerkesztőjüket! Nézd meg a YouTube csatornájukat, hogy lásd, hogyan működik:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Automatikusan Mentett Pálya",
+    "message": "Automatikusan mentett pálya található. Szeretnéd folytatni a szerkesztést vagy el szeretnéd dobni?",
+    "name": "Név: {{name}}",
+    "continue": "Folytatás",
+    "discard": "Elvetés"
+  },
   "createScenario": "Pálya létrehozása",
   "loadScenario": "Pálya betöltése",
   "playOffline": "Offline meccs",
@@ -279,6 +286,7 @@
   "meleeDamage": "Közelharci sebzés",
   "rangedDamage": "Távolsági sebzés",
   "orgRegain": "Org visszatöltődés",
+  "reorgDebuff": "Org-visszatöltődés büntetés",
   "speed": "Sebesség",
   "speedWhenShooting": "Lövés közbeni sebesség",
   "receivedDamage": "Ért sebződés",
@@ -323,7 +331,8 @@
     "3": "Éppen Felépül"
   },
   "unitEffect": {
-    "1": "Teljes forgatás"
+    "1": "180°-kal elforgatva",
+    "5": "Tűz alatt"
   },
   "login": "Bejelentkezés",
   "signUp": "Regisztráció",

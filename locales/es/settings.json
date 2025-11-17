@@ -106,7 +106,8 @@
     "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
     "openChat": "Abrir chat",
     "openFormationModal": "Abrir ventana de formación",
-    "toggleFullscreen": "Alternar pantalla completa"
+    "toggleFullscreen": "Alternar pantalla completa",
+    "simulateMultiTouch": "Simular Multi-toque"
   },
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"

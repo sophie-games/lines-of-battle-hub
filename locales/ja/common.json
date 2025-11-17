@@ -111,6 +111,13 @@
     "randomGuide": "ランダムマップの作成方法を学びたいですか？<0>このガイド</0>をお読みください。",
     "baleriiMessage": "プレイヤーBaleriiとNytkaが独自のマップエディターを作成しました！その仕組みを確認するために、彼らのYouTubeチャンネルをご覧ください："
   },
+  "scenarioEditorAutosave": {
+    "title": "自動保存されたシナリオ",
+    "message": "自動保存されたシナリオが見つかりました。編集を続行しますか、それとも破棄しますか？",
+    "name": "名前: {{name}}",
+    "continue": "続行",
+    "discard": "破棄"
+  },
   "createScenario": "シナリオを作成",
   "loadScenario": "シナリオを読み込む",
   "playOffline": "オフラインでプレイ！",
@@ -279,6 +286,7 @@
   "meleeDamage": "接近戦ダメージ",
   "rangedDamage": "遠距離ダメージ",
   "orgRegain": "組織回復",
+  "reorgDebuff": "組織回復ペナルティ",
   "speed": "速度",
   "speedWhenShooting": "射撃時の速度",
   "receivedDamage": "受けたダメージ",
@@ -323,7 +331,8 @@
     "3": "回復中"
   },
   "unitEffect": {
-    "1": "完全回転"
+    "1": "180°回転",
+    "5": "被弾"
   },
   "login": "ログイン",
   "signUp": "サインアップ",

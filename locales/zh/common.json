@@ -123,6 +123,13 @@
     "randomGuide": "想学习如何创建随机地图吗？可以阅读<0>此文档</0>。",
     "baleriiMessage": "Balerii和Nytka这两名玩家自制他们自己的地图编辑器！查看他们的YouTube频道来看看如何使用："
   },
+  "scenarioEditorAutosave": {
+    "title": "自动保存的战役剧本",
+    "message": "发现了一个自动保存的战役剧本。您要继续编辑还是丢弃它？",
+    "name": "名称：{{name}}",
+    "continue": "继续",
+    "discard": "丢弃"
+  },
   "createScenario": "创建战役剧本",
   "loadScenario": "加载战役剧本",
   "playOffline": "离线游玩！",
@@ -323,6 +330,7 @@
   "meleeDamage": "近战伤害",
   "rangedDamage": "远程伤害",
   "orgRegain": "组织度恢复",
+  "reorgDebuff": "组织度恢复惩罚",
   "speed": "速度",
   "speedWhenShooting": "射击时的速度",
   "receivedDamage": "受到的伤害",
@@ -369,7 +377,7 @@
     "3": "恢复"
   },
   "unitEffect": {
-    "1": "原地转向",
+    "1": "旋转180°",
     "2": "近战中",
     "3": "已疾跑",
     "4": "开始溃退",

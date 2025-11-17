@@ -123,6 +123,13 @@
     "randomGuide": "Want to learn how to create random maps? Read <0>this guide</0>.",
     "baleriiMessage": "Players Balerii and Nytka have created their own map editor! Check out their YouTube channel to see how it works:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Autosaved Scenario",
+    "message": "An autosaved scenario was found. Do you want to continue editing it or discard it?",
+    "name": "Name: {{name}}",
+    "continue": "Continue",
+    "discard": "Discard"
+  },
   "createScenario": "Create Scenario",
   "loadScenario": "Load Scenario",
   "playOffline": "Play Offline!",
@@ -323,6 +330,7 @@
   "meleeDamage": "Melee damage",
   "rangedDamage": "Ranged damage",
   "orgRegain": "Org regain",
+  "reorgDebuff": "Reorg Debuff",
   "speed": "Speed",
   "speedWhenShooting": "Speed when shooting",
   "receivedDamage": "Received damage",
@@ -369,11 +377,11 @@
     "3": "Recovering"
   },
   "unitEffect": {
-    "1": "Full rotating",
+    "1": "Rotated 180°",
     "2": "Been in melee",
     "3": "Has ran",
     "4": "Started routing",
-    "5": "Has taken fire",
+    "5": "Taken fire",
     "6": "Has fired"
   },
   "login": "Login",

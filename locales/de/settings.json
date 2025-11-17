@@ -106,7 +106,8 @@
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
     "openChat": "Chat öffnen",
     "openFormationModal": "Formationsfenster öffnen",
-    "toggleFullscreen": "Vollbild umschalten"
+    "toggleFullscreen": "Vollbild umschalten",
+    "simulateMultiTouch": "Multi-Touch simulieren"
   },
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"

@@ -111,6 +111,13 @@
     "randomGuide": "Möchten Sie lernen, wie man zufällige Karten erstellt? Lesen Sie <0>diese Anleitung</0>.",
     "baleriiMessage": "Die Spieler Balerii und Nytka haben ihren eigenen Karteneditor erstellt! Schauen Sie sich ihren YouTube-Kanal an, um zu sehen, wie es funktioniert:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Automatisch Gespeichertes Szenario",
+    "message": "Ein automatisch gespeichertes Szenario wurde gefunden. Möchten Sie die Bearbeitung fortsetzen oder es verwerfen?",
+    "name": "Name: {{name}}",
+    "continue": "Fortsetzen",
+    "discard": "Verwerfen"
+  },
   "createScenario": "Szenario erstellen",
   "loadScenario": "Szenario laden",
   "playOffline": "Offline spielen!",
@@ -279,6 +286,7 @@
   "meleeDamage": "Nahkampfschaden",
   "rangedDamage": "Fernkampfschaden",
   "orgRegain": "Org Wiedergewinnung",
+  "reorgDebuff": "Org-Wiedergewinnungs-Malus",
   "speed": "Geschwindigkeit",
   "speedWhenShooting": "Geschwindigkeit beim Schießen",
   "receivedDamage": "Erhaltener Schaden",
@@ -323,7 +331,8 @@
     "3": "Erholen sich"
   },
   "unitEffect": {
-    "1": "Volle Drehung"
+    "1": "180° gedreht",
+    "5": "Unter Beschuss"
   },
   "login": "Anmeldung",
   "signUp": "Registrieren",

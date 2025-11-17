@@ -112,6 +112,13 @@
     "randomGuide": "Ingin belajar cara membuat peta acak? Baca <0>panduan ini</0>.",
     "baleriiMessage": "Pemain Balerii dan Nytka telah membuat editor peta sendiri! Lihat saluran YouTube mereka untuk melihat cara kerjanya:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Skenario Tersimpan Otomatis",
+    "message": "Skenario tersimpan otomatis ditemukan. Apakah Anda ingin melanjutkan mengedit atau membuangnya?",
+    "name": "Nama: {{name}}",
+    "continue": "Lanjutkan",
+    "discard": "Buang"
+  },
   "createScenario": "Buat Skenario",
   "loadScenario": "Muat Skenario",
   "playOffline": "Bermain Offline!",
@@ -281,6 +288,7 @@
   "meleeDamage": "Kerusakan Jarak Dekat",
   "rangedDamage": "Kerusakan Jarak Jauh",
   "orgRegain": "Organisasi pulih",
+  "reorgDebuff": "Penalti pemulihan organisasi",
   "speed": "Kecepatan",
   "speedWhenShooting": "Kecepatan sambil menembak",
   "receivedDamage": "Kerusakan yang diterima",
@@ -325,7 +333,8 @@
     "3": "Memulihkan Diri"
   },
   "unitEffect": {
-    "1": "Rotasi penuh"
+    "1": "Diputar 180°",
+    "5": "Tertembak"
   },
   "login": "Login",
   "signUp": "Daftar",
