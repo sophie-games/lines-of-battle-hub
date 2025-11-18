@@ -1053,7 +1053,7 @@
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
-    "rangedDamageTypes": ["rocket"],
+    "rangedDamageTypes": ["rocket", "rocket-long"],
     "chargeBonus": 5,
     "walkMovement": 65,
     "runStartUpMovement": 16,

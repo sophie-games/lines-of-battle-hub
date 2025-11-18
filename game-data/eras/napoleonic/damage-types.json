@@ -816,7 +816,7 @@
   },
   {
     "id": 27,
-    "name": "rocket-close",
+    "name": "rocket",
     "ranged": true,
     "orgDamageRatio": 400,
     "reorgDebuff": 1.0,
@@ -834,12 +834,13 @@
         "startMod": 1.35,
         "endMod": 1.35
       },
-      { "start": 80, 
-        "end": 175, 
-        "startMod": 1.35, 
+      {
+        "start": 80,
+        "end": 175,
+        "startMod": 1.35,
         "endMod": 0.35,
-        "name": "close",
-      },
+        "name": "close"
+      }
     ],
     "arcHeight": 0.3,
     "cannotUseAfterRun": true,
