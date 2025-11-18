@@ -4,7 +4,7 @@
     "name": "bayonet",
     "orgDamageRatio": 250,
     "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
+    "attackEffectDuration": 4,
     "cannotChargeAgainst": [
       "midCavalry",
       "lightCavalry",
@@ -15,35 +15,35 @@
   {
     "id": 2,
     "name": "cavalry-sabre",
-    "orgDamageRatio": 240,
+    "orgDamageRatio": 260,
     "reorgDebuff": 1.0,
-    "attackEffectDuration": 6
+    "attackEffectDuration": 4
   },
   {
     "id": 3,
     "name": "cavalry-sword",
-    "orgDamageRatio": 240,
+    "orgDamageRatio": 260,
     "reorgDebuff": 1.0,
-    "attackEffectDuration": 6
+    "attackEffectDuration": 4
   },
   {
     "id": 4,
     "name": "dragoon-sword",
-    "orgDamageRatio": 240,
+    "orgDamageRatio": 260,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6
   },
   {
     "id": 5,
     "name": "artillery-sabre",
-    "orgDamageRatio": 240,
+    "orgDamageRatio": 260,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6
   },
   {
     "id": 6,
     "name": "cavalry-lance",
-    "orgDamageRatio": 240,
+    "orgDamageRatio": 260,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6
   },
@@ -52,9 +52,9 @@
     "name": "musket",
     "ranged": true,
     "orgDamageRatio": 250,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 12,
+    "reorgDebuff": 0.8,
+    "attackEffectDuration": 8,
+    "projectileWidth": 9,
     "diminishByTargetOrg": {
       "start": 0.9,
       "end": 0.7,
@@ -87,8 +87,8 @@
     "name": "marksman-musket",
     "ranged": true,
     "orgDamageRatio": 435,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
+    "reorgDebuff": 0.5,
+    "attackEffectDuration": 12,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.9,
@@ -122,8 +122,8 @@
     "name": "rifle",
     "ranged": true,
     "orgDamageRatio": 500,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
+    "reorgDebuff": 0.5,
+    "attackEffectDuration": 12,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.85,
@@ -149,10 +149,10 @@
     "id": 10,
     "name": "18lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 170,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 185,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.55,
@@ -194,10 +194,10 @@
     "id": 11,
     "name": "12lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 170,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 185,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.55,
@@ -248,10 +248,10 @@
     "id": 12,
     "name": "10lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 170,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 185,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.55,
@@ -293,10 +293,10 @@
     "id": 13,
     "name": "8lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 170,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 185,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.55,
@@ -347,10 +347,10 @@
     "id": 14,
     "name": "6lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 170,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 185,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.55,
@@ -401,10 +401,10 @@
     "id": 15,
     "name": "4lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 165,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 185,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.55,
@@ -455,10 +455,10 @@
     "id": 16,
     "name": "18lb-explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 190,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 195,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.6,
@@ -498,10 +498,10 @@
     "id": 17,
     "name": "10lb-explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 190,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 195,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.6,
@@ -541,10 +541,10 @@
     "id": 18,
     "name": "explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 190,
-    "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "orgDamageRatio": 185,
+    "reorgDebuff": 0.6,
+    "attackEffectDuration": 24,
+    "projectileWidth": 12,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.6,
@@ -595,7 +595,7 @@
     "orgDamageRatio": 210,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -626,7 +626,7 @@
     "orgDamageRatio": 200,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -654,10 +654,9 @@
     "id": 21,
     "name": "10lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 200,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -688,7 +687,7 @@
     "orgDamageRatio": 195,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -719,7 +718,7 @@
     "orgDamageRatio": 190,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -750,7 +749,7 @@
     "orgDamageRatio": 185,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -781,7 +780,7 @@
     "orgDamageRatio": 225,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "projectileWidth": 12,
     "ranges": [
       {
         "start": 0,
@@ -817,12 +816,12 @@
   },
   {
     "id": 27,
-    "name": "rocket",
+    "name": "rocket-close",
     "ranged": true,
     "orgDamageRatio": 400,
     "reorgDebuff": 1.0,
-    "attackEffectDuration": 6,
-    "projectileWidth": 20,
+    "attackEffectDuration": 4,
+    "projectileWidth": 24,
     "diminishByTargetOrg": {
       "start": 0.8,
       "end": 0.6,
@@ -831,16 +830,56 @@
     "ranges": [
       {
         "start": 0,
-        "end": 100,
-        "startMod": 1,
-        "endMod": 1,
-        "name": "close"
+        "end": 80,
+        "startMod": 1.35,
+        "endMod": 1.35
       },
-      { "start": 100, "end": 200, "startMod": 1, "endMod": 0.3 },
+      { "start": 80, 
+        "end": 175, 
+        "startMod": 1.35, 
+        "endMod": 0.35,
+        "name": "close",
+      },
+    ],
+    "arcHeight": 0.3,
+    "cannotUseAfterRun": true,
+    "projectilePenetration": 0.75,
+    "areaOfEffect": {
+      "type": "circular",
+      "ranges": [
+        {
+          "start": 18,
+          "end": 175,
+          "startRadius": 18,
+          "endRadius": 32
+        }
+      ],
+      "edgeDamageModifier": -0.1,
+      "absorptionModifier": 1.25
+    },
+    "shotSound": "rocket-volley",
+    "shotAnim": "rocketVolley",
+    "shotImpactAnim": "shellImpact",
+    "ammoCost": 116
+  },
+  {
+    "id": 27,
+    "name": "rocket-long",
+    "ranged": true,
+    "orgDamageRatio": 350,
+    "reorgDebuff": 0.8,
+    "attackEffectDuration": 4,
+    "projectileWidth": 24,
+    "diminishByTargetOrg": {
+      "start": 0.8,
+      "end": 0.6,
+      "modifier": -0.6
+    },
+    "ranges": [
       {
-        "start": 200,
+        "start": 160,
         "end": 450,
-        "startMod": 0.3,
+        "startMod": 0.35,
         "endMod": -0.9,
         "name": "long"
       }
@@ -852,13 +891,13 @@
       "type": "circular",
       "ranges": [
         {
-          "start": 20,
+          "start": 175,
           "end": 450,
-          "startRadius": 20,
-          "endRadius": 56
+          "startRadius": 32,
+          "endRadius": 58
         }
       ],
-      "edgeDamageModifier": -0.1,
+      "edgeDamageModifier": -0.05,
       "absorptionModifier": 1.25
     },
     "shotSound": "rocket-volley",
