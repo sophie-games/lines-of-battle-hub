@@ -898,7 +898,8 @@
       "10lb-cannon-ball",
       "18lb-cannon-ball",
       "10lb-explosive-shell",
-      "18lb-explosive-shell"
+      "18lb-explosive-shell",
+      "rocket-long"
     ],
     "locked": true,
     "canDeployForward": true,
@@ -964,7 +965,8 @@
       "10lb-cannon-ball",
       "18lb-cannon-ball",
       "10lb-explosive-shell",
-      "18lb-explosive-shell"
+      "18lb-explosive-shell",
+      "rocket-long"
     ],
     "canDeployForward": true,
     "reducedVisibilityRange": 16,
