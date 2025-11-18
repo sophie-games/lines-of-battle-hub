@@ -158,9 +158,9 @@
       "end": 0.55,
       "modifier": -0.4
     },
-    "ranges": [{ "start": 110, "end": 310, "startMod": 0.15, "endMod": 0 }],
+    "ranges": [{ "start": 110, "end": 250, "startMod": 0.15, "endMod": 0 }],
     "arcHeight": 0.5,
-    "enfiladeFire": true,
+    "enfiladeFire": false,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
@@ -169,12 +169,12 @@
         {
           "start": 110,
           "end": 250,
-          "startTopWidth": 22,
-          "endTopWidth": 48,
+          "startTopWidth": 24,
+          "endTopWidth": 50,
           "startBottomWidth": 20,
           "endBottomWidth": 38,
-          "startHeight": 38,
-          "endHeight": 56
+          "startHeight": 40,
+          "endHeight": 60
         }
       ],
       "absorptionModifier": 2,
@@ -208,13 +208,13 @@
       {
         "start": 250,
         "end": 500,
-        "startMod": -0.1,
-        "endMod": -0.8,
+        "startMod": -0.15,
+        "endMod": -0.75,
         "name": "long"
       }
     ],
     "arcHeight": 0.5,
-    "enfiladeFire": true,
+    "enfiladeFire": false,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
@@ -224,11 +224,11 @@
           "start": 145,
           "end": 500,
           "startTopWidth": 22,
-          "endTopWidth": 72,
+          "endTopWidth": 74,
           "startBottomWidth": 18,
-          "endBottomWidth": 54,
+          "endBottomWidth": 58,
           "startHeight": 58,
-          "endHeight": 82
+          "endHeight": 86
         }
       ],
       "absorptionModifier": 2,
@@ -259,7 +259,7 @@
     },
     "ranges": [{ "start": 105, "end": 250, "startMod": 0.2, "endMod": 0.1 }],
     "arcHeight": 0.5,
-    "enfiladeFire": true,
+    "enfiladeFire": false,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
@@ -269,11 +269,11 @@
           "start": 90,
           "end": 220,
           "startTopWidth": 28,
-          "endTopWidth": 36,
+          "endTopWidth": 40,
           "startBottomWidth": 16,
-          "endBottomWidth": 28,
+          "endBottomWidth": 32,
           "startHeight": 26,
-          "endHeight": 40
+          "endHeight": 44
         }
       ],
       "absorptionModifier": 2,
@@ -308,12 +308,12 @@
         "start": 240,
         "end": 435,
         "startMod": -0.05,
-        "endMod": -0.75,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
     "arcHeight": 0.5,
-    "enfiladeFire": true,
+    "enfiladeFire": false,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
@@ -322,12 +322,12 @@
         {
           "start": 135,
           "end": 435,
-          "startTopWidth": 18,
-          "endTopWidth": 62,
-          "startBottomWidth": 16,
-          "endBottomWidth": 46,
-          "startHeight": 42,
-          "endHeight": 68
+          "startTopWidth": 20,
+          "endTopWidth": 66,
+          "startBottomWidth": 18,
+          "endBottomWidth": 48,
+          "startHeight": 44,
+          "endHeight": 72
         }
       ],
       "absorptionModifier": 2,
@@ -361,13 +361,13 @@
       {
         "start": 225,
         "end": 400,
-        "startMod": -0.05,
-        "endMod": -0.8,
+        "startMod": -0.1,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
     "arcHeight": 0.5,
-    "enfiladeFire": true,
+    "enfiladeFire": false,
     "cannotUseAfterRun": true,
     "projectilePenetration": 0.75,
     "areaOfEffect": {
@@ -376,12 +376,12 @@
         {
           "start": 120,
           "end": 400,
-          "startTopWidth": 18,
-          "endTopWidth": 50,
-          "startBottomWidth": 14,
-          "endBottomWidth": 36,
-          "startHeight": 30,
-          "endHeight": 64
+          "startTopWidth": 20,
+          "endTopWidth": 54,
+          "startBottomWidth": 16,
+          "endBottomWidth": 38,
+          "startHeight": 34,
+          "endHeight": 68
         }
       ],
       "absorptionModifier": 2.0,
@@ -395,7 +395,7 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 132
+    "ammoCost": 136
   },
   {
     "id": 15,
@@ -416,7 +416,7 @@
         "start": 200,
         "end": 375,
         "startMod": -0.1,
-        "endMod": -0.75,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -433,9 +433,9 @@
           "startTopWidth": 16,
           "endTopWidth": 38,
           "startBottomWidth": 12,
-          "endBottomWidth": 26,
+          "endBottomWidth": 32,
           "startHeight": 24,
-          "endHeight": 44
+          "endHeight": 48
         }
       ],
       "absorptionModifier": 2.0,
