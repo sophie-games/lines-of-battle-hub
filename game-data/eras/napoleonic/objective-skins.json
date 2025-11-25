@@ -38,90 +38,70 @@
   {
     "id": 7,
     "name": "france-napoleonic-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 8,
     "name": "spain-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 9,
     "name": "ming-dynasty-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 10,
     "name": "argentina-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 11,
     "name": "mexican-empire-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 12,
     "name": "qing-dynasty-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 13,
     "name": "britain-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 14,
     "name": "prussia-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 15,
     "name": "austria-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 16,
     "name": "russia-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350,
     "locked": true
@@ -129,63 +109,49 @@
   {
     "id": 17,
     "name": "japan-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 18,
     "name": "united-states-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 19,
     "name": "kingdom-of-france-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 20,
     "name": "xiangqi",
-    "base": {
-      "sprite": "xiangqi"
-    },
+    "base": "xiangqi",
     "tier": 3,
     "premiumPrice": 720
   },
   {
     "id": 21,
     "name": "russian-imperial-standard",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 22,
     "name": "brazilian-empire-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 23,
     "name": "ottoman-empire-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
@@ -193,9 +159,7 @@
   {
     "id": 24,
     "name": "greece-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
@@ -203,18 +167,14 @@
   {
     "id": 25,
     "name": "sweden-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   },
   {
     "id": 26,
     "name": "chilean-flag",
-    "base": {
-      "sprite": "square-flag"
-    },
+    "base": "square-flag",
     "tier": 2,
     "premiumPrice": 350
   },
@@ -222,7 +182,7 @@
   {
     "id": 27,
     "name": "imperial-ottoman-standard",
-    "base": { "sprite": "imperial-ottoman-standard" },
+    "base": "imperial-ottoman-standard",
     "tier": 3,
     "premiumPrice": 720
   },
@@ -230,9 +190,7 @@
   {
     "id": 28,
     "name": "denmark-flag",
-    "base": {
-      "sprite": "base-flag"
-    },
+    "base": "base-flag",
     "tier": 2,
     "premiumPrice": 350
   }
