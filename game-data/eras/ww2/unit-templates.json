@@ -10,15 +10,17 @@
     "chargeResistance": -0.35,
     "runChargeResistanceModifier": 0.6,
     "chargePenetration": 0.28,
-    "walkMovement": 125,
-    "runMovement": 195,
+    "walkMovement": 50,
+    "runMovement": 0,
     "timeToRun": 3,
     "runCost": 96,
     "hp": 550,
     "org": 575,
+    "supply": 100,
+    "supplyConsumption": 10,
     "orgRadius": 64,
     "orgRadiusBonus": 3,
-    "movementSound": "cavalry-movement",
+    "movementSound": "infantry-movement",
     "manpower": 125,
     "gold": 75,
     "rotationSpeed": 100,
@@ -36,12 +38,15 @@
         "id": "default",
         "collisionCircles": 1,
         "collisionCircleSize": 16,
+        "_comment": "consider changing this, unit sprite is 16px, collision circle is also 16px but it could be bigger if really needed",
         "width": 16,
         "height": 16,
         "baseSprite": "circle",
         "overlaySprite": null
       }
-    ]
+    ],
+    "pushStrength": 20,
+    "pushDistance": 1
   },
   {
     "name": "tank_division",
@@ -54,15 +59,17 @@
     "chargeResistance": -0.35,
     "runChargeResistanceModifier": 0.6,
     "chargePenetration": 0.28,
-    "walkMovement": 125,
-    "runMovement": 195,
+    "walkMovement": 100,
+    "runMovement": 0,
     "timeToRun": 3,
     "runCost": 96,
     "hp": 550,
     "org": 575,
+    "supply": 100,
+    "supplyConsumption": 12,
     "orgRadius": 64,
     "orgRadiusBonus": 3,
-    "movementSound": "cavalry-movement",
+    "movementSound": "infantry-movement",
     "manpower": 125,
     "gold": 75,
     "rotationSpeed": 100,
@@ -85,9 +92,10 @@
         "baseSprite": "circle",
         "overlaySprite": "tank"
       }
-    ]
+    ],
+    "pushStrength": 40,
+    "pushDistance": 2
   },
-
   {
     "name": "unknown",
     "type": 20,
@@ -102,7 +110,7 @@
     "runCost": 1,
     "hp": 1,
     "org": 1,
-    "stamina": 1,
+    "supply": 1,
     "movementSound": "infantry-movement",
     "manpower": 200,
     "gold": 50,
@@ -127,6 +135,8 @@
         "baseSprite": "unknown",
         "overlaySprite": null
       }
-    ]
+    ],
+    "pushStrength": 0,
+    "pushDistance": 0
   }
 ]

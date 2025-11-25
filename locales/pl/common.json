@@ -176,13 +176,16 @@
     "meleeDefense": "Obrona Wręcz",
     "chargeBonus": "Bonus Szarży",
     "chargePenetration": "Penetracja Szarży",
+    "pushStrength": "Siła Pchania",
+    "pushDistance": "Dystans Pchania",
     "orgRadius": "Dystans Org.",
     "orgRadiusBonus": "Bonus Dystansu Org.",
     "rangedAttack": "Atak Dystansowy",
     "limberMovement": "Ruch Zaprzodkowany",
     "chargeResistance": "Odporność na Szarżę",
     "status": "Stan",
-    "timeToRun": "Czas do ucieczki"
+    "timeToRun": "Czas do ucieczki",
+    "supplyConsumption": "Zużycie Zaopatrzenia"
   },
   "category": "Kategoria",
   "damageResistances": "Odporność na Obrażenia",

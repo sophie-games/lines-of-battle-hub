@@ -172,12 +172,15 @@
     "meleeDefense": "Nahkampfverteidigung",
     "chargeBonus": "Ansturmbonus",
     "chargePenetration": "Ansturmdurchdringung",
+    "pushStrength": "Schubkraft",
+    "pushDistance": "Schubdistanz",
     "orgRadius": "Org Radius",
     "orgRadiusBonus": "Org Radius Bonus",
     "rangedAttack": "Fernkampfangriff",
     "limberMovement": "Protzenfortbewegung",
     "chargeResistance": "Ansturmwiderstandskraft",
-    "status": "Status"
+    "status": "Status",
+    "supplyConsumption": "Versorgungsverbrauch"
   },
   "category": "Kategorie",
   "damageResistances": "Wiederstandsfähigkeiten gegen Schaden",

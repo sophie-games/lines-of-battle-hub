@@ -173,12 +173,15 @@
     "meleeDefense": "Ketahanan Jarak Dekat",
     "chargeBonus": "Bonus Serangan",
     "chargePenetration": "Penetrasi Serangan",
+    "pushStrength": "Kekuatan Dorong",
+    "pushDistance": "Jarak Dorong",
     "orgRadius": "Radius Organisasi",
     "orgRadiusBonus": "Bonus Radius Organisasi",
     "rangedAttack": "Serangan Jarak Jauh",
     "limberMovement": "Gerakan Lentur",
     "chargeResistance": "Daya Tahan Serangan",
-    "status": "Status"
+    "status": "Status",
+    "supplyConsumption": "Konsumsi Pasokan"
   },
   "category": "Kategori",
   "damageResistances": "Resistensi Kerusakan",

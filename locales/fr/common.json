@@ -162,12 +162,15 @@
     "meleeDefense": "Défense en mêlée",
     "chargeBonus": "Bonus en charge",
     "chargePenetration": "Engouffrement en charge",
+    "pushStrength": "Force de poussée",
+    "pushDistance": "Distance de poussée",
     "orgRadius": "Rayon d'organisation",
     "orgRadiusBonus": "Rayon de bonus d'organisation",
     "rangedAttack": "Attaque à distance",
     "limberMovement": "Mouvement tracté",
     "chargeResistance": "Résistance aux charges",
-    "status": "Statut"
+    "status": "Statut",
+    "supplyConsumption": "Consommation de Ravitaillement"
   },
   "category": "Catégorie",
   "damageResistances": "Résistances aux dégâts",

@@ -104,7 +104,8 @@
     "openChat": "Ouvrir le chat",
     "openFormationModal": "Ouvrir la fenêtre de formation",
     "toggleFullscreen": "Basculer le plein écran",
-    "simulateMultiTouch": "Simuler le multi-touch"
+    "simulateMultiTouch": "Simuler le multi-touch",
+    "toggleSupplyLines": "Basculer les lignes de ravitaillement"
   },
   "routingTransparency": {
     "title": "Transparence des unités en déroute"

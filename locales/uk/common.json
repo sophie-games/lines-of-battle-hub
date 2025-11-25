@@ -172,12 +172,15 @@
     "meleeDefense": "Рукопашний захист",
     "chargeBonus": "Бонус при натиску",
     "chargePenetration": "Пробивна сила натиску",
+    "pushStrength": "Сила поштовху",
+    "pushDistance": "Дистанція поштовху",
     "orgRadius": "Радіус бойового духу",
     "orgRadiusBonus": "бонус до радіусу впорядкування",
     "rangedAttack": "Стрільба",
     "limberMovement": "Походний рух",
     "chargeResistance": "Стійкість до натиску",
-    "status": "Статус"
+    "status": "Статус",
+    "supplyConsumption": "Витрата постачання"
   },
   "category": "Категорія",
   "damageResistances": "Стійкість до ушкоджень",

@@ -172,12 +172,15 @@
     "meleeDefense": "Defesa Corpo a Corpo",
     "chargeBonus": "Bônus de Carga",
     "chargePenetration": "Penetração de Carga",
+    "pushStrength": "Força de Empurrão",
+    "pushDistance": "Distância de Empurrão",
     "orgRadius": "Raio de Organização",
     "orgRadiusBonus": "Bônus de Raio de Organização",
     "rangedAttack": "Ataque à Distância",
     "limberMovement": "Movimento Desmontado",
     "chargeResistance": "Resistência à Carga",
-    "status": "Status"
+    "status": "Status",
+    "supplyConsumption": "Consumo de Suprimentos"
   },
   "category": "Categoria",
   "damageResistances": "Resistências a Dano",

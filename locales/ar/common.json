@@ -185,6 +185,8 @@
     "meleeDefense": "دفاع قريب",
     "chargeBonus": "مكافأة الهجوم",
     "chargePenetration": "اختراق الهجوم",
+    "pushStrength": "قوة الدفع",
+    "pushDistance": "مسافة الدفع",
     "orgRadius": "نطاق التنظيم",
     "orgRadiusBonus": "مكافأة نطاق التنظيم",
     "rangedAttack": "هجوم بعيد",
@@ -192,7 +194,8 @@
     "chargeResistance": "مقاومة الهجوم",
     "status": "الحالة",
     "timeToRun": "وقت الجري",
-    "runCost": "تكلفة الجري"
+    "runCost": "تكلفة الجري",
+    "supplyConsumption": "استهلاك الإمدادات"
   },
   "category": "الفئة",
   "routingBehavior": "سلوك الفرار",

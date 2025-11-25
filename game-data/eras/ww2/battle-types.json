@@ -10,7 +10,7 @@
       "19": 1
     },
     "eloKFactor": 20,
-    "captureSmallObjectiveThreshold": 8,
+    "captureSmallObjectiveThreshold": 1,
     "captureBigObjectiveThreshold": 20
   },
   "combat": {
@@ -24,7 +24,7 @@
       "19": 1
     },
     "eloKFactor": 28,
-    "captureSmallObjectiveThreshold": 8,
+    "captureSmallObjectiveThreshold": 1,
     "captureBigObjectiveThreshold": 28
   },
   "battle": {
@@ -38,7 +38,7 @@
       "19": 2
     },
     "eloKFactor": 32,
-    "captureSmallObjectiveThreshold": 8,
+    "captureSmallObjectiveThreshold": 1,
     "captureBigObjectiveThreshold": 32
   },
   "grand_battle": {
@@ -52,7 +52,7 @@
       "19": 2
     },
     "eloKFactor": 32,
-    "captureSmallObjectiveThreshold": 8,
+    "captureSmallObjectiveThreshold": 1,
     "captureBigObjectiveThreshold": 36
   }
 }

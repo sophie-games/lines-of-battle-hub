@@ -107,7 +107,8 @@
     "openChat": "Abrir chat",
     "openFormationModal": "Abrir ventana de formación",
     "toggleFullscreen": "Alternar pantalla completa",
-    "simulateMultiTouch": "Simular Multi-toque"
+    "simulateMultiTouch": "Simular Multi-toque",
+    "toggleSupplyLines": "Alternar líneas de suministro"
   },
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"

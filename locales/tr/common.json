@@ -172,12 +172,15 @@
     "meleeDefense": "Yakın Savunma",
     "chargeBonus": "Hücum Bonusu",
     "chargePenetration": "Hücum Penetrasyonu",
+    "pushStrength": "İtme Gücü",
+    "pushDistance": "İtme Mesafesi",
     "orgRadius": "Organizasyon Yarıçapı",
     "orgRadiusBonus": "Organizasyon Yarıçap Bonusu",
     "rangedAttack": "Uzak Saldırı",
     "limberMovement": "Hafif Hareket",
     "chargeResistance": "Hücum Direnci",
-    "status": "Durum"
+    "status": "Durum",
+    "supplyConsumption": "İkmal Tüketimi"
   },
   "category": "Kategori",
   "damageResistances": "Hasar Dirençleri",

@@ -107,7 +107,8 @@
     "openChat": "Chat öffnen",
     "openFormationModal": "Formationsfenster öffnen",
     "toggleFullscreen": "Vollbild umschalten",
-    "simulateMultiTouch": "Multi-Touch simulieren"
+    "simulateMultiTouch": "Multi-Touch simulieren",
+    "toggleSupplyLines": "Versorgungslinien umschalten"
   },
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"

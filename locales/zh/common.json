@@ -185,6 +185,8 @@
     "meleeDefense": "近战防御",
     "chargeBonus": "冲锋加成",
     "chargePenetration": "冲锋穿透",
+    "pushStrength": "推力强度",
+    "pushDistance": "推力距离",
     "orgRadius": "组织度影响范围",
     "orgRadiusBonus": "组织度范围加成",
     "rangedAttack": "远程攻击",
@@ -192,7 +194,8 @@
     "chargeResistance": "冲锋抗性",
     "status": "状态",
     "timeToRun": "疾跑时间",
-    "runCost": "疾跑消耗"
+    "runCost": "疾跑消耗",
+    "supplyConsumption": "补给消耗"
   },
   "category": "类别",
   "routingBehavior": "寻路行为",

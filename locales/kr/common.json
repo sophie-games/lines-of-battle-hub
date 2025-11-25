@@ -181,6 +181,8 @@
     "meleeDefense": "근접방어력",
     "chargeBonus": "돌격 혜택",
     "chargePenetration": "돌격 돌파력",
+    "pushStrength": "밀어내기 강도",
+    "pushDistance": "밀어내기 거리",
     "orgRadius": "조직력 범위",
     "orgRadiusBonus": "조직력 범위 혜택",
     "rangedAttack": "사격공격력",
@@ -188,7 +190,8 @@
     "chargeResistance": "돌격 저항력",
     "status": "상태",
     "timeToRun": "주행까지의 시간",
-    "runCost": "주행 비용"
+    "runCost": "주행 비용",
+    "supplyConsumption": "보급 소비"
   },
   "category": "유형",
   "routingBehavior": "궤멸 중 행동",

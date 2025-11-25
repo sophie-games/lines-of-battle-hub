@@ -172,12 +172,15 @@
     "meleeDefense": "白兵防御",
     "chargeBonus": "突撃ボーナス",
     "chargePenetration": "突撃貫通力",
+    "pushStrength": "押しの強さ",
+    "pushDistance": "押しの距離",
     "orgRadius": "編成範囲",
     "orgRadiusBonus": "編成範囲ボーナス",
     "rangedAttack": "遠距離攻撃",
     "limberMovement": "砲架移動",
     "chargeResistance": "突撃耐性",
-    "status": "ステータス"
+    "status": "ステータス",
+    "supplyConsumption": "補給消費"
   },
   "category": "カテゴリー",
   "damageResistances": "ダメージ耐性",

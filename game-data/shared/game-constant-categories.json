@@ -2,7 +2,7 @@
   "TICKS_PER_TURN": "gameMechanics",
   "COLLISION_DETECTION_SUBTICKS": "collision",
   "COLLISION_CHECK_RADIUS": "collision",
-  "COLLISION_BOUNCE_SCALE": "collision",
+  "COLLISION_PUSH_MAX_ANGLE_RANGE_DEGREES": "collision",
 
   "UNIT_HITBOX_ALTITUDE": "unitDimensions",
   "UNIT_RANGE_MARGIN": "unitDimensions",
@@ -43,8 +43,6 @@
   "CAN_LEAVE_MAP_MIN_ORG": "mapBoundaries",
   "CAN_LEAVE_MAP_MIN_HP_PROPORTION": "mapBoundaries",
 
-  "ORG_SPEED_MODIFIER": "organization",
-
   "ATTACK_COOLDOWN": "combat",
 
   "MELEE_STAMINA_TURN_COST": "stamina",
@@ -56,22 +54,8 @@
   "STAMINA_RANGE_4_REGAIN_RATE": "stamina",
   "STAMINA_RANGE_5_REGAIN_RATE": "stamina",
 
-  "MAX_ORG_DEBUFF_MIN_HP_PROPORTION": "organization",
-  "MAX_ORG_DEBUFF_HP": "organization",
-  "MAX_ORG_DEBUFF_STAMINA": "organization",
-  "MAX_ORG_DEBUFF_STAMINA_HIGH_PROPORTION": "organization",
-  "MAX_ORG_DEBUFF_STAMINA_LOW_PROPORTION": "organization",
-
   "STAMINA_UPPER_MODIFIER_LIMIT": "stamina",
   "STAMINA_LOWER_MODIFIER_LIMIT": "stamina",
-
-  "ALLY_OVERLAP_MAX_SPEED_PENALTY": "allyBehavior",
-  "ALLY_OVERLAP_MAX_ORG_DAMAGE_RECEIVED": "allyBehavior",
-  "ALLY_OVERLAP_MAX_MELEE_ATTACK_PENALTY": "allyBehavior",
-  "ALLY_OVERLAP_MAX_RANGED_ATTACK_PENALTY": "allyBehavior",
-  "ALLY_OVERLAP_UPPER_MODIFIER_LIMIT": "allyBehavior",
-  "ALLY_OVERLAP_LOWER_MODIFIER_LIMIT": "allyBehavior",
-  "ALLY_OVERLAP_STOP_CHARGE": "allyBehavior",
 
   "STAMINA_CHARGE_RESISTANCE_MODIFIER": "stamina",
   "CHARGE_RESISTANCE_LOSS_BY_ORG": "combat",
@@ -83,46 +67,16 @@
   "MAX_STAMINA_MELEE_DEFENSE_PENALTY": "stamina",
 
   "MAX_HP_RANGED_ATTACK_PENALTY": "combat",
-  "MAX_ORG_RANGED_ATTACK_PENALTY": "combat",
 
   "MAX_HP_MELEE_ATTACK_BONUS": "combat",
   "MAX_HP_MELEE_ATTACK_PENALTY": "combat",
 
-  "MAX_ORG_MELEE_ATTACK_BONUS": "combat",
-  "MAX_ORG_MELEE_ATTACK_PENALTY": "combat",
-
-  "ORG_REGAIN_RATE": "organization",
-  "RECOVER_FROM_ROUTING_THRESHOLD": "routing",
-  "ORG_UPPER_MODIFIER_LIMIT": "organization",
-  "ORG_LOWER_MODIFIER_LIMIT": "organization",
-
   "NEARBY_UNITS_DISTANCE": "unitProximity",
-  "NEARBY_UNITS_POSITIVE_ORG_BONUS_CAP": "unitProximity",
-  "NEARBY_UNITS_NEGATIVE_ORG_BONUS_CAP": "unitProximity",
-  "NEARBY_UNITS_ORG_DAMAGE_MODIFIER_CAP": "unitProximity",
   "NEARBY_UNITS_CHARGE_RESISTANCE_MODIFIER_CAP": "unitProximity",
   "NEARBY_UNITS_CHARGE_PENETRATION_MODIFIER_CAP": "unitProximity",
-  "ROUTING_UNIT_NEARBY_UNITS_ORG_BONUS": "unitProximity",
 
-  "STARTED_ROUTING_ORG_RADIUS_MODIFIER": "routing",
-  "MAX_ALLY_OVERLAP_ORG_RADIUS_MODIFIER": "allyBehavior",
-
-  "SAFE_ORG_RECOVERY_MODIFIER": "organization",
-  "SAFE_DISTANCE": "organization",
-
-  "DISTANT_THREAT_ORG_RECOVERY_MODIFIER": "organization",
-  "DISTANT_THREAT_DISTANCE": "organization",
-  "ROUTING_ORG_RECOVERY_MODIFIER": "routing",
-
-  "MAX_ORG_RECOVERY_BY_HP_MODIFIER": "organization",
-  "MIN_HP_PROPORTION_FOR_SAFE_RECOVERY": "organization",
-
-  "ORG_VICTORY_POINTS_THRESHOLD": "victoryPoints",
-  "NO_VICTORY_POINTS_ORG_MODIFIER": "victoryPoints",
-  "ORG_VPS_MODIFIER_MULTIPLIER": "victoryPoints",
   "MIN_EFFECTIVE_VPS": "victoryPoints",
 
-  "OBJECTIVE_RADIUS": "objectives",
   "SHOT_TRAJECTORY_TARGET_ALTITUDE": "combat",
 
   "OFFER_DRAW_COOLDOWN": "gameMechanics",
@@ -168,7 +122,6 @@
   "VP_TOTAL_OBJECTIVE_POINTS": "victoryPoints",
   "VP_BASE_POINTS": "victoryPoints",
   "VP_POINTS_TO_TIE_BREAK": "victoryPoints",
-  "OBJECTIVE_PRESSURE_THRESHOLD": "objectives",
 
   "DEFAULT_AMMO_RESERVE": "ammunition",
 

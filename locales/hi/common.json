@@ -185,6 +185,8 @@
     "meleeDefense": "हाथापाई रक्षा",
     "chargeBonus": "चार्ज बोनस",
     "chargePenetration": "चार्ज प्रवेश",
+    "pushStrength": "धक्का शक्ति",
+    "pushDistance": "धक्का दूरी",
     "orgRadius": "संगठन त्रिज्या",
     "orgRadiusBonus": "संगठन त्रिज्या बोनस",
     "rangedAttack": "दूरस्थ हमला",
@@ -192,7 +194,8 @@
     "chargeResistance": "चार्ज प्रतिरोध",
     "status": "स्थिति",
     "timeToRun": "दौड़ने का समय",
-    "runCost": "दौड़ने की लागत"
+    "runCost": "दौड़ने की लागत",
+    "supplyConsumption": "आपूर्ति खपत"
   },
   "category": "श्रेणी",
   "routingBehavior": "भागने का व्यवहार",

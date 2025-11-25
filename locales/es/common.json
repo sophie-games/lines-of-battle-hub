@@ -172,13 +172,16 @@
     "meleeDefense": "Defensa cuerpo a cuerpo",
     "chargeBonus": "Bono de carga",
     "chargePenetration": "Penetración de carga",
+    "pushStrength": "Fuerza de empuje",
+    "pushDistance": "Distancia de empuje",
     "orgRadius": "Radio de org",
     "orgRadiusBonus": "Bono de radio de org",
     "rangedAttack": "Ataque a distancia",
     "limberMovement": "Movimiento enganchado",
     "chargeResistance": "Resistencia a la carga",
     "status": "Estado",
-    "timeToRun": "Tiempo para correr"
+    "timeToRun": "Tiempo para correr",
+    "supplyConsumption": "Consumo de Suministros"
   },
   "category": "Categoría",
   "damageResistances": "Resistencias al Daño",

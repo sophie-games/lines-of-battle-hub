@@ -3,6 +3,7 @@
   "description": "A windswept, frozen tundra with vast snowfields, scattered icy lakes, and sparse winter forests. Vegetation is rare and the landscape is mostly flat, with occasional rocky outcrops.",
   "type": "classic",
   "baseTerrain": 8,
+  "ranked": true,
   "instructions": [
     {
       "type": "HEIGHT_NOISE",

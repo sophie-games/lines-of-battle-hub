@@ -185,6 +185,8 @@
     "meleeDefense": "Ближний бой - Защита",
     "chargeBonus": "Натиск",
     "chargePenetration": "Мощь натиска",
+    "pushStrength": "Сила толчка",
+    "pushDistance": "Дистанция толчка",
     "orgRadius": "Радиус организации",
     "orgRadiusBonus": "Бонус к радиусу организации",
     "rangedAttack": "Огневая мощь",
@@ -192,7 +194,8 @@
     "chargeResistance": "Сопротивление натиску",
     "status": "Статус",
     "timeToRun": "Время на бег",
-    "runCost": "Стоимость бега"
+    "runCost": "Стоимость бега",
+    "supplyConsumption": "Расход снабжения"
   },
   "category": "Категория",
   "routingBehavior": "Поведение при бегстве",

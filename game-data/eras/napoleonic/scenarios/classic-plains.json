@@ -3,6 +3,7 @@
   "description": "Smooth rolling hills cut apart by rivers and dotted by various forests and towns, connected together by extensive roads Made by Incerus",
   "type": "classic",
   "baseTerrain": 0,
+  "ranked": true,
   "instructions": [
     {
       "type": "HEIGHT_NOISE",

@@ -185,6 +185,8 @@
     "meleeDefense": "Phòng thủ cận chiến",
     "chargeBonus": "Thưởng xung kích",
     "chargePenetration": "Xuyên thủng xung kích",
+    "pushStrength": "Sức đẩy",
+    "pushDistance": "Khoảng cách đẩy",
     "orgRadius": "Bán kính tổ chức",
     "orgRadiusBonus": "Thưởng bán kính tổ chức",
     "rangedAttack": "Tấn công tầm xa",
@@ -192,7 +194,8 @@
     "chargeResistance": "Kháng xung kích",
     "status": "Trạng thái",
     "timeToRun": "Thời gian chạy",
-    "runCost": "Chi phí chạy"
+    "runCost": "Chi phí chạy",
+    "supplyConsumption": "Tiêu thụ Tiếp tế"
   },
   "category": "Danh mục",
   "routingBehavior": "Hành vi rút lui",

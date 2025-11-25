@@ -184,6 +184,8 @@
     "meleeDefense": "Melee Defense",
     "chargeBonus": "Μπόνους όρμισης",
     "chargePenetration": "Διείσδυση όρμισης",
+    "pushStrength": "Δύναμη ώθησης",
+    "pushDistance": "Απόσταση ώθησης",
     "orgRadius": "Ακτίνα org",
     "orgRadiusBonus": "Μπόνους Οργανικής Ακτίνας",
     "rangedAttack": "Έυρος επίθεσης",
@@ -191,7 +193,8 @@
     "chargeResistance": "Αντίσταση όρμισης",
     "status": "Κατάσταση",
     "timeToRun": "Ώρα τρεξίματος",
-    "runCost": "Κόστος εκτέλεσης"
+    "runCost": "Κόστος εκτέλεσης",
+    "supplyConsumption": "Κατανάλωση Προμήθειας"
   },
   "category": "Κατηγορία",
   "damageResistances": "Αντιστάσεις σε φθορές",

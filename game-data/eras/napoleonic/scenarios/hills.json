@@ -2,6 +2,7 @@
   "name": "Hills",
   "description": "Flat grasslands where tactical battles take place on randomly generated maps. The hills may include patches of forests and scattered buildings, adding strategic depth to unit positioning and gameplay.",
   "type": "random",
+  "ranked": true,
   "instructions": [
     {
       "type": "HEIGHT_NOISE",

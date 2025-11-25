@@ -172,12 +172,15 @@
     "meleeDefense": "Közelharci védekezés",
     "chargeBonus": "Roham-bónusz",
     "chargePenetration": "Roham-áttörés",
+    "pushStrength": "Lökés erő",
+    "pushDistance": "Lökés távolság",
     "orgRadius": "Org sugár",
     "orgRadiusBonus": "Org sugár bónusz",
     "rangedAttack": "Távolsági támadás",
     "limberMovement": "Ágyútaliga mozgása",
     "chargeResistance": "Roham-ellenállás",
-    "status": "Státusz"
+    "status": "Státusz",
+    "supplyConsumption": "Ellátmány Fogyasztás"
   },
   "category": "Kategória",
   "damageResistances": "Sebzés ellenállás",
