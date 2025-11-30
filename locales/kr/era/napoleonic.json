@@ -121,5 +121,10 @@
     "line": "횡대",
     "column": "종대",
     "square": "방진"
+  },
+  "reportStats": {
+    "men": "병사",
+    "horse": "군마",
+    "guns": "포"
   }
 }

@@ -81,6 +81,10 @@
   },
   "reset": "Reset",
   "drawLineFormation": "Gambar Formasi Garis",
+  "disableDrawLines": {
+    "title": "Nonaktifkan Garis Gambar",
+    "description": "Saat diaktifkan, selalu menggunakan formasi jalur gambar (garis gambar dinonaktifkan). Saat dinonaktifkan, menggunakan formasi garis gambar saat menyeret dengan beberapa unit."
+  },
   "straightLineTolerance": "Toleransi Garis Lurus",
   "spaceBetweenUnits": "Jarak Antar Unit",
   "spaceBetweenLines": "Jarak Antar Baris",

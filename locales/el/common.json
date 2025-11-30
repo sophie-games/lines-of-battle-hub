@@ -426,11 +426,7 @@
     "unknown": "Άγνωστος λόγος."
   },
   "strength": "Δύναμη",
-  "horse": "Αλογα",
-  "guns": "Όπλα",
   "casualties": "Θύματα",
-  "horseLost": "Απωλειες Αλόγων",
-  "gunsLost": "Απωλειες οπλών",
   "noRewards": "Χωρίς ανταμοιβές",
   "clan": "Συμμαχία",
   "clans": "Συμμαχίες",
@@ -730,5 +726,7 @@
   },
   "timeToForm": "Χρόνος για Σχηματισμό",
   "timeToUnform": "Χρόνος για Αποσχηματισμό",
-  "formingSpeedModifier": "Ταχύτητα κατά τον Σχηματισμό"
+  "formingSpeedModifier": "Ταχύτητα κατά τον Σχηματισμό",
+  "logistics": "Εφοδιαστική",
+  "logisticsConsumption": "Κ. Εφοδιασμού"
 }

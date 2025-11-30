@@ -89,5 +89,10 @@
     "line": "Linie",
     "column": "Kolonne",
     "square": "Karree"
+  },
+  "reportStats": {
+    "men": "Männer",
+    "horse": "Pferde",
+    "guns": "Kanonen"
   }
 }

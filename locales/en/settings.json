@@ -110,6 +110,10 @@
     "goToPatreon": "Go to Patreon"
   },
   "drawLineFormation": "Draw Line Formation",
+  "disableDrawLines": {
+    "title": "Disable Draw Lines",
+    "description": "When enabled, always use draw path formation (draw lines disabled). When disabled, use draw line formation when dragging with multiple units."
+  },
   "straightLineTolerance": "Straight Line Tolerance",
   "spaceBetweenUnits": "Space between units",
   "spaceBetweenLines": "Space between lines",

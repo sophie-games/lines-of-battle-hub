@@ -90,5 +90,10 @@
     "line": "Ligne",
     "column": "Colonne",
     "square": "Carré"
+  },
+  "reportStats": {
+    "men": "Hommes",
+    "horse": "Chevaux",
+    "guns": "Canons"
   }
 }

@@ -85,5 +85,10 @@
     "line": "横隊",
     "column": "縦隊",
     "square": "方陣"
+  },
+  "reportStats": {
+    "men": "兵士",
+    "horse": "馬",
+    "guns": "大砲"
   }
 }

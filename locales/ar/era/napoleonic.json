@@ -121,5 +121,10 @@
     "line": "خط",
     "column": "عمود",
     "square": "مربع"
+  },
+  "reportStats": {
+    "men": "رجال",
+    "horse": "حصان",
+    "guns": "مدافع"
   }
 }

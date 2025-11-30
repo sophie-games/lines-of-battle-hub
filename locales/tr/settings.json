@@ -81,6 +81,10 @@
   },
   "reset": "Sıfırla",
   "drawLineFormation": "Hat Formasyonu Çiz",
+  "disableDrawLines": {
+    "title": "Çizim Çizgilerini Devre Dışı Bırak",
+    "description": "Etkinleştirildiğinde, her zaman çizim yolu formasyonunu kullanır (çizim çizgileri devre dışı). Devre dışı bırakıldığında, birden fazla birimle sürüklerken çizim çizgisi formasyonunu kullanır."
+  },
   "straightLineTolerance": "Düz Çizgi Toleransı",
   "spaceBetweenUnits": "Birimler Arasındaki Boşluk",
   "spaceBetweenLines": "Hatlar Arasındaki Boşluk",

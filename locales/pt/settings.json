@@ -81,6 +81,10 @@
   },
   "reset": "Redefinir",
   "drawLineFormation": "Desenhar formação em linha",
+  "disableDrawLines": {
+    "title": "Desativar linhas de desenho",
+    "description": "Quando habilitado, sempre usa a formação de caminho de desenho (linhas de desenho desativadas). Quando desativado, usa a formação de linha de desenho ao arrastar com múltiplas unidades."
+  },
   "straightLineTolerance": "Tolerância de linha reta",
   "spaceBetweenUnits": "Espaço entre unidades",
   "spaceBetweenLines": "Espaço entre linhas",

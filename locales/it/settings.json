@@ -81,6 +81,10 @@
   },
   "reset": "Ripristina",
   "drawLineFormation": "Disegna formazione in linea",
+  "disableDrawLines": {
+    "title": "Disabilita linee di disegno",
+    "description": "Quando abilitato, usa sempre la formazione di percorso di disegno (linee di disegno disabilitate). Quando disabilitato, usa la formazione di linea di disegno durante il trascinamento con più unità."
+  },
   "straightLineTolerance": "Tolleranza linea retta",
   "spaceBetweenUnits": "Spazio tra le unità",
   "spaceBetweenLines": "Spazio tra le linee",

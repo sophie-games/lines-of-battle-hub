@@ -415,5 +415,12 @@
     "name": "white-lily",
     "tier": 3,
     "premiumPrice": 1250
+  },
+
+  {
+    "id": 62,
+    "name": "andrew-jackson",
+    "tier": 1,
+    "premiumPrice": 100
   }
 ]

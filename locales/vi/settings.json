@@ -106,6 +106,10 @@
     "goToPatreon": "Đi đến Patreon"
   },
   "drawLineFormation": "Vẽ đội hình tuyến",
+  "disableDrawLines": {
+    "title": "Tắt vẽ đường",
+    "description": "Khi bật, luôn sử dụng đội hình đường dẫn vẽ (vẽ đường bị tắt). Khi tắt, sử dụng đội hình vẽ đường khi kéo với nhiều đơn vị."
+  },
   "straightLineTolerance": "Dung sai đường thẳng",
   "spaceBetweenUnits": "Khoảng cách giữa các đơn vị",
   "spaceBetweenLines": "Khoảng cách giữa các hàng",

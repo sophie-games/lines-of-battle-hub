@@ -103,5 +103,10 @@
     "line": "Linia",
     "column": "Kolumna",
     "square": "Kwadrat"
+  },
+  "reportStats": {
+    "men": "Ludzie",
+    "horse": "Konie",
+    "guns": "Działa"
   }
 }

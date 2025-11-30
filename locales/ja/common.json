@@ -388,9 +388,7 @@
     "unknown": "不明な理由。"
   },
   "strength": "力",
-  "guns": "大砲",
   "casualties": "犠牲者",
-  "gunsLost": "失われた大砲",
   "noRewards": "報酬なし",
   "clan": "連合",
   "clans": "連合軍",
@@ -537,5 +535,7 @@
   },
   "timeToForm": "編成時間",
   "timeToUnform": "解散時間",
-  "formingSpeedModifier": "編成時の速度"
+  "formingSpeedModifier": "編成時の速度",
+  "logistics": "兵站",
+  "logisticsConsumption": "兵站消費"
 }

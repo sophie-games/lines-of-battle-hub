@@ -489,5 +489,7 @@
   },
   "timeToForm": "Alakítási Idő",
   "timeToUnform": "Felbontási Idő",
-  "formingSpeedModifier": "Alakítási Sebesség"
+  "formingSpeedModifier": "Alakítási Sebesség",
+  "logistics": "Logisztika",
+  "logisticsConsumption": "L. Fogyasztás"
 }

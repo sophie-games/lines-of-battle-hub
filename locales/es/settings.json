@@ -81,6 +81,10 @@
   },
   "reset": "Restablecer",
   "drawLineFormation": "Dibujar formación en línea",
+  "disableDrawLines": {
+    "title": "Desactivar líneas de dibujo",
+    "description": "Cuando está habilitado, siempre usa la formación de ruta de dibujo (líneas de dibujo desactivadas). Cuando está deshabilitado, usa la formación de línea de dibujo al arrastrar con múltiples unidades."
+  },
   "straightLineTolerance": "Tolerancia de línea recta",
   "spaceBetweenUnits": "Espacio entre unidades",
   "spaceBetweenLines": "Espacio entre líneas",

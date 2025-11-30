@@ -390,9 +390,7 @@
     "unknown": "Bilinmeyen neden."
   },
   "strength": "Güç",
-  "guns": "Toplar",
   "casualties": "Kayıplar",
-  "gunsLost": "Kayıp Toplar",
   "noRewards": "Ödül yok",
   "clan": "Koalisyon",
   "clans": "Koalisyonlar",
@@ -540,5 +538,7 @@
   },
   "timeToForm": "Oluşturma Süresi",
   "timeToUnform": "Dağıtma Süresi",
-  "formingSpeedModifier": "Oluşturma Hızı"
+  "formingSpeedModifier": "Oluşturma Hızı",
+  "logistics": "Lojistik",
+  "logisticsConsumption": "L. Tüketimi"
 }

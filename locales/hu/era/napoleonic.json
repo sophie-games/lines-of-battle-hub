@@ -77,5 +77,10 @@
     "line": "Sor",
     "column": "Oszlop",
     "square": "Négyzet"
+  },
+  "reportStats": {
+    "men": "Emberek",
+    "horse": "Lovak",
+    "guns": "Ágyúk"
   }
 }

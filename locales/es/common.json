@@ -403,11 +403,7 @@
     "unknown": "Razón desconocida."
   },
   "strength": "Fuerza",
-  "horse": "Caballos",
-  "guns": "Cañones",
   "casualties": "Bajas",
-  "horseLost": "Caballos perdidos",
-  "gunsLost": "Cañones perdidos",
   "noRewards": "Sin recompensas",
   "clan": "Coalición",
   "clans": "Coaliciones",
@@ -671,5 +667,7 @@
   },
   "timeToForm": "Tiempo para Formar",
   "timeToUnform": "Tiempo para Desformar",
-  "formingSpeedModifier": "Velocidad al Formar"
+  "formingSpeedModifier": "Velocidad al Formar",
+  "logistics": "Logística",
+  "logisticsConsumption": "C. Logística"
 }

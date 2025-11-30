@@ -388,9 +388,7 @@
     "unknown": "Motivo desconhecido."
   },
   "strength": "Força",
-  "guns": "Canhões",
   "casualties": "Baixas",
-  "gunsLost": "Canhões perdidos",
   "noRewards": "Sem recompensas",
   "clan": "Coalizão",
   "clans": "Coalizões",
@@ -538,5 +536,7 @@
   },
   "timeToForm": "Tempo para Formar",
   "timeToUnform": "Tempo para Desformar",
+  "logistics": "Logística",
+  "logisticsConsumption": "C. Logística",
   "formingSpeedModifier": "Velocidade ao Formar"
 }

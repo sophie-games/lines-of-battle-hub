@@ -74,6 +74,10 @@
   },
   "reset": "Reset",
   "drawLineFormation": "Rysuj formację liniową",
+  "disableDrawLines": {
+    "title": "Wyłącz linie rysowania",
+    "description": "Gdy włączone, zawsze używa formacji ścieżki rysowania (linie rysowania wyłączone). Gdy wyłączone, używa formacji linii rysowania podczas przeciągania z wieloma jednostkami."
+  },
   "straightLineTolerance": "Tolerancja linii prostej",
   "spaceBetweenUnits": "Odległość między jednostkami",
   "spaceBetweenLines": "Odległość między liniami",

@@ -388,9 +388,7 @@
     "unknown": "Unbekannter Grund."
   },
   "strength": "Stärke",
-  "guns": "Kanonen",
   "casualties": "Verluste",
-  "gunsLost": "Verlorene Kanonen",
   "noRewards": "Keine Belohnungen",
   "clan": "Koalition",
   "clans": "Koalitionen",
@@ -537,5 +535,7 @@
   },
   "timeToForm": "Zeit zum Formieren",
   "timeToUnform": "Zeit zum Auflösen",
-  "formingSpeedModifier": "Geschwindigkeit beim Formieren"
+  "formingSpeedModifier": "Geschwindigkeit beim Formieren",
+  "logistics": "Logistik",
+  "logisticsConsumption": "L. Verbrauch"
 }

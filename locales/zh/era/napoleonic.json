@@ -110,5 +110,10 @@
     "line": "横队",
     "column": "纵队",
     "square": "方阵"
+  },
+  "reportStats": {
+    "men": "人员",
+    "horse": "马匹",
+    "guns": "火炮"
   }
 }

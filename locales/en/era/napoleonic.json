@@ -121,5 +121,10 @@
     "line": "Line",
     "column": "Column",
     "square": "Square"
+  },
+  "reportStats": {
+    "men": "Men",
+    "horse": "Horse",
+    "guns": "Guns"
   }
 }

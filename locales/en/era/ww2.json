@@ -19,5 +19,9 @@
   "damageType": {
     "soft_attack": "Soft Attack",
     "hard_attack": "Hard Attack"
+  },
+  "reportStats": {
+    "men": "Men",
+    "tanks": "Tanks"
   }
 }

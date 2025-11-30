@@ -105,5 +105,5 @@
   "INITIAL_ELO": 1200,
 
   "UNKNOWN_UNIT_TYPE": 20,
-  "DEFAULT_SCENARIO": "ww2-battle"
+  "DEFAULT_SCENARIO": "battle-of-moscow"
 }

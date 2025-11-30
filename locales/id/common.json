@@ -392,9 +392,7 @@
     "unknown": "Alasan tidak diketahui."
   },
   "strength": "Kekuatan",
-  "guns": "Senjata",
   "casualties": "Korban",
-  "gunsLost": "Senjata yang hilang atau rusak",
   "noRewards": "Tidak ada hadiah",
   "clan": "Koalisi",
   "clans": "Koalisi",
@@ -544,5 +542,7 @@
   "hide": "Sembunyikan",
   "timeToForm": "Waktu untuk Membentuk",
   "timeToUnform": "Waktu untuk Membubarkan",
-  "formingSpeedModifier": "Kecepatan saat Membentuk"
+  "formingSpeedModifier": "Kecepatan saat Membentuk",
+  "logistics": "Logistik",
+  "logisticsConsumption": "K. Logistik"
 }

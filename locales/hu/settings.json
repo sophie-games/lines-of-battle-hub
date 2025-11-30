@@ -81,6 +81,10 @@
   },
   "reset": "Reset",
   "drawLineFormation": "Vonalalakzat rajzolása",
+  "disableDrawLines": {
+    "title": "Rajzolási vonalak letiltása",
+    "description": "Ha engedélyezve van, mindig a rajzolási útvonal alakzatot használja (rajzolási vonalak letiltva). Ha letiltva van, több egységgel húzáskor a rajzolási vonal alakzatot használja."
+  },
   "straightLineTolerance": "Egyenes vonal tűrés",
   "spaceBetweenUnits": "Egységek közötti távolság",
   "spaceBetweenLines": "Sorok közötti távolság",

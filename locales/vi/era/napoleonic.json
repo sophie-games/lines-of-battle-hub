@@ -121,5 +121,10 @@
     "line": "Hàng",
     "column": "Cột",
     "square": "Vuông"
+  },
+  "reportStats": {
+    "men": "Người",
+    "horse": "Ngựa",
+    "guns": "Súng"
   }
 }

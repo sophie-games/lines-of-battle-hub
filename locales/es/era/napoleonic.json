@@ -93,5 +93,10 @@
     "line": "Línea",
     "column": "Columna",
     "square": "Cuadro"
+  },
+  "reportStats": {
+    "men": "Hombres",
+    "horse": "Caballos",
+    "guns": "Cañones"
   }
 }

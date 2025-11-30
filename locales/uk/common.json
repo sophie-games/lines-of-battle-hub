@@ -388,9 +388,7 @@
     "unknown": "Невідома причина."
   },
   "strength": "Сила",
-  "guns": "Гармати",
   "casualties": "Втрати",
-  "gunsLost": "Втрачено гармат",
   "noRewards": "Нагород немає",
   "clan": "Коаліція",
   "clans": "Коаліції",
@@ -532,5 +530,7 @@
   "hide": "Приховати",
   "timeToForm": "Час на Формування",
   "timeToUnform": "Час на Розформування",
-  "formingSpeedModifier": "Швидкість при Формуванні"
+  "formingSpeedModifier": "Швидкість при Формуванні",
+  "logistics": "Логістика",
+  "logisticsConsumption": "С. логістики"
 }

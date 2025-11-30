@@ -86,5 +86,10 @@
     "line": "Hat",
     "column": "Sütun",
     "square": "Kare"
+  },
+  "reportStats": {
+    "men": "Erkekler",
+    "horse": "Atlar",
+    "guns": "Toplar"
   }
 }

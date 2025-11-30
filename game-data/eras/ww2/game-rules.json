@@ -4,7 +4,8 @@
     "influenceRadius": 3,
     "upperModifierLimit": 0.8,
     "lowerModifierLimit": 0.2,
-    "supplyHubRadius": 16
+    "supplyHubRadius": 16,
+    "defaultLogistics": 500
   },
   "objectives": {
     "radius": 16,

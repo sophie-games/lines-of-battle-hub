@@ -106,6 +106,10 @@
     "goToPatreon": "Patreon으로"
   },
   "drawLineFormation": "선형진 그리기",
+  "disableDrawLines": {
+    "title": "그리기 선 비활성화",
+    "description": "활성화되면 항상 그리기 경로 진형을 사용합니다(그리기 선 비활성화). 비활성화되면 여러 부대로 드래그할 때 그리기 선 진형을 사용합니다."
+  },
   "straightLineTolerance": "직선 허용 오차",
   "spaceBetweenUnits": "부대 간 공간",
   "spaceBetweenLines": "선형진 간 공간",

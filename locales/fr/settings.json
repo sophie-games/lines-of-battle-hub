@@ -78,6 +78,10 @@
   },
   "reset": "Réinitialiser",
   "drawLineFormation": "Dessiner la formation en ligne",
+  "disableDrawLines": {
+    "title": "Désactiver les lignes de dessin",
+    "description": "Lorsqu'il est activé, utilise toujours la formation de chemin de dessin (lignes de dessin désactivées). Lorsqu'il est désactivé, utilise la formation de ligne de dessin lors du glissement avec plusieurs unités."
+  },
   "straightLineTolerance": "Tolérance de ligne droite",
   "spaceBetweenUnits": "Espace entre les unités",
   "spaceBetweenLines": "Espace entre les lignes",

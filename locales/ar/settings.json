@@ -106,6 +106,10 @@
     "goToPatreon": "الذهاب إلى Patreon"
   },
   "drawLineFormation": "رسم تشكيل الخط",
+  "disableDrawLines": {
+    "title": "تعطيل خطوط الرسم",
+    "description": "عند التمكين، استخدم دائماً تشكيل مسار الرسم (خطوط الرسم معطلة). عند التعطيل، استخدم تشكيل خط الرسم عند السحب بوحدات متعددة."
+  },
   "straightLineTolerance": "تسامح الخط المستقيم",
   "spaceBetweenUnits": "المسافة بين الوحدات",
   "spaceBetweenLines": "المسافة بين الخطوط",

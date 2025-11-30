@@ -106,6 +106,10 @@
     "goToPatreon": "前往Patreon"
   },
   "drawLineFormation": "绘制线形编队",
+  "disableDrawLines": {
+    "title": "禁用绘制线条",
+    "description": "启用时，始终使用绘制路径编队（绘制线条已禁用）。禁用时，在拖动多个单位时使用绘制线条编队。"
+  },
   "straightLineTolerance": "直线容差",
   "spaceBetweenUnits": "单位之间的间距",
   "spaceBetweenLines": "前后列之间的间距",

@@ -414,11 +414,7 @@
     "unknown": "Nieznany powód."
   },
   "strength": "Siła",
-  "horse": "Konie",
-  "guns": "Działa",
   "casualties": "Ofiary",
-  "horseLost": "Stracone Konie",
-  "gunsLost": "Stracone Działa",
   "noRewards": "Brak Nagród",
   "clan": "Koalicja",
   "clans": "Koalicje",
@@ -705,5 +701,7 @@
   },
   "timeToForm": "Czas na Formowanie",
   "timeToUnform": "Czas na Rozformowanie",
-  "formingSpeedModifier": "Prędkość podczas Formowania"
+  "formingSpeedModifier": "Prędkość podczas Formowania",
+  "logistics": "Logistyka",
+  "logisticsConsumption": "K. Logistyki"
 }

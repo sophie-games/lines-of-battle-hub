@@ -78,5 +78,10 @@
     "line": "Baris",
     "column": "Kolom",
     "square": "Kotak"
+  },
+  "reportStats": {
+    "men": "Prajurit",
+    "horse": "Kuda",
+    "guns": "Senjata"
   }
 }

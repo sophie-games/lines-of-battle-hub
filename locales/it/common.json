@@ -388,9 +388,7 @@
     "unknown": "Motivo sconosciuto."
   },
   "strength": "Forza",
-  "guns": "Cannoni",
   "casualties": "Vittime",
-  "gunsLost": "Cannoni persi",
   "noRewards": "Nessuna ricompensa",
   "clan": "Coalizione",
   "clans": "Coalizioni",
@@ -538,5 +536,7 @@
   },
   "timeToForm": "Tempo per Formare",
   "timeToUnform": "Tempo per Sciogliere",
+  "logistics": "Logistica",
+  "logisticsConsumption": "C. Logistica",
   "formingSpeedModifier": "Velocità durante la Formazione"
 }

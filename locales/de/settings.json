@@ -81,6 +81,10 @@
   },
   "reset": "Zurücksetzen",
   "drawLineFormation": "Linienformation zeichnen",
+  "disableDrawLines": {
+    "title": "Zeichnungslinien deaktivieren",
+    "description": "Wenn aktiviert, wird immer die Pfadformation verwendet (Zeichnungslinien deaktiviert). Wenn deaktiviert, wird die Linienformation beim Ziehen mit mehreren Einheiten verwendet."
+  },
   "straightLineTolerance": "Geradlinigkeitstoleranz",
   "spaceBetweenUnits": "Abstand zwischen Einheiten",
   "spaceBetweenLines": "Abstand zwischen Linien",
