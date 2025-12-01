@@ -57,7 +57,8 @@
         "overlaySprite": "line-square"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 1,
+    "pushDistance": 0.25
   },
   {
     "name": "dragoons",
@@ -106,7 +107,8 @@
         "overlaySprite": "dragoons"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 2,
+    "pushDistance": 0.25
   },
   {
     "name": "8lb_artillery",
@@ -161,7 +163,8 @@
         "overlaySprite": null
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "guards",
@@ -223,7 +226,8 @@
         "overlaySprite": "guard-square"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 1,
+    "pushDistance": 0.25
   },
   {
     "name": "lancers",
@@ -274,7 +278,8 @@
         "overlaySprite": "lancers"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 2,
+    "pushDistance": 0.25
   },
   {
     "name": "6lb_artillery",
@@ -330,7 +335,8 @@
         "overlaySprite": "horse-artillery"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "light_infantry",
@@ -393,7 +399,8 @@
         "overlaySprite": "chasseurs-square"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 1,
+    "pushDistance": 0.25
   },
   {
     "name": "cuirassiers",
@@ -444,7 +451,8 @@
         "overlaySprite": "cuirassiers"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 2,
+    "pushDistance": 0.25
   },
   {
     "name": "6in_howitzer",
@@ -499,7 +507,8 @@
         "overlaySprite": null
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "militia",
@@ -551,7 +560,8 @@
         "overlaySprite": "militia"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 1,
+    "pushDistance": 0.25
   },
   {
     "name": "hussars",
@@ -601,7 +611,8 @@
         "overlaySprite": "cavalry"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 2,
+    "pushDistance": 0.25
   },
   {
     "name": "12lb_artillery",
@@ -654,7 +665,8 @@
         "overlaySprite": null
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "horse_archers",
@@ -710,7 +722,8 @@
         "overlaySprite": "horse-archers"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 2,
+    "pushDistance": 0.25
   },
   {
     "name": "grenadiers",
@@ -770,7 +783,8 @@
         "overlaySprite": "grenadier-square"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 1,
+    "pushDistance": 0.25
   },
   {
     "name": "4lb_artillery",
@@ -826,7 +840,8 @@
         "overlaySprite": null
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "skirmishers",
@@ -893,7 +908,8 @@
         "overlaySprite": "skirmishers"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "rifles",
@@ -960,7 +976,8 @@
         "overlaySprite": "rifles"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "6lb_artillery",
@@ -1013,7 +1030,8 @@
         "overlaySprite": null
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "rockets",
@@ -1069,7 +1087,8 @@
         "overlaySprite": "rockets"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "unknown",
@@ -1115,7 +1134,8 @@
         "overlaySprite": null
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "unknown_infantry",
@@ -1161,7 +1181,8 @@
         "overlaySprite": "unknown-infantry"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "unknown_cavalry",
@@ -1207,7 +1228,8 @@
         "overlaySprite": "unknown-cavalry"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "unknown_artillery",
@@ -1252,7 +1274,8 @@
         "overlaySprite": "unknown-artillery"
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "10lb_licorne",
@@ -1311,7 +1334,8 @@
         "overlaySprite": null
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   },
   {
     "name": "18lb_licorne",
@@ -1370,6 +1394,7 @@
         "overlaySprite": null
       }
     ],
-    "pushStrength": 0
+    "pushStrength": 0,
+    "pushDistance": 0
   }
 ]
