@@ -3,15 +3,15 @@
     "name": "line_infantry",
     "type": 1,
     "category": "infantry",
-    "rangedAttack": 21,
-    "meleeAttack": 48,
-    "meleeDefense": 31,
+    "rangedAttack": 24,
+    "meleeAttack": 46,
+    "meleeDefense": 30,
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
-    "chargeBonus": 75,
+    "chargeBonus": 65,
     "chargeResistance": 0.65,
     "runChargeResistanceModifier": -1.35,
-    "chargePenetration": 0.6,
+    "chargePenetration": 0.5,
     "walkMovement": 70,
     "runMovement": 110,
     "timeToRun": 4,
@@ -36,34 +36,23 @@
       "horse": 0,
       "guns": 0
     },
-    "collisionCircles": 4,
-    "collisionCircleSize": 12,
-    "defaultFormation": "column",
+    "defaultFormation": "default",
     "formations": [
       {
-        "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 20,
-        "width": 20,
-        "height": 20,
-        "baseSprite": "column",
-        "overlaySprite": "infantry"
-      },
-      {
-        "id": "line",
-        "collisionCircles": 3,
+        "id": "default",
+        "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 12,
-        "height": 36,
-        "baseSprite": "line",
-        "overlaySprite": "infantry-line"
+        "height": 24,
+        "baseSprite": "default",
+        "overlaySprite": "infantry"
       },
       {
         "id": "square",
         "collisionCircles": 1,
-        "collisionCircleSize": 24,
-        "width": 24,
-        "height": 24,
+        "collisionCircleSize": 20,
+        "width": 20,
+        "height": 20,
         "baseSprite": "square",
         "overlaySprite": "line-square"
       }
@@ -113,7 +102,7 @@
         "collisionCircleSize": 12,
         "width": 12,
         "height": 24,
-        "baseSprite": "cavalry",
+        "baseSprite": "default",
         "overlaySprite": "dragoons"
       }
     ],
@@ -178,15 +167,15 @@
     "name": "guards",
     "type": 4,
     "category": "infantry",
-    "rangedAttack": 23,
-    "meleeAttack": 49,
-    "meleeDefense": 32,
+    "rangedAttack": 25,
+    "meleeAttack": 47,
+    "meleeDefense": 31,
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
-    "chargeBonus": 85,
+    "chargeBonus": 75,
     "chargeResistance": 0.7,
     "runChargeResistanceModifier": -1.25,
-    "chargePenetration": 0.7,
+    "chargePenetration": 0.6,
     "walkMovement": 70,
     "runMovement": 110,
     "timeToRun": 4,
@@ -213,34 +202,23 @@
     "rotationMaxThreshold": 0.5,
     "runRotationSpeed": 0.195,
     "turningDelay": 8,
-    "collisionCircles": 3,
-    "collisionCircleSize": 12,
-    "defaultFormation": "column",
+    "defaultFormation": "default",
     "formations": [
       {
-        "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 20,
-        "width": 20,
-        "height": 20,
-        "baseSprite": "column",
-        "overlaySprite": "guards"
-      },
-      {
-        "id": "line",
-        "collisionCircles": 3,
+        "id": "default",
+        "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 12,
-        "height": 36,
-        "baseSprite": "line",
-        "overlaySprite": "guards-line"
+        "height": 24,
+        "baseSprite": "default",
+        "overlaySprite": "guards"
       },
       {
         "id": "square",
         "collisionCircles": 1,
-        "collisionCircleSize": 24,
-        "width": 24,
-        "height": 24,
+        "collisionCircleSize": 20,
+        "width": 20,
+        "height": 20,
         "baseSprite": "square",
         "overlaySprite": "guard-square"
       }
@@ -292,7 +270,7 @@
         "collisionCircleSize": 12,
         "width": 12,
         "height": 24,
-        "baseSprite": "cavalry",
+        "baseSprite": "default",
         "overlaySprite": "lancers"
       }
     ],
@@ -358,15 +336,15 @@
     "name": "light_infantry",
     "type": 7,
     "category": "infantry",
-    "rangedAttack": 26,
-    "meleeAttack": 48,
-    "meleeDefense": 31,
+    "rangedAttack": 30,
+    "meleeAttack": 46,
+    "meleeDefense": 30,
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
-    "chargeBonus": 80,
+    "chargeBonus": 70,
     "chargeResistance": 0.65,
     "runChargeResistanceModifier": -1.35,
-    "chargePenetration": 0.6,
+    "chargePenetration": 0.5,
     "walkMovement": 70,
     "runMovement": 115,
     "timeToRun": 4,
@@ -390,38 +368,27 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 0.35,
+    "rotationSpeed": 0.3,
     "rotationMaxThreshold": 0.54,
     "runRotationSpeed": 0.21,
     "turningDelay": 8,
-    "collisionCircles": 3,
-    "collisionCircleSize": 12,
-    "defaultFormation": "column",
+    "defaultFormation": "default",
     "formations": [
       {
-        "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 20,
-        "width": 20,
-        "height": 20,
-        "baseSprite": "column",
-        "overlaySprite": "chasseurs"
-      },
-      {
-        "id": "line",
-        "collisionCircles": 3,
+        "id": "default",
+        "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 12,
-        "height": 36,
-        "baseSprite": "line",
-        "overlaySprite": "chasseurs-line"
+        "height": 24,
+        "baseSprite": "default",
+        "overlaySprite": "chasseurs"
       },
       {
         "id": "square",
         "collisionCircles": 1,
-        "collisionCircleSize": 24,
-        "width": 24,
-        "height": 24,
+        "collisionCircleSize": 20,
+        "width": 20,
+        "height": 20,
         "baseSprite": "square",
         "overlaySprite": "chasseurs-square"
       }
@@ -473,7 +440,7 @@
         "collisionCircleSize": 12,
         "width": 12,
         "height": 24,
-        "baseSprite": "cavalry",
+        "baseSprite": "default",
         "overlaySprite": "cuirassiers"
       }
     ],
@@ -543,7 +510,7 @@
     "meleeDefense": 23,
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
-    "chargeBonus": 65,
+    "chargeBonus": 55,
     "chargeResistance": 0.1,
     "runChargeResistanceModifier": -0.8,
     "chargePenetration": 0.25,
@@ -572,16 +539,14 @@
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
     "turningDelay": 8,
-    "collisionCircles": 3,
-    "collisionCircleSize": 12,
-    "defaultFormation": "column",
+    "defaultFormation": "default",
     "formations": [
       {
-        "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 20,
-        "width": 20,
-        "height": 20,
+        "id": "default",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
         "baseSprite": "militia",
         "overlaySprite": "militia"
       }
@@ -632,7 +597,7 @@
         "collisionCircleSize": 12,
         "width": 12,
         "height": 24,
-        "baseSprite": "cavalry",
+        "baseSprite": "default",
         "overlaySprite": "cavalry"
       }
     ],
@@ -741,7 +706,7 @@
         "collisionCircleSize": 12,
         "width": 12,
         "height": 24,
-        "baseSprite": "cavalry",
+        "baseSprite": "default",
         "overlaySprite": "horse-archers"
       }
     ],
@@ -751,15 +716,15 @@
     "name": "grenadiers",
     "type": 14,
     "category": "infantry",
-    "rangedAttack": 22,
-    "meleeAttack": 50,
-    "meleeDefense": 34,
+    "rangedAttack": 25,
+    "meleeAttack": 48,
+    "meleeDefense": 33,
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
-    "chargeBonus": 85,
+    "chargeBonus": 80,
     "chargeResistance": 0.7,
     "runChargeResistanceModifier": -1.4,
-    "chargePenetration": 0.8,
+    "chargePenetration": 0.7,
     "walkMovement": 70,
     "runMovement": 115,
     "timeToRun": 4,
@@ -784,34 +749,23 @@
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
     "turningDelay": 8,
-    "collisionCircles": 3,
-    "collisionCircleSize": 12,
-    "defaultFormation": "column",
+    "defaultFormation": "default",
     "formations": [
       {
-        "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 20,
-        "width": 20,
-        "height": 20,
-        "baseSprite": "column",
-        "overlaySprite": "grenadiers"
-      },
-      {
-        "id": "line",
-        "collisionCircles": 3,
+        "id": "default",
+        "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 12,
-        "height": 36,
-        "baseSprite": "line",
-        "overlaySprite": "grenadiers-line"
+        "height": 24,
+        "baseSprite": "default",
+        "overlaySprite": "grenadiers"
       },
       {
         "id": "square",
         "collisionCircles": 1,
-        "collisionCircleSize": 24,
-        "width": 24,
-        "height": 24,
+        "collisionCircleSize": 20,
+        "width": 20,
+        "height": 20,
         "baseSprite": "square",
         "overlaySprite": "grenadier-square"
       }
@@ -1149,10 +1103,10 @@
     "collisionCircles": 2,
     "collisionCircleSize": 12,
     "disableSpriteRotation": true,
-    "defaultFormation": "column",
+    "defaultFormation": "default",
     "formations": [
       {
-        "id": "column",
+        "id": "default",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
@@ -1195,10 +1149,10 @@
     "collisionCircles": 2,
     "collisionCircleSize": 12,
     "disableSpriteRotation": true,
-    "defaultFormation": "column",
+    "defaultFormation": "default",
     "formations": [
       {
-        "id": "column",
+        "id": "default",
         "collisionCircles": 2,
         "collisionCircleSize": 12,
         "width": 16,
