@@ -6,7 +6,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run"
+      "baseSpeed": "walk"
     },
     "damageTypeResistances": {
       "soft_attack": 0,
@@ -20,7 +20,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run"
+      "baseSpeed": "walk"
     },
     "damageTypeResistances": {
       "soft_attack": 0,
