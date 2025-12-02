@@ -200,7 +200,6 @@
   "category": "الفئة",
   "routingBehavior": "سلوك الفرار",
   "baseSpeed": "السرعة الأساسية",
-  "moveWhileInMelee": "الحركة أثناء القتال القريب",
   "walk": "مشي",
   "run": "جري",
   "damageResistances": "مقاومة الأضرار",

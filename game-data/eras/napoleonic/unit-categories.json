@@ -7,8 +7,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "enfiladeFire": {
       "damageModifier": 0.5,
@@ -39,8 +38,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "damageTypeResistances": {
       "bayonet": -0.25,
@@ -86,7 +84,7 @@
     "projectilePassThrough": 1.0,
     "routingBehavior": {
       "baseSpeed": "walk",
-      "moveWhileInMelee": false
+      "fleeWhenRouted": false
     },
     "damageTypeResistances": {
       "bayonet": -1,
@@ -136,8 +134,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "damageTypeResistances": {
       "bayonet": -0.2,
@@ -182,8 +179,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "damageTypeResistances": {
       "bayonet": -0.2,
@@ -227,8 +223,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "damageTypeResistances": {
       "bayonet": -0.15,
@@ -280,8 +275,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "enfiladeFire": {
       "damageModifier": 0.5,
@@ -311,8 +305,7 @@
     "enemyCollisionLevel": 1,
     "projectilePassThrough": 0.8,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "damageTypeResistances": {
       "bayonet": -0.4,

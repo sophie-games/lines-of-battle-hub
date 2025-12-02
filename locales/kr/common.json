@@ -196,7 +196,6 @@
   "category": "유형",
   "routingBehavior": "궤멸 중 행동",
   "baseSpeed": "기본 속도",
-  "moveWhileInMelee": "백병전 중 이동",
   "walk": "보행",
   "run": "주행",
   "damageResistances": "피해 저항력",

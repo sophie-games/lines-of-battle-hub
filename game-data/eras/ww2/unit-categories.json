@@ -6,8 +6,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "damageTypeResistances": {
       "soft_attack": 0,
@@ -21,8 +20,7 @@
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {
-      "baseSpeed": "run",
-      "moveWhileInMelee": true
+      "baseSpeed": "run"
     },
     "damageTypeResistances": {
       "soft_attack": 0,

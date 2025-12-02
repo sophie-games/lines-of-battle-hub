@@ -200,7 +200,6 @@
   "category": "类别",
   "routingBehavior": "寻路行为",
   "baseSpeed": "基础速度",
-  "moveWhileInMelee": "近战时移动",
   "walk": "行进",
   "run": "疾跑",
   "damageResistances": "伤害抗性",

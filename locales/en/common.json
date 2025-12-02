@@ -201,7 +201,6 @@
   "category": "Category",
   "routingBehavior": "Routing Behavior",
   "baseSpeed": "Base Speed",
-  "moveWhileInMelee": "Move While In Melee",
   "walk": "Walk",
   "run": "Run",
   "damageResistances": "Damage Resistances",

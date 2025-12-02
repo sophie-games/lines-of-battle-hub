@@ -200,7 +200,6 @@
   "category": "श्रेणी",
   "routingBehavior": "भागने का व्यवहार",
   "baseSpeed": "आधार गति",
-  "moveWhileInMelee": "हाथापाई के दौरान चलें",
   "walk": "चलना",
   "run": "दौड़ना",
   "damageResistances": "क्षति प्रतिरोध",
