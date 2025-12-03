@@ -85,6 +85,10 @@
     "title": "Disabilita linee di disegno",
     "description": "Quando abilitato, usa sempre la formazione di percorso di disegno (linee di disegno disabilitate). Quando disabilitato, usa la formazione di linea di disegno durante il trascinamento con più unità."
   },
+  "useStraightLine": {
+    "title": "Usa linea retta",
+    "description": "Quando abilitato, la formazione di linea di disegno userà sempre una linea retta dalla posizione iniziale a quella finale, ignorando il percorso disegnato. Quando disabilitato, le unità seguiranno il percorso curvo che disegni."
+  },
   "straightLineTolerance": "Tolleranza linea retta",
   "spaceBetweenUnits": "Spazio tra le unità",
   "spaceBetweenLines": "Spazio tra le linee",
@@ -110,6 +114,8 @@
     "toggleFullscreen": "Attiva/disattiva schermo intero",
     "simulateMultiTouch": "Simula Multi-touch",
     "toggleSupplyLines": "Attiva/disattiva linee di rifornimento",
+    "toggleStraightLine": "Attiva/disattiva linea retta",
+    "toggleDisableDrawLines": "Attiva/disattiva disabilitazione linee di disegno",
     "controlGroup1": "Gruppo di controllo 1",
     "controlGroup2": "Gruppo di controllo 2",
     "controlGroup3": "Gruppo di controllo 3",

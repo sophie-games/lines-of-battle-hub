@@ -85,6 +85,10 @@
     "title": "Rajzolási vonalak letiltása",
     "description": "Ha engedélyezve van, mindig a rajzolási útvonal alakzatot használja (rajzolási vonalak letiltva). Ha letiltva van, több egységgel húzáskor a rajzolási vonal alakzatot használja."
   },
+  "useStraightLine": {
+    "title": "Egyenes vonal használata",
+    "description": "Ha engedélyezve van, a rajzolási vonal alakzat mindig egyenes vonalat használ a kezdőpozíciótól a végpozícióig, figyelmen kívül hagyva a rajzolt útvonalat. Ha letiltva van, az egységek követik az általad rajzolt görbe útvonalat."
+  },
   "straightLineTolerance": "Egyenes vonal tűrés",
   "spaceBetweenUnits": "Egységek közötti távolság",
   "spaceBetweenLines": "Sorok közötti távolság",
@@ -110,6 +114,8 @@
     "toggleFullscreen": "Teljes képernyő váltása",
     "simulateMultiTouch": "Multi-touch szimulálása",
     "toggleSupplyLines": "Ellátási vonalak váltása",
+    "toggleStraightLine": "Egyenes vonal váltása",
+    "toggleDisableDrawLines": "Rajzolási vonalak letiltásának váltása",
     "controlGroup1": "Vezérlőcsoport 1",
     "controlGroup2": "Vezérlőcsoport 2",
     "controlGroup3": "Vezérlőcsoport 3",

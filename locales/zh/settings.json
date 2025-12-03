@@ -110,6 +110,10 @@
     "title": "禁用绘制线条",
     "description": "启用时，始终使用绘制路径编队（绘制线条已禁用）。禁用时，在拖动多个单位时使用绘制线条编队。"
   },
+  "useStraightLine": {
+    "title": "使用直线",
+    "description": "启用时，绘制线条编队将始终使用从起始位置到结束位置的直线，忽略绘制的路径。禁用时，单位将跟随您绘制的曲线路径。"
+  },
   "straightLineTolerance": "直线容差",
   "spaceBetweenUnits": "单位之间的间距",
   "spaceBetweenLines": "前后列之间的间距",
@@ -141,6 +145,8 @@
     "toggleFullscreen": "切换全屏",
     "simulateMultiTouch": "模拟多点触控",
     "toggleSupplyLines": "切换补给线",
+    "toggleStraightLine": "切换直线",
+    "toggleDisableDrawLines": "切换禁用绘制线条",
     "controlGroup1": "控制编组1",
     "controlGroup2": "控制编组2",
     "controlGroup3": "控制编组3",

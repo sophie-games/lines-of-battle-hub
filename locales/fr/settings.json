@@ -82,6 +82,10 @@
     "title": "Désactiver les lignes de dessin",
     "description": "Lorsqu'il est activé, utilise toujours la formation de chemin de dessin (lignes de dessin désactivées). Lorsqu'il est désactivé, utilise la formation de ligne de dessin lors du glissement avec plusieurs unités."
   },
+  "useStraightLine": {
+    "title": "Utiliser la ligne droite",
+    "description": "Lorsqu'il est activé, la formation de ligne de dessin utilisera toujours une ligne droite de la position de départ à la position finale, en ignorant le chemin dessiné. Lorsqu'il est désactivé, les unités suivront le chemin incurvé que vous dessinez."
+  },
   "straightLineTolerance": "Tolérance de ligne droite",
   "spaceBetweenUnits": "Espace entre les unités",
   "spaceBetweenLines": "Espace entre les lignes",
@@ -109,7 +113,9 @@
     "openFormationModal": "Ouvrir la fenêtre de formation",
     "toggleFullscreen": "Basculer le plein écran",
     "simulateMultiTouch": "Simuler le multi-touch",
-    "toggleSupplyLines": "Basculer les lignes de ravitaillement"
+    "toggleSupplyLines": "Basculer les lignes de ravitaillement",
+    "toggleStraightLine": "Basculer la ligne droite",
+    "toggleDisableDrawLines": "Basculer désactiver les lignes de dessin"
   },
   "routingTransparency": {
     "title": "Transparence des unités en déroute"

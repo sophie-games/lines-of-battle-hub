@@ -85,6 +85,10 @@
     "title": "描画線を無効化",
     "description": "有効にすると、常に描画パス陣形を使用します（描画線は無効）。無効にすると、複数のユニットでドラッグする際に描画線陣形を使用します。"
   },
+  "useStraightLine": {
+    "title": "直線を使用",
+    "description": "有効にすると、描画線陣形は常に開始位置から終了位置までの直線を使用し、描画されたパスを無視します。無効にすると、ユニットは描画した曲線パスに従います。"
+  },
   "straightLineTolerance": "直線許容値",
   "spaceBetweenUnits": "ユニット間の間隔",
   "spaceBetweenLines": "ライン間の間隔",
@@ -110,6 +114,8 @@
     "toggleFullscreen": "フルスクリーン切り替え",
     "simulateMultiTouch": "マルチタッチをシミュレート",
     "toggleSupplyLines": "補給線の切り替え",
+    "toggleStraightLine": "直線の切り替え",
+    "toggleDisableDrawLines": "描画線の無効化の切り替え",
     "controlGroup1": "コントロールグループ1",
     "controlGroup2": "コントロールグループ2",
     "controlGroup3": "コントロールグループ3",

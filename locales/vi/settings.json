@@ -110,6 +110,10 @@
     "title": "Tắt vẽ đường",
     "description": "Khi bật, luôn sử dụng đội hình đường dẫn vẽ (vẽ đường bị tắt). Khi tắt, sử dụng đội hình vẽ đường khi kéo với nhiều đơn vị."
   },
+  "useStraightLine": {
+    "title": "Sử dụng đường thẳng",
+    "description": "Khi bật, đội hình vẽ đường sẽ luôn sử dụng đường thẳng từ vị trí bắt đầu đến vị trí kết thúc, bỏ qua đường dẫn đã vẽ. Khi tắt, các đơn vị sẽ theo đường cong mà bạn vẽ."
+  },
   "straightLineTolerance": "Dung sai đường thẳng",
   "spaceBetweenUnits": "Khoảng cách giữa các đơn vị",
   "spaceBetweenLines": "Khoảng cách giữa các hàng",
@@ -141,6 +145,8 @@
     "toggleFullscreen": "Chuyển đổi chế độ toàn màn hình",
     "simulateMultiTouch": "Mô phỏng đa chạm",
     "toggleSupplyLines": "Chuyển đổi đường tiếp tế",
+    "toggleStraightLine": "Chuyển đổi đường thẳng",
+    "toggleDisableDrawLines": "Chuyển đổi tắt vẽ đường",
     "controlGroup1": "Nhóm điều khiển 1",
     "controlGroup2": "Nhóm điều khiển 2",
     "controlGroup3": "Nhóm điều khiển 3",

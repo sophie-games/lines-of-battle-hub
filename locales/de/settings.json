@@ -85,6 +85,10 @@
     "title": "Zeichnungslinien deaktivieren",
     "description": "Wenn aktiviert, wird immer die Pfadformation verwendet (Zeichnungslinien deaktiviert). Wenn deaktiviert, wird die Linienformation beim Ziehen mit mehreren Einheiten verwendet."
   },
+  "useStraightLine": {
+    "title": "Gerade Linie verwenden",
+    "description": "Wenn aktiviert, verwendet die Linienzeichnungsformation immer eine gerade Linie von Start- zu Endposition und ignoriert den gezeichneten Pfad. Wenn deaktiviert, folgen die Einheiten dem gekrümmten Pfad, den Sie zeichnen."
+  },
   "straightLineTolerance": "Geradlinigkeitstoleranz",
   "spaceBetweenUnits": "Abstand zwischen Einheiten",
   "spaceBetweenLines": "Abstand zwischen Linien",
@@ -112,7 +116,9 @@
     "openFormationModal": "Formationsfenster öffnen",
     "toggleFullscreen": "Vollbild umschalten",
     "simulateMultiTouch": "Multi-Touch simulieren",
-    "toggleSupplyLines": "Versorgungslinien umschalten"
+    "toggleSupplyLines": "Versorgungslinien umschalten",
+    "toggleStraightLine": "Gerade Linie umschalten",
+    "toggleDisableDrawLines": "Zeichnungslinien deaktivieren umschalten"
   },
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"

@@ -78,6 +78,10 @@
     "title": "Wyłącz linie rysowania",
     "description": "Gdy włączone, zawsze używa formacji ścieżki rysowania (linie rysowania wyłączone). Gdy wyłączone, używa formacji linii rysowania podczas przeciągania z wieloma jednostkami."
   },
+  "useStraightLine": {
+    "title": "Użyj prostej linii",
+    "description": "Gdy włączone, formacja linii rysowania zawsze będzie używać prostej linii od pozycji początkowej do końcowej, ignorując narysowaną ścieżkę. Gdy wyłączone, jednostki będą podążać za zakrzywioną ścieżką, którą rysujesz."
+  },
   "straightLineTolerance": "Tolerancja linii prostej",
   "spaceBetweenUnits": "Odległość między jednostkami",
   "spaceBetweenLines": "Odległość między liniami",
@@ -103,6 +107,8 @@
     "toggleFullscreen": "Przełącz tryb pełnoekranowy",
     "simulateMultiTouch": "Symuluj Multi-touch",
     "toggleSupplyLines": "Przełącz linie zaopatrzenia",
+    "toggleStraightLine": "Przełącz linię prostą",
+    "toggleDisableDrawLines": "Przełącz wyłączanie linii rysowania",
     "controlGroup1": "Grupa kontrolna 1",
     "controlGroup2": "Grupa kontrolna 2",
     "controlGroup3": "Grupa kontrolna 3",

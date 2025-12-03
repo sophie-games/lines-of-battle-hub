@@ -85,6 +85,10 @@
     "title": "Çizim Çizgilerini Devre Dışı Bırak",
     "description": "Etkinleştirildiğinde, her zaman çizim yolu formasyonunu kullanır (çizim çizgileri devre dışı). Devre dışı bırakıldığında, birden fazla birimle sürüklerken çizim çizgisi formasyonunu kullanır."
   },
+  "useStraightLine": {
+    "title": "Düz çizgi kullan",
+    "description": "Etkinleştirildiğinde, çizim çizgisi formasyonu her zaman başlangıç konumundan bitiş konumuna kadar düz bir çizgi kullanır ve çizilen yolu yok sayar. Devre dışı bırakıldığında, birimler çizdiğiniz eğri yolu takip eder."
+  },
   "straightLineTolerance": "Düz Çizgi Toleransı",
   "spaceBetweenUnits": "Birimler Arasındaki Boşluk",
   "spaceBetweenLines": "Hatlar Arasındaki Boşluk",
@@ -110,6 +114,8 @@
     "toggleFullscreen": "Tam ekranı değiştir",
     "simulateMultiTouch": "Çoklu dokunmayı simüle et",
     "toggleSupplyLines": "İkmal hatlarını değiştir",
+    "toggleStraightLine": "Düz çizgiyi değiştir",
+    "toggleDisableDrawLines": "Çizgi çizmeyi devre dışı bırakmayı değiştir",
     "controlGroup1": "Kontrol Grubu 1",
     "controlGroup2": "Kontrol Grubu 2",
     "controlGroup3": "Kontrol Grubu 3",

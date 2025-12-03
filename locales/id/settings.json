@@ -85,6 +85,10 @@
     "title": "Nonaktifkan Garis Gambar",
     "description": "Saat diaktifkan, selalu menggunakan formasi jalur gambar (garis gambar dinonaktifkan). Saat dinonaktifkan, menggunakan formasi garis gambar saat menyeret dengan beberapa unit."
   },
+  "useStraightLine": {
+    "title": "Gunakan garis lurus",
+    "description": "Saat diaktifkan, formasi garis gambar akan selalu menggunakan garis lurus dari posisi awal ke posisi akhir, mengabaikan jalur yang digambar. Saat dinonaktifkan, unit akan mengikuti jalur melengkung yang Anda gambar."
+  },
   "straightLineTolerance": "Toleransi Garis Lurus",
   "spaceBetweenUnits": "Jarak Antar Unit",
   "spaceBetweenLines": "Jarak Antar Baris",
@@ -110,6 +114,8 @@
     "toggleFullscreen": "Ubah Layar Penuh",
     "simulateMultiTouch": "Simulasikan Multi-sentuh",
     "toggleSupplyLines": "Ubah Garis Pasokan",
+    "toggleStraightLine": "Ubah Garis Lurus",
+    "toggleDisableDrawLines": "Ubah Nonaktifkan Garis Gambar",
     "controlGroup1": "Grup Kontrol 1",
     "controlGroup2": "Grup Kontrol 2",
     "controlGroup3": "Grup Kontrol 3",

@@ -114,6 +114,10 @@
     "title": "Disable Draw Lines",
     "description": "When enabled, always use draw path formation (draw lines disabled). When disabled, use draw line formation when dragging with multiple units."
   },
+  "useStraightLine": {
+    "title": "Use straight line",
+    "description": "When enabled, the draw line formation will always use a straight line from start to end position, ignoring the drawn path. When disabled, units will follow the curved path you draw."
+  },
   "straightLineTolerance": "Straight Line Tolerance",
   "spaceBetweenUnits": "Space between units",
   "spaceBetweenLines": "Space between lines",
@@ -145,6 +149,8 @@
     "toggleFullscreen": "Toggle Fullscreen",
     "simulateMultiTouch": "Simulate Multi-touch",
     "toggleSupplyLines": "Toggle Supply Lines",
+    "toggleStraightLine": "Toggle Straight Line",
+    "toggleDisableDrawLines": "Toggle Disable Draw Lines",
     "controlGroup1": "Control Group 1",
     "controlGroup2": "Control Group 2",
     "controlGroup3": "Control Group 3",
