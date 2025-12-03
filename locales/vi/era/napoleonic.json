@@ -118,6 +118,7 @@
     "18lb-explosive-shell": "Đạn nổ 18-lb"
   },
   "formation": {
+    "mass": "Khối",
     "line": "Hàng",
     "column": "Cột",
     "square": "Vuông"

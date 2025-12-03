@@ -36,15 +36,24 @@
       "horse": 0,
       "guns": 0
     },
-    "defaultFormation": "column",
+    "defaultFormation": "mass",
     "formations": [
       {
+        "id": "mass",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "mass",
+        "overlaySprite": "infantry"
+      },
+      {
         "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 24,
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
         "collisionCirclesVertical": true,
         "width": 24,
-        "height": 24,
+        "height": 12,
         "baseSprite": "column",
         "overlaySprite": "infantry"
       },
@@ -55,7 +64,13 @@
         "width": 12,
         "height": 48,
         "baseSprite": "line",
-        "overlaySprite": "infantry-line"
+        "overlaySprite": "infantry-line",
+        "terrainCheckPoints": [
+          { "x": 0, "y": -18, "weight": 1 },
+          { "x": 0, "y": -6, "weight": 1 },
+          { "x": 0, "y": 6, "weight": 1 },
+          { "x": 0, "y": 18, "weight": 1 }
+        ]
       },
       {
         "id": "square",
@@ -114,7 +129,12 @@
         "width": 12,
         "height": 24,
         "baseSprite": "cavalry",
-        "overlaySprite": "dragoons"
+        "overlaySprite": "dragoons",
+        "terrainCheckPoints": [
+          { "x": 0, "y": 0, "weight": 2 },
+          { "x": 0, "y": -10, "weight": 1 },
+          { "x": 0, "y": 10, "weight": 1 }
+        ]
       }
     ],
     "pushStrength": 2,
@@ -215,15 +235,24 @@
     "rotationMaxThreshold": 0.5,
     "runRotationSpeed": 0.195,
     "turningDelay": 8,
-    "defaultFormation": "column",
+    "defaultFormation": "mass",
     "formations": [
       {
+        "id": "mass",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "mass",
+        "overlaySprite": "guards"
+      },
+      {
         "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 24,
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
         "collisionCirclesVertical": true,
         "width": 24,
-        "height": 24,
+        "height": 12,
         "baseSprite": "column",
         "overlaySprite": "guards"
       },
@@ -234,7 +263,13 @@
         "width": 12,
         "height": 48,
         "baseSprite": "line",
-        "overlaySprite": "guards-line"
+        "overlaySprite": "guards-line",
+        "terrainCheckPoints": [
+          { "x": 0, "y": -18, "weight": 1 },
+          { "x": 0, "y": -6, "weight": 1 },
+          { "x": 0, "y": 6, "weight": 1 },
+          { "x": 0, "y": 18, "weight": 1 }
+        ]
       },
       {
         "id": "square",
@@ -295,7 +330,12 @@
         "width": 12,
         "height": 24,
         "baseSprite": "cavalry",
-        "overlaySprite": "lancers"
+        "overlaySprite": "lancers",
+        "terrainCheckPoints": [
+          { "x": 0, "y": 0, "weight": 2 },
+          { "x": 0, "y": -10, "weight": 1 },
+          { "x": 0, "y": 10, "weight": 1 }
+        ]
       }
     ],
     "pushStrength": 2,
@@ -398,15 +438,24 @@
     "rotationMaxThreshold": 0.54,
     "runRotationSpeed": 0.21,
     "turningDelay": 8,
-    "defaultFormation": "column",
+    "defaultFormation": "mass",
     "formations": [
       {
+        "id": "mass",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "mass",
+        "overlaySprite": "chasseurs"
+      },
+      {
         "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 24,
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
         "collisionCirclesVertical": true,
         "width": 24,
-        "height": 24,
+        "height": 12,
         "baseSprite": "column",
         "overlaySprite": "chasseurs"
       },
@@ -417,7 +466,13 @@
         "width": 12,
         "height": 48,
         "baseSprite": "line",
-        "overlaySprite": "chasseurs-line"
+        "overlaySprite": "chasseurs-line",
+        "terrainCheckPoints": [
+          { "x": 0, "y": -18, "weight": 1 },
+          { "x": 0, "y": -6, "weight": 1 },
+          { "x": 0, "y": 6, "weight": 1 },
+          { "x": 0, "y": 18, "weight": 1 }
+        ]
       },
       {
         "id": "square",
@@ -478,7 +533,12 @@
         "width": 12,
         "height": 24,
         "baseSprite": "cavalry",
-        "overlaySprite": "cuirassiers"
+        "overlaySprite": "cuirassiers",
+        "terrainCheckPoints": [
+          { "x": 0, "y": 0, "weight": 2 },
+          { "x": 0, "y": -10, "weight": 1 },
+          { "x": 0, "y": 10, "weight": 1 }
+        ]
       }
     ],
     "pushStrength": 2,
@@ -578,15 +638,24 @@
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
     "turningDelay": 8,
-    "defaultFormation": "column",
+    "defaultFormation": "mass",
     "formations": [
+      {
+        "id": "mass",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "militia",
+        "overlaySprite": "militia"
+      },
       {
         "id": "column",
         "collisionCircles": 2,
-        "collisionCircleSize": 16,
+        "collisionCircleSize": 12,
         "collisionCirclesVertical": true,
-        "width": 16,
-        "height": 32,
+        "width": 24,
+        "height": 12,
         "baseSprite": "militia",
         "overlaySprite": "militia"
       }
@@ -639,7 +708,12 @@
         "width": 12,
         "height": 24,
         "baseSprite": "cavalry",
-        "overlaySprite": "cavalry"
+        "overlaySprite": "cavalry",
+        "terrainCheckPoints": [
+          { "x": 0, "y": 0, "weight": 2 },
+          { "x": 0, "y": -10, "weight": 1 },
+          { "x": 0, "y": 10, "weight": 1 }
+        ]
       }
     ],
     "pushStrength": 2,
@@ -750,7 +824,12 @@
         "width": 12,
         "height": 24,
         "baseSprite": "cavalry",
-        "overlaySprite": "horse-archers"
+        "overlaySprite": "horse-archers",
+        "terrainCheckPoints": [
+          { "x": 0, "y": 0, "weight": 2 },
+          { "x": 0, "y": -10, "weight": 1 },
+          { "x": 0, "y": 10, "weight": 1 }
+        ]
       }
     ],
     "pushStrength": 2,
@@ -793,15 +872,24 @@
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
     "turningDelay": 8,
-    "defaultFormation": "column",
+    "defaultFormation": "mass",
     "formations": [
       {
+        "id": "mass",
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
+        "width": 12,
+        "height": 24,
+        "baseSprite": "mass",
+        "overlaySprite": "grenadiers"
+      },
+      {
         "id": "column",
-        "collisionCircles": 1,
-        "collisionCircleSize": 24,
+        "collisionCircles": 2,
+        "collisionCircleSize": 12,
         "collisionCirclesVertical": true,
         "width": 24,
-        "height": 24,
+        "height": 12,
         "baseSprite": "column",
         "overlaySprite": "grenadiers"
       },
@@ -812,7 +900,13 @@
         "width": 12,
         "height": 48,
         "baseSprite": "line",
-        "overlaySprite": "grenadiers-line"
+        "overlaySprite": "grenadiers-line",
+        "terrainCheckPoints": [
+          { "x": 0, "y": -18, "weight": 1 },
+          { "x": 0, "y": -6, "weight": 1 },
+          { "x": 0, "y": 6, "weight": 1 },
+          { "x": 0, "y": 18, "weight": 1 }
+        ]
       },
       {
         "id": "square",
@@ -1208,7 +1302,7 @@
     "collisionCircles": 2,
     "collisionCircleSize": 12,
     "disableSpriteRotation": true,
-    "defaultFormation": "column",
+    "defaultFormation": "unknown",
     "formations": [
       {
         "id": "unknown",

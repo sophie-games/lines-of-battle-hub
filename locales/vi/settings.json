@@ -81,9 +81,9 @@
     "title": "Bóng",
     "description": "Bật bóng trên các đơn vị. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
   },
-  "showCollisionShapes": {
-    "title": "Hiển thị hình dạng va chạm",
-    "description": "Hiển thị hình dạng va chạm trên các đơn vị. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
+  "showDebugShapes": {
+    "title": "Hiển thị hình dạng debug",
+    "description": "Hiển thị hình dạng debug trên các đơn vị bao gồm hình dạng va chạm và điểm kiểm tra địa hình. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
   },
   "disableSkins": {
     "title": "Tắt giao diện",

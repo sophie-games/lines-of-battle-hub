@@ -118,6 +118,7 @@
     "18lb-explosive-shell": "18파운드 포탄"
   },
   "formation": {
+    "mass": "밀집",
     "line": "횡대",
     "column": "종대",
     "square": "방진"

@@ -70,6 +70,10 @@
     "title": "Gölgeler",
     "description": "Birimlerde gölgeleri etkinleştirir. Bu, birimlerin güncellenmesi için oyunun tur geçmesini gerektirebilir."
   },
+  "showDebugShapes": {
+    "title": "Hata ayıklama şekillerini göster",
+    "description": "Birimlerde çarpışma şekilleri ve arazi kontrol noktaları dahil hata ayıklama şekillerini gösterir. Bu, birimlerin güncellenmesi için oyunun tur geçmesini gerektirebilir."
+  },
   "fullScreen": {
     "title": "Tam Ekran",
     "description": "Uygulama için tam ekran modunu açıp kapatır",

@@ -82,6 +82,7 @@
     "dragoon-sword": "Spada del dragone"
   },
   "formation": {
+    "mass": "Massa",
     "line": "Linea",
     "column": "Colonna",
     "square": "Quadrato"

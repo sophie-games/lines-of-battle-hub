@@ -83,6 +83,7 @@
     "horse-archer-bow": "Atlı Okçu Yayı"
   },
   "formation": {
+    "mass": "Yığın",
     "line": "Hat",
     "column": "Sütun",
     "square": "Kare"

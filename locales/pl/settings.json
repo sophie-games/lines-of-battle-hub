@@ -63,6 +63,10 @@
     "title": "Cienie",
     "description": "Włącz cienie jednostek. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
   },
+  "showDebugShapes": {
+    "title": "Pokaż kształty debugowania",
+    "description": "Pokazuje kształty debugowania na jednostkach, w tym kształty kolizji i punkty sprawdzania terenu. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
+  },
   "fullScreen": {
     "title": "Pełny Ekran",
     "description": "Przełącz pełny ekran w tej aplikacji.",

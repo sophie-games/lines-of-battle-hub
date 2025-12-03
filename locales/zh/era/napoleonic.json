@@ -107,6 +107,7 @@
     "18lb-explosive-shell": "18磅榴弹"
   },
   "formation": {
+    "mass": "密集",
     "line": "横队",
     "column": "纵队",
     "square": "方阵"

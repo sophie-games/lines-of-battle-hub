@@ -75,6 +75,7 @@
     "horse-archer-bow": "Pemanah Kuda"
   },
   "formation": {
+    "mass": "Massa",
     "line": "Baris",
     "column": "Kolom",
     "square": "Kotak"

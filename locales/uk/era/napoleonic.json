@@ -83,6 +83,7 @@
     "horse-archer-bow": "Лук вершника"
   },
   "formation": {
+    "mass": "Маса",
     "line": "Лінія",
     "column": "Колона",
     "square": "Квадрат"

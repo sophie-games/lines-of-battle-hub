@@ -186,6 +186,7 @@
   "path": {
     "color": "#c9be98",
     "staminaCostModifier": -0.5,
+    "prioritizeMovement": true,
     "movementModifier": {
       "infantry": 0.3,
       "skirmishInfantry": 0.3,

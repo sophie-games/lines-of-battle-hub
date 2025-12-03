@@ -86,6 +86,7 @@
     "dragoon-sword": "Dragonerschwert"
   },
   "formation": {
+    "mass": "Masse",
     "line": "Linie",
     "column": "Kolonne",
     "square": "Karree"

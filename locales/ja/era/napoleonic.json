@@ -82,6 +82,7 @@
     "dragoon-sword": "竜騎兵の剣"
   },
   "formation": {
+    "mass": "密集",
     "line": "横隊",
     "column": "縦隊",
     "square": "方陣"

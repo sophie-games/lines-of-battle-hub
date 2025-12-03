@@ -90,6 +90,7 @@
     "dragoon-sword": "Espada de dragón"
   },
   "formation": {
+    "mass": "Masa",
     "line": "Línea",
     "column": "Columna",
     "square": "Cuadro"

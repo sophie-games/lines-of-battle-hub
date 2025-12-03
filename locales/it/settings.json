@@ -70,6 +70,10 @@
     "title": "Ombre",
     "description": "Abilita le ombre sulle unità. Questo potrebbe richiedere che il gioco passi un turno affinché le unità si aggiornino."
   },
+  "showDebugShapes": {
+    "title": "Mostra forme di debug",
+    "description": "Mostra forme di debug sulle unità inclusi forme di collisione e punti di controllo del terreno. Questo potrebbe richiedere che il gioco passi un turno affinché le unità si aggiornino."
+  },
   "fullScreen": {
     "title": "Schermo intero",
     "description": "Attiva o disattiva la modalità schermo intero per l'applicazione",

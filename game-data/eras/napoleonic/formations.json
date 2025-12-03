@@ -1,33 +1,17 @@
 [
   {
-    "id": "artillery",
+    "id": "mass",
     "frontBackArc": 126.87,
-    "disablesFlankMelee": true,
-    "disablesRearMelee": true,
-    "disablesEnfiladeFire": true,
-    "disablesRearFire": true,
-    "shootingAngle": 75,
-    "shootingMaxTargets": 2
-  },
-  {
-    "id": "skirmish",
-    "frontBackArc": 126.87,
-    "disablesFlankMelee": true,
-    "disablesRearMelee": true,
-    "disablesEnfiladeFire": true,
-    "disablesRearFire": true,
-    "shootingAngle": 360,
-    "shootingMaxTargets": 3,
-    "shootingAngleMargin": 0
-  },
-  {
-    "id": "cavalry",
-    "frontBackArc": 126.87,
-    "disablesEnfiladeFire": true,
-    "disablesFlankMelee": true,
-    "disablesRearFire": true,
-    "shootingAngle": 360,
-    "shootingMaxTargets": 1
+    "shootingAngle": 90,
+    "shootingMaxTargets": 1,
+    "enfiladeFireResistance": 0.3,
+    "rearFireResistance": 0.3,
+    "rangedDamageResistance": -0.4,
+    "rangedOrgResistance": 0.35,
+    "flankChargeResistance": -0.2,
+    "rearChargeResistance": -0.4,
+    "timeToForm": 2,
+    "timeToUnform": 2
   },
   {
     "id": "column",
@@ -81,5 +65,35 @@
     "timeToForm": 4,
     "timeToUnform": 4,
     "formingSpeedModifier": -1
+  },
+  {
+    "id": "artillery",
+    "frontBackArc": 126.87,
+    "disablesFlankMelee": true,
+    "disablesRearMelee": true,
+    "disablesEnfiladeFire": true,
+    "disablesRearFire": true,
+    "shootingAngle": 75,
+    "shootingMaxTargets": 2
+  },
+  {
+    "id": "skirmish",
+    "frontBackArc": 126.87,
+    "disablesFlankMelee": true,
+    "disablesRearMelee": true,
+    "disablesEnfiladeFire": true,
+    "disablesRearFire": true,
+    "shootingAngle": 360,
+    "shootingMaxTargets": 3,
+    "shootingAngleMargin": 0
+  },
+  {
+    "id": "cavalry",
+    "frontBackArc": 126.87,
+    "disablesEnfiladeFire": true,
+    "disablesFlankMelee": true,
+    "disablesRearFire": true,
+    "shootingAngle": 360,
+    "shootingMaxTargets": 1
   }
 ]

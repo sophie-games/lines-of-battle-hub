@@ -74,6 +74,7 @@
     "dragoon-sword": "Dragonyos kard"
   },
   "formation": {
+    "mass": "Tömeg",
     "line": "Sor",
     "column": "Oszlop",
     "square": "Négyzet"
