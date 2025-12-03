@@ -80,10 +80,9 @@
     "description": "Kembalikan semua pengaturan ke nilai default. Tindakan ini akan menimpa semua penyesuaian yang telah Anda buat."
   },
   "reset": "Reset",
-  "drawLineFormation": "Gambar Formasi Garis",
-  "disableDrawLines": {
-    "title": "Nonaktifkan Garis Gambar",
-    "description": "Saat diaktifkan, selalu menggunakan formasi jalur gambar (garis gambar dinonaktifkan). Saat dinonaktifkan, menggunakan formasi garis gambar saat menyeret dengan beberapa unit."
+  "useDrawLine": {
+    "title": "Gunakan Garis Gambar",
+    "description": "Saat diaktifkan, akan menggunakan formasi garis gambar saat banyak unit dipilih. Saat dinonaktifkan, akan menggunakan formasi jalur gambar saat banyak unit dipilih. Jalur gambar juga dapat dilakukan dengan menyeret salah satu unit."
   },
   "useStraightLine": {
     "title": "Gunakan garis lurus",
@@ -115,7 +114,7 @@
     "simulateMultiTouch": "Simulasikan Multi-sentuh",
     "toggleSupplyLines": "Ubah Garis Pasokan",
     "toggleStraightLine": "Ubah Garis Lurus",
-    "toggleDisableDrawLines": "Ubah Nonaktifkan Garis Gambar",
+    "toggleDrawLine": "Ubah Nonaktifkan Garis Gambar",
     "controlGroup1": "Grup Kontrol 1",
     "controlGroup2": "Grup Kontrol 2",
     "controlGroup3": "Grup Kontrol 3",

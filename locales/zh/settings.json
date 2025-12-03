@@ -105,10 +105,9 @@
     "description": "在Patreon上升级会籍以使用该项设置和其它会员专属功能！",
     "goToPatreon": "前往Patreon"
   },
-  "drawLineFormation": "绘制线形编队",
-  "disableDrawLines": {
-    "title": "禁用绘制线条",
-    "description": "启用时，始终使用绘制路径编队（绘制线条已禁用）。禁用时，在拖动多个单位时使用绘制线条编队。"
+  "useDrawLine": {
+    "title": "使用绘制线条",
+    "description": "启用时，当选择多个单位时将使用绘制线条编队。禁用时，当选择多个单位时将使用绘制路径编队。也可以通过拖动其中一个单位来执行绘制路径。"
   },
   "useStraightLine": {
     "title": "使用直线",
@@ -146,7 +145,7 @@
     "simulateMultiTouch": "模拟多点触控",
     "toggleSupplyLines": "切换补给线",
     "toggleStraightLine": "切换直线",
-    "toggleDisableDrawLines": "切换禁用绘制线条",
+    "toggleDrawLine": "切换禁用绘制线条",
     "controlGroup1": "控制编组1",
     "controlGroup2": "控制编组2",
     "controlGroup3": "控制编组3",

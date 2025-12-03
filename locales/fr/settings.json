@@ -77,10 +77,9 @@
     "description": "Restaure tous les paramètres à leurs valeurs par défaut. Cette action écrasera toutes les personnalisations que vous avez effectuées."
   },
   "reset": "Réinitialiser",
-  "drawLineFormation": "Dessiner la formation en ligne",
-  "disableDrawLines": {
-    "title": "Désactiver les lignes de dessin",
-    "description": "Lorsqu'il est activé, utilise toujours la formation de chemin de dessin (lignes de dessin désactivées). Lorsqu'il est désactivé, utilise la formation de ligne de dessin lors du glissement avec plusieurs unités."
+  "useDrawLine": {
+    "title": "Utiliser les lignes de dessin",
+    "description": "Lorsqu'il est activé, il utilisera la formation de ligne de dessin lorsque de nombreuses unités sont sélectionnées. Lorsqu'il est désactivé, il utilisera la formation de chemin de dessin lorsque de nombreuses unités sont sélectionnées. Le chemin de dessin peut également être effectué en faisant glisser l'une des unités."
   },
   "useStraightLine": {
     "title": "Utiliser la ligne droite",
@@ -115,7 +114,7 @@
     "simulateMultiTouch": "Simuler le multi-touch",
     "toggleSupplyLines": "Basculer les lignes de ravitaillement",
     "toggleStraightLine": "Basculer la ligne droite",
-    "toggleDisableDrawLines": "Basculer désactiver les lignes de dessin"
+    "toggleDrawLine": "Basculer désactiver les lignes de dessin"
   },
   "routingTransparency": {
     "title": "Transparence des unités en déroute"

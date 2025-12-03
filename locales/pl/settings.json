@@ -73,10 +73,9 @@
     "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
   },
   "reset": "Reset",
-  "drawLineFormation": "Rysuj formację liniową",
-  "disableDrawLines": {
-    "title": "Wyłącz linie rysowania",
-    "description": "Gdy włączone, zawsze używa formacji ścieżki rysowania (linie rysowania wyłączone). Gdy wyłączone, używa formacji linii rysowania podczas przeciągania z wieloma jednostkami."
+  "useDrawLine": {
+    "title": "Użyj linii rysowania",
+    "description": "Gdy włączone, będzie używać formacji linii rysowania, gdy wybrano wiele jednostek. Gdy wyłączone, będzie używać formacji ścieżki rysowania, gdy wybrano wiele jednostek. Ścieżka rysowania jest również możliwa poprzez przeciągnięcie jednej z jednostek."
   },
   "useStraightLine": {
     "title": "Użyj prostej linii",
@@ -108,7 +107,7 @@
     "simulateMultiTouch": "Symuluj Multi-touch",
     "toggleSupplyLines": "Przełącz linie zaopatrzenia",
     "toggleStraightLine": "Przełącz linię prostą",
-    "toggleDisableDrawLines": "Przełącz wyłączanie linii rysowania",
+    "toggleDrawLine": "Przełącz wyłączanie linii rysowania",
     "controlGroup1": "Grupa kontrolna 1",
     "controlGroup2": "Grupa kontrolna 2",
     "controlGroup3": "Grupa kontrolna 3",

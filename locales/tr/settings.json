@@ -80,10 +80,9 @@
     "description": "Tüm ayarları varsayılan değerlerine geri yükler. Bu işlem, yaptığınız tüm özelleştirmeleri geçersiz kılacaktır."
   },
   "reset": "Sıfırla",
-  "drawLineFormation": "Hat Formasyonu Çiz",
-  "disableDrawLines": {
-    "title": "Çizim Çizgilerini Devre Dışı Bırak",
-    "description": "Etkinleştirildiğinde, her zaman çizim yolu formasyonunu kullanır (çizim çizgileri devre dışı). Devre dışı bırakıldığında, birden fazla birimle sürüklerken çizim çizgisi formasyonunu kullanır."
+  "useDrawLine": {
+    "title": "Çizim Çizgilerini Kullan",
+    "description": "Etkinleştirildiğinde, birçok birim seçildiğinde çizim çizgisi formasyonunu kullanacaktır. Devre dışı bırakıldığında, birçok birim seçildiğinde çizim yolu formasyonunu kullanacaktır. Çizim yolu, birimlerden birini sürükleyerek de yapılabilir."
   },
   "useStraightLine": {
     "title": "Düz çizgi kullan",
@@ -115,7 +114,7 @@
     "simulateMultiTouch": "Çoklu dokunmayı simüle et",
     "toggleSupplyLines": "İkmal hatlarını değiştir",
     "toggleStraightLine": "Düz çizgiyi değiştir",
-    "toggleDisableDrawLines": "Çizgi çizmeyi devre dışı bırakmayı değiştir",
+    "toggleDrawLine": "Çizgi çizmeyi devre dışı bırakmayı değiştir",
     "controlGroup1": "Kontrol Grubu 1",
     "controlGroup2": "Kontrol Grubu 2",
     "controlGroup3": "Kontrol Grubu 3",

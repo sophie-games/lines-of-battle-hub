@@ -80,10 +80,9 @@
     "description": "Ripristina tutte le impostazioni ai valori predefiniti. Questa azione sovrascriverà tutte le personalizzazioni che hai fatto."
   },
   "reset": "Ripristina",
-  "drawLineFormation": "Disegna formazione in linea",
-  "disableDrawLines": {
-    "title": "Disabilita linee di disegno",
-    "description": "Quando abilitato, usa sempre la formazione di percorso di disegno (linee di disegno disabilitate). Quando disabilitato, usa la formazione di linea di disegno durante il trascinamento con più unità."
+  "useDrawLine": {
+    "title": "Usa linee di disegno",
+    "description": "Quando abilitato, userà la formazione di linea di disegno quando sono selezionate molte unità. Quando disabilitato, userà la formazione di percorso di disegno quando sono selezionate molte unità. Il percorso di disegno è anche possibile trascinando una delle unità."
   },
   "useStraightLine": {
     "title": "Usa linea retta",
@@ -115,7 +114,7 @@
     "simulateMultiTouch": "Simula Multi-touch",
     "toggleSupplyLines": "Attiva/disattiva linee di rifornimento",
     "toggleStraightLine": "Attiva/disattiva linea retta",
-    "toggleDisableDrawLines": "Attiva/disattiva disabilitazione linee di disegno",
+    "toggleDrawLine": "Attiva/disattiva disabilitazione linee di disegno",
     "controlGroup1": "Gruppo di controllo 1",
     "controlGroup2": "Gruppo di controllo 2",
     "controlGroup3": "Gruppo di controllo 3",

@@ -80,10 +80,9 @@
     "description": "すべての設定をデフォルトの値に戻します。この操作は行ったカスタマイズを上書きします。"
   },
   "reset": "リセット",
-  "drawLineFormation": "線形陣形を描画",
-  "disableDrawLines": {
-    "title": "描画線を無効化",
-    "description": "有効にすると、常に描画パス陣形を使用します（描画線は無効）。無効にすると、複数のユニットでドラッグする際に描画線陣形を使用します。"
+  "useDrawLine": {
+    "title": "描画線を使用",
+    "description": "有効にすると、多くのユニットが選択されている場合に描画線陣形を使用します。無効にすると、多くのユニットが選択されている場合に描画パス陣形を使用します。描画パスは、ユニットの1つをドラッグすることでも実行できます。"
   },
   "useStraightLine": {
     "title": "直線を使用",
@@ -115,7 +114,7 @@
     "simulateMultiTouch": "マルチタッチをシミュレート",
     "toggleSupplyLines": "補給線の切り替え",
     "toggleStraightLine": "直線の切り替え",
-    "toggleDisableDrawLines": "描画線の無効化の切り替え",
+    "toggleDrawLine": "描画線の無効化の切り替え",
     "controlGroup1": "コントロールグループ1",
     "controlGroup2": "コントロールグループ2",
     "controlGroup3": "コントロールグループ3",

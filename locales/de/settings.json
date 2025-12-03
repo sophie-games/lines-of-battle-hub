@@ -80,10 +80,9 @@
     "description": "Stellt alle Standardeinstellungen wieder her. Diese Aktion überschreibt alle Einstellungen die Sie gemacht haben."
   },
   "reset": "Zurücksetzen",
-  "drawLineFormation": "Linienformation zeichnen",
-  "disableDrawLines": {
-    "title": "Zeichnungslinien deaktivieren",
-    "description": "Wenn aktiviert, wird immer die Pfadformation verwendet (Zeichnungslinien deaktiviert). Wenn deaktiviert, wird die Linienformation beim Ziehen mit mehreren Einheiten verwendet."
+  "useDrawLine": {
+    "title": "Zeichnungslinien verwenden",
+    "description": "Wenn aktiviert, wird die Linienformation verwendet, wenn viele Einheiten ausgewählt sind. Wenn deaktiviert, wird die Pfadformation verwendet, wenn viele Einheiten ausgewählt sind. Der Zeichnungspfad kann auch durch Ziehen einer der Einheiten durchgeführt werden."
   },
   "useStraightLine": {
     "title": "Gerade Linie verwenden",
@@ -118,7 +117,7 @@
     "simulateMultiTouch": "Multi-Touch simulieren",
     "toggleSupplyLines": "Versorgungslinien umschalten",
     "toggleStraightLine": "Gerade Linie umschalten",
-    "toggleDisableDrawLines": "Zeichnungslinien deaktivieren umschalten"
+    "toggleDrawLine": "Zeichnungslinien deaktivieren umschalten"
   },
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"

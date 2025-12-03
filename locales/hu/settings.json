@@ -80,10 +80,9 @@
     "description": "Visszaállítja a beállításaidat az kezdeti beállításokra. Ez felül ír minden személyre szabást.."
   },
   "reset": "Reset",
-  "drawLineFormation": "Vonalalakzat rajzolása",
-  "disableDrawLines": {
-    "title": "Rajzolási vonalak letiltása",
-    "description": "Ha engedélyezve van, mindig a rajzolási útvonal alakzatot használja (rajzolási vonalak letiltva). Ha letiltva van, több egységgel húzáskor a rajzolási vonal alakzatot használja."
+  "useDrawLine": {
+    "title": "Rajzolási vonalak használata",
+    "description": "Ha engedélyezve van, több egység kiválasztásakor rajzolási vonal alakzatot használ. Ha letiltva van, több egység kiválasztásakor rajzolási útvonal alakzatot használ. A rajzolási útvonal alakzatot az egyik egység húzásával is elérhető."
   },
   "useStraightLine": {
     "title": "Egyenes vonal használata",
@@ -115,7 +114,7 @@
     "simulateMultiTouch": "Multi-touch szimulálása",
     "toggleSupplyLines": "Ellátási vonalak váltása",
     "toggleStraightLine": "Egyenes vonal váltása",
-    "toggleDisableDrawLines": "Rajzolási vonalak letiltásának váltása",
+    "toggleDrawLine": "Rajzolási vonalak letiltásának váltása",
     "controlGroup1": "Vezérlőcsoport 1",
     "controlGroup2": "Vezérlőcsoport 2",
     "controlGroup3": "Vezérlőcsoport 3",

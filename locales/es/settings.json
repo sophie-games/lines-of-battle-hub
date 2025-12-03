@@ -80,10 +80,9 @@
     "description": "Restaurar toda la configuración a sus valores predeterminados. Esta acción sobrescribirá cualquier personalización que hayas realizado."
   },
   "reset": "Restablecer",
-  "drawLineFormation": "Dibujar formación en línea",
-  "disableDrawLines": {
-    "title": "Desactivar líneas de dibujo",
-    "description": "Cuando está habilitado, siempre usa la formación de ruta de dibujo (líneas de dibujo desactivadas). Cuando está deshabilitado, usa la formación de línea de dibujo al arrastrar con múltiples unidades."
+  "useDrawLine": {
+    "title": "Usar líneas de dibujo",
+    "description": "Cuando está habilitado, usará la formación de línea de dibujo cuando se seleccionen muchas unidades. Cuando está deshabilitado, usará la formación de ruta de dibujo cuando se seleccionen muchas unidades. La ruta de dibujo también se puede hacer arrastrando una de las unidades."
   },
   "useStraightLine": {
     "title": "Usar línea recta",
@@ -118,7 +117,7 @@
     "simulateMultiTouch": "Simular Multi-toque",
     "toggleSupplyLines": "Alternar líneas de suministro",
     "toggleStraightLine": "Alternar línea recta",
-    "toggleDisableDrawLines": "Alternar desactivar líneas de dibujo"
+    "toggleDrawLine": "Alternar desactivar líneas de dibujo"
   },
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"
