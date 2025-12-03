@@ -80,7 +80,7 @@
     "description": "Restaurar toda la configuración a sus valores predeterminados. Esta acción sobrescribirá cualquier personalización que hayas realizado."
   },
   "reset": "Restablecer",
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Usar líneas de dibujo",
     "description": "Cuando está habilitado, usará la formación de línea de dibujo cuando se seleccionen muchas unidades. Cuando está deshabilitado, usará la formación de ruta de dibujo cuando se seleccionen muchas unidades. La ruta de dibujo también se puede hacer arrastrando una de las unidades."
   },

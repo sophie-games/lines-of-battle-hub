@@ -80,7 +80,7 @@
     "description": "Ripristina tutte le impostazioni ai valori predefiniti. Questa azione sovrascriverà tutte le personalizzazioni che hai fatto."
   },
   "reset": "Ripristina",
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Usa linee di disegno",
     "description": "Quando abilitato, userà la formazione di linea di disegno quando sono selezionate molte unità. Quando disabilitato, userà la formazione di percorso di disegno quando sono selezionate molte unità. Il percorso di disegno è anche possibile trascinando una delle unità."
   },

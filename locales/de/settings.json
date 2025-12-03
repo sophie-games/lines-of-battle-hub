@@ -80,7 +80,7 @@
     "description": "Stellt alle Standardeinstellungen wieder her. Diese Aktion überschreibt alle Einstellungen die Sie gemacht haben."
   },
   "reset": "Zurücksetzen",
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Zeichnungslinien verwenden",
     "description": "Wenn aktiviert, wird die Linienformation verwendet, wenn viele Einheiten ausgewählt sind. Wenn deaktiviert, wird die Pfadformation verwendet, wenn viele Einheiten ausgewählt sind. Der Zeichnungspfad kann auch durch Ziehen einer der Einheiten durchgeführt werden."
   },

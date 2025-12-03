@@ -105,7 +105,7 @@
     "description": "在Patreon上升级会籍以使用该项设置和其它会员专属功能！",
     "goToPatreon": "前往Patreon"
   },
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "使用绘制线条",
     "description": "启用时，当选择多个单位时将使用绘制线条编队。禁用时，当选择多个单位时将使用绘制路径编队。也可以通过拖动其中一个单位来执行绘制路径。"
   },

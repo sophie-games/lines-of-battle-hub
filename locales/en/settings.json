@@ -109,7 +109,7 @@
     "description": "Upgrade your tier on Patreon to access this setting and other premium features!",
     "goToPatreon": "Go to Patreon"
   },
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Use Draw Line",
     "description": "When enabled, it will use draw lines when many units selected. When disabled, it will use draw path when many units selected. Draw path is also doable by dragging one of the units."
   },

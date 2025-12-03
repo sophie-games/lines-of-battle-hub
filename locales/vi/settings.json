@@ -105,7 +105,7 @@
     "description": "Nâng cấp hạng của bạn trên Patreon để truy cập cài đặt này và các tính năng cao cấp khác!",
     "goToPatreon": "Đi đến Patreon"
   },
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Sử dụng vẽ đường",
     "description": "Khi bật, sẽ sử dụng đội hình vẽ đường khi nhiều đơn vị được chọn. Khi tắt, sẽ sử dụng đội hình đường dẫn vẽ khi nhiều đơn vị được chọn. Đường dẫn vẽ cũng có thể thực hiện bằng cách kéo một trong các đơn vị."
   },

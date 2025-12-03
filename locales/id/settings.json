@@ -80,7 +80,7 @@
     "description": "Kembalikan semua pengaturan ke nilai default. Tindakan ini akan menimpa semua penyesuaian yang telah Anda buat."
   },
   "reset": "Reset",
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Gunakan Garis Gambar",
     "description": "Saat diaktifkan, akan menggunakan formasi garis gambar saat banyak unit dipilih. Saat dinonaktifkan, akan menggunakan formasi jalur gambar saat banyak unit dipilih. Jalur gambar juga dapat dilakukan dengan menyeret salah satu unit."
   },

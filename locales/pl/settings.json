@@ -73,7 +73,7 @@
     "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
   },
   "reset": "Reset",
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Użyj linii rysowania",
     "description": "Gdy włączone, będzie używać formacji linii rysowania, gdy wybrano wiele jednostek. Gdy wyłączone, będzie używać formacji ścieżki rysowania, gdy wybrano wiele jednostek. Ścieżka rysowania jest również możliwa poprzez przeciągnięcie jednej z jednostek."
   },

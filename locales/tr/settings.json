@@ -80,7 +80,7 @@
     "description": "Tüm ayarları varsayılan değerlerine geri yükler. Bu işlem, yaptığınız tüm özelleştirmeleri geçersiz kılacaktır."
   },
   "reset": "Sıfırla",
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Çizim Çizgilerini Kullan",
     "description": "Etkinleştirildiğinde, birçok birim seçildiğinde çizim çizgisi formasyonunu kullanacaktır. Devre dışı bırakıldığında, birçok birim seçildiğinde çizim yolu formasyonunu kullanacaktır. Çizim yolu, birimlerden birini sürükleyerek de yapılabilir."
   },

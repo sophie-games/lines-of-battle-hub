@@ -80,7 +80,7 @@
     "description": "Visszaállítja a beállításaidat az kezdeti beállításokra. Ez felül ír minden személyre szabást.."
   },
   "reset": "Reset",
-  "useDrawLine": {
+  "drawLineFormation": {
     "title": "Rajzolási vonalak használata",
     "description": "Ha engedélyezve van, több egység kiválasztásakor rajzolási vonal alakzatot használ. Ha letiltva van, több egység kiválasztásakor rajzolási útvonal alakzatot használ. A rajzolási útvonal alakzatot az egyik egység húzásával is elérhető."
   },
