@@ -63,6 +63,7 @@
     "regainRate": 0.12,
     "shatterOrgThreshold": 0.0,
     "routedOrgThreshold": 0.25,
+    "recoverOrgThreshold": 0.3,
     "rallyOrgThreshold": 0.5,
     "upperModifierLimit": 0.9,
     "lowerModifierLimit": 0.4,
@@ -79,7 +80,6 @@
     "distantThreatDistance": 96,
     "routingOrgRecoveryModifier": -0.5,
     "maxOrgRecoveryByHpModifier": -0.95,
-    "minHpProportionForSafeRecovery": 0.6,
     "victoryPointsThreshold": 40,
     "noVictoryPointsOrgModifier": -10,
     "vpsModifierMultiplier": 1.0
