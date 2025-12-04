@@ -46,7 +46,7 @@
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "infantry"
+        "overlaySprite": "infantry-column"
       },
       {
         "id": "line",
@@ -209,7 +209,7 @@
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "guards"
+        "overlaySprite": "guards-column"
       },
       {
         "id": "line",
@@ -376,7 +376,7 @@
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "chasseurs"
+        "overlaySprite": "chasseurs-column"
       },
       {
         "id": "line",
@@ -738,7 +738,7 @@
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "grenadiers"
+        "overlaySprite": "grenadiers-column"
       },
       {
         "id": "line",
