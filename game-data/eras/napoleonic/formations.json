@@ -52,7 +52,7 @@
     "id": "line",
     "frontBackArc": 152,
     "collisionCircles": 4,
-    "collisionCircleSize": 12,
+    "collisionCircleSize": 10,
     "terrainCheckPoints": [
       { "x": 0, "y": -18, "weight": 1 },
       { "x": 0, "y": -6, "weight": 1 },
