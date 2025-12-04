@@ -4,8 +4,6 @@
     "frontBackArc": 126.87,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
     "terrainCheckPoints": [
       { "x": 0, "y": 0, "weight": 2 },
       { "x": 0, "y": -10, "weight": 1 },
@@ -31,8 +29,6 @@
     "collisionCircles": 2,
     "collisionCircleSize": 12,
     "collisionCirclesVertical": true,
-    "width": 24,
-    "height": 12,
     "terrainCheckPoints": [
       { "x": 0, "y": 0, "weight": 2 },
       { "x": -10, "y": 0, "weight": 1 },
@@ -57,8 +53,6 @@
     "frontBackArc": 152,
     "collisionCircles": 4,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 48,
     "terrainCheckPoints": [
       { "x": 0, "y": -18, "weight": 1 },
       { "x": 0, "y": -6, "weight": 1 },
@@ -85,8 +79,6 @@
     "frontBackArc": 90,
     "collisionCircles": 1,
     "collisionCircleSize": 16,
-    "width": 16,
-    "height": 16,
     "movementModifier": -0.8,
     "rotationSpeedModifier": -0.8,
     "chargeBonusModifier": -0.75,
@@ -111,8 +103,6 @@
     "frontBackArc": 126.87,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 16,
-    "height": 32,
     "terrainCheckPoints": [
       { "x": 0, "y": 0, "weight": 2 },
       { "x": 0, "y": -10, "weight": 1 },
@@ -130,8 +120,6 @@
     "frontBackArc": 126.87,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
     "disablesFlankMelee": true,
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
@@ -145,8 +133,6 @@
     "frontBackArc": 126.87,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "width": 12,
-    "height": 24,
     "terrainCheckPoints": [
       { "x": 0, "y": 0, "weight": 2 },
       { "x": 0, "y": -10, "weight": 1 },
@@ -162,8 +148,6 @@
     "id": "unknown",
     "frontBackArc": 90,
     "collisionCircles": 1,
-    "collisionCircleSize": 16,
-    "width": 16,
-    "height": 16
+    "collisionCircleSize": 16
   }
 ]
