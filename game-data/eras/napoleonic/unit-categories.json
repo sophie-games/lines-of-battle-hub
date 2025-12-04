@@ -80,6 +80,7 @@
     "id": "artillery",
     "deploymentSection": "front",
     "firingAltitude": 0.5,
+    "allyCollisionLevel": 1,
     "enemyCollisionLevel": 1,
     "projectilePassThrough": 1.0,
     "routingBehavior": {
@@ -302,6 +303,7 @@
     "id": "skirmishInfantry",
     "deploymentSection": "forward",
     "firingAltitude": 0.9,
+    "allyCollisionLevel": 1,
     "enemyCollisionLevel": 1,
     "projectilePassThrough": 0.8,
     "routingBehavior": {
