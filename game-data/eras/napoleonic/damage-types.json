@@ -209,7 +209,7 @@
         "start": 250,
         "end": 500,
         "startMod": -0.15,
-        "endMod": -0.75,
+        "endMod": -0.7,
         "name": "long"
       }
     ],
@@ -307,8 +307,8 @@
       {
         "start": 240,
         "end": 435,
-        "startMod": -0.05,
-        "endMod": -0.7,
+        "startMod": -0.1,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -361,8 +361,8 @@
       {
         "start": 225,
         "end": 400,
-        "startMod": -0.1,
-        "endMod": -0.7,
+        "startMod": -0.05,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -416,7 +416,7 @@
         "start": 200,
         "end": 375,
         "startMod": -0.1,
-        "endMod": -0.7,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -468,8 +468,8 @@
       {
         "start": 250,
         "end": 550,
-        "startMod": -0.25,
-        "endMod": -0.6,
+        "startMod": -0.2,
+        "endMod": -0.55,
         "name": "long"
       }
     ],
@@ -511,8 +511,8 @@
       {
         "start": 220,
         "end": 425,
-        "startMod": -0.35,
-        "endMod": -0.45,
+        "startMod": -0.25,
+        "endMod": -0.4,
         "name": "long"
       }
     ],
@@ -557,7 +557,7 @@
         "start": 200,
         "end": 340,
         "startMod": 0,
-        "endMod": -0.3,
+        "endMod": -0.2,
         "name": "long"
       }
     ],
