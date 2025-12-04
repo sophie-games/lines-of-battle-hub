@@ -184,7 +184,7 @@
     "damageTypeResistances": {
       "bayonet": -0.2,
       "cavalry-lance": -0.15,
-      "cavalry-sword": -0.3,
+      "cavalry-sword": -0.25,
       "musket": -0.5,
       "marksman-musket": -0.5,
       "rifle": -0.5,
@@ -227,9 +227,9 @@
     },
     "damageTypeResistances": {
       "bayonet": -0.15,
-      "cavalry-sabre": 0.5,
+      "cavalry-sabre": 0.4,
       "cavalry-lance": -0.2,
-      "dragoon-sword": 0.4,
+      "dragoon-sword": 0.3,
       "musket": -0.35,
       "marksman-musket": -0.4,
       "rifle": -0.4,
