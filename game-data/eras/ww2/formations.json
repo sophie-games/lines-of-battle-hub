@@ -1,6 +1,10 @@
 [
   {
     "id": "default",
-    "frontBackArc": 90
+    "frontBackArc": 90,
+    "collisionCircles": 1,
+    "collisionCircleSize": 20,
+    "width": 20,
+    "height": 20
   }
 ]
