@@ -39,7 +39,8 @@
       }
     ],
     "pushStrength": 20,
-    "pushDistance": 1
+    "pushDistance": 1,
+    "maxEntrenchment": 8
   },
   {
     "name": "tank_division",
@@ -82,7 +83,8 @@
       }
     ],
     "pushStrength": 40,
-    "pushDistance": 2
+    "pushDistance": 2,
+    "maxEntrenchment": 8
   },
   {
     "name": "unknown",

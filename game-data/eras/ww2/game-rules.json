@@ -7,6 +7,17 @@
     "supplyHubRadius": 16,
     "defaultLogistics": 500
   },
+  "entrenchment": {
+    "ranges": [
+      { "min": 0, "max": 2, "color": "A67A4F" },
+      { "min": 3, "max": 4, "color": "C79A6B" },
+      { "min": 5, "max": 6, "color": "E1C095" },
+      { "min": 7, "max": 8, "color": "F3E3C5" }
+    ],
+    "meleeAttackBonusPerLevel": 1,
+    "meleeDefenseBonusPerLevel": 1,
+    "weightPerLevel": 20
+  },
   "objectives": {
     "radius": 16,
     "pressureThreshold": 0.25,
