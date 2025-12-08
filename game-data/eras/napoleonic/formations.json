@@ -61,7 +61,7 @@
     ],
     "movementModifier": -0.25,
     "rotationSpeedModifier": -0.6,
-    "rangedAttackModifier": 1.5,
+    "rangedAttackModifier": 1.25,
     "rangedDamageResistance": 0.15,
     "rangedOrgResistance": -0.1,
     "chargePenetrationModifier": -0.15,
