@@ -20,7 +20,6 @@
     "name": "fireAndAdvance",
     "speedModifierWhenShooting": -0.25,
     "allowFireWhenMoving": true,
-    "ammoConsumptionModifier": -0.25,
     "orgRegainModifier": -0.1
   },
   {
@@ -43,4 +42,7 @@
     "canFocusLocation": true
   }
 ]
+
+
+
 

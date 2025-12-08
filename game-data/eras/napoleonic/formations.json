@@ -4,7 +4,7 @@
     "frontBackArc": 126.87,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "terrainCheckPoints": [
+    "checkPoints": [
       { "x": 0, "y": 0, "weight": 2 },
       { "x": 0, "y": -10, "weight": 1 },
       { "x": 0, "y": 10, "weight": 1 }
@@ -29,7 +29,7 @@
     "collisionCircles": 2,
     "collisionCircleSize": 12,
     "collisionCirclesVertical": true,
-    "terrainCheckPoints": [
+    "checkPoints": [
       { "x": 0, "y": 0, "weight": 2 },
       { "x": -10, "y": 0, "weight": 1 },
       { "x": 10, "y": 0, "weight": 1 }
@@ -53,7 +53,7 @@
     "frontBackArc": 152,
     "collisionCircles": 4,
     "collisionCircleSize": 10,
-    "terrainCheckPoints": [
+    "checkPoints": [
       { "x": 0, "y": -15, "weight": 1 },
       { "x": 0, "y": -5, "weight": 1 },
       { "x": 0, "y": 5, "weight": 1 },
@@ -103,7 +103,7 @@
     "frontBackArc": 126.87,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "terrainCheckPoints": [
+    "checkPoints": [
       { "x": 0, "y": 0, "weight": 2 },
       { "x": 0, "y": -10, "weight": 1 },
       { "x": 0, "y": 10, "weight": 1 }
@@ -133,7 +133,7 @@
     "frontBackArc": 126.87,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
-    "terrainCheckPoints": [
+    "checkPoints": [
       { "x": 0, "y": 0, "weight": 2 },
       { "x": 0, "y": -10, "weight": 1 },
       { "x": 0, "y": 10, "weight": 1 }
