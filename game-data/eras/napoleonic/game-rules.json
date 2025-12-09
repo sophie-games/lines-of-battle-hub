@@ -61,7 +61,7 @@
     "maxOrgMeleeAttackBonus": 0.25,
     "maxOrgMeleeAttackPenalty": 0.25,
     "regainRate": 0.12,
-    "shatterOrgThreshold": -0.25,
+    "shatterOrgThreshold": -0.35,
     "routedOrgThreshold": 0.05,
     "recoverOrgThreshold": 0.1,
     "rallyOrgThreshold": 0.3,
