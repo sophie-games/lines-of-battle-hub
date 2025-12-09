@@ -64,14 +64,14 @@
       {
         "start": 0,
         "end": 24,
-        "startMod": 6,
-        "endMod": 6,
+        "startMod": 5,
+        "endMod": 5,
         "name": "pointBlank"
       },
       {
         "start": 24,
         "end": 44,
-        "startMod": 6,
+        "startMod": 5,
         "endMod": 2,
         "name": "close"
       },
