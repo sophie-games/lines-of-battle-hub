@@ -86,9 +86,9 @@
     "manpower": 125,
     "gold": 75,
     "unknownType": 22,
-    "rotationSpeed": 0.31,
-    "rotationMaxThreshold": 0.52,
-    "runRotationSpeed": 0.22,
+    "rotationSpeed": 0.45,
+    "rotationMaxThreshold": 0.75,
+    "runRotationSpeed": 0.35,
     "turningDelay": 3,
     "reportStats": {
       "men": 250,
@@ -252,9 +252,9 @@
       "horse": 250,
       "guns": 0
     },
-    "rotationSpeed": 0.33,
-    "rotationMaxThreshold": 0.53,
-    "runRotationSpeed": 0.23,
+    "rotationSpeed": 0.48,
+    "rotationMaxThreshold": 0.77,
+    "runRotationSpeed": 0.38,
     "turningDelay": 3,
     "defaultFormation": "cavalry",
     "formations": [
@@ -415,9 +415,9 @@
       "horse": 250,
       "guns": 0
     },
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204,
+    "rotationSpeed": 0.42,
+    "rotationMaxThreshold": 0.7,
+    "runRotationSpeed": 0.33,
     "turningDelay": 3,
     "defaultFormation": "cavalry",
     "formations": [
@@ -559,9 +559,9 @@
       "horse": 250,
       "guns": 0
     },
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204,
+    "rotationSpeed": 0.5,
+    "rotationMaxThreshold": 0.8,
+    "runRotationSpeed": 0.37,
     "turningDelay": 3,
     "defaultFormation": "cavalry",
     "formations": [
@@ -658,9 +658,9 @@
       "horse": 250,
       "guns": 0
     },
-    "rotationSpeed": 0.297,
-    "rotationMaxThreshold": 0.523,
-    "runRotationSpeed": 0.204,
+    "rotationSpeed": 0.5,
+    "rotationMaxThreshold": 0.9,
+    "runRotationSpeed": 0.35,
     "turningDelay": 3,
     "defaultFormation": "cavalry",
     "formations": [
