@@ -18,12 +18,7 @@
   "TURN_LIMIT_TIME_MARGIN_SECONDS": "gameLimits",
 
   "ROUT_THRESHOLD_TURNS": "routing",
-
-  "ROUTING_MELEE_DAMAGE_RECEIVED_MODIFIER": "routing",
   "ROUTING_COLLISION_LEVEL": "routing",
-
-  "MIN_MOVEMENT_MODIFIER": "movement",
-  "MIN_ROUTING_MOVEMENT_MODIFIER": "movement",
 
   "DEFAULT_MAP_WIDTH": "mapDimensions",
   "DEFAULT_MAP_HEIGHT": "mapDimensions",

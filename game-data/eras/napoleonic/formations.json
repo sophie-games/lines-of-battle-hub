@@ -21,7 +21,8 @@
     "flankChargeResistance": -0.4,
     "rearChargeResistance": -0.6,
     "timeToForm": 2,
-    "timeToUnform": 2
+    "timeToUnform": 2,
+    "minMovementModifier": -0.5
   },
   {
     "id": "column",
@@ -46,7 +47,8 @@
     "flankChargeResistance": -0.35,
     "rearChargeResistance": -0.55,
     "timeToForm": 2,
-    "timeToUnform": 2
+    "timeToUnform": 2,
+    "minMovementModifier": -0.5
   },
   {
     "id": "line",
@@ -72,7 +74,8 @@
     "shootingAngleMargin": 0,
     "shootingSides": 2,
     "timeToForm": 5,
-    "timeToUnform": 8
+    "timeToUnform": 8,
+    "minMovementModifier": -0.5
   },
   {
     "id": "square",
@@ -96,7 +99,8 @@
     "chargeResistanceModifier": -0.1,
     "timeToForm": 4,
     "timeToUnform": 4,
-    "formingSpeedModifier": -1
+    "formingSpeedModifier": -1,
+    "minMovementModifier": -0.5
   },
   {
     "id": "artillery",
@@ -113,7 +117,8 @@
     "disablesEnfiladeFire": true,
     "disablesRearFire": true,
     "shootingAngle": 75,
-    "shootingMaxTargets": 2
+    "shootingMaxTargets": 2,
+    "minMovementModifier": -0.5
   },
   {
     "id": "skirmish",
@@ -126,7 +131,8 @@
     "disablesRearFire": true,
     "shootingAngle": 360,
     "shootingMaxTargets": 3,
-    "shootingAngleMargin": 0
+    "shootingAngleMargin": 0,
+    "minMovementModifier": -0.5
   },
   {
     "id": "cavalry",
@@ -142,12 +148,35 @@
     "disablesFlankMelee": true,
     "disablesRearFire": true,
     "shootingAngle": 360,
-    "shootingMaxTargets": 1
+    "shootingMaxTargets": 1,
+    "minMovementModifier": -0.5
   },
   {
     "id": "unknown",
     "frontBackArc": 90,
     "collisionCircles": 1,
     "collisionCircleSize": 16
+  },
+  {
+    "id": "dispersed",
+    "frontBackArc": 90,
+    "collisionCircles": 1,
+    "collisionCircleSize": 20,
+    "shootingAngle": 360,
+    "rangedAttackModifier": 0.8,
+    "shootingMaxTargets": 2,
+    "shootingAngleMargin": 150,
+    "shootingSides": 2,
+    "rangedOrgResistance": 0.5,
+    "movementModifier": 0.1,
+    "rotationSpeedModifier": 0.25,
+    "disablesFlankMelee": true,
+    "disablesRearMelee": true,
+    "disablesEnfiladeFire": true,
+    "disablesRearFire": true,
+    "timeToForm": 2,
+    "timeToUnform": 2,
+    "receivedMeleeDamageModifier": 0.5,
+    "minMovementModifier": -0.1
   }
 ]

@@ -4,5 +4,11 @@
     "frontBackArc": 90,
     "collisionCircles": 1,
     "collisionCircleSize": 20
+  },
+  {
+    "id": "dispersed",
+    "frontBackArc": 90,
+    "collisionCircles": 1,
+    "collisionCircleSize": 20
   }
 ]
