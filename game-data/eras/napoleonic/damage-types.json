@@ -51,8 +51,8 @@
     "id": 7,
     "name": "musket",
     "ranged": true,
-    "orgDamageRatio": 225,
-    "reorgDebuff": 0.8,
+    "orgDamageRatio": 230,
+    "reorgDebuff": 0.9,
     "attackEffectDuration": 8,
     "projectileWidth": 16,
     "diminishByTargetOrg": {
