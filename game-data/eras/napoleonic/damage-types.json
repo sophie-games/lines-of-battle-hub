@@ -51,27 +51,27 @@
     "id": 7,
     "name": "musket",
     "ranged": true,
-    "orgDamageRatio": 250,
+    "orgDamageRatio": 225,
     "reorgDebuff": 0.8,
     "attackEffectDuration": 8,
     "projectileWidth": 16,
     "diminishByTargetOrg": {
       "start": 0.9,
       "end": 0.7,
-      "modifier": -0.45
+      "modifier": -0.25
     },
     "ranges": [
       {
         "start": 0,
         "end": 24,
-        "startMod": 6,
-        "endMod": 6,
+        "startMod": 5,
+        "endMod": 5,
         "name": "pointBlank"
       },
       {
         "start": 24,
         "end": 44,
-        "startMod": 6,
+        "startMod": 5,
         "endMod": 2,
         "name": "close"
       },
@@ -93,7 +93,7 @@
     "diminishByTargetOrg": {
       "start": 0.9,
       "end": 0.65,
-      "modifier": -0.77
+      "modifier": -0.75
     },
     "ranges": [
       {
