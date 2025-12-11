@@ -59,8 +59,8 @@
         "overlaySprite": "infantry-square"
       }
     ],
-    "pushStrength": 1,
-    "pushDistance": 0.25
+    "pushStrength": 2,
+    "pushDistance": 0.5
   },
   {
     "name": "dragoons",
@@ -217,8 +217,8 @@
         "overlaySprite": "guards-square"
       }
     ],
-    "pushStrength": 1,
-    "pushDistance": 0.25
+    "pushStrength": 2.5,
+    "pushDistance": 0.5
   },
   {
     "name": "lancers",
@@ -243,6 +243,7 @@
     "movementSound": "cavalry-movement",
     "manpower": 125,
     "gold": 100,
+    "canDeployForward": true,
     "basicPrice": 400,
     "premiumPrice": 40,
     "unknownType": 22,
@@ -379,8 +380,8 @@
         "overlaySprite": "chasseurs-square"
       }
     ],
-    "pushStrength": 1,
-    "pushDistance": 0.25
+    "pushStrength": 2,
+    "pushDistance": 0.5
   },
   {
     "name": "cuirassiers",
@@ -729,8 +730,8 @@
         "overlaySprite": "grenadiers-square"
       }
     ],
-    "pushStrength": 1,
-    "pushDistance": 0.25
+    "pushStrength": 2.5,
+    "pushDistance": 0.5
   },
   {
     "name": "4lb_artillery",
