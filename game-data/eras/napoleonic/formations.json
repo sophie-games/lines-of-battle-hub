@@ -77,7 +77,7 @@
     "id": "square",
     "frontBackArc": 90,
     "collisionCircles": 1,
-    "collisionCircleSize": 16,
+    "collisionCircleSize": 20,
     "movementModifier": -0.8,
     "rotationSpeedModifier": -0.8,
     "chargeBonusModifier": -0.75,

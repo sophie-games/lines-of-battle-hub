@@ -56,7 +56,7 @@
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "line-square"
+        "overlaySprite": "infantry-square"
       }
     ],
     "pushStrength": 1,
@@ -215,7 +215,7 @@
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "guard-square"
+        "overlaySprite": "guards-square"
       }
     ],
     "pushStrength": 1,
@@ -730,7 +730,7 @@
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "grenadier-square"
+        "overlaySprite": "grenadiers-square"
       }
     ],
     "pushStrength": 1,
