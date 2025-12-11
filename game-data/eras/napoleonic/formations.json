@@ -118,7 +118,13 @@
     "disablesRearFire": true,
     "shootingAngle": 75,
     "shootingMaxTargets": 2,
-    "minMovementModifier": -0.5
+    "minMovementModifier": -0.5,
+    "projectilePassThrough": 0.5,
+    "friendlyFireImmuneDamageTypes": [
+      "musket",
+      "marksman-musket",
+      "rifle"
+    ]
   },
   {
     "id": "skirmish",
@@ -132,7 +138,29 @@
     "shootingAngle": 360,
     "shootingMaxTargets": 3,
     "shootingAngleMargin": 0,
-    "minMovementModifier": -0.5
+    "minMovementModifier": -0.5,
+    "projectilePassThrough": 0.5,
+    "friendlyFireImmuneDamageTypes": [
+      "musket",
+      "marksman-musket",
+      "rifle",
+      "4lb-cannon-ball",
+      "6lb-cannon-ball",
+      "8lb-cannon-ball",
+      "12lb-cannon-ball",
+      "explosive-shell",
+      "10lb-cannon-ball",
+      "18lb-cannon-ball",
+      "10lb-explosive-shell",
+      "18lb-explosive-shell",
+      "rocket-long",
+      "howitzer-canister",
+      "12lb-canister-fire",
+      "18lb-canister-fire",
+      "10lb-canister-fire",
+      "18lb-explosive-shell",
+      "10lb-explosive-shell"
+    ]
   },
   {
     "id": "cavalry",
@@ -177,6 +205,31 @@
     "timeToForm": 2,
     "timeToUnform": 2,
     "receivedMeleeDamageModifier": 0.5,
-    "minMovementModifier": -0.1
+    "minMovementModifier": -0.1,
+    "projectilePassThrough": 0.4,
+    "friendlyFireImmuneDamageTypes": [
+      "musket",
+      "marksman-musket",
+      "rifle",
+      "18lb-cannon-ball",
+      "12lb-cannon-ball",
+      "10lb-cannon-ball",
+      "8lb-cannon-ball",
+      "6lb-cannon-ball",
+      "4lb-cannon-ball",
+      "18lb-explosive-shell",
+      "10lb-explosive-shell",
+      "explosive-shell",
+      "18lb-canister-fire",
+      "12lb-canister-fire",
+      "10lb-canister-fire",
+      "8lb-canister-fire",
+      "6lb-canister-fire",
+      "4lb-canister-fire",
+      "howitzer-canister",
+      "horse-archer-bow",
+      "rocket",
+      "rocket-long"
+    ]
   }
 ]
