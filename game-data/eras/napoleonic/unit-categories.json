@@ -80,7 +80,7 @@
     "id": "artillery",
     "deploymentSection": "front",
     "firingAltitude": 0.5,
-    "allyCollisionLevel": 0,
+    "allyCollisionLevel": -1,
     "enemyCollisionLevel": 1,
     "routingBehavior": {
       "fleeWhenRouted": false
@@ -301,7 +301,7 @@
     "id": "skirmishInfantry",
     "deploymentSection": "forward",
     "firingAltitude": 0.9,
-    "allyCollisionLevel": 0,
+    "allyCollisionLevel": -1,
     "enemyCollisionLevel": 1,
     "routingBehavior": {
       "baseSpeed": "run"
