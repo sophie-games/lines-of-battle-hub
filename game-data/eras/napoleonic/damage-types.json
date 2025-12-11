@@ -86,7 +86,7 @@
     "id": 8,
     "name": "marksman-musket",
     "ranged": true,
-    "orgDamageRatio": 435,
+    "orgDamageRatio": 500,
     "reorgDebuff": 0.6,
     "attackEffectDuration": 12,
     "projectileWidth": 12,
@@ -121,7 +121,7 @@
     "id": 9,
     "name": "rifle",
     "ranged": true,
-    "orgDamageRatio": 500,
+    "orgDamageRatio": 600,
     "reorgDebuff": 0.6,
     "attackEffectDuration": 16,
     "projectileWidth": 12,
@@ -592,7 +592,7 @@
     "id": 19,
     "name": "18lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 210,
+    "orgDamageRatio": 230,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
     "projectileWidth": 12,
@@ -608,7 +608,7 @@
         "start": 69,
         "end": 110,
         "startMod": 3.1,
-        "endMod": 0.7,
+        "endMod": 0.85,
         "name": "long"
       }
     ],
@@ -623,7 +623,7 @@
     "id": 20,
     "name": "12lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 200,
+    "orgDamageRatio": 220,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
     "projectileWidth": 12,
@@ -632,14 +632,14 @@
         "start": 0,
         "end": 69,
         "startMod": 2.5,
-        "endMod": 2.1,
+        "endMod": 2.2,
         "name": "close"
       },
       {
         "start": 69,
         "end": 145,
-        "startMod": 2.1,
-        "endMod": 0.5,
+        "startMod": 2.2,
+        "endMod": 0.6,
         "name": "long"
       }
     ],
@@ -654,6 +654,7 @@
     "id": 21,
     "name": "10lb-canister-fire",
     "ranged": true,
+    "orgDamageRatio": 215,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
     "projectileWidth": 12,
@@ -669,7 +670,7 @@
         "start": 69,
         "end": 105,
         "startMod": 3,
-        "endMod": 0.8,
+        "endMod": 0.9,
         "name": "long"
       }
     ],
@@ -684,7 +685,7 @@
     "id": 22,
     "name": "8lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 195,
+    "orgDamageRatio": 205,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
     "projectileWidth": 12,
@@ -699,8 +700,8 @@
       {
         "start": 69,
         "end": 135,
-        "startMod": 2.6,
-        "endMod": 0.75,
+        "startMod": 2.75,
+        "endMod": 0.8,
         "name": "long"
       }
     ],
@@ -715,7 +716,7 @@
     "id": 23,
     "name": "6lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 190,
+    "orgDamageRatio": 200,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
     "projectileWidth": 12,
@@ -723,15 +724,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.1,
-        "endMod": 2.4,
+        "startMod": 3.25,
+        "endMod": 2.5,
         "name": "close"
       },
       {
         "start": 69,
         "end": 120,
-        "startMod": 2.4,
-        "endMod": 1,
+        "startMod": 2.5,
+        "endMod": 1.1,
         "name": "long"
       }
     ],
@@ -746,7 +747,7 @@
     "id": 24,
     "name": "4lb-canister-fire",
     "ranged": true,
-    "orgDamageRatio": 185,
+    "orgDamageRatio": 195,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
     "projectileWidth": 12,
@@ -754,15 +755,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.6,
-        "endMod": 2,
+        "startMod": 2.5,
+        "endMod": 2.25,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 2,
-        "endMod": 1.1,
+        "startMod": 2.25,
+        "endMod": 1.15,
         "name": "long"
       }
     ],
@@ -777,7 +778,7 @@
     "id": 25,
     "name": "howitzer-canister",
     "ranged": true,
-    "orgDamageRatio": 225,
+    "orgDamageRatio": 240,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
     "projectileWidth": 12,
@@ -785,8 +786,8 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 6.5,
-        "endMod": 4.5,
+        "startMod": 7.5,
+        "endMod": 5,
         "name": "close"
       }
     ],
@@ -818,7 +819,7 @@
     "id": 27,
     "name": "rocket",
     "ranged": true,
-    "orgDamageRatio": 420,
+    "orgDamageRatio": 450,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 4,
     "projectileWidth": 24,
