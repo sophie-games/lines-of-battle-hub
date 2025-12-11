@@ -1189,7 +1189,7 @@
     "timeToRun": 14,
     "runCost": 8,
     "hp": 600,
-    "org" 300,
+    "org": 300,
     "stamina": null,
     "ammo": 300,
     "orgRadius": 40,
