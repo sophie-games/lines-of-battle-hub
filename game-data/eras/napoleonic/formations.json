@@ -128,6 +128,8 @@
     "frontBackArc": 126.87,
     "collisionCircles": 2,
     "collisionCircleSize": 12,
+    "rangedAttackModifier": 1.75,
+    "shootingSides": 2,
     "disablesFlankMelee": true,
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
