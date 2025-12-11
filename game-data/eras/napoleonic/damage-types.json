@@ -78,7 +78,7 @@
       { "start": 44, "end": 64, "startMod": 2, "endMod": -0.15 }
     ],
     "enfiladeFire": true,
-    "projectilePenetration": 0.25,
+    "projectilePenetration": 0.30,
     "shotSound": "musket-volley",
     "shotAnim": "musketVolley"
   },
@@ -113,7 +113,7 @@
       }
     ],
     "enfiladeFire": true,
-    "projectilePenetration": 0.25,
+    "projectilePenetration": 0.04,
     "shotSound": "musket-volley",
     "shotAnim": "musketVolley"
   },
@@ -141,7 +141,7 @@
       }
     ],
     "enfiladeFire": true,
-    "projectilePenetration": 0.25,
+    "projectilePenetration": 0.04,
     "shotSound": "musket-volley",
     "shotAnim": "musketVolley"
   },

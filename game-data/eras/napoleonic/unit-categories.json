@@ -82,9 +82,7 @@
     "firingAltitude": 0.5,
     "allyCollisionLevel": 1,
     "enemyCollisionLevel": 1,
-    "projectilePassThrough": 1.0,
     "routingBehavior": {
-      "baseSpeed": "walk",
       "fleeWhenRouted": false
     },
     "damageTypeResistances": {
@@ -305,7 +303,6 @@
     "firingAltitude": 0.9,
     "allyCollisionLevel": 1,
     "enemyCollisionLevel": 1,
-    "projectilePassThrough": 0.8,
     "routingBehavior": {
       "baseSpeed": "run"
     },
