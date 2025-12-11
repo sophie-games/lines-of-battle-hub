@@ -51,14 +51,14 @@
     "id": 7,
     "name": "musket",
     "ranged": true,
-    "orgDamageRatio": 230,
-    "reorgDebuff": 0.9,
+    "orgDamageRatio": 235,
+    "reorgDebuff": 0.95,
     "attackEffectDuration": 8,
     "projectileWidth": 16,
     "diminishByTargetOrg": {
       "start": 0.9,
       "end": 0.7,
-      "modifier": -0.25
+      "modifier": -0.35
     },
     "ranges": [
       {
@@ -149,8 +149,8 @@
     "id": 10,
     "name": "18lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 185,
-    "reorgDebuff": 0.8,
+    "orgDamageRatio": 200,
+    "reorgDebuff": 0.85,
     "attackEffectDuration": 24,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -194,8 +194,8 @@
     "id": 11,
     "name": "12lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 185,
-    "reorgDebuff": 0.8,
+    "orgDamageRatio": 200,
+    "reorgDebuff": 0.85,
     "attackEffectDuration": 24,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -208,8 +208,8 @@
       {
         "start": 250,
         "end": 500,
-        "startMod": -0.15,
-        "endMod": -0.7,
+        "startMod": -0.1,
+        "endMod": -0.65,
         "name": "long"
       }
     ],
@@ -248,8 +248,8 @@
     "id": 12,
     "name": "10lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 185,
-    "reorgDebuff": 0.8,
+    "orgDamageRatio": 200,
+    "reorgDebuff": 0.85,
     "attackEffectDuration": 24,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -293,8 +293,8 @@
     "id": 13,
     "name": "8lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 185,
-    "reorgDebuff": 0.8,
+    "orgDamageRatio": 200,
+    "reorgDebuff": 0.85,
     "attackEffectDuration": 24,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -308,7 +308,7 @@
         "start": 240,
         "end": 435,
         "startMod": -0.1,
-        "endMod": -0.65,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
@@ -347,8 +347,8 @@
     "id": 14,
     "name": "6lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 185,
-    "reorgDebuff": 0.75,
+    "orgDamageRatio": 200,
+    "reorgDebuff": 0.85,
     "attackEffectDuration": 24,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -362,7 +362,7 @@
         "start": 225,
         "end": 400,
         "startMod": -0.05,
-        "endMod": -0.65,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
@@ -401,8 +401,8 @@
     "id": 15,
     "name": "4lb-cannon-ball",
     "ranged": true,
-    "orgDamageRatio": 185,
-    "reorgDebuff": 0.75,
+    "orgDamageRatio": 200,
+    "reorgDebuff": 0.85,
     "attackEffectDuration": 24,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -415,8 +415,8 @@
       {
         "start": 200,
         "end": 375,
-        "startMod": -0.1,
-        "endMod": -0.65,
+        "startMod": -0.05,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
@@ -541,8 +541,8 @@
     "id": 18,
     "name": "explosive-shell",
     "ranged": true,
-    "orgDamageRatio": 185,
-    "reorgDebuff": 0.9,
+    "orgDamageRatio": 220,
+    "reorgDebuff": 0.95,
     "attackEffectDuration": 12,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
