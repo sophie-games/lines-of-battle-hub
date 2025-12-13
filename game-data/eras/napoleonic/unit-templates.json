@@ -136,7 +136,7 @@
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
-    "rotationSpeed": 1,
+    "rotationSpeed": 0.4,
     "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "reportStats": {
@@ -303,7 +303,7 @@
       "horse": 64,
       "guns": 8
     },
-    "rotationSpeed": 1,
+    "rotationSpeed": 0.6,
     "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "defaultFormation": "artillery",
@@ -464,7 +464,7 @@
       "horse": 24,
       "guns": 6
     },
-    "rotationSpeed": 1,
+    "rotationSpeed": 0.75,
     "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "defaultFormation": "artillery",
@@ -605,7 +605,7 @@
       "horse": 48,
       "guns": 8
     },
-    "rotationSpeed": 1,
+    "rotationSpeed": 0.25,
     "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "defaultFormation": "artillery",
@@ -769,7 +769,7 @@
       "horse": 40,
       "guns": 8
     },
-    "rotationSpeed": 1,
+    "rotationSpeed": 0.8,
     "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "defaultFormation": "artillery",
@@ -916,7 +916,7 @@
       "horse": 40,
       "guns": 8
     },
-    "rotationSpeed": 1,
+    "rotationSpeed": 0.6,
     "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "defaultFormation": "artillery",
@@ -966,7 +966,7 @@
       "horse": 24,
       "guns": 6
     },
-    "rotationSpeed": 1,
+    "rotationSpeed": 0.9,
     "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "defaultFormation": "artillery",
@@ -1226,7 +1226,7 @@
     "minDistanceToFAA": 50,
     "startsRunning": true,
     "unknownType": 23,
-    "rotationSpeed": 1,
+    "rotationSpeed": 0.2,
     "rotationMaxThreshold": 3,
     "runRotationSpeed": 0.8,
     "reportStats": {
