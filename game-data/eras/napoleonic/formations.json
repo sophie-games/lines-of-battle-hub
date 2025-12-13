@@ -16,8 +16,8 @@
     "rangedOrgResistance": 0.2,
     "flankChargeResistance": -0.6,
     "rearChargeResistance": -0.8,
-    "timeToForm": 4,
-    "timeToUnform": 2,
+    "timeToForm": 1,
+    "timeToUnform": 3,
     "minMovementModifier": -0.5
   },
   {
@@ -43,8 +43,8 @@
     "chargeResistanceModifier": 0.15,
     "flankChargeResistance": -0.5,
     "rearChargeResistance": -0.7,
-    "timeToForm": 4,
-    "timeToUnform": 2,
+    "timeToForm": 1,
+    "timeToUnform": 3,
     "minMovementModifier": -0.5
   },
   {
@@ -82,7 +82,7 @@
     "movementModifier": -0.8,
     "rotationSpeedModifier": -0.8,
     "chargeBonusModifier": -0.75,
-    "rangedAttackModifier": 2,
+    "rangedAttackModifier": 2.2,
     "disablesFlankMelee": true,
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
@@ -94,7 +94,7 @@
     "rangedDamageResistance": -0.5,
     "rangedOrgResistance": 0.3,
     "chargeResistanceModifier": -0.15,
-    "timeToForm": 4,
+    "timeToForm": 5,
     "timeToUnform": 2,
     "formingSpeedModifier": -1,
     "minMovementModifier": -0.5
