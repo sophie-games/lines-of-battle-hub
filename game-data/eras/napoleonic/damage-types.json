@@ -51,14 +51,14 @@
     "id": 7,
     "name": "musket",
     "ranged": true,
-    "orgDamageRatio": 235,
+    "orgDamageRatio": 250,
     "reorgDebuff": 0.95,
     "attackEffectDuration": 8,
     "projectileWidth": 16,
     "diminishByTargetOrg": {
       "start": 0.9,
       "end": 0.6,
-      "modifier": -0.25
+      "modifier": -0.2
     },
     "ranges": [
       {
@@ -75,7 +75,7 @@
         "endMod": 2.5,
         "name": "close"
       },
-      { "start": 44, "end": 64, "startMod": 2, "endMod": -0.15 }
+      { "start": 44, "end": 64, "startMod": 2.5, "endMod": -0.15 }
     ],
     "enfiladeFire": true,
     "projectilePenetration": 0.30,
