@@ -51,14 +51,14 @@
     "id": 7,
     "name": "musket",
     "ranged": true,
-    "orgDamageRatio": 235,
+    "orgDamageRatio": 250,
     "reorgDebuff": 0.95,
     "attackEffectDuration": 8,
     "projectileWidth": 16,
     "diminishByTargetOrg": {
       "start": 0.9,
       "end": 0.6,
-      "modifier": -0.25
+      "modifier": -0.2
     },
     "ranges": [
       {
@@ -75,7 +75,7 @@
         "endMod": 2.5,
         "name": "close"
       },
-      { "start": 44, "end": 64, "startMod": 2, "endMod": -0.15 }
+      { "start": 44, "end": 64, "startMod": 2.5, "endMod": -0.15 }
     ],
     "enfiladeFire": true,
     "projectilePenetration": 0.30,
@@ -600,15 +600,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 4.5,
-        "endMod": 3.5,
+        "startMod": 4.75,
+        "endMod": 4.25,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 3.5,
-        "endMod": 1.5,
+        "startMod": 4.25,
+        "endMod": 2.25,
         "name": "long"
       }
     ],
@@ -631,15 +631,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.25,
-        "endMod": 2.75,
+        "startMod": 3.75,
+        "endMod": 3.25,
         "name": "close"
       },
       {
         "start": 69,
         "end": 145,
-        "startMod": 2.75,
-        "endMod": 0.75,
+        "startMod": 3.25,
+        "endMod": 1.25,
         "name": "long"
       }
     ],
@@ -663,14 +663,14 @@
         "start": 0,
         "end": 69,
         "startMod": 4.5,
-        "endMod": 3.5,
+        "endMod": 3.75,
         "name": "close"
       },
       {
         "start": 69,
         "end": 105,
-        "startMod": 3.5,
-        "endMod": 1.25,
+        "startMod": 3.75,
+        "endMod": 2,
         "name": "long"
       }
     ],
@@ -694,14 +694,14 @@
         "start": 0,
         "end": 69,
         "startMod": 4,
-        "endMod": 3,
+        "endMod": 3.5,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 3,
-        "endMod": 1.25,
+        "startMod": 3.5,
+        "endMod": 1.75,
         "name": "long"
       }
     ],
@@ -732,7 +732,7 @@
         "start": 69,
         "end": 120,
         "startMod": 3,
-        "endMod": 1.15,
+        "endMod": 1.5,
         "name": "long"
       }
     ],
@@ -786,8 +786,8 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 7.5,
-        "endMod": 5.5,
+        "startMod": 7,
+        "endMod": 6,
         "name": "close"
       }
     ],
