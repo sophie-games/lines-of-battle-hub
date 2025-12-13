@@ -6,7 +6,7 @@
     "rearChargePenetrationModifier": 1.0
   },
   "stamina": {
-    "meleeTurnCost": 150,
+    "meleeTurnCost": 175,
     "rangedTurnCost": 50,
     "hasRanMeleeStaminaCostModifier": 1.0,
     "regainRates": {
@@ -26,8 +26,8 @@
   },
   "ammo": {
     "baseReserve": 500,
-    "regenerationBaseRate": 0.04,
-    "regenerationBonusRate": 0.07,
+    "regenerationBaseRate": 0.03,
+    "regenerationBonusRate": 0.03,
     "maxHpConsumptionReduction": -0.6
   },
   "skirmisherSpawning": {
@@ -68,9 +68,9 @@
     "upperModifierLimit": 0.95,
     "lowerModifierLimit": 0.35,
     "nearbyUnitsDistance": 64,
-    "nearbyUnitsPositiveOrgBonusCap": 48,
-    "nearbyUnitsNegativeOrgBonusCap": -48,
-    "nearbyUnitsOrgDamageModifierCap": 0.4,
+    "nearbyUnitsPositiveOrgBonusCap": 56,
+    "nearbyUnitsNegativeOrgBonusCap": -56,
+    "nearbyUnitsOrgDamageModifierCap": 0.5,
     "routingUnitNearbyUnitsOrgBonus": 6,
     "startedRoutingOrgRadiusModifier": -4,
     "orgRadiusBonusHpLossReduction": 0.8,
