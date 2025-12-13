@@ -109,6 +109,8 @@
       { "x": 0, "y": -10, "weight": 1 },
       { "x": 0, "y": 10, "weight": 1 }
     ],
+    "rangedAttackModifier": 0.75,
+    "shootingSides": 2,
     "disablesFlankMelee": true,
     "disablesRearMelee": true,
     "disablesEnfiladeFire": true,
