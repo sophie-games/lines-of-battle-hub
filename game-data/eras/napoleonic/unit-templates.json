@@ -9,7 +9,7 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 65,
-    "chargeResistance": 0.65,
+    "chargeResistance": 0.75,
     "runChargeResistanceModifier": -1.35,
     "chargePenetration": 0.5,
     "walkMovement": 70,
@@ -59,8 +59,8 @@
         "overlaySprite": "infantry-square"
       }
     ],
-    "pushStrength": 2,
-    "pushDistance": 0.5
+    "pushStrength": 3,
+    "pushDistance": 1
   },
   {
     "name": "dragoons",
@@ -104,13 +104,13 @@
       }
     ],
     "pushStrength": 2,
-    "pushDistance": 0.25
+    "pushDistance": 0.75
   },
   {
     "name": "8lb_artillery",
     "type": 3,
     "category": "artillery",
-    "rangedAttack": 52,
+    "rangedAttack": 53,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -165,9 +165,9 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 75,
-    "chargeResistance": 0.65,
+    "chargeResistance": 0.8,
     "runChargeResistanceModifier": -1.25,
-    "chargePenetration": 0.6,
+    "chargePenetration": 0.7,
     "walkMovement": 70,
     "runMovement": 110,
     "timeToRun": 4,
@@ -217,8 +217,8 @@
         "overlaySprite": "guards-square"
       }
     ],
-    "pushStrength": 2.5,
-    "pushDistance": 0.5
+    "pushStrength": 4,
+    "pushDistance": 1.5
   },
   {
     "name": "lancers",
@@ -271,7 +271,7 @@
     "name": "6lb_artillery",
     "type": 6,
     "category": "artillery",
-    "rangedAttack": 48,
+    "rangedAttack": 49,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -279,7 +279,7 @@
     "chargeBonus": 5,
     "walkMovement": 65,
     "runStartUpMovement": 16,
-    "runMovement": 175,
+    "runMovement": 170,
     "timeToRun": 10,
     "runCost": 12,
     "hp": 800,
@@ -327,7 +327,7 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 70,
-    "chargeResistance": 0.65,
+    "chargeResistance": 0.75,
     "runChargeResistanceModifier": -1.35,
     "chargePenetration": 0.5,
     "walkMovement": 70,
@@ -380,8 +380,8 @@
         "overlaySprite": "chasseurs-square"
       }
     ],
-    "pushStrength": 2,
-    "pushDistance": 0.5
+    "pushStrength": 3,
+    "pushDistance": 1
   },
   {
     "name": "cuirassiers",
@@ -426,14 +426,14 @@
         "overlaySprite": "cuirassiers"
       }
     ],
-    "pushStrength": 2,
-    "pushDistance": 0.25
+    "pushStrength": 2.75,
+    "pushDistance": 1
   },
   {
     "name": "6in_howitzer",
     "type": 9,
     "category": "artillery",
-    "rangedAttack": 37,
+    "rangedAttack": 38,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -680,9 +680,9 @@
     "meleeDamageType": "bayonet",
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 80,
-    "chargeResistance": 0.7,
+    "chargeResistance": 0.85,
     "runChargeResistanceModifier": -1.4,
-    "chargePenetration": 0.7,
+    "chargePenetration": 0.8,
     "walkMovement": 70,
     "runMovement": 115,
     "timeToRun": 4,
@@ -730,14 +730,14 @@
         "overlaySprite": "grenadiers-square"
       }
     ],
-    "pushStrength": 2.5,
-    "pushDistance": 0.5
+    "pushStrength": 4,
+    "pushDistance": 1.25
   },
   {
     "name": "4lb_artillery",
     "type": 15,
     "category": "artillery",
-    "rangedAttack": 45,
+    "rangedAttack": 46,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -887,7 +887,7 @@
     "name": "6lb_artillery",
     "type": 18,
     "category": "artillery",
-    "rangedAttack": 46,
+    "rangedAttack": 49,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -1143,7 +1143,7 @@
     "name": "10lb_licorne",
     "type": 24,
     "category": "artillery",
-    "rangedAttack": 42,
+    "rangedAttack": 43,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
@@ -1196,7 +1196,7 @@
     "name": "18lb_licorne",
     "type": 25,
     "category": "artillery",
-    "rangedAttack": 51,
+    "rangedAttack": 52,
     "meleeAttack": 6,
     "meleeDefense": 7,
     "meleeDamageType": "artillery-sabre",
