@@ -208,7 +208,7 @@
     "timeToUnform": 1,
     "receivedMeleeDamageModifier": 0.2,
     "minMovementModifier": -0.1,
-    "projectilePassThrough": 0.45,
+    "projectilePassThrough": 0.75,
     "friendlyFireImmuneDamageTypes": [
       "musket",
       "marksman-musket",
