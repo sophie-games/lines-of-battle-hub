@@ -14,13 +14,13 @@
     "rangedAttackModifier": 0.8,
     "shootingSides": 2,
     "shootingMaxTargets": 2,
-    "rangedDamageResistance": -0.35,
-    "rangedOrgResistance": 0.25,
-    "flankChargeResistance": -0.5,
-    "rearChargeResistance": -0.75,
+    "rangedDamageResistance": -0.2,
+    "rangedOrgResistance": 0.2,
+    "flankChargeResistance": -0.4,
+    "rearChargeResistance": -0.6,
     "timeToForm": 1,
     "timeToUnform": 3,
-    "minMovementModifier": -0.5
+    "minMovementModifier": -0.4
   },
   {
     "id": "column",
@@ -35,7 +35,7 @@
     ],
     "movementModifier": 0.1,
     "rotationSpeedModifier": 0.1,
-    "rangedAttackModifier": -0.2,
+    "rangedAttackModifier": -0.25,
     "shootingAngle": 90,
     "shootingMaxTargets": 1,
     "disablesEnfiladeFire": true,
@@ -43,7 +43,7 @@
     "rangedOrgResistance": 0.3,
     "chargeResistanceModifier": 0.15,
     "flankChargeResistance": -0.5,
-    "rearChargeResistance": -0.7,
+    "rearChargeResistance": -0.75,
     "timeToForm": 1,
     "timeToUnform": 3,
     "minMovementModifier": -0.5
