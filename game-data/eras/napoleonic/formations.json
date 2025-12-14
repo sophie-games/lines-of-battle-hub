@@ -94,7 +94,7 @@
     "shootingSides": 4,
     "rangedDamageResistance": -0.5,
     "rangedOrgResistance": 0.3,
-    "chargeResistanceModifier": -0.15,
+    "chargeResistanceModifier": -0.1,
     "timeToForm": 5,
     "timeToUnform": 2,
     "formingSpeedModifier": -1,
