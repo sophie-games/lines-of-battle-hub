@@ -312,9 +312,9 @@
       "cavalry-sword": -0.75,
       "cavalry-lance": -0.75,
       "dragoon-sword": -0.75,
-      "musket": 0.8,
-      "marksman-musket": 0.65,
-      "rifle": 0.3,
+      "musket": 1,
+      "marksman-musket": 0.75,
+      "rifle": 0.5,
       "8lb-cannon-ball": 0.98,
       "12lb-cannon-ball": 0.98,
       "10lb-cannon-ball": 0.98,
@@ -336,7 +336,7 @@
       "artillery": 2,
       "skirmishInfantry": 1
     },
-    "faaRangedDamageModifier": -0.4,
+    "faaRangedDamageModifier": -0.5,
     "allowedOrders": [
       "walk",
       "run",
