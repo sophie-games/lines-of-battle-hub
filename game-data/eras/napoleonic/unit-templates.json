@@ -59,8 +59,8 @@
         "overlaySprite": "infantry-square"
       }
     ],
-    "pushStrength": 3.75,
-    "pushDistance": 1.5
+    "pushStrength": 10,
+    "pushDistance": 2
   },
   {
     "name": "dragoons",
@@ -103,8 +103,8 @@
         "overlaySprite": "dragoons"
       }
     ],
-    "pushStrength": 2,
-    "pushDistance": 0.75
+    "pushStrength": 4,
+    "pushDistance": 3
   },
   {
     "name": "8lb_artillery",
@@ -217,8 +217,8 @@
         "overlaySprite": "guards-square"
       }
     ],
-    "pushStrength": 4.5,
-    "pushDistance": 1.5
+    "pushStrength": 14,
+    "pushDistance": 3
   },
   {
     "name": "lancers",
@@ -265,7 +265,7 @@
       }
     ],
     "pushStrength": 2,
-    "pushDistance": 0.25
+    "pushDistance": 3
   },
   {
     "name": "6lb_artillery",
@@ -380,8 +380,8 @@
         "overlaySprite": "chasseurs-square"
       }
     ],
-    "pushStrength": 4,
-    "pushDistance": 1.5
+    "pushStrength": 12,
+    "pushDistance": 2
   },
   {
     "name": "cuirassiers",
@@ -426,8 +426,8 @@
         "overlaySprite": "cuirassiers"
       }
     ],
-    "pushStrength": 2.75,
-    "pushDistance": 1
+    "pushStrength": 6,
+    "pushDistance": 3
   },
   {
     "name": "6in_howitzer",
@@ -524,8 +524,8 @@
         "overlaySprite": "militia"
       }
     ],
-    "pushStrength": 1,
-    "pushDistance": 0.25
+    "pushStrength": 4,
+    "pushDistance": 1
   },
   {
     "name": "hussars",
@@ -569,8 +569,8 @@
         "overlaySprite": "cavalry"
       }
     ],
-    "pushStrength": 2,
-    "pushDistance": 0.25
+    "pushStrength": 3,
+    "pushDistance": 3
   },
   {
     "name": "12lb_artillery",
@@ -668,7 +668,7 @@
       }
     ],
     "pushStrength": 2,
-    "pushDistance": 0.25
+    "pushDistance": 3
   },
   {
     "name": "grenadiers",
@@ -730,7 +730,7 @@
         "overlaySprite": "grenadiers-square"
       }
     ],
-    "pushStrength": 5,
+    "pushStrength": 14,
     "pushDistance": 2
   },
   {
