@@ -51,8 +51,8 @@
     "id": 7,
     "name": "musket",
     "ranged": true,
-    "orgDamageRatio": 250,
-    "reorgDebuff": 0.95,
+    "orgDamageRatio": 260,
+    "reorgDebuff": 0.9,
     "attackEffectDuration": 8,
     "projectileWidth": 16,
     "diminishByTargetOrg": {
@@ -778,7 +778,7 @@
     "id": 25,
     "name": "howitzer-canister",
     "ranged": true,
-    "orgDamageRatio": 300,
+    "orgDamageRatio": 325,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
     "projectileWidth": 12,
@@ -786,8 +786,8 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 7,
-        "endMod": 6,
+        "startMod": 8.25,
+        "endMod": 7.75,
         "name": "close"
       }
     ],
