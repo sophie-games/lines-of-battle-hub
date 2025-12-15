@@ -162,7 +162,7 @@
     "arcHeight": 0.5,
     "enfiladeFire": false,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "trapezoidal",
       "ranges": [
@@ -216,7 +216,7 @@
     "arcHeight": 0.5,
     "enfiladeFire": false,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "trapezoidal",
       "ranges": [
@@ -261,7 +261,7 @@
     "arcHeight": 0.5,
     "enfiladeFire": false,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "trapezoidal",
       "ranges": [
@@ -315,7 +315,7 @@
     "arcHeight": 0.5,
     "enfiladeFire": false,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "trapezoidal",
       "ranges": [
@@ -369,7 +369,7 @@
     "arcHeight": 0.5,
     "enfiladeFire": false,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "trapezoidal",
       "ranges": [
@@ -423,7 +423,7 @@
     "arcHeight": 0.5,
     "enfiladeFire": true,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "trapezoidal",
       "ranges": [
@@ -473,9 +473,9 @@
         "name": "long"
       }
     ],
-    "arcHeight": 1.75,
+    "arcHeight": 3.5,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "circular",
       "ranges": [
@@ -516,9 +516,9 @@
         "name": "long"
       }
     ],
-    "arcHeight": 1.75,
+    "arcHeight": 3,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "circular",
       "ranges": [
@@ -561,9 +561,9 @@
         "name": "long"
       }
     ],
-    "arcHeight": 1.75,
+    "arcHeight": 2.25,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "circular",
       "ranges": [
@@ -845,7 +845,7 @@
     ],
     "arcHeight": 0.3,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "circular",
       "ranges": [
@@ -888,7 +888,7 @@
     ],
     "arcHeight": 1,
     "cannotUseAfterRun": true,
-    "projectilePenetration": 0.75,
+    "projectilePenetration": 0.5,
     "areaOfEffect": {
       "type": "circular",
       "ranges": [
