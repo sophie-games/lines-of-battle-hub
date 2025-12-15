@@ -10,7 +10,7 @@
       "17": 3,
       "19": 1
     },
-    "eloKFactor": 16,
+    "eloKFactor": 12,
     "captureSmallObjectiveThreshold": 4,
     "captureBigObjectiveThreshold": 28
   },
@@ -25,7 +25,7 @@
       "17": 4,
       "19": 1
     },
-    "eloKFactor": 24,
+    "eloKFactor": 18,
     "captureSmallObjectiveThreshold": 4,
     "captureBigObjectiveThreshold": 36
   },
@@ -40,7 +40,7 @@
       "17": 6,
       "19": 2
     },
-    "eloKFactor": 28,
+    "eloKFactor": 24,
     "captureSmallObjectiveThreshold": 4,
     "captureBigObjectiveThreshold": 40
   },
@@ -55,7 +55,7 @@
       "17": 8,
       "19": 2
     },
-    "eloKFactor": 32,
+    "eloKFactor": 30,
     "captureSmallObjectiveThreshold": 4,
     "captureBigObjectiveThreshold": 44
   }
