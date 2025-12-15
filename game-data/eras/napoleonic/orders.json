@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "walk",
-    "orgRegainModifier": -0.1
+    "orgRegainModifier": -0.05
   },
   {
     "id": 2,
@@ -20,7 +20,7 @@
     "name": "fireAndAdvance",
     "speedModifierWhenShooting": -0.25,
     "allowFireWhenMoving": true,
-    "orgRegainModifier": -0.1
+    "orgRegainModifier": -0.05
   },
   {
     "id": 5,
