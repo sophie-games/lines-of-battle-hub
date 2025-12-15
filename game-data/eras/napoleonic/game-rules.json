@@ -18,11 +18,11 @@
     },
     "upperModifierLimit": 0.8,
     "lowerModifierLimit": 0.2,
-    "chargeResistanceModifier": -0.25,
+    "chargeResistanceModifier": -0.4,
     "runningMovementPenalty": -1.0,
-    "rangedAttackPenalty": -0.2,
-    "meleeAttackPenalty": -0.3,
-    "meleeDefensePenalty": -0.5
+    "rangedAttackPenalty": -0.25,
+    "meleeAttackPenalty": -0.4,
+    "meleeDefensePenalty": -0.6
   },
   "ammo": {
     "baseReserve": 500,
