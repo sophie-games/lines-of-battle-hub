@@ -28,7 +28,9 @@
       "8lb-cannon-ball": 0.25,
       "6lb-cannon-ball": 0.25,
       "4lb-cannon-ball": 0.25
-    }
+    },
+    "pushStrengthModifier": -0.3,
+    "pushDistanceModifier": -0.3
   },
 
   "forest": {
@@ -104,7 +106,9 @@
       "scoutCavalry": -0.8,
       "heavyCavalry": -0.8
     },
-    "fixedEnemyCollisionLevel": 2
+    "fixedEnemyCollisionLevel": 2,
+    "pushStrengthModifier": -0.1,
+    "pushDistanceModifier": -0.1
   },
 
   "building": {
@@ -180,7 +184,9 @@
       "scoutCavalry": -0.8,
       "heavyCavalry": -0.8
     },
-    "fixedEnemyCollisionLevel": 2
+    "fixedEnemyCollisionLevel": 2,
+    "pushStrengthModifier": -0.2,
+    "pushDistanceModifier": -0.2
   },
 
   "path": {
@@ -196,7 +202,9 @@
       "scoutCavalry": 0.2,
       "heavyCavalry": 0.2,
       "artillery": 0.3
-    }
+    },
+    "pushStrengthModifier": 0.2,
+    "pushDistanceModifier": 0.2
   },
 
   "shallowWater": {
@@ -254,7 +262,9 @@
       "lightCavalry": -0.8,
       "scoutCavalry": -0.8,
       "heavyCavalry": -0.8
-    }
+    },
+    "pushStrengthModifier": -0.5,
+    "pushDistanceModifier": -0.5
   },
 
   "deepWater": {

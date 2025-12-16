@@ -12,6 +12,8 @@
       "soft_attack": 0,
       "hard_attack": 0
     },
+    "impactAltitude": 1.0,
+    "grazingAltitude": 2.5,
     "allowedOrders": ["walk", "placeEntity"]
   },
   {
@@ -26,6 +28,8 @@
       "soft_attack": 0,
       "hard_attack": 0
     },
+    "impactAltitude": 1.0,
+    "grazingAltitude": 2.5,
     "allowedOrders": ["walk", "placeEntity"]
   }
 ]

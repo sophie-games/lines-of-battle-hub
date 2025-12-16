@@ -16,7 +16,7 @@
     ],
     "meleeAttackBonusPerLevel": 1,
     "meleeDefenseBonusPerLevel": 1,
-    "weightPerLevel": 20
+    "pushStrengthModifierPerLevel": 0.15
   },
   "objectives": {
     "radius": 16,

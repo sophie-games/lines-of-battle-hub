@@ -4,7 +4,6 @@
   "COLLISION_CHECK_RADIUS": "collision",
   "COLLISION_PUSH_MAX_ANGLE_RANGE_DEGREES": "collision",
 
-  "UNIT_HITBOX_ALTITUDE": "unitDimensions",
   "UNIT_RANGE_MARGIN": "unitDimensions",
 
   "TILE_SIZE": "mapDimensions",

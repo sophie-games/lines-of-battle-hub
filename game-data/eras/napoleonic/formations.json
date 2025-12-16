@@ -20,7 +20,8 @@
     "rearChargeResistance": -0.6,
     "timeToForm": 1,
     "timeToUnform": 3,
-    "minMovementModifier": -0.4
+    "minMovementModifier": -0.4,
+    "pushStrengthModifier": 0.2
   },
   {
     "id": "column",
@@ -46,7 +47,8 @@
     "rearChargeResistance": -0.75,
     "timeToForm": 1,
     "timeToUnform": 3,
-    "minMovementModifier": -0.5
+    "minMovementModifier": -0.5,
+    "pushStrengthModifier": 0.15
   },
   {
     "id": "line",
@@ -73,7 +75,8 @@
     "shootingSides": 2,
     "timeToForm": 5,
     "timeToUnform": 8,
-    "minMovementModifier": -0.5
+    "minMovementModifier": -0.5,
+    "pushStrengthModifier": -0.1
   },
   {
     "id": "square",
@@ -98,7 +101,8 @@
     "timeToForm": 5,
     "timeToUnform": 2,
     "formingSpeedModifier": -1,
-    "minMovementModifier": -0.5
+    "minMovementModifier": -0.5,
+    "pushStrengthModifier": 0.25
   },
   {
     "id": "artillery",
@@ -142,6 +146,7 @@
     "shootingAngleMargin": 0,
     "minMovementModifier": -0.5,
     "projectilePassThrough": 0.6,
+    "pushStrengthModifier": -0.2,
     "friendlyFireImmuneDamageTypes": [
       "musket",
       "marksman-musket",
