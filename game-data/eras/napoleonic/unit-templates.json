@@ -60,7 +60,7 @@
       }
     ],
     "pushStrength": 15,
-    "pushDistance": 3
+    "pushDistance": 4
   },
   {
     "name": "dragoons",
@@ -104,7 +104,7 @@
       }
     ],
     "pushStrength": 7,
-    "pushDistance": 6
+    "pushDistance": 8
   },
   {
     "name": "8lb_artillery",
@@ -218,7 +218,7 @@
       }
     ],
     "pushStrength": 20,
-    "pushDistance": 4
+    "pushDistance": 5
   },
   {
     "name": "lancers",
@@ -265,7 +265,7 @@
       }
     ],
     "pushStrength": 5,
-    "pushDistance": 6
+    "pushDistance": 8
   },
   {
     "name": "6lb_artillery",
@@ -381,7 +381,7 @@
       }
     ],
     "pushStrength": 18,
-    "pushDistance": 3
+    "pushDistance": 4
   },
   {
     "name": "cuirassiers",
@@ -427,7 +427,7 @@
       }
     ],
     "pushStrength": 9,
-    "pushDistance": 6
+    "pushDistance": 8
   },
   {
     "name": "6in_howitzer",
@@ -525,7 +525,7 @@
       }
     ],
     "pushStrength": 5,
-    "pushDistance": 1
+    "pushDistance": 3
   },
   {
     "name": "hussars",
@@ -731,7 +731,7 @@
       }
     ],
     "pushStrength": 25,
-    "pushDistance": 5
+    "pushDistance": 6
   },
   {
     "name": "4lb_artillery",
