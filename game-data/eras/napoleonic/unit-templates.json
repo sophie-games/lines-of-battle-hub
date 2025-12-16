@@ -59,8 +59,8 @@
         "overlaySprite": "infantry-square"
       }
     ],
-    "pushStrength": 10,
-    "pushDistance": 2
+    "pushStrength": 15,
+    "pushDistance": 3
   },
   {
     "name": "dragoons",
@@ -103,8 +103,8 @@
         "overlaySprite": "dragoons"
       }
     ],
-    "pushStrength": 4,
-    "pushDistance": 3
+    "pushStrength": 7,
+    "pushDistance": 6
   },
   {
     "name": "8lb_artillery",
@@ -217,8 +217,8 @@
         "overlaySprite": "guards-square"
       }
     ],
-    "pushStrength": 14,
-    "pushDistance": 3
+    "pushStrength": 20,
+    "pushDistance": 4
   },
   {
     "name": "lancers",
@@ -264,8 +264,8 @@
         "overlaySprite": "lancers"
       }
     ],
-    "pushStrength": 2,
-    "pushDistance": 3
+    "pushStrength": 5,
+    "pushDistance": 6
   },
   {
     "name": "6lb_artillery",
@@ -380,8 +380,8 @@
         "overlaySprite": "chasseurs-square"
       }
     ],
-    "pushStrength": 12,
-    "pushDistance": 2
+    "pushStrength": 18,
+    "pushDistance": 3
   },
   {
     "name": "cuirassiers",
@@ -426,8 +426,8 @@
         "overlaySprite": "cuirassiers"
       }
     ],
-    "pushStrength": 6,
-    "pushDistance": 3
+    "pushStrength": 9,
+    "pushDistance": 6
   },
   {
     "name": "6in_howitzer",
@@ -524,7 +524,7 @@
         "overlaySprite": "militia"
       }
     ],
-    "pushStrength": 4,
+    "pushStrength": 5,
     "pushDistance": 1
   },
   {
@@ -569,8 +569,8 @@
         "overlaySprite": "cavalry"
       }
     ],
-    "pushStrength": 3,
-    "pushDistance": 3
+    "pushStrength": 4,
+    "pushDistance": 6
   },
   {
     "name": "12lb_artillery",
@@ -667,8 +667,8 @@
         "overlaySprite": "horse-archers"
       }
     ],
-    "pushStrength": 2,
-    "pushDistance": 3
+    "pushStrength": 3,
+    "pushDistance": 6
   },
   {
     "name": "grenadiers",
@@ -730,8 +730,8 @@
         "overlaySprite": "grenadiers-square"
       }
     ],
-    "pushStrength": 14,
-    "pushDistance": 2
+    "pushStrength": 25,
+    "pushDistance": 5
   },
   {
     "name": "4lb_artillery",
@@ -830,7 +830,7 @@
         "overlaySprite": "skirmishers"
       }
     ],
-    "pushStrength": 0,
+    "pushStrength": 12,
     "pushDistance": 0
   },
   {
@@ -880,7 +880,7 @@
         "overlaySprite": "rifles"
       }
     ],
-    "pushStrength": 0,
+    "pushStrength": 12,
     "pushDistance": 0
   },
   {
