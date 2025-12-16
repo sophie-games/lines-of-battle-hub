@@ -43,7 +43,7 @@
   },
   "cinematicMode": {
     "title": "시네마틱 모드",
-    "description": "전투 복지 중 턴 표시, 승리 표시, 부대 표시를 숨겨 깔끔한 시청 환경을 제공합니다."
+    "description": "전투 복기 중 턴 표시, 승리 표시, 부대 표시를 숨겨 깔끔한 시청 환경을 제공합니다."
   },
   "hidePlayerInfo": {
     "title": "플레이어 정보 숨기기",
