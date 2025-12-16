@@ -78,9 +78,10 @@
       { "start": 44, "end": 64, "startMod": 2.5, "endMod": -0.15 }
     ],
     "enfiladeFire": true,
-    "projectilePenetration": 0.30,
+    "projectilePenetration": 0.3,
     "shotSound": "musket-volley",
-    "shotAnim": "musketVolley"
+    "shotAnim": "musketVolley",
+    "extendRange": false
   },
   {
     "id": 8,
@@ -115,7 +116,8 @@
     "enfiladeFire": true,
     "projectilePenetration": 0.04,
     "shotSound": "musket-volley",
-    "shotAnim": "musketVolley"
+    "shotAnim": "musketVolley",
+    "extendRange": false
   },
   {
     "id": 9,
@@ -143,7 +145,8 @@
     "enfiladeFire": true,
     "projectilePenetration": 0.04,
     "shotSound": "musket-volley",
-    "shotAnim": "musketVolley"
+    "shotAnim": "musketVolley",
+    "extendRange": false
   },
   {
     "id": 10,
@@ -188,7 +191,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 148
+    "ammoCost": 148,
+    "extendRange": false
   },
   {
     "id": 11,
@@ -242,7 +246,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 164
+    "ammoCost": 164,
+    "extendRange": false
   },
   {
     "id": 12,
@@ -287,7 +292,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 118
+    "ammoCost": 118,
+    "extendRange": false
   },
   {
     "id": 13,
@@ -341,7 +347,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 148
+    "ammoCost": 148,
+    "extendRange": false
   },
   {
     "id": 14,
@@ -395,7 +402,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 136
+    "ammoCost": 136,
+    "extendRange": false
   },
   {
     "id": 15,
@@ -449,7 +457,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "cannonBallImpact",
-    "ammoCost": 148
+    "ammoCost": 148,
+    "extendRange": false
   },
   {
     "id": 16,
@@ -492,7 +501,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 172
+    "ammoCost": 172,
+    "extendRange": false
   },
   {
     "id": 17,
@@ -535,7 +545,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 128
+    "ammoCost": 128,
+    "extendRange": false
   },
   {
     "id": 18,
@@ -586,7 +597,8 @@
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 196
+    "ammoCost": 196,
+    "extendRange": false
   },
   {
     "id": 19,
@@ -617,7 +629,8 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 280
+    "ammoCost": 280,
+    "extendRange": false
   },
   {
     "id": 20,
@@ -648,7 +661,8 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 260
+    "ammoCost": 260,
+    "extendRange": false
   },
   {
     "id": 21,
@@ -679,7 +693,8 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 256
+    "ammoCost": 256,
+    "extendRange": false
   },
   {
     "id": 22,
@@ -710,7 +725,8 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 240
+    "ammoCost": 240,
+    "extendRange": false
   },
   {
     "id": 23,
@@ -741,7 +757,8 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 224
+    "ammoCost": 224,
+    "extendRange": false
   },
   {
     "id": 24,
@@ -772,7 +789,8 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 232
+    "ammoCost": 232,
+    "extendRange": false
   },
   {
     "id": 25,
@@ -796,7 +814,8 @@
     "projectilePenetration": 0.5,
     "shotSound": "artillery-fire",
     "shotAnim": "cannonVolley",
-    "ammoCost": 356
+    "ammoCost": 356,
+    "extendRange": false
   },
   {
     "id": 26,
@@ -813,7 +832,8 @@
     ],
     "arcHeight": 3,
     "shotSound": "arrow-volley",
-    "shotAnim": "arrowVolley"
+    "shotAnim": "arrowVolley",
+    "extendRange": false
   },
   {
     "id": 27,
@@ -862,7 +882,8 @@
     "shotSound": "rocket-volley",
     "shotAnim": "rocketVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 280
+    "ammoCost": 280,
+    "extendRange": false
   },
   {
     "id": 28,
@@ -905,6 +926,7 @@
     "shotSound": "rocket-volley",
     "shotAnim": "rocketVolley",
     "shotImpactAnim": "shellImpact",
-    "ammoCost": 180
+    "ammoCost": 180,
+    "extendRange": false
   }
 ]
