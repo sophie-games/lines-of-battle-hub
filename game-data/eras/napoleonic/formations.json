@@ -18,7 +18,7 @@
     "rearChargeResistance": -0.6,
     "timeToForm": 1,
     "timeToUnform": 3,
-    "minMovementModifier": -0.4,
+    "minMovementModifier": -0.4
   },
   {
     "id": "column",
@@ -44,7 +44,7 @@
     "rearChargeResistance": -0.75,
     "timeToForm": 1,
     "timeToUnform": 3,
-    "minMovementModifier": -0.5,
+    "minMovementModifier": -0.5
   },
   {
     "id": "line",
@@ -115,11 +115,7 @@
     "shootingMaxTargets": 2,
     "minMovementModifier": -0.25,
     "projectilePassThrough": 0.7,
-    "friendlyFireImmuneDamageTypes": [
-      "musket",
-      "marksman-musket",
-      "rifle"
-    ]
+    "friendlyFireImmuneDamageTypes": ["musket", "marksman-musket", "rifle"]
   },
   {
     "id": "skirmish",

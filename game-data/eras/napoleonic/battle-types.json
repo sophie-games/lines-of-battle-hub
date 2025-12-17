@@ -1,7 +1,7 @@
 {
   "clash": {
     "manpower": 3300,
-    "gold": 1350,
+    "gold": 1425,
     "ammoReserve": 1200,
     "goldToAmmoRate": 18,
     "skirmisherRatio": [1, 4],
@@ -12,7 +12,13 @@
     },
     "eloKFactor": 12,
     "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 28
+    "captureBigObjectiveThreshold": 28,
+    "defaultArmy": {
+      "1": 8,
+      "14": 4,
+      "2": 5,
+      "18": 3
+    }
   },
   "combat": {
     "manpower": 6000,
@@ -27,7 +33,15 @@
     },
     "eloKFactor": 18,
     "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 36
+    "captureBigObjectiveThreshold": 36,
+    "defaultArmy": {
+      "1": 20,
+      "14": 2,
+      "2": 5,
+      "11": 5,
+      "12": 3,
+      "18": 4
+    }
   },
   "battle": {
     "manpower": 10000,
@@ -42,7 +56,15 @@
     },
     "eloKFactor": 24,
     "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 40
+    "captureBigObjectiveThreshold": 40,
+    "defaultArmy": {
+      "1": 30,
+      "14": 4,
+      "2": 15,
+      "11": 6,
+      "12": 5,
+      "18": 5
+    }
   },
   "grand_battle": {
     "manpower": 17750,
@@ -57,6 +79,14 @@
     },
     "eloKFactor": 30,
     "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 44
+    "captureBigObjectiveThreshold": 44,
+    "defaultArmy": {
+      "1": 58,
+      "14": 6,
+      "2": 24,
+      "11": 8,
+      "12": 9,
+      "18": 8
+    }
   }
 }
