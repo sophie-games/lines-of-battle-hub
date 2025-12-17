@@ -60,7 +60,7 @@
       }
     ],
     "pushStrength": 15,
-    "pushDistance": 4
+    "pushDistance": 3
   },
   {
     "name": "dragoons",
@@ -103,8 +103,8 @@
         "overlaySprite": "dragoons"
       }
     ],
-    "pushStrength": 7,
-    "pushDistance": 8
+    "pushStrength": 6,
+    "pushDistance": 6
   },
   {
     "name": "8lb_artillery",
@@ -217,8 +217,8 @@
         "overlaySprite": "guards-square"
       }
     ],
-    "pushStrength": 20,
-    "pushDistance": 5
+    "pushStrength": 18,
+    "pushDistance": 3
   },
   {
     "name": "lancers",
@@ -264,8 +264,8 @@
         "overlaySprite": "lancers"
       }
     ],
-    "pushStrength": 5,
-    "pushDistance": 8
+    "pushStrength": 4,
+    "pushDistance": 6
   },
   {
     "name": "6lb_artillery",
@@ -381,7 +381,7 @@
       }
     ],
     "pushStrength": 18,
-    "pushDistance": 4
+    "pushDistance": 2
   },
   {
     "name": "cuirassiers",
@@ -427,7 +427,7 @@
       }
     ],
     "pushStrength": 9,
-    "pushDistance": 8
+    "pushDistance": 6
   },
   {
     "name": "6in_howitzer",
@@ -524,8 +524,8 @@
         "overlaySprite": "militia"
       }
     ],
-    "pushStrength": 5,
-    "pushDistance": 3
+    "pushStrength": 4,
+    "pushDistance": 2
   },
   {
     "name": "hussars",
@@ -570,7 +570,7 @@
       }
     ],
     "pushStrength": 4,
-    "pushDistance": 6
+    "pushDistance": 5
   },
   {
     "name": "12lb_artillery",
@@ -668,7 +668,7 @@
       }
     ],
     "pushStrength": 3,
-    "pushDistance": 6
+    "pushDistance": 4
   },
   {
     "name": "grenadiers",
@@ -730,8 +730,8 @@
         "overlaySprite": "grenadiers-square"
       }
     ],
-    "pushStrength": 25,
-    "pushDistance": 6
+    "pushStrength": 20,
+    "pushDistance": 4
   },
   {
     "name": "4lb_artillery",
@@ -830,7 +830,7 @@
         "overlaySprite": "skirmishers"
       }
     ],
-    "pushStrength": 12,
+    "pushStrength": 14,
     "pushDistance": 0
   },
   {
@@ -880,7 +880,7 @@
         "overlaySprite": "rifles"
       }
     ],
-    "pushStrength": 12,
+    "pushStrength": 14,
     "pushDistance": 0
   },
   {
