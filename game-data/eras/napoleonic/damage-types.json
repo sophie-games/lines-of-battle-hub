@@ -64,18 +64,18 @@
       {
         "start": 0,
         "end": 24,
-        "startMod": 5,
+        "startMod": 6,
         "endMod": 5,
         "name": "pointBlank"
       },
       {
         "start": 24,
         "end": 44,
-        "startMod": 5,
-        "endMod": 2.5,
+        "startMod": 5.5,
+        "endMod": 2,
         "name": "close"
       },
-      { "start": 44, "end": 64, "startMod": 2.5, "endMod": -0.15 }
+      { "start": 44, "end": 64, "startMod": 2, "endMod": -0.35 }
     ],
     "enfiladeFire": true,
     "projectilePenetration": 0.3,
