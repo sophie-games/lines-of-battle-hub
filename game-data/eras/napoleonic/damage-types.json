@@ -644,14 +644,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.25,
-        "endMod": 2.75,
+        "startMod": 2.75,
+        "endMod": 2.25,
         "name": "close"
       },
       {
         "start": 69,
         "end": 145,
-        "startMod": 1.8,
+        "startMod": 1.6,
         "endMod": 0.8,
         "name": "long"
       }
@@ -676,15 +676,15 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 4,
-        "endMod": 3.5,
+        "startMod": 3.75,
+        "endMod": 3.25,
         "name": "close"
       },
       {
         "start": 69,
         "end": 105,
-        "startMod": 2.75,
-        "endMod": 2.25,
+        "startMod": 2.5,
+        "endMod": 2,
         "name": "long"
       }
     ],
@@ -708,14 +708,14 @@
       {
         "start": 0,
         "end": 69,
-        "startMod": 2.75,
-        "endMod": 2.25,
+        "startMod": 2.5,
+        "endMod": 2.2,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 1.5,
+        "startMod": 1.4,
         "endMod": 0.7,
         "name": "long"
       }
