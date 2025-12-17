@@ -212,8 +212,8 @@
       {
         "start": 250,
         "end": 500,
-        "startMod": -0.1,
-        "endMod": -0.65,
+        "startMod": -0.05,
+        "endMod": -0.6,
         "name": "long"
       }
     ],
@@ -313,7 +313,7 @@
       {
         "start": 240,
         "end": 435,
-        "startMod": -0.1,
+        "startMod": 0,
         "endMod": -0.6,
         "name": "long"
       }
@@ -369,7 +369,7 @@
         "start": 225,
         "end": 400,
         "startMod": -0.05,
-        "endMod": -0.6,
+        "endMod": -0.55,
         "name": "long"
       }
     ],
@@ -423,7 +423,7 @@
       {
         "start": 200,
         "end": 375,
-        "startMod": -0.05,
+        "startMod": -0.1,
         "endMod": -0.6,
         "name": "long"
       }
@@ -607,20 +607,20 @@
     "orgDamageRatio": 275,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 12,
+    "projectileWidth": 18,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 4.75,
-        "endMod": 4.25,
+        "startMod": 4.5,
+        "endMod": 4,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 4.25,
-        "endMod": 2.25,
+        "startMod": 3.5,
+        "endMod": 2.5,
         "name": "long"
       }
     ],
@@ -639,20 +639,20 @@
     "orgDamageRatio": 275,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 12,
+    "projectileWidth": 18,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.75,
-        "endMod": 3.25,
+        "startMod": 2.6,
+        "endMod": 2.2,
         "name": "close"
       },
       {
         "start": 69,
         "end": 145,
-        "startMod": 3.25,
-        "endMod": 1.25,
+        "startMod": 1.5,
+        "endMod": 0.8,
         "name": "long"
       }
     ],
@@ -671,19 +671,19 @@
     "orgDamageRatio": 275,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 12,
+    "projectileWidth": 18,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 4.5,
-        "endMod": 3.75,
+        "startMod": 3.75,
+        "endMod": 3.25,
         "name": "close"
       },
       {
         "start": 69,
         "end": 105,
-        "startMod": 3.75,
+        "startMod": 2.5,
         "endMod": 2,
         "name": "long"
       }
@@ -703,20 +703,20 @@
     "orgDamageRatio": 275,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 12,
+    "projectileWidth": 18,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 4,
-        "endMod": 3.5,
+        "startMod": 2.4,
+        "endMod": 2.1,
         "name": "close"
       },
       {
         "start": 69,
         "end": 135,
-        "startMod": 3.5,
-        "endMod": 1.75,
+        "startMod": 1.3,
+        "endMod": 0.7,
         "name": "long"
       }
     ],
@@ -735,20 +735,20 @@
     "orgDamageRatio": 275,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 12,
+    "projectileWidth": 18,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 3.5,
-        "endMod": 3,
+        "startMod": 1.9,
+        "endMod": 1.6,
         "name": "close"
       },
       {
         "start": 69,
         "end": 120,
-        "startMod": 3,
-        "endMod": 1.5,
+        "startMod": 1,
+        "endMod": 0.6,
         "name": "long"
       }
     ],
@@ -767,20 +767,20 @@
     "orgDamageRatio": 275,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 12,
+    "projectileWidth": 18,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 3,
-        "endMod": 2.5,
+        "startMod": 1.4,
+        "endMod": 1.2,
         "name": "close"
       },
       {
         "start": 69,
         "end": 110,
-        "startMod": 2.5,
-        "endMod": 1.25,
+        "startMod": 0.8,
+        "endMod": 0.4,
         "name": "long"
       }
     ],
@@ -799,13 +799,13 @@
     "orgDamageRatio": 325,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6,
-    "projectileWidth": 12,
+    "projectileWidth": 18,
     "ranges": [
       {
         "start": 0,
         "end": 69,
-        "startMod": 8.25,
-        "endMod": 7.75,
+        "startMod": 8.5,
+        "endMod": 8,
         "name": "close"
       }
     ],
