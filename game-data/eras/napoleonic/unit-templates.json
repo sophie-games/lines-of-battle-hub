@@ -496,7 +496,7 @@
     "timeToRun": 4,
     "runCost": 96,
     "hp": 600,
-    "org": 750,
+    "org": 600,
     "stamina": 1300,
     "movementSound": "infantry-movement",
     "manpower": 125,
