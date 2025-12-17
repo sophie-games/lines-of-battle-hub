@@ -13,13 +13,12 @@
     "shootingMaxTargets": 2,
     "disablesEnfiladeFire": true,
     "rangedDamageResistance": -0.25,
-    "rangedOrgResistance": 0.25,
+    "rangedOrgResistance": 0.2,
     "flankChargeResistance": -0.4,
     "rearChargeResistance": -0.6,
     "timeToForm": 1,
     "timeToUnform": 3,
     "minMovementModifier": -0.4,
-    "pushStrengthModifier": 0.2
   },
   {
     "id": "column",
@@ -38,15 +37,14 @@
     "shootingAngle": 90,
     "shootingMaxTargets": 1,
     "disablesEnfiladeFire": true,
-    "rangedDamageResistance": -0.3,
-    "rangedOrgResistance": 0.35,
-    "chargeResistanceModifier": 0.15,
+    "rangedDamageResistance": -0.35,
+    "rangedOrgResistance": 0.3,
+    "chargeResistanceModifier": 0.1,
     "flankChargeResistance": -0.5,
     "rearChargeResistance": -0.75,
     "timeToForm": 1,
     "timeToUnform": 3,
     "minMovementModifier": -0.5,
-    "pushStrengthModifier": 0.15
   },
   {
     "id": "line",
@@ -59,12 +57,11 @@
       { "x": 0, "y": 5, "weight": 1 },
       { "x": 0, "y": 15, "weight": 1 }
     ],
-    "movementModifier": -0.25,
+    "movementModifier": -0.2,
     "rotationSpeedModifier": -0.5,
     "rangedAttackModifier": 0.8,
-    "rangedDamageResistance": 0.25,
-    "rangedOrgResistance": -0.2,
-    "chargePenetrationModifier": -0.05,
+    "rangedDamageResistance": 0.3,
+    "rangedOrgResistance": -0.15,
     "flankChargeResistance": -1.25,
     "rearChargeResistance": -1.5,
     "shootingAngle": 100,
@@ -72,8 +69,7 @@
     "shootingAngleMargin": 0,
     "timeToForm": 5,
     "timeToUnform": 8,
-    "minMovementModifier": -0.5,
-    "pushStrengthModifier": -0.1
+    "minMovementModifier": -0.5
   },
   {
     "id": "square",
@@ -99,7 +95,7 @@
     "timeToUnform": 2,
     "formingSpeedModifier": -1,
     "minMovementModifier": -0.5,
-    "pushStrengthModifier": 0.25
+    "pushStrengthModifier": 1
   },
   {
     "id": "artillery",
@@ -141,7 +137,6 @@
     "shootingAngleMargin": 0,
     "minMovementModifier": -0.5,
     "projectilePassThrough": 0.6,
-    "pushStrengthModifier": -0.2,
     "friendlyFireImmuneDamageTypes": [
       "musket",
       "marksman-musket",
@@ -180,7 +175,7 @@
     "disablesRearFire": true,
     "shootingAngle": 360,
     "shootingMaxTargets": 1,
-    "minMovementModifier": -0.5
+    "minMovementModifier": -0.3
   },
   {
     "id": "unknown",
