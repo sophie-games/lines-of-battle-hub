@@ -6,7 +6,7 @@
     "rearChargePenetrationModifier": 1.0
   },
   "stamina": {
-    "meleeTurnCost": 175,
+    "meleeTurnCost": 200,
     "rangedTurnCost": 50,
     "hasRanMeleeStaminaCostModifier": 1.0,
     "regainRates": {
@@ -60,8 +60,8 @@
     "maxOrgMeleeAttackPenalty": 0.2,
     "regainRate": 0.12,
     "shatterOrgThreshold": -0.35,
-    "routedOrgThreshold": 0.05,
-    "recoverOrgThreshold": 0.1,
+    "routedOrgThreshold": 0.02,
+    "recoverOrgThreshold": 0.12,
     "rallyOrgThreshold": 0.3,
     "upperModifierLimit": 0.95,
     "lowerModifierLimit": 0.35,
@@ -72,8 +72,8 @@
     "routingUnitNearbyUnitsOrgBonus": 6,
     "startedRoutingOrgRadiusModifier": -4,
     "orgRadiusBonusHpLossReduction": 0.8,
-    "safeOrgRecoveryModifier": 0.3,
-    "safeDistance": 136,
+    "safeOrgRecoveryModifier": 0.4,
+    "safeDistance": 144,
     "distantThreatOrgRecoveryModifier": 0.15,
     "distantThreatDistance": 72,
     "routingOrgRecoveryModifier": -0.25,
