@@ -25,7 +25,7 @@
     "gold": 3250,
     "ammoReserve": 3000,
     "goldToAmmoRate": 16,
-    "skirmisherRatio": [4, 8],
+    "skirmisherRatio": [2, 4],
     "fogOfWar": true,
     "unitCaps": {
       "17": 6,
