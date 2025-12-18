@@ -81,5 +81,8 @@
     "victoryPointsThreshold": 40,
     "noVictoryPointsOrgModifier": -10,
     "vpsModifierMultiplier": 1.0
+  },
+  "tutorial": {
+    "scenarios": ["tutorial-basic-controls"]
   }
 }
