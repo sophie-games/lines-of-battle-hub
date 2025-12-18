@@ -1,0 +1,35 @@
+[
+  {
+    "id": "infantry",
+    "firingAltitude": 0.9,
+    "captureSpeed": 1.0,
+    "allyCollisionLevel": 2,
+    "enemyCollisionLevel": 2,
+    "routingBehavior": {
+      "baseSpeed": "walk"
+    },
+    "damageTypeResistances": {
+      "soft_attack": 0,
+      "hard_attack": 0
+    },
+    "impactAltitude": 1.0,
+    "grazingAltitude": 2.5,
+    "allowedOrders": ["walk", "placeEntity"]
+  },
+  {
+    "id": "tank",
+    "firingAltitude": 0.9,
+    "allyCollisionLevel": 2,
+    "enemyCollisionLevel": 2,
+    "routingBehavior": {
+      "baseSpeed": "walk"
+    },
+    "damageTypeResistances": {
+      "soft_attack": 0,
+      "hard_attack": 0
+    },
+    "impactAltitude": 1.0,
+    "grazingAltitude": 2.5,
+    "allowedOrders": ["walk", "placeEntity"]
+  }
+]

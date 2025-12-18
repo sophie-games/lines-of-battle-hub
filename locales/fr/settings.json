@@ -67,6 +67,10 @@
     "title": "Ombres",
     "description": "Active les ombres sur les unités. Cela peut nécessiter que le jeu passe un tour pour que les unités soient mises à jour."
   },
+  "showDebugShapes": {
+    "title": "Afficher les formes de débogage",
+    "description": "Affiche les formes de débogage sur les unités, y compris les formes de collision et les points de vérification du terrain. Cela peut nécessiter que le jeu passe un tour pour que les unités soient mises à jour."
+  },
   "fullScreen": {
     "title": "Plein écran",
     "description": "Basculer en mode plein écran pour l'application",
@@ -77,8 +81,15 @@
     "description": "Restaure tous les paramètres à leurs valeurs par défaut. Cette action écrasera toutes les personnalisations que vous avez effectuées."
   },
   "reset": "Réinitialiser",
-  "lineFormation": "Formation en ligne",
-  "checkerboardFormation": "Formation en damier",
+  "drawLineFormation": {
+    "title": "Utiliser les lignes de dessin",
+    "description": "Lorsqu'il est activé, il utilisera la formation de ligne de dessin lorsque de nombreuses unités sont sélectionnées. Lorsqu'il est désactivé, il utilisera la formation de chemin de dessin lorsque de nombreuses unités sont sélectionnées. Le chemin de dessin peut également être effectué en faisant glisser l'une des unités."
+  },
+  "useStraightLine": {
+    "title": "Utiliser la ligne droite",
+    "description": "Lorsqu'il est activé, la formation de ligne de dessin utilisera toujours une ligne droite de la position de départ à la position finale, en ignorant le chemin dessiné. Lorsqu'il est désactivé, les unités suivront le chemin incurvé que vous dessinez."
+  },
+  "straightLineTolerance": "Tolérance de ligne droite",
   "spaceBetweenUnits": "Espace entre les unités",
   "spaceBetweenLines": "Espace entre les lignes",
   "showChat": {
@@ -99,11 +110,15 @@
     "shootOrder": "Ordre de tir",
     "fireAndAdvanceOrder": "Ordre de tirer et avancer",
     "fallbackOrder": "Ordre de repli",
-    "toggleFormation": "Basculer la formation",
     "toggleSmartCurvedMovements": "Basculer les mouvements courbés intelligents",
     "toggleFowPerspective": "Basculer la perspective de brouillard de guerre",
     "openChat": "Ouvrir le chat",
-    "toggleFullscreen": "Basculer le plein écran"
+    "openFormationModal": "Ouvrir la fenêtre de formation",
+    "toggleFullscreen": "Basculer le plein écran",
+    "simulateMultiTouch": "Simuler le multi-touch",
+    "toggleSupplyLines": "Basculer les lignes de ravitaillement",
+    "toggleStraightLine": "Basculer la ligne droite",
+    "toggleDrawLine": "Basculer désactiver les lignes de dessin"
   },
   "routingTransparency": {
     "title": "Transparence des unités en déroute"

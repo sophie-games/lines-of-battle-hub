@@ -81,9 +81,13 @@
     "title": "Shadows",
     "description": "Enables shadows on units. This may require the game to pass turn for the units to update."
   },
-  "showCollisionShapes": {
-    "title": "Show collision shapes",
-    "description": "Shows collision shapes on units. This may require the game to pass turn for the units to update."
+  "showDebugShapes": {
+    "title": "Show debug shapes",
+    "description": "Shows debug shapes on units including collision shapes and terrain check points. This may require the game to pass turn for the units to update."
+  },
+  "showDebugInfo": {
+    "title": "Show Debug Info",
+    "description": "This is useful for developers."
   },
   "disableSkins": {
     "title": "Disable Skins",
@@ -105,8 +109,15 @@
     "description": "Upgrade your tier on Patreon to access this setting and other premium features!",
     "goToPatreon": "Go to Patreon"
   },
-  "lineFormation": "Line Formation",
-  "checkerboardFormation": "Checkerboard Formation",
+  "drawLineFormation": {
+    "title": "Use Draw Line",
+    "description": "When enabled, it will use draw lines when many units selected. When disabled, it will use draw path when many units selected. Draw path is also doable by dragging one of the units."
+  },
+  "useStraightLine": {
+    "title": "Use straight line",
+    "description": "When enabled, the draw line formation will always use a straight line from start to end position, ignoring the drawn path. When disabled, units will follow the curved path you draw."
+  },
+  "straightLineTolerance": "Straight Line Tolerance",
   "spaceBetweenUnits": "Space between units",
   "spaceBetweenLines": "Space between lines",
   "showSelectIdleUnitButton": {
@@ -130,11 +141,15 @@
     "shootOrder": "Shoot order",
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
-    "toggleFormation": "Toggle formation",
     "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
     "toggleFowPerspective": "Toggle Fog of War Perspective",
     "openChat": "Open chat",
+    "openFormationModal": "Open formation modal",
     "toggleFullscreen": "Toggle Fullscreen",
+    "simulateMultiTouch": "Simulate Multi-touch",
+    "toggleSupplyLines": "Toggle Supply Lines",
+    "toggleStraightLine": "Toggle Straight Line",
+    "toggleDrawLine": "Toggle Draw Line",
     "controlGroup1": "Control Group 1",
     "controlGroup2": "Control Group 2",
     "controlGroup3": "Control Group 3",

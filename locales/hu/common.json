@@ -51,7 +51,7 @@
   "quickMatchmaking": "Gyors Párosítás",
   "ranked": "Rangsorolt",
   "classic": "Klasszikus",
-  "classicTooltip": "Alapértelmezett seregekkel rendelkező eljárásos módon generált klasszikus térképek használata",
+  "classicTooltip": "A klasszikus letiltja az egyedi seregeket",
   "rankedTooltip": "A játékok befolyásolják az Elo értékelésedet",
   "unranked": "Nem Rangsorolt",
   "cancel": "Mégsem",
@@ -111,6 +111,13 @@
     "randomGuide": "Szeretnél megtanulni véletlenszerű térképeket készíteni? Olvass <0>ezt az útmutatót</0>.",
     "baleriiMessage": "A Balerii és Nytka játékosok létrehozták a saját térképszerkesztőjüket! Nézd meg a YouTube csatornájukat, hogy lásd, hogyan működik:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Automatikusan Mentett Pálya",
+    "message": "Automatikusan mentett pálya található. Szeretnéd folytatni a szerkesztést vagy el szeretnéd dobni?",
+    "name": "Név: {{name}}",
+    "continue": "Folytatás",
+    "discard": "Elvetés"
+  },
   "createScenario": "Pálya létrehozása",
   "loadScenario": "Pálya betöltése",
   "playOffline": "Offline meccs",
@@ -165,88 +172,17 @@
     "meleeDefense": "Közelharci védekezés",
     "chargeBonus": "Roham-bónusz",
     "chargePenetration": "Roham-áttörés",
+    "pushStrength": "Lökés erő",
+    "pushDistance": "Lökés távolság",
     "orgRadius": "Org sugár",
     "orgRadiusBonus": "Org sugár bónusz",
     "rangedAttack": "Távolsági támadás",
     "limberMovement": "Ágyútaliga mozgása",
     "chargeResistance": "Roham-ellenállás",
-    "status": "Státusz"
-  },
-  "unitCategory": {
-    "infantry": "Gyalogság",
-    "midCavalry": "Lovasság",
-    "artillery": "Tüzérség",
-    "lightInfantry": "Könnyű gyalogság",
-    "scoutCavalry": "Felderítő Lovasság",
-    "lightCavalry": "Könnyű lovasság",
-    "heavyCavalry": "Nehéz lovasság",
-    "militiaInfantry": "Milícia Gyalogság",
-    "skirmishInfantry": "Felderítő Gyalogság"
+    "status": "Státusz",
+    "supplyConsumption": "Ellátmány Fogyasztás"
   },
   "category": "Kategória",
-  "damageType": {
-    "musket": "Muskéta",
-    "light-musket": "Könnyű Muskéta",
-    "artillery-sabre": "Tüzérségi Szablya",
-    "bayonet": "Bajonett",
-    "8lb-cannon-ball": "Ágyúgolyó",
-    "cavalry-sabre": "Lovassági Szablya",
-    "cavalry-lance": "Lovassági Lándzsa",
-    "6lb-cannon-ball": "Könnyű Ágyúgolyó",
-    "explosive-shell": "Robbanó Lövedék",
-    "cavalry-sword": "Lovassági Kard",
-    "8lb-canister-fire": "Sörétes Tüzelés",
-    "6lb-canister-fire": "Könnyű Sörétes Tüzelés",
-    "howitzer-canister": "Mozsár Sörét",
-    "12lb-cannon-ball": "Nehéz ágyúgolyó",
-    "12lb-canister-fire": "Nehéz kartácstűz",
-    "dragoon-sword": "Dragonyos kard"
-  },
-  "unitName": {
-    "1": "Sorgyalogság",
-    "2": "Dragonyos",
-    "3": "8-fontos Gyalogüteg",
-    "4": "Gárda",
-    "5": "Ulánus",
-    "6": "4-fontos Lovasított Tüzérség",
-    "7": "Könnyűgyalogság",
-    "8": "Vértes",
-    "9": "6-hüvelykes Mozsárágyú",
-    "10": "Milícia",
-    "11": "Huszárok",
-    "12": "12-fontos Gyalogüteg",
-    "13": "Lovasíjászok"
-  },
-  "battalionName": {
-    "1": "{{n}} Gyalogzászlóalj",
-    "2": "{{n}} Dragonyos Osztály",
-    "3": "{{n}} Gyalogüteg",
-    "4": "{{n}} Gárdazászlóalj",
-    "5": "{{n}} Ulánus Osztály",
-    "6": "{{n}} Lovasüteg",
-    "7": "{{n}} Könnyűzászlóalj",
-    "8": "{{n}} Vértes Osztály",
-    "9": "{{n}} Taracküteg",
-    "10": "{{n}} Milícia",
-    "11": "{{n}} Huszár Osztály",
-    "12": "{{n}} Gyalogüteg",
-    "13": "{{n}} Lovas íjászok"
-  },
-  "unitDescription": {
-    "1": "A szerény sorgyalogság minden formáció legalapvetőbb egysége. Elsősorban muskétákkal harcolnak, de közelharcban bajonett-tel küzdenek.",
-    "2": "Megbízható, sokoldalú félnehéz lovasság, alkalmas zaklatásra és hosszan tartó harcokra egyaránt.",
-    "3": "Megfizethető közepes tüzérség szerény mozgékonysággal és tűzerővel, valamint lenyűgöző kartácstűzzel.",
-    "4": "Tapasztalt, erős fizikumban lévő katonák, akik példát képesek mutatni más barátságos egységeknek, míg félelmet és rettegést keltenek az ellenség szemében. Ez az elit alakulat kizárólag a legjobb katonákra támaszkodik, azonban így költséges is fenntartani azt. A félelmetes karakterisztikájuk és rendkívüli tapasztalatuk kiválóan érvényesülnek közelharcban.",
-    "5": "Félnehéz, elit lovasság, ami kopjákkal végez pusztítást az ellenfél soraiban - Könnyen menekülésre tudsz kényszeríteni ellenséges egységeket, ha Ulánus rohamok sorozatával támadsz rájuk. Azonban nem annyira effektívek az elhúzódó közelharcokban.",
-    "6": "Ennek a tüzérségnek a sebessége és alacsony költsége kiválóvá teszi arra, hogy a lovassággal vagy frontvonallal együtt mozoghasson, és hogy olyan manővereket hajtson létre, amire más tüzérségi egységek nem lennének képesek.",
-    "7": "Továbbképzett sorgyalogosok, akik gyors mozgásra és tüzelési pontosságra specializálódtak.",
-    "8": "Rettenetes nehézlovasság, ami minden egység közül a legerősebb közelharci támadással rendelkezik, azonban még mindig úgy a legjobb, ha megtudod gyengíteni az ellenségedet gyalogsággal vagy tüzérséggel, mielőtt bevetnéd vérteseid.",
-    "9": "A könnyű mozsárágyúk robbanó töltettel és kifejezetten halálos rövid-távú sörétes lövedékekkel rendelkeznek - Ideális a gyalogságod támogatására közeli és közepes távolságokból.",
-    "10": "„Bármilyen bizalmat helyezni a milíciába annyi, mint biztosan egy törött botra támaszkodni.” - George Washington",
-    "11": "Könnyűlovasság, ami tökéletes a meggyengült és menekülő egységek megtámadására, azonban vergődni fognak magas organizációjú egységek ellen. Használd a gyalogságodat vagy a tüzérségedet, hogy meggyengítsd az ellenfeledet, mielőtt bevetnéd a könnyűlovasságod.",
-    "12": "A napóleoni fegyvernem legnehezebb súlyú ágyúja. Kiváló távolságra képes ellőni.",
-    "13": "„A baskír lovas íjászok kétségtelenül a világ legkevésbé veszélyes csapatai.“ - Marbot báró, figyelmen kívül hagyva egy nyilat a combjában"
-  },
   "damageResistances": "Sebzés ellenállás",
   "otherStats": "További statisztikák",
   "damageModifier": "Sebzési Modifierek",
@@ -263,6 +199,9 @@
   "midRange": "Közepes Hatótáv",
   "longRange": "Hosszú Hatótáv",
   "shootingAngle": "Kilőtt lövedék pályájának íve",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "Lövoldal",
   "arcHeight": "Ív magasság",
   "aoe": "Effekt kihatásának területe",
   "type": "Típus",
@@ -341,7 +280,8 @@
     "2": "Futás",
     "3": "Célpont megadása",
     "4": "Mozgás közben lő",
-    "6": "Visszahúzódás"
+    "6": "Visszahúzódás",
+    "7": "Szembenéz"
   },
   "selectOrder": "Utasítás Kiválasztása",
   "autofire": "Automatikus tüzelés",
@@ -349,6 +289,8 @@
   "meleeDamage": "Közelharci sebzés",
   "rangedDamage": "Távolsági sebzés",
   "orgRegain": "Org visszatöltődés",
+  "reorgDebuff": "Org-visszatöltődés büntetés",
+  "attackEffectDuration": "Támadási hatás időtartama",
   "speed": "Sebesség",
   "speedWhenShooting": "Lövés közbeni sebesség",
   "receivedDamage": "Ért sebződés",
@@ -393,7 +335,8 @@
     "3": "Éppen Felépül"
   },
   "unitEffect": {
-    "1": "Teljes forgatás"
+    "1": "180°-kal elforgatva",
+    "5": "Tűz alatt"
   },
   "login": "Bejelentkezés",
   "signUp": "Regisztráció",
@@ -543,5 +486,10 @@
     "message": "A térkép nem generálható helyesen. Ez WebGL vagy memória problémák miatt lehet. Kérjük, töltse újra az oldalt.",
     "reloadPage": "Oldal Újratöltése",
     "continueAnyway": "Folytatás Mindenképpen"
-  }
+  },
+  "timeToForm": "Alakítási Idő",
+  "timeToUnform": "Felbontási Idő",
+  "formingSpeedModifier": "Alakítási Sebesség",
+  "logistics": "Logisztika",
+  "logisticsConsumption": "L. Fogyasztás"
 }

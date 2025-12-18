@@ -70,6 +70,10 @@
     "title": "Árnyékok",
     "description": "Engedélyezi az árnyékokat az egységeken. Ehhez szükség lehet arra, hogy a játék egy kört lépjen előre az egységek frissítéséhez."
   },
+  "showDebugShapes": {
+    "title": "Hibakeresési alakzatok megjelenítése",
+    "description": "Hibakeresési alakzatokat jelenít meg az egységeken, beleértve az ütközési alakzatokat és a terepellenőrzési pontokat. Ehhez szükség lehet arra, hogy a játék egy kört lépjen előre az egységek frissítéséhez."
+  },
   "fullScreen": {
     "title": "Teljes Képernyő",
     "description": "Teljes Képernyő ki-be kapcsolása",
@@ -80,8 +84,15 @@
     "description": "Visszaállítja a beállításaidat az kezdeti beállításokra. Ez felül ír minden személyre szabást.."
   },
   "reset": "Reset",
-  "lineFormation": "Vonalalakzat",
-  "checkerboardFormation": "Sakktábla alakzat",
+  "drawLineFormation": {
+    "title": "Rajzolási vonalak használata",
+    "description": "Ha engedélyezve van, több egység kiválasztásakor rajzolási vonal alakzatot használ. Ha letiltva van, több egység kiválasztásakor rajzolási útvonal alakzatot használ. A rajzolási útvonal alakzatot az egyik egység húzásával is elérhető."
+  },
+  "useStraightLine": {
+    "title": "Egyenes vonal használata",
+    "description": "Ha engedélyezve van, a rajzolási vonal alakzat mindig egyenes vonalat használ a kezdőpozíciótól a végpozícióig, figyelmen kívül hagyva a rajzolt útvonalat. Ha letiltva van, az egységek követik az általad rajzolt görbe útvonalat."
+  },
+  "straightLineTolerance": "Egyenes vonal tűrés",
   "spaceBetweenUnits": "Egységek közötti távolság",
   "spaceBetweenLines": "Sorok közötti távolság",
   "keybindings": {
@@ -99,11 +110,15 @@
     "shootOrder": "Lövési parancs",
     "fireAndAdvanceOrder": "Tüzelés és előrehaladás parancs",
     "fallbackOrder": "Visszavonulási parancs",
-    "toggleFormation": "Formáció váltása",
     "toggleSmartCurvedMovements": "Okos görbült mozgások váltása",
     "toggleFowPerspective": "Háborús köd perspektíva váltása",
     "openChat": "Chat megnyitása",
+    "openFormationModal": "Formáció ablak megnyitása",
     "toggleFullscreen": "Teljes képernyő váltása",
+    "simulateMultiTouch": "Multi-touch szimulálása",
+    "toggleSupplyLines": "Ellátási vonalak váltása",
+    "toggleStraightLine": "Egyenes vonal váltása",
+    "toggleDrawLine": "Rajzolási vonalak letiltásának váltása",
     "controlGroup1": "Vezérlőcsoport 1",
     "controlGroup2": "Vezérlőcsoport 2",
     "controlGroup3": "Vezérlőcsoport 3",

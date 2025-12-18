@@ -1,0 +1,88 @@
+{
+  "unitName": {
+    "1": "Infanteri Utama",
+    "2": "Dragoons",
+    "3": "8-pound Artileri Dorong",
+    "4": "Infanteri Elit",
+    "5": "Kavaleri Tombak",
+    "6": "6-pound Artileri Kuda",
+    "7": "Infanteri Ringan",
+    "8": "Cuirassiers",
+    "9": "6-inci Howitzer",
+    "10": "Milisi",
+    "11": "Hussars",
+    "12": "12-pound Artileri Dorong",
+    "13": "Pemanah Kuda"
+  },
+  "battalionName": {
+    "1": "{{n}} Batalion Utama",
+    "2": "{{n}} Dragoons",
+    "3": "{{n}} Meriam Dorong",
+    "4": "{{n}} Batalion Elit",
+    "5": "{{n}} Kavaleri Tombak",
+    "6": "{{n}} Meriam Kuda",
+    "7": "{{n}} Batalion Ringan",
+    "8": "{{n}} Cuirassiers",
+    "9": "{{n}} Howitzer",
+    "10": "{{n}} Milisi",
+    "11": "{{n}} Hussars",
+    "12": "{{n}} Meriam Dorong",
+    "13": "{{n}} Pemanah Kudah"
+  },
+  "unitDescription": {
+    "1": "Batalion infanteri utama adalah unit dasar angkatan darat. Senapan adalah senjata utamanya, tetapi juga dapat menangkis kavaleri atau menyerang infanteri dan artileri lain dengan bayonet.",
+    "2": "Kavaleri menengah yang andal dan lengkap, siap untuk menganggu formasi maupun pertempuran berkepanjangan.",
+    "3": "Artileri menengah yang terjangkau dengan mobilitas dan daya tembak yang sederhana dengan tembakan canister yang mengesankan.",
+    "4": "Prajurit berpengalaman dan berbadan besar dengan kemampuan untuk menginspirasi prajurit yang bersahabat dan menakuti musuh. Unit elit ini hanya diperuntukkan bagi prajurit yang paling berbakat secara alami, yang membuat mereka jauh lebih mahal untuk dikerahkan. Intimidasi dan karakteristik jarak dekat mereka yang luar biasa digunakan dengan sangat baik dalam serangan bayonet.",
+    "5": "Kavaleri menengah elit yang menggunakan tombak untuk melancarkan serangan dahsyat - serangkaian serangan oleh beberapa skuadron Kavaleri Bertombak akan dengan cepat mengalahkan lawan. Namun, mereka kurang mengesankan dalam pertempuran jarak dekat yang berlarut-larut.",
+    "6": "Kecepatan dan biaya rendah artileri ini membuatnya cocok untuk mendukung kavaleri atau maju bersama garis infanteri kamu.",
+    "7": "Infanteri utama elit dilatih dengan fokus khusus pada pergerakan cepat dan keahlian menembak.",
+    "8": "Kavaleri berat yang tangguh dengan efektivitas pertempuran jarak dekat terkuat di antara unit mana pun. Namun, yang terbaik adalah melemahkan musuh dengan infanteri atau artileri sebelum mengirim pasukan Cuirassier kamu.",
+    "9": "Howitzer medan ringan dengan peluru peledak dan tembakan kanister jarak pendek yang sangat mematikan - ideal untuk mendukung infanteri utama kamu pada jarak menengah hingga pendek.",
+    "10": "“Mengandalkan milisi sudah pasti seperti bersandar pada tongkat yang patah.” - George Washington",
+    "11": "Kavaleri ringan cocok untuk menyerang musuh yang lemah, rusak, dan kalah jumlah. Namun, mereka akan kesulitan melawan infanteri terorganisasi dan kavaleri berat. Gunakan infanteri dan artileri untuk melemahkan musuh terlebih dahulu.",
+    "12": "Senjata lapangan terberat yang tersedia bagi pasukan Napoleon; meskipun meriam ini sangat mahal, jangkauan dan kekuatannya tak tertandingi.",
+    "13": "“Pemanah kuda Bashkir tidak diragukan lagi adalah pasukan yang paling tidak berbahaya di dunia.” - Baron Marbot, mengabaikan anak panah di pahanya"
+  },
+  "unitCategory": {
+    "infantry": "Infanteri",
+    "midCavalry": "Kavaleri",
+    "artillery": "Artileri",
+    "lightInfantry": "Infanteri Ringan",
+    "scoutCavalry": "Kavaleri Pengintai",
+    "lightCavalry": "Kavaleri Ringan",
+    "heavyCavalry": "Kavaleri Berat",
+    "militiaInfantry": "Infanteri Milisi",
+    "skirmishInfantry": "Infanteri Penembak Jitu"
+  },
+  "damageType": {
+    "musket": "Musket",
+    "light-musket": "Musket Ringan",
+    "artillery-sabre": "Artileri Saber",
+    "bayonet": "Bayonet",
+    "8lb-cannon-ball": "Bola Meriam",
+    "cavalry-sabre": "Kavaeri Saber",
+    "cavalry-lance": "Kavaleri Tombak",
+    "6lb-cannon-ball": "Meriam Bola Ringan",
+    "explosive-shell": "Peluru Ledakan",
+    "cavalry-sword": "Kavaleri Pedang",
+    "8lb-canister-fire": "Tembakan Peluru Canister",
+    "6lb-canister-fire": "Tembakan Peluru Canister Ringan",
+    "howitzer-canister": "Meriam Besar Canister",
+    "12lb-cannon-ball": "Meriam Bola Berat",
+    "12lb-canister-fire": "Tembakan Peluru Berat Canister",
+    "dragoon-sword": "Pedang Dragoon",
+    "horse-archer-bow": "Pemanah Kuda"
+  },
+  "formation": {
+    "mass": "Massa",
+    "line": "Baris",
+    "column": "Kolom",
+    "square": "Kotak"
+  },
+  "reportStats": {
+    "men": "Prajurit",
+    "horse": "Kuda",
+    "guns": "Senjata"
+  }
+}

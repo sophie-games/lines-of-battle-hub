@@ -70,6 +70,10 @@
     "title": "影",
     "description": "ユニットに影を有効にします。ユニットが更新されるには、ゲームがターンを経過する必要がある場合があります。"
   },
+  "showDebugShapes": {
+    "title": "デバッグ形状を表示",
+    "description": "ユニットに衝突形状や地形チェックポイントを含むデバッグ形状を表示します。ユニットが更新されるには、ゲームがターンを経過する必要がある場合があります。"
+  },
   "fullScreen": {
     "title": "フルスクリーン",
     "description": "アプリケーションのフルスクリーンモードを切り替えます",
@@ -80,8 +84,15 @@
     "description": "すべての設定をデフォルトの値に戻します。この操作は行ったカスタマイズを上書きします。"
   },
   "reset": "リセット",
-  "lineFormation": "線形陣形",
-  "checkerboardFormation": "チェッカーボード陣形",
+  "drawLineFormation": {
+    "title": "描画線を使用",
+    "description": "有効にすると、多くのユニットが選択されている場合に描画線陣形を使用します。無効にすると、多くのユニットが選択されている場合に描画パス陣形を使用します。描画パスは、ユニットの1つをドラッグすることでも実行できます。"
+  },
+  "useStraightLine": {
+    "title": "直線を使用",
+    "description": "有効にすると、描画線陣形は常に開始位置から終了位置までの直線を使用し、描画されたパスを無視します。無効にすると、ユニットは描画した曲線パスに従います。"
+  },
+  "straightLineTolerance": "直線許容値",
   "spaceBetweenUnits": "ユニット間の間隔",
   "spaceBetweenLines": "ライン間の間隔",
   "keybindings": {
@@ -99,11 +110,15 @@
     "shootOrder": "射撃命令",
     "fireAndAdvanceOrder": "発砲して前進する命令",
     "fallbackOrder": "後退命令",
-    "toggleFormation": "フォーメーション切り替え",
     "toggleSmartCurvedMovements": "スマートカーブ移動切り替え",
     "toggleFowPerspective": "戦争の霧の視点切り替え",
     "openChat": "チャットを開く",
+    "openFormationModal": "陣形ウィンドウを開く",
     "toggleFullscreen": "フルスクリーン切り替え",
+    "simulateMultiTouch": "マルチタッチをシミュレート",
+    "toggleSupplyLines": "補給線の切り替え",
+    "toggleStraightLine": "直線の切り替え",
+    "toggleDrawLine": "描画線の無効化の切り替え",
     "controlGroup1": "コントロールグループ1",
     "controlGroup2": "コントロールグループ2",
     "controlGroup3": "コントロールグループ3",

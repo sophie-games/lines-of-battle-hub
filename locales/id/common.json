@@ -52,7 +52,7 @@
   "quickMatchmaking": "Pencocokan Cepat",
   "ranked": "Berperingkat",
   "classic": "Klasik",
-  "classicTooltip": "Gunakan peta klasik yang dihasilkan secara prosedural dengan tentara default",
+  "classicTooltip": "Klasik menonaktifkan tentara kustom",
   "rankedTooltip": "Permainan mempengaruhi peringkat Elo Anda",
   "unranked": "Tidak Berperingkat",
   "cancel": "Batal",
@@ -112,6 +112,13 @@
     "randomGuide": "Ingin belajar cara membuat peta acak? Baca <0>panduan ini</0>.",
     "baleriiMessage": "Pemain Balerii dan Nytka telah membuat editor peta sendiri! Lihat saluran YouTube mereka untuk melihat cara kerjanya:"
   },
+  "scenarioEditorAutosave": {
+    "title": "Skenario Tersimpan Otomatis",
+    "message": "Skenario tersimpan otomatis ditemukan. Apakah Anda ingin melanjutkan mengedit atau membuangnya?",
+    "name": "Nama: {{name}}",
+    "continue": "Lanjutkan",
+    "discard": "Buang"
+  },
   "createScenario": "Buat Skenario",
   "loadScenario": "Muat Skenario",
   "playOffline": "Bermain Offline!",
@@ -166,89 +173,17 @@
     "meleeDefense": "Ketahanan Jarak Dekat",
     "chargeBonus": "Bonus Serangan",
     "chargePenetration": "Penetrasi Serangan",
+    "pushStrength": "Kekuatan Dorong",
+    "pushDistance": "Jarak Dorong",
     "orgRadius": "Radius Organisasi",
     "orgRadiusBonus": "Bonus Radius Organisasi",
     "rangedAttack": "Serangan Jarak Jauh",
     "limberMovement": "Gerakan Lentur",
     "chargeResistance": "Daya Tahan Serangan",
-    "status": "Status"
-  },
-  "unitCategory": {
-    "infantry": "Infanteri",
-    "midCavalry": "Kavaleri",
-    "artillery": "Artileri",
-    "lightInfantry": "Infanteri Ringan",
-    "scoutCavalry": "Kavaleri Pengintai",
-    "lightCavalry": "Kavaleri Ringan",
-    "heavyCavalry": "Kavaleri Berat",
-    "militiaInfantry": "Infanteri Milisi",
-    "skirmishInfantry": "Infanteri Penembak Jitu"
+    "status": "Status",
+    "supplyConsumption": "Konsumsi Pasokan"
   },
   "category": "Kategori",
-  "damageType": {
-    "musket": "Musket",
-    "light-musket": "Musket Ringan",
-    "artillery-sabre": "Artileri Saber",
-    "bayonet": "Bayonet",
-    "8lb-cannon-ball": "Bola Meriam",
-    "cavalry-sabre": "Kavaeri Saber",
-    "cavalry-lance": "Kavaleri Tombak",
-    "6lb-cannon-ball": "Meriam Bola Ringan",
-    "explosive-shell": "Peluru Ledakan",
-    "cavalry-sword": "Kavaleri Pedang",
-    "8lb-canister-fire": "Tembakan Peluru Canister",
-    "6lb-canister-fire": "Tembakan Peluru Canister Ringan",
-    "howitzer-canister": "Meriam Besar Canister",
-    "12lb-cannon-ball": "Meriam Bola Berat",
-    "12lb-canister-fire": "Tembakan Peluru Berat Canister",
-    "dragoon-sword": "Pedang Dragoon",
-    "horse-archer-bow": "Pemanah Kuda"
-  },
-  "unitName": {
-    "1": "Infanteri Utama",
-    "2": "Dragoons",
-    "3": "8-pound Artileri Dorong",
-    "4": "Infanteri Elit",
-    "5": "Kavaleri Tombak",
-    "6": "6-pound Artileri Kuda",
-    "7": "Infanteri Ringan",
-    "8": "Cuirassiers",
-    "9": "6-inci Howitzer",
-    "10": "Milisi",
-    "11": "Hussars",
-    "12": "12-pound Artileri Dorong",
-    "13": "Pemanah Kuda"
-  },
-  "battalionName": {
-    "1": "{{n}} Batalion Utama",
-    "2": "{{n}} Dragoons",
-    "3": "{{n}} Meriam Dorong",
-    "4": "{{n}} Batalion Elit",
-    "5": "{{n}} Kavaleri Tombak",
-    "6": "{{n}} Meriam Kuda",
-    "7": "{{n}} Batalion Ringan",
-    "8": "{{n}} Cuirassiers",
-    "9": "{{n}} Howitzer",
-    "10": "{{n}} Milisi",
-    "11": "{{n}} Hussars",
-    "12": "{{n}} Meriam Dorong",
-    "13": "{{n}} Pemanah Kudah"
-  },
-  "unitDescription": {
-    "1": "Batalion infanteri utama adalah unit dasar angkatan darat. Senapan adalah senjata utamanya, tetapi juga dapat menangkis kavaleri atau menyerang infanteri dan artileri lain dengan bayonet.",
-    "2": "Kavaleri menengah yang andal dan lengkap, siap untuk menganggu formasi maupun pertempuran berkepanjangan.",
-    "3": "Artileri menengah yang terjangkau dengan mobilitas dan daya tembak yang sederhana dengan tembakan canister yang mengesankan.",
-    "4": "Prajurit berpengalaman dan berbadan besar dengan kemampuan untuk menginspirasi prajurit yang bersahabat dan menakuti musuh. Unit elit ini hanya diperuntukkan bagi prajurit yang paling berbakat secara alami, yang membuat mereka jauh lebih mahal untuk dikerahkan. Intimidasi dan karakteristik jarak dekat mereka yang luar biasa digunakan dengan sangat baik dalam serangan bayonet.",
-    "5": "Kavaleri menengah elit yang menggunakan tombak untuk melancarkan serangan dahsyat - serangkaian serangan oleh beberapa skuadron Kavaleri Bertombak akan dengan cepat mengalahkan lawan. Namun, mereka kurang mengesankan dalam pertempuran jarak dekat yang berlarut-larut.",
-    "6": "Kecepatan dan biaya rendah artileri ini membuatnya cocok untuk mendukung kavaleri atau maju bersama garis infanteri kamu.",
-    "7": "Infanteri utama elit dilatih dengan fokus khusus pada pergerakan cepat dan keahlian menembak.",
-    "8": "Kavaleri berat yang tangguh dengan efektivitas pertempuran jarak dekat terkuat di antara unit mana pun. Namun, yang terbaik adalah melemahkan musuh dengan infanteri atau artileri sebelum mengirim pasukan Cuirassier kamu.",
-    "9": "Howitzer medan ringan dengan peluru peledak dan tembakan kanister jarak pendek yang sangat mematikan - ideal untuk mendukung infanteri utama kamu pada jarak menengah hingga pendek.",
-    "10": "“Mengandalkan milisi sudah pasti seperti bersandar pada tongkat yang patah.” - George Washington",
-    "11": "Kavaleri ringan cocok untuk menyerang musuh yang lemah, rusak, dan kalah jumlah. Namun, mereka akan kesulitan melawan infanteri terorganisasi dan kavaleri berat. Gunakan infanteri dan artileri untuk melemahkan musuh terlebih dahulu.",
-    "12": "Senjata lapangan terberat yang tersedia bagi pasukan Napoleon; meskipun meriam ini sangat mahal, jangkauan dan kekuatannya tak tertandingi.",
-    "13": "“Pemanah kuda Bashkir tidak diragukan lagi adalah pasukan yang paling tidak berbahaya di dunia.” - Baron Marbot, mengabaikan anak panah di pahanya"
-  },
   "damageResistances": "Resistensi Kerusakan",
   "otherStats": "Statistik Lainnya",
   "damageModifier": "Efek Tambahan Kerusakan",
@@ -265,6 +200,9 @@
   "midRange": "Jarak Sedang",
   "longRange": "Jarak Jauh",
   "shootingAngle": "Sudut Menembak",
+  "shootingMaxTargets": "Shooting Max Targets",
+  "shootingAngleMargin": "Shooting Angle Margin",
+  "shootingSides": "Sisi Menembak",
   "arcHeight": "Tinggi Busur",
   "aoe": "Efek Area",
   "type": "Tipe",
@@ -339,12 +277,13 @@
   },
   "fetchingBattleActions": "Memuat data aksi pertempuran...",
   "order": {
+    "0": "Tidak ada perintah",
     "1": "Berjalan",
     "2": "Berlari",
     "3": "Tembak",
     "4": "Tembak dan Maju",
     "6": "Mundur",
-    "7": "Tidak ada perintah"
+    "7": "Menghadap"
   },
   "selectOrder": "Pilih Perintah",
   "autofire": "Tembak otomatis",
@@ -352,6 +291,8 @@
   "meleeDamage": "Kerusakan Jarak Dekat",
   "rangedDamage": "Kerusakan Jarak Jauh",
   "orgRegain": "Organisasi pulih",
+  "reorgDebuff": "Penalti pemulihan organisasi",
+  "attackEffectDuration": "Durasi efek serangan",
   "speed": "Kecepatan",
   "speedWhenShooting": "Kecepatan sambil menembak",
   "receivedDamage": "Kerusakan yang diterima",
@@ -396,7 +337,8 @@
     "3": "Memulihkan Diri"
   },
   "unitEffect": {
-    "1": "Rotasi penuh"
+    "1": "Diputar 180°",
+    "5": "Tertembak"
   },
   "login": "Login",
   "signUp": "Daftar",
@@ -450,9 +392,7 @@
     "unknown": "Alasan tidak diketahui."
   },
   "strength": "Kekuatan",
-  "guns": "Senjata",
   "casualties": "Korban",
-  "gunsLost": "Senjata yang hilang atau rusak",
   "noRewards": "Tidak ada hadiah",
   "clan": "Koalisi",
   "clans": "Koalisi",
@@ -599,5 +539,10 @@
     "buttonText": "Tambahkan ke daftar keinginan"
   },
   "show": "Tampilkan",
-  "hide": "Sembunyikan"
+  "hide": "Sembunyikan",
+  "timeToForm": "Waktu untuk Membentuk",
+  "timeToUnform": "Waktu untuk Membubarkan",
+  "formingSpeedModifier": "Kecepatan saat Membentuk",
+  "logistics": "Logistik",
+  "logisticsConsumption": "K. Logistik"
 }

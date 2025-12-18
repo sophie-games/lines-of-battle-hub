@@ -1,0 +1,2609 @@
+[
+  {
+    "id": 32,
+    "name": "valentines-line",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 1,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "mass": {
+        "overlay": "valentines-line"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "valentines-guards",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 4,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "mass": {
+        "overlay": "valentines-guards"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "valentines-chasseurs",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 7,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "mass": {
+        "overlay": "valentines-chasseurs"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "valentines-hussars",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 11,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "cavalry": {
+        "overlay": "valentines-hussars"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "valentines-lancers",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 5,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "cavalry": {
+        "overlay": "valentines-lancers"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "valentines-cuirassiers",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 8,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "cavalry": {
+        "overlay": "valentines-cuirassiers"
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "valentines-12lb-artillery",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 12,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "artillery": {
+        "overlay": "valentines-12lb-artillery"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "valentines-horse-artillery",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 6,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "artillery": {
+        "overlay": "valentines-horse-artillery"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "valentines-howitzers",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 9,
+    "attackColor": "ff90ff",
+    "locked": true,
+    "formations": {
+      "artillery": {
+        "overlay": "valentines-howitzers"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "austrian-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 12,
+    "formations": {
+      "artillery": {
+        "overlay": "austrian-artillery"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "austrian-chasseurs",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-chasseurs"
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "austrian-cuirassiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "austrian-cuirassiers"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "austrian-horse-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 6,
+    "formations": {
+      "artillery": {
+        "overlay": "austrian-horse-artillery"
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "austrian-howitzers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 9,
+    "formations": {
+      "artillery": {
+        "overlay": "austrian-howitzers"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "austrian-galician-uhlans",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "austrian-galician-uhlans"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "french-horse-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 6,
+    "formations": {
+      "artillery": {
+        "overlay": "french-horse-artillery"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "french-old-guard",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "french-old-guard"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "french-la-brigade-infernale",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "french-la-brigade-infernale"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "french-1st-cuirassier",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "french-1st-cuirassier"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "french-italian-legion",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "french-italian-legion"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "french-irish-legion",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "french-irish-legion"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "french-swiss-legion",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "french-swiss-legion"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "french-polish-legion",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "french-polish-legion"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "austrian-czech-infanterie",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-czech-infanterie"
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "austrian-hungarian-infanterie",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-hungarian-infanterie"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "austrian-italian-infanterie",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-italian-infanterie"
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "austrian-galician-infanterie",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-galician-infanterie"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "austrian-moravian-infanterie",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-moravian-infanterie"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "british-cuirassier",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "british-cuirassier"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "british-69th-foot",
+    "tier": 1,
+    "premiumPrice": 200,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "british-69th-foot"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "austrian-hungarian-grenadiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-hungarian-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "british-coldstream-guards",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "british-coldstream-guards"
+      }
+    }
+  },
+  {
+    "id": 1,
+    "name": "highland-guard",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "highland-guard"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "the-blackwatch",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "the-blackwatch"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "french-polish-lancers",
+    "tier": 2,
+    "premiumPrice": 300,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "french-polish-lancers"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "british-royal-lancer",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "british-royal-lancer"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "austrian-hungarian-hussar",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "austrian-hungarian-hussar"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "bronze-line-infantry",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "bronze-line-infantry"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "silver-line-infantry",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "silver-line-infantry"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "gold-line-infantry",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 1,
+    "attackColor": "FFD700",
+    "formations": {
+      "mass": {
+        "overlay": "gold-line-infantry"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "bronze-hussar",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "bronze-hussar"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "silver-hussar",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "silver-hussar"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "gold-hussar",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 11,
+    "attackColor": "FFD700",
+    "formations": {
+      "cavalry": {
+        "overlay": "gold-hussar"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "bronze-artillery",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 12,
+    "formations": {
+      "artillery": {
+        "overlay": "bronze-artillery"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "silver-artillery",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 12,
+    "formations": {
+      "artillery": {
+        "overlay": "silver-artillery"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "gold-artillery",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 12,
+    "attackColor": "FFD700",
+    "formations": {
+      "artillery": {
+        "overlay": "gold-artillery"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "british-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 12,
+    "formations": {
+      "artillery": {
+        "overlay": "british-artillery"
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "british-horse-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 6,
+    "formations": {
+      "artillery": {
+        "overlay": "british-horse-artillery"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "british-howitzers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 9,
+    "formations": {
+      "artillery": {
+        "overlay": "british-howitzers"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "british-rifle-brigade",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "british-rifle-brigade"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "french-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 12,
+    "formations": {
+      "artillery": {
+        "overlay": "french-artillery"
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "french-howitzers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 9,
+    "formations": {
+      "artillery": {
+        "overlay": "french-howitzers"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "british-kings-dutch-brigade",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "british-kings-dutch-brigade"
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "british-kings-german-legion",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "british-kings-german-legion"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "french-chasseurs",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "french-chasseurs"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "russian-uhlans",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "russian-uhlans"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "russian-preobrazhenskiy",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "russian-preobrazhenskiy"
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "russian-lifeguards",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "russian-lifeguards"
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "russian-chevalier-guards",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "russian-chevalier-guards"
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "russian-pavlogradskiy-hussars",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "russian-pavlogradskiy-hussars"
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "russian-35th-jagers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "russian-35th-jagers"
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "russian-finland-lifeguards",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "russian-finland-lifeguards"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "russian-nevskiy-musketeers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "russian-nevskiy-musketeers"
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "russian-novgorod-musketeers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "russian-novgorod-musketeers"
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "russian-siberian-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "russian-siberian-infantry"
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "russian-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 12,
+    "formations": {
+      "artillery": {
+        "overlay": "russian-artillery"
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "russian-horse-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 6,
+    "formations": {
+      "artillery": {
+        "overlay": "russian-horse-artillery"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "russian-howitzers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 9,
+    "formations": {
+      "artillery": {
+        "overlay": "russian-howitzers"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "prussian-brunswick-cavalry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "prussian-brunswick-cavalry"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "name": "prussian-pomeranian-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "prussian-pomeranian-infantry"
+      }
+    }
+  },
+  {
+    "id": 74,
+    "name": "prussian-lifeguards",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "prussian-lifeguards"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "name": "prussian-cuirassiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "prussian-cuirassiers"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "name": "prussian-12lb-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 12,
+    "formations": {
+      "artillery": {
+        "overlay": "prussian-12lb-artillery"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "prussian-brandenburg-uhlans",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "prussian-brandenburg-uhlans"
+      }
+    }
+  },
+  {
+    "id": 78,
+    "name": "prussian-horse-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 6,
+    "formations": {
+      "artillery": {
+        "overlay": "prussian-horse-artillery"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "name": "prussian-howitzers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 9,
+    "formations": {
+      "artillery": {
+        "overlay": "prussian-howitzers"
+      }
+    }
+  },
+  {
+    "id": 80,
+    "name": "prussian-fusiliers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "prussian-fusiliers"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "name": "austrian-imperial-infanterie",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-imperial-infanterie"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "name": "prussian-1st-east-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "prussian-1st-east-infantry"
+      }
+    }
+  },
+  {
+    "id": 83,
+    "name": "prussian-1st-west-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "prussian-1st-west-infantry"
+      }
+    }
+  },
+  {
+    "id": 84,
+    "name": "prussian-2nd-east-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "prussian-2nd-east-infantry"
+      }
+    }
+  },
+  {
+    "id": 85,
+    "name": "bashkirs",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 13,
+    "formations": {
+      "cavalry": {
+        "overlay": "bashkirs"
+      }
+    }
+  },
+  {
+    "id": 86,
+    "name": "tanks",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "unitType": 6,
+    "formations": {
+      "artillery": {
+        "base": "tanks",
+        "overlay": null
+      }
+    }
+  },
+  {
+    "id": 87,
+    "name": "argentinian-mounted-grenadiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "argentinian-mounted-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 88,
+    "name": "argentinian-patricians",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "argentinian-patricians"
+      }
+    }
+  },
+  {
+    "id": 89,
+    "name": "argentinian-pardos-y-morenos",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 10,
+    "locked": true,
+    "formations": {
+      "mass": {
+        "overlay": "argentinian-pardos-y-morenos"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "italian-light-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "italian-light-infantry"
+      }
+    }
+  },
+  {
+    "id": 90,
+    "name": "italian-bersaglieri-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "italian-bersaglieri-infantry"
+      }
+    }
+  },
+  {
+    "id": 91,
+    "name": "italian-guards",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "italian-guards"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "italian-alpine-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "italian-alpine-infantry"
+      }
+    }
+  },
+  {
+    "id": 92,
+    "name": "silladar-horse-archers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 13,
+    "formations": {
+      "cavalry": {
+        "overlay": "silladar-horse-archers"
+      }
+    }
+  },
+  {
+    "id": 93,
+    "name": "french-marie-louise",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 10,
+    "formations": {
+      "mass": {
+        "overlay": "french-marie-louise"
+      }
+    }
+  },
+  {
+    "id": 94,
+    "name": "french-national-guard",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 10,
+    "formations": {
+      "mass": {
+        "overlay": "french-national-guard"
+      }
+    }
+  },
+  {
+    "id": 95,
+    "name": "brazilian-cazadores",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "brazilian-cazadores"
+      }
+    }
+  },
+  {
+    "id": 96,
+    "name": "brazilian-dragoes-da-idependencia",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "brazilian-dragoes-da-idependencia"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "name": "brazilian-emperors-guards",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "brazilian-emperors-guards"
+      }
+    }
+  },
+  {
+    "id": 98,
+    "name": "brazilian-infantaria-de-linha",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "brazilian-infantaria-de-linha"
+      }
+    }
+  },
+  {
+    "id": 99,
+    "name": "brazilian-lanceiros-gauchos",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "brazilian-lanceiros-gauchos"
+      }
+    }
+  },
+  {
+    "id": 100,
+    "name": "french-dragoons",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "french-dragoons"
+      }
+    }
+  },
+  {
+    "id": 101,
+    "name": "east-india-12lb-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 12,
+    "formations": {
+      "artillery": {
+        "overlay": "east-india-12lb-artillery"
+      }
+    }
+  },
+  {
+    "id": 102,
+    "name": "east-india-8lb-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 3,
+    "formations": {
+      "artillery": {
+        "overlay": "east-india-8lb-artillery"
+      }
+    }
+  },
+  {
+    "id": 103,
+    "name": "east-india-bengali-sepoys",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "east-india-bengali-sepoys"
+      }
+    }
+  },
+  {
+    "id": 104,
+    "name": "east-india-gardners-lancers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "east-india-gardners-lancers"
+      }
+    }
+  },
+  {
+    "id": 105,
+    "name": "east-india-hindustani-sowars",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "east-india-hindustani-sowars"
+      }
+    }
+  },
+  {
+    "id": 106,
+    "name": "east-india-horse-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 6,
+    "formations": {
+      "artillery": {
+        "overlay": "east-india-horse-artillery"
+      }
+    }
+  },
+  {
+    "id": 107,
+    "name": "east-india-howitzers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 9,
+    "formations": {
+      "artillery": {
+        "overlay": "east-india-howitzers"
+      }
+    }
+  },
+  {
+    "id": 108,
+    "name": "east-india-madras-pioneers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "east-india-madras-pioneers"
+      }
+    }
+  },
+  {
+    "id": 109,
+    "name": "east-india-mogul-mercenary-horse",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "east-india-mogul-mercenary-horse"
+      }
+    }
+  },
+  {
+    "id": 110,
+    "name": "east-india-native-volunteers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 10,
+    "formations": {
+      "mass": {
+        "overlay": "east-india-native-volunteers"
+      }
+    }
+  },
+  {
+    "id": 111,
+    "name": "east-india-nusseree-gurkhas",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "east-india-nusseree-gurkhas"
+      }
+    }
+  },
+  {
+    "id": 112,
+    "name": "east-india-skinners-horse",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "east-india-skinners-horse"
+      }
+    }
+  },
+  {
+    "id": 113,
+    "name": "swedish-caroleans",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "swedish-caroleans"
+      }
+    }
+  },
+  {
+    "id": 114,
+    "name": "east-india-4lb-artillery",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 15,
+    "formations": {
+      "artillery": {
+        "overlay": "east-india-4lb-artillery"
+      }
+    }
+  },
+  {
+    "id": 115,
+    "name": "british-scots-greys",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "british-scots-greys"
+      }
+    }
+  },
+  {
+    "id": 116,
+    "name": "xiangqi-horse-artillery",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 6,
+    "formations": {
+      "mass": {
+        "base": "xiangqi-horse-artillery"
+      }
+    }
+  },
+  {
+    "id": 117,
+    "name": "xiangqi-hussars",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "xiangqi-hussars"
+      }
+    }
+  },
+  {
+    "id": 118,
+    "name": "xiangqi-cuirassiers",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "xiangqi-cuirassiers"
+      }
+    }
+  },
+  {
+    "id": 119,
+    "name": "xiangqi-dragoons",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "xiangqi-dragoons"
+      }
+    }
+  },
+  {
+    "id": 120,
+    "name": "xiangqi-grenadiers",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "xiangqi-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 121,
+    "name": "xiangqi-guards",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "xiangqi-guards"
+      }
+    }
+  },
+  {
+    "id": 122,
+    "name": "xiangqi-lancers",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "xiangqi-lancers"
+      }
+    }
+  },
+  {
+    "id": 123,
+    "name": "xiangqi-light-infantry",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "xiangqi-light-infantry"
+      }
+    }
+  },
+  {
+    "id": 124,
+    "name": "xiangqi-line-infantry",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "xiangqi-line-infantry"
+      }
+    }
+  },
+  {
+    "id": 125,
+    "name": "xiangqi-militia",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 10,
+    "formations": {
+      "mass": {
+        "overlay": "xiangqi-militia"
+      }
+    }
+  },
+  {
+    "id": 126,
+    "name": "french-lancers",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "french-lancers"
+      }
+    }
+  },
+  {
+    "id": 127,
+    "name": "hellenic-line-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "hellenic-line-infantry"
+      }
+    }
+  },
+  {
+    "id": 128,
+    "name": "hellenic-sacred-band",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "hellenic-sacred-band"
+      }
+    }
+  },
+  {
+    "id": 129,
+    "name": "hellenic-klefts",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "hellenic-klefts"
+      }
+    }
+  },
+  {
+    "id": 130,
+    "name": "ornate-old-guard",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "base": "ornate-base",
+        "overlay": "ornate-old-guard"
+      }
+    }
+  },
+  {
+    "id": 131,
+    "name": "ornate-middle-guard",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "base": "ornate-base2"
+      }
+    }
+  },
+  {
+    "id": 132,
+    "name": "ornate-young-guard",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "base": "ornate-base3"
+      }
+    }
+  },
+  {
+    "id": 133,
+    "name": "french-middle-guard",
+    "tier": 1,
+    "premiumPrice": 200,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "french-middle-guard"
+      }
+    }
+  },
+  {
+    "id": 134,
+    "name": "french-young-guard",
+    "tier": 1,
+    "premiumPrice": 200,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "french-young-guard"
+      }
+    }
+  },
+  {
+    "id": 135,
+    "name": "hellenic-evzones",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "hellenic-evzones"
+      }
+    }
+  },
+  {
+    "id": 136,
+    "name": "hussardous",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "hussardous"
+      }
+    }
+  },
+  {
+    "id": 137,
+    "name": "hydragoon-bomb",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "hydragoon-bomb"
+      }
+    }
+  },
+  {
+    "id": 138,
+    "name": "hellenic-hussars",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "hellenic-hussars"
+      }
+    }
+  },
+  {
+    "id": 139,
+    "name": "hellenic-lancers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "hellenic-lancers"
+      }
+    }
+  },
+  {
+    "id": 140,
+    "name": "silver-cuirassier",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "silver-cuirassier"
+      }
+    }
+  },
+  {
+    "id": 141,
+    "name": "silver-dragoon",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "silver-dragoon"
+      }
+    }
+  },
+  {
+    "id": 142,
+    "name": "silver-grenadier",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "silver-grenadier"
+      }
+    }
+  },
+  {
+    "id": 143,
+    "name": "silver-guard",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "silver-guard"
+      }
+    }
+  },
+  {
+    "id": 144,
+    "name": "silver-lancer",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "silver-lancer"
+      }
+    }
+  },
+  {
+    "id": 145,
+    "name": "silver-light-infantry",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "silver-light-infantry"
+      }
+    }
+  },
+  {
+    "id": 146,
+    "name": "silver-militia",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 10,
+    "formations": {
+      "mass": {
+        "overlay": "silver-militia"
+      }
+    }
+  },
+  {
+    "id": 147,
+    "name": "silver-skirmisher",
+    "tier": 1,
+    "premiumPrice": 50,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "silver-skirmisher"
+      }
+    }
+  },
+  {
+    "id": 148,
+    "name": "gold-cuirassier",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 8,
+    "attackColor": "FFD700",
+    "formations": {
+      "cavalry": {
+        "overlay": "gold-cuirassier"
+      }
+    }
+  },
+  {
+    "id": 149,
+    "name": "gold-dragoon",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 2,
+    "attackColor": "FFD700",
+    "formations": {
+      "cavalry": {
+        "overlay": "gold-dragoon"
+      }
+    }
+  },
+  {
+    "id": 150,
+    "name": "gold-grenadier",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 14,
+    "attackColor": "FFD700",
+    "formations": {
+      "mass": {
+        "overlay": "gold-grenadier"
+      }
+    }
+  },
+  {
+    "id": 151,
+    "name": "gold-guard",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 4,
+    "attackColor": "FFD700",
+    "formations": {
+      "mass": {
+        "overlay": "gold-guard"
+      }
+    }
+  },
+  {
+    "id": 152,
+    "name": "gold-lancer",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 5,
+    "attackColor": "FFD700",
+    "formations": {
+      "cavalry": {
+        "overlay": "gold-lancer"
+      }
+    }
+  },
+  {
+    "id": 153,
+    "name": "gold-light-infantry",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 7,
+    "attackColor": "FFD700",
+    "formations": {
+      "mass": {
+        "overlay": "gold-light-infantry"
+      }
+    }
+  },
+  {
+    "id": 154,
+    "name": "gold-militia",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 10,
+    "attackColor": "FFD700",
+    "formations": {
+      "mass": {
+        "overlay": "gold-militia"
+      }
+    }
+  },
+  {
+    "id": 155,
+    "name": "gold-skirmisher",
+    "tier": 2,
+    "premiumPrice": 250,
+    "unitType": 16,
+    "attackColor": "FFD700",
+    "formations": {
+      "skirmish": {
+        "overlay": "gold-skirmisher"
+      }
+    }
+  },
+  {
+    "id": 156,
+    "name": "austrian-dragoons",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "austrian-dragoons"
+      }
+    }
+  },
+  {
+    "id": 157,
+    "name": "austrian-grenadiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "austrian-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 158,
+    "name": "austrian-skirmishers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "austrian-skirmishers"
+      }
+    }
+  },
+  {
+    "id": 159,
+    "name": "british-grenadiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "british-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 160,
+    "name": "british-skirmishers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "british-skirmishers"
+      }
+    }
+  },
+  {
+    "id": 161,
+    "name": "british-king-german-hussars",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "british-king-german-hussars"
+      }
+    }
+  },
+  {
+    "id": 162,
+    "name": "prussian-dragoons",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "prussian-dragoons"
+      }
+    }
+  },
+  {
+    "id": 163,
+    "name": "prussian-grenadiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "prussian-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 164,
+    "name": "prussian-skirmishers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "prussian-skirmishers"
+      }
+    }
+  },
+  {
+    "id": 165,
+    "name": "french-skirmishers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "french-skirmishers"
+      }
+    }
+  },
+  {
+    "id": 166,
+    "name": "russian-dragoons",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "russian-dragoons"
+      }
+    }
+  },
+  {
+    "id": 167,
+    "name": "russian-grenadiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "russian-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 168,
+    "name": "russian-skirmishers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "russian-skirmishers"
+      }
+    }
+  },
+  {
+    "id": 169,
+    "name": "bronze-cuirassier",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "bronze-cuirassier"
+      }
+    }
+  },
+  {
+    "id": 170,
+    "name": "bronze-dragoon",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "bronze-dragoon"
+      }
+    }
+  },
+  {
+    "id": 171,
+    "name": "bronze-grenadier",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "bronze-grenadier"
+      }
+    }
+  },
+  {
+    "id": 172,
+    "name": "bronze-guard",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "bronze-guard"
+      }
+    }
+  },
+  {
+    "id": 173,
+    "name": "bronze-lancer",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "bronze-lancer"
+      }
+    }
+  },
+  {
+    "id": 174,
+    "name": "bronze-light-infantry",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "bronze-light-infantry"
+      }
+    }
+  },
+  {
+    "id": 175,
+    "name": "bronze-militia",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 10,
+    "formations": {
+      "mass": {
+        "overlay": "bronze-militia"
+      }
+    }
+  },
+  {
+    "id": 176,
+    "name": "bronze-skirmishers",
+    "tier": 1,
+    "premiumPrice": 25,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "bronze-skirmishers"
+      }
+    }
+  },
+  {
+    "id": 177,
+    "name": "serbian-revolutionary-militia",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 10,
+    "formations": {
+      "mass": {
+        "overlay": "serbian-revolutionary-militia"
+      }
+    }
+  },
+  {
+    "id": 178,
+    "name": "bavarian-chasseurs",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 7,
+    "formations": {
+      "mass": {
+        "overlay": "bavarian-chasseurs"
+      }
+    }
+  },
+  {
+    "id": 179,
+    "name": "bavarian-cuirassiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "bavarian-cuirassiers"
+      }
+    }
+  },
+  {
+    "id": 180,
+    "name": "bavarian-dragoons",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "bavarian-dragoons"
+      }
+    }
+  },
+  {
+    "id": 181,
+    "name": "bavarian-grenadiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "bavarian-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 182,
+    "name": "bavarian-guards",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "overlay": "bavarian-guards"
+      }
+    }
+  },
+  {
+    "id": 183,
+    "name": "bavarian-hussars",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "bavarian-hussars"
+      }
+    }
+  },
+  {
+    "id": 184,
+    "name": "bavarian-lancers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "bavarian-lancers"
+      }
+    }
+  },
+  {
+    "id": 185,
+    "name": "bavarian-line-infantry",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "bavarian-line-infantry"
+      }
+    }
+  },
+  {
+    "id": 186,
+    "name": "bavarian-skirmishers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 16,
+    "formations": {
+      "skirmish": {
+        "overlay": "bavarian-skirmishers"
+      }
+    }
+  },
+  {
+    "id": 187,
+    "name": "french-chasseurs-e-cheval",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "french-chasseurs-e-cheval"
+      }
+    }
+  },
+  {
+    "id": 188,
+    "name": "french-empress-dragoons",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "overlay": "french-empress-dragoons"
+      }
+    }
+  },
+  {
+    "id": 189,
+    "name": "french-grenadiers-a-cheval",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "french-grenadiers-a-cheval"
+      }
+    }
+  },
+  {
+    "id": 190,
+    "name": "ornate-chasseurs-e-cheval",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 11,
+    "formations": {
+      "mass": {
+        "base": "ornate-chasseurs-e-cheval"
+      }
+    }
+  },
+  {
+    "id": 191,
+    "name": "ornate-empress-dragoons",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 2,
+    "formations": {
+      "mass": {
+        "base": "ornate-empress-dragoons"
+      }
+    }
+  },
+  {
+    "id": 192,
+    "name": "ornate-grenadiers-a-cheval",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 8,
+    "formations": {
+      "mass": {
+        "base": "ornate-grenadiers-a-cheval"
+      }
+    }
+  },
+  {
+    "id": 193,
+    "name": "ornate-polish-lancers",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 5,
+    "formations": {
+      "mass": {
+        "base": "ornate-polish-lancers"
+      }
+    }
+  },
+  {
+    "id": 194,
+    "name": "lobster-dragoons",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 2,
+    "formations": {
+      "cavalry": {
+        "base": "lobster-dragoons",
+        "overlay": "lobster-dragoons"
+      }
+    }
+  },
+  {
+    "id": 195,
+    "name": "ornate-russian-lifeguard-jagers",
+    "tier": 2,
+    "premiumPrice": 480,
+    "unitType": 7,
+    "locked": true,
+    "formations": {
+      "mass": {
+        "overlay": "ornate-russian-lifeguard-jagers"
+      }
+    }
+  },
+  {
+    "id": 196,
+    "name": "lobster-cuirassiers",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "base": "lobster-cuirassiers",
+        "overlay": "lobster-cuirassiers"
+      }
+    }
+  },
+  {
+    "id": 197,
+    "name": "farg-forg-ferg",
+    "tier": 4,
+    "premiumPrice": 3750,
+    "unitType": 16,
+    "formations": {
+      "mass": {
+        "base": "farg-forg-ferg"
+      }
+    }
+  },
+  {
+    "id": 198,
+    "name": "lobster-grenadiers",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "base": "lobster-grenadiers",
+        "overlay": "lobster-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 199,
+    "name": "lobster-guards",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "base": "lobster-guards",
+        "overlay": "lobster-guards"
+      }
+    }
+  },
+  {
+    "id": 200,
+    "name": "lobster-lancers",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "base": "lobster-lancers",
+        "overlay": "lobster-lancers"
+      }
+    }
+  },
+  {
+    "id": 201,
+    "name": "lobster-hussars",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "base": "lobster-hussars",
+        "overlay": "lobster-hussars"
+      }
+    }
+  },
+  {
+    "id": 202,
+    "name": "ornate-russian-cuirassiers",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 8,
+    "formations": {
+      "mass": {
+        "base": "ornate-russian-cuirassiers"
+      }
+    }
+  },
+  {
+    "id": 203,
+    "name": "ornate-russian-dragoons",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 2,
+    "formations": {
+      "mass": {
+        "base": "ornate-russian-dragoons"
+      }
+    }
+  },
+  {
+    "id": 204,
+    "name": "ornate-russian-grenadiers",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "base": "ornate-russian-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 205,
+    "name": "ornate-russian-guards",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 4,
+    "formations": {
+      "mass": {
+        "base": "ornate-russian-guards"
+      }
+    }
+  },
+  {
+    "id": 206,
+    "name": "ornate-russian-lancers",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 5,
+    "formations": {
+      "mass": {
+        "base": "ornate-russian-lancers"
+      }
+    }
+  },
+  {
+    "id": 207,
+    "name": "ornate-russian-hussars",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 11,
+    "formations": {
+      "mass": {
+        "base": "ornate-russian-hussars"
+      }
+    }
+  },
+  {
+    "id": 208,
+    "name": "swedish-cuirassiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 8,
+    "formations": {
+      "cavalry": {
+        "overlay": "swedish-cuirassiers"
+      }
+    }
+  },
+  {
+    "id": 209,
+    "name": "chilean-viejos-estandartes",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "chilean-viejos-estandartes"
+      }
+    }
+  },
+  {
+    "id": 210,
+    "name": "chilean-husares-de-la-muerte",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 11,
+    "formations": {
+      "cavalry": {
+        "overlay": "chilean-husares-de-la-muerte"
+      }
+    }
+  },
+  {
+    "id": 211,
+    "name": "chilean-grenadiers",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 14,
+    "formations": {
+      "mass": {
+        "overlay": "chilean-grenadiers"
+      }
+    }
+  },
+  {
+    "id": 212,
+    "name": "chilean-huasos-y-gauchos",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 10,
+    "formations": {
+      "mass": {
+        "overlay": "chilean-huasos-y-gauchos"
+      }
+    }
+  },
+  {
+    "id": 213,
+    "name": "headless-hussarman",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 11,
+    "formations": {
+      "mass": {
+        "base": "headless-hussarman"
+      }
+    }
+  },
+  {
+    "id": 214,
+    "name": "chilean-haras-nacionales",
+    "tier": 1,
+    "premiumPrice": 150,
+    "unitType": 5,
+    "formations": {
+      "cavalry": {
+        "overlay": "chilean-haras-nacionales"
+      }
+    }
+  },
+  {
+    "id": 215,
+    "name": "roman-legion",
+    "tier": 3,
+    "premiumPrice": 1250,
+    "unitType": 1,
+    "formations": {
+      "mass": {
+        "overlay": "roman-legion"
+      }
+    }
+  }
+]

@@ -81,9 +81,9 @@
     "title": "Bóng",
     "description": "Bật bóng trên các đơn vị. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
   },
-  "showCollisionShapes": {
-    "title": "Hiển thị hình dạng va chạm",
-    "description": "Hiển thị hình dạng va chạm trên các đơn vị. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
+  "showDebugShapes": {
+    "title": "Hiển thị hình dạng debug",
+    "description": "Hiển thị hình dạng debug trên các đơn vị bao gồm hình dạng va chạm và điểm kiểm tra địa hình. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
   },
   "disableSkins": {
     "title": "Tắt giao diện",
@@ -105,8 +105,15 @@
     "description": "Nâng cấp hạng của bạn trên Patreon để truy cập cài đặt này và các tính năng cao cấp khác!",
     "goToPatreon": "Đi đến Patreon"
   },
-  "lineFormation": "Đội hình tuyến",
-  "checkerboardFormation": "Đội hình bàn cờ",
+  "drawLineFormation": {
+    "title": "Sử dụng vẽ đường",
+    "description": "Khi bật, sẽ sử dụng đội hình vẽ đường khi nhiều đơn vị được chọn. Khi tắt, sẽ sử dụng đội hình đường dẫn vẽ khi nhiều đơn vị được chọn. Đường dẫn vẽ cũng có thể thực hiện bằng cách kéo một trong các đơn vị."
+  },
+  "useStraightLine": {
+    "title": "Sử dụng đường thẳng",
+    "description": "Khi bật, đội hình vẽ đường sẽ luôn sử dụng đường thẳng từ vị trí bắt đầu đến vị trí kết thúc, bỏ qua đường dẫn đã vẽ. Khi tắt, các đơn vị sẽ theo đường cong mà bạn vẽ."
+  },
+  "straightLineTolerance": "Dung sai đường thẳng",
   "spaceBetweenUnits": "Khoảng cách giữa các đơn vị",
   "spaceBetweenLines": "Khoảng cách giữa các hàng",
   "showSelectIdleUnitButton": {
@@ -130,11 +137,15 @@
     "shootOrder": "Lệnh bắn",
     "fireAndAdvanceOrder": "Lệnh bắn và tiến",
     "fallbackOrder": "Lệnh rút lui",
-    "toggleFormation": "Chuyển đổi đội hình",
     "toggleSmartCurvedMovements": "Chuyển đổi di chuyển cong thông minh",
     "toggleFowPerspective": "Chuyển đổi góc nhìn sương mù chiến tranh",
     "openChat": "Mở trò chuyện",
+    "openFormationModal": "Mở cửa sổ đội hình",
     "toggleFullscreen": "Chuyển đổi chế độ toàn màn hình",
+    "simulateMultiTouch": "Mô phỏng đa chạm",
+    "toggleSupplyLines": "Chuyển đổi đường tiếp tế",
+    "toggleStraightLine": "Chuyển đổi đường thẳng",
+    "toggleDrawLine": "Chuyển đổi tắt vẽ đường",
     "controlGroup1": "Nhóm điều khiển 1",
     "controlGroup2": "Nhóm điều khiển 2",
     "controlGroup3": "Nhóm điều khiển 3",

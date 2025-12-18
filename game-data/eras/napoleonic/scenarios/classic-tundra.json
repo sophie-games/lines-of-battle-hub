@@ -1,0 +1,91 @@
+{
+  "name": "Classic Tundra",
+  "description": "A windswept, frozen tundra with vast snowfields, scattered icy lakes, and sparse winter forests. Vegetation is rare and the landscape is mostly flat, with occasional rocky outcrops.",
+  "type": "classic",
+  "baseTerrain": 8,
+  "ranked": true,
+  "instructions": [
+    {
+      "type": "HEIGHT_NOISE",
+      "noises": [
+        { "scale": 50, "multiplier": 1.5 },
+        { "scale": 50, "multiplier": 1.5 }
+      ],
+      "mergeStrategy": "min",
+      "max": 6
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 16,
+      "scale": 25,
+      "ranges": [{ "min": 0.85, "max": 1.0 }],
+      "offset": 0.05,
+      "height": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 4,
+      "scale": 30,
+      "ranges": [{ "min": 0.93, "max": 1.0 }],
+      "offset": 0.1,
+      "height": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 13,
+      "scale": 18,
+      "ranges": [{ "min": 0.97, "max": 1.0 }],
+      "offset": 0.12
+    },
+    {
+      "type": "NATURAL_PATH",
+      "terrain": 16,
+      "between": "edges",
+      "amount": { "min": 1, "max": 2 },
+      "height": 0
+    },
+    {
+      "type": "NATURAL_PATH",
+      "terrain": 4,
+      "between": "edges",
+      "amount": { "min": 0, "max": 1 }
+    }
+  ],
+  "triggers": [
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isTurn",
+          "value": 1
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "spawnNeutralObjectives",
+          "value": {
+            "spacing": 0.75,
+            "amount": {
+              "clash": 2,
+              "combat": 2,
+              "battle": 3,
+              "grand_battle": 3
+            },
+            "minX": 0.2,
+            "maxX": 0.8,
+            "minY": 0.4,
+            "maxY": 0.6
+          }
+        }
+      ],
+      "once": true
+    }
+  ]
+}

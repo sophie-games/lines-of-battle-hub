@@ -1,0 +1,225 @@
+{
+  "name": "Hills",
+  "description": "Flat grasslands where tactical battles take place on randomly generated maps. The hills may include patches of forests and scattered buildings, adding strategic depth to unit positioning and gameplay.",
+  "type": "random",
+  "ranked": true,
+  "instructions": [
+    {
+      "type": "HEIGHT_NOISE",
+      "noises": [
+        { "scale": 40, "multiplier": 1.5, "offset": 0.0, "randomness": 0.0 },
+        { "scale": 40, "multiplier": 1.5, "offset": 0.0, "randomness": 0.0 }
+      ],
+      "mergeStrategy": "avg",
+      "min": 0,
+      "max": 4
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 19,
+      "scale": 25,
+      "ranges": [{ "min": 0.95, "max": 1.0 }],
+      "offset": 0.05,
+      "height": {
+        "min": 0,
+        "max": 1
+      },
+      "smoothing": {
+        "minSurrounding": 2
+      }
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 1,
+      "scale": 15,
+      "ranges": [{ "min": 0.98, "max": 1.0 }],
+      "offset": 0.1
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 1,
+      "scale": 30,
+      "ranges": [{ "min": 0.99, "max": 1.0 }],
+      "offset": 0.1
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 2,
+      "scale": 15,
+      "ranges": [{ "min": 0.95, "max": 1.0 }]
+    },
+    {
+      "type": "TERRAIN_NOISE",
+      "terrain": 4,
+      "scale": 40,
+      "ranges": [{ "min": 0.97, "max": 1.0 }],
+      "offset": 0.05,
+      "height": {
+        "min": 0,
+        "max": 0
+      },
+      "smoothing": {
+        "minSurrounding": 2
+      }
+    },
+    {
+      "type": "TERRAIN_RECTANGLE",
+      "terrain": 11,
+      "heightFilter": 0,
+      "scatter": {
+        "countPer100x100": 8,
+        "minWidth": 8,
+        "maxWidth": 16,
+        "minHeight": 6,
+        "maxHeight": 12,
+        "rotation": { "min": 0, "max": 360 }
+      }
+    },
+    {
+      "type": "TERRAIN_RECTANGLE",
+      "terrain": 17,
+      "heightFilter": 0,
+      "scatter": {
+        "countPer100x100": 8,
+        "minWidth": 8,
+        "maxWidth": 16,
+        "minHeight": 6,
+        "maxHeight": 12,
+        "rotation": { "min": 0, "max": 360 }
+      }
+    },
+    {
+      "type": "TERRAIN_RECTANGLE",
+      "terrain": 18,
+      "heightFilter": 0,
+      "scatter": {
+        "countPer100x100": 8,
+        "minWidth": 8,
+        "maxWidth": 16,
+        "minHeight": 6,
+        "maxHeight": 12,
+        "rotation": { "min": 0, "max": 360 }
+      }
+    },
+
+    {
+      "type": "NATURAL_PATH",
+      "terrain": 4,
+      "between": "edges",
+      "amount": { "min": 1, "max": 1 },
+      "height": 0
+    },
+    {
+      "type": "NATURAL_PATH",
+      "terrain": 3,
+      "between": "top-bottom",
+      "range": { "min": 5, "max": 95 },
+      "amount": { "min": 1, "max": 1 },
+      "terrainReplacements": [
+        {
+          "fromTerrain": 4,
+          "toTerrain": 7
+        },
+        {
+          "fromTerrain": 5,
+          "toTerrain": 7
+        }
+      ],
+      "terrainCosts": [
+        {
+          "terrain": 4,
+          "cost": 4
+        },
+        {
+          "terrain": 5,
+          "cost": 4
+        }
+      ]
+    },
+    {
+      "type": "NATURAL_PATH",
+      "terrain": 3,
+      "between": "left-right",
+      "range": { "min": 5, "max": 95 },
+      "amount": { "min": 1, "max": 1 },
+      "terrainReplacements": [
+        {
+          "fromTerrain": 4,
+          "toTerrain": 7
+        },
+        {
+          "fromTerrain": 5,
+          "toTerrain": 7
+        }
+      ],
+      "terrainCosts": [
+        {
+          "terrain": 4,
+          "cost": 4
+        },
+        {
+          "terrain": 5,
+          "cost": 4
+        }
+      ]
+    },
+    {
+      "type": "CONNECT_CLUSTERS",
+      "fromTerrain": 2,
+      "pathTerrain": 3,
+      "minGroupSize": 3,
+      "maxDistance": 50,
+      "terrainReplacements": [
+        {
+          "fromTerrain": 4,
+          "toTerrain": 7
+        },
+        {
+          "fromTerrain": 5,
+          "toTerrain": 7
+        }
+      ],
+      "terrainCosts": [
+        {
+          "terrain": 4,
+          "cost": 4
+        },
+        {
+          "terrain": 5,
+          "cost": 4
+        }
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isTurn",
+          "value": 1
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "spawnNeutralObjectives",
+          "value": {
+            "spacing": 0.75,
+            "amount": {
+              "clash": 2,
+              "combat": 2,
+              "battle": 3,
+              "grand_battle": 3
+            },
+            "minX": 0.2,
+            "maxX": 0.8,
+            "minY": 0.4,
+            "maxY": 0.6
+          }
+        }
+      ],
+      "once": true
+    }
+  ]
+}

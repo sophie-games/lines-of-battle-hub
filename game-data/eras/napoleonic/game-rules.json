@@ -1,0 +1,87 @@
+{
+  "flanking": {
+    "meleeOrgDamageModifier": 0.75,
+    "rearMeleeOrgDamageModifier": 0.75,
+    "chargePenetrationModifier": 1.0,
+    "rearChargePenetrationModifier": 1.0
+  },
+  "stamina": {
+    "meleeTurnCost": 175,
+    "rangedTurnCost": 50,
+    "hasRanMeleeStaminaCostModifier": 1.0,
+    "regainRates": {
+      "range1": 0.048,
+      "range2": 0.072,
+      "range3": 0.048,
+      "range4": 0.024,
+      "range5": 0.012
+    },
+    "upperModifierLimit": 0.8,
+    "lowerModifierLimit": 0.2,
+    "chargeResistanceModifier": -0.4,
+    "runningMovementPenalty": -1.0,
+    "rangedAttackPenalty": -0.25,
+    "meleeAttackPenalty": -0.4,
+    "meleeDefensePenalty": -0.6
+  },
+  "ammo": {
+    "baseReserve": 500,
+    "regenerationBaseRate": 0.03,
+    "regenerationBonusRate": 0.03,
+    "maxHpConsumptionReduction": -0.6
+  },
+  "skirmisherSpawning": {
+    "unitType": 16
+  },
+  "allyCollision": {
+    "collisionBounceScale": 0.005,
+    "overlapStopCharge": 0.4,
+    "maxSpeedPenalty": -0.1,
+    "maxOrgDamageReceived": 0.3,
+    "maxMeleeAttackPenalty": -0.5,
+    "maxRangedAttackPenalty": -0.5,
+    "upperModifierLimit": 0.6,
+    "lowerModifierLimit": 0.1,
+    "maxOrgRadiusModifier": -0.6
+  },
+  "objectives": {
+    "radius": 64,
+    "pressureThreshold": 0.25,
+    "captureSmallObjectiveThreshold": 4,
+    "captureBigObjectiveThreshold": 32
+  },
+  "organization": {
+    "speedModifier": -0.15,
+    "maxOrgDebuffMinHpProportion": 0.3,
+    "maxOrgDebuffHp": 0.6,
+    "maxOrgDebuffStamina": 0.3,
+    "maxOrgDebuffStaminaHighProportion": 0.8,
+    "maxOrgDebuffStaminaLowProportion": 0.2,
+    "maxOrgRangedAttackPenalty": -0.5,
+    "maxOrgMeleeAttackBonus": 0.35,
+    "maxOrgMeleeAttackPenalty": 0.2,
+    "regainRate": 0.12,
+    "shatterOrgThreshold": -0.35,
+    "routedOrgThreshold": 0.05,
+    "recoverOrgThreshold": 0.1,
+    "rallyOrgThreshold": 0.3,
+    "upperModifierLimit": 0.95,
+    "lowerModifierLimit": 0.35,
+    "nearbyUnitsDistance": 64,
+    "nearbyUnitsPositiveOrgBonusCap": 56,
+    "nearbyUnitsNegativeOrgBonusCap": -56,
+    "nearbyUnitsOrgDamageModifierCap": 0.5,
+    "routingUnitNearbyUnitsOrgBonus": 6,
+    "startedRoutingOrgRadiusModifier": -4,
+    "orgRadiusBonusHpLossReduction": 0.8,
+    "safeOrgRecoveryModifier": 0.3,
+    "safeDistance": 136,
+    "distantThreatOrgRecoveryModifier": 0.15,
+    "distantThreatDistance": 72,
+    "routingOrgRecoveryModifier": -0.25,
+    "maxOrgRecoveryByHpModifier": -0.95,
+    "victoryPointsThreshold": 40,
+    "noVictoryPointsOrgModifier": -10,
+    "vpsModifierMultiplier": 1.0
+  }
+}

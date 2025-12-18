@@ -70,6 +70,10 @@
     "title": "Bayangan",
     "description": "Mengaktifkan bayangan pada unit. Mungkin memerlukan giliran permainan untuk memperbarui unit."
   },
+  "showDebugShapes": {
+    "title": "Tampilkan bentuk debug",
+    "description": "Menampilkan bentuk debug pada unit termasuk bentuk tabrakan dan titik pemeriksaan medan. Mungkin memerlukan giliran permainan untuk memperbarui unit."
+  },
   "fullScreen": {
     "title": "Layar Penuh",
     "description": "Beralih ke mode layar penuh untuk aplikasi",
@@ -80,8 +84,15 @@
     "description": "Kembalikan semua pengaturan ke nilai default. Tindakan ini akan menimpa semua penyesuaian yang telah Anda buat."
   },
   "reset": "Reset",
-  "lineFormation": "Line Formation",
-  "checkerboardFormation": "Checkerboard Formation",
+  "drawLineFormation": {
+    "title": "Gunakan Garis Gambar",
+    "description": "Saat diaktifkan, akan menggunakan formasi garis gambar saat banyak unit dipilih. Saat dinonaktifkan, akan menggunakan formasi jalur gambar saat banyak unit dipilih. Jalur gambar juga dapat dilakukan dengan menyeret salah satu unit."
+  },
+  "useStraightLine": {
+    "title": "Gunakan garis lurus",
+    "description": "Saat diaktifkan, formasi garis gambar akan selalu menggunakan garis lurus dari posisi awal ke posisi akhir, mengabaikan jalur yang digambar. Saat dinonaktifkan, unit akan mengikuti jalur melengkung yang Anda gambar."
+  },
+  "straightLineTolerance": "Toleransi Garis Lurus",
   "spaceBetweenUnits": "Jarak Antar Unit",
   "spaceBetweenLines": "Jarak Antar Baris",
   "keybindings": {
@@ -99,11 +110,15 @@
     "shootOrder": "Perinntah Menembak",
     "fireAndAdvanceOrder": "Perintah Menembak Dengan Bergerak",
     "fallbackOrder": "Perintah Mundur",
-    "toggleFormation": "Ubah Formasi",
     "toggleSmartCurvedMovements": "Ubah Gerakan Melengkung Cerdas",
     "toggleFowPerspective": "Ubah Perspektif Kabut Perang",
     "openChat": "Buka Chat",
+    "openFormationModal": "Buka Jendela Formasi",
     "toggleFullscreen": "Ubah Layar Penuh",
+    "simulateMultiTouch": "Simulasikan Multi-sentuh",
+    "toggleSupplyLines": "Ubah Garis Pasokan",
+    "toggleStraightLine": "Ubah Garis Lurus",
+    "toggleDrawLine": "Ubah Nonaktifkan Garis Gambar",
     "controlGroup1": "Grup Kontrol 1",
     "controlGroup2": "Grup Kontrol 2",
     "controlGroup3": "Grup Kontrol 3",

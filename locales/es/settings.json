@@ -70,6 +70,10 @@
     "title": "Sombras",
     "description": "Habilita sombras en las unidades. Esto puede requerir que el juego pase un turno para que las unidades se actualicen."
   },
+  "showDebugShapes": {
+    "title": "Mostrar formas de depuración",
+    "description": "Muestra formas de depuración en las unidades incluyendo formas de colisión y puntos de verificación de terreno. Esto puede requerir que el juego pase un turno para que las unidades se actualicen."
+  },
   "fullScreen": {
     "title": "Pantalla Completa",
     "description": "Alternar modo de pantalla completa para la aplicación",
@@ -80,8 +84,15 @@
     "description": "Restaurar toda la configuración a sus valores predeterminados. Esta acción sobrescribirá cualquier personalización que hayas realizado."
   },
   "reset": "Restablecer",
-  "lineFormation": "Formación en línea",
-  "checkerboardFormation": "Formación en tablero de ajedrez",
+  "drawLineFormation": {
+    "title": "Usar líneas de dibujo",
+    "description": "Cuando está habilitado, usará la formación de línea de dibujo cuando se seleccionen muchas unidades. Cuando está deshabilitado, usará la formación de ruta de dibujo cuando se seleccionen muchas unidades. La ruta de dibujo también se puede hacer arrastrando una de las unidades."
+  },
+  "useStraightLine": {
+    "title": "Usar línea recta",
+    "description": "Cuando está habilitado, la formación de línea de dibujo siempre usará una línea recta desde la posición inicial hasta la final, ignorando el camino dibujado. Cuando está desactivado, las unidades seguirán el camino curvo que dibujes."
+  },
+  "straightLineTolerance": "Tolerancia de línea recta",
   "spaceBetweenUnits": "Espacio entre unidades",
   "spaceBetweenLines": "Espacio entre líneas",
   "showChat": {
@@ -102,11 +113,15 @@
     "shootOrder": "Orden de disparo",
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
     "fallbackOrder": "Orden de retirada",
-    "toggleFormation": "Alternar formación",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
     "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
     "openChat": "Abrir chat",
-    "toggleFullscreen": "Alternar pantalla completa"
+    "openFormationModal": "Abrir ventana de formación",
+    "toggleFullscreen": "Alternar pantalla completa",
+    "simulateMultiTouch": "Simular Multi-toque",
+    "toggleSupplyLines": "Alternar líneas de suministro",
+    "toggleStraightLine": "Alternar línea recta",
+    "toggleDrawLine": "Alternar desactivar líneas de dibujo"
   },
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"

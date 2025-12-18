@@ -1,0 +1,61 @@
+{
+  "supplyLines": {
+    "roadTerrainTypes": [3, 7, 15],
+    "influenceRadius": 3,
+    "upperModifierLimit": 0.8,
+    "lowerModifierLimit": 0.2,
+    "supplyHubRadius": 16,
+    "defaultLogistics": 500
+  },
+  "entrenchment": {
+    "ranges": [
+      { "min": 0, "max": 2, "color": "A67A4F" },
+      { "min": 3, "max": 4, "color": "C79A6B" },
+      { "min": 5, "max": 6, "color": "E1C095" },
+      { "min": 7, "max": 8, "color": "F3E3C5" }
+    ],
+    "meleeAttackBonusPerLevel": 1,
+    "meleeDefenseBonusPerLevel": 1,
+    "pushStrengthModifierPerLevel": 0.15
+  },
+  "objectives": {
+    "radius": 16,
+    "pressureThreshold": 0.25,
+    "captureSmallObjectiveThreshold": 8,
+    "captureBigObjectiveThreshold": 28
+  },
+  "organization": {
+    "speedModifier": -0.15,
+    "maxOrgDebuffMinHpProportion": 0.25,
+    "maxOrgDebuffHp": 0.6,
+    "maxOrgDebuffStamina": 0.3,
+    "maxOrgDebuffStaminaHighProportion": 0.8,
+    "maxOrgDebuffStaminaLowProportion": 0.2,
+    "maxOrgRangedAttackPenalty": -0.7,
+    "maxOrgMeleeAttackBonus": 0.25,
+    "maxOrgMeleeAttackPenalty": 0.25,
+    "regainRate": 0.12,
+    "shatterOrgThreshold": 0,
+    "routedOrgThreshold": 0.25,
+    "recoverOrgThreshold": 0.3,
+    "rallyOrgThreshold": 0.5,
+    "upperModifierLimit": 0.9,
+    "lowerModifierLimit": 0.4,
+    "nearbyUnitsDistance": 64,
+    "nearbyUnitsPositiveOrgBonusCap": 48,
+    "nearbyUnitsNegativeOrgBonusCap": -48,
+    "nearbyUnitsOrgDamageModifierCap": 0.4,
+    "routingUnitNearbyUnitsOrgBonus": 4,
+    "startedRoutingOrgRadiusModifier": -4,
+    "orgRadiusBonusHpLossReduction": 0.75,
+    "safeOrgRecoveryModifier": 0.5,
+    "safeDistance": 184,
+    "distantThreatOrgRecoveryModifier": 0.3,
+    "distantThreatDistance": 96,
+    "routingOrgRecoveryModifier": -0.5,
+    "maxOrgRecoveryByHpModifier": -0.95,
+    "victoryPointsThreshold": 40,
+    "noVictoryPointsOrgModifier": -10,
+    "vpsModifierMultiplier": 1.0
+  }
+}
