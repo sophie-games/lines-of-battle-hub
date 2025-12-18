@@ -116,5 +116,9 @@
     "men": "人员",
     "horse": "马匹",
     "guns": "火炮"
+  },
+  "currency": {
+    "manpower": "人力",
+    "gold": "黄金"
   }
 }

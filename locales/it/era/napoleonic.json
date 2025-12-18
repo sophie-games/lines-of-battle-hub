@@ -91,5 +91,9 @@
     "men": "Uomini",
     "horse": "Cavalli",
     "guns": "Cannoni"
+  },
+  "currency": {
+    "manpower": "Forza lavoro",
+    "gold": "Oro"
   }
 }

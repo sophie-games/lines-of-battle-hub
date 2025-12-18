@@ -185,7 +185,11 @@
     "chargeResistance": "Odporność na Szarżę",
     "status": "Stan",
     "timeToRun": "Czas do ucieczki",
-    "supplyConsumption": "Zużycie Zaopatrzenia"
+    "supplyConsumption": "Zużycie Zaopatrzenia",
+    "supplyCost": "Koszt Zaopatrzenia {{currency}}",
+    "supplyStats": "Statystyki Zaopatrzenia",
+    "entrenchment": "Okopanie",
+    "maxEntrenchment": "Maksymalne Okopanie"
   },
   "category": "Kategoria",
   "damageResistances": "Odporność na Obrażenia",

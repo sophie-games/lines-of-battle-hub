@@ -195,7 +195,11 @@
     "status": "Trạng thái",
     "timeToRun": "Thời gian chạy",
     "runCost": "Chi phí chạy",
-    "supplyConsumption": "Tiêu thụ Tiếp tế"
+    "supplyConsumption": "Tiêu thụ Tiếp tế",
+    "supplyCost": "Chi phí Tiếp tế {{currency}}",
+    "supplyStats": "Thống kê Tiếp tế",
+    "entrenchment": "Công sự",
+    "maxEntrenchment": "Công sự Tối đa"
   },
   "category": "Danh mục",
   "routingBehavior": "Hành vi rút lui",

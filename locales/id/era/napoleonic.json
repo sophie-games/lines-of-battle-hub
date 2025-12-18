@@ -84,5 +84,9 @@
     "men": "Prajurit",
     "horse": "Kuda",
     "guns": "Senjata"
+  },
+  "currency": {
+    "manpower": "Tenaga kerja",
+    "gold": "Emas"
   }
 }

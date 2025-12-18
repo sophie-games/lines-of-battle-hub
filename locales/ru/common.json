@@ -195,7 +195,11 @@
     "status": "Статус",
     "timeToRun": "Время на бег",
     "runCost": "Стоимость бега",
-    "supplyConsumption": "Расход снабжения"
+    "supplyConsumption": "Расход снабжения",
+    "supplyCost": "Стоимость снабжения {{currency}}",
+    "supplyStats": "Статистика снабжения",
+    "entrenchment": "Окопы",
+    "maxEntrenchment": "Максимальные окопы"
   },
   "category": "Категория",
   "routingBehavior": "Поведение при бегстве",

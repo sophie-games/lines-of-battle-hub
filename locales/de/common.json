@@ -180,7 +180,11 @@
     "limberMovement": "Protzenfortbewegung",
     "chargeResistance": "Ansturmwiderstandskraft",
     "status": "Status",
-    "supplyConsumption": "Versorgungsverbrauch"
+    "supplyConsumption": "Versorgungsverbrauch",
+    "supplyCost": "Versorgungskosten {{currency}}",
+    "supplyStats": "Versorgungsstatistiken",
+    "entrenchment": "Verschanzung",
+    "maxEntrenchment": "Maximale Verschanzung"
   },
   "category": "Kategorie",
   "damageResistances": "Wiederstandsfähigkeiten gegen Schaden",

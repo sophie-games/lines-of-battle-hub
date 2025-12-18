@@ -180,7 +180,11 @@
     "limberMovement": "砲架移動",
     "chargeResistance": "突撃耐性",
     "status": "ステータス",
-    "supplyConsumption": "補給消費"
+    "supplyConsumption": "補給消費",
+    "supplyCost": "補給{{currency}}コスト",
+    "supplyStats": "補給統計",
+    "entrenchment": "塹壕",
+    "maxEntrenchment": "最大塹壕"
   },
   "category": "カテゴリー",
   "damageResistances": "ダメージ耐性",

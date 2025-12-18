@@ -1,20 +1,24 @@
 {
   "unitName": {
     "1": "Infantry",
-    "2": "Tanks",
+    "2": "Armored",
+    "3": "Motorized",
     "20": "Unknown"
   },
   "battalionName": {
     "1": "{{n}} Infantry Division",
-    "2": "{{n}} Tank Division"
+    "2": "{{n}} Armored Division",
+    "3": "{{n}} Motorized Division"
   },
   "unitDescription": {
     "1": "Although tank spearheads dominated the battlefields of World War II, the humble infantry remained the backbone of the armies of all the belligerent powers. Infantry is capable of delaying enemy advances thanks to earthworks and supporting weapons; furthermore, infantry can fight in the rough terrain like forests, cities, swamps and mountains, where armored vehicles are useless.",
-    "2": "Tank divisions are a formidable and mobile force, designed to create breakthroughs in enemy defenses and deliver powerful counterattacks. However, equipping and supplying mechanized units is a major industrial challenge, so the proportion of tank divisions in World War II armies generally did not exceed 10-15%."
+    "2": "Armored divisions are a formidable and mobile force, designed to create breakthroughs in enemy defenses and deliver powerful counterattacks. However, equipping and supplying mechanized units is a major industrial challenge, so the proportion of tank divisions in World War II armies generally did not exceed 10-15%.",
+    "3": "Motorized divisions are a formidable and mobile force, designed to create breakthroughs in enemy defenses and deliver powerful counterattacks. However, equipping and supplying mechanized units is a major industrial challenge, so the proportion of tank divisions in World War II armies generally did not exceed 10-15%."
   },
   "unitCategory": {
     "infantry": "Infantry",
-    "tank": "Tank"
+    "armored": "Armored",
+    "motorized": "Motorized"
   },
   "damageType": {
     "soft_attack": "Soft Attack",
@@ -23,5 +27,9 @@
   "reportStats": {
     "men": "Men",
     "tanks": "Tanks"
+  },
+  "currency": {
+    "manpower": "Iron",
+    "gold": "Oil"
   }
 }

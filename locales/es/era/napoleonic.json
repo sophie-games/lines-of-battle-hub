@@ -99,5 +99,9 @@
     "men": "Hombres",
     "horse": "Caballos",
     "guns": "Cañones"
+  },
+  "currency": {
+    "manpower": "Manpower",
+    "gold": "Oro"
   }
 }

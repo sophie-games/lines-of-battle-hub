@@ -196,7 +196,11 @@
     "status": "Status",
     "timeToRun": "Time to Run",
     "runCost": "Run Cost",
-    "supplyConsumption": "Supply Consumption"
+    "supplyConsumption": "Supply Consumption",
+    "supplyCost": "Supply {{currency}} Cost",
+    "supplyStats": "Supply Stats",
+    "entrenchment": "Entrenchment",
+    "maxEntrenchment": "Max Entrenchment"
   },
   "category": "Category",
   "routingBehavior": "Routing Behavior",
@@ -270,7 +274,9 @@
     "19": "Mud",
     "20": "Road, Sunken",
     "21": "Trench",
-    "22": "Redoubt"
+    "22": "Redoubt",
+    "23": "Railway",
+    "24": "Railway/Road"
   },
   "clearPlayerUnits": "Clear player units",
   "clearBotUnits": "Clear bot units",
@@ -791,5 +797,7 @@
   "flankChargeResistance": "Flank charge resistance",
   "rearChargeResistance": "Rear charge resistance",
   "enfiladeFireResistance": "Enfilade fire resistance",
-  "rearFireResistance": "Rear fire resistance"
+  "rearFireResistance": "Rear fire resistance",
+  "useBuiltinTemplate": "Use built in template",
+  "importTemplate": "Import template"
 }

@@ -181,7 +181,11 @@
     "chargeResistance": "Resistencia a la carga",
     "status": "Estado",
     "timeToRun": "Tiempo para correr",
-    "supplyConsumption": "Consumo de Suministros"
+    "supplyConsumption": "Consumo de Suministros",
+    "supplyCost": "Costo de Suministro {{currency}}",
+    "supplyStats": "Estadísticas de Suministro",
+    "entrenchment": "Atrincheramiento",
+    "maxEntrenchment": "Atrincheramiento Máximo"
   },
   "category": "Categoría",
   "damageResistances": "Resistencias al Daño",

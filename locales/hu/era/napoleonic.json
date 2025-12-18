@@ -83,5 +83,9 @@
     "men": "Emberek",
     "horse": "Lovak",
     "guns": "Ágyúk"
+  },
+  "currency": {
+    "manpower": "Emberi erőforrás",
+    "gold": "Arany"
   }
 }

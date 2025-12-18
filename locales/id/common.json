@@ -181,7 +181,11 @@
     "limberMovement": "Gerakan Lentur",
     "chargeResistance": "Daya Tahan Serangan",
     "status": "Status",
-    "supplyConsumption": "Konsumsi Pasokan"
+    "supplyConsumption": "Konsumsi Pasokan",
+    "supplyCost": "Biaya Pasokan {{currency}}",
+    "supplyStats": "Statistik Pasokan",
+    "entrenchment": "Pertahanan",
+    "maxEntrenchment": "Pertahanan Maksimal"
   },
   "category": "Kategori",
   "damageResistances": "Resistensi Kerusakan",

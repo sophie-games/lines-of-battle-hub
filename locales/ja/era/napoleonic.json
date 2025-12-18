@@ -91,5 +91,9 @@
     "men": "兵士",
     "horse": "馬",
     "guns": "大砲"
+  },
+  "currency": {
+    "manpower": "人的資源",
+    "gold": "金"
   }
 }

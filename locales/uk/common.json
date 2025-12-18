@@ -180,7 +180,11 @@
     "limberMovement": "Походний рух",
     "chargeResistance": "Стійкість до натиску",
     "status": "Статус",
-    "supplyConsumption": "Витрата постачання"
+    "supplyConsumption": "Витрата постачання",
+    "supplyCost": "Вартість постачання {{currency}}",
+    "supplyStats": "Статистика постачання",
+    "entrenchment": "Окопи",
+    "maxEntrenchment": "Максимальні окопи"
   },
   "category": "Категорія",
   "damageResistances": "Стійкість до ушкоджень",

@@ -14,5 +14,6 @@
     "totalSold": "Загалом <currency/> продано на цей момент: {{amount}}",
     "nextGoal": "Таступна ціль: {{goal}} <currency/> "
   },
-  "purchaseConfirmation": "Ви впевнені, що хочете придбати {{item}}?"
+  "purchaseConfirmation": "Ви впевнені, що хочете придбати {{item}}?",
+  "offlineWarning": "Придбані предмети працюють лише в онлайн-режимі, не в офлайн-режимі."
 }

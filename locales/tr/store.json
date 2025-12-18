@@ -17,5 +17,6 @@
     "nextGoal": "Sonraki Hedef: {{goal}} <currency/>"
   },
 
-  "purchaseConfirmation": "{{item}} satın almak istediğinizden emin misiniz?"
+  "purchaseConfirmation": "{{item}} satın almak istediğinizden emin misiniz?",
+  "offlineWarning": "Satın alınan öğeler yalnızca çevrimiçi modda çalışır, çevrimdışı modda çalışmaz."
 }

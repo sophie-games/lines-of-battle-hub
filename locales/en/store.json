@@ -18,5 +18,6 @@
   },
 
   "purchaseConfirmation": "Are you sure you want to purchase {{item}}?",
-  "showPurchased": "Show purchased"
+  "showPurchased": "Show purchased",
+  "offlineWarning": "Purchased items only work in online mode, not offline."
 }

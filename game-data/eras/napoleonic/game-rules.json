@@ -46,9 +46,7 @@
   },
   "objectives": {
     "radius": 64,
-    "pressureThreshold": 0.25,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 32
+    "pressureThreshold": 0.25
   },
   "organization": {
     "speedModifier": -0.15,

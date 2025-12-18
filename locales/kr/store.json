@@ -15,5 +15,6 @@
     "nextGoal": "다음 목표 : {{goal}} <currency/>"
   },
   "purchaseConfirmation": "{{item}}(을)를 구입하시겠습니까?",
-  "showPurchased": "구매한 품목 표시"
+  "showPurchased": "구매한 품목 표시",
+  "offlineWarning": "구매한 아이템은 온라인 모드에서만 작동하며 오프라인에서는 작동하지 않습니다."
 }

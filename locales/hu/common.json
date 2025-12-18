@@ -180,7 +180,11 @@
     "limberMovement": "Ágyútaliga mozgása",
     "chargeResistance": "Roham-ellenállás",
     "status": "Státusz",
-    "supplyConsumption": "Ellátmány Fogyasztás"
+    "supplyConsumption": "Ellátmány Fogyasztás",
+    "supplyCost": "Ellátmány {{currency}} Költség",
+    "supplyStats": "Ellátmány Statisztikák",
+    "entrenchment": "Elásás",
+    "maxEntrenchment": "Maximális Elásás"
   },
   "category": "Kategória",
   "damageResistances": "Sebzés ellenállás",

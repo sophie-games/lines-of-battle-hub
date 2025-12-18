@@ -18,5 +18,6 @@
   },
 
   "purchaseConfirmation": "Είστε σίγουροι ότι θέλετε να αγοράσετε {{item}}?",
-  "showPurchased": "Εμφάνιση αγορασμένο"
+  "showPurchased": "Εμφάνιση αγορασμένο",
+  "offlineWarning": "Τα αγορασμένα αντικείμενα λειτουργούν μόνο σε λειτουργία online, όχι offline."
 }

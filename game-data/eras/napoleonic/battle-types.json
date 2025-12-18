@@ -11,8 +11,8 @@
       "19": 1
     },
     "eloKFactor": 12,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 28,
+    "ticksToCaptureSmall": 64,
+    "ticksToCaptureBig": 448,
     "defaultArmy": {
       "1": 8,
       "14": 4,
@@ -32,8 +32,8 @@
       "19": 1
     },
     "eloKFactor": 18,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 36,
+    "ticksToCaptureSmall": 64,
+    "ticksToCaptureBig": 576,
     "defaultArmy": {
       "1": 20,
       "14": 2,
@@ -55,8 +55,8 @@
       "19": 2
     },
     "eloKFactor": 24,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 40,
+    "ticksToCaptureSmall": 64,
+    "ticksToCaptureBig": 640,
     "defaultArmy": {
       "1": 30,
       "14": 4,
@@ -78,8 +78,8 @@
       "19": 2
     },
     "eloKFactor": 30,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 44,
+    "ticksToCaptureSmall": 64,
+    "ticksToCaptureBig": 704,
     "defaultArmy": {
       "1": 58,
       "14": 6,
