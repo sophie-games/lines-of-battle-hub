@@ -25,10 +25,10 @@
     "meleeDefensePenalty": -0.6
   },
   "ammo": {
-    "baseReserve": 500,
-    "regenerationBaseRate": 0.03,
+    "baseReserve": 3500,
+    "regenerationBaseRate": 0.04,
     "regenerationBonusRate": 0.03,
-    "maxHpConsumptionReduction": -0.6
+    "maxHpConsumptionReduction": -0.75
   },
   "skirmisherSpawning": {
     "unitType": 16
