@@ -508,7 +508,6 @@
   "banned": "Заблокований",
   "baseAmmo": "Базова боєприпаси",
   "range": "Дальність",
-  "faaRangedDamage": "Урон FAA на Дистанції",
   "quickPlay": "Швидка гра",
   "quickPlayWithCount": "Швидка гра ({{count}})",
   "discord": {

@@ -757,7 +757,6 @@
   "banned": "封禁",
   "baseAmmo": "基础弹药",
   "range": "距离",
-  "faaRangedDamage": "移动射击远程伤害",
   "quickPlay": "快速游戏",
   "quickPlayWithCount": "快速游戏（{{count}}）",
   "discord": {

@@ -20,7 +20,6 @@
       "artillery": 1,
       "skirmishInfantry": -1
     },
-    "faaRangedDamageModifier": -0.25,
     "impactAltitude": 1.1,
     "grazingAltitude": 2.5,
     "allowedOrders": [
@@ -120,7 +119,6 @@
       "artillery": -1,
       "skirmishInfantry": -2
     },
-    "faaRangedDamageModifier": -0.4,
     "impactAltitude": 1.1,
     "grazingAltitude": 2.5,
     "allowedOrders": [
@@ -298,7 +296,6 @@
     "autofirePriority": {
       "skirmishInfantry": -1
     },
-    "faaRangedDamageModifier": -0.25,
     "impactAltitude": 1.1,
     "grazingAltitude": 2.5,
     "allowedOrders": [
@@ -350,7 +347,6 @@
       "artillery": 2,
       "skirmishInfantry": 1
     },
-    "faaRangedDamageModifier": -0.5,
     "impactAltitude": 1.1,
     "grazingAltitude": 2.5,
     "allowedOrders": [

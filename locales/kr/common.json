@@ -753,7 +753,6 @@
   "banned": "차단됨",
   "baseAmmo": "기본 탄약",
   "range": "범위",
-  "faaRangedDamage": "FAA 원거리 피해",
   "quickPlay": "빠른 플레이",
   "quickPlayWithCount": "빠른 플레이 ({{count}})",
   "discord": {

@@ -507,7 +507,6 @@
   "banned": "Gesperrt",
   "baseAmmo": "Grundmunition",
   "range": "Reichweite",
-  "faaRangedDamage": "FAA Fernkampfschaden",
   "quickPlay": "Schnelles Spiel",
   "quickPlayWithCount": "Schnelles Spiel ({{count}})",
   "discord": {

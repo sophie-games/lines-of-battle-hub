@@ -520,7 +520,6 @@
   "banned": "Banni",
   "baseAmmo": "Munitions de base",
   "range": "Portée",
-  "faaRangedDamage": "Dégâts FAA à Distance",
   "quickPlay": "Jeu rapide",
   "quickPlayWithCount": "Jeu rapide ({{count}})",
   "discord": {
