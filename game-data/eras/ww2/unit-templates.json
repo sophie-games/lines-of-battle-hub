@@ -65,7 +65,7 @@
     "supplyConsumption": 30,
     "orgRadius": 64,
     "orgRadiusBonus": 3,
-    "movementSound": "infantry-movement",
+    "movementSound": "tank-movement",
     "manpower": 125,
     "gold": 200,
     "supplyManpowerCost": 150,
