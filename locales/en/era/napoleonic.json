@@ -127,5 +127,9 @@
     "men": "Men",
     "horse": "Horse",
     "guns": "Guns"
+  },
+  "currency": {
+    "manpower": "Manpower",
+    "gold": "Gold"
   }
 }

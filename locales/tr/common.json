@@ -180,7 +180,11 @@
     "limberMovement": "Hafif Hareket",
     "chargeResistance": "Hücum Direnci",
     "status": "Durum",
-    "supplyConsumption": "İkmal Tüketimi"
+    "supplyConsumption": "İkmal Tüketimi",
+    "supplyCost": "İkmal Maliyeti {{currency}}",
+    "supplyStats": "İkmal İstatistikleri",
+    "entrenchment": "Siper",
+    "maxEntrenchment": "Maksimum Siper"
   },
   "category": "Kategori",
   "damageResistances": "Hasar Dirençleri",
@@ -506,7 +510,6 @@
   "banned": "Yasaklandı",
   "baseAmmo": "Temel cephane",
   "range": "Menzil",
-  "faaRangedDamage": "FAA Uzak Mesafe Hasarı",
   "quickPlay": "Hızlı oyun",
   "quickPlayWithCount": "Hızlı oyun ({{count}})",
   "discord": {

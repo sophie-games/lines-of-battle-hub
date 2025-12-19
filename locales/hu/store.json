@@ -17,5 +17,6 @@
     "nextGoal": "Következő cél: {{goal}} <currency/> "
   },
 
-  "purchaseConfirmation": "Biztos, hogy megakarod vásárolni ezt: {{item}}?"
+  "purchaseConfirmation": "Biztos, hogy megakarod vásárolni ezt: {{item}}?",
+  "offlineWarning": "A vásárolt tárgyak csak online módban működnek, offline módban nem."
 }

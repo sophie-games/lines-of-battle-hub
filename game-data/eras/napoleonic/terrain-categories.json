@@ -207,6 +207,29 @@
     "pushDistanceModifier": 0.2
   },
 
+  "railway": {
+    "color": "#8b7355",
+    "staminaCostModifier": -0.5,
+    "supplyRoute": true
+  },
+
+  "railwayRoad": {
+    "color": "#a68b6b",
+    "staminaCostModifier": -0.5,
+    "prioritizeMovement": true,
+    "supplyRoute": true,
+    "movementModifier": {
+      "infantry": 0.3,
+      "skirmishInfantry": 0.3,
+      "militiaInfantry": 0.3,
+      "midCavalry": 0.2,
+      "lightCavalry": 0.2,
+      "scoutCavalry": 0.2,
+      "heavyCavalry": 0.2,
+      "artillery": 0.3
+    }
+  },
+
   "shallowWater": {
     "color": "#3e5b7e",
     "staminaCostModifier": 1,

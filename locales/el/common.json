@@ -194,7 +194,11 @@
     "status": "Κατάσταση",
     "timeToRun": "Ώρα τρεξίματος",
     "runCost": "Κόστος εκτέλεσης",
-    "supplyConsumption": "Κατανάλωση Προμήθειας"
+    "supplyConsumption": "Κατανάλωση Προμήθειας",
+    "supplyCost": "Κόστος Προμήθειας {{currency}}",
+    "supplyStats": "Στατιστικά Προμήθειας",
+    "entrenchment": "Οχύρωση",
+    "maxEntrenchment": "Μέγιστη Οχύρωση"
   },
   "category": "Κατηγορία",
   "damageResistances": "Αντιστάσεις σε φθορές",
@@ -700,7 +704,6 @@
   "banned": "Αποκλεισμένος",
   "baseAmmo": "Βασικά πυρομαχικά",
   "range": "Εμβέλεια",
-  "faaRangedDamage": "FAA Βολή Εμβέλειας",
   "quickPlay": "Γρήγορο παιχνίδι",
   "quickPlayWithCount": "Γρήγορο παιχνίδι ({{count}})",
   "discord": {

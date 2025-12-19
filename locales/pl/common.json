@@ -185,7 +185,11 @@
     "chargeResistance": "Odporność na Szarżę",
     "status": "Stan",
     "timeToRun": "Czas do ucieczki",
-    "supplyConsumption": "Zużycie Zaopatrzenia"
+    "supplyConsumption": "Zużycie Zaopatrzenia",
+    "supplyCost": "Koszt Zaopatrzenia {{currency}}",
+    "supplyStats": "Statystyki Zaopatrzenia",
+    "entrenchment": "Okopanie",
+    "maxEntrenchment": "Maksymalne Okopanie"
   },
   "category": "Kategoria",
   "damageResistances": "Odporność na Obrażenia",
@@ -675,7 +679,6 @@
   "banned": "Zablokowany",
   "baseAmmo": "Podstawowa amunicja",
   "range": "Zasięg",
-  "faaRangedDamage": "Obrażenia FAA na Odległość",
   "quickPlay": "Szybka gra",
   "quickPlayWithCount": "Szybka gra ({{count}})",
   "discord": {

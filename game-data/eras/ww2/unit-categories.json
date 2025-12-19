@@ -17,8 +17,22 @@
     "allowedOrders": ["walk", "placeEntity"]
   },
   {
-    "id": "tank",
-    "firingAltitude": 0.9,
+    "id": "motorized",
+    "captureSpeed": 1.0,
+    "allyCollisionLevel": 2,
+    "enemyCollisionLevel": 2,
+    "routingBehavior": {
+      "baseSpeed": "walk"
+    },
+    "damageTypeResistances": {
+      "soft_attack": 0,
+      "hard_attack": 0
+    },
+    "allowedOrders": ["walk", "placeEntity"]
+  },
+  {
+    "id": "armored",
+    "captureSpeed": 1.0,
     "allyCollisionLevel": 2,
     "enemyCollisionLevel": 2,
     "routingBehavior": {

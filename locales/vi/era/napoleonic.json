@@ -127,5 +127,9 @@
     "men": "Người",
     "horse": "Ngựa",
     "guns": "Súng"
+  },
+  "currency": {
+    "manpower": "Nhân lực",
+    "gold": "Vàng"
   }
 }

@@ -1,18 +1,18 @@
 {
   "clash": {
     "manpower": 3300,
-    "gold": 1425,
-    "ammoReserve": 1200,
+    "gold": 1500,
+    "ammoReserve": 1350,
     "goldToAmmoRate": 18,
     "skirmisherRatio": [1, 4],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 3,
+      "17": 4,
       "19": 1
     },
     "eloKFactor": 12,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 28,
+    "ticksToCaptureSmall": 64,
+    "ticksToCaptureBig": 448,
     "defaultArmy": {
       "1": 8,
       "14": 4,
@@ -22,18 +22,18 @@
   },
   "combat": {
     "manpower": 6000,
-    "gold": 3000,
-    "ammoReserve": 2750,
-    "goldToAmmoRate": 15,
-    "skirmisherRatio": [4, 8],
+    "gold": 3250,
+    "ammoReserve": 3000,
+    "goldToAmmoRate": 16,
+    "skirmisherRatio": [2, 4],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 4,
+      "17": 6,
       "19": 1
     },
     "eloKFactor": 18,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 36,
+    "ticksToCaptureSmall": 64,
+    "ticksToCaptureBig": 576,
     "defaultArmy": {
       "1": 20,
       "14": 2,
@@ -46,17 +46,17 @@
   "battle": {
     "manpower": 10000,
     "gold": 5000,
-    "ammoReserve": 3000,
-    "goldToAmmoRate": 12,
+    "ammoReserve": 3750,
+    "goldToAmmoRate": 14,
     "skirmisherRatio": [2, 5],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 6,
+      "17": 8,
       "19": 2
     },
     "eloKFactor": 24,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 40,
+    "ticksToCaptureSmall": 64,
+    "ticksToCaptureBig": 640,
     "defaultArmy": {
       "1": 30,
       "14": 4,
@@ -69,17 +69,17 @@
   "grand_battle": {
     "manpower": 17750,
     "gold": 8750,
-    "ammoReserve": 4000,
-    "goldToAmmoRate": 10,
+    "ammoReserve": 4500,
+    "goldToAmmoRate": 12,
     "skirmisherRatio": [1, 3],
     "fogOfWar": true,
     "unitCaps": {
-      "17": 8,
+      "17": 10,
       "19": 2
     },
     "eloKFactor": 30,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 44,
+    "ticksToCaptureSmall": 64,
+    "ticksToCaptureBig": 704,
     "defaultArmy": {
       "1": 58,
       "14": 6,

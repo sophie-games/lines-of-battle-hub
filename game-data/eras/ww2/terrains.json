@@ -37,7 +37,7 @@
   {
     "name": "bridge",
     "id": 7,
-    "category": "path"
+    "category": "railwayRoad"
   },
   {
     "name": "snow",
@@ -113,5 +113,15 @@
     "name": "redoubt",
     "id": 22,
     "category": "sunkenRoad"
+  },
+  {
+    "name": "railway",
+    "id": 23,
+    "category": "railway"
+  },
+  {
+    "name": "railwayRoad",
+    "id": 24,
+    "category": "railwayRoad"
   }
 ]

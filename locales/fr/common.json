@@ -170,7 +170,11 @@
     "limberMovement": "Mouvement tracté",
     "chargeResistance": "Résistance aux charges",
     "status": "Statut",
-    "supplyConsumption": "Consommation de Ravitaillement"
+    "supplyConsumption": "Consommation de Ravitaillement",
+    "supplyCost": "Coût de Ravitaillement {{currency}}",
+    "supplyStats": "Statistiques de Ravitaillement",
+    "entrenchment": "Retranchement",
+    "maxEntrenchment": "Retranchement Maximum"
   },
   "category": "Catégorie",
   "damageResistances": "Résistances aux dégâts",
@@ -516,7 +520,6 @@
   "banned": "Banni",
   "baseAmmo": "Munitions de base",
   "range": "Portée",
-  "faaRangedDamage": "Dégâts FAA à Distance",
   "quickPlay": "Jeu rapide",
   "quickPlayWithCount": "Jeu rapide ({{count}})",
   "discord": {

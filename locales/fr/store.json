@@ -17,5 +17,6 @@
     "nextGoal": "Prochain objectif : {{goal}} <currency/> "
   },
 
-  "purchaseConfirmation": "Êtes-vous sûr de vouloir acheter {{item}} ?"
+  "purchaseConfirmation": "Êtes-vous sûr de vouloir acheter {{item}} ?",
+  "offlineWarning": "Les achats ne fonctionnent qu'en mode en ligne, pas hors ligne."
 }

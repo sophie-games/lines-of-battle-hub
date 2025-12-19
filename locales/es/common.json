@@ -181,7 +181,11 @@
     "chargeResistance": "Resistencia a la carga",
     "status": "Estado",
     "timeToRun": "Tiempo para correr",
-    "supplyConsumption": "Consumo de Suministros"
+    "supplyConsumption": "Consumo de Suministros",
+    "supplyCost": "Costo de Suministro {{currency}}",
+    "supplyStats": "Estadísticas de Suministro",
+    "entrenchment": "Atrincheramiento",
+    "maxEntrenchment": "Atrincheramiento Máximo"
   },
   "category": "Categoría",
   "damageResistances": "Resistencias al Daño",
@@ -641,7 +645,6 @@
   "banned": "Baneado",
   "baseAmmo": "Munición base",
   "range": "Alcance",
-  "faaRangedDamage": "Daño FAA a Distancia",
   "quickPlay": "Juego rápido",
   "quickPlayWithCount": "Juego rápido ({{count}})",
   "show": "Mostrar",

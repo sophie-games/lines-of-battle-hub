@@ -127,5 +127,9 @@
     "men": "병사",
     "horse": "군마",
     "guns": "포"
+  },
+  "currency": {
+    "manpower": "인력",
+    "gold": "금"
   }
 }

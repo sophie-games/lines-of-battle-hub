@@ -1,7 +1,8 @@
 {
   "categoryGroups": {
     "infantry": "Infantry",
-    "tank": "Cavalry"
+    "motorized": "Cavalry",
+    "armored": "Cavalry"
   },
   "maxGroupSize": {
     "Infantry": 4,

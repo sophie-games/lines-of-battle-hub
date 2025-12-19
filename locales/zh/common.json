@@ -196,7 +196,11 @@
     "status": "状态",
     "timeToRun": "疾跑时间",
     "runCost": "疾跑消耗",
-    "supplyConsumption": "补给消耗"
+    "supplyConsumption": "补给消耗",
+    "supplyCost": "补给{{currency}}成本",
+    "supplyStats": "补给统计",
+    "entrenchment": "工事",
+    "maxEntrenchment": "最大工事"
   },
   "category": "类别",
   "routingBehavior": "寻路行为",
@@ -757,7 +761,6 @@
   "banned": "封禁",
   "baseAmmo": "基础弹药",
   "range": "距离",
-  "faaRangedDamage": "移动射击远程伤害",
   "quickPlay": "快速游戏",
   "quickPlayWithCount": "快速游戏（{{count}}）",
   "show": "显示",

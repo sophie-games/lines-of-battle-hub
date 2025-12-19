@@ -180,7 +180,11 @@
     "limberMovement": "Movimento leggero",
     "chargeResistance": "Resistenza alla carica",
     "status": "Stato",
-    "supplyConsumption": "Consumo di Rifornimenti"
+    "supplyConsumption": "Consumo di Rifornimenti",
+    "supplyCost": "Costo Rifornimenti {{currency}}",
+    "supplyStats": "Statistiche Rifornimenti",
+    "entrenchment": "Trinceramento",
+    "maxEntrenchment": "Trinceramento Massimo"
   },
   "category": "Categoria",
   "damageResistances": "Resistenze al danno",
@@ -504,7 +508,6 @@
   "banned": "Bannato",
   "baseAmmo": "Munizioni base",
   "range": "Gittata",
-  "faaRangedDamage": "Danno FAA a Distanza",
   "quickPlay": "Gioco veloce",
   "quickPlayWithCount": "Gioco veloce ({{count}})",
   "discord": {

@@ -180,7 +180,11 @@
     "limberMovement": "Movimento Desmontado",
     "chargeResistance": "Resistência à Carga",
     "status": "Status",
-    "supplyConsumption": "Consumo de Suprimentos"
+    "supplyConsumption": "Consumo de Suprimentos",
+    "supplyCost": "Custo de Suprimentos {{currency}}",
+    "supplyStats": "Estatísticas de Suprimentos",
+    "entrenchment": "Entrincheiramento",
+    "maxEntrenchment": "Entrincheiramento Máximo"
   },
   "category": "Categoria",
   "damageResistances": "Resistências a Dano",
@@ -504,7 +508,6 @@
   "banned": "Banido",
   "baseAmmo": "Munição base",
   "range": "Alcance",
-  "faaRangedDamage": "Dano FAA à Distância",
   "quickPlay": "Jogo rápido",
   "quickPlayWithCount": "Jogo rápido ({{count}})",
   "discord": {

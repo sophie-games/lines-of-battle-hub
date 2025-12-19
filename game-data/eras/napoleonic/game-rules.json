@@ -6,7 +6,7 @@
     "rearChargePenetrationModifier": 1.0
   },
   "stamina": {
-    "meleeTurnCost": 175,
+    "meleeTurnCost": 200,
     "rangedTurnCost": 50,
     "hasRanMeleeStaminaCostModifier": 1.0,
     "regainRates": {
@@ -25,10 +25,10 @@
     "meleeDefensePenalty": -0.6
   },
   "ammo": {
-    "baseReserve": 500,
-    "regenerationBaseRate": 0.03,
+    "baseReserve": 3500,
+    "regenerationBaseRate": 0.04,
     "regenerationBonusRate": 0.03,
-    "maxHpConsumptionReduction": -0.6
+    "maxHpConsumptionReduction": -0.75
   },
   "skirmisherSpawning": {
     "unitType": 16
@@ -46,9 +46,7 @@
   },
   "objectives": {
     "radius": 64,
-    "pressureThreshold": 0.25,
-    "captureSmallObjectiveThreshold": 4,
-    "captureBigObjectiveThreshold": 32
+    "pressureThreshold": 0.25
   },
   "organization": {
     "speedModifier": -0.15,
@@ -62,8 +60,8 @@
     "maxOrgMeleeAttackPenalty": 0.2,
     "regainRate": 0.12,
     "shatterOrgThreshold": -0.35,
-    "routedOrgThreshold": 0.05,
-    "recoverOrgThreshold": 0.1,
+    "routedOrgThreshold": 0.02,
+    "recoverOrgThreshold": 0.12,
     "rallyOrgThreshold": 0.3,
     "upperModifierLimit": 0.95,
     "lowerModifierLimit": 0.35,
@@ -74,8 +72,8 @@
     "routingUnitNearbyUnitsOrgBonus": 6,
     "startedRoutingOrgRadiusModifier": -4,
     "orgRadiusBonusHpLossReduction": 0.8,
-    "safeOrgRecoveryModifier": 0.3,
-    "safeDistance": 136,
+    "safeOrgRecoveryModifier": 0.4,
+    "safeDistance": 144,
     "distantThreatOrgRecoveryModifier": 0.15,
     "distantThreatDistance": 72,
     "routingOrgRecoveryModifier": -0.25,
@@ -83,5 +81,8 @@
     "victoryPointsThreshold": 40,
     "noVictoryPointsOrgModifier": -10,
     "vpsModifierMultiplier": 1.0
+  },
+  "tutorial": {
+    "scenarios": ["tutorial-basic-controls"]
   }
 }

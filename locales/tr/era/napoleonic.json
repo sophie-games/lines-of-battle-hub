@@ -92,5 +92,9 @@
     "men": "Erkekler",
     "horse": "Atlar",
     "guns": "Toplar"
+  },
+  "currency": {
+    "manpower": "İnsan gücü",
+    "gold": "Altın"
   }
 }

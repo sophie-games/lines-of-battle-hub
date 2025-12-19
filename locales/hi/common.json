@@ -195,7 +195,11 @@
     "status": "स्थिति",
     "timeToRun": "दौड़ने का समय",
     "runCost": "दौड़ने की लागत",
-    "supplyConsumption": "आपूर्ति खपत"
+    "supplyConsumption": "आपूर्ति खपत",
+    "supplyCost": "आपूर्ति {{currency}} लागत",
+    "supplyStats": "आपूर्ति आंकड़े",
+    "entrenchment": "खाई",
+    "maxEntrenchment": "अधिकतम खाई"
   },
   "category": "श्रेणी",
   "routingBehavior": "भागने का व्यवहार",
@@ -753,7 +757,6 @@
   "banned": "प्रतिबंधित",
   "baseAmmo": "आधार गोला-बारूद",
   "range": "रेंज",
-  "faaRangedDamage": "FAA रेंज्ड डैमेज",
   "quickPlay": "त्वरित खेल",
   "quickPlayWithCount": "त्वरित खेल ({{count}})",
   "discord": {

@@ -191,7 +191,11 @@
     "status": "상태",
     "timeToRun": "주행까지의 시간",
     "runCost": "주행 비용",
-    "supplyConsumption": "보급 소비"
+    "supplyConsumption": "보급 소비",
+    "supplyCost": "보급 {{currency}} 비용",
+    "supplyStats": "보급 통계",
+    "entrenchment": "참호",
+    "maxEntrenchment": "최대 참호"
   },
   "category": "유형",
   "routingBehavior": "궤멸 중 행동",
@@ -749,7 +753,6 @@
   "banned": "차단됨",
   "baseAmmo": "기본 탄약",
   "range": "범위",
-  "faaRangedDamage": "FAA 원거리 피해",
   "quickPlay": "빠른 플레이",
   "quickPlayWithCount": "빠른 플레이 ({{count}})",
   "discord": {

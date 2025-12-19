@@ -195,7 +195,11 @@
     "status": "الحالة",
     "timeToRun": "وقت الجري",
     "runCost": "تكلفة الجري",
-    "supplyConsumption": "استهلاك الإمدادات"
+    "supplyConsumption": "استهلاك الإمدادات",
+    "supplyCost": "تكلفة الإمدادات {{currency}}",
+    "supplyStats": "إحصائيات الإمدادات",
+    "entrenchment": "التحصين",
+    "maxEntrenchment": "التحصين الأقصى"
   },
   "category": "الفئة",
   "routingBehavior": "سلوك الفرار",
@@ -753,7 +757,6 @@
   "banned": "محظور",
   "baseAmmo": "ذخيرة أساسية",
   "range": "المدى",
-  "faaRangedDamage": "ضرر FAA المدى",
   "quickPlay": "لعب سريع",
   "quickPlayWithCount": "لعب سريع ({{count}})",
   "discord": {

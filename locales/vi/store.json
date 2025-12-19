@@ -18,5 +18,6 @@
   },
 
   "purchaseConfirmation": "Bạn có chắc chắn muốn mua {{item}}?",
-  "showPurchased": "Hiển thị đã mua"
+  "showPurchased": "Hiển thị đã mua",
+  "offlineWarning": "Các vật phẩm đã mua chỉ hoạt động ở chế độ trực tuyến, không phải ngoại tuyến."
 }
