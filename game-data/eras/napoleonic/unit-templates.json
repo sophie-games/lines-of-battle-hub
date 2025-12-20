@@ -73,7 +73,7 @@
         "baseSprite": "square",
         "overlaySprite": "infantry-square",
         "changeAnimations": {
-          "square": "square-mass",
+          "mass": "square-mass",
           "line": "square-line",
           "column": "square-column"
         }
@@ -251,7 +251,7 @@
         "baseSprite": "square",
         "overlaySprite": "guards-square",
         "changeAnimations": {
-          "square": "square-mass",
+          "mass": "square-mass",
           "line": "square-line",
           "column": "square-column"
         }
@@ -434,7 +434,7 @@
         "baseSprite": "square",
         "overlaySprite": "chasseurs-square",
         "changeAnimations": {
-          "square": "square-mass",
+          "mass": "square-mass",
           "line": "square-line",
           "column": "square-column"
         }
@@ -804,7 +804,7 @@
         "baseSprite": "square",
         "overlaySprite": "grenadiers-square",
         "changeAnimations": {
-          "square": "square-mass",
+          "mass": "square-mass",
           "line": "square-line",
           "column": "square-column"
         }
