@@ -15,35 +15,35 @@
   {
     "id": 2,
     "name": "cavalry-sabre",
-    "orgDamageRatio": 280,
+    "orgDamageRatio": 290,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 4
   },
   {
     "id": 3,
     "name": "cavalry-sword",
-    "orgDamageRatio": 280,
+    "orgDamageRatio": 290,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 4
   },
   {
     "id": 4,
     "name": "dragoon-sword",
-    "orgDamageRatio": 280,
+    "orgDamageRatio": 290,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6
   },
   {
     "id": 5,
     "name": "artillery-sabre",
-    "orgDamageRatio": 280,
+    "orgDamageRatio": 290,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6
   },
   {
     "id": 6,
     "name": "cavalry-lance",
-    "orgDamageRatio": 280,
+    "orgDamageRatio": 290,
     "reorgDebuff": 1.0,
     "attackEffectDuration": 6
   },
