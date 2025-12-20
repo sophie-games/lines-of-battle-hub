@@ -1,0 +1,10 @@
+{
+  "minimize": "Riduci",
+  "showMessages": "Mostra Messaggi",
+  "dismiss": "Chiudi",
+  "previous": "Precedente",
+  "next": "Successivo",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Messaggio"
+}
+

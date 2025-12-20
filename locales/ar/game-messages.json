@@ -1,0 +1,10 @@
+{
+  "minimize": "تصغير",
+  "showMessages": "عرض الرسائل",
+  "dismiss": "إلغاء",
+  "previous": "السابق",
+  "next": "التالي",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "رسالة"
+}
+

@@ -1,0 +1,10 @@
+{
+  "minimize": "Minimiser",
+  "showMessages": "Afficher les Messages",
+  "dismiss": "Ignorer",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Message"
+}
+

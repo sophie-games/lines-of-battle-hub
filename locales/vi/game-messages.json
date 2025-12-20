@@ -1,0 +1,10 @@
+{
+  "minimize": "Thu Nhỏ",
+  "showMessages": "Hiển Thị Tin Nhắn",
+  "dismiss": "Đóng",
+  "previous": "Trước",
+  "next": "Tiếp",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Tin Nhắn"
+}
+

@@ -1,0 +1,10 @@
+{
+  "minimize": "Minimalizuj",
+  "showMessages": "Pokaż Wiadomości",
+  "dismiss": "Odrzuć",
+  "previous": "Poprzednia",
+  "next": "Następna",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Wiadomość"
+}
+
