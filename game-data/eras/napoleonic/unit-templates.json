@@ -41,22 +41,42 @@
       {
         "id": "mass",
         "baseSprite": "mass",
-        "overlaySprite": "infantry"
+        "overlaySprite": "infantry",
+        "changeAnimations": {
+          "square": "mass-square",
+          "line": "mass-line",
+          "column": "mass-column"
+        }
       },
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "infantry-column"
+        "overlaySprite": "infantry-column",
+        "changeAnimations": {
+          "square": "column-square",
+          "line": "column-line",
+          "mass": "column-mass"
+        }
       },
       {
         "id": "line",
         "baseSprite": "line",
-        "overlaySprite": "infantry-line"
+        "overlaySprite": "infantry-line",
+        "changeAnimations": {
+          "square": "line-square",
+          "line": "line-mass",
+          "column": "line-column"
+        }
       },
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "infantry-square"
+        "overlaySprite": "infantry-square",
+        "changeAnimations": {
+          "square": "square-mass",
+          "line": "square-line",
+          "column": "square-column"
+        }
       }
     ],
     "pushStrength": 15,
@@ -199,22 +219,42 @@
       {
         "id": "mass",
         "baseSprite": "mass",
-        "overlaySprite": "guards"
+        "overlaySprite": "guards",
+        "changeAnimations": {
+          "square": "mass-square",
+          "line": "mass-line",
+          "column": "mass-column"
+        }
       },
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "guards-column"
+        "overlaySprite": "guards-column",
+        "changeAnimations": {
+          "square": "column-square",
+          "line": "column-line",
+          "mass": "column-mass"
+        }
       },
       {
         "id": "line",
         "baseSprite": "line",
-        "overlaySprite": "guards-line"
+        "overlaySprite": "guards-line",
+        "changeAnimations": {
+          "square": "line-square",
+          "line": "line-mass",
+          "column": "line-column"
+        }
       },
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "guards-square"
+        "overlaySprite": "guards-square",
+        "changeAnimations": {
+          "square": "square-mass",
+          "line": "square-line",
+          "column": "square-column"
+        }
       }
     ],
     "pushStrength": 18,
@@ -362,22 +402,42 @@
       {
         "id": "mass",
         "baseSprite": "mass",
-        "overlaySprite": "chasseurs"
+        "overlaySprite": "chasseurs",
+        "changeAnimations": {
+          "square": "mass-square",
+          "line": "mass-line",
+          "column": "mass-column"
+        }
       },
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "chasseurs-column"
+        "overlaySprite": "chasseurs-column",
+        "changeAnimations": {
+          "square": "column-square",
+          "line": "column-line",
+          "mass": "column-mass"
+        }
       },
       {
         "id": "line",
         "baseSprite": "line",
-        "overlaySprite": "chasseurs-line"
+        "overlaySprite": "chasseurs-line",
+        "changeAnimations": {
+          "square": "line-square",
+          "line": "line-mass",
+          "column": "line-column"
+        }
       },
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "chasseurs-square"
+        "overlaySprite": "chasseurs-square",
+        "changeAnimations": {
+          "square": "square-mass",
+          "line": "square-line",
+          "column": "square-column"
+        }
       }
     ],
     "pushStrength": 18,
@@ -712,22 +772,42 @@
       {
         "id": "mass",
         "baseSprite": "mass",
-        "overlaySprite": "grenadiers"
+        "overlaySprite": "grenadiers",
+        "changeAnimations": {
+          "square": "mass-square",
+          "line": "mass-line",
+          "column": "mass-column"
+        }
       },
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "grenadiers-column"
+        "overlaySprite": "grenadiers-column",
+        "changeAnimations": {
+          "square": "column-square",
+          "line": "column-line",
+          "mass": "column-mass"
+        }
       },
       {
         "id": "line",
         "baseSprite": "line",
-        "overlaySprite": "grenadiers-line"
+        "overlaySprite": "grenadiers-line",
+        "changeAnimations": {
+          "square": "line-square",
+          "line": "line-mass",
+          "column": "line-column"
+        }
       },
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "grenadiers-square"
+        "overlaySprite": "grenadiers-square",
+        "changeAnimations": {
+          "square": "square-mass",
+          "line": "square-line",
+          "column": "square-column"
+        }
       }
     ],
     "pushStrength": 20,
