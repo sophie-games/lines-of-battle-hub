@@ -494,6 +494,7 @@
     "clans": "연합 검색"
   },
   "formation": "진형",
+  "formations": "진형",
   "findGame": "경기 탐색",
   "gameIdOrLink": "경기 번호 혹은 링크",
   "unit": "부대",
