@@ -23,7 +23,7 @@
     "manpower": 200,
     "gold": 50,
     "orgRadius": 44,
-    "orgRadiusBonus": 9,
+    "orgRadiusBonus": 11,
     "minDistanceToFAA": 30,
     "hasSkirmishers": true,
     "unknownType": 21,
@@ -89,7 +89,7 @@
     "rotationSpeed": 0.45,
     "rotationMaxThreshold": 0.75,
     "runRotationSpeed": 0.35,
-    "turningDelay": 3,
+    "turningDelay": 2,
     "reportStats": {
       "men": 250,
       "horse": 250,
@@ -176,7 +176,7 @@
     "org": 775,
     "stamina": 1900,
     "orgRadius": 44,
-    "orgRadiusBonus": 14,
+    "orgRadiusBonus": 16,
     "movementSound": "infantry-movement",
     "manpower": 275,
     "gold": 75,
@@ -190,10 +190,10 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 0.29,
-    "rotationMaxThreshold": 0.5,
-    "runRotationSpeed": 0.195,
-    "turningDelay": 8,
+    "rotationSpeed": 0.319,
+    "rotationMaxThreshold": 0.55,
+    "runRotationSpeed": 0.214,
+    "turningDelay": 6,
     "defaultFormation": "mass",
     "formations": [
       {
@@ -341,7 +341,7 @@
     "manpower": 225,
     "gold": 75,
     "orgRadius": 44,
-    "orgRadiusBonus": 11,
+    "orgRadiusBonus": 12,
     "basicPrice": 400,
     "premiumPrice": 40,
     "minDistanceToFAA": 25,
@@ -353,10 +353,10 @@
       "horse": 0,
       "guns": 0
     },
-    "rotationSpeed": 0.3,
-    "rotationMaxThreshold": 0.54,
-    "runRotationSpeed": 0.21,
-    "turningDelay": 8,
+    "rotationSpeed": 0.432,
+    "rotationMaxThreshold": 0.6,
+    "runRotationSpeed": 0.288,
+    "turningDelay": 4,
     "defaultFormation": "mass",
     "formations": [
       {
@@ -396,7 +396,7 @@
     "chargePenetration": 0.55,
     "walkMovement": 125,
     "runMovement": 195,
-    "timeToRun": 4,
+    "timeToRun": 2,
     "runCost": 96,
     "hp": 600,
     "org": 900,
@@ -417,7 +417,7 @@
     "rotationSpeed": 0.42,
     "rotationMaxThreshold": 0.7,
     "runRotationSpeed": 0.33,
-    "turningDelay": 3,
+    "turningDelay": 2,
     "defaultFormation": "cavalry",
     "formations": [
       {
@@ -540,7 +540,7 @@
     "chargePenetration": 0.3,
     "walkMovement": 130,
     "runMovement": 205,
-    "timeToRun": 5,
+    "timeToRun": 2,
     "runCost": 96,
     "hp": 400,
     "org": 775,
@@ -560,7 +560,7 @@
     "rotationSpeed": 0.5,
     "rotationMaxThreshold": 0.8,
     "runRotationSpeed": 0.37,
-    "turningDelay": 3,
+    "turningDelay": 2,
     "defaultFormation": "cavalry",
     "formations": [
       {
@@ -658,7 +658,7 @@
     "rotationSpeed": 0.5,
     "rotationMaxThreshold": 0.9,
     "runRotationSpeed": 0.35,
-    "turningDelay": 3,
+    "turningDelay": 2,
     "defaultFormation": "cavalry",
     "formations": [
       {
@@ -694,7 +694,7 @@
     "manpower": 250,
     "gold": 50,
     "orgRadius": 44,
-    "orgRadiusBonus": 12,
+    "orgRadiusBonus": 15,
     "minDistanceToFAA": 25,
     "hasSkirmishers": true,
     "unknownType": 21,
@@ -706,7 +706,7 @@
     "rotationSpeed": 0.297,
     "rotationMaxThreshold": 0.523,
     "runRotationSpeed": 0.204,
-    "turningDelay": 8,
+    "turningDelay": 6,
     "defaultFormation": "mass",
     "formations": [
       {
