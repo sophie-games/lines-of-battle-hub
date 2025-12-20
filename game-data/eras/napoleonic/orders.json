@@ -2,13 +2,13 @@
   {
     "id": 1,
     "name": "walk",
-    "orgRegainModifier": -0.05
+    "orgRegainModifier": -0.15
   },
   {
     "id": 2,
     "name": "run",
     "receivedOrgDamage": 0.15,
-    "orgRegainModifier": -0.3
+    "orgRegainModifier": -0.35
   },
   {
     "id": 3,
