@@ -52,7 +52,7 @@
     "name": "musket",
     "ranged": true,
     "orgDamageRatio": 275,
-    "reorgDebuff": 0.85,
+    "reorgDebuff": 0.8,
     "attackEffectDuration": 8,
     "projectileWidth": 16,
     "diminishByTargetOrg": {
@@ -88,7 +88,7 @@
     "name": "marksman-musket",
     "ranged": true,
     "orgDamageRatio": 550,
-    "reorgDebuff": 0.7,
+    "reorgDebuff": 0.75,
     "attackEffectDuration": 12,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -124,7 +124,7 @@
     "name": "rifle",
     "ranged": true,
     "orgDamageRatio": 650,
-    "reorgDebuff": 0.7,
+    "reorgDebuff": 0.75,
     "attackEffectDuration": 12,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -153,7 +153,7 @@
     "name": "18lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 210,
-    "reorgDebuff": 0.85,
+    "reorgDebuff": 0.75,
     "attackEffectDuration": 32,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -199,7 +199,7 @@
     "name": "12lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 210,
-    "reorgDebuff": 0.85,
+    "reorgDebuff": 0.75,
     "attackEffectDuration": 32,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -254,7 +254,7 @@
     "name": "10lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 210,
-    "reorgDebuff": 0.85,
+    "reorgDebuff": 0.75,
     "attackEffectDuration": 32,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -300,7 +300,7 @@
     "name": "8lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 210,
-    "reorgDebuff": 0.85,
+    "reorgDebuff": 0.75,
     "attackEffectDuration": 32,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -355,7 +355,7 @@
     "name": "6lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 210,
-    "reorgDebuff": 0.85,
+    "reorgDebuff": 0.75,
     "attackEffectDuration": 32,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
@@ -410,7 +410,7 @@
     "name": "4lb-cannon-ball",
     "ranged": true,
     "orgDamageRatio": 210,
-    "reorgDebuff": 0.8,
+    "reorgDebuff": 0.75,
     "attackEffectDuration": 24,
     "projectileWidth": 12,
     "diminishByTargetOrg": {
