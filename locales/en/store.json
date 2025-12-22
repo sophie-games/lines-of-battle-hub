@@ -1,20 +1,23 @@
-﻿{
+{
   "currencyShop": {
-    "title": "购买<0/>",
-    "subtitle": "解锁独特的装饰皮肤，于众生中脱颖而出！"
+    "title": "Get <0/>",
+    "subtitle": "Unlock amazing cosmetics and stand out from the crowd!"
   },
-  "aboutCurrencies": "货币介绍",
+
+  "aboutCurrencies": "About Currencies",
+
   "currency": {
-    "basic": "弗罗林",
-    "premium": "威望",
-    "basicDescription": "<currency/>：通过游玩匹配游戏赚取。可以用它来解锁新单位，让你的军队配置有更多选择。",
-    "premiumDescription": "<currency/>：用于购买装饰，让你的外观更加华丽。一般需要通过充值获得，毕竟游戏本身已经免费了嘛。",
-    "rate": "{{rate}} {{currency}}每1美元",
-    "purchase": "购买 {{amount}} {{currency}}",
-    "totalSold": "目前总共售出的<currency/>：{{amount}}",
-    "nextGoal": "下一个目标：{{goal}} <currency/> "
+    "basic": "Florins",
+    "premium": "Prestige",
+    "basicDescription": "<currency/>: Earn this by playing matches in the queue. Use it to recruit units and build your army.",
+    "premiumDescription": "<currency/>: This one's for buying cosmetics to flex your style. Mostly comes from spending real money since the game is free to play.",
+    "rate": "{{rate}} {{currency}} per USD",
+    "purchase": "Purchase {{amount}} {{currency}}",
+    "totalSold": "Total <currency/> sold so far: {{amount}}",
+    "nextGoal": "Next Goal: {{goal}} <currency/> "
   },
-  "purchaseConfirmation": "你确定想要购买{{item}}吗？",
-  "showPurchased": "显示已购买",
-  "offlineWarning": "购买的商品只会在在线模式下起用"
+
+  "purchaseConfirmation": "Are you sure you want to purchase {{item}}?",
+  "showPurchased": "Show purchased",
+  "offlineWarning": "Purchased items only work in online mode, not offline."
 }

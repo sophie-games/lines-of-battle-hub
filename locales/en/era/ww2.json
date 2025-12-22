@@ -1,35 +1,35 @@
-﻿{
+{
   "unitName": {
-    "1": "步兵",
-    "2": "装甲",
-    "3": "摩托化步兵",
-    "20": "未知"
+    "1": "Infantry",
+    "2": "Armored",
+    "3": "Motorized",
+    "20": "Unknown"
   },
   "battalionName": {
-    "1": "{{n}}步兵师",
-    "2": "{{n}}装甲师",
-    "3": "{{n}}摩托化步兵师"
+    "1": "{{n}} Infantry Division",
+    "2": "{{n}} Armored Division",
+    "3": "{{n}} Motorized Division"
   },
   "unitDescription": {
-    "1": "虽然由坦克组成的矛头是二战战场上难以匹敌的力量，朴实无华的步兵依旧是此时期军队的支柱。步兵可以在工事和阵地武器的情况下有效迟滞敌人的进攻；他们还能在森林，城区，沼泽，山地等装甲部队难以踏足的地形战斗。",
-    "2": "装甲师是一支强大的机动力量，专门负责在敌军的防线上打出突破口，或是对敌人进犯的部队迎头痛击。然而，装备并维护一支成建制的机械化部队也是对工业能力的考研，二战中坦克师在军中的占比从未超过10-15%。",
-    "3": "摩托化步兵师是一支强大的机动力量，专门负责在敌军的防线上打出突破口，或是对敌人进犯的部队迎头痛击。然而，装备并维护一支成建制的机械化部队也是对工业能力的考研，二战中坦克师在军中的占比从未超过10-15%。"
+    "1": "Although tank spearheads dominated the battlefields of World War II, the humble infantry remained the backbone of the armies of all the belligerent powers. Infantry is capable of delaying enemy advances thanks to earthworks and supporting weapons; furthermore, infantry can fight in the rough terrain like forests, cities, swamps and mountains, where armored vehicles are useless.",
+    "2": "Armored divisions are a formidable and mobile force, designed to create breakthroughs in enemy defenses and deliver powerful counterattacks. However, equipping and supplying mechanized units is a major industrial challenge, so the proportion of tank divisions in World War II armies generally did not exceed 10-15%.",
+    "3": "Motorized divisions are a formidable and mobile force, designed to create breakthroughs in enemy defenses and deliver powerful counterattacks. However, equipping and supplying mechanized units is a major industrial challenge, so the proportion of tank divisions in World War II armies generally did not exceed 10-15%."
   },
   "unitCategory": {
-    "infantry": "步兵",
-    "armored": "装甲",
-    "motorized": "摩托化步兵"
+    "infantry": "Infantry",
+    "armored": "Armored",
+    "motorized": "Motorized"
   },
   "damageType": {
-    "soft_attack": "对人员攻击",
-    "hard_attack": "对装甲攻击"
+    "soft_attack": "Soft Attack",
+    "hard_attack": "Hard Attack"
   },
   "reportStats": {
-    "men": "人员",
-    "tanks": "坦克"
+    "men": "Men",
+    "tanks": "Tanks"
   },
   "currency": {
-    "manpower": "钢铁",
-    "gold": "石油"
+    "manpower": "Iron",
+    "gold": "Oil"
   }
 }
