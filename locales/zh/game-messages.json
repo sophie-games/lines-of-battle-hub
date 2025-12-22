@@ -1,0 +1,10 @@
+{
+  "minimize": "最小化",
+  "showMessages": "显示消息",
+  "dismiss": "关闭",
+  "previous": "上一个",
+  "next": "下一个",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "消息"
+}
+

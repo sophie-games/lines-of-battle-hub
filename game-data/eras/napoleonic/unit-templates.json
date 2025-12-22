@@ -10,7 +10,7 @@
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 65,
     "chargeResistance": 0.75,
-    "runChargeResistanceModifier": -1.35,
+    "runChargeResistanceModifier": -1.5,
     "chargePenetration": 0.65,
     "walkMovement": 70,
     "runMovement": 110,
@@ -41,22 +41,42 @@
       {
         "id": "mass",
         "baseSprite": "mass",
-        "overlaySprite": "infantry"
+        "overlaySprite": "infantry",
+        "changeAnimations": {
+          "square": "mass-square",
+          "line": "mass-line",
+          "column": "mass-column"
+        }
       },
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "infantry-column"
+        "overlaySprite": "infantry-column",
+        "changeAnimations": {
+          "square": "column-square",
+          "line": "column-line",
+          "mass": "column-mass"
+        }
       },
       {
         "id": "line",
         "baseSprite": "line",
-        "overlaySprite": "infantry-line"
+        "overlaySprite": "infantry-line",
+        "changeAnimations": {
+          "square": "line-square",
+          "line": "line-mass",
+          "column": "line-column"
+        }
       },
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "infantry-square"
+        "overlaySprite": "infantry-square",
+        "changeAnimations": {
+          "mass": "square-mass",
+          "line": "square-line",
+          "column": "square-column"
+        }
       }
     ],
     "pushStrength": 15,
@@ -72,14 +92,14 @@
     "chargeBonus": 90,
     "chargeResistance": -0.5,
     "runChargeResistanceModifier": 0.75,
-    "chargePenetration": 0.35,
+    "chargePenetration": 0.4,
     "walkMovement": 125,
     "runMovement": 195,
     "timeToRun": 3,
     "runCost": 96,
     "hp": 550,
     "org": 825,
-    "stamina": 1250,
+    "stamina": 1350,
     "orgRadius": 64,
     "orgRadiusBonus": 4,
     "movementSound": "cavalry-movement",
@@ -166,7 +186,7 @@
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 75,
     "chargeResistance": 0.8,
-    "runChargeResistanceModifier": -1.25,
+    "runChargeResistanceModifier": -1.5,
     "chargePenetration": 0.75,
     "walkMovement": 70,
     "runMovement": 110,
@@ -199,22 +219,42 @@
       {
         "id": "mass",
         "baseSprite": "mass",
-        "overlaySprite": "guards"
+        "overlaySprite": "guards",
+        "changeAnimations": {
+          "square": "mass-square",
+          "line": "mass-line",
+          "column": "mass-column"
+        }
       },
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "guards-column"
+        "overlaySprite": "guards-column",
+        "changeAnimations": {
+          "square": "column-square",
+          "line": "column-line",
+          "mass": "column-mass"
+        }
       },
       {
         "id": "line",
         "baseSprite": "line",
-        "overlaySprite": "guards-line"
+        "overlaySprite": "guards-line",
+        "changeAnimations": {
+          "square": "line-square",
+          "line": "line-mass",
+          "column": "line-column"
+        }
       },
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "guards-square"
+        "overlaySprite": "guards-square",
+        "changeAnimations": {
+          "mass": "square-mass",
+          "line": "square-line",
+          "column": "square-column"
+        }
       }
     ],
     "pushStrength": 18,
@@ -230,14 +270,14 @@
     "chargeBonus": 115,
     "chargeResistance": -0.5,
     "runChargeResistanceModifier": 0.8,
-    "chargePenetration": 0.5,
+    "chargePenetration": 0.6,
     "walkMovement": 125,
     "runMovement": 200,
     "timeToRun": 3,
     "runCost": 96,
     "hp": 500,
     "org": 850,
-    "stamina": 1300,
+    "stamina": 1400,
     "orgRadius": 64,
     "orgRadiusBonus": 4,
     "movementSound": "cavalry-movement",
@@ -328,7 +368,7 @@
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 70,
     "chargeResistance": 0.75,
-    "runChargeResistanceModifier": -1.35,
+    "runChargeResistanceModifier": -1.5,
     "chargePenetration": 0.65,
     "walkMovement": 70,
     "runMovement": 115,
@@ -362,22 +402,42 @@
       {
         "id": "mass",
         "baseSprite": "mass",
-        "overlaySprite": "chasseurs"
+        "overlaySprite": "chasseurs",
+        "changeAnimations": {
+          "square": "mass-square",
+          "line": "mass-line",
+          "column": "mass-column"
+        }
       },
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "chasseurs-column"
+        "overlaySprite": "chasseurs-column",
+        "changeAnimations": {
+          "square": "column-square",
+          "line": "column-line",
+          "mass": "column-mass"
+        }
       },
       {
         "id": "line",
         "baseSprite": "line",
-        "overlaySprite": "chasseurs-line"
+        "overlaySprite": "chasseurs-line",
+        "changeAnimations": {
+          "square": "line-square",
+          "line": "line-mass",
+          "column": "line-column"
+        }
       },
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "chasseurs-square"
+        "overlaySprite": "chasseurs-square",
+        "changeAnimations": {
+          "mass": "square-mass",
+          "line": "square-line",
+          "column": "square-column"
+        }
       }
     ],
     "pushStrength": 18,
@@ -393,16 +453,16 @@
     "chargeBonus": 100,
     "chargeResistance": -0.25,
     "runChargeResistanceModifier": 0.55,
-    "chargePenetration": 0.46,
+    "chargePenetration": 0.55,
     "walkMovement": 125,
     "runMovement": 195,
     "timeToRun": 4,
     "runCost": 96,
     "hp": 600,
     "org": 900,
-    "stamina": 1150,
+    "stamina": 1200,
     "orgRadius": 72,
-    "orgRadiusBonus": 4,
+    "orgRadiusBonus": 5,
     "movementSound": "cavalry-movement",
     "manpower": 150,
     "gold": 100,
@@ -537,14 +597,14 @@
     "chargeBonus": 95,
     "chargeResistance": -0.5,
     "runChargeResistanceModifier": 0.7,
-    "chargePenetration": 0.25,
+    "chargePenetration": 0.3,
     "walkMovement": 130,
     "runMovement": 205,
     "timeToRun": 5,
     "runCost": 96,
     "hp": 400,
     "org": 775,
-    "stamina": 1600,
+    "stamina": 1750,
     "orgRadius": 48,
     "orgRadiusBonus": 4,
     "movementSound": "cavalry-movement",
@@ -681,7 +741,7 @@
     "rangedDamageTypes": ["musket"],
     "chargeBonus": 80,
     "chargeResistance": 0.85,
-    "runChargeResistanceModifier": -1.4,
+    "runChargeResistanceModifier": -1.5,
     "chargePenetration": 0.85,
     "walkMovement": 70,
     "runMovement": 115,
@@ -712,22 +772,42 @@
       {
         "id": "mass",
         "baseSprite": "mass",
-        "overlaySprite": "grenadiers"
+        "overlaySprite": "grenadiers",
+        "changeAnimations": {
+          "square": "mass-square",
+          "line": "mass-line",
+          "column": "mass-column"
+        }
       },
       {
         "id": "column",
         "baseSprite": "column",
-        "overlaySprite": "grenadiers-column"
+        "overlaySprite": "grenadiers-column",
+        "changeAnimations": {
+          "square": "column-square",
+          "line": "column-line",
+          "mass": "column-mass"
+        }
       },
       {
         "id": "line",
         "baseSprite": "line",
-        "overlaySprite": "grenadiers-line"
+        "overlaySprite": "grenadiers-line",
+        "changeAnimations": {
+          "square": "line-square",
+          "line": "line-mass",
+          "column": "line-column"
+        }
       },
       {
         "id": "square",
         "baseSprite": "square",
-        "overlaySprite": "grenadiers-square"
+        "overlaySprite": "grenadiers-square",
+        "changeAnimations": {
+          "mass": "square-mass",
+          "line": "square-line",
+          "column": "square-column"
+        }
       }
     ],
     "pushStrength": 20,

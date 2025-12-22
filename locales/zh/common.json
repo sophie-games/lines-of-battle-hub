@@ -500,6 +500,7 @@
     "clans": "搜索联盟"
   },
   "formation": "阵型",
+  "formations": "阵型",
   "findGame": "寻找对局",
   "gameIdOrLink": "对局ID或链接",
   "unit": "单位",

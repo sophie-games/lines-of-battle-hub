@@ -1,0 +1,10 @@
+{
+  "minimize": "최소화",
+  "showMessages": "메시지 표시",
+  "dismiss": "닫기",
+  "previous": "이전",
+  "next": "다음",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "메시지"
+}
+

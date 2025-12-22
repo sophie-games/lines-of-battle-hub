@@ -3,6 +3,7 @@
   "description": "description",
   "type": "preset",
   "conquestVictory": false,
+  "hidden": true,
   "players": [
     {
       "player": 1,
@@ -20,11 +21,270 @@
   "map": {
     "width": 512,
     "height": 512,
-    "terrains": [[0,3,4,4,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,3,4,4,4,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[3,3,3,4,4,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,3,4,4,4,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,3,3,4,4,4,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,3,3,4,4,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[3,3,3,3,3,4,4,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[3,17,17,17,3,4,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[3,17,17,17,3,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,17,17,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,17,17,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,17,17,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,17,17,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,17,17,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,17,17,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,17,11,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,17,11,11,3,4,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[17,17,20,20,3,3,4,4,0,0,3,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0],[17,17,20,0,3,4,4,0,0,0,3,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0],[17,20,20,0,3,4,4,0,0,0,3,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,4,4],[20,20,0,0,3,4,4,0,0,0,3,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,4,4,4,3],[20,0,0,0,3,4,4,0,0,0,3,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,4,4,3,3,3],[20,0,0,0,3,4,4,0,0,0,3,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,4,4,3,3,0,0],[0,0,0,3,3,4,4,0,0,0,3,0,0,0,0,0,0,0,1,1,1,1,1,0,0,4,4,3,3,1,0,0],[0,0,0,3,4,4,0,0,0,0,3,0,0,0,0,0,0,0,0,1,1,0,0,0,4,4,3,3,0,0,0,0],[0,0,3,3,4,4,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,4,4,4,3,3,0,0,0,0,0],[0,0,3,4,4,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,4,4,3,3,3,20,20,0,0,0,0],[0,3,3,4,4,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,4,4,3,3,0,0,0,20,20,3,3,3],[3,3,4,4,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,4,4,3,3,0,0,0,1,0,20,20,0,0],[4,7,4,0,0,0,0,0,0,0,3,0,0,0,0,0,0,4,4,4,3,3,0,0,0,0,0,0,0,20,20,0],[4,3,3,0,0,0,0,0,0,0,3,0,0,0,0,0,4,4,3,3,3,3,0,0,0,0,0,0,0,0,20,20],[0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,7,3,3,0,0,3,3,3,0,0,0,0,0,0,0,20]],
-    "heightMap": [[0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1],[0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1],[0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,1,1],[0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1],[0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0],[0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1],[0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1],[0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0],[0,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0],[0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0],[0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0],[0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,0,0,0,0],[0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0],[1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0],[0,0,0,1,1,2,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0],[0,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0],[1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]]
+    "terrains": [
+      [
+        0, 3, 4, 4, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 3, 4, 4, 4, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        3, 3, 3, 4, 4, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 3, 4, 4, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 3, 3, 4, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 3, 3, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        3, 3, 3, 3, 3, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        3, 17, 17, 17, 3, 4, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        3, 17, 17, 17, 3, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 17, 17, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 17, 17, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 17, 17, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 17, 17, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 17, 17, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 17, 17, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 17, 11, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 17, 11, 11, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 20, 20, 3, 3, 4, 4, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 17, 20, 0, 3, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,
+        0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        17, 20, 20, 0, 3, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,
+        1, 0, 0, 0, 0, 0, 0, 4, 4
+      ],
+      [
+        20, 20, 0, 0, 3, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 0, 0, 0, 4, 4, 4, 3
+      ],
+      [
+        20, 0, 0, 0, 3, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1,
+        1, 0, 0, 4, 4, 3, 3, 3
+      ],
+      [
+        20, 0, 0, 0, 3, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1,
+        0, 0, 4, 4, 3, 3, 0, 0
+      ],
+      [
+        0, 0, 0, 3, 3, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0,
+        0, 4, 4, 3, 3, 1, 0, 0
+      ],
+      [
+        0, 0, 0, 3, 4, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0,
+        4, 4, 3, 3, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 3, 3, 4, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4,
+        4, 3, 3, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 3, 4, 4, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 3,
+        3, 3, 20, 20, 0, 0, 0, 0
+      ],
+      [
+        0, 3, 3, 4, 4, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 3, 3,
+        0, 0, 0, 20, 20, 3, 3, 3
+      ],
+      [
+        3, 3, 4, 4, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 3, 3, 0,
+        0, 0, 1, 0, 20, 20, 0, 0
+      ],
+      [
+        4, 7, 4, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 4, 4, 4, 3, 3, 0, 0,
+        0, 0, 0, 0, 0, 20, 20, 0
+      ],
+      [
+        4, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 4, 4, 3, 3, 3, 3, 0, 0,
+        0, 0, 0, 0, 0, 0, 20, 20
+      ],
+      [
+        0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 7, 3, 3, 0, 0, 3, 3, 3,
+        0, 0, 0, 0, 0, 0, 0, 20
+      ]
+    ],
+    "heightMap": [
+      [
+        0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2,
+        2, 2, 2, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2,
+        2, 2, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2,
+        2, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 0, 0, 0, 1
+      ],
+      [
+        0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 0, 0, 1, 1, 1
+      ],
+      [
+        0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 0, 0, 1, 1, 0, 0
+      ],
+      [
+        0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 0, 0, 1, 1, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        0, 0, 1, 1, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0,
+        0, 1, 1, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1,
+        1, 1, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    ]
   },
   "units": [
     {
+      "name": "unit",
       "player": 1,
       "pos": {
         "x": 147.38,
@@ -38,14 +298,64 @@
   "triggers": [
     {
       "event": "onTurnStart",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "event": "onTurnEnd",
       "conditions": [
         {
-          "type": "isTurn",
-          "value": 1
+          "type": "unitMovedThisTurn",
+          "value": "unit"
+        }
+      ],
+      "once": true,
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
+          "type": "setVar",
+          "value": {
+            "name": "1st_move",
+            "value": 1
+          }
+        }
+      ]
+    },
+
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
         }
       ],
       "conditionLogic": "AND",
       "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
         {
           "type": "showMessage",
           "value": {
@@ -56,16 +366,33 @@
       ],
       "once": true
     },
+
     {
       "event": "onTurnStart",
       "conditions": [
         {
-          "type": "isTurn",
-          "value": 2
+          "type": "isVar",
+          "value": {
+            "name": "1st_move",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
         }
       ],
-      "conditionLogic": "AND",
       "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
         {
           "type": "showMessage",
           "value": {
@@ -76,16 +403,33 @@
       ],
       "once": true
     },
+
     {
       "event": "onTurnStart",
       "conditions": [
         {
-          "type": "isTurn",
-          "value": 3
+          "type": "isVar",
+          "value": {
+            "name": "1st_move",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
         }
       ],
-      "conditionLogic": "AND",
       "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
         {
           "type": "showMessage",
           "value": {
@@ -96,16 +440,34 @@
       ],
       "once": true
     },
+
     {
       "event": "onTurnStart",
       "conditions": [
         {
-          "type": "isTurn",
-          "value": 4
+          "type": "isVar",
+          "value": {
+            "name": "1st_move",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
         }
       ],
       "conditionLogic": "AND",
       "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
         {
           "type": "showMessage",
           "value": {
@@ -116,16 +478,34 @@
       ],
       "once": true
     },
+
     {
       "event": "onTurnStart",
       "conditions": [
         {
-          "type": "isTurn",
-          "value": 5
+          "type": "isVar",
+          "value": {
+            "name": "1st_move",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
         }
       ],
       "conditionLogic": "AND",
       "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
         {
           "type": "showMessage",
           "value": {
@@ -136,21 +516,107 @@
       ],
       "once": true
     },
+
     {
       "event": "onTurnStart",
       "conditions": [
         {
-          "type": "isTurn",
-          "value": 6
+          "type": "isVar",
+          "value": {
+            "name": "1st_move",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
         }
       ],
       "conditionLogic": "AND",
       "actions": [
         {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
           "type": "showMessage",
           "value": {
             "title": "trigger.6.title",
             "message": "trigger.6.message"
+          }
+        }
+      ],
+      "once": true
+    },
+
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "1st_move",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.7.title",
+            "message": "trigger.7.message"
+          }
+        },
+        {
+          "type": "setVar",
+          "value": {
+            "name": "tutorial_completed",
+            "value": 1
+          }
+        }
+      ],
+      "once": true
+    },
+
+    {
+      "event": "onTurnEnd",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "tutorial_completed",
+            "value": 1
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "endGame",
+          "value": {
+            "reason": "victory"
           }
         }
       ],
@@ -161,305 +627,340 @@
     "en": {
       "name": "Basic Controls",
       "description": "Learn the basic controls of the game",
-      "trigger.1.title": "Basic Controls Tutorial",
+      "trigger.1.title": "Moving Units",
       "trigger.1.message": "You can move units by selecting them and tapping or right clicking where you want them to move; select your unit and tap/click a nearby point to issue a Move order, then submit your turn.",
-      "trigger.2.title": "Basic Controls Tutorial",
+      "trigger.2.title": "Drawing Paths",
       "trigger.2.message": "You can also draw paths for units to take. Select your unit, then click and drag a location on the map to draw a path. Then, submit your turn.",
-      "trigger.3.title": "Basic Controls Tutorial",
+      "trigger.3.title": "Long Movement Orders",
       "trigger.3.message": "When issuing long movement orders, you might notice the arrow turn grey. This indicates the limit of your unit's movement for the turn. However, the game will save these long orders so that your unit can implement its movements after multiple turns.",
-      "trigger.4.title": "Basic Controls Tutorial",
+      "trigger.4.title": "Rotating Units",
       "trigger.4.message": "You can order units to rotate in place. Click and hold (long-click) a unit, then drag to issue a rotate order, then submit your turn.",
-      "trigger.5.title": "Basic Controls Tutorial",
+      "trigger.5.title": "Move and Rotate",
       "trigger.5.message": "If you want your unit to rotate in a particular direction after moving, select a single unit, then click/tap and hold where you want it to move to. After this, drag in the direction you want it to rotate to at the end of the order. Issue a long click-drag move-and-rotate order, then submit your turn.",
-      "trigger.6.title": "Basic Controls Tutorial",
-      "trigger.6.message": "There are multiple order types you can issue to your units, such as Run or Fire and Advance. Select the order modal and activate Run, then select your infantry unit and issue a Run Order. The unit will walk a short distance, then start Running - spending Stamina to move at a higher speed and activate charge mechanics (these and other orders will be detailed later). Issue a Run order to your unit, then submit your turn."
+      "trigger.6.title": "Order Types",
+      "trigger.6.message": "There are multiple order types you can issue to your units, such as Run or Fire and Advance. Select the order modal and activate Run, then select your infantry unit and issue a Run Order. The unit will walk a short distance, then start Running - spending Stamina to move at a higher speed and activate charge mechanics (these and other orders will be detailed later). Issue a Run order to your unit, then submit your turn.",
+      "trigger.7.title": "Camera Controls",
+      "trigger.7.message": "Lastly; camera controls. On PC, you can move the camera by right-clicking the ground and dragging, and zoom using the mousewheel. On mobile, press the screen with two fingers to control the camera; move both fingers in the same direction to shift the camera, move them closer together to zoom in, and move them further apart to zoom out."
     },
     "es": {
       "name": "Controles Básicos",
       "description": "Aprende los controles básicos del juego",
-      "trigger.1.title": "Tutorial de Controles Básicos",
+      "trigger.1.title": "Mover Unidades",
       "trigger.1.message": "Puedes mover unidades seleccionándolas y tocando o haciendo clic derecho donde quieras que se muevan; selecciona tu unidad y toca/haz clic en un punto cercano para emitir una orden de Movimiento, luego envía tu turno.",
-      "trigger.2.title": "Tutorial de Controles Básicos",
+      "trigger.2.title": "Dibujar Rutas",
       "trigger.2.message": "También puedes dibujar rutas para que las unidades sigan. Selecciona tu unidad, luego haz clic y arrastra una ubicación en el mapa para dibujar una ruta. Luego, envía tu turno.",
-      "trigger.3.title": "Tutorial de Controles Básicos",
+      "trigger.3.title": "Órdenes de Movimiento Largas",
       "trigger.3.message": "Al emitir órdenes de movimiento largas, podrías notar que la flecha se vuelve gris. Esto indica el límite del movimiento de tu unidad para el turno. Sin embargo, el juego guardará estas órdenes largas para que tu unidad pueda implementar sus movimientos después de múltiples turnos.",
-      "trigger.4.title": "Tutorial de Controles Básicos",
+      "trigger.4.title": "Rotar Unidades",
       "trigger.4.message": "Puedes ordenar a las unidades que roten en su lugar. Haz clic y mantén presionado (clic largo) una unidad, luego arrastra para emitir una orden de rotación, luego envía tu turno.",
-      "trigger.5.title": "Tutorial de Controles Básicos",
+      "trigger.5.title": "Mover y Rotar",
       "trigger.5.message": "Si quieres que tu unidad rote en una dirección particular después de moverse, selecciona una sola unidad, luego haz clic/toca y mantén presionado donde quieras que se mueva. Después de esto, arrastra en la dirección en la que quieras que rote al final de la orden. Emite una orden de movimiento y rotación con clic largo y arrastre, luego envía tu turno.",
-      "trigger.6.title": "Tutorial de Controles Básicos",
-      "trigger.6.message": "Hay múltiples tipos de órdenes que puedes emitir a tus unidades, como Correr o Disparar y Avanzar. Selecciona el modal de órdenes y activa Correr, luego selecciona tu unidad de infantería y emite una Orden de Correr. La unidad caminará una corta distancia, luego comenzará a Correr - gastando Resistencia para moverse a mayor velocidad y activar mecánicas de carga (estas y otras órdenes se detallarán más adelante). Emite una orden de Correr a tu unidad, luego envía tu turno."
+      "trigger.6.title": "Tipos de Órdenes",
+      "trigger.6.message": "Hay múltiples tipos de órdenes que puedes emitir a tus unidades, como Correr o Disparar y Avanzar. Selecciona el modal de órdenes y activa Correr, luego selecciona tu unidad de infantería y emite una Orden de Correr. La unidad caminará una corta distancia, luego comenzará a Correr - gastando Resistencia para moverse a mayor velocidad y activar mecánicas de carga (estas y otras órdenes se detallarán más adelante). Emite una orden de Correr a tu unidad, luego envía tu turno.",
+      "trigger.7.title": "Controles de Cámara",
+      "trigger.7.message": "Por último; controles de cámara. En PC, puedes mover la cámara haciendo clic derecho en el suelo y arrastrando, y hacer zoom usando la rueda del mouse. En móvil, presiona la pantalla con dos dedos para controlar la cámara; mueve ambos dedos en la misma dirección para desplazar la cámara, acércalos para hacer zoom in y aléjalos para hacer zoom out."
     },
     "fr": {
       "name": "Contrôles de Base",
       "description": "Apprenez les contrôles de base du jeu",
-      "trigger.1.title": "Tutoriel des Contrôles de Base",
+      "trigger.1.title": "Déplacer les Unités",
       "trigger.1.message": "Vous pouvez déplacer des unités en les sélectionnant et en appuyant ou en cliquant avec le bouton droit où vous voulez qu'elles se déplacent; sélectionnez votre unité et appuyez/cliquez sur un point proche pour donner un ordre de Déplacement, puis validez votre tour.",
-      "trigger.2.title": "Tutoriel des Contrôles de Base",
+      "trigger.2.title": "Dessiner des Chemins",
       "trigger.2.message": "Vous pouvez également dessiner des chemins pour que les unités suivent. Sélectionnez votre unité, puis cliquez et faites glisser un emplacement sur la carte pour dessiner un chemin. Ensuite, validez votre tour.",
-      "trigger.3.title": "Tutoriel des Contrôles de Base",
+      "trigger.3.title": "Ordres de Mouvement Longs",
       "trigger.3.message": "Lors de l'émission d'ordres de mouvement longs, vous pourriez remarquer que la flèche devient grise. Cela indique la limite du mouvement de votre unité pour le tour. Cependant, le jeu sauvegardera ces ordres longs afin que votre unité puisse mettre en œuvre ses mouvements après plusieurs tours.",
-      "trigger.4.title": "Tutoriel des Contrôles de Base",
+      "trigger.4.title": "Tourner les Unités",
       "trigger.4.message": "Vous pouvez ordonner aux unités de tourner sur place. Cliquez et maintenez (clic long) une unité, puis faites glisser pour donner un ordre de rotation, puis validez votre tour.",
-      "trigger.5.title": "Tutoriel des Contrôles de Base",
+      "trigger.5.title": "Déplacer et Tourner",
       "trigger.5.message": "Si vous voulez que votre unité tourne dans une direction particulière après s'être déplacée, sélectionnez une seule unité, puis cliquez/appuyez et maintenez où vous voulez qu'elle se déplace. Après cela, faites glisser dans la direction dans laquelle vous voulez qu'elle tourne à la fin de l'ordre. Donnez un ordre de mouvement et rotation avec clic long et glissement, puis validez votre tour.",
-      "trigger.6.title": "Tutoriel des Contrôles de Base",
-      "trigger.6.message": "Il existe plusieurs types d'ordres que vous pouvez donner à vos unités, comme Courir ou Tirer et Avancer. Sélectionnez le modal d'ordres et activez Courir, puis sélectionnez votre unité d'infanterie et donnez un Ordre de Courir. L'unité marchera une courte distance, puis commencera à Courir - dépensant de l'Endurance pour se déplacer à une vitesse plus élevée et activer les mécaniques de charge (ces ordres et d'autres seront détaillés plus tard). Donnez un ordre de Courir à votre unité, puis validez votre tour."
+      "trigger.6.title": "Types d'Ordres",
+      "trigger.6.message": "Il existe plusieurs types d'ordres que vous pouvez donner à vos unités, comme Courir ou Tirer et Avancer. Sélectionnez le modal d'ordres et activez Courir, puis sélectionnez votre unité d'infanterie et donnez un Ordre de Courir. L'unité marchera une courte distance, puis commencera à Courir - dépensant de l'Endurance pour se déplacer à une vitesse plus élevée et activer les mécaniques de charge (ces ordres et d'autres seront détaillés plus tard). Donnez un ordre de Courir à votre unité, puis validez votre tour.",
+      "trigger.7.title": "Contrôles de la Caméra",
+      "trigger.7.message": "Enfin; contrôles de la caméra. Sur PC, vous pouvez déplacer la caméra en cliquant avec le bouton droit sur le sol et en faisant glisser, et zoomer en utilisant la molette de la souris. Sur mobile, appuyez sur l'écran avec deux doigts pour contrôler la caméra; déplacez les deux doigts dans la même direction pour déplacer la caméra, rapprochez-les pour zoomer, et éloignez-les pour dézoomer."
     },
     "de": {
       "name": "Grundsteuerung",
       "description": "Lerne die Grundsteuerung des Spiels",
-      "trigger.1.title": "Grundsteuerung Tutorial",
+      "trigger.1.title": "Einheiten Bewegen",
       "trigger.1.message": "Du kannst Einheiten bewegen, indem du sie auswählst und tippst oder rechtsklickst, wo du sie hinbewegen möchtest; wähle deine Einheit aus und tippe/klicke auf einen nahen Punkt, um einen Bewegungsbefehl zu erteilen, dann sende deinen Zug.",
-      "trigger.2.title": "Grundsteuerung Tutorial",
+      "trigger.2.title": "Wege Zeichnen",
       "trigger.2.message": "Du kannst auch Wege für Einheiten zeichnen. Wähle deine Einheit aus, dann klicke und ziehe einen Ort auf der Karte, um einen Weg zu zeichnen. Dann sende deinen Zug.",
-      "trigger.3.title": "Grundsteuerung Tutorial",
+      "trigger.3.title": "Lange Bewegungsbefehle",
       "trigger.3.message": "Wenn du lange Bewegungsbefehle erteilst, könntest du bemerken, dass der Pfeil grau wird. Dies zeigt die Grenze der Bewegung deiner Einheit für den Zug an. Das Spiel speichert jedoch diese langen Befehle, damit deine Einheit ihre Bewegungen nach mehreren Zügen ausführen kann.",
-      "trigger.4.title": "Grundsteuerung Tutorial",
+      "trigger.4.title": "Einheiten Drehen",
       "trigger.4.message": "Du kannst Einheiten anweisen, sich an Ort und Stelle zu drehen. Klicke und halte (langer Klick) eine Einheit, dann ziehe, um einen Drehbefehl zu erteilen, dann sende deinen Zug.",
-      "trigger.5.title": "Grundsteuerung Tutorial",
+      "trigger.5.title": "Bewegen und Drehen",
       "trigger.5.message": "Wenn du möchtest, dass deine Einheit sich nach dem Bewegen in eine bestimmte Richtung dreht, wähle eine einzelne Einheit aus, dann klicke/tippe und halte dort, wo du sie hinbewegen möchtest. Danach ziehe in die Richtung, in die sie sich am Ende des Befehls drehen soll. Erteile einen langen Klick-Zieh-Bewegungs- und Drehbefehl, dann sende deinen Zug.",
-      "trigger.6.title": "Grundsteuerung Tutorial",
+      "trigger.6.title": "Befehlstypen",
       "trigger.6.message": "Es gibt mehrere Befehlstypen, die du deinen Einheiten erteilen kannst, wie Laufen oder Feuern und Vorrücken. Wähle das Befehlsmenü aus und aktiviere Laufen, dann wähle deine Infanterieeinheit aus und erteile einen Laufbefehl. Die Einheit wird eine kurze Strecke gehen, dann beginnt sie zu Laufen - verbraucht Ausdauer, um sich mit höherer Geschwindigkeit zu bewegen und Lademechaniken zu aktivieren (diese und andere Befehle werden später detailliert). Erteile einen Laufbefehl an deine Einheit, dann sende deinen Zug."
     },
     "pt": {
       "name": "Controles Básicos",
       "description": "Aprenda os controles básicos do jogo",
-      "trigger.1.title": "Tutorial de Controles Básicos",
+      "trigger.1.title": "Mover Unidades",
       "trigger.1.message": "Você pode mover unidades selecionando-as e tocando ou clicando com o botão direito onde deseja que se movam; selecione sua unidade e toque/clique em um ponto próximo para emitir uma ordem de Movimento, depois envie seu turno.",
-      "trigger.2.title": "Tutorial de Controles Básicos",
+      "trigger.2.title": "Desenhar Caminhos",
       "trigger.2.message": "Você também pode desenhar caminhos para as unidades seguirem. Selecione sua unidade, depois clique e arraste um local no mapa para desenhar um caminho. Depois, envie seu turno.",
-      "trigger.3.title": "Tutorial de Controles Básicos",
+      "trigger.3.title": "Ordens de Movimento Longas",
       "trigger.3.message": "Ao emitir ordens de movimento longas, você pode notar que a seta fica cinza. Isso indica o limite do movimento da sua unidade para o turno. No entanto, o jogo salvará essas ordens longas para que sua unidade possa implementar seus movimentos após vários turnos.",
-      "trigger.4.title": "Tutorial de Controles Básicos",
+      "trigger.4.title": "Girar Unidades",
       "trigger.4.message": "Você pode ordenar unidades a girar no lugar. Clique e segure (clique longo) uma unidade, depois arraste para emitir uma ordem de rotação, depois envie seu turno.",
-      "trigger.5.title": "Tutorial de Controles Básicos",
+      "trigger.5.title": "Mover e Girar",
       "trigger.5.message": "Se você quiser que sua unidade gire em uma direção particular após se mover, selecione uma única unidade, depois clique/toque e segure onde deseja que ela se mova. Depois disso, arraste na direção em que deseja que ela gire no final da ordem. Emita uma ordem de movimento e rotação com clique longo e arraste, depois envie seu turno.",
-      "trigger.6.title": "Tutorial de Controles Básicos",
+      "trigger.6.title": "Tipos de Ordens",
       "trigger.6.message": "Há vários tipos de ordens que você pode emitir para suas unidades, como Correr ou Atirar e Avançar. Selecione o modal de ordens e ative Correr, depois selecione sua unidade de infantaria e emita uma Ordem de Correr. A unidade caminhará uma curta distância, depois começará a Correr - gastando Resistência para se mover em maior velocidade e ativar mecânicas de carga (essas e outras ordens serão detalhadas mais tarde). Emita uma ordem de Correr para sua unidade, depois envie seu turno."
     },
     "it": {
       "name": "Controlli Base",
       "description": "Impara i controlli base del gioco",
-      "trigger.1.title": "Tutorial Controlli Base",
+      "trigger.1.title": "Muovere le Unità",
       "trigger.1.message": "Puoi muovere le unità selezionandole e toccando o cliccando con il tasto destro dove vuoi che si muovano; seleziona la tua unità e tocca/clicca su un punto vicino per emettere un ordine di Movimento, poi invia il tuo turno.",
-      "trigger.2.title": "Tutorial Controlli Base",
+      "trigger.2.title": "Disegnare Percorsi",
       "trigger.2.message": "Puoi anche disegnare percorsi per le unità da seguire. Seleziona la tua unità, poi clicca e trascina una posizione sulla mappa per disegnare un percorso. Poi, invia il tuo turno.",
-      "trigger.3.title": "Tutorial Controlli Base",
+      "trigger.3.title": "Ordini di Movimento Lunghi",
       "trigger.3.message": "Quando emetti ordini di movimento lunghi, potresti notare che la freccia diventa grigia. Questo indica il limite del movimento della tua unità per il turno. Tuttavia, il gioco salverà questi ordini lunghi in modo che la tua unità possa implementare i suoi movimenti dopo più turni.",
-      "trigger.4.title": "Tutorial Controlli Base",
+      "trigger.4.title": "Ruotare le Unità",
       "trigger.4.message": "Puoi ordinare alle unità di ruotare sul posto. Clicca e tieni premuto (clic lungo) un'unità, poi trascina per emettere un ordine di rotazione, poi invia il tuo turno.",
-      "trigger.5.title": "Tutorial Controlli Base",
+      "trigger.5.title": "Muovere e Ruotare",
       "trigger.5.message": "Se vuoi che la tua unità ruoti in una direzione particolare dopo essersi mossa, seleziona una singola unità, poi clicca/tocca e tieni premuto dove vuoi che si muova. Dopo questo, trascina nella direzione in cui vuoi che ruoti alla fine dell'ordine. Emetti un ordine di movimento e rotazione con clic lungo e trascinamento, poi invia il tuo turno.",
-      "trigger.6.title": "Tutorial Controlli Base",
-      "trigger.6.message": "Ci sono diversi tipi di ordini che puoi emettere alle tue unità, come Correre o Sparare e Avanzare. Seleziona il modale degli ordini e attiva Correre, poi seleziona la tua unità di fanteria ed emetti un Ordine di Correre. L'unità camminerà per una breve distanza, poi inizierà a Correre - spendendo Resistenza per muoversi a velocità maggiore e attivare meccaniche di carica (questi e altri ordini saranno dettagliati più tardi). Emetti un ordine di Correre alla tua unità, poi invia il tuo turno."
+      "trigger.6.title": "Tipi di Ordini",
+      "trigger.6.message": "Ci sono diversi tipi di ordini che puoi emettere alle tue unità, come Correre o Sparare e Avanzare. Seleziona il modale degli ordini e attiva Correre, poi seleziona la tua unità di fanteria ed emetti un Ordine di Correre. L'unità camminerà per una breve distanza, poi inizierà a Correre - spendendo Resistenza per muoversi a velocità maggiore e attivare meccaniche di carica (questi e altri ordini saranno dettagliati più tardi). Emetti un ordine di Correre alla tua unità, poi invia il tuo turno.",
+      "trigger.7.title": "Controlli della Fotocamera",
+      "trigger.7.message": "Infine; controlli della fotocamera. Su PC, puoi spostare la fotocamera cliccando con il tasto destro sul terreno e trascinando, e zoomare usando la rotella del mouse. Su mobile, premi lo schermo con due dita per controllare la fotocamera; muovi entrambe le dita nella stessa direzione per spostare la fotocamera, avvicinale per zoomare in avanti e allontanale per zoomare indietro."
     },
     "pl": {
       "name": "Podstawowe Sterowanie",
       "description": "Naucz się podstawowego sterowania w grze",
-      "trigger.1.title": "Samouczek Podstawowego Sterowania",
+      "trigger.1.title": "Poruszanie Jednostkami",
       "trigger.1.message": "Możesz poruszać jednostkami, wybierając je i dotykając lub klikając prawym przyciskiem tam, gdzie chcesz, aby się poruszyły; wybierz swoją jednostkę i dotknij/kliknij pobliskie miejsce, aby wydać rozkaz Ruchu, a następnie prześlij swoją turę.",
-      "trigger.2.title": "Samouczek Podstawowego Sterowania",
+      "trigger.2.title": "Rysowanie Ścieżek",
       "trigger.2.message": "Możesz również rysować ścieżki dla jednostek. Wybierz swoją jednostkę, następnie kliknij i przeciągnij lokalizację na mapie, aby narysować ścieżkę. Następnie prześlij swoją turę.",
-      "trigger.3.title": "Samouczek Podstawowego Sterowania",
+      "trigger.3.title": "Długie Rozkazy Ruchu",
       "trigger.3.message": "Podczas wydawania długich rozkazów ruchu możesz zauważyć, że strzałka staje się szara. Oznacza to limit ruchu twojej jednostki w turze. Jednak gra zapisze te długie rozkazy, aby twoja jednostka mogła wykonać swoje ruchy po wielu turach.",
-      "trigger.4.title": "Samouczek Podstawowego Sterowania",
+      "trigger.4.title": "Obracanie Jednostek",
       "trigger.4.message": "Możesz rozkazać jednostkom obracać się w miejscu. Kliknij i przytrzymaj (długie kliknięcie) jednostkę, następnie przeciągnij, aby wydać rozkaz obrotu, a następnie prześlij swoją turę.",
-      "trigger.5.title": "Samouczek Podstawowego Sterowania",
+      "trigger.5.title": "Poruszanie i Obracanie",
       "trigger.5.message": "Jeśli chcesz, aby twoja jednostka obróciła się w określonym kierunku po ruchu, wybierz pojedynczą jednostkę, następnie kliknij/dotknij i przytrzymaj tam, gdzie chcesz, aby się poruszyła. Następnie przeciągnij w kierunku, w którym chcesz, aby obróciła się na końcu rozkazu. Wydaj długi rozkaz ruchu i obrotu z kliknięciem i przeciągnięciem, a następnie prześlij swoją turę.",
-      "trigger.6.title": "Samouczek Podstawowego Sterowania",
-      "trigger.6.message": "Istnieje wiele typów rozkazów, które możesz wydać swoim jednostkom, takich jak Bieg lub Strzał i Atak. Wybierz modal rozkazów i aktywuj Bieg, następnie wybierz swoją jednostkę piechoty i wydaj Rozkaz Biegu. Jednostka przejdzie krótki dystans, a następnie zacznie Biec - wydając Wytrzymałość, aby poruszać się z większą prędkością i aktywować mechaniki szarży (te i inne rozkazy zostaną szczegółowo opisane później). Wydaj rozkaz Biegu swojej jednostce, a następnie prześlij swoją turę."
+      "trigger.6.title": "Typy Rozkazów",
+      "trigger.6.message": "Istnieje wiele typów rozkazów, które możesz wydać swoim jednostkom, takich jak Bieg lub Strzał i Atak. Wybierz modal rozkazów i aktywuj Bieg, następnie wybierz swoją jednostkę piechoty i wydaj Rozkaz Biegu. Jednostka przejdzie krótki dystans, a następnie zacznie Biec - wydając Wytrzymałość, aby poruszać się z większą prędkością i aktywować mechaniki szarży (te i inne rozkazy zostaną szczegółowo opisane później). Wydaj rozkaz Biegu swojej jednostce, a następnie prześlij swoją turę.",
+      "trigger.7.title": "Sterowanie Kamerą",
+      "trigger.7.message": "Na koniec; sterowanie kamerą. Na PC możesz przesuwać kamerę, klikając prawym przyciskiem na ziemię i przeciągając, oraz przybliżać za pomocą kółka myszy. Na urządzeniach mobilnych naciśnij ekran dwoma palcami, aby kontrolować kamerę; przesuń oba palce w tym samym kierunku, aby przesunąć kamerę, zbliż je do siebie, aby przybliżyć, i oddal je od siebie, aby oddalić."
     },
     "uk": {
       "name": "Базові Управління",
       "description": "Вивчіть базові управління гри",
-      "trigger.1.title": "Підручник Базових Управлінь",
+      "trigger.1.title": "Переміщення Підрозділів",
       "trigger.1.message": "Ви можете переміщувати підрозділи, вибираючи їх і натискаючи або клацаючи правою кнопкою там, куди хочете їх перемістити; виберіть свій підрозділ і натисніть/клацніть на близьку точку, щоб видати наказ на Рух, потім підтвердіть свій хід.",
-      "trigger.2.title": "Підручник Базових Управлінь",
+      "trigger.2.title": "Малювання Шляхів",
       "trigger.2.message": "Ви також можете малювати шляхи для підрозділів. Виберіть свій підрозділ, потім клацніть і перетягніть місце на карті, щоб намалювати шлях. Потім підтвердіть свій хід.",
-      "trigger.3.title": "Підручник Базових Управлінь",
+      "trigger.3.title": "Довгі Накази на Рух",
       "trigger.3.message": "При видачі довгих наказів на рух ви можете помітити, що стрілка стає сірою. Це вказує на межу руху вашого підрозділу за хід. Однак гра збереже ці довгі накази, щоб ваш підрозділ міг виконати свої рухи після кількох ходів.",
-      "trigger.4.title": "Підручник Базових Управлінь",
+      "trigger.4.title": "Обертання Підрозділів",
       "trigger.4.message": "Ви можете наказати підрозділам обертатися на місці. Клацніть і утримуйте (довгий клац) підрозділ, потім перетягніть, щоб видати наказ на обертання, потім підтвердіть свій хід.",
-      "trigger.5.title": "Підручник Базових Управлінь",
+      "trigger.5.title": "Переміщення і Обертання",
       "trigger.5.message": "Якщо ви хочете, щоб ваш підрозділ обертався в певному напрямку після руху, виберіть один підрозділ, потім клацніть/натисніть і утримуйте там, куди хочете його перемістити. Після цього перетягніть у напрямку, в якому хочете, щоб він обертався в кінці наказу. Видайте довгий наказ на рух і обертання з клацанням і перетягуванням, потім підтвердіть свій хід.",
-      "trigger.6.title": "Підручник Базових Управлінь",
-      "trigger.6.message": "Є кілька типів наказів, які ви можете видати своїм підрозділам, таких як Біг або Стріляти і Наступати. Виберіть модальне вікно наказів і активуйте Біг, потім виберіть свій піхотний підрозділ і видайте Наказ на Біг. Підрозділ пройде коротку відстань, потім почне Бігти - витрачаючи Витривалість для руху з більшою швидкістю та активації механік атаки (ці та інші накази будуть детально описані пізніше). Видайте наказ на Біг своєму підрозділу, потім підтвердіть свій хід."
+      "trigger.6.title": "Типи Наказів",
+      "trigger.6.message": "Є кілька типів наказів, які ви можете видати своїм підрозділам, таких як Біг або Стріляти і Наступати. Виберіть модальне вікно наказів і активуйте Біг, потім виберіть свій піхотний підрозділ і видайте Наказ на Біг. Підрозділ пройде коротку відстань, потім почне Бігти - витрачаючи Витривалість для руху з більшою швидкістю та активації механік атаки (ці та інші накази будуть детально описані пізніше). Видайте наказ на Біг своєму підрозділу, потім підтвердіть свій хід.",
+      "trigger.7.title": "Управління Камерою",
+      "trigger.7.message": "Нарешті; управління камерою. На PC ви можете переміщувати камеру, клацаючи правою кнопкою на землю і перетягуючи, а також масштабувати за допомогою коліщатка миші. На мобільному пристрої натисніть екран двома пальцями, щоб керувати камерою; перемістіть обидва пальці в одному напрямку, щоб зсунути камеру, зблизьте їх, щоб збільшити масштаб, і віддаліть їх, щоб зменшити масштаб."
     },
     "ru": {
       "name": "Базовое Управление",
       "description": "Изучите базовое управление игры",
-      "trigger.1.title": "Учебник Базового Управления",
+      "trigger.1.title": "Перемещение Подразделений",
       "trigger.1.message": "Вы можете перемещать подразделения, выбирая их и нажимая или щелкая правой кнопкой там, куда хотите их переместить; выберите свое подразделение и нажмите/щелкните на близкую точку, чтобы отдать приказ на Движение, затем подтвердите свой ход.",
-      "trigger.2.title": "Учебник Базового Управления",
+      "trigger.2.title": "Рисование Путей",
       "trigger.2.message": "Вы также можете рисовать пути для подразделений. Выберите свое подразделение, затем щелкните и перетащите место на карте, чтобы нарисовать путь. Затем подтвердите свой ход.",
-      "trigger.3.title": "Учебник Базового Управления",
+      "trigger.3.title": "Длинные Приказы на Движение",
       "trigger.3.message": "При выдаче длинных приказов на движение вы можете заметить, что стрелка становится серой. Это указывает на предел движения вашего подразделения за ход. Однако игра сохранит эти длинные приказы, чтобы ваше подразделение могло выполнить свои движения после нескольких ходов.",
-      "trigger.4.title": "Учебник Базового Управления",
+      "trigger.4.title": "Вращение Подразделений",
       "trigger.4.message": "Вы можете приказать подразделениям вращаться на месте. Щелкните и удерживайте (долгий щелчок) подразделение, затем перетащите, чтобы отдать приказ на вращение, затем подтвердите свой ход.",
-      "trigger.5.title": "Учебник Базового Управления",
+      "trigger.5.title": "Перемещение и Вращение",
       "trigger.5.message": "Если вы хотите, чтобы ваше подразделение вращалось в определенном направлении после движения, выберите одно подразделение, затем щелкните/нажмите и удерживайте там, куда хотите его переместить. После этого перетащите в направлении, в котором хотите, чтобы оно вращалось в конце приказа. Отдайте длинный приказ на движение и вращение с щелчком и перетаскиванием, затем подтвердите свой ход.",
-      "trigger.6.title": "Учебник Базового Управления",
-      "trigger.6.message": "Есть несколько типов приказов, которые вы можете отдать своим подразделениям, таких как Бег или Стрелять и Наступать. Выберите модальное окно приказов и активируйте Бег, затем выберите свое пехотное подразделение и отдайте Приказ на Бег. Подразделение пройдет короткое расстояние, затем начнет Бежать - тратя Выносливость для движения с большей скоростью и активации механик атаки (эти и другие приказы будут подробно описаны позже). Отдайте приказ на Бег своему подразделению, затем подтвердите свой ход."
+      "trigger.6.title": "Типы Приказов",
+      "trigger.6.message": "Есть несколько типов приказов, которые вы можете отдать своим подразделениям, таких как Бег или Стрелять и Наступать. Выберите модальное окно приказов и активируйте Бег, затем выберите свое пехотное подразделение и отдайте Приказ на Бег. Подразделение пройдет короткое расстояние, затем начнет Бежать - тратя Выносливость для движения с большей скоростью и активации механик атаки (эти и другие приказы будут подробно описаны позже). Отдайте приказ на Бег своему подразделению, затем подтвердите свой ход.",
+      "trigger.7.title": "Управление Камерой",
+      "trigger.7.message": "Наконец; управление камерой. На PC вы можете перемещать камеру, щелкая правой кнопкой на землю и перетаскивая, а также масштабировать с помощью колесика мыши. На мобильном устройстве нажмите экран двумя пальцами, чтобы управлять камерой; переместите оба пальца в одном направлении, чтобы сдвинуть камеру, сблизьте их, чтобы увеличить масштаб, и раздвиньте их, чтобы уменьшить масштаб."
     },
     "tr": {
       "name": "Temel Kontroller",
       "description": "Oyunun temel kontrollerini öğrenin",
-      "trigger.1.title": "Temel Kontroller Öğreticisi",
+      "trigger.1.title": "Birimleri Hareket Ettirme",
       "trigger.1.message": "Birimleri seçerek ve hareket ettirmek istediğiniz yere dokunarak veya sağ tıklayarak hareket ettirebilirsiniz; biriminizi seçin ve bir Hareket emri vermek için yakındaki bir noktaya dokunun/tıklayın, ardından turunuzu gönderin.",
-      "trigger.2.title": "Temel Kontroller Öğreticisi",
+      "trigger.2.title": "Yol Çizme",
       "trigger.2.message": "Birimlerin takip edeceği yolları da çizebilirsiniz. Biriminizi seçin, ardından bir yol çizmek için haritada bir konuma tıklayın ve sürükleyin. Ardından turunuzu gönderin.",
-      "trigger.3.title": "Temel Kontroller Öğreticisi",
+      "trigger.3.title": "Uzun Hareket Emirleri",
       "trigger.3.message": "Uzun hareket emirleri verirken, okun griye döndüğünü fark edebilirsiniz. Bu, biriminizin tur için hareket sınırını gösterir. Ancak oyun, biriminizin hareketlerini birkaç tur sonra uygulayabilmesi için bu uzun emirleri kaydedecektir.",
-      "trigger.4.title": "Temel Kontroller Öğreticisi",
+      "trigger.4.title": "Birimleri Döndürme",
       "trigger.4.message": "Birimlere yerinde dönmelerini emredebilirsiniz. Bir birime tıklayın ve basılı tutun (uzun tıklama), ardından bir dönüş emri vermek için sürükleyin, sonra turunuzu gönderin.",
-      "trigger.5.title": "Temel Kontroller Öğreticisi",
+      "trigger.5.title": "Hareket ve Döndürme",
       "trigger.5.message": "Biriminizin hareket ettikten sonra belirli bir yönde dönmesini istiyorsanız, tek bir birim seçin, ardından hareket ettirmek istediğiniz yere tıklayın/dokunun ve basılı tutun. Bundan sonra, emrin sonunda dönmesini istediğiniz yöne sürükleyin. Uzun tıklama-sürükleme hareket ve dönüş emri verin, ardından turunuzu gönderin.",
-      "trigger.6.message": "Birimlerinize verebileceğiniz Koş veya Ateş Et ve İlerle gibi birden fazla emir türü vardır. Emir modalını seçin ve Koş'u etkinleştirin, ardından piyade biriminizi seçin ve bir Koş Emri verin. Birim kısa bir mesafe yürüyecek, ardından Koşmaya başlayacak - daha yüksek hızda hareket etmek ve saldırı mekaniğini etkinleştirmek için Dayanıklılık harcayarak (bu ve diğer emirler daha sonra detaylandırılacaktır). Biriminize bir Koş emri verin, ardından turunuzu gönderin."
+      "trigger.6.title": "Emir Türleri",
+      "trigger.6.message": "Birimlerinize verebileceğiniz Koş veya Ateş Et ve İlerle gibi birden fazla emir türü vardır. Emir modalını seçin ve Koş'u etkinleştirin, ardından piyade biriminizi seçin ve bir Koş Emri verin. Birim kısa bir mesafe yürüyecek, ardından Koşmaya başlayacak - daha yüksek hızda hareket etmek ve saldırı mekaniğini etkinleştirmek için Dayanıklılık harcayarak (bu ve diğer emirler daha sonra detaylandırılacaktır). Biriminize bir Koş emri verin, ardından turunuzu gönderin.",
+      "trigger.7.title": "Kamera Kontrolleri",
+      "trigger.7.message": "Son olarak; kamera kontrolleri. PC'de, kamerayı yere sağ tıklayıp sürükleyerek hareket ettirebilir ve fare tekerleğini kullanarak yakınlaştırabilirsiniz. Mobilde, kamerayı kontrol etmek için ekrana iki parmağınızla basın; kamerayı kaydırmak için her iki parmağı da aynı yönde hareket ettirin, yakınlaştırmak için birbirine yaklaştırın ve uzaklaştırmak için birbirinden uzaklaştırın."
     },
     "zh": {
       "name": "基本控制",
       "description": "学习游戏的基本控制",
-      "trigger.1.title": "基本控制教程",
+      "trigger.1.title": "移动单位",
       "trigger.1.message": "您可以通过选择单位并点击或右键点击您想要它们移动的位置来移动单位；选择您的单位并点击/轻触附近的一个点来发出移动命令，然后提交您的回合。",
-      "trigger.2.title": "基本控制教程",
+      "trigger.2.title": "绘制路径",
       "trigger.2.message": "您还可以为单位绘制路径。选择您的单位，然后在地图上点击并拖动一个位置来绘制路径。然后，提交您的回合。",
-      "trigger.3.title": "基本控制教程",
+      "trigger.3.title": "长距离移动命令",
       "trigger.3.message": "当发出长距离移动命令时，您可能会注意到箭头变成灰色。这表示您单位在本回合的移动限制。但是，游戏会保存这些长命令，以便您的单位可以在多个回合后执行其移动。",
-      "trigger.4.title": "基本控制教程",
+      "trigger.4.title": "旋转单位",
       "trigger.4.message": "您可以命令单位在原地旋转。点击并按住（长按）一个单位，然后拖动以发出旋转命令，然后提交您的回合。",
-      "trigger.5.title": "基本控制教程",
+      "trigger.5.title": "移动和旋转",
       "trigger.5.message": "如果您希望您的单位在移动后向特定方向旋转，请选择一个单位，然后点击/轻触并按住您想要它移动到的位置。之后，拖动到您希望它在命令结束时旋转的方向。发出一个长按拖动的移动和旋转命令，然后提交您的回合。",
-      "trigger.6.title": "基本控制教程",
-      "trigger.6.message": "您可以向单位发出多种命令类型，例如跑步或射击并前进。选择命令模态并激活跑步，然后选择您的步兵单位并发出跑步命令。单位将走一小段距离，然后开始跑步 - 消耗耐力以更高的速度移动并激活冲锋机制（这些和其他命令将在后面详细说明）。向您的单位发出跑步命令，然后提交您的回合。"
+      "trigger.6.title": "命令类型",
+      "trigger.6.message": "您可以向单位发出多种命令类型，例如跑步或射击并前进。选择命令模态并激活跑步，然后选择您的步兵单位并发出跑步命令。单位将走一小段距离，然后开始跑步 - 消耗耐力以更高的速度移动并激活冲锋机制（这些和其他命令将在后面详细说明）。向您的单位发出跑步命令，然后提交您的回合。",
+      "trigger.7.title": "相机控制",
+      "trigger.7.message": "最后；相机控制。在PC上，您可以通过右键单击地面并拖动来移动相机，并使用鼠标滚轮进行缩放。在移动设备上，用两个手指按压屏幕来控制相机；将两个手指向同一方向移动以移动相机，将它们靠得更近以放大，将它们分开以缩小。"
     },
     "hu": {
       "name": "Alapvető Vezérlés",
       "description": "Tanulja meg a játék alapvető vezérlését",
-      "trigger.1.title": "Alapvető Vezérlés Oktatóanyag",
+      "trigger.1.title": "Egységek Mozgatása",
       "trigger.1.message": "Mozgathatja az egységeket azzal, hogy kiválasztja őket és rákattint vagy jobb klikkel arra a helyre, ahová mozgatni szeretné őket; válassza ki az egységét és kattintson/érintse meg egy közeli pontot, hogy Mozgás parancsot adhasson, majd küldje el a körét.",
-      "trigger.2.title": "Alapvető Vezérlés Oktatóanyag",
+      "trigger.2.title": "Útvonalak Rajzolása",
       "trigger.2.message": "Útvonalakat is rajzolhat az egységek számára. Válassza ki az egységét, majd kattintson és húzza egy helyet a térképen egy útvonal rajzolásához. Ezután küldje el a körét.",
-      "trigger.3.title": "Alapvető Vezérlés Oktatóanyag",
+      "trigger.3.title": "Hosszú Mozgási Parancsok",
       "trigger.3.message": "Hosszú mozgási parancsok kiadásakor észreveheti, hogy a nyíl szürkévé válik. Ez jelzi az egysége mozgásának határát a körre. A játék azonban elmenti ezeket a hosszú parancsokat, hogy az egysége több kör után megvalósíthassa mozgásait.",
-      "trigger.4.title": "Alapvető Vezérlés Oktatóanyag",
+      "trigger.4.title": "Egységek Forgása",
       "trigger.4.message": "Parancsot adhat az egységeknek, hogy helyben forduljanak. Kattintson és tartsa nyomva (hosszú kattintás) egy egységet, majd húzza, hogy forgatási parancsot adjon, majd küldje el a körét.",
-      "trigger.5.title": "Alapvető Vezérlés Oktatóanyag",
+      "trigger.5.title": "Mozgatás és Forgás",
       "trigger.5.message": "Ha azt szeretné, hogy az egysége egy adott irányba forduljon mozgás után, válasszon ki egyetlen egységet, majd kattintson/érintse meg és tartsa nyomva azt a helyet, ahová mozgatni szeretné. Ezután húzza abba az irányba, amelybe a parancs végén szeretné, hogy forduljon. Adjon ki egy hosszú kattintás-húzás mozgás-és forgatási parancsot, majd küldje el a körét.",
-      "trigger.6.title": "Alapvető Vezérlés Oktatóanyag",
-      "trigger.6.message": "Többféle parancstípus is van, amelyet az egységeinek kiadhat, például Futás vagy Tűz és Előre. Válassza ki a parancs modalt és aktiválja a Futást, majd válassza ki a gyalogsági egységét és adjon ki egy Futás Parancsot. Az egység rövid távolságot fog gyalogolni, majd elkezd Futni - Energiát költve, hogy nagyobb sebességgel mozogjon és aktiválja a roham mechanikákat (ezek és más parancsok később részletesen be lesznek mutatva). Adjon ki egy Futás parancsot az egységének, majd küldje el a körét."
+      "trigger.6.title": "Parancstípusok",
+      "trigger.6.message": "Többféle parancstípus is van, amelyet az egységeinek kiadhat, például Futás vagy Tűz és Előre. Válassza ki a parancs modalt és aktiválja a Futást, majd válassza ki a gyalogsági egységét és adjon ki egy Futás Parancsot. Az egység rövid távolságot fog gyalogolni, majd elkezd Futni - Energiát költve, hogy nagyobb sebességgel mozogjon és aktiválja a roham mechanikákat (ezek és más parancsok később részletesen be lesznek mutatva). Adjon ki egy Futás parancsot az egységének, majd küldje el a körét.",
+      "trigger.7.title": "Kamera Vezérlés",
+      "trigger.7.message": "Végül; kamera vezérlés. PC-n a kamerát jobb klikkel a talajra kattintva és húzva mozgathatja, és az egér görgetővel nagyíthat. Mobilon két ujjal nyomja meg a képernyőt a kamera vezérléséhez; mozgassa mindkét ujját ugyanabba az irányba a kamera eltolásához, közelítse őket egymáshoz a nagyításhoz, és távolítsa el őket egymástól a kicsinyítéshez."
     },
     "ja": {
       "name": "基本操作",
       "description": "ゲームの基本操作を学ぶ",
-      "trigger.1.title": "基本操作チュートリアル",
+      "trigger.1.title": "ユニットの移動",
       "trigger.1.message": "ユニットを選択し、移動させたい場所をタップまたは右クリックすることで、ユニットを移動させることができます；ユニットを選択し、近くのポイントをタップ/クリックして移動命令を発行し、その後ターンを送信してください。",
-      "trigger.2.title": "基本操作チュートリアル",
+      "trigger.2.title": "パスの描画",
       "trigger.2.message": "ユニットが通るパスを描くこともできます。ユニットを選択し、マップ上の場所をクリックしてドラッグしてパスを描きます。その後、ターンを送信してください。",
-      "trigger.3.title": "基本操作チュートリアル",
+      "trigger.3.title": "長い移動命令",
       "trigger.3.message": "長い移動命令を発行する際、矢印が灰色になることに気づくかもしれません。これは、ターンにおけるユニットの移動の限界を示しています。ただし、ゲームはこれらの長い命令を保存するため、ユニットは複数のターンの後に移動を実行できます。",
-      "trigger.4.title": "基本操作チュートリアル",
+      "trigger.4.title": "ユニットの回転",
       "trigger.4.message": "ユニットにその場で回転するよう命令できます。ユニットをクリックして長押し（長押しクリック）し、ドラッグして回転命令を発行し、その後ターンを送信してください。",
-      "trigger.5.title": "基本操作チュートリアル",
+      "trigger.5.title": "移動と回転",
       "trigger.5.message": "ユニットを移動した後に特定の方向に回転させたい場合は、単一のユニットを選択し、移動させたい場所をクリック/タップして長押しします。その後、命令の終わりに回転させたい方向にドラッグします。長押しドラッグの移動と回転命令を発行し、その後ターンを送信してください。",
-      "trigger.6.title": "基本操作チュートリアル",
-      "trigger.6.message": "走るや射撃して前進するなど、ユニットに発行できる複数の命令タイプがあります。命令モーダルを選択して走るを有効にし、その後歩兵ユニットを選択して走る命令を発行します。ユニットは短い距離を歩き、その後走り始めます - より高い速度で移動し、突撃メカニクスを有効にするためにスタミナを消費します（これらの命令やその他の命令は後で詳しく説明されます）。ユニットに走る命令を発行し、その後ターンを送信してください。"
+      "trigger.6.title": "命令タイプ",
+      "trigger.6.message": "走るや射撃して前進するなど、ユニットに発行できる複数の命令タイプがあります。命令モーダルを選択して走るを有効にし、その後歩兵ユニットを選択して走る命令を発行します。ユニットは短い距離を歩き、その後走り始めます - より高い速度で移動し、突撃メカニクスを有効にするためにスタミナを消費します（これらの命令やその他の命令は後で詳しく説明されます）。ユニットに走る命令を発行し、その後ターンを送信してください。",
+      "trigger.7.title": "カメラ操作",
+      "trigger.7.message": "最後に；カメラ操作。PCでは、地面を右クリックしてドラッグすることでカメラを移動でき、マウスホイールを使用してズームできます。モバイルでは、2本の指で画面を押してカメラを制御します；両方の指を同じ方向に動かしてカメラをシフトし、指を近づけてズームインし、指を離してズームアウトします。"
     },
     "id": {
       "name": "Kontrol Dasar",
       "description": "Pelajari kontrol dasar permainan",
-      "trigger.1.title": "Tutorial Kontrol Dasar",
+      "trigger.1.title": "Memindahkan Unit",
       "trigger.1.message": "Anda dapat memindahkan unit dengan memilihnya dan mengetuk atau mengklik kanan di tempat yang ingin Anda pindahkan; pilih unit Anda dan ketuk/klik titik terdekat untuk mengeluarkan perintah Gerak, lalu kirim giliran Anda.",
-      "trigger.2.title": "Tutorial Kontrol Dasar",
+      "trigger.2.title": "Menggambar Jalur",
       "trigger.2.message": "Anda juga dapat menggambar jalur untuk unit yang akan diikuti. Pilih unit Anda, lalu klik dan seret lokasi di peta untuk menggambar jalur. Kemudian, kirim giliran Anda.",
-      "trigger.3.title": "Tutorial Kontrol Dasar",
+      "trigger.3.title": "Perintah Gerakan Panjang",
       "trigger.3.message": "Saat mengeluarkan perintah gerakan panjang, Anda mungkin memperhatikan panah berubah menjadi abu-abu. Ini menunjukkan batas gerakan unit Anda untuk giliran. Namun, permainan akan menyimpan perintah panjang ini sehingga unit Anda dapat mengimplementasikan gerakannya setelah beberapa giliran.",
-      "trigger.4.title": "Tutorial Kontrol Dasar",
+      "trigger.4.title": "Memutar Unit",
       "trigger.4.message": "Anda dapat memerintahkan unit untuk berputar di tempat. Klik dan tahan (klik panjang) sebuah unit, lalu seret untuk mengeluarkan perintah putar, lalu kirim giliran Anda.",
-      "trigger.5.title": "Tutorial Kontrol Dasar",
+      "trigger.5.title": "Memindahkan dan Memutar",
       "trigger.5.message": "Jika Anda ingin unit Anda berputar ke arah tertentu setelah bergerak, pilih satu unit, lalu klik/ketuk dan tahan di tempat yang ingin Anda pindahkan. Setelah ini, seret ke arah yang ingin Anda putar di akhir perintah. Keluarkan perintah gerakan dan putaran dengan klik panjang dan seret, lalu kirim giliran Anda.",
-      "trigger.6.title": "Tutorial Kontrol Dasar",
-      "trigger.6.message": "Ada beberapa jenis perintah yang dapat Anda keluarkan ke unit Anda, seperti Berlari atau Menembak dan Maju. Pilih modal perintah dan aktifkan Berlari, lalu pilih unit infanteri Anda dan keluarkan Perintah Berlari. Unit akan berjalan jarak pendek, lalu mulai Berlari - menghabiskan Stamina untuk bergerak dengan kecepatan lebih tinggi dan mengaktifkan mekanik serangan (perintah ini dan lainnya akan dijelaskan nanti). Keluarkan perintah Berlari ke unit Anda, lalu kirim giliran Anda."
+      "trigger.6.title": "Jenis Perintah",
+      "trigger.6.message": "Ada beberapa jenis perintah yang dapat Anda keluarkan ke unit Anda, seperti Berlari atau Menembak dan Maju. Pilih modal perintah dan aktifkan Berlari, lalu pilih unit infanteri Anda dan keluarkan Perintah Berlari. Unit akan berjalan jarak pendek, lalu mulai Berlari - menghabiskan Stamina untuk bergerak dengan kecepatan lebih tinggi dan mengaktifkan mekanik serangan (perintah ini dan lainnya akan dijelaskan nanti). Keluarkan perintah Berlari ke unit Anda, lalu kirim giliran Anda.",
+      "trigger.7.title": "Kontrol Kamera",
+      "trigger.7.message": "Terakhir; kontrol kamera. Di PC, Anda dapat memindahkan kamera dengan mengklik kanan pada tanah dan menyeret, serta memperbesar menggunakan roda mouse. Di ponsel, tekan layar dengan dua jari untuk mengontrol kamera; pindahkan kedua jari ke arah yang sama untuk menggeser kamera, dekatkan mereka untuk memperbesar, dan jauhkan mereka untuk memperkecil."
     },
     "kr": {
       "name": "기본 조작",
       "description": "게임의 기본 조작을 배우세요",
-      "trigger.1.title": "기본 조작 튜토리얼",
+      "trigger.1.title": "유닛 이동",
       "trigger.1.message": "유닛을 선택하고 이동시키고 싶은 곳을 탭하거나 우클릭하여 유닛을 이동시킬 수 있습니다; 유닛을 선택하고 가까운 지점을 탭/클릭하여 이동 명령을 내린 다음, 턴을 제출하세요.",
-      "trigger.2.title": "기본 조작 튜토리얼",
+      "trigger.2.title": "경로 그리기",
       "trigger.2.message": "유닛이 따라갈 경로를 그릴 수도 있습니다. 유닛을 선택한 다음 지도에서 위치를 클릭하고 드래그하여 경로를 그립니다. 그런 다음 턴을 제출하세요.",
-      "trigger.3.title": "기본 조작 튜토리얼",
+      "trigger.3.title": "긴 이동 명령",
       "trigger.3.message": "긴 이동 명령을 내릴 때 화살표가 회색으로 변하는 것을 볼 수 있습니다. 이것은 턴에 대한 유닛의 이동 한계를 나타냅니다. 그러나 게임은 이러한 긴 명령을 저장하여 유닛이 여러 턴 후에 이동을 실행할 수 있도록 합니다.",
-      "trigger.4.title": "기본 조작 튜토리얼",
+      "trigger.4.title": "유닛 회전",
       "trigger.4.message": "유닛에게 제자리에서 회전하도록 명령할 수 있습니다. 유닛을 클릭하고 길게 누르고(길게 클릭) 드래그하여 회전 명령을 내린 다음, 턴을 제출하세요.",
-      "trigger.5.title": "기본 조작 튜토리얼",
+      "trigger.5.title": "이동 및 회전",
       "trigger.5.message": "유닛이 이동한 후 특정 방향으로 회전하기를 원한다면, 단일 유닛을 선택한 다음 이동시키고 싶은 곳을 클릭/탭하고 길게 누르세요. 그 후 명령 끝에 회전시키고 싶은 방향으로 드래그하세요. 길게 클릭-드래그 이동 및 회전 명령을 내린 다음, 턴을 제출하세요.",
-      "trigger.6.title": "기본 조작 튜토리얼",
-      "trigger.6.message": "달리기 또는 사격 및 전진과 같이 유닛에 내릴 수 있는 여러 명령 유형이 있습니다. 명령 모달을 선택하고 달리기를 활성화한 다음 보병 유닛을 선택하고 달리기 명령을 내리세요. 유닛은 짧은 거리를 걸은 다음 달리기를 시작합니다 - 더 높은 속도로 이동하고 돌격 메커니즘을 활성화하기 위해 스태미나를 소비합니다 (이러한 명령과 기타 명령은 나중에 자세히 설명됩니다). 유닛에 달리기 명령을 내린 다음, 턴을 제출하세요."
+      "trigger.6.title": "명령 유형",
+      "trigger.6.message": "달리기 또는 사격 및 전진과 같이 유닛에 내릴 수 있는 여러 명령 유형이 있습니다. 명령 모달을 선택하고 달리기를 활성화한 다음 보병 유닛을 선택하고 달리기 명령을 내리세요. 유닛은 짧은 거리를 걸은 다음 달리기를 시작합니다 - 더 높은 속도로 이동하고 돌격 메커니즘을 활성화하기 위해 스태미나를 소비합니다 (이러한 명령과 기타 명령은 나중에 자세히 설명됩니다). 유닛에 달리기 명령을 내린 다음, 턴을 제출하세요.",
+      "trigger.7.title": "카메라 조작",
+      "trigger.7.message": "마지막으로; 카메라 조작. PC에서는 지면을 우클릭하고 드래그하여 카메라를 이동할 수 있으며 마우스 휠을 사용하여 확대/축소할 수 있습니다. 모바일에서는 두 손가락으로 화면을 눌러 카메라를 제어합니다; 두 손가락을 같은 방향으로 움직여 카메라를 이동하고, 가까이 모아 확대하고, 멀리 떨어뜨려 축소합니다."
     },
     "el": {
       "name": "Βασικοί Έλεγχοι",
       "description": "Μάθετε τους βασικούς ελέγχους του παιχνιδιού",
-      "trigger.1.title": "Φροντιστήριο Βασικών Ελέγχων",
+      "trigger.1.title": "Μετακίνηση Μονάδων",
       "trigger.1.message": "Μπορείτε να μετακινήσετε μονάδες επιλέγοντάς τις και πατώντας ή κάνοντας δεξί κλικ όπου θέλετε να μετακινηθούν· επιλέξτε τη μονάδα σας και πατήστε/κάντε κλικ σε ένα κοντινό σημείο για να εκδώσετε εντολή Κίνησης, στη συνέχεια υποβάλετε τη σειρά σας.",
-      "trigger.2.title": "Φροντιστήριο Βασικών Ελέγχων",
+      "trigger.2.title": "Σχεδίαση Διαδρομών",
       "trigger.2.message": "Μπορείτε επίσης να σχεδιάσετε διαδρομές για τις μονάδες να ακολουθήσουν. Επιλέξτε τη μονάδα σας, στη συνέχεια κάντε κλικ και σύρετε μια τοποθεσία στον χάρτη για να σχεδιάσετε μια διαδρομή. Στη συνέχεια, υποβάλετε τη σειρά σας.",
-      "trigger.3.title": "Φροντιστήριο Βασικών Ελέγχων",
+      "trigger.3.title": "Μακριές Εντολές Κίνησης",
       "trigger.3.message": "Όταν εκδίδετε μακριές εντολές κίνησης, μπορεί να παρατηρήσετε ότι το βέλος γίνεται γκρι. Αυτό υποδεικνύει το όριο κίνησης της μονάδας σας για τη σειρά. Ωστόσο, το παιχνίδι θα αποθηκεύσει αυτές τις μακριές εντολές ώστε η μονάδα σας να μπορεί να υλοποιήσει τις κινήσεις της μετά από πολλές σειρές.",
-      "trigger.4.title": "Φροντιστήριο Βασικών Ελέγχων",
+      "trigger.4.title": "Περιστροφή Μονάδων",
       "trigger.4.message": "Μπορείτε να διατάξετε μονάδες να περιστραφούν στη θέση τους. Κάντε κλικ και κρατήστε (μακρύ κλικ) μια μονάδα, στη συνέχεια σύρετε για να εκδώσετε εντολή περιστροφής, στη συνέχεια υποβάλετε τη σειρά σας.",
-      "trigger.5.title": "Φροντιστήριο Βασικών Ελέγχων",
+      "trigger.5.title": "Μετακίνηση και Περιστροφή",
       "trigger.5.message": "Αν θέλετε η μονάδα σας να περιστραφεί σε μια συγκεκριμένη κατεύθυνση μετά την κίνηση, επιλέξτε μια μονάδα, στη συνέχεια κάντε κλικ/πατήστε και κρατήστε όπου θέλετε να μετακινηθεί. Μετά από αυτό, σύρετε στην κατεύθυνση που θέλετε να περιστραφεί στο τέλος της εντολής. Εκδώστε μια μακριά εντολή κίνησης και περιστροφής με κλικ-σύρσιμο, στη συνέχεια υποβάλετε τη σειρά σας.",
-      "trigger.6.title": "Φροντιστήριο Βασικών Ελέγχων",
-      "trigger.6.message": "Υπάρχουν πολλοί τύποι εντολών που μπορείτε να εκδώσετε στις μονάδες σας, όπως Τρέξιμο ή Πυροβολισμός και Προέλαση. Επιλέξτε το μοντάλ εντολών και ενεργοποιήστε το Τρέξιμο, στη συνέχεια επιλέξτε τη μονάδα πεζικού σας και εκδώστε Εντολή Τρεξίματος. Η μονάδα θα περπατήσει μια μικρή απόσταση, στη συνέχεια θα αρχίσει να Τρέχει - ξοδεύοντας Αντοχή για να κινηθεί με μεγαλύτερη ταχύτητα και να ενεργοποιήσει μηχανισμούς επίθεσης (αυτές και άλλες εντολές θα αναλυθούν αργότερα). Εκδώστε μια εντολή Τρεξίματος στη μονάδα σας, στη συνέχεια υποβάλετε τη σειρά σας."
+      "trigger.6.title": "Τύποι Εντολών",
+      "trigger.6.message": "Υπάρχουν πολλοί τύποι εντολών που μπορείτε να εκδώσετε στις μονάδες σας, όπως Τρέξιμο ή Πυροβολισμός και Προέλαση. Επιλέξτε το μοντάλ εντολών και ενεργοποιήστε το Τρέξιμο, στη συνέχεια επιλέξτε τη μονάδα πεζικού σας και εκδώστε Εντολή Τρεξίματος. Η μονάδα θα περπατήσει μια μικρή απόσταση, στη συνέχεια θα αρχίσει να Τρέχει - ξοδεύοντας Αντοχή για να κινηθεί με μεγαλύτερη ταχύτητα και να ενεργοποιήσει μηχανισμούς επίθεσης (αυτές και άλλες εντολές θα αναλυθούν αργότερα). Εκδώστε μια εντολή Τρεξίματος στη μονάδα σας, στη συνέχεια υποβάλετε τη σειρά σας.",
+      "trigger.7.title": "Έλεγχος Κάμερας",
+      "trigger.7.message": "Τέλος, έλεγχος κάμερας. Στο PC, μπορείτε να μετακινήσετε την κάμερα κάνοντας δεξί κλικ στο έδαφος και σύροντας, και να κάνετε ζουμ χρησιμοποιώντας τον τροχό του ποντικιού. Στο κινητό, πιέστε την οθόνη με δύο δάχτυλα για να ελέγξετε την κάμερα· μετακινήστε και τα δύο δάχτυλα στην ίδια κατεύθυνση για να μετατοπίσετε την κάμερα, πλησιάστε τα για να κάνετε ζουμ εισερχόμενο και απομακρύνετε τα για να κάνετε ζουμ εξερχόμενο."
     },
     "ar": {
       "name": "التحكم الأساسي",
       "description": "تعلم التحكم الأساسي في اللعبة",
-      "trigger.1.title": "دليل التحكم الأساسي",
+      "trigger.1.title": "تحريك الوحدات",
       "trigger.1.message": "يمكنك تحريك الوحدات عن طريق تحديدها والنقر أو النقر بزر الماوس الأيمن حيث تريد تحريكها؛ حدد وحدتك وانقر/اضغط على نقطة قريبة لإصدار أمر الحركة، ثم أرسل دورك.",
-      "trigger.2.title": "دليل التحكم الأساسي",
+      "trigger.2.title": "رسم المسارات",
       "trigger.2.message": "يمكنك أيضًا رسم مسارات للوحدات لتتبعها. حدد وحدتك، ثم انقر واسحب موقعًا على الخريطة لرسم مسار. ثم أرسل دورك.",
-      "trigger.3.title": "دليل التحكم الأساسي",
+      "trigger.3.title": "أوامر الحركة الطويلة",
       "trigger.3.message": "عند إصدار أوامر حركة طويلة، قد تلاحظ أن السهم يتحول إلى اللون الرمادي. يشير هذا إلى حد حركة وحدتك للدور. ومع ذلك، ستحفظ اللعبة هذه الأوامر الطويلة بحيث يمكن لوحدتك تنفيذ حركاتها بعد عدة أدوار.",
-      "trigger.4.title": "دليل التحكم الأساسي",
+      "trigger.4.title": "دوران الوحدات",
       "trigger.4.message": "يمكنك أمر الوحدات بالدوران في مكانها. انقر واضغط باستمرار (نقرة طويلة) على وحدة، ثم اسحب لإصدار أمر الدوران، ثم أرسل دورك.",
-      "trigger.5.title": "دليل التحكم الأساسي",
+      "trigger.5.title": "التحريك والدوران",
       "trigger.5.message": "إذا كنت تريد أن تدور وحدتك في اتجاه معين بعد الحركة، حدد وحدة واحدة، ثم انقر/اضغط واضغط باستمرار حيث تريد تحريكها. بعد ذلك، اسحب في الاتجاه الذي تريد أن تدور فيه في نهاية الأمر. أصدر أمر حركة ودوران بنقرة طويلة وسحب، ثم أرسل دورك.",
-      "trigger.6.title": "دليل التحكم الأساسي",
-      "trigger.6.message": "هناك أنواع متعددة من الأوامر التي يمكنك إصدارها لوحداتك، مثل الجري أو إطلاق النار والتقدم. حدد نافذة الأوامر وقم بتنشيط الجري، ثم حدد وحدة المشاة الخاصة بك وأصدر أمر الجري. ستسير الوحدة مسافة قصيرة، ثم تبدأ في الجري - إنفاق القدرة على التحمل للتحرك بسرعة أعلى وتفعيل آليات الشحن (سيتم تفصيل هذه الأوامر والأوامر الأخرى لاحقًا). أصدر أمر جري لوحدتك، ثم أرسل دورك."
+      "trigger.6.title": "أنواع الأوامر",
+      "trigger.6.message": "هناك أنواع متعددة من الأوامر التي يمكنك إصدارها لوحداتك، مثل الجري أو إطلاق النار والتقدم. حدد نافذة الأوامر وقم بتنشيط الجري، ثم حدد وحدة المشاة الخاصة بك وأصدر أمر الجري. ستسير الوحدة مسافة قصيرة، ثم تبدأ في الجري - إنفاق القدرة على التحمل للتحرك بسرعة أعلى وتفعيل آليات الشحن (سيتم تفصيل هذه الأوامر والأوامر الأخرى لاحقًا). أصدر أمر جري لوحدتك، ثم أرسل دورك.",
+      "trigger.7.title": "تحكم الكاميرا",
+      "trigger.7.message": "أخيرًا؛ تحكم الكاميرا. على الكمبيوتر الشخصي، يمكنك تحريك الكاميرا بالنقر بزر الماوس الأيمن على الأرض والسحب، والتكبير باستخدام عجلة الماوس. على الهاتف المحمول، اضغط على الشاشة بإصبعين للتحكم في الكاميرا؛ حرك كلا الإصبعين في نفس الاتجاه لتحريك الكاميرا، وقرّبهما معًا للتكبير، وباعدهما للتصغير."
     },
     "hi": {
       "name": "मूल नियंत्रण",
       "description": "खेल के मूल नियंत्रण सीखें",
-      "trigger.1.title": "मूल नियंत्रण ट्यूटोरियल",
+      "trigger.1.title": "इकाइयों को स्थानांतरित करना",
       "trigger.1.message": "आप इकाइयों को चुनकर और उन्हें जहां ले जाना चाहते हैं वहां टैप या राइट क्लिक करके इकाइयों को स्थानांतरित कर सकते हैं; अपनी इकाई का चयन करें और एक मूव ऑर्डर जारी करने के लिए एक निकट बिंदु पर टैप/क्लिक करें, फिर अपना चाल सबमिट करें।",
-      "trigger.2.title": "मूल नियंत्रण ट्यूटोरियल",
+      "trigger.2.title": "पथ खींचना",
       "trigger.2.message": "आप इकाइयों के लिए पथ भी खींच सकते हैं। अपनी इकाई का चयन करें, फिर मानचित्र पर एक स्थान पर क्लिक करें और खींचें ताकि एक पथ खींच सकें। फिर, अपना चाल सबमिट करें।",
-      "trigger.3.title": "मूल नियंत्रण ट्यूटोरियल",
+      "trigger.3.title": "लंबे गति आदेश",
       "trigger.3.message": "लंबे गति आदेश जारी करते समय, आप देख सकते हैं कि तीर भूरा हो जाता है। यह चाल के लिए आपकी इकाई की गति की सीमा को दर्शाता है। हालांकि, खेल इन लंबे आदेशों को सहेजेगा ताकि आपकी इकाई कई चालों के बाद अपनी गतिविधियों को लागू कर सके।",
-      "trigger.4.title": "मूल नियंत्रण ट्यूटोरियल",
+      "trigger.4.title": "इकाइयों को घुमाना",
       "trigger.4.message": "आप इकाइयों को जगह में घुमाने का आदेश दे सकते हैं। एक इकाई पर क्लिक करें और होल्ड करें (लॉन्ग-क्लिक), फिर एक रोटेट ऑर्डर जारी करने के लिए खींचें, फिर अपना चाल सबमिट करें।",
-      "trigger.5.title": "मूल नियंत्रण ट्यूटोरियल",
+      "trigger.5.title": "स्थानांतरण और घुमाव",
       "trigger.5.message": "यदि आप चाहते हैं कि आपकी इकाई चलने के बाद एक विशेष दिशा में घूमे, तो एक इकाई का चयन करें, फिर जहां आप इसे ले जाना चाहते हैं वहां क्लिक/टैप करें और होल्ड करें। इसके बाद, उस दिशा में खींचें जिसमें आप चाहते हैं कि यह आदेश के अंत में घूमे। एक लॉन्ग क्लिक-ड्रैग मूव-एंड-रोटेट ऑर्डर जारी करें, फिर अपना चाल सबमिट करें।",
-      "trigger.6.title": "मूल नियंत्रण ट्यूटोरियल",
-      "trigger.6.message": "कई आदेश प्रकार हैं जो आप अपनी इकाइयों को जारी कर सकते हैं, जैसे रन या फायर एंड एडवांस। आदेश मोडल का चयन करें और रन को सक्रिय करें, फिर अपनी पैदल सेना इकाई का चयन करें और एक रन ऑर्डर जारी करें। इकाई थोड़ी दूरी चलेगी, फिर दौड़ना शुरू करेगी - उच्च गति से चलने और चार्ज मैकेनिक्स को सक्रिय करने के लिए स्टैमिना खर्च करना (ये और अन्य आदेश बाद में विस्तृत किए जाएंगे)। अपनी इकाई को एक रन ऑर्डर जारी करें, फिर अपना चाल सबमिट करें।"
+      "trigger.6.title": "आदेश प्रकार",
+      "trigger.6.message": "कई आदेश प्रकार हैं जो आप अपनी इकाइयों को जारी कर सकते हैं, जैसे रन या फायर एंड एडवांस। आदेश मोडल का चयन करें और रन को सक्रिय करें, फिर अपनी पैदल सेना इकाई का चयन करें और एक रन ऑर्डर जारी करें। इकाई थोड़ी दूरी चलेगी, फिर दौड़ना शुरू करेगी - उच्च गति से चलने और चार्ज मैकेनिक्स को सक्रिय करने के लिए स्टैमिना खर्च करना (ये और अन्य आदेश बाद में विस्तृत किए जाएंगे)। अपनी इकाई को एक रन ऑर्डर जारी करें, फिर अपना चाल सबमिट करें।",
+      "trigger.7.title": "कैमरा नियंत्रण",
+      "trigger.7.message": "अंत में; कैमरा नियंत्रण। PC पर, आप जमीन पर राइट-क्लिक करके और खींचकर कैमरा को स्थानांतरित कर सकते हैं, और माउस व्हील का उपयोग करके ज़ूम कर सकते हैं। मोबाइल पर, कैमरा को नियंत्रित करने के लिए दो उंगलियों से स्क्रीन दबाएं; कैमरा को स्थानांतरित करने के लिए दोनों उंगलियों को एक ही दिशा में ले जाएं, ज़ूम इन करने के लिए उन्हें एक साथ लाएं, और ज़ूम आउट करने के लिए उन्हें अलग करें।"
     },
     "vi": {
       "name": "Điều Khiển Cơ Bản",
       "description": "Học các điều khiển cơ bản của trò chơi",
-      "trigger.1.title": "Hướng Dẫn Điều Khiển Cơ Bản",
+      "trigger.1.title": "Di Chuyển Đơn Vị",
       "trigger.1.message": "Bạn có thể di chuyển đơn vị bằng cách chọn chúng và nhấn hoặc nhấp chuột phải vào nơi bạn muốn chúng di chuyển; chọn đơn vị của bạn và nhấn/nhấp vào một điểm gần đó để phát lệnh Di chuyển, sau đó gửi lượt của bạn.",
-      "trigger.2.title": "Hướng Dẫn Điều Khiển Cơ Bản",
+      "trigger.2.title": "Vẽ Đường Đi",
       "trigger.2.message": "Bạn cũng có thể vẽ đường đi cho các đơn vị. Chọn đơn vị của bạn, sau đó nhấp và kéo một vị trí trên bản đồ để vẽ đường đi. Sau đó, gửi lượt của bạn.",
-      "trigger.3.title": "Hướng Dẫn Điều Khiển Cơ Bản",
+      "trigger.3.title": "Lệnh Di Chuyển Dài",
       "trigger.3.message": "Khi phát lệnh di chuyển dài, bạn có thể nhận thấy mũi tên chuyển sang màu xám. Điều này cho biết giới hạn di chuyển của đơn vị của bạn cho lượt. Tuy nhiên, trò chơi sẽ lưu các lệnh dài này để đơn vị của bạn có thể thực hiện các di chuyển sau nhiều lượt.",
-      "trigger.4.title": "Hướng Dẫn Điều Khiển Cơ Bản",
+      "trigger.4.title": "Xoay Đơn Vị",
       "trigger.4.message": "Bạn có thể ra lệnh cho các đơn vị xoay tại chỗ. Nhấp và giữ (nhấp dài) một đơn vị, sau đó kéo để phát lệnh xoay, sau đó gửi lượt của bạn.",
-      "trigger.5.title": "Hướng Dẫn Điều Khiển Cơ Bản",
+      "trigger.5.title": "Di Chuyển và Xoay",
       "trigger.5.message": "Nếu bạn muốn đơn vị của bạn xoay theo một hướng cụ thể sau khi di chuyển, hãy chọn một đơn vị, sau đó nhấp/nhấn và giữ nơi bạn muốn nó di chuyển đến. Sau đó, kéo theo hướng bạn muốn nó xoay ở cuối lệnh. Phát lệnh di chuyển và xoay bằng cách nhấp dài và kéo, sau đó gửi lượt của bạn.",
-      "trigger.6.title": "Hướng Dẫn Điều Khiển Cơ Bản",
-      "trigger.6.message": "Có nhiều loại lệnh bạn có thể phát cho các đơn vị của mình, chẳng hạn như Chạy hoặc Bắn và Tiến lên. Chọn modal lệnh và kích hoạt Chạy, sau đó chọn đơn vị bộ binh của bạn và phát Lệnh Chạy. Đơn vị sẽ đi bộ một quãng ngắn, sau đó bắt đầu Chạy - tiêu tốn Sức bền để di chuyển với tốc độ cao hơn và kích hoạt cơ chế tấn công (các lệnh này và các lệnh khác sẽ được mô tả chi tiết sau). Phát lệnh Chạy cho đơn vị của bạn, sau đó gửi lượt của bạn."
+      "trigger.6.title": "Loại Lệnh",
+      "trigger.6.message": "Có nhiều loại lệnh bạn có thể phát cho các đơn vị của mình, chẳng hạn như Chạy hoặc Bắn và Tiến lên. Chọn modal lệnh và kích hoạt Chạy, sau đó chọn đơn vị bộ binh của bạn và phát Lệnh Chạy. Đơn vị sẽ đi bộ một quãng ngắn, sau đó bắt đầu Chạy - tiêu tốn Sức bền để di chuyển với tốc độ cao hơn và kích hoạt cơ chế tấn công (các lệnh này và các lệnh khác sẽ được mô tả chi tiết sau). Phát lệnh Chạy cho đơn vị của bạn, sau đó gửi lượt của bạn.",
+      "trigger.7.title": "Điều Khiển Camera",
+      "trigger.7.message": "Cuối cùng; điều khiển camera. Trên PC, bạn có thể di chuyển camera bằng cách nhấp chuột phải vào mặt đất và kéo, và phóng to bằng cách sử dụng bánh xe chuột. Trên điện thoại di động, nhấn màn hình bằng hai ngón tay để điều khiển camera; di chuyển cả hai ngón tay cùng hướng để dịch chuyển camera, đưa chúng lại gần nhau để phóng to, và đưa chúng ra xa nhau để thu nhỏ."
     }
   }
 }

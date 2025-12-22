@@ -1,0 +1,10 @@
+{
+  "minimize": "Küçült",
+  "showMessages": "Mesajları Göster",
+  "dismiss": "Kapat",
+  "previous": "Önceki",
+  "next": "Sonraki",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Mesaj"
+}
+

@@ -83,6 +83,11 @@
     "vpsModifierMultiplier": 1.0
   },
   "tutorial": {
-    "scenarios": ["tutorial-basic-controls"]
+    "scenarios": [
+      "tutorial-basic-controls",
+      "tutorial-control-groups",
+      "tutorial-infantry-formations",
+      "tutorial-unit-management"
+    ]
   }
 }

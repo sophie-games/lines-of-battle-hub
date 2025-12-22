@@ -1,0 +1,10 @@
+{
+  "minimize": "Minimalizálás",
+  "showMessages": "Üzenetek Megjelenítése",
+  "dismiss": "Elutasítás",
+  "previous": "Előző",
+  "next": "Következő",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Üzenet"
+}
+

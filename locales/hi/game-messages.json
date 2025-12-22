@@ -1,0 +1,10 @@
+{
+  "minimize": "छोटा करें",
+  "showMessages": "संदेश दिखाएं",
+  "dismiss": "खारिज करें",
+  "previous": "पिछला",
+  "next": "अगला",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "संदेश"
+}
+

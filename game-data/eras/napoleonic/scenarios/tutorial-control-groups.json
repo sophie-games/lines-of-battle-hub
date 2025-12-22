@@ -1,0 +1,1197 @@
+{
+  "name": "name",
+  "description": "description",
+  "type": "preset",
+  "conquestVictory": false,
+  "hidden": true,
+  "players": [
+    { "player": 1, "team": 1, "ammoReserve": 3500, "baseAmmoReserve": 3500 },
+    { "player": 2, "team": 2, "ammoReserve": 3500, "baseAmmoReserve": 3500 }
+  ],
+  "map": {
+    "width": 768,
+    "height": 768,
+    "terrains": [
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    ],
+    "heightMap": [
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ],
+      [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    ]
+  },
+  "units": [
+    {
+      "name": "unit1",
+      "player": 1,
+      "pos": { "x": 274.81, "y": 644.59 },
+      "rotation": 4.71,
+      "type": 1
+    },
+    {
+      "name": "unit2",
+      "player": 1,
+      "pos": { "x": 299.42, "y": 645.43 },
+      "rotation": 4.71,
+      "type": 1
+    },
+    {
+      "name": "unit3",
+      "player": 1,
+      "pos": { "x": 327.33, "y": 643.41 },
+      "rotation": 4.71,
+      "type": 1
+    },
+    {
+      "name": "unit4",
+      "player": 1,
+      "pos": { "x": 355.83, "y": 647.89 },
+      "rotation": 4.71,
+      "type": 1
+    },
+    {
+      "name": "unit5",
+      "player": 1,
+      "pos": { "x": 386.21, "y": 645.38 },
+      "rotation": 4.71,
+      "type": 1
+    },
+    {
+      "name": "unit6",
+      "player": 1,
+      "pos": { "x": 414.32, "y": 648.08 },
+      "rotation": 4.71,
+      "type": 1
+    },
+    {
+      "name": "unit7",
+      "player": 1,
+      "pos": { "x": 441.59, "y": 648.72 },
+      "rotation": 4.71,
+      "type": 1
+    },
+    {
+      "name": "unit8",
+      "player": 1,
+      "pos": { "x": 497.96, "y": 646.4 },
+      "rotation": 4.71,
+      "type": 1
+    },
+    {
+      "name": "unit9",
+      "player": 1,
+      "pos": { "x": 470.05, "y": 644.03 },
+      "rotation": 4.71,
+      "type": 1
+    }
+  ],
+  "objectives": [],
+  "triggers": [
+    {
+      "event": "onTurnStart",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "event": "onTurnEnd",
+      "conditions": [
+        {
+          "type": "unitMovedThisTurn",
+          "value": "unit1"
+        },
+        {
+          "type": "unitMovedThisTurn",
+          "value": "unit2"
+        },
+        {
+          "type": "unitMovedThisTurn",
+          "value": "unit3"
+        }
+      ],
+      "conditionLogic": "OR",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "mass_selection_done",
+            "value": 1
+          }
+        }
+      ]
+    },
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.1.title",
+            "message": "trigger.1.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "mass_selection_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.2.title",
+            "message": "trigger.2.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnEnd",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "mass_selection_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "follow_order_done",
+            "value": 0,
+            "not": true
+          }
+        },
+        {
+          "type": "unitMovedThisTurn",
+          "value": "unit1"
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "follow_order_done",
+            "value": 1
+          }
+        }
+      ]
+    },
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "follow_order_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.3.title",
+            "message": "trigger.3.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnEnd",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "follow_order_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "move_many_done",
+            "value": 0,
+            "not": true
+          }
+        },
+        {
+          "type": "unitMovedThisTurn",
+          "value": "unit1"
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "move_many_done",
+            "value": 1
+          }
+        }
+      ]
+    },
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "move_many_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.4.title",
+            "message": "trigger.4.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnEnd",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "move_many_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "draw_path_done",
+            "value": 0,
+            "not": true
+          }
+        },
+        {
+          "type": "unitMovedThisTurn",
+          "value": "unit1"
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "draw_path_done",
+            "value": 1
+          }
+        }
+      ]
+    },
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "draw_path_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.5.title",
+            "message": "trigger.5.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnEnd",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "draw_path_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "draw_line_done",
+            "value": 0,
+            "not": true
+          }
+        },
+        {
+          "type": "unitMovedThisTurn",
+          "value": "unit1"
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "draw_line_done",
+            "value": 1
+          }
+        }
+      ]
+    },
+    {
+      "event": "onTurnStart",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "draw_line_done",
+            "value": 1
+          }
+        },
+        {
+          "type": "isVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 0
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "setVar",
+          "value": {
+            "name": "trigger_executed",
+            "value": 1
+          }
+        },
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.6.title",
+            "message": "trigger.6.message"
+          }
+        },
+        {
+          "type": "setVar",
+          "value": {
+            "name": "tutorial_completed",
+            "value": 1
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnEnd",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "tutorial_completed",
+            "value": 1
+          }
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "endGame",
+          "value": {
+            "reason": "victory"
+          }
+        }
+      ],
+      "once": true
+    }
+  ],
+  "locales": {
+    "en": {
+      "name": "Control Groups",
+      "description": "Learn to efficiently control many units",
+      "trigger.1.title": "Mass Controls",
+      "trigger.1.message": "Efficient control of many units is key to success in Lines of Battle. The game offers many tools to smoothly control many units. By double-tapping/clicking a single unit, you can select all units of its type that are within the camera. You can also create a selection box by right clicking on the ground and dragging on PC, or doing a long-tap on the ground and dragging on mobile. Select multiple units using one of these methods, then issue a move order and submit your turn.",
+      "trigger.2.title": "Follow Order",
+      "trigger.2.message": "One useful control tool is the Follow Order. Select all units, then right click or long-tap one of your units; this will create an optimized chain of Follow Orders, where each unit will follow the next during your turn. Issue a Follow Order to all units and then submit your turn.",
+      "trigger.3.title": "Moving Many Units",
+      "trigger.3.message": "After selecting many units, you can right-click a point on the ground to make all selected units move in that direction. Issue a move order to many units and then submit your turn.",
+      "trigger.4.title": "Draw Path for Many Units",
+      "trigger.4.message": "In the first tutorial scenario, you learned how to draw a path order with a single unit. You can also do this with many units. Double click or use a selection box to select all units, then click/tap and hold one of the units you've selected and drag. This way, you can draw a path for many units. Perform a draw path order for all units under your control and submit your turn.",
+      "trigger.5.title": "Draw Line",
+      "trigger.5.message": "You can order units to move to a straight or curved line by selecting many units, and then click/tap hold-and-drag on the ground. If you're having difficulty drawing straight lines, you can increase the buffer value in control settings. You may also disable Draw Line if you'd prefer to use this input to draw paths. Issue a draw line order and submit your turn.",
+      "trigger.6.title": "Tutorial Complete",
+      "trigger.6.message": "Congratulations! You've learned the essential mass control techniques. These skills will help you manage large armies effectively in battle."
+    },
+    "es": {
+      "name": "Grupos de Control",
+      "description": "Aprende a controlar eficientemente muchas unidades",
+      "trigger.1.title": "Controles Masivos",
+      "trigger.1.message": "El control eficiente de muchas unidades es clave para el éxito en Lines of Battle. El juego ofrece muchas herramientas para controlar suavemente muchas unidades. Al hacer doble toque/clic en una sola unidad, puedes seleccionar todas las unidades de su tipo que estén dentro de la cámara. También puedes crear una caja de selección haciendo clic derecho en el suelo y arrastrando en PC, o haciendo una pulsación larga en el suelo y arrastrando en móvil. Selecciona múltiples unidades usando uno de estos métodos, luego emite una orden de movimiento y envía tu turno.",
+      "trigger.2.title": "Orden de Seguimiento",
+      "trigger.2.message": "Una herramienta de control útil es la Orden de Seguimiento. Selecciona todas las unidades, luego haz clic derecho o pulsa largo una de tus unidades; esto creará una cadena optimizada de Órdenes de Seguimiento, donde cada unidad seguirá a la siguiente durante tu turno. Emite una Orden de Seguimiento a todas las unidades y luego envía tu turno.",
+      "trigger.3.title": "Mover Muchas Unidades",
+      "trigger.3.message": "Después de seleccionar muchas unidades, puedes hacer clic derecho en un punto del suelo para hacer que todas las unidades seleccionadas se muevan en esa dirección. Emite una orden de movimiento a muchas unidades y luego envía tu turno.",
+      "trigger.4.title": "Dibujar Ruta para Muchas Unidades",
+      "trigger.4.message": "En el primer escenario tutorial, aprendiste cómo dibujar una orden de ruta con una sola unidad. También puedes hacer esto con muchas unidades. Haz doble clic o usa una caja de selección para seleccionar todas las unidades, luego haz clic/toca y mantén presionada una de las unidades que has seleccionado y arrastra. De esta manera, puedes dibujar una ruta para muchas unidades. Realiza una orden de dibujar ruta para todas las unidades bajo tu control y envía tu turno.",
+      "trigger.5.title": "Dibujar Línea",
+      "trigger.5.message": "Puedes ordenar a las unidades que se muevan a una línea recta o curva seleccionando muchas unidades, y luego hacer clic/toca mantener y arrastrar en el suelo. Si tienes dificultades para dibujar líneas rectas, puedes aumentar el valor del buffer en la configuración de controles. También puedes desactivar Dibujar Línea si prefieres usar esta entrada para dibujar rutas. Emite una orden de dibujar línea y envía tu turno.",
+      "trigger.6.title": "Tutorial Completo",
+      "trigger.6.message": "¡Felicitaciones! Has aprendido las técnicas esenciales de control masivo. Estas habilidades te ayudarán a gestionar grandes ejércitos de manera efectiva en batalla."
+    },
+    "fr": {
+      "name": "Groupes de Contrôle",
+      "description": "Apprenez à contrôler efficacement de nombreuses unités",
+      "trigger.1.title": "Contrôles de Masse",
+      "trigger.1.message": "Le contrôle efficace de nombreuses unités est essentiel pour réussir dans Lines of Battle. Le jeu offre de nombreux outils pour contrôler en douceur de nombreuses unités. En double-tap/clic sur une seule unité, vous pouvez sélectionner toutes les unités de son type qui sont dans la caméra. Vous pouvez également créer une boîte de sélection en cliquant avec le bouton droit sur le sol et en faisant glisser sur PC, ou en faisant un appui long sur le sol et en faisant glisser sur mobile. Sélectionnez plusieurs unités en utilisant l'une de ces méthodes, puis donnez un ordre de mouvement et validez votre tour.",
+      "trigger.2.title": "Ordre de Suivi",
+      "trigger.2.message": "Un outil de contrôle utile est l'Ordre de Suivi. Sélectionnez toutes les unités, puis faites un clic droit ou un appui long sur l'une de vos unités; cela créera une chaîne optimisée d'Ordres de Suivi, où chaque unité suivra la suivante pendant votre tour. Donnez un Ordre de Suivi à toutes les unités puis validez votre tour.",
+      "trigger.3.title": "Déplacer de Nombreuses Unités",
+      "trigger.3.message": "Après avoir sélectionné de nombreuses unités, vous pouvez faire un clic droit sur un point au sol pour faire déplacer toutes les unités sélectionnées dans cette direction. Donnez un ordre de mouvement à de nombreuses unités puis validez votre tour.",
+      "trigger.4.title": "Dessiner un Chemin pour de Nombreuses Unités",
+      "trigger.4.message": "Dans le premier scénario tutoriel, vous avez appris à dessiner un ordre de chemin avec une seule unité. Vous pouvez également le faire avec de nombreuses unités. Double-cliquez ou utilisez une boîte de sélection pour sélectionner toutes les unités, puis cliquez/appuyez et maintenez l'une des unités que vous avez sélectionnées et faites glisser. De cette façon, vous pouvez dessiner un chemin pour de nombreuses unités. Effectuez un ordre de dessin de chemin pour toutes les unités sous votre contrôle et validez votre tour.",
+      "trigger.5.title": "Dessiner une Ligne",
+      "trigger.5.message": "Vous pouvez ordonner aux unités de se déplacer vers une ligne droite ou courbe en sélectionnant de nombreuses unités, puis en cliquant/appuyant en maintenant et en faisant glisser sur le sol. Si vous avez des difficultés à dessiner des lignes droites, vous pouvez augmenter la valeur du tampon dans les paramètres de contrôle. Vous pouvez également désactiver Dessiner une Ligne si vous préférez utiliser cette entrée pour dessiner des chemins. Donnez un ordre de dessin de ligne et validez votre tour.",
+      "trigger.6.title": "Tutoriel Terminé",
+      "trigger.6.message": "Félicitations ! Vous avez appris les techniques essentielles de contrôle de masse. Ces compétences vous aideront à gérer efficacement de grandes armées au combat."
+    },
+    "de": {
+      "name": "Kontrollgruppen",
+      "description": "Lerne, viele Einheiten effizient zu kontrollieren",
+      "trigger.1.title": "Massensteuerung",
+      "trigger.1.message": "Die effiziente Kontrolle vieler Einheiten ist der Schlüssel zum Erfolg in Lines of Battle. Das Spiel bietet viele Werkzeuge, um viele Einheiten reibungslos zu kontrollieren. Durch doppeltes Tippen/Klicken auf eine einzelne Einheit kannst du alle Einheiten ihres Typs auswählen, die sich in der Kamera befinden. Du kannst auch ein Auswahlfeld erstellen, indem du mit der rechten Maustaste auf den Boden klickst und auf dem PC ziehst, oder einen langen Tipp auf den Boden machst und auf dem Mobilgerät ziehst. Wähle mehrere Einheiten mit einer dieser Methoden aus, dann erteile einen Bewegungsbefehl und sende deinen Zug.",
+      "trigger.2.title": "Folgebefehl",
+      "trigger.2.message": "Ein nützliches Steuerungswerkzeug ist der Folgebefehl. Wähle alle Einheiten aus, dann klicke mit der rechten Maustaste oder tippe lange auf eine deiner Einheiten; dies erstellt eine optimierte Kette von Folgebefehlen, bei der jede Einheit während deines Zuges der nächsten folgt. Erteile einen Folgebefehl an alle Einheiten und sende dann deinen Zug.",
+      "trigger.3.title": "Viele Einheiten Bewegen",
+      "trigger.3.message": "Nachdem du viele Einheiten ausgewählt hast, kannst du mit der rechten Maustaste auf einen Punkt am Boden klicken, um alle ausgewählten Einheiten in diese Richtung zu bewegen. Erteile einen Bewegungsbefehl an viele Einheiten und sende dann deinen Zug.",
+      "trigger.4.title": "Weg für Viele Einheiten Zeichnen",
+      "trigger.4.message": "Im ersten Tutorial-Szenario hast du gelernt, wie man einen Wegbefehl mit einer einzelnen Einheit zeichnet. Du kannst dies auch mit vielen Einheiten tun. Doppelklicke oder verwende ein Auswahlfeld, um alle Einheiten auszuwählen, dann klicke/tippe und halte eine der ausgewählten Einheiten gedrückt und ziehe. Auf diese Weise kannst du einen Weg für viele Einheiten zeichnen. Führe einen Wegbefehl für alle Einheiten unter deiner Kontrolle aus und sende deinen Zug.",
+      "trigger.5.title": "Linie Zeichnen",
+      "trigger.5.message": "Du kannst Einheiten anweisen, sich zu einer geraden oder gekrümmten Linie zu bewegen, indem du viele Einheiten auswählst und dann auf den Boden klickst/tippst, hältst und ziehst. Wenn du Schwierigkeiten beim Zeichnen gerader Linien hast, kannst du den Pufferwert in den Steuerungseinstellungen erhöhen. Du kannst auch Linie Zeichnen deaktivieren, wenn du diesen Eingang lieber zum Zeichnen von Wegen verwenden möchtest. Erteile einen Linienzeichnungsbefehl und sende deinen Zug.",
+      "trigger.6.title": "Tutorial Abgeschlossen",
+      "trigger.6.message": "Glückwunsch! Du hast die wesentlichen Massenkontrolltechniken gelernt. Diese Fähigkeiten werden dir helfen, große Armeen im Kampf effektiv zu verwalten."
+    },
+    "pt": {
+      "name": "Grupos de Controle",
+      "description": "Aprenda a controlar eficientemente muitas unidades",
+      "trigger.1.title": "Controles em Massa",
+      "trigger.1.message": "O controle eficiente de muitas unidades é fundamental para o sucesso em Lines of Battle. O jogo oferece muitas ferramentas para controlar suavemente muitas unidades. Ao tocar/clicar duas vezes em uma única unidade, você pode selecionar todas as unidades de seu tipo que estão dentro da câmera. Você também pode criar uma caixa de seleção clicando com o botão direito no chão e arrastando no PC, ou fazendo um toque longo no chão e arrastando no celular. Selecione múltiplas unidades usando um desses métodos, depois emita uma ordem de movimento e envie seu turno.",
+      "trigger.2.title": "Ordem de Seguir",
+      "trigger.2.message": "Uma ferramenta de controle útil é a Ordem de Seguir. Selecione todas as unidades, depois clique com o botão direito ou toque longo em uma de suas unidades; isso criará uma cadeia otimizada de Ordens de Seguir, onde cada unidade seguirá a próxima durante seu turno. Emita uma Ordem de Seguir para todas as unidades e depois envie seu turno.",
+      "trigger.3.title": "Movendo Muitas Unidades",
+      "trigger.3.message": "Depois de selecionar muitas unidades, você pode clicar com o botão direito em um ponto no chão para fazer todas as unidades selecionadas se moverem nessa direção. Emita uma ordem de movimento para muitas unidades e depois envie seu turno.",
+      "trigger.4.title": "Desenhar Caminho para Muitas Unidades",
+      "trigger.4.message": "No primeiro cenário tutorial, você aprendeu como desenhar uma ordem de caminho com uma única unidade. Você também pode fazer isso com muitas unidades. Clique duas vezes ou use uma caixa de seleção para selecionar todas as unidades, depois clique/toque e segure uma das unidades que você selecionou e arraste. Dessa forma, você pode desenhar um caminho para muitas unidades. Execute uma ordem de desenhar caminho para todas as unidades sob seu controle e envie seu turno.",
+      "trigger.5.title": "Desenhar Linha",
+      "trigger.5.message": "Você pode ordenar unidades a se moverem para uma linha reta ou curva selecionando muitas unidades, e depois clicar/tocar manter e arrastar no chão. Se você está tendo dificuldade para desenhar linhas retas, pode aumentar o valor do buffer nas configurações de controle. Você também pode desabilitar Desenhar Linha se preferir usar essa entrada para desenhar caminhos. Emita uma ordem de desenhar linha e envie seu turno.",
+      "trigger.6.title": "Tutorial Completo",
+      "trigger.6.message": "Parabéns! Você aprendeu as técnicas essenciais de controle em massa. Essas habilidades ajudarão você a gerenciar grandes exércitos efetivamente em batalha."
+    },
+    "it": {
+      "name": "Gruppi di Controllo",
+      "description": "Impara a controllare efficientemente molte unità",
+      "trigger.1.title": "Controlli di Massa",
+      "trigger.1.message": "Il controllo efficiente di molte unità è fondamentale per il successo in Lines of Battle. Il gioco offre molti strumenti per controllare agevolmente molte unità. Tocca/clicca due volte su una singola unità per selezionare tutte le unità del suo tipo che sono all'interno della telecamera. Puoi anche creare una casella di selezione cliccando con il tasto destro sul terreno e trascinando su PC, o facendo un tocco lungo sul terreno e trascinando su mobile. Seleziona più unità usando uno di questi metodi, poi emetti un ordine di movimento e invia il tuo turno.",
+      "trigger.2.title": "Ordine di Seguito",
+      "trigger.2.message": "Uno strumento di controllo utile è l'Ordine di Seguito. Seleziona tutte le unità, poi clicca con il tasto destro o tocca a lungo una delle tue unità; questo creerà una catena ottimizzata di Ordini di Seguito, dove ogni unità seguirà la successiva durante il tuo turno. Emetti un Ordine di Seguito a tutte le unità e poi invia il tuo turno.",
+      "trigger.3.title": "Muovere Molte Unità",
+      "trigger.3.message": "Dopo aver selezionato molte unità, puoi cliccare con il tasto destro su un punto del terreno per far muovere tutte le unità selezionate in quella direzione. Emetti un ordine di movimento a molte unità e poi invia il tuo turno.",
+      "trigger.4.title": "Disegnare un Percorso per Molte Unità",
+      "trigger.4.message": "Nel primo scenario tutorial, hai imparato come disegnare un ordine di percorso con una singola unità. Puoi anche farlo con molte unità. Fai doppio clic o usa una casella di selezione per selezionare tutte le unità, poi clicca/tocca e tieni premuta una delle unità che hai selezionato e trascina. In questo modo, puoi disegnare un percorso per molte unità. Esegui un ordine di disegno percorso per tutte le unità sotto il tuo controllo e invia il tuo turno.",
+      "trigger.5.title": "Disegnare una Linea",
+      "trigger.5.message": "Puoi ordinare alle unità di muoversi verso una linea retta o curva selezionando molte unità, e poi cliccando/toccando mantenendo premuto e trascinando sul terreno. Se hai difficoltà a disegnare linee rette, puoi aumentare il valore del buffer nelle impostazioni di controllo. Puoi anche disabilitare Disegnare una Linea se preferisci usare questo input per disegnare percorsi. Emetti un ordine di disegno linea e invia il tuo turno.",
+      "trigger.6.title": "Tutorial Completato",
+      "trigger.6.message": "Congratulazioni! Hai imparato le tecniche essenziali di controllo di massa. Queste abilità ti aiuteranno a gestire efficacemente grandi eserciti in battaglia."
+    },
+    "pl": {
+      "name": "Grupy Kontrolne",
+      "description": "Naucz się efektywnie kontrolować wiele jednostek",
+      "trigger.1.title": "Kontrola Masowa",
+      "trigger.1.message": "Efektywna kontrola wielu jednostek jest kluczem do sukcesu w Lines of Battle. Gra oferuje wiele narzędzi do płynnego kontrolowania wielu jednostek. Dwukrotnie dotykając/klikając pojedynczą jednostkę, możesz wybrać wszystkie jednostki jej typu, które znajdują się w kamerze. Możesz również utworzyć pole wyboru, klikając prawym przyciskiem na ziemię i przeciągając na PC, lub wykonując długie naciśnięcie na ziemię i przeciągając na urządzeniu mobilnym. Wybierz wiele jednostek używając jednej z tych metod, następnie wydaj rozkaz ruchu i prześlij swoją turę.",
+      "trigger.2.title": "Rozkaz Podążania",
+      "trigger.2.message": "Jednym z przydatnych narzędzi kontroli jest Rozkaz Podążania. Wybierz wszystkie jednostki, następnie kliknij prawym przyciskiem lub długo naciśnij jedną ze swoich jednostek; to utworzy zoptymalizowany łańcuch Rozkazów Podążania, gdzie każda jednostka będzie podążać za następną podczas twojej tury. Wydaj Rozkaz Podążania wszystkim jednostkom, a następnie prześlij swoją turę.",
+      "trigger.3.title": "Poruszanie Wieloma Jednostkami",
+      "trigger.3.message": "Po wybraniu wielu jednostek możesz kliknąć prawym przyciskiem punkt na ziemi, aby wszystkie wybrane jednostki poruszyły się w tym kierunku. Wydaj rozkaz ruchu wielu jednostkom, a następnie prześlij swoją turę.",
+      "trigger.4.title": "Rysowanie Ścieżki dla Wielu Jednostek",
+      "trigger.4.message": "W pierwszym scenariuszu tutorialowym nauczyłeś się, jak rysować rozkaz ścieżki z pojedynczą jednostką. Możesz również zrobić to z wieloma jednostkami. Kliknij dwukrotnie lub użyj pola wyboru, aby wybrać wszystkie jednostki, następnie kliknij/dotknij i przytrzymaj jedną z wybranych jednostek i przeciągnij. W ten sposób możesz narysować ścieżkę dla wielu jednostek. Wykonaj rozkaz rysowania ścieżki dla wszystkich jednostek pod twoją kontrolą i prześlij swoją turę.",
+      "trigger.5.title": "Rysowanie Linii",
+      "trigger.5.message": "Możesz rozkazać jednostkom, aby poruszyły się do prostej lub zakrzywionej linii, wybierając wiele jednostek, a następnie klikając/dotykając, przytrzymując i przeciągając na ziemi. Jeśli masz trudności z rysowaniem prostych linii, możesz zwiększyć wartość bufora w ustawieniach kontroli. Możesz również wyłączyć Rysowanie Linii, jeśli wolisz używać tego wejścia do rysowania ścieżek. Wydaj rozkaz rysowania linii i prześlij swoją turę.",
+      "trigger.6.title": "Tutorial Zakończony",
+      "trigger.6.message": "Gratulacje! Nauczyłeś się podstawowych technik kontroli masowej. Te umiejętności pomogą ci efektywnie zarządzać dużymi armiami w bitwie."
+    },
+    "uk": {
+      "name": "Групи Контролю",
+      "description": "Навчіться ефективно керувати багатьма підрозділами",
+      "trigger.1.title": "Масове Керування",
+      "trigger.1.message": "Ефективне керування багатьма підрозділами є ключем до успіху в Lines of Battle. Гра пропонує багато інструментів для плавного керування багатьма підрозділами. Подвійним натисканням/кліком на один підрозділ ви можете вибрати всі підрозділи його типу, які знаходяться в камері. Ви також можете створити поле вибору, клацнувши правою кнопкою на землю і перетягуючи на PC, або зробивши довге натискання на землю і перетягуючи на мобільному. Виберіть кілька підрозділів, використовуючи один з цих методів, потім видайте наказ на рух і підтвердіть свій хід.",
+      "trigger.2.title": "Наказ Слідування",
+      "trigger.2.message": "Корисним інструментом керування є Наказ Слідування. Виберіть всі підрозділи, потім клацніть правою кнопкою або довго натисніть на один з ваших підрозділів; це створить оптимізований ланцюжок Наказів Слідування, де кожен підрозділ буде слідувати за наступним під час вашого ходу. Видайте Наказ Слідування всім підрозділам, а потім підтвердіть свій хід.",
+      "trigger.3.title": "Переміщення Багатьох Підрозділів",
+      "trigger.3.message": "Після вибору багатьох підрозділів ви можете клацнути правою кнопкою на точку на землі, щоб усі вибрані підрозділи рушили в цьому напрямку. Видайте наказ на рух багатьом підрозділам, а потім підтвердіть свій хід.",
+      "trigger.4.title": "Малювання Шляху для Багатьох Підрозділів",
+      "trigger.4.message": "У першому навчальному сценарії ви навчилися малювати наказ шляху з одним підрозділом. Ви також можете зробити це з багатьма підрозділами. Подвійно клацніть або використайте поле вибору, щоб вибрати всі підрозділи, потім клацніть/натисніть і утримуйте один з вибраних підрозділів і перетягніть. Таким чином ви можете намалювати шлях для багатьох підрозділів. Виконайте наказ малювання шляху для всіх підрозділів під вашим контролем і підтвердіть свій хід.",
+      "trigger.5.title": "Малювання Лінії",
+      "trigger.5.message": "Ви можете наказати підрозділам рухатися до прямої або вигнутої лінії, вибравши багато підрозділів, а потім клацнувши/натиснувши, утримуючи і перетягуючи на землі. Якщо у вас виникають труднощі з малюванням прямих ліній, ви можете збільшити значення буфера в налаштуваннях керування. Ви також можете вимкнути Малювання Лінії, якщо ви віддаєте перевагу використанню цього введення для малювання шляхів. Видайте наказ малювання лінії і підтвердіть свій хід.",
+      "trigger.6.title": "Навчальний Посібник Завершено",
+      "trigger.6.message": "Вітаємо! Ви навчилися основним технікам масового керування. Ці навички допоможуть вам ефективно керувати великими арміями в бою."
+    },
+    "ru": {
+      "name": "Группы Контроля",
+      "description": "Научитесь эффективно управлять множеством подразделений",
+      "trigger.1.title": "Массовое Управление",
+      "trigger.1.message": "Эффективное управление множеством подразделений является ключом к успеху в Lines of Battle. Игра предлагает множество инструментов для плавного управления множеством подразделений. Двойным нажатием/кликом на одно подразделение вы можете выбрать все подразделения его типа, которые находятся в камере. Вы также можете создать поле выбора, щелкнув правой кнопкой на землю и перетаскивая на PC, или сделав длинное нажатие на землю и перетаскивая на мобильном. Выберите несколько подразделений, используя один из этих методов, затем отдайте приказ на движение и подтвердите свой ход.",
+      "trigger.2.title": "Приказ Следования",
+      "trigger.2.message": "Полезным инструментом управления является Приказ Следования. Выберите все подразделения, затем щелкните правой кнопкой или длинно нажмите на одно из ваших подразделений; это создаст оптимизированную цепочку Приказов Следования, где каждое подразделение будет следовать за следующим во время вашего хода. Отдайте Приказ Следования всем подразделениям, а затем подтвердите свой ход.",
+      "trigger.3.title": "Перемещение Множества Подразделений",
+      "trigger.3.message": "После выбора множества подразделений вы можете щелкнуть правой кнопкой на точку на земле, чтобы все выбранные подразделения двинулись в этом направлении. Отдайте приказ на движение множеству подразделений, а затем подтвердите свой ход.",
+      "trigger.4.title": "Рисование Пути для Множества Подразделений",
+      "trigger.4.message": "В первом обучающем сценарии вы научились рисовать приказ пути с одним подразделением. Вы также можете сделать это с множеством подразделений. Дважды щелкните или используйте поле выбора, чтобы выбрать все подразделения, затем щелкните/нажмите и удерживайте одно из выбранных подразделений и перетащите. Таким образом вы можете нарисовать путь для множества подразделений. Выполните приказ рисования пути для всех подразделений под вашим контролем и подтвердите свой ход.",
+      "trigger.5.title": "Рисование Линии",
+      "trigger.5.message": "Вы можете приказать подразделениям двигаться к прямой или изогнутой линии, выбрав множество подразделений, а затем щелкнув/нажав, удерживая и перетаскивая на земле. Если у вас возникают трудности с рисованием прямых линий, вы можете увеличить значение буфера в настройках управления. Вы также можете отключить Рисование Линии, если вы предпочитаете использовать этот ввод для рисования путей. Отдайте приказ рисования линии и подтвердите свой ход.",
+      "trigger.6.title": "Обучение Завершено",
+      "trigger.6.message": "Поздравляем! Вы изучили основные техники массового управления. Эти навыки помогут вам эффективно управлять большими армиями в бою."
+    },
+    "tr": {
+      "name": "Kontrol Grupları",
+      "description": "Birçok birimi verimli bir şekilde kontrol etmeyi öğrenin",
+      "trigger.1.title": "Toplu Kontroller",
+      "trigger.1.message": "Birçok birimin verimli kontrolü, Lines of Battle'da başarının anahtarıdır. Oyun, birçok birimi sorunsuz bir şekilde kontrol etmek için birçok araç sunar. Tek bir birime çift dokunarak/tıklayarak, kameranın içindeki türünün tüm birimlerini seçebilirsiniz. PC'de yere sağ tıklayıp sürükleyerek veya mobilde yere uzun basıp sürükleyerek bir seçim kutusu da oluşturabilirsiniz. Bu yöntemlerden birini kullanarak birden fazla birim seçin, ardından bir hareket emri verin ve turunuzu gönderin.",
+      "trigger.2.title": "Takip Emri",
+      "trigger.2.message": "Yararlı bir kontrol aracı Takip Emridir. Tüm birimleri seçin, ardından birimlerinizden birine sağ tıklayın veya uzun basın; bu, her birimin sıranız sırasında bir sonrakini takip edeceği optimize edilmiş bir Takip Emirleri zinciri oluşturacaktır. Tüm birimlere bir Takip Emri verin ve ardından turunuzu gönderin.",
+      "trigger.3.title": "Birçok Birimi Hareket Ettirme",
+      "trigger.3.message": "Birçok birim seçtikten sonra, tüm seçili birimlerin o yönde hareket etmesi için yerdeki bir noktaya sağ tıklayabilirsiniz. Birçok birime bir hareket emri verin ve ardından turunuzu gönderin.",
+      "trigger.4.title": "Birçok Birim İçin Yol Çizme",
+      "trigger.4.message": "İlk öğretici senaryoda, tek bir birimle bir yol emri çizmeyi öğrendiniz. Bunu birçok birimle de yapabilirsiniz. Tüm birimleri seçmek için çift tıklayın veya bir seçim kutusu kullanın, ardından seçtiğiniz birimlerden birine tıklayın/dokunun ve basılı tutun ve sürükleyin. Bu şekilde birçok birim için bir yol çizebilirsiniz. Kontrolünüz altındaki tüm birimler için bir yol çizme emri gerçekleştirin ve turunuzu gönderin.",
+      "trigger.5.title": "Çizgi Çizme",
+      "trigger.5.message": "Birçok birim seçerek ve ardından yerde tıklayıp/dokunup basılı tutarak sürükleyerek birimlere düz veya eğri bir çizgiye hareket etmelerini emredebilirsiniz. Düz çizgiler çizmekte zorlanıyorsanız, kontrol ayarlarındaki tampon değerini artırabilirsiniz. Bu girişi yollar çizmek için kullanmayı tercih ediyorsanız Çizgi Çizme'yi de devre dışı bırakabilirsiniz. Bir çizgi çizme emri verin ve turunuzu gönderin.",
+      "trigger.6.title": "Öğretici Tamamlandı",
+      "trigger.6.message": "Tebrikler! Temel toplu kontrol tekniklerini öğrendiniz. Bu beceriler, savaşta büyük orduları etkili bir şekilde yönetmenize yardımcı olacaktır."
+    },
+    "zh": {
+      "name": "控制组",
+      "description": "学习高效控制多个单位",
+      "trigger.1.title": "批量控制",
+      "trigger.1.message": "高效控制多个单位是《战线》成功的关键。游戏提供了许多工具来流畅地控制多个单位。通过双击/点击单个单位，您可以选择相机范围内该类型的所有单位。您还可以在PC上通过右键单击地面并拖动，或在移动设备上长按地面并拖动来创建选择框。使用其中一种方法选择多个单位，然后发出移动命令并提交您的回合。",
+      "trigger.2.title": "跟随命令",
+      "trigger.2.message": "一个有用的控制工具是跟随命令。选择所有单位，然后右键单击或长按您的一个单位；这将创建一个优化的跟随命令链，其中每个单位在您的回合期间将跟随下一个单位。向所有单位发出跟随命令，然后提交您的回合。",
+      "trigger.3.title": "移动多个单位",
+      "trigger.3.message": "选择多个单位后，您可以右键单击地面上的一个点，使所有选定的单位朝该方向移动。向多个单位发出移动命令，然后提交您的回合。",
+      "trigger.4.title": "为多个单位绘制路径",
+      "trigger.4.message": "在第一个教程场景中，您学会了如何用单个单位绘制路径命令。您也可以用多个单位这样做。双击或使用选择框选择所有单位，然后点击/轻触并按住您已选择的一个单位并拖动。这样，您可以为多个单位绘制路径。为您控制下的所有单位执行绘制路径命令，然后提交您的回合。",
+      "trigger.5.title": "绘制线条",
+      "trigger.5.message": "您可以通过选择多个单位，然后在地面上点击/轻触按住并拖动来命令单位移动到直线或曲线。如果您在绘制直线时遇到困难，可以增加控制设置中的缓冲值。如果您更愿意使用此输入来绘制路径，也可以禁用绘制线条。发出绘制线条命令并提交您的回合。",
+      "trigger.6.title": "教程完成",
+      "trigger.6.message": "恭喜！您已经学习了基本的批量控制技术。这些技能将帮助您在战斗中有效管理大型军队。"
+    },
+    "hu": {
+      "name": "Vezérlő Csoportok",
+      "description": "Tanulja meg, hogyan vezérelje hatékonyan sok egységet",
+      "trigger.1.title": "Tömeges Vezérlés",
+      "trigger.1.message": "Sok egység hatékony vezérlése kulcsfontosságú a Lines of Battle sikeréhez. A játék sok eszközt kínál a sok egység zökkenőmentes vezérléséhez. Egyetlen egységre dupla érintéssel/kattintással kiválaszthatja a kamerán belüli típusának minden egységét. Létrehozhat egy kijelölési mezőt is, jobb klikkel a talajra és húzással PC-n, vagy hosszú érintéssel a talajra és húzással mobilon. Válasszon ki több egységet az egyik módszerrel, majd adja ki a mozgási parancsot és küldje el a körét.",
+      "trigger.2.title": "Követési Parancs",
+      "trigger.2.message": "Egy hasznos vezérlőeszköz a Követési Parancs. Válassza ki az összes egységet, majd jobb klikkeljen vagy hosszan érintsen egy egységet; ez egy optimalizált Követési Parancsok láncát hozza létre, ahol minden egység a következőt követi a körében. Adja ki a Követési Parancsot az összes egységnek, majd küldje el a körét.",
+      "trigger.3.title": "Sok Egység Mozgatása",
+      "trigger.3.message": "Sok egység kiválasztása után jobb klikkelhet a talajon egy pontra, hogy minden kiválasztott egység abba az irányba mozogjon. Adja ki a mozgási parancsot sok egységnek, majd küldje el a körét.",
+      "trigger.4.title": "Útvonal Rajzolása Sok Egységhez",
+      "trigger.4.message": "Az első oktató forgatókönyvben megtanulta, hogyan rajzoljon útvonal parancsot egyetlen egységgel. Ezt sok egységgel is megteheti. Dupla kattintással vagy kijelölési mezővel válassza ki az összes egységet, majd kattintson/érintsen és tartsa nyomva az egyik kiválasztott egységet és húzza. Így rajzolhat útvonalat sok egységhez. Hajtsa végre az útvonal rajzolási parancsot az irányítása alatt álló összes egységre, majd küldje el a körét.",
+      "trigger.5.title": "Vonal Rajzolása",
+      "trigger.5.message": "Parancsot adhat az egységeknek, hogy egyenes vagy görbe vonalhoz mozogjanak, sok egység kiválasztásával, majd a talajon kattintva/érintve, nyomva tartva és húzva. Ha nehézségei vannak az egyenes vonalak rajzolásával, növelheti a puffer értékét a vezérlési beállításokban. Letilthatja a Vonal Rajzolását is, ha inkább ezt a bemenetet szeretné használni útvonalak rajzolásához. Adja ki a vonal rajzolási parancsot és küldje el a körét.",
+      "trigger.6.title": "Oktatóanyag Befejezve",
+      "trigger.6.message": "Gratulálunk! Megtanulta a lényeges tömeges vezérlési technikákat. Ezek a készségek segíteni fognak hatékonyan kezelni a nagy hadseregeket a csatában."
+    },
+    "ja": {
+      "name": "コントロールグループ",
+      "description": "多くのユニットを効率的に制御する方法を学ぶ",
+      "trigger.1.title": "大量制御",
+      "trigger.1.message": "多くのユニットの効率的な制御は、Lines of Battleでの成功の鍵です。ゲームは、多くのユニットをスムーズに制御するための多くのツールを提供しています。単一のユニットをダブルタップ/クリックすることで、カメラ内のそのタイプのすべてのユニットを選択できます。PCでは地面を右クリックしてドラッグするか、モバイルでは地面を長押ししてドラッグすることで、選択ボックスを作成することもできます。これらの方法のいずれかを使用して複数のユニットを選択し、移動命令を発行してターンを送信してください。",
+      "trigger.2.title": "フォロー命令",
+      "trigger.2.message": "便利な制御ツールの1つはフォロー命令です。すべてのユニットを選択し、ユニットの1つを右クリックまたは長押しします。これにより、各ユニットがターン中に次のユニットをフォローする最適化されたフォロー命令のチェーンが作成されます。すべてのユニットにフォロー命令を発行し、その後ターンを送信してください。",
+      "trigger.3.title": "多くのユニットの移動",
+      "trigger.3.message": "多くのユニットを選択した後、地面のポイントを右クリックして、すべての選択されたユニットをその方向に移動させることができます。多くのユニットに移動命令を発行し、その後ターンを送信してください。",
+      "trigger.4.title": "多くのユニットのパス描画",
+      "trigger.4.message": "最初のチュートリアルシナリオでは、単一のユニットでパス命令を描画する方法を学びました。多くのユニットでもこれを行うことができます。すべてのユニットを選択するにはダブルクリックするか、選択ボックスを使用し、次に選択したユニットの1つをクリック/タップして長押しし、ドラッグします。このようにして、多くのユニットのパスを描画できます。制御下にあるすべてのユニットに対してパス描画命令を実行し、ターンを送信してください。",
+      "trigger.5.title": "ライン描画",
+      "trigger.5.message": "多くのユニットを選択し、次に地面をクリック/タップして長押しし、ドラッグすることで、ユニットに直線または曲線に移動するよう命令できます。直線を描画するのが困難な場合は、制御設定のバッファ値を増やすことができます。この入力をパスを描画するために使用することを好む場合は、ライン描画を無効にすることもできます。ライン描画命令を発行し、ターンを送信してください。",
+      "trigger.6.title": "チュートリアル完了",
+      "trigger.6.message": "おめでとうございます！基本的な大量制御技術を学びました。これらのスキルは、戦闘で大規模な軍隊を効果的に管理するのに役立ちます。"
+    },
+    "id": {
+      "name": "Grup Kontrol",
+      "description": "Pelajari cara mengontrol banyak unit secara efisien",
+      "trigger.1.title": "Kontrol Massal",
+      "trigger.1.message": "Kontrol yang efisien atas banyak unit adalah kunci kesuksesan di Lines of Battle. Game menawarkan banyak alat untuk mengontrol banyak unit dengan lancar. Dengan mengetuk/mengklik dua kali pada satu unit, Anda dapat memilih semua unit dari jenisnya yang berada dalam kamera. Anda juga dapat membuat kotak seleksi dengan mengklik kanan di tanah dan menyeret di PC, atau melakukan ketukan panjang di tanah dan menyeret di ponsel. Pilih beberapa unit menggunakan salah satu metode ini, lalu keluarkan perintah gerakan dan kirim giliran Anda.",
+      "trigger.2.title": "Perintah Ikuti",
+      "trigger.2.message": "Satu alat kontrol yang berguna adalah Perintah Ikuti. Pilih semua unit, lalu klik kanan atau ketuk panjang salah satu unit Anda; ini akan membuat rantai Perintah Ikuti yang dioptimalkan, di mana setiap unit akan mengikuti yang berikutnya selama giliran Anda. Keluarkan Perintah Ikuti ke semua unit dan kemudian kirim giliran Anda.",
+      "trigger.3.title": "Memindahkan Banyak Unit",
+      "trigger.3.message": "Setelah memilih banyak unit, Anda dapat mengklik kanan titik di tanah untuk membuat semua unit yang dipilih bergerak ke arah itu. Keluarkan perintah gerakan ke banyak unit dan kemudian kirim giliran Anda.",
+      "trigger.4.title": "Menggambar Jalur untuk Banyak Unit",
+      "trigger.4.message": "Dalam skenario tutorial pertama, Anda belajar cara menggambar perintah jalur dengan satu unit. Anda juga dapat melakukan ini dengan banyak unit. Klik dua kali atau gunakan kotak seleksi untuk memilih semua unit, lalu klik/ketuk dan tahan salah satu unit yang telah Anda pilih dan seret. Dengan cara ini, Anda dapat menggambar jalur untuk banyak unit. Lakukan perintah menggambar jalur untuk semua unit di bawah kendali Anda dan kirim giliran Anda.",
+      "trigger.5.title": "Menggambar Garis",
+      "trigger.5.message": "Anda dapat memerintahkan unit untuk bergerak ke garis lurus atau melengkung dengan memilih banyak unit, dan kemudian mengklik/mengetuk tahan-dan-seret di tanah. Jika Anda kesulitan menggambar garis lurus, Anda dapat meningkatkan nilai buffer dalam pengaturan kontrol. Anda juga dapat menonaktifkan Menggambar Garis jika Anda lebih suka menggunakan input ini untuk menggambar jalur. Keluarkan perintah menggambar garis dan kirim giliran Anda.",
+      "trigger.6.title": "Tutorial Selesai",
+      "trigger.6.message": "Selamat! Anda telah mempelajari teknik kontrol massal yang penting. Keterampilan ini akan membantu Anda mengelola pasukan besar secara efektif dalam pertempuran."
+    },
+    "kr": {
+      "name": "제어 그룹",
+      "description": "많은 유닛을 효율적으로 제어하는 방법을 배우세요",
+      "trigger.1.title": "대량 제어",
+      "trigger.1.message": "많은 유닛의 효율적인 제어는 Lines of Battle에서 성공의 열쇠입니다. 게임은 많은 유닛을 부드럽게 제어할 수 있는 많은 도구를 제공합니다. 단일 유닛을 두 번 탭/클릭하면 카메라 내에 있는 해당 유형의 모든 유닛을 선택할 수 있습니다. PC에서는 지면을 우클릭하고 드래그하거나, 모바일에서는 지면을 길게 누르고 드래그하여 선택 상자를 만들 수도 있습니다. 이러한 방법 중 하나를 사용하여 여러 유닛을 선택한 다음 이동 명령을 내리고 턴을 제출하세요.",
+      "trigger.2.title": "따르기 명령",
+      "trigger.2.message": "유용한 제어 도구 중 하나는 따르기 명령입니다. 모든 유닛을 선택한 다음 유닛 중 하나를 우클릭하거나 길게 누르세요. 이렇게 하면 각 유닛이 턴 동안 다음 유닛을 따르는 최적화된 따르기 명령 체인이 생성됩니다. 모든 유닛에 따르기 명령을 내린 다음 턴을 제출하세요.",
+      "trigger.3.title": "많은 유닛 이동",
+      "trigger.3.message": "많은 유닛을 선택한 후 지면의 지점을 우클릭하여 선택한 모든 유닛이 해당 방향으로 이동하도록 할 수 있습니다. 많은 유닛에 이동 명령을 내린 다음 턴을 제출하세요.",
+      "trigger.4.title": "많은 유닛의 경로 그리기",
+      "trigger.4.message": "첫 번째 튜토리얼 시나리오에서 단일 유닛으로 경로 명령을 그리는 방법을 배웠습니다. 많은 유닛으로도 이를 수행할 수 있습니다. 모든 유닛을 선택하려면 더블 클릭하거나 선택 상자를 사용한 다음 선택한 유닛 중 하나를 클릭/탭하고 길게 누른 다음 드래그하세요. 이렇게 하면 많은 유닛의 경로를 그릴 수 있습니다. 제어하에 있는 모든 유닛에 대해 경로 그리기 명령을 수행하고 턴을 제출하세요.",
+      "trigger.5.title": "선 그리기",
+      "trigger.5.message": "많은 유닛을 선택한 다음 지면을 클릭/탭하고 길게 누른 채 드래그하여 유닛에게 직선 또는 곡선으로 이동하도록 명령할 수 있습니다. 직선을 그리는 데 어려움이 있다면 제어 설정에서 버퍼 값을 늘릴 수 있습니다. 이 입력을 경로를 그리는 데 사용하는 것을 선호하는 경우 선 그리기를 비활성화할 수도 있습니다. 선 그리기 명령을 내리고 턴을 제출하세요.",
+      "trigger.6.title": "튜토리얼 완료",
+      "trigger.6.message": "축하합니다! 필수적인 대량 제어 기술을 배웠습니다. 이러한 기술은 전투에서 대규모 군대를 효과적으로 관리하는 데 도움이 될 것입니다."
+    },
+    "el": {
+      "name": "Ομάδες Ελέγχου",
+      "description": "Μάθετε να ελέγχετε αποτελεσματικά πολλές μονάδες",
+      "trigger.1.title": "Μαζικός Έλεγχος",
+      "trigger.1.message": "Ο αποτελεσματικός έλεγχος πολλών μονάδων είναι το κλειδί για την επιτυχία στο Lines of Battle. Το παιχνίδι προσφέρει πολλά εργαλεία για ομαλό έλεγχο πολλών μονάδων. Με διπλό πάτημα/κλικ σε μια μονάδα, μπορείτε να επιλέξετε όλες τις μονάδες του τύπου της που βρίσκονται στην κάμερα. Μπορείτε επίσης να δημιουργήσετε ένα πλαίσιο επιλογής κάνοντας δεξί κλικ στο έδαφος και σύροντας σε PC, ή κάνοντας μακρύ πάτημα στο έδαφος και σύροντας σε κινητό. Επιλέξτε πολλές μονάδες χρησιμοποιώντας μία από αυτές τις μεθόδους, στη συνέχεια εκδώστε εντολή κίνησης και υποβάλετε τη σειρά σας.",
+      "trigger.2.title": "Εντολή Ακολούθησης",
+      "trigger.2.message": "Ένα χρήσιμο εργαλείο ελέγχου είναι η Εντολή Ακολούθησης. Επιλέξτε όλες τις μονάδες, στη συνέχεια κάντε δεξί κλικ ή μακρύ πάτημα σε μία από τις μονάδες σας· αυτό θα δημιουργήσει μια βελτιστοποιημένη αλυσίδα Εντολών Ακολούθησης, όπου κάθε μονάδα θα ακολουθεί την επόμενη κατά τη διάρκεια της σειράς σας. Εκδώστε Εντολή Ακολούθησης σε όλες τις μονάδες και στη συνέχεια υποβάλετε τη σειρά σας.",
+      "trigger.3.title": "Μετακίνηση Πολλών Μονάδων",
+      "trigger.3.message": "Μετά την επιλογή πολλών μονάδων, μπορείτε να κάνετε δεξί κλικ σε ένα σημείο στο έδαφος για να κινηθούν όλες οι επιλεγμένες μονάδες προς αυτή την κατεύθυνση. Εκδώστε εντολή κίνησης σε πολλές μονάδες και στη συνέχεια υποβάλετε τη σειρά σας.",
+      "trigger.4.title": "Σχεδίαση Διαδρομής για Πολλές Μονάδες",
+      "trigger.4.message": "Στο πρώτο σεναρίο εκμάθησης, μάθατε πώς να σχεδιάζετε εντολή διαδρομής με μια μονάδα. Μπορείτε επίσης να το κάνετε αυτό με πολλές μονάδες. Κάντε διπλό κλικ ή χρησιμοποιήστε ένα πλαίσιο επιλογής για να επιλέξετε όλες τις μονάδες, στη συνέχεια κάντε κλικ/πατήστε και κρατήστε μία από τις μονάδες που έχετε επιλέξει και σύρετε. Με αυτόν τον τρόπο, μπορείτε να σχεδιάσετε μια διαδρομή για πολλές μονάδες. Εκτελέστε εντολή σχεδίασης διαδρομής για όλες τις μονάδες υπό τον έλεγχό σας και υποβάλετε τη σειρά σας.",
+      "trigger.5.title": "Σχεδίαση Γραμμής",
+      "trigger.5.message": "Μπορείτε να διατάξετε μονάδες να κινηθούν σε μια ευθεία ή καμπύλη γραμμή επιλέγοντας πολλές μονάδες, και στη συνέχεια κάνοντας κλικ/πατώντας κρατώντας και σύροντας στο έδαφος. Αν αντιμετωπίζετε δυσκολία στη σχεδίαση ευθειών γραμμών, μπορείτε να αυξήσετε την τιμή buffer στις ρυθμίσεις ελέγχου. Μπορείτε επίσης να απενεργοποιήσετε τη Σχεδίαση Γραμμής αν προτιμάτε να χρησιμοποιήσετε αυτή την είσοδο για σχεδίαση διαδρομών. Εκδώστε εντολή σχεδίασης γραμμής και υποβάλετε τη σειρά σας.",
+      "trigger.6.title": "Εκμάθηση Ολοκληρώθηκε",
+      "trigger.6.message": "Συγχαρητήρια! Έχετε μάθει τις βασικές τεχνικές μαζικού ελέγχου. Αυτές οι δεξιότητες θα σας βοηθήσουν να διαχειριστείτε αποτελεσματικά μεγάλους στρατούς στη μάχη."
+    },
+    "ar": {
+      "name": "مجموعات التحكم",
+      "description": "تعلم كيفية التحكم بكفاءة في العديد من الوحدات",
+      "trigger.1.title": "التحكم الجماعي",
+      "trigger.1.message": "التحكم الفعال في العديد من الوحدات هو مفتاح النجاح في Lines of Battle. توفر اللعبة العديد من الأدوات للتحكم بسلاسة في العديد من الوحدات. من خلال النقر المزدوج/النقر على وحدة واحدة، يمكنك تحديد جميع الوحدات من نوعها الموجودة في الكاميرا. يمكنك أيضًا إنشاء صندوق تحديد بالنقر بزر الماوس الأيمن على الأرض والسحب على الكمبيوتر الشخصي، أو النقر الطويل على الأرض والسحب على الهاتف المحمول. حدد وحدات متعددة باستخدام إحدى هذه الطرق، ثم أصدر أمر حركة وأرسل دورك.",
+      "trigger.2.title": "أمر المتابعة",
+      "trigger.2.message": "أداة تحكم مفيدة هي أمر المتابعة. حدد جميع الوحدات، ثم انقر بزر الماوس الأيمن أو انقر طويلاً على إحدى وحداتك؛ سيؤدي هذا إلى إنشاء سلسلة محسّنة من أوامر المتابعة، حيث ستتبع كل وحدة التالية خلال دورك. أصدر أمر المتابعة لجميع الوحدات ثم أرسل دورك.",
+      "trigger.3.title": "تحريك العديد من الوحدات",
+      "trigger.3.message": "بعد تحديد العديد من الوحدات، يمكنك النقر بزر الماوس الأيمن على نقطة على الأرض لجعل جميع الوحدات المحددة تتحرك في هذا الاتجاه. أصدر أمر حركة للعديد من الوحدات ثم أرسل دورك.",
+      "trigger.4.title": "رسم مسار للعديد من الوحدات",
+      "trigger.4.message": "في سيناريو البرنامج التعليمي الأول، تعلمت كيفية رسم أمر مسار بوحدة واحدة. يمكنك أيضًا القيام بذلك مع العديد من الوحدات. انقر نقرًا مزدوجًا أو استخدم صندوق تحديد لتحديد جميع الوحدات، ثم انقر/اضغط واضغط باستمرار على إحدى الوحدات التي حددتها واسحب. بهذه الطريقة، يمكنك رسم مسار للعديد من الوحدات. نفّذ أمر رسم مسار لجميع الوحدات تحت سيطرتك وأرسل دورك.",
+      "trigger.5.title": "رسم خط",
+      "trigger.5.message": "يمكنك أمر الوحدات بالتحرك إلى خط مستقيم أو منحني عن طريق تحديد العديد من الوحدات، ثم النقر/الضغط والضغط باستمرار والسحب على الأرض. إذا كنت تواجه صعوبة في رسم خطوط مستقيمة، يمكنك زيادة قيمة المخزن المؤقت في إعدادات التحكم. يمكنك أيضًا تعطيل رسم الخط إذا كنت تفضل استخدام هذا الإدخال لرسم المسارات. أصدر أمر رسم خط وأرسل دورك.",
+      "trigger.6.title": "اكتمل البرنامج التعليمي",
+      "trigger.6.message": "تهانينا! لقد تعلمت تقنيات التحكم الجماعي الأساسية. ستساعدك هذه المهارات على إدارة الجيوش الكبيرة بفعالية في المعركة."
+    },
+    "hi": {
+      "name": "नियंत्रण समूह",
+      "description": "कई इकाइयों को कुशलतापूर्वक नियंत्रित करना सीखें",
+      "trigger.1.title": "सामूहिक नियंत्रण",
+      "trigger.1.message": "कई इकाइयों का कुशल नियंत्रण Lines of Battle में सफलता की कुंजी है। खेल कई इकाइयों को सुचारू रूप से नियंत्रित करने के लिए कई उपकरण प्रदान करता है। एक इकाई पर डबल-टैप/क्लिक करके, आप कैमरे के भीतर उसके प्रकार की सभी इकाइयों का चयन कर सकते हैं। आप PC पर जमीन पर राइट-क्लिक करके और खींचकर, या मोबाइल पर जमीन पर लॉन्ग-टैप करके और खींचकर एक चयन बॉक्स भी बना सकते हैं। इनमें से किसी एक विधि का उपयोग करके कई इकाइयों का चयन करें, फिर एक मूव ऑर्डर जारी करें और अपना चाल सबमिट करें।",
+      "trigger.2.title": "फॉलो ऑर्डर",
+      "trigger.2.message": "एक उपयोगी नियंत्रण उपकरण फॉलो ऑर्डर है। सभी इकाइयों का चयन करें, फिर अपनी इकाइयों में से एक पर राइट-क्लिक या लॉन्ग-टैप करें; यह फॉलो ऑर्डर की एक अनुकूलित श्रृंखला बनाएगा, जहां प्रत्येक इकाई आपके चाल के दौरान अगली का अनुसरण करेगी। सभी इकाइयों को एक फॉलो ऑर्डर जारी करें और फिर अपना चाल सबमिट करें।",
+      "trigger.3.title": "कई इकाइयों को स्थानांतरित करना",
+      "trigger.3.message": "कई इकाइयों का चयन करने के बाद, आप जमीन पर एक बिंदु पर राइट-क्लिक कर सकते हैं ताकि सभी चयनित इकाइयां उस दिशा में चलें। कई इकाइयों को एक मूव ऑर्डर जारी करें और फिर अपना चाल सबमिट करें।",
+      "trigger.4.title": "कई इकाइयों के लिए पथ खींचना",
+      "trigger.4.message": "पहले ट्यूटोरियल परिदृश्य में, आपने एक इकाई के साथ पथ ऑर्डर खींचना सीखा। आप इसे कई इकाइयों के साथ भी कर सकते हैं। सभी इकाइयों का चयन करने के लिए डबल-क्लिक करें या चयन बॉक्स का उपयोग करें, फिर आपके द्वारा चयनित इकाइयों में से एक पर क्लिक/टैप करें और होल्ड करें और खींचें। इस तरह, आप कई इकाइयों के लिए एक पथ खींच सकते हैं। अपने नियंत्रण में सभी इकाइयों के लिए एक पथ खींचने का ऑर्डर निष्पादित करें और अपना चाल सबमिट करें।",
+      "trigger.5.title": "रेखा खींचना",
+      "trigger.5.message": "आप कई इकाइयों का चयन करके, और फिर जमीन पर क्लिक/टैप होल्ड-एंड-ड्रैग करके इकाइयों को एक सीधी या घुमावदार रेखा में जाने का आदेश दे सकते हैं। यदि आपको सीधी रेखाएं खींचने में कठिनाई हो रही है, तो आप नियंत्रण सेटिंग्स में बफर मान बढ़ा सकते हैं। यदि आप इस इनपुट का उपयोग पथ खींचने के लिए करना पसंद करते हैं, तो आप रेखा खींचना भी अक्षम कर सकते हैं। एक रेखा खींचने का ऑर्डर जारी करें और अपना चाल सबमिट करें।",
+      "trigger.6.title": "ट्यूटोरियल पूर्ण",
+      "trigger.6.message": "बधाई हो! आपने आवश्यक सामूहिक नियंत्रण तकनीकें सीखी हैं। ये कौशल आपको युद्ध में बड़ी सेनाओं को प्रभावी ढंग से प्रबंधित करने में मदद करेंगे।"
+    },
+    "vi": {
+      "name": "Nhóm Điều Khiển",
+      "description": "Học cách điều khiển hiệu quả nhiều đơn vị",
+      "trigger.1.title": "Điều Khiển Hàng Loạt",
+      "trigger.1.message": "Điều khiển hiệu quả nhiều đơn vị là chìa khóa thành công trong Lines of Battle. Trò chơi cung cấp nhiều công cụ để điều khiển mượt mà nhiều đơn vị. Bằng cách nhấn đúp/nhấp vào một đơn vị, bạn có thể chọn tất cả các đơn vị cùng loại nằm trong camera. Bạn cũng có thể tạo hộp chọn bằng cách nhấp chuột phải vào mặt đất và kéo trên PC, hoặc nhấn dài vào mặt đất và kéo trên điện thoại di động. Chọn nhiều đơn vị bằng một trong các phương pháp này, sau đó phát lệnh di chuyển và gửi lượt của bạn.",
+      "trigger.2.title": "Lệnh Theo Dõi",
+      "trigger.2.message": "Một công cụ điều khiển hữu ích là Lệnh Theo Dõi. Chọn tất cả các đơn vị, sau đó nhấp chuột phải hoặc nhấn dài vào một trong các đơn vị của bạn; điều này sẽ tạo ra một chuỗi Lệnh Theo Dõi được tối ưu hóa, nơi mỗi đơn vị sẽ theo dõi đơn vị tiếp theo trong lượt của bạn. Phát Lệnh Theo Dõi cho tất cả các đơn vị và sau đó gửi lượt của bạn.",
+      "trigger.3.title": "Di Chuyển Nhiều Đơn Vị",
+      "trigger.3.message": "Sau khi chọn nhiều đơn vị, bạn có thể nhấp chuột phải vào một điểm trên mặt đất để làm cho tất cả các đơn vị đã chọn di chuyển theo hướng đó. Phát lệnh di chuyển cho nhiều đơn vị và sau đó gửi lượt của bạn.",
+      "trigger.4.title": "Vẽ Đường Đi cho Nhiều Đơn Vị",
+      "trigger.4.message": "Trong kịch bản hướng dẫn đầu tiên, bạn đã học cách vẽ lệnh đường đi với một đơn vị. Bạn cũng có thể làm điều này với nhiều đơn vị. Nhấp đúp hoặc sử dụng hộp chọn để chọn tất cả các đơn vị, sau đó nhấp/nhấn và giữ một trong các đơn vị bạn đã chọn và kéo. Bằng cách này, bạn có thể vẽ đường đi cho nhiều đơn vị. Thực hiện lệnh vẽ đường đi cho tất cả các đơn vị dưới sự kiểm soát của bạn và gửi lượt của bạn.",
+      "trigger.5.title": "Vẽ Đường Thẳng",
+      "trigger.5.message": "Bạn có thể ra lệnh cho các đơn vị di chuyển đến một đường thẳng hoặc cong bằng cách chọn nhiều đơn vị, và sau đó nhấp/nhấn giữ và kéo trên mặt đất. Nếu bạn gặp khó khăn khi vẽ đường thẳng, bạn có thể tăng giá trị đệm trong cài đặt điều khiển. Bạn cũng có thể tắt Vẽ Đường Thẳng nếu bạn muốn sử dụng đầu vào này để vẽ đường đi. Phát lệnh vẽ đường thẳng và gửi lượt của bạn.",
+      "trigger.6.title": "Hướng Dẫn Hoàn Thành",
+      "trigger.6.message": "Chúc mừng! Bạn đã học các kỹ thuật điều khiển hàng loạt cần thiết. Những kỹ năng này sẽ giúp bạn quản lý hiệu quả các đội quân lớn trong trận chiến."
+    }
+  }
+}

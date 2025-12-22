@@ -44,7 +44,7 @@
   {
     "id": 7,
     "name": "rotate",
-    "allowFireWhenMoving": true,
+    "allowFireWhenMoving": false,
     "canFocusLocation": true
   }
 ]

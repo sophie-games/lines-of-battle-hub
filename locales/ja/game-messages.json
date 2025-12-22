@@ -1,0 +1,10 @@
+{
+  "minimize": "最小化",
+  "showMessages": "メッセージを表示",
+  "dismiss": "閉じる",
+  "previous": "前へ",
+  "next": "次へ",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "メッセージ"
+}
+
