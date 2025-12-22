@@ -2,7 +2,7 @@
   "name": "name",
   "description": "description",
   "type": "preset",
-  "conquestVictory": false,
+  "conquestVictory": true,
   "hidden": true,
   "players": [
     { "player": 1, "team": 1, "ammoReserve": 3500, "baseAmmoReserve": 3500 },
@@ -685,35 +685,6 @@
           "value": {
             "title": "trigger.4.title",
             "message": "trigger.4.message"
-          }
-        },
-        {
-          "type": "setVar",
-          "value": {
-            "name": "tutorial_completed",
-            "value": 1
-          }
-        }
-      ],
-      "once": true
-    },
-    {
-      "event": "onTurnEnd",
-      "conditions": [
-        {
-          "type": "isVar",
-          "value": {
-            "name": "tutorial_completed",
-            "value": 1
-          }
-        }
-      ],
-      "conditionLogic": "AND",
-      "actions": [
-        {
-          "type": "endGame",
-          "value": {
-            "reason": "victory"
           }
         }
       ],
