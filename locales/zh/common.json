@@ -197,10 +197,10 @@
     "timeToRun": "疾跑时间",
     "runCost": "疾跑消耗",
     "supplyConsumption": "补给消耗",
-    "supplyCost": "补给{{currency}}成本",
-    "supplyStats": "补给统计",
-    "entrenchment": "工事",
-    "maxEntrenchment": "最大工事"
+    "supplyCost": "补给{{currency}}花费",
+    "supplyStats": "补给属性",
+    "entrenchment": "堑壕",
+    "maxEntrenchment": "堑壕上限"
   },
   "category": "类别",
   "routingBehavior": "寻路行为",
@@ -274,7 +274,9 @@
     "19": "泥地",
     "20": "道路，沉没",
     "21": "战壕",
-    "22": "要塞"
+    "22": "要塞",
+    "23": "铁路",
+    "24": "铁路/道路"
   },
   "clearPlayerUnits": "清除玩家单位",
   "clearBotUnits": "清除AI玩家单位",
@@ -500,7 +502,6 @@
     "clans": "搜索联盟"
   },
   "formation": "阵型",
-  "formations": "阵型",
   "findGame": "寻找对局",
   "gameIdOrLink": "对局ID或链接",
   "unit": "单位",
@@ -794,5 +795,7 @@
   "flankChargeResistance": "侧翼冲锋抗性",
   "rearChargeResistance": "后部冲锋抗性",
   "enfiladeFireResistance": "侧翼射击抗性",
-  "rearFireResistance": "后部射击抗性"
+  "rearFireResistance": "后部射击抗性",
+  "useBuiltinTemplate": "使用内置模板",
+  "importTemplate": "导入模板"
 }
