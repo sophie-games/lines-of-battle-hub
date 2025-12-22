@@ -1,10 +1,9 @@
-{
-  "minimize": "Minimize",
-  "showMessages": "Show Messages",
-  "dismiss": "Dismiss",
-  "previous": "Previous",
-  "next": "Next",
+﻿{
+  "minimize": "最小化",
+  "showMessages": "显示信息",
+  "dismiss": "关闭",
+  "previous": "上一页",
+  "next": "下一页",
   "messageCounter": "{{current}} / {{total}}",
-  "noTitle": "Message"
+  "noTitle": "信息"
 }
-
