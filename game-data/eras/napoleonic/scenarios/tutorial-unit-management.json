@@ -1,12 +1,22 @@
 {
   "name": "name",
   "description": "description",
-  "type": "preset",
   "conquestVictory": true,
   "hidden": true,
+  "type": "preset",
   "players": [
-    { "player": 1, "team": 1, "ammoReserve": 3500, "baseAmmoReserve": 3500 },
-    { "player": 2, "team": 2, "ammoReserve": 3500, "baseAmmoReserve": 3500 }
+    {
+      "player": 1,
+      "team": 1,
+      "ammoReserve": 3500,
+      "baseAmmoReserve": 3500
+    },
+    {
+      "player": 2,
+      "team": 2,
+      "ammoReserve": 3500,
+      "baseAmmoReserve": 3500
+    }
   ],
   "map": {
     "width": 768,
@@ -106,11 +116,11 @@
       ],
       [
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,
-        3, 3, 3, 7, 3, 3, 3, 3, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0
+        3, 3, 3, 7, 3, 3, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0
       ],
       [
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 0,
-        3, 3, 0, 4, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3
+        3, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3
       ],
       [
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 0, 0, 0, 0, 3,
@@ -129,7 +139,7 @@
         0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
       ],
       [
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
       ],
       [
@@ -157,15 +167,15 @@
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
       ],
       [
-        0, 0, 0, 0, 3, 3, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0,
+        0, 0, 0, 0, 0, 3, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
       ],
       [
-        0, 0, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 0,
+        0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
       ],
       [
-        3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0,
+        3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
       ],
       [
@@ -405,87 +415,109 @@
   },
   "units": [
     {
-      "id": 1,
       "name": "infantry1",
       "player": 1,
-      "pos": { "x": 187.8, "y": 377.57 },
+      "pos": {
+        "x": 187.8,
+        "y": 377.57
+      },
       "rotation": 4.71,
       "type": 1
     },
     {
-      "id": 2,
       "name": "infantry2",
       "player": 1,
-      "pos": { "x": 220.1, "y": 378.68 },
+      "pos": {
+        "x": 220.1,
+        "y": 378.68
+      },
       "rotation": 4.71,
       "type": 1
     },
     {
-      "id": 3,
       "name": "infantry3",
       "player": 1,
-      "pos": { "x": 249.39, "y": 378.53 },
+      "pos": {
+        "x": 249.39,
+        "y": 378.53
+      },
       "rotation": 4.71,
       "type": 1
     },
     {
-      "id": 4,
+      "hp": 600,
       "name": "enemy_infantry1",
-      "hp": 600,
       "player": 2,
-      "pos": { "x": 188.97, "y": 178.84 },
+      "pos": {
+        "x": 188.97,
+        "y": 178.84
+      },
       "rotation": 1.57,
       "type": 1
     },
     {
-      "id": 5,
+      "hp": 600,
       "name": "enemy_infantry2",
-      "hp": 600,
       "player": 2,
-      "pos": { "x": 219.02, "y": 179.31 },
+      "pos": {
+        "x": 219.02,
+        "y": 179.31
+      },
       "rotation": 1.57,
       "type": 1
     },
     {
-      "id": 6,
+      "hp": 600,
       "name": "enemy_infantry3",
-      "hp": 600,
       "player": 2,
-      "pos": { "x": 251.07, "y": 178.59 },
+      "pos": {
+        "x": 251.07,
+        "y": 178.59
+      },
       "rotation": 1.57,
       "type": 1
     },
     {
-      "id": 7,
+      "hp": 412,
       "name": "enemy_cavalry1",
-      "hp": 412,
       "player": 2,
-      "pos": { "x": 151.37, "y": 175.02 },
+      "pos": {
+        "x": 151.37,
+        "y": 175.02
+      },
       "rotation": 1.57,
-      "type": 2
+      "type": 2,
+      "st": 810
     },
     {
-      "id": 8,
+      "hp": 412,
       "name": "enemy_cavalry2",
-      "hp": 412,
       "player": 2,
-      "pos": { "x": 286.36, "y": 170.01 },
+      "pos": {
+        "x": 286.36,
+        "y": 170.01
+      },
       "rotation": 1.57,
-      "type": 2
+      "type": 2,
+      "st": 810
     },
     {
-      "id": 9,
       "name": "cavalry1",
       "player": 1,
-      "pos": { "x": 152.19, "y": 383.14 },
+      "pos": {
+        "x": 152.19,
+        "y": 383.14
+      },
       "rotation": 4.71,
       "type": 2
     },
     {
-      "id": 10,
       "name": "cavalry2",
       "player": 1,
-      "pos": { "x": 285.56, "y": 383.47 },
+      "pos": {
+        "x": 285.56,
+        "y": 383.47
+      },
       "rotation": 4.71,
       "type": 2
     }
@@ -496,13 +528,6 @@
       "event": "onTurnStart",
       "conditions": [],
       "actions": [
-        {
-          "type": "setVar",
-          "value": {
-            "name": "trigger_executed",
-            "value": 0
-          }
-        },
         {
           "type": "orderUnit",
           "value": {
@@ -543,25 +568,14 @@
             "targetName": "cavalry2"
           }
         }
-      ]
+      ],
+      "once": false
     },
     {
       "event": "onTurnStart",
-      "conditions": [
-        {
-          "type": "isTurn",
-          "value": 1
-        }
-      ],
+      "conditions": [],
       "conditionLogic": "AND",
       "actions": [
-        {
-          "type": "setVar",
-          "value": {
-            "name": "trigger_executed",
-            "value": 1
-          }
-        },
         {
           "type": "showMessage",
           "value": {
@@ -574,21 +588,9 @@
     },
     {
       "event": "onTurnStart",
-      "conditions": [
-        {
-          "type": "isTurn",
-          "value": 1
-        }
-      ],
+      "conditions": [],
       "conditionLogic": "AND",
       "actions": [
-        {
-          "type": "setVar",
-          "value": {
-            "name": "trigger_executed",
-            "value": 1
-          }
-        },
         {
           "type": "showMessage",
           "value": {
@@ -601,24 +603,9 @@
     },
     {
       "event": "onTurnStart",
-      "conditions": [
-        {
-          "type": "isVar",
-          "value": {
-            "name": "trigger_executed",
-            "value": 0
-          }
-        }
-      ],
+      "conditions": [],
       "conditionLogic": "AND",
       "actions": [
-        {
-          "type": "setVar",
-          "value": {
-            "name": "trigger_executed",
-            "value": 1
-          }
-        },
         {
           "type": "showMessage",
           "value": {
@@ -630,8 +617,61 @@
       "once": true
     },
     {
+      "event": "onTurnStart",
+      "conditions": [],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.4.title",
+            "message": "trigger.4.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnStart",
+      "conditions": [],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.5.title",
+            "message": "trigger.5.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnStart",
+      "conditions": [],
+      "conditionLogic": "AND",
+      "actions": [
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.6.title",
+            "message": "trigger.6.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
       "event": "onTurnEnd",
       "conditions": [
+        {
+          "type": "isUnitRouting",
+          "value": "enemy_cavalry1"
+        },
+        {
+          "type": "isUnitRouting",
+          "value": "enemy_cavalry2"
+        },
         {
           "type": "isUnitNotAlive",
           "value": "enemy_cavalry1"
@@ -641,12 +681,12 @@
           "value": "enemy_cavalry2"
         }
       ],
-      "conditionLogic": "AND",
+      "conditionLogic": "OR",
       "actions": [
         {
           "type": "setVar",
           "value": {
-            "name": "cavalry_defeated",
+            "name": "cavalry_routed",
             "value": 1
           }
         }
@@ -654,37 +694,68 @@
       "once": true
     },
     {
-      "event": "onTurnStart",
+      "event": "onTurnEnd",
       "conditions": [
         {
           "type": "isVar",
           "value": {
-            "name": "cavalry_defeated",
+            "name": "cavalry_routed",
             "value": 1
           }
-        },
+        }
+      ],
+      "actions": [
+        {
+          "type": "showMessage",
+          "value": {
+            "title": "trigger.7.title",
+            "message": "trigger.7.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnEnd",
+      "conditions": [
         {
           "type": "isVar",
           "value": {
-            "name": "trigger_executed",
-            "value": 0
+            "name": "cavalry_routed",
+            "value": 1
           }
         }
       ],
       "conditionLogic": "AND",
       "actions": [
         {
-          "type": "setVar",
+          "type": "showMessage",
           "value": {
-            "name": "trigger_executed",
+            "title": "trigger.8.title",
+            "message": "trigger.8.message"
+          }
+        }
+      ],
+      "once": true
+    },
+    {
+      "event": "onTurnEnd",
+      "conditions": [
+        {
+          "type": "isVar",
+          "value": {
+            "name": "cavalry_routed",
             "value": 1
           }
-        },
+        }
+      ],
+      "conditionLogic": "AND",
+      "actions": [
         {
           "type": "showMessage",
           "value": {
-            "title": "trigger.4.title",
-            "message": "trigger.4.message"
+            "title": "trigger.9.title",
+            "message": "trigger.9.message"
           }
         }
       ],
@@ -696,229 +767,419 @@
       "name": "Unit Management",
       "description": "Learn about unit stats and resource management",
       "trigger.1.title": "Unit Stats",
-      "trigger.1.message": "Combat in Lines of Battle is defined by the positioning and coordination of your whole army, as well as the individual management of three stats each unit possesses. There are two stats shared between all units: Hit Points (HP), which represents the strength of the unit, and Organization (ORG), which represents the cohesion of a unit.",
+      "trigger.1.message": "Combat in Lines of Battle is defined by the positioning and coordination of your whole army, as well as the individual management of three stats each unit possesses. There are two stats shared between all units:\nHit Points (HP), which represents the strength of the unit, and\nOrganization (ORG), which represents the cohesion of a unit.",
       "trigger.2.title": "Stamina and Ammo",
-      "trigger.2.message": "Additionally, cavalry and infantry have Stamina (STM) which is consumed by almost all actions except Walking, which allows slight STM recovery. Artillery lacks STM but has Ammo, which is only consumed by firing. Artillery will draw from your Ammo Reserve until there is no ammo left, at which point it will no longer be able to fire.",
+      "trigger.2.message": "Additionally, cavalry and infantry have Stamina (STM) which is consumed by almost all actions except Walking, which allows slight STM recovery.\nArtillery lacks STM but has Ammo, which is only consumed by firing. Artillery will draw from your Ammo Reserve until there is no ammo left, at which point it will no longer be able to fire.",
       "trigger.3.title": "Combat Objective",
-      "trigger.3.message": "The enemy force has the same units as yours, but their cavalry has reduced STM and HP; charge each of your cavalry at theirs and defeat them easily. Use Fire and Advance to approach the enemy infantry with your infantry to pin them in place; after defeating the enemy cavalry, you'll be free to charge the flanks of the enemy infantry.",
-      "trigger.4.title": "Tutorial Complete",
-      "trigger.4.message": "Congratulations! You've learned about unit stats and resource management. Managing HP, Organization, Stamina, and Ammo effectively is crucial for victory in battle."
+      "trigger.3.message": "The enemy force has the same units as yours, but their cavalry has reduced HP and STM; this is enough of an advantage to win the battle.",
+      "trigger.4.title": "Targeting Units",
+      "trigger.4.message": "Up until now, you've mainly targeted the ground with movement orders. However, most movement orders may also target enemy units. Activate the Run order and select your left-flank dragoon, and then right-click on the opposing dragoon.\nYour dragoon will now pursue and charge into the selected enemy dragoon. Repeat the process with the other dragoon.",
+      "trigger.5.title": "Fire and Advance",
+      "trigger.5.message": "The enemy infantry is in good condition, so attempting to charge them with your own infantry will result in failure. Instead, activate the Fire and Advance order. Select your leftmost infantry unit and target the leftmost enemy infantry unit, and then repeat with the middle and right infantry units.",
+      "trigger.6.title": "Fixing the Enemy",
+      "trigger.6.message": "Your infantry will approach to close range and exchange musket volleys, fixing the enemy in place so that your victorious cavalry may later end the battle.",
+      "trigger.7.title": "Charges",
+      "trigger.7.message": "Charges are the most powerful, but most risky tool available to the Napoleonic commander.",
+      "trigger.8.title": "Charge Mechanics",
+      "trigger.8.message": "A frontal cavalry charge into infantry with full HP, ORG, and STM will have basically no effect and result in heavy cavalry; a frontal infantry charge into healthy enemy infantry will result in your attacking troops routing. It's best to use units with high HP/ORG/STM to charge damaged enemy units, especially from the sides and rear.",
+      "trigger.9.title": "Charge the Rear",
+      "trigger.9.message": "Now that you've defeated the enemy cavalry, charge into the rear of the enemy infantry."
     },
     "es": {
       "name": "Gestión de Unidades",
       "description": "Aprende sobre las estadísticas de unidades y la gestión de recursos",
       "trigger.1.title": "Estadísticas de Unidades",
-      "trigger.1.message": "El combate en Lines of Battle está definido por el posicionamiento y la coordinación de todo tu ejército, así como por la gestión individual de tres estadísticas que posee cada unidad. Hay dos estadísticas compartidas entre todas las unidades: Puntos de Vida (HP), que representa la fuerza de la unidad, y Organización (ORG), que representa la cohesión de una unidad.",
+      "trigger.1.message": "El combate en Lines of Battle está definido por el posicionamiento y la coordinación de todo tu ejército, así como por la gestión individual de tres estadísticas que posee cada unidad. Hay dos estadísticas compartidas entre todas las unidades:\nPuntos de Vida (HP), que representa la fuerza de la unidad, y\nOrganización (ORG), que representa la cohesión de una unidad.",
       "trigger.2.title": "Resistencia y Munición",
-      "trigger.2.message": "Además, la caballería y la infantería tienen Resistencia (STM) que se consume en casi todas las acciones excepto Caminar, que permite una ligera recuperación de STM. La artillería carece de STM pero tiene Munición, que solo se consume al disparar. La artillería tomará de tu Reserva de Munición hasta que no quede munición, momento en el que ya no podrá disparar.",
+      "trigger.2.message": "Además, la caballería y la infantería tienen Resistencia (STM) que se consume en casi todas las acciones excepto Caminar, que permite una ligera recuperación de STM.\nLa artillería carece de STM pero tiene Munición, que solo se consume al disparar. La artillería tomará de tu Reserva de Munición hasta que no quede munición, momento en el que ya no podrá disparar.",
       "trigger.3.title": "Objetivo de Combate",
-      "trigger.3.message": "La fuerza enemiga tiene las mismas unidades que las tuyas, pero su caballería tiene STM y HP reducidos; carga cada una de tus caballerías contra las suyas y derrótalas fácilmente. Usa Disparar y Avanzar para acercarte a la infantería enemiga con tu infantería para fijarla en su lugar; después de derrotar la caballería enemiga, estarás libre para cargar los flancos de la infantería enemiga.",
-      "trigger.4.title": "Tutorial Completado",
-      "trigger.4.message": "¡Felicitaciones! Has aprendido sobre las estadísticas de unidades y la gestión de recursos. Gestionar efectivamente HP, Organización, Resistencia y Munición es crucial para la victoria en batalla."
+      "trigger.3.message": "La fuerza enemiga tiene las mismas unidades que las tuyas, pero su caballería tiene HP y STM reducidos; esta es una ventaja suficiente para ganar la batalla.",
+      "trigger.4.title": "Apuntar a Unidades",
+      "trigger.4.message": "Hasta ahora, principalmente has apuntado al suelo con órdenes de movimiento. Sin embargo, la mayoría de las órdenes de movimiento también pueden apuntar a unidades enemigas. Activa la orden Correr y selecciona tu dragón del flanco izquierdo, y luego haz clic derecho en el dragón opuesto.\nTu dragón ahora perseguirá y cargará contra el dragón enemigo seleccionado. Repite el proceso con el otro dragón.",
+      "trigger.5.title": "Disparar y Avanzar",
+      "trigger.5.message": "La infantería enemiga está en buen estado, por lo que intentar cargarla con tu propia infantería resultará en fracaso. En su lugar, activa la orden Disparar y Avanzar. Selecciona tu unidad de infantería más a la izquierda y apunta a la unidad de infantería enemiga más a la izquierda, y luego repite con las unidades de infantería del medio y derecha.",
+      "trigger.6.title": "Fijar al Enemigo",
+      "trigger.6.message": "Tu infantería se acercará a corta distancia e intercambiará descargas de mosquete, fijando al enemigo en su lugar para que tu caballería victoriosa pueda terminar la batalla más tarde.",
+      "trigger.7.title": "Cargas",
+      "trigger.7.message": "Las cargas son la herramienta más poderosa, pero también la más arriesgada disponible para el comandante napoleónico.",
+      "trigger.8.title": "Mecánica de Cargas",
+      "trigger.8.message": "Una carga frontal de caballería contra infantería con HP, ORG y STM completos tendrá básicamente ningún efecto y resultará en pesadas pérdidas de caballería; una carga frontal de infantería contra infantería enemiga saludable resultará en que tus tropas atacantes se desbanden. Es mejor usar unidades con alto HP/ORG/STM para cargar unidades enemigas dañadas, especialmente desde los lados y la retaguardia.",
+      "trigger.9.title": "Cargar la Retaguardia",
+      "trigger.9.message": "Ahora que has derrotado la caballería enemiga, carga contra la retaguardia de la infantería enemiga."
     },
     "fr": {
       "name": "Gestion des Unités",
       "description": "Apprenez les statistiques des unités et la gestion des ressources",
       "trigger.1.title": "Statistiques des Unités",
-      "trigger.1.message": "Le combat dans Lines of Battle est défini par le positionnement et la coordination de toute votre armée, ainsi que par la gestion individuelle de trois statistiques que possède chaque unité. Il y a deux statistiques partagées entre toutes les unités : les Points de Vie (HP), qui représentent la force de l'unité, et l'Organisation (ORG), qui représente la cohésion d'une unité.",
+      "trigger.1.message": "Le combat dans Lines of Battle est défini par le positionnement et la coordination de toute votre armée, ainsi que par la gestion individuelle de trois statistiques que possède chaque unité. Il y a deux statistiques partagées entre toutes les unités :\nLes Points de Vie (HP), qui représentent la force de l'unité, et\nL'Organisation (ORG), qui représente la cohésion d'une unité.",
       "trigger.2.title": "Endurance et Munitions",
-      "trigger.2.message": "De plus, la cavalerie et l'infanterie ont de l'Endurance (STM) qui est consommée par presque toutes les actions sauf la Marche, qui permet une légère récupération de STM. L'artillerie manque de STM mais a des Munitions, qui ne sont consommées que lors du tir. L'artillerie puisera dans votre Réserve de Munitions jusqu'à ce qu'il n'y ait plus de munitions, moment où elle ne pourra plus tirer.",
+      "trigger.2.message": "De plus, la cavalerie et l'infanterie ont de l'Endurance (STM) qui est consommée par presque toutes les actions sauf la Marche, qui permet une légère récupération de STM.\nL'artillerie manque de STM mais a des Munitions, qui ne sont consommées que lors du tir. L'artillerie puisera dans votre Réserve de Munitions jusqu'à ce qu'il n'y ait plus de munitions, moment où elle ne pourra plus tirer.",
       "trigger.3.title": "Objectif de Combat",
-      "trigger.3.message": "La force ennemie a les mêmes unités que les vôtres, mais leur cavalerie a une STM et des HP réduits ; chargez chacune de vos cavaleries contre les leurs et défaites-les facilement. Utilisez Tirer et Avancer pour approcher l'infanterie ennemie avec votre infanterie pour la fixer en place ; après avoir vaincu la cavalerie ennemie, vous serez libre de charger les flancs de l'infanterie ennemie.",
-      "trigger.4.title": "Tutoriel Terminé",
-      "trigger.4.message": "Félicitations ! Vous avez appris les statistiques des unités et la gestion des ressources. Gérer efficacement les HP, l'Organisation, l'Endurance et les Munitions est crucial pour la victoire au combat."
+      "trigger.3.message": "La force ennemie a les mêmes unités que les vôtres, mais leur cavalerie a des HP et une STM réduits ; c'est un avantage suffisant pour gagner la bataille.",
+      "trigger.4.title": "Cibler les Unités",
+      "trigger.4.message": "Jusqu'à présent, vous avez principalement ciblé le sol avec les ordres de mouvement. Cependant, la plupart des ordres de mouvement peuvent également cibler les unités ennemies. Activez l'ordre Courir et sélectionnez votre dragon du flanc gauche, puis faites un clic droit sur le dragon adverse.\nVotre dragon poursuivra et chargera le dragon ennemi sélectionné. Répétez le processus avec l'autre dragon.",
+      "trigger.5.title": "Tirer et Avancer",
+      "trigger.5.message": "L'infanterie ennemie est en bon état, donc tenter de la charger avec votre propre infanterie se soldera par un échec. Au lieu de cela, activez l'ordre Tirer et Avancer. Sélectionnez votre unité d'infanterie la plus à gauche et ciblez l'unité d'infanterie ennemie la plus à gauche, puis répétez avec les unités d'infanterie du milieu et de droite.",
+      "trigger.6.title": "Fixer l'Ennemi",
+      "trigger.6.message": "Votre infanterie s'approchera à courte portée et échangera des salves de mousquet, fixant l'ennemi en place pour que votre cavalerie victorieuse puisse plus tard mettre fin à la bataille.",
+      "trigger.7.title": "Charges",
+      "trigger.7.message": "Les charges sont l'outil le plus puissant, mais aussi le plus risqué disponible au commandant napoléonien.",
+      "trigger.8.title": "Mécanique des Charges",
+      "trigger.8.message": "Une charge frontale de cavalerie contre l'infanterie avec des HP, ORG et STM complets n'aura pratiquement aucun effet et entraînera de lourdes pertes de cavalerie ; une charge frontale d'infanterie contre une infanterie ennemie en bonne santé entraînera la déroute de vos troupes attaquantes. Il est préférable d'utiliser des unités avec un HP/ORG/STM élevé pour charger des unités ennemies endommagées, surtout depuis les côtés et l'arrière.",
+      "trigger.9.title": "Charger l'Arrière",
+      "trigger.9.message": "Maintenant que vous avez vaincu la cavalerie ennemie, chargez l'arrière de l'infanterie ennemie."
     },
     "de": {
       "name": "Einheitenverwaltung",
       "description": "Lernen Sie über Einheitenstatistiken und Ressourcenverwaltung",
       "trigger.1.title": "Einheitenstatistiken",
-      "trigger.1.message": "Der Kampf in Lines of Battle wird durch die Positionierung und Koordination Ihrer gesamten Armee sowie durch die individuelle Verwaltung von drei Statistiken definiert, die jede Einheit besitzt. Es gibt zwei Statistiken, die alle Einheiten gemeinsam haben: Trefferpunkte (HP), die die Stärke der Einheit darstellen, und Organisation (ORG), die den Zusammenhalt einer Einheit repräsentiert.",
+      "trigger.1.message": "Der Kampf in Lines of Battle wird durch die Positionierung und Koordination Ihrer gesamten Armee sowie durch die individuelle Verwaltung von drei Statistiken definiert, die jede Einheit besitzt. Es gibt zwei Statistiken, die alle Einheiten gemeinsam haben:\nTrefferpunkte (HP), die die Stärke der Einheit darstellen, und\nOrganisation (ORG), die den Zusammenhalt einer Einheit repräsentiert.",
       "trigger.2.title": "Ausdauer und Munition",
-      "trigger.2.message": "Zusätzlich haben Kavallerie und Infanterie Ausdauer (STM), die bei fast allen Aktionen außer Gehen verbraucht wird, was eine leichte STM-Wiederherstellung ermöglicht. Artillerie hat keine STM, aber Munition, die nur beim Feuern verbraucht wird. Die Artillerie wird aus Ihrer Munitionsreserve schöpfen, bis keine Munition mehr vorhanden ist, zu diesem Zeitpunkt kann sie nicht mehr feuern.",
+      "trigger.2.message": "Zusätzlich haben Kavallerie und Infanterie Ausdauer (STM), die bei fast allen Aktionen außer Gehen verbraucht wird, was eine leichte STM-Wiederherstellung ermöglicht.\nArtillerie hat keine STM, aber Munition, die nur beim Feuern verbraucht wird. Die Artillerie wird aus Ihrer Munitionsreserve schöpfen, bis keine Munition mehr vorhanden ist, zu diesem Zeitpunkt kann sie nicht mehr feuern.",
       "trigger.3.title": "Kampfziel",
-      "trigger.3.message": "Die feindliche Streitmacht hat die gleichen Einheiten wie Ihre, aber ihre Kavallerie hat reduzierte STM und HP; greifen Sie jede Ihrer Kavallerien gegen ihre an und besiegen Sie sie leicht. Verwenden Sie Feuern und Vorrücken, um sich mit Ihrer Infanterie der feindlichen Infanterie zu nähern und sie festzunageln; nach der Niederlage der feindlichen Kavallerie können Sie die Flanken der feindlichen Infanterie angreifen.",
-      "trigger.4.title": "Tutorial Abgeschlossen",
-      "trigger.4.message": "Glückwunsch! Sie haben etwas über Einheitenstatistiken und Ressourcenverwaltung gelernt. Die effektive Verwaltung von HP, Organisation, Ausdauer und Munition ist entscheidend für den Sieg im Kampf."
+      "trigger.3.message": "Die feindliche Streitmacht hat die gleichen Einheiten wie Ihre, aber ihre Kavallerie hat reduzierte HP und STM; das ist ein ausreichender Vorteil, um die Schlacht zu gewinnen.",
+      "trigger.4.title": "Einheiten Anvisieren",
+      "trigger.4.message": "Bis jetzt haben Sie hauptsächlich den Boden mit Bewegungsbefehlen anvisiert. Die meisten Bewegungsbefehle können jedoch auch feindliche Einheiten anvisieren. Aktivieren Sie den Befehl Laufen und wählen Sie Ihren Dragoner am linken Flügel aus, und klicken Sie dann mit der rechten Maustaste auf den gegnerischen Dragoner.\nIhr Dragoner wird nun den ausgewählten feindlichen Dragoner verfolgen und angreifen. Wiederholen Sie den Vorgang mit dem anderen Dragoner.",
+      "trigger.5.title": "Feuern und Vorrücken",
+      "trigger.5.message": "Die feindliche Infanterie ist in gutem Zustand, daher wird ein Angriff mit Ihrer eigenen Infanterie scheitern. Aktivieren Sie stattdessen den Befehl Feuern und Vorrücken. Wählen Sie Ihre linkeste Infanterieeinheit aus und zielen Sie auf die linkeste feindliche Infanterieeinheit, und wiederholen Sie dies dann mit den mittleren und rechten Infanterieeinheiten.",
+      "trigger.6.title": "Feind Fixieren",
+      "trigger.6.message": "Ihre Infanterie wird sich auf kurze Distanz nähern und Musketensalven austauschen, wodurch der Feind an Ort und Stelle fixiert wird, damit Ihre siegreiche Kavallerie die Schlacht später beenden kann.",
+      "trigger.7.title": "Angriffe",
+      "trigger.7.message": "Angriffe sind das mächtigste, aber auch riskanteste Werkzeug, das dem napoleonischen Kommandanten zur Verfügung steht.",
+      "trigger.8.title": "Angriffsmechanik",
+      "trigger.8.message": "Ein frontaler Kavallerieangriff auf Infanterie mit vollen HP, ORG und STM wird praktisch keine Wirkung haben und zu schweren Kavallerieverlusten führen; ein frontaler Infanterieangriff auf gesunde feindliche Infanterie wird dazu führen, dass Ihre angreifenden Truppen fliehen. Es ist am besten, Einheiten mit hohem HP/ORG/STM zu verwenden, um beschädigte feindliche Einheiten anzugreifen, besonders von den Seiten und von hinten.",
+      "trigger.9.title": "Rückseite Angreifen",
+      "trigger.9.message": "Jetzt, da Sie die feindliche Kavallerie besiegt haben, greifen Sie die Rückseite der feindlichen Infanterie an."
     },
     "pt": {
       "name": "Gerenciamento de Unidades",
       "description": "Aprenda sobre estatísticas de unidades e gerenciamento de recursos",
       "trigger.1.title": "Estatísticas de Unidades",
-      "trigger.1.message": "O combate em Lines of Battle é definido pelo posicionamento e coordenação de todo o seu exército, bem como pelo gerenciamento individual de três estatísticas que cada unidade possui. Existem duas estatísticas compartilhadas entre todas as unidades: Pontos de Vida (HP), que representa a força da unidade, e Organização (ORG), que representa a coesão de uma unidade.",
+      "trigger.1.message": "O combate em Lines of Battle é definido pelo posicionamento e coordenação de todo o seu exército, bem como pelo gerenciamento individual de três estatísticas que cada unidade possui. Existem duas estatísticas compartilhadas entre todas as unidades:\nPontos de Vida (HP), que representa a força da unidade, e\nOrganização (ORG), que representa a coesão de uma unidade.",
       "trigger.2.title": "Resistência e Munição",
-      "trigger.2.message": "Além disso, cavalaria e infantaria têm Resistência (STM) que é consumida por quase todas as ações, exceto Caminhar, que permite uma leve recuperação de STM. A artilharia não tem STM, mas tem Munição, que é consumida apenas ao disparar. A artilharia consumirá de sua Reserva de Munição até que não haja mais munição, momento em que não poderá mais disparar.",
+      "trigger.2.message": "Além disso, cavalaria e infantaria têm Resistência (STM) que é consumida por quase todas as ações, exceto Caminhar, que permite uma leve recuperação de STM.\nA artilharia não tem STM, mas tem Munição, que é consumida apenas ao disparar. A artilharia consumirá de sua Reserva de Munição até que não haja mais munição, momento em que não poderá mais disparar.",
       "trigger.3.title": "Objetivo de Combate",
-      "trigger.3.message": "A força inimiga tem as mesmas unidades que as suas, mas sua cavalaria tem STM e HP reduzidos; carregue cada uma de suas cavalarias contra as deles e derrote-as facilmente. Use Disparar e Avançar para se aproximar da infantaria inimiga com sua infantaria para fixá-la no lugar; após derrotar a cavalaria inimiga, você estará livre para carregar os flancos da infantaria inimiga.",
-      "trigger.4.title": "Tutorial Concluído",
-      "trigger.4.message": "Parabéns! Você aprendeu sobre estatísticas de unidades e gerenciamento de recursos. Gerenciar efetivamente HP, Organização, Resistência e Munição é crucial para a vitória em batalha."
+      "trigger.3.message": "A força inimiga tem as mesmas unidades que as suas, mas sua cavalaria tem HP e STM reduzidos; esta é uma vantagem suficiente para vencer a batalha.",
+      "trigger.4.title": "Mirar em Unidades",
+      "trigger.4.message": "Até agora, você principalmente mirou no chão com ordens de movimento. No entanto, a maioria das ordens de movimento também pode mirar em unidades inimigas. Ative a ordem Correr e selecione seu dragão do flanco esquerdo, e então clique com o botão direito no dragão oposto.\nSeu dragão agora perseguirá e carregará contra o dragão inimigo selecionado. Repita o processo com o outro dragão.",
+      "trigger.5.title": "Disparar e Avançar",
+      "trigger.5.message": "A infantaria inimiga está em boa condição, então tentar carregá-la com sua própria infantaria resultará em fracasso. Em vez disso, ative a ordem Disparar e Avançar. Selecione sua unidade de infantaria mais à esquerda e mire na unidade de infantaria inimiga mais à esquerda, e então repita com as unidades de infantaria do meio e direita.",
+      "trigger.6.title": "Fixar o Inimigo",
+      "trigger.6.message": "Sua infantaria se aproximará a curta distância e trocará salvas de mosquete, fixando o inimigo no lugar para que sua cavalaria vitoriosa possa terminar a batalha mais tarde.",
+      "trigger.7.title": "Cargas",
+      "trigger.7.message": "As cargas são a ferramenta mais poderosa, mas também a mais arriscada disponível para o comandante napoleônico.",
+      "trigger.8.title": "Mecânica das Cargas",
+      "trigger.8.message": "Uma carga frontal de cavalaria contra infantaria com HP, ORG e STM completos terá basicamente nenhum efeito e resultará em pesadas perdas de cavalaria; uma carga frontal de infantaria contra infantaria inimiga saudável resultará em suas tropas atacantes fugindo. É melhor usar unidades com alto HP/ORG/STM para carregar unidades inimigas danificadas, especialmente dos lados e retaguarda.",
+      "trigger.9.title": "Carregar a Retaguarda",
+      "trigger.9.message": "Agora que você derrotou a cavalaria inimiga, carregue na retaguarda da infantaria inimiga."
     },
     "it": {
       "name": "Gestione delle Unità",
       "description": "Impara le statistiche delle unità e la gestione delle risorse",
       "trigger.1.title": "Statistiche delle Unità",
-      "trigger.1.message": "Il combattimento in Lines of Battle è definito dal posizionamento e dalla coordinazione di tutto il tuo esercito, nonché dalla gestione individuale di tre statistiche che ogni unità possiede. Ci sono due statistiche condivise tra tutte le unità: Punti Ferita (HP), che rappresenta la forza dell'unità, e Organizzazione (ORG), che rappresenta la coesione di un'unità.",
+      "trigger.1.message": "Il combattimento in Lines of Battle è definito dal posizionamento e dalla coordinazione di tutto il tuo esercito, nonché dalla gestione individuale di tre statistiche che ogni unità possiede. Ci sono due statistiche condivise tra tutte le unità:\nPunti Ferita (HP), che rappresenta la forza dell'unità, e\nOrganizzazione (ORG), che rappresenta la coesione di un'unità.",
       "trigger.2.title": "Resistenza e Munizioni",
-      "trigger.2.message": "Inoltre, cavalleria e fanteria hanno Resistenza (STM) che viene consumata da quasi tutte le azioni tranne Camminare, che consente un leggero recupero di STM. L'artiglieria non ha STM ma ha Munizioni, che vengono consumate solo quando spara. L'artiglieria attingerà dalla tua Riserva di Munizioni fino a quando non ci saranno più munizioni, momento in cui non potrà più sparare.",
+      "trigger.2.message": "Inoltre, cavalleria e fanteria hanno Resistenza (STM) che viene consumata da quasi tutte le azioni tranne Camminare, che consente un leggero recupero di STM.\nL'artiglieria non ha STM ma ha Munizioni, che vengono consumate solo quando spara. L'artiglieria attingerà dalla tua Riserva di Munizioni fino a quando non ci saranno più munizioni, momento in cui non potrà più sparare.",
       "trigger.3.title": "Obiettivo di Combattimento",
-      "trigger.3.message": "La forza nemica ha le stesse unità delle tue, ma la loro cavalleria ha STM e HP ridotti; carica ciascuna delle tue cavallerie contro le loro e sconfiggile facilmente. Usa Fuoco e Avanzata per avvicinarti alla fanteria nemica con la tua fanteria per bloccarla sul posto; dopo aver sconfitto la cavalleria nemica, sarai libero di caricare i fianchi della fanteria nemica.",
-      "trigger.4.title": "Tutorial Completato",
-      "trigger.4.message": "Congratulazioni! Hai imparato le statistiche delle unità e la gestione delle risorse. Gestire efficacemente HP, Organizzazione, Resistenza e Munizioni è cruciale per la vittoria in battaglia."
+      "trigger.3.message": "La forza nemica ha le stesse unità delle tue, ma la loro cavalleria ha HP e STM ridotti; questo è un vantaggio sufficiente per vincere la battaglia.",
+      "trigger.4.title": "Mirare alle Unità",
+      "trigger.4.message": "Fino ad ora, hai principalmente mirato al terreno con gli ordini di movimento. Tuttavia, la maggior parte degli ordini di movimento può anche mirare alle unità nemiche. Attiva l'ordine Correre e seleziona il tuo dragone del fianco sinistro, e poi fai clic destro sul dragone avversario.\nIl tuo dragone ora inseguirà e caricherà contro il dragone nemico selezionato. Ripeti il processo con l'altro dragone.",
+      "trigger.5.title": "Fuoco e Avanzata",
+      "trigger.5.message": "La fanteria nemica è in buone condizioni, quindi tentare di caricarla con la tua fanteria risulterà in un fallimento. Invece, attiva l'ordine Fuoco e Avanzata. Seleziona la tua unità di fanteria più a sinistra e mira all'unità di fanteria nemica più a sinistra, e poi ripeti con le unità di fanteria centrali e di destra.",
+      "trigger.6.title": "Bloccare il Nemico",
+      "trigger.6.message": "La tua fanteria si avvicinerà a corta distanza e scambierà raffiche di moschetto, bloccando il nemico sul posto in modo che la tua cavalleria vittoriosa possa successivamente concludere la battaglia.",
+      "trigger.7.title": "Cariche",
+      "trigger.7.message": "Le cariche sono lo strumento più potente, ma anche il più rischioso disponibile al comandante napoleonico.",
+      "trigger.8.title": "Meccanica delle Cariche",
+      "trigger.8.message": "Una carica frontale di cavalleria contro fanteria con HP, ORG e STM pieni avrà praticamente nessun effetto e risulterà in pesanti perdite di cavalleria; una carica frontale di fanteria contro fanteria nemica sana risulterà nelle tue truppe attaccanti che fuggono. È meglio usare unità con alto HP/ORG/STM per caricare unità nemiche danneggiate, specialmente dai lati e dalla retroguardia.",
+      "trigger.9.title": "Caricare la Retroguardia",
+      "trigger.9.message": "Ora che hai sconfitto la cavalleria nemica, carica nella retroguardia della fanteria nemica."
     },
     "pl": {
       "name": "Zarządzanie Jednostkami",
       "description": "Poznaj statystyki jednostek i zarządzanie zasobami",
       "trigger.1.title": "Statystyki Jednostek",
-      "trigger.1.message": "Walka w Lines of Battle jest definowana przez pozycjonowanie i koordynację całej twojej armii, a także indywidualne zarządzanie trzema statystykami, które posiada każda jednostka. Istnieją dwie statystyki wspólne dla wszystkich jednostek: Punkty Życia (HP), które reprezentują siłę jednostki, oraz Organizacja (ORG), która reprezentuje spójność jednostki.",
+      "trigger.1.message": "Walka w Lines of Battle jest definowana przez pozycjonowanie i koordynację całej twojej armii, a także indywidualne zarządzanie trzema statystykami, które posiada każda jednostka. Istnieją dwie statystyki wspólne dla wszystkich jednostek:\nPunkty Życia (HP), które reprezentują siłę jednostki, oraz\nOrganizacja (ORG), która reprezentuje spójność jednostki.",
       "trigger.2.title": "Wytrzymałość i Amunicja",
-      "trigger.2.message": "Dodatkowo kawaleria i piechota mają Wytrzymałość (STM), która jest zużywana przez prawie wszystkie akcje z wyjątkiem Chodzenia, które pozwala na lekką regenerację STM. Artyleria nie ma STM, ale ma Amunicję, która jest zużywana tylko podczas strzelania. Artyleria będzie czerpać z twojej Rezerwy Amunicji, dopóki nie zabraknie amunicji, w którym to momencie nie będzie już mogła strzelać.",
+      "trigger.2.message": "Dodatkowo kawaleria i piechota mają Wytrzymałość (STM), która jest zużywana przez prawie wszystkie akcje z wyjątkiem Chodzenia, które pozwala na lekką regenerację STM.\nArtyleria nie ma STM, ale ma Amunicję, która jest zużywana tylko podczas strzelania. Artyleria będzie czerpać z twojej Rezerwy Amunicji, dopóki nie zabraknie amunicji, w którym to momencie nie będzie już mogła strzelać.",
       "trigger.3.title": "Cel Bojowy",
-      "trigger.3.message": "Siły wroga mają te same jednostki co twoje, ale ich kawaleria ma zmniejszoną STM i HP; zaatakuj każdą ze swoich kawalerii przeciwko ich i pokonaj je łatwo. Użyj Ognia i Natarcia, aby zbliżyć się do wrogiej piechoty z twoją piechotą, aby unieruchomić ją na miejscu; po pokonaniu wrogiej kawalerii będziesz wolny, aby zaatakować flanki wrogiej piechoty.",
-      "trigger.4.title": "Tutorial Zakończony",
-      "trigger.4.message": "Gratulacje! Nauczyłeś się statystyk jednostek i zarządzania zasobami. Skuteczne zarządzanie HP, Organizacją, Wytrzymałością i Amunicją jest kluczowe dla zwycięstwa w bitwie."
+      "trigger.3.message": "Siły wroga mają te same jednostki co twoje, ale ich kawaleria ma zmniejszone HP i STM; to wystarczająca przewaga, aby wygrać bitwę.",
+      "trigger.4.title": "Celowanie w Jednostki",
+      "trigger.4.message": "Do tej pory głównie celowałeś w ziemię rozkazami ruchu. Jednak większość rozkazów ruchu może również celować w jednostki wroga. Aktywuj rozkaz Biegu i wybierz swojego dragona z lewego skrzydła, a następnie kliknij prawym przyciskiem na przeciwnym dragonie.\nTwój dragon będzie teraz ścigał i atakował wybranego wrogiego dragona. Powtórz proces z drugim dragonem.",
+      "trigger.5.title": "Ogień i Natarcie",
+      "trigger.5.message": "Wroga piechota jest w dobrym stanie, więc próba ataku na nią własną piechotą zakończy się niepowodzeniem. Zamiast tego aktywuj rozkaz Ognia i Natarcia. Wybierz swoją najbardziej lewą jednostkę piechoty i celuj w najbardziej lewą wrogą jednostkę piechoty, a następnie powtórz z jednostkami piechoty środkową i prawą.",
+      "trigger.6.title": "Unieruchomienie Wroga",
+      "trigger.6.message": "Twoja piechota zbliży się na krótki dystans i wymieni salwy z muszkietów, unieruchamiając wroga na miejscu, aby twoja zwycięska kawaleria mogła później zakończyć bitwę.",
+      "trigger.7.title": "Ataki",
+      "trigger.7.message": "Ataki są najpotężniejszym, ale także najbardziej ryzykownym narzędziem dostępnym dla napoleońskiego dowódcy.",
+      "trigger.8.title": "Mechanika Ataków",
+      "trigger.8.message": "Frontalny atak kawalerii na piechotę z pełnymi HP, ORG i STM będzie miał praktycznie żadnego efektu i spowoduje ciężkie straty kawalerii; frontalny atak piechoty na zdrową wrogą piechotę spowoduje, że twoje atakujące oddziały uciekną. Najlepiej jest używać jednostek z wysokim HP/ORG/STM do atakowania uszkodzonych jednostek wroga, zwłaszcza z boków i tyłu.",
+      "trigger.9.title": "Atak na Tylne",
+      "trigger.9.message": "Teraz, gdy pokonałeś wrogą kawalerię, zaatakuj tyły wrogiej piechoty."
     },
     "uk": {
       "name": "Управління Підрозділами",
       "description": "Дізнайтеся про статистику підрозділів та управління ресурсами",
       "trigger.1.title": "Статистика Підрозділів",
-      "trigger.1.message": "Бойові дії в Lines of Battle визначаються позиціонуванням та координацією всієї вашої армії, а також індивідуальним управлінням трьома статистиками, які має кожен підрозділ. Є дві статистики, спільні для всіх підрозділів: Очки Здоров'я (HP), які представляють силу підрозділу, та Організація (ORG), яка представляє згуртованість підрозділу.",
+      "trigger.1.message": "Бойові дії в Lines of Battle визначаються позиціонуванням та координацією всієї вашої армії, а також індивідуальним управлінням трьома статистиками, які має кожен підрозділ. Є дві статистики, спільні для всіх підрозділів:\nОчки Здоров'я (HP), які представляють силу підрозділу, та\nОрганізація (ORG), яка представляє згуртованість підрозділу.",
       "trigger.2.title": "Витривалість та Боєприпаси",
-      "trigger.2.message": "Крім того, кавалерія та піхота мають Витривалість (STM), яка витрачається майже на всі дії, крім Ходьби, що дозволяє невелике відновлення STM. Артилерія не має STM, але має Боєприпаси, які витрачаються лише при стрільбі. Артилерія буде брати з вашої Резервної Боєкомплекту до тих пір, поки не закінчаться боєприпаси, після чого вона більше не зможе стріляти.",
+      "trigger.2.message": "Крім того, кавалерія та піхота мають Витривалість (STM), яка витрачається майже на всі дії, крім Ходьби, що дозволяє невелике відновлення STM.\nАртилерія не має STM, але має Боєприпаси, які витрачаються лише при стрільбі. Артилерія буде брати з вашої Резервної Боєкомплекту до тих пір, поки не закінчаться боєприпаси, після чого вона більше не зможе стріляти.",
       "trigger.3.title": "Бойова Мета",
-      "trigger.3.message": "Ворожа сила має ті самі підрозділи, що й ваші, але їхня кавалерія має зменшені STM та HP; атакуйте кожну з ваших кавалерій проти їхніх і легко переможіть їх. Використовуйте Вогонь і Наступ, щоб наблизитися до ворожої піхоти з вашою піхотою, щоб зафіксувати їх на місці; після поразки ворожої кавалерії ви зможете атакувати фланги ворожої піхоти.",
-      "trigger.4.title": "Навчальний Посібник Завершено",
-      "trigger.4.message": "Вітаємо! Ви дізналися про статистику підрозділів та управління ресурсами. Ефективне управління HP, Організацією, Витривалістю та Боєприпасами є вирішальним для перемоги в бою."
+      "trigger.3.message": "Ворожа сила має ті самі підрозділи, що й ваші, але їхня кавалерія має зменшені HP та STM; це достатня перевага для перемоги в битві.",
+      "trigger.4.title": "Наведення на Підрозділи",
+      "trigger.4.message": "До цього часу ви в основному наводили на землю командами руху. Однак більшість команд руху також можуть наводити на ворожі підрозділи. Активуйте команду Біг і виберіть свого драгуна з лівого флангу, а потім клацніть правою кнопкою на протилежного драгуна.\nВаш драгун тепер переслідуватиме і атакуватиме вибраного ворожого драгуна. Повторіть процес з іншим драгуном.",
+      "trigger.5.title": "Вогонь і Наступ",
+      "trigger.5.message": "Ворожа піхота в хорошому стані, тому спроба атакувати її власною піхотою закінчиться невдачею. Натомість активуйте команду Вогонь і Наступ. Виберіть вашу найлівішу піхотну одиницю і наведіть на найлівішу ворожу піхотну одиницю, а потім повторіть з середньою та правою піхотними одиницями.",
+      "trigger.6.title": "Фіксація Ворога",
+      "trigger.6.message": "Ваша піхота наблизиться на близьку відстань і обміняється залпами з мушкетів, фіксуючи ворога на місці, щоб ваша переможна кавалерія могла пізніше завершити битву.",
+      "trigger.7.title": "Атаки",
+      "trigger.7.message": "Атаки є найпотужнішим, але також найризикованішим інструментом, доступним наполеонівському командиру.",
+      "trigger.8.title": "Механіка Атак",
+      "trigger.8.message": "Фронтальна атака кавалерії на піхоту з повними HP, ORG та STM матиме практично жодного ефекту і призведе до важких втрат кавалерії; фронтальна атака піхоти на здорову ворожу піхоту призведе до втечі ваших атакуючих військ. Найкраще використовувати підрозділи з високим HP/ORG/STM для атаки пошкоджених ворожих підрозділів, особливо з боків і тилу.",
+      "trigger.9.title": "Атака Тилу",
+      "trigger.9.message": "Тепер, коли ви перемогли ворожу кавалерію, атакуйте тил ворожої піхоти."
     },
     "ru": {
       "name": "Управление Подразделениями",
       "description": "Узнайте о статистике подразделений и управлении ресурсами",
       "trigger.1.title": "Статистика Подразделений",
-      "trigger.1.message": "Бой в Lines of Battle определяется позиционированием и координацией всей вашей армии, а также индивидуальным управлением тремя статистиками, которыми обладает каждое подразделение. Есть две статистики, общие для всех подразделений: Очки Здоровья (HP), которые представляют силу подразделения, и Организация (ORG), которая представляет сплоченность подразделения.",
+      "trigger.1.message": "Бой в Lines of Battle определяется позиционированием и координацией всей вашей армии, а также индивидуальным управлением тремя статистиками, которыми обладает каждое подразделение. Есть две статистики, общие для всех подразделений:\nОчки Здоровья (HP), которые представляют силу подразделения, и\nОрганизация (ORG), которая представляет сплоченность подразделения.",
       "trigger.2.title": "Выносливость и Боеприпасы",
-      "trigger.2.message": "Кроме того, кавалерия и пехота имеют Выносливость (STM), которая расходуется почти на все действия, кроме Ходьбы, что позволяет небольшое восстановление STM. Артиллерия не имеет STM, но имеет Боеприпасы, которые расходуются только при стрельбе. Артиллерия будет брать из вашего Резерва Боеприпасов до тех пор, пока не закончатся боеприпасы, после чего она больше не сможет стрелять.",
+      "trigger.2.message": "Кроме того, кавалерия и пехота имеют Выносливость (STM), которая расходуется почти на все действия, кроме Ходьбы, что позволяет небольшое восстановление STM.\nАртиллерия не имеет STM, но имеет Боеприпасы, которые расходуются только при стрельбе. Артиллерия будет брать из вашего Резерва Боеприпасов до тех пор, пока не закончатся боеприпасы, после чего она больше не сможет стрелять.",
       "trigger.3.title": "Боевая Цель",
-      "trigger.3.message": "Вражеские силы имеют те же подразделения, что и ваши, но их кавалерия имеет уменьшенные STM и HP; атакуйте каждую из ваших кавалерий против их и легко победите их. Используйте Огонь и Наступление, чтобы приблизиться к вражеской пехоте с вашей пехотой, чтобы зафиксировать их на месте; после поражения вражеской кавалерии вы сможете атаковать фланги вражеской пехоты.",
-      "trigger.4.title": "Обучение Завершено",
-      "trigger.4.message": "Поздравляем! Вы узнали о статистике подразделений и управлении ресурсами. Эффективное управление HP, Организацией, Выносливостью и Боеприпасами имеет решающее значение для победы в бою."
+      "trigger.3.message": "Вражеские силы имеют те же подразделения, что и ваши, но их кавалерия имеет уменьшенные HP и STM; этого достаточно, чтобы выиграть битву.",
+      "trigger.4.title": "Наведение на Подразделения",
+      "trigger.4.message": "До сих пор вы в основном наводили на землю командами движения. Однако большинство команд движения также могут наводить на вражеские подразделения. Активируйте команду Бег и выберите своего драгуна с левого фланга, а затем щелкните правой кнопкой на противоположного драгуна.\nВаш драгун теперь будет преследовать и атаковать выбранного вражеского драгуна. Повторите процесс с другим драгуном.",
+      "trigger.5.title": "Огонь и Наступление",
+      "trigger.5.message": "Вражеская пехота в хорошем состоянии, поэтому попытка атаковать её собственной пехотой закончится неудачей. Вместо этого активируйте команду Огонь и Наступление. Выберите вашу самую левую пехотную единицу и наведите на самую левую вражескую пехотную единицу, а затем повторите со средними и правыми пехотными единицами.",
+      "trigger.6.title": "Фиксация Врага",
+      "trigger.6.message": "Ваша пехота приблизится на близкое расстояние и обменяется залпами из мушкетов, фиксируя врага на месте, чтобы ваша победоносная кавалерия могла позже завершить битву.",
+      "trigger.7.title": "Атаки",
+      "trigger.7.message": "Атаки являются самым мощным, но и самым рискованным инструментом, доступным наполеоновскому командиру.",
+      "trigger.8.title": "Механика Атак",
+      "trigger.8.message": "Фронтальная атака кавалерии на пехоту с полными HP, ORG и STM практически не окажет эффекта и приведет к тяжелым потерям кавалерии; фронтальная атака пехоты на здоровую вражескую пехоту приведет к бегству ваших атакующих войск. Лучше всего использовать подразделения с высоким HP/ORG/STM для атаки поврежденных вражеских подразделений, особенно с боков и тыла.",
+      "trigger.9.title": "Атака Тыла",
+      "trigger.9.message": "Теперь, когда вы победили вражескую кавалерию, атакуйте тыл вражеской пехоты."
     },
     "tr": {
       "name": "Birlik Yönetimi",
       "description": "Birlik istatistikleri ve kaynak yönetimi hakkında bilgi edinin",
       "trigger.1.title": "Birlik İstatistikleri",
-      "trigger.1.message": "Lines of Battle'da savaş, tüm ordunuzun konumlandırması ve koordinasyonu ile her birliğin sahip olduğu üç istatistiğin bireysel yönetimi ile tanımlanır. Tüm birlikler arasında paylaşılan iki istatistik vardır: Birliğin gücünü temsil eden Can Puanları (HP) ve bir birliğin uyumunu temsil eden Organizasyon (ORG).",
+      "trigger.1.message": "Lines of Battle'da savaş, tüm ordunuzun konumlandırması ve koordinasyonu ile her birliğin sahip olduğu üç istatistiğin bireysel yönetimi ile tanımlanır. Tüm birlikler arasında paylaşılan iki istatistik vardır:\nBirliğin gücünü temsil eden Can Puanları (HP) ve\nBir birliğin uyumunu temsil eden Organizasyon (ORG).",
       "trigger.2.title": "Dayanıklılık ve Cephane",
-      "trigger.2.message": "Ayrıca süvari ve piyade, Yürüme dışında neredeyse tüm eylemlerde tüketilen Dayanıklılık (STM) sahiptir, bu da hafif bir STM iyileşmesi sağlar. Topçu STM'ye sahip değildir ancak yalnızca ateş ederken tüketilen Cephane'ye sahiptir. Topçu, cephane kalmayana kadar Cephane Rezervinizden çekecek, bu noktada artık ateş edemeyecektir.",
+      "trigger.2.message": "Ayrıca süvari ve piyade, Yürüme dışında neredeyse tüm eylemlerde tüketilen Dayanıklılık (STM) sahiptir, bu da hafif bir STM iyileşmesi sağlar.\nTopçu STM'ye sahip değildir ancak yalnızca ateş ederken tüketilen Cephane'ye sahiptir. Topçu, cephane kalmayana kadar Cephane Rezervinizden çekecek, bu noktada artık ateş edemeyecektir.",
       "trigger.3.title": "Savaş Hedefi",
-      "trigger.3.message": "Düşman gücü sizinkilerle aynı birimlere sahiptir, ancak süvarilerinin STM ve HP'si azaltılmıştır; her süvarinizi onlarınkine karşı saldırın ve kolayca yenin. Piyadenizle düşman piyadesine yaklaşmak için Ateş ve İlerleme kullanın; düşman süvarisini yendikten sonra, düşman piyadesinin kanatlarına saldırmakta özgür olacaksınız.",
-      "trigger.4.title": "Eğitim Tamamlandı",
-      "trigger.4.message": "Tebrikler! Birlik istatistikleri ve kaynak yönetimi hakkında bilgi edindiniz. HP, Organizasyon, Dayanıklılık ve Cephane'yi etkili bir şekilde yönetmek savaşta zafer için çok önemlidir."
+      "trigger.3.message": "Düşman gücü sizinkilerle aynı birimlere sahiptir, ancak süvarilerinin HP ve STM'si azaltılmıştır; bu savaşı kazanmak için yeterli bir avantajdır.",
+      "trigger.4.title": "Birimlere Hedefleme",
+      "trigger.4.message": "Şu ana kadar, hareket emirleriyle çoğunlukla yere hedeflediniz. Ancak çoğu hareket emri düşman birimlerini de hedefleyebilir. Koşu emrini etkinleştirin ve sol kanat ejderhanızı seçin, ardından karşıdaki ejderhaya sağ tıklayın.\nEjderhanız artık seçilen düşman ejderhasını takip edecek ve ona saldıracaktır. İşlemi diğer ejderha ile tekrarlayın.",
+      "trigger.5.title": "Ateş ve İlerleme",
+      "trigger.5.message": "Düşman piyadesi iyi durumda, bu yüzden kendi piyadenizle onlara saldırmaya çalışmak başarısızlıkla sonuçlanacaktır. Bunun yerine Ateş ve İlerleme emrini etkinleştirin. En soldaki piyade biriminizi seçin ve en soldaki düşman piyade birimini hedefleyin, ardından orta ve sağ piyade birimleriyle tekrarlayın.",
+      "trigger.6.title": "Düşmanı Sabitleme",
+      "trigger.6.message": "Piyadeniz yakın mesafeye yaklaşacak ve tüfek salvoları değiş tokuş edecek, düşmanı yerinde sabitleyecek, böylece zafer kazanan süvariniz daha sonra savaşı sonlandırabilecek.",
+      "trigger.7.title": "Saldırılar",
+      "trigger.7.message": "Saldırılar Napolyon komutanının kullanabileceği en güçlü, ancak en riskli araçtır.",
+      "trigger.8.title": "Saldırı Mekaniği",
+      "trigger.8.message": "Tam HP, ORG ve STM'ye sahip piyadeye yapılan önden süvari saldırısı temelde hiçbir etkisi olmayacak ve ağır süvari kayıplarına neden olacaktır; sağlıklı düşman piyadesine yapılan önden piyade saldırısı saldıran birliklerinizin kaçmasına neden olacaktır. Hasarlı düşman birimlerine saldırmak için yüksek HP/ORG/STM'ye sahip birlikleri kullanmak en iyisidir, özellikle yanlardan ve arkadan.",
+      "trigger.9.title": "Arkadan Saldırı",
+      "trigger.9.message": "Artık düşman süvarisini yendiğinize göre, düşman piyadesinin arkasına saldırın."
     },
     "zh": {
       "name": "单位管理",
       "description": "了解单位统计和资源管理",
       "trigger.1.title": "单位统计",
-      "trigger.1.message": "《战线》中的战斗由整个军队的定位和协调以及每个单位拥有的三项统计数据的单独管理来定义。所有单位共享两个统计数据：生命值（HP），代表单位的力量，以及组织度（ORG），代表单位的凝聚力。",
+      "trigger.1.message": "《战线》中的战斗由整个军队的定位和协调以及每个单位拥有的三项统计数据的单独管理来定义。所有单位共享两个统计数据：\n生命值（HP），代表单位的力量，以及\n组织度（ORG），代表单位的凝聚力。",
       "trigger.2.title": "耐力和弹药",
-      "trigger.2.message": "此外，骑兵和步兵具有耐力（STM），除了步行（允许轻微STM恢复）外，几乎所有行动都会消耗。炮兵没有STM，但有弹药，仅在开火时消耗。炮兵将从您的弹药储备中获取，直到没有弹药为止，此时它将无法再开火。",
+      "trigger.2.message": "此外，骑兵和步兵具有耐力（STM），除了步行（允许轻微STM恢复）外，几乎所有行动都会消耗。\n炮兵没有STM，但有弹药，仅在开火时消耗。炮兵将从您的弹药储备中获取，直到没有弹药为止，此时它将无法再开火。",
       "trigger.3.title": "战斗目标",
-      "trigger.3.message": "敌军拥有与您相同的单位，但他们的骑兵具有降低的STM和HP；让您的每支骑兵向他们的骑兵冲锋并轻松击败他们。使用开火和前进，用您的步兵接近敌军步兵以将其固定在原地；击败敌军骑兵后，您就可以自由地向敌军步兵的侧翼冲锋。",
-      "trigger.4.title": "教程完成",
-      "trigger.4.message": "恭喜！您已经了解了单位统计和资源管理。有效管理HP、组织度、耐力和弹药对于战斗胜利至关重要。"
+      "trigger.3.message": "敌军拥有与您相同的单位，但他们的骑兵具有降低的HP和STM；这足以赢得战斗。",
+      "trigger.4.title": "瞄准单位",
+      "trigger.4.message": "到目前为止，您主要使用移动命令瞄准地面。然而，大多数移动命令也可以瞄准敌方单位。激活跑步命令并选择您的左翼龙骑兵，然后右键单击对面的龙骑兵。\n您的龙骑兵现在将追击并冲向选定的敌方龙骑兵。对另一个龙骑兵重复此过程。",
+      "trigger.5.title": "开火和前进",
+      "trigger.5.message": "敌军步兵状态良好，因此用您自己的步兵冲锋会导致失败。相反，激活开火和前进命令。选择您最左侧的步兵单位并瞄准最左侧的敌方步兵单位，然后对中间和右侧的步兵单位重复此操作。",
+      "trigger.6.title": "固定敌人",
+      "trigger.6.message": "您的步兵将接近近距离并交换火枪齐射，将敌人固定在原地，以便您获胜的骑兵稍后可以结束战斗。",
+      "trigger.7.title": "冲锋",
+      "trigger.7.message": "冲锋是拿破仑指挥官可用的最强大但也是最危险的工具。",
+      "trigger.8.title": "冲锋机制",
+      "trigger.8.message": "对拥有完整HP、ORG和STM的步兵进行正面骑兵冲锋基本上没有效果，并会导致严重的骑兵损失；对健康的敌方步兵进行正面步兵冲锋会导致您的攻击部队溃败。最好使用高HP/ORG/STM的单位向受损的敌方单位冲锋，特别是从侧面和后方。",
+      "trigger.9.title": "攻击后方",
+      "trigger.9.message": "既然您已经击败了敌军骑兵，就向敌军步兵的后方冲锋。"
     },
     "hu": {
       "name": "Egységkezelés",
       "description": "Ismerje meg az egységstatisztikákat és az erőforrás-kezelést",
       "trigger.1.title": "Egységstatisztikák",
-      "trigger.1.message": "A Lines of Battle-ban a harcot a teljes hadsereg elhelyezése és koordinálása, valamint minden egység által birtokolt három statisztika egyéni kezelése határozza meg. Két statisztika van, amelyet minden egység megoszt: az Életpontok (HP), amelyek az egység erejét képviselik, és a Szervezettség (ORG), amely az egység kohézióját képviseli.",
+      "trigger.1.message": "A Lines of Battle-ban a harcot a teljes hadsereg elhelyezése és koordinálása, valamint minden egység által birtokolt három statisztika egyéni kezelése határozza meg. Két statisztika van, amelyet minden egység megoszt:\nAz Életpontok (HP), amelyek az egység erejét képviselik, és\nA Szervezettség (ORG), amely az egység kohézióját képviseli.",
       "trigger.2.title": "Kitartás és Lőszer",
-      "trigger.2.message": "Ezenkívül a lovasságnak és gyalogságnak van Kitartása (STM), amelyet szinte minden akció fogyaszt, kivéve a Gyaloglást, amely enyhe STM-regenerálást tesz lehetővé. A tüzérségnek nincs STM-je, de van Löszere, amelyet csak tüzeléskor fogyaszt. A tüzérség a Lőszer Tartalékából vesz, amíg nem marad lőszer, ekkor már nem tud tüzelni.",
+      "trigger.2.message": "Ezenkívül a lovasságnak és gyalogságnak van Kitartása (STM), amelyet szinte minden akció fogyaszt, kivéve a Gyaloglást, amely enyhe STM-regenerálást tesz lehetővé.\nA tüzérségnek nincs STM-je, de van Löszere, amelyet csak tüzeléskor fogyaszt. A tüzérség a Lőszer Tartalékából vesz, amíg nem marad lőszer, ekkor már nem tud tüzelni.",
       "trigger.3.title": "Harci Cél",
-      "trigger.3.message": "Az ellenséges erőknek ugyanazok az egységeik vannak, mint az önöknek, de a lovasságuknak csökkentett STM-je és HP-ja van; támadjon minden lovasságát az övék ellen és győzze le őket könnyedén. Használja a Tüzelés és Előrehaladás parancsot, hogy gyalogságával közelítsen az ellenséges gyalogsághoz, hogy rögzítse őket; az ellenséges lovasság legyőzése után szabadon támadhatja az ellenséges gyalogság szárnyait.",
-      "trigger.4.title": "Oktatóanyag Befejezve",
-      "trigger.4.message": "Gratulálunk! Megtanulta az egységstatisztikákat és az erőforrás-kezelést. A HP, Szervezettség, Kitartás és Lőszer hatékony kezelése döntő fontosságú a csatában való győzelemhez."
+      "trigger.3.message": "Az ellenséges erőknek ugyanazok az egységeik vannak, mint az önöknek, de a lovasságuknak csökkentett HP-ja és STM-je van; ez elég előny a csata megnyeréséhez.",
+      "trigger.4.title": "Egységek Célzása",
+      "trigger.4.message": "Eddig főleg a talajt céloztad mozgási parancsokkal. A legtöbb mozgási parancs azonban ellenséges egységeket is célozhat. Aktiváld a Fuss parancsot és válaszd ki a bal szárnyú dragonyosodat, majd kattints jobb gombbal az ellenkező dragonyosra.\nA dragonyosod most üldözni és megtámadni fogja a kiválasztott ellenséges dragonyost. Ismételd meg a folyamatot a másik dragonyossal.",
+      "trigger.5.title": "Tüzelés és Előrehaladás",
+      "trigger.5.message": "Az ellenséges gyalogság jó állapotban van, ezért a saját gyalogságoddal való támadás kudarcba fullad. Ehelyett aktiváld a Tüzelés és Előrehaladás parancsot. Válaszd ki a bal szélső gyalogsági egységedet és célozd meg a bal szélső ellenséges gyalogsági egységet, majd ismételd meg a középső és jobb oldali gyalogsági egységekkel.",
+      "trigger.6.title": "Ellenség Rögzítése",
+      "trigger.6.message": "A gyalogságod közelre kerül és puskalövéseket cserél, rögzítve az ellenséget a helyén, hogy a győztes lovasságod később befejezhesse a csatát.",
+      "trigger.7.title": "Támadások",
+      "trigger.7.message": "A támadások a napoleoni parancsnok számára rendelkezésre álló legerősebb, de legkockázatosabb eszköz.",
+      "trigger.8.title": "Támadás Mechanika",
+      "trigger.8.message": "A teljes HP-, ORG- és STM-vel rendelkező gyalogságra irányuló frontális lovassági támadás gyakorlatilag semmilyen hatást nem fog eredményezni és súlyos lovassági veszteségeket okoz; az egészséges ellenséges gyalogságra irányuló frontális gyalogsági támadás az támadó csapataid menekülését eredményezi. A legjobb, ha magas HP/ORG/STM-vel rendelkező egységeket használsz a sérült ellenséges egységek megtámadására, különösen az oldalakról és hátulról.",
+      "trigger.9.title": "Hátsó Támadás",
+      "trigger.9.message": "Most, hogy legyőzted az ellenséges lovasságot, támadj az ellenséges gyalogság hátuljára."
     },
     "ja": {
       "name": "ユニット管理",
       "description": "ユニット統計とリソース管理について学ぶ",
       "trigger.1.title": "ユニット統計",
-      "trigger.1.message": "Lines of Battleでの戦闘は、全軍の配置と連携、および各ユニットが持つ3つの統計の個別管理によって定義されます。すべてのユニット間で共有される2つの統計があります：ユニットの強さを表すヒットポイント（HP）と、ユニットの結束を表す組織度（ORG）です。",
+      "trigger.1.message": "Lines of Battleでの戦闘は、全軍の配置と連携、および各ユニットが持つ3つの統計の個別管理によって定義されます。すべてのユニット間で共有される2つの統計があります：\nユニットの強さを表すヒットポイント（HP）と、\nユニットの結束を表す組織度（ORG）です。",
       "trigger.2.title": "スタミナと弾薬",
-      "trigger.2.message": "さらに、騎兵と歩兵にはスタミナ（STM）があり、歩行を除くほぼすべての行動で消費されます。歩行はわずかなSTM回復を可能にします。砲兵にはSTMがありませんが、弾薬があり、発砲時のみ消費されます。砲兵は弾薬がなくなるまで弾薬予備から補給し、その時点で発砲できなくなります。",
+      "trigger.2.message": "さらに、騎兵と歩兵にはスタミナ（STM）があり、歩行を除くほぼすべての行動で消費されます。歩行はわずかなSTM回復を可能にします。\n砲兵にはSTMがありませんが、弾薬があり、発砲時のみ消費されます。砲兵は弾薬がなくなるまで弾薬予備から補給し、その時点で発砲できなくなります。",
       "trigger.3.title": "戦闘目標",
-      "trigger.3.message": "敵軍はあなたと同じユニットを持っていますが、敵の騎兵はSTMとHPが減少しています。各騎兵を敵の騎兵に突撃させて簡単に倒してください。歩兵で「射撃と前進」を使用して敵の歩兵に接近し、その場に固定します。敵の騎兵を倒した後、敵の歩兵の側面に突撃できます。",
-      "trigger.4.title": "チュートリアル完了",
-      "trigger.4.message": "おめでとうございます！ユニット統計とリソース管理について学びました。HP、組織度、スタミナ、弾薬を効果的に管理することは、戦闘での勝利に不可欠です。"
+      "trigger.3.message": "敵軍はあなたと同じユニットを持っていますが、敵の騎兵はHPとSTMが減少しています。これは戦闘に勝つには十分な優位性です。",
+      "trigger.4.title": "ユニットへの照準",
+      "trigger.4.message": "これまで、移動コマンドで主に地面を照準していました。しかし、ほとんどの移動コマンドは敵ユニットも照準できます。走るコマンドを有効化し、左翼の竜騎兵を選択してから、対面する竜騎兵を右クリックしてください。\nあなたの竜騎兵は選択した敵の竜騎兵を追跡して突撃します。もう一方の竜騎兵でも同じプロセスを繰り返してください。",
+      "trigger.5.title": "射撃と前進",
+      "trigger.5.message": "敵の歩兵は良好な状態にあるため、自分の歩兵で突撃を試みると失敗します。代わりに、射撃と前進コマンドを有効化してください。最も左の歩兵ユニットを選択し、最も左の敵歩兵ユニットを照準し、次に中央と右の歩兵ユニットで繰り返してください。",
+      "trigger.6.title": "敵の固定",
+      "trigger.6.message": "あなたの歩兵は近距離に接近し、マスケット銃の斉射を交換して、敵をその場に固定し、勝利した騎兵が後で戦闘を終わらせることができるようにします。",
+      "trigger.7.title": "突撃",
+      "trigger.7.message": "突撃はナポレオン指揮官が利用できる最も強力だが、最もリスクの高いツールです。",
+      "trigger.8.title": "突撃のメカニクス",
+      "trigger.8.message": "完全なHP、ORG、STMを持つ歩兵への正面騎兵突撃は基本的に効果がなく、騎兵に大きな損失をもたらします。健康な敵歩兵への正面歩兵突撃は、攻撃部隊が退却する結果になります。損傷した敵ユニットに突撃するには、特に側面と後方から、高いHP/ORG/STMを持つユニットを使用するのが最善です。",
+      "trigger.9.title": "後方への突撃",
+      "trigger.9.message": "敵の騎兵を倒したので、敵の歩兵の後方に突撃してください。"
     },
     "id": {
       "name": "Manajemen Unit",
       "description": "Pelajari tentang statistik unit dan manajemen sumber daya",
       "trigger.1.title": "Statistik Unit",
-      "trigger.1.message": "Pertempuran di Lines of Battle ditentukan oleh penempatan dan koordinasi seluruh pasukan Anda, serta manajemen individual dari tiga statistik yang dimiliki setiap unit. Ada dua statistik yang dibagi antara semua unit: Hit Points (HP), yang mewakili kekuatan unit, dan Organization (ORG), yang mewakili kohesi unit.",
+      "trigger.1.message": "Pertempuran di Lines of Battle ditentukan oleh penempatan dan koordinasi seluruh pasukan Anda, serta manajemen individual dari tiga statistik yang dimiliki setiap unit. Ada dua statistik yang dibagi antara semua unit:\nHit Points (HP), yang mewakili kekuatan unit, dan\nOrganization (ORG), yang mewakili kohesi unit.",
       "trigger.2.title": "Stamina dan Amunisi",
-      "trigger.2.message": "Selain itu, kavaleri dan infanteri memiliki Stamina (STM) yang dikonsumsi oleh hampir semua tindakan kecuali Berjalan, yang memungkinkan pemulihan STM ringan. Artileri tidak memiliki STM tetapi memiliki Amunisi, yang hanya dikonsumsi saat menembak. Artileri akan mengambil dari Cadangan Amunisi Anda sampai tidak ada amunisi tersisa, pada saat itu tidak akan bisa menembak lagi.",
+      "trigger.2.message": "Selain itu, kavaleri dan infanteri memiliki Stamina (STM) yang dikonsumsi oleh hampir semua tindakan kecuali Berjalan, yang memungkinkan pemulihan STM ringan.\nArtileri tidak memiliki STM tetapi memiliki Amunisi, yang hanya dikonsumsi saat menembak. Artileri akan mengambil dari Cadangan Amunisi Anda sampai tidak ada amunisi tersisa, pada saat itu tidak akan bisa menembak lagi.",
       "trigger.3.title": "Tujuan Pertempuran",
-      "trigger.3.message": "Pasukan musuh memiliki unit yang sama dengan milik Anda, tetapi kavaleri mereka memiliki STM dan HP yang berkurang; serang setiap kavaleri Anda ke kavaleri mereka dan kalahkan mereka dengan mudah. Gunakan Tembak dan Maju untuk mendekati infanteri musuh dengan infanteri Anda untuk menjepit mereka di tempat; setelah mengalahkan kavaleri musuh, Anda akan bebas untuk menyerang sayap infanteri musuh.",
-      "trigger.4.title": "Tutorial Selesai",
-      "trigger.4.message": "Selamat! Anda telah mempelajari statistik unit dan manajemen sumber daya. Mengelola HP, Organization, Stamina, dan Amunisi secara efektif sangat penting untuk kemenangan dalam pertempuran."
+      "trigger.3.message": "Pasukan musuh memiliki unit yang sama dengan milik Anda, tetapi kavaleri mereka memiliki HP dan STM yang berkurang; ini adalah keuntungan yang cukup untuk memenangkan pertempuran.",
+      "trigger.4.title": "Membidik Unit",
+      "trigger.4.message": "Sampai sekarang, Anda terutama membidik tanah dengan perintah gerakan. Namun, sebagian besar perintah gerakan juga dapat membidik unit musuh. Aktifkan perintah Lari dan pilih dragoon sayap kiri Anda, lalu klik kanan pada dragoon lawan.\nDragoon Anda sekarang akan mengejar dan menyerang dragoon musuh yang dipilih. Ulangi prosesnya dengan dragoon lainnya.",
+      "trigger.5.title": "Tembak dan Maju",
+      "trigger.5.message": "Infanteri musuh dalam kondisi baik, jadi mencoba menyerang mereka dengan infanteri Anda sendiri akan gagal. Sebaliknya, aktifkan perintah Tembak dan Maju. Pilih unit infanteri paling kiri Anda dan bidik unit infanteri musuh paling kiri, lalu ulangi dengan unit infanteri tengah dan kanan.",
+      "trigger.6.title": "Menjepit Musuh",
+      "trigger.6.message": "Infanteri Anda akan mendekati jarak dekat dan bertukar tembakan senapan, menjepit musuh di tempatnya sehingga kavaleri Anda yang menang dapat mengakhiri pertempuran nanti.",
+      "trigger.7.title": "Serangan",
+      "trigger.7.message": "Serangan adalah alat paling kuat, tetapi paling berisiko yang tersedia untuk komandan Napoleon.",
+      "trigger.8.title": "Mekanika Serangan",
+      "trigger.8.message": "Serangan kavaleri frontal ke infanteri dengan HP, ORG, dan STM penuh pada dasarnya tidak akan berpengaruh dan mengakibatkan kerugian kavaleri yang berat; serangan infanteri frontal ke infanteri musuh yang sehat akan mengakibatkan pasukan penyerang Anda melarikan diri. Yang terbaik adalah menggunakan unit dengan HP/ORG/STM tinggi untuk menyerang unit musuh yang rusak, terutama dari samping dan belakang.",
+      "trigger.9.title": "Serang Belakang",
+      "trigger.9.message": "Sekarang setelah Anda mengalahkan kavaleri musuh, serang bagian belakang infanteri musuh."
     },
     "kr": {
       "name": "유닛 관리",
       "description": "유닛 통계 및 자원 관리에 대해 알아보기",
       "trigger.1.title": "유닛 통계",
-      "trigger.1.message": "Lines of Battle의 전투는 전체 군대의 배치와 조정, 그리고 각 유닛이 보유한 세 가지 통계의 개별 관리로 정의됩니다. 모든 유닛 간에 공유되는 두 가지 통계가 있습니다: 유닛의 힘을 나타내는 체력(HP)과 유닛의 결속력을 나타내는 조직도(ORG)입니다.",
+      "trigger.1.message": "Lines of Battle의 전투는 전체 군대의 배치와 조정, 그리고 각 유닛이 보유한 세 가지 통계의 개별 관리로 정의됩니다. 모든 유닛 간에 공유되는 두 가지 통계가 있습니다:\n유닛의 힘을 나타내는 체력(HP)과\n유닛의 결속력을 나타내는 조직도(ORG)입니다.",
       "trigger.2.title": "스태미나와 탄약",
-      "trigger.2.message": "또한 기병과 보병은 걷기를 제외한 거의 모든 행동에서 소모되는 스태미나(STM)를 가지고 있으며, 걷기는 약간의 STM 회복을 허용합니다. 포병은 STM이 없지만 탄약을 가지고 있으며, 발사할 때만 소모됩니다. 포병은 탄약이 없을 때까지 탄약 보유량에서 가져오며, 그 시점부터는 더 이상 발사할 수 없습니다.",
+      "trigger.2.message": "또한 기병과 보병은 걷기를 제외한 거의 모든 행동에서 소모되는 스태미나(STM)를 가지고 있으며, 걷기는 약간의 STM 회복을 허용합니다.\n포병은 STM이 없지만 탄약을 가지고 있으며, 발사할 때만 소모됩니다. 포병은 탄약이 없을 때까지 탄약 보유량에서 가져오며, 그 시점부터는 더 이상 발사할 수 없습니다.",
       "trigger.3.title": "전투 목표",
-      "trigger.3.message": "적군은 당신과 같은 유닛을 가지고 있지만, 그들의 기병은 STM과 HP가 감소했습니다. 각 기병을 적 기병에게 돌격시켜 쉽게 물리치세요. 사격 및 전진을 사용하여 보병으로 적 보병에 접근하여 제자리에 고정시키세요. 적 기병을 물리친 후, 적 보병의 측면을 돌격할 수 있습니다.",
-      "trigger.4.title": "튜토리얼 완료",
-      "trigger.4.message": "축하합니다! 유닛 통계와 자원 관리에 대해 배웠습니다. HP, 조직도, 스태미나, 탄약을 효과적으로 관리하는 것이 전투에서 승리하는 데 중요합니다."
+      "trigger.3.message": "적군은 당신과 같은 유닛을 가지고 있지만, 그들의 기병은 HP와 STM이 감소했습니다. 이것은 전투에서 승리하기에 충분한 이점입니다.",
+      "trigger.4.title": "유닛 타겟팅",
+      "trigger.4.message": "지금까지 주로 이동 명령으로 지면을 타겟팅했습니다. 그러나 대부분의 이동 명령은 적 유닛도 타겟팅할 수 있습니다. 달리기 명령을 활성화하고 왼쪽 측면 용기병을 선택한 다음 상대 용기병을 우클릭하세요.\n당신의 용기병은 이제 선택한 적 용기병을 추격하고 돌격할 것입니다. 다른 용기병으로도 프로세스를 반복하세요.",
+      "trigger.5.title": "사격 및 전진",
+      "trigger.5.message": "적 보병은 상태가 좋기 때문에 자신의 보병으로 돌격하려고 하면 실패할 것입니다. 대신 사격 및 전진 명령을 활성화하세요. 가장 왼쪽 보병 유닛을 선택하고 가장 왼쪽 적 보병 유닛을 타겟팅한 다음 중앙과 오른쪽 보병 유닛으로 반복하세요.",
+      "trigger.6.title": "적 고정",
+      "trigger.6.message": "당신의 보병은 근거리로 접근하여 머스켓 일제 사격을 교환하며, 적을 제자리에 고정시켜 승리한 기병이 나중에 전투를 종료할 수 있도록 합니다.",
+      "trigger.7.title": "돌격",
+      "trigger.7.message": "돌격은 나폴레옹 지휘관이 사용할 수 있는 가장 강력하지만 가장 위험한 도구입니다.",
+      "trigger.8.title": "돌격 메커니즘",
+      "trigger.8.message": "완전한 HP, ORG 및 STM을 가진 보병에 대한 정면 기병 돌격은 기본적으로 효과가 없고 심각한 기병 손실을 초래합니다. 건강한 적 보병에 대한 정면 보병 돌격은 공격 부대가 도주하게 됩니다. 손상된 적 유닛에 돌격하려면 특히 측면과 후방에서 높은 HP/ORG/STM을 가진 유닛을 사용하는 것이 가장 좋습니다.",
+      "trigger.9.title": "후방 돌격",
+      "trigger.9.message": "이제 적 기병을 물리쳤으니 적 보병의 후방으로 돌격하세요."
     },
     "el": {
       "name": "Διαχείριση Μονάδων",
       "description": "Μάθετε για τα στατιστικά μονάδων και τη διαχείριση πόρων",
       "trigger.1.title": "Στατιστικά Μονάδων",
-      "trigger.1.message": "Η μάχη στο Lines of Battle καθορίζεται από τοποθέτηση και συντονισμό ολόκληρου του στρατού σας, καθώς και από την ατομική διαχείριση τριών στατιστικών που έχει κάθε μονάδα. Υπάρχουν δύο στατιστικά που μοιράζονται μεταξύ όλων των μονάδων: τα Σημεία Ζωής (HP), που αντιπροσωπεύουν τη δύναμη της μονάδας, και ο Οργανισμός (ORG), που αντιπροσωπεύει την συνοχή μιας μονάδας.",
+      "trigger.1.message": "Η μάχη στο Lines of Battle καθορίζεται από τοποθέτηση και συντονισμό ολόκληρου του στρατού σας, καθώς και από την ατομική διαχείριση τριών στατιστικών που έχει κάθε μονάδα. Υπάρχουν δύο στατιστικά που μοιράζονται μεταξύ όλων των μονάδων:\nΤα Σημεία Ζωής (HP), που αντιπροσωπεύουν τη δύναμη της μονάδας, και\nΟ Οργανισμός (ORG), που αντιπροσωπεύει την συνοχή μιας μονάδας.",
       "trigger.2.title": "Αντοχή και Πυρομαχικά",
-      "trigger.2.message": "Επιπλέον, το ιππικό και το πεζικό έχουν Αντοχή (STM) που καταναλώνεται από σχεδόν όλες τις ενέργειες εκτός από το Περπάτημα, που επιτρέπει ελαφριά ανάκτηση STM. Το πυροβολικό δεν έχει STM αλλά έχει Πυρομαχικά, που καταναλώνονται μόνο όταν πυροβολεί. Το πυροβολικό θα τραβήξει από την Αποθήκη Πυρομαχικών σας μέχρι να μην υπάρχουν πυρομαχικά, οπότε δεν θα μπορεί πλέον να πυροβολήσει.",
+      "trigger.2.message": "Επιπλέον, το ιππικό και το πεζικό έχουν Αντοχή (STM) που καταναλώνεται από σχεδόν όλες τις ενέργειες εκτός από το Περπάτημα, που επιτρέπει ελαφριά ανάκτηση STM.\nΤο πυροβολικό δεν έχει STM αλλά έχει Πυρομαχικά, που καταναλώνονται μόνο όταν πυροβολεί. Το πυροβολικό θα τραβήξει από την Αποθήκη Πυρομαχικών σας μέχρι να μην υπάρχουν πυρομαχικά, οπότε δεν θα μπορεί πλέον να πυροβολήσει.",
       "trigger.3.title": "Στόχος Μάχης",
-      "trigger.3.message": "Ο εχθρικός στρατός έχει τις ίδιες μονάδες με τις δικές σας, αλλά το ιππικό τους έχει μειωμένη STM και HP. Επιτεθείτε με κάθε ιππικό σας εναντίον του δικού τους και νικήστε τους εύκολα. Χρησιμοποιήστε Πυροβολισμό και Πρόοδο για να πλησιάσετε το εχθρικό πεζικό με το πεζικό σας για να το καρφώσετε στη θέση του. Μετά την ήττα του εχθρικού ιππικού, θα είστε ελεύθεροι να επιτεθείτε στα πλευρά του εχθρικού πεζικού.",
-      "trigger.4.title": "Φροντιστήριο Ολοκληρώθηκε",
-      "trigger.4.message": "Συγχαρητήρια! Έχετε μάθει για τα στατιστικά μονάδων και τη διαχείριση πόρων. Η αποτελεσματική διαχείριση HP, Οργανισμού, Αντοχής και Πυρομαχικών είναι κρίσιμη για τη νίκη στη μάχη."
+      "trigger.3.message": "Ο εχθρικός στρατός έχει τις ίδιες μονάδες με τις δικές σας, αλλά το ιππικό τους έχει μειωμένα HP και STM. Αυτό είναι ένα αρκετό πλεονέκτημα για να κερδίσετε τη μάχη.",
+      "trigger.4.title": "Στόχευση Μονάδων",
+      "trigger.4.message": "Μέχρι τώρα, έχετε στοχεύσει κυρίως στο έδαφος με εντολές κίνησης. Ωστόσο, οι περισσότερες εντολές κίνησης μπορούν επίσης να στοχεύσουν εχθρικές μονάδες. Ενεργοποιήστε την εντολή Τρέξιμο και επιλέξτε τον δράκο του αριστερού πλευρού σας, και στη συνέχεια κάντε δεξί κλικ στον αντίπαλο δράκο.\nΟ δράκος σας θα καταδιώξει και θα επιτεθεί στον επιλεγμένο εχθρικό δράκο. Επαναλάβετε τη διαδικασία με τον άλλο δράκο.",
+      "trigger.5.title": "Πυροβολισμός και Πρόοδος",
+      "trigger.5.message": "Το εχθρικό πεζικό είναι σε καλή κατάσταση, επομένως η προσπάθεια να το επιτεθείτε με το δικό σας πεζικό θα αποτύχει. Αντίθετα, ενεργοποιήστε την εντολή Πυροβολισμός και Πρόοδος. Επιλέξτε την πιο αριστερή μονάδα πεζικού σας και στοχεύστε την πιο αριστερή εχθρική μονάδα πεζικού, και στη συνέχεια επαναλάβετε με τις μεσαίες και δεξιές μονάδες πεζικού.",
+      "trigger.6.title": "Κάρφωμα του Εχθρού",
+      "trigger.6.message": "Το πεζικό σας θα πλησιάσει σε κοντινή απόσταση και θα ανταλλάξει βολές μουσκέτου, καρφώνοντας τον εχθρό στη θέση του ώστε το νικηφόρο ιππικό σας να μπορεί αργότερα να τερματίσει τη μάχη.",
+      "trigger.7.title": "Επιθέσεις",
+      "trigger.7.message": "Οι επιθέσεις είναι το πιο ισχυρό, αλλά και το πιο ριψοκίνδυνο εργαλείο που διαθέτει ο ναπολεόντειος διοικητής.",
+      "trigger.8.title": "Μηχανική Επιθέσεων",
+      "trigger.8.message": "Μια μετωπική επίθεση ιππικού σε πεζικό με πλήρη HP, ORG και STM δεν θα έχει ουσιαστικά κανένα αποτέλεσμα και θα οδηγήσει σε βαριές απώλειες ιππικού. Μια μετωπική επίθεση πεζικού σε υγιές εχθρικό πεζικό θα οδηγήσει σε φυγή των επιτιθέμενων στρατευμάτων σας. Είναι καλύτερο να χρησιμοποιείτε μονάδες με υψηλό HP/ORG/STM για να επιτεθείτε σε κατεστραμμένες εχθρικές μονάδες, ειδικά από τα πλευρά και το πίσω μέρος.",
+      "trigger.9.title": "Επίθεση στο Πίσω Μέρος",
+      "trigger.9.message": "Τώρα που έχετε νικήσει το εχθρικό ιππικό, επιτεθείτε στο πίσω μέρος του εχθρικού πεζικού."
     },
     "ar": {
       "name": "إدارة الوحدات",
       "description": "تعرف على إحصائيات الوحدات وإدارة الموارد",
       "trigger.1.title": "إحصائيات الوحدات",
-      "trigger.1.message": "يتم تعريف القتال في Lines of Battle من خلال وضع وتنسيق جيشك بالكامل، بالإضافة إلى الإدارة الفردية لثلاث إحصائيات تمتلكها كل وحدة. هناك إحصائيتان مشتركتان بين جميع الوحدات: نقاط الصحة (HP)، التي تمثل قوة الوحدة، والتنظيم (ORG)، الذي يمثل تماسك الوحدة.",
+      "trigger.1.message": "يتم تعريف القتال في Lines of Battle من خلال وضع وتنسيق جيشك بالكامل، بالإضافة إلى الإدارة الفردية لثلاث إحصائيات تمتلكها كل وحدة. هناك إحصائيتان مشتركتان بين جميع الوحدات:\nنقاط الصحة (HP)، التي تمثل قوة الوحدة، والتنظيم (ORG)، الذي يمثل تماسك الوحدة.",
       "trigger.2.title": "التحمل والذخيرة",
-      "trigger.2.message": "بالإضافة إلى ذلك، لدى الفرسان والمشاة التحمل (STM) الذي يُستهلك في جميع الإجراءات تقريبًا باستثناء المشي، مما يسمح بالتعافي الطفيف من STM. المدفعية لا تملك STM ولكن لديها ذخيرة، والتي تُستهلك فقط عند إطلاق النار. ستأخذ المدفعية من احتياطي الذخيرة الخاص بك حتى لا تتبقى ذخيرة، وعند هذه النقطة لن تتمكن من إطلاق النار بعد الآن.",
+      "trigger.2.message": "بالإضافة إلى ذلك، لدى الفرسان والمشاة التحمل (STM) الذي يُستهلك في جميع الإجراءات تقريبًا باستثناء المشي، مما يسمح بالتعافي الطفيف من STM.\nالمدفعية لا تملك STM ولكن لديها ذخيرة، والتي تُستهلك فقط عند إطلاق النار. ستأخذ المدفعية من احتياطي الذخيرة الخاص بك حتى لا تتبقى ذخيرة، وعند هذه النقطة لن تتمكن من إطلاق النار بعد الآن.",
       "trigger.3.title": "الهدف القتالي",
-      "trigger.3.message": "القوة المعادية لديها نفس الوحدات التي لديك، لكن فرسانهم لديهم STM و HP مخفضان. هاجم كل فرسانك ضد فرسانهم وهزمهم بسهولة. استخدم إطلاق النار والتقدم للاقتراب من المشاة المعادية بمشاتك لتثبيتهم في مكانهم. بعد هزيمة فرسان العدو، ستكون حرًا في مهاجمة أجنحة المشاة المعادية.",
-      "trigger.4.title": "اكتمل البرنامج التعليمي",
-      "trigger.4.message": "تهانينا! لقد تعلمت عن إحصائيات الوحدات وإدارة الموارد. إدارة HP والتنظيم والتحمل والذخيرة بشكل فعال أمر بالغ الأهمية للانتصار في المعركة."
+      "trigger.3.message": "القوة المعادية لديها نفس الوحدات التي لديك، لكن فرسانهم لديهم HP و STM مخفضان. هذا ميزة كافية للفوز في المعركة.",
+      "trigger.4.title": "استهداف الوحدات",
+      "trigger.4.message": "حتى الآن، استهدفت بشكل أساسي الأرض بأوامر الحركة. ومع ذلك، يمكن لمعظم أوامر الحركة أيضًا استهداف الوحدات المعادية. قم بتنشيط أمر الجري وحدد دراجونك على الجناح الأيسر، ثم انقر بزر الماوس الأيمن على الدراجون المعادي.\nسوف يطارد دراجونك الآن ويشحن ضد الدراجون المعادي المحدد. كرر العملية مع الدراجون الآخر.",
+      "trigger.5.title": "إطلاق النار والتقدم",
+      "trigger.5.message": "المشاة المعادية في حالة جيدة، لذا فإن محاولة مهاجمتهم بمشاتك الخاصة ستفشل. بدلاً من ذلك، قم بتنشيط أمر إطلاق النار والتقدم. حدد وحدة المشاة اليسرى الخاصة بك واستهدف وحدة المشاة المعادية اليسرى، ثم كرر مع وحدات المشاة الوسطى واليمنى.",
+      "trigger.6.title": "تثبيت العدو",
+      "trigger.6.message": "سوف تقترب مشاتك من المدى القريب وتبادل طلقات البنادق، مما يثبت العدو في مكانه حتى تتمكن فرسانك المنتصرة من إنهاء المعركة لاحقًا.",
+      "trigger.7.title": "الشحنات",
+      "trigger.7.message": "الشحنات هي الأداة الأقوى، ولكن الأكثر خطورة المتاحة لقائد نابليوني.",
+      "trigger.8.title": "آلية الشحنات",
+      "trigger.8.message": "شحنة فرسان أمامية ضد مشاة بكامل HP و ORG و STM لن يكون لها تأثير يذكر وستؤدي إلى خسائر فادحة في الفرسان. شحنة مشاة أمامية ضد مشاة معادية سليمة ستؤدي إلى هروب قواتك المهاجمة. من الأفضل استخدام وحدات ذات HP/ORG/STM عالية لمهاجمة الوحدات المعادية التالفة، خاصة من الجانبين والخلف.",
+      "trigger.9.title": "مهاجمة الخلف",
+      "trigger.9.message": "الآن بعد أن هزمت فرسان العدو، هاجم مؤخرة المشاة المعادية."
     },
     "hi": {
       "name": "यूनिट प्रबंधन",
       "description": "यूनिट आंकड़े और संसाधन प्रबंधन के बारे में जानें",
       "trigger.1.title": "यूनिट आंकड़े",
-      "trigger.1.message": "Lines of Battle में युद्ध आपकी पूरी सेना की स्थिति और समन्वय, साथ ही प्रत्येक यूनिट के पास मौजूद तीन आंकड़ों के व्यक्तिगत प्रबंधन द्वारा परिभाषित किया गया है। सभी यूनिटों के बीच साझा किए गए दो आंकड़े हैं: हिट पॉइंट्स (HP), जो यूनिट की ताकत का प्रतिनिधित्व करते हैं, और संगठन (ORG), जो यूनिट की एकजुटता का प्रतिनिधित्व करता है।",
+      "trigger.1.message": "Lines of Battle में युद्ध आपकी पूरी सेना की स्थिति और समन्वय, साथ ही प्रत्येक यूनिट के पास मौजूद तीन आंकड़ों के व्यक्तिगत प्रबंधन द्वारा परिभाषित किया गया है। सभी यूनिटों के बीच साझा किए गए दो आंकड़े हैं:\nहिट पॉइंट्स (HP), जो यूनिट की ताकत का प्रतिनिधित्व करते हैं, और\nसंगठन (ORG), जो यूनिट की एकजुटता का प्रतिनिधित्व करता है।",
       "trigger.2.title": "सहनशक्ति और गोला-बारूद",
-      "trigger.2.message": "इसके अतिरिक्त, घुड़सवार सेना और पैदल सेना में सहनशक्ति (STM) होती है जो चलने को छोड़कर लगभग सभी कार्यों में खपत होती है, जो हल्की STM वसूली की अनुमति देती है। तोपखाने में STM नहीं होता लेकिन गोला-बारूद होता है, जो केवल फायरिंग करने पर खपत होता है। तोपखाना आपके गोला-बारूद रिजर्व से तब तक लेगा जब तक कोई गोला-बारूद नहीं बचता, उस बिंदु पर यह अब फायर नहीं कर पाएगा।",
+      "trigger.2.message": "इसके अतिरिक्त, घुड़सवार सेना और पैदल सेना में सहनशक्ति (STM) होती है जो चलने को छोड़कर लगभग सभी कार्यों में खपत होती है, जो हल्की STM वसूली की अनुमति देती है।\nतोपखाने में STM नहीं होता लेकिन गोला-बारूद होता है, जो केवल फायरिंग करने पर खपत होता है। तोपखाना आपके गोला-बारूद रिजर्व से तब तक लेगा जब तक कोई गोला-बारूद नहीं बचता, उस बिंदु पर यह अब फायर नहीं कर पाएगा।",
       "trigger.3.title": "युद्ध उद्देश्य",
-      "trigger.3.message": "दुश्मन बल के पास आपके समान यूनिट हैं, लेकिन उनकी घुड़सवार सेना में कम STM और HP है; अपनी प्रत्येक घुड़सवार सेना को उनकी घुड़सवार सेना पर चार्ज करें और उन्हें आसानी से हराएं। दुश्मन पैदल सेना के पास अपनी पैदल सेना के साथ पहुंचने के लिए फायर और एडवांस का उपयोग करें ताकि उन्हें जगह पर पिन कर सकें; दुश्मन घुड़सवार सेना को हराने के बाद, आप दुश्मन पैदल सेना के किनारों पर चार्ज करने के लिए स्वतंत्र होंगे।",
-      "trigger.4.title": "ट्यूटोरियल पूर्ण",
-      "trigger.4.message": "बधाई हो! आपने यूनिट आंकड़े और संसाधन प्रबंधन के बारे में सीखा है। HP, संगठन, सहनशक्ति और गोला-बारूद का प्रभावी रूप से प्रबंधन करना युद्ध में जीत के लिए महत्वपूर्ण है।"
+      "trigger.3.message": "दुश्मन बल के पास आपके समान यूनिट हैं, लेकिन उनकी घुड़सवार सेना में कम HP और STM है; यह युद्ध जीतने के लिए पर्याप्त लाभ है।",
+      "trigger.4.title": "यूनिट्स को लक्षित करना",
+      "trigger.4.message": "अब तक, आपने मुख्य रूप से गति आदेशों के साथ जमीन को लक्षित किया है। हालांकि, अधिकांश गति आदेश दुश्मन यूनिट्स को भी लक्षित कर सकते हैं। रन आदेश सक्रिय करें और अपने बाएं फ्लैंक ड्रैगून का चयन करें, और फिर विपरीत ड्रैगून पर राइट-क्लिक करें।\nआपका ड्रैगून अब चयनित दुश्मन ड्रैगून का पीछा करेगा और उस पर चार्ज करेगा। दूसरे ड्रैगून के साथ प्रक्रिया दोहराएं।",
+      "trigger.5.title": "फायर और एडवांस",
+      "trigger.5.message": "दुश्मन पैदल सेना अच्छी स्थिति में है, इसलिए अपनी पैदल सेना के साथ उन पर चार्ज करने का प्रयास विफल होगा। इसके बजाय, फायर और एडवांस आदेश सक्रिय करें। अपनी सबसे बाईं पैदल सेना इकाई का चयन करें और सबसे बाईं दुश्मन पैदल सेना इकाई को लक्षित करें, और फिर मध्य और दाईं पैदल सेना इकाइयों के साथ दोहराएं।",
+      "trigger.6.title": "दुश्मन को फिक्स करना",
+      "trigger.6.message": "आपकी पैदल सेना निकट सीमा तक पहुंचेगी और मस्केट वॉली का आदान-प्रदान करेगी, दुश्मन को जगह पर फिक्स करेगी ताकि आपकी विजयी घुड़सवार सेना बाद में युद्ध समाप्त कर सके।",
+      "trigger.7.title": "चार्ज",
+      "trigger.7.message": "चार्ज नेपोलियन कमांडर के लिए उपलब्ध सबसे शक्तिशाली, लेकिन सबसे जोखिम भरा उपकरण है।",
+      "trigger.8.title": "चार्ज मैकेनिक्स",
+      "trigger.8.message": "पूर्ण HP, ORG और STM वाली पैदल सेना पर एक सामने की घुड़सवार चार्ज का मूल रूप से कोई प्रभाव नहीं होगा और भारी घुड़सवार नुकसान का परिणाम होगा; स्वस्थ दुश्मन पैदल सेना पर एक सामने की पैदल सेना चार्ज के परिणामस्वरूप आपके हमलावर सैनिक भाग जाएंगे। क्षतिग्रस्त दुश्मन यूनिट्स पर चार्ज करने के लिए उच्च HP/ORG/STM वाली यूनिट्स का उपयोग करना सबसे अच्छा है, विशेष रूप से किनारों और पीछे से।",
+      "trigger.9.title": "पीछे से चार्ज",
+      "trigger.9.message": "अब जब आपने दुश्मन घुड़सवार सेना को हरा दिया है, दुश्मन पैदल सेना के पीछे चार्ज करें।"
     },
     "vi": {
       "name": "Quản Lý Đơn Vị",
       "description": "Tìm hiểu về thống kê đơn vị và quản lý tài nguyên",
       "trigger.1.title": "Thống Kê Đơn Vị",
-      "trigger.1.message": "Chiến đấu trong Lines of Battle được xác định bởi vị trí và phối hợp của toàn bộ quân đội của bạn, cũng như quản lý cá nhân của ba thống kê mà mỗi đơn vị sở hữu. Có hai thống kê được chia sẻ giữa tất cả các đơn vị: Điểm Sinh Lực (HP), đại diện cho sức mạnh của đơn vị, và Tổ Chức (ORG), đại diện cho sự gắn kết của một đơn vị.",
+      "trigger.1.message": "Chiến đấu trong Lines of Battle được xác định bởi vị trí và phối hợp của toàn bộ quân đội của bạn, cũng như quản lý cá nhân của ba thống kê mà mỗi đơn vị sở hữu. Có hai thống kê được chia sẻ giữa tất cả các đơn vị:\nĐiểm Sinh Lực (HP), đại diện cho sức mạnh của đơn vị, và\nTổ Chức (ORG), đại diện cho sự gắn kết của một đơn vị.",
       "trigger.2.title": "Thể Lực và Đạn Dược",
-      "trigger.2.message": "Ngoài ra, kỵ binh và bộ binh có Thể Lực (STM) được tiêu thụ bởi hầu hết mọi hành động ngoại trừ Đi Bộ, cho phép phục hồi STM nhẹ. Pháo binh không có STM nhưng có Đạn Dược, chỉ được tiêu thụ khi bắn. Pháo binh sẽ lấy từ Kho Dự Trữ Đạn Dược của bạn cho đến khi hết đạn, lúc đó nó sẽ không thể bắn nữa.",
+      "trigger.2.message": "Ngoài ra, kỵ binh và bộ binh có Thể Lực (STM) được tiêu thụ bởi hầu hết mọi hành động ngoại trừ Đi Bộ, cho phép phục hồi STM nhẹ.\nPháo binh không có STM nhưng có Đạn Dược, chỉ được tiêu thụ khi bắn. Pháo binh sẽ lấy từ Kho Dự Trữ Đạn Dược của bạn cho đến khi hết đạn, lúc đó nó sẽ không thể bắn nữa.",
       "trigger.3.title": "Mục Tiêu Chiến Đấu",
-      "trigger.3.message": "Lực lượng địch có cùng đơn vị như của bạn, nhưng kỵ binh của chúng có STM và HP giảm; tấn công mỗi kỵ binh của bạn vào kỵ binh của chúng và đánh bại chúng dễ dàng. Sử dụng Bắn và Tiến Lên để tiếp cận bộ binh địch với bộ binh của bạn để ghim chúng tại chỗ; sau khi đánh bại kỵ binh địch, bạn sẽ tự do tấn công vào sườn của bộ binh địch.",
-      "trigger.4.title": "Hướng Dẫn Hoàn Thành",
-      "trigger.4.message": "Chúc mừng! Bạn đã học về thống kê đơn vị và quản lý tài nguyên. Quản lý hiệu quả HP, Tổ Chức, Thể Lực và Đạn Dược là rất quan trọng để giành chiến thắng trong trận chiến."
+      "trigger.3.message": "Lực lượng địch có cùng đơn vị như của bạn, nhưng kỵ binh của chúng có HP và STM giảm; đây là lợi thế đủ để giành chiến thắng trong trận chiến.",
+      "trigger.4.title": "Nhắm Mục Tiêu Đơn Vị",
+      "trigger.4.message": "Cho đến bây giờ, bạn chủ yếu nhắm vào mặt đất với lệnh di chuyển. Tuy nhiên, hầu hết các lệnh di chuyển cũng có thể nhắm vào đơn vị địch. Kích hoạt lệnh Chạy và chọn kỵ binh cưỡi ngựa cánh trái của bạn, sau đó nhấp chuột phải vào kỵ binh đối phương.\nKỵ binh của bạn bây giờ sẽ đuổi theo và tấn công vào kỵ binh địch đã chọn. Lặp lại quá trình với kỵ binh khác.",
+      "trigger.5.title": "Bắn và Tiến Lên",
+      "trigger.5.message": "Bộ binh địch đang ở trong tình trạng tốt, vì vậy việc cố gắng tấn công chúng bằng bộ binh của bạn sẽ thất bại. Thay vào đó, kích hoạt lệnh Bắn và Tiến Lên. Chọn đơn vị bộ binh ngoài cùng bên trái của bạn và nhắm vào đơn vị bộ binh địch ngoài cùng bên trái, sau đó lặp lại với các đơn vị bộ binh giữa và bên phải.",
+      "trigger.6.title": "Ghim Địch",
+      "trigger.6.message": "Bộ binh của bạn sẽ tiếp cận ở cự ly gần và trao đổi các loạt súng hỏa mai, ghim địch tại chỗ để kỵ binh chiến thắng của bạn có thể kết thúc trận chiến sau đó.",
+      "trigger.7.title": "Tấn Công",
+      "trigger.7.message": "Tấn công là công cụ mạnh nhất, nhưng cũng rủi ro nhất có sẵn cho chỉ huy Napoleon.",
+      "trigger.8.title": "Cơ Chế Tấn Công",
+      "trigger.8.message": "Một cuộc tấn công kỵ binh mặt trước vào bộ binh với HP, ORG và STM đầy đủ sẽ hầu như không có hiệu quả và dẫn đến tổn thất kỵ binh nặng nề; một cuộc tấn công bộ binh mặt trước vào bộ binh địch khỏe mạnh sẽ khiến quân tấn công của bạn rút chạy. Tốt nhất là sử dụng các đơn vị có HP/ORG/STM cao để tấn công các đơn vị địch bị hư hại, đặc biệt là từ các bên và phía sau.",
+      "trigger.9.title": "Tấn Công Phía Sau",
+      "trigger.9.message": "Bây giờ bạn đã đánh bại kỵ binh địch, hãy tấn công vào phía sau của bộ binh địch."
     }
   }
 }
