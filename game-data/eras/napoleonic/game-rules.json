@@ -79,7 +79,6 @@
     "routingOrgRecoveryModifier": -0.25,
     "maxOrgRecoveryByHpModifier": -0.95,
     "victoryPointsThreshold": 40,
-    "noVictoryPointsOrgModifier": -10,
     "vpsModifierMultiplier": 1.0
   },
   "tutorial": {
