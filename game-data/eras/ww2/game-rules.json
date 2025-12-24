@@ -25,7 +25,7 @@
     "pushStrengthModifierPerLevel": 0.15
   },
   "objectives": {
-    "radius": 16,
+    "radius": 24,
     "pressureThreshold": 0.25
   },
   "organization": {
