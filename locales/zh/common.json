@@ -198,7 +198,7 @@
     "runCost": "疾跑消耗",
     "supplyConsumption": "补给消耗",
     "supplyCost": "补给{{currency}}花费",
-    "supplyStats": "补给属性",
+    "supplyStats": "补给数据",
     "entrenchment": "堑壕",
     "maxEntrenchment": "堑壕上限"
   },
@@ -208,7 +208,7 @@
   "walk": "行进",
   "run": "疾跑",
   "damageResistances": "伤害抗性",
-  "otherStats": "其它属性",
+  "otherStats": "其它数据",
   "damageModifier": "伤害修正",
   "orgDamageRatio": "组织度伤害比例",
   "damage": "伤害",

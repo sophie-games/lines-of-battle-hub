@@ -110,12 +110,12 @@
     "goToPatreon": "前往Patreon"
   },
   "drawLineFormation": {
-    "title": "拖动绘制阵型",
-    "description": "开启后，在选择多个单位后拖动鼠标会绘制目标阵型。关闭时，拖动则会为所有目标绘制路径。直接拖动其中一个单位也能绘制路径。"
+    "title": "拖动绘制队形",
+    "description": "开启后，在选择多个单位后拖动鼠标会绘制移动的目标队形。关闭时，拖动则会为所有目标绘制路径。直接拖动其中一个单位也能绘制路径。"
   },
   "useStraightLine": {
     "title": "绘制直线",
-    "description": "开启后，绘制的阵型将会是连接拖动的起点和终点的直线。关闭时，阵型将会是你拖动时的曲线路径。"
+    "description": "开启后，绘制的队形将会是连接拖动的起点和终点的直线。关闭时，队形将会是你拖动时的曲线路径。"
   },
   "straightLineTolerance": "直线容忍度",
   "spaceBetweenUnits": "单位之间的间距",
@@ -149,7 +149,7 @@
     "simulateMultiTouch": "模拟多点触控",
     "toggleSupplyLines": "切换补给线",
     "toggleStraightLine": "切换绘制直线",
-    "toggleDrawLine": "切换绘制阵型",
+    "toggleDrawLine": "切换绘制队形",
     "controlGroup1": "控制编组1",
     "controlGroup2": "控制编组2",
     "controlGroup3": "控制编组3",
