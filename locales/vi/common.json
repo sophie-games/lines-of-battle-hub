@@ -174,7 +174,11 @@
   "purchased": "Đã mua",
   "forUnit": "Cho {{unit}}",
   "select": "Chọn",
+  "selectAll": "Chọn tất cả",
   "deselect": "Bỏ chọn",
+  "idle": "Nghỉ",
+  "moving": "Di chuyển",
+  "combating": "Chiến đấu",
   "unitStat": {
     "hp": "HP",
     "org": "Tổ chức",
@@ -783,5 +787,7 @@
   },
   "timeToForm": "Thời Gian Hình Thành",
   "timeToUnform": "Thời Gian Giải Tán",
-  "formingSpeedModifier": "Tốc Độ Khi Hình Thành"
+  "formingSpeedModifier": "Tốc Độ Khi Hình Thành",
+  "chooseEra": "Chọn Thời Đại",
+  "chooseEraDescription": "Vui lòng chọn thời đại bạn muốn chơi. Bạn có thể thay đổi điều này sau trong Cài đặt."
 }

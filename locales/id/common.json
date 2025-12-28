@@ -163,7 +163,11 @@
   "purchased": "telah dibeli",
   "forUnit": "Untuk {{unit}}",
   "select": "Pilih",
+  "selectAll": "Pilih Semua",
   "deselect": "Batalkan pilih",
+  "idle": "Diam",
+  "moving": "Bergerak",
+  "combating": "Bertempur",
   "unitStat": {
     "hp": "Nyawa",
     "org": "Organisasi",
@@ -548,5 +552,7 @@
   "timeToUnform": "Waktu untuk Membubarkan",
   "formingSpeedModifier": "Kecepatan saat Membentuk",
   "logistics": "Logistik",
-  "logisticsConsumption": "K. Logistik"
+  "logisticsConsumption": "K. Logistik",
+  "chooseEra": "Pilih Era",
+  "chooseEraDescription": "Silakan pilih era yang ingin Anda mainkan. Anda dapat mengubah ini nanti di Pengaturan."
 }

@@ -1,0 +1,37 @@
+{
+  "eraName": "Seconda Guerra Mondiale (Beta)",
+  "unitName": {
+    "1": "Fanteria",
+    "2": "Corazzato",
+    "3": "Motorizzato",
+    "20": "Sconosciuto"
+  },
+  "battalionName": {
+    "1": "{{n}} Divisione di Fanteria",
+    "2": "{{n}} Divisione Corazzata",
+    "3": "{{n}} Divisione Motorizzata"
+  },
+  "unitDescription": {
+    "1": "Sebbene le punte di lancia dei carri armati abbiano dominato i campi di battaglia della Seconda Guerra Mondiale, l'umile fanteria è rimasta la spina dorsale degli eserciti di tutte le potenze belligeranti. La fanteria è in grado di ritardare gli avanzamenti nemici grazie a opere di terra e armi di supporto; inoltre, la fanteria può combattere in terreni difficili come foreste, città, paludi e montagne, dove i veicoli corazzati sono inutili.",
+    "2": "Le divisioni corazzate sono una forza formidabile e mobile, progettata per creare sfondamenti nelle difese nemiche e sferrare potenti contrattacchi. Tuttavia, equipaggiare e rifornire unità meccanizzate è una sfida industriale maggiore, quindi la proporzione di divisioni di carri armati negli eserciti della Seconda Guerra Mondiale generalmente non ha superato il 10-15%.",
+    "3": "Le divisioni motorizzate sono una forza formidabile e mobile, progettata per creare sfondamenti nelle difese nemiche e sferrare potenti contrattacchi. Tuttavia, equipaggiare e rifornire unità meccanizzate è una sfida industriale maggiore, quindi la proporzione di divisioni di carri armati negli eserciti della Seconda Guerra Mondiale generalmente non ha superato il 10-15%."
+  },
+  "unitCategory": {
+    "infantry": "Fanteria",
+    "armored": "Corazzato",
+    "motorized": "Motorizzato"
+  },
+  "damageType": {
+    "soft_attack": "Attacco Morbido",
+    "hard_attack": "Attacco Duro"
+  },
+  "reportStats": {
+    "men": "Uomini",
+    "tanks": "Carri"
+  },
+  "currency": {
+    "manpower": "Ferro",
+    "gold": "Petrolio"
+  }
+}
+

@@ -162,7 +162,11 @@
   "purchased": "Gekauft",
   "forUnit": "Für {{unit}}",
   "select": "Auswählen",
+  "selectAll": "Alle auswählen",
   "deselect": "Abwählen",
+  "idle": "Untätig",
+  "moving": "Bewegend",
+  "combating": "Kampf",
   "unitStat": {
     "hp": "LP",
     "org": "Organisation",
@@ -541,5 +545,7 @@
   "timeToUnform": "Zeit zum Auflösen",
   "formingSpeedModifier": "Geschwindigkeit beim Formieren",
   "logistics": "Logistik",
-  "logisticsConsumption": "L. Verbrauch"
+  "logisticsConsumption": "L. Verbrauch",
+  "chooseEra": "Epoche wählen",
+  "chooseEraDescription": "Bitte wählen Sie die Epoche aus, in der Sie spielen möchten. Sie können dies später in Einstellungen ändern."
 }

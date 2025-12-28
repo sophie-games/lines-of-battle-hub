@@ -174,7 +174,11 @@
   "purchased": "खरीदा गया",
   "forUnit": "{{unit}} के लिए",
   "select": "चुनें",
+  "selectAll": "सभी चुनें",
   "deselect": "अचयनित करें",
+  "idle": "निष्क्रिय",
+  "moving": "गतिशील",
+  "combating": "युद्ध",
   "unitStat": {
     "hp": "एचपी",
     "org": "संगठन",
@@ -783,5 +787,7 @@
   },
   "timeToForm": "गठन का समय",
   "timeToUnform": "विघटन का समय",
-  "formingSpeedModifier": "गठन की गति"
+  "formingSpeedModifier": "गठन की गति",
+  "chooseEra": "युग चुनें",
+  "chooseEraDescription": "कृपया वह युग चुनें जिसमें आप खेलना चाहते हैं। आप इसे बाद में सेटिंग्स में बदल सकते हैं।"
 }

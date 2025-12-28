@@ -174,7 +174,11 @@
   "purchased": "Purchased",
   "forUnit": "For {{unit}}",
   "select": "Select",
+  "selectAll": "Select All",
   "deselect": "Deselect",
+  "idle": "Idle",
+  "moving": "Moving",
+  "combating": "Combat",
   "unitStat": {
     "hp": "HP",
     "org": "Organization",
@@ -196,6 +200,8 @@
     "status": "Status",
     "timeToRun": "Time to Run",
     "runCost": "Run Cost",
+    "isMoving": "Is Moving",
+    "inMelee": "In Melee",
     "supplyConsumption": "Supply Consumption",
     "supplyCost": "Supply {{currency}} Cost",
     "supplyStats": "Supply Stats",
@@ -798,5 +804,7 @@
   "enfiladeFireResistance": "Enfilade fire resistance",
   "rearFireResistance": "Rear fire resistance",
   "useBuiltinTemplate": "Use built in template",
-  "importTemplate": "Import template"
+  "importTemplate": "Import template",
+  "chooseEra": "Choose Era",
+  "chooseEraDescription": "Please select the era you want to play. You can change this later in Settings."
 }

@@ -170,7 +170,11 @@
   "purchased": "구입함",
   "forUnit": "{{unit}} 외형",
   "select": "선택",
+  "selectAll": "모두 선택",
   "deselect": "선택 해제",
+  "idle": "대기",
+  "moving": "이동",
+  "combating": "전투",
   "unitStat": {
     "hp": "체력",
     "org": "조직력",
@@ -779,5 +783,7 @@
   },
   "timeToForm": "편성 시간",
   "timeToUnform": "해체 시간",
-  "formingSpeedModifier": "편성 속도"
+  "formingSpeedModifier": "편성 속도",
+  "chooseEra": "시대 선택",
+  "chooseEraDescription": "플레이하고 싶은 시대를 선택하세요. 나중에 설정에서 변경할 수 있습니다."
 }

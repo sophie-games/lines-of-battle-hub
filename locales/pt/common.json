@@ -162,7 +162,11 @@
   "purchased": "Comprado",
   "forUnit": "Para {{unit}}",
   "select": "Selecionar",
+  "selectAll": "Selecionar Tudo",
   "deselect": "Desmarcar",
+  "idle": "Inativo",
+  "moving": "Movendo",
+  "combating": "Combate",
   "unitStat": {
     "hp": "HP",
     "org": "Organização",
@@ -542,5 +546,7 @@
   "timeToUnform": "Tempo para Desformar",
   "logistics": "Logística",
   "logisticsConsumption": "C. Logística",
-  "formingSpeedModifier": "Velocidade ao Formar"
+  "formingSpeedModifier": "Velocidade ao Formar",
+  "chooseEra": "Escolher Era",
+  "chooseEraDescription": "Por favor, selecione a era em que deseja jogar. Você pode alterar isso mais tarde em Configurações."
 }

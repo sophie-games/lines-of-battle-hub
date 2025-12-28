@@ -174,7 +174,11 @@
   "purchased": "已购买",
   "forUnit": "适用于{{unit}}",
   "select": "选择",
+  "selectAll": "全选",
   "deselect": "取消选择",
+  "idle": "待机",
+  "moving": "移动",
+  "combating": "战斗",
   "unitStat": {
     "hp": "HP",
     "org": "组织度",
@@ -783,5 +787,7 @@
   },
   "timeToForm": "编成时间",
   "timeToUnform": "解散时间",
-  "formingSpeedModifier": "编成时速度"
+  "formingSpeedModifier": "编成时速度",
+  "chooseEra": "选择时代",
+  "chooseEraDescription": "请选择您想要游玩的时代。您稍后可以在设置中更改此选项。"
 }

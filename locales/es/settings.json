@@ -121,7 +121,8 @@
     "simulateMultiTouch": "Simular Multi-toque",
     "toggleSupplyLines": "Alternar líneas de suministro",
     "toggleStraightLine": "Alternar línea recta",
-    "toggleDrawLine": "Alternar desactivar líneas de dibujo"
+    "toggleDrawLine": "Alternar desactivar líneas de dibujo",
+    "splitInHalf": "Dividir por la mitad"
   },
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"
@@ -135,5 +136,9 @@
   "groundQuality": {
     "title": "Calidad del Terreno",
     "description": "Controla la calidad de las texturas del terreno. Mayor calidad proporciona mejor detalle visual pero puede afectar el rendimiento. Requiere refrescar el mapa."
+  },
+  "era": {
+    "title": "Era",
+    "description": "Selecciona la era histórica para el juego. Cambiar esto afectará las unidades disponibles, escenarios y mecánicas del juego."
   }
 }

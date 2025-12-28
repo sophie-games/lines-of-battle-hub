@@ -1,0 +1,37 @@
+{
+  "eraName": "Zweiter Weltkrieg (Beta)",
+  "unitName": {
+    "1": "Infanterie",
+    "2": "Gepanzert",
+    "3": "Motorisiert",
+    "20": "Unbekannt"
+  },
+  "battalionName": {
+    "1": "{{n}} Infanteriedivision",
+    "2": "{{n}} Panzerdivision",
+    "3": "{{n}} Motorisierte Division"
+  },
+  "unitDescription": {
+    "1": "Obwohl Panzerspitzen die Schlachtfelder des Zweiten Weltkriegs dominierten, blieb die bescheidene Infanterie das Rückgrat der Armeen aller kriegführenden Mächte. Infanterie kann feindliche Vorstöße dank Erdbefestigungen und unterstützender Waffen verzögern; außerdem kann Infanterie in schwierigem Gelände wie Wäldern, Städten, Sümpfen und Bergen kämpfen, wo gepanzerte Fahrzeuge nutzlos sind.",
+    "2": "Panzerdivisionen sind eine beeindruckende und mobile Kraft, die darauf ausgelegt ist, Durchbrüche in feindlichen Verteidigungsstellungen zu schaffen und mächtige Gegenangriffe zu liefern. Die Ausrüstung und Versorgung mechanisierter Einheiten ist jedoch eine große industrielle Herausforderung, sodass der Anteil der Panzerdivisionen in den Armeen des Zweiten Weltkriegs im Allgemeinen 10-15% nicht überschritt.",
+    "3": "Motorisierte Divisionen sind eine beeindruckende und mobile Kraft, die darauf ausgelegt ist, Durchbrüche in feindlichen Verteidigungsstellungen zu schaffen und mächtige Gegenangriffe zu liefern. Die Ausrüstung und Versorgung mechanisierter Einheiten ist jedoch eine große industrielle Herausforderung, sodass der Anteil der Panzerdivisionen in den Armeen des Zweiten Weltkriegs im Allgemeinen 10-15% nicht überschritt."
+  },
+  "unitCategory": {
+    "infantry": "Infanterie",
+    "armored": "Gepanzert",
+    "motorized": "Motorisiert"
+  },
+  "damageType": {
+    "soft_attack": "Weicher Angriff",
+    "hard_attack": "Harter Angriff"
+  },
+  "reportStats": {
+    "men": "Männer",
+    "tanks": "Panzer"
+  },
+  "currency": {
+    "manpower": "Eisen",
+    "gold": "Öl"
+  }
+}
+

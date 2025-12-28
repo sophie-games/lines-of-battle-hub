@@ -162,7 +162,11 @@
   "purchased": "Megvásárolva",
   "forUnit": "Költség {{unit}}",
   "select": "Kiválasztás",
+  "selectAll": "Összes kiválasztása",
   "deselect": "Visszaállítás",
+  "idle": "Tétlen",
+  "moving": "Mozgás",
+  "combating": "Harc",
   "unitStat": {
     "hp": "HP",
     "org": "Organizáció",
@@ -495,5 +499,7 @@
   "timeToUnform": "Felbontási Idő",
   "formingSpeedModifier": "Alakítási Sebesség",
   "logistics": "Logisztika",
-  "logisticsConsumption": "L. Fogyasztás"
+  "logisticsConsumption": "L. Fogyasztás",
+  "chooseEra": "Korszak Választása",
+  "chooseEraDescription": "Kérjük, válassza ki a korszakot, amelyben játszani szeretne. Ezt később a Beállításokban módosíthatja."
 }

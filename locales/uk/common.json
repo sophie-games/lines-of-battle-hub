@@ -162,7 +162,11 @@
   "purchased": "Куплено",
   "forUnit": "Для {{unit}}",
   "select": "Вибрати",
+  "selectAll": "Вибрати все",
   "deselect": "Скасувати вибір",
+  "idle": "Спокій",
+  "moving": "Рух",
+  "combating": "Бій",
   "unitStat": {
     "hp": "Чисельність підрозділу",
     "org": "Бойовий дух",
@@ -536,5 +540,7 @@
   "timeToUnform": "Час на Розформування",
   "formingSpeedModifier": "Швидкість при Формуванні",
   "logistics": "Логістика",
-  "logisticsConsumption": "С. логістики"
+  "logisticsConsumption": "С. логістики",
+  "chooseEra": "Вибрати Епоху",
+  "chooseEraDescription": "Будь ласка, виберіть епоху, в якій ви хочете грати. Ви зможете змінити це пізніше в Налаштуваннях."
 }

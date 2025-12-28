@@ -118,7 +118,8 @@
     "simulateMultiTouch": "Simuler le multi-touch",
     "toggleSupplyLines": "Basculer les lignes de ravitaillement",
     "toggleStraightLine": "Basculer la ligne droite",
-    "toggleDrawLine": "Basculer désactiver les lignes de dessin"
+    "toggleDrawLine": "Basculer désactiver les lignes de dessin",
+    "splitInHalf": "Diviser en deux"
   },
   "routingTransparency": {
     "title": "Transparence des unités en déroute"

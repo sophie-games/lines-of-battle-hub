@@ -162,7 +162,11 @@
   "purchased": "Satın Alındı",
   "forUnit": "{{unit}} için",
   "select": "Seç",
+  "selectAll": "Tümünü Seç",
   "deselect": "Seçimi Kaldır",
+  "idle": "Beklemede",
+  "moving": "Hareket",
+  "combating": "Savaş",
   "unitStat": {
     "hp": "Can",
     "org": "Organizasyon",
@@ -544,5 +548,7 @@
   "timeToUnform": "Dağıtma Süresi",
   "formingSpeedModifier": "Oluşturma Hızı",
   "logistics": "Lojistik",
-  "logisticsConsumption": "L. Tüketimi"
+  "logisticsConsumption": "L. Tüketimi",
+  "chooseEra": "Dönem Seç",
+  "chooseEraDescription": "Lütfen oynamak istediğiniz dönemi seçin. Bunu daha sonra Ayarlar'dan değiştirebilirsiniz."
 }

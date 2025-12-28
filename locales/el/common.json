@@ -173,7 +173,11 @@
   "purchased": "Αγορασμένο",
   "forUnit": "Για {{unit}}",
   "select": "Επιλέξτε",
+  "selectAll": "Επιλογή όλων",
   "deselect": "Αποεπιλογή",
+  "idle": "Αδρανής",
+  "moving": "Κίνηση",
+  "combating": "Μάχη",
   "unitStat": {
     "hp": "ιπποδύναμη",
     "org": "Οργάνωση",
@@ -732,5 +736,7 @@
   "timeToUnform": "Χρόνος για Αποσχηματισμό",
   "formingSpeedModifier": "Ταχύτητα κατά τον Σχηματισμό",
   "logistics": "Εφοδιαστική",
-  "logisticsConsumption": "Κ. Εφοδιασμού"
+  "logisticsConsumption": "Κ. Εφοδιασμού",
+  "chooseEra": "Επιλέξτε Εποχή",
+  "chooseEraDescription": "Παρακαλώ επιλέξτε την εποχή στην οποία θέλετε να παίξετε. Μπορείτε να το αλλάξετε αργότερα στις Ρυθμίσεις."
 }

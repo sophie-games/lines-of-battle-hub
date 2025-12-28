@@ -162,7 +162,11 @@
   "purchased": "購入済み",
   "forUnit": "{{unit}} 用",
   "select": "選択",
+  "selectAll": "すべて選択",
   "deselect": "選択解除",
+  "idle": "待機中",
+  "moving": "移動中",
+  "combating": "戦闘中",
   "unitStat": {
     "hp": "HP",
     "org": "編成",
@@ -541,5 +545,7 @@
   "timeToUnform": "解散時間",
   "formingSpeedModifier": "編成時の速度",
   "logistics": "兵站",
-  "logisticsConsumption": "兵站消費"
+  "logisticsConsumption": "兵站消費",
+  "chooseEra": "時代を選択",
+  "chooseEraDescription": "プレイしたい時代を選択してください。後で設定から変更できます。"
 }

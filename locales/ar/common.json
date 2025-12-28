@@ -174,7 +174,11 @@
   "purchased": "تم الشراء",
   "forUnit": "للوحدة {{unit}}",
   "select": "اختيار",
+  "selectAll": "تحديد الكل",
   "deselect": "إلغاء الاختيار",
+  "idle": "خامل",
+  "moving": "متحرك",
+  "combating": "قتال",
   "unitStat": {
     "hp": "نقاط الصحة",
     "org": "التنظيم",
@@ -783,5 +787,7 @@
   },
   "timeToForm": "وقت التشكيل",
   "timeToUnform": "وقت التفكيك",
-  "formingSpeedModifier": "سرعة التشكيل"
+  "formingSpeedModifier": "سرعة التشكيل",
+  "chooseEra": "اختر العصر",
+  "chooseEraDescription": "يرجى اختيار العصر الذي تريد اللعب فيه. يمكنك تغيير هذا لاحقًا في الإعدادات."
 }

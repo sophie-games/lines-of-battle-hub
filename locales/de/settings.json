@@ -121,7 +121,8 @@
     "simulateMultiTouch": "Multi-Touch simulieren",
     "toggleSupplyLines": "Versorgungslinien umschalten",
     "toggleStraightLine": "Gerade Linie umschalten",
-    "toggleDrawLine": "Zeichnungslinien deaktivieren umschalten"
+    "toggleDrawLine": "Zeichnungslinien deaktivieren umschalten",
+    "splitInHalf": "In Hälfte teilen"
   },
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"

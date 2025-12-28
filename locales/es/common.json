@@ -161,7 +161,11 @@
   "purchased": "Comprado",
   "forUnit": "Para {{unit}}",
   "select": "Seleccionar",
+  "selectAll": "Seleccionar Todo",
   "deselect": "Deseleccionar",
+  "idle": "Inactivo",
+  "moving": "Moviéndose",
+  "combating": "Combate",
   "unitStat": {
     "hp": "HP",
     "org": "Organización",
@@ -227,7 +231,7 @@
   "terrainPName": "Terreno: {{name}}",
   "effects": "Efectos",
   "terrain": {
-    "0": "Tierra",
+    "0": "Pasto",
     "1": "Bosque",
     "2": "Edificio",
     "3": "Camino",
@@ -673,5 +677,7 @@
   "timeToUnform": "Tiempo para Desformar",
   "formingSpeedModifier": "Velocidad al Formar",
   "logistics": "Logística",
-  "logisticsConsumption": "C. Logística"
+  "logisticsConsumption": "C. Logística",
+  "chooseEra": "Elige la Era",
+  "chooseEraDescription": "Por favor selecciona la era en la que quieres jugar. Puedes cambiar esto más tarde en Configuración."
 }
