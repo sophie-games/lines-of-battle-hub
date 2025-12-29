@@ -89,6 +89,10 @@
     "title": "Show Debug Info",
     "description": "This is useful for developers."
   },
+  "bottomButtons": {
+    "title": "Bottom Buttons",
+    "description": "Configure the order of buttons at the bottom of the screen during gameplay."
+  },
   "disableSkins": {
     "title": "Disable Skins",
     "description": "Disable unit skins and show default ones."

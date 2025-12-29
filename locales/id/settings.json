@@ -74,6 +74,10 @@
     "title": "Tampilkan bentuk debug",
     "description": "Menampilkan bentuk debug pada unit termasuk bentuk tabrakan dan titik pemeriksaan medan. Mungkin memerlukan giliran permainan untuk memperbarui unit."
   },
+  "bottomButtons": {
+    "title": "Tombol Bawah",
+    "description": "Konfigurasi urutan tombol di bagian bawah layar selama permainan."
+  },
   "fullScreen": {
     "title": "Layar Penuh",
     "description": "Beralih ke mode layar penuh untuk aplikasi",

@@ -74,6 +74,10 @@
     "title": "Hibakeresési alakzatok megjelenítése",
     "description": "Hibakeresési alakzatokat jelenít meg az egységeken, beleértve az ütközési alakzatokat és a terepellenőrzési pontokat. Ehhez szükség lehet arra, hogy a játék egy kört lépjen előre az egységek frissítéséhez."
   },
+  "bottomButtons": {
+    "title": "Alsó Gombok",
+    "description": "Konfigurálja a képernyő alján lévő gombok sorrendjét a játék közben."
+  },
   "fullScreen": {
     "title": "Teljes Képernyő",
     "description": "Teljes Képernyő ki-be kapcsolása",

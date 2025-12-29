@@ -292,6 +292,7 @@
     "7": "Yüzleş"
   },
   "selectOrder": "Emir Seç",
+  "orderType": "Emir türü",
   "autofire": "Otomatik ateş",
   "allowFireWhenMoving": "Hareket ederken ateşe izin ver",
   "meleeDamage": "Yakın dövüş hasarı",

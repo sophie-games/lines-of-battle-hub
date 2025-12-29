@@ -85,6 +85,10 @@
     "title": "Hiển thị hình dạng debug",
     "description": "Hiển thị hình dạng debug trên các đơn vị bao gồm hình dạng va chạm và điểm kiểm tra địa hình. Điều này có thể yêu cầu trò chơi chuyển lượt để các đơn vị cập nhật."
   },
+  "bottomButtons": {
+    "title": "Nút Dưới",
+    "description": "Cấu hình thứ tự các nút ở cuối màn hình trong quá trình chơi game."
+  },
   "disableSkins": {
     "title": "Tắt giao diện",
     "description": "Tắt giao diện đơn vị và hiển thị giao diện mặc định."

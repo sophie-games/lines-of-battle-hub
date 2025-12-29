@@ -67,6 +67,10 @@
     "title": "Pokaż kształty debugowania",
     "description": "Pokazuje kształty debugowania na jednostkach, w tym kształty kolizji i punkty sprawdzania terenu. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
   },
+  "bottomButtons": {
+    "title": "Przyciski Dolne",
+    "description": "Skonfiguruj kolejność przycisków na dole ekranu podczas rozgrywki."
+  },
   "fullScreen": {
     "title": "Pełny Ekran",
     "description": "Przełącz pełny ekran w tej aplikacji.",

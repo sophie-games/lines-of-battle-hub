@@ -335,6 +335,7 @@
     "7": "面向"
   },
   "selectOrder": "选择指令",
+  "orderType": "指令类型",
   "autofire": "自动开火",
   "allowFireWhenMoving": "允许移动射击",
   "meleeDamage": "近战伤害",

@@ -292,6 +292,7 @@
     "7": "Enfrentar"
   },
   "selectOrder": "Selecionar Ordem",
+  "orderType": "Tipo de ordem",
   "autofire": "Tiro automático",
   "allowFireWhenMoving": "Permitir fogo ao mover",
   "meleeDamage": "Dano corpo a corpo",

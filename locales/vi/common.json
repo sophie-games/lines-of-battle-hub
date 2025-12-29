@@ -335,6 +335,7 @@
     "7": "Đối mặt"
   },
   "selectOrder": "Chọn lệnh",
+  "orderType": "Loại lệnh",
   "autofire": "Tự động bắn",
   "allowFireWhenMoving": "Cho phép bắn khi di chuyển",
   "meleeDamage": "Sát thương cận chiến",

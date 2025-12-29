@@ -292,6 +292,7 @@
     "7": "Ausrichten"
   },
   "selectOrder": "Befehl auswählen",
+  "orderType": "Befehlstyp",
   "autofire": "Automatisches Feuern",
   "allowFireWhenMoving": "Erlaube Feuern während der Bewegung",
   "meleeDamage": "Nahkampfschaden",

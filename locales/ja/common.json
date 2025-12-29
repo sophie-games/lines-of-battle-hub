@@ -292,6 +292,7 @@
     "7": "向く"
   },
   "selectOrder": "命令を選択",
+  "orderType": "命令タイプ",
   "autofire": "自動射撃",
   "allowFireWhenMoving": "移動中に射撃を許可",
   "meleeDamage": "接近戦ダメージ",

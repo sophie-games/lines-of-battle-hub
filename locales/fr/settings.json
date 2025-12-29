@@ -71,6 +71,10 @@
     "title": "Afficher les formes de débogage",
     "description": "Affiche les formes de débogage sur les unités, y compris les formes de collision et les points de vérification du terrain. Cela peut nécessiter que le jeu passe un tour pour que les unités soient mises à jour."
   },
+  "bottomButtons": {
+    "title": "Boutons du bas",
+    "description": "Configurez l'ordre des boutons en bas de l'écran pendant le jeu."
+  },
   "fullScreen": {
     "title": "Plein écran",
     "description": "Basculer en mode plein écran pour l'application",

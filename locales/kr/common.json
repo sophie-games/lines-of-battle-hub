@@ -330,6 +330,7 @@
     "7": "향하다"
   },
   "selectOrder": "명령 선택",
+  "orderType": "명령 유형",
   "autofire": "자동 사격",
   "allowFireWhenMoving": "이동 중 사격 허용",
   "meleeDamage": "근접전투력",

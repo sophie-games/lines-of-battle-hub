@@ -340,6 +340,7 @@
     "7": "Face"
   },
   "selectOrder": "Select Order",
+  "orderType": "Order type",
   "autofire": "Autofire",
   "allowFireWhenMoving": "Allow fire when moving",
   "meleeDamage": "Melee damage",

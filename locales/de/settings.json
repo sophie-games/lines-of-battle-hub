@@ -74,6 +74,10 @@
     "title": "Debug-Formen anzeigen",
     "description": "Zeigt Debug-Formen auf Einheiten an, einschließlich Kollisionsformen und Geländeprüfpunkten. Dies kann erfordern, dass das Spiel einen Zug vergeht, damit die Einheiten aktualisiert werden."
   },
+  "bottomButtons": {
+    "title": "Untere Buttons",
+    "description": "Konfigurieren Sie die Reihenfolge der Buttons am unteren Bildschirmrand während des Spiels."
+  },
   "fullScreen": {
     "title": "Vollbild",
     "description": "Schaltet den Vollbildmodus für die Anwendung um",

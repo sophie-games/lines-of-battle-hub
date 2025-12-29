@@ -335,6 +335,7 @@
     "7": "مواجهة"
   },
   "selectOrder": "اختيار الأمر",
+  "orderType": "نوع الأمر",
   "autofire": "إطلاق تلقائي",
   "allowFireWhenMoving": "السماح بالإطلاق أثناء الحركة",
   "meleeDamage": "ضرر قريب",

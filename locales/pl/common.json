@@ -311,6 +311,7 @@
     "7": "Zwrócić się"
   },
   "selectOrder": "Wybierz Rozkaz",
+  "orderType": "Typ rozkazu",
   "autofire": "Automatyczny ogień",
   "allowFireWhenMoving": "Pozwala strzelać podczas ruchu",
   "meleeDamage": "Obrażenia wręcz",

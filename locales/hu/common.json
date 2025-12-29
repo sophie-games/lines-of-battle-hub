@@ -292,6 +292,7 @@
     "7": "Szembenéz"
   },
   "selectOrder": "Utasítás Kiválasztása",
+  "orderType": "Parancs típusa",
   "autofire": "Automatikus tüzelés",
   "allowFireWhenMoving": "Lőhet mozgás közben",
   "meleeDamage": "Közelharci sebzés",

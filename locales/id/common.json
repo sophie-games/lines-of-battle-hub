@@ -294,6 +294,7 @@
     "7": "Menghadap"
   },
   "selectOrder": "Pilih Perintah",
+  "orderType": "Jenis perintah",
   "autofire": "Tembak otomatis",
   "allowFireWhenMoving": "Izinkan menembak sambil bergerak",
   "meleeDamage": "Kerusakan Jarak Dekat",

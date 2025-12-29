@@ -335,6 +335,7 @@
     "7": "मुख करना"
   },
   "selectOrder": "आदेश चुनें",
+  "orderType": "आदेश प्रकार",
   "autofire": "स्वचालित आग",
   "allowFireWhenMoving": "चलते समय आग की अनुमति दें",
   "meleeDamage": "हाथापाई क्षति",

@@ -85,6 +85,10 @@
     "title": "显示调试形状",
     "description": "显示单位的调试形状，包括碰撞体积和地形检查点。可能需要游戏经过一回合才能更新。"
   },
+  "bottomButtons": {
+    "title": "底部按钮",
+    "description": "配置游戏过程中屏幕底部按钮的顺序。"
+  },
   "disableSkins": {
     "title": "禁用皮肤",
     "description": "禁用单位的皮肤，只显示默认外观。"

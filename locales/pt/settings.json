@@ -74,6 +74,10 @@
     "title": "Mostrar formas de depuração",
     "description": "Mostra formas de depuração nas unidades incluindo formas de colisão e pontos de verificação de terreno. Isso pode exigir que o jogo passe um turno para que as unidades sejam atualizadas."
   },
+  "bottomButtons": {
+    "title": "Botões Inferiores",
+    "description": "Configure a ordem dos botões na parte inferior da tela durante o jogo."
+  },
   "fullScreen": {
     "title": "Tela Cheia",
     "description": "Alternar o modo de tela cheia para o aplicativo",
