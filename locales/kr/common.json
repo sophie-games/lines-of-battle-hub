@@ -61,7 +61,8 @@
     "extendQueue": "대기 연장",
     "extendQueueSuccess": "모든 Elo 범위대에서 탐색.",
     "cancelledBy": "{{username}} 님이 대기를 취소했습니다.",
-    "playersInQueue": "{{count}} 명의 플레이어가 탐색 중"
+    "playersInQueue": "{{count}} 명의 플레이어가 탐색 중",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>당신:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "단기전",
   "slowMode": "장기전",
@@ -272,7 +273,8 @@
     "19": "진창",
     "20": "수몰된 도로",
     "21": "참호",
-    "22": "보루"
+    "22": "보루",
+    "25": "야영지"
   },
   "clearPlayerUnits": "플레이어 부대 지우기",
   "clearBotUnits": "컴퓨터 부대 지우기",

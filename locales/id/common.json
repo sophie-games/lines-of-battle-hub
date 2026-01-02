@@ -62,7 +62,8 @@
     "extendQueue": "Perluas Antrean",
     "extendQueueSuccess": "Mencari dalam rentang Elo apa pun.",
     "cancelledBy": "Antrean dibatalkan oleh {{username}}.",
-    "playersInQueue": "{{count}} pemain mencari"
+    "playersInQueue": "{{count}} pemain mencari",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Anda:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Mode Cepat",
   "slowMode": "Mode Lambat",
@@ -236,7 +237,8 @@
     "1": "Hutan",
     "2": "Bangunan",
     "3": "Jalan",
-    "4": "Air"
+    "4": "Air",
+    "25": "Kamp"
   },
   "clearPlayerUnits": "Bersihkan Unit Pemain",
   "clearBotUnits": "Bersihkan Unit Bot",

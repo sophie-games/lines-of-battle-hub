@@ -61,7 +61,8 @@
     "extendQueue": "Kuyruğu genişlet",
     "extendQueueSuccess": "Herhangi bir Elo aralığında aranıyor.",
     "cancelledBy": "Kuyruk {{username}} tarafından iptal edildi.",
-    "playersInQueue": "{{count}} oyuncu aranıyor"
+    "playersInQueue": "{{count}} oyuncu aranıyor",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Sen:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Hızlı Mod",
   "slowMode": "Yavaş Mod",
@@ -235,7 +236,8 @@
     "1": "Orman",
     "2": "Bina",
     "3": "Yol",
-    "4": "Su"
+    "4": "Su",
+    "25": "Kamp"
   },
   "clearPlayerUnits": "Oyuncu birimlerini temizle",
   "clearBotUnits": "Bot birimlerini temizle",

@@ -62,7 +62,8 @@
     "extendQueue": "Mở rộng hàng đợi",
     "extendQueueSuccess": "Tìm kiếm trong mọi phạm vi Elo.",
     "cancelledBy": "Hàng đợi đã bị hủy bởi {{username}}.",
-    "playersInQueue": "{{count}} người chơi đang tìm kiếm"
+    "playersInQueue": "{{count}} người chơi đang tìm kiếm",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Bạn:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Chế độ nhanh",
   "slowMode": "Chế độ chậm",
@@ -277,7 +278,8 @@
     "19": "Bùn",
     "20": "Đường, Lún",
     "21": "Hào",
-    "22": "Pháo đài"
+    "22": "Pháo đài",
+    "25": "Trại"
   },
   "clearPlayerUnits": "Xóa đơn vị người chơi",
   "clearBotUnits": "Xóa đơn vị bot",

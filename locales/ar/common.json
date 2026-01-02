@@ -62,7 +62,8 @@
     "extendQueue": "توسيع الطابور",
     "extendQueueSuccess": "البحث في أي نطاق Elo.",
     "cancelledBy": "تم إلغاء الطابور بواسطة {{username}}.",
-    "playersInQueue": "{{count}} لاعب يبحث"
+    "playersInQueue": "{{count}} لاعب يبحث",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>أنت:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "الوضع السريع",
   "slowMode": "الوضع البطيء",
@@ -277,7 +278,8 @@
     "19": "طين",
     "20": "طريق، غارق",
     "21": "خندق",
-    "22": "معقل"
+    "22": "معقل",
+    "25": "معسكر"
   },
   "clearPlayerUnits": "مسح وحدات اللاعب",
   "clearBotUnits": "مسح وحدات البوت",

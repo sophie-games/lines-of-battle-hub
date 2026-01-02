@@ -57,7 +57,8 @@
     "extendQueue": "Розширити чергу",
     "extendQueueSuccess": "Пошук у будь-якому діапазоні Elo.",
     "cancelledBy": "Чергу було скасовано {{username}}.",
-    "playersInQueue": "{{count}} гравців шукають"
+    "playersInQueue": "{{count}} гравців шукають",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Ви:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Швидкий режим",
   "slowMode": "Повільний режим",
@@ -235,7 +236,8 @@
     "1": "Ліс",
     "2": "Будинки",
     "3": "Дорога",
-    "4": "Вода"
+    "4": "Вода",
+    "25": "Табір"
   },
   "clearPlayerUnits": "Очистити Підрозділи Гравця",
   "clearBotUnits": "Очистити Підрозділи Бота",

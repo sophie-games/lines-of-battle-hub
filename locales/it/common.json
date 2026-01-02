@@ -61,7 +61,8 @@
     "extendQueue": "Estendi coda",
     "extendQueueSuccess": "Ricerca in qualsiasi intervallo Elo.",
     "cancelledBy": "La coda è stata cancellata da {{username}}.",
-    "playersInQueue": "{{count}} giocatori in ricerca"
+    "playersInQueue": "{{count}} giocatori in ricerca",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Tu:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Modalità veloce",
   "slowMode": "Modalità lenta",
@@ -235,7 +236,8 @@
     "1": "Foresta",
     "2": "Edificio",
     "3": "Strada",
-    "4": "Acqua"
+    "4": "Acqua",
+    "25": "Accampamento"
   },
   "clearPlayerUnits": "Cancella unità del giocatore",
   "clearBotUnits": "Cancella unità del bot",

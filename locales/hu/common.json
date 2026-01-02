@@ -61,7 +61,8 @@
     "extendQueue": "Várólista bővítése",
     "extendQueueSuccess": "Keresés bármilyen Elo tartományban.",
     "cancelledBy": "A várólistát {{username}} törölte.",
-    "playersInQueue": "{{count}} játékos keres"
+    "playersInQueue": "{{count}} játékos keres",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Te:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Gyors mód",
   "slowMode": "Lassú mód",
@@ -235,7 +236,8 @@
     "1": "Erdő",
     "2": "Épület",
     "3": "Út",
-    "4": "Víz"
+    "4": "Víz",
+    "25": "Tábor"
   },
   "clearPlayerUnits": "Játékos egységeinek visszaállítása",
   "clearBotUnits": "Bot egységeinek visszaállítása",

@@ -62,7 +62,8 @@
     "extendQueue": "Rozszerzona Kolejka",
     "extendQueueSuccess": "Szukanie w zasięgu Twojego ELO",
     "cancelledBy": "Kolejka została anulowana przez {{username}}.",
-    "playersInQueue": "{{count}} graczy szuka"
+    "playersInQueue": "{{count}} graczy szuka",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Ty:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Tryb Szybki",
   "slowMode": "Tryb Wolny",
@@ -254,7 +255,8 @@
     "15": "Droga, Zima",
     "16": "Lód",
     "17": "Pole, Zaorane",
-    "18": "Pole, Uprawiane"
+    "18": "Pole, Uprawiane",
+    "25": "Obóz"
   },
   "clearPlayerUnits": "Wyczyść jednostki gracza",
   "clearBotUnits": "Wyczyść jednostki bota",

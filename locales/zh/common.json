@@ -62,7 +62,8 @@
     "extendQueue": "扩大匹配范围",
     "extendQueueSuccess": "匹配范围已经扩大！正在匹配全分段的对手。",
     "cancelledBy": "匹配被{{username}}取消了。",
-    "playersInQueue": "{{count}}名玩家正在匹配"
+    "playersInQueue": "{{count}}名玩家正在匹配",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>你:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
@@ -277,7 +278,8 @@
     "19": "泥地",
     "20": "道路，沉没",
     "21": "战壕",
-    "22": "要塞"
+    "22": "要塞",
+    "25": "营地"
   },
   "clearPlayerUnits": "清除玩家单位",
   "clearBotUnits": "清除电脑单位",

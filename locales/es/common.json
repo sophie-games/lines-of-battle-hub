@@ -51,7 +51,8 @@
     "extendQueue": "Extender cola",
     "extendQueueSuccess": "Buscando en cualquier rango de Elo.",
     "cancelledBy": "La cola fue cancelada por {{username}}.",
-    "playersInQueue": "{{count}} jugadores buscando"
+    "playersInQueue": "{{count}} jugadores buscando",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Tú:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Modo rápido",
   "slowMode": "Modo lento",
@@ -238,7 +239,8 @@
     "4": "Agua poco profunda",
     "5": "Agua profunda",
     "6": "Acantilado",
-    "7": "Puente"
+    "7": "Puente",
+    "25": "Campamento"
   },
   "clearPlayerUnits": "Borrar unidades del jugador",
   "clearBotUnits": "Borrar unidades del bot",

@@ -51,7 +51,8 @@
     "extendQueue": "Étendre la file",
     "extendQueueSuccess": "Recherche dans n'importe quelle plage Elo.",
     "cancelledBy": "La file a été annulée par {{username}}.",
-    "playersInQueue": "{{count}} joueurs en recherche"
+    "playersInQueue": "{{count}} joueurs en recherche",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Vous:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Partie rapide",
   "slowMode": "Partie longue",
@@ -225,7 +226,8 @@
     "1": "Forêt",
     "2": "Bâtiment",
     "3": "Route",
-    "4": "Eau"
+    "4": "Eau",
+    "25": "Camp"
   },
   "clearPlayerUnits": "Supprimer les unités du joueur",
   "clearBotUnits": "Supprimer les unités de l'ordinateur",

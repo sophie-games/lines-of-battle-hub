@@ -62,7 +62,8 @@
     "extendQueue": "कतार बढ़ाएं",
     "extendQueueSuccess": "किसी भी एलो रेंज में खोज रहे हैं।",
     "cancelledBy": "कतार {{username}} द्वारा रद्द कर दी गई।",
-    "playersInQueue": "{{count}} खिलाड़ी खोज रहे हैं"
+    "playersInQueue": "{{count}} खिलाड़ी खोज रहे हैं",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>आप:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "तेज़ मोड",
   "slowMode": "धीमा मोड",
@@ -277,7 +278,8 @@
     "19": "कीचड़",
     "20": "सड़क, धंसी हुई",
     "21": "खाई",
-    "22": "किला"
+    "22": "किला",
+    "25": "शिविर"
   },
   "clearPlayerUnits": "खिलाड़ी इकाइयाँ साफ करें",
   "clearBotUnits": "बॉट इकाइयाँ साफ करें",

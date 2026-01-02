@@ -62,7 +62,8 @@
     "extendQueue": "Extend Queue",
     "extendQueueSuccess": "Searching in any Elo range.",
     "cancelledBy": "The queue was cancelled by {{username}}.",
-    "playersInQueue": "{{count}} players searching"
+    "playersInQueue": "{{count}} players searching",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>You:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Fast Mode",
   "slowMode": "Slow Mode",
@@ -282,7 +283,8 @@
     "21": "Trench",
     "22": "Redoubt",
     "23": "Railway",
-    "24": "Railway/Road"
+    "24": "Railway/Road",
+    "25": "Camp"
   },
   "clearPlayerUnits": "Clear player units",
   "clearBotUnits": "Clear bot units",

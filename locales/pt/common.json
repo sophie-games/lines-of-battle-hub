@@ -61,7 +61,8 @@
     "extendQueue": "Estender fila",
     "extendQueueSuccess": "Procurando em qualquer faixa de Elo.",
     "cancelledBy": "A fila foi cancelada por {{username}}.",
-    "playersInQueue": "{{count}} jogadores procurando"
+    "playersInQueue": "{{count}} jogadores procurando",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Você:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Modo Rápido",
   "slowMode": "Modo Lento",
@@ -235,7 +236,8 @@
     "1": "Floresta",
     "2": "Construção",
     "3": "Estrada",
-    "4": "Água"
+    "4": "Água",
+    "25": "Acampamento"
   },
   "clearPlayerUnits": "Limpar unidades do jogador",
   "clearBotUnits": "Limpar unidades do bot",

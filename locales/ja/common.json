@@ -61,7 +61,8 @@
     "extendQueue": "キューを拡張",
     "extendQueueSuccess": "任意のElo範囲で検索中。",
     "cancelledBy": "キューは{{username}}によってキャンセルされました。",
-    "playersInQueue": "{{count}}人のプレイヤーが検索中"
+    "playersInQueue": "{{count}}人のプレイヤーが検索中",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>あなた:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "高速モード",
   "slowMode": "低速モード",
@@ -235,7 +236,8 @@
     "1": "森",
     "2": "建物",
     "3": "道路",
-    "4": "水域"
+    "4": "水域",
+    "25": "キャンプ"
   },
   "clearPlayerUnits": "プレイヤーユニットをクリア",
   "clearBotUnits": "ボットユニットをクリア",
