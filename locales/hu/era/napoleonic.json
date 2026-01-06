@@ -78,7 +78,8 @@
     "mass": "Tömeg",
     "line": "Sor",
     "column": "Oszlop",
-    "square": "Négyzet"
+    "square": "Négyzet",
+    "dispersed": "Szétszórt"
   },
   "reportStats": {
     "men": "Emberek",

@@ -87,7 +87,8 @@
     "mass": "Маса",
     "line": "Лінія",
     "column": "Колона",
-    "square": "Квадрат"
+    "square": "Квадрат",
+    "dispersed": "Розсіяний"
   },
   "reportStats": {
     "men": "Люди",

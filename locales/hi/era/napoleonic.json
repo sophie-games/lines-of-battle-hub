@@ -122,7 +122,8 @@
     "mass": "समूह",
     "line": "पंक्ति",
     "column": "स्तंभ",
-    "square": "वर्ग"
+    "square": "वर्ग",
+    "dispersed": "फैला हुआ"
   },
   "reportStats": {
     "men": "पुरुष",

@@ -79,7 +79,8 @@
     "mass": "Massa",
     "line": "Baris",
     "column": "Kolom",
-    "square": "Kotak"
+    "square": "Kotak",
+    "dispersed": "Tersebar"
   },
   "reportStats": {
     "men": "Prajurit",

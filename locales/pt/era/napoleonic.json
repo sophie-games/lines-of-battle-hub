@@ -86,7 +86,8 @@
     "mass": "Massa",
     "line": "Linha",
     "column": "Coluna",
-    "square": "Quadrado"
+    "square": "Quadrado",
+    "dispersed": "Disperso"
   },
   "reportStats": {
     "men": "Homens",

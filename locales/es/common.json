@@ -330,7 +330,7 @@
     "lossesRatio": "Ratio de Pérdidas",
     "objectives": "Objetivos",
     "timeUnderPressure": "Tiempo bajo presión",
-    "timeUnderPressureTooltip": "El tiempo bajo presión es el tiempo en que un equipo controla <0>{{percentage}}%</0> de los objetivos o menos. Cuanto más tiempo permanezca un equipo bajo presión, más puntos de victoria perderá.",
+    "timeUnderPressureTooltip": "El tiempo bajo presión es el tiempo en que un equipo controla <0>{{percentage}}%</0> de los objetivos PV o menos. Cuanto más tiempo permanezca un equipo bajo presión, más puntos de victoria perderá.",
     "unitsOrgRegain": "Recuperación de la Org de las Unidades"
   },
   "offerDrawModal": {
@@ -352,10 +352,13 @@
     "3": "Recuperándose"
   },
   "unitEffect": {
-    "1": "Rotado 180°",
-    "2": "Estuvo en melee",
-    "3": "Ha corrido",
-    "5": "Bajo fuego"
+    "rotated_180": "Rotado 180°",
+    "been_in_melee": "Estuvo en melee",
+    "has_ran": "Ha corrido",
+    "started_routing": "Comenzó a huir",
+    "taken_fire": "Bajo fuego",
+    "has_fired": "Ha disparado",
+    "can_pass_through_enemies": "Puede atravesar enemigos"
   },
   "login": "Iniciar sesión",
   "signUp": "Registrarse",
@@ -682,5 +685,9 @@
   "logistics": "Logística",
   "logisticsConsumption": "C. Logística",
   "chooseEra": "Elige la Era",
-  "chooseEraDescription": "Por favor selecciona la era en la que quieres jugar. Puedes cambiar esto más tarde en Configuración."
+  "chooseEraDescription": "Por favor selecciona la era en la que quieres jugar. Puedes cambiar esto más tarde en Configuración.",
+  "cannotChangeFormation": "No puede cambiar formación",
+  "cannotCharge": "No puede cargar",
+  "canPassThroughEnemies": "Puede atravesar enemigos",
+  "victoryPoints": "Puntos de Victoria"
 }

@@ -86,7 +86,8 @@
     "mass": "密集",
     "line": "横隊",
     "column": "縦隊",
-    "square": "方陣"
+    "square": "方陣",
+    "dispersed": "散開"
   },
   "reportStats": {
     "men": "兵士",

@@ -326,7 +326,7 @@
     "lossesRatio": "Kayıp Oranı",
     "objectives": "Hedefler",
     "timeUnderPressure": "Baskı Altındaki Süre",
-    "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin <0>{{percentage}}%</0>'ini veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
+    "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin <0>{{percentage}}%</0>'ini ZP veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
     "unitsOrgRegain": "Birim organizasyon kazanımı"
   },
   "offerDrawModal": {
@@ -346,8 +346,12 @@
     "3": "Toparlanıyor"
   },
   "unitEffect": {
-    "1": "180° döndürüldü",
-    "5": "Ateş altında"
+    "rotated_180": "180° döndürüldü",
+    "been_in_melee": "Yakın dövüşteydi",
+    "has_ran": "Koştu",
+    "started_routing": "Kaçmaya başladı",
+    "taken_fire": "Ateş altında",
+    "has_fired": "Ateş etti"
   },
   "login": "Giriş Yap",
   "signUp": "Kayıt Ol",
@@ -553,5 +557,9 @@
   "logistics": "Lojistik",
   "logisticsConsumption": "L. Tüketimi",
   "chooseEra": "Dönem Seç",
-  "chooseEraDescription": "Lütfen oynamak istediğiniz dönemi seçin. Bunu daha sonra Ayarlar'dan değiştirebilirsiniz."
+  "chooseEraDescription": "Lütfen oynamak istediğiniz dönemi seçin. Bunu daha sonra Ayarlar'dan değiştirebilirsiniz.",
+  "cannotChangeFormation": "Formasyon değiştiremez",
+  "cannotCharge": "Saldıramaz",
+  "canPassThroughEnemies": "Düşmanların içinden geçebilir",
+  "victoryPoints": "Zafer Puanları"
 }

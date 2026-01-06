@@ -90,7 +90,8 @@
     "mass": "Masse",
     "line": "Linie",
     "column": "Kolonne",
-    "square": "Karree"
+    "square": "Karree",
+    "dispersed": "Zerstreut"
   },
   "reportStats": {
     "men": "Männer",

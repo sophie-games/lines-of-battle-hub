@@ -122,7 +122,8 @@
     "mass": "Масса",
     "line": "Линия",
     "column": "Колонна",
-    "square": "Квадрат"
+    "square": "Квадрат",
+    "dispersed": "Рассеянный"
   },
   "reportStats": {
     "men": "Люди",

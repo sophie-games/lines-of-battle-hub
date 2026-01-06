@@ -111,7 +111,8 @@
     "mass": "密集",
     "line": "横队",
     "column": "纵队",
-    "square": "方阵"
+    "square": "方阵",
+    "dispersed": "散开"
   },
   "reportStats": {
     "men": "人员",

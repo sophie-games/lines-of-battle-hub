@@ -374,7 +374,7 @@
     "lossesRatio": "Losses Ratio",
     "objectives": "Objectives",
     "timeUnderPressure": "Time under pressure",
-    "timeUnderPressureTooltip": "Time under pressure is the time a team has the <0>{{percentage}}%</0> of the objectives or less. The longer a team is under pressure, the more victory points they lose.",
+    "timeUnderPressureTooltip": "Time under pressure is the time a team has the <0>{{percentage}}%</0> of the objectives VPs or less. The longer a team is under pressure, the more victory points they lose.",
     "unitsOrgRegain": "Units org regain"
   },
   "offerDrawModal": {
@@ -396,12 +396,13 @@
     "3": "Recovering"
   },
   "unitEffect": {
-    "1": "Rotated 180°",
-    "2": "Been in melee",
-    "3": "Has ran",
-    "4": "Started routing",
-    "5": "Taken fire",
-    "6": "Has fired"
+    "rotated_180": "Rotated 180°",
+    "been_in_melee": "Been in melee",
+    "has_ran": "Has ran",
+    "started_routing": "Started routing",
+    "taken_fire": "Taken fire",
+    "has_fired": "Has fired",
+    "can_pass_through_enemies": "Can pass through enemies"
   },
   "login": "Login",
   "signUp": "Sign up",
@@ -646,6 +647,7 @@
   "minTurn": "Min turn",
   "applyFilters": "Apply filters",
   "objective": "Objective",
+  "victoryPoints": "Victory Points",
   "hasSkirmishers": "Has skirmishers",
   "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
   "skirmisherRatio": "Skirmisher ratio",
@@ -660,6 +662,9 @@
   "projectilePassThrough": "Projectile pass through",
   "keepsEnemyRun": "Keeps enemy run",
   "cannotMove": "Cannot move",
+  "cannotChangeFormation": "Cannot change formation",
+  "cannotCharge": "Cannot charge",
+  "canPassThroughEnemies": "Can pass through enemies",
   "back": "Back",
   "cannotRecoverOrg": "Cannot recover organization",
   "autofirePriority": "Autofire priority",

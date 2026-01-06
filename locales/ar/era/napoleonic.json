@@ -122,7 +122,8 @@
     "mass": "كتلة",
     "line": "خط",
     "column": "عمود",
-    "square": "مربع"
+    "square": "مربع",
+    "dispersed": "مشتت"
   },
   "reportStats": {
     "men": "رجال",

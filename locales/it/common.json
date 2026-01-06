@@ -326,7 +326,7 @@
     "lossesRatio": "Rapporto perdite",
     "objectives": "Obiettivi",
     "timeUnderPressure": "Tempo sotto pressione",
-    "timeUnderPressureTooltip": "Il tempo sotto pressione è il tempo in cui una squadra controlla <0>{{percentage}}%</0> degli obiettivi o meno. Più a lungo una squadra rimane sotto pressione, più punti vittoria perde.",
+    "timeUnderPressureTooltip": "Il tempo sotto pressione è il tempo in cui una squadra controlla <0>{{percentage}}%</0> degli obiettivi PV o meno. Più a lungo una squadra rimane sotto pressione, più punti vittoria perde.",
     "unitsOrgRegain": "Recupero organizzazione unità"
   },
   "offerDrawModal": {
@@ -346,8 +346,13 @@
     "3": "In recupero"
   },
   "unitEffect": {
-    "1": "Ruotato di 180°",
-    "5": "Sotto tiro"
+    "rotated_180": "Ruotato di 180°",
+    "been_in_melee": "È stato in mischia",
+    "has_ran": "È corso",
+    "started_routing": "Ha iniziato a fuggire",
+    "taken_fire": "Sotto tiro",
+    "has_fired": "Ha sparato",
+    "can_pass_through_enemies": "Può attraversare i nemici"
   },
   "login": "Accedi",
   "signUp": "Registrati",
@@ -551,5 +556,9 @@
   "logisticsConsumption": "C. Logistica",
   "formingSpeedModifier": "Velocità durante la Formazione",
   "chooseEra": "Scegli Era",
-  "chooseEraDescription": "Seleziona l'era in cui vuoi giocare. Puoi cambiarla successivamente in Impostazioni."
+  "chooseEraDescription": "Seleziona l'era in cui vuoi giocare. Puoi cambiarla successivamente in Impostazioni.",
+  "cannotChangeFormation": "Non può cambiare formazione",
+  "cannotCharge": "Non può caricare",
+  "canPassThroughEnemies": "Può attraversare i nemici",
+  "victoryPoints": "Punti vittoria"
 }

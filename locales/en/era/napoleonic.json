@@ -122,7 +122,8 @@
     "mass": "Mass",
     "line": "Line",
     "column": "Column",
-    "square": "Square"
+    "square": "Square",
+    "dispersed": "Dispersed"
   },
   "reportStats": {
     "men": "Men",

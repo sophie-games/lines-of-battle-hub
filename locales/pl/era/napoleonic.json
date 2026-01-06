@@ -104,7 +104,8 @@
     "mass": "Masa",
     "line": "Linia",
     "column": "Kolumna",
-    "square": "Kwadrat"
+    "square": "Kwadrat",
+    "dispersed": "Rozproszony"
   },
   "reportStats": {
     "men": "Ludzie",

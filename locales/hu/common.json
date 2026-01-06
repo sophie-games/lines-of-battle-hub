@@ -326,7 +326,7 @@
     "lossesRatio": "Veszteségi Ráta",
     "objectives": "Objektívák",
     "timeUnderPressure": "Idő nyomás alatt",
-    "timeUnderPressureTooltip": "A nyomás alatti idő az az idő, amikor egy csapat az objektívák <0>{{percentage}}%</0>-át vagy kevesebbet irányítja. Minél tovább marad egy csapat nyomás alatt, annál több győzelmi pontot veszít el.",
+    "timeUnderPressureTooltip": "A nyomás alatti idő az az idő, amikor egy csapat az objektívák <0>{{percentage}}%</0>-át GP vagy kevesebbet irányítja. Minél tovább marad egy csapat nyomás alatt, annál több győzelmi pontot veszít el.",
     "unitsOrgRegain": "Egységek felépülése (Org)"
   },
   "offerDrawModal": {
@@ -346,8 +346,13 @@
     "3": "Éppen Felépül"
   },
   "unitEffect": {
-    "1": "180°-kal elforgatva",
-    "5": "Tűz alatt"
+    "rotated_180": "180°-kal elforgatva",
+    "been_in_melee": "Közelharcban volt",
+    "has_ran": "Futott",
+    "started_routing": "Elkezdett menekülni",
+    "taken_fire": "Tűz alatt",
+    "has_fired": "Lőtt",
+    "can_pass_through_enemies": "Áthaladhat az ellenségeken"
   },
   "login": "Bejelentkezés",
   "signUp": "Regisztráció",
@@ -504,5 +509,9 @@
   "logistics": "Logisztika",
   "logisticsConsumption": "L. Fogyasztás",
   "chooseEra": "Korszak Választása",
-  "chooseEraDescription": "Kérjük, válassza ki a korszakot, amelyben játszani szeretne. Ezt később a Beállításokban módosíthatja."
+  "chooseEraDescription": "Kérjük, válassza ki a korszakot, amelyben játszani szeretne. Ezt később a Beállításokban módosíthatja.",
+  "cannotChangeFormation": "Nem változtathat formációt",
+  "cannotCharge": "Nem támadhat",
+  "canPassThroughEnemies": "Áthaladhat az ellenségeken",
+  "victoryPoints": "Győzelmi Pontok"
 }

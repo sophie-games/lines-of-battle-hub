@@ -345,7 +345,7 @@
     "lossesRatio": "Stosunek Strat",
     "objectives": "Punkty",
     "timeUnderPressure": "Czas pod presją",
-    "timeUnderPressureTooltip": "Czas pod presją to czas, w którym drużyna kontroluje <0>{{percentage}}%</0> punktów lub mniej. Im dłużej drużyna pozostaje pod presją, tym więcej punktów zwycięstwa traci.",
+    "timeUnderPressureTooltip": "Czas pod presją to czas, w którym drużyna kontroluje <0>{{percentage}}%</0> punktów PZ lub mniej. Im dłużej drużyna pozostaje pod presją, tym więcej punktów zwycięstwa traci.",
     "unitsOrgRegain": "Odzyskiwanie Org. Jednostek"
   },
   "offerDrawModal": {
@@ -367,11 +367,13 @@
     "3": "Odpoczywa"
   },
   "unitEffect": {
-    "1": "Obrócono o 180°",
-    "2": "W zwarciu",
-    "3": "Uciekła",
-    "4": "Rozpoczęła ucieczkę",
-    "5": "Pod ostrzałem"
+    "rotated_180": "Obrócono o 180°",
+    "been_in_melee": "W zwarciu",
+    "has_ran": "Uciekła",
+    "started_routing": "Rozpoczęła ucieczkę",
+    "taken_fire": "Pod ostrzałem",
+    "has_fired": "Strzelała",
+    "can_pass_through_enemies": "Może przechodzić przez wrogów"
   },
   "login": "Zaloguj się",
   "signUp": "Zarejestruj się",
@@ -611,6 +613,7 @@
   "minTurn": "Min ilość tur",
   "applyFilters": "Zatwierdź filtry",
   "objective": "Cel",
+  "victoryPoints": "Punkty Zwycięstwa",
   "hasSkirmishers": "Ma strzelców",
   "skirmishersInfo": "Strzelcy są rozmieszczani automatycznie w zależności od liczby jednostek ze strzelcami w armii i stosunku strzelców do danego typu bitwy.",
   "skirmisherRatio": "Stosunek strzelców",
@@ -625,6 +628,9 @@
   "projectilePassThrough": "Pocisk przeleciał",
   "keepsEnemyRun": "Utrzymuj wroga w biegu",
   "cannotMove": "Nie można poruszyć",
+  "cannotChangeFormation": "Nie można zmienić formacji",
+  "cannotCharge": "Nie można zaatakować",
+  "canPassThroughEnemies": "Może przechodzić przez wrogów",
   "back": "Wstecz",
   "cannotRecoverOrg": "Nie można odzyskać organizacji",
   "autofirePriority": "Priorytet ognia automatycznego",

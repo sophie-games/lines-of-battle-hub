@@ -122,7 +122,8 @@
     "mass": "Khối",
     "line": "Hàng",
     "column": "Cột",
-    "square": "Vuông"
+    "square": "Vuông",
+    "dispersed": "Phân tán"
   },
   "reportStats": {
     "men": "Người",

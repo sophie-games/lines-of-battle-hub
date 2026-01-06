@@ -87,7 +87,8 @@
     "mass": "Yığın",
     "line": "Hat",
     "column": "Sütun",
-    "square": "Kare"
+    "square": "Kare",
+    "dispersed": "Dağınık"
   },
   "reportStats": {
     "men": "Erkekler",
