@@ -79,12 +79,6 @@
     "7d": "7 days"
   },
   "battleType": "Battle type",
-  "dynamicBattleType": {
-    "clash": "Clash",
-    "combat": "Combat",
-    "battle": "Battle",
-    "grand_battle": "Grand Battle"
-  },
   "matchmaking": "Matchmaking",
   "matchmakingDescription": "Matchmaking mode lets you quickly join a game with random players using predefined settings.",
   "onlyPartyLeaderCanSearch": "Only the party leader can search for a match.",

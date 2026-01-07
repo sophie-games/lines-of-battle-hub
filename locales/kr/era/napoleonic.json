@@ -133,5 +133,12 @@
   "currency": {
     "manpower": "인력",
     "gold": "금"
+  },
+  "dynamicBattleType": {
+    "micro": "마이크로",
+    "clash": "접전",
+    "combat": "교전",
+    "battle": "전투",
+    "grand_battle": "대전투"
   }
 }

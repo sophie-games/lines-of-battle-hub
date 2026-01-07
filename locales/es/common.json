@@ -68,12 +68,6 @@
     "7d": "7 días"
   },
   "battleType": "Tipo de batalla",
-  "dynamicBattleType": {
-    "clash": "Encuentro",
-    "combat": "Combate",
-    "battle": "Batalla",
-    "grand_battle": "Gran Batalla"
-  },
   "matchmaking": "Emparejamiento",
   "matchmakingDescription": "El modo de emparejamiento te permite unirte rápidamente a un juego con jugadores aleatorios usando configuraciones predefinidas.",
   "onlyPartyLeaderCanSearch": "Solo el líder de la party puede buscar partida.",

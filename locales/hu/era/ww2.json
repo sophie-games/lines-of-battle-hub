@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "Vas",
     "gold": "Olaj"
+  },
+  "dynamicBattleType": {
+    "operational": "Műveleti"
   }
 }
 

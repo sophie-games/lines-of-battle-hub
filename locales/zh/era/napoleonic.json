@@ -122,5 +122,12 @@
   "currency": {
     "manpower": "人力",
     "gold": "黄金"
+  },
+  "dynamicBattleType": {
+    "micro": "微型",
+    "clash": "遭遇战",
+    "combat": "战斗",
+    "battle": "战役",
+    "grand_battle": "大战役"
   }
 }

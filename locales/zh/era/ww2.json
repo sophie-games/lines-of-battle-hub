@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "钢铁",
     "gold": "石油"
+  },
+  "dynamicBattleType": {
+    "operational": "作战"
   }
 }
 

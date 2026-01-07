@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "الحد الأدنى لمسافة المسار متعدد الأدوار"
   },
+  "enableRotateOrder": {
+    "title": "تفعيل أمر الدوران",
+    "description": "تفعيل أو تعطيل القدرة على إصدار أوامر الدوران عن طريق الضغط المطول والسحب على الوحدات."
+  },
   "edgePanning": {
     "title": "التحريك عند الحواف",
     "description": "تفعيل التحريك عند وصول الماوس إلى حواف الشاشة (أجهزة الكمبيوتر)."
@@ -143,6 +147,8 @@
     "fallbackOrder": "أمر التراجع",
     "toggleSmartCurvedMovements": "تبديل الحركات المنحنية الذكية",
     "toggleFowPerspective": "تبديل منظور ضباب الحرب",
+    "toggleMultiTurnOrders": "تبديل الأوامر متعددة الأدوار",
+    "toggleRotateOrder": "تبديل أمر الدوران",
     "openChat": "فتح الدردشة",
     "openFormationModal": "فتح نافذة التشكيل",
     "toggleFullscreen": "تبديل وضع الشاشة الكاملة",

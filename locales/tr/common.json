@@ -78,12 +78,6 @@
     "7d": "7 gün"
   },
   "battleType": "Savaş türü",
-  "dynamicBattleType": {
-    "clash": "Karşılaşma",
-    "combat": "Savaş",
-    "battle": "Savaş",
-    "grand_battle": "Büyük Savaş"
-  },
   "matchmaking": "Eşleştirme",
   "matchmakingDescription": "Eşleştirme modu, önceden tanımlanmış ayarlarla rastgele oyuncularla hızlıca bir oyuna katılmanızı sağlar.",
   "custom": "Özel",

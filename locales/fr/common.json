@@ -68,12 +68,6 @@
     "7d": "7 jours"
   },
   "battleType": "Type de bataille",
-  "dynamicBattleType": {
-    "clash": "Rencontre",
-    "combat": "Combat",
-    "battle": "Bataille",
-    "grand_battle": "Grande Bataille"
-  },
   "matchmaking": "Partie classée",
   "matchmakingDescription": "Le mode classé vous permet de rejoindre une bataille contre des joueurs inconnus en utilisant des réglages prédéfinis.",
   "custom": "Personnalisé",

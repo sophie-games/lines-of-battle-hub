@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Distância mínima do caminho de múltiplas voltas"
   },
+  "enableRotateOrder": {
+    "title": "Habilitar Ordem de Rotação",
+    "description": "Habilitar ou desabilitar a capacidade de emitir ordens de rotação mantendo pressionado e arrastando sobre unidades."
+  },
   "edgePanning": {
     "title": "Deslocamento nas Bordas",
     "description": "Ativar o deslocamento quando o mouse atingir as bordas da tela (PC)."
@@ -116,6 +120,8 @@
     "fallbackOrder": "Ordem de recuo",
     "toggleSmartCurvedMovements": "Alternar movimentos curvos inteligentes",
     "toggleFowPerspective": "Alternar perspectiva de névoa de guerra",
+    "toggleMultiTurnOrders": "Alternar ordens de vários turnos",
+    "toggleRotateOrder": "Alternar ordem de rotação",
     "openChat": "Abrir chat",
     "openFormationModal": "Abrir modal de formação",
     "toggleFullscreen": "Alternar tela cheia",

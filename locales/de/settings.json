@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Mindestdistanz des Mehrfachdrehungswegs"
   },
+  "enableRotateOrder": {
+    "title": "Rotationsbefehl aktivieren",
+    "description": "Aktivieren oder deaktivieren Sie die Möglichkeit, Rotationsbefehle durch langes Drücken und Ziehen auf Einheiten zu erteilen."
+  },
   "edgePanning": {
     "title": "Kantenschwenkung",
     "description": "Aktiviere das Schwenkend er Kamera, wenn die Maus an den Rand des Bildschirms kommt (PC)."
@@ -119,6 +123,8 @@
     "fallbackOrder": "Rückzugsauftrag",
     "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
+    "toggleMultiTurnOrders": "Mehrzügige Befehle umschalten",
+    "toggleRotateOrder": "Rotationsbefehl umschalten",
     "openChat": "Chat öffnen",
     "openFormationModal": "Formationsfenster öffnen",
     "toggleFullscreen": "Vollbild umschalten",

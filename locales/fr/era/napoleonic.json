@@ -102,5 +102,12 @@
   "currency": {
     "manpower": "Main-d'œuvre",
     "gold": "Or"
+  },
+  "dynamicBattleType": {
+    "micro": "Micro",
+    "clash": "Rencontre",
+    "combat": "Combat",
+    "battle": "Bataille",
+    "grand_battle": "Grande Bataille"
   }
 }

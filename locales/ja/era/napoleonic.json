@@ -97,5 +97,12 @@
   "currency": {
     "manpower": "人的資源",
     "gold": "金"
+  },
+  "dynamicBattleType": {
+    "micro": "マイクロ",
+    "clash": "遭遇戦",
+    "combat": "戦闘",
+    "battle": "戦闘",
+    "grand_battle": "大戦闘"
   }
 }

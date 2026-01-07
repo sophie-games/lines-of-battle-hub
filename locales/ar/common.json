@@ -79,12 +79,6 @@
     "7d": "7 أيام"
   },
   "battleType": "نوع المعركة",
-  "dynamicBattleType": {
-    "clash": "الاشتباك",
-    "combat": "القتال",
-    "battle": "المعركة",
-    "grand_battle": "المعركة الكبرى"
-  },
   "matchmaking": "المطابقة",
   "matchmakingDescription": "وضع المطابقة يتيح لك الانضمام بسرعة إلى لعبة مع لاعبين عشوائيين باستخدام إعدادات محددة مسبقاً.",
   "onlyPartyLeaderCanSearch": "قائد المجموعة فقط يمكنه البحث عن مباراة.",

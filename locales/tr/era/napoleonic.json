@@ -98,5 +98,12 @@
   "currency": {
     "manpower": "İnsan gücü",
     "gold": "Altın"
+  },
+  "dynamicBattleType": {
+    "micro": "Mikro",
+    "clash": "Karşılaşma",
+    "combat": "Savaş",
+    "battle": "Savaş",
+    "grand_battle": "Büyük Savaş"
   }
 }

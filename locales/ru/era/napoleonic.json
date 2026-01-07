@@ -133,5 +133,12 @@
   "currency": {
     "manpower": "Человеческие ресурсы",
     "gold": "Золото"
+  },
+  "dynamicBattleType": {
+    "micro": "Микро",
+    "clash": "Стычка",
+    "combat": "Сражение",
+    "battle": "Битва",
+    "grand_battle": "Генеральное сражение"
   }
 }

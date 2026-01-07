@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "Besi",
     "gold": "Minyak"
+  },
+  "dynamicBattleType": {
+    "operational": "Operasional"
   }
 }
 

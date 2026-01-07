@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "Sắt",
     "gold": "Dầu"
+  },
+  "dynamicBattleType": {
+    "operational": "Tác chiến"
   }
 }
 

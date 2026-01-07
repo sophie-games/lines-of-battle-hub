@@ -79,12 +79,6 @@
     "7d": "7 hari"
   },
   "battleType": "Jenis pertempuran",
-  "dynamicBattleType": {
-    "clash": "Pertemuan",
-    "combat": "Pertempuran",
-    "battle": "Pertempuran",
-    "grand_battle": "Pertempuran Besar"
-  },
   "matchmaking": "Pencarian Permainan",
   "matchmakingDescription": "Pencarian Permainan memungkinkan kamu untuk dengan cepat bergabung dalam permainan dengan pemain acak menggunakan pengaturan yang telah ditentukan sebelumnya.",
   "custom": "Kustom",

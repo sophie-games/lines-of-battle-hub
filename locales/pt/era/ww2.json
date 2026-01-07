@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "Ferro",
     "gold": "Petróleo"
+  },
+  "dynamicBattleType": {
+    "operational": "Operacional"
   }
 }
 
