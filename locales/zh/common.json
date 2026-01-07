@@ -63,7 +63,7 @@
     "extendQueueSuccess": "匹配范围已经扩大！正在匹配全分段的对手。",
     "cancelledBy": "匹配被{{username}}取消了。",
     "playersInQueue": "{{count}}名玩家正在匹配",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>你:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>你：</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
@@ -177,7 +177,7 @@
   "select": "选择",
   "selectAll": "全选",
   "deselect": "取消选择",
-  "idle": "待机",
+  "idle": "闲置",
   "moving": "移动",
   "combating": "战斗",
   "unitStat": {
@@ -201,6 +201,8 @@
     "status": "状态",
     "timeToRun": "疾跑时间",
     "runCost": "疾跑消耗",
+    "isMoving": "移动中",
+    "inMelee": "近战中",
     "supplyConsumption": "补给消耗",
     "supplyCost": "补给{{currency}}花费",
     "supplyStats": "补给数据",
@@ -372,7 +374,7 @@
     "lossesRatio": "损伤比",
     "objectives": "目标点",
     "timeUnderPressure": "受压时间",
-    "timeUnderPressureTooltip": "受压时间是指团队控制<0>{{percentage}}%</0>或更少目标点VP的时间。团队受压时间越长，损失的胜利点数就越多。",
+    "timeUnderPressureTooltip": "受压时间是指团队控制<0>{{percentage}}%</0>或更少胜利点的时间。团队受压时间越长，损失的胜利点数就越多。",
     "unitsOrgRegain": "单位组织度恢复"
   },
   "offerDrawModal": {
@@ -394,13 +396,13 @@
     "3": "恢复"
   },
   "unitEffect": {
-    "rotated_180": "旋转180°",
-    "been_in_melee": "近战中",
+    "rotated_180": "转向180°",
+    "been_in_melee": "已近战",
     "has_ran": "已疾跑",
     "started_routing": "开始溃退",
-    "taken_fire": "受到火力攻击",
+    "taken_fire": "遭受火力攻击",
     "has_fired": "已开火",
-    "can_pass_through_enemies": "可穿过敌人"
+    "can_pass_through_enemies": "可以穿过敌方单位"
   },
   "login": "登入",
   "signUp": "注册",
@@ -660,9 +662,9 @@
   "projectilePassThrough": "射击经过",
   "keepsEnemyRun": "强迫敌军逃窜",
   "cannotMove": "无法移动",
-  "cannotChangeFormation": "无法改变阵型",
+  "cannotChangeFormation": "无法变阵",
   "cannotCharge": "无法冲锋",
-  "canPassThroughEnemies": "可穿过敌人",
+  "canPassThroughEnemies": "可以穿过敌方单位",
   "back": "后退",
   "cannotRecoverOrg": "无法恢复组织度",
   "autofirePriority": "自动开火优先级",
@@ -798,9 +800,18 @@
     "reloadPage": "重新加载页面",
     "continueAnyway": "依旧继续"
   },
-  "timeToForm": "编成时间",
-  "timeToUnform": "解散时间",
-  "formingSpeedModifier": "编成时速度",
+  "formations": "阵型",
+  "notAvailableForAllUnits": "不适用于所有单位",
+  "unitsHaveDifferentFormations": "已选择单位的阵型不一致",
+  "disablesFlankMelee": "近战侧击无效",
+  "disablesRearMelee": "近战后击无效",
+  "disablesEnfiladeRearFire": "侧翼/后部射击无效",
+  "flankChargeResistance": "侧翼冲锋抗性",
+  "rearChargeResistance": "后部冲锋抗性",
+  "enfiladeFireResistance": "侧翼射击抗性",
+  "rearFireResistance": "后部射击抗性",
+  "useBuiltinTemplate": "使用内置模板",
+  "importTemplate": "导入模板",
   "chooseEra": "选择时代",
-  "chooseEraDescription": "请选择您想要游玩的时代。您稍后可以在设置中更改此选项。"
+  "chooseEraDescription": "请选择你想游玩的时代。你之后可以在设置里再做更改。"
 }
