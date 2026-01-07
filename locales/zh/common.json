@@ -374,7 +374,7 @@
     "lossesRatio": "损伤比",
     "objectives": "目标点",
     "timeUnderPressure": "受压时间",
-    "timeUnderPressureTooltip": "受压时间是指团队控制<0>{{percentage}}%</0>或更少胜利点的时间。团队受压时间越长，损失的胜利点数就越多。",
+    "timeUnderPressureTooltip": "受压时间是指团队控制<0>{{percentage}}%</0>的目标点分值及以下的时间。团队受压时间越长，损失的胜利点数就越多。",
     "unitsOrgRegain": "单位组织度恢复"
   },
   "offerDrawModal": {
