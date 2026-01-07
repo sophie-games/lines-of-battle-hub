@@ -1,0 +1,37 @@
+{
+  "eraName": "Második világháború (Béta)",
+  "unitName": {
+    "1": "Gyalogság",
+    "2": "Páncélos",
+    "3": "Gépesített",
+    "20": "Ismeretlen"
+  },
+  "battalionName": {
+    "1": "{{n}} Gyalogsági Hadosztály",
+    "2": "{{n}} Páncélos Hadosztály",
+    "3": "{{n}} Gépesített Hadosztály"
+  },
+  "unitDescription": {
+    "1": "Bár a tankok hegyei uralták a Második világháború csatatereit, az alázatos gyalogság maradt minden harcoló hatalom hadseregének gerince. A gyalogság képes késleltetni az ellenséges előrenyomulást a földmunkák és a támogató fegyvereknek köszönhetően; továbbá a gyalogság képes harcolni nehéz terepen, mint erdők, városok, mocsarak és hegyek, ahol a páncélozott járművek haszontalanok.",
+    "2": "A páncélos hadosztályok félelmetes és mobil erők, amelyeket az ellenséges védelmi vonalak áttörésére és erős ellentámadások indítására terveztek. Azonban a gépesített egységek felszerelése és ellátása jelentős ipari kihívás, ezért a Második világháború hadseregeiben a tank hadosztályok aránya általában nem haladta meg a 10-15%-ot.",
+    "3": "A gépesített hadosztályok félelmetes és mobil erők, amelyeket az ellenséges védelmi vonalak áttörésére és erős ellentámadások indítására terveztek. Azonban a gépesített egységek felszerelése és ellátása jelentős ipari kihívás, ezért a Második világháború hadseregeiben a tank hadosztályok aránya általában nem haladta meg a 10-15%-ot."
+  },
+  "unitCategory": {
+    "infantry": "Gyalogság",
+    "armored": "Páncélos",
+    "motorized": "Gépesített"
+  },
+  "damageType": {
+    "soft_attack": "Lágy Támadás",
+    "hard_attack": "Kemény Támadás"
+  },
+  "reportStats": {
+    "men": "Férfiak",
+    "tanks": "Tankok"
+  },
+  "currency": {
+    "manpower": "Vas",
+    "gold": "Olaj"
+  }
+}
+

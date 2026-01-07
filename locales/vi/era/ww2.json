@@ -1,0 +1,37 @@
+{
+  "eraName": "Thế chiến II (Beta)",
+  "unitName": {
+    "1": "Bộ binh",
+    "2": "Thiết giáp",
+    "3": "Cơ giới",
+    "20": "Không xác định"
+  },
+  "battalionName": {
+    "1": "{{n}} Sư đoàn Bộ binh",
+    "2": "{{n}} Sư đoàn Thiết giáp",
+    "3": "{{n}} Sư đoàn Cơ giới"
+  },
+  "unitDescription": {
+    "1": "Mặc dù các mũi nhọn xe tăng thống trị các chiến trường của Thế chiến II, nhưng bộ binh khiêm tốn vẫn là xương sống của các đội quân của tất cả các cường quốc tham chiến. Bộ binh có khả năng làm chậm các cuộc tiến công của kẻ thù nhờ các công trình đất và vũ khí hỗ trợ; hơn nữa, bộ binh có thể chiến đấu ở địa hình khó khăn như rừng, thành phố, đầm lầy và núi, nơi các phương tiện bọc thép vô dụng.",
+    "2": "Các sư đoàn thiết giáp là một lực lượng đáng gờm và cơ động, được thiết kế để tạo ra các đột phá trong phòng thủ của kẻ thù và thực hiện các cuộc phản công mạnh mẽ. Tuy nhiên, trang bị và cung cấp cho các đơn vị cơ giới là một thách thức công nghiệp lớn, vì vậy tỷ lệ các sư đoàn xe tăng trong các đội quân Thế chiến II thường không vượt quá 10-15%.",
+    "3": "Các sư đoàn cơ giới là một lực lượng đáng gờm và cơ động, được thiết kế để tạo ra các đột phá trong phòng thủ của kẻ thù và thực hiện các cuộc phản công mạnh mẽ. Tuy nhiên, trang bị và cung cấp cho các đơn vị cơ giới là một thách thức công nghiệp lớn, vì vậy tỷ lệ các sư đoàn xe tăng trong các đội quân Thế chiến II thường không vượt quá 10-15%."
+  },
+  "unitCategory": {
+    "infantry": "Bộ binh",
+    "armored": "Thiết giáp",
+    "motorized": "Cơ giới"
+  },
+  "damageType": {
+    "soft_attack": "Tấn công Mềm",
+    "hard_attack": "Tấn công Cứng"
+  },
+  "reportStats": {
+    "men": "Người",
+    "tanks": "Xe tăng"
+  },
+  "currency": {
+    "manpower": "Sắt",
+    "gold": "Dầu"
+  }
+}
+

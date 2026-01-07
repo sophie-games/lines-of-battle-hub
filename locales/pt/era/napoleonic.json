@@ -1,4 +1,5 @@
 {
+  "eraName": "Napoleônica",
   "unitName": {
     "1": "Infantaria de Linha",
     "2": "Dragões",
@@ -85,7 +86,8 @@
     "mass": "Massa",
     "line": "Linha",
     "column": "Coluna",
-    "square": "Quadrado"
+    "square": "Quadrado",
+    "dispersed": "Disperso"
   },
   "reportStats": {
     "men": "Homens",

@@ -51,7 +51,8 @@
     "extendQueue": "Étendre la file",
     "extendQueueSuccess": "Recherche dans n'importe quelle plage Elo.",
     "cancelledBy": "La file a été annulée par {{username}}.",
-    "playersInQueue": "{{count}} joueurs en recherche"
+    "playersInQueue": "{{count}} joueurs en recherche",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Vous:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Partie rapide",
   "slowMode": "Partie longue",
@@ -152,7 +153,11 @@
   "purchased": "Acheté",
   "forUnit": "Pour {{unit}}",
   "select": "Selectionner",
+  "selectAll": "Tout sélectionner",
   "deselect": "Désélectionner",
+  "idle": "Inactif",
+  "moving": "En mouvement",
+  "combating": "Combat",
   "unitStat": {
     "hp": "PV",
     "org": "Organisation",
@@ -221,7 +226,8 @@
     "1": "Forêt",
     "2": "Bâtiment",
     "3": "Route",
-    "4": "Eau"
+    "4": "Eau",
+    "25": "Camp"
   },
   "clearPlayerUnits": "Supprimer les unités du joueur",
   "clearBotUnits": "Supprimer les unités de l'ordinateur",
@@ -278,6 +284,7 @@
     "7": "Se tourner"
   },
   "selectOrder": "Sélectionner un ordre",
+  "orderType": "Type d'ordre",
   "autofire": "Tir automatique",
   "allowFireWhenMoving": "Permet de tirer en avançant",
   "meleeDamage": "Dégâts de mêlée",
@@ -309,7 +316,7 @@
     "lossesRatio": "Ratio de pertes",
     "objectives": "Objectifs",
     "timeUnderPressure": "Temps sous pression",
-    "timeUnderPressureTooltip": "Le temps sous pression est le temps pendant lequel une équipe contrôle <0>{{percentage}}%</0> des objectifs ou moins. Plus une équipe reste sous pression longtemps, plus elle perd de points de victoire.",
+    "timeUnderPressureTooltip": "Le temps sous pression est le temps pendant lequel une équipe contrôle <0>{{percentage}}%</0> des objectifs Pv ou moins. Plus une équipe reste sous pression longtemps, plus elle perd de points de victoire.",
     "unitsOrgRegain": "Regain d'organisation des unités"
   },
   "offerDrawModal": {
@@ -329,8 +336,13 @@
     "3": "En train de récupérer"
   },
   "unitEffect": {
-    "1": "Rotation de 180°",
-    "5": "Sous le feu"
+    "rotated_180": "Rotation de 180°",
+    "been_in_melee": "A été au corps à corps",
+    "has_ran": "A couru",
+    "started_routing": "A commencé à fuir",
+    "taken_fire": "Sous le feu",
+    "has_fired": "A tiré",
+    "can_pass_through_enemies": "Peut traverser les ennemis"
   },
   "login": "Connexion",
   "signUp": "S'inscrire",
@@ -554,5 +566,11 @@
   "timeToUnform": "Temps pour Déformer",
   "formingSpeedModifier": "Vitesse lors de la Formation",
   "logistics": "Logistique",
-  "logisticsConsumption": "C. Logistique"
+  "logisticsConsumption": "C. Logistique",
+  "chooseEra": "Choisir l'Ère",
+  "chooseEraDescription": "Veuillez sélectionner l'ère dans laquelle vous souhaitez jouer. Vous pourrez modifier cela plus tard dans Paramètres.",
+  "cannotChangeFormation": "Ne peut pas changer de formation",
+  "cannotCharge": "Ne peut pas charger",
+  "canPassThroughEnemies": "Peut traverser les ennemis",
+  "victoryPoints": "Points de victoire"
 }

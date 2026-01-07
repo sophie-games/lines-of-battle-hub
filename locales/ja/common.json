@@ -61,7 +61,8 @@
     "extendQueue": "キューを拡張",
     "extendQueueSuccess": "任意のElo範囲で検索中。",
     "cancelledBy": "キューは{{username}}によってキャンセルされました。",
-    "playersInQueue": "{{count}}人のプレイヤーが検索中"
+    "playersInQueue": "{{count}}人のプレイヤーが検索中",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>あなた:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "高速モード",
   "slowMode": "低速モード",
@@ -162,7 +163,11 @@
   "purchased": "購入済み",
   "forUnit": "{{unit}} 用",
   "select": "選択",
+  "selectAll": "すべて選択",
   "deselect": "選択解除",
+  "idle": "待機中",
+  "moving": "移動中",
+  "combating": "戦闘中",
   "unitStat": {
     "hp": "HP",
     "org": "編成",
@@ -231,7 +236,8 @@
     "1": "森",
     "2": "建物",
     "3": "道路",
-    "4": "水域"
+    "4": "水域",
+    "25": "キャンプ"
   },
   "clearPlayerUnits": "プレイヤーユニットをクリア",
   "clearBotUnits": "ボットユニットをクリア",
@@ -288,6 +294,7 @@
     "7": "向く"
   },
   "selectOrder": "命令を選択",
+  "orderType": "命令タイプ",
   "autofire": "自動射撃",
   "allowFireWhenMoving": "移動中に射撃を許可",
   "meleeDamage": "接近戦ダメージ",
@@ -319,7 +326,7 @@
     "lossesRatio": "損失比率",
     "objectives": "目標",
     "timeUnderPressure": "圧迫時間",
-    "timeUnderPressureTooltip": "圧迫時間とは、チームが目標の<0>{{percentage}}%</0>以下を制御している時間です。チームが圧迫状態にある時間が長いほど、より多くの勝利ポイントを失います。",
+    "timeUnderPressureTooltip": "圧迫時間とは、チームが目標の<0>{{percentage}}%</0> VP以下を制御している時間です。チームが圧迫状態にある時間が長いほど、より多くの勝利ポイントを失います。",
     "unitsOrgRegain": "ユニットの組織回復"
   },
   "offerDrawModal": {
@@ -339,8 +346,13 @@
     "3": "回復中"
   },
   "unitEffect": {
-    "1": "180°回転",
-    "5": "被弾"
+    "rotated_180": "180°回転",
+    "been_in_melee": "白兵戦中",
+    "has_ran": "走行中",
+    "started_routing": "退却開始",
+    "taken_fire": "被弾",
+    "has_fired": "発砲中",
+    "can_pass_through_enemies": "敵を通過できる"
   },
   "login": "ログイン",
   "signUp": "サインアップ",
@@ -541,5 +553,11 @@
   "timeToUnform": "解散時間",
   "formingSpeedModifier": "編成時の速度",
   "logistics": "兵站",
-  "logisticsConsumption": "兵站消費"
+  "logisticsConsumption": "兵站消費",
+  "chooseEra": "時代を選択",
+  "chooseEraDescription": "プレイしたい時代を選択してください。後で設定から変更できます。",
+  "cannotChangeFormation": "隊形を変更できません",
+  "cannotCharge": "突撃できません",
+  "canPassThroughEnemies": "敵を通過できる",
+  "victoryPoints": "勝利ポイント"
 }

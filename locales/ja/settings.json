@@ -74,6 +74,10 @@
     "title": "デバッグ形状を表示",
     "description": "ユニットに衝突形状や地形チェックポイントを含むデバッグ形状を表示します。ユニットが更新されるには、ゲームがターンを経過する必要がある場合があります。"
   },
+  "bottomButtons": {
+    "title": "下部ボタン",
+    "description": "ゲームプレイ中に画面下部のボタンの順序を設定します。"
+  },
   "fullScreen": {
     "title": "フルスクリーン",
     "description": "アプリケーションのフルスクリーンモードを切り替えます",
@@ -119,6 +123,7 @@
     "toggleSupplyLines": "補給線の切り替え",
     "toggleStraightLine": "直線の切り替え",
     "toggleDrawLine": "描画線の無効化の切り替え",
+    "splitInHalf": "半分に分割",
     "controlGroup1": "コントロールグループ1",
     "controlGroup2": "コントロールグループ2",
     "controlGroup3": "コントロールグループ3",

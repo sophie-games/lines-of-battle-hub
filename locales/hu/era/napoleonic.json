@@ -1,4 +1,5 @@
 {
+  "eraName": "Napóleoni",
   "unitName": {
     "1": "Sorgyalogság",
     "2": "Dragonyos",
@@ -77,7 +78,8 @@
     "mass": "Tömeg",
     "line": "Sor",
     "column": "Oszlop",
-    "square": "Négyzet"
+    "square": "Négyzet",
+    "dispersed": "Szétszórt"
   },
   "reportStats": {
     "men": "Emberek",

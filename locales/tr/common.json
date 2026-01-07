@@ -61,7 +61,8 @@
     "extendQueue": "Kuyruğu genişlet",
     "extendQueueSuccess": "Herhangi bir Elo aralığında aranıyor.",
     "cancelledBy": "Kuyruk {{username}} tarafından iptal edildi.",
-    "playersInQueue": "{{count}} oyuncu aranıyor"
+    "playersInQueue": "{{count}} oyuncu aranıyor",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Sen:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Hızlı Mod",
   "slowMode": "Yavaş Mod",
@@ -162,7 +163,11 @@
   "purchased": "Satın Alındı",
   "forUnit": "{{unit}} için",
   "select": "Seç",
+  "selectAll": "Tümünü Seç",
   "deselect": "Seçimi Kaldır",
+  "idle": "Beklemede",
+  "moving": "Hareket",
+  "combating": "Savaş",
   "unitStat": {
     "hp": "Can",
     "org": "Organizasyon",
@@ -231,7 +236,8 @@
     "1": "Orman",
     "2": "Bina",
     "3": "Yol",
-    "4": "Su"
+    "4": "Su",
+    "25": "Kamp"
   },
   "clearPlayerUnits": "Oyuncu birimlerini temizle",
   "clearBotUnits": "Bot birimlerini temizle",
@@ -288,6 +294,7 @@
     "7": "Yüzleş"
   },
   "selectOrder": "Emir Seç",
+  "orderType": "Emir türü",
   "autofire": "Otomatik ateş",
   "allowFireWhenMoving": "Hareket ederken ateşe izin ver",
   "meleeDamage": "Yakın dövüş hasarı",
@@ -319,7 +326,7 @@
     "lossesRatio": "Kayıp Oranı",
     "objectives": "Hedefler",
     "timeUnderPressure": "Baskı Altındaki Süre",
-    "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin <0>{{percentage}}%</0>'ini veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
+    "timeUnderPressureTooltip": "Baskı altındaki süre, bir takımın hedeflerin <0>{{percentage}}%</0>'ini ZP veya daha azını kontrol ettiği süredir. Bir takım ne kadar uzun süre baskı altında kalırsa, o kadar çok zafer puanı kaybeder.",
     "unitsOrgRegain": "Birim organizasyon kazanımı"
   },
   "offerDrawModal": {
@@ -339,8 +346,12 @@
     "3": "Toparlanıyor"
   },
   "unitEffect": {
-    "1": "180° döndürüldü",
-    "5": "Ateş altında"
+    "rotated_180": "180° döndürüldü",
+    "been_in_melee": "Yakın dövüşteydi",
+    "has_ran": "Koştu",
+    "started_routing": "Kaçmaya başladı",
+    "taken_fire": "Ateş altında",
+    "has_fired": "Ateş etti"
   },
   "login": "Giriş Yap",
   "signUp": "Kayıt Ol",
@@ -544,5 +555,11 @@
   "timeToUnform": "Dağıtma Süresi",
   "formingSpeedModifier": "Oluşturma Hızı",
   "logistics": "Lojistik",
-  "logisticsConsumption": "L. Tüketimi"
+  "logisticsConsumption": "L. Tüketimi",
+  "chooseEra": "Dönem Seç",
+  "chooseEraDescription": "Lütfen oynamak istediğiniz dönemi seçin. Bunu daha sonra Ayarlar'dan değiştirebilirsiniz.",
+  "cannotChangeFormation": "Formasyon değiştiremez",
+  "cannotCharge": "Saldıramaz",
+  "canPassThroughEnemies": "Düşmanların içinden geçebilir",
+  "victoryPoints": "Zafer Puanları"
 }

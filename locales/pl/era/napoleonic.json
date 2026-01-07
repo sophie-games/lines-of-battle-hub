@@ -1,4 +1,5 @@
 {
+  "eraName": "Napoleońska",
   "unitName": {
     "1": "Piechota Liniowa",
     "2": "Dragoni",
@@ -103,7 +104,8 @@
     "mass": "Masa",
     "line": "Linia",
     "column": "Kolumna",
-    "square": "Kwadrat"
+    "square": "Kwadrat",
+    "dispersed": "Rozproszony"
   },
   "reportStats": {
     "men": "Ludzie",

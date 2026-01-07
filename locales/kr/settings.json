@@ -85,6 +85,10 @@
     "title": "디버그 모양 표시",
     "description": "부대에 충돌 범위 및 지형 확인 지점을 포함한 디버그 모양을 표시합니다. 부대를 갱신하려면 턴이 지나야 합니다."
   },
+  "bottomButtons": {
+    "title": "하단 버튼",
+    "description": "게임 플레이 중 화면 하단의 버튼 순서를 구성합니다."
+  },
   "disableSkins": {
     "title": "외형 끄기",
     "description": "부대 외형을 비활성화해 기본 외형만 표시합니다."
@@ -146,6 +150,7 @@
     "toggleSupplyLines": "보급선 전환",
     "toggleStraightLine": "직선 전환",
     "toggleDrawLine": "그리기 선 비활성화 전환",
+    "splitInHalf": "반으로 나누기",
     "controlGroup1": "부대 지정 1",
     "controlGroup2": "부대 지정 2",
     "controlGroup3": "부대 지정 3",

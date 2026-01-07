@@ -1,0 +1,37 @@
+{
+  "eraName": "II. Dünya Savaşı (Beta)",
+  "unitName": {
+    "1": "Piyade",
+    "2": "Zırhlı",
+    "3": "Motorize",
+    "20": "Bilinmiyor"
+  },
+  "battalionName": {
+    "1": "{{n}} Piyade Tümeni",
+    "2": "{{n}} Zırhlı Tümen",
+    "3": "{{n}} Motorize Tümen"
+  },
+  "unitDescription": {
+    "1": "Tank mızrak uçları II. Dünya Savaşı'nın savaş alanlarını domine etse de, mütevazı piyade tüm savaşan güçlerin ordularının belkemiği olarak kaldı. Piyade, toprak işleri ve destekleyici silahlar sayesinde düşman ilerlemelerini geciktirebilir; ayrıca piyade, ormanlar, şehirler, bataklıklar ve dağlar gibi zırhlı araçların işe yaramadığı zorlu arazilerde savaşabilir.",
+    "2": "Zırhlı tümenler, düşman savunmalarında çatlaklar yaratmak ve güçlü karşı saldırılar düzenlemek için tasarlanmış güçlü ve mobil bir güçtür. Ancak mekanize birlikleri donatmak ve tedarik etmek büyük bir endüstriyel zorluktur, bu nedenle II. Dünya Savaşı ordularındaki tank tümenlerinin oranı genellikle %10-15'i aşmadı.",
+    "3": "Motorize tümenler, düşman savunmalarında çatlaklar yaratmak ve güçlü karşı saldırılar düzenlemek için tasarlanmış güçlü ve mobil bir güçtür. Ancak mekanize birlikleri donatmak ve tedarik etmek büyük bir endüstriyel zorluktur, bu nedenle II. Dünya Savaşı ordularındaki tank tümenlerinin oranı genellikle %10-15'i aşmadı."
+  },
+  "unitCategory": {
+    "infantry": "Piyade",
+    "armored": "Zırhlı",
+    "motorized": "Motorize"
+  },
+  "damageType": {
+    "soft_attack": "Yumuşak Saldırı",
+    "hard_attack": "Sert Saldırı"
+  },
+  "reportStats": {
+    "men": "Erkekler",
+    "tanks": "Tanklar"
+  },
+  "currency": {
+    "manpower": "Demir",
+    "gold": "Petrol"
+  }
+}
+

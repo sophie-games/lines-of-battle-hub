@@ -1,4 +1,5 @@
 {
+  "eraName": "Napoleonic",
   "unitName": {
     "1": "Line Infantry",
     "2": "Dragoons",
@@ -121,7 +122,8 @@
     "mass": "Mass",
     "line": "Line",
     "column": "Column",
-    "square": "Square"
+    "square": "Square",
+    "dispersed": "Dispersed"
   },
   "reportStats": {
     "men": "Men",

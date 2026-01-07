@@ -89,6 +89,10 @@
     "title": "Show Debug Info",
     "description": "This is useful for developers."
   },
+  "bottomButtons": {
+    "title": "Bottom Buttons",
+    "description": "Configure the order of buttons at the bottom of the screen during gameplay."
+  },
   "disableSkins": {
     "title": "Disable Skins",
     "description": "Disable unit skins and show default ones."
@@ -150,6 +154,7 @@
     "toggleSupplyLines": "Toggle Supply Lines",
     "toggleStraightLine": "Toggle Straight Line",
     "toggleDrawLine": "Toggle Draw Line",
+    "splitInHalf": "Split in Half",
     "controlGroup1": "Control Group 1",
     "controlGroup2": "Control Group 2",
     "controlGroup3": "Control Group 3",
@@ -173,5 +178,9 @@
   "groundQuality": {
     "title": "Ground Quality",
     "description": "Controls the quality of ground textures. Higher quality provides better visual detail but may impact performance. Requires refreshing the map."
+  },
+  "era": {
+    "title": "Era",
+    "description": "Select the historical era for gameplay. Changing this will affect available units, scenarios, and game mechanics."
   }
 }

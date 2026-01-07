@@ -74,6 +74,10 @@
     "title": "Hata ayıklama şekillerini göster",
     "description": "Birimlerde çarpışma şekilleri ve arazi kontrol noktaları dahil hata ayıklama şekillerini gösterir. Bu, birimlerin güncellenmesi için oyunun tur geçmesini gerektirebilir."
   },
+  "bottomButtons": {
+    "title": "Alt Butonlar",
+    "description": "Oyun sırasında ekranın alt kısmındaki butonların sırasını yapılandırın."
+  },
   "fullScreen": {
     "title": "Tam Ekran",
     "description": "Uygulama için tam ekran modunu açıp kapatır",
@@ -119,6 +123,7 @@
     "toggleSupplyLines": "İkmal hatlarını değiştir",
     "toggleStraightLine": "Düz çizgiyi değiştir",
     "toggleDrawLine": "Çizgi çizmeyi devre dışı bırakmayı değiştir",
+    "splitInHalf": "Yarıya Böl",
     "controlGroup1": "Kontrol Grubu 1",
     "controlGroup2": "Kontrol Grubu 2",
     "controlGroup3": "Kontrol Grubu 3",

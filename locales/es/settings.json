@@ -74,6 +74,10 @@
     "title": "Mostrar formas de depuración",
     "description": "Muestra formas de depuración en las unidades incluyendo formas de colisión y puntos de verificación de terreno. Esto puede requerir que el juego pase un turno para que las unidades se actualicen."
   },
+  "bottomButtons": {
+    "title": "Botones Inferiores",
+    "description": "Configura el orden de los botones en la parte inferior de la pantalla durante el juego."
+  },
   "fullScreen": {
     "title": "Pantalla Completa",
     "description": "Alternar modo de pantalla completa para la aplicación",
@@ -121,7 +125,8 @@
     "simulateMultiTouch": "Simular Multi-toque",
     "toggleSupplyLines": "Alternar líneas de suministro",
     "toggleStraightLine": "Alternar línea recta",
-    "toggleDrawLine": "Alternar desactivar líneas de dibujo"
+    "toggleDrawLine": "Alternar desactivar líneas de dibujo",
+    "splitInHalf": "Dividir por la mitad"
   },
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"
@@ -135,5 +140,9 @@
   "groundQuality": {
     "title": "Calidad del Terreno",
     "description": "Controla la calidad de las texturas del terreno. Mayor calidad proporciona mejor detalle visual pero puede afectar el rendimiento. Requiere refrescar el mapa."
+  },
+  "era": {
+    "title": "Era",
+    "description": "Selecciona la era histórica para el juego. Cambiar esto afectará las unidades disponibles, escenarios y mecánicas del juego."
   }
 }

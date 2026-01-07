@@ -1,4 +1,4 @@
-﻿{
+{
   "gameplay": "游戏性",
   "graphics": "画面",
   "camera": "镜头",
@@ -82,12 +82,12 @@
     "description": "为单位启用阴影。可能需要游戏经过一回合才能更新。"
   },
   "showDebugShapes": {
-    "title": "显示调试图形",
-    "description": "显示调试所需的图形，例如碰撞体积和地形判定点。需要等游戏进入下一回合才能显示。"
+    "title": "显示调试形状",
+    "description": "显示单位的调试形状，包括碰撞体积和地形检查点。可能需要游戏经过一回合才能更新。"
   },
-  "showDebugInfo": {
-    "title": "显示调试信息",
-    "description": "对开发者很有帮助。"
+  "bottomButtons": {
+    "title": "底部按钮",
+    "description": "配置游戏过程中屏幕底部按钮的顺序。"
   },
   "disableSkins": {
     "title": "禁用皮肤",
@@ -110,14 +110,14 @@
     "goToPatreon": "前往Patreon"
   },
   "drawLineFormation": {
-    "title": "拖动绘制队形",
-    "description": "开启后，在选择多个单位后拖动鼠标会绘制移动的目标队形。关闭时，拖动则会为所有目标绘制路径。直接拖动其中一个单位也能绘制路径。"
+    "title": "使用绘制线条",
+    "description": "启用时，当选择多个单位时将使用绘制线条编队。禁用时，当选择多个单位时将使用绘制路径编队。也可以通过拖动其中一个单位来执行绘制路径。"
   },
   "useStraightLine": {
-    "title": "绘制直线",
-    "description": "开启后，绘制的队形将会是连接拖动的起点和终点的直线。关闭时，队形将会是你拖动时的曲线路径。"
+    "title": "使用直线",
+    "description": "启用时，绘制线条编队将始终使用从起始位置到结束位置的直线，忽略绘制的路径。禁用时，单位将跟随您绘制的曲线路径。"
   },
-  "straightLineTolerance": "直线容忍度",
+  "straightLineTolerance": "直线容差",
   "spaceBetweenUnits": "单位之间的间距",
   "spaceBetweenLines": "前后列之间的间距",
   "showSelectIdleUnitButton": {
@@ -144,12 +144,13 @@
     "toggleSmartCurvedMovements": "切换智能曲线移动",
     "toggleFowPerspective": "切换战争迷雾视角",
     "openChat": "打开聊天栏",
-    "openFormationModal": "打开阵型菜单",
+    "openFormationModal": "打开阵型窗口",
     "toggleFullscreen": "切换全屏",
     "simulateMultiTouch": "模拟多点触控",
     "toggleSupplyLines": "切换补给线",
-    "toggleStraightLine": "切换绘制直线",
-    "toggleDrawLine": "切换绘制队形",
+    "toggleStraightLine": "切换直线",
+    "toggleDrawLine": "切换禁用绘制线条",
+    "splitInHalf": "分成两半",
     "controlGroup1": "控制编组1",
     "controlGroup2": "控制编组2",
     "controlGroup3": "控制编组3",

@@ -1,4 +1,5 @@
 {
+  "eraName": "Napoleonica",
   "unitName": {
     "1": "Fanteria di linea",
     "2": "Dragoni",
@@ -85,7 +86,8 @@
     "mass": "Massa",
     "line": "Linea",
     "column": "Colonna",
-    "square": "Quadrato"
+    "square": "Quadrato",
+    "dispersed": "Disperso"
   },
   "reportStats": {
     "men": "Uomini",

@@ -1,4 +1,5 @@
 {
+  "eraName": "Napoleónica",
   "unitName": {
     "1": "Infantería de Línea",
     "2": "Dragones",
@@ -93,7 +94,8 @@
     "mass": "Masa",
     "line": "Línea",
     "column": "Columna",
-    "square": "Cuadro"
+    "square": "Cuadro",
+    "dispersed": "Disperso"
   },
   "reportStats": {
     "men": "Hombres",

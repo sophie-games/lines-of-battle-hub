@@ -1,0 +1,37 @@
+{
+  "eraName": "Seconde Guerre mondiale (Bêta)",
+  "unitName": {
+    "1": "Infanterie",
+    "2": "Blindé",
+    "3": "Motorisé",
+    "20": "Inconnu"
+  },
+  "battalionName": {
+    "1": "{{n}} Division d'infanterie",
+    "2": "{{n}} Division blindée",
+    "3": "{{n}} Division motorisée"
+  },
+  "unitDescription": {
+    "1": "Bien que les pointes de chars aient dominé les champs de bataille de la Seconde Guerre mondiale, l'humble infanterie est restée l'épine dorsale des armées de toutes les puissances belligérantes. L'infanterie est capable de retarder les avances ennemies grâce aux ouvrages de terre et aux armes de soutien; de plus, l'infanterie peut combattre dans les terrains difficiles comme les forêts, les villes, les marais et les montagnes, où les véhicules blindés sont inutiles.",
+    "2": "Les divisions blindées sont une force formidable et mobile, conçue pour créer des percées dans les défenses ennemies et livrer de puissantes contre-attaques. Cependant, équiper et approvisionner les unités mécanisées est un défi industriel majeur, de sorte que la proportion de divisions de chars dans les armées de la Seconde Guerre mondiale n'a généralement pas dépassé 10-15%.",
+    "3": "Les divisions motorisées sont une force formidable et mobile, conçue pour créer des percées dans les défenses ennemies et livrer de puissantes contre-attaques. Cependant, équiper et approvisionner les unités mécanisées est un défi industriel majeur, de sorte que la proportion de divisions de chars dans les armées de la Seconde Guerre mondiale n'a généralement pas dépassé 10-15%."
+  },
+  "unitCategory": {
+    "infantry": "Infanterie",
+    "armored": "Blindé",
+    "motorized": "Motorisé"
+  },
+  "damageType": {
+    "soft_attack": "Attaque douce",
+    "hard_attack": "Attaque dure"
+  },
+  "reportStats": {
+    "men": "Hommes",
+    "tanks": "Chars"
+  },
+  "currency": {
+    "manpower": "Fer",
+    "gold": "Pétrole"
+  }
+}
+

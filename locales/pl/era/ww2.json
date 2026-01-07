@@ -1,0 +1,37 @@
+{
+  "eraName": "II Wojna Światowa (Beta)",
+  "unitName": {
+    "1": "Piechota",
+    "2": "Pancerna",
+    "3": "Zmotoryzowana",
+    "20": "Nieznany"
+  },
+  "battalionName": {
+    "1": "{{n}} Dywizja Piechoty",
+    "2": "{{n}} Dywizja Pancerna",
+    "3": "{{n}} Dywizja Zmotoryzowana"
+  },
+  "unitDescription": {
+    "1": "Chociaż czołgi zdominowały pola bitew II Wojny Światowej, skromna piechota pozostała kręgosłupem armii wszystkich walczących mocarstw. Piechota jest zdolna opóźniać postępy wroga dzięki umocnieniom ziemnym i broni wspierającej; ponadto piechota może walczyć w trudnym terenie, takim jak lasy, miasta, bagna i góry, gdzie pojazdy pancerne są bezużyteczne.",
+    "2": "Dywizje pancerne są formidabilną i mobilną siłą, zaprojektowaną do tworzenia przełomów w obronie wroga i przeprowadzania potężnych kontrataków. Jednak wyposażanie i zaopatrywanie jednostek zmotoryzowanych jest poważnym wyzwaniem przemysłowym, więc proporcja dywizji pancernych w armiach II Wojny Światowej zazwyczaj nie przekraczała 10-15%.",
+    "3": "Dywizje zmotoryzowane są formidabilną i mobilną siłą, zaprojektowaną do tworzenia przełomów w obronie wroga i przeprowadzania potężnych kontrataków. Jednak wyposażanie i zaopatrywanie jednostek zmotoryzowanych jest poważnym wyzwaniem przemysłowym, więc proporcja dywizji pancernych w armiach II Wojny Światowej zazwyczaj nie przekraczała 10-15%."
+  },
+  "unitCategory": {
+    "infantry": "Piechota",
+    "armored": "Pancerna",
+    "motorized": "Zmotoryzowana"
+  },
+  "damageType": {
+    "soft_attack": "Atak Miękki",
+    "hard_attack": "Atak Twardy"
+  },
+  "reportStats": {
+    "men": "Ludzie",
+    "tanks": "Czołgi"
+  },
+  "currency": {
+    "manpower": "Żelazo",
+    "gold": "Ropa"
+  }
+}
+

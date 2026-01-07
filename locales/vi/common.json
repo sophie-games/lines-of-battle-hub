@@ -62,7 +62,8 @@
     "extendQueue": "Mở rộng hàng đợi",
     "extendQueueSuccess": "Tìm kiếm trong mọi phạm vi Elo.",
     "cancelledBy": "Hàng đợi đã bị hủy bởi {{username}}.",
-    "playersInQueue": "{{count}} người chơi đang tìm kiếm"
+    "playersInQueue": "{{count}} người chơi đang tìm kiếm",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Bạn:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Chế độ nhanh",
   "slowMode": "Chế độ chậm",
@@ -174,7 +175,11 @@
   "purchased": "Đã mua",
   "forUnit": "Cho {{unit}}",
   "select": "Chọn",
+  "selectAll": "Chọn tất cả",
   "deselect": "Bỏ chọn",
+  "idle": "Nghỉ",
+  "moving": "Di chuyển",
+  "combating": "Chiến đấu",
   "unitStat": {
     "hp": "HP",
     "org": "Tổ chức",
@@ -273,7 +278,8 @@
     "19": "Bùn",
     "20": "Đường, Lún",
     "21": "Hào",
-    "22": "Pháo đài"
+    "22": "Pháo đài",
+    "25": "Trại"
   },
   "clearPlayerUnits": "Xóa đơn vị người chơi",
   "clearBotUnits": "Xóa đơn vị bot",
@@ -331,6 +337,7 @@
     "7": "Đối mặt"
   },
   "selectOrder": "Chọn lệnh",
+  "orderType": "Loại lệnh",
   "autofire": "Tự động bắn",
   "allowFireWhenMoving": "Cho phép bắn khi di chuyển",
   "meleeDamage": "Sát thương cận chiến",
@@ -362,7 +369,7 @@
     "lossesRatio": "Tỷ lệ tổn thất",
     "objectives": "Mục tiêu",
     "timeUnderPressure": "Thời gian bị áp lực",
-    "timeUnderPressureTooltip": "Thời gian bị áp lực là thời gian một đội có <0>{{percentage}}%</0> mục tiêu hoặc ít hơn. Đội càng bị áp lực lâu, càng mất nhiều điểm chiến thắng.",
+    "timeUnderPressureTooltip": "Thời gian bị áp lực là thời gian một đội có <0>{{percentage}}%</0> mục tiêu ĐCT hoặc ít hơn. Đội càng bị áp lực lâu, càng mất nhiều điểm chiến thắng.",
     "unitsOrgRegain": "Hồi phục tổ chức đơn vị"
   },
   "offerDrawModal": {
@@ -384,12 +391,12 @@
     "3": "Hồi phục"
   },
   "unitEffect": {
-    "1": "Xoay 180°",
-    "2": "Đã cận chiến",
-    "3": "Đã chạy",
-    "4": "Bắt đầu rút lui",
-    "5": "Bị bắn",
-    "6": "Đã bắn"
+    "rotated_180": "Xoay 180°",
+    "been_in_melee": "Đã cận chiến",
+    "has_ran": "Đã chạy",
+    "started_routing": "Bắt đầu rút lui",
+    "taken_fire": "Bị bắn",
+    "has_fired": "Đã bắn"
   },
   "login": "Đăng nhập",
   "signUp": "Đăng ký",
@@ -635,6 +642,7 @@
   "minTurn": "Lượt tối thiểu",
   "applyFilters": "Áp dụng bộ lọc",
   "objective": "Mục tiêu",
+  "victoryPoints": "Điểm chiến thắng",
   "hasSkirmishers": "Có lính tản chiến",
   "skirmishersInfo": "Lính tản chiến được đặt tự động tùy thuộc vào số lượng đơn vị có lính tản chiến trong quân đội và tỷ lệ lính tản chiến của loại trận chiến.",
   "skirmisherRatio": "Tỷ lệ lính tản chiến",
@@ -649,6 +657,9 @@
   "projectilePassThrough": "Đạn xuyên qua",
   "keepsEnemyRun": "Giữ chạy kẻ thù",
   "cannotMove": "Không thể di chuyển",
+  "cannotChangeFormation": "Không thể thay đổi đội hình",
+  "cannotCharge": "Không thể tấn công",
+  "canPassThroughEnemies": "Có thể đi xuyên qua kẻ thù",
   "back": "Quay lại",
   "cannotRecoverOrg": "Không thể hồi phục tổ chức",
   "autofirePriority": "Ưu tiên tự động bắn",
@@ -783,5 +794,7 @@
   },
   "timeToForm": "Thời Gian Hình Thành",
   "timeToUnform": "Thời Gian Giải Tán",
-  "formingSpeedModifier": "Tốc Độ Khi Hình Thành"
+  "formingSpeedModifier": "Tốc Độ Khi Hình Thành",
+  "chooseEra": "Chọn Thời Đại",
+  "chooseEraDescription": "Vui lòng chọn thời đại bạn muốn chơi. Bạn có thể thay đổi điều này sau trong Cài đặt."
 }

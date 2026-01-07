@@ -1,4 +1,5 @@
 {
+  "eraName": "ナポレオン時代",
   "unitName": {
     "1": "戦列歩兵",
     "2": "ドラゴン",
@@ -85,7 +86,8 @@
     "mass": "密集",
     "line": "横隊",
     "column": "縦隊",
-    "square": "方陣"
+    "square": "方陣",
+    "dispersed": "散開"
   },
   "reportStats": {
     "men": "兵士",

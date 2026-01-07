@@ -61,7 +61,8 @@
     "extendQueue": "Warteschlange erweitern",
     "extendQueueSuccess": "Suche in jedem Elo-Bereich.",
     "cancelledBy": "Die Warteschlange wurde von {{username}} abgebrochen.",
-    "playersInQueue": "{{count}} Spieler suchen"
+    "playersInQueue": "{{count}} Spieler suchen",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Du:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "schneller Modus",
   "slowMode": "langsamer Modus",
@@ -162,7 +163,11 @@
   "purchased": "Gekauft",
   "forUnit": "Für {{unit}}",
   "select": "Auswählen",
+  "selectAll": "Alle auswählen",
   "deselect": "Abwählen",
+  "idle": "Untätig",
+  "moving": "Bewegend",
+  "combating": "Kampf",
   "unitStat": {
     "hp": "LP",
     "org": "Organisation",
@@ -231,7 +236,8 @@
     "1": "Wald",
     "2": "Gebäude",
     "3": "Straße",
-    "4": "Wasser"
+    "4": "Wasser",
+    "25": "Lager"
   },
   "clearPlayerUnits": "Einheiten des Spielers löschen",
   "clearBotUnits": "Einheiten des Bots löschen",
@@ -288,6 +294,7 @@
     "7": "Ausrichten"
   },
   "selectOrder": "Befehl auswählen",
+  "orderType": "Befehlstyp",
   "autofire": "Automatisches Feuern",
   "allowFireWhenMoving": "Erlaube Feuern während der Bewegung",
   "meleeDamage": "Nahkampfschaden",
@@ -319,7 +326,7 @@
     "lossesRatio": "Verhältnis der Verluste",
     "objectives": "Objektive",
     "timeUnderPressure": "Zeit unter Druck",
-    "timeUnderPressureTooltip": "Zeit unter Druck ist die Zeit, in der ein Team <0>{{percentage}}%</0> der Ziele oder weniger kontrolliert. Je länger ein Team unter Druck steht, desto mehr Siegpunkte verliert es.",
+    "timeUnderPressureTooltip": "Zeit unter Druck ist die Zeit, in der ein Team <0>{{percentage}}%</0> der Ziele SP oder weniger kontrolliert. Je länger ein Team unter Druck steht, desto mehr Siegpunkte verliert es.",
     "unitsOrgRegain": "Einheiten Org Wiedergewinnung"
   },
   "offerDrawModal": {
@@ -339,8 +346,13 @@
     "3": "Erholen sich"
   },
   "unitEffect": {
-    "1": "180° gedreht",
-    "5": "Unter Beschuss"
+    "rotated_180": "180° gedreht",
+    "been_in_melee": "War im Nahkampf",
+    "has_ran": "Ist gelaufen",
+    "started_routing": "Hat zu fliehen begonnen",
+    "taken_fire": "Unter Beschuss",
+    "has_fired": "Hat geschossen",
+    "can_pass_through_enemies": "Kann durch Feinde hindurchgehen"
   },
   "login": "Anmeldung",
   "signUp": "Registrieren",
@@ -541,5 +553,11 @@
   "timeToUnform": "Zeit zum Auflösen",
   "formingSpeedModifier": "Geschwindigkeit beim Formieren",
   "logistics": "Logistik",
-  "logisticsConsumption": "L. Verbrauch"
+  "logisticsConsumption": "L. Verbrauch",
+  "chooseEra": "Epoche wählen",
+  "chooseEraDescription": "Bitte wählen Sie die Epoche aus, in der Sie spielen möchten. Sie können dies später in Einstellungen ändern.",
+  "cannotChangeFormation": "Kann Formation nicht ändern",
+  "cannotCharge": "Kann nicht angreifen",
+  "canPassThroughEnemies": "Kann durch Feinde hindurchgehen",
+  "victoryPoints": "Siegespunkte"
 }

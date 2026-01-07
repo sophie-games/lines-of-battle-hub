@@ -1,4 +1,5 @@
 {
+  "eraName": "Napolyon Dönemi",
   "unitName": {
     "1": "Hat Piyadesi",
     "2": "Ejderler",
@@ -86,7 +87,8 @@
     "mass": "Yığın",
     "line": "Hat",
     "column": "Sütun",
-    "square": "Kare"
+    "square": "Kare",
+    "dispersed": "Dağınık"
   },
   "reportStats": {
     "men": "Erkekler",
