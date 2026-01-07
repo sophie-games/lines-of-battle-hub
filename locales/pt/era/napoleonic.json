@@ -86,7 +86,8 @@
     "mass": "Massa",
     "line": "Linha",
     "column": "Coluna",
-    "square": "Quadrado"
+    "square": "Quadrado",
+    "dispersed": "Disperso"
   },
   "reportStats": {
     "men": "Homens",
@@ -96,5 +97,12 @@
   "currency": {
     "manpower": "Mão de obra",
     "gold": "Ouro"
+  },
+  "dynamicBattleType": {
+    "micro": "Micro",
+    "clash": "Encontro",
+    "combat": "Combate",
+    "battle": "Batalha",
+    "grand_battle": "Grande Batalha"
   }
 }

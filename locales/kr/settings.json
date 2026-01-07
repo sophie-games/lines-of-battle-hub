@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "다중 턴 경로 최소 거리"
   },
+  "enableRotateOrder": {
+    "title": "회전 명령 활성화",
+    "description": "길게 누르고 드래그하여 유닛에 회전 명령을 내릴 수 있는 기능을 활성화하거나 비활성화합니다."
+  },
   "edgePanning": {
     "title": "외곽 이동",
     "description": "마우스 커서를 화면 가장자리에 두어 화면을 이동할 수 있게 합니다 (PC)."
@@ -143,6 +147,8 @@
     "fallbackOrder": "후퇴 명령",
     "toggleSmartCurvedMovements": "지능적 곡선 이동 전환",
     "toggleFowPerspective": "전장의 안개 시점 전환",
+    "toggleMultiTurnOrders": "다중 턴 명령 전환",
+    "toggleRotateOrder": "회전 명령 전환",
     "openChat": "채팅 열기",
     "openFormationModal": "진형 창 열기",
     "toggleFullscreen": "전체화면 전환",

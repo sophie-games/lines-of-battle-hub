@@ -62,7 +62,8 @@
     "extendQueue": "توسيع الطابور",
     "extendQueueSuccess": "البحث في أي نطاق Elo.",
     "cancelledBy": "تم إلغاء الطابور بواسطة {{username}}.",
-    "playersInQueue": "{{count}} لاعب يبحث"
+    "playersInQueue": "{{count}} لاعب يبحث",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>أنت:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "الوضع السريع",
   "slowMode": "الوضع البطيء",
@@ -78,12 +79,6 @@
     "7d": "7 أيام"
   },
   "battleType": "نوع المعركة",
-  "dynamicBattleType": {
-    "clash": "الاشتباك",
-    "combat": "القتال",
-    "battle": "المعركة",
-    "grand_battle": "المعركة الكبرى"
-  },
   "matchmaking": "المطابقة",
   "matchmakingDescription": "وضع المطابقة يتيح لك الانضمام بسرعة إلى لعبة مع لاعبين عشوائيين باستخدام إعدادات محددة مسبقاً.",
   "onlyPartyLeaderCanSearch": "قائد المجموعة فقط يمكنه البحث عن مباراة.",
@@ -277,7 +272,8 @@
     "19": "طين",
     "20": "طريق، غارق",
     "21": "خندق",
-    "22": "معقل"
+    "22": "معقل",
+    "25": "معسكر"
   },
   "clearPlayerUnits": "مسح وحدات اللاعب",
   "clearBotUnits": "مسح وحدات البوت",
@@ -367,7 +363,7 @@
     "lossesRatio": "نسبة الخسائر",
     "objectives": "الأهداف",
     "timeUnderPressure": "الوقت تحت الضغط",
-    "timeUnderPressureTooltip": "الوقت تحت الضغط هو الوقت الذي يملك فيه الفريق <0>{{percentage}}%</0> من الأهداف أو أقل. كلما طال الوقت الذي يقضيه الفريق تحت الضغط، كلما فقد نقاط نصر أكثر.",
+    "timeUnderPressureTooltip": "الوقت تحت الضغط هو الوقت الذي يملك فيه الفريق <0>{{percentage}}%</0> من الأهداف نقاط النصر أو أقل. كلما طال الوقت الذي يقضيه الفريق تحت الضغط، كلما فقد نقاط نصر أكثر.",
     "unitsOrgRegain": "استعادة تنظيم الوحدات"
   },
   "offerDrawModal": {
@@ -389,12 +385,13 @@
     "3": "يتعافى"
   },
   "unitEffect": {
-    "1": "دوران 180°",
-    "2": "كان في قتال قريب",
-    "3": "ركض",
-    "4": "بدأ بالهرب",
-    "5": "تعرض لإطلاق نار",
-    "6": "أطلق ناراً"
+    "rotated_180": "دوران 180°",
+    "been_in_melee": "كان في قتال قريب",
+    "has_ran": "ركض",
+    "started_routing": "بدأ بالهرب",
+    "taken_fire": "تعرض لإطلاق نار",
+    "has_fired": "أطلق ناراً",
+    "can_pass_through_enemies": "يمكنه المرور عبر الأعداء"
   },
   "login": "تسجيل الدخول",
   "signUp": "إنشاء حساب",
@@ -640,6 +637,7 @@
   "minTurn": "الحد الأدنى للدور",
   "applyFilters": "تطبيق المرشحات",
   "objective": "هدف",
+  "victoryPoints": "نقاط النصر",
   "hasSkirmishers": "لديه مناوشون",
   "skirmishersInfo": "يتم وضع المناوشين تلقائياً حسب عدد الوحدات التي تحتوي على مناوشين في الجيش ونسبة المناوشين لنوع المعركة.",
   "skirmisherRatio": "نسبة المناوشين",
@@ -654,6 +652,9 @@
   "projectilePassThrough": "مرور المقذوف",
   "keepsEnemyRun": "يحافظ على جري العدو",
   "cannotMove": "لا يمكن الحركة",
+  "cannotChangeFormation": "لا يمكن تغيير التشكيل",
+  "cannotCharge": "لا يمكن الهجوم",
+  "canPassThroughEnemies": "يمكنه المرور عبر الأعداء",
   "back": "رجوع",
   "cannotRecoverOrg": "لا يمكن استعادة التنظيم",
   "autofirePriority": "أولوية الإطلاق التلقائي",

@@ -62,7 +62,8 @@
     "extendQueue": "Perluas Antrean",
     "extendQueueSuccess": "Mencari dalam rentang Elo apa pun.",
     "cancelledBy": "Antrean dibatalkan oleh {{username}}.",
-    "playersInQueue": "{{count}} pemain mencari"
+    "playersInQueue": "{{count}} pemain mencari",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Anda:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Mode Cepat",
   "slowMode": "Mode Lambat",
@@ -78,12 +79,6 @@
     "7d": "7 hari"
   },
   "battleType": "Jenis pertempuran",
-  "dynamicBattleType": {
-    "clash": "Pertemuan",
-    "combat": "Pertempuran",
-    "battle": "Pertempuran",
-    "grand_battle": "Pertempuran Besar"
-  },
   "matchmaking": "Pencarian Permainan",
   "matchmakingDescription": "Pencarian Permainan memungkinkan kamu untuk dengan cepat bergabung dalam permainan dengan pemain acak menggunakan pengaturan yang telah ditentukan sebelumnya.",
   "custom": "Kustom",
@@ -236,7 +231,8 @@
     "1": "Hutan",
     "2": "Bangunan",
     "3": "Jalan",
-    "4": "Air"
+    "4": "Air",
+    "25": "Kamp"
   },
   "clearPlayerUnits": "Bersihkan Unit Pemain",
   "clearBotUnits": "Bersihkan Unit Bot",
@@ -326,7 +322,7 @@
     "lossesRatio": "Rasio Kekalahan",
     "objectives": "Objektif",
     "timeUnderPressure": "Waktu di Bawah Tekanan",
-    "timeUnderPressureTooltip": "Waktu di bawah tekanan adalah waktu ketika tim mengontrol <0>{{percentage}}%</0> objektif atau kurang. Semakin lama tim berada di bawah tekanan, semakin banyak poin kemenangan yang hilang.",
+    "timeUnderPressureTooltip": "Waktu di bawah tekanan adalah waktu ketika tim mengontrol <0>{{percentage}}%</0> objektif PK atau kurang. Semakin lama tim berada di bawah tekanan, semakin banyak poin kemenangan yang hilang.",
     "unitsOrgRegain": "Tingkat Pemulihan Organisasi"
   },
   "offerDrawModal": {
@@ -346,8 +342,12 @@
     "3": "Memulihkan Diri"
   },
   "unitEffect": {
-    "1": "Diputar 180°",
-    "5": "Tertembak"
+    "rotated_180": "Diputar 180°",
+    "been_in_melee": "Telah dalam pertempuran jarak dekat",
+    "has_ran": "Telah berlari",
+    "started_routing": "Mulai melarikan diri",
+    "taken_fire": "Tertembak",
+    "has_fired": "Telah menembak"
   },
   "login": "Login",
   "signUp": "Daftar",
@@ -555,5 +555,9 @@
   "logistics": "Logistik",
   "logisticsConsumption": "K. Logistik",
   "chooseEra": "Pilih Era",
-  "chooseEraDescription": "Silakan pilih era yang ingin Anda mainkan. Anda dapat mengubah ini nanti di Pengaturan."
+  "chooseEraDescription": "Silakan pilih era yang ingin Anda mainkan. Anda dapat mengubah ini nanti di Pengaturan.",
+  "cannotChangeFormation": "Tidak dapat mengubah formasi",
+  "cannotCharge": "Tidak dapat menyerang",
+  "canPassThroughEnemies": "Dapat melewati musuh",
+  "victoryPoints": "Poin Kemenangan"
 }

@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "Σίδερο",
     "gold": "Πετρέλαιο"
+  },
+  "dynamicBattleType": {
+    "operational": "Επιχειρησιακό"
   }
 }
 

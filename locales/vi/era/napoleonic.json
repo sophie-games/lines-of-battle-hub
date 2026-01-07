@@ -122,7 +122,8 @@
     "mass": "Khối",
     "line": "Hàng",
     "column": "Cột",
-    "square": "Vuông"
+    "square": "Vuông",
+    "dispersed": "Phân tán"
   },
   "reportStats": {
     "men": "Người",
@@ -132,5 +133,12 @@
   "currency": {
     "manpower": "Nhân lực",
     "gold": "Vàng"
+  },
+  "dynamicBattleType": {
+    "micro": "Vi mô",
+    "clash": "Đụng độ",
+    "combat": "Chiến đấu",
+    "battle": "Trận chiến",
+    "grand_battle": "Trận chiến lớn"
   }
 }

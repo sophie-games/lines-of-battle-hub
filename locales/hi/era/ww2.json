@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "लोहा",
     "gold": "तेल"
+  },
+  "dynamicBattleType": {
+    "operational": "संचालनात्मक"
   }
 }
 

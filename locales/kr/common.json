@@ -61,7 +61,8 @@
     "extendQueue": "대기 연장",
     "extendQueueSuccess": "모든 Elo 범위대에서 탐색.",
     "cancelledBy": "{{username}} 님이 대기를 취소했습니다.",
-    "playersInQueue": "{{count}} 명의 플레이어가 탐색 중"
+    "playersInQueue": "{{count}} 명의 플레이어가 탐색 중",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>당신:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "단기전",
   "slowMode": "장기전",
@@ -77,12 +78,6 @@
     "7d": "7일"
   },
   "battleType": "전투 유형",
-  "dynamicBattleType": {
-    "clash": "접전",
-    "combat": "교전",
-    "battle": "전투",
-    "grand_battle": "대전투"
-  },
   "matchmaking": "경기 탐색",
   "matchmakingDescription": "경기 탐색을 통해 미리 설정된 설정으로 무작위 플레이어와 빠르게 경기할 수 있습니다.",
   "onlyPartyLeaderCanSearch": "조장만 경기를 찾을 수 있습니다.",
@@ -272,7 +267,8 @@
     "19": "진창",
     "20": "수몰된 도로",
     "21": "참호",
-    "22": "보루"
+    "22": "보루",
+    "25": "야영지"
   },
   "clearPlayerUnits": "플레이어 부대 지우기",
   "clearBotUnits": "컴퓨터 부대 지우기",
@@ -362,7 +358,7 @@
     "lossesRatio": "손실률",
     "objectives": "지점목표",
     "timeUnderPressure": "압박 시간",
-    "timeUnderPressureTooltip": "압박 시간은 팀이 지점목표를 <0>{{percentage}}%</0> 이하로 점령한 시간을 말합니다. 압박 시간이 길어질수록 더 많은 승점을 잃게 됩니다.",
+    "timeUnderPressureTooltip": "압박 시간은 팀이 지점목표를 <0>{{percentage}}%</0> VP 이하로 점령한 시간을 말합니다. 압박 시간이 길어질수록 더 많은 승점을 잃게 됩니다.",
     "unitsOrgRegain": "부대 조직력 회복"
   },
   "offerDrawModal": {
@@ -384,12 +380,12 @@
     "3": "재편 중"
   },
   "unitEffect": {
-    "1": "180° 회전",
-    "2": "백병전 중",
-    "3": "주행 중",
-    "4": "궤멸하는 중",
-    "5": "피격됨",
-    "6": "사격 중"
+    "rotated_180": "180° 회전",
+    "been_in_melee": "백병전 중",
+    "has_ran": "주행 중",
+    "started_routing": "궤멸하는 중",
+    "taken_fire": "피격됨",
+    "has_fired": "사격 중"
   },
   "login": "로그인",
   "signUp": "등록",
@@ -635,6 +631,7 @@
   "minTurn": "최소 턴",
   "applyFilters": "필터 적용",
   "objective": "지점목표",
+  "victoryPoints": "승점",
   "hasSkirmishers": "척후대 보유",
   "skirmishersInfo": "척후대는 군대 내 척후부대 수와 전투 유형의 척후대 비율에 따라 자동으로 배치됩니다.",
   "skirmisherRatio": "척후대 비율",
@@ -650,6 +647,9 @@
   "projectilePassThrough": "발사체 통과",
   "keepsEnemyRun": "적 도주 유지",
   "cannotMove": "이동 불가",
+  "cannotChangeFormation": "대형 변경 불가",
+  "cannotCharge": "돌격 불가",
+  "canPassThroughEnemies": "적을 통과할 수 있음",
   "back": "후퇴",
   "cannotRecoverOrg": "조직력 회복 불가",
   "autofirePriority": "자동 사격 우선 순위",

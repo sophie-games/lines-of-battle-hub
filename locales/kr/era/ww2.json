@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "철",
     "gold": "석유"
+  },
+  "dynamicBattleType": {
+    "operational": "작전"
   }
 }
 

@@ -51,7 +51,8 @@
     "extendQueue": "Extender cola",
     "extendQueueSuccess": "Buscando en cualquier rango de Elo.",
     "cancelledBy": "La cola fue cancelada por {{username}}.",
-    "playersInQueue": "{{count}} jugadores buscando"
+    "playersInQueue": "{{count}} jugadores buscando",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Tú:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "Modo rápido",
   "slowMode": "Modo lento",
@@ -67,12 +68,6 @@
     "7d": "7 días"
   },
   "battleType": "Tipo de batalla",
-  "dynamicBattleType": {
-    "clash": "Encuentro",
-    "combat": "Combate",
-    "battle": "Batalla",
-    "grand_battle": "Gran Batalla"
-  },
   "matchmaking": "Emparejamiento",
   "matchmakingDescription": "El modo de emparejamiento te permite unirte rápidamente a un juego con jugadores aleatorios usando configuraciones predefinidas.",
   "onlyPartyLeaderCanSearch": "Solo el líder de la party puede buscar partida.",
@@ -238,7 +233,8 @@
     "4": "Agua poco profunda",
     "5": "Agua profunda",
     "6": "Acantilado",
-    "7": "Puente"
+    "7": "Puente",
+    "25": "Campamento"
   },
   "clearPlayerUnits": "Borrar unidades del jugador",
   "clearBotUnits": "Borrar unidades del bot",
@@ -328,7 +324,7 @@
     "lossesRatio": "Ratio de Pérdidas",
     "objectives": "Objetivos",
     "timeUnderPressure": "Tiempo bajo presión",
-    "timeUnderPressureTooltip": "El tiempo bajo presión es el tiempo en que un equipo controla <0>{{percentage}}%</0> de los objetivos o menos. Cuanto más tiempo permanezca un equipo bajo presión, más puntos de victoria perderá.",
+    "timeUnderPressureTooltip": "El tiempo bajo presión es el tiempo en que un equipo controla <0>{{percentage}}%</0> de los objetivos PV o menos. Cuanto más tiempo permanezca un equipo bajo presión, más puntos de victoria perderá.",
     "unitsOrgRegain": "Recuperación de la Org de las Unidades"
   },
   "offerDrawModal": {
@@ -350,10 +346,13 @@
     "3": "Recuperándose"
   },
   "unitEffect": {
-    "1": "Rotado 180°",
-    "2": "Estuvo en melee",
-    "3": "Ha corrido",
-    "5": "Bajo fuego"
+    "rotated_180": "Rotado 180°",
+    "been_in_melee": "Estuvo en melee",
+    "has_ran": "Ha corrido",
+    "started_routing": "Comenzó a huir",
+    "taken_fire": "Bajo fuego",
+    "has_fired": "Ha disparado",
+    "can_pass_through_enemies": "Puede atravesar enemigos"
   },
   "login": "Iniciar sesión",
   "signUp": "Registrarse",
@@ -680,5 +679,9 @@
   "logistics": "Logística",
   "logisticsConsumption": "C. Logística",
   "chooseEra": "Elige la Era",
-  "chooseEraDescription": "Por favor selecciona la era en la que quieres jugar. Puedes cambiar esto más tarde en Configuración."
+  "chooseEraDescription": "Por favor selecciona la era en la que quieres jugar. Puedes cambiar esto más tarde en Configuración.",
+  "cannotChangeFormation": "No puede cambiar formación",
+  "cannotCharge": "No puede cargar",
+  "canPassThroughEnemies": "Puede atravesar enemigos",
+  "victoryPoints": "Puntos de Victoria"
 }

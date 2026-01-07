@@ -62,7 +62,8 @@
     "extendQueue": "扩大匹配范围",
     "extendQueueSuccess": "匹配范围已经扩大！正在匹配全分段的对手。",
     "cancelledBy": "匹配被{{username}}取消了。",
-    "playersInQueue": "{{count}}名玩家正在匹配"
+    "playersInQueue": "{{count}}名玩家正在匹配",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>你:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
@@ -78,12 +79,6 @@
     "7d": "7天"
   },
   "battleType": "战斗规模",
-  "dynamicBattleType": {
-    "clash": "遭遇战",
-    "combat": "战斗",
-    "battle": "战役",
-    "grand_battle": "大战役"
-  },
   "matchmaking": "匹配",
   "matchmakingDescription": "匹配模式下能让你快速找到一个随机的对手，并使用预先配置好的军队战斗。",
   "onlyPartyLeaderCanSearch": "只有队长才可以开始匹配。",
@@ -277,7 +272,8 @@
     "19": "泥地",
     "20": "道路，沉没",
     "21": "战壕",
-    "22": "要塞"
+    "22": "要塞",
+    "25": "营地"
   },
   "clearPlayerUnits": "清除玩家单位",
   "clearBotUnits": "清除电脑单位",
@@ -367,7 +363,7 @@
     "lossesRatio": "损伤比",
     "objectives": "目标点",
     "timeUnderPressure": "受压时间",
-    "timeUnderPressureTooltip": "受压时间是指团队控制<0>{{percentage}}%</0>或更少目标点的时间。团队受压时间越长，损失的胜利点数就越多。",
+    "timeUnderPressureTooltip": "受压时间是指团队控制<0>{{percentage}}%</0>或更少目标点VP的时间。团队受压时间越长，损失的胜利点数就越多。",
     "unitsOrgRegain": "单位组织度恢复"
   },
   "offerDrawModal": {
@@ -389,12 +385,13 @@
     "3": "恢复"
   },
   "unitEffect": {
-    "1": "旋转180°",
-    "2": "近战中",
-    "3": "已疾跑",
-    "4": "开始溃退",
-    "5": "受到火力攻击",
-    "6": "已开火"
+    "rotated_180": "旋转180°",
+    "been_in_melee": "近战中",
+    "has_ran": "已疾跑",
+    "started_routing": "开始溃退",
+    "taken_fire": "受到火力攻击",
+    "has_fired": "已开火",
+    "can_pass_through_enemies": "可穿过敌人"
   },
   "login": "登入",
   "signUp": "注册",
@@ -640,6 +637,7 @@
   "minTurn": "最低回合数",
   "applyFilters": "应用过滤器",
   "objective": "目标点",
+  "victoryPoints": "胜利点数",
   "hasSkirmishers": "提供散兵",
   "skirmishersInfo": "特定兵种会按比例自动提供散兵。散兵比例取决于战斗规模。",
   "skirmisherRatio": "当前散兵比例",
@@ -654,6 +652,9 @@
   "projectilePassThrough": "射击经过",
   "keepsEnemyRun": "强迫敌军逃窜",
   "cannotMove": "无法移动",
+  "cannotChangeFormation": "无法改变阵型",
+  "cannotCharge": "无法冲锋",
+  "canPassThroughEnemies": "可穿过敌人",
   "back": "后退",
   "cannotRecoverOrg": "无法恢复组织度",
   "autofirePriority": "自动开火优先级",

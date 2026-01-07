@@ -79,7 +79,8 @@
     "mass": "Massa",
     "line": "Baris",
     "column": "Kolom",
-    "square": "Kotak"
+    "square": "Kotak",
+    "dispersed": "Tersebar"
   },
   "reportStats": {
     "men": "Prajurit",
@@ -89,5 +90,12 @@
   "currency": {
     "manpower": "Tenaga kerja",
     "gold": "Emas"
+  },
+  "dynamicBattleType": {
+    "micro": "Mikro",
+    "clash": "Pertemuan",
+    "combat": "Pertempuran",
+    "battle": "Pertempuran",
+    "grand_battle": "Pertempuran Besar"
   }
 }

@@ -111,7 +111,8 @@
     "mass": "密集",
     "line": "横队",
     "column": "纵队",
-    "square": "方阵"
+    "square": "方阵",
+    "dispersed": "散开"
   },
   "reportStats": {
     "men": "人员",
@@ -121,5 +122,12 @@
   "currency": {
     "manpower": "人力",
     "gold": "黄金"
+  },
+  "dynamicBattleType": {
+    "micro": "微型",
+    "clash": "遭遇战",
+    "combat": "战斗",
+    "battle": "战役",
+    "grand_battle": "大战役"
   }
 }

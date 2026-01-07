@@ -122,7 +122,8 @@
     "mass": "밀집",
     "line": "횡대",
     "column": "종대",
-    "square": "방진"
+    "square": "방진",
+    "dispersed": "산개"
   },
   "reportStats": {
     "men": "병사",
@@ -132,5 +133,12 @@
   "currency": {
     "manpower": "인력",
     "gold": "금"
+  },
+  "dynamicBattleType": {
+    "micro": "마이크로",
+    "clash": "접전",
+    "combat": "교전",
+    "battle": "전투",
+    "grand_battle": "대전투"
   }
 }

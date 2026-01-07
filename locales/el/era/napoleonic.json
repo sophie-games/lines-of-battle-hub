@@ -104,7 +104,8 @@
     "mass": "Μάζα",
     "line": "Γραμμή",
     "column": "Στήλη",
-    "square": "Τετράγωνο"
+    "square": "Τετράγωνο",
+    "dispersed": "Διασκορπισμένος"
   },
   "reportStats": {
     "men": "Άνδρες",
@@ -114,5 +115,12 @@
   "currency": {
     "manpower": "Εργατικό δυναμικό",
     "gold": "Χρυσός"
+  },
+  "dynamicBattleType": {
+    "micro": "Μικρό",
+    "clash": "Συνάντηση",
+    "combat": "Μάχη",
+    "battle": "Μάχη",
+    "grand_battle": "Μεγάλη Μάχη"
   }
 }

@@ -61,7 +61,8 @@
     "extendQueue": "キューを拡張",
     "extendQueueSuccess": "任意のElo範囲で検索中。",
     "cancelledBy": "キューは{{username}}によってキャンセルされました。",
-    "playersInQueue": "{{count}}人のプレイヤーが検索中"
+    "playersInQueue": "{{count}}人のプレイヤーが検索中",
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>あなた:</2> <3>{{userElo}}</3>)"
   },
   "fastMode": "高速モード",
   "slowMode": "低速モード",
@@ -77,12 +78,6 @@
     "7d": "7日"
   },
   "battleType": "戦闘タイプ",
-  "dynamicBattleType": {
-    "clash": "遭遇戦",
-    "combat": "戦闘",
-    "battle": "戦闘",
-    "grand_battle": "大戦闘"
-  },
   "matchmaking": "マッチメイキング",
   "matchmakingDescription": "マッチメイキングモードでは、設定済みの条件でランダムなプレイヤーとすぐに対戦できます。",
   "custom": "カスタム",
@@ -235,7 +230,8 @@
     "1": "森",
     "2": "建物",
     "3": "道路",
-    "4": "水域"
+    "4": "水域",
+    "25": "キャンプ"
   },
   "clearPlayerUnits": "プレイヤーユニットをクリア",
   "clearBotUnits": "ボットユニットをクリア",
@@ -324,7 +320,7 @@
     "lossesRatio": "損失比率",
     "objectives": "目標",
     "timeUnderPressure": "圧迫時間",
-    "timeUnderPressureTooltip": "圧迫時間とは、チームが目標の<0>{{percentage}}%</0>以下を制御している時間です。チームが圧迫状態にある時間が長いほど、より多くの勝利ポイントを失います。",
+    "timeUnderPressureTooltip": "圧迫時間とは、チームが目標の<0>{{percentage}}%</0> VP以下を制御している時間です。チームが圧迫状態にある時間が長いほど、より多くの勝利ポイントを失います。",
     "unitsOrgRegain": "ユニットの組織回復"
   },
   "offerDrawModal": {
@@ -344,8 +340,13 @@
     "3": "回復中"
   },
   "unitEffect": {
-    "1": "180°回転",
-    "5": "被弾"
+    "rotated_180": "180°回転",
+    "been_in_melee": "白兵戦中",
+    "has_ran": "走行中",
+    "started_routing": "退却開始",
+    "taken_fire": "被弾",
+    "has_fired": "発砲中",
+    "can_pass_through_enemies": "敵を通過できる"
   },
   "login": "ログイン",
   "signUp": "サインアップ",
@@ -548,5 +549,9 @@
   "logistics": "兵站",
   "logisticsConsumption": "兵站消費",
   "chooseEra": "時代を選択",
-  "chooseEraDescription": "プレイしたい時代を選択してください。後で設定から変更できます。"
+  "chooseEraDescription": "プレイしたい時代を選択してください。後で設定から変更できます。",
+  "cannotChangeFormation": "隊形を変更できません",
+  "cannotCharge": "突撃できません",
+  "canPassThroughEnemies": "敵を通過できる",
+  "victoryPoints": "勝利ポイント"
 }

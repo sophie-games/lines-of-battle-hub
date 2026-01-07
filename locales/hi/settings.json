@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "बहु-टर्न पथ न्यूनतम दूरी"
   },
+  "enableRotateOrder": {
+    "title": "रोटेट ऑर्डर सक्षम करें",
+    "description": "लंबे समय तक दबाकर और इकाइयों पर खींचकर रोटेट ऑर्डर जारी करने की क्षमता को सक्षम या अक्षम करें।"
+  },
   "edgePanning": {
     "title": "एज पैनिंग",
     "description": "जब माउस स्क्रीन के किनारों तक पहुंचे तो पैनिंग सक्षम करें (पीसी)।"
@@ -143,6 +147,8 @@
     "fallbackOrder": "पीछे हटने का आदेश",
     "toggleSmartCurvedMovements": "स्मार्ट कर्व्ड मूवमेंट्स टॉगल करें",
     "toggleFowPerspective": "कोहरे का दृष्टिकोण टॉगल करें",
+    "toggleMultiTurnOrders": "बहु-टर्न ऑर्डर टॉगल करें",
+    "toggleRotateOrder": "रोटेट ऑर्डर टॉगल करें",
     "openChat": "चैट खोलें",
     "openFormationModal": "गठन विंडो खोलें",
     "toggleFullscreen": "पूर्ण स्क्रीन टॉगल करें",

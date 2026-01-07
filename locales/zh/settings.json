@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "多回合指令路径的最小距离"
   },
+  "enableRotateOrder": {
+    "title": "启用旋转指令",
+    "description": "启用或禁用通过长按并拖拽单位来发出旋转指令的功能。"
+  },
   "edgePanning": {
     "title": "边缘平移",
     "description": "当鼠标指针移到画面边缘时移动画面（PC）。"
@@ -143,6 +147,8 @@
     "fallbackOrder": "后退指令",
     "toggleSmartCurvedMovements": "切换智能曲线移动",
     "toggleFowPerspective": "切换战争迷雾视角",
+    "toggleMultiTurnOrders": "切换多回合指令",
+    "toggleRotateOrder": "切换旋转指令",
     "openChat": "打开聊天栏",
     "openFormationModal": "打开阵型窗口",
     "toggleFullscreen": "切换全屏",

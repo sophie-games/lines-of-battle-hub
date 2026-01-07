@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Többszörös fordulási út minimális távolsága"
   },
+  "enableRotateOrder": {
+    "title": "Forgatási parancs engedélyezése",
+    "description": "Engedélyezze vagy tiltsa le a forgatási parancsok kiadásának lehetőségét hosszú nyomvatartással és egységeken való húzással."
+  },
   "edgePanning": {
     "title": "Pálya húzgálása a képernyő szélén",
     "description": "Engedélyezi, hogy a pálya kimozduljon a képernyőnek annak a szélének az irányába, ahol az egér van (PC funkció)."
@@ -116,6 +120,8 @@
     "fallbackOrder": "Visszavonulási parancs",
     "toggleSmartCurvedMovements": "Okos görbült mozgások váltása",
     "toggleFowPerspective": "Háborús köd perspektíva váltása",
+    "toggleMultiTurnOrders": "Többszörös fordulási parancsok váltása",
+    "toggleRotateOrder": "Forgatási parancs váltása",
     "openChat": "Chat megnyitása",
     "openFormationModal": "Formáció ablak megnyitása",
     "toggleFullscreen": "Teljes képernyő váltása",

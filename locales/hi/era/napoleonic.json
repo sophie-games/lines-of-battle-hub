@@ -122,7 +122,8 @@
     "mass": "समूह",
     "line": "पंक्ति",
     "column": "स्तंभ",
-    "square": "वर्ग"
+    "square": "वर्ग",
+    "dispersed": "फैला हुआ"
   },
   "reportStats": {
     "men": "पुरुष",
@@ -132,5 +133,12 @@
   "currency": {
     "manpower": "मानव शक्ति",
     "gold": "सोना"
+  },
+  "dynamicBattleType": {
+    "micro": "माइक्रो",
+    "clash": "टकराव",
+    "combat": "युद्ध",
+    "battle": "लड़ाई",
+    "grand_battle": "महान लड़ाई"
   }
 }

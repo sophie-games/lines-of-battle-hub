@@ -122,7 +122,8 @@
     "mass": "Масса",
     "line": "Линия",
     "column": "Колонна",
-    "square": "Квадрат"
+    "square": "Квадрат",
+    "dispersed": "Рассеянный"
   },
   "reportStats": {
     "men": "Люди",
@@ -132,5 +133,12 @@
   "currency": {
     "manpower": "Человеческие ресурсы",
     "gold": "Золото"
+  },
+  "dynamicBattleType": {
+    "micro": "Микро",
+    "clash": "Стычка",
+    "combat": "Сражение",
+    "battle": "Битва",
+    "grand_battle": "Генеральное сражение"
   }
 }

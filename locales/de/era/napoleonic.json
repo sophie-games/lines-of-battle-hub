@@ -90,7 +90,8 @@
     "mass": "Masse",
     "line": "Linie",
     "column": "Kolonne",
-    "square": "Karree"
+    "square": "Karree",
+    "dispersed": "Zerstreut"
   },
   "reportStats": {
     "men": "Männer",
@@ -100,5 +101,12 @@
   "currency": {
     "manpower": "Menschenkraft",
     "gold": "Gold"
+  },
+  "dynamicBattleType": {
+    "micro": "Micro",
+    "clash": "Begegnung",
+    "combat": "Kampf",
+    "battle": "Schlacht",
+    "grand_battle": "Große Schlacht"
   }
 }

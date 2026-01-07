@@ -87,7 +87,8 @@
     "mass": "Yığın",
     "line": "Hat",
     "column": "Sütun",
-    "square": "Kare"
+    "square": "Kare",
+    "dispersed": "Dağınık"
   },
   "reportStats": {
     "men": "Erkekler",
@@ -97,5 +98,12 @@
   "currency": {
     "manpower": "İnsan gücü",
     "gold": "Altın"
+  },
+  "dynamicBattleType": {
+    "micro": "Mikro",
+    "clash": "Karşılaşma",
+    "combat": "Savaş",
+    "battle": "Savaş",
+    "grand_battle": "Büyük Savaş"
   }
 }

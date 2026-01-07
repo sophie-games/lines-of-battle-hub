@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Çok Turlu Yol Minimum Mesafesi"
   },
+  "enableRotateOrder": {
+    "title": "Döndürme Emrini Etkinleştir",
+    "description": "Birimlerde uzun basma ve sürükleme yaparak döndürme emirleri verme yeteneğini etkinleştirin veya devre dışı bırakın."
+  },
   "edgePanning": {
     "title": "Kenar Kaydırma",
     "description": "Fare ekran kenarlarına ulaştığında kaydırmayı etkinleştir (PC)."
@@ -116,6 +120,8 @@
     "fallbackOrder": "Geri çekil emri",
     "toggleSmartCurvedMovements": "Akıllı eğri hareketleri değiştir",
     "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
+    "toggleMultiTurnOrders": "Çok Turlu Emirleri Değiştir",
+    "toggleRotateOrder": "Döndürme Emrini Değiştir",
     "openChat": "Sohbeti aç",
     "openFormationModal": "Formasyon penceresini aç",
     "toggleFullscreen": "Tam ekranı değiştir",

@@ -87,7 +87,8 @@
     "mass": "Маса",
     "line": "Лінія",
     "column": "Колона",
-    "square": "Квадрат"
+    "square": "Квадрат",
+    "dispersed": "Розсіяний"
   },
   "reportStats": {
     "men": "Люди",
@@ -97,5 +98,12 @@
   "currency": {
     "manpower": "Людські ресурси",
     "gold": "Золото"
+  },
+  "dynamicBattleType": {
+    "micro": "Мікро",
+    "clash": "Зустріч",
+    "combat": "Бій",
+    "battle": "Битва",
+    "grand_battle": "Велика Битва"
   }
 }
