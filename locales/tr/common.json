@@ -183,7 +183,11 @@
     "supplyCost": "İkmal Maliyeti {{currency}}",
     "supplyStats": "İkmal İstatistikleri",
     "entrenchment": "Siper",
-    "maxEntrenchment": "Maksimum Siper"
+    "maxEntrenchment": "Maksimum Siper",
+    "shattersAtOrg": "Org'da Parçalanır",
+    "routesAtOrg": "Org'da Kaçar",
+    "recoversAtOrg": "Org'da İyileşir",
+    "ralliesAtOrg": "Org'da Toplanır"
   },
   "category": "Kategori",
   "damageResistances": "Hasar Dirençleri",

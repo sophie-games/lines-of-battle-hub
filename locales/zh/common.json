@@ -198,7 +198,11 @@
     "supplyCost": "补给{{currency}}成本",
     "supplyStats": "补给统计",
     "entrenchment": "工事",
-    "maxEntrenchment": "最大工事"
+    "maxEntrenchment": "最大工事",
+    "shattersAtOrg": "在组织度时瓦解",
+    "routesAtOrg": "在组织度时溃败",
+    "recoversAtOrg": "在组织度时恢复",
+    "ralliesAtOrg": "在组织度时重整"
   },
   "category": "类别",
   "routingBehavior": "寻路行为",

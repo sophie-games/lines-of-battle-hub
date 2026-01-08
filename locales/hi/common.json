@@ -198,7 +198,11 @@
     "supplyCost": "आपूर्ति {{currency}} लागत",
     "supplyStats": "आपूर्ति आंकड़े",
     "entrenchment": "खाई",
-    "maxEntrenchment": "अधिकतम खाई"
+    "maxEntrenchment": "अधिकतम खाई",
+    "shattersAtOrg": "संगठन पर विघटित होता है",
+    "routesAtOrg": "संगठन पर भाग जाता है",
+    "recoversAtOrg": "संगठन पर ठीक होता है",
+    "ralliesAtOrg": "संगठन पर इकट्ठा होता है"
   },
   "category": "श्रेणी",
   "routingBehavior": "भागने का व्यवहार",

@@ -183,7 +183,11 @@
     "supplyCost": "Ellátmány {{currency}} Költség",
     "supplyStats": "Ellátmány Statisztikák",
     "entrenchment": "Elásás",
-    "maxEntrenchment": "Maximális Elásás"
+    "maxEntrenchment": "Maximális Elásás",
+    "shattersAtOrg": "Szétesik Org-nál",
+    "routesAtOrg": "Futamodik Org-nál",
+    "recoversAtOrg": "Felépül Org-nál",
+    "ralliesAtOrg": "Összegyűlik Org-nál"
   },
   "category": "Kategória",
   "damageResistances": "Sebzés ellenállás",

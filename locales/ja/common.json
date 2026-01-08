@@ -183,7 +183,11 @@
     "supplyCost": "補給{{currency}}コスト",
     "supplyStats": "補給統計",
     "entrenchment": "塹壕",
-    "maxEntrenchment": "最大塹壕"
+    "maxEntrenchment": "最大塹壕",
+    "shattersAtOrg": "組織度で崩壊",
+    "routesAtOrg": "組織度で敗走",
+    "recoversAtOrg": "組織度で回復",
+    "ralliesAtOrg": "組織度で再編成"
   },
   "category": "カテゴリー",
   "damageResistances": "ダメージ耐性",

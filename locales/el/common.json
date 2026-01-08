@@ -197,7 +197,11 @@
     "supplyCost": "Κόστος Προμήθειας {{currency}}",
     "supplyStats": "Στατιστικά Προμήθειας",
     "entrenchment": "Οχύρωση",
-    "maxEntrenchment": "Μέγιστη Οχύρωση"
+    "maxEntrenchment": "Μέγιστη Οχύρωση",
+    "shattersAtOrg": "Καταρρέει Στο Org",
+    "routesAtOrg": "Τρέπει Στο Org",
+    "recoversAtOrg": "Αναρρώνει Στο Org",
+    "ralliesAtOrg": "Συγκεντρώνεται Στο Org"
   },
   "category": "Κατηγορία",
   "damageResistances": "Αντιστάσεις σε φθορές",
