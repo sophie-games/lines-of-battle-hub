@@ -89,5 +89,12 @@
   "currency": {
     "manpower": "Emberi erőforrás",
     "gold": "Arany"
+  },
+  "dynamicBattleType": {
+    "micro": "Mikro",
+    "clash": "Találkozás",
+    "combat": "Csata",
+    "battle": "Csata",
+    "grand_battle": "Nagy Csata"
   }
 }

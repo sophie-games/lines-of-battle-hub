@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "Залізо",
     "gold": "Нафта"
+  },
+  "dynamicBattleType": {
+    "operational": "Оперативний"
   }
 }
 

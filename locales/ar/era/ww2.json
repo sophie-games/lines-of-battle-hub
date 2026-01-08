@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "حديد",
     "gold": "نفط"
+  },
+  "dynamicBattleType": {
+    "operational": "عملياتي"
   }
 }
 

@@ -78,12 +78,6 @@
     "7d": "7 nap"
   },
   "battleType": "Csata típusa",
-  "dynamicBattleType": {
-    "clash": "Találkozás",
-    "combat": "Csata",
-    "battle": "Csata",
-    "grand_battle": "Nagy Csata"
-  },
   "matchmaking": "Meccskeresés",
   "matchmakingDescription": "A meccskereső lehetővé teszi, hogy rövid idő alatt játékba került idegen játékosokkal.",
   "custom": "Személyre szabás",

@@ -133,5 +133,12 @@
   "currency": {
     "manpower": "Nhân lực",
     "gold": "Vàng"
+  },
+  "dynamicBattleType": {
+    "micro": "Vi mô",
+    "clash": "Đụng độ",
+    "combat": "Chiến đấu",
+    "battle": "Trận chiến",
+    "grand_battle": "Trận chiến lớn"
   }
 }

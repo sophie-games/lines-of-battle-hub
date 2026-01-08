@@ -78,12 +78,6 @@
     "7d": "7 Tage"
   },
   "battleType": "Schlachttypen",
-  "dynamicBattleType": {
-    "clash": "Begegnung",
-    "combat": "Kampf",
-    "battle": "Schlacht",
-    "grand_battle": "Große Schlacht"
-  },
   "matchmaking": "Spielsuche",
   "matchmakingDescription": "Spielsuchemodus erlaubt Ihnen schnell einem Spiel mit zufälligen Spielern und voreingestellten Einstellungen beizutreten.",
   "custom": "Benutzerdefiniert",

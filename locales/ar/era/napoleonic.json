@@ -133,5 +133,12 @@
   "currency": {
     "manpower": "القوى العاملة",
     "gold": "الذهب"
+  },
+  "dynamicBattleType": {
+    "micro": "ميكرو",
+    "clash": "الاشتباك",
+    "combat": "القتال",
+    "battle": "المعركة",
+    "grand_battle": "المعركة الكبرى"
   }
 }

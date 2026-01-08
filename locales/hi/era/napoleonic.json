@@ -133,5 +133,12 @@
   "currency": {
     "manpower": "मानव शक्ति",
     "gold": "सोना"
+  },
+  "dynamicBattleType": {
+    "micro": "माइक्रो",
+    "clash": "टकराव",
+    "combat": "युद्ध",
+    "battle": "लड़ाई",
+    "grand_battle": "महान लड़ाई"
   }
 }

@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "Demir",
     "gold": "Petrol"
+  },
+  "dynamicBattleType": {
+    "operational": "Operasyonel"
   }
 }
 

@@ -79,12 +79,6 @@
     "7d": "7 ngày"
   },
   "battleType": "Loại trận chiến",
-  "dynamicBattleType": {
-    "clash": "Đụng độ",
-    "combat": "Chiến đấu",
-    "battle": "Trận chiến",
-    "grand_battle": "Trận chiến lớn"
-  },
   "matchmaking": "Ghép trận",
   "matchmakingDescription": "Chế độ ghép trận cho phép bạn nhanh chóng tham gia trò chơi với người chơi ngẫu nhiên sử dụng cài đặt được định sẵn.",
   "onlyPartyLeaderCanSearch": "Chỉ trưởng nhóm mới có thể tìm kiếm trận đấu.",

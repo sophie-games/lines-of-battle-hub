@@ -32,6 +32,9 @@
   "currency": {
     "manpower": "Żelazo",
     "gold": "Ropa"
+  },
+  "dynamicBattleType": {
+    "operational": "Operacyjny"
   }
 }
 

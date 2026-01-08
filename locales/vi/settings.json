@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Khoảng cách tối thiểu đường đi đa lượt"
   },
+  "enableRotateOrder": {
+    "title": "Bật Lệnh Xoay",
+    "description": "Bật hoặc tắt khả năng phát lệnh xoay bằng cách nhấn giữ và kéo trên các đơn vị."
+  },
   "edgePanning": {
     "title": "Pan cạnh",
     "description": "Bật pan khi chuột đến cạnh màn hình (PC)."
@@ -143,6 +147,8 @@
     "fallbackOrder": "Lệnh rút lui",
     "toggleSmartCurvedMovements": "Chuyển đổi di chuyển cong thông minh",
     "toggleFowPerspective": "Chuyển đổi góc nhìn sương mù chiến tranh",
+    "toggleMultiTurnOrders": "Chuyển đổi lệnh đa lượt",
+    "toggleRotateOrder": "Chuyển đổi lệnh xoay",
     "openChat": "Mở trò chuyện",
     "openFormationModal": "Mở cửa sổ đội hình",
     "toggleFullscreen": "Chuyển đổi chế độ toàn màn hình",

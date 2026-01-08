@@ -78,12 +78,6 @@
     "7d": "7 dias"
   },
   "battleType": "Tipo de batalha",
-  "dynamicBattleType": {
-    "clash": "Encontro",
-    "combat": "Combate",
-    "battle": "Batalha",
-    "grand_battle": "Grande Batalha"
-  },
   "matchmaking": "Matchmaking",
   "matchmakingDescription": "O modo de matchmaking permite que você entre rapidamente em um jogo com jogadores aleatórios usando configurações predefinidas.",
   "custom": "Personalizado",

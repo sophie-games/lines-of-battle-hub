@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "複数回転経路の最小距離"
   },
+  "enableRotateOrder": {
+    "title": "回転命令を有効にする",
+    "description": "長押ししてドラッグすることでユニットに回転命令を発行する機能を有効または無効にします。"
+  },
   "edgePanning": {
     "title": "エッジパンニング",
     "description": "マウスが画面の端に到達したときにパンニングを有効にします（PC）。"
@@ -116,6 +120,8 @@
     "fallbackOrder": "後退命令",
     "toggleSmartCurvedMovements": "スマートカーブ移動切り替え",
     "toggleFowPerspective": "戦争の霧の視点切り替え",
+    "toggleMultiTurnOrders": "複数ターン命令の切り替え",
+    "toggleRotateOrder": "回転命令の切り替え",
     "openChat": "チャットを開く",
     "openFormationModal": "陣形ウィンドウを開く",
     "toggleFullscreen": "フルスクリーン切り替え",

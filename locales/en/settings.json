@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Multi-turn path min distance"
   },
+  "enableRotateOrder": {
+    "title": "Enable Rotate Order",
+    "description": "Enable or disable the ability to issue rotate orders by long-pressing and dragging on units."
+  },
   "edgePanning": {
     "title": "Edge Panning",
     "description": "Enable panning when mouse reaches screen edges (PC)."
@@ -145,9 +149,11 @@
     "shootOrder": "Shoot order",
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
-    "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
-    "toggleFowPerspective": "Toggle Fog of War Perspective",
-    "openChat": "Open chat",
+        "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
+        "toggleFowPerspective": "Toggle Fog of War Perspective",
+        "toggleMultiTurnOrders": "Toggle Multi-turn Orders",
+        "toggleRotateOrder": "Toggle Rotate Order",
+        "openChat": "Open chat",
     "openFormationModal": "Open formation modal",
     "toggleFullscreen": "Toggle Fullscreen",
     "simulateMultiTouch": "Simulate Multi-touch",

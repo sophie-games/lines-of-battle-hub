@@ -90,5 +90,12 @@
   "currency": {
     "manpower": "Tenaga kerja",
     "gold": "Emas"
+  },
+  "dynamicBattleType": {
+    "micro": "Mikro",
+    "clash": "Pertemuan",
+    "combat": "Pertempuran",
+    "battle": "Pertempuran",
+    "grand_battle": "Pertempuran Besar"
   }
 }

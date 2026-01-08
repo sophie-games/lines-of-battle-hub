@@ -8,6 +8,10 @@
     "title": "Przesuwanie krawędzi",
     "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
   },
+  "enableRotateOrder": {
+    "title": "Włącz rozkaz obrotu",
+    "description": "Włącz lub wyłącz możliwość wydawania rozkazów obrotu poprzez długie naciśnięcie i przeciąganie na jednostkach."
+  },
   "useTouchControls": {
     "title": "Używaj sterowania dotykowego",
     "description": "Gdy włączone, gra będzie używać sterowania dotykowego. Gdy wyłączone, gra będzie używać kontroli komputerowych."
@@ -109,6 +113,8 @@
     "fallbackOrder": "Rozkaz Odwrotu",
     "toggleSmartCurvedMovements": "Przełącz inteligentne zakrzywione ruchy",
     "toggleFowPerspective": "Przełącz perspektywę mgły wojny",
+    "toggleMultiTurnOrders": "Przełącz rozkazy wieloturowe",
+    "toggleRotateOrder": "Przełącz rozkaz obrotu",
     "openChat": "Otwórz czat",
     "openFormationModal": "Otwórz okno formacji",
     "toggleFullscreen": "Przełącz tryb pełnoekranowy",

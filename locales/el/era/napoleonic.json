@@ -115,5 +115,12 @@
   "currency": {
     "manpower": "Εργατικό δυναμικό",
     "gold": "Χρυσός"
+  },
+  "dynamicBattleType": {
+    "micro": "Μικρό",
+    "clash": "Συνάντηση",
+    "combat": "Μάχη",
+    "battle": "Μάχη",
+    "grand_battle": "Μεγάλη Μάχη"
   }
 }
