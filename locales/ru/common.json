@@ -201,7 +201,11 @@
     "supplyCost": "Стоимость снабжения {{currency}}",
     "supplyStats": "Статистика снабжения",
     "entrenchment": "Полевые укрепления",
-    "maxEntrenchment": "Максимальный уровень полевых укреплений"
+    "maxEntrenchment": "Максимальный уровень полевых укреплений",
+    "shattersAtOrg": "Уничтожение при организации:",
+    "routesAtOrg": "Беспорядочное отступление при организации:",
+    "recoversAtOrg": "Прекращает беспорядочное отступление при организации:",
+    "ralliesAtOrg": "Контроль над отрядом восстанавливается при организации:"
   },
   "category": "Категория",
   "routingBehavior": "Поведение при бегстве",
@@ -801,7 +805,7 @@
   "disablesFlankMelee": "Отменяет бонусы ближнего боя с фланга",
   "disablesRearMelee": "Отменяет бонусы ближнего боя с тыла",
   "disablesEnfiladeRearFire": "Отменяет тыловой огонь во фланг",
-  "flankChargeResistance": ""Сопротивление натиску с фланга",
+  "flankChargeResistance": "Сопротивление натиску с фланга",
   "rearChargeResistance": "Сопротивление натиску с тыла",
   "enfiladeFireResistance": "Сопротивление огню во фланг",
   "rearFireResistance": "Сопротивление огню в тыл",

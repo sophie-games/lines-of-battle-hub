@@ -183,7 +183,11 @@
     "supplyCost": "Costo Rifornimenti {{currency}}",
     "supplyStats": "Statistiche Rifornimenti",
     "entrenchment": "Trinceramento",
-    "maxEntrenchment": "Trinceramento Massimo"
+    "maxEntrenchment": "Trinceramento Massimo",
+    "shattersAtOrg": "Si Disintegra A Org",
+    "routesAtOrg": "Fugge A Org",
+    "recoversAtOrg": "Si Riprende A Org",
+    "ralliesAtOrg": "Si Raggruppa A Org"
   },
   "category": "Categoria",
   "damageResistances": "Resistenze al danno",
