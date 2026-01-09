@@ -194,7 +194,11 @@
     "supplyCost": "보급 {{currency}} 비용",
     "supplyStats": "보급 통계",
     "entrenchment": "참호",
-    "maxEntrenchment": "최대 참호"
+    "maxEntrenchment": "최대 참호",
+    "shattersAtOrg": "조직력에서 붕괴",
+    "routesAtOrg": "조직력에서 패주",
+    "recoversAtOrg": "조직력에서 회복",
+    "ralliesAtOrg": "조직력에서 재편성"
   },
   "category": "유형",
   "routingBehavior": "궤멸 중 행동",

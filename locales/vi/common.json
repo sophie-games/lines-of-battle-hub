@@ -198,7 +198,11 @@
     "supplyCost": "Chi phí Tiếp tế {{currency}}",
     "supplyStats": "Thống kê Tiếp tế",
     "entrenchment": "Công sự",
-    "maxEntrenchment": "Công sự Tối đa"
+    "maxEntrenchment": "Công sự Tối đa",
+    "shattersAtOrg": "Tan Rã Ở Org",
+    "routesAtOrg": "Bỏ Chạy Ở Org",
+    "recoversAtOrg": "Phục Hồi Ở Org",
+    "ralliesAtOrg": "Tập Hợp Ở Org"
   },
   "category": "Danh mục",
   "routingBehavior": "Hành vi rút lui",

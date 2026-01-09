@@ -173,7 +173,11 @@
     "supplyCost": "Coût de Ravitaillement {{currency}}",
     "supplyStats": "Statistiques de Ravitaillement",
     "entrenchment": "Retranchement",
-    "maxEntrenchment": "Retranchement Maximum"
+    "maxEntrenchment": "Retranchement Maximum",
+    "shattersAtOrg": "Se Désintègre À Org",
+    "routesAtOrg": "Fuit À Org",
+    "recoversAtOrg": "Se Rétablit À Org",
+    "ralliesAtOrg": "Se Rassemble À Org"
   },
   "category": "Catégorie",
   "damageResistances": "Résistances aux dégâts",

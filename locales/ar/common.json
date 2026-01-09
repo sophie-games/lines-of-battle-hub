@@ -198,7 +198,11 @@
     "supplyCost": "تكلفة الإمدادات {{currency}}",
     "supplyStats": "إحصائيات الإمدادات",
     "entrenchment": "التحصين",
-    "maxEntrenchment": "التحصين الأقصى"
+    "maxEntrenchment": "التحصين الأقصى",
+    "shattersAtOrg": "ينهار عند التنظيم",
+    "routesAtOrg": "يفر عند التنظيم",
+    "recoversAtOrg": "يتعافى عند التنظيم",
+    "ralliesAtOrg": "يتجمع عند التنظيم"
   },
   "category": "الفئة",
   "routingBehavior": "سلوك الفرار",

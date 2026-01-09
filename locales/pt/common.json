@@ -183,7 +183,11 @@
     "supplyCost": "Custo de Suprimentos {{currency}}",
     "supplyStats": "Estatísticas de Suprimentos",
     "entrenchment": "Entrincheiramento",
-    "maxEntrenchment": "Entrincheiramento Máximo"
+    "maxEntrenchment": "Entrincheiramento Máximo",
+    "shattersAtOrg": "Desintegra Em Org",
+    "routesAtOrg": "Foge Em Org",
+    "recoversAtOrg": "Recupera Em Org",
+    "ralliesAtOrg": "Reagrupa Em Org"
   },
   "category": "Categoria",
   "damageResistances": "Resistências a Dano",

@@ -183,7 +183,11 @@
     "supplyCost": "Versorgungskosten {{currency}}",
     "supplyStats": "Versorgungsstatistiken",
     "entrenchment": "Verschanzung",
-    "maxEntrenchment": "Maximale Verschanzung"
+    "maxEntrenchment": "Maximale Verschanzung",
+    "shattersAtOrg": "Zerbricht Bei Org",
+    "routesAtOrg": "Flieht Bei Org",
+    "recoversAtOrg": "Erholt Sich Bei Org",
+    "ralliesAtOrg": "Sammelt Sich Bei Org"
   },
   "category": "Kategorie",
   "damageResistances": "Wiederstandsfähigkeiten gegen Schaden",

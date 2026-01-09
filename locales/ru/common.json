@@ -198,7 +198,11 @@
     "supplyCost": "Стоимость снабжения {{currency}}",
     "supplyStats": "Статистика снабжения",
     "entrenchment": "Окопы",
-    "maxEntrenchment": "Максимальные окопы"
+    "maxEntrenchment": "Максимальные окопы",
+    "shattersAtOrg": "Разрушается При Org",
+    "routesAtOrg": "Бежит При Org",
+    "recoversAtOrg": "Восстанавливается При Org",
+    "ralliesAtOrg": "Собирается При Org"
   },
   "category": "Категория",
   "routingBehavior": "Поведение при бегстве",

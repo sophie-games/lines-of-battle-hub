@@ -201,7 +201,11 @@
     "supplyCost": "Supply {{currency}} Cost",
     "supplyStats": "Supply Stats",
     "entrenchment": "Entrenchment",
-    "maxEntrenchment": "Max Entrenchment"
+    "maxEntrenchment": "Max Entrenchment",
+    "shattersAtOrg": "Shatters At Org",
+    "routesAtOrg": "Routes At Org",
+    "recoversAtOrg": "Recovers At Org",
+    "ralliesAtOrg": "Rallies At Org"
   },
   "category": "Category",
   "routingBehavior": "Routing Behavior",

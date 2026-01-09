@@ -183,7 +183,11 @@
     "supplyCost": "Вартість постачання {{currency}}",
     "supplyStats": "Статистика постачання",
     "entrenchment": "Окопи",
-    "maxEntrenchment": "Максимальні окопи"
+    "maxEntrenchment": "Максимальні окопи",
+    "shattersAtOrg": "Руйнується При Org",
+    "routesAtOrg": "Тікає При Org",
+    "recoversAtOrg": "Відновлюється При Org",
+    "ralliesAtOrg": "Збирається При Org"
   },
   "category": "Категорія",
   "damageResistances": "Стійкість до ушкоджень",

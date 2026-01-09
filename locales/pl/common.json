@@ -188,7 +188,11 @@
     "supplyCost": "Koszt Zaopatrzenia {{currency}}",
     "supplyStats": "Statystyki Zaopatrzenia",
     "entrenchment": "Okopanie",
-    "maxEntrenchment": "Maksymalne Okopanie"
+    "maxEntrenchment": "Maksymalne Okopanie",
+    "shattersAtOrg": "Rozpada Się Przy Org",
+    "routesAtOrg": "Ucieka Przy Org",
+    "recoversAtOrg": "Odzyskuje Przy Org",
+    "ralliesAtOrg": "Zbiera Się Przy Org"
   },
   "category": "Kategoria",
   "damageResistances": "Odporność na Obrażenia",

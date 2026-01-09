@@ -184,7 +184,11 @@
     "supplyCost": "Biaya Pasokan {{currency}}",
     "supplyStats": "Statistik Pasokan",
     "entrenchment": "Pertahanan",
-    "maxEntrenchment": "Pertahanan Maksimal"
+    "maxEntrenchment": "Pertahanan Maksimal",
+    "shattersAtOrg": "Hancur Di Org",
+    "routesAtOrg": "Kabur Di Org",
+    "recoversAtOrg": "Pulih Di Org",
+    "ralliesAtOrg": "Berkumpul Di Org"
   },
   "category": "Kategori",
   "damageResistances": "Resistensi Kerusakan",
