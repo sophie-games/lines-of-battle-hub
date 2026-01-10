@@ -149,7 +149,7 @@
     "shootOrder": "Огонь",
     "fireAndAdvanceOrder": "Огонь при движении",
     "fallbackOrder": "Отход",
-    "toggleSmartCurvedMovements":Умное движение по кривой",
+    "toggleSmartCurvedMovements": "Умное движение по кривой",
     "toggleFowPerspective": "Перспектива тумана войны",
     "toggleMultiTurnOrders": "Планирование манёвров",
     "toggleRotateOrder": "Включение приказа 'Поворот'",
