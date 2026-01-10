@@ -72,11 +72,11 @@
   },
   "shadows": {
     "title": "Gölgeler",
-    "description": "Birimlerde gölgeleri etkinleştirir. Bu, birimlerin güncellenmesi için oyunun tur geçmesini gerektirebilir."
+    "description": "Birimlerde gölgeleri etkinleştirir."
   },
   "showDebugShapes": {
     "title": "Hata ayıklama şekillerini göster",
-    "description": "Birimlerde çarpışma şekilleri ve arazi kontrol noktaları dahil hata ayıklama şekillerini gösterir. Bu, birimlerin güncellenmesi için oyunun tur geçmesini gerektirebilir."
+    "description": "Birimlerde çarpışma şekilleri ve arazi kontrol noktaları dahil hata ayıklama şekillerini gösterir."
   },
   "bottomButtons": {
     "title": "Alt Butonlar",

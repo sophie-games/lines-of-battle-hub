@@ -72,11 +72,11 @@
   },
   "shadows": {
     "title": "Sombras",
-    "description": "Ativa sombras nas unidades. Isso pode exigir que o jogo passe um turno para que as unidades sejam atualizadas."
+    "description": "Ativa sombras nas unidades."
   },
   "showDebugShapes": {
     "title": "Mostrar formas de depuração",
-    "description": "Mostra formas de depuração nas unidades incluindo formas de colisão e pontos de verificação de terreno. Isso pode exigir que o jogo passe um turno para que as unidades sejam atualizadas."
+    "description": "Mostra formas de depuração nas unidades incluindo formas de colisão e pontos de verificação de terreno."
   },
   "bottomButtons": {
     "title": "Botões Inferiores",

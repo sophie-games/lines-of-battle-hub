@@ -72,11 +72,11 @@
   },
   "shadows": {
     "title": "Schatten",
-    "description": "Aktiviert Schatten bei Einheiten. Dies kann erfordern, dass das Spiel einen Zug vergeht, damit die Einheiten aktualisiert werden."
+    "description": "Aktiviert Schatten bei Einheiten."
   },
   "showDebugShapes": {
     "title": "Debug-Formen anzeigen",
-    "description": "Zeigt Debug-Formen auf Einheiten an, einschließlich Kollisionsformen und Geländeprüfpunkten. Dies kann erfordern, dass das Spiel einen Zug vergeht, damit die Einheiten aktualisiert werden."
+    "description": "Zeigt Debug-Formen auf Einheiten an, einschließlich Kollisionsformen und Geländeprüfpunkten."
   },
   "bottomButtons": {
     "title": "Untere Buttons",
