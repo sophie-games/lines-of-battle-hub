@@ -83,11 +83,11 @@
   },
   "shadows": {
     "title": "그림자",
-    "description": "부대 그림자를 활성화합니다. 게임 턴이 지나야 적용됩니다."
+    "description": "부대 그림자를 활성화합니다."
   },
   "showDebugShapes": {
     "title": "디버그 모양 표시",
-    "description": "부대에 충돌 범위 및 지형 확인 지점을 포함한 디버그 모양을 표시합니다. 부대를 갱신하려면 턴이 지나야 합니다."
+    "description": "부대에 충돌 범위 및 지형 확인 지점을 포함한 디버그 모양을 표시합니다."
   },
   "bottomButtons": {
     "title": "하단 버튼",

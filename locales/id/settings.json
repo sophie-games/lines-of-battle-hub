@@ -72,11 +72,11 @@
   },
   "shadows": {
     "title": "Bayangan",
-    "description": "Mengaktifkan bayangan pada unit. Mungkin memerlukan giliran permainan untuk memperbarui unit."
+    "description": "Mengaktifkan bayangan pada unit."
   },
   "showDebugShapes": {
     "title": "Tampilkan bentuk debug",
-    "description": "Menampilkan bentuk debug pada unit termasuk bentuk tabrakan dan titik pemeriksaan medan. Mungkin memerlukan giliran permainan untuk memperbarui unit."
+    "description": "Menampilkan bentuk debug pada unit termasuk bentuk tabrakan dan titik pemeriksaan medan."
   },
   "bottomButtons": {
     "title": "Tombol Bawah",

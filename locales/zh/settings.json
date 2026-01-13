@@ -1,4 +1,4 @@
-﻿{
+{
   "gameplay": "游戏性",
   "graphics": "画面",
   "camera": "镜头",
@@ -83,11 +83,11 @@
   },
   "shadows": {
     "title": "阴影",
-    "description": "为单位启用阴影。可能需要游戏经过一回合才能更新。"
+    "description": "为单位启用阴影。"
   },
   "showDebugShapes": {
     "title": "显示调试图形",
-    "description": "显示调试所需的图形，例如碰撞体积和地形判定点。需要等游戏进入下一回合才能显示。"
+    "description": "显示调试所需的图形，例如碰撞体积和地形判定点。"
   },
   "showDebugInfo": {
     "title": "显示调试信息",

@@ -83,11 +83,11 @@
   },
   "shadows": {
     "title": "Shadows",
-    "description": "Enables shadows on units. This may require the game to pass turn for the units to update."
+    "description": "Enables shadows on units."
   },
   "showDebugShapes": {
     "title": "Show debug shapes",
-    "description": "Shows debug shapes on units including collision shapes and terrain check points. This may require the game to pass turn for the units to update."
+    "description": "Shows debug shapes on units including collision shapes and terrain check points."
   },
   "showDebugInfo": {
     "title": "Show Debug Info",

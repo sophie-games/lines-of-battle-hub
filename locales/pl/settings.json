@@ -65,11 +65,11 @@
   },
   "shadows": {
     "title": "Cienie",
-    "description": "Włącz cienie jednostek. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
+    "description": "Włącz cienie jednostek."
   },
   "showDebugShapes": {
     "title": "Pokaż kształty debugowania",
-    "description": "Pokazuje kształty debugowania na jednostkach, w tym kształty kolizji i punkty sprawdzania terenu. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
+    "description": "Pokazuje kształty debugowania na jednostkach, w tym kształty kolizji i punkty sprawdzania terenu."
   },
   "bottomButtons": {
     "title": "Przyciski Dolne",

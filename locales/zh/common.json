@@ -1,4 +1,4 @@
-﻿{
+{
   "appLoadingMessage": "欢迎来到 战线统帅：拿破仑！",
   "home": "主页",
   "language": "语言",
@@ -213,6 +213,9 @@
   "walk": "行进",
   "run": "疾跑",
   "damageResistances": "伤害抗性",
+  "minMovementModifier": "最小移动修正",
+  "rangedDamageResistance": "远程伤害抗性",
+  "rangedOrgResistance": "远程组织度抗性",
   "otherStats": "其它数据",
   "damageModifier": "伤害修正",
   "orgDamageRatio": "组织度伤害比例",

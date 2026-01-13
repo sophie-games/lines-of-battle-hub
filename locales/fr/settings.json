@@ -69,11 +69,11 @@
   },
   "shadows": {
     "title": "Ombres",
-    "description": "Active les ombres sur les unités. Cela peut nécessiter que le jeu passe un tour pour que les unités soient mises à jour."
+    "description": "Active les ombres sur les unités."
   },
   "showDebugShapes": {
     "title": "Afficher les formes de débogage",
-    "description": "Affiche les formes de débogage sur les unités, y compris les formes de collision et les points de vérification du terrain. Cela peut nécessiter que le jeu passe un tour pour que les unités soient mises à jour."
+    "description": "Affiche les formes de débogage sur les unités, y compris les formes de collision et les points de vérification du terrain."
   },
   "bottomButtons": {
     "title": "Boutons du bas",
