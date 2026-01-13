@@ -28,7 +28,6 @@
     "available": "내 경기",
     "notStarted": "아직 시작되지 않음"
   },
-  "loadingGames": "경기 불러오는 중...",
   "noGamesYet": "아직 경기가 없습니다! 경기를 새로 만들려면 시작을 클릭하세요.",
   "failedToLoadGames": "경기를 불러오는 데 실패했습니다. 다시 시도해 주세요.",
   "armyCompositions": "편제",
@@ -242,7 +241,8 @@
   "heightModifierPerLevel": "단계 당 높이 변동치",
   "damageModifierPerLevel": "단계 당 피해량 변동치",
   "maxElevationDiff": "최대 고도 차이",
-  "diminishByTargetOrg": "표적 조직력에 의한 감소치",
+  "orgModifierByTargetOrg": "표적 조직력에 의한 감소치",
+  "damageModifierByTargetHp": "표적 체력에 의한 피해 수정치",
   "from": "에서",
   "to": "~",
   "lBy": "에 의해",
@@ -499,8 +499,11 @@
     "b": "지금 확인"
   },
   "search": {
-    "clans": "연합 검색"
+    "clans": "연합 검색",
+    "lob": "Lines of Battle에서 검색"
   },
+  "noResults": "사용자를 찾을 수 없습니다",
+  "searching": "검색 중...",
   "formation": "진형",
   "formations": "진형",
   "findGame": "경기 탐색",
@@ -642,6 +645,7 @@
   "hasSkirmishers": "척후대 보유",
   "skirmishersInfo": "척후대는 군대 내 척후부대 수와 전투 유형의 척후대 비율에 따라 자동으로 배치됩니다.",
   "skirmisherRatio": "척후대 비율",
+  "prestigeDropChance": "{{currency}} 획득 확률: {{chance}}% ({{turn}}턴부터)",
   "friendlyFireImmune": "아군 오사 면역",
   "nearbyUnits": "인근 부대",
   "preset": "표준",
@@ -793,5 +797,9 @@
   "timeToUnform": "해체 시간",
   "formingSpeedModifier": "편성 속도",
   "chooseEra": "시대 선택",
-  "chooseEraDescription": "플레이하고 싶은 시대를 선택하세요. 나중에 설정에서 변경할 수 있습니다."
+  "chooseEraDescription": "플레이하고 싶은 시대를 선택하세요. 나중에 설정에서 변경할 수 있습니다.",
+  "recent": "최근",
+  "clear": "정리",
+  "privacy": "개인정보",
+  "showCountry": "국가 표시"
 }

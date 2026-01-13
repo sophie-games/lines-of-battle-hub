@@ -28,7 +28,6 @@
     "available": "可以游玩",
     "notStarted": "尚未开始"
   },
-  "loadingGames": "正在加载对局……",
   "noGamesYet": "还没开始任何对局！点击游玩以新开一局。",
   "failedToLoadGames": "对局加载失败，请重试。",
   "armyCompositions": "军队配置",
@@ -250,7 +249,8 @@
   "heightModifierPerLevel": "每等级高度修正",
   "damageModifierPerLevel": "每等级伤害修正",
   "maxElevationDiff": "最大高度差",
-  "diminishByTargetOrg": "伤害受目标组织度影响",
+  "orgModifierByTargetOrg": "伤害受目标组织度影响",
+  "damageModifierByTargetHp": "伤害受目标生命值影响",
   "from": "从",
   "to": "到",
   "lBy": "修正",
@@ -510,8 +510,11 @@
     "b": "立刻检查"
   },
   "search": {
-    "clans": "搜索联盟"
+    "clans": "搜索联盟",
+    "lob": "在 Lines of Battle 中搜索"
   },
+  "noResults": "未找到用户",
+  "searching": "搜索中...",
   "formation": "阵型",
   "findGame": "寻找对局",
   "gameIdOrLink": "对局ID或链接",
@@ -652,6 +655,7 @@
   "hasSkirmishers": "提供散兵",
   "skirmishersInfo": "特定兵种会按比例自动提供散兵。散兵比例取决于战斗规模。",
   "skirmisherRatio": "当前散兵比例",
+  "prestigeDropChance": "{{currency}}掉落几率：{{chance}}%（从第{{turn}}回合开始）",
   "friendlyFireImmune": "免疫友军火力",
   "nearbyUnits": "附近单位",
   "preset": "预设",
@@ -806,7 +810,8 @@
   "unitsHaveDifferentFormations": "已选择单位的阵型不一致",
   "disablesFlankMelee": "近战侧击无效",
   "disablesRearMelee": "近战后击无效",
-  "disablesEnfiladeRearFire": "侧翼/后部射击无效",
+  "disablesEnfiladeFire": "侧翼射击无效",
+  "disablesRearFire": "后部射击无效",
   "flankChargeResistance": "侧翼冲锋抗性",
   "rearChargeResistance": "后部冲锋抗性",
   "enfiladeFireResistance": "侧翼射击抗性",
@@ -814,5 +819,9 @@
   "useBuiltinTemplate": "使用内置模板",
   "importTemplate": "导入模板",
   "chooseEra": "选择时代",
-  "chooseEraDescription": "请选择你想游玩的时代。你之后可以在设置里再做更改。"
+  "chooseEraDescription": "请选择你想游玩的时代。你之后可以在设置里再做更改。",
+  "recent": "最近",
+  "clear": "清除",
+  "privacy": "隐私",
+  "showCountry": "显示国家"
 }

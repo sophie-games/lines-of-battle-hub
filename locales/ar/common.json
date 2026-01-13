@@ -28,7 +28,6 @@
     "available": "متاح للعب",
     "notStarted": "اللعبة لم تبدأ بعد"
   },
-  "loadingGames": "جاري تحميل الألعاب...",
   "noGamesYet": "لا توجد ألعاب بعد! انقر على العب لإنشاء لعبة جديدة.",
   "failedToLoadGames": "فشل في تحميل الألعاب. يرجى المحاولة مرة أخرى.",
   "armyCompositions": "تشكيلات الجيش",
@@ -247,7 +246,8 @@
   "heightModifierPerLevel": "معدل الارتفاع لكل مستوى",
   "damageModifierPerLevel": "معدل الضرر لكل مستوى",
   "maxElevationDiff": "أقصى فرق ارتفاع",
-  "diminishByTargetOrg": "يقل حسب تنظيم الهدف",
+  "orgModifierByTargetOrg": "يقل حسب تنظيم الهدف",
+  "damageModifierByTargetHp": "تعديل الضرر حسب صحة الهدف",
   "from": "من",
   "to": "إلى",
   "lBy": "بواسطة",
@@ -508,8 +508,11 @@
     "b": "تحقق الآن"
   },
   "search": {
-    "clans": "البحث في التحالفات"
+    "clans": "البحث في التحالفات",
+    "lob": "البحث في Lines of Battle"
   },
+  "noResults": "لم يتم العثور على مستخدمين",
+  "searching": "جاري البحث...",
   "formation": "التشكيل",
   "formations": "التشكيلات",
   "findGame": "البحث عن لعبة",
@@ -648,6 +651,7 @@
   "hasSkirmishers": "لديه مناوشون",
   "skirmishersInfo": "يتم وضع المناوشين تلقائياً حسب عدد الوحدات التي تحتوي على مناوشين في الجيش ونسبة المناوشين لنوع المعركة.",
   "skirmisherRatio": "نسبة المناوشين",
+  "prestigeDropChance": "فرصة الحصول على {{currency}}: {{chance}}% (من الجولة {{turn}})",
   "friendlyFireImmune": "محصن ضد النيران الصديقة",
   "nearbyUnits": "وحدات قريبة",
   "preset": "محدد مسبقاً",
@@ -798,5 +802,9 @@
   "timeToUnform": "وقت التفكيك",
   "formingSpeedModifier": "سرعة التشكيل",
   "chooseEra": "اختر العصر",
-  "chooseEraDescription": "يرجى اختيار العصر الذي تريد اللعب فيه. يمكنك تغيير هذا لاحقًا في الإعدادات."
+  "chooseEraDescription": "يرجى اختيار العصر الذي تريد اللعب فيه. يمكنك تغيير هذا لاحقًا في الإعدادات.",
+  "recent": "حديث",
+  "clear": "مسح",
+  "privacy": "الخصوصية",
+  "showCountry": "إظهار البلد"
 }

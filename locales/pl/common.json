@@ -28,7 +28,6 @@
     "available": "Partia w trakcie",
     "notStarted": "Partia nie rozpoczęta"
   },
-  "loadingGames": "Ładowanie partii...",
   "noGamesYet": "Brak partii! Kliknij Graj aby rozpocząć nową.",
   "failedToLoadGames": "Nie udało się załadować partii. Proszę spróbować ponownie.",
   "armyCompositions": "Ułożenie armii",
@@ -228,7 +227,8 @@
   "topWidth": "Szerokość góry",
   "bottomWidth": "Szerokość dołu",
   "height": "Wysokość",
-  "diminishByTargetOrg": "Zmniejszone przez Org. Celu",
+  "orgModifierByTargetOrg": "Zmniejszone przez Org. Celu",
+  "damageModifierByTargetHp": "Modyfikator Obrażeń według HP Celu",
   "from": "od",
   "to": "do",
   "lBy": "przez",
@@ -484,8 +484,11 @@
     "b": "Aktualizowanie rozkazów"
   },
   "search": {
-    "clans": "Szukaj koalicji"
+    "clans": "Szukaj koalicji",
+    "lob": "Szukaj w Lines of Battle"
   },
+  "noResults": "Nie znaleziono użytkowników",
+  "searching": "Szukanie...",
   "formation": "Formacja",
   "formations": "Formacje",
   "findGame": "Znajdź grę",
@@ -618,6 +621,7 @@
   "hasSkirmishers": "Ma strzelców",
   "skirmishersInfo": "Strzelcy są rozmieszczani automatycznie w zależności od liczby jednostek ze strzelcami w armii i stosunku strzelców do danego typu bitwy.",
   "skirmisherRatio": "Stosunek strzelców",
+  "prestigeDropChance": "Szansa na {{currency}}: {{chance}}% (od tury {{turn}})",
   "friendlyFireImmune": "Niewrażliwość na ogień sojuszniczy",
   "nearbyUnits": "Pobliskie jednostki",
   "preset": "Preset",
@@ -723,5 +727,9 @@
   "logistics": "Logistyka",
   "logisticsConsumption": "K. Logistyki",
   "chooseEra": "Wybierz Epokę",
-  "chooseEraDescription": "Proszę wybrać epokę, w której chcesz grać. Możesz to zmienić później w Ustawieniach."
+  "chooseEraDescription": "Proszę wybrać epokę, w której chcesz grać. Możesz to zmienić później w Ustawieniach.",
+  "recent": "Ostatnie",
+  "clear": "Wyczyść",
+  "privacy": "Prywatność",
+  "showCountry": "Pokaż kraj"
 }

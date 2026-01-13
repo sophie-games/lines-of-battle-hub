@@ -27,7 +27,6 @@
     "available": "Aktív játék",
     "notStarted": "A játék még nem indult el"
   },
-  "loadingGames": "Meccsek betöltése...",
   "noGamesYet": "Még nincsenek meccseid! Nyomjd rá a 'Játék' gombra, és hozz létre egyet!",
   "failedToLoadGames": "Nem sikerült betölteni a meccset, kérlek próbáld újra!",
   "armyCompositions": "Seregek összetétele",
@@ -223,7 +222,8 @@
   "topWidth": "Felső szélesség",
   "bottomWidth": "Alsó szélesség",
   "height": "Magasság",
-  "diminishByTargetOrg": "Org csökkenés a célpont Org-jából vonatkozóan",
+  "orgModifierByTargetOrg": "Org csökkenés a célpont Org-jából vonatkozóan",
+  "damageModifierByTargetHp": "Sebzés módosító a célpont HP-jából",
   "from": "from",
   "to": "to",
   "lBy": "by",
@@ -394,8 +394,11 @@
     "message": "Új csataesemények zajlottak le, amíg távol voltál.\nSzeretnéd, ha lejátszanánk ezeket?"
   },
   "search": {
-    "clans": "Koalíciók keresése"
+    "clans": "Koalíciók keresése",
+    "lob": "Keresés a Lines of Battle-ben"
   },
+  "noResults": "Nem találhatók felhasználók",
+  "searching": "Keresés...",
   "ordersSubmittedDialog": {
     "p1": {
       "sent": "Parancsok elküldve a szervernek.",
@@ -440,6 +443,7 @@
   "disconnecting": "Elválasztás...",
   "unknown": "Ismeretlen",
   "fogOfWar": "Háború ködje",
+  "prestigeDropChance": "{{currency}} megszerzési esély: {{chance}}% ({{turn}}. körből)",
   "low": "Alacsony",
   "medium": "Közepes",
   "high": "Magas",
@@ -514,5 +518,9 @@
   "cannotChangeFormation": "Nem változtathat formációt",
   "cannotCharge": "Nem támadhat",
   "canPassThroughEnemies": "Áthaladhat az ellenségeken",
-  "victoryPoints": "Győzelmi Pontok"
+  "victoryPoints": "Győzelmi Pontok",
+  "recent": "Legutóbbi",
+  "clear": "Törlés",
+  "privacy": "Adatvédelem",
+  "showCountry": "Ország megjelenítése"
 }

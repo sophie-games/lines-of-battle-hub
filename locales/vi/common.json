@@ -28,7 +28,6 @@
     "available": "Có thể chơi",
     "notStarted": "Trò chơi chưa bắt đầu"
   },
-  "loadingGames": "Đang tải trò chơi...",
   "noGamesYet": "Chưa có trò chơi nào! Nhấp Chơi để tạo trò chơi mới.",
   "failedToLoadGames": "Không thể tải trò chơi. Vui lòng thử lại.",
   "armyCompositions": "Cấu trúc quân đội",
@@ -247,7 +246,8 @@
   "heightModifierPerLevel": "Hệ số chiều cao mỗi cấp",
   "damageModifierPerLevel": "Hệ số sát thương mỗi cấp",
   "maxElevationDiff": "Chênh lệch độ cao tối đa",
-  "diminishByTargetOrg": "Giảm theo tổ chức mục tiêu",
+  "orgModifierByTargetOrg": "Giảm theo tổ chức mục tiêu",
+  "damageModifierByTargetHp": "Sửa đổi sát thương theo HP mục tiêu",
   "from": "từ",
   "to": "đến",
   "lBy": "bởi",
@@ -507,8 +507,11 @@
     "b": "Kiểm tra ngay"
   },
   "search": {
-    "clans": "Tìm kiếm liên minh"
+    "clans": "Tìm kiếm liên minh",
+    "lob": "Tìm kiếm trên Lines of Battle"
   },
+  "noResults": "Không tìm thấy người dùng",
+  "searching": "Đang tìm kiếm...",
   "formation": "Đội hình",
   "formations": "Đội hình",
   "findGame": "Tìm trò chơi",
@@ -647,6 +650,7 @@
   "hasSkirmishers": "Có lính tản chiến",
   "skirmishersInfo": "Lính tản chiến được đặt tự động tùy thuộc vào số lượng đơn vị có lính tản chiến trong quân đội và tỷ lệ lính tản chiến của loại trận chiến.",
   "skirmisherRatio": "Tỷ lệ lính tản chiến",
+  "prestigeDropChance": "Tỷ lệ nhận {{currency}}: {{chance}}% (từ lượt {{turn}})",
   "friendlyFireImmune": "Miễn nhiễm hỏa lực đồng minh",
   "nearbyUnits": "Đơn vị gần",
   "preset": "Định sẵn",
@@ -797,5 +801,9 @@
   "timeToUnform": "Thời Gian Giải Tán",
   "formingSpeedModifier": "Tốc Độ Khi Hình Thành",
   "chooseEra": "Chọn Thời Đại",
-  "chooseEraDescription": "Vui lòng chọn thời đại bạn muốn chơi. Bạn có thể thay đổi điều này sau trong Cài đặt."
+  "chooseEraDescription": "Vui lòng chọn thời đại bạn muốn chơi. Bạn có thể thay đổi điều này sau trong Cài đặt.",
+  "recent": "Gần đây",
+  "clear": "Xóa",
+  "privacy": "Quyền riêng tư",
+  "showCountry": "Hiển thị quốc gia"
 }
