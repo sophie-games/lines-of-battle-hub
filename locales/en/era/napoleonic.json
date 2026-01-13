@@ -1,5 +1,6 @@
 {
   "eraName": "Napoleonic",
+  "eraDescription": "Experience the grand battles of the Napoleonic era. Command historical units and relive the strategic warfare of the early 19th century.",
   "unitName": {
     "1": "Line Infantry",
     "2": "Dragoons",

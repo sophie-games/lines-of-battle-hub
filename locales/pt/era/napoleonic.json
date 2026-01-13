@@ -1,5 +1,6 @@
 {
   "eraName": "Napoleônica",
+  "eraDescription": "Experimente as grandes batalhas da era napoleônica. Comande unidades históricas e reviva a guerra estratégica do início do século XIX.",
   "unitName": {
     "1": "Infantaria de Linha",
     "2": "Dragões",
