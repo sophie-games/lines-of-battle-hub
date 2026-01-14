@@ -44,6 +44,7 @@
   "rankedTooltip": "Les parties affectent votre classement Elo",
   "unranked": "Non Classé",
   "cancel": "Annulez",
+  "change": "Changer",
   "matchmakingQueue": {
     "inQueue": "Vous êtes désormais dans la file d'attente ! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
     "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",

@@ -55,6 +55,7 @@
   "unranked": "非排位",
   "or": "或是",
   "cancel": "取消",
+  "change": "更改",
   "matchmakingQueue": {
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的对局选项一致的其他玩家。",
     "matchFound": "当搜索到匹配对象时，你会自动进入对局。",

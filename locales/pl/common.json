@@ -55,6 +55,7 @@
   "rankedTooltip": "Gry wpływają na twoją ocenę Elo",
   "unranked": "Nierankingowe",
   "cancel": "Anuluj",
+  "change": "Zmień",
   "matchmakingQueue": {
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",

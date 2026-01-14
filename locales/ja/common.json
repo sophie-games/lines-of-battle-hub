@@ -54,6 +54,7 @@
   "rankedTooltip": "ゲームはあなたのEloレーティングに影響します",
   "unranked": "非ランク",
   "cancel": "キャンセル",
+  "change": "変更",
   "matchmakingQueue": {
     "inQueue": "現在マッチメイキングキューにいます。同じ設定を選択したプレイヤーを探しています。",
     "matchFound": "マッチが見つかると、自動的にゲームに移動します。",

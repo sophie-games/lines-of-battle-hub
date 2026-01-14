@@ -54,6 +54,7 @@
   "classicTooltip": "클래식은 사용자 지정 군대를 비활성화합니다",
   "rankedTooltip": "게임이 당신의 Elo 등급에 영향을 줍니다",
   "cancel": "취소",
+  "change": "변경",
   "matchmakingQueue": {
     "inQueue": "경기 탐색 대기열에 들어오셨습니다! 등급 체계에 기반해 귀하와 동일한 설정을 선택한 다른 플레이어를 탐색 중입니다.",
     "matchFound": "일치하는 항목이 발견되면 경기로 리디렉션됩니다.",

@@ -54,6 +54,7 @@
   "rankedTooltip": "Oyunlar Elo puanınızı etkiler",
   "unranked": "Sırasız",
   "cancel": "İptal",
+  "change": "Değiştir",
   "matchmakingQueue": {
     "inQueue": "Şimdi eşleştirme kuyruğundasınız! Sistem, sizinle aynı ayarları seçmiş başka bir oyuncu arıyor.",
     "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz.",
