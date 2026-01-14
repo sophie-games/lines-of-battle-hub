@@ -28,7 +28,6 @@
     "available": "खेलने के लिए उपलब्ध",
     "notStarted": "खेल अभी तक शुरू नहीं हुआ"
   },
-  "loadingGames": "खेल लोड हो रहे हैं...",
   "noGamesYet": "अभी तक कोई खेल नहीं! नया बनाने के लिए खेलें पर क्लिक करें।",
   "failedToLoadGames": "खेल लोड करने में विफल। कृपया पुनः प्रयास करें।",
   "armyCompositions": "सेना संरचना",
@@ -247,7 +246,8 @@
   "heightModifierPerLevel": "प्रति स्तर ऊंचाई संशोधक",
   "damageModifierPerLevel": "प्रति स्तर क्षति संशोधक",
   "maxElevationDiff": "अधिकतम ऊंचाई अंतर",
-  "diminishByTargetOrg": "लक्ष्य संगठन से कम करें",
+  "orgModifierByTargetOrg": "लक्ष्य संगठन से कम करें",
+  "damageModifierByTargetHp": "लक्ष्य एचपी द्वारा क्षति संशोधक",
   "from": "से",
   "to": "तक",
   "lBy": "द्वारा",
@@ -508,8 +508,11 @@
     "b": "अभी जांचें"
   },
   "search": {
-    "clans": "गठबंधन खोजें"
+    "clans": "गठबंधन खोजें",
+    "lob": "Lines of Battle में खोजें"
   },
+  "noResults": "कोई उपयोगकर्ता नहीं मिला",
+  "searching": "खोज रहे हैं...",
   "formation": "गठन",
   "formations": "गठन",
   "findGame": "खेल खोजें",
@@ -648,6 +651,7 @@
   "hasSkirmishers": "झड़प सैनिक हैं",
   "skirmishersInfo": "झड़प सैनिक स्वचालित रूप से सेना में झड़प सैनिकों वाली इकाइयों की संख्या और युद्ध प्रकार के झड़प सैनिक अनुपात के आधार पर रखे जाते हैं।",
   "skirmisherRatio": "झड़प सैनिक अनुपात",
+  "prestigeDropChance": "{{currency}} ड्रॉप चांस: {{chance}}% (टर्न {{turn}} से)",
   "friendlyFireImmune": "मित्र आग प्रतिरक्षा",
   "nearbyUnits": "पास की इकाइयाँ",
   "preset": "पूर्वनिर्धारित",
@@ -798,5 +802,9 @@
   "timeToUnform": "विघटन का समय",
   "formingSpeedModifier": "गठन की गति",
   "chooseEra": "युग चुनें",
-  "chooseEraDescription": "कृपया वह युग चुनें जिसमें आप खेलना चाहते हैं। आप इसे बाद में सेटिंग्स में बदल सकते हैं।"
+  "chooseEraDescription": "कृपया वह युग चुनें जिसमें आप खेलना चाहते हैं। आप इसे बाद में सेटिंग्स में बदल सकते हैं।",
+  "recent": "हाल ही में",
+  "clear": "साफ़ करें",
+  "privacy": "गोपनीयता",
+  "showCountry": "देश दिखाएं"
 }

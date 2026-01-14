@@ -28,7 +28,6 @@
     "available": "Tersedia Untuk Dimainkan",
     "notStarted": "Permainan Belum Dimulai"
   },
-  "loadingGames": "Memuat Permainan...",
   "noGamesYet": "Belum ada permainan! Klik Mainkan untuk membuat permainan baru.",
   "failedToLoadGames": "Gagal memuat permainan. Silakan coba lagi.",
   "armyCompositions": "Komposisi Pasukan",
@@ -224,7 +223,8 @@
   "topWidth": "Lebar Atas",
   "bottomWidth": "Lebar Bawah",
   "height": "Tinggi",
-  "diminishByTargetOrg": "Kurangi Berdasarkan Target Organisasi",
+  "orgModifierByTargetOrg": "Kurangi Berdasarkan Target Organisasi",
+  "damageModifierByTargetHp": "Modifier Kerusakan berdasarkan HP Target",
   "from": "dari",
   "to": "ke",
   "lBy": "oleh",
@@ -461,8 +461,11 @@
     "b": "Cek Sekarang"
   },
   "search": {
-    "clans": "Cari Koalisi"
+    "clans": "Cari Koalisi",
+    "lob": "Cari di Lines of Battle"
   },
+  "noResults": "Tidak ada pengguna ditemukan",
+  "searching": "Mencari...",
   "formation": "Formasi",
   "formations": "Formasi",
   "findGame": "Cari Permainan",
@@ -495,6 +498,7 @@
   "disconnecting": "Memutus koneksi...",
   "unknown": "Tidak diketahui",
   "fogOfWar": "Kabut perang",
+  "prestigeDropChance": "Peluang mendapatkan {{currency}}: {{chance}}% (dari giliran {{turn}})",
   "low": "Rendah",
   "medium": "Sedang",
   "high": "Tinggi",
@@ -566,5 +570,9 @@
   "cannotChangeFormation": "Tidak dapat mengubah formasi",
   "cannotCharge": "Tidak dapat menyerang",
   "canPassThroughEnemies": "Dapat melewati musuh",
-  "victoryPoints": "Poin Kemenangan"
+  "victoryPoints": "Poin Kemenangan",
+  "recent": "Terbaru",
+  "clear": "Hapus",
+  "privacy": "Privasi",
+  "showCountry": "Tampilkan negara"
 }

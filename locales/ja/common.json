@@ -27,7 +27,6 @@
     "available": "プレイ可能",
     "notStarted": "ゲーム未開始"
   },
-  "loadingGames": "ゲームを読み込み中...",
   "noGamesYet": "まだゲームがありません！「プレイ」をクリックして新しいゲームを作成しましょう。",
   "failedToLoadGames": "ゲームの読み込みに失敗しました。もう一度お試しください。",
   "armyCompositions": "軍編成",
@@ -223,7 +222,8 @@
   "topWidth": "上幅",
   "bottomWidth": "下幅",
   "height": "高さ",
-  "diminishByTargetOrg": "目標の編成により減少",
+  "orgModifierByTargetOrg": "目標の編成により減少",
+  "damageModifierByTargetHp": "目標HPによるダメージ修正",
   "from": "開始",
   "to": "終了",
   "lBy": "によって",
@@ -457,8 +457,11 @@
     "b": "今すぐ確認"
   },
   "search": {
-    "clans": "連合を検索"
+    "clans": "連合を検索",
+    "lob": "Lines of Battle で検索"
   },
+  "noResults": "ユーザーが見つかりませんでした",
+  "searching": "検索中...",
   "formation": "形成",
   "formations": "形成",
   "findGame": "ゲームを見つける",
@@ -483,6 +486,7 @@
   "disconnecting": "切断中...",
   "unknown": "不明",
   "fogOfWar": "戦争の霧",
+  "prestigeDropChance": "{{currency}}ドロップ確率：{{chance}}%（{{turn}}ターン目から）",
   "low": "低",
   "medium": "中",
   "high": "高",
@@ -560,5 +564,9 @@
   "cannotChangeFormation": "隊形を変更できません",
   "cannotCharge": "突撃できません",
   "canPassThroughEnemies": "敵を通過できる",
-  "victoryPoints": "勝利ポイント"
+  "victoryPoints": "勝利ポイント",
+  "recent": "最近",
+  "clear": "クリア",
+  "privacy": "プライバシー",
+  "showCountry": "国を表示"
 }

@@ -28,7 +28,6 @@
     "available": "Available to Play",
     "notStarted": "Game Not Started Yet"
   },
-  "loadingGames": "Loading games...",
   "noGamesYet": "No games yet! Click Play to create a new one.",
   "failedToLoadGames": "Failed to load games. Please try again.",
   "armyCompositions": "Army Compositions",
@@ -250,7 +249,8 @@
   "heightModifierPerLevel": "Height Modifier per Level",
   "damageModifierPerLevel": "Damage Modifier per Level",
   "maxElevationDiff": "Max Elevation Difference",
-  "diminishByTargetOrg": "Diminish by Target Org",
+  "orgModifierByTargetOrg": "Org Modifier by Target Org",
+  "damageModifierByTargetHp": "Damage Modifier by Target HP",
   "from": "from",
   "to": "to",
   "lBy": "by",
@@ -510,8 +510,11 @@
     "b": "Check Now"
   },
   "search": {
-    "clans": "Search coalitions"
+    "clans": "Search coalitions",
+    "lob": "Search on Lines of Battle"
   },
+  "noResults": "No users found",
+  "searching": "Searching...",
   "formation": "Formation",
   "findGame": "Find game",
   "gameIdOrLink": "Game ID or link",
@@ -652,6 +655,7 @@
   "hasSkirmishers": "Has skirmishers",
   "skirmishersInfo": "Skirmishers are placed automatically depending on the number of units with skirmishers in the army and the skirmisher ratio of the battle type.",
   "skirmisherRatio": "Skirmisher ratio",
+  "prestigeDropChance": "{{currency}} drop chance: {{chance}}% (from turn {{turn}})",
   "friendlyFireImmune": "Friendly fire immune",
   "nearbyUnits": "Nearby units",
   "preset": "Preset",
@@ -807,7 +811,8 @@
   "unitsHaveDifferentFormations": "Selected units have different formations",
   "disablesFlankMelee": "Disables flank melee",
   "disablesRearMelee": "Disables rear melee",
-  "disablesEnfiladeRearFire": "Disables enfilade rear fire",
+  "disablesEnfiladeFire": "Disables enfilade fire",
+  "disablesRearFire": "Disables rear fire",
   "flankChargeResistance": "Flank charge resistance",
   "rearChargeResistance": "Rear charge resistance",
   "enfiladeFireResistance": "Enfilade fire resistance",
@@ -815,5 +820,9 @@
   "useBuiltinTemplate": "Use built in template",
   "importTemplate": "Import template",
   "chooseEra": "Choose Era",
-  "chooseEraDescription": "Please select the era you want to play. You can change this later in Settings."
+  "chooseEraDescription": "Please select the era you want to play. You can change this later in Settings.",
+  "recent": "Recent",
+  "clear": "Clear",
+  "privacy": "Privacy",
+  "showCountry": "Show country"
 }

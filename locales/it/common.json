@@ -27,7 +27,6 @@
     "available": "Disponibile per giocare",
     "notStarted": "Gioco non ancora iniziato"
   },
-  "loadingGames": "Caricamento giochi...",
   "noGamesYet": "Nessun gioco ancora! Clicca su Gioca per crearne uno nuovo.",
   "failedToLoadGames": "Impossibile caricare i giochi. Riprova.",
   "armyCompositions": "Composizioni dell'esercito",
@@ -223,7 +222,8 @@
   "topWidth": "Larghezza superiore",
   "bottomWidth": "Larghezza inferiore",
   "height": "Altezza",
-  "diminishByTargetOrg": "Riduci in base all'organizzazione del bersaglio",
+  "orgModifierByTargetOrg": "Riduci in base all'organizzazione del bersaglio",
+  "damageModifierByTargetHp": "Modificatore Danno per PV del Bersaglio",
   "from": "da",
   "to": "a",
   "lBy": "da",
@@ -458,8 +458,11 @@
     "b": "Controlla ora"
   },
   "search": {
-    "clans": "Ricerca di coalizioni"
+    "clans": "Ricerca di coalizioni",
+    "lob": "Cerca su Lines of Battle"
   },
+  "noResults": "Nessun utente trovato",
+  "searching": "Ricerca...",
   "formation": "Formazione",
   "formations": "Formazioni",
   "findGame": "Trova partita",
@@ -495,6 +498,7 @@
   "disconnecting": "Disconnessione...",
   "unknown": "Sconosciuto",
   "fogOfWar": "Nebbia di guerra",
+  "prestigeDropChance": "Probabilità di ottenere {{currency}}: {{chance}}% (dal turno {{turn}})",
   "low": "Bassa",
   "medium": "Media",
   "high": "Alta",
@@ -561,5 +565,9 @@
   "cannotChangeFormation": "Non può cambiare formazione",
   "cannotCharge": "Non può caricare",
   "canPassThroughEnemies": "Può attraversare i nemici",
-  "victoryPoints": "Punti vittoria"
+  "victoryPoints": "Punti vittoria",
+  "recent": "Recenti",
+  "clear": "Cancella",
+  "privacy": "Privacy",
+  "showCountry": "Mostra paese"
 }

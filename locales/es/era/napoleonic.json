@@ -1,5 +1,6 @@
 {
   "eraName": "Napoleónica",
+  "eraDescription": "Experimenta las grandes batallas de la era napoleónica. Comanda unidades históricas y revive la guerra estratégica de principios del siglo XIX.",
   "unitName": {
     "1": "Infantería de Línea",
     "2": "Dragones",

@@ -27,7 +27,6 @@
     "available": "Oynamaya Hazır",
     "notStarted": "Oyun Henüz Başlamadı"
   },
-  "loadingGames": "Oyunlar yükleniyor...",
   "noGamesYet": "Henüz oyun yok! Yeni bir tane oluşturmak için Oyna'ya tıklayın.",
   "failedToLoadGames": "Oyunlar yüklenemedi. Lütfen tekrar deneyin.",
   "armyCompositions": "Ordu Kompozisyonları",
@@ -223,7 +222,8 @@
   "topWidth": "Üst Genişlik",
   "bottomWidth": "Alt Genişlik",
   "height": "Yükseklik",
-  "diminishByTargetOrg": "Hedef Organizasyonuna Göre Azalt",
+  "orgModifierByTargetOrg": "Hedef Organizasyonuna Göre Azalt",
+  "damageModifierByTargetHp": "Hedef HP'ye Göre Hasar Modifikatörü",
   "from": "dan",
   "to": "e",
   "lBy": "tarafından",
@@ -459,8 +459,11 @@
     "b": "Şimdi Kontrol Et"
   },
   "search": {
-    "clans": "Koalisyonları ara"
+    "clans": "Koalisyonları ara",
+    "lob": "Lines of Battle'da ara"
   },
+  "noResults": "Kullanıcı bulunamadı",
+  "searching": "Aranıyor...",
   "formation": "Formasyon",
   "formations": "Formasyonlar",
   "findGame": "Oyun bul",
@@ -485,6 +488,7 @@
   "disconnecting": "Bağlantı kesiliyor...",
   "unknown": "Bilinmiyor",
   "fogOfWar": "Savaş sisi",
+  "prestigeDropChance": "{{currency}} düşme şansı: {{chance}}% ({{turn}}. turdan itibaren)",
   "low": "Düşük",
   "medium": "Orta",
   "high": "Yüksek",
@@ -562,5 +566,9 @@
   "cannotChangeFormation": "Formasyon değiştiremez",
   "cannotCharge": "Saldıramaz",
   "canPassThroughEnemies": "Düşmanların içinden geçebilir",
-  "victoryPoints": "Zafer Puanları"
+  "victoryPoints": "Zafer Puanları",
+  "recent": "Son",
+  "clear": "Temizle",
+  "privacy": "Gizlilik",
+  "showCountry": "Ülkeyi göster"
 }
