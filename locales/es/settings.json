@@ -149,6 +149,6 @@
   },
   "era": {
     "title": "Era",
-    "description": "Selecciona la era histórica para el juego. Cambiar esto afectará las unidades disponibles, escenarios y mecánicas del juego."
+    "description": "Selecciona la era para el juego. Cambiar esto afectará las unidades disponibles, escenarios y mecánicas del juego."
   }
 }
