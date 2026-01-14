@@ -1,6 +1,6 @@
 {
   "eraName": "World War II",
-  "eraDescription": "The World War II era is more experimental to see how much the engine can be expanded. Experience the intense battles of the Second World War with new units, tactics, and scenarios.",
+  "eraDescription": "An early experimental beta in applying the Lines of Battle engine to an operational-level WWII game; set lines of fortifications, plan around supply limitations, and weave encirclements with armored divisions.",
   "unitName": {
     "1": "Infantry",
     "2": "Armored",

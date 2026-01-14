@@ -1,6 +1,6 @@
 {
   "eraName": "Második világháború",
-  "eraDescription": "A Második világháború korszak kísérletibb, hogy lássuk, mennyire lehet bővíteni a motort. Élje át a Második világháború intenzív csatáit új egységekkel, taktikákkal és forgatókönyvekkel.",
+  "eraDescription": "Egy korai kísérleti béta a Lines of Battle motor alkalmazásában egy műveleti szintű második világháborús játékra; állítson fel erődítési vonalakat, tervezzen az ellátási korlátok körül, és szőjön bekerítéseket páncélos hadosztályokkal.",
   "unitName": {
     "1": "Gyalogság",
     "2": "Páncélos",
@@ -38,4 +38,3 @@
     "operational": "Műveleti"
   }
 }
-

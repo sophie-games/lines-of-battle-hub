@@ -1,6 +1,6 @@
 {
   "eraName": "Segunda Guerra Mundial",
-  "eraDescription": "A era da Segunda Guerra Mundial é mais experimental para ver até quanto o engine pode ser expandido. Experimente as intensas batalhas da Segunda Guerra Mundial com novas unidades, táticas e cenários.",
+  "eraDescription": "Uma beta experimental inicial na aplicação do motor de Lines of Battle a um jogo da Segunda Guerra Mundial em nível operacional; estabeleça linhas de fortificações, planeje em torno de limitações de suprimento e teça cercos com divisões blindadas.",
   "unitName": {
     "1": "Infantaria",
     "2": "Blindado",
@@ -38,4 +38,3 @@
     "operational": "Operacional"
   }
 }
-
