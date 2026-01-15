@@ -1,6 +1,6 @@
 {
-  "eraName": "Segunda Guerra Mundial (Beta)",
-  "eraDescription": "La Segunda Guerra Mundial está actualmente en beta. Experimenta las intensas batallas de la Segunda Guerra Mundial con nuevas unidades, tácticas y escenarios.",
+  "eraName": "Segunda Guerra Mundial",
+  "eraDescription": "Una beta experimental temprana en la aplicación del motor de Lines of Battle a un juego de la Segunda Guerra Mundial a nivel operacional; establece líneas de fortificaciones, planifica en torno a limitaciones de suministro y teje cercos con divisiones blindadas.",
   "unitName": {
     "1": "Infantería",
     "2": "Blindados",
@@ -38,4 +38,3 @@
     "operational": "Operacional"
   }
 }
-

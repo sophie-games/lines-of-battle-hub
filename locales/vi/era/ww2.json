@@ -1,6 +1,6 @@
 {
-  "eraName": "Thế chiến II (Beta)",
-  "eraDescription": "Thế chiến II hiện đang ở giai đoạn beta. Trải nghiệm những trận chiến dữ dội của Thế chiến II với các đơn vị, chiến thuật và kịch bản mới.",
+  "eraName": "Thế chiến II",
+  "eraDescription": "Phiên bản beta thử nghiệm sớm trong việc áp dụng động cơ Lines of Battle vào trò chơi Thế chiến II cấp độ tác chiến; thiết lập các tuyến phòng thủ, lập kế hoạch xung quanh giới hạn tiếp tế và tạo vòng vây bằng các sư đoàn thiết giáp.",
   "unitName": {
     "1": "Bộ binh",
     "2": "Thiết giáp",
@@ -38,4 +38,3 @@
     "operational": "Tác chiến"
   }
 }
-

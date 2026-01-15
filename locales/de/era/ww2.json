@@ -1,6 +1,6 @@
 {
-  "eraName": "Zweiter Weltkrieg (Beta)",
-  "eraDescription": "Der Zweite Weltkrieg befindet sich derzeit in der Beta-Phase. Erleben Sie die intensiven Schlachten des Zweiten Weltkriegs mit neuen Einheiten, Taktiken und Szenarien.",
+  "eraName": "Zweiter Weltkrieg",
+  "eraDescription": "Eine frühe experimentelle Beta bei der Anwendung der Lines of Battle Engine auf ein operatives WWII-Spiel; setzen Sie Befestigungslinien, planen Sie um Versorgungsbeschränkungen herum und weben Sie Einkesselungen mit Panzerdivisionen.",
   "unitName": {
     "1": "Infanterie",
     "2": "Gepanzert",
@@ -38,4 +38,3 @@
     "operational": "Operativ"
   }
 }
-

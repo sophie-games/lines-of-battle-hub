@@ -55,6 +55,7 @@
   "rankedTooltip": "Permainan mempengaruhi peringkat Elo Anda",
   "unranked": "Tidak Berperingkat",
   "cancel": "Batal",
+  "change": "Ubah",
   "matchmakingQueue": {
     "inQueue": "Kamu sekarang berada dalam antrean! Sistem sedang mencari pemain lain yang telah memilih pengaturan yang sama dengan kamu.",
     "matchFound": "Ketika permainan telah ditemukan, kamu akan diarahkan ke permainan.",

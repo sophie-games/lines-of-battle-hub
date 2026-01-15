@@ -1,6 +1,6 @@
 {
-  "eraName": "II. Dünya Savaşı (Beta)",
-  "eraDescription": "II. Dünya Savaşı şu anda beta aşamasında. Yeni birimler, taktikler ve senaryolarla II. Dünya Savaşı'nın yoğun savaşlarını deneyimleyin.",
+  "eraName": "II. Dünya Savaşı",
+  "eraDescription": "Lines of Battle motorunu operasyonel seviye bir II. Dünya Savaşı oyununa uygulama konusunda erken deneysel bir beta; tahkimat hatları kurun, tedarik sınırlamaları etrafında planlayın ve zırhlı tümenlerle kuşatmalar oluşturun.",
   "unitName": {
     "1": "Piyade",
     "2": "Zırhlı",
@@ -38,4 +38,3 @@
     "operational": "Operasyonel"
   }
 }
-

@@ -54,6 +54,7 @@
   "rankedTooltip": "Spiele beeinflussen deine Elo-Bewertung",
   "unranked": "Unbewertet",
   "cancel": "Abbrechen",
+  "change": "Ändern",
   "matchmakingQueue": {
     "inQueue": "Sie sind nun in der Warteschlange für das Spielsuche. Das System sucht einen anderen Spieler, der die gleichen Optionen gewählt hat wie Sie.",
     "matchFound": "Sobald ein Spiel gefunden wurde, werden Sie zu diesem weitergeleitet.",

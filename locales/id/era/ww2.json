@@ -1,6 +1,6 @@
 {
-  "eraName": "Perang Dunia II (Beta)",
-  "eraDescription": "Perang Dunia II saat ini dalam versi beta. Alami pertempuran sengit Perang Dunia II dengan unit, taktik, dan skenario baru.",
+  "eraName": "Perang Dunia II",
+  "eraDescription": "Beta eksperimental awal dalam menerapkan mesin Lines of Battle ke game Perang Dunia II tingkat operasional; atur garis benteng, rencanakan seputar keterbatasan pasokan, dan jalin pengepungan dengan divisi lapis baja.",
   "unitName": {
     "1": "Infanteri",
     "2": "Berlapis baja",
@@ -38,4 +38,3 @@
     "operational": "Operasional"
   }
 }
-

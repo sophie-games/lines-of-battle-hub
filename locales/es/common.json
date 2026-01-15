@@ -44,6 +44,7 @@
   "rankedTooltip": "Los juegos afectan tu calificación Elo",
   "unranked": "No Clasificado",
   "cancel": "Cancelar",
+  "change": "Cambiar",
   "matchmakingQueue": {
     "inQueue": "¡Ahora estás en la cola de emparejamiento! El sistema está buscando otro jugador que haya seleccionado las mismas configuraciones que tú.",
     "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido al juego.",
