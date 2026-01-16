@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Mindestdistanz des Mehrfachdrehungswegs"
   },
+  "enableRotateOrder": {
+    "title": "Rotationsbefehl aktivieren",
+    "description": "Aktivieren oder deaktivieren Sie die Möglichkeit, Rotationsbefehle durch langes Drücken und Ziehen auf Einheiten zu erteilen."
+  },
   "edgePanning": {
     "title": "Kantenschwenkung",
     "description": "Aktiviere das Schwenkend er Kamera, wenn die Maus an den Rand des Bildschirms kommt (PC)."
@@ -68,7 +72,15 @@
   },
   "shadows": {
     "title": "Schatten",
-    "description": "Aktiviert Schatten bei Einheiten. Dies kann erfordern, dass das Spiel einen Zug vergeht, damit die Einheiten aktualisiert werden."
+    "description": "Aktiviert Schatten bei Einheiten."
+  },
+  "showDebugShapes": {
+    "title": "Debug-Formen anzeigen",
+    "description": "Zeigt Debug-Formen auf Einheiten an, einschließlich Kollisionsformen und Geländeprüfpunkten."
+  },
+  "bottomButtons": {
+    "title": "Untere Buttons",
+    "description": "Konfigurieren Sie die Reihenfolge der Buttons am unteren Bildschirmrand während des Spiels."
   },
   "fullScreen": {
     "title": "Vollbild",
@@ -80,8 +92,15 @@
     "description": "Stellt alle Standardeinstellungen wieder her. Diese Aktion überschreibt alle Einstellungen die Sie gemacht haben."
   },
   "reset": "Zurücksetzen",
-  "lineFormation": "Linienformation",
-  "checkerboardFormation": "Schachbrettformation",
+  "drawLineFormation": {
+    "title": "Zeichnungslinien verwenden",
+    "description": "Wenn aktiviert, wird die Linienformation verwendet, wenn viele Einheiten ausgewählt sind. Wenn deaktiviert, wird die Pfadformation verwendet, wenn viele Einheiten ausgewählt sind. Der Zeichnungspfad kann auch durch Ziehen einer der Einheiten durchgeführt werden."
+  },
+  "useStraightLine": {
+    "title": "Gerade Linie verwenden",
+    "description": "Wenn aktiviert, verwendet die Linienzeichnungsformation immer eine gerade Linie von Start- zu Endposition und ignoriert den gezeichneten Pfad. Wenn deaktiviert, folgen die Einheiten dem gekrümmten Pfad, den Sie zeichnen."
+  },
+  "straightLineTolerance": "Geradlinigkeitstoleranz",
   "spaceBetweenUnits": "Abstand zwischen Einheiten",
   "spaceBetweenLines": "Abstand zwischen Linien",
   "showChat": {
@@ -102,11 +121,18 @@
     "shootOrder": "Schießauftrag",
     "fireAndAdvanceOrder": "Feuer-und-Vorrück-Auftrag",
     "fallbackOrder": "Rückzugsauftrag",
-    "toggleFormation": "Formation umschalten",
     "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
+    "toggleMultiTurnOrders": "Mehrzügige Befehle umschalten",
+    "toggleRotateOrder": "Rotationsbefehl umschalten",
     "openChat": "Chat öffnen",
-    "toggleFullscreen": "Vollbild umschalten"
+    "openFormationModal": "Formationsfenster öffnen",
+    "toggleFullscreen": "Vollbild umschalten",
+    "simulateMultiTouch": "Multi-Touch simulieren",
+    "toggleSupplyLines": "Versorgungslinien umschalten",
+    "toggleStraightLine": "Gerade Linie umschalten",
+    "toggleDrawLine": "Zeichnungslinien deaktivieren umschalten",
+    "splitInHalf": "In Hälfte teilen"
   },
   "routingTransparency": {
     "title": "Transparenz von fliehenden Einheiten"

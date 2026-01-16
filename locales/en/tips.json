@@ -1,7 +1,7 @@
 {
   "tips": [
     "Charging into a solid unit can be devastating to the attacker. Make sure to disorganize your target, disrupt it with fire, and/or charge from the flank for best results.",
-    "The speed and stamina of Hussars make them the backbone of a cavalry force. Prey on skirmishers, artillery, and damaged units, but avoid cavalry fights.",
+    "The speed and stamina of Hussars make them vital for your cavalry force. Prey on skirmishers, artillery, and damaged units, but avoid cavalry fights.",
     "Muskets and artillery deal far more damage as you get closer.",
     "Howitzers fire at a high arc, which makes them much more effective than other artillery at attacking targets in forests and buildings.",
     "You can find a lot of useful info about your troops by selecting a unit, clicking Info (hotkey I) and examining the unit tabs.",
@@ -33,6 +33,9 @@
     "“I never saw so many shocking bad hats in my life.”-The Duke of Wellington",
     "Skirmishers are extremely vulnerable to melee in the open; use them in terrain or escort them with cavalry.",
     "In the early game, try to Run your skirmishers into an advantageous position. Cavalry has less stamina than infantry; be mindful about using it at the right time.",
-    "The game mechanic of stamina doesn't apply to artillery; always run it when traversing long distances."
+    "The game mechanic of stamina doesn't apply to artillery; always run it when traversing long distances.",
+    "Each infantry formation has its own purpose. Use the Line for maximum firepower, the Column for rapid maneuvers and powerful charges, and the Square to repel cavalry charges.",
+    "Infantry formed in a square can shoot in all directions and offers the best protection against cavalry charges. However, the square is virtually immobile and takes additional damage from fire.",
+    "The Mass formation offers flexibility and relatively high maneuverability at the expense of mediocre combat stats." 
   ]
 }

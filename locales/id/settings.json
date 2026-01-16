@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Multi-turn path min distance"
   },
+  "enableRotateOrder": {
+    "title": "Aktifkan Perintah Putar",
+    "description": "Aktifkan atau nonaktifkan kemampuan untuk mengeluarkan perintah putar dengan menekan lama dan menyeret pada unit."
+  },
   "edgePanning": {
     "title": "Penggeseran Tepi Mouse",
     "description": "Aktifkan penggeseran saat mouse mencapai tepi layar (PC)."
@@ -68,7 +72,15 @@
   },
   "shadows": {
     "title": "Bayangan",
-    "description": "Mengaktifkan bayangan pada unit. Mungkin memerlukan giliran permainan untuk memperbarui unit."
+    "description": "Mengaktifkan bayangan pada unit."
+  },
+  "showDebugShapes": {
+    "title": "Tampilkan bentuk debug",
+    "description": "Menampilkan bentuk debug pada unit termasuk bentuk tabrakan dan titik pemeriksaan medan."
+  },
+  "bottomButtons": {
+    "title": "Tombol Bawah",
+    "description": "Konfigurasi urutan tombol di bagian bawah layar selama permainan."
   },
   "fullScreen": {
     "title": "Layar Penuh",
@@ -80,8 +92,15 @@
     "description": "Kembalikan semua pengaturan ke nilai default. Tindakan ini akan menimpa semua penyesuaian yang telah Anda buat."
   },
   "reset": "Reset",
-  "lineFormation": "Line Formation",
-  "checkerboardFormation": "Checkerboard Formation",
+  "drawLineFormation": {
+    "title": "Gunakan Garis Gambar",
+    "description": "Saat diaktifkan, akan menggunakan formasi garis gambar saat banyak unit dipilih. Saat dinonaktifkan, akan menggunakan formasi jalur gambar saat banyak unit dipilih. Jalur gambar juga dapat dilakukan dengan menyeret salah satu unit."
+  },
+  "useStraightLine": {
+    "title": "Gunakan garis lurus",
+    "description": "Saat diaktifkan, formasi garis gambar akan selalu menggunakan garis lurus dari posisi awal ke posisi akhir, mengabaikan jalur yang digambar. Saat dinonaktifkan, unit akan mengikuti jalur melengkung yang Anda gambar."
+  },
+  "straightLineTolerance": "Toleransi Garis Lurus",
   "spaceBetweenUnits": "Jarak Antar Unit",
   "spaceBetweenLines": "Jarak Antar Baris",
   "keybindings": {
@@ -99,11 +118,18 @@
     "shootOrder": "Perinntah Menembak",
     "fireAndAdvanceOrder": "Perintah Menembak Dengan Bergerak",
     "fallbackOrder": "Perintah Mundur",
-    "toggleFormation": "Ubah Formasi",
     "toggleSmartCurvedMovements": "Ubah Gerakan Melengkung Cerdas",
     "toggleFowPerspective": "Ubah Perspektif Kabut Perang",
+    "toggleMultiTurnOrders": "Ubah Perintah Multi-giliran",
+    "toggleRotateOrder": "Ubah Perintah Putar",
     "openChat": "Buka Chat",
+    "openFormationModal": "Buka Jendela Formasi",
     "toggleFullscreen": "Ubah Layar Penuh",
+    "simulateMultiTouch": "Simulasikan Multi-sentuh",
+    "toggleSupplyLines": "Ubah Garis Pasokan",
+    "toggleStraightLine": "Ubah Garis Lurus",
+    "toggleDrawLine": "Ubah Nonaktifkan Garis Gambar",
+    "splitInHalf": "Bagi Menjadi Dua",
     "controlGroup1": "Grup Kontrol 1",
     "controlGroup2": "Grup Kontrol 2",
     "controlGroup3": "Grup Kontrol 3",

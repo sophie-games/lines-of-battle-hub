@@ -1,0 +1,10 @@
+{
+  "minimize": "Згорнути",
+  "showMessages": "Показати Повідомлення",
+  "dismiss": "Закрити",
+  "previous": "Попереднє",
+  "next": "Наступне",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Повідомлення"
+}
+

@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "다중 턴 경로 최소 거리"
   },
+  "enableRotateOrder": {
+    "title": "회전 명령 활성화",
+    "description": "길게 누르고 드래그하여 유닛에 회전 명령을 내릴 수 있는 기능을 활성화하거나 비활성화합니다."
+  },
   "edgePanning": {
     "title": "외곽 이동",
     "description": "마우스 커서를 화면 가장자리에 두어 화면을 이동할 수 있게 합니다 (PC)."
@@ -79,11 +83,15 @@
   },
   "shadows": {
     "title": "그림자",
-    "description": "부대 그림자를 활성화합니다. 게임 턴이 지나야 적용됩니다."
+    "description": "부대 그림자를 활성화합니다."
   },
-  "showCollisionShapes": {
-    "title": "충돌범위 표시",
-    "description": "부대에 충돌범위를 표시합니다. 부대를 갱신하려면 턴이 지나야 합니다."
+  "showDebugShapes": {
+    "title": "디버그 모양 표시",
+    "description": "부대에 충돌 범위 및 지형 확인 지점을 포함한 디버그 모양을 표시합니다."
+  },
+  "bottomButtons": {
+    "title": "하단 버튼",
+    "description": "게임 플레이 중 화면 하단의 버튼 순서를 구성합니다."
   },
   "disableSkins": {
     "title": "외형 끄기",
@@ -105,8 +113,15 @@
     "description": "해당 설정과 다른 프리미엄 기능을 이용하려면 Patreon에서 등급을 상승시키세요!",
     "goToPatreon": "Patreon으로"
   },
-  "lineFormation": "선형진",
-  "checkerboardFormation": "귀진진",
+  "drawLineFormation": {
+    "title": "그리기 선 사용",
+    "description": "활성화되면 여러 부대가 선택되었을 때 그리기 선 진형을 사용합니다. 비활성화되면 여러 부대가 선택되었을 때 그리기 경로 진형을 사용합니다. 그리기 경로는 부대 중 하나를 드래그하여 수행할 수도 있습니다."
+  },
+  "useStraightLine": {
+    "title": "직선 사용",
+    "description": "활성화되면 그리기 선 진형이 항상 시작 위치에서 끝 위치까지의 직선을 사용하며 그린 경로를 무시합니다. 비활성화되면 부대가 그린 곡선 경로를 따릅니다."
+  },
+  "straightLineTolerance": "직선 허용 오차",
   "spaceBetweenUnits": "부대 간 공간",
   "spaceBetweenLines": "선형진 간 공간",
   "showSelectIdleUnitButton": {
@@ -130,12 +145,18 @@
     "shootOrder": "사격 명령",
     "fireAndAdvanceOrder": "사격 및 전진 명령",
     "fallbackOrder": "후퇴 명령",
-    "toggleFormation": "진형 전환",
     "toggleSmartCurvedMovements": "지능적 곡선 이동 전환",
-
     "toggleFowPerspective": "전장의 안개 시점 전환",
+    "toggleMultiTurnOrders": "다중 턴 명령 전환",
+    "toggleRotateOrder": "회전 명령 전환",
     "openChat": "채팅 열기",
+    "openFormationModal": "진형 창 열기",
     "toggleFullscreen": "전체화면 전환",
+    "simulateMultiTouch": "멀티 터치 시뮬레이션",
+    "toggleSupplyLines": "보급선 전환",
+    "toggleStraightLine": "직선 전환",
+    "toggleDrawLine": "그리기 선 비활성화 전환",
+    "splitInHalf": "반으로 나누기",
     "controlGroup1": "부대 지정 1",
     "controlGroup2": "부대 지정 2",
     "controlGroup3": "부대 지정 3",

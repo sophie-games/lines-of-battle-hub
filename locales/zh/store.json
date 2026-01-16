@@ -15,5 +15,6 @@
     "nextGoal": "下一个目标：{{goal}} <currency/> "
   },
   "purchaseConfirmation": "你确定想要购买{{item}}吗？",
-  "showPurchased": "显示已购买"
+  "showPurchased": "显示已购买",
+  "offlineWarning": "购买的物品仅在在线模式下有效，离线模式下无效。"
 }

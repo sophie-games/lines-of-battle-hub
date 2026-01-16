@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "الحد الأدنى لمسافة المسار متعدد الأدوار"
   },
+  "enableRotateOrder": {
+    "title": "تفعيل أمر الدوران",
+    "description": "تفعيل أو تعطيل القدرة على إصدار أوامر الدوران عن طريق الضغط المطول والسحب على الوحدات."
+  },
   "edgePanning": {
     "title": "التحريك عند الحواف",
     "description": "تفعيل التحريك عند وصول الماوس إلى حواف الشاشة (أجهزة الكمبيوتر)."
@@ -79,11 +83,15 @@
   },
   "shadows": {
     "title": "الظلال",
-    "description": "تفعيل الظلال على الوحدات. قد يتطلب هذا من اللعبة تمرير الدور لتحديث الوحدات."
+    "description": "تفعيل الظلال على الوحدات."
   },
-  "showCollisionShapes": {
-    "title": "إظهار أشكال التصادم",
-    "description": "إظهار أشكال التصادم على الوحدات. قد يتطلب هذا من اللعبة تمرير الدور لتحديث الوحدات."
+  "showDebugShapes": {
+    "title": "إظهار أشكال التصحيح",
+    "description": "إظهار أشكال التصحيح على الوحدات بما في ذلك أشكال التصادم ونقاط فحص التضاريس."
+  },
+  "bottomButtons": {
+    "title": "الأزرار السفلية",
+    "description": "قم بتكوين ترتيب الأزرار في الجزء السفلي من الشاشة أثناء اللعب."
   },
   "disableSkins": {
     "title": "تعطيل المظاهر",
@@ -105,8 +113,15 @@
     "description": "قم بترقية مستواك على Patreon للوصول إلى هذا الإعداد والميزات المميزة الأخرى!",
     "goToPatreon": "الذهاب إلى Patreon"
   },
-  "lineFormation": "تشكيل الخط",
-  "checkerboardFormation": "تشكيل رقعة الشطرنج",
+  "drawLineFormation": {
+    "title": "استخدام خطوط الرسم",
+    "description": "عند التمكين، سيستخدم تشكيل خط الرسم عند تحديد وحدات متعددة. عند التعطيل، سيستخدم تشكيل مسار الرسم عند تحديد وحدات متعددة. يمكن أيضًا تنفيذ مسار الرسم عن طريق سحب إحدى الوحدات."
+  },
+  "useStraightLine": {
+    "title": "استخدام خط مستقيم",
+    "description": "عند التمكين، سيستخدم تشكيل خط الرسم دائماً خطاً مستقيماً من موضع البداية إلى موضع النهاية، متجاهلاً المسار المرسوم. عند التعطيل، ستتبع الوحدات المسار المنحني الذي ترسمه."
+  },
+  "straightLineTolerance": "تسامح الخط المستقيم",
   "spaceBetweenUnits": "المسافة بين الوحدات",
   "spaceBetweenLines": "المسافة بين الخطوط",
   "showSelectIdleUnitButton": {
@@ -130,11 +145,18 @@
     "shootOrder": "أمر إطلاق النار",
     "fireAndAdvanceOrder": "أمر إطلاق النار والتقدم",
     "fallbackOrder": "أمر التراجع",
-    "toggleFormation": "تبديل التشكيل",
     "toggleSmartCurvedMovements": "تبديل الحركات المنحنية الذكية",
     "toggleFowPerspective": "تبديل منظور ضباب الحرب",
+    "toggleMultiTurnOrders": "تبديل الأوامر متعددة الأدوار",
+    "toggleRotateOrder": "تبديل أمر الدوران",
     "openChat": "فتح الدردشة",
+    "openFormationModal": "فتح نافذة التشكيل",
     "toggleFullscreen": "تبديل وضع الشاشة الكاملة",
+    "simulateMultiTouch": "محاكاة اللمس المتعدد",
+    "toggleSupplyLines": "تبديل خطوط الإمداد",
+    "toggleStraightLine": "تبديل الخط المستقيم",
+    "toggleDrawLine": "تبديل تعطيل خطوط الرسم",
+    "splitInHalf": "تقسيم إلى النصف",
     "controlGroup1": "مجموعة التحكم 1",
     "controlGroup2": "مجموعة التحكم 2",
     "controlGroup3": "مجموعة التحكم 3",

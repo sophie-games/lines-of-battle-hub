@@ -1,0 +1,10 @@
+{
+  "minimize": "Свернуть",
+  "showMessages": "Показать Сообщения",
+  "dismiss": "Закрыть",
+  "previous": "Предыдущее",
+  "next": "Следующее",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Сообщение"
+}
+

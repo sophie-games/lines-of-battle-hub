@@ -18,5 +18,6 @@
   },
 
   "purchaseConfirmation": "Anda yakin ingin membeli {{item}}?",
-  "showPurchased": "Tampilkan yang Telah Dibeli"
+  "showPurchased": "Tampilkan yang Telah Dibeli",
+  "offlineWarning": "Item yang dibeli hanya berfungsi dalam mode online, bukan offline."
 }

@@ -1,0 +1,40 @@
+{
+  "eraName": "Segunda Guerra Mundial",
+  "eraDescription": "Una beta experimental temprana en la aplicación del motor de Lines of Battle a un juego de la Segunda Guerra Mundial a nivel operacional; establece líneas de fortificaciones, planifica en torno a limitaciones de suministro y teje cercos con divisiones blindadas.",
+  "unitName": {
+    "1": "Infantería",
+    "2": "Blindados",
+    "3": "Motorizados",
+    "20": "Desconocido"
+  },
+  "battalionName": {
+    "1": "{{n}} División de Infantería",
+    "2": "{{n}} División Blindada",
+    "3": "{{n}} División Motorizada"
+  },
+  "unitDescription": {
+    "1": "Aunque las puntas de lanza de tanques dominaron los campos de batalla de la Segunda Guerra Mundial, la humilde infantería siguió siendo la columna vertebral de los ejércitos de todas las potencias beligerantes. La infantería es capaz de retrasar los avances enemigos gracias a las obras de tierra y las armas de apoyo; además, la infantería puede luchar en terrenos difíciles como bosques, ciudades, pantanos y montañas, donde los vehículos blindados son inútiles.",
+    "2": "Las divisiones blindadas son una fuerza formidable y móvil, diseñadas para crear brechas en las defensas enemigas y realizar contraataques poderosos. Sin embargo, equipar y suministrar unidades mecanizadas es un gran desafío industrial, por lo que la proporción de divisiones de tanques en los ejércitos de la Segunda Guerra Mundial generalmente no excedió el 10-15%.",
+    "3": "Las divisiones motorizadas son una fuerza formidable y móvil, diseñadas para crear brechas en las defensas enemigas y realizar contraataques poderosos. Sin embargo, equipar y suministrar unidades mecanizadas es un gran desafío industrial, por lo que la proporción de divisiones de tanques en los ejércitos de la Segunda Guerra Mundial generalmente no excedió el 10-15%."
+  },
+  "unitCategory": {
+    "infantry": "Infantería",
+    "armored": "Blindados",
+    "motorized": "Motorizados"
+  },
+  "damageType": {
+    "soft_attack": "Ataque Blando",
+    "hard_attack": "Ataque Duro"
+  },
+  "reportStats": {
+    "men": "Hombres",
+    "tanks": "Tanques"
+  },
+  "currency": {
+    "manpower": "Hierro",
+    "gold": "Petróleo"
+  },
+  "dynamicBattleType": {
+    "operational": "Operacional"
+  }
+}

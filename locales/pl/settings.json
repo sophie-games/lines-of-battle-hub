@@ -8,6 +8,10 @@
     "title": "Przesuwanie krawędzi",
     "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
   },
+  "enableRotateOrder": {
+    "title": "Włącz rozkaz obrotu",
+    "description": "Włącz lub wyłącz możliwość wydawania rozkazów obrotu poprzez długie naciśnięcie i przeciąganie na jednostkach."
+  },
   "useTouchControls": {
     "title": "Używaj sterowania dotykowego",
     "description": "Gdy włączone, gra będzie używać sterowania dotykowego. Gdy wyłączone, gra będzie używać kontroli komputerowych."
@@ -61,7 +65,15 @@
   },
   "shadows": {
     "title": "Cienie",
-    "description": "Włącz cienie jednostek. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
+    "description": "Włącz cienie jednostek."
+  },
+  "showDebugShapes": {
+    "title": "Pokaż kształty debugowania",
+    "description": "Pokazuje kształty debugowania na jednostkach, w tym kształty kolizji i punkty sprawdzania terenu."
+  },
+  "bottomButtons": {
+    "title": "Przyciski Dolne",
+    "description": "Skonfiguruj kolejność przycisków na dole ekranu podczas rozgrywki."
   },
   "fullScreen": {
     "title": "Pełny Ekran",
@@ -73,8 +85,15 @@
     "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
   },
   "reset": "Reset",
-  "lineFormation": "Formacja Liniowa",
-  "checkerboardFormation": "Formacja Szachownicy",
+  "drawLineFormation": {
+    "title": "Użyj linii rysowania",
+    "description": "Gdy włączone, będzie używać formacji linii rysowania, gdy wybrano wiele jednostek. Gdy wyłączone, będzie używać formacji ścieżki rysowania, gdy wybrano wiele jednostek. Ścieżka rysowania jest również możliwa poprzez przeciągnięcie jednej z jednostek."
+  },
+  "useStraightLine": {
+    "title": "Użyj prostej linii",
+    "description": "Gdy włączone, formacja linii rysowania zawsze będzie używać prostej linii od pozycji początkowej do końcowej, ignorując narysowaną ścieżkę. Gdy wyłączone, jednostki będą podążać za zakrzywioną ścieżką, którą rysujesz."
+  },
+  "straightLineTolerance": "Tolerancja linii prostej",
   "spaceBetweenUnits": "Odległość między jednostkami",
   "spaceBetweenLines": "Odległość między liniami",
   "keybindings": {
@@ -92,11 +111,18 @@
     "shootOrder": "Rozkaz Ostrzału",
     "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
     "fallbackOrder": "Rozkaz Odwrotu",
-    "toggleFormation": "Przełącz formację",
     "toggleSmartCurvedMovements": "Przełącz inteligentne zakrzywione ruchy",
     "toggleFowPerspective": "Przełącz perspektywę mgły wojny",
+    "toggleMultiTurnOrders": "Przełącz rozkazy wieloturowe",
+    "toggleRotateOrder": "Przełącz rozkaz obrotu",
     "openChat": "Otwórz czat",
+    "openFormationModal": "Otwórz okno formacji",
     "toggleFullscreen": "Przełącz tryb pełnoekranowy",
+    "simulateMultiTouch": "Symuluj Multi-touch",
+    "toggleSupplyLines": "Przełącz linie zaopatrzenia",
+    "toggleStraightLine": "Przełącz linię prostą",
+    "toggleDrawLine": "Przełącz wyłączanie linii rysowania",
+    "splitInHalf": "Podziel na pół",
     "controlGroup1": "Grupa kontrolna 1",
     "controlGroup2": "Grupa kontrolna 2",
     "controlGroup3": "Grupa kontrolna 3",

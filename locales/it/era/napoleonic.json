@@ -1,0 +1,109 @@
+{
+  "eraName": "Napoleonica",
+  "eraDescription": "La versione principale di Lines of Battle; un'esperienza tattica altamente raffinata basata sulle più grandi battaglie lineari della storia.",
+  "unitName": {
+    "1": "Fanteria di linea",
+    "2": "Dragoni",
+    "3": "Artiglieria a piedi da 8 libbre",
+    "4": "Fanteria della guardia",
+    "5": "Lancieri",
+    "6": "Artiglieria a cavallo da 6 libbre",
+    "7": "Fanteria leggera",
+    "8": "Corazzieri",
+    "9": "Obice da 6 pollici",
+    "10": "Milizia",
+    "11": "Ussari",
+    "12": "Artiglieria a piedi da 12 libbre",
+    "13": "Arcieri a cavallo"
+  },
+  "battalionName": {
+    "1": "{{n}} Battaglione di linea",
+    "2": "{{n}} Dragoni",
+    "3": "{{n}} Batteria a piedi",
+    "4": "{{n}} Battaglione della guardia",
+    "5": "{{n}} Lancieri",
+    "6": "{{n}} Batteria a cavallo",
+    "7": "{{n}} Battaglione leggero",
+    "8": "{{n}} Corazzieri",
+    "9": "{{n}} Batteria di obici",
+    "10": "{{n}} Milizia",
+    "11": "{{n}} Ussari",
+    "12": "{{n}} Batteria a piedi",
+    "13": "{{n}} Arcieri a cavallo"
+  },
+  "unitDescription": {
+    "1": "Il modesto battaglione di fanteria di linea è l'unità base dell'esercito. Il moschetto è la sua arma principale, ma può anche respingere la cavalleria o caricare altra fanteria e artiglieria con la baionetta.",
+    "2": "I dragoni erano la cavalleria più comune dell'esercito di Napoleone. Possono mancare del brio degli ussari e del glamour dei corazzieri, ma questa formidabile cavalleria media dovrebbe generalmente essere la base della tua forza di cavalleria.",
+    "3": "Artiglieria media economica con mitraglia molto potente e buoni danni a distanza, ma mobilità alquanto scarsa.",
+    "4": "Soldati esperti e fisicamente imponenti che migliorano le prestazioni delle truppe vicine solo con la loro presenza. Queste unità d'élite sono esclusive per i soldati più naturalmente dotati, il che le rende molto più costose da schierare. Combatteranno attraverso danni che spezzerebbero qualsiasi unità inferiore.",
+    "5": "Cavalleria leggera d'élite che usa la lancia per effettuare cariche devastanti - una serie di cariche da più squadroni di lancieri metterà rapidamente in rotta qualsiasi opposizione. Tuttavia, sono molto meno impressionanti in un combattimento corpo a corpo prolungato.",
+    "6": "La velocità e il basso costo di questa artiglieria la rendono adatta a supportare la cavalleria o avanzare insieme alla tua linea di fanteria.",
+    "7": "Battaglioni di fanteria di linea d'élite addestrati con un focus speciale su movimento rapido e precisione di tiro.",
+    "8": "Formidabile cavalleria pesante con la più forte efficacia complessiva nel combattimento corpo a corpo di qualsiasi unità. Usa i corazzieri per dominare la cavalleria nemica, o massificali per sfondare il fronte nemico dopo averlo ammorbidito con il fuoco di artiglieria.",
+    "9": "Questi obici da campo leggeri e mobili lanciano proiettili da 23 libbre che infliggono danni competenti indipendentemente dal terreno o dalla distanza. A corto raggio, le loro salve di mitraglia pesante forniscono alcuni dei fuochi più distruttivi conosciuti nelle Guerre Napoleoniche.",
+    "10": "\"Riporre qualsiasi fiducia nella milizia significa certamente appoggiarsi a un bastone spezzato.\" - George Washington",
+    "11": "Questi eleganti squadroni di cavalleria leggera offrono alta velocità e resistenza, ma perderanno in un combattimento contro fanteria o cavalleria più pesante. Invece, usa gli ussari per esplorare e terrorizzare obiettivi vulnerabili - tiratori, cavalleria e truppe disorganizzate o in rotta.",
+    "12": "Il cannone da campo più pesante disponibile per l'esercito napoleonico; sebbene queste batterie siano estremamente costose, la loro portata e potenza sono ineguagliabili.",
+    "13": "\"Gli arcieri a cavallo bashkir sono senza dubbio le truppe meno pericolose al mondo.\" - Barone Marbot, ignorando una freccia nella sua coscia",
+    "14": "Queste truppe d'assalto sono composte dagli uomini più alti, forti e imponenti della fanteria di linea. Mantieni i tuoi granatieri in buone condizioni e impegnali quando il nemico inizia a vacillare per spezzarli completamente.",
+    "15": "L'artiglieria da campo più leggera comune delle Guerre Napoleoniche, con potenza di fuoco modesta e buona mobilità che la rendono una compagna naturale della fanteria.",
+    "16": "I battaglioni napoleonici distaccavano queste piccole compagnie di truppe in ordine sparso, come voltigeurs e cacciatori, per svolgere vari compiti. Queste truppe occuperebbero terreno inadatto a grandi unità di fanteria, molesterebbero la linea nemica e proteggerebbero l'esercito per respingere i tiratori nemici.",
+    "17": "Sebbene i fucili dell'era napoleonica offrano una velocità di fuoco molto inferiore ai moschetti, compensavano con un'eccellente precisione che aiutava a vincere duelli di tiratori, eliminare ufficiali nemici e molestare l'artiglieria nemica a distanza.",
+    "18": "Napoleone favoriva il cannone da 6 libbre per il suo equilibrio di potenza e manovrabilità; man mano che le Guerre Napoleoniche progredivano, cercò di sostituire i cannoni da 4 e 8 libbre con quanti più cannoni da 6 e 12 libbre possibile.",
+    "19": "Il razzo napoleonico era un'arma sperimentale e capricciosa con problemi persistenti di precisione. Tuttavia, si vanta di alta manovrabilità, e a corto raggio può fornire fuoco intenso che infligge pochi danni ma ha effetti catastrofici sul morale nemico.",
+    "24": "La licorne da 10 libbre era un cannone-obice dell'esercito russo delle Guerre Napoleoniche. I suoi proiettili esplosivi a lungo raggio sono ben adatti per trattare nemici nel terreno, e la sua mitraglia a corto raggio è devastante. Usa il proiettile a medio raggio della licorne da 10 libbre per decimare obiettivi allo scoperto.",
+    "25": "La licorne da 18 libbre è un cannone-obice pesante russo con mitraglia terrificante a corto raggio, proiettile a medio raggio altamente efficace contro truppe allo scoperto, e proiettili esplosivi a lungo raggio che ignorano i benefici del terreno difensivo nemico."
+  },
+  "unitCategory": {
+    "infantry": "Fanteria",
+    "midCavalry": "Cavalleria",
+    "artillery": "Artiglieria",
+    "lightInfantry": "Fanteria leggera",
+    "scoutCavalry": "Cavalleria da ricognizione",
+    "lightCavalry": "Cavalleria leggera",
+    "heavyCavalry": "Cavalleria pesante",
+    "militiaInfantry": "Fanteria di milizia",
+    "skirmishInfantry": "Fanteria da schermaglia"
+  },
+  "damageType": {
+    "musket": "Moschetto",
+    "light-musket": "Moschetto leggero",
+    "artillery-sabre": "Sciabola da artiglieria",
+    "bayonet": "Baionetta",
+    "8lb-cannon-ball": "Palla di cannone",
+    "cavalry-sabre": "Sciabola da cavalleria",
+    "cavalry-lance": "Lancia da cavalleria",
+    "6lb-cannon-ball": "Palla di cannone leggera",
+    "explosive-shell": "Proiettile esplosivo",
+    "cavalry-sword": "Spada da cavalleria",
+    "8lb-canister-fire": "Fuoco a mitraglia",
+    "6lb-canister-fire": "Fuoco a mitraglia leggero",
+    "howitzer-canister": "Mitraglia da obice",
+    "12lb-cannon-ball": "Palla di cannone pesante",
+    "12lb-canister-fire": "Fuoco a mitraglia pesante",
+    "dragoon-sword": "Spada del dragone"
+  },
+  "formation": {
+    "mass": "Massa",
+    "line": "Linea",
+    "column": "Colonna",
+    "square": "Quadrato",
+    "dispersed": "Disperso"
+  },
+  "reportStats": {
+    "men": "Uomini",
+    "horse": "Cavalli",
+    "guns": "Cannoni"
+  },
+  "currency": {
+    "manpower": "Forza lavoro",
+    "gold": "Oro"
+  },
+  "dynamicBattleType": {
+    "micro": "Micro",
+    "clash": "Incontro",
+    "combat": "Combattimento",
+    "battle": "Battaglia",
+    "grand_battle": "Grande Battaglia"
+  }
+}

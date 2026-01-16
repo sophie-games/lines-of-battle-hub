@@ -1,0 +1,40 @@
+{
+  "eraName": "Perang Dunia II",
+  "eraDescription": "Beta eksperimental awal dalam menerapkan mesin Lines of Battle ke game Perang Dunia II tingkat operasional; atur garis benteng, rencanakan seputar keterbatasan pasokan, dan jalin pengepungan dengan divisi lapis baja.",
+  "unitName": {
+    "1": "Infanteri",
+    "2": "Berlapis baja",
+    "3": "Bermotor",
+    "20": "Tidak diketahui"
+  },
+  "battalionName": {
+    "1": "{{n}} Divisi Infanteri",
+    "2": "{{n}} Divisi Berlapis Baja",
+    "3": "{{n}} Divisi Bermotor"
+  },
+  "unitDescription": {
+    "1": "Meskipun ujung tombak tank mendominasi medan perang Perang Dunia II, infanteri yang sederhana tetap menjadi tulang punggung tentara semua kekuatan yang berperang. Infanteri mampu menunda kemajuan musuh berkat pekerjaan tanah dan senjata pendukung; selain itu, infanteri dapat bertempur di medan yang sulit seperti hutan, kota, rawa-rawa dan pegunungan, di mana kendaraan lapis baja tidak berguna.",
+    "2": "Divisi lapis baja adalah kekuatan yang tangguh dan mobile, dirancang untuk menciptakan terobosan dalam pertahanan musuh dan memberikan serangan balik yang kuat. Namun, melengkapi dan memasok unit mekanis adalah tantangan industri besar, sehingga proporsi divisi tank di tentara Perang Dunia II umumnya tidak melebihi 10-15%.",
+    "3": "Divisi bermotor adalah kekuatan yang tangguh dan mobile, dirancang untuk menciptakan terobosan dalam pertahanan musuh dan memberikan serangan balik yang kuat. Namun, melengkapi dan memasok unit mekanis adalah tantangan industri besar, sehingga proporsi divisi tank di tentara Perang Dunia II umumnya tidak melebihi 10-15%."
+  },
+  "unitCategory": {
+    "infantry": "Infanteri",
+    "armored": "Berlapis baja",
+    "motorized": "Bermotor"
+  },
+  "damageType": {
+    "soft_attack": "Serangan Lunak",
+    "hard_attack": "Serangan Keras"
+  },
+  "reportStats": {
+    "men": "Pria",
+    "tanks": "Tank"
+  },
+  "currency": {
+    "manpower": "Besi",
+    "gold": "Minyak"
+  },
+  "dynamicBattleType": {
+    "operational": "Operasional"
+  }
+}

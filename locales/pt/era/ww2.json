@@ -1,0 +1,40 @@
+{
+  "eraName": "Segunda Guerra Mundial",
+  "eraDescription": "Uma beta experimental inicial na aplicação do motor de Lines of Battle a um jogo da Segunda Guerra Mundial em nível operacional; estabeleça linhas de fortificações, planeje em torno de limitações de suprimento e teça cercos com divisões blindadas.",
+  "unitName": {
+    "1": "Infantaria",
+    "2": "Blindado",
+    "3": "Motorizado",
+    "20": "Desconhecido"
+  },
+  "battalionName": {
+    "1": "{{n}} Divisão de Infantaria",
+    "2": "{{n}} Divisão Blindada",
+    "3": "{{n}} Divisão Motorizada"
+  },
+  "unitDescription": {
+    "1": "Embora as pontas de lança de tanques tenham dominado os campos de batalha da Segunda Guerra Mundial, a humilde infantaria permaneceu como a espinha dorsal dos exércitos de todas as potências beligerantes. A infantaria é capaz de atrasar os avanços inimigos graças a obras de terra e armas de apoio; além disso, a infantaria pode lutar em terrenos difíceis como florestas, cidades, pântanos e montanhas, onde os veículos blindados são inúteis.",
+    "2": "As divisões blindadas são uma força formidável e móvel, projetadas para criar brechas nas defesas inimigas e realizar contra-ataques poderosos. No entanto, equipar e abastecer unidades mecanizadas é um grande desafio industrial, então a proporção de divisões de tanques nos exércitos da Segunda Guerra Mundial geralmente não excedeu 10-15%.",
+    "3": "As divisões motorizadas são uma força formidável e móvel, projetadas para criar brechas nas defesas inimigas e realizar contra-ataques poderosos. No entanto, equipar e abastecer unidades mecanizadas é um grande desafio industrial, então a proporção de divisões de tanques nos exércitos da Segunda Guerra Mundial geralmente não excedeu 10-15%."
+  },
+  "unitCategory": {
+    "infantry": "Infantaria",
+    "armored": "Blindado",
+    "motorized": "Motorizado"
+  },
+  "damageType": {
+    "soft_attack": "Ataque Suave",
+    "hard_attack": "Ataque Duro"
+  },
+  "reportStats": {
+    "men": "Homens",
+    "tanks": "Tanques"
+  },
+  "currency": {
+    "manpower": "Ferro",
+    "gold": "Petróleo"
+  },
+  "dynamicBattleType": {
+    "operational": "Operacional"
+  }
+}

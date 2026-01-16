@@ -1,0 +1,10 @@
+{
+  "minimize": "Ελαχιστοποίηση",
+  "showMessages": "Εμφάνιση Μηνυμάτων",
+  "dismiss": "Απόρριψη",
+  "previous": "Προηγούμενο",
+  "next": "Επόμενο",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Μήνυμα"
+}
+

@@ -1,0 +1,10 @@
+{
+  "minimize": "Minimieren",
+  "showMessages": "Nachrichten anzeigen",
+  "dismiss": "Schließen",
+  "previous": "Zurück",
+  "next": "Weiter",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Nachricht"
+}
+

@@ -17,5 +17,6 @@
     "nextGoal": "次の目標: {{goal}} <currency/>"
   },
 
-  "purchaseConfirmation": "{{item}} を購入してもよろしいですか？"
+  "purchaseConfirmation": "{{item}} を購入してもよろしいですか？",
+  "offlineWarning": "購入したアイテムはオンラインモードでのみ機能し、オフラインでは機能しません。"
 }

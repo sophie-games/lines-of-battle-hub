@@ -1,0 +1,10 @@
+{
+  "minimize": "Minimalkan",
+  "showMessages": "Tampilkan Pesan",
+  "dismiss": "Tutup",
+  "previous": "Sebelumnya",
+  "next": "Berikutnya",
+  "messageCounter": "{{current}} / {{total}}",
+  "noTitle": "Pesan"
+}
+

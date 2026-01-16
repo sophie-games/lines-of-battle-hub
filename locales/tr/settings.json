@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Çok Turlu Yol Minimum Mesafesi"
   },
+  "enableRotateOrder": {
+    "title": "Döndürme Emrini Etkinleştir",
+    "description": "Birimlerde uzun basma ve sürükleme yaparak döndürme emirleri verme yeteneğini etkinleştirin veya devre dışı bırakın."
+  },
   "edgePanning": {
     "title": "Kenar Kaydırma",
     "description": "Fare ekran kenarlarına ulaştığında kaydırmayı etkinleştir (PC)."
@@ -68,7 +72,15 @@
   },
   "shadows": {
     "title": "Gölgeler",
-    "description": "Birimlerde gölgeleri etkinleştirir. Bu, birimlerin güncellenmesi için oyunun tur geçmesini gerektirebilir."
+    "description": "Birimlerde gölgeleri etkinleştirir."
+  },
+  "showDebugShapes": {
+    "title": "Hata ayıklama şekillerini göster",
+    "description": "Birimlerde çarpışma şekilleri ve arazi kontrol noktaları dahil hata ayıklama şekillerini gösterir."
+  },
+  "bottomButtons": {
+    "title": "Alt Butonlar",
+    "description": "Oyun sırasında ekranın alt kısmındaki butonların sırasını yapılandırın."
   },
   "fullScreen": {
     "title": "Tam Ekran",
@@ -80,8 +92,15 @@
     "description": "Tüm ayarları varsayılan değerlerine geri yükler. Bu işlem, yaptığınız tüm özelleştirmeleri geçersiz kılacaktır."
   },
   "reset": "Sıfırla",
-  "lineFormation": "Hat Formasyonu",
-  "checkerboardFormation": "Dama Tahtası Formasyonu",
+  "drawLineFormation": {
+    "title": "Çizim Çizgilerini Kullan",
+    "description": "Etkinleştirildiğinde, birçok birim seçildiğinde çizim çizgisi formasyonunu kullanacaktır. Devre dışı bırakıldığında, birçok birim seçildiğinde çizim yolu formasyonunu kullanacaktır. Çizim yolu, birimlerden birini sürükleyerek de yapılabilir."
+  },
+  "useStraightLine": {
+    "title": "Düz çizgi kullan",
+    "description": "Etkinleştirildiğinde, çizim çizgisi formasyonu her zaman başlangıç konumundan bitiş konumuna kadar düz bir çizgi kullanır ve çizilen yolu yok sayar. Devre dışı bırakıldığında, birimler çizdiğiniz eğri yolu takip eder."
+  },
+  "straightLineTolerance": "Düz Çizgi Toleransı",
   "spaceBetweenUnits": "Birimler Arasındaki Boşluk",
   "spaceBetweenLines": "Hatlar Arasındaki Boşluk",
   "keybindings": {
@@ -99,11 +118,18 @@
     "shootOrder": "Ateş emri",
     "fireAndAdvanceOrder": "Ateş ve ilerle emri",
     "fallbackOrder": "Geri çekil emri",
-    "toggleFormation": "Formasyonu değiştir",
     "toggleSmartCurvedMovements": "Akıllı eğri hareketleri değiştir",
     "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
+    "toggleMultiTurnOrders": "Çok Turlu Emirleri Değiştir",
+    "toggleRotateOrder": "Döndürme Emrini Değiştir",
     "openChat": "Sohbeti aç",
+    "openFormationModal": "Formasyon penceresini aç",
     "toggleFullscreen": "Tam ekranı değiştir",
+    "simulateMultiTouch": "Çoklu dokunmayı simüle et",
+    "toggleSupplyLines": "İkmal hatlarını değiştir",
+    "toggleStraightLine": "Düz çizgiyi değiştir",
+    "toggleDrawLine": "Çizgi çizmeyi devre dışı bırakmayı değiştir",
+    "splitInHalf": "Yarıya Böl",
     "controlGroup1": "Kontrol Grubu 1",
     "controlGroup2": "Kontrol Grubu 2",
     "controlGroup3": "Kontrol Grubu 3",

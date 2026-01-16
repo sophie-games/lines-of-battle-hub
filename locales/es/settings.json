@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "Distancia mínima de camino de multi-turnos"
   },
+  "enableRotateOrder": {
+    "title": "Habilitar Orden de Rotación",
+    "description": "Habilitar o deshabilitar la capacidad de emitir órdenes de rotación manteniendo presionado y arrastrando sobre unidades."
+  },
   "edgePanning": {
     "title": "Desplazamiento en Bordes",
     "description": "Habilitar el desplazamiento cuando el ratón alcanza los bordes de la pantalla (PC)."
@@ -68,7 +72,15 @@
   },
   "shadows": {
     "title": "Sombras",
-    "description": "Habilita sombras en las unidades. Esto puede requerir que el juego pase un turno para que las unidades se actualicen."
+    "description": "Habilita sombras en las unidades."
+  },
+  "showDebugShapes": {
+    "title": "Mostrar formas de depuración",
+    "description": "Muestra formas de depuración en las unidades incluyendo formas de colisión y puntos de verificación de terreno."
+  },
+  "bottomButtons": {
+    "title": "Botones Inferiores",
+    "description": "Configura el orden de los botones en la parte inferior de la pantalla durante el juego."
   },
   "fullScreen": {
     "title": "Pantalla Completa",
@@ -80,8 +92,15 @@
     "description": "Restaurar toda la configuración a sus valores predeterminados. Esta acción sobrescribirá cualquier personalización que hayas realizado."
   },
   "reset": "Restablecer",
-  "lineFormation": "Formación en línea",
-  "checkerboardFormation": "Formación en tablero de ajedrez",
+  "drawLineFormation": {
+    "title": "Usar líneas de dibujo",
+    "description": "Cuando está habilitado, usará la formación de línea de dibujo cuando se seleccionen muchas unidades. Cuando está deshabilitado, usará la formación de ruta de dibujo cuando se seleccionen muchas unidades. La ruta de dibujo también se puede hacer arrastrando una de las unidades."
+  },
+  "useStraightLine": {
+    "title": "Usar línea recta",
+    "description": "Cuando está habilitado, la formación de línea de dibujo siempre usará una línea recta desde la posición inicial hasta la final, ignorando el camino dibujado. Cuando está desactivado, las unidades seguirán el camino curvo que dibujes."
+  },
+  "straightLineTolerance": "Tolerancia de línea recta",
   "spaceBetweenUnits": "Espacio entre unidades",
   "spaceBetweenLines": "Espacio entre líneas",
   "showChat": {
@@ -102,11 +121,18 @@
     "shootOrder": "Orden de disparo",
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
     "fallbackOrder": "Orden de retirada",
-    "toggleFormation": "Alternar formación",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
     "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
+    "toggleMultiTurnOrders": "Alternar órdenes de varios turnos",
+    "toggleRotateOrder": "Alternar orden de rotación",
     "openChat": "Abrir chat",
-    "toggleFullscreen": "Alternar pantalla completa"
+    "openFormationModal": "Abrir ventana de formación",
+    "toggleFullscreen": "Alternar pantalla completa",
+    "simulateMultiTouch": "Simular Multi-toque",
+    "toggleSupplyLines": "Alternar líneas de suministro",
+    "toggleStraightLine": "Alternar línea recta",
+    "toggleDrawLine": "Alternar desactivar líneas de dibujo",
+    "splitInHalf": "Dividir por la mitad"
   },
   "routingTransparency": {
     "title": "Transparencia de Unidades en Retirada"
@@ -120,5 +146,9 @@
   "groundQuality": {
     "title": "Calidad del Terreno",
     "description": "Controla la calidad de las texturas del terreno. Mayor calidad proporciona mejor detalle visual pero puede afectar el rendimiento. Requiere refrescar el mapa."
+  },
+  "era": {
+    "title": "Era",
+    "description": "Selecciona la era para el juego. Cambiar esto afectará las unidades disponibles, escenarios y mecánicas del juego."
   }
 }

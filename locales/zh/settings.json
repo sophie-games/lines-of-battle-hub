@@ -11,6 +11,10 @@
   "multiTurnPathMinDistance": {
     "title": "多回合指令路径的最小距离"
   },
+  "enableRotateOrder": {
+    "title": "启用转向指令",
+    "description": "是否开启长按单位并拖拽来下达转向指令的功能"
+  },
   "edgePanning": {
     "title": "边缘平移",
     "description": "当鼠标指针移到画面边缘时移动画面（PC）。"
@@ -79,11 +83,19 @@
   },
   "shadows": {
     "title": "阴影",
-    "description": "为单位启用阴影。可能需要游戏经过一回合才能更新。"
+    "description": "为单位启用阴影。"
   },
-  "showCollisionShapes": {
-    "title": "显示碰撞体积",
-    "description": "显示单位的碰撞体积。可能需要游戏经过一回合才能更新。"
+  "showDebugShapes": {
+    "title": "显示调试图形",
+    "description": "显示调试所需的图形，例如碰撞体积和地形判定点。"
+  },
+  "showDebugInfo": {
+    "title": "显示调试信息",
+    "description": "对开发者很有帮助。"
+  },
+  "bottomButtons": {
+    "title": "底部按钮",
+    "description": "调整对局中屏幕底部的按钮排列"
   },
   "disableSkins": {
     "title": "禁用皮肤",
@@ -105,8 +117,15 @@
     "description": "在Patreon上升级会籍以使用该项设置和其它会员专属功能！",
     "goToPatreon": "前往Patreon"
   },
-  "lineFormation": "线形编队",
-  "checkerboardFormation": "棋盘编队",
+  "drawLineFormation": {
+    "title": "拖动绘制队形",
+    "description": "开启后，在选择多个单位后拖动鼠标会绘制移动的目标队形。关闭时，拖动则会为所有目标绘制路径。直接拖动其中一个单位也能绘制路径。"
+  },
+  "useStraightLine": {
+    "title": "绘制直线",
+    "description": "开启后，绘制的队形将会是连接拖动的起点和终点的直线。关闭时，队形将会是你拖动时的曲线路径。"
+  },
+  "straightLineTolerance": "直线容忍度",
   "spaceBetweenUnits": "单位之间的间距",
   "spaceBetweenLines": "前后列之间的间距",
   "showSelectIdleUnitButton": {
@@ -130,11 +149,18 @@
     "shootOrder": "射击指令",
     "fireAndAdvanceOrder": "移动射击指令",
     "fallbackOrder": "后退指令",
-    "toggleFormation": "切换阵型",
     "toggleSmartCurvedMovements": "切换智能曲线移动",
     "toggleFowPerspective": "切换战争迷雾视角",
+    "toggleMultiTurnOrders": "切换多回合指令",
+    "toggleRotateOrder": "切换转向指令",
     "openChat": "打开聊天栏",
+    "openFormationModal": "打开阵型菜单",
     "toggleFullscreen": "切换全屏",
+    "simulateMultiTouch": "模拟多点触控",
+    "toggleSupplyLines": "切换补给线",
+    "toggleStraightLine": "切换绘制直线",
+    "toggleDrawLine": "切换绘制队形",
+    "splitInHalf": "分出一半",
     "controlGroup1": "控制编组1",
     "controlGroup2": "控制编组2",
     "controlGroup3": "控制编组3",
@@ -158,5 +184,9 @@
   "groundQuality": {
     "title": "地形质量",
     "description": "控制地形纹理的质量。更高的质量提供更好的视觉细节，但可能会影响性能。需要刷新地图。"
+  },
+  "era": {
+    "title": "时代",
+    "description": "选择你想游玩的年代。该设置会改变可玩的单位，战役和游戏机制，"
   }
 }
