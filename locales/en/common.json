@@ -3,6 +3,7 @@
   "home": "Home",
   "language": "Language",
   "tutorial": "Tutorial",
+  "tutorials": "Tutorials",
   "play": "Play",
   "ranking": "Ranking",
   "profile": "Profile",
@@ -787,7 +788,6 @@
   "quickPlayWithCount": "Quick play ({{count}})",
   "show": "Show",
   "hide": "Hide",
-
   "discord": {
     "link": "Link Discord",
     "unlink": "Unlink Discord",

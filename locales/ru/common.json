@@ -3,6 +3,7 @@
   "home": "Главная страница",
   "language": "Язык",
   "tutorial": "Руководство",
+  "tutorials": "Обучение",
   "play": "В бой!",
   "ranking": "Лучшие игроки",
   "profile": "Профиль",
@@ -787,7 +788,6 @@
   "quickPlayWithCount": "Быстрая игра ({{count}})",
   "show": "Показать",
   "hide": "Скрыть",
-  
   "discord": {
     "link": "Привязать Discord",
     "unlink": "Отвязать Discord",
