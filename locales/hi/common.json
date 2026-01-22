@@ -64,7 +64,8 @@
     "extendQueueSuccess": "किसी भी एलो रेंज में खोज रहे हैं।",
     "cancelledBy": "कतार {{username}} द्वारा रद्द कर दी गई।",
     "playersInQueue": "{{count}} खिलाड़ी खोज रहे हैं",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>आप:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>आप:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "कनेक्शन खो गया। पुन: कनेक्ट हो रहा है"
   },
   "fastMode": "तेज़ मोड",
   "slowMode": "धीमा मोड",
@@ -642,6 +643,8 @@
   "selectIdleUnit": "निष्क्रिय इकाई चुनें",
   "maxOrg": "अधिकतम संगठन",
   "allyOverlap": "सहयोगी ओवरलैप",
+  "hard": "कठोर",
+  "soft": "नरम",
   "copied": "कॉपी हो गया!",
   "download": "डाउनलोड",
   "translationsMessage": "क्या आप अनुवाद में सहयोग करना चाहते हैं? आप इसे <0>यहाँ</0> कर सकते हैं।",

@@ -53,7 +53,8 @@
     "extendQueueSuccess": "Buscando en cualquier rango de Elo.",
     "cancelledBy": "La cola fue cancelada por {{username}}.",
     "playersInQueue": "{{count}} jugadores buscando",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Tú:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Tú:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Conexión Perdida. Reconectando"
   },
   "fastMode": "Modo rápido",
   "slowMode": "Modo lento",
@@ -603,6 +604,8 @@
   "cannotUseAfterRun": "No usable tras correr",
   "selectIdleUnit": "Seleccionar unidad parada",
   "allyOverlap": "Superposición de aliados",
+  "hard": "Dura",
+  "soft": "Suave",
   "download": "Descargar",
   "translationsMessage": "¿Quieres colaborar con traducciones? Puedes hacerlo <0>aquí</0>.",
   "nearbyUnits": "Unidades cercanas",

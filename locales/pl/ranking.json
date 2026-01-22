@@ -1,5 +1,6 @@
 {
   "title": "Ranking Graczy",
   "subtitle": "Kto jest najlepszy?",
-  "description": "Znajdują się tu tylko gracze, którzy ukończyli przynajmniej jedną gre rankingową w ciągu ostatnich 28 dni. Ranking jest aktualizowany raz dziennie."
+  "description": "Znajdują się tu tylko gracze, którzy ukończyli przynajmniej jedną gre rankingową w ciągu ostatnich 28 dni. Ranking jest aktualizowany raz dziennie.",
+  "lastUpdate": "Ostatnia aktualizacja: {{date}}"
 }

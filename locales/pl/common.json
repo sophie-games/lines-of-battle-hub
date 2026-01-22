@@ -64,7 +64,8 @@
     "extendQueueSuccess": "Szukanie w zasięgu Twojego ELO",
     "cancelledBy": "Kolejka została anulowana przez {{username}}.",
     "playersInQueue": "{{count}} graczy szuka",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Ty:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Ty:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Utracono Połączenie. Ponowne Łączenie"
   },
   "fastMode": "Tryb Szybki",
   "slowMode": "Tryb Wolny",
@@ -612,6 +613,8 @@
   "selectIdleUnit": "Wybierz nieaktywną jednostkę",
   "maxOrg": "Max org",
   "allyOverlap": "Sojusznicy nachodzą na siebie",
+  "hard": "Twarda",
+  "soft": "Miękka",
   "copied": "Skopiowano!",
   "download": "Pobierz",
   "translationsMessage": "Czy chcesz pomóc z tłumaczeniami? Możesz zrobić to <0>tutaj</0>.",

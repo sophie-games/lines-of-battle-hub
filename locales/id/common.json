@@ -64,7 +64,8 @@
     "extendQueueSuccess": "Mencari dalam rentang Elo apa pun.",
     "cancelledBy": "Antrean dibatalkan oleh {{username}}.",
     "playersInQueue": "{{count}} pemain mencari",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Anda:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Anda:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Koneksi Terputus. Menyambung Ulang"
   },
   "fastMode": "Mode Cepat",
   "slowMode": "Mode Lambat",
@@ -511,6 +512,9 @@
   },
   "dismiss": "Tutup",
   "turningDelay": "Penundaan putaran",
+  "allyOverlap": "Tumpang tindih sekutu",
+  "hard": "Keras",
+  "soft": "Lembut",
   "infantry": "Infanteri",
   "cavalry": "Kavaleri",
   "artillery": "Artileri",

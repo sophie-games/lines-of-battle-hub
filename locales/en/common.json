@@ -64,7 +64,8 @@
     "extendQueueSuccess": "Searching in any Elo range.",
     "cancelledBy": "The queue was cancelled by {{username}}.",
     "playersInQueue": "{{count}} players searching",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>You:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>You:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Connection Lost. Reconnecting"
   },
   "fastMode": "Fast Mode",
   "slowMode": "Slow Mode",
@@ -646,6 +647,8 @@
   "selectIdleUnit": "Select idle unit",
   "maxOrg": "Max org",
   "allyOverlap": "Ally overlap",
+  "hard": "Hard",
+  "soft": "Soft",
   "copied": "Copied!",
   "download": "Download",
   "translationsMessage": "Do you want to collaborate with translations? You can do it <0>here</0>.",

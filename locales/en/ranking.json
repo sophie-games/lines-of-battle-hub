@@ -1,5 +1,6 @@
 {
   "title": "Player Ranking",
   "subtitle": "Who's on top?",
-  "description": "Only players who have played at least one ranked game in the last 28 days will appear in the ranking. The ranking is updated once per day."
+  "description": "Only players who have played at least one ranked game in the last 28 days will appear in the ranking. The ranking is updated once per day.",
+  "lastUpdate": "Last updated: {{date}}"
 }

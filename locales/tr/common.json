@@ -63,7 +63,8 @@
     "extendQueueSuccess": "Herhangi bir Elo aralığında aranıyor.",
     "cancelledBy": "Kuyruk {{username}} tarafından iptal edildi.",
     "playersInQueue": "{{count}} oyuncu aranıyor",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Sen:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Sen:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Bağlantı Kesildi. Yeniden Bağlanıyor"
   },
   "fastMode": "Hızlı Mod",
   "slowMode": "Yavaş Mod",
@@ -501,6 +502,9 @@
   },
   "dismiss": "Kapat",
   "turningDelay": "Dönüş gecikmesi",
+  "allyOverlap": "Müttefik çakışması",
+  "hard": "Sert",
+  "soft": "Yumuşak",
   "infantry": "Piyade",
   "cavalry": "Süvari",
   "artillery": "Topçu",

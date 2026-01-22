@@ -64,7 +64,8 @@
     "extendQueueSuccess": "Αναζήτηση σε οποιαδήποτε σειρά Elo.",
     "cancelledBy": "Η ουρά ακυρώθηκε από {{username}}.",
     "playersInQueue": "{{count}} παίκτες αναζητούν",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Εσείς:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Εσείς:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Η Σύνδεση Χάθηκε. Επανασύνδεση"
   },
   "fastMode": "Γρήγορη λειτουργία",
   "slowMode": "Αργή λειτουργία",
@@ -624,6 +625,8 @@
   "selectIdleUnit": "Επιλέξτε μονάδα αδράνειας",
   "maxOrg": "Μέγιστο org",
   "allyOverlap": "Επικάλυψη συμμάχων",
+  "hard": "Σκληρή",
+  "soft": "Μαλακή",
   "copied": "Αντιγράφηκε!",
   "download": "Λήψη",
   "translationsMessage": "Θέλετε να συνεργαστείτε με μεταφράσεις; Μπορείτε να το κάνετε <0>εδώ</0>.",

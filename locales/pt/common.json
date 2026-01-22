@@ -63,7 +63,8 @@
     "extendQueueSuccess": "Procurando em qualquer faixa de Elo.",
     "cancelledBy": "A fila foi cancelada por {{username}}.",
     "playersInQueue": "{{count}} jogadores procurando",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Você:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Você:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Conexão Perdida. Reconectando"
   },
   "fastMode": "Modo Rápido",
   "slowMode": "Modo Lento",
@@ -500,6 +501,9 @@
   },
   "dismiss": "Dispensar",
   "turningDelay": "Atraso de rotação",
+  "allyOverlap": "Sobreposição de aliados",
+  "hard": "Dura",
+  "soft": "Suave",
   "infantry": "Infantaria",
   "cavalry": "Cavalaria",
   "artillery": "Artilharia",

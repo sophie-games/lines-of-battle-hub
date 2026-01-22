@@ -64,7 +64,8 @@
     "extendQueueSuccess": "Идёт поиск среди всех значений Эло.",
     "cancelledBy": "Очередь была отменена {{username}}.",
     "playersInQueue": "{{count}} игроков в очереди",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Вы:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Вы:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Соединение Потеряно. Переподключение"
   },
   "fastMode": "Быстрая игра",
   "slowMode": "Медленная игра",
@@ -646,6 +647,8 @@
   "selectIdleUnit": "Отряды без приказов",
   "maxOrg": "Максимум организации",
   "allyOverlap": "Смешение строя с союзниками",
+  "hard": "Жесткое",
+  "soft": "Мягкое",
   "copied": "Скопировано!",
   "download": "Загрузить",
   "translationsMessage": "Хотите помочь с переводом игры? Вы можете сделать это <0>здесь</0>.",

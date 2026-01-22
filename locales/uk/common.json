@@ -59,7 +59,8 @@
     "extendQueueSuccess": "Пошук у будь-якому діапазоні Elo.",
     "cancelledBy": "Чергу було скасовано {{username}}.",
     "playersInQueue": "{{count}} гравців шукають",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Ви:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Ви:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Втрачено З'єднання. Перепідключення"
   },
   "fastMode": "Швидкий режим",
   "slowMode": "Повільний режим",
@@ -517,6 +518,9 @@
   },
   "dismiss": "Закрити",
   "turningDelay": "Затримка повороту",
+  "allyOverlap": "Накладання союзників",
+  "hard": "Жорстκε",
+  "soft": "М'яκε",
   "infantry": "Піхота",
   "cavalry": "Кіннота",
   "artillery": "Артилерія",
