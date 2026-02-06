@@ -64,7 +64,8 @@
     "extendQueueSuccess": "Tìm kiếm trong mọi phạm vi Elo.",
     "cancelledBy": "Hàng đợi đã bị hủy bởi {{username}}.",
     "playersInQueue": "{{count}} người chơi đang tìm kiếm",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Bạn:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Bạn:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Mất Kết Nối. Đang Kết Nối Lại"
   },
   "fastMode": "Chế độ nhanh",
   "slowMode": "Chế độ chậm",
@@ -641,6 +642,8 @@
   "selectIdleUnit": "Chọn đơn vị rảnh",
   "maxOrg": "Tổ chức tối đa",
   "allyOverlap": "Chồng lấn đồng minh",
+  "hard": "Cứng",
+  "soft": "Mềm",
   "copied": "Đã sao chép!",
   "download": "Tải xuống",
   "translationsMessage": "Bạn có muốn cộng tác dịch thuật? Bạn có thể làm điều đó <0>tại đây</0>.",
@@ -807,5 +810,9 @@
   "recent": "Gần đây",
   "clear": "Xóa",
   "privacy": "Quyền riêng tư",
-  "showCountry": "Hiển thị quốc gia"
+  "showCountry": "Hiển thị quốc gia",
+  "controlSchemeModal": {
+    "title": "Sơ đồ điều khiển mới",
+    "message": "Sơ đồ điều khiển của Lines of Battle đã được cải thiện và tinh giản, nhưng hiện tại rất khác. Cả người chơi mới và cũ đều nên chơi phần hướng dẫn để làm quen với hệ thống mới."
+  }
 }

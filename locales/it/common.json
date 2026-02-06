@@ -63,7 +63,8 @@
     "extendQueueSuccess": "Ricerca in qualsiasi intervallo Elo.",
     "cancelledBy": "La coda è stata cancellata da {{username}}.",
     "playersInQueue": "{{count}} giocatori in ricerca",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Tu:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Tu:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Connessione Persa. Riconnessione"
   },
   "fastMode": "Modalità veloce",
   "slowMode": "Modalità lenta",
@@ -506,6 +507,9 @@
   "high": "Alta",
   "dismiss": "Ignora",
   "turningDelay": "Ritardo di rotazione",
+  "allyOverlap": "Sovrapposizione alleati",
+  "hard": "Dura",
+  "soft": "Morbida",
   "infantry": "Fanteria",
   "cavalry": "Cavalleria",
   "artillery": "Artiglieria",
@@ -571,5 +575,9 @@
   "recent": "Recenti",
   "clear": "Cancella",
   "privacy": "Privacy",
-  "showCountry": "Mostra paese"
+  "showCountry": "Mostra paese",
+  "controlSchemeModal": {
+    "title": "Nuovo schema di controllo",
+    "message": "Lo schema di controllo di Lines of Battle è stato migliorato e snellito, ma ora è molto diverso. Sia i nuovi che i vecchi giocatori dovrebbero giocare il tutorial per imparare il nuovo sistema."
+  }
 }

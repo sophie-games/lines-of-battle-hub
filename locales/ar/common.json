@@ -64,7 +64,8 @@
     "extendQueueSuccess": "البحث في أي نطاق Elo.",
     "cancelledBy": "تم إلغاء الطابور بواسطة {{username}}.",
     "playersInQueue": "{{count}} لاعب يبحث",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>أنت:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>أنت:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "فُقد الاتصال. إعادة الاتصال"
   },
   "fastMode": "الوضع السريع",
   "slowMode": "الوضع البطيء",
@@ -642,6 +643,8 @@
   "selectIdleUnit": "اختيار وحدة خاملة",
   "maxOrg": "الحد الأقصى للتنظيم",
   "allyOverlap": "تداخل الحلفاء",
+  "hard": "صلب",
+  "soft": "ناعم",
   "copied": "تم النسخ!",
   "download": "تحميل",
   "translationsMessage": "هل تريد التعاون في الترجمة؟ يمكنك القيام بذلك <0>هنا</0>.",
@@ -808,5 +811,9 @@
   "recent": "حديث",
   "clear": "مسح",
   "privacy": "الخصوصية",
-  "showCountry": "إظهار البلد"
+  "showCountry": "إظهار البلد",
+  "controlSchemeModal": {
+    "title": "نظام تحكم جديد",
+    "message": "تم تحسين وتبسيط نظام التحكم في Lines of Battle، ولكنه مختلف تمامًا الآن. يجب على اللاعبين الجدد والقدامى على حد سواء لعب البروتوكول التعليمي لتعلم النظام الجديد."
+  }
 }

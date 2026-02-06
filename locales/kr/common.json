@@ -63,7 +63,8 @@
     "extendQueueSuccess": "모든 Elo 범위대에서 탐색.",
     "cancelledBy": "{{username}} 님이 대기를 취소했습니다.",
     "playersInQueue": "{{count}} 명의 플레이어가 탐색 중",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>당신:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>당신:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "연결 끔김. 재연결 중"
   },
   "fastMode": "단기전",
   "slowMode": "장기전",
@@ -636,6 +637,8 @@
   "selectIdleUnit": "유휴 부대 선택",
   "maxOrg": "최대 조직력",
   "allyOverlap": "동맹 겹침",
+  "hard": "하드",
+  "soft": "소프트",
   "copied": "복사됨!",
   "download": "내려받기",
   "translationsMessage": "번역에 기여하고 싶으신가요? <0>이곳</0>에서 할 수 있습니다.",
@@ -803,5 +806,9 @@
   "recent": "최근",
   "clear": "정리",
   "privacy": "개인정보",
-  "showCountry": "국가 표시"
+  "showCountry": "국가 표시",
+  "controlSchemeModal": {
+    "title": "새로운 조작 체계",
+    "message": "Lines of Battle의 조작 체계가 개선되고 간소화되었지만, 현재는 매우 다릅니다. 신규 플레이어와 기존 플레이어 모두 새로운 시스템을 익히기 위해 튜토리얼을 플레이해야 합니다."
+  }
 }

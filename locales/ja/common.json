@@ -63,7 +63,8 @@
     "extendQueueSuccess": "任意のElo範囲で検索中。",
     "cancelledBy": "キューは{{username}}によってキャンセルされました。",
     "playersInQueue": "{{count}}人のプレイヤーが検索中",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>あなた:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>あなた:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "接続が切断されました。再接続中"
   },
   "fastMode": "高速モード",
   "slowMode": "低速モード",
@@ -499,6 +500,9 @@
   },
   "dismiss": "閉じる",
   "turningDelay": "旋回遅延",
+  "allyOverlap": "味方の重なり",
+  "hard": "硬い",
+  "soft": "柔らかい",
   "infantry": "歩兵",
   "cavalry": "騎兵",
   "artillery": "砲兵",
@@ -570,5 +574,9 @@
   "recent": "最近",
   "clear": "クリア",
   "privacy": "プライバシー",
-  "showCountry": "国を表示"
+  "showCountry": "国を表示",
+  "controlSchemeModal": {
+    "title": "新しい操作体系",
+    "message": "Lines of Battleの操作体系が改善・簡素化されましたが、以前とは大きく異なります。新規プレイヤーもベテランプレイヤーも、新しいシステムを学ぶためにチュートリアルをプレイすることをお勧めします。"
+  }
 }

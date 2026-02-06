@@ -63,7 +63,8 @@
     "extendQueueSuccess": "Keresés bármilyen Elo tartományban.",
     "cancelledBy": "A várólistát {{username}} törölte.",
     "playersInQueue": "{{count}} játékos keres",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Te:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Te:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Kapcsolat Megszakadt. Újracsatlakozás"
   },
   "fastMode": "Gyors mód",
   "slowMode": "Lassú mód",
@@ -451,6 +452,9 @@
   "high": "Magas",
   "dismiss": "Elutasítás",
   "turningDelay": "Fordulási késés",
+  "allyOverlap": "Szövetséges átfedés",
+  "hard": "Kemény",
+  "soft": "Lágy",
   "infantry": "Gyalogság",
   "cavalry": "Lovasság",
   "artillery": "Tüzérség",
@@ -524,5 +528,9 @@
   "recent": "Legutóbbi",
   "clear": "Törlés",
   "privacy": "Adatvédelem",
-  "showCountry": "Ország megjelenítése"
+  "showCountry": "Ország megjelenítése",
+  "controlSchemeModal": {
+    "title": "Új irányítási séma",
+    "message": "A Lines of Battle irányítási sémáját továbbfejlesztettük és egyszerűsítettük, de most már nagyon más. Az új és a régi játékosoknak egyaránt érdemes végigjátszaniuk a tutorialt az új rendszer megismeréséhez."
+  }
 }

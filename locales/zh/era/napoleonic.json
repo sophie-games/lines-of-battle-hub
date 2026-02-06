@@ -1,4 +1,4 @@
-﻿{
+{
   "eraName": "拿破仑时代",
   "eraDescription": "《战线统帅》的核心版本；基于线列步兵最辉煌的时代所做出的成熟之作。",
   "unitName": {
@@ -112,6 +112,7 @@
     "marksman-musket": "高精度滑膛枪",
     "rifle": "线膛枪",
     "rocket": "火箭弹",
+    "rocket-long": "火箭弹 (远距离)",
     "10lb-canister-fire": "10磅炮射霰弹",
     "10lb-cannon-ball": "10磅实心炮弹",
     "10lb-explosive-shell": "10磅榴弹",

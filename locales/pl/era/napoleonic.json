@@ -99,7 +99,8 @@
     "horse-archer-bow": "Łuk kawaleryjski",
     "marksman-musket": "Karabinek wyborowy",
     "rifle": "Sztucer",
-    "rocket": "Rakieta"
+    "rocket": "Rakieta",
+    "rocket-long": "Rakieta (Daleki Zasięg)"
   },
   "formation": {
     "mass": "Masa",

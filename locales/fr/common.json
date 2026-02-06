@@ -53,7 +53,8 @@
     "extendQueueSuccess": "Recherche dans n'importe quelle plage Elo.",
     "cancelledBy": "La file a été annulée par {{username}}.",
     "playersInQueue": "{{count}} joueurs en recherche",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Vous:</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>Vous:</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "Connexion Perdue. Reconnexion"
   },
   "fastMode": "Partie rapide",
   "slowMode": "Partie longue",
@@ -518,6 +519,9 @@
   "high": "Élevé",
   "dismiss": "Ignorer",
   "turningDelay": "Délai de rotation",
+  "allyOverlap": "Chevauchement allié",
+  "hard": "Dur",
+  "soft": "Souple",
   "infantry": "Infanterie",
   "cavalry": "Cavalerie",
   "artillery": "Artillerie",
@@ -583,5 +587,9 @@
   "recent": "Récent",
   "clear": "Effacer",
   "privacy": "Confidentialité",
-  "showCountry": "Afficher le pays"
+  "showCountry": "Afficher le pays",
+  "controlSchemeModal": {
+    "title": "Nouveau système de contrôle",
+    "message": "Le système de contrôle de Lines of Battle a été amélioré et rationalisé, mais il est très différent maintenant. Les nouveaux joueurs comme les anciens devraient suivre le tutoriel pour apprendre le nouveau système."
+  }
 }

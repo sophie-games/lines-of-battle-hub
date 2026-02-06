@@ -89,7 +89,18 @@
     "howitzer-canister": "Metralla de Obús",
     "12lb-cannon-ball": "Bala de cañón de 12 libras",
     "12lb-canister-fire": "Fuego de Metralla pesado",
-    "dragoon-sword": "Espada de dragón"
+    "dragoon-sword": "Espada de dragón",
+    "horse-archer-bow": "Arco de arquero a caballo",
+    "marksman-musket": "Mosquete de tirador selecto",
+    "rifle": "Rifle",
+    "rocket": "Cohete",
+    "rocket-long": "Cohete (Largo Alcance)",
+    "10lb-canister-fire": "Fuego de metralla de 10 libras",
+    "10lb-cannon-ball": "Bala de cañón de 10 libras",
+    "10lb-explosive-shell": "Proyectil explosivo de 10 libras",
+    "18lb-canister-fire": "Fuego de metralla de 18 libras",
+    "18lb-cannon-ball": "Bala de cañón de 18 libras",
+    "18lb-explosive-shell": "Proyectil explosivo de 18 libras"
   },
   "formation": {
     "mass": "Masa",

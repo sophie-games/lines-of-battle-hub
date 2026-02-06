@@ -99,7 +99,8 @@
     "horse-archer-bow": "Βέλος Τοξότη αλόγων",
     "marksman-musket": "Μουσκέτο Σκοπευτή",
     "rifle": "Τουφέκι",
-    "rocket": "Ρουκέτα"
+    "rocket": "Ρουκέτα",
+    "rocket-long": "Ρουκέτα (Μακριά Εμβέλεια)"
   },
   "formation": {
     "mass": "Μάζα",

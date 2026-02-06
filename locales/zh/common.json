@@ -64,7 +64,8 @@
     "extendQueueSuccess": "匹配范围已经扩大！正在匹配全分段的对手。",
     "cancelledBy": "匹配被{{username}}取消了。",
     "playersInQueue": "{{count}}名玩家正在匹配",
-    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>你：</2> <3>{{userElo}}</3>)"
+    "searchingEloRange": "<0>{{minElo}}</0> - <1>{{maxElo}}</1> (<2>你：</2> <3>{{userElo}}</3>)",
+    "disconnectedReconnecting": "连接丢失。正在重新连接"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
@@ -646,6 +647,8 @@
   "selectIdleUnit": "选择闲置单位",
   "maxOrg": "最大组织度",
   "allyOverlap": "友军堆叠",
+  "hard": "硬",
+  "soft": "软",
   "copied": "已复制！",
   "download": "下载",
   "translationsMessage": "想要参与帮助翻译本游戏吗？可以看向<0>这里</0>.",
@@ -825,5 +828,9 @@
   "recent": "最近",
   "clear": "清除",
   "privacy": "隐私",
-  "showCountry": "显示国家"
+  "showCountry": "显示国家",
+  "controlSchemeModal": {
+    "title": "新控制方案",
+    "message": "Lines of Battle 的控制方案得到了改进和精简，但现在有很大不同。新老玩家都应该玩教程以学习新系统。"
+  }
 }
