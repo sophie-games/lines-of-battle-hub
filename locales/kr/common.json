@@ -806,5 +806,9 @@
   "recent": "최근",
   "clear": "정리",
   "privacy": "개인정보",
-  "showCountry": "국가 표시"
+  "showCountry": "국가 표시",
+  "controlSchemeModal": {
+    "title": "새로운 조작 체계",
+    "message": "Lines of Battle의 조작 체계가 개선되고 간소화되었지만, 현재는 매우 다릅니다. 신규 플레이어와 기존 플레이어 모두 새로운 시스템을 익히기 위해 튜토리얼을 플레이해야 합니다."
+  }
 }

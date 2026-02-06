@@ -576,5 +576,9 @@
   "recent": "Son",
   "clear": "Temizle",
   "privacy": "Gizlilik",
-  "showCountry": "Ülkeyi göster"
+  "showCountry": "Ülkeyi göster",
+  "controlSchemeModal": {
+    "title": "Yeni Kontrol Şeması",
+    "message": "Lines of Battle kontrol şeması geliştirildi ve sadeleştirildi, ancak şu an çok farklı. Yeni ve eski oyuncuların yeni sistemi öğrenmek için öğreticiyi oynamaları önerilir."
+  }
 }

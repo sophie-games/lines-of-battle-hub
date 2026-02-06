@@ -810,5 +810,9 @@
   "recent": "Gần đây",
   "clear": "Xóa",
   "privacy": "Quyền riêng tư",
-  "showCountry": "Hiển thị quốc gia"
+  "showCountry": "Hiển thị quốc gia",
+  "controlSchemeModal": {
+    "title": "Sơ đồ điều khiển mới",
+    "message": "Sơ đồ điều khiển của Lines of Battle đã được cải thiện và tinh giản, nhưng hiện tại rất khác. Cả người chơi mới và cũ đều nên chơi phần hướng dẫn để làm quen với hệ thống mới."
+  }
 }

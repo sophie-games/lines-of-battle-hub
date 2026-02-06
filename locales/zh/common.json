@@ -828,5 +828,9 @@
   "recent": "最近",
   "clear": "清除",
   "privacy": "隐私",
-  "showCountry": "显示国家"
+  "showCountry": "显示国家",
+  "controlSchemeModal": {
+    "title": "新控制方案",
+    "message": "Lines of Battle 的控制方案得到了改进和精简，但现在有很大不同。新老玩家都应该玩教程以学习新系统。"
+  }
 }

@@ -580,5 +580,9 @@
   "recent": "Terbaru",
   "clear": "Hapus",
   "privacy": "Privasi",
-  "showCountry": "Tampilkan negara"
+  "showCountry": "Tampilkan negara",
+  "controlSchemeModal": {
+    "title": "Skema Kontrol Baru",
+    "message": "Skema kontrol Lines of Battle telah ditingkatkan dan disederhanakan, tetapi sangat berbeda sekarang. Pemain baru maupun lama harus memainkan tutorial untuk mempelajari sistem baru."
+  }
 }

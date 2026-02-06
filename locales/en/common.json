@@ -828,5 +828,9 @@
   "recent": "Recent",
   "clear": "Clear",
   "privacy": "Privacy",
-  "showCountry": "Show country"
+  "showCountry": "Show country",
+  "controlSchemeModal": {
+    "title": "New Control Scheme",
+    "message": "The Lines of Battle control scheme has been improved and streamlined, but is very different now. New and old players alike should play the tutorial to learn the new system."
+  }
 }

@@ -575,5 +575,9 @@
   "recent": "Recentes",
   "clear": "Limpar",
   "privacy": "Privacidade",
-  "showCountry": "Mostrar país"
+  "showCountry": "Mostrar país",
+  "controlSchemeModal": {
+    "title": "Novo esquema de controle",
+    "message": "O esquema de controle do Lines of Battle foi melhorado e simplificado, mas está muito diferente agora. Novos e antigos jogadores devem jogar o tutorial para aprender o novo sistema."
+  }
 }

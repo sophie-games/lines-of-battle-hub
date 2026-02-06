@@ -528,5 +528,9 @@
   "recent": "Legutóbbi",
   "clear": "Törlés",
   "privacy": "Adatvédelem",
-  "showCountry": "Ország megjelenítése"
+  "showCountry": "Ország megjelenítése",
+  "controlSchemeModal": {
+    "title": "Új irányítási séma",
+    "message": "A Lines of Battle irányítási sémáját továbbfejlesztettük és egyszerűsítettük, de most már nagyon más. Az új és a régi játékosoknak egyaránt érdemes végigjátszaniuk a tutorialt az új rendszer megismeréséhez."
+  }
 }

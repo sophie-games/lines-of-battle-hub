@@ -574,5 +574,9 @@
   "recent": "最近",
   "clear": "クリア",
   "privacy": "プライバシー",
-  "showCountry": "国を表示"
+  "showCountry": "国を表示",
+  "controlSchemeModal": {
+    "title": "新しい操作体系",
+    "message": "Lines of Battleの操作体系が改善・簡素化されましたが、以前とは大きく異なります。新規プレイヤーもベテランプレイヤーも、新しいシステムを学ぶためにチュートリアルをプレイすることをお勧めします。"
+  }
 }

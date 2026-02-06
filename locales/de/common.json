@@ -574,5 +574,9 @@
   "recent": "Kürzlich",
   "clear": "Löschen",
   "privacy": "Datenschutz",
-  "showCountry": "Land anzeigen"
+  "showCountry": "Land anzeigen",
+  "controlSchemeModal": {
+    "title": "Neues Steuerungsschema",
+    "message": "Das Steuerungsschema von Lines of Battle wurde verbessert und optimiert, ist aber jetzt ganz anders. Sowohl neue als auch alte Spieler sollten das Tutorial durchspielen, um das neue System kennenzulernen."
+  }
 }

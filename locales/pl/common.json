@@ -736,5 +736,9 @@
   "recent": "Ostatnie",
   "clear": "Wyczyść",
   "privacy": "Prywatność",
-  "showCountry": "Pokaż kraj"
+  "showCountry": "Pokaż kraj",
+  "controlSchemeModal": {
+    "title": "Nowy schemat sterowania",
+    "message": "Schemat sterowania w Lines of Battle został ulepszony i usprawniony, ale teraz jest zupełnie inny. Zarówno nowi, jak i starzy gracze powinni przejść samouczek, aby poznać nowy system."
+  }
 }

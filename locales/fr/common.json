@@ -587,5 +587,9 @@
   "recent": "Récent",
   "clear": "Effacer",
   "privacy": "Confidentialité",
-  "showCountry": "Afficher le pays"
+  "showCountry": "Afficher le pays",
+  "controlSchemeModal": {
+    "title": "Nouveau système de contrôle",
+    "message": "Le système de contrôle de Lines of Battle a été amélioré et rationalisé, mais il est très différent maintenant. Les nouveaux joueurs comme les anciens devraient suivre le tutoriel pour apprendre le nouveau système."
+  }
 }
