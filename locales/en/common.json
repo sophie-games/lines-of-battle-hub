@@ -49,8 +49,6 @@
   "randomGameInfo": "For randomly generated games, the game will use the army you've created for the selected battle mode. You can view and manage your armies in the <0>Army Compositions</0>. If you haven't created any armies for that mode yet, a default army will be used.",
   "selectGameMode": "Select the game mode from the options below.",
   "quickMatchmaking": "Quick Matchmaking",
-  "classic": "Classic",
-  "classicTooltip": "Classic disables custom armies",
   "ranked": "Ranked",
   "rankedTooltip": "Games affect your Elo rating",
   "unranked": "Unranked",
