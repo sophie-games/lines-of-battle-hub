@@ -16,6 +16,7 @@
   "experience": "Tapasztalat",
   "nextLevelExperience": "Következő szint tapasztalata",
   "season": "Szezon",
+  "time": "Idő",
   "of": "a",
   "joinedAt": "Csatlakozás dátuma: {{date}}",
   "addPlayer": "Játékos hozzáadása",
@@ -66,7 +67,6 @@
   },
   "fastMode": "Gyors mód",
   "slowMode": "Lassú mód",
-  "maxTimePerTurn": "Max körönkénti idő",
   "turnTimeLimit": {
     "30s": "30 másodperc",
     "1m": "1 perc",
@@ -77,10 +77,36 @@
     "3d": "3 nap",
     "7d": "7 nap"
   },
+  "gameTimePreset": {
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Gyors",
+    "daily": "Napi",
+    "correspondence": "Levelezési",
+    "marathon": "Maraton"
+  },
   "battleType": "Csata típusa",
   "matchmaking": "Meccskeresés",
   "matchmakingDescription": "A meccskereső lehetővé teszi, hogy rövid idő alatt játékba került idegen játékosokkal.",
+  "requiredInMatchmakingQueue": "Mindig a sorban",
+  "requiredScenarioBadge": "Kötelező",
   "custom": "Személyre szabás",
+  "customTimeSettings": "Egyéni időbeállítások",
+  "timeControls": "Időszabályozás",
+  "customTimeFields": {
+    "bankTime": "Bankidő",
+    "bankTimeHint": "Kezdeti bankidő játékosonként. 0 = nincs limit (lassú játék).",
+    "increment": "Növekmény",
+    "incrementHint": "Minden leadott kör után hozzáadott másodpercek (0 = nincs)",
+    "turnCap": "Körlimit",
+    "turnCapHint": "Max másodperc körönként (0 = nincs limit, lassú játék)",
+    "deployTime": "Felállítási idő",
+    "deployTimeHint": "0. kör időlimit másodpercben (0 = bankot használja)",
+    "unitS": "mp",
+    "unitMin": "p",
+    "unitH": "ó",
+    "unitD": "n"
+  },
   "customDescription": "A személyre szabott lehetőséggel specializálhatod a csata valamennyi körülményét, illetve meghívhatod barátaidat.",
   "createCustomGame": "Személyre szabott meccs létrehozása",
   "maxTurn": "Körök max száma",
@@ -115,6 +141,7 @@
   },
   "createScenario": "Pálya létrehozása",
   "loadScenario": "Pálya betöltése",
+  "invalidScenarioType": "Csak előre beállított vagy hibrid forgatókönyveket tölthetsz be.",
   "playOffline": "Offline meccs",
   "createOfflineGame": "Offline meccs létrehozása",
   "chooseAScenario": "Válassz egy pályát",
@@ -279,6 +306,10 @@
     "p2": "Mivel a játék még bétában van, meghívlak, hogy csatlakozz a <discordLink>Discord szerverünkre</discordLink> hogy részesévé válj a közösségnek, könnyebben találj ellenfeleket, hibákat jelenthess, és hogy mindenkivel megoszthatsd az ötleteidet a játékélmény javításáról!"
   },
   "turn": "Kör",
+  "bank": "Tartalék",
+  "cap": "Limit",
+  "deploy": "Felállítás",
+  "noCap": "Korlát nélkül",
   "loadingScreen": {
     "fonts": "Fontok betöltése...",
     "joiningGame": "Csatlakozás a játékhoz...",
@@ -527,8 +558,7 @@
   "clear": "Törlés",
   "privacy": "Adatvédelem",
   "showCountry": "Ország megjelenítése",
-  "controlSchemeModal": {
-    "title": "Új irányítási séma",
-    "message": "A Lines of Battle irányítási sémáját továbbfejlesztettük és egyszerűsítettük, de most már nagyon más. Az új és a régi játékosoknak egyaránt érdemes végigjátszaniuk a tutorialt az új rendszer megismeréséhez."
-  }
+  "tournamentEraMismatch": "A jelenlegi korszakod {{current}}, de a torna korszaka {{target}}. Szeretnél váltani?",
+  "switchToEra": "Váltás erre: {{era}}",
+  "goHome": "Kezdőlap"
 }

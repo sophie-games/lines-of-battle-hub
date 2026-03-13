@@ -1,4 +1,4 @@
-﻿{
+{
   "appLoadingMessage": "欢迎来到 战线统帅：拿破仑！",
   "home": "主页",
   "language": "语言",
@@ -16,6 +16,7 @@
   "baseLevelExperience": "基础经验值",
   "experience": "经验值",
   "season": "赛季",
+  "time": "时间",
   "of": "/",
   "joinedAt": "加入于{{date}}",
   "createdAt": "创建于{{date}}",
@@ -67,7 +68,6 @@
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
-  "maxTimePerTurn": "每回合时间限制",
   "turnTimeLimit": {
     "30s": "30秒",
     "1m": "1分钟",
@@ -78,9 +78,19 @@
     "3d": "3天",
     "7d": "7天"
   },
+  "gameTimePreset": {
+    "bullet": "子弹棋",
+    "blitz": "闪电战",
+    "rapid": "快棋",
+    "daily": "每日",
+    "correspondence": "通信",
+    "marathon": "马拉松"
+  },
   "battleType": "战斗规模",
   "matchmaking": "匹配",
   "matchmakingDescription": "匹配模式下能让你快速找到一个随机的对手，并使用预先配置好的军队战斗。",
+  "requiredInMatchmakingQueue": "始终在匹配队列中",
+  "requiredScenarioBadge": "必选",
   "onlyPartyLeaderCanSearch": "只有队长才可以开始匹配。",
   "partyFormed": "已组队",
   "partySearchStatus": {
@@ -90,6 +100,22 @@
     "memberDescription": "只有队长才可以开始匹配。当匹配开始时你会收到通知"
   },
   "custom": "自定义",
+  "customTimeSettings": "自定义时间设置",
+  "timeControls": "时间控制",
+  "customTimeFields": {
+    "bankTime": "银行时间",
+    "bankTimeHint": "每位玩家的初始银行时间。若为0则无时间限制（慢速对局）。",
+    "increment": "加时",
+    "incrementHint": "每回合提交后增加的秒数（0=无）",
+    "turnCap": "回合上限",
+    "turnCapHint": "每回合最大秒数（0=无上限，慢速对局）",
+    "deployTime": "部署时间",
+    "deployTimeHint": "第0回合时间限制（秒）（0=使用银行时间）",
+    "unitS": "秒",
+    "unitMin": "分",
+    "unitH": "时",
+    "unitD": "天"
+  },
   "customDescription": "自定义模式可以让你自己创建一个特定设置的对局，并允许你邀请朋友加入。",
   "createCustomGame": "创建自定义对局",
   "maxTurn": "最大回合数",
@@ -127,6 +153,7 @@
   },
   "createScenario": "创建战役剧本",
   "loadScenario": "加载战役剧本",
+  "invalidScenarioType": "您只能加载预设或混合战役。",
   "playOffline": "离线游玩！",
   "createOfflineGame": "创建离线对局",
   "chooseAScenario": "选择战役剧本",
@@ -252,8 +279,6 @@
   "maxElevationDiff": "最大高度差",
   "orgModifierByTargetOrg": "基于目标组织度的组织度修正",
   "damageModifierByTargetHp": "基于目标HP的伤害修正",
-  "from": "从",
-  "to": "到",
   "lBy": "修正",
   "terrainHitboxHeight": "地形遮蔽高度",
   "statusEffects": "状态效果",
@@ -326,6 +351,10 @@
     "p2": "由于这个游戏尚在beta测试阶段，欢迎你加入我们的<discordLink>Discord服务器</discordLink>和其它玩家一起交流讨论，互相对局，报告bug，以及分享你对游戏建议，让大家的游戏体验越来越好！"
   },
   "turn": "回合",
+  "bank": "储备",
+  "cap": "上限",
+  "deploy": "部署",
+  "noCap": "无上限",
   "loadingScreen": {
     "fonts": "正在加载字体……",
     "joiningGame": "正在加入对局……",
@@ -652,6 +681,8 @@
   "translationsMessage": "想要参与帮助翻译本游戏吗？可以看向<0>这里</0>.",
   "gameSearch": "搜索对局",
   "minTurn": "最低回合数",
+  "from": "从",
+  "to": "到",
   "applyFilters": "应用过滤器",
   "objective": "目标点",
   "victoryPoints": "胜利点数",
@@ -827,8 +858,7 @@
   "clear": "清除",
   "privacy": "隐私",
   "showCountry": "显示国家",
-  "controlSchemeModal": {
-    "title": "新控制方案",
-    "message": "Lines of Battle 的控制方案得到了改进和精简，但现在有很大不同。新老玩家都应该玩教程以学习新系统。"
-  }
+  "tournamentEraMismatch": "您当前的时段是 {{current}}，但巡回赛的时段是 {{target}}。您要切换吗？",
+  "switchToEra": "切换到 {{era}}",
+  "goHome": "返回主页"
 }

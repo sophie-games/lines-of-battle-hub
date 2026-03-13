@@ -31,6 +31,10 @@
     "title": "Smart Curved Movement",
     "description": "Aktifkan opsi ini untuk mengoptimalkan jalur pergerakan dengan kurva halus, meminimalkan kehilangan kecepatan selama rotasi."
   },
+  "pathFinding": {
+    "title": "Pencarian rute",
+    "description": "Gunakan pencarian rute untuk pergerakan alih-alih garis lurus."
+  },
   "openSelectOrderModal": {
     "title": "Buka Jendela pop-up Pilih Perintah",
     "description": "Aktifkan opsi ini untuk menampilkan jendela pemilihan perintah selama permainan."
@@ -73,6 +77,10 @@
   "shadows": {
     "title": "Bayangan",
     "description": "Mengaktifkan bayangan pada unit."
+  },
+  "showGrid": {
+    "title": "Tampilkan grid",
+    "description": "Menampilkan overlay grid ubin di peta."
   },
   "showDebugShapes": {
     "title": "Tampilkan bentuk debug",
@@ -119,6 +127,7 @@
     "fireAndAdvanceOrder": "Perintah Menembak Dengan Bergerak",
     "fallbackOrder": "Perintah Mundur",
     "toggleSmartCurvedMovements": "Ubah Gerakan Melengkung Cerdas",
+    "togglePathFinding": "Alihkan pencarian rute",
     "toggleFowPerspective": "Ubah Perspektif Kabut Perang",
     "toggleMultiTurnOrders": "Ubah Perintah Multi-giliran",
     "toggleRotateOrder": "Ubah Perintah Putar",

@@ -31,6 +31,10 @@
     "title": "Mouvements courbés intelligents",
     "description": "Active cette option pour optimiser les trajets de mouvement avec des courbes fluides, réduisant la perte de vitesse lors des rotations."
   },
+  "pathFinding": {
+    "title": "Recherche de chemin",
+    "description": "Utiliser la recherche de chemin pour le déplacement au lieu de lignes droites."
+  },
   "openSelectOrderModal": {
     "title": "Ouvrir la fenêtre modale de sélection d'ordres",
     "description": "Active cette option pour afficher une fenêtre modale permettant de sélectionner des ordres pendant le jeu."
@@ -70,6 +74,10 @@
   "shadows": {
     "title": "Ombres",
     "description": "Active les ombres sur les unités."
+  },
+  "showGrid": {
+    "title": "Afficher la grille",
+    "description": "Affiche une superposition de grille de tuiles sur la carte."
   },
   "showDebugShapes": {
     "title": "Afficher les formes de débogage",
@@ -119,6 +127,7 @@
     "fireAndAdvanceOrder": "Ordre de tirer et avancer",
     "fallbackOrder": "Ordre de repli",
     "toggleSmartCurvedMovements": "Basculer les mouvements courbés intelligents",
+    "togglePathFinding": "Basculer la recherche de chemin",
     "toggleFowPerspective": "Basculer la perspective de brouillard de guerre",
     "toggleMultiTurnOrders": "Basculer les ordres multi-tours",
     "toggleRotateOrder": "Basculer l'ordre de rotation",

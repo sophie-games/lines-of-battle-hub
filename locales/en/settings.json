@@ -31,6 +31,10 @@
     "title": "Smart Curved Movements",
     "description": "Enable this option to optimize movement paths with smooth curves, minimizing speed loss during rotations."
   },
+  "pathFinding": {
+    "title": "Path finding",
+    "description": "Use pathfinding for movement instead of straight lines."
+  },
   "openSelectOrderModal": {
     "title": "Open Select Order Modal",
     "description": "Enable this option to show a modal for selecting orders during gameplay."
@@ -84,6 +88,10 @@
   "shadows": {
     "title": "Shadows",
     "description": "Enables shadows on units."
+  },
+  "showGrid": {
+    "title": "Show grid",
+    "description": "Show a tile grid overlay on the map."
   },
   "showDebugShapes": {
     "title": "Show debug shapes",
@@ -150,6 +158,7 @@
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
         "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
+        "togglePathFinding": "Toggle Path finding",
         "toggleFowPerspective": "Toggle Fog of War Perspective",
         "toggleMultiTurnOrders": "Toggle Multi-turn Orders",
         "toggleRotateOrder": "Toggle Rotate Order",

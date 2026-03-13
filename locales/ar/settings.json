@@ -31,6 +31,10 @@
     "title": "الحركات المنحنية الذكية",
     "description": "تفعيل هذا الخيار لتحسين مسارات الحركة بمنحنيات سلسة، مما يقلل من فقدان السرعة أثناء الدوران."
   },
+  "pathFinding": {
+    "title": "البحث عن المسار",
+    "description": "استخدام البحث عن المسار للحركة بدلاً من الخطوط المستقيمة."
+  },
   "openSelectOrderModal": {
     "title": "فتح نافذة اختيار الأوامر",
     "description": "تفعيل هذا الخيار لإظهار نافذة لاختيار الأوامر أثناء اللعب."
@@ -84,6 +88,10 @@
   "shadows": {
     "title": "الظلال",
     "description": "تفعيل الظلال على الوحدات."
+  },
+  "showGrid": {
+    "title": "إظهار الشبكة",
+    "description": "إظهار طبقة شبكة البلاط على الخريطة."
   },
   "showDebugShapes": {
     "title": "إظهار أشكال التصحيح",
@@ -146,6 +154,7 @@
     "fireAndAdvanceOrder": "أمر إطلاق النار والتقدم",
     "fallbackOrder": "أمر التراجع",
     "toggleSmartCurvedMovements": "تبديل الحركات المنحنية الذكية",
+    "togglePathFinding": "تبديل البحث عن المسار",
     "toggleFowPerspective": "تبديل منظور ضباب الحرب",
     "toggleMultiTurnOrders": "تبديل الأوامر متعددة الأدوار",
     "toggleRotateOrder": "تبديل أمر الدوران",

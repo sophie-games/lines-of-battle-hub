@@ -1,4 +1,4 @@
-﻿{
+{
   "gameplay": "游戏性",
   "graphics": "画面",
   "camera": "镜头",
@@ -30,6 +30,10 @@
   "smartCurvedMovements": {
     "title": "智能曲线移动",
     "description": "启用后会自动优化行动路线，让曲线更加平滑来减少单位转向时浪费的速度。"
+  },
+  "pathFinding": {
+    "title": "寻路",
+    "description": "使用寻路进行移动而非直线。"
   },
   "openSelectOrderModal": {
     "title": "启用指令菜单",
@@ -84,6 +88,10 @@
   "shadows": {
     "title": "阴影",
     "description": "为单位启用阴影。"
+  },
+  "showGrid": {
+    "title": "显示网格",
+    "description": "在地图上显示瓦片网格叠加层。"
   },
   "showDebugShapes": {
     "title": "显示调试图形",
@@ -150,6 +158,7 @@
     "fireAndAdvanceOrder": "移动射击指令",
     "fallbackOrder": "后退指令",
     "toggleSmartCurvedMovements": "切换智能曲线移动",
+    "togglePathFinding": "切换路径寻找",
     "toggleFowPerspective": "切换战争迷雾视角",
     "toggleMultiTurnOrders": "切换多回合指令",
     "toggleRotateOrder": "切换转向指令",

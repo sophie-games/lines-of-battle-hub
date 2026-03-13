@@ -16,6 +16,7 @@
   "experience": "Deneyim",
   "nextLevelExperience": "Sonraki seviye deneyimi",
   "season": "Sezon",
+  "time": "Süre",
   "of": "arasında",
   "joinedAt": "{{date}} tarihinde katıldı",
   "addPlayer": "Oyuncu ekle",
@@ -66,7 +67,6 @@
   },
   "fastMode": "Hızlı Mod",
   "slowMode": "Yavaş Mod",
-  "maxTimePerTurn": "Tur başına maksimum süre",
   "turnTimeLimit": {
     "30s": "30 saniye",
     "1m": "1 dakika",
@@ -77,10 +77,36 @@
     "3d": "3 gün",
     "7d": "7 gün"
   },
+  "gameTimePreset": {
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Hızlı",
+    "daily": "Günlük",
+    "correspondence": "Mektuplaşma",
+    "marathon": "Maraton"
+  },
   "battleType": "Savaş türü",
   "matchmaking": "Eşleştirme",
   "matchmakingDescription": "Eşleştirme modu, önceden tanımlanmış ayarlarla rastgele oyuncularla hızlıca bir oyuna katılmanızı sağlar.",
+  "requiredInMatchmakingQueue": "Her zaman kuyrukta",
+  "requiredScenarioBadge": "Zorunlu",
   "custom": "Özel",
+  "customTimeSettings": "Özel zaman ayarları",
+  "timeControls": "Zaman kontrolü",
+  "customTimeFields": {
+    "bankTime": "Banka süresi",
+    "bankTimeHint": "Oyuncu başına başlangıç banka süresi. 0 ise süre sınırı yok (yavaş oyun).",
+    "increment": "Artış",
+    "incrementHint": "Her hamle sonrası eklenen saniye (0 = yok)",
+    "turnCap": "Hamle sınırı",
+    "turnCapHint": "Hamle başına max saniye (0 = sınır yok, yavaş oyun)",
+    "deployTime": "Yerleşim süresi",
+    "deployTimeHint": "Hamle 0 süre sınırı saniye (0 = banka kullanılır)",
+    "unitS": "sn",
+    "unitMin": "dk",
+    "unitH": "s",
+    "unitD": "g"
+  },
   "customDescription": "Özel mod, belirli ayarlarla bir oyun kurmanıza ve arkadaşlarınızı davet etmenize olanak tanır.",
   "createCustomGame": "Özel oyun oluştur",
   "maxTurn": "Maksimum tur",
@@ -115,6 +141,7 @@
   },
   "createScenario": "Senaryo Oluştur",
   "loadScenario": "Senaryo Yükle",
+  "invalidScenarioType": "Yalnızca önceden ayarlanmış veya hibrit senaryoları yükleyebilirsiniz.",
   "playOffline": "Çevrimdışı Oyna!",
   "createOfflineGame": "Çevrimdışı oyun oluştur",
   "chooseAScenario": "Bir senaryo seç",
@@ -279,6 +306,10 @@
     "p2": "Oyun şu anda beta aşamasında olduğu için, diğer oyuncularla bağlantı kurmak, rakipler bulmak, hataları bildirmek ve oyun deneyimini herkes için iyileştirmek için fikirlerinizi paylaşmak adına <discordLink>Discord sunucusuna</discordLink> katılmaya davetlisiniz!"
   },
   "turn": "Tur",
+  "bank": "Rezerv",
+  "cap": "Limit",
+  "deploy": "Yerleşim",
+  "noCap": "Limitsiz",
   "loadingScreen": {
     "fonts": "Yazı tipleri yükleniyor...",
     "joiningGame": "Oyuna katılınıyor...",
@@ -575,8 +606,7 @@
   "clear": "Temizle",
   "privacy": "Gizlilik",
   "showCountry": "Ülkeyi göster",
-  "controlSchemeModal": {
-    "title": "Yeni Kontrol Şeması",
-    "message": "Lines of Battle kontrol şeması geliştirildi ve sadeleştirildi, ancak şu an çok farklı. Yeni ve eski oyuncuların yeni sistemi öğrenmek için öğreticiyi oynamaları önerilir."
-  }
+  "tournamentEraMismatch": "Mevcut döneminiz {{current}}, ancak turnuva dönemi {{target}}. Değiştirmek ister misiniz?",
+  "switchToEra": "{{era}} dönemine geç",
+  "goHome": "Ana Sayfaya Git"
 }

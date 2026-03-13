@@ -31,6 +31,10 @@
     "title": "Akıllı Kavisli Hareketler",
     "description": "Bu seçeneği etkinleştirerek, dönüşler sırasında hız kaybını en aza indiren pürüzsüz kavisli hareket yollarını optimize edebilirsiniz."
   },
+  "pathFinding": {
+    "title": "Yol bulma",
+    "description": "Düz çizgiler yerine hareket için yol bulma kullanın."
+  },
   "openSelectOrderModal": {
     "title": "Emir Seçim Modalını Aç",
     "description": "Bu seçeneği etkinleştirerek, oynanış sırasında emir seçimi için bir modal gösterilir."
@@ -73,6 +77,10 @@
   "shadows": {
     "title": "Gölgeler",
     "description": "Birimlerde gölgeleri etkinleştirir."
+  },
+  "showGrid": {
+    "title": "Izgara göster",
+    "description": "Haritada bir karo ızgara katmanı gösterir."
   },
   "showDebugShapes": {
     "title": "Hata ayıklama şekillerini göster",
@@ -119,6 +127,7 @@
     "fireAndAdvanceOrder": "Ateş ve ilerle emri",
     "fallbackOrder": "Geri çekil emri",
     "toggleSmartCurvedMovements": "Akıllı eğri hareketleri değiştir",
+    "togglePathFinding": "Yol bulmayı değiştir",
     "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
     "toggleMultiTurnOrders": "Çok Turlu Emirleri Değiştir",
     "toggleRotateOrder": "Döndürme Emrini Değiştir",

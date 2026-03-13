@@ -31,6 +31,10 @@
     "title": "Movimentos Curvos Inteligentes",
     "description": "Ative esta opção para otimizar os caminhos de movimento com curvas suaves, minimizando a perda de velocidade durante rotações."
   },
+  "pathFinding": {
+    "title": "Busca de caminho",
+    "description": "Use busca de caminho para movimento em vez de linhas retas."
+  },
   "openSelectOrderModal": {
     "title": "Abrir Modal de Seleção de Ordens",
     "description": "Ative esta opção para exibir um modal para selecionar ordens durante a jogabilidade."
@@ -73,6 +77,10 @@
   "shadows": {
     "title": "Sombras",
     "description": "Ativa sombras nas unidades."
+  },
+  "showGrid": {
+    "title": "Mostrar grade",
+    "description": "Mostra uma sobreposição de grade de blocos no mapa."
   },
   "showDebugShapes": {
     "title": "Mostrar formas de depuração",
@@ -119,6 +127,7 @@
     "fireAndAdvanceOrder": "Ordem de disparar e avançar",
     "fallbackOrder": "Ordem de recuo",
     "toggleSmartCurvedMovements": "Alternar movimentos curvos inteligentes",
+    "togglePathFinding": "Alternar busca de caminho",
     "toggleFowPerspective": "Alternar perspectiva de névoa de guerra",
     "toggleMultiTurnOrders": "Alternar ordens de vários turnos",
     "toggleRotateOrder": "Alternar ordem de rotação",

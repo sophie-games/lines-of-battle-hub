@@ -16,6 +16,7 @@
   "experience": "Esperienza",
   "nextLevelExperience": "Esperienza del livello successivo",
   "season": "Stagione",
+  "time": "Tempo",
   "of": "di",
   "joinedAt": "Iscritto il {{date}}",
   "addPlayer": "Aggiungi giocatore",
@@ -66,7 +67,6 @@
   },
   "fastMode": "Modalità veloce",
   "slowMode": "Modalità lenta",
-  "maxTimePerTurn": "Tempo massimo per turno",
   "turnTimeLimit": {
     "30s": "30 secondi",
     "1m": "1 minuto",
@@ -77,10 +77,36 @@
     "3d": "3 giorni",
     "7d": "7 giorni"
   },
+  "gameTimePreset": {
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Rapido",
+    "daily": "Giornaliero",
+    "correspondence": "Per corrispondenza",
+    "marathon": "Maratona"
+  },
   "battleType": "Tipo di battaglia",
   "matchmaking": "Matchmaking",
   "matchmakingDescription": "La modalità matchmaking ti permette di unirti rapidamente a un gioco con giocatori casuali usando impostazioni predefinite.",
+  "requiredInMatchmakingQueue": "Sempre in coda",
+  "requiredScenarioBadge": "Obbligatorio",
   "custom": "Personalizzato",
+  "customTimeSettings": "Impostazioni tempo personalizzate",
+  "timeControls": "Controllo tempo",
+  "customTimeFields": {
+    "bankTime": "Tempo di bank",
+    "bankTimeHint": "Tempo di bank iniziale per giocatore. Se 0, nessun limite (partita lenta).",
+    "increment": "Incremento",
+    "incrementHint": "Secondi aggiunti dopo ogni turno (0 = nessuno)",
+    "turnCap": "Limite per turno",
+    "turnCapHint": "Max secondi per turno (0 = nessun limite, partita lenta)",
+    "deployTime": "Tempo schieramento",
+    "deployTimeHint": "Limite tempo al turno 0 in secondi (0 = usa il bank)",
+    "unitS": "s",
+    "unitMin": "min",
+    "unitH": "h",
+    "unitD": "g"
+  },
   "customDescription": "La modalità personalizzata ti permette di configurare un gioco con impostazioni specifiche e invitare amici a giocare.",
   "createCustomGame": "Crea gioco personalizzato",
   "maxTurn": "Turno massimo",
@@ -115,6 +141,7 @@
   },
   "createScenario": "Crea scenario",
   "loadScenario": "Carica scenario",
+  "invalidScenarioType": "Puoi caricare solo scenari preimpostati o ibridi.",
   "playOffline": "Gioca offline!",
   "createOfflineGame": "Crea gioco offline",
   "chooseAScenario": "Scegli uno scenario",
@@ -279,6 +306,10 @@
     "p2": "Dato che il gioco è attualmente in beta, ti invito a unirti al <discordLink>server Discord</discordLink> per connetterti con altri giocatori, trovare avversari con cui giocare, segnalare bug e condividere le tue idee per migliorare l'esperienza di gioco per tutti!"
   },
   "turn": "Turno",
+  "bank": "Riserva",
+  "cap": "Limite",
+  "deploy": "Schieramento",
+  "noCap": "Senza limite",
   "loadingScreen": {
     "fonts": "Caricamento font...",
     "joiningGame": "Unione al gioco...",
@@ -574,8 +605,7 @@
   "clear": "Cancella",
   "privacy": "Privacy",
   "showCountry": "Mostra paese",
-  "controlSchemeModal": {
-    "title": "Nuovo schema di controllo",
-    "message": "Lo schema di controllo di Lines of Battle è stato migliorato e snellito, ma ora è molto diverso. Sia i nuovi che i vecchi giocatori dovrebbero giocare il tutorial per imparare il nuovo sistema."
-  }
+  "tournamentEraMismatch": "La tua era attuale è {{current}}, ma l'era del torneo è {{target}}. Vuoi cambiare?",
+  "switchToEra": "Passa a {{era}}",
+  "goHome": "Vai alla Home"
 }

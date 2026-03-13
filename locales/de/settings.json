@@ -31,6 +31,10 @@
     "title": "Kluge Kurvenbewegungen",
     "description": "Aktiviere diese Option, um die Bewegungspfade mit weicheren Kurven zu optimieren, was Geschwindigkeitsverluste beim Drehen verringert."
   },
+  "pathFinding": {
+    "title": "Pfadsuche",
+    "description": "Pfadsuche für die Bewegung anstelle gerader Linien verwenden."
+  },
   "openSelectOrderModal": {
     "title": "Befehlsauswahlsmodal öffnen",
     "description": "Aktiviere diese Option, um ein Modal für die Auswahl von Befehlen während des Spiels."
@@ -73,6 +77,10 @@
   "shadows": {
     "title": "Schatten",
     "description": "Aktiviert Schatten bei Einheiten."
+  },
+  "showGrid": {
+    "title": "Raster anzeigen",
+    "description": "Zeigt ein Kachelraster-Overlay auf der Karte an."
   },
   "showDebugShapes": {
     "title": "Debug-Formen anzeigen",
@@ -122,6 +130,7 @@
     "fireAndAdvanceOrder": "Feuer-und-Vorrück-Auftrag",
     "fallbackOrder": "Rückzugsauftrag",
     "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
+    "togglePathFinding": "Pfadsuche umschalten",
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
     "toggleMultiTurnOrders": "Mehrzügige Befehle umschalten",
     "toggleRotateOrder": "Rotationsbefehl umschalten",

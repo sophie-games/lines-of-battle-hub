@@ -31,6 +31,10 @@
     "title": "Умное движение по кривой",
     "description": "Минимизирует потери скорости при поворотах."
   },
+  "pathFinding": {
+    "title": "Поиск пути",
+    "description": "Использовать поиск пути для движения вместо прямых линий."
+  },
   "openSelectOrderModal": {
     "title": "Открывать окно выбора приказа",
     "description": "Если активно, во время игры будет показываться окно выбора приказа."
@@ -84,6 +88,10 @@
   "shadows": {
     "title": "Тени",
     "description": "Включает тени на юнитах."
+  },
+  "showGrid": {
+    "title": "Показать сетку",
+    "description": "Показывает наложение сетки плиток на карте."
   },
   "showDebugShapes": {
     "title": "Показывать отладочные формы",
@@ -150,6 +158,7 @@
     "fireAndAdvanceOrder": "Огонь при движении",
     "fallbackOrder": "Отход",
     "toggleSmartCurvedMovements": "Умное движение по кривой",
+    "togglePathFinding": "Переключить поиск пути",
     "toggleFowPerspective": "Перспектива тумана войны",
     "toggleMultiTurnOrders": "Планирование манёвров",
     "toggleRotateOrder": "Включение приказа 'Поворот'",

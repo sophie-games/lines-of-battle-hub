@@ -31,6 +31,10 @@
     "title": "スマートカーブ移動",
     "description": "このオプションを有効にすると、移動経路がスムーズな曲線で最適化され、回転中の速度損失を最小限に抑えます。"
   },
+  "pathFinding": {
+    "title": "経路探索",
+    "description": "直線ではなく経路探索で移動する。"
+  },
   "openSelectOrderModal": {
     "title": "命令選択モーダルを開く",
     "description": "ゲームプレイ中に命令を選択するためのモーダルを表示するオプションを有効にします。"
@@ -73,6 +77,10 @@
   "shadows": {
     "title": "影",
     "description": "ユニットに影を有効にします。"
+  },
+  "showGrid": {
+    "title": "グリッドを表示",
+    "description": "マップにタイルグリッドオーバーレイを表示します。"
   },
   "showDebugShapes": {
     "title": "デバッグ形状を表示",
@@ -119,6 +127,7 @@
     "fireAndAdvanceOrder": "発砲して前進する命令",
     "fallbackOrder": "後退命令",
     "toggleSmartCurvedMovements": "スマートカーブ移動切り替え",
+    "togglePathFinding": "経路探索の切り替え",
     "toggleFowPerspective": "戦争の霧の視点切り替え",
     "toggleMultiTurnOrders": "複数ターン命令の切り替え",
     "toggleRotateOrder": "回転命令の切り替え",

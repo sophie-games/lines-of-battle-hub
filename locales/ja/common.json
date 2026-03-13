@@ -16,6 +16,7 @@
   "experience": "経験値",
   "nextLevelExperience": "次のレベルの経験値",
   "season": "シーズン",
+  "time": "時間",
   "of": "の",
   "joinedAt": "{{date}} に参加",
   "addPlayer": "プレイヤーを追加",
@@ -66,7 +67,6 @@
   },
   "fastMode": "高速モード",
   "slowMode": "低速モード",
-  "maxTimePerTurn": "1ターンの最大時間",
   "turnTimeLimit": {
     "30s": "30秒",
     "1m": "1分",
@@ -77,10 +77,36 @@
     "3d": "3日",
     "7d": "7日"
   },
+  "gameTimePreset": {
+    "bullet": "ブレット",
+    "blitz": "ブリッツ",
+    "rapid": "ラピッド",
+    "daily": "デイリー",
+    "correspondence": "通信",
+    "marathon": "マラソン"
+  },
   "battleType": "戦闘タイプ",
   "matchmaking": "マッチメイキング",
   "matchmakingDescription": "マッチメイキングモードでは、設定済みの条件でランダムなプレイヤーとすぐに対戦できます。",
+  "requiredInMatchmakingQueue": "常にマッチング対象",
+  "requiredScenarioBadge": "必須",
   "custom": "カスタム",
+  "customTimeSettings": "カスタム時間設定",
+  "timeControls": "時間制御",
+  "customTimeFields": {
+    "bankTime": "バンク時間",
+    "bankTimeHint": "プレイヤーごとの開始バンク時間。0の場合は制限なし（スロープレイ）。",
+    "increment": "インクリメント",
+    "incrementHint": "各ターン提出後に加算される秒数（0=なし）",
+    "turnCap": "ターン上限",
+    "turnCapHint": "1ターンあたりの最大秒数（0=上限なし、スロープレイ）",
+    "deployTime": "配置時間",
+    "deployTimeHint": "ターン0の制限時間（秒）（0=バンクを使用）",
+    "unitS": "秒",
+    "unitMin": "分",
+    "unitH": "時",
+    "unitD": "日"
+  },
   "customDescription": "カスタムモードでは、特定の設定でゲームを作成し、友達を招待できます。",
   "createCustomGame": "カスタムゲームを作成",
   "maxTurn": "最大ターン数",
@@ -115,6 +141,7 @@
   },
   "createScenario": "シナリオを作成",
   "loadScenario": "シナリオを読み込む",
+  "invalidScenarioType": "プリセットまたはハイブリッドのシナリオのみ読み込めます。",
   "playOffline": "オフラインでプレイ！",
   "createOfflineGame": "オフラインゲームを作成",
   "chooseAScenario": "シナリオを選択",
@@ -279,6 +306,10 @@
     "p2": "現在ゲームはベータ版のため、<discordLink>Discordサーバー</discordLink>に参加し、他のプレイヤーと交流したり、対戦相手を見つけたり、バグを報告したり、ゲーム体験を向上させるためのアイデアを共有したりすることができます！"
   },
   "turn": "ターン",
+  "bank": "予備時間",
+  "cap": "上限",
+  "deploy": "配置",
+  "noCap": "上限なし",
   "loadingScreen": {
     "fonts": "フォントを読み込み中...",
     "joiningGame": "ゲームに参加中...",
@@ -573,8 +604,7 @@
   "clear": "クリア",
   "privacy": "プライバシー",
   "showCountry": "国を表示",
-  "controlSchemeModal": {
-    "title": "新しい操作体系",
-    "message": "Lines of Battleの操作体系が改善・簡素化されましたが、以前とは大きく異なります。新規プレイヤーもベテランプレイヤーも、新しいシステムを学ぶためにチュートリアルをプレイすることをお勧めします。"
-  }
+  "tournamentEraMismatch": "現在の時代は {{current}} ですが、トーナメントの時代は {{target}} です。切り替えますか？",
+  "switchToEra": "{{era}} に切り替える",
+  "goHome": "ホームに戻る"
 }

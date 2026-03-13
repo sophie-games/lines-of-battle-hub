@@ -16,6 +16,7 @@
   "experience": "الخبرة",
   "nextLevelExperience": "خبرة المستوى التالي",
   "season": "الموسم",
+  "time": "الوقت",
   "of": "من",
   "joinedAt": "انضم في {{date}}",
   "createdAt": "تم إنشاؤه في {{date}}",
@@ -67,7 +68,6 @@
   },
   "fastMode": "الوضع السريع",
   "slowMode": "الوضع البطيء",
-  "maxTimePerTurn": "الحد الأقصى للوقت لكل دور",
   "turnTimeLimit": {
     "30s": "30 ثانية",
     "1m": "دقيقة واحدة",
@@ -78,9 +78,19 @@
     "3d": "3 أيام",
     "7d": "7 أيام"
   },
+  "gameTimePreset": {
+    "bullet": "بلت",
+    "blitz": "بليتز",
+    "rapid": "سريع",
+    "daily": "يومي",
+    "correspondence": "بالمراسلة",
+    "marathon": "ماراثون"
+  },
   "battleType": "نوع المعركة",
   "matchmaking": "المطابقة",
   "matchmakingDescription": "وضع المطابقة يتيح لك الانضمام بسرعة إلى لعبة مع لاعبين عشوائيين باستخدام إعدادات محددة مسبقاً.",
+  "requiredInMatchmakingQueue": "دائماً في الطابور",
+  "requiredScenarioBadge": "مطلوب",
   "onlyPartyLeaderCanSearch": "قائد المجموعة فقط يمكنه البحث عن مباراة.",
   "partyFormed": "تم تشكيل المجموعة",
   "partySearchStatus": {
@@ -90,6 +100,22 @@
     "memberDescription": "قائد المجموعة فقط يمكنه البحث عن مباراة. سيتم إشعارك عندما يبدأ البحث."
   },
   "custom": "مخصص",
+  "customTimeSettings": "إعدادات الوقت المخصصة",
+  "timeControls": "التحكم بالوقت",
+  "customTimeFields": {
+    "bankTime": "وقت البنك",
+    "bankTimeHint": "وقت البنك الابتدائي لكل لاعب. إذا 0 فبدون حد (لعبة بطيئة).",
+    "increment": "الزيادة",
+    "incrementHint": "ثوانٍ تُضاف بعد كل نقلة (0 = لا شيء)",
+    "turnCap": "حد النقلة",
+    "turnCapHint": "أقصى ثوانٍ للنقلة (0 = بدون حد، لعبة بطيئة)",
+    "deployTime": "وقت النشر",
+    "deployTimeHint": "حد وقت النقلة 0 بالثواني (0 = يستخدم البنك)",
+    "unitS": "ث",
+    "unitMin": "د",
+    "unitH": "س",
+    "unitD": "ي"
+  },
   "customDescription": "الوضع المخصص يتيح لك إعداد لعبة بإعدادات محددة ودعوة الأصدقاء للعب.",
   "createCustomGame": "إنشاء لعبة مخصصة",
   "maxTurn": "الحد الأقصى للأدوار",
@@ -127,6 +153,7 @@
   },
   "createScenario": "إنشاء سيناريو",
   "loadScenario": "تحميل سيناريو",
+  "invalidScenarioType": "يمكنك تحميل السيناريوهات المحددة مسبقاً أو المختلطة فقط.",
   "playOffline": "العب دون اتصال!",
   "createOfflineGame": "إنشاء لعبة دون اتصال",
   "chooseAScenario": "اختر سيناريو",
@@ -249,8 +276,6 @@
   "maxElevationDiff": "أقصى فرق ارتفاع",
   "orgModifierByTargetOrg": "يقل حسب تنظيم الهدف",
   "damageModifierByTargetHp": "تعديل الضرر حسب صحة الهدف",
-  "from": "من",
-  "to": "إلى",
   "lBy": "بواسطة",
   "terrainHitboxHeight": "ارتفاع صندوق التصادم للتضاريس",
   "statusEffects": "تأثيرات الحالة",
@@ -321,6 +346,10 @@
     "p2": "بما أن اللعبة حالياً في مرحلة التجريب، أدعوك للانضمام إلى <discordLink>خادم Discord</discordLink> للتواصل مع اللاعبين الآخرين، والعثور على خصوم للعب معهم، والإبلاغ عن الأخطاء، ومشاركة أفكارك لمساعدة في تحسين تجربة اللعبة للجميع!"
   },
   "turn": "دور",
+  "bank": "الرصيد",
+  "cap": "الحد",
+  "deploy": "نشر",
+  "noCap": "بدون حد",
   "loadingScreen": {
     "fonts": "جاري تحميل الخطوط...",
     "joiningGame": "جاري الانضمام للعبة...",
@@ -648,6 +677,8 @@
   "translationsMessage": "هل تريد التعاون في الترجمة؟ يمكنك القيام بذلك <0>هنا</0>.",
   "gameSearch": "البحث عن الألعاب",
   "minTurn": "الحد الأدنى للدور",
+  "from": "من",
+  "to": "إلى",
   "applyFilters": "تطبيق المرشحات",
   "objective": "هدف",
   "victoryPoints": "نقاط النصر",
@@ -810,8 +841,7 @@
   "clear": "مسح",
   "privacy": "الخصوصية",
   "showCountry": "إظهار البلد",
-  "controlSchemeModal": {
-    "title": "نظام تحكم جديد",
-    "message": "تم تحسين وتبسيط نظام التحكم في Lines of Battle، ولكنه مختلف تمامًا الآن. يجب على اللاعبين الجدد والقدامى على حد سواء لعب البروتوكول التعليمي لتعلم النظام الجديد."
-  }
+  "tournamentEraMismatch": "عصرك الحالي هو {{current}}، لكن عصر البطولة هو {{target}}. هل تريد التبديل؟",
+  "switchToEra": "التبديل إلى {{era}}",
+  "goHome": "العودة إلى الصفحة الرئيسية"
 }

@@ -16,6 +16,7 @@
   "baseLevelExperience": "Base level experience",
   "experience": "Experience",
   "season": "Season",
+  "time": "Time",
   "of": "of",
   "joinedAt": "Joined at {{date}}",
   "createdAt": "Created at {{date}}",
@@ -67,7 +68,6 @@
   },
   "fastMode": "Fast Mode",
   "slowMode": "Slow Mode",
-  "maxTimePerTurn": "Max time per turn",
   "turnTimeLimit": {
     "30s": "30 seconds",
     "1m": "1 minute",
@@ -78,9 +78,19 @@
     "3d": "3 days",
     "7d": "7 days"
   },
+  "gameTimePreset": {
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Rapid",
+    "daily": "Daily",
+    "correspondence": "Correspondence",
+    "marathon": "Marathon"
+  },
   "battleType": "Battle type",
   "matchmaking": "Matchmaking",
   "matchmakingDescription": "Matchmaking mode lets you quickly join a game with random players using predefined settings.",
+  "requiredInMatchmakingQueue": "Always in queue",
+  "requiredScenarioBadge": "Required",
   "onlyPartyLeaderCanSearch": "Only the party leader can search for a match.",
   "partyFormed": "Party formed",
   "partySearchStatus": {
@@ -90,6 +100,22 @@
     "memberDescription": "Only the party leader can search for a match. You will be notified when they start searching."
   },
   "custom": "Custom",
+  "customTimeSettings": "Custom time settings",
+  "timeControls": "Time controls",
+  "customTimeFields": {
+    "bankTime": "Bank time",
+    "bankTimeHint": "Starting time bank per player",
+    "increment": "Increment",
+    "incrementHint": "Seconds added after each submitted turn (0 = none)",
+    "turnCap": "Turn cap",
+    "turnCapHint": "Max seconds per turn (0 = no cap, slow game)",
+    "deployTime": "Deploy time",
+    "deployTimeHint": "Turn-0 time limit in seconds (0 = uses bank)",
+    "unitS": "s",
+    "unitMin": "min",
+    "unitH": "h",
+    "unitD": "d"
+  },
   "customDescription": "Custom mode lets you set up a game with specific settings and invite friends to play.",
   "createCustomGame": "Create Custom game",
   "maxTurn": "Max turn",
@@ -127,6 +153,7 @@
   },
   "createScenario": "Create Scenario",
   "loadScenario": "Load Scenario",
+  "invalidScenarioType": "You can only load preset or hybrid scenarios.",
   "playOffline": "Play Offline!",
   "createOfflineGame": "Create offline game",
   "chooseAScenario": "Choose a scenario",
@@ -252,8 +279,6 @@
   "maxElevationDiff": "Max Elevation Difference",
   "orgModifierByTargetOrg": "Org Modifier by Target Org",
   "damageModifierByTargetHp": "Damage Modifier by Target HP",
-  "from": "from",
-  "to": "to",
   "lBy": "by",
   "terrainHitboxHeight": "Terrain Hitbox Height",
   "statusEffects": "Status Effects",
@@ -326,6 +351,10 @@
     "p2": "Since the game is currently in beta, I invite you to join the <discordLink>Discord server</discordLink> to connect with other players, find opponents to play with, report bugs, and share your ideas to help improve the game experience for everyone!"
   },
   "turn": "Turn",
+  "bank": "Bank",
+  "cap": "Cap",
+  "deploy": "Deploy",
+  "noCap": "No cap",
   "loadingScreen": {
     "fonts": "Loading fonts...",
     "joiningGame": "Joining game...",
@@ -549,6 +578,9 @@
     "completed": "Completed",
     "cancelled": "Cancelled"
   },
+  "tournamentEraMismatch": "Your current era is {{current}}, but the tournament era is {{target}}. Do you want to switch?",
+  "switchToEra": "Switch to {{era}}",
+  "goHome": "Go Home",
   "hasPassword": "Has password",
   "autoProgression": "Auto progression",
   "autoProgressionInfo": "If this option is enabled, the tournament will automatically move to the next round as soon as the last match of the current round is completed. If it is disabled, the tournament will advance either when the administrator starts it manually or at the scheduled date and time (if one has been set).",
@@ -652,6 +684,8 @@
   "translationsMessage": "Do you want to collaborate with translations? You can do it <0>here</0>.",
   "gameSearch": "Game search",
   "minTurn": "Min turn",
+  "from": "from",
+  "to": "to",
   "applyFilters": "Apply filters",
   "objective": "Objective",
   "victoryPoints": "Victory Points",
@@ -826,9 +860,5 @@
   "recent": "Recent",
   "clear": "Clear",
   "privacy": "Privacy",
-  "showCountry": "Show country",
-  "controlSchemeModal": {
-    "title": "New Control Scheme",
-    "message": "The Lines of Battle control scheme has been improved and streamlined, but is very different now. New and old players alike should play the tutorial to learn the new system."
-  }
+  "showCountry": "Show country"
 }

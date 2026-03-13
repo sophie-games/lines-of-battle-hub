@@ -16,6 +16,7 @@
   "experience": "경험치",
   "nextLevelExperience": "다음 레벨 경험치",
   "season": "시즌",
+  "time": "시간",
   "of": "중",
   "joinedAt": "가입일 : {{date}}",
   "createdAt": "{{date}} 생성됨",
@@ -67,7 +68,6 @@
   },
   "fastMode": "단기전",
   "slowMode": "장기전",
-  "maxTimePerTurn": "턴 당 제한시간",
   "turnTimeLimit": {
     "30s": "30초",
     "1m": "1분",
@@ -78,9 +78,19 @@
     "3d": "3일",
     "7d": "7일"
   },
+  "gameTimePreset": {
+    "bullet": "불릿",
+    "blitz": "블리츠",
+    "rapid": "래피드",
+    "daily": "데일리",
+    "correspondence": "서신",
+    "marathon": "마라톤"
+  },
   "battleType": "전투 유형",
   "matchmaking": "경기 탐색",
   "matchmakingDescription": "경기 탐색을 통해 미리 설정된 설정으로 무작위 플레이어와 빠르게 경기할 수 있습니다.",
+  "requiredInMatchmakingQueue": "항상 대기열에 포함",
+  "requiredScenarioBadge": "필수",
   "onlyPartyLeaderCanSearch": "조장만 경기를 찾을 수 있습니다.",
   "partyFormed": "조 생성",
   "partySearchStatus": {
@@ -90,6 +100,22 @@
     "memberDescription": "조장만 경기를 찾을 수 있습니다. 찾기가 시작되면 알림을 받게 됩니다."
   },
   "custom": "사용자 지정",
+  "customTimeSettings": "맞춤 시간 설정",
+  "timeControls": "시간 제어",
+  "customTimeFields": {
+    "bankTime": "뱅크 시간",
+    "bankTimeHint": "플레이어당 시작 뱅크 시간. 0이면 제한 없음(느린 게임).",
+    "increment": "증가 시간",
+    "incrementHint": "제출한 턴마다 추가되는 초 (0 = 없음)",
+    "turnCap": "턴 제한",
+    "turnCapHint": "턴당 최대 초 (0 = 제한 없음, 느린 게임)",
+    "deployTime": "배치 시간",
+    "deployTimeHint": "턴 0 시간 제한(초) (0 = 뱅크 사용)",
+    "unitS": "초",
+    "unitMin": "분",
+    "unitH": "시",
+    "unitD": "일"
+  },
   "customDescription": "사용자 지정을 사용하면 특정 설정으로 경기를 설정하고 친구를 초대해 경기할 수 있습니다.",
   "createCustomGame": "사용자 지정 경기 생성",
   "maxTurn": "최대 턴",
@@ -127,6 +153,7 @@
   },
   "createScenario": "전역 창작",
   "loadScenario": "전역 불러오기",
+  "invalidScenarioType": "프리셋 또는 하이브리드 시나리오만 불러올 수 있습니다.",
   "playOffline": "오프라인으로 경기하기!",
   "createOfflineGame": "오프라인 경기 생성",
   "chooseAScenario": "전역 선택",
@@ -245,8 +272,6 @@
   "maxElevationDiff": "최대 고도 차이",
   "orgModifierByTargetOrg": "표적 조직력에 의한 감소치",
   "damageModifierByTargetHp": "표적 체력에 의한 피해 수정치",
-  "from": "에서",
-  "to": "~",
   "lBy": "에 의해",
   "terrainHitboxHeight": "지형 적중영역 높이",
   "statusEffects": "상태 효과",
@@ -317,6 +342,10 @@
     "p2": "게임은 현재 베타 버전이므로 <discordLink>디스코드 서버</discordLink>에 가입해 다른 플레이어와 교류하고, 함께 경기할 상대를 찾고, 버그를 신고하고, 생각을 공유해 모두의 게임 경험을 개선하는 데 기여하세요!"
   },
   "turn": "턴",
+  "bank": "예비 시간",
+  "cap": "상한",
+  "deploy": "배치",
+  "noCap": "상한 없음",
   "loadingScreen": {
     "fonts": "글꼴 불러오는 중...",
     "joiningGame": "경기 참여하는 중...",
@@ -643,6 +672,8 @@
   "translationsMessage": "번역에 기여하고 싶으신가요? <0>이곳</0>에서 할 수 있습니다.",
   "gameSearch": "경기 탐색",
   "minTurn": "최소 턴",
+  "from": "에서",
+  "to": "~",
   "applyFilters": "필터 적용",
   "objective": "지점목표",
   "victoryPoints": "승점",
@@ -805,8 +836,7 @@
   "clear": "정리",
   "privacy": "개인정보",
   "showCountry": "국가 표시",
-  "controlSchemeModal": {
-    "title": "새로운 조작 체계",
-    "message": "Lines of Battle의 조작 체계가 개선되고 간소화되었지만, 현재는 매우 다릅니다. 신규 플레이어와 기존 플레이어 모두 새로운 시스템을 익히기 위해 튜토리얼을 플레이해야 합니다."
-  }
+  "tournamentEraMismatch": "현재 시대는 {{current}}이지만, 토너먼트 시대는 {{target}}입니다. 전환하시겠습니까?",
+  "switchToEra": "{{era}}(으)로 전환",
+  "goHome": "홈페이지로 이동"
 }

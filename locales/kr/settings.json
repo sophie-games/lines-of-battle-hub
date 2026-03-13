@@ -31,6 +31,10 @@
     "title": "지능적 회전 이동",
     "description": "이 설정을 활성화하면 부대의 이동 경로를 부드러운 곡선형으로 최적화하여 회전 중 속도 손실을 최소화할 수 있습니다."
   },
+  "pathFinding": {
+    "title": "경로 찾기",
+    "description": "직선 대신 경로 찾기를 사용하여 이동합니다."
+  },
   "openSelectOrderModal": {
     "title": "명령 선택 모달 창 사용",
     "description": "이 설정을 활성화하면 경기 중 명령 선택을 위한 모달 창이 표시됩니다."
@@ -84,6 +88,10 @@
   "shadows": {
     "title": "그림자",
     "description": "부대 그림자를 활성화합니다."
+  },
+  "showGrid": {
+    "title": "그리드 표시",
+    "description": "지도에 타일 그리드 오버레이를 표시합니다."
   },
   "showDebugShapes": {
     "title": "디버그 모양 표시",
@@ -146,6 +154,7 @@
     "fireAndAdvanceOrder": "사격 및 전진 명령",
     "fallbackOrder": "후퇴 명령",
     "toggleSmartCurvedMovements": "지능적 곡선 이동 전환",
+    "togglePathFinding": "경로 찾기 전환",
     "toggleFowPerspective": "전장의 안개 시점 전환",
     "toggleMultiTurnOrders": "다중 턴 명령 전환",
     "toggleRotateOrder": "회전 명령 전환",

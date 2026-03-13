@@ -31,6 +31,10 @@
     "title": "Movimientos Curvos Inteligentes",
     "description": "Habilita esta opción para optimizar las rutas de movimiento con curvas suaves, minimizando la pérdida de velocidad durante las rotaciones."
   },
+  "pathFinding": {
+    "title": "Búsqueda de ruta",
+    "description": "Usar búsqueda de ruta para el movimiento en lugar de líneas rectas."
+  },
   "openSelectOrderModal": {
     "title": "Abrir Modal de Selección de Órdenes",
     "description": "Habilita esta opción para mostrar un modal para seleccionar órdenes durante el juego."
@@ -73,6 +77,10 @@
   "shadows": {
     "title": "Sombras",
     "description": "Habilita sombras en las unidades."
+  },
+  "showGrid": {
+    "title": "Mostrar cuadrícula",
+    "description": "Muestra una superposición de cuadrícula de baldosas en el mapa."
   },
   "showDebugShapes": {
     "title": "Mostrar formas de depuración",
@@ -122,6 +130,7 @@
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
     "fallbackOrder": "Orden de retirada",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
+    "togglePathFinding": "Alternar búsqueda de ruta",
     "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
     "toggleMultiTurnOrders": "Alternar órdenes de varios turnos",
     "toggleRotateOrder": "Alternar orden de rotación",
