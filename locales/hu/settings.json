@@ -4,10 +4,6 @@
   "camera": "Kamera",
   "sound": "Hang",
   "language": "Nyelv",
-  "multiTurnOrders": {
-    "title": "Több körös parancsok",
-    "description": "Ennek a beállításnak az engedélyezésével olyan parancsokat adhatsz ki, amelyeket a játék megjegyez és körönként végrehajt. Ezek a több körös parancsok akár 10 környi mozgást is magukban foglalhatnak, és tartalmazhatnak helymeghatározó parancsokat, mint például 'Mozgás', valamint célparancsokat, mint például 'Keresés'."
-  },
   "multiTurnPathMinDistance": {
     "title": "Többszörös fordulási út minimális távolsága"
   },
@@ -129,10 +125,12 @@
     "toggleSmartCurvedMovements": "Okos görbült mozgások váltása",
     "togglePathFinding": "Útvonalkeresés váltása",
     "toggleFowPerspective": "Háborús köd perspektíva váltása",
-    "toggleMultiTurnOrders": "Többszörös fordulási parancsok váltása",
     "toggleRotateOrder": "Forgatási parancs váltása",
     "openChat": "Chat megnyitása",
-    "openFormationModal": "Formáció ablak megnyitása",
+    "formation1": "Formáció 1",
+    "formation2": "Formáció 2",
+    "formation3": "Formáció 3",
+    "formation4": "Formáció 4",
     "toggleFullscreen": "Teljes képernyő váltása",
     "simulateMultiTouch": "Multi-touch szimulálása",
     "toggleSupplyLines": "Ellátási vonalak váltása",

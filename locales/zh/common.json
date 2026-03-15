@@ -772,6 +772,8 @@
   "disconnecting": "断开连接...",
   "unknown": "未知",
   "fogOfWar": "战争迷雾",
+  "spectatorFullVision": "观察者全视野",
+  "eloKFactorTooltip": "ELO K系数（每场排位赛最大积分变动）",
   "max": "最大",
   "minDistanceToFAA": "移动射击最低距离",
   "captureProgress": "占领进度",

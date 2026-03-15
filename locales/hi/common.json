@@ -768,6 +768,8 @@
   "disconnecting": "डिस्कनेक्ट हो रहे हैं...",
   "unknown": "अज्ञात",
   "fogOfWar": "युद्ध का कोहरा",
+  "spectatorFullVision": "दर्शक पूर्ण दृष्टि",
+  "eloKFactorTooltip": "ELO K फैक्टर (रैंक्ड गेम में अधिकतम रेटिंग परिवर्तन)",
   "max": "अधिकतम",
   "minDistanceToFAA": "आग और आगे बढ़ने से न्यूनतम दूरी",
   "captureProgress": "कब्जा प्रगति",

@@ -4,10 +4,6 @@
   "camera": "カメラ",
   "sound": "サウンド",
   "language": "言語",
-  "multiTurnOrders": {
-    "title": "複数ターン命令",
-    "description": "この設定をオンにすると、ゲームが記憶し、ターンごとに実行する命令を発行できます。これらの複数ターン命令は最大10ターンの移動をカバーし、位置に関する命令（例: '移動'）や目標に関する命令（例: '探す'）を含めることができます。"
-  },
   "multiTurnPathMinDistance": {
     "title": "複数回転経路の最小距離"
   },
@@ -129,10 +125,12 @@
     "toggleSmartCurvedMovements": "スマートカーブ移動切り替え",
     "togglePathFinding": "経路探索の切り替え",
     "toggleFowPerspective": "戦争の霧の視点切り替え",
-    "toggleMultiTurnOrders": "複数ターン命令の切り替え",
     "toggleRotateOrder": "回転命令の切り替え",
     "openChat": "チャットを開く",
-    "openFormationModal": "陣形ウィンドウを開く",
+    "formation1": "陣形 1",
+    "formation2": "陣形 2",
+    "formation3": "陣形 3",
+    "formation4": "陣形 4",
     "toggleFullscreen": "フルスクリーン切り替え",
     "simulateMultiTouch": "マルチタッチをシミュレート",
     "toggleSupplyLines": "補給線の切り替え",

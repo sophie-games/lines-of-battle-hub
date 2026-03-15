@@ -767,6 +767,8 @@
   "disconnecting": "Đang ngắt kết nối...",
   "unknown": "Không xác định",
   "fogOfWar": "Sương mù chiến tranh",
+  "spectatorFullVision": "Tầm nhìn đầy đủ cho khán giả",
+  "eloKFactorTooltip": "Hệ số K ELO (thay đổi xếp hạng tối đa mỗi trận xếp hạng)",
   "max": "Tối đa",
   "minDistanceToFAA": "Khoảng cách tối thiểu đến FAA",
   "captureProgress": "Tiến độ chiếm",

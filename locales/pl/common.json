@@ -709,6 +709,8 @@
   "disconnecting": "Rozłączanie...",
   "unknown": "Nieznane",
   "fogOfWar": "Mgła wojny",
+  "spectatorFullVision": "Pełna widoczność dla widzów",
+  "eloKFactorTooltip": "Współczynnik K ELO (maks. zmiana rankingu na mecz rankingowy)",
   "low": "Niska",
   "medium": "Średnia",
   "high": "Wysoka",

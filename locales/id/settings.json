@@ -4,10 +4,6 @@
   "camera": "Kamera",
   "sound": "Suara",
   "language": "Bahasa",
-  "multiTurnOrders": {
-    "title": "Multi-turn orders",
-    "description": "Mengaktifkan pengaturan ini akan memungkinkan Anda untuk mengeluarkan perintah yang akan diingat dan diterapkan oleh permainan dari satu giliran ke giliran berikutnya. Multi turn orders atau perintah multi-giliran ini dapat mencakup hingga 10 giliran gerakan, dan mencakup perintah lokasi seperti Bergerak serta perintah target seperti Seek."
-  },
   "multiTurnPathMinDistance": {
     "title": "Multi-turn path min distance"
   },
@@ -129,10 +125,12 @@
     "toggleSmartCurvedMovements": "Ubah Gerakan Melengkung Cerdas",
     "togglePathFinding": "Alihkan pencarian rute",
     "toggleFowPerspective": "Ubah Perspektif Kabut Perang",
-    "toggleMultiTurnOrders": "Ubah Perintah Multi-giliran",
     "toggleRotateOrder": "Ubah Perintah Putar",
     "openChat": "Buka Chat",
-    "openFormationModal": "Buka Jendela Formasi",
+    "formation1": "Formasi 1",
+    "formation2": "Formasi 2",
+    "formation3": "Formasi 3",
+    "formation4": "Formasi 4",
     "toggleFullscreen": "Ubah Layar Penuh",
     "simulateMultiTouch": "Simulasikan Multi-sentuh",
     "toggleSupplyLines": "Ubah Garis Pasokan",

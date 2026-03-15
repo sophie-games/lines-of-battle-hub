@@ -4,10 +4,6 @@
   "camera": "Kamera",
   "sound": "Ton",
   "language": "Sprache",
-  "multiTurnOrders": {
-    "title": "Mehrzügige Befehle",
-    "description": "Wenn Sie diese Einstellung aktivieren, können Sie Befehle erteilen, die das Spiel speichert und von einem Zug zum nächsten umsetzt. Diese mehrzügigen Befehle können bis zu 10 Züge Bewegung umfassen und beinhalten Ortsbefehle wie 'Bewegen' sowie Zielbefehle wie 'Suchen'."
-  },
   "multiTurnPathMinDistance": {
     "title": "Mindestdistanz des Mehrfachdrehungswegs"
   },
@@ -132,10 +128,12 @@
     "toggleSmartCurvedMovements": "Kluge Kurvenbewegungen umschalten",
     "togglePathFinding": "Pfadsuche umschalten",
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
-    "toggleMultiTurnOrders": "Mehrzügige Befehle umschalten",
     "toggleRotateOrder": "Rotationsbefehl umschalten",
     "openChat": "Chat öffnen",
-    "openFormationModal": "Formationsfenster öffnen",
+    "formation1": "Formation 1",
+    "formation2": "Formation 2",
+    "formation3": "Formation 3",
+    "formation4": "Formation 4",
     "toggleFullscreen": "Vollbild umschalten",
     "simulateMultiTouch": "Multi-Touch simulieren",
     "toggleSupplyLines": "Versorgungslinien umschalten",

@@ -520,6 +520,8 @@
   "disconnecting": "Bağlantı kesiliyor...",
   "unknown": "Bilinmiyor",
   "fogOfWar": "Savaş sisi",
+  "spectatorFullVision": "İzleyici tam görüş",
+  "eloKFactorTooltip": "ELO K Faktörü (sıralamalı maç başına maks. puan değişimi)",
   "prestigeDropChance": "{{currency}} düşme şansı: {{chance}}% ({{turn}}. turdan itibaren)",
   "low": "Düşük",
   "medium": "Orta",

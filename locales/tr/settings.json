@@ -4,10 +4,6 @@
   "camera": "Kamera",
   "sound": "Ses",
   "language": "Dil",
-  "multiTurnOrders": {
-    "title": "Çok Turlu Emirler",
-    "description": "Bu ayarı açmak, oyunun bir turdan diğerine hatırlayacağı ve uygulayacağı emirleri vermenizi sağlar. Bu çok turlu emirler, 10 tura kadar hareketi kapsayabilir ve Hareket gibi konum emirlerini ve Ara gibi hedef emirlerini içerir."
-  },
   "multiTurnPathMinDistance": {
     "title": "Çok Turlu Yol Minimum Mesafesi"
   },
@@ -129,10 +125,12 @@
     "toggleSmartCurvedMovements": "Akıllı eğri hareketleri değiştir",
     "togglePathFinding": "Yol bulmayı değiştir",
     "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
-    "toggleMultiTurnOrders": "Çok Turlu Emirleri Değiştir",
     "toggleRotateOrder": "Döndürme Emrini Değiştir",
     "openChat": "Sohbeti aç",
-    "openFormationModal": "Formasyon penceresini aç",
+    "formation1": "Formasyon 1",
+    "formation2": "Formasyon 2",
+    "formation3": "Formasyon 3",
+    "formation4": "Formasyon 4",
     "toggleFullscreen": "Tam ekranı değiştir",
     "simulateMultiTouch": "Çoklu dokunmayı simüle et",
     "toggleSupplyLines": "İkmal hatlarını değiştir",

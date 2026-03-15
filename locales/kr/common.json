@@ -763,6 +763,8 @@
   "disconnecting": "연결이 끊기는 중...",
   "unknown": "미상",
   "fogOfWar": "전장의 안개",
+  "spectatorFullVision": "관전자 전체 시야",
+  "eloKFactorTooltip": "ELO K 계수 (랭크 매치당 최대 레이팅 변동)",
   "max": "최대",
   "minDistanceToFAA": "FAA까지 최소 거리",
   "captureProgress": "함락 진행도",

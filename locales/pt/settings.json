@@ -4,10 +4,6 @@
   "camera": "Câmera",
   "sound": "Som",
   "language": "Idioma",
-  "multiTurnOrders": {
-    "title": "Ordens de vários turnos",
-    "description": "Ativar esta configuração permitirá que você emita ordens que o jogo lembrará e implementará de um turno para o próximo. Essas ordens de vários turnos podem abranger até 10 turnos de movimento e incluir ordens de localização como 'Mover' e ordens de alvo como 'Buscar'."
-  },
   "multiTurnPathMinDistance": {
     "title": "Distância mínima do caminho de múltiplas voltas"
   },
@@ -129,10 +125,12 @@
     "toggleSmartCurvedMovements": "Alternar movimentos curvos inteligentes",
     "togglePathFinding": "Alternar busca de caminho",
     "toggleFowPerspective": "Alternar perspectiva de névoa de guerra",
-    "toggleMultiTurnOrders": "Alternar ordens de vários turnos",
     "toggleRotateOrder": "Alternar ordem de rotação",
     "openChat": "Abrir chat",
-    "openFormationModal": "Abrir modal de formação",
+    "formation1": "Formação 1",
+    "formation2": "Formação 2",
+    "formation3": "Formação 3",
+    "formation4": "Formação 4",
     "toggleFullscreen": "Alternar tela cheia",
     "simulateMultiTouch": "Simular Multi-toque",
     "toggleSupplyLines": "Alternar linhas de suprimento",

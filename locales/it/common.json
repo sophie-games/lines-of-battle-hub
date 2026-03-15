@@ -530,6 +530,8 @@
   "disconnecting": "Disconnessione...",
   "unknown": "Sconosciuto",
   "fogOfWar": "Nebbia di guerra",
+  "spectatorFullVision": "Visione completa dello spettatore",
+  "eloKFactorTooltip": "Fattore K ELO (variazione massima punteggio per partita classificata)",
   "prestigeDropChance": "Probabilità di ottenere {{currency}}: {{chance}}% (dal turno {{turn}})",
   "low": "Bassa",
   "medium": "Media",

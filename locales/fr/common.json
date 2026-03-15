@@ -542,6 +542,8 @@
   "disconnecting": "Déconnexion...",
   "unknown": "Inconnu",
   "fogOfWar": "Brouillard de guerre",
+  "spectatorFullVision": "Vision complète du spectateur",
+  "eloKFactorTooltip": "Facteur K ELO (changement de classement max. par partie classée)",
   "prestigeDropChance": "Probabilité d'obtenir {{currency}}: {{chance}}% (à partir du tour {{turn}})",
   "low": "Faible",
   "medium": "Moyen",

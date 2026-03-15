@@ -4,10 +4,6 @@
   "camera": "카메라",
   "sound": "소리",
   "language": "언어",
-  "multiTurnOrders": {
-    "title": "다중 턴 명령",
-    "description": "이 설정을 켜면 게임이 특정 턴부터 다음 턴까지 기억하고 실행할 명령을 내릴 수 있습니다. 이러한 다중 턴 명령은 최대 10턴까지 가능하며, 이동과 같은 위치 명령과 추적과 같은 대상 명령을 모두 포함합니다."
-  },
   "multiTurnPathMinDistance": {
     "title": "다중 턴 경로 최소 거리"
   },
@@ -156,10 +152,12 @@
     "toggleSmartCurvedMovements": "지능적 곡선 이동 전환",
     "togglePathFinding": "경로 찾기 전환",
     "toggleFowPerspective": "전장의 안개 시점 전환",
-    "toggleMultiTurnOrders": "다중 턴 명령 전환",
     "toggleRotateOrder": "회전 명령 전환",
     "openChat": "채팅 열기",
-    "openFormationModal": "진형 창 열기",
+    "formation1": "진형 1",
+    "formation2": "진형 2",
+    "formation3": "진형 3",
+    "formation4": "진형 4",
     "toggleFullscreen": "전체화면 전환",
     "simulateMultiTouch": "멀티 터치 시뮬레이션",
     "toggleSupplyLines": "보급선 전환",

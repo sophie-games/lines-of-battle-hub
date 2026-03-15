@@ -518,6 +518,8 @@
   "disconnecting": "切断中...",
   "unknown": "不明",
   "fogOfWar": "戦争の霧",
+  "spectatorFullVision": "観戦者フルビジョン",
+  "eloKFactorTooltip": "ELO K係数（ランクマッチ1試合あたりの最大レート変動）",
   "prestigeDropChance": "{{currency}}ドロップ確率：{{chance}}%（{{turn}}ターン目から）",
   "low": "低",
   "medium": "中",

@@ -4,10 +4,6 @@
   "camera": "Fotocamera",
   "sound": "Suono",
   "language": "Lingua",
-  "multiTurnOrders": {
-    "title": "Ordini multi-turno",
-    "description": "Attivando questa impostazione, potrai impartire ordini che il gioco ricorderà e implementerà da un turno all’altro. Questi ordini multi-turno possono coprire fino a 10 turni di movimento e includere ordini di posizione come 'Muovi' e ordini di obiettivo come 'Cerca'."
-  },
   "multiTurnPathMinDistance": {
     "title": "Distanza minima del percorso a più giri"
   },
@@ -129,10 +125,12 @@
     "toggleSmartCurvedMovements": "Attiva/disattiva movimenti curvi intelligenti",
     "togglePathFinding": "Attiva/disattiva ricerca percorso",
     "toggleFowPerspective": "Cambia prospettiva nebbia di guerra",
-    "toggleMultiTurnOrders": "Attiva/disattiva ordini multi-turno",
     "toggleRotateOrder": "Attiva/disattiva ordine di rotazione",
     "openChat": "Apri chat",
-    "openFormationModal": "Apri finestra formazione",
+    "formation1": "Formazione 1",
+    "formation2": "Formazione 2",
+    "formation3": "Formazione 3",
+    "formation4": "Formazione 4",
     "toggleFullscreen": "Attiva/disattiva schermo intero",
     "simulateMultiTouch": "Simula Multi-touch",
     "toggleSupplyLines": "Attiva/disattiva linee di rifornimento",

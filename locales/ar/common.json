@@ -768,6 +768,8 @@
   "disconnecting": "جاري قطع الاتصال...",
   "unknown": "غير معروف",
   "fogOfWar": "ضباب الحرب",
+  "spectatorFullVision": "رؤية كاملة للمتفرج",
+  "eloKFactorTooltip": "عامل K لتصنيف ELO (أقصى تغيير في التصنيف لكل مباراة مصنفة)",
   "max": "الحد الأقصى",
   "minDistanceToFAA": "الحد الأدنى للمسافة إلى FAA",
   "captureProgress": "تقدم الاستيلاء",

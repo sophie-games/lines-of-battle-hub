@@ -4,10 +4,6 @@
   "camera": "镜头",
   "sound": "声音",
   "language": "语言",
-  "multiTurnOrders": {
-    "title": "多回合指令",
-    "description": "启用此设置后，你可以发出多回合指令，这种指令会被游戏记住并在之后的回合连续执行。多回合指令可以持续最长10个回合，包括地点类的指令如“移动”/“移动射击”和目标类的指令如“追踪”。"
-  },
   "multiTurnPathMinDistance": {
     "title": "多回合指令路径的最小距离"
   },
@@ -160,10 +156,12 @@
     "toggleSmartCurvedMovements": "切换智能曲线移动",
     "togglePathFinding": "切换路径寻找",
     "toggleFowPerspective": "切换战争迷雾视角",
-    "toggleMultiTurnOrders": "切换多回合指令",
     "toggleRotateOrder": "切换转向指令",
     "openChat": "打开聊天栏",
-    "openFormationModal": "打开阵型菜单",
+    "formation1": "阵型 1",
+    "formation2": "阵型 2",
+    "formation3": "阵型 3",
+    "formation4": "阵型 4",
     "toggleFullscreen": "切换全屏",
     "simulateMultiTouch": "模拟多点触控",
     "toggleSupplyLines": "切换补给线",

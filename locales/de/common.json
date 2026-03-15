@@ -529,6 +529,8 @@
   "disconnecting": "Trennen...",
   "unknown": "Unbekannt",
   "fogOfWar": "Nebel des Krieges",
+  "spectatorFullVision": "Volle Sicht für Zuschauer",
+  "eloKFactorTooltip": "ELO-K-Faktor (max. Ratingänderung pro gewertetem Spiel)",
   "prestigeDropChance": "{{currency}} Drop-Chance: {{chance}}% (ab Runde {{turn}})",
   "low": "Niedrig",
   "medium": "Mittel",

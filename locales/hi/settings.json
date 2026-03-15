@@ -4,10 +4,6 @@
   "camera": "कैमरा",
   "sound": "ध्वनि",
   "language": "भाषा",
-  "multiTurnOrders": {
-    "title": "बहु-टर्न आदेश",
-    "description": "इस सेटिंग को चालू करने से आप ऐसे आदेश जारी कर सकेंगे जिन्हें गेम याद रखेगा और एक टर्न से अगले टर्न तक लागू करेगा। ये बहु-टर्न आदेश 10 टर्न तक की गति को कवर कर सकते हैं, और मूव जैसे स्थान आदेशों के साथ-साथ सीक जैसे लक्ष्य आदेशों को भी कवर करते हैं।"
-  },
   "multiTurnPathMinDistance": {
     "title": "बहु-टर्न पथ न्यूनतम दूरी"
   },
@@ -156,10 +152,12 @@
     "toggleSmartCurvedMovements": "स्मार्ट कर्व्ड मूवमेंट्स टॉगल करें",
     "togglePathFinding": "पाथ फाइंडिंग टॉगल करें",
     "toggleFowPerspective": "कोहरे का दृष्टिकोण टॉगल करें",
-    "toggleMultiTurnOrders": "बहु-टर्न ऑर्डर टॉगल करें",
     "toggleRotateOrder": "रोटेट ऑर्डर टॉगल करें",
     "openChat": "चैट खोलें",
-    "openFormationModal": "गठन विंडो खोलें",
+    "formation1": "संरचना 1",
+    "formation2": "संरचना 2",
+    "formation3": "संरचना 3",
+    "formation4": "संरचना 4",
     "toggleFullscreen": "पूर्ण स्क्रीन टॉगल करें",
     "simulateMultiTouch": "मल्टी-टच सिम्युलेट करें",
     "toggleSupplyLines": "आपूर्ति लाइनें टॉगल करें",

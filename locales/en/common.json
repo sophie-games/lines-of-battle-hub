@@ -775,6 +775,8 @@
   "disconnecting": "Disconnecting...",
   "unknown": "Unknown",
   "fogOfWar": "Fog of war",
+  "spectatorFullVision": "Spectator Full Vision",
+  "eloKFactorTooltip": "ELO K Factor (max rating change per ranked game)",
   "max": "Max",
   "minDistanceToFAA": "Min distance to FAA",
   "captureProgress": "Capture progress",

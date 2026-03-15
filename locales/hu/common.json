@@ -475,6 +475,8 @@
   "disconnecting": "Elválasztás...",
   "unknown": "Ismeretlen",
   "fogOfWar": "Háború ködje",
+  "spectatorFullVision": "Néző teljes látómezője",
+  "eloKFactorTooltip": "ELO K faktor (max. rangváltozás rangsorolt meccsenként)",
   "prestigeDropChance": "{{currency}} megszerzési esély: {{chance}}% ({{turn}}. körből)",
   "low": "Alacsony",
   "medium": "Közepes",

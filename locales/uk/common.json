@@ -536,6 +536,8 @@
   "disconnecting": "Відключення...",
   "unknown": "Невідомо",
   "fogOfWar": "Туман війни",
+  "spectatorFullVision": "Повна видимість для глядачів",
+  "eloKFactorTooltip": "Коефіцієнт K ELO (макс. зміна рейтингу за рейтингову партію)",
   "prestigeDropChance": "Шанс отримати {{currency}}: {{chance}}% (з ходу {{turn}})",
   "low": "Низька",
   "medium": "Середня",

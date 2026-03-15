@@ -4,10 +4,6 @@
   "camera": "الكاميرا",
   "sound": "الصوت",
   "language": "اللغة",
-  "multiTurnOrders": {
-    "title": "أوامر متعددة الأدوار",
-    "description": "تفعيل هذا الإعداد سيمكنك من إصدار أوامر سيتذكرها اللعبة وينفذها من دور إلى آخر. يمكن أن تمتد هذه الأوامر متعددة الأدوار حتى 10 أدوار من الحركة، وتغطي أوامر الموقع مثل التحرك وأوامر الهدف مثل البحث."
-  },
   "multiTurnPathMinDistance": {
     "title": "الحد الأدنى لمسافة المسار متعدد الأدوار"
   },
@@ -156,10 +152,12 @@
     "toggleSmartCurvedMovements": "تبديل الحركات المنحنية الذكية",
     "togglePathFinding": "تبديل البحث عن المسار",
     "toggleFowPerspective": "تبديل منظور ضباب الحرب",
-    "toggleMultiTurnOrders": "تبديل الأوامر متعددة الأدوار",
     "toggleRotateOrder": "تبديل أمر الدوران",
     "openChat": "فتح الدردشة",
-    "openFormationModal": "فتح نافذة التشكيل",
+    "formation1": "التشكيل ١",
+    "formation2": "التشكيل ٢",
+    "formation3": "التشكيل ٣",
+    "formation4": "التشكيل ٤",
     "toggleFullscreen": "تبديل وضع الشاشة الكاملة",
     "simulateMultiTouch": "محاكاة اللمس المتعدد",
     "toggleSupplyLines": "تبديل خطوط الإمداد",
