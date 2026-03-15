@@ -4,10 +4,6 @@
   "camera": "Camera",
   "sound": "Sound",
   "language": "Language",
-  "multiTurnOrders": {
-    "title": "Multi-turn orders",
-    "description": "Toggling this setting on will enable you to issue orders that the game will remember and implement from one turn to the next. These multi-turn orders can span up to 10 turns of movement, and cover location orders like Move as well as target orders like Seek."
-  },
   "multiTurnPathMinDistance": {
     "title": "Multi-turn path min distance"
   },
@@ -30,6 +26,10 @@
   "smartCurvedMovements": {
     "title": "Smart Curved Movements",
     "description": "Enable this option to optimize movement paths with smooth curves, minimizing speed loss during rotations."
+  },
+  "pathFinding": {
+    "title": "Path finding",
+    "description": "Use pathfinding for movement instead of straight lines."
   },
   "openSelectOrderModal": {
     "title": "Open Select Order Modal",
@@ -84,6 +84,10 @@
   "shadows": {
     "title": "Shadows",
     "description": "Enables shadows on units."
+  },
+  "showGrid": {
+    "title": "Show grid",
+    "description": "Show a tile grid overlay on the map."
   },
   "showDebugShapes": {
     "title": "Show debug shapes",
@@ -149,12 +153,15 @@
     "shootOrder": "Shoot order",
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
-        "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
-        "toggleFowPerspective": "Toggle Fog of War Perspective",
-        "toggleMultiTurnOrders": "Toggle Multi-turn Orders",
-        "toggleRotateOrder": "Toggle Rotate Order",
-        "openChat": "Open chat",
-    "openFormationModal": "Open formation modal",
+    "toggleSmartCurvedMovements": "Toggle Smart Curved Movements",
+    "togglePathFinding": "Toggle Path finding",
+    "toggleFowPerspective": "Toggle Fog of War Perspective",
+    "toggleRotateOrder": "Toggle Rotate Order",
+    "openChat": "Open chat",
+    "formation1": "Formation 1",
+    "formation2": "Formation 2",
+    "formation3": "Formation 3",
+    "formation4": "Formation 4",
     "toggleFullscreen": "Toggle Fullscreen",
     "simulateMultiTouch": "Simulate Multi-touch",
     "toggleSupplyLines": "Toggle Supply Lines",

@@ -4,10 +4,6 @@
   "camera": "Camera",
   "sound": "Âm thanh",
   "language": "Ngôn ngữ",
-  "multiTurnOrders": {
-    "title": "Lệnh đa lượt",
-    "description": "Bật cài đặt này sẽ cho phép bạn đưa ra các lệnh mà trò chơi sẽ ghi nhớ và thực hiện từ lượt này sang lượt khác. Các lệnh đa lượt này có thể kéo dài tới 10 lượt di chuyển và bao gồm các lệnh vị trí như Di chuyển cũng như các lệnh mục tiêu như Tìm kiếm."
-  },
   "multiTurnPathMinDistance": {
     "title": "Khoảng cách tối thiểu đường đi đa lượt"
   },
@@ -30,6 +26,10 @@
   "smartCurvedMovements": {
     "title": "Di chuyển cong thông minh",
     "description": "Bật tùy chọn này để tối ưu hóa đường di chuyển với các đường cong mượt mà, giảm thiểu mất tốc độ trong quá trình xoay."
+  },
+  "pathFinding": {
+    "title": "Tìm đường",
+    "description": "Sử dụng tìm đường cho di chuyển thay vì đường thẳng."
   },
   "openSelectOrderModal": {
     "title": "Mở modal chọn lệnh",
@@ -84,6 +84,10 @@
   "shadows": {
     "title": "Bóng",
     "description": "Bật bóng trên các đơn vị."
+  },
+  "showGrid": {
+    "title": "Hiển thị lưới",
+    "description": "Hiển thị lớp phủ lưới ô vuông trên bản đồ."
   },
   "showDebugShapes": {
     "title": "Hiển thị hình dạng debug",
@@ -146,11 +150,14 @@
     "fireAndAdvanceOrder": "Lệnh bắn và tiến",
     "fallbackOrder": "Lệnh rút lui",
     "toggleSmartCurvedMovements": "Chuyển đổi di chuyển cong thông minh",
+    "togglePathFinding": "Chuyển đổi tìm đường",
     "toggleFowPerspective": "Chuyển đổi góc nhìn sương mù chiến tranh",
-    "toggleMultiTurnOrders": "Chuyển đổi lệnh đa lượt",
     "toggleRotateOrder": "Chuyển đổi lệnh xoay",
     "openChat": "Mở trò chuyện",
-    "openFormationModal": "Mở cửa sổ đội hình",
+    "formation1": "Đội hình 1",
+    "formation2": "Đội hình 2",
+    "formation3": "Đội hình 3",
+    "formation4": "Đội hình 4",
     "toggleFullscreen": "Chuyển đổi chế độ toàn màn hình",
     "simulateMultiTouch": "Mô phỏng đa chạm",
     "toggleSupplyLines": "Chuyển đổi đường tiếp tế",

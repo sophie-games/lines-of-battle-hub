@@ -4,10 +4,6 @@
   "camera": "Cámara",
   "sound": "Sonido",
   "language": "Idioma",
-  "multiTurnOrders": {
-    "title": "Órdenes de varios turnos",
-    "description": "Activar esta configuración le permitirá emitir órdenes que el juego recordará e implementará de un turno a otro. Estas órdenes de varios turnos pueden abarcar hasta 10 turnos de movimiento y cubrir órdenes de ubicación como 'Mover' y órdenes de objetivo como 'Buscar'."
-  },
   "multiTurnPathMinDistance": {
     "title": "Distancia mínima de camino de multi-turnos"
   },
@@ -30,6 +26,10 @@
   "smartCurvedMovements": {
     "title": "Movimientos Curvos Inteligentes",
     "description": "Habilita esta opción para optimizar las rutas de movimiento con curvas suaves, minimizando la pérdida de velocidad durante las rotaciones."
+  },
+  "pathFinding": {
+    "title": "Búsqueda de ruta",
+    "description": "Usar búsqueda de ruta para el movimiento en lugar de líneas rectas."
   },
   "openSelectOrderModal": {
     "title": "Abrir Modal de Selección de Órdenes",
@@ -73,6 +73,10 @@
   "shadows": {
     "title": "Sombras",
     "description": "Habilita sombras en las unidades."
+  },
+  "showGrid": {
+    "title": "Mostrar cuadrícula",
+    "description": "Muestra una superposición de cuadrícula de baldosas en el mapa."
   },
   "showDebugShapes": {
     "title": "Mostrar formas de depuración",
@@ -122,11 +126,14 @@
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
     "fallbackOrder": "Orden de retirada",
     "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes",
+    "togglePathFinding": "Alternar búsqueda de ruta",
     "toggleFowPerspective": "Alternar perspectiva de niebla de guerra",
-    "toggleMultiTurnOrders": "Alternar órdenes de varios turnos",
     "toggleRotateOrder": "Alternar orden de rotación",
     "openChat": "Abrir chat",
-    "openFormationModal": "Abrir ventana de formación",
+    "formation1": "Formación 1",
+    "formation2": "Formación 2",
+    "formation3": "Formación 3",
+    "formation4": "Formación 4",
     "toggleFullscreen": "Alternar pantalla completa",
     "simulateMultiTouch": "Simular Multi-toque",
     "toggleSupplyLines": "Alternar líneas de suministro",

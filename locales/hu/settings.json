@@ -4,10 +4,6 @@
   "camera": "Kamera",
   "sound": "Hang",
   "language": "Nyelv",
-  "multiTurnOrders": {
-    "title": "Több körös parancsok",
-    "description": "Ennek a beállításnak az engedélyezésével olyan parancsokat adhatsz ki, amelyeket a játék megjegyez és körönként végrehajt. Ezek a több körös parancsok akár 10 környi mozgást is magukban foglalhatnak, és tartalmazhatnak helymeghatározó parancsokat, mint például 'Mozgás', valamint célparancsokat, mint például 'Keresés'."
-  },
   "multiTurnPathMinDistance": {
     "title": "Többszörös fordulási út minimális távolsága"
   },
@@ -30,6 +26,10 @@
   "smartCurvedMovements": {
     "title": "Okos hajlítottságú mozgás",
     "description": "Ennek a funkciónak az engedélyezése arra van, hogy minimalizálja a forgás közbeni mozgási sebesség-veszteségét."
+  },
+  "pathFinding": {
+    "title": "Útvonalkeresés",
+    "description": "Használjon útvonalkeresést a mozgáshoz egyenes vonalak helyett."
   },
   "openSelectOrderModal": {
     "title": "Utasítások ablak megjelenítése",
@@ -73,6 +73,10 @@
   "shadows": {
     "title": "Árnyékok",
     "description": "Engedélyezi az árnyékokat az egységeken."
+  },
+  "showGrid": {
+    "title": "Rács megjelenítése",
+    "description": "Csempe rács réteget jelenít meg a térképen."
   },
   "showDebugShapes": {
     "title": "Hibakeresési alakzatok megjelenítése",
@@ -119,11 +123,14 @@
     "fireAndAdvanceOrder": "Tüzelés és előrehaladás parancs",
     "fallbackOrder": "Visszavonulási parancs",
     "toggleSmartCurvedMovements": "Okos görbült mozgások váltása",
+    "togglePathFinding": "Útvonalkeresés váltása",
     "toggleFowPerspective": "Háborús köd perspektíva váltása",
-    "toggleMultiTurnOrders": "Többszörös fordulási parancsok váltása",
     "toggleRotateOrder": "Forgatási parancs váltása",
     "openChat": "Chat megnyitása",
-    "openFormationModal": "Formáció ablak megnyitása",
+    "formation1": "Formáció 1",
+    "formation2": "Formáció 2",
+    "formation3": "Formáció 3",
+    "formation4": "Formáció 4",
     "toggleFullscreen": "Teljes képernyő váltása",
     "simulateMultiTouch": "Multi-touch szimulálása",
     "toggleSupplyLines": "Ellátási vonalak váltása",

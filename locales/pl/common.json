@@ -16,6 +16,7 @@
   "experience": "Doświadczenie",
   "nextLevelExperience": "Doświadczenie następnego poziomu",
   "season": "Sezon",
+  "time": "Czas",
   "of": "z",
   "joinedAt": "Dołączono {{date}}",
   "createdAt": "Utworzono {{date}}",
@@ -67,7 +68,6 @@
   },
   "fastMode": "Tryb Szybki",
   "slowMode": "Tryb Wolny",
-  "maxTimePerTurn": "Maksymalny czas na turę",
   "turnTimeLimit": {
     "30s": "30 sekund",
     "1m": "1 minuta",
@@ -78,10 +78,36 @@
     "3d": "3 dni",
     "7d": "7 dni"
   },
+  "gameTimePreset": {
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Szybka",
+    "daily": "Dzienny",
+    "correspondence": "Korespondencyjna",
+    "marathon": "Maraton"
+  },
   "battleType": "Tryb bitwy",
   "matchmaking": "Losowa Partia",
   "matchmakingDescription": "Tryb Losowa Partia pozwala na szybkie stworzenie partii z losowymi graczami używając wcześniej ustalonych ustawień.",
+  "requiredInMatchmakingQueue": "Zawsze w kolejce",
+  "requiredScenarioBadge": "Wymagane",
   "custom": "Niestandardowa Partia",
+  "customTimeSettings": "Niestandardowe ustawienia czasu",
+  "timeControls": "Kontrola czasu",
+  "customTimeFields": {
+    "bankTime": "Czas banku",
+    "bankTimeHint": "Początkowy czas banku na gracza. Przy 0 brak limitu (wolna gra).",
+    "increment": "Przyrost",
+    "incrementHint": "Sekundy dodawane po każdym ruchu (0 = brak)",
+    "turnCap": "Limit na ruch",
+    "turnCapHint": "Maks. sekund na ruch (0 = brak limitu, wolna gra)",
+    "deployTime": "Czas rozstawienia",
+    "deployTimeHint": "Limit czasu w ruchu 0 w sekundach (0 = używa banku)",
+    "unitS": "s",
+    "unitMin": "min",
+    "unitH": "h",
+    "unitD": "d"
+  },
   "customDescription": "Tryb Niestandardowa Partia pozwala stworzyć partię ze specyficznymi ustawieniami i zaprosić znajomych do gry.",
   "createCustomGame": "Stwórz Niestandardową Partię.",
   "maxTurn": "Maksymalna ilość tur",
@@ -118,6 +144,7 @@
   },
   "createScenario": "Stwórz Scenariusz",
   "loadScenario": "Załaduj Scenariusz",
+  "invalidScenarioType": "Możesz ładować tylko scenariusze presetowe lub hybrydowe.",
   "playOffline": "Graj Offline!",
   "createOfflineGame": "Stwórz partię offline",
   "chooseAScenario": "Wybierz scenariusz",
@@ -230,8 +257,6 @@
   "height": "Wysokość",
   "orgModifierByTargetOrg": "Zmniejszone przez Org. Celu",
   "damageModifierByTargetHp": "Modyfikator Obrażeń według HP Celu",
-  "from": "od",
-  "to": "do",
   "lBy": "przez",
   "terrainHitboxHeight": "Wysokość Hitboxa Terenu",
   "statusEffects": "Efekty",
@@ -298,6 +323,10 @@
     "p2": "Dlatego, że gra wciąż jest w fazie beta, zapraszam do dołączenia do <discordLink>Serwera na Discordzie</discordLink> żeby połączyć się z innymi graczami, znaleźć przeciwników do gry, zgłosić błędy, i podzielić się pomysłami, aby polepszyć doświadczenie dla wszystkich graczy!"
   },
   "turn": "Tura",
+  "bank": "Rezerwa",
+  "cap": "Limit",
+  "deploy": "Rozstawienie",
+  "noCap": "Bez limitu",
   "loadingScreen": {
     "fonts": "Ładowanie czcionek...",
     "joiningGame": "Dołączanie do partii...",
@@ -618,6 +647,8 @@
   "translationsMessage": "Czy chcesz pomóc z tłumaczeniami? Możesz zrobić to <0>tutaj</0>.",
   "gameSearch": "Znajdź grę",
   "minTurn": "Min ilość tur",
+  "from": "od",
+  "to": "do",
   "applyFilters": "Zatwierdź filtry",
   "objective": "Cel",
   "victoryPoints": "Punkty Zwycięstwa",
@@ -678,6 +709,8 @@
   "disconnecting": "Rozłączanie...",
   "unknown": "Nieznane",
   "fogOfWar": "Mgła wojny",
+  "spectatorFullVision": "Pełna widoczność dla widzów",
+  "eloKFactorTooltip": "Współczynnik K ELO (maks. zmiana rankingu na mecz rankingowy)",
   "low": "Niska",
   "medium": "Średnia",
   "high": "Wysoka",
@@ -735,8 +768,7 @@
   "clear": "Wyczyść",
   "privacy": "Prywatność",
   "showCountry": "Pokaż kraj",
-  "controlSchemeModal": {
-    "title": "Nowy schemat sterowania",
-    "message": "Schemat sterowania w Lines of Battle został ulepszony i usprawniony, ale teraz jest zupełnie inny. Zarówno nowi, jak i starzy gracze powinni przejść samouczek, aby poznać nowy system."
-  }
+  "tournamentEraMismatch": "Twoja obecna era to {{current}}, ale era turnieju to {{target}}. Czy chcesz przełączyć?",
+  "switchToEra": "Przełącz na {{era}}",
+  "goHome": "Strona główna"
 }

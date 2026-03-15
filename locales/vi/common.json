@@ -16,6 +16,7 @@
   "experience": "Kinh nghiệm",
   "nextLevelExperience": "Kinh nghiệm cấp tiếp theo",
   "season": "Mùa",
+  "time": "Thời gian",
   "of": "của",
   "joinedAt": "Tham gia vào {{date}}",
   "createdAt": "Tạo vào {{date}}",
@@ -67,7 +68,6 @@
   },
   "fastMode": "Chế độ nhanh",
   "slowMode": "Chế độ chậm",
-  "maxTimePerTurn": "Thời gian tối đa mỗi lượt",
   "turnTimeLimit": {
     "30s": "30 giây",
     "1m": "1 phút",
@@ -78,9 +78,19 @@
     "3d": "3 ngày",
     "7d": "7 ngày"
   },
+  "gameTimePreset": {
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Nhanh",
+    "daily": "Hàng ngày",
+    "correspondence": "Thư tín",
+    "marathon": "Marathon"
+  },
   "battleType": "Loại trận chiến",
   "matchmaking": "Ghép trận",
   "matchmakingDescription": "Chế độ ghép trận cho phép bạn nhanh chóng tham gia trò chơi với người chơi ngẫu nhiên sử dụng cài đặt được định sẵn.",
+  "requiredInMatchmakingQueue": "Luôn có trong hàng chờ",
+  "requiredScenarioBadge": "Bắt buộc",
   "onlyPartyLeaderCanSearch": "Chỉ trưởng nhóm mới có thể tìm kiếm trận đấu.",
   "partyFormed": "Nhóm đã được thành lập",
   "partySearchStatus": {
@@ -90,6 +100,22 @@
     "memberDescription": "Chỉ trưởng nhóm mới có thể tìm kiếm trận đấu. Bạn sẽ được thông báo khi họ bắt đầu tìm kiếm."
   },
   "custom": "Tùy chỉnh",
+  "customTimeSettings": "Cài đặt thời gian tùy chỉnh",
+  "timeControls": "Điều khiển thời gian",
+  "customTimeFields": {
+    "bankTime": "Thời gian bank",
+    "bankTimeHint": "Thời gian bank ban đầu mỗi người chơi. Nếu 0 thì không giới hạn (chơi chậm).",
+    "increment": "Tăng thêm",
+    "incrementHint": "Giây thêm sau mỗi lượt (0 = không)",
+    "turnCap": "Giới hạn mỗi lượt",
+    "turnCapHint": "Tối đa giây mỗi lượt (0 = không giới hạn, chơi chậm)",
+    "deployTime": "Thời gian triển khai",
+    "deployTimeHint": "Giới hạn thời gian lượt 0 tính bằng giây (0 = dùng bank)",
+    "unitS": "s",
+    "unitMin": "ph",
+    "unitH": "h",
+    "unitD": "ng"
+  },
   "customDescription": "Chế độ tùy chỉnh cho phép bạn thiết lập trò chơi với cài đặt cụ thể và mời bạn bè chơi.",
   "createCustomGame": "Tạo trò chơi tùy chỉnh",
   "maxTurn": "Lượt tối đa",
@@ -127,6 +153,7 @@
   },
   "createScenario": "Tạo kịch bản",
   "loadScenario": "Tải kịch bản",
+  "invalidScenarioType": "Bạn chỉ có thể tải kịch bản định sẵn hoặc lai.",
   "playOffline": "Chơi ngoại tuyến!",
   "createOfflineGame": "Tạo trò chơi ngoại tuyến",
   "chooseAScenario": "Chọn một kịch bản",
@@ -249,8 +276,6 @@
   "maxElevationDiff": "Chênh lệch độ cao tối đa",
   "orgModifierByTargetOrg": "Giảm theo tổ chức mục tiêu",
   "damageModifierByTargetHp": "Sửa đổi sát thương theo HP mục tiêu",
-  "from": "từ",
-  "to": "đến",
   "lBy": "bởi",
   "terrainHitboxHeight": "Chiều cao hitbox địa hình",
   "statusEffects": "Hiệu ứng trạng thái",
@@ -321,6 +346,10 @@
     "p2": "Vì trò chơi hiện đang trong giai đoạn beta, tôi mời bạn tham gia <discordLink>máy chủ Discord</discordLink> để kết nối với người chơi khác, tìm đối thủ để chơi, báo cáo lỗi và chia sẻ ý tưởng để giúp cải thiện trải nghiệm trò chơi cho mọi người!"
   },
   "turn": "Lượt",
+  "bank": "Dự trữ",
+  "cap": "Giới hạn",
+  "deploy": "Triển khai",
+  "noCap": "Không giới hạn",
   "loadingScreen": {
     "fonts": "Đang tải phông chữ...",
     "joiningGame": "Đang tham gia trò chơi...",
@@ -647,6 +676,8 @@
   "translationsMessage": "Bạn có muốn cộng tác dịch thuật? Bạn có thể làm điều đó <0>tại đây</0>.",
   "gameSearch": "Tìm kiếm trò chơi",
   "minTurn": "Lượt tối thiểu",
+  "from": "từ",
+  "to": "đến",
   "applyFilters": "Áp dụng bộ lọc",
   "objective": "Mục tiêu",
   "victoryPoints": "Điểm chiến thắng",
@@ -736,6 +767,8 @@
   "disconnecting": "Đang ngắt kết nối...",
   "unknown": "Không xác định",
   "fogOfWar": "Sương mù chiến tranh",
+  "spectatorFullVision": "Tầm nhìn đầy đủ cho khán giả",
+  "eloKFactorTooltip": "Hệ số K ELO (thay đổi xếp hạng tối đa mỗi trận xếp hạng)",
   "max": "Tối đa",
   "minDistanceToFAA": "Khoảng cách tối thiểu đến FAA",
   "captureProgress": "Tiến độ chiếm",
@@ -809,8 +842,7 @@
   "clear": "Xóa",
   "privacy": "Quyền riêng tư",
   "showCountry": "Hiển thị quốc gia",
-  "controlSchemeModal": {
-    "title": "Sơ đồ điều khiển mới",
-    "message": "Sơ đồ điều khiển của Lines of Battle đã được cải thiện và tinh giản, nhưng hiện tại rất khác. Cả người chơi mới và cũ đều nên chơi phần hướng dẫn để làm quen với hệ thống mới."
-  }
+  "tournamentEraMismatch": "Thời đại hiện tại của bạn là {{current}}, nhưng thời đại của giải đấu là {{target}}. Bạn có muốn chuyển đổi không?",
+  "switchToEra": "Chuyển sang {{era}}",
+  "goHome": "Về trang chủ"
 }

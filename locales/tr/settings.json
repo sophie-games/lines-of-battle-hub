@@ -4,10 +4,6 @@
   "camera": "Kamera",
   "sound": "Ses",
   "language": "Dil",
-  "multiTurnOrders": {
-    "title": "Çok Turlu Emirler",
-    "description": "Bu ayarı açmak, oyunun bir turdan diğerine hatırlayacağı ve uygulayacağı emirleri vermenizi sağlar. Bu çok turlu emirler, 10 tura kadar hareketi kapsayabilir ve Hareket gibi konum emirlerini ve Ara gibi hedef emirlerini içerir."
-  },
   "multiTurnPathMinDistance": {
     "title": "Çok Turlu Yol Minimum Mesafesi"
   },
@@ -30,6 +26,10 @@
   "smartCurvedMovements": {
     "title": "Akıllı Kavisli Hareketler",
     "description": "Bu seçeneği etkinleştirerek, dönüşler sırasında hız kaybını en aza indiren pürüzsüz kavisli hareket yollarını optimize edebilirsiniz."
+  },
+  "pathFinding": {
+    "title": "Yol bulma",
+    "description": "Düz çizgiler yerine hareket için yol bulma kullanın."
   },
   "openSelectOrderModal": {
     "title": "Emir Seçim Modalını Aç",
@@ -73,6 +73,10 @@
   "shadows": {
     "title": "Gölgeler",
     "description": "Birimlerde gölgeleri etkinleştirir."
+  },
+  "showGrid": {
+    "title": "Izgara göster",
+    "description": "Haritada bir karo ızgara katmanı gösterir."
   },
   "showDebugShapes": {
     "title": "Hata ayıklama şekillerini göster",
@@ -119,11 +123,14 @@
     "fireAndAdvanceOrder": "Ateş ve ilerle emri",
     "fallbackOrder": "Geri çekil emri",
     "toggleSmartCurvedMovements": "Akıllı eğri hareketleri değiştir",
+    "togglePathFinding": "Yol bulmayı değiştir",
     "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
-    "toggleMultiTurnOrders": "Çok Turlu Emirleri Değiştir",
     "toggleRotateOrder": "Döndürme Emrini Değiştir",
     "openChat": "Sohbeti aç",
-    "openFormationModal": "Formasyon penceresini aç",
+    "formation1": "Formasyon 1",
+    "formation2": "Formasyon 2",
+    "formation3": "Formasyon 3",
+    "formation4": "Formasyon 4",
     "toggleFullscreen": "Tam ekranı değiştir",
     "simulateMultiTouch": "Çoklu dokunmayı simüle et",
     "toggleSupplyLines": "İkmal hatlarını değiştir",

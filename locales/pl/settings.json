@@ -24,6 +24,10 @@
     "title": "Lepszy ruch po krzywej.",
     "description": "Włącz tą opcje, aby polepszyć trasy ruchu gładkimi liniami krzywymi, pomniejszając utratę prędkości podczas obrotu."
   },
+  "pathFinding": {
+    "title": "Wyszukiwanie ścieżki",
+    "description": "Używaj wyszukiwania ścieżki do poruszania się zamiast prostych linii."
+  },
   "openSelectOrderModal": {
     "title": "Otwieraj okno wyboru rozkazu",
     "description": "Włącz tą opcję aby pokazać okno do wybierania rozkazu podczas rozgrywki."
@@ -66,6 +70,10 @@
   "shadows": {
     "title": "Cienie",
     "description": "Włącz cienie jednostek."
+  },
+  "showGrid": {
+    "title": "Pokaż siatkę",
+    "description": "Wyświetla nakładkę siatki płytek na mapie."
   },
   "showDebugShapes": {
     "title": "Pokaż kształty debugowania",
@@ -112,11 +120,14 @@
     "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
     "fallbackOrder": "Rozkaz Odwrotu",
     "toggleSmartCurvedMovements": "Przełącz inteligentne zakrzywione ruchy",
+    "togglePathFinding": "Przełącz wyszukiwanie ścieżki",
     "toggleFowPerspective": "Przełącz perspektywę mgły wojny",
-    "toggleMultiTurnOrders": "Przełącz rozkazy wieloturowe",
     "toggleRotateOrder": "Przełącz rozkaz obrotu",
     "openChat": "Otwórz czat",
-    "openFormationModal": "Otwórz okno formacji",
+    "formation1": "Formacja 1",
+    "formation2": "Formacja 2",
+    "formation3": "Formacja 3",
+    "formation4": "Formacja 4",
     "toggleFullscreen": "Przełącz tryb pełnoekranowy",
     "simulateMultiTouch": "Symuluj Multi-touch",
     "toggleSupplyLines": "Przełącz linie zaopatrzenia",

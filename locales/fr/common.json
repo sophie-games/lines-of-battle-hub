@@ -56,7 +56,6 @@
   },
   "fastMode": "Partie rapide",
   "slowMode": "Partie longue",
-  "maxTimePerTurn": "Temps maximum par tour",
   "turnTimeLimit": {
     "30s": "30 secondes",
     "1m": "1 minute",
@@ -67,10 +66,36 @@
     "3d": "3 jours",
     "7d": "7 jours"
   },
+  "gameTimePreset": {
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Rapide",
+    "daily": "Quotidien",
+    "correspondence": "Par correspondance",
+    "marathon": "Marathon"
+  },
   "battleType": "Type de bataille",
   "matchmaking": "Partie classée",
   "matchmakingDescription": "Le mode classé vous permet de rejoindre une bataille contre des joueurs inconnus en utilisant des réglages prédéfinis.",
+  "requiredInMatchmakingQueue": "Toujours dans la file",
+  "requiredScenarioBadge": "Requis",
   "custom": "Personnalisé",
+  "customTimeSettings": "Paramètres de temps personnalisés",
+  "timeControls": "Contrôle du temps",
+  "customTimeFields": {
+    "bankTime": "Temps de banque",
+    "bankTimeHint": "Temps de banque initial par joueur. Si 0, pas de limite (partie lente).",
+    "increment": "Incrément",
+    "incrementHint": "Secondes ajoutées après chaque tour (0 = aucun)",
+    "turnCap": "Plafond par tour",
+    "turnCapHint": "Max secondes par tour (0 = pas de limite, partie lente)",
+    "deployTime": "Temps de déploiement",
+    "deployTimeHint": "Limite de temps au tour 0 en secondes (0 = utilise la banque)",
+    "unitS": "s",
+    "unitMin": "min",
+    "unitH": "h",
+    "unitD": "j"
+  },
   "customDescription": "Le mode personnalisé vous permet de jouer contre vos amis avec des paramètres que vous aurez définis.",
   "maxTurn": "Nb de tour max",
   "seed": "Graine",
@@ -105,6 +130,7 @@
   },
   "createScenario": "Créer un scénario",
   "loadScenario": "Charger un scénario",
+  "invalidScenarioType": "Vous ne pouvez charger que des scénarios prédéfinis ou hybrides.",
   "playOffline": "Jouer hors-ligne !",
   "createOfflineGame": "Créer une partie hors-ligne",
   "chooseAScenario": "Choisir un scénario",
@@ -269,6 +295,10 @@
     "p2": "Comme le jeu est actuellement en bêta, je vous invite a rejoindre le <discordLink>Serveur Discord</discordLink> pour rencontrer les autres joueurs, trouver des adversaires, signaler les bogues, et partager vos idées pour améliorer l'expérience de jeu!"
   },
   "turn": "Tour",
+  "bank": "Réserve",
+  "cap": "Plafond",
+  "deploy": "Déploiement",
+  "noCap": "Sans limite",
   "loadingScreen": {
     "fonts": "Chargement des polices...",
     "joiningGame": "En train de rejoindre la partie...",
@@ -394,6 +424,7 @@
   "experience": "Expérience",
   "nextLevelExperience": "Expérience du niveau suivant",
   "season": "Saison",
+  "time": "Temps",
   "of": "de",
   "joinedAt": "Inscrit le {{date}}",
   "addPlayer": "Ajouter un joueur",
@@ -511,6 +542,8 @@
   "disconnecting": "Déconnexion...",
   "unknown": "Inconnu",
   "fogOfWar": "Brouillard de guerre",
+  "spectatorFullVision": "Vision complète du spectateur",
+  "eloKFactorTooltip": "Facteur K ELO (changement de classement max. par partie classée)",
   "prestigeDropChance": "Probabilité d'obtenir {{currency}}: {{chance}}% (à partir du tour {{turn}})",
   "low": "Faible",
   "medium": "Moyen",
@@ -586,8 +619,7 @@
   "clear": "Effacer",
   "privacy": "Confidentialité",
   "showCountry": "Afficher le pays",
-  "controlSchemeModal": {
-    "title": "Nouveau système de contrôle",
-    "message": "Le système de contrôle de Lines of Battle a été amélioré et rationalisé, mais il est très différent maintenant. Les nouveaux joueurs comme les anciens devraient suivre le tutoriel pour apprendre le nouveau système."
-  }
+  "tournamentEraMismatch": "Votre ère actuelle est {{current}}, mais l'ère du tournoi est {{target}}. Voulez-vous changer ?",
+  "switchToEra": "Passer à {{era}}",
+  "goHome": "Retourner à l'accueil"
 }

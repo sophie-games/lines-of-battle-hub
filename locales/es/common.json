@@ -56,7 +56,6 @@
   },
   "fastMode": "Modo rápido",
   "slowMode": "Modo lento",
-  "maxTimePerTurn": "Tiempo máximo por turno",
   "turnTimeLimit": {
     "30s": "30 segundos",
     "1m": "1 minuto",
@@ -67,9 +66,19 @@
     "3d": "3 días",
     "7d": "7 días"
   },
+  "gameTimePreset": {
+    "bullet": "Bala",
+    "blitz": "Blitz",
+    "rapid": "Rápido",
+    "daily": "Diario",
+    "correspondence": "Por correspondencia",
+    "marathon": "Maratón"
+  },
   "battleType": "Tipo de batalla",
   "matchmaking": "Emparejamiento",
   "matchmakingDescription": "El modo de emparejamiento te permite unirte rápidamente a un juego con jugadores aleatorios usando configuraciones predefinidas.",
+  "requiredInMatchmakingQueue": "Siempre en la cola",
+  "requiredScenarioBadge": "Obligatorio",
   "onlyPartyLeaderCanSearch": "Solo el líder de la party puede buscar partida.",
   "partySearchStatus": {
     "leaderTitle": "Eres el líder de la party",
@@ -78,6 +87,22 @@
     "memberDescription": "Solo el líder de la party puede buscar partida. Serás notificado cuando empiece a buscar."
   },
   "custom": "Personalizado",
+  "customTimeSettings": "Ajustes de tiempo personalizados",
+  "customTimeFields": {
+    "bankTime": "Tiempo de banco",
+    "bankTimeHint": "Tiempo inicial de banco por jugador",
+    "increment": "Incremento",
+    "incrementHint": "Segundos añadidos tras cada turno (0 = ninguno)",
+    "turnCap": "Límite por turno",
+    "turnCapHint": "Máx. segundos por turno (0 = sin límite, partida lenta)",
+    "deployTime": "Tiempo de despliegue",
+    "deployTimeHint": "Límite de tiempo en turno 0 en segundos (0 = usa el banco)",
+    "unitS": "s",
+    "unitMin": "min",
+    "unitH": "h",
+    "unitD": "d"
+  },
+  "timeControls": "Controles de tiempo",
   "customDescription": "El modo personalizado te permite configurar un juego con ajustes específicos e invitar a tus amigos a jugar.",
   "maxTurn": "Turno máximo",
   "seed": "Semilla",
@@ -114,6 +139,7 @@
   },
   "createScenario": "Crear Escenario",
   "loadScenario": "Cargar Escenario",
+  "invalidScenarioType": "Solo puedes cargar escenarios preestablecidos o híbridos.",
   "playOffline": "Jugá offline!",
   "createOfflineGame": "Crear juego offline",
   "chooseAScenario": "Elegí un escenario",
@@ -282,6 +308,10 @@
     "p2": "Como el juego todavía está en beta, te invito a unirte al <discordLink>servidor de Discord</discordLink> para conectarte con otros jugadores, encontrar rivales, reportar bugs y compartir tus ideas para ayudar a mejorar la experiencia para todos."
   },
   "turn": "Turno",
+  "bank": "Reserva",
+  "cap": "Límite",
+  "deploy": "Despliegue",
+  "noCap": "Sin límite",
   "loadingScreen": {
     "fonts": "Cargando fuentes...",
     "joiningGame": "Uniéndote al juego...",
@@ -404,6 +434,7 @@
   "experience": "Experiencia",
   "nextLevelExperience": "Experiencia del siguiente nivel",
   "season": "Temporada",
+  "time": "Tiempo",
   "of": "de",
   "joinedAt": "Se unió en {{date}}",
   "addPlayer": "Agregar jugador",
@@ -513,6 +544,9 @@
     "completed": "Completado",
     "cancelled": "Cancelado"
   },
+  "tournamentEraMismatch": "Tu era actual es {{current}}, pero la era del torneo es {{target}}. ¿Quieres cambiar?",
+  "switchToEra": "Cambiar a {{era}}",
+  "goHome": "Ir al Inicio",
   "hasPassword": "Tiene contraseña",
   "autoProgression": "Progresión automática",
   "autoProgressionInfo": "Si esta opción está habilitada, el torneo avanzará automáticamente a la siguiente ronda tan pronto como se complete el último partido de la ronda actual. Si está deshabilitada, el torneo avanzará cuando el administrador lo inicie manualmente o en la fecha y hora programada (si se ha establecido una).",
@@ -640,6 +674,8 @@
   "disconnecting": "Desconectando...",
   "unknown": "Desconocido",
   "fogOfWar": "Niebla de guerra",
+  "spectatorFullVision": "Visión completa del espectador",
+  "eloKFactorTooltip": "Factor K ELO (cambio máximo de puntuación por partida clasificada)",
   "prestigeDropChance": "Probabilidad de obtener {{currency}}: {{chance}}% (desde el turno {{turn}})",
   "low": "Baja",
   "medium": "Media",
@@ -701,9 +737,5 @@
   "recent": "Recientes",
   "clear": "Limpiar",
   "privacy": "Privacidad",
-  "showCountry": "Mostrar país",
-  "controlSchemeModal": {
-    "title": "Nuevo esquema de control",
-    "message": "El esquema de control de Lines of Battle ha sido mejorado y simplificado, pero ahora es muy diferente. Tanto los jugadores nuevos como los antiguos deberían jugar el tutorial para aprender el nuevo sistema."
-  }
+  "showCountry": "Mostrar país"
 }

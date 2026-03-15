@@ -16,6 +16,7 @@
   "experience": "Pengalaman",
   "nextLevelExperience": "Pengalaman level berikutnya",
   "season": "Musim",
+  "time": "Waktu",
   "of": "dari",
   "joinedAt": "Bergabung pada {{date}}",
   "createdAt": "Dibuat pada {{date}}",
@@ -67,7 +68,6 @@
   },
   "fastMode": "Mode Cepat",
   "slowMode": "Mode Lambat",
-  "maxTimePerTurn": "Maksimal waktu per giliran",
   "turnTimeLimit": {
     "30s": "30 detik",
     "1m": "1 menit",
@@ -78,10 +78,36 @@
     "3d": "3 hari",
     "7d": "7 hari"
   },
+  "gameTimePreset": {
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Cepat",
+    "daily": "Harian",
+    "correspondence": "Korespondensi",
+    "marathon": "Maraton"
+  },
   "battleType": "Jenis pertempuran",
   "matchmaking": "Pencarian Permainan",
   "matchmakingDescription": "Pencarian Permainan memungkinkan kamu untuk dengan cepat bergabung dalam permainan dengan pemain acak menggunakan pengaturan yang telah ditentukan sebelumnya.",
+  "requiredInMatchmakingQueue": "Selalu dalam antrean",
+  "requiredScenarioBadge": "Wajib",
   "custom": "Kustom",
+  "customTimeSettings": "Pengaturan waktu kustom",
+  "timeControls": "Kontrol waktu",
+  "customTimeFields": {
+    "bankTime": "Waktu bank",
+    "bankTimeHint": "Waktu bank awal per pemain. Jika 0, tanpa batas (permainan lambat).",
+    "increment": "Kenaikan",
+    "incrementHint": "Detik ditambah setelah setiap giliran (0 = tidak ada)",
+    "turnCap": "Batas giliran",
+    "turnCapHint": "Maks. detik per giliran (0 = tanpa batas, permainan lambat)",
+    "deployTime": "Waktu penempatan",
+    "deployTimeHint": "Batas waktu giliran 0 dalam detik (0 = gunakan bank)",
+    "unitS": "dt",
+    "unitMin": "mnt",
+    "unitH": "jm",
+    "unitD": "hr"
+  },
   "customDescription": "Mode kustom memungkinkan kamu mengatur permainan dengan pengaturan tertentu dan mengundang teman untuk bermain.",
   "createCustomGame": "Buat Permainan Kustom",
   "maxTurn": "Maksimal giliran",
@@ -116,6 +142,7 @@
   },
   "createScenario": "Buat Skenario",
   "loadScenario": "Muat Skenario",
+  "invalidScenarioType": "Anda hanya dapat memuat skenario preset atau hibrida.",
   "playOffline": "Bermain Offline!",
   "createOfflineGame": "Buat permainan offline",
   "chooseAScenario": "pilih skenario",
@@ -280,6 +307,10 @@
     "p2": "Karena game ini sedang dalam tahap beta, saya mengundang kamu untuk bergabung di <discordLink>Discord server</discordLink> untuk terhubung dengan pemain lain, temukan lawan untuk bermain, laporkan bug, dan bagikan ide kamu untuk membantu meningkatkan pengalaman bermain bagi semua orang!"
   },
   "turn": "Giliran",
+  "bank": "Cadangan",
+  "cap": "Batas",
+  "deploy": "Penempatan",
+  "noCap": "Tanpa batas",
   "loadingScreen": {
     "fonts": "Memuat Fonts...",
     "joiningGame": "Bergabung dengan permainan...",
@@ -499,6 +530,8 @@
   "disconnecting": "Memutus koneksi...",
   "unknown": "Tidak diketahui",
   "fogOfWar": "Kabut perang",
+  "spectatorFullVision": "Visibilitas penuh penonton",
+  "eloKFactorTooltip": "Faktor K ELO (perubahan peringkat maks per pertandingan berperingkat)",
   "prestigeDropChance": "Peluang mendapatkan {{currency}}: {{chance}}% (dari giliran {{turn}})",
   "low": "Rendah",
   "medium": "Sedang",
@@ -579,8 +612,7 @@
   "clear": "Hapus",
   "privacy": "Privasi",
   "showCountry": "Tampilkan negara",
-  "controlSchemeModal": {
-    "title": "Skema Kontrol Baru",
-    "message": "Skema kontrol Lines of Battle telah ditingkatkan dan disederhanakan, tetapi sangat berbeda sekarang. Pemain baru maupun lama harus memainkan tutorial untuk mempelajari sistem baru."
-  }
+  "tournamentEraMismatch": "Era Anda saat ini adalah {{current}}, tetapi era turnamen adalah {{target}}. Apakah Anda ingin beralih?",
+  "switchToEra": "Beralih ke {{era}}",
+  "goHome": "Ke Beranda"
 }

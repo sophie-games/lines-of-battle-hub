@@ -4,10 +4,6 @@
   "camera": "Камера",
   "sound": "Звук",
   "language": "Язык",
-  "multiTurnOrders": {
-    "title": "Планирование манёвров",
-    "description": "Позволяет отдавать приказы, которые игра будет запоминать и пытаться продолжить их выполнение в следующем ходу. (Максимум планирования - на 10 ходов вперёд.)"
-  },
   "multiTurnPathMinDistance": {
     "title": "Минимальная дистанция запланированных манёвров"
   },
@@ -30,6 +26,10 @@
   "smartCurvedMovements": {
     "title": "Умное движение по кривой",
     "description": "Минимизирует потери скорости при поворотах."
+  },
+  "pathFinding": {
+    "title": "Поиск пути",
+    "description": "Использовать поиск пути для движения вместо прямых линий."
   },
   "openSelectOrderModal": {
     "title": "Открывать окно выбора приказа",
@@ -84,6 +84,10 @@
   "shadows": {
     "title": "Тени",
     "description": "Включает тени на юнитах."
+  },
+  "showGrid": {
+    "title": "Показать сетку",
+    "description": "Показывает наложение сетки плиток на карте."
   },
   "showDebugShapes": {
     "title": "Показывать отладочные формы",
@@ -150,11 +154,14 @@
     "fireAndAdvanceOrder": "Огонь при движении",
     "fallbackOrder": "Отход",
     "toggleSmartCurvedMovements": "Умное движение по кривой",
+    "togglePathFinding": "Переключить поиск пути",
     "toggleFowPerspective": "Перспектива тумана войны",
-    "toggleMultiTurnOrders": "Планирование манёвров",
     "toggleRotateOrder": "Включение приказа 'Поворот'",
     "openChat": "Открыть чат",
-    "openFormationModal": "Окно выбора построения",
+    "formation1": "Построение 1",
+    "formation2": "Построение 2",
+    "formation3": "Построение 3",
+    "formation4": "Построение 4",
     "toggleFullscreen": "Полноэкранный режим",
     "simulateMultiTouch": "Имитация нескольких одновременных нажатий",
     "toggleSupplyLines": "Линии снабжения",

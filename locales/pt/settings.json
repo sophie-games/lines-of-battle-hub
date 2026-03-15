@@ -4,10 +4,6 @@
   "camera": "Câmera",
   "sound": "Som",
   "language": "Idioma",
-  "multiTurnOrders": {
-    "title": "Ordens de vários turnos",
-    "description": "Ativar esta configuração permitirá que você emita ordens que o jogo lembrará e implementará de um turno para o próximo. Essas ordens de vários turnos podem abranger até 10 turnos de movimento e incluir ordens de localização como 'Mover' e ordens de alvo como 'Buscar'."
-  },
   "multiTurnPathMinDistance": {
     "title": "Distância mínima do caminho de múltiplas voltas"
   },
@@ -30,6 +26,10 @@
   "smartCurvedMovements": {
     "title": "Movimentos Curvos Inteligentes",
     "description": "Ative esta opção para otimizar os caminhos de movimento com curvas suaves, minimizando a perda de velocidade durante rotações."
+  },
+  "pathFinding": {
+    "title": "Busca de caminho",
+    "description": "Use busca de caminho para movimento em vez de linhas retas."
   },
   "openSelectOrderModal": {
     "title": "Abrir Modal de Seleção de Ordens",
@@ -73,6 +73,10 @@
   "shadows": {
     "title": "Sombras",
     "description": "Ativa sombras nas unidades."
+  },
+  "showGrid": {
+    "title": "Mostrar grade",
+    "description": "Mostra uma sobreposição de grade de blocos no mapa."
   },
   "showDebugShapes": {
     "title": "Mostrar formas de depuração",
@@ -119,11 +123,14 @@
     "fireAndAdvanceOrder": "Ordem de disparar e avançar",
     "fallbackOrder": "Ordem de recuo",
     "toggleSmartCurvedMovements": "Alternar movimentos curvos inteligentes",
+    "togglePathFinding": "Alternar busca de caminho",
     "toggleFowPerspective": "Alternar perspectiva de névoa de guerra",
-    "toggleMultiTurnOrders": "Alternar ordens de vários turnos",
     "toggleRotateOrder": "Alternar ordem de rotação",
     "openChat": "Abrir chat",
-    "openFormationModal": "Abrir modal de formação",
+    "formation1": "Formação 1",
+    "formation2": "Formação 2",
+    "formation3": "Formação 3",
+    "formation4": "Formação 4",
     "toggleFullscreen": "Alternar tela cheia",
     "simulateMultiTouch": "Simular Multi-toque",
     "toggleSupplyLines": "Alternar linhas de suprimento",
