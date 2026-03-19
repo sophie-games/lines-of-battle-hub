@@ -4,8 +4,9 @@
   "camera": "Камера",
   "sound": "Звук",
   "language": "Мова",
-  "multiTurnPathMinDistance": {
-    "title": "Мінімальна відстань для багатоходового маршруту"
+  "multiTurnPathOrders": {
+    "title": "Багатоходові накази руху",
+    "description": "Якщо увімкнено, можна будувати шляхи руху на кілька ходів. Якщо вимкнено, шляхи обмежені одним ходом."
   },
   "enableRotateOrder": {
     "title": "Увімкнути наказ повороту",
@@ -34,9 +35,6 @@
   "openSelectOrderModal": {
     "title": "Відкрити вікно вибору наказу",
     "description": "Увімкніть цю опцію, щоб під час гри відображалося вікно вибору наказів."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Показати вікно нових подій битви"
   },
   "hidePlayerInfo": {
     "title": "Приховати інформацію про гравця",
@@ -108,7 +106,10 @@
     "togglePathFinding": "Перемкнути пошук шляху",
     "toggleFowPerspective": "Перемкнути перспективу туману війни",
     "toggleRotateOrder": "Перемкнути наказ повороту",
+    "toggleMultiTurnPathOrders": "Перемкнути багатоходові накази руху",
     "openChat": "Відкрити чат",
+    "openFormationModal": "Відкрити вікно формації",
+    "showBattleOverview": "Утримувати для огляду битви",
     "formation1": "Формація 1",
     "formation2": "Формація 2",
     "formation3": "Формація 3",

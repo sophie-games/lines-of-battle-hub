@@ -51,7 +51,7 @@
   "or": "Oder",
   "quickMatchmaking": "Schnelles Matchmaking",
   "ranked": "Bewertet",
-  "rankedTooltip": "Spiele beeinflussen deine Elo-Bewertung",
+  "rankedTooltip": "Die Geschichte erinnert sich nicht an die Vorsichtigen. Aktiviere dieses Kästchen, wenn du den Mut hast, dein Elo an die Front zu bringen.",
   "unranked": "Unbewertet",
   "cancel": "Abbrechen",
   "change": "Ändern",
@@ -186,6 +186,10 @@
   "select": "Auswählen",
   "selectAll": "Alle auswählen",
   "deselect": "Abwählen",
+  "removeFromSelectionTooltip": "Aus Auswahl entfernen – Einheit anklicken zum Entfernen",
+  "keepOnlyThese": "Nur diese behalten – Einheiten zum Behalten auswählen",
+  "keepOnlyTheseApply": "Nur diese behalten",
+  "keepOnlyTheseCancel": "Abbrechen",
   "idle": "Untätig",
   "moving": "Bewegend",
   "combating": "Kampf",
@@ -424,10 +428,6 @@
   "armyOfPlayer": "Armee des Spielers {{player}}",
   "averageElo": "Durchschnittliche Elo",
   "hybridDescription": "Hybridkarten benutzen nicht-zufälliges, voreingestelltes Gelände, aber ermöglichen dem Spieler benutzerdefinierte Armeen zu verwenden.",
-  "playLastActionsModal": {
-    "message": "Neue Schlachtereignisse haben stattgefunden, während Sie weg waren\nWollen Sie die Kampfhandlungen der letzen Runde ansehen?",
-    "button": "Abspielen"
-  },
   "battleReport": "Schlachtbericht",
   "gameEndReasons": {
     "cancelled": "Das Spiel wurde abgebrochen, weil mindestens einer der Spieler im ersten Zug keine Befehle eingereicht hat.",

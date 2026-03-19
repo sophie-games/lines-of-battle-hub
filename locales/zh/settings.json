@@ -4,8 +4,9 @@
   "camera": "镜头",
   "sound": "声音",
   "language": "语言",
-  "multiTurnPathMinDistance": {
-    "title": "多回合指令路径的最小距离"
+  "multiTurnPathOrders": {
+    "title": "多回合路径指令",
+    "description": "启用后可绘制跨越多个回合的移动路径。禁用后，路径仅限单回合。"
   },
   "enableRotateOrder": {
     "title": "启用转向指令",
@@ -38,9 +39,6 @@
   "openSelectFormationModal": {
     "title": "启用阵型菜单",
     "description": "如果启用，会在选择阵型时打开一个菜单而不是点击切换。"
-  },
-  "showNewBattleEventsModal": {
-    "title": "显示战斗事件弹窗"
   },
   "showPlayableGamesAvailableModal": {
     "title": "显示可进行游戏菜单"
@@ -157,7 +155,10 @@
     "togglePathFinding": "切换路径寻找",
     "toggleFowPerspective": "切换战争迷雾视角",
     "toggleRotateOrder": "切换转向指令",
+    "toggleMultiTurnPathOrders": "切换多回合路径指令",
     "openChat": "打开聊天栏",
+    "openFormationModal": "打开阵型菜单",
+    "showBattleOverview": "按住显示战斗概览",
     "formation1": "阵型 1",
     "formation2": "阵型 2",
     "formation3": "阵型 3",

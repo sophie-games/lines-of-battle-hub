@@ -51,7 +51,7 @@
   "or": "Veya",
   "quickMatchmaking": "Hızlı Eşleşme",
   "ranked": "Sıralı",
-  "rankedTooltip": "Oyunlar Elo puanınızı etkiler",
+  "rankedTooltip": "Tarih ihtiyatlıları hatırlamaz. Elo'nu ateş hattına koyacak cesaretin varsa bu kutuyu işaretle.",
   "unranked": "Sırasız",
   "cancel": "İptal",
   "change": "Değiştir",
@@ -186,6 +186,10 @@
   "select": "Seç",
   "selectAll": "Tümünü Seç",
   "deselect": "Seçimi Kaldır",
+  "removeFromSelectionTooltip": "Seçimden çıkar – çıkarmak için birliğe tıklayın",
+  "keepOnlyThese": "Sadece bunları tut – tutulacak birlikleri seçin",
+  "keepOnlyTheseApply": "Sadece bunları tut",
+  "keepOnlyTheseCancel": "İptal",
   "idle": "Beklemede",
   "moving": "Hareket",
   "combating": "Savaş",
@@ -425,10 +429,6 @@
   "armyOfPlayer": "Oyuncu {{player}}’ın ordusu",
   "averageElo": "Ortalama Elo",
   "hybridDescription": "Hibrit haritalar rastgele olmayan, önceden ayarlanmış arazi kullanır, ancak oyuncuların kendi özel ordularını kullanmalarına olanak tanır.",
-  "playLastActionsModal": {
-    "message": "Siz yokken yeni savaş olayları gerçekleşti.\nSon turdaki eylemleri görmek ister misiniz?",
-    "button": "Oynat"
-  },
   "battleReport": "Savaş Raporu",
   "gameEndReasons": {
     "cancelled": "Oyun iptal edildi çünkü en az bir oyuncu ilk turda emir göndermedi.",

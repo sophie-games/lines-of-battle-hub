@@ -51,7 +51,7 @@
   "selectGameMode": "Chọn chế độ trò chơi từ các tùy chọn bên dưới.",
   "quickMatchmaking": "Ghép nhanh",
   "ranked": "Có xếp hạng",
-  "rankedTooltip": "Trò chơi ảnh hưởng đến xếp hạng Elo của bạn",
+  "rankedTooltip": "Lịch sử không nhớ những kẻ thận trọng. Hãy đánh dấu ô này nếu bạn đủ can đảm đặt Elo của mình vào làn đạn.",
   "unranked": "Không xếp hạng",
   "or": "Hoặc",
   "cancel": "Hủy",
@@ -198,6 +198,10 @@
   "select": "Chọn",
   "selectAll": "Chọn tất cả",
   "deselect": "Bỏ chọn",
+  "removeFromSelectionTooltip": "Loại khỏi vùng chọn – nhấp vào đơn vị để loại",
+  "keepOnlyThese": "Chỉ giữ những đơn vị này – chọn đơn vị cần giữ",
+  "keepOnlyTheseApply": "Chỉ giữ những đơn vị này",
+  "keepOnlyTheseCancel": "Hủy",
   "idle": "Nghỉ",
   "moving": "Di chuyển",
   "combating": "Chiến đấu",
@@ -468,10 +472,6 @@
   "armyOfPlayer": "Quân đội của người chơi {{player}}",
   "averageElo": "Elo trung bình",
   "hybridDescription": "Bản đồ lai sử dụng địa hình được định sẵn không ngẫu nhiên, nhưng cho phép người chơi sử dụng quân đội tùy chỉnh của riêng họ để chơi.",
-  "playLastActionsModal": {
-    "message": "Các sự kiện chiến đấu mới đã xảy ra khi bạn vắng mặt.\nBạn có muốn xem các hành động từ lượt mới nhất không?",
-    "button": "Chơi"
-  },
   "battleReport": "Báo cáo trận chiến",
   "gameEndReasons": {
     "cancelled": "Trò chơi bị hủy vì ít nhất một người chơi không gửi lệnh trong lượt đầu tiên.",

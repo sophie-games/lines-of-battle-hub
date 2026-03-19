@@ -4,8 +4,9 @@
   "camera": "الكاميرا",
   "sound": "الصوت",
   "language": "اللغة",
-  "multiTurnPathMinDistance": {
-    "title": "الحد الأدنى لمسافة المسار متعدد الأدوار"
+  "multiTurnPathOrders": {
+    "title": "أوامر المسار متعدد الأدوار",
+    "description": "عند التفعيل يمكنك رسم مسارات حركة تمتد على عدة أدوار. عند التعطيل تُقتصر المسارات على دور واحد فقط."
   },
   "enableRotateOrder": {
     "title": "تفعيل أمر الدوران",
@@ -38,9 +39,6 @@
   "openSelectFormationModal": {
     "title": "فتح نافذة اختيار التشكيل",
     "description": "تفعيل هذا الخيار لإظهار نافذة لاختيار التشكيلات أثناء اللعب."
-  },
-  "showNewBattleEventsModal": {
-    "title": "إظهار نافذة أحداث المعركة الجديدة"
   },
   "showPlayableGamesAvailableModal": {
     "title": "إظهار نافذة الألعاب القابلة للعب المتاحة"
@@ -153,7 +151,10 @@
     "togglePathFinding": "تبديل البحث عن المسار",
     "toggleFowPerspective": "تبديل منظور ضباب الحرب",
     "toggleRotateOrder": "تبديل أمر الدوران",
+    "toggleMultiTurnPathOrders": "تبديل أوامر المسار متعدد الأدوار",
     "openChat": "فتح الدردشة",
+    "openFormationModal": "فتح نافذة التشكيل",
+    "showBattleOverview": "الضغط لعرض ملخص المعركة",
     "formation1": "التشكيل ١",
     "formation2": "التشكيل ٢",
     "formation3": "التشكيل ٣",

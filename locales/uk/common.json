@@ -47,7 +47,7 @@
   "or": "Або",
   "quickMatchmaking": "Швидкий Пошук",
   "ranked": "Рейтинговий",
-  "rankedTooltip": "Ігри впливають на ваш рейтинг Elo",
+  "rankedTooltip": "Історія не пам’ятає обережних. Позначте цей прапорець, якщо маєте мужність поставити свій Elo на лінію вогню.",
   "unranked": "Нерейтинговий",
   "cancel": "Відмінити",
   "change": "Змінити",
@@ -186,6 +186,10 @@
   "select": "Вибрати",
   "selectAll": "Вибрати все",
   "deselect": "Скасувати вибір",
+  "removeFromSelectionTooltip": "Вилучити з вибору – натисніть на юніт, щоб вилучити",
+  "keepOnlyThese": "Залишити лише ці – оберіть юніти для збереження",
+  "keepOnlyTheseApply": "Залишити лише ці",
+  "keepOnlyTheseCancel": "Скасувати",
   "idle": "Спокій",
   "moving": "Рух",
   "combating": "Бій",
@@ -441,10 +445,6 @@
   "armyOfPlayer": "Військо гравця {{player}}",
   "averageElo": "Середній рейтинг Elo",
   "hybridDescription": "Hybrid maps use non-random, preset terrain, but enable players to use their own custom armies to play.",
-  "playLastActionsModal": {
-    "message": "Поки вас не було, сталися нові події на полі бою.Бажаєте переглянути дії останнього ходу?",
-    "button": "Показати"
-  },
   "battleReport": "Звіт про битву",
   "gameEndReasons": {
     "cancelled": "Гра була скасована, тому що принаймні один з гравців не надіслав наказів у першому ході.",

@@ -51,7 +51,7 @@
   "or": "O",
   "quickMatchmaking": "Matchmaking Rapido",
   "ranked": "Classificato",
-  "rankedTooltip": "Le partite influenzano la tua valutazione Elo",
+  "rankedTooltip": "La storia non ricorda i prudenti. Spunta questa casella se hai il coraggio di mettere il tuo Elo sulla linea del fuoco.",
   "unranked": "Non Classificato",
   "cancel": "Annulla",
   "change": "Cambia",
@@ -186,6 +186,10 @@
   "select": "Seleziona",
   "selectAll": "Seleziona tutto",
   "deselect": "Deseleziona",
+  "removeFromSelectionTooltip": "Rimuovi dalla selezione – clicca su un'unità per rimuoverla",
+  "keepOnlyThese": "Mantieni solo queste – scegli le unità da mantenere",
+  "keepOnlyTheseApply": "Mantieni solo queste",
+  "keepOnlyTheseCancel": "Annulla",
   "idle": "Inattivo",
   "moving": "In movimento",
   "combating": "Combattimento",
@@ -424,10 +428,6 @@
   "armyOfPlayer": "Esercito del giocatore {{player}}",
   "averageElo": "Elo medio",
   "hybridDescription": "Le mappe ibride utilizzano terreni preimpostati non casuali, ma permettono ai giocatori di usare i propri eserciti personalizzati per giocare.",
-  "playLastActionsModal": {
-    "message": "Nuovi eventi di battaglia si sono verificati mentre eri via.\nVuoi vedere le azioni dell'ultimo turno?",
-    "button": "Riproduci"
-  },
   "battleReport": "Rapporto di battaglia",
   "gameEndReasons": {
     "cancelled": "Il gioco è stato cancellato perché almeno uno dei giocatori non ha inviato ordini nel primo turno.",

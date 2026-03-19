@@ -4,8 +4,9 @@
   "camera": "Kamera",
   "sound": "Ses",
   "language": "Dil",
-  "multiTurnPathMinDistance": {
-    "title": "Çok Turlu Yol Minimum Mesafesi"
+  "multiTurnPathOrders": {
+    "title": "Çok turlu yol emirleri",
+    "description": "Açıkken birden fazla tur kapsayan hareket yolları çizebilirsiniz. Kapalıyken yollar yalnızca bir turla sınırlıdır."
   },
   "enableRotateOrder": {
     "title": "Döndürme Emrini Etkinleştir",
@@ -34,9 +35,6 @@
   "openSelectOrderModal": {
     "title": "Emir Seçim Modalını Aç",
     "description": "Bu seçeneği etkinleştirerek, oynanış sırasında emir seçimi için bir modal gösterilir."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Yeni Savaş Olayları Modalını Göster"
   },
   "hidePlayerInfo": {
     "title": "Oyuncu Bilgilerini Gizle",
@@ -126,7 +124,10 @@
     "togglePathFinding": "Yol bulmayı değiştir",
     "toggleFowPerspective": "Savaş sisi perspektifini değiştir",
     "toggleRotateOrder": "Döndürme Emrini Değiştir",
+    "toggleMultiTurnPathOrders": "Çok turlu yol emirlerini değiştir",
     "openChat": "Sohbeti aç",
+    "openFormationModal": "Formasyon penceresini aç",
+    "showBattleOverview": "Savaş özeti için basılı tut",
     "formation1": "Formasyon 1",
     "formation2": "Formasyon 2",
     "formation3": "Formasyon 3",

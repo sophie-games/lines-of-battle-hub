@@ -4,8 +4,9 @@
   "camera": "Kamera",
   "sound": "Hang",
   "language": "Nyelv",
-  "multiTurnPathMinDistance": {
-    "title": "Többszörös fordulási út minimális távolsága"
+  "multiTurnPathOrders": {
+    "title": "Többszörös fordulási út parancsok",
+    "description": "Bekapcsolva több fordulóra kiterjedő mozgási utakat rajzolhatsz. Kikapcsolva az utak egy fordulóra korlátozódnak."
   },
   "enableRotateOrder": {
     "title": "Forgatási parancs engedélyezése",
@@ -34,9 +35,6 @@
   "openSelectOrderModal": {
     "title": "Utasítások ablak megjelenítése",
     "description": "Engedélyezd ezt, hogy hozzáférhess az utasításokat részletező ablakhoz játék közben."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Jelenjen meg az új csata-eseményekről értesítő ablak"
   },
   "hidePlayerInfo": {
     "title": "Játékos Info elrejtése",
@@ -126,7 +124,10 @@
     "togglePathFinding": "Útvonalkeresés váltása",
     "toggleFowPerspective": "Háborús köd perspektíva váltása",
     "toggleRotateOrder": "Forgatási parancs váltása",
+    "toggleMultiTurnPathOrders": "Többszörös fordulási út parancsok váltása",
     "openChat": "Chat megnyitása",
+    "openFormationModal": "Formáció ablak megnyitása",
+    "showBattleOverview": "Nyomva tartás a csata áttekintéshez",
     "formation1": "Formáció 1",
     "formation2": "Formáció 2",
     "formation3": "Formáció 3",

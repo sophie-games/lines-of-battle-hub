@@ -51,7 +51,7 @@
   "or": "または",
   "quickMatchmaking": "クイックマッチメイキング",
   "ranked": "ランク戦",
-  "rankedTooltip": "ゲームはあなたのEloレーティングに影響します",
+  "rankedTooltip": "歴史は慎重な者を覚えていない。あなたのEloを火線にさらす勇気があるなら、このチェックを入れてください。",
   "unranked": "非ランク",
   "cancel": "キャンセル",
   "change": "変更",
@@ -186,6 +186,10 @@
   "select": "選択",
   "selectAll": "すべて選択",
   "deselect": "選択解除",
+  "removeFromSelectionTooltip": "選択から削除 – ユニットをクリックして削除",
+  "keepOnlyThese": "これらだけ残す – 残すユニットを選択",
+  "keepOnlyTheseApply": "これらだけ残す",
+  "keepOnlyTheseCancel": "キャンセル",
   "idle": "待機中",
   "moving": "移動中",
   "combating": "戦闘中",
@@ -424,10 +428,6 @@
   "armyOfPlayer": "プレイヤー{{player}}の軍",
   "averageElo": "平均Elo",
   "hybridDescription": "ハイブリッドマップは、ランダムではなく、プリセットの地形を使用しますが、プレイヤーが独自のカスタム軍を使用してプレイできるようにします。",
-  "playLastActionsModal": {
-    "message": "あなたが離席している間に新しい戦闘イベントが発生しました。\n最新ターンのアクションを確認しますか？",
-    "button": "再生"
-  },
   "battleReport": "戦闘報告",
   "gameEndReasons": {
     "cancelled": "少なくとも1人のプレイヤーが最初のターンで命令を送信しなかったため、ゲームがキャンセルされました。",

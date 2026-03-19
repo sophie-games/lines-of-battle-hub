@@ -52,7 +52,7 @@
   "or": "Atau",
   "quickMatchmaking": "Pencocokan Cepat",
   "ranked": "Berperingkat",
-  "rankedTooltip": "Permainan mempengaruhi peringkat Elo Anda",
+  "rankedTooltip": "Sejarah tidak mengingat mereka yang berhati-hati. Centang kotak ini jika kamu punya keberanian untuk menaruh Elo-mu di garis tembak.",
   "unranked": "Tidak Berperingkat",
   "cancel": "Batal",
   "change": "Ubah",
@@ -187,6 +187,10 @@
   "select": "Pilih",
   "selectAll": "Pilih Semua",
   "deselect": "Batalkan pilih",
+  "removeFromSelectionTooltip": "Hapus dari pemilihan – klik unit untuk menghapus",
+  "keepOnlyThese": "Simpan hanya ini – pilih unit yang ingin disimpan",
+  "keepOnlyTheseApply": "Simpan hanya ini",
+  "keepOnlyTheseCancel": "Batal",
   "idle": "Diam",
   "moving": "Bergerak",
   "combating": "Bertempur",
@@ -427,10 +431,6 @@
   "armyOfPlayer": "Pasukan Pemain {{player}}",
   "averageElo": "Rata-Rata Elo",
   "hybridDescription": "Peta hibrida menggunakan medan yang telah ditetapkan dan tidak acak, \ntetapi memungkinkan pemain untuk menggunakan pasukan khusus mereka sendiri untuk bermain.",
-  "playLastActionsModal": {
-    "message": "Peristiwa pertempuran baru telah terjadi saat Anda pergi.\nApakah Anda ingin melihat aksi dari giliran terakhir?",
-    "button": "Main"
-  },
   "battleReport": "Laporan Pertempuran",
   "gameEndReasons": {
     "cancelled": "Permainan dibatalkan karena setidaknya satu pemain tidak mengirimkan perintah di putaran pertama.",

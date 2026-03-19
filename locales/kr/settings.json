@@ -4,8 +4,9 @@
   "camera": "카메라",
   "sound": "소리",
   "language": "언어",
-  "multiTurnPathMinDistance": {
-    "title": "다중 턴 경로 최소 거리"
+  "multiTurnPathOrders": {
+    "title": "다중 턴 경로 명령",
+    "description": "켜면 여러 턴에 걸친 이동 경로를 그릴 수 있습니다. 끄면 경로는 한 턴으로만 제한됩니다."
   },
   "enableRotateOrder": {
     "title": "회전 명령 활성화",
@@ -38,9 +39,6 @@
   "openSelectFormationModal": {
     "title": "명령 진형 모달 창 사용",
     "description": "이 설정을 활성화하면 경기 중 진형 선택을 위한 모달 창이 표시됩니다."
-  },
-  "showNewBattleEventsModal": {
-    "title": "새 전투 변동 사항 모달 창 표시"
   },
   "showPlayableGamesAvailableModal": {
     "title": "플레이 가능 경기 모달 창 표시"
@@ -153,7 +151,10 @@
     "togglePathFinding": "경로 찾기 전환",
     "toggleFowPerspective": "전장의 안개 시점 전환",
     "toggleRotateOrder": "회전 명령 전환",
+    "toggleMultiTurnPathOrders": "다중 턴 경로 명령 전환",
     "openChat": "채팅 열기",
+    "openFormationModal": "진형 창 열기",
+    "showBattleOverview": "전투 개요 보기 (키 유지)",
     "formation1": "진형 1",
     "formation2": "진형 2",
     "formation3": "진형 3",

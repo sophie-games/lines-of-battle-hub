@@ -4,8 +4,9 @@
   "camera": "Kamera",
   "sound": "Suara",
   "language": "Bahasa",
-  "multiTurnPathMinDistance": {
-    "title": "Multi-turn path min distance"
+  "multiTurnPathOrders": {
+    "title": "Perintah jalur multi-giliran",
+    "description": "Saat diaktifkan, Anda dapat menggambar jalur gerak yang mencakup beberapa giliran. Saat dinonaktifkan, jalur dibatasi satu giliran saja."
   },
   "enableRotateOrder": {
     "title": "Aktifkan Perintah Putar",
@@ -34,9 +35,6 @@
   "openSelectOrderModal": {
     "title": "Buka Jendela pop-up Pilih Perintah",
     "description": "Aktifkan opsi ini untuk menampilkan jendela pemilihan perintah selama permainan."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Tampilkan jendela peristiwa pertempuran baru"
   },
   "hidePlayerInfo": {
     "title": "Sembunyikan Informasi Pemain",
@@ -126,7 +124,10 @@
     "togglePathFinding": "Alihkan pencarian rute",
     "toggleFowPerspective": "Ubah Perspektif Kabut Perang",
     "toggleRotateOrder": "Ubah Perintah Putar",
+    "toggleMultiTurnPathOrders": "Alihkan perintah jalur multi-giliran",
     "openChat": "Buka Chat",
+    "openFormationModal": "Buka Jendela Formasi",
+    "showBattleOverview": "Tahan untuk Ringkasan Pertempuran",
     "formation1": "Formasi 1",
     "formation2": "Formasi 2",
     "formation3": "Formasi 3",

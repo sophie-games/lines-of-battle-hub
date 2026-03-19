@@ -4,8 +4,9 @@
   "camera": "Caméra",
   "sound": "Son",
   "language": "Langue",
-  "multiTurnPathMinDistance": {
-    "title": "Distance minimale du chemin à plusieurs tours"
+  "multiTurnPathOrders": {
+    "title": "Ordres de chemin multi-tours",
+    "description": "Si activé, vous pouvez tracer des chemins de mouvement sur plusieurs tours. Si désactivé, les chemins sont limités à un seul tour."
   },
   "enableRotateOrder": {
     "title": "Activer l'ordre de rotation",
@@ -34,9 +35,6 @@
   "openSelectOrderModal": {
     "title": "Ouvrir la fenêtre modale de sélection d'ordres",
     "description": "Active cette option pour afficher une fenêtre modale permettant de sélectionner des ordres pendant le jeu."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Afficher la fenêtre modale des nouveaux événements de bataille"
   },
   "hidePlayerInfo": {
     "title": "Masquer les informations des joueurs",
@@ -126,7 +124,10 @@
     "togglePathFinding": "Basculer la recherche de chemin",
     "toggleFowPerspective": "Basculer la perspective de brouillard de guerre",
     "toggleRotateOrder": "Basculer l'ordre de rotation",
+    "toggleMultiTurnPathOrders": "Basculer les ordres de chemin multi-tours",
     "openChat": "Ouvrir le chat",
+    "openFormationModal": "Ouvrir la fenêtre de formation",
+    "showBattleOverview": "Maintenir pour le résumé de bataille",
     "formation1": "Formation 1",
     "formation2": "Formation 2",
     "formation3": "Formation 3",

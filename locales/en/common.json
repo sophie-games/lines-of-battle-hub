@@ -51,7 +51,7 @@
   "selectGameMode": "Select the game mode from the options below.",
   "quickMatchmaking": "Quick Matchmaking",
   "ranked": "Ranked",
-  "rankedTooltip": "Games affect your Elo rating",
+  "rankedTooltip": "History does not remember the prudent. Check this box if you have the courage to put your Elo on the line of fire.",
   "unranked": "Unranked",
   "or": "Or",
   "cancel": "Cancel",
@@ -198,6 +198,10 @@
   "select": "Select",
   "selectAll": "Select All",
   "deselect": "Deselect",
+  "removeFromSelectionTooltip": "Remove from selection – click a unit to remove it",
+  "keepOnlyThese": "Keep only these – pick units to keep",
+  "keepOnlyTheseApply": "Keep only these",
+  "keepOnlyTheseCancel": "Cancel",
   "idle": "Idle",
   "moving": "Moving",
   "combating": "Combat",
@@ -471,10 +475,6 @@
   "armyOfPlayer": "Army of Player {{player}}",
   "averageElo": "Average Elo",
   "hybridDescription": "Hybrid maps use non-random, preset terrain, but enable players to use their own custom armies to play.",
-  "playLastActionsModal": {
-    "message": "New battle events have occurred while you were away.\nWould you like to see the actions from the latest turn?",
-    "button": "Play"
-  },
   "battleReport": "Battle Report",
   "gameEndReasons": {
     "cancelled": "The game was cancelled because at least one of the players didn't submit orders in the first turn.",

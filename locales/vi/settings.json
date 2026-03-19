@@ -4,8 +4,9 @@
   "camera": "Camera",
   "sound": "Âm thanh",
   "language": "Ngôn ngữ",
-  "multiTurnPathMinDistance": {
-    "title": "Khoảng cách tối thiểu đường đi đa lượt"
+  "multiTurnPathOrders": {
+    "title": "Lệnh đường đi đa lượt",
+    "description": "Khi bật, bạn có thể vẽ đường di chuyển trải dài nhiều lượt. Khi tắt, đường đi giới hạn trong một lượt."
   },
   "enableRotateOrder": {
     "title": "Bật Lệnh Xoay",
@@ -38,9 +39,6 @@
   "openSelectFormationModal": {
     "title": "Mở modal chọn đội hình",
     "description": "Bật tùy chọn này để hiển thị modal để chọn đội hình trong quá trình chơi."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Hiển thị modal sự kiện chiến đấu mới"
   },
   "showPlayableGamesAvailableModal": {
     "title": "Hiển thị modal trò chơi có thể chơi"
@@ -153,7 +151,10 @@
     "togglePathFinding": "Chuyển đổi tìm đường",
     "toggleFowPerspective": "Chuyển đổi góc nhìn sương mù chiến tranh",
     "toggleRotateOrder": "Chuyển đổi lệnh xoay",
+    "toggleMultiTurnPathOrders": "Chuyển đổi lệnh đường đi đa lượt",
     "openChat": "Mở trò chuyện",
+    "openFormationModal": "Mở cửa sổ đội hình",
+    "showBattleOverview": "Giữ phím để xem tóm tắt trận đánh",
     "formation1": "Đội hình 1",
     "formation2": "Đội hình 2",
     "formation3": "Đội hình 3",

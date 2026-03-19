@@ -4,8 +4,9 @@
   "camera": "Камера",
   "sound": "Звук",
   "language": "Язык",
-  "multiTurnPathMinDistance": {
-    "title": "Минимальная дистанция запланированных манёвров"
+  "multiTurnPathOrders": {
+    "title": "Многоходовые приказы движения",
+    "description": "Если включено, можно строить пути движения на несколько ходов. Если выключено, пути ограничены одним ходом."
   },
   "enableRotateOrder": {
     "title": "Включить приказ 'Поворот'",
@@ -38,9 +39,6 @@
   "openSelectFormationModal": {
     "title": "Открывать окно выбора боевого построения",
     "description": "Если активно, во время игры будет показываться окно выбора боевого построения."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Показывать сообщение о новых событиях на поле боя"
   },
   "showPlayableGamesAvailableModal": {
     "title": "Показывать сообщение об активных играх"
@@ -157,7 +155,10 @@
     "togglePathFinding": "Переключить поиск пути",
     "toggleFowPerspective": "Перспектива тумана войны",
     "toggleRotateOrder": "Включение приказа 'Поворот'",
+    "toggleMultiTurnPathOrders": "Переключить многоходовые приказы движения",
     "openChat": "Открыть чат",
+    "openFormationModal": "Окно выбора построения",
+    "showBattleOverview": "Удерживать для обзора боя",
     "formation1": "Построение 1",
     "formation2": "Построение 2",
     "formation3": "Построение 3",

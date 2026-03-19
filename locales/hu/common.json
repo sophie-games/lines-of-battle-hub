@@ -51,7 +51,7 @@
   "or": "Vagy",
   "quickMatchmaking": "Gyors Párosítás",
   "ranked": "Rangsorolt",
-  "rankedTooltip": "A játékok befolyásolják az Elo értékelésedet",
+  "rankedTooltip": "A történelem nem emlékszik az óvatosakra. Jelöld be ezt, ha van bátorságod tűzvonalba tenni az Elódat.",
   "unranked": "Nem Rangsorolt",
   "cancel": "Mégsem",
   "change": "Módosítás",
@@ -186,6 +186,10 @@
   "select": "Kiválasztás",
   "selectAll": "Összes kiválasztása",
   "deselect": "Visszaállítás",
+  "removeFromSelectionTooltip": "Eltávolítás a kijelölésből – kattints egy egységre az eltávolításhoz",
+  "keepOnlyThese": "Csak ezeket tartsd – válaszd ki a megtartandó egységeket",
+  "keepOnlyTheseApply": "Csak ezeket tartsd",
+  "keepOnlyTheseCancel": "Mégse",
   "idle": "Tétlen",
   "moving": "Mozgás",
   "combating": "Harc",
@@ -422,9 +426,6 @@
   "bot": "Bot",
   "armyOfPlayer": "Játékos {{player}} serege",
   "hybridDescription": "A hybrid pályák előre felépett pályák, ahol egyedül a seregeid összetételét tudod módosítani.",
-  "playLastActionsModal": {
-    "message": "Új csataesemények zajlottak le, amíg távol voltál.\nSzeretnéd, ha lejátszanánk ezeket?"
-  },
   "search": {
     "clans": "Koalíciók keresése",
     "lob": "Keresés a Lines of Battle-ben"

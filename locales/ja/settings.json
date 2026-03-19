@@ -4,8 +4,9 @@
   "camera": "カメラ",
   "sound": "サウンド",
   "language": "言語",
-  "multiTurnPathMinDistance": {
-    "title": "複数回転経路の最小距離"
+  "multiTurnPathOrders": {
+    "title": "複数ターン経路の指令",
+    "description": "有効にすると、複数ターンにわたる移動経路を描けます。無効にすると、経路は1ターンのみに制限されます。"
   },
   "enableRotateOrder": {
     "title": "回転命令を有効にする",
@@ -34,9 +35,6 @@
   "openSelectOrderModal": {
     "title": "命令選択モーダルを開く",
     "description": "ゲームプレイ中に命令を選択するためのモーダルを表示するオプションを有効にします。"
-  },
-  "showNewBattleEventsModal": {
-    "title": "新しい戦闘イベントモーダルを表示"
   },
   "hidePlayerInfo": {
     "title": "プレイヤー情報を隠す",
@@ -126,7 +124,10 @@
     "togglePathFinding": "経路探索の切り替え",
     "toggleFowPerspective": "戦争の霧の視点切り替え",
     "toggleRotateOrder": "回転命令の切り替え",
+    "toggleMultiTurnPathOrders": "複数ターン経路の指令の切り替え",
     "openChat": "チャットを開く",
+    "openFormationModal": "陣形ウィンドウを開く",
+    "showBattleOverview": "押している間は戦闘概要を表示",
     "formation1": "陣形 1",
     "formation2": "陣形 2",
     "formation3": "陣形 3",

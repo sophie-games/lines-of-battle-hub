@@ -52,7 +52,7 @@
   "or": "Albo",
   "quickMatchmaking": "Szybkie Dopasowanie",
   "ranked": "Rankingowe",
-  "rankedTooltip": "Gry wpływają na twoją ocenę Elo",
+  "rankedTooltip": "Historia nie pamięta ostrożnych. Zaznacz to pole, jeśli masz odwagę wystawić swoje Elo na linię ognia.",
   "unranked": "Nierankingowe",
   "cancel": "Anuluj",
   "change": "Zmień",
@@ -189,6 +189,10 @@
   "select": "Wybierz",
   "selectAll": "Zaznacz wszystko",
   "deselect": "Anuluj Wybór",
+  "removeFromSelectionTooltip": "Usuń z zaznaczenia – kliknij jednostkę, aby ją usunąć",
+  "keepOnlyThese": "Zostaw tylko te – wybierz jednostki do zachowania",
+  "keepOnlyTheseApply": "Zostaw tylko te",
+  "keepOnlyTheseCancel": "Anuluj",
   "idle": "Bezczynność",
   "moving": "Ruch",
   "combating": "Walka",
@@ -445,10 +449,6 @@
   "armyOfPlayer": "Armia gracza {{player}}",
   "averageElo": "Średnie Elo",
   "hybridDescription": "Hybrydowe mapy używają ustalonego terenu, ale pozwalają graczom używać własnych armii.",
-  "playLastActionsModal": {
-    "message": "Nowe rzeczy zdarzyły się na polu bitwy, gdy cię nie było.\nCzy chcesz zobaczyć akcję z poprzedniej tury?",
-    "button": "Kontynuuj"
-  },
   "battleReport": "Raport z Bitwy",
   "gameEndReasons": {
     "cancelled": "Gra została anulowana, ponieważ co najmniej jeden z graczy nie przesłał rozkazów w pierwszej turze.",

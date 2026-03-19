@@ -4,8 +4,9 @@
   "camera": "कैमरा",
   "sound": "ध्वनि",
   "language": "भाषा",
-  "multiTurnPathMinDistance": {
-    "title": "बहु-टर्न पथ न्यूनतम दूरी"
+  "multiTurnPathOrders": {
+    "title": "बहु-टर्न पथ आदेश",
+    "description": "चालू होने पर आप कई टर्न तक फैलने वाले मूवमेंट पथ खींच सकते हैं। बंद होने पर पथ केवल एक टर्न तक सीमित रहते हैं।"
   },
   "enableRotateOrder": {
     "title": "रोटेट ऑर्डर सक्षम करें",
@@ -38,9 +39,6 @@
   "openSelectFormationModal": {
     "title": "सिलेक्ट फॉर्मेशन मोडल खोलें",
     "description": "गेमप्ले के दौरान गठनों का चयन करने के लिए मोडल दिखाने के लिए इस विकल्प को सक्षम करें।"
-  },
-  "showNewBattleEventsModal": {
-    "title": "नए युद्ध इवेंट्स मोडल दिखाएं"
   },
   "showPlayableGamesAvailableModal": {
     "title": "खेलने योग्य गेम्स उपलब्ध मोडल दिखाएं"
@@ -153,7 +151,10 @@
     "togglePathFinding": "पाथ फाइंडिंग टॉगल करें",
     "toggleFowPerspective": "कोहरे का दृष्टिकोण टॉगल करें",
     "toggleRotateOrder": "रोटेट ऑर्डर टॉगल करें",
+    "toggleMultiTurnPathOrders": "बहु-टर्न पथ आदेश टॉगल करें",
     "openChat": "चैट खोलें",
+    "openFormationModal": "गठन विंडो खोलें",
+    "showBattleOverview": "युद्ध सारांश के लिए दबाकर रखें",
     "formation1": "संरचना 1",
     "formation2": "संरचना 2",
     "formation3": "संरचना 3",

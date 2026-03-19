@@ -4,6 +4,10 @@
   "camera": "Kamera",
   "sound": "Dźwięk",
   "language": "Język",
+  "multiTurnPathOrders": {
+    "title": "Rozkazy ścieżki wieloturowej",
+    "description": "Gdy włączone, możesz rysować ścieżki ruchu obejmujące wiele tur. Gdy wyłączone, ścieżki są ograniczone do jednej tury."
+  },
   "edgePanning": {
     "title": "Przesuwanie krawędzi",
     "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
@@ -31,9 +35,6 @@
   "openSelectOrderModal": {
     "title": "Otwieraj okno wyboru rozkazu",
     "description": "Włącz tą opcję aby pokazać okno do wybierania rozkazu podczas rozgrywki."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Otwieraj okno nowych wydarzeń w bitwie"
   },
   "hidePlayerInfo": {
     "title": "Ukryj informacje o graczu.",
@@ -123,7 +124,10 @@
     "togglePathFinding": "Przełącz wyszukiwanie ścieżki",
     "toggleFowPerspective": "Przełącz perspektywę mgły wojny",
     "toggleRotateOrder": "Przełącz rozkaz obrotu",
+    "toggleMultiTurnPathOrders": "Przełącz rozkazy ścieżki wieloturowej",
     "openChat": "Otwórz czat",
+    "openFormationModal": "Otwórz okno formacji",
+    "showBattleOverview": "Przytrzymaj dla podsumowania bitwy",
     "formation1": "Formacja 1",
     "formation2": "Formacja 2",
     "formation3": "Formacja 3",

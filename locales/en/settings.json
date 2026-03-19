@@ -4,8 +4,9 @@
   "camera": "Camera",
   "sound": "Sound",
   "language": "Language",
-  "multiTurnPathMinDistance": {
-    "title": "Multi-turn path min distance"
+  "multiTurnPathOrders": {
+    "title": "Multi-turn path orders",
+    "description": "When enabled, you can draw movement paths that span multiple turns. When disabled, paths are limited to one turn only."
   },
   "enableRotateOrder": {
     "title": "Enable Rotate Order",
@@ -38,9 +39,6 @@
   "openSelectFormationModal": {
     "title": "Open Select Formation Modal",
     "description": "Enable this option to show a modal for selecting formations during gameplay."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Show new battle events modal"
   },
   "showPlayableGamesAvailableModal": {
     "title": "Show Playable Games Available Modal"
@@ -157,7 +155,10 @@
     "togglePathFinding": "Toggle Path finding",
     "toggleFowPerspective": "Toggle Fog of War Perspective",
     "toggleRotateOrder": "Toggle Rotate Order",
+    "toggleMultiTurnPathOrders": "Toggle Multi-turn Path Orders",
     "openChat": "Open chat",
+    "openFormationModal": "Open formation modal",
+    "showBattleOverview": "Hold for Battle Overview",
     "formation1": "Formation 1",
     "formation2": "Formation 2",
     "formation3": "Formation 3",

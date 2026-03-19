@@ -52,7 +52,7 @@
   "or": "η",
   "quickMatchmaking": "Γρήγορη Αντιστοίχιση",
   "ranked": "Βαθμολογημένο",
-  "rankedTooltip": "Τα παιχνίδια επηρεάζουν την βαθμολογία Elo σας",
+  "rankedTooltip": "Η ιστορία δεν θυμάται τους συνετούς. Τσέκαρε αυτό το πλαίσιο αν έχεις το θάρρος να βάλεις το Elo σου στη γραμμή πυρός.",
   "unranked": "Μη Βαθμολογημένο",
   "cancel": "Ακύρωσε",
   "change": "Αλλαγή",
@@ -197,6 +197,10 @@
   "select": "Επιλέξτε",
   "selectAll": "Επιλογή όλων",
   "deselect": "Αποεπιλογή",
+  "removeFromSelectionTooltip": "Αφαίρεση από την επιλογή – κλικ σε μονάδα για αφαίρεση",
+  "keepOnlyThese": "Διατήρηση μόνο αυτών – επιλέξτε τις μονάδες που θέλετε να κρατήσετε",
+  "keepOnlyTheseApply": "Διατήρηση μόνο αυτών",
+  "keepOnlyTheseCancel": "Ακύρωση",
   "idle": "Αδρανής",
   "moving": "Κίνηση",
   "combating": "Μάχη",
@@ -457,10 +461,6 @@
   "armyOfPlayer": "Στρατός Παίκτη {{player}}",
   "averageElo": "Μέσο Elo",
   "hybridDescription": "Hybrid maps use non-random, preset terrain, but enable players to use their own custom armies to play.",
-  "playLastActionsModal": {
-    "message": "Νέα γεγονότα μάχης έχουν συμβεί όσο έλειπες.\nΘα θέλατε να δείτε τις ενέργειες από την τελευταία στροφή;",
-    "button": "παίξτε"
-  },
   "battleReport": "Αναφορά μάχης",
   "gameEndReasons": {
     "cancelled": "Το παιχνίδι ακυρώθηκε επειδή τουλάχιστον ένας παίκτης δεν υπέβαλε εντολές στον πρώτο γύρο.",

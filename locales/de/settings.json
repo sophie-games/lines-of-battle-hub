@@ -4,8 +4,9 @@
   "camera": "Kamera",
   "sound": "Ton",
   "language": "Sprache",
-  "multiTurnPathMinDistance": {
-    "title": "Mindestdistanz des Mehrfachdrehungswegs"
+  "multiTurnPathOrders": {
+    "title": "Mehrzügige Weg-Befehle",
+    "description": "Wenn aktiviert, können Bewegungswege über mehrere Züge gezeichnet werden. Wenn deaktiviert, sind Wege auf einen Zug beschränkt."
   },
   "enableRotateOrder": {
     "title": "Rotationsbefehl aktivieren",
@@ -34,9 +35,6 @@
   "openSelectOrderModal": {
     "title": "Befehlsauswahlsmodal öffnen",
     "description": "Aktiviere diese Option, um ein Modal für die Auswahl von Befehlen während des Spiels."
-  },
-  "showNewBattleEventsModal": {
-    "title": "Zeige neue Schlachtereignissenachrichten an"
   },
   "hidePlayerInfo": {
     "title": "Versteckte Spielerinformationen",
@@ -129,7 +127,10 @@
     "togglePathFinding": "Pfadsuche umschalten",
     "toggleFowPerspective": "Nebel des Krieges Perspektive umschalten",
     "toggleRotateOrder": "Rotationsbefehl umschalten",
+    "toggleMultiTurnPathOrders": "Mehrzügige Weg-Befehle umschalten",
     "openChat": "Chat öffnen",
+    "openFormationModal": "Formationsfenster öffnen",
+    "showBattleOverview": "Gedrückt halten für Schlachtübersicht",
     "formation1": "Formation 1",
     "formation2": "Formation 2",
     "formation3": "Formation 3",
