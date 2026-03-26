@@ -68,16 +68,6 @@
   },
   "fastMode": "Fast Mode",
   "slowMode": "Slow Mode",
-  "turnTimeLimit": {
-    "30s": "30 seconds",
-    "1m": "1 minute",
-    "2m": "2 minutes",
-    "3m": "3 minutes",
-    "5m": "5 minutes",
-    "1d": "1 day",
-    "3d": "3 days",
-    "7d": "7 days"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -102,6 +92,15 @@
   "custom": "Custom",
   "customTimeSettings": "Custom time settings",
   "timeControls": "Time controls",
+  "timeUnits": {
+    "second": "s",
+    "minute": "m",
+    "hour": "h",
+    "day": "d",
+    "week": "w",
+    "month": "mo",
+    "year": "y"
+  },
   "customTimeFields": {
     "bankTime": "Bank time",
     "bankTimeHint": "Starting time bank per player",
@@ -110,11 +109,7 @@
     "turnCap": "Turn cap",
     "turnCapHint": "Max seconds per turn (0 = no cap, slow game)",
     "deployTime": "Deploy time",
-    "deployTimeHint": "Turn-0 time limit in seconds (0 = uses bank)",
-    "unitS": "s",
-    "unitMin": "min",
-    "unitH": "h",
-    "unitD": "d"
+    "deployTimeHint": "Turn-0 time limit in seconds (0 = uses bank)"
   },
   "customDescription": "Custom mode lets you set up a game with specific settings and invite friends to play.",
   "createCustomGame": "Create Custom game",
@@ -216,8 +211,11 @@
     "meleeDefense": "Melee Defense",
     "chargeBonus": "Charge Bonus",
     "chargePenetration": "Charge Penetration",
+    "flankChargePenBonus": "Flanking Charge Pen. Bonus",
+    "runChargeResistanceModifier": "Running Charge Res. Mod.",
     "pushStrength": "Push Strength",
     "pushDistance": "Push Distance",
+    "panicFireDistance": "Panic Fire Distance",
     "orgRadius": "Org Radius",
     "orgRadiusBonus": "Org Radius Bonus",
     "rangedAttack": "Ranged Attack",
@@ -776,7 +774,7 @@
   "unknown": "Unknown",
   "fogOfWar": "Fog of war",
   "spectatorFullVision": "Spectator Full Vision",
-  "eloKFactorTooltip": "ELO K Factor (max rating change per ranked game)",
+  "kFactorTooltip": "ELO K Factor (max rating change per ranked game)",
   "max": "Max",
   "minDistanceToFAA": "Min distance to FAA",
   "captureProgress": "Capture progress",

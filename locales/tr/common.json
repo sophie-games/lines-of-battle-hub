@@ -67,16 +67,6 @@
   },
   "fastMode": "Hızlı Mod",
   "slowMode": "Yavaş Mod",
-  "turnTimeLimit": {
-    "30s": "30 saniye",
-    "1m": "1 dakika",
-    "2m": "2 dakika",
-    "3m": "3 dakika",
-    "5m": "5 dakika",
-    "1d": "1 gün",
-    "3d": "3 gün",
-    "7d": "7 gün"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -93,6 +83,15 @@
   "custom": "Özel",
   "customTimeSettings": "Özel zaman ayarları",
   "timeControls": "Zaman kontrolü",
+  "timeUnits": {
+    "second": "sn",
+    "minute": "dk",
+    "hour": "s",
+    "day": "g",
+    "week": "hft",
+    "month": "ay",
+    "year": "y"
+  },
   "customTimeFields": {
     "bankTime": "Banka süresi",
     "bankTimeHint": "Oyuncu başına başlangıç banka süresi. 0 ise süre sınırı yok (yavaş oyun).",
@@ -101,11 +100,7 @@
     "turnCap": "Hamle sınırı",
     "turnCapHint": "Hamle başına max saniye (0 = sınır yok, yavaş oyun)",
     "deployTime": "Yerleşim süresi",
-    "deployTimeHint": "Hamle 0 süre sınırı saniye (0 = banka kullanılır)",
-    "unitS": "sn",
-    "unitMin": "dk",
-    "unitH": "s",
-    "unitD": "g"
+    "deployTimeHint": "Hamle 0 süre sınırı saniye (0 = banka kullanılır)"
   },
   "customDescription": "Özel mod, belirli ayarlarla bir oyun kurmanıza ve arkadaşlarınızı davet etmenize olanak tanır.",
   "createCustomGame": "Özel oyun oluştur",
@@ -202,6 +197,9 @@
     "meleeDefense": "Yakın Savunma",
     "chargeBonus": "Hücum Bonusu",
     "chargePenetration": "Hücum Penetrasyonu",
+    "flankChargePenBonus": "Flanklama Hücum Penetrasyon Bonusu",
+    "runChargeResistanceModifier": "Koşarken Hücum Direnci Değiştirici",
+    "panicFireDistance": "Panik Ateşi Mesafesi",
     "pushStrength": "İtme Gücü",
     "pushDistance": "İtme Mesafesi",
     "orgRadius": "Organizasyon Yarıçapı",
@@ -521,7 +519,7 @@
   "unknown": "Bilinmiyor",
   "fogOfWar": "Savaş sisi",
   "spectatorFullVision": "İzleyici tam görüş",
-  "eloKFactorTooltip": "ELO K Faktörü (sıralamalı maç başına maks. puan değişimi)",
+  "kFactorTooltip": "ELO K Faktörü (sıralamalı maç başına maks. puan değişimi)",
   "prestigeDropChance": "{{currency}} düşme şansı: {{chance}}% ({{turn}}. turdan itibaren)",
   "low": "Düşük",
   "medium": "Orta",

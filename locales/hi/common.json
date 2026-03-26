@@ -68,16 +68,6 @@
   },
   "fastMode": "तेज़ मोड",
   "slowMode": "धीमा मोड",
-  "turnTimeLimit": {
-    "30s": "30 सेकंड",
-    "1m": "1 मिनट",
-    "2m": "2 मिनट",
-    "3m": "3 मिनट",
-    "5m": "5 मिनट",
-    "1d": "1 दिन",
-    "3d": "3 दिन",
-    "7d": "7 दिन"
-  },
   "gameTimePreset": {
     "bullet": "बुलेट",
     "blitz": "ब्लिट्ज़",
@@ -102,6 +92,15 @@
   "custom": "कस्टम",
   "customTimeSettings": "कस्टम समय सेटिंग्स",
   "timeControls": "समय नियंत्रण",
+  "timeUnits": {
+    "second": "से",
+    "minute": "मि",
+    "hour": "घं",
+    "day": "दि",
+    "week": "हि",
+    "month": "म",
+    "year": "व"
+  },
   "customTimeFields": {
     "bankTime": "बैंक समय",
     "bankTimeHint": "प्रति खिलाड़ी शुरुआती बैंक समय। 0 होने पर कोई सीमा नहीं (धीमा खेल)।",
@@ -110,11 +109,7 @@
     "turnCap": "चाल सीमा",
     "turnCapHint": "चाल में अधिकतम सेकंड (0 = कोई सीमा नहीं, धीमा खेल)",
     "deployTime": "तैनाती समय",
-    "deployTimeHint": "चाल 0 समय सीमा सेकंड में (0 = बैंक उपयोग करें)",
-    "unitS": "से",
-    "unitMin": "मि",
-    "unitH": "घं",
-    "unitD": "दि"
+    "deployTimeHint": "चाल 0 समय सीमा सेकंड में (0 = बैंक उपयोग करें)"
   },
   "customDescription": "कस्टम मोड आपको विशिष्ट सेटिंग्स के साथ खेल सेट अप करने और दोस्तों को आमंत्रित करने देता है।",
   "createCustomGame": "कस्टम खेल बनाएं",
@@ -215,6 +210,9 @@
     "meleeDefense": "हाथापाई रक्षा",
     "chargeBonus": "चार्ज बोनस",
     "chargePenetration": "चार्ज प्रवेश",
+    "flankChargePenBonus": "फ्लैंकिंग चार्ज प्रवेश बोनस",
+    "runChargeResistanceModifier": "दौड़ते चार्ज प्रतिरोध मॉड.",
+    "panicFireDistance": "घबराहट फायर दूरी",
     "pushStrength": "धक्का शक्ति",
     "pushDistance": "धक्का दूरी",
     "orgRadius": "संगठन त्रिज्या",
@@ -769,7 +767,7 @@
   "unknown": "अज्ञात",
   "fogOfWar": "युद्ध का कोहरा",
   "spectatorFullVision": "दर्शक पूर्ण दृष्टि",
-  "eloKFactorTooltip": "ELO K फैक्टर (रैंक्ड गेम में अधिकतम रेटिंग परिवर्तन)",
+  "kFactorTooltip": "ELO K फैक्टर (रैंक्ड गेम में अधिकतम रेटिंग परिवर्तन)",
   "max": "अधिकतम",
   "minDistanceToFAA": "आग और आगे बढ़ने से न्यूनतम दूरी",
   "captureProgress": "कब्जा प्रगति",

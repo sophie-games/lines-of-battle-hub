@@ -68,16 +68,6 @@
   },
   "fastMode": "الوضع السريع",
   "slowMode": "الوضع البطيء",
-  "turnTimeLimit": {
-    "30s": "30 ثانية",
-    "1m": "دقيقة واحدة",
-    "2m": "دقيقتان",
-    "3m": "3 دقائق",
-    "5m": "5 دقائق",
-    "1d": "يوم واحد",
-    "3d": "3 أيام",
-    "7d": "7 أيام"
-  },
   "gameTimePreset": {
     "bullet": "بلت",
     "blitz": "بليتز",
@@ -102,6 +92,15 @@
   "custom": "مخصص",
   "customTimeSettings": "إعدادات الوقت المخصصة",
   "timeControls": "التحكم بالوقت",
+  "timeUnits": {
+    "second": "ث",
+    "minute": "د",
+    "hour": "س",
+    "day": "ي",
+    "week": "أ",
+    "month": "ش",
+    "year": "س"
+  },
   "customTimeFields": {
     "bankTime": "وقت البنك",
     "bankTimeHint": "وقت البنك الابتدائي لكل لاعب. إذا 0 فبدون حد (لعبة بطيئة).",
@@ -110,11 +109,7 @@
     "turnCap": "حد النقلة",
     "turnCapHint": "أقصى ثوانٍ للنقلة (0 = بدون حد، لعبة بطيئة)",
     "deployTime": "وقت النشر",
-    "deployTimeHint": "حد وقت النقلة 0 بالثواني (0 = يستخدم البنك)",
-    "unitS": "ث",
-    "unitMin": "د",
-    "unitH": "س",
-    "unitD": "ي"
+    "deployTimeHint": "حد وقت النقلة 0 بالثواني (0 = يستخدم البنك)"
   },
   "customDescription": "الوضع المخصص يتيح لك إعداد لعبة بإعدادات محددة ودعوة الأصدقاء للعب.",
   "createCustomGame": "إنشاء لعبة مخصصة",
@@ -215,6 +210,9 @@
     "meleeDefense": "دفاع قريب",
     "chargeBonus": "مكافأة الهجوم",
     "chargePenetration": "اختراق الهجوم",
+    "flankChargePenBonus": "مكافأة اختراق هجوم الجناح",
+    "runChargeResistanceModifier": "معدل مقاومة الهجوم الجري",
+    "panicFireDistance": "مسافة إطلاق النار في الذعر",
     "pushStrength": "قوة الدفع",
     "pushDistance": "مسافة الدفع",
     "orgRadius": "نطاق التنظيم",
@@ -769,7 +767,7 @@
   "unknown": "غير معروف",
   "fogOfWar": "ضباب الحرب",
   "spectatorFullVision": "رؤية كاملة للمتفرج",
-  "eloKFactorTooltip": "عامل K لتصنيف ELO (أقصى تغيير في التصنيف لكل مباراة مصنفة)",
+  "kFactorTooltip": "عامل K لتصنيف ELO (أقصى تغيير في التصنيف لكل مباراة مصنفة)",
   "max": "الحد الأقصى",
   "minDistanceToFAA": "الحد الأدنى للمسافة إلى FAA",
   "captureProgress": "تقدم الاستيلاء",

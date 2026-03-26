@@ -67,16 +67,6 @@
   },
   "fastMode": "Gyors mód",
   "slowMode": "Lassú mód",
-  "turnTimeLimit": {
-    "30s": "30 másodperc",
-    "1m": "1 perc",
-    "2m": "2 perc",
-    "3m": "3 perc",
-    "5m": "5 perc",
-    "1d": "1 nap",
-    "3d": "3 nap",
-    "7d": "7 nap"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -93,6 +83,15 @@
   "custom": "Személyre szabás",
   "customTimeSettings": "Egyéni időbeállítások",
   "timeControls": "Időszabályozás",
+  "timeUnits": {
+    "second": "mp",
+    "minute": "p",
+    "hour": "ó",
+    "day": "n",
+    "week": "h",
+    "month": "hó",
+    "year": "é"
+  },
   "customTimeFields": {
     "bankTime": "Bankidő",
     "bankTimeHint": "Kezdeti bankidő játékosonként. 0 = nincs limit (lassú játék).",
@@ -101,11 +100,7 @@
     "turnCap": "Körlimit",
     "turnCapHint": "Max másodperc körönként (0 = nincs limit, lassú játék)",
     "deployTime": "Felállítási idő",
-    "deployTimeHint": "0. kör időlimit másodpercben (0 = bankot használja)",
-    "unitS": "mp",
-    "unitMin": "p",
-    "unitH": "ó",
-    "unitD": "n"
+    "deployTimeHint": "0. kör időlimit másodpercben (0 = bankot használja)"
   },
   "customDescription": "A személyre szabott lehetőséggel specializálhatod a csata valamennyi körülményét, illetve meghívhatod barátaidat.",
   "createCustomGame": "Személyre szabott meccs létrehozása",
@@ -202,6 +197,9 @@
     "meleeDefense": "Közelharci védekezés",
     "chargeBonus": "Roham-bónusz",
     "chargePenetration": "Roham-áttörés",
+    "flankChargePenBonus": "Szárnyon végrehajtott roham-áttörés bónusz",
+    "runChargeResistanceModifier": "Futó roham-ellenállás módosító",
+    "panicFireDistance": "Pánikba esett tűz távolsága",
     "pushStrength": "Lökés erő",
     "pushDistance": "Lökés távolság",
     "orgRadius": "Org sugár",
@@ -477,7 +475,7 @@
   "unknown": "Ismeretlen",
   "fogOfWar": "Háború ködje",
   "spectatorFullVision": "Néző teljes látómezője",
-  "eloKFactorTooltip": "ELO K faktor (max. rangváltozás rangsorolt meccsenként)",
+  "kFactorTooltip": "ELO K faktor (max. rangváltozás rangsorolt meccsenként)",
   "prestigeDropChance": "{{currency}} megszerzési esély: {{chance}}% ({{turn}}. körből)",
   "low": "Alacsony",
   "medium": "Közepes",

@@ -68,16 +68,6 @@
   },
   "fastMode": "Mode Cepat",
   "slowMode": "Mode Lambat",
-  "turnTimeLimit": {
-    "30s": "30 detik",
-    "1m": "1 menit",
-    "3m": "3 menit",
-    "5m": "5 menit",
-    "2m": "2 menit",
-    "1d": "1 hari",
-    "3d": "3 hari",
-    "7d": "7 hari"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -94,6 +84,15 @@
   "custom": "Kustom",
   "customTimeSettings": "Pengaturan waktu kustom",
   "timeControls": "Kontrol waktu",
+  "timeUnits": {
+    "second": "dt",
+    "minute": "mnt",
+    "hour": "jm",
+    "day": "hr",
+    "week": "mg",
+    "month": "bln",
+    "year": "thn"
+  },
   "customTimeFields": {
     "bankTime": "Waktu bank",
     "bankTimeHint": "Waktu bank awal per pemain. Jika 0, tanpa batas (permainan lambat).",
@@ -102,11 +101,7 @@
     "turnCap": "Batas giliran",
     "turnCapHint": "Maks. detik per giliran (0 = tanpa batas, permainan lambat)",
     "deployTime": "Waktu penempatan",
-    "deployTimeHint": "Batas waktu giliran 0 dalam detik (0 = gunakan bank)",
-    "unitS": "dt",
-    "unitMin": "mnt",
-    "unitH": "jm",
-    "unitD": "hr"
+    "deployTimeHint": "Batas waktu giliran 0 dalam detik (0 = gunakan bank)"
   },
   "customDescription": "Mode kustom memungkinkan kamu mengatur permainan dengan pengaturan tertentu dan mengundang teman untuk bermain.",
   "createCustomGame": "Buat Permainan Kustom",
@@ -203,6 +198,9 @@
     "meleeDefense": "Ketahanan Jarak Dekat",
     "chargeBonus": "Bonus Serangan",
     "chargePenetration": "Penetrasi Serangan",
+    "flankChargePenBonus": "Bonus Penetrasi Serangan Samping",
+    "runChargeResistanceModifier": "Mod. Ketahanan Serangan Berlari",
+    "panicFireDistance": "Jarak Tembakan Panik",
     "pushStrength": "Kekuatan Dorong",
     "pushDistance": "Jarak Dorong",
     "orgRadius": "Radius Organisasi",
@@ -531,7 +529,7 @@
   "unknown": "Tidak diketahui",
   "fogOfWar": "Kabut perang",
   "spectatorFullVision": "Visibilitas penuh penonton",
-  "eloKFactorTooltip": "Faktor K ELO (perubahan peringkat maks per pertandingan berperingkat)",
+  "kFactorTooltip": "Faktor K ELO (perubahan peringkat maks per pertandingan berperingkat)",
   "prestigeDropChance": "Peluang mendapatkan {{currency}}: {{chance}}% (dari giliran {{turn}})",
   "low": "Rendah",
   "medium": "Sedang",

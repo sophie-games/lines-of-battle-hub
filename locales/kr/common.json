@@ -68,16 +68,6 @@
   },
   "fastMode": "단기전",
   "slowMode": "장기전",
-  "turnTimeLimit": {
-    "30s": "30초",
-    "1m": "1분",
-    "2m": "2분",
-    "3m": "3분",
-    "5m": "5분",
-    "1d": "1일",
-    "3d": "3일",
-    "7d": "7일"
-  },
   "gameTimePreset": {
     "bullet": "불릿",
     "blitz": "블리츠",
@@ -102,6 +92,15 @@
   "custom": "사용자 지정",
   "customTimeSettings": "맞춤 시간 설정",
   "timeControls": "시간 제어",
+  "timeUnits": {
+    "second": "초",
+    "minute": "분",
+    "hour": "시",
+    "day": "일",
+    "week": "주",
+    "month": "개월",
+    "year": "년"
+  },
   "customTimeFields": {
     "bankTime": "뱅크 시간",
     "bankTimeHint": "플레이어당 시작 뱅크 시간. 0이면 제한 없음(느린 게임).",
@@ -110,11 +109,7 @@
     "turnCap": "턴 제한",
     "turnCapHint": "턴당 최대 초 (0 = 제한 없음, 느린 게임)",
     "deployTime": "배치 시간",
-    "deployTimeHint": "턴 0 시간 제한(초) (0 = 뱅크 사용)",
-    "unitS": "초",
-    "unitMin": "분",
-    "unitH": "시",
-    "unitD": "일"
+    "deployTimeHint": "턴 0 시간 제한(초) (0 = 뱅크 사용)"
   },
   "customDescription": "사용자 지정을 사용하면 특정 설정으로 경기를 설정하고 친구를 초대해 경기할 수 있습니다.",
   "createCustomGame": "사용자 지정 경기 생성",
@@ -212,6 +207,9 @@
     "meleeDefense": "근접방어력",
     "chargeBonus": "돌격 혜택",
     "chargePenetration": "돌격 돌파력",
+    "flankChargePenBonus": "측면 돌격 돌파 보너스",
+    "runChargeResistanceModifier": "달리기 돌격 저항 수정치",
+    "panicFireDistance": "공황 사격 거리",
     "pushStrength": "밀어내기 강도",
     "pushDistance": "밀어내기 거리",
     "orgRadius": "조직력 범위",
@@ -764,7 +762,7 @@
   "unknown": "미상",
   "fogOfWar": "전장의 안개",
   "spectatorFullVision": "관전자 전체 시야",
-  "eloKFactorTooltip": "ELO K 계수 (랭크 매치당 최대 레이팅 변동)",
+  "kFactorTooltip": "ELO K 계수 (랭크 매치당 최대 레이팅 변동)",
   "max": "최대",
   "minDistanceToFAA": "FAA까지 최소 거리",
   "captureProgress": "함락 진행도",

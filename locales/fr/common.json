@@ -56,16 +56,6 @@
   },
   "fastMode": "Partie rapide",
   "slowMode": "Partie longue",
-  "turnTimeLimit": {
-    "30s": "30 secondes",
-    "1m": "1 minute",
-    "2m": "2 minutes",
-    "3m": "3 minutes",
-    "5m": "5 minutes",
-    "1d": "1 jour",
-    "3d": "3 jours",
-    "7d": "7 jours"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -82,6 +72,15 @@
   "custom": "Personnalisé",
   "customTimeSettings": "Paramètres de temps personnalisés",
   "timeControls": "Contrôle du temps",
+  "timeUnits": {
+    "second": "s",
+    "minute": "m",
+    "hour": "h",
+    "day": "j",
+    "week": "sem",
+    "month": "mois",
+    "year": "a"
+  },
   "customTimeFields": {
     "bankTime": "Temps de banque",
     "bankTimeHint": "Temps de banque initial par joueur. Si 0, pas de limite (partie lente).",
@@ -90,11 +89,7 @@
     "turnCap": "Plafond par tour",
     "turnCapHint": "Max secondes par tour (0 = pas de limite, partie lente)",
     "deployTime": "Temps de déploiement",
-    "deployTimeHint": "Limite de temps au tour 0 en secondes (0 = utilise la banque)",
-    "unitS": "s",
-    "unitMin": "min",
-    "unitH": "h",
-    "unitD": "j"
+    "deployTimeHint": "Limite de temps au tour 0 en secondes (0 = utilise la banque)"
   },
   "customDescription": "Le mode personnalisé vous permet de jouer contre vos amis avec des paramètres que vous aurez définis.",
   "maxTurn": "Nb de tour max",
@@ -191,6 +186,9 @@
     "meleeDefense": "Défense en mêlée",
     "chargeBonus": "Bonus en charge",
     "chargePenetration": "Engouffrement en charge",
+    "flankChargePenBonus": "Bonus pén. charge de flanc",
+    "runChargeResistanceModifier": "Mod. résistance charge en courant",
+    "panicFireDistance": "Distance de tir de panique",
     "pushStrength": "Force de poussée",
     "pushDistance": "Distance de poussée",
     "orgRadius": "Rayon d'organisation",
@@ -543,7 +541,7 @@
   "unknown": "Inconnu",
   "fogOfWar": "Brouillard de guerre",
   "spectatorFullVision": "Vision complète du spectateur",
-  "eloKFactorTooltip": "Facteur K ELO (changement de classement max. par partie classée)",
+  "kFactorTooltip": "Facteur K ELO (changement de classement max. par partie classée)",
   "prestigeDropChance": "Probabilité d'obtenir {{currency}}: {{chance}}% (à partir du tour {{turn}})",
   "low": "Faible",
   "medium": "Moyen",

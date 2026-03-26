@@ -67,16 +67,6 @@
   },
   "fastMode": "schneller Modus",
   "slowMode": "langsamer Modus",
-  "turnTimeLimit": {
-    "30s": "30 Sekunden",
-    "1m": "1 Minute",
-    "2m": "2 Minuten",
-    "3m": "3 Minuten",
-    "5m": "5 Minuten",
-    "1d": "1 Tag",
-    "3d": "3 Tage",
-    "7d": "7 Tage"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -93,6 +83,15 @@
   "custom": "Benutzerdefiniert",
   "customTimeSettings": "Benutzerdefinierte Zeiteinstellungen",
   "timeControls": "Zeitkontrolle",
+  "timeUnits": {
+    "second": "s",
+    "minute": "m",
+    "hour": "h",
+    "day": "d",
+    "week": "Wo",
+    "month": "Mo",
+    "year": "J"
+  },
   "customTimeFields": {
     "bankTime": "Bankzeit",
     "bankTimeHint": "Startbankzeit pro Spieler. Bei 0 keine Zeitbegrenzung (Langsames Spiel).",
@@ -101,11 +100,7 @@
     "turnCap": "Zugobergrenze",
     "turnCapHint": "Max. Sekunden pro Zug (0 = kein Limit, langsames Spiel)",
     "deployTime": "Aufstellzeit",
-    "deployTimeHint": "Zeitlimit für Zug 0 in Sekunden (0 = nutzt Bank)",
-    "unitS": "s",
-    "unitMin": "Min",
-    "unitH": "h",
-    "unitD": "d"
+    "deployTimeHint": "Zeitlimit für Zug 0 in Sekunden (0 = nutzt Bank)"
   },
   "customDescription": "Benutzerdefinierter Modus erlaubt ein Spiel mit bestimmten Einstellungen und das Einladen von Freunden.",
   "createCustomGame": "Ein benutzerdefiniertes Spiel erstellen",
@@ -202,6 +197,9 @@
     "meleeDefense": "Nahkampfverteidigung",
     "chargeBonus": "Ansturmbonus",
     "chargePenetration": "Ansturmdurchdringung",
+    "flankChargePenBonus": "Flankensturm-Durchdringungs-Bonus",
+    "runChargeResistanceModifier": "Sturm-Widerstandsmod. (Laufend)",
+    "panicFireDistance": "Panikfeuer-Entfernung",
     "pushStrength": "Schubkraft",
     "pushDistance": "Schubdistanz",
     "orgRadius": "Org Radius",
@@ -530,7 +528,7 @@
   "unknown": "Unbekannt",
   "fogOfWar": "Nebel des Krieges",
   "spectatorFullVision": "Volle Sicht für Zuschauer",
-  "eloKFactorTooltip": "ELO-K-Faktor (max. Ratingänderung pro gewertetem Spiel)",
+  "kFactorTooltip": "ELO-K-Faktor (max. Ratingänderung pro gewertetem Spiel)",
   "prestigeDropChance": "{{currency}} Drop-Chance: {{chance}}% (ab Runde {{turn}})",
   "low": "Niedrig",
   "medium": "Mittel",

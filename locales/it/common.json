@@ -67,16 +67,6 @@
   },
   "fastMode": "Modalità veloce",
   "slowMode": "Modalità lenta",
-  "turnTimeLimit": {
-    "30s": "30 secondi",
-    "1m": "1 minuto",
-    "2m": "2 minuti",
-    "3m": "3 minuti",
-    "5m": "5 minuti",
-    "1d": "1 giorno",
-    "3d": "3 giorni",
-    "7d": "7 giorni"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -93,6 +83,15 @@
   "custom": "Personalizzato",
   "customTimeSettings": "Impostazioni tempo personalizzate",
   "timeControls": "Controllo tempo",
+  "timeUnits": {
+    "second": "s",
+    "minute": "m",
+    "hour": "h",
+    "day": "g",
+    "week": "sett",
+    "month": "mese",
+    "year": "a"
+  },
   "customTimeFields": {
     "bankTime": "Tempo di bank",
     "bankTimeHint": "Tempo di bank iniziale per giocatore. Se 0, nessun limite (partita lenta).",
@@ -101,11 +100,7 @@
     "turnCap": "Limite per turno",
     "turnCapHint": "Max secondi per turno (0 = nessun limite, partita lenta)",
     "deployTime": "Tempo schieramento",
-    "deployTimeHint": "Limite tempo al turno 0 in secondi (0 = usa il bank)",
-    "unitS": "s",
-    "unitMin": "min",
-    "unitH": "h",
-    "unitD": "g"
+    "deployTimeHint": "Limite tempo al turno 0 in secondi (0 = usa il bank)"
   },
   "customDescription": "La modalità personalizzata ti permette di configurare un gioco con impostazioni specifiche e invitare amici a giocare.",
   "createCustomGame": "Crea gioco personalizzato",
@@ -202,6 +197,9 @@
     "meleeDefense": "Difesa corpo a corpo",
     "chargeBonus": "Bonus carica",
     "chargePenetration": "Penetrazione carica",
+    "flankChargePenBonus": "Bonus pen. carica sul fianco",
+    "runChargeResistanceModifier": "Mod. resist. carica in corsa",
+    "panicFireDistance": "Distanza fuoco panico",
     "pushStrength": "Forza di spinta",
     "pushDistance": "Distanza di spinta",
     "orgRadius": "Raggio organizzazione",
@@ -531,7 +529,7 @@
   "unknown": "Sconosciuto",
   "fogOfWar": "Nebbia di guerra",
   "spectatorFullVision": "Visione completa dello spettatore",
-  "eloKFactorTooltip": "Fattore K ELO (variazione massima punteggio per partita classificata)",
+  "kFactorTooltip": "Fattore K ELO (variazione massima punteggio per partita classificata)",
   "prestigeDropChance": "Probabilità di ottenere {{currency}}: {{chance}}% (dal turno {{turn}})",
   "low": "Bassa",
   "medium": "Media",

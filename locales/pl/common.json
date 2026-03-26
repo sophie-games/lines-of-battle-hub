@@ -68,16 +68,6 @@
   },
   "fastMode": "Tryb Szybki",
   "slowMode": "Tryb Wolny",
-  "turnTimeLimit": {
-    "30s": "30 sekund",
-    "1m": "1 minuta",
-    "2m": "2 minuty",
-    "3m": "3 minuty",
-    "5m": "5 minut",
-    "1d": "1 dzień",
-    "3d": "3 dni",
-    "7d": "7 dni"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -94,6 +84,15 @@
   "custom": "Niestandardowa Partia",
   "customTimeSettings": "Niestandardowe ustawienia czasu",
   "timeControls": "Kontrola czasu",
+  "timeUnits": {
+    "second": "s",
+    "minute": "m",
+    "hour": "h",
+    "day": "d",
+    "week": "tyg",
+    "month": "mies",
+    "year": "r"
+  },
   "customTimeFields": {
     "bankTime": "Czas banku",
     "bankTimeHint": "Początkowy czas banku na gracza. Przy 0 brak limitu (wolna gra).",
@@ -102,11 +101,7 @@
     "turnCap": "Limit na ruch",
     "turnCapHint": "Maks. sekund na ruch (0 = brak limitu, wolna gra)",
     "deployTime": "Czas rozstawienia",
-    "deployTimeHint": "Limit czasu w ruchu 0 w sekundach (0 = używa banku)",
-    "unitS": "s",
-    "unitMin": "min",
-    "unitH": "h",
-    "unitD": "d"
+    "deployTimeHint": "Limit czasu w ruchu 0 w sekundach (0 = używa banku)"
   },
   "customDescription": "Tryb Niestandardowa Partia pozwala stworzyć partię ze specyficznymi ustawieniami i zaprosić znajomych do gry.",
   "createCustomGame": "Stwórz Niestandardową Partię.",
@@ -206,6 +201,9 @@
     "meleeDefense": "Obrona Wręcz",
     "chargeBonus": "Bonus Szarży",
     "chargePenetration": "Penetracja Szarży",
+    "flankChargePenBonus": "Bonus penetracji szarży z flanki",
+    "runChargeResistanceModifier": "Mod. odporności na szarżę biegu",
+    "panicFireDistance": "Dystans panicznego ognia",
     "pushStrength": "Siła Pchania",
     "pushDistance": "Dystans Pchania",
     "orgRadius": "Dystans Org.",
@@ -710,7 +708,7 @@
   "unknown": "Nieznane",
   "fogOfWar": "Mgła wojny",
   "spectatorFullVision": "Pełna widoczność dla widzów",
-  "eloKFactorTooltip": "Współczynnik K ELO (maks. zmiana rankingu na mecz rankingowy)",
+  "kFactorTooltip": "Współczynnik K ELO (maks. zmiana rankingu na mecz rankingowy)",
   "low": "Niska",
   "medium": "Średnia",
   "high": "Wysoka",

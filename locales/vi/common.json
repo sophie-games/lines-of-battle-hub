@@ -68,16 +68,6 @@
   },
   "fastMode": "Chế độ nhanh",
   "slowMode": "Chế độ chậm",
-  "turnTimeLimit": {
-    "30s": "30 giây",
-    "1m": "1 phút",
-    "2m": "2 phút",
-    "3m": "3 phút",
-    "5m": "5 phút",
-    "1d": "1 ngày",
-    "3d": "3 ngày",
-    "7d": "7 ngày"
-  },
   "gameTimePreset": {
     "bullet": "Bullet",
     "blitz": "Blitz",
@@ -102,6 +92,15 @@
   "custom": "Tùy chỉnh",
   "customTimeSettings": "Cài đặt thời gian tùy chỉnh",
   "timeControls": "Điều khiển thời gian",
+  "timeUnits": {
+    "second": "s",
+    "minute": "ph",
+    "hour": "h",
+    "day": "ng",
+    "week": "tuần",
+    "month": "th",
+    "year": "năm"
+  },
   "customTimeFields": {
     "bankTime": "Thời gian bank",
     "bankTimeHint": "Thời gian bank ban đầu mỗi người chơi. Nếu 0 thì không giới hạn (chơi chậm).",
@@ -110,11 +109,7 @@
     "turnCap": "Giới hạn mỗi lượt",
     "turnCapHint": "Tối đa giây mỗi lượt (0 = không giới hạn, chơi chậm)",
     "deployTime": "Thời gian triển khai",
-    "deployTimeHint": "Giới hạn thời gian lượt 0 tính bằng giây (0 = dùng bank)",
-    "unitS": "s",
-    "unitMin": "ph",
-    "unitH": "h",
-    "unitD": "ng"
+    "deployTimeHint": "Giới hạn thời gian lượt 0 tính bằng giây (0 = dùng bank)"
   },
   "customDescription": "Chế độ tùy chỉnh cho phép bạn thiết lập trò chơi với cài đặt cụ thể và mời bạn bè chơi.",
   "createCustomGame": "Tạo trò chơi tùy chỉnh",
@@ -215,6 +210,9 @@
     "meleeDefense": "Phòng thủ cận chiến",
     "chargeBonus": "Thưởng xung kích",
     "chargePenetration": "Xuyên thủng xung kích",
+    "flankChargePenBonus": "Thưởng xuyên thủng xung kích sườn",
+    "runChargeResistanceModifier": "Hệ số kháng xung kích khi chạy",
+    "panicFireDistance": "Khoảng cách bắn hoảng loạn",
     "pushStrength": "Sức đẩy",
     "pushDistance": "Khoảng cách đẩy",
     "orgRadius": "Bán kính tổ chức",
@@ -768,7 +766,7 @@
   "unknown": "Không xác định",
   "fogOfWar": "Sương mù chiến tranh",
   "spectatorFullVision": "Tầm nhìn đầy đủ cho khán giả",
-  "eloKFactorTooltip": "Hệ số K ELO (thay đổi xếp hạng tối đa mỗi trận xếp hạng)",
+  "kFactorTooltip": "Hệ số K ELO (thay đổi xếp hạng tối đa mỗi trận xếp hạng)",
   "max": "Tối đa",
   "minDistanceToFAA": "Khoảng cách tối thiểu đến FAA",
   "captureProgress": "Tiến độ chiếm",

@@ -67,16 +67,6 @@
   },
   "fastMode": "高速モード",
   "slowMode": "低速モード",
-  "turnTimeLimit": {
-    "30s": "30秒",
-    "1m": "1分",
-    "2m": "2分",
-    "3m": "3分",
-    "5m": "5分",
-    "1d": "1日",
-    "3d": "3日",
-    "7d": "7日"
-  },
   "gameTimePreset": {
     "bullet": "ブレット",
     "blitz": "ブリッツ",
@@ -93,6 +83,15 @@
   "custom": "カスタム",
   "customTimeSettings": "カスタム時間設定",
   "timeControls": "時間制御",
+  "timeUnits": {
+    "second": "秒",
+    "minute": "分",
+    "hour": "時",
+    "day": "日",
+    "week": "週",
+    "month": "ヶ月",
+    "year": "年"
+  },
   "customTimeFields": {
     "bankTime": "バンク時間",
     "bankTimeHint": "プレイヤーごとの開始バンク時間。0の場合は制限なし（スロープレイ）。",
@@ -101,11 +100,7 @@
     "turnCap": "ターン上限",
     "turnCapHint": "1ターンあたりの最大秒数（0=上限なし、スロープレイ）",
     "deployTime": "配置時間",
-    "deployTimeHint": "ターン0の制限時間（秒）（0=バンクを使用）",
-    "unitS": "秒",
-    "unitMin": "分",
-    "unitH": "時",
-    "unitD": "日"
+    "deployTimeHint": "ターン0の制限時間（秒）（0=バンクを使用）"
   },
   "customDescription": "カスタムモードでは、特定の設定でゲームを作成し、友達を招待できます。",
   "createCustomGame": "カスタムゲームを作成",
@@ -202,6 +197,9 @@
     "meleeDefense": "白兵防御",
     "chargeBonus": "突撃ボーナス",
     "chargePenetration": "突撃貫通力",
+    "flankChargePenBonus": "側面突撃貫通ボーナス",
+    "runChargeResistanceModifier": "走行突撃耐性修正",
+    "panicFireDistance": "パニック射撃距離",
     "pushStrength": "押しの強さ",
     "pushDistance": "押しの距離",
     "orgRadius": "編成範囲",
@@ -519,7 +517,7 @@
   "unknown": "不明",
   "fogOfWar": "戦争の霧",
   "spectatorFullVision": "観戦者フルビジョン",
-  "eloKFactorTooltip": "ELO K係数（ランクマッチ1試合あたりの最大レート変動）",
+  "kFactorTooltip": "ELO K係数（ランクマッチ1試合あたりの最大レート変動）",
   "prestigeDropChance": "{{currency}}ドロップ確率：{{chance}}%（{{turn}}ターン目から）",
   "low": "低",
   "medium": "中",

@@ -68,16 +68,6 @@
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
-  "turnTimeLimit": {
-    "30s": "30秒",
-    "1m": "1分钟",
-    "2m": "2分钟",
-    "3m": "3分钟",
-    "5m": "5分钟",
-    "1d": "1天",
-    "3d": "3天",
-    "7d": "7天"
-  },
   "gameTimePreset": {
     "bullet": "子弹棋",
     "blitz": "闪电战",
@@ -102,6 +92,15 @@
   "custom": "自定义",
   "customTimeSettings": "自定义时间设置",
   "timeControls": "时间控制",
+  "timeUnits": {
+    "second": "秒",
+    "minute": "分",
+    "hour": "时",
+    "day": "天",
+    "week": "周",
+    "month": "个月",
+    "year": "年"
+  },
   "customTimeFields": {
     "bankTime": "银行时间",
     "bankTimeHint": "每位玩家的初始银行时间。若为0则无时间限制（慢速对局）。",
@@ -110,11 +109,7 @@
     "turnCap": "回合上限",
     "turnCapHint": "每回合最大秒数（0=无上限，慢速对局）",
     "deployTime": "部署时间",
-    "deployTimeHint": "第0回合时间限制（秒）（0=使用银行时间）",
-    "unitS": "秒",
-    "unitMin": "分",
-    "unitH": "时",
-    "unitD": "天"
+    "deployTimeHint": "第0回合时间限制（秒）（0=使用银行时间）"
   },
   "customDescription": "自定义模式可以让你自己创建一个特定设置的对局，并允许你邀请朋友加入。",
   "createCustomGame": "创建自定义对局",
@@ -216,6 +211,9 @@
     "meleeDefense": "近战防御",
     "chargeBonus": "冲锋加成",
     "chargePenetration": "冲锋穿透",
+    "flankChargePenBonus": "侧翼冲锋穿透加成",
+    "runChargeResistanceModifier": "奔跑冲锋抗性修正",
+    "panicFireDistance": "恐慌射击距离",
     "pushStrength": "推力强度",
     "pushDistance": "推力距离",
     "orgRadius": "组织度影响范围",
@@ -773,7 +771,7 @@
   "unknown": "未知",
   "fogOfWar": "战争迷雾",
   "spectatorFullVision": "观察者全视野",
-  "eloKFactorTooltip": "ELO K系数（每场排位赛最大积分变动）",
+  "kFactorTooltip": "ELO K系数（每场排位赛最大积分变动）",
   "max": "最大",
   "minDistanceToFAA": "移动射击最低距离",
   "captureProgress": "占领进度",
