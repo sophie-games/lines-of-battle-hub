@@ -158,6 +158,10 @@
   "fogOfWarColor": {
     "title": "Cor da névoa de guerra"
   },
+  "renderScalePercent": {
+    "title": "Escala de renderização",
+    "description": "Um valor alto deixa o jogo mais nítido, mas mais lento. Um valor baixo deixa-o mais desfocado, mas mais rápido."
+  },
   "groundQuality": {
     "title": "Qualidade do terreno",
     "description": "Controla a qualidade das texturas do terreno. Qualidade mais alta fornece melhores detalhes visuais, mas pode afetar o desempenho. Requer atualizar o mapa."

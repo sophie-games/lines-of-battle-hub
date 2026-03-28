@@ -148,6 +148,10 @@
   "fogOfWarColor": {
     "title": "Couleur du brouillard de guerre"
   },
+  "renderScalePercent": {
+    "title": "Échelle de rendu",
+    "description": "Une valeur élevée rend le jeu plus net, mais plus lent. Une valeur faible le rend plus flou, mais plus rapide."
+  },
   "groundQuality": {
     "title": "Qualité du terrain",
     "description": "Contrôle la qualité des textures du terrain. Une qualité plus élevée fournit de meilleurs détails visuels mais peut affecter les performances. Nécessite de rafraîchir la carte."

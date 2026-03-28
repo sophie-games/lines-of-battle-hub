@@ -59,10 +59,10 @@
     "title": "Smart Replay Camera Zoom"
   },
   "zoomSensibility": {
-    "title": "Zoom Sensibility"
+    "title": "Zoom sensitivity"
   },
   "cameraSensibility": {
-    "title": "Camera Sensibility (PC)"
+    "title": "Camera sensitivity (PC)"
   },
   "replaySpeed": {
     "title": "Replay Speed"
@@ -188,6 +188,10 @@
   },
   "fogOfWarColor": {
     "title": "Fog of war color"
+  },
+  "renderScalePercent": {
+    "title": "Render scale",
+    "description": "A high value makes the game look sharper but slower. A low value makes the game look blurrier but faster."
   },
   "groundQuality": {
     "title": "Ground Quality",

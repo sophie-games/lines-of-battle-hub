@@ -189,6 +189,10 @@
   "fogOfWarColor": {
     "title": "战争迷雾颜色"
   },
+  "renderScalePercent": {
+    "title": "渲染缩放",
+    "description": "数值越高画面越清晰，但越慢；越低越模糊，但越快。"
+  },
   "groundQuality": {
     "title": "地形质量",
     "description": "控制地形纹理的质量。更高的质量提供更好的视觉细节，但可能会影响性能。需要刷新地图。"

@@ -185,6 +185,10 @@
   "fogOfWarColor": {
     "title": "Màu sương mù chiến tranh"
   },
+  "renderScalePercent": {
+    "title": "Tỷ lệ render",
+    "description": "Giá trị cao hơn thì hình ảnh sắc nét hơn nhưng chậm hơn. Giá trị thấp hơn thì mờ hơn nhưng mượt hơn."
+  },
   "groundQuality": {
     "title": "Chất lượng mặt đất",
     "description": "Điều khiển chất lượng của kết cấu mặt đất. Chất lượng cao hơn cung cấp chi tiết hình ảnh tốt hơn nhưng có thể ảnh hưởng đến hiệu suất. Yêu cầu làm mới bản đồ."

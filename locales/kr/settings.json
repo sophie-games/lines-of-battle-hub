@@ -185,9 +185,12 @@
   "fogOfWarColor": {
     "title": "전장의 안개 색장"
   },
+  "renderScalePercent": {
+    "title": "렌더 스케일",
+    "description": "값이 높을수록 화면은 더 선명하지만 느려지고, 낮을수록 더 흐릿하지만 빨라집니다."
+  },
   "groundQuality": {
     "title": "지형 품질",
     "description": "지형 텍스쳐의 품질을 설정합니다. 품질이 높을수록 시각적 세부사항의 질이 향상되지만 성능에 영향을 줄 수 있습니다. 지도를 새로 고쳐야 합니다."
-
   }
 }

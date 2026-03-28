@@ -48,10 +48,10 @@
     "title": "Smart Replay Camera Zoom"
   },
   "zoomSensibility": {
-    "title": "Zoom Sensibility"
+    "title": "Sensitivitas zoom"
   },
   "cameraSensibility": {
-    "title": "Camera Sensibility (PC)"
+    "title": "Sensitivitas kamera (PC)"
   },
   "replaySpeed": {
     "title": "Kecepatan Tayangan Ulang"
@@ -157,6 +157,10 @@
   },
   "fogOfWarColor": {
     "title": "Warna kabut perang"
+  },
+  "renderScalePercent": {
+    "title": "Skala render",
+    "description": "Nilai tinggi membuat tampilan lebih tajam tetapi lebih lambat. Nilai rendah membuat lebih kabur tetapi lebih cepat."
   },
   "groundQuality": {
     "title": "Kualitas tanah",

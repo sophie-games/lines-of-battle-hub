@@ -151,6 +151,10 @@
   "fogOfWarColor": {
     "title": "Nebel des Krieges Farbe"
   },
+  "renderScalePercent": {
+    "title": "Render-Skalierung",
+    "description": "Ein hoher Wert lässt das Spiel schärfer aussehen, aber langsamer laufen. Ein niedriger Wert macht es unschärfer, aber schneller."
+  },
   "groundQuality": {
     "title": "Bodenqualität",
     "description": "Steuert die Qualität der Bodenstrukturen. Höhere Qualität bietet bessere visuelle Details, kann aber die Leistung beeinträchtigen. Erfordert das Aktualisieren der Karte."
